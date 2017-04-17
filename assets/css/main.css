@@ -1,0 +1,411 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background: #2a2a2a;
+    color: #e3e3e3;
+}
+
+header ul {
+    list-style-type: none!important;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    list-style-type: none!important;
+}
+
+header .logo {
+    display: inline-block;
+}
+
+.mobile-menu {
+    overflow: hidden;
+    text-align: center;
+}
+
+.btn-mobile {
+    padding: 10px;
+    background: #202020;
+}
+
+.btn-mobile:first-child {
+    border-right: 1px solid #000;
+}
+
+.btn-mobile a {
+    color: #FFB300;
+}
+
+header .bootstrap-select {
+    margin-left: 10px!important;
+    margin-top: 13px!important;
+}
+
+header .btn-default,
+header .btn-default:hover,
+header .btn-default:active {
+    text-shadow: none!important;
+    background-image: -webkit-linear-gradient(top, #2A2A2A 0, #2A2A2A 100%);
+    background-image: -o-linear-gradient(top, #2A2A2A 0, #2A2A2A 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e0e0e0));
+    background-image: linear-gradient(to bottom, #2A2A2A 0, #2A2A2A 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #2A2A2A;
+    border-color: #2A2A2A;
+    color: #fff;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    background-color: transparent;
+}
+
+header .navbar-cta-btn {
+    margin: 5px 5px;
+}
+
+header .hamburger {
+    padding: 2px 10px!important;
+}
+
+header .btn {
+    margin: 0 5px;
+}
+
+header .navbar-form {
+    padding: 10px 0px!important;
+}
+
+header .navbar {
+    margin-bottom: 0px;
+}
+
+header .cs-container {
+    width: 40px;
+    padding: 0px;
+    margin-top: -7px;
+}
+
+header .header-mobile {
+    text-align: center;
+}
+
+header .header-mobile > .hm-d {
+    padding: 15px 10px!important;
+}
+
+main .carousel {
+    background: #000;
+}
+
+main .carousel img {
+    max-height: 300px;
+}
+
+main .s36border {
+    border-top: 1px solid #ffb300;
+    margin: 10px 0px;
+}
+
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before {
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    transition-timing-function: ease;
+    transition-duration: .15s;
+    transition-property: transform;
+    border-radius: 4px;
+    background-color: #a7a7a7!important;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+    color: inherit;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.jumbo {
+  position: absolute;
+  display: inline-block;
+  color: #fff;
+  left: 250px;
+  top: 34px;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 11.5px;
+  width: auto;
+
+
+}
+main .jackpot .col-md-6{
+  padding: 0;
+}
+
+#demo-img {
+    position: absolute;
+    top: -3px;
+    left: 5px;
+    background-image: url('../img/jackpot/demo-img.png');
+    width: 332px;
+    height: 53px;
+}
+
+#demo-img:hover {
+    position: absolute;
+    top: -3px;
+    left: 5px;
+    background-image: url('../img/jackpot/demo-img-hover.png');
+    width: 332px;
+    height: 53px;
+}
+
+main .jackpot{
+
+  overflow: hidden;
+}
+main .live-container{
+  margin-top: 20px ;
+  padding: 0px;
+}
+
+main .gp-g{
+padding-top:15px ;
+}
+
+main .gp span{
+  font-size: 14px;
+  color: #fff;
+}
+
+main .content-title{
+  /*border-bottom: 1px solid #ffb300;*/
+}
+main .gp{
+  padding: 0;
+  color:#ffb300;
+  font-weight: 700;
+  font-size: 18px;
+
+}
+main .notice{
+  padding-top: 20px;
+}
+main .borderstyle{
+    margin: 20px 0px;
+}
+main .borderstyler{
+    margin: 5px 0px;
+}
+.live-games img{
+  max-width: 104%;
+}
+main .win-title{
+  background: #161616;
+  padding: 10px;
+  color: #ffb300;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #303030;
+
+}
+main .notice{
+  position: relative;
+  display: inline-block;
+}
+main .jacpot-nus{
+  position: relative;
+  display: inline-block;
+  padding-top: 24px;
+}
+main .marquee {
+  color: #e7c017;
+  width: 450px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 20px;
+  left: 13%;
+
+
+}
+main .winner{
+  padding: 0;
+  margin-bottom: 20px;
+}
+main .win-body{
+  background: #161616;
+  overflow: hidden;
+}
+main .win-lot{
+  padding:10px 0;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #303030;
+  overflow: hidden;
+}
+main .win-lot:last-child{
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #161616;
+}
+main .win-cs{
+  padding:5px 0;
+
+
+  overflow: hidden;
+}
+
+main .win-body .user{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+main .win-body span{
+  color: #ffb300;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+
+}
+main .prizepool{
+  padding:10px;
+  font-weight: 700;
+  color: #ffb300;
+  font-size: 17px;
+}
+main .contact-title{
+  background: #161616;
+  padding:10px;
+  color: #ffb300;
+  font-size: 18px;
+  font-weight: 700;
+}
+main .contact-title:first-child{
+  border-bottom: 1px solid #000;
+}
+main .contactus{
+  border-top: 1px solid #303030;
+  border-bottom: 2px solid #161616;
+}
+
+main .c-icon{
+
+  padding: 0px 10px;
+  color: #d6d7dc;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+main .c-text{
+  line-height: 23px;
+  margin: 5px 0px;
+
+}
+main .c-text span{
+  color: #ffb300;
+  display: inline-block;
+  font-weight: normal;
+}
+/*main .cmail{
+  font-size: 40px;
+}*/
+main .live-game img{
+  margin:0 auto;
+}
+main .ctmail{
+  margin-top: 15px;
+}
+
+main .winner-cont{
+  margin: 15px 0;
+}
+footer .footer{
+
+  background:#1b1b1b;
+  color: #5e5e5e;
+
+}
+
+
+
+footer .footer-icon{
+  margin-top: 30px;
+
+}
+footer .footer-icon img{
+  display: inline-block;
+  margin: 0px 10px 30px 10px;
+}
+
+
+footer .footer-services ul {
+    list-style-type:disc;
+    padding:0;
+}
+footer .footer-services ul.columns>li {
+    display: inline-block;
+
+    margin-left: 38px;
+}
+footer .footer-services ul.columns>li:before {
+    content:"";
+    display: list-item;
+    position: absolute;
+}
+footer .footer-services p{
+  font-size: 11px;
+  line-height: 15px;
+}
+footer .footer-gameprovider .gameprovider{
+  padding: 5px;
+}
+
+footer .copyright{
+  background:#1b1b1b;
+  color: #5e5e5e;
+  padding: 20px;
+}
+
+footer .copyright span{
+  display: block;
+  color: #5e5e5e;
+  font-size: 17px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+footer .copyright img{
+  margin: 0 auto;
+}
+div.border {
+    border-top: 1px solid #000000;
+    position: relative;
+}
+
+div.border:before {
+    position: absolute;
+    display: block;
+    content: '';
+    border-top: 1px solid #5d5a5a;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.btn-group>.btn:first-child{
+  margin-left: 0;
+  background: #1f1f1f;
+  border: 1px solid #4a4a4a;
+}
