@@ -65,7 +65,12 @@ header .btn-default:active {
 }
 
 header .navbar-cta-btn {
-    margin: 5px 5px;
+    margin: 3px 5px;
+}
+
+header .navbar-cta-btn a{
+  display: inline-block;
+    margin: 0 5px;
 }
 
 header .hamburger {
@@ -99,7 +104,7 @@ header .header-mobile > .hm-d {
 }
 
 main .carousel {
-    background: #000;
+    background: #2A2A2A;
 }
 
 main .carousel img {
@@ -110,7 +115,9 @@ main .s36border {
     border-top: 1px solid #ffb300;
     margin: 10px 0px;
 }
-
+.ws_pause{
+  display: none;
+}
 .hamburger-inner,
 .hamburger-inner::after,
 .hamburger-inner::before {
@@ -139,12 +146,13 @@ main .s36border {
   position: absolute;
   display: inline-block;
   color: #fff;
-  left: 250px;
+  left: 270px;
   top: 34px;
-  font-size: 26px;
+  font-size: 27px;
   font-weight: 700;
-  letter-spacing: 11.5px;
+  letter-spacing: 12.2px;
   width: auto;
+
 
 
 }
@@ -191,6 +199,13 @@ main .gp span{
 main .content-title{
   /*border-bottom: 1px solid #ffb300;*/
 }
+
+main .ws_images li{
+  position: relative;
+}
+main .ws_image li a{
+  position: absolute;
+}
 main .gp{
   padding: 0;
   color:#ffb300;
@@ -208,7 +223,7 @@ main .borderstyler{
     margin: 5px 0px;
 }
 .live-games img{
-  max-width: 104%;
+  max-width: 117%;
 }
 main .win-title{
   background: #161616;
@@ -231,7 +246,7 @@ main .jacpot-nus{
 }
 main .marquee {
   color: #e7c017;
-  width: 450px;
+  width: 480px;
   overflow: hidden;
   position: absolute;
   bottom: 20px;
@@ -328,6 +343,10 @@ main .ctmail{
 
 main .winner-cont{
   margin: 15px 0;
+}
+
+main .win-game img{
+  max-width: 93%;
 }
 footer .footer{
 
