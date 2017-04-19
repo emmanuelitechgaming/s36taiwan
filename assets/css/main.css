@@ -407,7 +407,7 @@ footer .copyright img{
   margin: 0 auto;
 }
 div.border {
-    border-top: 1px solid #000000;
+    border-top: 2px solid #000000;
     position: relative;
 }
 
@@ -427,4 +427,141 @@ div.border:before {
   margin-left: 0;
   background: #1f1f1f;
   border: 1px solid #4a4a4a;
+}
+
+.navbar {
+    position: relative;
+    min-height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.navbar .nav-active, .navbar-nav > li:hover{
+  background: rgba(255, 255, 255, 0.1);
+}
+.nav-bg{
+  background: url('../img/bg-nav.png');
+  background-repeat:repeat-x;
+
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-size: 12px;
+    border-right: 1px solid #000;
+    border-left: 1px solid #3c3c3c;
+}
+.navbar-inverse .navbar-nav > li > a:first-child{
+  border-left: 1px solid #3c3c3c;
+}
+
+.navbar-nav > li > a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.breadcrumb {
+    padding: 0px;
+	background: #0A0A0A;
+	list-style: none;
+	overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+    border-top-right-radius: 4px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+.breadcrumb-inner{
+    overflow: hidden;
+    background: #1b1a1a;
+    padding-bottom: 35px;
+}
+.breadcrumb-content{
+
+  padding: 0px;
+}
+
+.breadcrumb-inner .live-game {
+  padding-top: 15px;
+
+}
+
+.breadcrumb>li+li:before {
+	padding: 0;
+}
+.breadcrumb li {
+	float: left;
+}
+.breadcrumb li.active a {
+	background: #0A0A0A ;
+}
+.breadcrumb li.completed a {
+	background:#0A0A0A;
+}
+.breadcrumb li.active a:after {
+	border-left: 30px solid #0A0A0A ;
+}
+.breadcrumb li.completed a:after {
+	border-left: 30px solid #0A0A0A;
+}
+
+.breadcrumb li a {
+	color: #B6B6B6;
+	text-decoration: none;
+	padding: 10px 0 10px 45px;
+	position: relative;
+	display: block;
+	float: left;
+  font-size: 12px;
+  font-weight: 700;
+}
+.breadcrumb li a:after {
+	content: " ";
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid #0A0A0A;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	left: 100%;
+	z-index: 2;
+}
+.breadcrumb li a:before {
+	content: " ";
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid #373737;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	margin-left: 1px;
+	left: 100%;
+	z-index: 1;
+}
+.breadcrumb li:first-child a {
+	padding-left: 15px;
+}
+.breadcrumb li a, .breadcrumb li a:hover { background: #0A0A0A  ; }
+.breadcrumb li a:hover:after { border-left-color: #0A0A0A   !important; }
+
+.game-titl{
+  color: #ffb300;
+font-weight: 700;
+font-size: 16px;
+padding-top: 10px;
+border-bottom: 1px solid #ffb300;
+}
+.breadcrumb-inner .casino-g{
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 15px;
 }
