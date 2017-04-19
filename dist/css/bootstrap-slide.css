@@ -184,7 +184,7 @@
 
 .slide-text {
       left: -9px;
-      top: 62%;
+      top: 65%;
       right: 256px;
       margin: auto;
       padding: 10px;
@@ -221,7 +221,7 @@
     animation-delay: 1.1s;
 }
 .slide-text > a.btn-default-s{
-
+padding: 10px 0;
     -webkit-animation-delay: 1.1s;
     animation-delay: 1.1s;
     -webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -229,7 +229,7 @@
 
 }
 .slide-text > a.btn-primary-s{
-
+  padding: 3px 0;
     -webkit-animation-delay: 1.1s;
     animation-delay: 1.1s;
     -webkit-transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
