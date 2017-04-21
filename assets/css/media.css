@@ -37,7 +37,24 @@
     width: 25px;
     height: 25px;
 }
+.wrapper-l {
+  width: 250px;
+  background-color: #f9f9f9;
+  overflow: hidden;
+  padding: 6px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+  margin: 0px 50px auto;
+}
+.lotto-header{
+padding: 11px;
+background: #262626;
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+width: 252px;
+margin: 0px 50px auto;
 
+}
 
     }
 
@@ -55,7 +72,7 @@
     @media only screen and (min-width : 992px) {
 
     }
- 
+
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
 
@@ -90,4 +107,36 @@
     .container{
       width: 1250px;
     }
+    .lotto-header{
+     padding: 11px;
+     background: transparent;
+     font-size: 20px;
+     font-weight: 700;
+     text-align: center;
+     width: 100%;
+     margin: 0 auto;
+
+
+   }
+    .wrapper-l{
+  width: 539px;
+  padding: 0;
+  margin: 0 auto;
+  background: whitesmoke;
+}
+.wrapper-l .ball-wrapper {
+    margin: 0 0 0px!important;
+}
+
+.ball-wrapper{
+  float: left;
+  margin-bottom: 0;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 5px
+}
+
+.ball-wrapper-no-border{
+  border-right: none
+}
     }
