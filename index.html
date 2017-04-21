@@ -66,18 +66,7 @@
                         </select>
                     </div>
 
-                    <div class="navbar-header navbar-right navbar-form">
-                        <div class="hamburger hamburger--spin">
-                            <div class="hamburger-box">
-                                <div class="hamburger-inner"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="navbar-header navbar-right navbar-form ">
-                        <div class="cs-container">
-                            <a href="#"><img src="assets/img/cs-btn.png" class="img-responsive" alt=""></a>
-                        </div>
-                    </div>
+
                     <div class="navbar-header navbar-right navbar-form navbar-cta-btn">
 
                         <a href="#"><img src="assets/img/register.png" class="img-responsive" alt=""></a>
@@ -91,11 +80,16 @@
         <nav class="navbar navbar-inverse nav-bg">
             <div class="container">
                 <ul class="nav navbar-nav">
-                    <li class="nav-active"><a href="#">Home</a></li>
-                    <li><a href="#">Casino</a></li>
-                    <li><a href="#">Slots</a></li>
-                    <li><a href="#">Lotto</a></li>
-                    <li><a href="#">Promotions</a></li>
+                    <li class="nav-active"><a href="index.html">Home</a></li>
+                    <li><a href="casino.html">Casino</a></li>
+                    <li><a href="slots.html">Slots</a></li>
+                    <li><a href="lotto.html">Lotto</a></li>
+                    <li><a href="promotion.html">Promotions</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><img src="assets/img/cs.png" width="20px"alt="">&nbsp; Customer Service</a></li>
+                  <li><a href="#"><img src="assets/img/hc.png" width="20px"alt="">&nbsp; Help Center</a></li>
                 </ul>
             </div>
         </nav>
@@ -113,66 +107,165 @@
 
         </div>
 
+                			<div class="col-md-6 col-md-offset-3 quick">
+                				<div class="panel panel-login">
+                					<div class="panel-heading">
+
+                							<div class="col-xs-6 tab active" id="register-form-link">
+                								<a href="#" id="register-form-link">快速注册 </a>
+                							</div>
+                							<div class="col-xs-6 tab" id="login-form-link">
+                								<a href="#" id="login-form-link"> 免费试玩</a>
+                							</div>
+
+
+                					</div>
+                					<div class="panel-body">
+                						<div class="row">
+                							<div class="col-lg-12">
+                                <form id="register-form" method="post" role="form" style="display: block;">
+                                  <div class="form-group text-center">
+                                    <div style="display: inline-block;">
+                                      <input type="radio" id="radio01" name="radio" />
+                                      <label for="radio01"><span></span>手機號碼</label>
+                                    </div>
+
+                                    <div style="display: inline-block;">
+                                     <input type="radio" id="radio02" name="radio" />
+                                     <label for="radio02"><span></span>電子郵箱</label>
+                                    </div>
+                                  </div>
+                                  <div class="panel-border"></div>
+                                  <div class="form-pad">
+                                  <div class="form-group">
+                                    <div class="input-group">
+                                      <span class="input-group-addon"><i class="fa fa-user fa-fw" aria-hidden="true"></i></span>
+                                      <input class="form-control" type="text" placeholder="建立帳號">
+                                    </div>
+                									</div>
+
+                                  <div class="form-group">
+                                    <div class="input-group">
+                                      <span class="input-group-addon"><i class="fa fa-lock fa-fw"></i></span>
+                                      <input class="form-control" type="password" placeholder="輸入密碼">
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <div class="input-group">
+                                      <span class="input-group-addon"><i class="fa fa-check-square-o fa-fw"></i></span>
+                                      <input class="form-control" type="password" placeholder="確認密碼">
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group form-inline">
+                                    <div class="input-group col-sm-7" >
+                                      <span class="input-group-addon"><i class="fa fa-refresh fa-fw"></i></span>
+                                      <input class="form-control" type="text" placeholder="驗證碼">
+                                    </div>
+                                    <div class="captcha-img col-sm-5">
+                                      <img src="assets/img/captcha.png"  class="img-responsive" alt="">
+                                    </div>
+                                  </div>
+
+
+                									<div class="form-group">
+                										<div class="row">
+                											<div class="col-sm-12">
+                												<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="建立帳號">
+                											</div>
+                										</div>
+                									</div>
+                              </div>
+
+                								</form>
+
+                								<form id="login-form" action="http://phpoll.com/login/process" method="post" role="form" style="display: none;">
+                									<div class="form-group " style="text-align:center;">
+                										<div class="promo-txt">
+                                      36%开户首存
+                										</div>
+                                    <div class="panel-border"></div>
+                                      <div class="form-pad">
+                                    <div class="promo-desc">
+                                      请输入验证码以进行试玩。
+                                    </div>
+
+                                    <div class="form-group form-inline">
+                                      <div class="input-group col-sm-7" >
+                                        <span class="input-group-addon"><i class="fa fa-refresh fa-fw"></i></span>
+                                        <input class="form-control" type="text" placeholder="驗證碼">
+                                      </div>
+                                      <div class="captcha-img col-sm-5">
+                                        <img src="assets/img/captcha.png"  class="img-responsive" alt="">
+                                      </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                      <div class="row">
+                                        <div class="col-sm-12">
+                                          <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-success btn-block" value="登入">
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                      <div class="row">
+                                        <div class="col-sm-12">
+                                          <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="真钱游戏">
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                      <div class="row">
+                                        <div class="col-sm-12">
+                                          <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="免费开户">
+                                        </div>
+                                      </div>
+                                    </div>
+                									</div>
+                                  </div>
+                								</form>
+
+                							</div>
+                						</div>
+                					</div>
+                				</div>
+                			</div>
         <!-- Carousel -->
         <div class="carousel">
-            <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
+            <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="3000">
 
                 <!-- Indicators -->
-                <ol class="carousel-indicators">
+                <!-- <ol class="carousel-indicators">
                     <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
                     <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
                     <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
-                </ol>
+                </ol> -->
 
                 <!-- Wrapper For Slides -->
                 <div class="carousel-inner" role="listbox">
 
                     <!-- Third Slide -->
                     <div class="item active">
-
                         <!-- Slide Background -->
                         <img src="assets/img/banner/1.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
                         <div class="bs-slider-overlay"></div>
-
-                        <div class="container">
-                            <div class="row">
-                                <!-- Slide Text Layer -->
-                                <div class="slide-text slide_style_right">
-                                    <a href="#" target="_blank" class="btn btn-default-s" data-animation="animated fadeInUp"><img src="assets/img/demo.png" alt=""></a>
-                                    <a href="#" target="_blank" class="btn btn-primary-s" data-animation="animated fadeInDown"><img src="assets/img/joinus.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <!-- End of Slide -->
-
                     <!-- Second Slide -->
                     <div class="item">
-
                         <!-- Slide Background -->
                         <img src="assets/img/banner/2.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
                         <div class="bs-slider-overlay"></div>
-                        <!-- Slide Text Layer -->
-                        <div class="slide-text slide_style_right">
-                            <a href="#" target="_blank" class="btn btn-default-s" data-animation="animated fadeInUp"><img src="assets/img/demo.png" alt=""></a>
-                            <a href="#" target="_blank" class="btn btn-primary-s" data-animation="animated fadeInDown"><img src="assets/img/joinus.png" alt=""></a>
-                        </div>
                     </div>
-                    <!-- End of Slide -->
-
                     <!-- Third Slide -->
                     <div class="item">
-
                         <!-- Slide Background -->
                         <img src="assets/img/banner/1.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
                         <div class="bs-slider-overlay"></div>
-                        <!-- Slide Text Layer -->
-                        <div class="slide-text slide_style_right">
-                            <a href="#" target="_blank" class="btn btn-default-s" data-animation="animated bounceInDown"><img src="assets/img/demo.png" alt=""></a>
-                            <a href="#" target="_blank" class="btn btn-primary-s" data-animation="animated bounceInRight"><img src="assets/img/joinus.png" alt=""></a>
-                        </div>
                     </div>
-                    <!-- End of Slide -->
+
 
                 </div>
                 <!-- End of Wrapper For Slides -->
@@ -243,7 +336,7 @@
                     <span class="pull-right"><i class="fa fa-plus" aria-hidden="true"></i> &nbsp; MORE SLOTS</span>
                     <div class="border borderstyler"></div>
                 </div>
-                <div class="gp-g row">
+                <div class=" row">
 
                     <div class="col-md-6 col-xs-6">
                         <div class="live-game">
@@ -258,7 +351,7 @@
                     </div>
 
                 </div>
-                <div class="gp-g row">
+                <div class="gp-d row">
 
                     <div class="col-md-6 col-xs-6">
                         <div class="live-game">
