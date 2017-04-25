@@ -40,62 +40,66 @@
 </head>
 
 <body>
-  <header>
-      <nav class="navbar">
-          <div class="container">
-              <div class="navbar-header header-mobile">
-                  <div class="hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-left">
-                      <div class="hamburger-box">
-                          <div class="hamburger-inner"></div>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header header-mobile">
+                    <div class="hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-left">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <a href="index.html"></a>
+                    </div>
+                    <div class=" navbar-cta-btn hm-d  pull-right hidden-sm hidden-md hidden-lg">
+                        <button type="button" class="btn btn-warning btn-xs">LOGIN</button>
+                    </div>
+                </div>
+                <div class="hidden-xs">
+                    <div class="navbar-header">
+                        <select class="selectpicker" data-width="fit">
+                            <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+                            <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+                            <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
+                            <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
+                        </select>
+                    </div>
+
+
+                    <div class="navbar-header navbar-right navbar-form navbar-cta-btn">
+                      <div class="account-container shadow">
+                        Hi,<span> cslovexin :</span>
+                        <a href="" class="account-btn">Wallet</a>
+                          <a href="" class="account-btn">My Account</a>
+                            <a href="" class="account-btn">Announcement</a>
+                              <a href="" class="account-btn">Sign Out</a>
                       </div>
-                  </div>
-                  <div class="logo">
-                      <a href="index.html"></a>
-                  </div>
-                  <div class=" navbar-cta-btn hm-d  pull-right hidden-sm hidden-md hidden-lg">
-                      <button type="button" class="btn btn-warning btn-xs">LOGIN</button>
-                  </div>
-              </div>
-              <div class="hidden-xs">
-                  <div class="navbar-header">
-                      <select class="selectpicker" data-width="fit">
-                          <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-                          <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
-                          <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
-                          <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
-                      </select>
-                  </div>
 
+                    </div>
+                </div>
 
-                  <div class="navbar-header navbar-right navbar-form navbar-cta-btn">
+            </div>
+        </nav>
 
-                      <a href="#"><img src="assets/img/register.png" class="img-responsive" alt=""></a>
-                      <a href="#"><img src="assets/img/login.png" class="img-responsive" alt=""></a>
-                  </div>
-              </div>
+        <nav class="navbar navbar-inverse nav-bg hidden-xs hidden-sm">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <li class="nav-active"><a href="index.html">Home</a></li>
+                    <li><a href="casino.html">Casino</a></li>
+                    <li><a href="slots.html">Slots</a></li>
+                    <li><a href="lotto.html">Lotto</a></li>
+                    <li><a href="promotion.html">Promotions</a></li>
 
-          </div>
-      </nav>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><img src="assets/img/cs.png" width="20px"alt="">&nbsp; Customer Service</a></li>
+                  <li><a href="#"><img src="assets/img/hc.png" width="20px"alt="">&nbsp; Help Center</a></li>
+                </ul>
+            </div>
+        </nav>
 
-      <nav class="navbar navbar-inverse nav-bg hidden-xs hidden-sm">
-          <div class="container">
-              <ul class="nav navbar-nav">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="casino.html">Casino</a></li>
-                  <li><a href="slots.html">Slots</a></li>
-                  <li class="nav-active"><a href="lotto.html">Lotto</a></li>
-                  <li><a href="promotion.html">Promotions</a></li>
-
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><img src="assets/img/cs.png" width="20px"alt="">&nbsp; Customer Service</a></li>
-                <li><a href="#"><img src="assets/img/hc.png" width="20px"alt="">&nbsp; Help Center</a></li>
-              </ul>
-          </div>
-      </nav>
-
-  </header>
-
+    </header>
     <main>
 
         <div class="mobile-menu hidden-sm hidden-md hidden-lg">
@@ -108,9 +112,9 @@
 
         </div>
 
-        <!-- Carousel -->
+                	        <!-- Carousel -->
         <div class="carousel">
-            <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
+            <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="3000">
 
                 <!-- Indicators -->
                 <!-- <ol class="carousel-indicators">
@@ -124,50 +128,23 @@
 
                     <!-- Third Slide -->
                     <div class="item active">
-
                         <!-- Slide Background -->
                         <img src="assets/img/banner/1.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
                         <div class="bs-slider-overlay"></div>
-
-                        <div class="container">
-                            <div class="row">
-                                <!-- Slide Text Layer -->
-                                <div class="slide-text slide_style_right">
-                                    <a href="#" target="_blank" class="btn btn-default-s" data-animation="animated fadeInUp"><img src="assets/img/demo.png" alt=""></a>
-                                    <a href="#" target="_blank" class="btn btn-primary-s" data-animation="animated fadeInDown"><img src="assets/img/joinus.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                    <!-- End of Slide -->
-
                     <!-- Second Slide -->
                     <div class="item">
-
                         <!-- Slide Background -->
                         <img src="assets/img/banner/2.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
                         <div class="bs-slider-overlay"></div>
-                        <!-- Slide Text Layer -->
-                        <div class="slide-text slide_style_right">
-                            <a href="#" target="_blank" class="btn btn-default-s" data-animation="animated fadeInUp"><img src="assets/img/demo.png" alt=""></a>
-                            <a href="#" target="_blank" class="btn btn-primary-s" data-animation="animated fadeInDown"><img src="assets/img/joinus.png" alt=""></a>
-                        </div>
                     </div>
-                    <!-- End of Slide -->
-
                     <!-- Third Slide -->
                     <div class="item">
-
                         <!-- Slide Background -->
                         <img src="assets/img/banner/1.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
                         <div class="bs-slider-overlay"></div>
-                        <!-- Slide Text Layer -->
-                        <div class="slide-text slide_style_right">
-                            <a href="#" target="_blank" class="btn btn-default-s" data-animation="animated bounceInDown"><img src="assets/img/demo.png" alt=""></a>
-                            <a href="#" target="_blank" class="btn btn-primary-s" data-animation="animated bounceInRight"><img src="assets/img/joinus.png" alt=""></a>
-                        </div>
                     </div>
-                    <!-- End of Slide -->
+
 
                 </div>
                 <!-- End of Wrapper For Slides -->
@@ -191,196 +168,137 @@
         <!-- /carousel -->
 
         <div class="container">
-            <ul class="breadcrumb">
-                <li class="completed"><a href="javascript:void(0);">Home</a></li>
-                <li><a href="javascript:void(0);">Lotto</a></li>
-            </ul>
-
-            <div class=" breadcrumb-content">
-                <div class="breadcrumb-inner">
-
-                  <div class="lotto-container">
-
-                    <div class="col-lg-12 content-body remo-lotto-content-body">
-                    <div class="col-lg-12 content-body">
-
-                      <div class="row remo-lotto-hover-wrapper">
-                        <div class="col-md-6  col-xs-12 remo-lotto-hover-content">
-                          <div class="row">
-                            <div class="col-md-4">
-                              <p>期数</p>
-                              <p class="remo-lotto-hover-content-body">17/1159</p>
-                            </div>
-                            <div class="col-md-4">
-                              <p>日期</p>
-                              <p class="remo-lotto-hover-content-body">22:00</p>
-                            </div>
-                            <div class="col-md-4">
-                              <p>时间</p>
-                              <p class="remo-lotto-hover-content-body">22:00</p>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12 text-center">
-                              <p>最后5张乐透绘制结果</p>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12 lotto-result">
-                              结果
-                              <div class="remo-balls-wrapper">
-                                <p class="ball">6</p>
-                                <p class="ball">1</p>
-                                <p class="ball">37</p>
-                                <p class="ball">11</p>
-                                <p class="ball">31</p>
-                                <p class="ball">28</p>
-                                <span>+</span>
-                                <p class="ball">35</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12 lotto-result">
-                              结果
-                              <div class="remo-balls-wrapper">
-                                <p class="ball">9</p>
-                                <p class="ball">10</p>
-                                <p class="ball">3</p>
-                                <p class="ball">21</p>
-                                <p class="ball">31</p>
-                                <p class="ball">23</p>
-                                <span>+</span>
-                                <p class="ball">27</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12 lotto-result">
-                              结果
-                              <div class="remo-balls-wrapper">
-                                <p class="ball">7</p>
-                                <p class="ball">2</p>
-                                <p class="ball">40</p>
-                                <p class="ball">21</p>
-                                <p class="ball">38</p>
-                                <p class="ball">15</p>
-                                <span>+</span>
-                                <p class="ball">29</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12 lotto-result">
-                              结果
-                              <div class="remo-balls-wrapper">
-                                <p class="ball">15</p>
-                                <p class="ball">23</p>
-                                <p class="ball">34</p>
-                                <p class="ball">5</p>
-                                <p class="ball">8</p>
-                                <p class="ball">33</p>
-                                <span>+</span>
-                                <p class="ball">48</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-12 lotto-result">
-                              结果
-                              <div class="remo-balls-wrapper">
-                                <p class="ball">27</p>
-                                <p class="ball">1</p>
-                                <p class="ball">37</p>
-                                <p class="ball">1</p>
-                                <p class="ball">31</p>
-                                <p class="ball">2</p>
-                                <span>+</span>
-                                <p class="ball">5</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6  col-xs-12 lotto-bg " >
-                          <div class="lotto-header col-md-3 col-xs-12">
-                            住在：
-                            <div>
-                              <span id="time">03:00</span>
-                            </div>
-                            <!-- <div class="join-btn btn-generate ">
-                              <a href="javascript:void(0);" id="generate">生成!!</a>
-                            </div> -->
-                          </div>
-                          <div class="wrapper-l col-md-12 col-xs-12  remo-lotto-hover-content">
-                              <p class="ball-wrapper"><span class="ball">1</span></p>
-                              <p class="ball-wrapper"><span class="ball">2</span></p>
-                              <p class="ball-wrapper"><span class="ball">3</span></p>
-                              <p class="ball-wrapper"><span class="ball">4</span></p>
-                              <p class="ball-wrapper"><span class="ball">5</span></p>
-                              <p class="ball-wrapper"><span class="ball">6</span></p>
-                              <p class="ball-wrapper"><span class="ball">7</span></p>
-
-                              <p class="ball-wrapper"><span class="ball">8</span></p>
-                              <p class="ball-wrapper"><span class="ball">9</span></p>
-                              <p class="ball-wrapper"><span class="ball">10</span></p>
-                              <p class="ball-wrapper"><span class="ball">11</span></p>
-                              <p class="ball-wrapper ball-wrapper-no-border"><span class="ball">12</span></p>
-                              <p class="ball-wrapper"><span class="ball">13</span></p>
-                              <p class="ball-wrapper"><span class="ball">14</span></p>
-
-                              <p class="ball-wrapper"><span class="ball">15</span></p>
-                              <p class="ball-wrapper"><span class="ball">16</span></p>
-                              <p class="ball-wrapper"><span class="ball">17</span></p>
-                              <p class="ball-wrapper"><span class="ball">18</span></p>
-                              <p class="ball-wrapper"><span class="ball">19</span></p>
-                              <p class="ball-wrapper"><span class="ball">20</span></p>
-                              <p class="ball-wrapper"><span class="ball">21</span></p>
-
-                              <p class="ball-wrapper"><span class="ball">22</span></p>
-                              <p class="ball-wrapper"><span class="ball">23</span></p>
-                              <p class="ball-wrapper ball-wrapper-no-border"><span class="ball">24</span></p>
-                              <p class="ball-wrapper"><span class="ball">25</span></p>
-                              <p class="ball-wrapper"><span class="ball">26</span></p>
-                              <p class="ball-wrapper"><span class="ball">27</span></p>
-                              <p class="ball-wrapper"><span class="ball">28</span></p>
-
-                              <p class="ball-wrapper"><span class="ball">29</span></p>
-                              <p class="ball-wrapper"><span class="ball">30</span></p>
-                              <p class="ball-wrapper"><span class="ball">31</span></p>
-                              <p class="ball-wrapper"><span class="ball">32</span></p>
-                              <p class="ball-wrapper"><span class="ball">33</span></p>
-                              <p class="ball-wrapper"><span class="ball">34</span></p>
-                              <p class="ball-wrapper"><span class="ball">35</span></p>
-
-                              <p class="ball-wrapper ball-wrapper-no-border"><span class="ball">36</span></p>
-                              <p class="ball-wrapper"><span class="ball">37</span></p>
-                              <p class="ball-wrapper"><span class="ball">38</span></p>
-                              <p class="ball-wrapper"><span class="ball">39</span></p>
-                              <p class="ball-wrapper"><span class="ball">40</span></p>
-                              <p class="ball-wrapper"><span class="ball">41</span></p>
-                              <p class="ball-wrapper"><span class="ball">42</span></p>
-
-                              <p class="ball-wrapper"><span class="ball">43</span></p>
-                              <p class="ball-wrapper"><span class="ball">44</span></p>
-                              <p class="ball-wrapper"><span class="ball">45</span></p>
-                              <p class="ball-wrapper"><span class="ball">46</span></p>
-                              <p class="ball-wrapper"><span class="ball">47</span></p>
-                              <p class="ball-wrapper ball-wrapper-no-border"><span class="ball">48</span></p>
-
-                          </div>
-
-                        </div>
-
-                      </div>
-
+            <div class="jackpot  hidden-xs hidden-sm">
+                <div class="col-md-6">
+                    <div class="notice">
+                        <div class="marquee">《沙龙会.ClubS》全新易记域名：www.s36.com 正式启用！并同时更换了更突显中文元素的全新标志，请相互转告，感谢大家的支持！</div>
+                        <img src="assets/img/jackpot/notice-bg.png" class="img-responsive" alt="">
                     </div>
-
-                  </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="jacpot-nus">
+                        <img src="assets/img/jackpot/jackpot-bg.png" class="img-responsive" alt="">
+                        <div class="jumbo" id="myTargetElement">0</div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
 
+        </div>
+
+        <div class="live-container container">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="live-game">
+                    <img src="assets/img/casino/baccarat.png" class="img-responsive" alt="">
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="live-game">
+                    <img src="assets/img/casino/blackjack.png" class="img-responsive" alt="">
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="live-game">
+                    <img src="assets/img/casino/roulette.png" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="gp container">
+            <div class="col-md-6">
+                <div class="content-title">
+                    <i class="fa fa-diamond" aria-hidden="true"></i> NEW GAMES
+                    <span class="pull-right"><i class="fa fa-plus" aria-hidden="true"></i> &nbsp; MORE SLOTS</span>
+                    <div class="border borderstyler"></div>
+                </div>
+                <div class=" row">
+
+                    <div class="col-md-6 col-xs-6">
+                        <div class="live-game">
+                            <img src="assets/img/slots/1.png" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-xs-6">
+                        <div class="live-game">
+                            <img src="assets/img/slots/2.png" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="gp-d row">
+
+                    <div class="col-md-6 col-xs-6">
+                        <div class="live-game">
+                            <img src="assets/img/slots/3.png" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-xs-6">
+                        <div class="live-game">
+                            <img src="assets/img/slots/4.png" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="content-title">
+                    <i class="fa fa-star" aria-hidden="true"></i> LIVE GAMES
+                    <span class="pull-right"><i class="fa fa-plus" aria-hidden="true"></i> &nbsp; MORE LIVE GAMES</span>
+                    <div class="border borderstyler"></div>
+                </div>
+                <div class="gp-g row">
+
+                    <div class="col-md-4 col-xs-4">
+                        <div class="live-games">
+                            <img src="assets/img/promo/1.png" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-xs-4">
+                        <div class="live-games">
+                            <img src="assets/img/promo/2.png" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-xs-4">
+                        <div class="live-games">
+                            <img src="assets/img/promo/3.png" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="gp-g row">
+
+                    <div class="col-md-4 col-xs-4">
+                        <div class="live-games">
+                            <img src="assets/img/promo/4.png" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-xs-4">
+                        <div class="live-games">
+                            <img src="assets/img/promo/5.png" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-xs-4">
+                        <div class="live-games">
+                            <img src="assets/img/promo/6.png" class="img-responsive" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
         <div class="container">
             <div class="border borderstyle"></div>
         </div>
@@ -559,7 +477,7 @@
     </main>
     <footer>
         <div class="footer">
-            <div class="border"></div>
+
             <div class="container">
                 <div class="footer-icon">
                     <img src="assets/img/footer/logo.png" class="img-responsive" alt="">
