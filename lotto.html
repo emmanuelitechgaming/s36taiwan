@@ -23,6 +23,8 @@
   <!-- Custom styles for this template -->
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/media.css">
+  <link rel="stylesheet" href="assets/css/remo-style.css">
+  <link rel="stylesheet" href="assets/css/media-queries/remo-media.css">
   <link rel="stylesheet" href="assets/css/hamburgers.min.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
@@ -104,27 +106,19 @@
 
 
     <!-- Carousel -->
-      <img src="assets/img/banner/4m.jpg" class="img-responsive hidden-lg hidden-md" alt="">
-    <div class="carousel other-banner hidden-xs hidden sm">
-      <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
-
-        <!-- Indicators -->
-        <!-- <ol class="carousel-indicators">
-                    <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
-                    <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
-                    <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
-                </ol> -->
-
-        <!-- Wrapper For Slides -->
-        <div class="carousel-inner" role="listbox">
-          <!-- Third Slide -->
-          <div class="item active">
-            <!-- Slide Background -->
-            <img src="assets/img/lotto/banner.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+    <img src="assets/img/banner/4m.jpg" class="img-responsive hidden-lg hidden-md" alt="">
+    <div class="carousel other-banner hidden-xs hidden-sm">
+        <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
+          <div class="carousel-inner" role="listbox">
+              <!-- Third Slide -->
+              <div class="item active">
+                  <!-- Slide Background -->
+                  <img src="assets/img/lotto/banner.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+              </div>
           </div>
+
         </div>
-      </div>
-      <!-- End  bootstrap-touch-slider Slider -->
+        <!-- End  bootstrap-touch-slider Slider -->
 
     </div>
     <!-- /carousel -->
@@ -139,31 +133,46 @@
         <div class="breadcrumb-inner ">
           <div class="col-md-12">
             <div class="panel with-nav-tabs">
-              <div class="panel-heading">
-                <ul class="nav nav-tabs">
-                  <li class="active"><a href="#tab1" data-toggle="tab">彩票游戏</a></li>
-                  <li><a href="#tab2" data-toggle="tab">单式注项</a></li>
-                  <li><a href="#tab3" data-toggle="tab">复式注项</a></li>
 
+              <div class="panel-heading hidden-sm hidden-xs">
+                <ul class="nav nav-tabs">
+                  <li class="active"><a href="#tab1" data-toggle="tab" class="tab1">彩票游戏</a></li>
+                  <li><a href="#tab2" data-toggle="tab" class="tab2">单式注项</a></li>
+                  <li><a href="#tab3" data-toggle="tab" class="tab3">复式注项</a></li>
                 </ul>
                 <div class="border borderstyle" style="margin: 0;"></div>
               </div>
+              <div class="panel-heading hidden-lg hidden-md">
+                <select id="tabContentSelector">
+                  <option value="tab1">彩票游戏</option>
+                  <option value="tab2">单式注项</option>
+                  <option value="tab3">复式注项</option>
+                </select>
+              </div>
+
               <div class="panel-body">
                 <div class="tab-content">
 
                   <div class="tab-pane fade in active" id="tab1">
+                    <div class="row r-banner-info-wrapper hidden-lg hidden-md">
+                      <div class="col-sm-6 col-xs-6"><img src="assets/img/lotto/1.png" class="img-responsive" alt=""></div>
+                      <div class="col-sm-6 col-xs-6"><img src="assets/img/lotto/banner-content.png" alt="" class="img-responsive"></div>
+                    </div>
                     <div class="row">
-                      <div class="col-md-2 lotto-res">
+                      <div class="col-md-2 hidden-sm hidden-xs lotto-res">
                         <img src="assets/img/lotto/side-banner.png" class="img-responsive" alt="">
                       </div>
-                      <div class="col-md-10 lotto-res">
+                      <div class="col-md-10 col-sm-12 col-xs-12 lotto-res">
                         <div class="tab-info">SA「48彩」每期是从1至48中选出六个号码為中奖号码。每天10:00 - 22:00 (GMT＋8 ) 每小时一期，开彩以自动搅珠机随机抽出，过程现场直播，并由美女主持读出中奖号码。</div>
                         <div class="ballot-filter  ">
                           <form class="form-inline">
-                            <span class="control-label">攪珠期數/日期 </span>
-                            <label class="radio-inline">
-                                <input type="radio" name="optradio"> 攪珠期數:
-                                <select name="selectDrawID" id="selectDrawID" class="select2" style="width:50px" onchange="setRadio('radioDrawID');SetHiddenValue('hiddenSelectDrawID', this.value);">
+                            <div class="ballot-filter-div">
+                              <span class="control-label">攪珠期數/日期 </span>
+                            </div>
+                            <div class="ballot-filter-div">
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio"> <span class="hidden-sm hidden-xs">攪珠期數:</span>
+                                <select name="selectDrawID" id="selectDrawID" class="select2" onchange="setRadio('radioDrawID');SetHiddenValue('hiddenSelectDrawID', this.value);">
                                     <option value="1" disabled="">---</option>
                                     <option value="5">5</option>
                                     <option value="10">10</option>
@@ -202,10 +211,12 @@
                                     <option value="30"><font><font>30</font></font>
                                     </option>
                                 </select>
-                            </label>
-        <label class="radio-inline">
+                              </label>
+                            </div>
+                            <div class="ballot-filter-div">
+                              <label class="radio-inline">
                                 <input type="radio" name="optradio">由 :
-                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromMonth" class="select2" style="width: 50px;" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromMonth', this.value);">
+                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromMonth" class="select2" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromMonth', this.value);">
                                     <option value="0"><font><font>month</font></font>
                                     </option>
                                     <option value="01"><font><font>January</font></font>
@@ -233,7 +244,7 @@
                                     <option value="12"><font><font>December</font></font>
                                     </option>
                                 </select> /
-                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromYear" class="select2" style="width:70px" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromYear', this.value);">
+                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromYear" class="select2" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromYear', this.value);">
                                     <option value="0"><font><font>year</font></font>
                                     </option>
                                     <option selected="selected" value="2017">2017</option>
@@ -262,11 +273,12 @@
                                     <option value="1994">1994</option>
                                     <option value="1993">1993</option>
                                 </select>
-
-                            </label>
-        <label for="">至 :
-                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToMonth" class="select2" style="width: 50px;" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToMonth', this.value);">
-                                    <option value="0"><font><font>month</font></font>
+                              </label>
+                            </div>
+                            <div class="ballot-filter-div">
+                              <label for="">至 :
+                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToMonth" class="select2" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToMonth', this.value);">
+                                    <option value="0"><font><font>Month</font></font>
                                     </option>
                                     <option value="01"><font><font>January</font></font>
                                     </option>
@@ -293,7 +305,7 @@
                                     <option value="12"><font><font>December</font></font>
                                     </option>
                                 </select> /
-                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToYear" class="select2" style="width:70px" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToYear', this.value);">
+                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToYear" class="select2" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToYear', this.value);">
                                     <option value="0"><font><font>year</font></font>
                                     </option>
                                     <option selected="selected" value="2017"><font><font>2017</font></font>
@@ -347,16 +359,17 @@
                                     <option value="1993"><font><font>1993</font></font>
                                     </option>
                                 </select>
-                            </label>
-
-                            <label class="radio-inline">
-                                                    <input type="radio" name="optradio">全部
-                                                </label>
-                            <label class="radio-inline">
-                                                    <input type="radio" name="optradio">金多寶
-                                                </label>
-                                                <a href="#"><img src="assets/img/lotto/lotto-btn2.png" class="img-responsive" style="display: inline-block;" alt=""></a>
-
+                              </label>
+                            </div>
+                            <div class="ballot-filter-div text-center">
+                              <!-- <label class="radio-inline">
+                                                      <input type="radio" name="optradio">全部
+                                                  </label>
+                              <label class="radio-inline">
+                                                      <input type="radio" name="optradio">金多寶
+                                                  </label> -->
+                              <a href="#"><img src="assets/img/lotto/lotto-btn2.png" class="img-responsive hidden-sm hidden-xs" style="display: inline-block;" alt=""></a>
+                            </div>
                           </form>
 
                           <form action="" class="form-inline">
@@ -378,8 +391,7 @@
                               <tr>
                                 <td>17/047 </td>
                                 <td>25/04/2017</td>
-
-                                <td><img src="assets/img/lotto/ball/1.png" class="img-responsive" alt="">
+                                <td class="ballot-result-balls"><img src="assets/img/lotto/ball/1.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/2.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/3.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/4.png" class="img-responsive" alt="">
@@ -392,7 +404,7 @@
                                 <td>17/046 </td>
                                 <td>22/04/2017</td>
 
-                                <td><img src="assets/img/lotto/ball/4.png" class="img-responsive" alt="">
+                                <td class="ballot-result-balls"><img src="assets/img/lotto/ball/4.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/5.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/7.png" class="img-responsive" alt="">
@@ -406,7 +418,7 @@
                                 <td>17/045 </td>
                                 <td>18/04/2017</td>
 
-                                <td>
+                                <td class="ballot-result-balls">
                                   <img src="assets/img/lotto/ball/10.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/11.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/12.png" class="img-responsive" alt="">
@@ -422,7 +434,7 @@
                                 <td>17/045 </td>
                                 <td>18/04/2017</td>
 
-                                <td>
+                                <td class="ballot-result-balls">
                                   <img src="assets/img/lotto/ball/10.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/11.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/12.png" class="img-responsive" alt="">
@@ -438,7 +450,7 @@
                                 <td>17/045 </td>
                                 <td>18/04/2017</td>
 
-                                <td>
+                                <td class="ballot-result-balls">
                                   <img src="assets/img/lotto/ball/16.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/17.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/18.png" class="img-responsive" alt="">
@@ -454,7 +466,7 @@
                                 <td>17/045 </td>
                                 <td>18/04/2017</td>
 
-                                <td>
+                                <td class="ballot-result-balls">
                                   <img src="assets/img/lotto/ball/22.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/23.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/24.png" class="img-responsive" alt="">
@@ -470,7 +482,7 @@
                                 <td>17/045 </td>
                                 <td>18/04/2017</td>
 
-                                <td>
+                                <td class="ballot-result-balls">
                                   <img src="assets/img/lotto/ball/28.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/29.png" class="img-responsive" alt="">
                                   <img src="assets/img/lotto/ball/30.png" class="img-responsive" alt="">
@@ -490,72 +502,95 @@
                     </div>
                   </div>
 
-                  <div class="tab-pane fade" id="tab2">
+                  <div class="tab-pane fade r-tab2" id="tab2">
+                    <div class="row r-banner-info-wrapper hidden-lg hidden-md">
+                      <div class="col-sm-6 col-xs-6"><img src="assets/img/lotto/1.png" class="img-responsive" alt=""></div>
+                      <div class="col-sm-6 col-xs-6"><img src="assets/img/lotto/banner-content.png" alt="" class="img-responsive"></div>
+                    </div>
                     <div class="row">
-                    <div class="col-md-2 lotto-res">
+                    <div class="col-md-2 hidden-sm hidden-xs lotto-res">
                       <img src="assets/img/lotto/side-banner.png" class="img-responsive" alt="">
                     </div>
-                    <div class="col-md-10 lotto-res">
-                    <div id="calendar">
-                      <h1>October</h1>
-                      <table>
-                        <tr>
-                          <td class="lastmonth">30</td>
-                          <td>1</td>
-                          <td>2</td>
-                          <td>3</td>
-                          <td class="hastask">4</td>
-                          <td>5</td>
-                          <td>6</td>
-                        </tr>
-                        <tr>
-                          <td>7</td>
-                          <td class="current">8</td>
-                          <td class="hastask">9</td>
-                          <td>10</td>
-                          <td>11</td>
-                          <td class="hastask">12</td>
-                          <td>13</td>
-                        </tr>
-                        <tr>
-                          <td>14</td>
-                          <td class="hastask">15</td>
-                          <td>16</td>
-                          <td>17</td>
-                          <td>18</td>
-                          <td>19</td>
-                          <td>20</td>
-                        </tr>
-                        <tr>
-                          <td class="hastask">21</td>
-                          <td>22</td>
-                          <td>23</td>
-                          <td>24</td>
-                          <td>25</td>
-                          <td class="hastask">26</td>
-                          <td>27</td>
-                        </tr>
-                        <tr>
-                          <td>28</td>
-                          <td>29</td>
-                          <td class="hastask">30</td>
-                          <td>31</td>
-                          <td class="nextmonth">1</td>
-                          <td>2</td>
-                          <td>3</td>
-                        </tr>
-                      </table>
-                    </div>
+                    <div class="col-md-10 col-sm-12 col-xs-12 lotto-res">
+                      <div class="row">
+                        <div class="col-md-4 col-md-offset-2 col-sm-8 col-xs-8">
+                          <div id="calendar">
+                            <h1>October</h1>
+                            <table>
+                              <tr>
+                                <td class="lastmonth">30</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td class="hastask">4</td>
+                                <td>5</td>
+                                <td>6</td>
+                              </tr>
+                              <tr>
+                                <td>7</td>
+                                <td class="current">8</td>
+                                <td class="hastask">9</td>
+                                <td>10</td>
+                                <td>11</td>
+                                <td class="hastask">12</td>
+                                <td>13</td>
+                              </tr>
+                              <tr>
+                                <td>14</td>
+                                <td class="hastask">15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                              </tr>
+                              <tr>
+                                <td class="hastask">21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td class="hastask">26</td>
+                                <td>27</td>
+                              </tr>
+                              <tr>
+                                <td>28</td>
+                                <td>29</td>
+                                <td class="hastask">30</td>
+                                <td>31</td>
+                                <td class="nextmonth">1</td>
+                                <td>2</td>
+                                <td>3</td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-xs-4 lotto-desc-wrapper">
+                          <div class="lotto-desc">玩法增多</div>
+                          <div class="lotto-desc-p">中奖机会飙升</div>
+                          <div class="lotto-desc">增设每小时开彩一次
+</div>
+                          <div class="lotto-desc-p">每天由早上十时至晚上十时</div>
+                          <div class="lotto-desc">巨额头奖</div>
+                          <div class="lotto-desc-p">估计一注独得</div>
+
+                        </div>
+                      </div>
+
                   </div>
                   </div>
 
                   </div>
-                  <div class="tab-pane fade" id="tab3">
+                  <div class="tab-pane fade r-lotto-tab3" id="tab3">
+                    <div class="row r-banner-info-wrapper hidden-lg hidden-md">
+                      <div class="col-sm-6 col-xs-6"><img src="assets/img/lotto/1.png" class="img-responsive" alt=""></div>
+                      <div class="col-sm-6 col-xs-6"><img src="assets/img/lotto/banner-content.png" alt="" class="img-responsive"></div>
+                    </div>
                     <div class="row">
-                    <div class="col-md-2 lotto-res">
+                    <div class="col-md-2 hidden-sm hidden-xs lotto-res">
                       <img src="assets/img/lotto/side-banner.png" class="img-responsive" alt="">
                     </div>
-                    <div class="col-md-10 lotto-res">
+                    <div class="col-md-10 col-sm-12 col-xs-12 lotto-res">
 
                     <div class="lotto-desc">彩票游戏</div>
                     <div class="lotto-desc-p"> SA「48彩」每期是从1至48中选出六个号码為中奖号码。每天10:00 - 22:00 (GMT＋8 ) 每小时一期，开彩以自动搅珠机随机抽出，过程现场直播，并由美女主持读出中奖号码。
@@ -601,15 +636,17 @@
     </div>
 
     <div class="container">
-      <div class="row">
-        <div class="addbanner col-md-6 col-xs-12">
-          <img src="assets/img/ads/casino.png" class="img-responsive" alt="">
+      <div class="row r-ads">
+        <div class="col-md-6 col-sm-12">
+          <img src="assets/img/casino.png" alt="">
         </div>
-        <div class="addbanner col-md-6 col-xs-12">
-          <img src="assets/img/ads/slot.png" class="img-responsive" alt="">
+
+        <div class="col-md-6 col-sm-12">
+          <img src="assets/img/slot.png" alt="">
         </div>
       </div>
     </div>
+
 
     <div class="container">
       <div class="border borderstyle"></div>
@@ -792,11 +829,32 @@
 
       <div class="container">
         <div class="footer-icon f-social">
-          <img src="assets/img/footer/logo.png" class="img-responsive" alt="">
-          <img src="assets/img/footer/g1.png" class="img-responsive" alt="">
-          <img src="assets/img/footer/g2.png" class="img-responsive" alt="">
-          <img src="assets/img/footer/g3.png" class="img-responsive" alt="">
-          <img src="assets/img/footer/g4.png" class="img-responsive" alt="">
+            <img src="assets/img/footer/logo.png" class="img-responsive" alt="">
+            <div class="footer-social-d hidden-sm hidden-xs">
+            <img src="assets/img/footer/g1.png" class="img-responsive" alt="">
+            <img src="assets/img/footer/g2.png" class="img-responsive" alt="">
+            <img src="assets/img/footer/g3.png" class="img-responsive" alt="">
+            <img src="assets/img/footer/g4.png" class="img-responsive" alt="">
+          </div>
+
+            <div class="hidden-lg hidden-md">
+              <div class="row">
+                <div class="col-sm-6 col-xs-6">
+                  <img src="assets/img/footer/g1b.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-6 col-xs-6">
+                  <img src="assets/img/footer/g2b.png" class="img-responsive" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 col-xs-6">
+                  <img src="assets/img/footer/g3b.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-sm-6 col-xs-6">
+                  <img src="assets/img/footer/g4b.png" class="img-responsive" alt="">
+                </div>
+              </div>
+            </div>
         </div>
 
         <div class="col-md-6">
@@ -919,6 +977,7 @@
   <script src="dist/js/bootstrap-slider.js"></script>
   <script src="dist/js/font-awesome.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/remo-js.js"></script>
   <script src="assets/js/countUp.js"></script>
   <script>
     $(document).ready(function() {
