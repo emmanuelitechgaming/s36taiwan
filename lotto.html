@@ -2,836 +2,989 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="favicon.ico">
 
-    <title>S36 TAIWAN</title>
+  <title>S36 TAIWAN</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="dist/css/bootstrap-slide.css" rel="stylesheet">
-    <link href="dist/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="dist/css/bootstrap-slide.css" rel="stylesheet">
+  <link href="dist/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/media.css">
-    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css">
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+  <link rel="stylesheet" href="assets/css/hamburgers.min.css">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="container">
-                <div class="navbar-header header-mobile">
-                    <div class="hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-left">
-                        <div class="hamburger-box">
-                            <div class="hamburger-inner"></div>
-                        </div>
-                    </div>
-                    <div class="logo">
-                        <a href="index.html"></a>
-                    </div>
-                    <div class=" navbar-cta-btn hm-d  pull-right hidden-sm hidden-md hidden-lg">
-                        <button type="button" class="btn btn-warning btn-xs">LOGIN</button>
-                    </div>
-                </div>
-                <div class="hidden-xs">
-                    <div class="navbar-header">
-                        <select class="selectpicker" data-width="fit">
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header header-mobile">
+          <div class="hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-left">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </div>
+          <div class="logo">
+            <a href="index.html"></a>
+          </div>
+          <div class=" navbar-cta-btn hm-d  pull-right hidden-sm hidden-md hidden-lg">
+            <button type="button" class="btn btn-warning btn-xs">LOGIN</button>
+          </div>
+        </div>
+        <div class="hidden-xs">
+          <div class="navbar-header">
+            <select class="selectpicker" data-width="fit">
                             <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
                             <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
                             <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
                             <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
                         </select>
-                    </div>
+          </div>
 
-                    <div class="navbar-header navbar-right navbar-form navbar-cta-btn">
+          <div class="navbar-header navbar-right navbar-form navbar-cta-btn">
 
-                        <a href="#"><img src="assets/img/register.png" class="img-responsive" alt=""></a>
-                        <a href="#"><img src="assets/img/login.png" class="img-responsive" alt=""></a>
-                    </div>
-                </div>
-
-            </div>
-        </nav>
-
-        <nav class="navbar navbar-inverse nav-bg hidden-xs hidden-sm">
-            <div class="container">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a></li>
-                    <li><a href="casino.html">Casino</a></li>
-                    <li><a href="slots.html">Slots</a></li>
-                    <li class="nav-active"><a href="lotto.html">Lotto</a></li>
-                    <li><a href="promotion.html">Promotions</a></li>
-
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#"><img src="assets/img/cs.png" width="20px" alt="">&nbsp; Customer Service</a>
-                    </li>
-                    <li>
-                        <a href="helpcenter.html"><img src="assets/img/hc.png" width="20px" alt="">&nbsp; Help Center</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-    </header>
-
-    <main>
-
-        <div class="mobile-menu hidden-sm hidden-md hidden-lg">
-            <div class="col-xs-6 btn-mobile">
-                <a href="active">SPORTS</a>
-            </div>
-            <div class="col-xs-6 btn-mobile">
-                <a href="">CASINO</a>
-            </div>
-
+            <a href="#"><img src="assets/img/register.png" class="img-responsive" alt=""></a>
+            <a href="#"><img src="assets/img/login.png" class="img-responsive" alt=""></a>
+          </div>
         </div>
 
-        <!-- Carousel -->
-        <div class="carousel other-banner">
-            <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
+      </div>
+    </nav>
 
-                <!-- Indicators -->
-                <!-- <ol class="carousel-indicators">
+    <nav class="navbar navbar-inverse nav-bg">
+        <div class="container">
+          <div class="row">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a></li>
+                <li><a href="casino.html">Casino</a></li>
+                <li><a href="slots.html">Slots</a></li>
+                <li  class="nav-active"><a href="lotto.html">Lotto</a></li>
+                <li><a href="promotion.html">Promotions</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
+              <li><a href="#"><img src="assets/img/cs.png" width="20px"alt="">&nbsp; Customer Service</a></li>
+              <li><a href="helpcenter.html"><img src="assets/img/hc.png" width="20px"alt="">&nbsp; Help Center</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+  </header>
+
+  <main>
+
+
+
+    <!-- Carousel -->
+      <img src="assets/img/banner/4m.jpg" class="img-responsive hidden-lg hidden-md" alt="">
+    <div class="carousel other-banner hidden-xs hidden sm">
+      <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
+
+        <!-- Indicators -->
+        <!-- <ol class="carousel-indicators">
                     <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
                     <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
                     <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
                 </ol> -->
 
-                <!-- Wrapper For Slides -->
-                <div class="carousel-inner" role="listbox">
-
-                    <!-- Third Slide -->
-                    <div class="item active">
-
-                        <!-- Slide Background -->
-                        <img src="assets/img/banner/1.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
-                        <div class="bs-slider-overlay"></div>
-
-                        <div class="container">
-                            <div class="row">
-                                <!-- Slide Text Layer -->
-                                <div class="slide-text slide_style_right">
-                                    <a href="#" target="_blank" class="btn btn-default-s" data-animation="animated fadeInUp"><img src="assets/img/demo.png" alt=""></a>
-                                    <a href="#" target="_blank" class="btn btn-primary-s" data-animation="animated fadeInDown"><img src="assets/img/joinus.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End of Slide -->
-
-                    <!-- Second Slide -->
-                    <div class="item">
-
-                        <!-- Slide Background -->
-                        <img src="assets/img/banner/2.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
-                        <div class="bs-slider-overlay"></div>
-                        <!-- Slide Text Layer -->
-                        <div class="slide-text slide_style_right">
-                            <a href="#" target="_blank" class="btn btn-default-s" data-animation="animated fadeInUp"><img src="assets/img/demo.png" alt=""></a>
-                            <a href="#" target="_blank" class="btn btn-primary-s" data-animation="animated fadeInDown"><img src="assets/img/joinus.png" alt=""></a>
-                        </div>
-                    </div>
-                    <!-- End of Slide -->
-
-                    <!-- Third Slide -->
-                    <div class="item">
-
-                        <!-- Slide Background -->
-                        <img src="assets/img/banner/1.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
-                        <div class="bs-slider-overlay"></div>
-                        <!-- Slide Text Layer -->
-                        <div class="slide-text slide_style_right">
-                            <a href="#" target="_blank" class="btn btn-default-s" data-animation="animated bounceInDown"><img src="assets/img/demo.png" alt=""></a>
-                            <a href="#" target="_blank" class="btn btn-primary-s" data-animation="animated bounceInRight"><img src="assets/img/joinus.png" alt=""></a>
-                        </div>
-                    </div>
-                    <!-- End of Slide -->
-
-                </div>
-                <!-- End of Wrapper For Slides -->
-
-                <!-- Left Control -->
-                <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
-                    <span class="fa fa-angle-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-
-                <!-- Right Control -->
-                <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
-                    <span class="fa fa-angle-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-
-            </div>
-            <!-- End  bootstrap-touch-slider Slider -->
-
+        <!-- Wrapper For Slides -->
+        <div class="carousel-inner" role="listbox">
+          <!-- Third Slide -->
+          <div class="item active">
+            <!-- Slide Background -->
+            <img src="assets/img/lotto/banner.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+          </div>
         </div>
-        <!-- /carousel -->
+      </div>
+      <!-- End  bootstrap-touch-slider Slider -->
 
-        <div class="container">
-            <ul class="breadcrumb">
-                <li class="completed"><a href="javascript:void(0);">Home</a></li>
-                <li><a href="javascript:void(0);">Lotto</a></li>
-            </ul>
+    </div>
+    <!-- /carousel -->
 
-            <div class=" breadcrumb-content">
-                <div class="breadcrumb-inner ">
-                    <div class="col-md-12">
-                        <div class="panel with-nav-tabs">
-                            <div class="panel-heading">
-                                <ul class="nav nav-tabs">
-                                    <li class="active"><a href="#tab1" data-toggle="tab">彩票游戏</a></li>
-                                    <li><a href="#tab2" data-toggle="tab">单式注项</a></li>
-                                    <li><a href="#tab3" data-toggle="tab">复式注项</a></li>
-                                    <li><a href="#tab4" data-toggle="tab">胆拖注项</a></li>
-                                    <li><a href="#tab5" data-toggle="tab">运财号码</a></li>
-                                    <li><a href="#tab6" data-toggle="tab">其他玩法</a></li>
-                                </ul>
-                                <div class="border borderstyle" style="margin: 0;"></div>
-                            </div>
-                            <div class="panel-body">
-                                <div class="tab-content">
-                                    <div class="tab-pane fade in active" id="tab1">
-                                        SA「48彩」每期是从1至48中选出六个号码為中奖号码。每天10:00 - 22:00 (GMT＋8 ) 每小时一期，开彩以自动搅珠机随机抽出，过程现场直播，并由美女主持读出中奖号码。
-                                        <div class="ballot-filter  col-xs-8 col-xs-offset-2">
-                                            <form class="form-inline">
-                                                <span class="col-md-2 control-label">攪珠期數/日期</span>
-                                                <label class="radio-inline">
-                                                    <input type="radio" name="optradio"> 攪珠期數:
-                                                    <select name="selectDrawID" id="selectDrawID" class="select2" style="width:50px" onchange="setRadio('radioDrawID');SetHiddenValue('hiddenSelectDrawID', this.value);">
-                                                        <option value="1" disabled="">---</option>
-                                                        <option value="5">5</option>
-                                                        <option value="10">10</option>
-                                                        <option value="20">20</option>
-                                                        <option value="30">30</option>
-                                                        <option value="1" disabled=""><font><font>---</font></font>
-                                                        </option>
-                                                        <option value="5"><font><font>5</font></font>
-                                                        </option>
-                                                        <option value="6">6</option>
-                                                        <option value="7">7</option>
-                                                        <option value="8">8</option>
-                                                        <option value="9">9</option>
-                                                        <option value="10" selected=""><font><font>10</font></font>
-                                                        </option>
-                                                        <option value="11">11</option>
-                                                        <option value="12">12</option>
-                                                        <option value="13">13</option>
-                                                        <option value="14">14</option>
-                                                        <option value="15">15</option>
-                                                        <option value="16">16</option>
-                                                        <option value="17">17</option>
-                                                        <option value="18">18</option>
-                                                        <option value="19">19</option>
-                                                        <option value="20"><font><font>20</font></font>
-                                                        </option>
-                                                        <option value="21">21</option>
-                                                        <option value="22">22</option>
-                                                        <option value="23">23</option>
-                                                        <option value="24">24</option>
-                                                        <option value="25">25</option>
-                                                        <option value="26">26</option>
-                                                        <option value="27">27</option>
-                                                        <option value="28">28</option>
-                                                        <option value="29">29</option>
-                                                        <option value="30"><font><font>30</font></font>
-                                                        </option>
-                                                    </select>
-                                                </label>
-                                                <label class="radio-inline">
-                                                    <input type="radio" name="optradio">由 :
-                                                    <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromMonth" class="select2" style="width: 50px;" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromMonth', this.value);">
-                                                        <option value="0"><font><font>month</font></font>
-                                                        </option>
-                                                        <option value="01"><font><font>January</font></font>
-                                                        </option>
-                                                        <option value="02"><font><font>February</font></font>
-                                                        </option>
-                                                        <option selected="selected" value="03"><font><font>March</font></font>
-                                                        </option>
-                                                        <option value="04"><font><font>April</font></font>
-                                                        </option>
-                                                        <option value="05"><font><font>May</font></font>
-                                                        </option>
-                                                        <option value="06"><font><font>June</font></font>
-                                                        </option>
-                                                        <option value="07"><font><font>July</font></font>
-                                                        </option>
-                                                        <option value="08"><font><font>August</font></font>
-                                                        </option>
-                                                        <option value="09"><font><font>September</font></font>
-                                                        </option>
-                                                        <option value="10"><font><font>October</font></font>
-                                                        </option>
-                                                        <option value="11"><font><font>November</font></font>
-                                                        </option>
-                                                        <option value="12"><font><font>December</font></font>
-                                                        </option>
-                                                    </select> /
-                                                    <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromYear" class="select2" style="width:70px" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromYear', this.value);">
-                                                        <option value="0"><font><font>year</font></font>
-                                                        </option>
-                                                        <option selected="selected" value="2017">2017</option>
-                                                        <option value="2016">2016</option>
-                                                        <option value="2015">2015</option>
-                                                        <option value="2014">2014</option>
-                                                        <option value="2013">2013</option>
-                                                        <option value="2012">2012</option>
-                                                        <option value="2011">2011</option>
-                                                        <option value="2010">2010</option>
-                                                        <option value="2009">2009</option>
-                                                        <option value="2008">2008</option>
-                                                        <option value="2007">2007</option>
-                                                        <option value="2006">2006</option>
-                                                        <option value="2005">2005</option>
-                                                        <option value="2004">2004</option>
-                                                        <option value="2003">2003</option>
-                                                        <option value="2002">2002</option>
-                                                        <option value="2001">2001</option>
-                                                        <option value="2000">2000</option>
-                                                        <option value="1999">1999</option>
-                                                        <option value="1998">1998</option>
-                                                        <option value="1997">1997</option>
-                                                        <option value="1996">1996</option>
-                                                        <option value="1995">1995</option>
-                                                        <option value="1994">1994</option>
-                                                        <option value="1993">1993</option>
-                                                    </select>
+    <div class="container">
+      <ul class="breadcrumb">
+        <li class="completed"><a href="javascript:void(0);">Home</a></li>
+        <li><a href="javascript:void(0);">Lotto</a></li>
+      </ul>
 
-                                                </label>
-                                                <label for="">至 :
-                                                    <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToMonth" class="select2" style="width: 50px;" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToMonth', this.value);">
-                                                        <option value="0"><font><font>month</font></font>
-                                                        </option>
-                                                        <option value="01"><font><font>January</font></font>
-                                                        </option>
-                                                        <option value="02"><font><font>February</font></font>
-                                                        </option>
-                                                        <option value="03"><font><font>March</font></font>
-                                                        </option>
-                                                        <option selected="selected" value="04"><font><font>April</font></font>
-                                                        </option>
-                                                        <option value="05"><font><font>May</font></font>
-                                                        </option>
-                                                        <option value="06"><font><font>June</font></font>
-                                                        </option>
-                                                        <option value="07"><font><font>July</font></font>
-                                                        </option>
-                                                        <option value="08"><font><font>August</font></font>
-                                                        </option>
-                                                        <option value="09"><font><font>September</font></font>
-                                                        </option>
-                                                        <option value="10"><font><font>October</font></font>
-                                                        </option>
-                                                        <option value="11"><font><font>November</font></font>
-                                                        </option>
-                                                        <option value="12"><font><font>December</font></font>
-                                                        </option>
-                                                    </select> /
-                                                    <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToYear" class="select2" style="width:70px" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToYear', this.value);">
-                                                        <option value="0"><font><font>year</font></font>
-                                                        </option>
-                                                        <option selected="selected" value="2017"><font><font>2017</font></font>
-                                                        </option>
-                                                        <option value="2016"><font><font>2016</font></font>
-                                                        </option>
-                                                        <option value="2015"><font><font>2015</font></font>
-                                                        </option>
-                                                        <option value="2014"><font><font>2014</font></font>
-                                                        </option>
-                                                        <option value="2013"><font><font>2013</font></font>
-                                                        </option>
-                                                        <option value="2012"><font><font>2012</font></font>
-                                                        </option>
-                                                        <option value="2011"><font><font>2011</font></font>
-                                                        </option>
-                                                        <option value="2010"><font><font>2010</font></font>
-                                                        </option>
-                                                        <option value="2009"><font><font>2009</font></font>
-                                                        </option>
-                                                        <option value="2008"><font><font>2008</font></font>
-                                                        </option>
-                                                        <option value="2007"><font><font>2007</font></font>
-                                                        </option>
-                                                        <option value="2006"><font><font>2006</font></font>
-                                                        </option>
-                                                        <option value="2005"><font><font>2005</font></font>
-                                                        </option>
-                                                        <option value="2004"><font><font>2004</font></font>
-                                                        </option>
-                                                        <option value="2003"><font><font>2003</font></font>
-                                                        </option>
-                                                        <option value="2002"><font><font>2002</font></font>
-                                                        </option>
-                                                        <option value="2001"><font><font>2001</font></font>
-                                                        </option>
-                                                        <option value="2000"><font><font>2000</font></font>
-                                                        </option>
-                                                        <option value="1999"><font><font>1999</font></font>
-                                                        </option>
-                                                        <option value="1998"><font><font>1998</font></font>
-                                                        </option>
-                                                        <option value="1997"><font><font>1997</font></font>
-                                                        </option>
-                                                        <option value="1996"><font><font>1996</font></font>
-                                                        </option>
-                                                        <option value="1995"><font><font>1995</font></font>
-                                                        </option>
-                                                        <option value="1994"><font><font>1994</font></font>
-                                                        </option>
-                                                        <option value="1993"><font><font>1993</font></font>
-                                                        </option>
-                                                    </select>
-                                                </label>
+      <div class=" breadcrumb-content">
+        <div class="breadcrumb-inner ">
+          <div class="col-md-12">
+            <div class="panel with-nav-tabs">
+              <div class="panel-heading">
+                <ul class="nav nav-tabs">
+                  <li class="active"><a href="#tab1" data-toggle="tab">彩票游戏</a></li>
+                  <li><a href="#tab2" data-toggle="tab">单式注项</a></li>
+                  <li><a href="#tab3" data-toggle="tab">复式注项</a></li>
 
-                                            </form>
+                </ul>
+                <div class="border borderstyle" style="margin: 0;"></div>
+              </div>
+              <div class="panel-body">
+                <div class="tab-content">
 
-                                            <form action="" class="form-inline">
-                                                <span class="col-md-2 control-label">攪珠類別</span>
-                                                <label class="radio-inline">
+                  <div class="tab-pane fade in active" id="tab1">
+                    <div class="row">
+                      <div class="col-md-2 lotto-res">
+                        <img src="assets/img/lotto/side-banner.png" class="img-responsive" alt="">
+                      </div>
+                      <div class="col-md-10 lotto-res">
+                        <div class="tab-info">SA「48彩」每期是从1至48中选出六个号码為中奖号码。每天10:00 - 22:00 (GMT＋8 ) 每小时一期，开彩以自动搅珠机随机抽出，过程现场直播，并由美女主持读出中奖号码。</div>
+                        <div class="ballot-filter  ">
+                          <form class="form-inline">
+                            <span class="control-label">攪珠期數/日期 </span>
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio"> 攪珠期數:
+                                <select name="selectDrawID" id="selectDrawID" class="select2" style="width:50px" onchange="setRadio('radioDrawID');SetHiddenValue('hiddenSelectDrawID', this.value);">
+                                    <option value="1" disabled="">---</option>
+                                    <option value="5">5</option>
+                                    <option value="10">10</option>
+                                    <option value="20">20</option>
+                                    <option value="30">30</option>
+                                    <option value="1" disabled=""><font><font>---</font></font>
+                                    </option>
+                                    <option value="5"><font><font>5</font></font>
+                                    </option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10" selected=""><font><font>10</font></font>
+                                    </option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20"><font><font>20</font></font>
+                                    </option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30"><font><font>30</font></font>
+                                    </option>
+                                </select>
+                            </label>
+        <label class="radio-inline">
+                                <input type="radio" name="optradio">由 :
+                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromMonth" class="select2" style="width: 50px;" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromMonth', this.value);">
+                                    <option value="0"><font><font>month</font></font>
+                                    </option>
+                                    <option value="01"><font><font>January</font></font>
+                                    </option>
+                                    <option value="02"><font><font>February</font></font>
+                                    </option>
+                                    <option selected="selected" value="03"><font><font>March</font></font>
+                                    </option>
+                                    <option value="04"><font><font>April</font></font>
+                                    </option>
+                                    <option value="05"><font><font>May</font></font>
+                                    </option>
+                                    <option value="06"><font><font>June</font></font>
+                                    </option>
+                                    <option value="07"><font><font>July</font></font>
+                                    </option>
+                                    <option value="08"><font><font>August</font></font>
+                                    </option>
+                                    <option value="09"><font><font>September</font></font>
+                                    </option>
+                                    <option value="10"><font><font>October</font></font>
+                                    </option>
+                                    <option value="11"><font><font>November</font></font>
+                                    </option>
+                                    <option value="12"><font><font>December</font></font>
+                                    </option>
+                                </select> /
+                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromYear" class="select2" style="width:70px" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromYear', this.value);">
+                                    <option value="0"><font><font>year</font></font>
+                                    </option>
+                                    <option selected="selected" value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2000">2000</option>
+                                    <option value="1999">1999</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1995">1995</option>
+                                    <option value="1994">1994</option>
+                                    <option value="1993">1993</option>
+                                </select>
+
+                            </label>
+        <label for="">至 :
+                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToMonth" class="select2" style="width: 50px;" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToMonth', this.value);">
+                                    <option value="0"><font><font>month</font></font>
+                                    </option>
+                                    <option value="01"><font><font>January</font></font>
+                                    </option>
+                                    <option value="02"><font><font>February</font></font>
+                                    </option>
+                                    <option value="03"><font><font>March</font></font>
+                                    </option>
+                                    <option selected="selected" value="04"><font><font>April</font></font>
+                                    </option>
+                                    <option value="05"><font><font>May</font></font>
+                                    </option>
+                                    <option value="06"><font><font>June</font></font>
+                                    </option>
+                                    <option value="07"><font><font>July</font></font>
+                                    </option>
+                                    <option value="08"><font><font>August</font></font>
+                                    </option>
+                                    <option value="09"><font><font>September</font></font>
+                                    </option>
+                                    <option value="10"><font><font>October</font></font>
+                                    </option>
+                                    <option value="11"><font><font>November</font></font>
+                                    </option>
+                                    <option value="12"><font><font>December</font></font>
+                                    </option>
+                                </select> /
+                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToYear" class="select2" style="width:70px" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToYear', this.value);">
+                                    <option value="0"><font><font>year</font></font>
+                                    </option>
+                                    <option selected="selected" value="2017"><font><font>2017</font></font>
+                                    </option>
+                                    <option value="2016"><font><font>2016</font></font>
+                                    </option>
+                                    <option value="2015"><font><font>2015</font></font>
+                                    </option>
+                                    <option value="2014"><font><font>2014</font></font>
+                                    </option>
+                                    <option value="2013"><font><font>2013</font></font>
+                                    </option>
+                                    <option value="2012"><font><font>2012</font></font>
+                                    </option>
+                                    <option value="2011"><font><font>2011</font></font>
+                                    </option>
+                                    <option value="2010"><font><font>2010</font></font>
+                                    </option>
+                                    <option value="2009"><font><font>2009</font></font>
+                                    </option>
+                                    <option value="2008"><font><font>2008</font></font>
+                                    </option>
+                                    <option value="2007"><font><font>2007</font></font>
+                                    </option>
+                                    <option value="2006"><font><font>2006</font></font>
+                                    </option>
+                                    <option value="2005"><font><font>2005</font></font>
+                                    </option>
+                                    <option value="2004"><font><font>2004</font></font>
+                                    </option>
+                                    <option value="2003"><font><font>2003</font></font>
+                                    </option>
+                                    <option value="2002"><font><font>2002</font></font>
+                                    </option>
+                                    <option value="2001"><font><font>2001</font></font>
+                                    </option>
+                                    <option value="2000"><font><font>2000</font></font>
+                                    </option>
+                                    <option value="1999"><font><font>1999</font></font>
+                                    </option>
+                                    <option value="1998"><font><font>1998</font></font>
+                                    </option>
+                                    <option value="1997"><font><font>1997</font></font>
+                                    </option>
+                                    <option value="1996"><font><font>1996</font></font>
+                                    </option>
+                                    <option value="1995"><font><font>1995</font></font>
+                                    </option>
+                                    <option value="1994"><font><font>1994</font></font>
+                                    </option>
+                                    <option value="1993"><font><font>1993</font></font>
+                                    </option>
+                                </select>
+                            </label>
+
+                            <label class="radio-inline">
                                                     <input type="radio" name="optradio">全部
                                                 </label>
-                                                <label class="radio-inline">
+                            <label class="radio-inline">
                                                     <input type="radio" name="optradio">金多寶
                                                 </label>
-                                            </form>
-                                        </div>
+                                                <a href="#"><img src="assets/img/lotto/lotto-btn2.png" class="img-responsive" style="display: inline-block;" alt=""></a>
 
-                                        <div class="ballot-result col-xs-8 col-xs-offset-2">
-                                            <table class="table table-striped">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Ballot periods </th>
-                                                        <th>Ballot Date</th>
-                                                        <th>Golden Treasure Name</th>
-                                                        <th>Ballot results</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>17/047 </td>
-                                                        <td>25/04/2017</td>
-                                                        <td></td>
-                                                        <td><img src="assets/img/lotto/ball/1.png" class="img-responsive" alt="">
-                                                            <img src="assets/img/lotto/ball/2.png" class="img-responsive" alt="">
-                                                            <img src="assets/img/lotto/ball/3.png" class="img-responsive" alt="">
-                                                            <img src="assets/img/lotto/ball/4.png" class="img-responsive" alt="">
-                                                            <img src="assets/img/lotto/ball/5.png" class="img-responsive" alt="">
-                                                            <i class="fa fa-plus" aria-hidden="true"></i>
-                                                            <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt=""></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>17/046 </td>
-                                                        <td>22/04/2017</td>
-                                                        <td></td>
-                                                        <td><img src="assets/img/lotto/ball/1.png" class="img-responsive" alt="">
-                                                            <img src="assets/img/lotto/ball/2.png" class="img-responsive" alt="">
-                                                            <img src="assets/img/lotto/ball/3.png" class="img-responsive" alt="">
-                                                            <img src="assets/img/lotto/ball/4.png" class="img-responsive" alt="">
-                                                            <img src="assets/img/lotto/ball/5.png" class="img-responsive" alt="">
-                                                            <i class="fa fa-plus" aria-hidden="true"></i>
-                                                            <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt=""></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>17/045 </td>
-                                                        <td>18/04/2017</td>
-                                                        <td></td>
-                                                        <td>
-                                                            <img src="assets/img/lotto/ball/1.png" class="img-responsive" alt="">
-                                                            <img src="assets/img/lotto/ball/2.png" class="img-responsive" alt="">
-                                                            <img src="assets/img/lotto/ball/3.png" class="img-responsive" alt="">
-                                                            <img src="assets/img/lotto/ball/4.png" class="img-responsive" alt="">
-                                                            <img src="assets/img/lotto/ball/5.png" class="img-responsive" alt="">
-                                                            <i class="fa fa-plus" aria-hidden="true"></i>
-                                                            <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt="">
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
+                          </form>
 
-                                    <div class="tab-pane fade" id="tab2">
-                                      <div class="form-group">
-                                             <label class="col-xs-3 control-label">Date</label>
-                                             <div class="col-xs-5 date">
-                                                 <div id="embeddingDatePicker"></div>
-                                                 <input type="hidden" id="selectedDate" name="selectedDate" />
-                                             </div>
-                                         </div>
+                          <form action="" class="form-inline">
 
-                                    </div>
-                                    <div class="tab-pane fade" id="tab3">
-                                        从1至48中选取七个或以上不同号码，所选号码将组成每组由六个号码组成的所有可能的组合。
-                                    </div>
-                                    <div class="tab-pane fade" id="tab4">
-                                        在从1至48中选择最少七个号码，所选号码将组成每组由六个号码组成的所有可能的组合，作胆之号码将包括在每一注项中。
-                                    </div>
-                                    <div class="tab-pane fade" id="tab5">
-                                        先选择投注组合及注项数目，再按"运财号码" ，系统便会随机选出号码组合。
-                                    </div>
-                                    <div class="tab-pane fade" id="tab6">
-                                        当期开彩六个号码球的顏色、单双数及大小作出投注。
-                                    </div>
-                                </div>
-                            </div>
+                          </form>
                         </div>
+
+                        <div class="ballot-result">
+                          <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th>期数 </th>
+                                <th>搅珠日期</th>
+                                <th>搅珠结果</th>
+                                <th>视频回话</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>17/047 </td>
+                                <td>25/04/2017</td>
+
+                                <td><img src="assets/img/lotto/ball/1.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/2.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/3.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/4.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/5.png" class="img-responsive" alt="">
+                                  <i class="fa fa-plus" aria-hidden="true"></i>
+                                  <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt=""></td>
+                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+                              </tr>
+                              <tr>
+                                <td>17/046 </td>
+                                <td>22/04/2017</td>
+
+                                <td><img src="assets/img/lotto/ball/4.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/5.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/7.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/8.png" class="img-responsive" alt="">
+                                  <i class="fa fa-plus" aria-hidden="true"></i>
+                                  <img src="assets/img/lotto/ball/9.png" class="img-responsive" alt=""></td>
+                                  <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+
+                              </tr>
+                              <tr>
+                                <td>17/045 </td>
+                                <td>18/04/2017</td>
+
+                                <td>
+                                  <img src="assets/img/lotto/ball/10.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/11.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/12.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/13.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/14.png" class="img-responsive" alt="">
+                                  <i class="fa fa-plus" aria-hidden="true"></i>
+                                  <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt="">
+                                </td>
+                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+
+                              </tr>
+                              <tr>
+                                <td>17/045 </td>
+                                <td>18/04/2017</td>
+
+                                <td>
+                                  <img src="assets/img/lotto/ball/10.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/11.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/12.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/13.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/14.png" class="img-responsive" alt="">
+                                  <i class="fa fa-plus" aria-hidden="true"></i>
+                                  <img src="assets/img/lotto/ball/15.png" class="img-responsive" alt="">
+                                </td>
+                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+
+                              </tr>
+                              <tr>
+                                <td>17/045 </td>
+                                <td>18/04/2017</td>
+
+                                <td>
+                                  <img src="assets/img/lotto/ball/16.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/17.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/18.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/19.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/20.png" class="img-responsive" alt="">
+                                  <i class="fa fa-plus" aria-hidden="true"></i>
+                                  <img src="assets/img/lotto/ball/21.png" class="img-responsive" alt="">
+                                </td>
+                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+
+                              </tr>
+                              <tr>
+                                <td>17/045 </td>
+                                <td>18/04/2017</td>
+
+                                <td>
+                                  <img src="assets/img/lotto/ball/22.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/23.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/24.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/25.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/26.png" class="img-responsive" alt="">
+                                  <i class="fa fa-plus" aria-hidden="true"></i>
+                                  <img src="assets/img/lotto/ball/27.png" class="img-responsive" alt="">
+                                </td>
+                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+
+                              </tr>
+                              <tr>
+                                <td>17/045 </td>
+                                <td>18/04/2017</td>
+
+                                <td>
+                                  <img src="assets/img/lotto/ball/28.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/29.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/30.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/31.png" class="img-responsive" alt="">
+                                  <img src="assets/img/lotto/ball/32.png" class="img-responsive" alt="">
+                                  <i class="fa fa-plus" aria-hidden="true"></i>
+                                  <img src="assets/img/lotto/ball/33.png" class="img-responsive" alt="">
+                                </td>
+                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+
+                              </tr>
+
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="tab2">
+                    <div class="row">
+                    <div class="col-md-2 lotto-res">
+                      <img src="assets/img/lotto/side-banner.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-md-10 lotto-res">
+                    <div id="calendar">
+                      <h1>October</h1>
+                      <table>
+                        <tr>
+                          <td class="lastmonth">30</td>
+                          <td>1</td>
+                          <td>2</td>
+                          <td>3</td>
+                          <td class="hastask">4</td>
+                          <td>5</td>
+                          <td>6</td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td class="current">8</td>
+                          <td class="hastask">9</td>
+                          <td>10</td>
+                          <td>11</td>
+                          <td class="hastask">12</td>
+                          <td>13</td>
+                        </tr>
+                        <tr>
+                          <td>14</td>
+                          <td class="hastask">15</td>
+                          <td>16</td>
+                          <td>17</td>
+                          <td>18</td>
+                          <td>19</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <td class="hastask">21</td>
+                          <td>22</td>
+                          <td>23</td>
+                          <td>24</td>
+                          <td>25</td>
+                          <td class="hastask">26</td>
+                          <td>27</td>
+                        </tr>
+                        <tr>
+                          <td>28</td>
+                          <td>29</td>
+                          <td class="hastask">30</td>
+                          <td>31</td>
+                          <td class="nextmonth">1</td>
+                          <td>2</td>
+                          <td>3</td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                  </div>
+
+                  </div>
+                  <div class="tab-pane fade" id="tab3">
+                    <div class="row">
+                    <div class="col-md-2 lotto-res">
+                      <img src="assets/img/lotto/side-banner.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-md-10 lotto-res">
+
+                    <div class="lotto-desc">彩票游戏</div>
+                    <div class="lotto-desc-p"> SA「48彩」每期是从1至48中选出六个号码為中奖号码。每天10:00 - 22:00 (GMT＋8 ) 每小时一期，开彩以自动搅珠机随机抽出，过程现场直播，并由美女主持读出中奖号码。
                     </div>
 
+
+                    <div class="lotto-desc">单式注项</div>
+                    <div class="lotto-desc-p"> 从1至48中选取六个不同号码，每一单式注项為一次机会。
+                    </div>
+
+
+                    <div class="lotto-desc">复式注项</div>
+                    <div class="lotto-desc-p"> 从1至48中选取七个或以上不同号码，所选号码将组成每组由六个号码组成的所有可能的组合。
+                    </div>
+
+
+                    <div class="lotto-desc">胆拖注项</div>
+                    <div class="lotto-desc-p"> 在从1至48中选择最少七个号码，所选号码将组成每组由六个号码组成的所有可能的组合，作胆之号码将包括在每一注项中。
+                    </div>
+
+
+                    <div class="lotto-desc">运财号码</div>
+                    <div class="lotto-desc-p"> 先选择投注组合及注项数目，再按"运财号码" ，系统便会随机选出号码组合。
+
+                    </div>
+
+                    <div class="lotto-desc">其他玩法</div>
+                    <div class="lotto-desc-p"> 当期开彩六个号码球的顏色、单双数及大小作出投注。
+                    </div>
+                  </div>
                 </div>
+              </div>
+
+
+                </div>
+              </div>
             </div>
+          </div>
 
         </div>
+      </div>
 
-        <div class="container">
-            <div class="border borderstyle"></div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="addbanner col-md-6 col-xs-12">
+          <img src="assets/img/ads/casino.png" class="img-responsive" alt="">
         </div>
-        <div class="winner  container">
+        <div class="addbanner col-md-6 col-xs-12">
+          <img src="assets/img/ads/slot.png" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
 
-            <div class="col-md-4 col-xs-12">
-                <div class="winner-cont">
-                    <div class="win-title">Latest Winners
+    <div class="container">
+      <div class="border borderstyle"></div>
+    </div>
+    <div class="winner  container">
 
-                    </div>
-                    <div class="win-body">
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="user">
-                                    csdz**6
-                                    <span class="slotgame">Slot - South America Club</span>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="user">
-                                    csdz**6
-                                    <span class="slotgame">Slot - South America Club</span>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="user">
-                                    csdz**6
-                                    <span class="slotgame">Slot - South America Club</span>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="user">
-                                    csdz**6
-                                    <span class="slotgame">Slot - South America Club</span>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="col-md-4 col-xs-12">
+        <div class="winner-cont">
+          <div class="win-title">Latest Winners
+
+          </div>
+          <div class="win-body">
+            <div class="win-lot">
+              <div class="col-md-7 col-xs-7">
+                <div class="user">
+                  csdz**6
+                  <span class="slotgame">Slot - South America Club</span>
                 </div>
+              </div>
+              <div class="col-md-5 col-xs-5">
+                <div class="prizepool">¥562,500.00</div>
+              </div>
+            </div>
+            <div class="win-lot">
+              <div class="col-md-7 col-xs-7">
+                <div class="user">
+                  csdz**6
+                  <span class="slotgame">Slot - South America Club</span>
+                </div>
+              </div>
+              <div class="col-md-5 col-xs-5">
+                <div class="prizepool">¥562,500.00</div>
+              </div>
+            </div>
+            <div class="win-lot">
+              <div class="col-md-7 col-xs-7">
+                <div class="user">
+                  csdz**6
+                  <span class="slotgame">Slot - South America Club</span>
+                </div>
+              </div>
+              <div class="col-md-5 col-xs-5">
+                <div class="prizepool">¥562,500.00</div>
+              </div>
+            </div>
+            <div class="win-lot">
+              <div class="col-md-7 col-xs-7">
+                <div class="user">
+                  csdz**6
+                  <span class="slotgame">Slot - South America Club</span>
+                </div>
+              </div>
+              <div class="col-md-5 col-xs-5">
+                <div class="prizepool">¥562,500.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-xs-12">
+        <div class="winner-cont">
+          <div class="win-title">Top Games
+
+          </div>
+          <div class="win-body">
+            <div class="win-lot">
+              <div class="col-md-7 col-xs-7">
+                <div class="win-game">
+                  <img src="assets/img/game/1.png" class="img-responsive" alt="">
+                </div>
+              </div>
+              <div class="col-md-5 col-xs-5">
+                <div class="prizepool">¥562,500.00</div>
+              </div>
+            </div>
+            <div class="win-lot">
+              <div class="col-md-7 col-xs-7">
+                <div class="win-game">
+                  <img src="assets/img/game/2.png" class="img-responsive" alt="">
+                </div>
+              </div>
+              <div class="col-md-5 col-xs-5">
+                <div class="prizepool">¥562,500.00</div>
+              </div>
+            </div>
+            <div class="win-lot">
+              <div class="col-md-7 col-xs-7">
+                <div class="win-game">
+                  <img src="assets/img/game/3.png" class="img-responsive" alt="">
+                </div>
+              </div>
+              <div class="col-md-5 col-xs-5">
+                <div class="prizepool">¥562,500.00</div>
+              </div>
+            </div>
+            <div class="win-lot">
+              <div class="col-md-7 col-xs-7">
+                <div class="win-game">
+                  <img src="assets/img/game/4.png" class="img-responsive" alt="">
+                </div>
+              </div>
+              <div class="col-md-5 col-xs-5">
+                <div class="prizepool">¥562,500.00</div>
+              </div>
             </div>
 
-            <div class="col-md-4 col-xs-12">
-                <div class="winner-cont">
-                    <div class="win-title">Top Games
+          </div>
+        </div>
+      </div>
 
-                    </div>
-                    <div class="win-body">
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="win-game">
-                                    <img src="assets/img/game/1.png" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="win-game">
-                                    <img src="assets/img/game/2.png" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="win-game">
-                                    <img src="assets/img/game/3.png" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="win-game">
-                                    <img src="assets/img/game/4.png" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-
-                    </div>
+      <div class="col-md-4 col-xs-12">
+        <div class="winner-cont">
+          <div class="contact-title">
+            Contact Us
+          </div>
+          <div class="contactus">
+            <div class="win-body">
+              <div class="win-cs ">
+                <div class="col-md-3 col-xs-3">
+                  <div class="c-icon">
+                    <img src="assets/img/phone.png" class="img-responsive" alt="">
+                  </div>
                 </div>
+                <div class="col-md-9 col-xs-9">
+                  <div class="c-text">
+                    400 Hotline: <span>400 120 3188</span>
+                    <br> International Hotline: <span>+853 6284 6284</span>
+                    <br> Philippines Hotline: <span>+63 9177 998 899</span>
+                  </div>
+                </div>
+
+              </div>
             </div>
 
-            <div class="col-md-4 col-xs-12">
-                <div class="winner-cont">
-                    <div class="contact-title">
-                        Contact Us
-                    </div>
-                    <div class="contactus">
-                        <div class="win-body">
-                            <div class="win-cs ">
-                                <div class="col-md-3 col-xs-3">
-                                    <div class="c-icon">
-                                        <i class="fa fa-phone" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                                <div class="col-md-9 col-xs-9">
-                                    <div class="c-text">
-                                        400 Hotline: <span>400 120 3188</span>
-                                        <br> International Hotline: <span>+853 6284 6284</span>
-                                        <br> Philippines Hotline: <span>+63 9177 998 899</span>
-                                    </div>
-                                </div>
+            <div class="win-body">
+              <div class="win-cs">
+                <div class="col-md-3 col-xs-3">
+                  <div class="c-icon cmail">
+                    <img src="assets/img/email.png" class="img-responsive" alt="">
 
-                            </div>
-                        </div>
-
-                        <div class="win-body">
-                            <div class="win-cs">
-                                <div class="col-md-3 col-xs-3">
-                                    <div class="c-icon cmail">
-                                        <i class="fa fa-envelope" aria-hidden="true"></i>
-
-                                    </div>
-                                </div>
-                                <div class="col-md-9 col-xs-9">
-                                    <div class="c-text ctmail">
-                                        Email: <span>cs@saloncs.com</span>
-
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="win-body">
-                            <div class="win-cs">
-                                <div class="col-md-3 col-xs-3">
-                                    <div class="c-icon cmail">
-                                        <i class="fa fa-comments" aria-hidden="true"></i>
-
-                                    </div>
-                                </div>
-                                <div class="col-md-9 col-xs-9">
-                                    <div class="c-text ctmail">
-                                        QQ Live Support: <span>392661199 | 382662200</span>
-
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
+                  </div>
                 </div>
+                <div class="col-md-9 col-xs-9">
+                  <div class="c-text ctmail">
+                    Email: <span>cs@saloncs.com</span>
+
+                  </div>
+                </div>
+
+              </div>
+
             </div>
+            <div class="win-body">
+              <div class="win-cs">
+                <div class="col-md-3 col-xs-3">
+                  <div class="c-icon cmail">
+                    <img src="assets/img/qq.png" class="img-responsive" alt="">
+
+                  </div>
+                </div>
+                <div class="col-md-9 col-xs-9">
+                  <div class="c-text ctmail">
+                    QQ Live Support: <span>392661199 | 382662200</span>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer>
+    <div class="footer">
+
+      <div class="container">
+        <div class="footer-icon f-social">
+          <img src="assets/img/footer/logo.png" class="img-responsive" alt="">
+          <img src="assets/img/footer/g1.png" class="img-responsive" alt="">
+          <img src="assets/img/footer/g2.png" class="img-responsive" alt="">
+          <img src="assets/img/footer/g3.png" class="img-responsive" alt="">
+          <img src="assets/img/footer/g4.png" class="img-responsive" alt="">
         </div>
 
-    </main>
-    <footer>
-        <div class="footer">
-            <div class="border"></div>
-            <div class="container">
-                <div class="footer-icon">
-                    <img src="assets/img/footer/logo.png" class="img-responsive" alt="">
-                    <img src="assets/img/footer/g1.png" class="img-responsive" alt="">
-                    <img src="assets/img/footer/g2.png" class="img-responsive" alt="">
-                    <img src="assets/img/footer/g3.png" class="img-responsive" alt="">
-                    <img src="assets/img/footer/g4.png" class="img-responsive" alt="">
-                </div>
+        <div class="col-md-6">
+          <div class="footer-services  ">
+            <h4>关注</h4>
+            <ul class="columns f-social">
+              <li><img src="assets/img/footer/tencent.png" class="img-responsive" alt=""></li>
+              <li><img src="assets/img/footer/youtube.png" class="img-responsive" alt=""></li>
+              <li><img src="assets/img/footer/weibo.png" class="img-responsive" alt=""></li>
+              <li><img src="assets/img/footer/google.png" class="img-responsive" alt=""></li>
+              <li><img src="assets/img/footer/fb.png" class="img-responsive" alt=""></li>
+              <li><img src="assets/img/footer/twitter.png" class="img-responsive" alt=""></li>
 
-                <div class="col-md-6">
-                    <div class="footer-services">
-                        <h4>Services</h4>
-                        <ul class="columns">
-                            <li>About</li>
-                            <li>How to register</li>
-                            <li>Promotions</li>
-                            <li>Deposit/Withdraw/Transfer</li>
-                            <li>Contact us</li>
-                            <li>Questionnaire</li>
-                            <li>Activities</li>
-                            <li>Sitemap</li>
-                        </ul>
-                        <h4>Products</h4>
-                        <ul class="columns">
-                            <li>Slots</li>
-                            <li>Live Dealer</li>
-                            <li>Sportsbook</li>
-                            <li>Sbaby</li>
-                            <li>Mobile Betting</li>
-                        </ul>
-                        <p>
-                            《沙龙会》属于《沙龙国际》集团官方直营，《沙龙国际》居于亚洲领先地位，一直聚焦亚洲市场。沙龙会/沙龙国际第一品牌 -- 《沙龙会》成立于2009年，拥有菲律宾合法运营执照，由菲律宾共和国政府授权非常公平公正。《沙龙会现金网》官方网址：www.S36.com ＆ www.S36.net、还有www.saloncs.com、www.clubs88.com 及 www.saloncs88.com，立即咨询《沙龙会》客服中心有更多稳定的《沙龙会》官方备用网址。《沙龙会》主要网上娱乐型产品有真人游戏共 有：SA平台、AG平台、ALLBET平台、BBin平台、HG平台、OPUS平台、GP平台、GD平台等亚洲知名完美顺畅的真人平台，带来不一样的线上真人娱乐体验、电子类游戏共有：SA Gaming平台、1S平台、Qtech平台、Betsoft Gaming平台、PlaynGO平台、BBin平台、Opus Gaming平台等优质国际水准平台，瞬间即可享受丰富的精选游戏、《沙龙会体育》以体育赛事设定精彩选项，涵盖欧洲冠军联赛(简称欧冠)、英格兰超级足 球联赛(简称英超)、西班牙甲级足球联赛(简称西甲)、义大利甲组足球联赛(简称意甲)、德国甲级足球联赛(简称德甲)、美国职业篮球联赛(简称 NBA)，用的是稳定性更强的利记平台和IM平台这两个专业权威平台。《沙龙会》为了持续提升品牌形象，在2016年沙龙会与瓦伦西亚俱乐部签订了合作关 係，《沙龙会》正式成为瓦伦西亚俱乐部亚洲地区官方合作伙伴。《沙龙会》全球品牌形象代言人为“麦迪 T-MAC”(前NBA巨星级偶像球员)。《沙龙会》为广大玩家提供海量优惠如下：沙龙会真人游戏优惠、沙龙会电子游戏优惠、沙龙会体育优惠。《沙龙会手 机版/移动版》随时随地随处玩乐。《沙龙会》在亚洲拥有超过20万忠实玩家并提供多种语言供玩家选择。沙龙会游戏众多、服务优良、存取快速、优惠丰厚、信 誉一流、实力显赫，要玩就玩沙龙会！一分钟开户，百份百精彩！另外《沙龙会》以体育赛事为主题的体育网站《沙龙会体育》。《沙龙会体育 -www.saloncs.info》内容囊括最新体育新闻、最快足球比分及篮球比分、最全体育赛事直播、最精彩体育视频、最好玩有奖体育竞猜，一应俱全体育爱好者广受欢迎。
 
-                        </p>
-                    </div>
-                </div>
+            </ul>
+            <h4>公司简介 </h4>
 
-                <div class="col-md-6">
-                    <div class="footer-gameprovider">
-                        <h4>Game Providers</h4>
-                        <div class="gameprovider">
-                            <img src="assets/img/footer/gp.png" class="img-responsive" alt="">
-                        </div>
-                        <h4>Responsible Gaming</h4>
-                        <div class="gameprovider">
-                            <img src="assets/img/footer/rg.png" class="img-responsive" alt="">
-                        </div>
-                        <h4>Browser</h4>
-                        <div class="gameprovider">
-                            <img src="assets/img/footer/browser.png" class="img-responsive" alt="">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            <p>
+              沙龙会营运总部位于菲律宾的核心金融商业中心马卡蒂市，并获得菲律宾第一卡加延休闲度假公 司 First Cagayan Leisure and Resort Corporation (简称 FCLRC) 签发授权的网上博彩牌照， 博彩网站的运作流程均受之严格监督与管理，所有博彩游戏都经过第三方软件测试机构GLI及 BMM的国际认证，保证每一款博彩游戏的公平、公正性。证明博彩游戏及博彩服务均符合相关 的规定及法律要求，绝对是玩家们值得信赖、具有实力及专业的线上博彩娱乐品牌。
+            </p>
+          </div>
         </div>
-        <div class="copyright">
-            <div class="container text-center">
-                <img src="assets/img/footer/f-logo.png" class="img-responsive" alt="">
-                <span>Salon International Copyright &copy; 2009 - 2017</span>
+
+        <div class="col-md-6">
+          <div class="footer-gameprovider">
+            <h4>信息</h4>
+            <div class="gameprovider footer-services f-right">
+              <ul class="columns">
+                <li>关於我们</li>
+                <li>重要公告</li>
+                <li>博彩规则</li>
+                <li>使用条款</li>
+                <li>负责任博彩</li>
+                <li>隐私政策</li>
+              </ul>
             </div>
+
+            <h4>产品 </h4>
+            <div class="gameprovider footer-services f-right">
+              <ul class="columns">
+                <li>选择地区</li>
+                <li>娱乐场</li>
+                <li>老虎机</li>
+                <li>彩票 </li>
+                <li>优惠</li>
+                <li>赢家</li>
+              </ul>
+            </div>
+            <h4>服务</h4>
+
+            <div class="gameprovider footer-services f-right">
+              <ul class="columns">
+                <li>会员注册 </li>
+                <li>会员登入</li>
+                <li>联络我们</li>
+                <li>如何注册</li>
+                <li>如何存款 </li>
+                <li>如何提款 </li>
+                <li>如何清除缓存 </li>
+                <li>如何启用弹窗 </li>
+                <li>防刧持工具 </li>
+              </ul>
+            </div>
+
+
+            <h4>监管及认証</h4>
+
+            <div class="gameprovider footer-services f-right f-social">
+              <ul class="columns">
+                <li><img src="assets/img/footer/cert1.png" alt="" class="img-responisve"> </li>
+                <li><img src="assets/img/footer/cert2.png" alt="" class="img-responisve"></li>
+                <li><img src="assets/img/footer/cert3.png" alt="" class="img-responisve"></li>
+                <li><img src="assets/img/footer/cert4.png" alt="" class="img-responisve"></li>
+
+              </ul>
+            </div>
+            <div class="fsalon">
+              <h4>游戏平台</h4>
+              <h4 style="margin-left: 40px;"> 沙龙国际官方直营</h4>
+            </div>
+
+
+            <div class="gameprovider footer-services f-right f-social">
+              <ul class="columns">
+                <li><img src="assets/img/footer/sagaming.png" alt="" class="img-responisve"> </li>
+                <li><img src="assets/img/footer/ssalon.png" alt="" class="img-responisve"></li>
+
+              </ul>
+            </div>
+            <h4>浏览器</h4>
+
+            <div class="gameprovider footer-services f-right f-social">
+              <ul class="columns">
+                <li><img src="assets/img/footer/browser.png" alt="" class="img-responisve"> </li>
+
+              </ul>
+            </div>
+          </div>
         </div>
-    </footer>
-    <!-- Bootstrap core JavaScript
+
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container text-center">
+        <img src="assets/img/footer/f-logo.png" class="img-responsive" alt="">
+        <span>沙龙国际版权所有 &copy; 2009 - 2017</span>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https:////cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')
-    </script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="dist/js/bootstrap-slider.js"></script>
-    <script src="dist/js/font-awesome.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/countUp.js"></script>
-    <script>
-$(document).ready(function() {
-    $('#embeddingDatePicker')
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')
+  </script>
+  <script src="dist/js/bootstrap.min.js"></script>
+  <script src="dist/js/bootstrap-slider.js"></script>
+  <script src="dist/js/font-awesome.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/countUp.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#embeddingDatePicker')
         .datepicker({
-            format: 'mm/dd/yyyy'
+          format: 'mm/dd/yyyy'
         })
         .on('changeDate', function(e) {
-            // Set the value for the date input
-            $("#selectedDate").val($("#embeddingDatePicker").datepicker('getFormattedDate'));
+          // Set the value for the date input
+          $("#selectedDate").val($("#embeddingDatePicker").datepicker('getFormattedDate'));
 
-            // Revalidate it
-            $('#eventForm').formValidation('revalidateField', 'selectedDate');
+          // Revalidate it
+          $('#eventForm').formValidation('revalidateField', 'selectedDate');
         });
 
-    $('#eventForm').formValidation({
+      $('#eventForm').formValidation({
         framework: 'bootstrap',
         icon: {
-            valid: 'glyphicon glyphicon-ok',
-            invalid: 'glyphicon glyphicon-remove',
-            validating: 'glyphicon glyphicon-refresh'
+          valid: 'glyphicon glyphicon-ok',
+          invalid: 'glyphicon glyphicon-remove',
+          validating: 'glyphicon glyphicon-refresh'
         },
         fields: {
-            name: {
-                validators: {
-                    notEmpty: {
-                        message: 'The name is required'
-                    }
-                }
-            },
-            selectedDate: {
-                // The hidden input will not be ignored
-                excluded: false,
-                validators: {
-                    notEmpty: {
-                        message: 'The date is required'
-                    },
-                    date: {
-                        format: 'MM/DD/YYYY',
-                        message: 'The date is not a valid'
-                    }
-                }
+          name: {
+            validators: {
+              notEmpty: {
+                message: 'The name is required'
+              }
             }
+          },
+          selectedDate: {
+            // The hidden input will not be ignored
+            excluded: false,
+            validators: {
+              notEmpty: {
+                message: 'The date is required'
+              },
+              date: {
+                format: 'MM/DD/YYYY',
+                message: 'The date is not a valid'
+              }
+            }
+          }
         }
+      });
     });
-});
-</script>
-    <script>
-        var forEach = function(t, o, r) {
-            if ("[object Object]" === Object.prototype.toString.call(t))
-                for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
-            else
-                for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
-        };
+  </script>
+  <script>
+    var forEach = function(t, o, r) {
+      if ("[object Object]" === Object.prototype.toString.call(t))
+        for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
+      else
+        for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
+    };
 
-        var hamburgers = document.querySelectorAll(".hamburger");
-        if (hamburgers.length > 0) {
-            forEach(hamburgers, function(hamburger) {
-                hamburger.addEventListener("click", function() {
-                    this.classList.toggle("is-active");
-                }, false);
-            });
-        }
-    </script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    var hamburgers = document.querySelectorAll(".hamburger");
+    if (hamburgers.length > 0) {
+      forEach(hamburgers, function(hamburger) {
+        hamburger.addEventListener("click", function() {
+          this.classList.toggle("is-active");
+        }, false);
+      });
+    }
+  </script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
 </body>
 
