@@ -434,7 +434,7 @@ footer .footer-services ul.columns>li {
 }
 
 footer .f-social ul.columns > li {
-    list-style-type: none!important;
+    list-style-type: none!;
 }
 
 footer .footer-services ul.columns>li:before {
@@ -1549,4 +1549,35 @@ input[type=radio] {
     margin-bottom: 5px;
     color: #ffffff;
     margin-left: 20PX;
+}
+.breadcrumb-inner .sel{
+  margin-top: 15px;
+}
+.breadcrumb-inner .sel{
+  margin-top: 25px;
+}
+.breadcrumb-inner select  {
+    height: 40px;
+    color: #c4c4c4;
+    border: solid 1px #333;
+    border-radius: 0;
+    background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
+        background-repeat: repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    background-size: 15% 100%;
+
+}
+.breadcrumb-inner select{
+  appearance: none;
+-moz-appearance: none;
+-webkit-appearance: none;
+
+}
+.breadcrumb-inner select option {
+    color: #c4c4c4;
+    background: #fff;
 }

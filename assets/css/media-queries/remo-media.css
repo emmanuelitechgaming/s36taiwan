@@ -92,12 +92,7 @@
     width: 100%;
   }
 
-  #calendar td{
-    display: inline-block;
-    width: 14.285714285%;
-    height: 38px;
-    padding: 8px 0 5px;
-  }
+
 
   #tab2 .lotto-desc {
     padding: 0;
