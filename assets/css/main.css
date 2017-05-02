@@ -35,6 +35,12 @@ header .logo {
 .btn-mobile:first-child {
     border-right: 1px solid #000;
 }
+.cta-seemore{
+  position: absolute;
+bottom: 112px;
+right: 25px;
+
+}
 
 .btn-mobile a {
     color: #FFB300;
@@ -815,7 +821,7 @@ div.border:before {
 
 .quick .tab {
     padding: 8px;
-    background: rgb(42, 42, 42);
+    background: rgb(16, 16, 16);
     color: #fff;
 }
 
@@ -1556,6 +1562,12 @@ input[type=radio] {
 .breadcrumb-inner .sel{
   margin-top: 25px;
 }
+
+.breadcrumb-inner .sela{
+  margin-bottom: 15px;
+margin-top: 28px;
+
+}
 .breadcrumb-inner select  {
     height: 40px;
     color: #c4c4c4;
@@ -1582,6 +1594,40 @@ input[type=radio] {
     background: #fff;
 }
 
+
 .no-bullet{
   list-style: none
+
+.cs-country{
+  padding: 3px 0;
+}
+.cs-country .cs-head{
+  overflow: hidden;
+    border-bottom: 1px solid #cacaca;
+    padding: 5px;
+}
+.cs-country:nth-child(odd){
+background:#ffffff;
+}
+.cs-country .cs-flag{
+  color: #1b283c;
+}
+.cs-country .cs-site{
+  color: #8e8e8e;
+}
+.cs-country .cs-content{
+  overflow: hidden;
+   padding: 5px;
+   color: #1b283c;
+
+}
+.cs-content .cta-cs{
+    margin: 30px 0;
+}
+.cs-content .cta-cs a{
+  background: #ffb013;
+  padding: 5px 40px;
+  color: #000;
+  text-decoration: none;
+
 }
