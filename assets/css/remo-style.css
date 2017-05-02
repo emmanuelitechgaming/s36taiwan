@@ -47,17 +47,48 @@
   margin-left: -3%;
 }
 
-.ballot-filter-div{
-  display: inline-block;
-  width: 19%
-}
-
 #tab2 .checkbox-inline, .radio-inline{
   padding-left: 0;
 }
 
 .ballot-filter label {
   margin: 0;
+}
+
+.ballot-filter label{
+  display: block;
+  width: 100%
+}
+
+.ballot-filter label {
+  margin: 5% 0;
+  padding-left: 10%
+}
+
+.ballot-filter input[type=radio]{
+  margin-left: -10%;
+  margin-top: 3.5%
+}
+
+.selectid, .selectfromyear, .selectfrommonth{
+  height: auto !important;
+  padding: 5px;
+}
+
+.selectid{
+  display: block;
+  width: 50%;
+  background-size: 25% 100% !important
+}
+
+.selectfromyear{
+  width:35%;
+  background-size: 35% 100% !important
+}
+
+.selectfrommonth{
+  width: 35%;
+  background-size: 35% 100% !important
 }
 
 .ballot-result th{
