@@ -92,6 +92,18 @@ margin: 0px 50px auto;
     margin-bottom: -20px;
 }
 
+.footer-img-m{
+  padding-right: 15px
+}
+
+.footer-img-m img{
+  width: 95%;
+}
+
+.footer-img-m .col-xs-12 img{
+  width: 50%
+}
+
 
     }
 
@@ -190,5 +202,11 @@ top: -21px;
 border-radius: 0;
 
 
+}
+
+
+.fsalon div:last-child{
+  width: 40%;
+  margin-left: -5%
 }
     }

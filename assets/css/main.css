@@ -1593,6 +1593,11 @@ margin-top: 28px;
     color: #c4c4c4;
     background: #fff;
 }
+
+
+.no-bullet{
+  list-style: none
+
 .cs-country{
   padding: 3px 0;
 }
@@ -1624,4 +1629,5 @@ background:#ffffff;
   padding: 5px 40px;
   color: #000;
   text-decoration: none;
+
 }
