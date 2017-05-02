@@ -175,7 +175,7 @@
                             <div class="ballot-filter-div">
                               <label class="radio-inline">
                                 <input type="radio" name="optradio"> <span class="hidden-sm hidden-xs">攪珠期數:</span>
-                                <select name="selectDrawID" id="selectDrawID" class="select2" onchange="setRadio('radioDrawID');SetHiddenValue('hiddenSelectDrawID', this.value);">
+                                <select name="selectDrawID" id="selectDrawID" class="select2 selectid" onchange="setRadio('radioDrawID');SetHiddenValue('hiddenSelectDrawID', this.value);">
                                     <option value="1" disabled="">---</option>
                                     <option value="5">5</option>
                                     <option value="10">10</option>
@@ -218,8 +218,8 @@
                             </div>
                             <div class="ballot-filter-div">
                               <label class="radio-inline">
-                                <input type="radio" name="optradio">由 :
-                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromMonth" class="select2" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromMonth', this.value);">
+                                <input type="radio" name="optradio"><span>由 : </span>
+                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromMonth" class="select2 selectfrommonth" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromMonth', this.value);">
                                     <option value="0"><font><font>month</font></font>
                                     </option>
                                     <option value="01"><font><font>January</font></font>
@@ -247,7 +247,7 @@
                                     <option value="12"><font><font>December</font></font>
                                     </option>
                                 </select> /
-                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromYear" class="select2" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromYear', this.value);">
+                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromYear" class="select2 selectfromyear" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromYear', this.value);">
                                     <option value="0"><font><font>year</font></font>
                                     </option>
                                     <option selected="selected" value="2017">2017</option>
@@ -280,7 +280,7 @@
                             </div>
                             <div class="ballot-filter-div">
                               <label for="">至 :
-                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToMonth" class="select2" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToMonth', this.value);">
+                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToMonth" class="select2 selectfrommonth" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToMonth', this.value);">
                                     <option value="0"><font><font>Month</font></font>
                                     </option>
                                     <option value="01"><font><font>January</font></font>
@@ -308,7 +308,7 @@
                                     <option value="12"><font><font>December</font></font>
                                     </option>
                                 </select> /
-                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToYear" class="select2" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToYear', this.value);">
+                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToYear" class="select2 selectfromyear" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToYear', this.value);">
                                     <option value="0"><font><font>year</font></font>
                                     </option>
                                     <option selected="selected" value="2017"><font><font>2017</font></font>

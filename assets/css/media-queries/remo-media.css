@@ -139,6 +139,54 @@
   .footer-social-d{
     display: inline-block;
   }
+
+  .ballot-filter-div{
+    display: inline-block;
+    width: 19%
+  }
+
+  .ballot-filter-div:nth-child(1){
+    display: inline-block;
+    width: 13%
+  }
+
+  .ballot-filter-div:nth-child(3){
+    display: inline-block;
+    width: 25%
+  }
+
+  .ballot-filter label{
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .breadcrumb-inner #tab1 select{
+    height: auto;
+    padding: 5px;
+  }
+
+  .selectid{
+    display: inline-block;
+    margin-left: 0;
+    width: 50px;
+    background-size: 35% 100% !important;
+  }
+
+  .selectfrommonth{
+    width: 90px;
+    background-size: 19% 100% !important
+  }
+
+  .selectfromyear{
+    width: 55px;
+    background-size: 29% 100% !important
+  }
+
+  .ballot-filter input[type=radio]{
+    margin-top: 7px;
+  }
 }
 
 /* Large Devices, Wide Screens */
