@@ -35,6 +35,12 @@ header .logo {
 .btn-mobile:first-child {
     border-right: 1px solid #000;
 }
+.cta-seemore{
+  position: absolute;
+bottom: 112px;
+right: 25px;
+
+}
 
 .btn-mobile a {
     color: #FFB300;
@@ -815,7 +821,7 @@ div.border:before {
 
 .quick .tab {
     padding: 8px;
-    background: rgb(42, 42, 42);
+    background: rgb(16, 16, 16);
     color: #fff;
 }
 
@@ -1555,6 +1561,12 @@ input[type=radio] {
 }
 .breadcrumb-inner .sel{
   margin-top: 25px;
+}
+
+.breadcrumb-inner .sela{
+  margin-bottom: 15px;
+margin-top: 28px;
+
 }
 .breadcrumb-inner select  {
     height: 40px;
