@@ -116,3 +116,68 @@
 .tab-pane .tab-info{
   font-size: 11.2px;
 }
+.
+.sub-nav{
+  margin: 0;
+  padding: 0;
+}
+
+.sub-nav li{
+  list-style: none;
+  margin-left: -40px;
+  padding-left: 40px
+}
+
+.sub-nav li a{
+  display: block;
+  color: #424242;
+  padding: 7px 20px;
+  margin-top: 8px;
+  margin-left: -40px;
+  padding-left: 40px;
+}
+
+.sub-nav li:first-child a{
+  margin-top: 0;
+}
+
+.sub-nav li.active a{
+  color: #f2f2f2;
+  border-radius: 0!important;
+  background-color: #aaaaaa !important;
+  text-decoration: none
+}
+
+.sub-nav li a:focus, .sub-nav li a:hover{
+  text-decoration: none;
+  background-color: #eee
+}
+
+.all-games-div ul{
+  margin: 0;
+  padding: 0;
+}
+
+.all-games-div li{
+  list-style: none;
+  margin: 2px 0;
+  padding-left: 20px;
+  white-space: nowrap;
+  background: url('../img/helpcenter/arrow-right.png') no-repeat;
+  background-position: 0% 50%;
+  background-size: 7% 40%
+}
+
+.all-games-div h3{
+  font-size: 15px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.all-games-div a{
+  color: #c4c4c4
+}
+
+.all-games-div a:hover{
+  text-decoration: none
+}
