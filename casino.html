@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
-
+    <link rel="stylesheet" href="assets/css/media-queries/nathan-media.css">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
@@ -41,42 +41,40 @@
 
 <body>
   <header>
-      <nav class="navbar">
-          <div class="container">
-              <div class="navbar-header header-mobile">
-                  <div class="hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-left">
-                      <div class="hamburger-box">
-                          <div class="hamburger-inner"></div>
-                      </div>
-                  </div>
-                  <div class="logo">
-                      <a href="index.html"></a>
-                  </div>
-                  <div class=" navbar-cta-btn hm-d  pull-right hidden-sm hidden-md hidden-lg">
-                      <button type="button" class="btn btn-warning btn-xs">LOGIN</button>
-                  </div>
-              </div>
-              <div class="hidden-xs">
-                  <div class="navbar-header">
-                      <select class="selectpicker" data-width="fit">
-                          <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-                          <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
-                          <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
-                          <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
-                      </select>
-                  </div>
-
-
-                  <div class="navbar-header navbar-right navbar-form navbar-cta-btn">
-
-                      <a href="#"><img src="assets/img/register.png" class="img-responsive" alt=""></a>
-                      <a href="#"><img src="assets/img/login.png" class="img-responsive" alt=""></a>
-                  </div>
-              </div>
-
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header header-mobile ">
+          <div class=" nathan-hamburger-hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-left ">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
           </div>
-      </nav>
+          <div class="logo nathan-logo">
+            <a href="index.html"></a>
+          </div>
+          <div class=" nathan-login-hm-d navbar-cta-btn  pull-right hidden-sm hidden-md hidden-lg">
+            <button type="button" class="btn btn-warning btn-xs">LOGIN</button>
+          </div>
+        </div>
+        <div class="hidden-xs">
+          <div class="navbar-header">
+            <select class="selectpicker" data-width="fit">
+                  <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+                  <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+                  <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
+                  <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
+            </select>
+          </div>
 
+          <div class="navbar-header navbar-right navbar-form navbar-cta-btn">
+
+            <a href="#"><img src="assets/img/register.png" class="img-responsive" alt=""></a>
+            <a href="#"><img src="assets/img/login.png" class="img-responsive" alt=""></a>
+          </div>
+        </div>
+
+      </div>
+    </nav>
       <nav class="navbar navbar-inverse nav-bg">
           <div class="container">
             <div class="row">
