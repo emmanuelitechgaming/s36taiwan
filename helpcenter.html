@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
-      <link rel="stylesheet" href="assets/css/media-queries/nathan-media.css">
+    <link rel="stylesheet" href="assets/css/media-queries/nathan-media.css">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
@@ -85,6 +85,8 @@
                     <li><a href="slots.html">Slots</a></li>
                     <li><a href="lotto.html">Lotto</a></li>
                     <li class=""><a href="promotion.html">Promotions</a></li>
+                    <li class=""><a href="allgames.html">All Games</a></li>
+
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -729,7 +731,22 @@
     </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-
+    <div class="back hidden-lg hidden-md hidden-sm" style="display: none;"><a><img src="./assets/img/goUp-Icon-75x75.png"></a></div>
+      <script type="text/javascript">
+      $(function(){
+          $(window).scroll( function(){
+             var h= $(window).scrollTop();
+             if(h>100){
+              $(".back").show(500);
+             }else{
+              $(".back").hide(500);
+             }
+          })
+          $(".back a").click(function() {
+                 $('html,body').animate({scrollTop:0}, 500);
+              });
+      })
+      </script>
 </body>
 
 </html>
