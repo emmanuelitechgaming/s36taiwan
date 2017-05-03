@@ -115,6 +115,13 @@
     background-position: 0% 50%;
     background-size: 1% 50%
   }
+
+  .helpcenter-nav select{
+    background: url('../../img/helpcenter/caret_down.png') no-repeat;
+    background-color: #DADFE1;
+    background-position: 97% 50%;
+    background-size: 3% 25%;
+  }
 }
 
 /* Medium Devices, Desktops */
