@@ -4,7 +4,7 @@
 
 body {
     background: #2a2a2a;
-    color: #e3e3e3;
+    color: #acacac;
 }
 
 header ul {
@@ -158,15 +158,16 @@ main .s36border {
 }
 
 .jumbo {
-    position: absolute;
-    display: inline-block;
-    color: #fff;
-    left: 270px;
-    top: 31px;
-    font-size: 27px;
-    font-weight: 700;
-    letter-spacing: 12.2px;
-    width: auto;
+  position: absolute;
+  display: inline-block;
+  color: #fff;
+  left: 268px;
+  top: 31px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 11.5px;
+  width: auto;
+
 }
 
 main .jackpot .col-md-6 {
@@ -513,6 +514,10 @@ div.border:before {
 .navbar .nav-active,
 .navbar-nav > li:hover {
     background: rgba(255, 255, 255, 0.1);
+}
+
+.navbar .nav-active a{
+  color: #ffb013!important;
 }
 
 .navbar .nav-active i {
@@ -1593,11 +1598,6 @@ margin-top: 28px;
     color: #c4c4c4;
     background: #fff;
 }
-
-
-.no-bullet{
-  list-style: none
-
 .cs-country{
   padding: 3px 0;
 }
@@ -1607,7 +1607,7 @@ margin-top: 28px;
     padding: 5px;
 }
 .cs-country:nth-child(odd){
-background:#ffffff;
+background:#f9f9f9;
 }
 .cs-country .cs-flag{
   color: #1b283c;
@@ -1629,5 +1629,4 @@ background:#ffffff;
   padding: 5px 40px;
   color: #000;
   text-decoration: none;
-
 }
