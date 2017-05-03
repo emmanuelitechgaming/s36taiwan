@@ -84,6 +84,7 @@
                     <li><a href="slots.html">Slots</a></li>
                     <li><a href="lotto.html">Lotto</a></li>
                     <li><a href="promotion.html">Promotions</a></li>
+                    <li><a href="allgames.html">All Games</a></li>
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -475,7 +476,7 @@
             <div class="container">
                 <div class="footer-icon f-social">
 
-                  <div class="hidden-sm hidden-xs">
+
                     <img src="assets/img/footer/logo.png" class="img-responsive" alt="">
                     <img src="assets/img/footer/g1.png" class="img-responsive" alt="">
                     <img src="assets/img/footer/g2.png" class="img-responsive" alt="">
@@ -678,7 +679,22 @@
     </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-
+    <div class="back hidden-lg hidden-md hidden-sm" style="display: none;"><a><img src="./assets/img/goUp-Icon-75x75.png"></a></div>
+      <script type="text/javascript">
+      $(function(){
+          $(window).scroll( function(){
+             var h= $(window).scrollTop();
+             if(h>100){
+              $(".back").show(500);
+             }else{
+              $(".back").hide(500);
+             }
+          })
+          $(".back a").click(function() {
+                 $('html,body').animate({scrollTop:0}, 500);
+              });
+      })
+      </script>
 </body>
 
 </html>

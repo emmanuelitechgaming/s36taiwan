@@ -31,6 +31,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
 
+    <link rel="stylesheet" href="assets/css/media-queries/nathan-media.css">
+
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
   <script src="assets/js/ie-emulation-modes-warning.js"></script>
@@ -46,27 +48,33 @@
   <header>
     <nav class="navbar">
       <div class="container">
-        <div class="navbar-header header-mobile">
-          <div class="hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-left">
+
+        <div class="navbar-header header-mobile ">
+          <div class=" nathan-hamburger-hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-left ">
+
             <div class="hamburger-box">
               <div class="hamburger-inner"></div>
             </div>
           </div>
-          <div class="logo">
+
+          <div class="logo nathan-logo">
             <a href="index.html"></a>
           </div>
-          <div class=" navbar-cta-btn hm-d  pull-right hidden-sm hidden-md hidden-lg">
+          <div class=" nathan-login-hm-d navbar-cta-btn  pull-right hidden-sm hidden-md hidden-lg">
+
             <button type="button" class="btn btn-warning btn-xs">LOGIN</button>
           </div>
         </div>
         <div class="hidden-xs">
           <div class="navbar-header">
             <select class="selectpicker" data-width="fit">
-                            <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-                            <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
-                            <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
-                            <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
-                        </select>
+
+                  <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+                  <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+                  <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
+                  <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
+            </select>
+
           </div>
 
           <div class="navbar-header navbar-right navbar-form navbar-cta-btn">
@@ -79,6 +87,7 @@
       </div>
     </nav>
 
+
     <nav class="navbar navbar-inverse nav-bg">
         <div class="container">
           <div class="row">
@@ -86,9 +95,9 @@
                 <li><a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a></li>
                 <li><a href="casino.html">Casino</a></li>
                 <li><a href="slots.html">Slots</a></li>
-                <li  class="nav-active"><a href="lotto.html">Lotto</a></li>
+                <li  class=""><a href="lotto.html">Lotto</a></li>
                 <li><a href="promotion.html">Promotions</a></li>
-
+                <li class="nav-active"><a href="allgames.html">All Games</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
@@ -109,7 +118,7 @@
 
 
     <img src="assets/img/banner/4m.jpg" class="img-responsive hidden-lg hidden-md" alt="">
-    <div class="carousel other-banner hidden-xs hidden-sm">
+    <div class="carousel other-banner hidden-xs hidden-sm hidden">
         <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
           <div class="carousel-inner" role="listbox">
               <!-- Third Slide -->
@@ -157,7 +166,7 @@
                 <div class="tab-content">
 
                   <div class="row">
-                    <div class="col-md-1 col-sm-12 col-xs-12 all-games-div">
+                    <div class="col-md-1 col-sm-1 col-xs-12 all-games-div">
                       <h3>真人荷官賭場遊戲</h3>
                       <ul>
                         <li><a href="#">真人百家樂-01</a></li>
@@ -170,7 +179,7 @@
                         <li><a href="#">真人百家樂-08</a></li>
                       </ul>
                     </div>
-                    <div class="col-md-1 col-sm-12 col-xs-12 all-games-div">
+                    <div class="col-md-1 col-sm-1 col-xs-12 all-games-div">
                       <h3>真人荷官賭場遊戲</h3>
                       <ul>
                         <li><a href="#">真人百家樂-09</a></li>
@@ -183,7 +192,7 @@
                         <li><a href="#">真人百家樂-16</a></li>
                       </ul>
                     </div>
-                    <div class="col-md-1 col-sm-12 col-xs-12 all-games-div">
+                    <div class="col-md-1 col-sm-1 col-xs-12 all-games-div">
                       <h3>真人荷官賭場遊戲</h3>
                       <ul>
                         <li><a href="#">真人骰寶</a></li>
@@ -194,14 +203,14 @@
                         <li><a href="#">真人48彩</a></li>
                       </ul>
                     </div>
-                    <div class="col-md-1 col-sm-12 col-xs-12 all-games-div">
+                    <div class="col-md-1 col-sm-1 col-xs-12 all-games-div">
                       <h3>動漫真人老虎機</h3>
                       <ul>
                         <li><a href="#">魔鬼天使</a></li>
                         <li><a href="#">幸運喵星人</a></li>
                       </ul>
                     </div>
-                    <div class="col-md-1 col-sm-12 col-xs-12 all-games-div">
+                    <div class="col-md-1 col-sm-1 col-xs-12 all-games-div">
                       <h3>動漫角子老虎機</h3>
                       <ul>
                         <li><a href="#">夢幻女神老虎機</a></li>
@@ -210,7 +219,7 @@
                         <li><a href="#">歡樂農場老虎機</a></li>
                       </ul>
                     </div>
-                    <div class="col-md-1 col-sm-12 col-xs-12 all-games-div">
+                    <div class="col-md-1 col-sm-1 col-xs-12 all-games-div">
                       <h3>中國風主題老虎機</h3>
                       <ul>
                         <li><a href="#">張保仔老虎機</a></li>
@@ -221,7 +230,7 @@
                         <li><a href="#">錦衣衛老虎機</a></li>
                       </ul>
                     </div>
-                    <div class="col-md-1 col-sm-12 col-xs-12 all-games-div">
+                    <div class="col-md-1 col-sm-1 col-xs-12 all-games-div">
                       <h3>經典老虎機遊戲</h3>
                       <ul>
                         <li><a href="#">三星報囍老虎機</a></li>
@@ -231,7 +240,7 @@
                         <li><a href="#">趣怪喪屍老虎機</a></li>
                       </ul>
                     </div>
-                    <div class="col-md-1 col-sm-12 col-xs-12 all-games-div">
+                    <div class="col-md-1 col-sm-1 col-xs-12 all-games-div">
                       <h3>3D視頻老虎機</h3>
                       <ul>
                         <li><a href="#">嫦娥奔月老虎機</a></li>
@@ -599,6 +608,24 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/remo-js.js"></script>
   <script src="assets/js/countUp.js"></script>
+
+  <div class="back hidden-lg hidden-md hidden-sm" style="display: none;"><a><img src="./assets/img/goUp-Icon-75x75.png"></a></div>
+    <script type="text/javascript">
+    $(function(){
+        $(window).scroll( function(){
+           var h= $(window).scrollTop();
+           if(h>100){
+            $(".back").show(500);
+           }else{
+            $(".back").hide(500);
+           }
+        })
+        $(".back a").click(function() {
+               $('html,body').animate({scrollTop:0}, 500);
+            });
+    })
+    </script>
+
   <script>
     $(document).ready(function() {
       $('#embeddingDatePicker')
