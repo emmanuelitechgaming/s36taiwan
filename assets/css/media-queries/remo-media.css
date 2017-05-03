@@ -51,6 +51,35 @@
     background-size: 4% 50%
   }
 
+  .breadcrumb-inner .wallet .form-group{
+    display: inline-block;
+    width: 70%
+  }
+
+  .breadcrumb-inner .wallet select{
+    background-size: 20% 100%;
+    width: 100%;
+  }
+
+  .wallet .datepicker{
+    display: inline-block;
+    width: 70%;
+  }
+
+  .acc-cont input[type=text]{
+    display: block;
+    width: 100%
+  }
+
+  .acc-info.acc-edit{
+    width: 100%;
+    padding: 8px 0px !important;
+  }
+
+  .account-edit .botton{
+    text-align: right
+  }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -122,6 +151,22 @@
     background-position: 97% 50%;
     background-size: 3% 25%;
   }
+
+  .breadcrumb-inner .wallet select{
+    background-size: 10% 100%;
+    width: 100%;
+  }
+
+  .all-games-div{
+    width: 25%;
+    min-height: 250px;
+  }
+
+  .all-games-div li{
+    background-position: 3% 50%;
+    background-size: 5% 50%
+  }
+
 }
 
 /* Medium Devices, Desktops */
@@ -252,6 +297,43 @@
   }
 
   .all-games-div{
+    width: 25%;
+    min-height: 250px
+  }
+
+  .all-games-div li{
+    background-position: 0% 50%;
+    background-size: 7% 50%
+  }
+
+  .breadcrumb-inner .wallet .form-group{
+    width: 15%
+  }
+
+  .breadcrumb-inner .wallet select{
+    background-size: 25% 100%;
+    display: block;
+    width: 100%;
+  }
+
+  .acc-cont input[type=text]{
+    display: inline-block;
+    width: auto
+  }
+
+  .acc-info.acc-edit{
+    width: auto;
+    padding: 8px 10px !important;
+  }
+
+  .account-edit .botton{
+    text-align: right
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .all-games-div{
     width: 12.5%;
   }
 
@@ -259,10 +341,4 @@
     background-position: 0% 50%;
     background-size: 7% 50%
   }
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
-
 }

@@ -169,7 +169,7 @@
 }
 
 .all-games-div h3{
-  font-size: 15px;
+  font-size: 12px;
   color: #fff;
   white-space: nowrap;
 }
@@ -195,4 +195,12 @@
   display: block;
   width: 100%;
   padding-left: 10px;
+}
+
+.helpcenter-tbl{
+  color: #fafafa;
+}
+
+.helpcenter-tbl td{
+  padding: 5px
 }
