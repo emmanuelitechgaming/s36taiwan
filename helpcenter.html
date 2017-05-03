@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="assets/css/remo-style.css">
+    <link rel="stylesheet" href="assets/css/media-queries/remo-media.css">
     <link rel="stylesheet" href="assets/css/hamburgers.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
@@ -78,46 +79,30 @@
       </nav>
 
 
-        <nav class="navbar navbar-inverse nav-bg hidden-xs hidden-sm">
-            <div class="container">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a></li>
-                    <li><a href="casino.html">Casino</a></li>
-                    <li><a href="slots.html">Slots</a></li>
-                    <li><a href="lotto.html">Lotto</a></li>
-                    <li class=""><a href="promotion.html">Promotions</a></li>
-                    <li class=""><a href="allgames.html">All Games</a></li>
+      <nav class="navbar navbar-inverse nav-bg">
+          <div class="container">
+            <div class="row">
+              <ul class="nav navbar-nav">
+                  <li><a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a></li>
+                  <li><a href="casino.html">Casino</a></li>
+                  <li><a href="slots.html">Slots</a></li>
+                  <li ><a href="lotto.html">Lotto</a></li>
+                  <li><a href="promotion.html">Promotions</a></li>
+                  <li><a href="allgames.html">All Games</a></li>
 
+              </ul>
 
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#"><img src="assets/img/cs.png" width="20px" alt="">&nbsp; Customer Service</a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="assets/img/hc.png" width="20px" alt="">&nbsp; Help Center</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+              <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
+                <li><a href="#"><img src="assets/img/cs.png" width="20px"alt="">&nbsp; Customer Service</a></li>
+                <li><a href="helpcenter.html"><img src="assets/img/hc.png" width="20px"alt="">&nbsp; Help Center</a></li>
+              </ul>
+              </div>
+          </div>
+      </nav>
 
     </header>
 
     <main>
-
-        <div class="mobile-menu hidden-sm hidden-md hidden-lg">
-            <div class="col-xs-6 btn-mobile">
-                <a href="active">SPORTS</a>
-            </div>
-            <div class="col-xs-6 btn-mobile">
-                <a href="">CASINO</a>
-            </div>
-
-        </div>
-
-
-
-
 
 
         <div class="container">
@@ -128,10 +113,40 @@
 
             <div class=" breadcrumb-content">
                 <div class="breadcrumb-inner helpcenter">
-
                           <div role="tabpanel" class="tabpanel">
+
+                            <div class="row helpcenter-nav hidden-lg hidden-md">
+                              <div class="col-xs-12">
+                                <select id="navContentSelector">
+                                  <option value="#tab1" data-toggle="tab">关於我们</option>
+                                  <option value="#tab2" data-toggle="tab">联络我们</option>
+                                  <option value="#tab3" data-toggle="tab">重要公告</option>
+                                  <option value="#tab4" data-toggle="tab">博彩规则</option>
+                                  <option value="#tab5" data-toggle="tab">使用条款</option>
+                                  <option value="#tab6" data-toggle="tab">负责任博彩</option>
+                                  <option value="#tab7" data-toggle="tab">隐私政策</option>
+                                  <option value="#tab9" data-toggle="tab">百家樂</option>
+                                  <option value="#tab10" data-toggle="tab">輪盤</option>
+                                  <option value="#tab11" data-toggle="tab">番摊</option>
+                                  <option value="#tab12" data-toggle="tab">龙虎</option>
+                                  <option value="#tab14" data-toggle="tab">简介及玩法规则</option>
+                                  <option value="#tab16" data-toggle="tab">简介及玩法规则</option>
+                                  <option value="#tab17" data-toggle="tab">优惠</option>
+                                  <option value="#tab18" data-toggle="tab">赢家</option>
+                                  <option value="#tab19" data-toggle="tab">会员注册</option>
+                                  <option value="#tab20" data-toggle="tab">会员登入</option>
+                                  <option value="#tab21" data-toggle="tab">如何注册</option>
+                                  <option value="#tab22" data-toggle="tab">如何存款</option>
+                                  <option value="#tab23" data-toggle="tab">如何提款</option>
+                                  <option value="#tab24" data-toggle="tab">如何清除缓存</option>
+                                  <option value="#tab25" data-toggle="tab">如何启用弹窗</option>
+                                  <option value="#tab26" data-toggle="tab">防刧持工具</option>
+                                </select>
+                              </div>
+                            </div>
+
                             <div class="row">
-                              <div class="col-sm-2" >
+                              <div class="col-md-2 hidden-sm hidden-xs" >
                                   <ul class="nav nav-pills brand-pills nav-stacked sidebar-nav" role="tablist">
                                       <li role="presentation" class="brand-nav"><a href="#tab1" aria-controls="tab" role="tab" data-toggle="tab">关於我们</a></li>
                                       <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab" role="tab" data-toggle="tab">联络我们</a></li>
@@ -172,8 +187,8 @@
                                       <li role="presentation" class="brand-nav"><a href="#tab26" aria-controls="tab" role="tab" data-toggle="tab">防刧持工具</a></li>
                                   </ul>
                               </div>
-                              <div class="col-sm-10">
-                                  <div class="tab-content">
+                              <div class="col-md-10 col-sm-12 col-xs-12">
+                                  <div class="tab-content" style="padding: 0 10px">
                                       <div role="tabpanel" class="tab-pane active" id="tab1">
                                         <h4>公司简介</h4>
                                           <p>
