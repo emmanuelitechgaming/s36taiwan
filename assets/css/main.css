@@ -4,7 +4,7 @@
 
 body {
     background: #2a2a2a;
-    color: #e3e3e3;
+    color: #acacac;
 }
 
 header ul {
@@ -161,11 +161,11 @@ main .s36border {
   position: absolute;
   display: inline-block;
   color: #fff;
-  left: 275px;
+  left: 268px;
   top: 31px;
   font-size: 28px;
   font-weight: 700;
-  letter-spacing: 12.2px;
+  letter-spacing: 11.5px;
   width: auto;
 
 }
@@ -514,6 +514,10 @@ div.border:before {
 .navbar .nav-active,
 .navbar-nav > li:hover {
     background: rgba(255, 255, 255, 0.1);
+}
+
+.navbar .nav-active a{
+  color: #ffb013!important;
 }
 
 .navbar .nav-active i {
@@ -1603,7 +1607,7 @@ margin-top: 28px;
     padding: 5px;
 }
 .cs-country:nth-child(odd){
-background:#ffffff;
+background:#f9f9f9;
 }
 .cs-country .cs-flag{
   color: #1b283c;
