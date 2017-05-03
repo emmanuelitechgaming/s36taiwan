@@ -158,15 +158,16 @@ main .s36border {
 }
 
 .jumbo {
-    position: absolute;
-    display: inline-block;
-    color: #fff;
-    left: 270px;
-    top: 31px;
-    font-size: 27px;
-    font-weight: 700;
-    letter-spacing: 12.2px;
-    width: auto;
+  position: absolute;
+  display: inline-block;
+  color: #fff;
+  left: 275px;
+  top: 31px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 12.2px;
+  width: auto;
+
 }
 
 main .jackpot .col-md-6 {
@@ -1593,11 +1594,6 @@ margin-top: 28px;
     color: #c4c4c4;
     background: #fff;
 }
-
-
-.no-bullet{
-  list-style: none
-
 .cs-country{
   padding: 3px 0;
 }
@@ -1629,5 +1625,4 @@ background:#ffffff;
   padding: 5px 40px;
   color: #000;
   text-decoration: none;
-
 }
