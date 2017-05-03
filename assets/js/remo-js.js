@@ -5,6 +5,13 @@ $(document).ready(function() {
     $('.'+val).trigger('click');
   });
 
+  $('#navContentSelector').on('change', function(e) {
+    e.preventDefault();
+    var val = $('#navContentSelector').val();
+    $('.tab-content .active').removeClass('active');
+    $('[href="'+val+'"]').tab('show');
+  });
+
   $('.collapse').on('shown.bs.collapse', function(){
     $(this).parent().find(".fa-caret-right").removeClass("fa-caret-right").addClass("fa-caret-down");
     console.log($(this).parent());
