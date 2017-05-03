@@ -9,21 +9,12 @@
 
     /* Custom, iPhone Retina */
     @media only screen and (min-width : 320px) {
-      .footer-img-m{
-padding-right: 15px
-}
-
-.footer-img-m img{
-width: 95%;
-}
-
-.footer-img-m .col-xs-12 img{
-width: 50%
-}
-      .container{
-        /*padding-right: 0;
-        padding-left: 0;*/
+      .main-section{
+        padding-right: 0;
+        padding-left: 0;
       }
+
+
       header .logo a{
           display: inline-block;
           width: 184px;
@@ -101,18 +92,6 @@ margin: 0px 50px auto;
     -webkit-appearance: none;
     margin-top: -20px;
     margin-bottom: -20px;
-}
-
-.footer-img-m{
-  padding-right: 15px
-}
-
-.footer-img-m img{
-  width: 95%;
-}
-
-.footer-img-m .col-xs-12 img{
-  width: 50%
 }
 
 
@@ -213,11 +192,5 @@ top: -21px;
 border-radius: 0;
 
 
-}
-
-
-.fsalon div:last-child{
-  width: 40%;
-  margin-left: -5%
 }
     }
