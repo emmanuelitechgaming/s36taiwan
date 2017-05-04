@@ -72,7 +72,7 @@ margin: 0px 50px auto;
     margin-top: 30px;
     top: -14px;
     border-radius: 0;
-    width: 205%;
+    width: 220%;
 }
 .panel-heading select {
     width: 100%;
@@ -123,6 +123,10 @@ margin: 0px 50px auto;
       .panel-heading select{
         background-size: 3% 30%
       }
+
+      .panel-login {
+          width: 208%;
+      }
     }
 
     /* Medium Devices, Desktops */
@@ -142,6 +146,10 @@ margin: 0px 50px auto;
       main .marquee {
           bottom: 10px;
           width: 280px;
+      }
+
+      .panel-login {
+          width: 205%;
       }
     }
 
