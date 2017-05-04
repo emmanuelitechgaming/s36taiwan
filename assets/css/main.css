@@ -119,7 +119,9 @@ main .carousel {
 main .carousel img {
     max-height: 370px;
 }
-
+main .seo img {
+    max-height: 800px!important;
+}
 main .other-banner img {
     max-height: 250px;
 }
@@ -1606,15 +1608,19 @@ margin-top: 28px;
     border-bottom: 1px solid #cacaca;
     padding: 5px;
 }
+
 .cs-country:nth-child(odd){
 background:#f9f9f9;
 }
+
 .cs-country .cs-flag{
   color: #1b283c;
 }
+
 .cs-country .cs-site{
   color: #8e8e8e;
 }
+
 .cs-country .cs-content{
   overflow: hidden;
    padding: 5px;
@@ -1630,8 +1636,86 @@ background:#f9f9f9;
   color: #000;
   text-decoration: none;
 }
+.seo-carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 0!important;
+}
 
 /* --- remo ---*/
 .index-img-banner{
   width: 100%;
+}
+.tab-content .tab-pane{
+  padding: 0 10px
+}
+.seo-body {
+  background: #000;
+}
+.seo-media img{
+  display: inline-block;
+  margin: 0px 10px 30px 10px;
+  width: 17%;
+  text-align: center;
+}
+
+.tabs {
+  width: 650px;
+  float: none;
+  list-style: none;
+  position: relative;
+  margin: 80px 0 0 10px;
+}
+.tabs li {
+  float: left;
+  display: block;
+}
+.tabs input[type="radio"] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.tabs label {
+  display: block;
+  padding: 14px 21px;
+  border-radius: 2px 2px 0 0;
+  font-size: 20px;
+  background: #ccc;
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.tabs [id^="tab"]:checked + p {
+    color:black;
+    -moz-transition: all 2.2s ease-in-out;
+    -o-transition: all 2.2s ease-in-out;
+    -webkit-transition: all 2.2s ease-in-out;
+    transition: all 2.2s ease-in-out;
+}
+.tabs label:hover {
+  background: #fff;
+}
+.tabs .tab-content {
+  z-index: 2;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  font-size: 17px;
+  line-height: 25px;
+  padding: 25px;
+  position: absolute;
+  top: 53px;
+  left: 0;
+  background: #fff;
+}
+.tabs [id^="tab"]:checked + label {
+  background: #fff;
+}
+.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+  display: block;
 }

@@ -1,6 +1,6 @@
 
 .bs-slider{
-  
+
     max-height: 700px;
     position: relative;
     background: #000000;
@@ -193,9 +193,74 @@
       padding: 10px 85px;
 
 
-
+}
+main .seo{
+  max-height: 800px;
+}
+.seo-right{
+  top: 51%!important;
+  right: 185px!important;
+}
+.seo-center{
+  right: 0!important;
+  left: 0!important;
+  top: 82%;
 }
 
+.seo-center img{
+  width: 55%;
+}
+.seo-body .seo-media{
+  margin: 0 auto;
+width: 865px;
+
+}
+.seo-body .nav-tabs{
+  text-align: center;
+  border-top: 1px solid #1c1b1d;
+  border-bottom: 0;
+}
+.seo-body .nav-tabs > li {
+  margin-bottom: -1px;
+  float: none;
+  display: inline-block;
+  zoom:1;
+}
+.seo-body .seo-tab-content{
+  background: #1c1b1d;
+}
+.seo-body .nav-tabs > li > a {
+    margin-right: 0!important;
+    line-height: 1.42857143;
+    border-radius:  0;
+}
+
+.seo-body .nav-tabs > li > a:hover {
+    margin-right: 0!important;
+    line-height: 1.42857143;
+    border-radius:  0;
+    background: #1c1b1d;
+    border: 1px solid #1c1b1d;
+}
+
+.seo-body .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 30px 25px;
+}
+.seo-body .nav > li > a > img {
+    width:60%;
+}
+
+
+.seo-body .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #1c1b1d;
+    border: 1px solid #1c1b1d;
+        border-bottom-color: rgb(28, 27, 29);
+    border-bottom-color: transparent;
+}
 .slide-text > h1 {
 
     padding: 0;
