@@ -99,7 +99,7 @@
     <main>
 
                       <img src="assets/img/banner/1m.jpg" class="img-responsive index-img-banner hidden-lg hidden-md" alt="">
-                    
+
                 			<div class="col-xs-6  quick  ihh">
                 				<div class="panel panel-login ">
                 					<div class="panel-heading">
@@ -251,7 +251,7 @@
                                 <div class="form-group">
                                   <div class="row">
                                     <div class="col-xs-12">
-                                      <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="建立帳號">
+                                      <input tabindex="4" data-toggle="modal" data-target="#login-modal" class="form-control btn btn-warning btn-block" value="建立帳號">
                                     </div>
                                   </div>
                                 </div>
@@ -715,6 +715,24 @@
             </div>
         </div>
     </footer>
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+
+					<p style="margin-top: 45px;">沙龍會試玩帳戶，毋須使用一分錢，體驗博彩快感之餘，更能磨練自己的網上博彩技巧，並了解在專業網上賭場裏博彩是什麽樣，學習如何舒適和休閑地進行網上博彩。現在注冊開設你的免費試玩賬戶吧！</p><br>
+				  <form>
+					<input type="text" name="user" placeholder="用户名">
+					<input type="password" name="pass" placeholder="密码">
+					<div class="form">
+          <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="提交">
+</div>
+				  </form>
+
+
+				</div>
+			</div>
+		  </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
