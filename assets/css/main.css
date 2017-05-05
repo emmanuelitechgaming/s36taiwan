@@ -1635,6 +1635,7 @@ background:#f9f9f9;
   padding: 5px 40px;
   color: #000;
   text-decoration: none;
+  white-space: nowrap;
 }
 .seo-carousel-inner {
     position: relative;

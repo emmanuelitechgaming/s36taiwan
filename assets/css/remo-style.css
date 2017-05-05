@@ -208,7 +208,7 @@
 color: #fafafa;
 }
 
-.helpcenter-tbl td{ 
+.helpcenter-tbl td{
 padding: 5px
 }
 
@@ -262,4 +262,20 @@ margin-top: 20px;
 
 .dns03-wrapper img{
 margin: 0px auto
+}
+
+.seo-tab-content .tab-pane{
+  padding: 30px 0
+}
+
+.seo-tab-content .tab-pane p{
+  margin: 5px 0;
+}
+
+.seo-container{
+  padding: 30px 0;
+}
+
+.seo-container p{
+  margin: 10px 0;
 }
