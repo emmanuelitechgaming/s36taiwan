@@ -28,4 +28,44 @@ $(document).ready(function() {
     e.preventDefault();
   });
 
+  $('.seo-nav a[href="#red"]').on('shown.bs.tab', function (e) {
+    $('#red-tab').attr('src', 'assets/img/seo-images/s-hover.png');
+    $('#orange-tab').attr('src', 'assets/img/seo-images/www.png');
+    $('#yellow-tab').attr('src', 'assets/img/seo-images/card.png');
+    $('#green-tab').attr('src', 'assets/img/seo-images/laptop.png');
+    $('#blue-tab').attr('src', 'assets/img/seo-images/7.png');
+  });
+
+  $('.seo-nav a[href="#orange"]').on('shown.bs.tab', function (e) {
+    $('#red-tab').attr('src', 'assets/img/seo-images/s.png');
+    $('#orange-tab').attr('src', 'assets/img/seo-images/www-hover.png');
+    $('#yellow-tab').attr('src', 'assets/img/seo-images/card.png');
+    $('#green-tab').attr('src', 'assets/img/seo-images/laptop.png');
+    $('#blue-tab').attr('src', 'assets/img/seo-images/7.png');
+  });
+
+  $('.seo-nav a[href="#yellow"]').on('shown.bs.tab', function (e) {
+    $('#red-tab').attr('src', 'assets/img/seo-images/s.png');
+    $('#orange-tab').attr('src', 'assets/img/seo-images/www.png');
+    $('#yellow-tab').attr('src', 'assets/img/seo-images/card-hover.png');
+    $('#green-tab').attr('src', 'assets/img/seo-images/laptop.png');
+    $('#blue-tab').attr('src', 'assets/img/seo-images/7.png');
+  });
+
+  $('.seo-nav a[href="#green"]').on('shown.bs.tab', function (e) {
+    $('#red-tab').attr('src', 'assets/img/seo-images/s.png');
+    $('#orange-tab').attr('src', 'assets/img/seo-images/www.png');
+    $('#yellow-tab').attr('src', 'assets/img/seo-images/card.png');
+    $('#green-tab').attr('src', 'assets/img/seo-images/laptop-hover.png');
+    $('#blue-tab').attr('src', 'assets/img/seo-images/7.png');
+  });
+
+  $('.seo-nav a[href="#blue"]').on('shown.bs.tab', function (e) {
+    $('#red-tab').attr('src', 'assets/img/seo-images/s.png');
+    $('#orange-tab').attr('src', 'assets/img/seo-images/www.png');
+    $('#yellow-tab').attr('src', 'assets/img/seo-images/card.png');
+    $('#green-tab').attr('src', 'assets/img/seo-images/laptop.png');
+    $('#blue-tab').attr('src', 'assets/img/seo-images/7-hover.png');
+  });
+
 });
