@@ -204,3 +204,62 @@
 .helpcenter-tbl td{
   padding: 5px
 }
+.helpcenter-tbl{
+color: #fafafa;
+}
+
+.helpcenter-tbl td{ 
+padding: 5px
+}
+
+.titcc{
+font-size: 16px;
+font-weight: bold;
+padding: 12px 0;
+}
+
+.tit001{
+padding-bottom: 10px;
+}
+
+.tit001b{
+padding-left: 35px;
+}
+
+.tit001 a{
+color: #feb902;
+margin-bottom: 15px;
+}
+
+.lh002{
+padding-left: 45px;
+padding-bottom: 5px
+}
+
+.tab24dl{
+}
+
+.tab26helpcenter .row{
+margin-top: 30px
+}
+
+.tab26helpcenter h4{
+color: #333 !important;
+font-weight: 400
+}
+
+.tab26h4a{
+margin-left: 23%
+}
+
+.tab26h4b{
+margin-left: -20%
+}
+
+.tab26helpcenter img{
+margin-top: 20px;
+}
+
+.dns03-wrapper img{
+margin: 0px auto
+}
