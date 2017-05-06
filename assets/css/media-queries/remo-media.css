@@ -80,6 +80,38 @@
     text-align: right
   }
 
+  .lotto-header {
+     margin: 0;
+     width: 100%;
+     color: #fff;
+  }
+
+  .lotto-balls-wrapper{
+    padding-left: 0;
+    padding-right: 0;
+    background: -webkit-linear-gradient(#1e1e1e 0%, #3f3f3f 50%, #1e1e1e 100%);
+    background: -o-linear-gradient(#1e1e1e 0%, #3f3f3f 50%, #1e1e1e 100%);
+    background: linear-gradient(#1e1e1e 0%, #3f3f3f 50%, #1e1e1e 100%);
+    padding-bottom: 40px;
+    padding-top: 20px;
+    }
+
+  .lotto-content{
+    margin: 0;
+    width: 100%;
+    background: transparent;
+    padding: 0 20px;
+    box-shadow: none
+  }
+
+  .lotto-header{
+    background: transparent
+  }
+
+  .ball-wrapper .ball{
+    margin: 3px !important
+  }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -329,6 +361,22 @@
   .account-edit .botton{
     text-align: right
   }
+
+  .lotto-balls-wrapper{
+    padding-left: -15px;
+    padding-right: -15px;
+    background: none
+  }
+
+  .lotto-content{
+    width: 539px;
+    background: whitesmoke;
+    padding: 0;
+  }
+
+  .ball-wrapper .ball{
+    margin: 2px !important
+  }
 }
 
 /* Large Devices, Wide Screens */
@@ -340,5 +388,13 @@
   .all-games-div li{
     background-position: 0% 50%;
     background-size: 7% 50%
+  }
+
+  .lotto-header {
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 122px;
+    color: #fff;
+    border-top: 1px solid #808080;
   }
 }
