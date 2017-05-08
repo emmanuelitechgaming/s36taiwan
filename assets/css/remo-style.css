@@ -265,7 +265,7 @@ margin: 0px auto
 }
 
 .seo-tab-content .tab-pane{
-  padding: 30px 0
+  padding: 20px 14px;
 }
 
 .seo-tab-content .tab-pane p{
@@ -273,7 +273,7 @@ margin: 0px auto
 }
 
 .seo-container{
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .seo-container p{

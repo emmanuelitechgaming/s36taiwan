@@ -198,8 +198,9 @@ main .seo{
   max-height: 800px;
 }
 .seo-right{
-  top: 51%!important;
-  right: 185px!important;
+  top: 53% !important;
+  right: 400px !important;
+
 }
 .seo-center{
   right: 0!important;
@@ -228,6 +229,7 @@ width: 865px;
 }
 .seo-body .seo-tab-content{
   background: #1c1b1d;
+  border-bottom: 1px solid #616161;
 }
 .seo-body .nav-tabs > li > a {
     margin-right: 0!important;
@@ -244,9 +246,10 @@ width: 865px;
 }
 
 .seo-body .nav > li > a {
-    position: relative;
-    display: block;
-    padding: 30px 25px;
+  position: relative;
+  display: block;
+  padding: 25px 20px;
+
 }
 .seo-body .nav > li > a > img {
     width:60%;
@@ -302,6 +305,19 @@ padding: 10px 0;
 }
 
 
+.seo-footer{
+  background: #1C1B1D;
+  padding: 20px 0;
+
+}
+.seo-footer p{
+  margin: 0 0 10px;
+}
+.seo-p-style{
+    color:#ffffff;
+    font-size:16px;
+    font-weight:700;
+}
 
 
 
