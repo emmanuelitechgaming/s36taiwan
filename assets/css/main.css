@@ -415,7 +415,7 @@ footer .footer-icon {
 
 footer .footer-icon img {
     display: inline-block;
-    margin: 0px 10px 30px 10px;
+    margin: 0px 10px 10px 10px;
 }
 
 footer .footer-services {
@@ -428,7 +428,7 @@ footer .f-right .columns {
 }
 
 footer .f-right li {
-    margin-left: 30px!important;
+    margin-left: 20px!important;
     line-height: 30px;
 }
 
@@ -1830,4 +1830,51 @@ background:#f9f9f9;
 
 .no-bullet{
   list-style: none
+}
+.columns .list{
+  width: 70px;
+}
+.columns .list-s{
+  width: 87px;
+}
+.footer  .sub {
+  padding-left: 15px;
+  height: 32px;
+  background: url('../img/footer/subscribe2.png') no-repeat;
+      background-size: auto auto;
+  background-size: auto auto;
+  background-size: auto auto;
+  width: 238px;
+  background-size: 237px;
+  margin-left: 15px;
+
+
+
+}
+.footer .sub label {
+    float: left;
+    font-size: 12px;
+}
+.footer .sub input {
+    height: 24px;
+    line-height: 24px;
+    width: 140px;
+    border: none;
+    margin: 4px;
+    text-align: center;
+    color: #393a3c;
+}
+.footer .sub a {
+  line-height: 30px;
+  margin: 7px;
+      margin-left: 7px;
+  margin-left: 7px;
+  color: #724f09;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 40px;
+
+}
+.no-bullet{
+  list-style-type: none;
 }
