@@ -336,7 +336,8 @@ margin: 0px auto
   border: solid 1px #e5e5e5;
   border-top: none;
   padding: 15px 0px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  background: #ffffff;
 }
 
 .sitemap-body ul{
