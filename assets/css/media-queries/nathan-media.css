@@ -28,12 +28,13 @@ footer .f-social ul.columns > li {
 }
 
 .back {
-    bottom: 124px;
-    margin-right: -155px ;
-    right: 50%;
-    position: fixed;
-    cursor: pointer;
-    display: none;
+  bottom: 40px;
+  margin-right: -180px;
+  right: 60%;
+  position: fixed;
+  cursor: pointer;
+  display: none;
+
 }
 }
 
@@ -50,12 +51,13 @@ header .nathan-hm-d{
       padding: 5px 10px !important;
   }
   .back {
-      bottom: 124px;
-      margin-right: -180px;
-      right: 50%;
-      position: fixed;
-      cursor: pointer;
-      display: none;
+    bottom: 40px;
+    margin-right: -180px;
+    right: 50%;
+    position: fixed;
+    cursor: pointer;
+    display: none;
+
   }
 }
 
@@ -75,12 +77,13 @@ header .nathan-hm-d{
       padding: 5px 11px !important;
   }
   .back {
-      bottom: 124px;
-      margin-right: -180px;
-      right: 50%;
-      position: fixed;
-      cursor: pointer;
-      display: none;
+    bottom: 40px;
+    margin-right: -180px;
+    right: 50%;
+    position: fixed;
+    cursor: pointer;
+    display: none;
+
   }
 }
 @media only screen and (min-width: 412px)
@@ -89,12 +92,13 @@ header .nathan-hm-d{
       padding: 5px 11px !important;
   }
   .back {
-      bottom: 124px;
-      margin-right: -180px;
-      right: 50%;
-      position: fixed;
-      cursor: pointer;
-      display: none;
+    bottom: 40px;
+    margin-right: -180px;
+    right: 45%;
+    position: fixed;
+    cursor: pointer;
+    display: none;
+
   }
 }
 
@@ -104,12 +108,13 @@ header .nathan-hm-d{
       padding: 5px 15px !important;
   }
   .back {
-      bottom: 124px;
-      margin-right: -180px;
-      right: 50%;
-      position: fixed;
-      cursor: pointer;
-      display: none;
+    bottom: 40px;
+    margin-right: -180px;
+    right: 45%;
+    position: fixed;
+    cursor: pointer;
+    display: none;
+
   }
 }
 
@@ -119,11 +124,12 @@ header .nathan-hm-d{
       padding: 5px 11px !important;
   }
   .back {
-      bottom: 124px;
-      margin-right: -180px;
-      right: 50%;
-      position: fixed;
-      cursor: pointer;
-      display: none;
+    bottom: 40px;
+    margin-right: -180px;
+    right: 45%;
+    position: fixed;
+    cursor: pointer;
+    display: none;
+
   }
 }
