@@ -7,6 +7,17 @@ header .nathan-login-hm-d{
     padding: 15px 0px !important;
 }
 
+main .notice-mobile {
+  padding-top: 0px;
+  padding-right: 0px;
+  position: relative;
+  display: inline-block;
+  width: 94%;
+  margin-left: 10px;
+  margin-bottom: 5%;
+  margin-top: -3%;
+
+}
 footer .f-social ul.columns > li {
     list-style-type: none!;
     margin-left: 0px;
@@ -49,6 +60,16 @@ header .nathan-hm-d{
 
 @media only screen and (min-width: 375px)
 {
+  main .notice-mobile {
+    padding-top: 0px;
+        padding-right: 0px;
+        position: relative;
+        display: inline-block;
+        width: 95%;
+        margin-left: 10px;
+        margin-bottom: 5%;
+        margin-top: -3%;
+    }
   .nav>li>a {
       padding: 5px 11px !important;
   }
