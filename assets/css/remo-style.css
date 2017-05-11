@@ -457,6 +457,10 @@ margin: 0px auto
   background: none !important
 }
 
+.seo-body .seo-media{
+  width: 900px !important
+}
+
 .seo-footer{
   background: #000
 }
