@@ -22,6 +22,14 @@ header .logo {
     display: inline-block;
 }
 
+header .nav-lang{
+  position: absolute;
+z-index: 9;
+left: 0;
+right: 0;
+top: 3%;
+}
+
 .mobile-menu {
     overflow: hidden;
     text-align: center;
@@ -956,7 +964,7 @@ div.border:before {
 }
 
 .panel-login .captcha-img img {
-    width: 85%;
+    max-width: 85%;
 }
 
 .panel-login .form-inline .input-group[class*="col-"] {
@@ -1898,7 +1906,10 @@ background:#f9f9f9;
 .no-bullet{
   list-style-type: none;
 }
-.btn-top{
+.back a{
+  text-decoration: none;
+}
+ .btn-top{
   background: #ffb013;
 color: #fff;
 font-weight: 700;
@@ -1907,10 +1918,49 @@ text-decoration: none;
 
 }
 
+.lang-med{
+  border-top: 1px solid #5b5b5b;
+padding-top: 20px;
+}
+
+
 header .nathan-hamburger-hm-d{
   margin-right: 20px;
 }
+.lang-c .col-xs-1 {
+    width: 9.333%;
+}
 
+.lang-c .col-xs-2{
+width:  12.667%;
+}
+.lang-c .lang-txt-head{
+font-size: 16px;
+margin: 10px 0;
+}
+.lang-c .col-xs-3 {
+    width: 14% !important;
+}
 .content-title-live-games{
-  padding-top: 20px
+  margin-top: 10px;
+}
+.all-aboutus{
+  background: #252525;
+  overflow: hidden;
+}
+.lang-c .all-aboutus  .col1 {
+    width: 10%;
+}
+.lang-c .all-aboutus  .col2{
+    width: 12%;
+}
+.all-aboutus .lang-txt-head a{
+
+  text-decoration: none;
+  color: #fff;
+}
+.all-aboutus .lang-txt-head a.active{
+  border-bottom: 2px solid #ffb013;
+  text-decoration: none;
+  color: #fff;
 }

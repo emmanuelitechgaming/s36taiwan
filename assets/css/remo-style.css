@@ -3,6 +3,18 @@
   padding-top: 5px;
   padding-bottom: 5px
 }
+.marquee-mobile {
+    color: #e7c017;
+  width: 80% !important;
+    overflow: hidden;
+    position: absolute;
+    bottom: 20px;
+    left: 13%;
+    top: 1% !important;
+    height: 20px !important;
+    margin-top: 2%;
+}
+
 
 .r-banner-info-wrapper{
   padding: 10px 0 20px
