@@ -17,7 +17,6 @@
     <link href="dist/css/bootstrap-slide.css" rel="stylesheet">
     <link href="dist/css/font-awesome.min.css" rel="stylesheet">
 
-
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
@@ -43,240 +42,256 @@
 </head>
 
 <body>
-  <header>
-      <nav class="navbar">
-          <div class="container">
-            <div class="navbar-header header-mobile ">
-
-              <div class=" nathan-hamburger-hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-right ">
-                <div class="hamburger-box">
-                  <div class="hamburger-inner"></div>
-                </div>
-              </div>
-
-              <div class="logo nathan-logo header-mobile-logo pull-left">
-                <a href="index.html"></a>
-              </div>
-
-              <div class="hidden-lg hidden-md">
-                <div class="navbar-header remo-navbar-header">
-                    <select class="selectpicker" data-width="fit">
-                        <option data-content='<span class="flag-icon flag-icon-us"></span> English'>Englishss</option>
-                        <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
-                        <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
-                        <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
-                    </select>
-                </div>
-              </div>
+    <header>
+        <nav class="collapse clearfix hidden-lg hidden-md" id="mobile-top-menu">
+          <div class="row">
+            <div class="col-xs-4 col-xs-offset-2">
+              <a href="#">
+                <img src="assets/img/login.png" class="img-responsive" alt="">
+              </a>
             </div>
-              <div class="hidden-sm hidden-xs">
-                  <div class="navbar-header">
-                      <select class="selectpicker" data-width="fit">
-                          <option data-content='<span class="flag-icon flag-icon-us"></span> English'>Englishss</option>
-                          <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
-                          <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
-                          <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
-                      </select>
-                  </div>
-
-                  <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
-                      <a href="#"><img src="assets/img/register.png" class="img-responsive" alt=""></a>
-                      <a href="#"><img src="assets/img/login.png" class="img-responsive" alt=""></a>
-                  </div>
-              </div>
-
+            <div class="col-xs-4">
+              <a href="#">
+                <img src="assets/img/register.png" class="img-responsive" alt="">
+              </a>
+            </div>
           </div>
-      </nav>
+        </nav>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header header-mobile ">
 
-      <nav class="navbar navbar-inverse nav-bg">
-          <div class="container">
-              <ul class="nav navbar-nav">
-                  <li class="nav-active"><a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a></li>
-                  <li><a href="casino.html">Casino</a></li>
-                  <li><a href="slots.html">Slots</a></li>
-                  <li><a href="lotto.html">Lotto</a></li>
-                  <li><a href="promotion.html">Promotions</a></li>
-                  <li><a href="allgames.html">All Games</a></li>
-              </ul>
+                    <div class=" nathan-hamburger-hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-right ">
+                        <div class="hamburger-box" data-toggle="collapse" data-target="#mobile-top-menu">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
 
-              <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
-                <li><a href="#"><img src="assets/img/cs.png" width="20px"alt="">&nbsp; Customer Service</a></li>
-                <li><a href="helpcenter.html"><img src="assets/img/hc.png" width="20px"alt="">&nbsp; Help Center</a></li>
-              </ul>
-          </div>
-      </nav>
 
-  </header>
+                    <div class="logo nathan-logo header-mobile-logo pull-left">
+                        <a href="index.html"></a>
+                    </div>
+
+                    <div class="hidden-lg hidden-md">
+                        <div class="navbar-header remo-navbar-header">
+                            <select class="selectpicker" data-width="fit">
+                                <option data-content='<span class="flag-icon flag-icon-us"></span> English'>Englishss</option>
+                                <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+                                <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
+                                <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-sm hidden-xs">
+                    <div class="navbar-header">
+                        <select class="selectpicker" data-width="fit">
+                            <option data-content='<span class="flag-icon flag-icon-us"></span> English'>Englishss</option>
+                            <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+                            <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
+                            <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
+                        </select>
+                    </div>
+
+                    <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
+                        <a href="#"><img src="assets/img/register.png" class="img-responsive" alt=""></a>
+                        <a href="#"><img src="assets/img/login.png" class="img-responsive" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-inverse nav-bg">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <li class="nav-active">
+                        <a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a>
+                    </li>
+                    <li><a href="casino.html">Casino</a></li>
+                    <li><a href="slots.html">Slots</a></li>
+                    <li><a href="lotto.html">Lotto</a></li>
+                    <li><a href="promotion.html">Promotions</a></li>
+                    <li><a href="allgames.html">All Games</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
+                    <li>
+                        <a href="#"><img src="assets/img/cs.png" width="20px" alt="">&nbsp; Customer Service</a>
+                    </li>
+                    <li>
+                        <a href="helpcenter.html"><img src="assets/img/hc.png" width="20px" alt="">&nbsp; Help Center</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
     <main>
 
-                      <img src="assets/img/banner/1m.jpg" class="img-responsive index-img-banner hidden-lg hidden-md" alt="">
+        <img src="assets/img/banner/1m.jpg" class="img-responsive index-img-banner hidden-lg hidden-md" alt="">
 
+        <div class="col-xs-6  quick  ihh">
+            <div class="panel panel-login ">
+                <div class="panel-heading">
 
+                    <div class="col-xs-4 tab active" id="register-form-link">
+                        <a href="#" id="register-form-link">注册 </a>
+                    </div>
+                    <div class="col-xs-4 tab" id="login-form-link">
+                        <a href="#" id="login-form-link"> 登入 </a>
+                    </div>
+                    <div class="col-xs-4 tab" id="demo-form-link">
+                        <a href="#" id="demo-form-link"> 免費試玩</a>
+                    </div>
 
-                			<div class="col-xs-6  quick  ihh">
-                				<div class="panel panel-login ">
-                					<div class="panel-heading">
-
-                							<div class="col-xs-4 tab active" id="register-form-link">
-                								<a href="#" id="register-form-link">注册 </a>
-                							</div>
-                							<div class="col-xs-4 tab" id="login-form-link">
-                								<a href="#" id="login-form-link"> 登入 </a>
-                							</div>
-                              <div class="col-xs-4 tab" id="demo-form-link">
-                								<a href="#" id="demo-form-link"> 免費試玩</a>
-                 							</div>
-
-
-                					</div>
-                          <div class="panel-border"></div>
-                					<div class="panel-body">
-                						<div class="row">
-                							<div class="col-xs-12">
-                                <form id="register-form" method="post" role="form" style="display: block;">
-                                  <div class="form-group">
+                </div>
+                <div class="panel-border"></div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <form id="register-form" method="post" role="form" style="display: block;">
+                                <div class="form-group">
                                     <div class="input-group">
-                                      <input class="form-control" type="text" placeholder="电子邮箱或手机号码">
+                                        <input class="form-control" type="text" placeholder="电子邮箱或手机号码">
                                     </div>
-                                  </div>
-                                  <div class="panel-border"></div>
-                                  <div class="form-group">
+                                </div>
+                                <div class="panel-border"></div>
+                                <div class="form-group">
                                     <div class="input-group">
-                                      <input class="form-control" type="password" placeholder="建立帳號">
+                                        <input class="form-control" type="password" placeholder="建立帳號">
                                     </div>
-                									</div>
-                                  <div class="panel-border"></div>
-                                  <div class="form-group">
+                                </div>
+                                <div class="panel-border"></div>
+                                <div class="form-group">
                                     <div class="input-group">
-                                      <input class="form-control" type="password" placeholder="輸入密碼">
+                                        <input class="form-control" type="password" placeholder="輸入密碼">
                                     </div>
-                									</div>
-                                  <div class="panel-border"></div>
-                                  <div class="form-group">
+                                </div>
+                                <div class="panel-border"></div>
+                                <div class="form-group">
                                     <div class="input-group">
 
-                                      <input class="form-control" type="text" placeholder="確認密碼">
+                                        <input class="form-control" type="text" placeholder="確認密碼">
                                     </div>
-                                  </div>
-                                  <div class="panel-border"></div>
-                                  <div class="form-group form-inline form-captcha">
-                                    <div class="input-group col-xs-7" >
+                                </div>
+                                <div class="panel-border"></div>
+                                <div class="form-group form-inline form-captcha">
+                                    <div class="input-group col-xs-7">
 
-                                      <input class="form-control" type="text" placeholder="驗證碼">
+                                        <input class="form-control" type="text" placeholder="驗證碼">
                                     </div>
                                     <div class="captcha-img col-xs-5">
-                                      <img src="assets/img/captcha.png"  class="img-responsive" alt="">
+                                        <img src="assets/img/captcha.png" class="img-responsive" alt="">
                                     </div>
-                                  </div>
+                                </div>
                                 <div class="panel-border"></div>
-                                  <div class="form-pad">
+                                <div class="form-pad">
 
                                     <div class="form-group">
 
-                                      <div class="checkbox">
-                                        <label><input type="checkbox" value="">我同意<span>“条款及细则”</span>并确认我已满18岁</label>
-                                      </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">我同意<span>“条款及细则”</span>并确认我已满18岁</label>
+                                        </div>
                                     </div>
 
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="建立帳號">
+                                            </div>
+                                        </div>
+                                    </div>
 
-                									<div class="form-group">
-                										<div class="row">
-                											<div class="col-xs-12">
-                												<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="建立帳號">
-                											</div>
-                										</div>
-                									</div>
+                                </div>
 
-                              </div>
+                            </form>
 
-                								</form>
-
-                								<form id="login-form"  method="post" role="form" style="display: none;">
-                                  <div class="form-group">
+                            <form id="login-form" method="post" role="form" style="display: none;">
+                                <div class="form-group">
                                     <div class="input-group">
-                                      <input class="form-control" type="password" placeholder="帳號">
+                                        <input class="form-control" type="password" placeholder="帳號">
                                     </div>
-                                  </div>
-                                    <div class="panel-border"></div>
-                                  <div class="form-group">
+                                </div>
+                                <div class="panel-border"></div>
+                                <div class="form-group">
                                     <div class="input-group">
-                                      <input class="form-control" type="password" placeholder="密碼">
+                                        <input class="form-control" type="password" placeholder="密碼">
                                     </div>
-                                  </div>
-                                    <div class="panel-border"></div>
-                                  <div class="form-group">
+                                </div>
+                                <div class="panel-border"></div>
+                                <div class="form-group">
                                     <div class="input-group">
-                                      <input class="form-control" type="password" placeholder="登入">
+                                        <input class="form-control" type="password" placeholder="登入">
                                     </div>
-                                  </div>
-                                    <div class="panel-border"></div>
-                                    <div class="form-group form-inline form-captcha">
-                                      <div class="input-group col-xs-7" >
+                                </div>
+                                <div class="panel-border"></div>
+                                <div class="form-group form-inline form-captcha">
+                                    <div class="input-group col-xs-7">
 
                                         <input class="form-control" type="text" placeholder="驗證碼">
-                                      </div>
-                                      <div class="captcha-img col-xs-5">
-                                        <img src="assets/img/captcha.png"  class="img-responsive" alt="">
-                                      </div>
                                     </div>
-                                  <div class="panel-border"></div>
-                                  <div class="form-pad">
+                                    <div class="captcha-img col-xs-5">
+                                        <img src="assets/img/captcha.png" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                                <div class="panel-border"></div>
+                                <div class="form-pad">
 
-                									<div class="form-group">
-                										<div class="row">
-                											<div class="col-xs-12">
-                												<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="建立帳號">
-                											</div>
-                										</div>
-                									</div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="建立帳號">
+                                            </div>
+                                        </div>
+                                    </div>
 
-                              </div>
-                								</form>
+                                </div>
+                            </form>
 
-                                <form  id="demo-form"  method="post" role="form" style="display: none;">
-                                  <div class="form-pad demo-tab">
+                            <form id="demo-form" method="post" role="form" style="display: none;">
+                                <div class="form-pad demo-tab">
                                     沙龍會試玩帳戶，毋須使用一分錢，體驗博彩快感之餘，更能磨練自己的網上博彩技巧，並了解在專業網上賭場裏博彩是什麽樣，學習如何舒適和休閑地進行網上博彩。現在注冊開設你的免費試玩賬戶吧！
-                                  </div>
-                                  <div class="form-group">
+                                </div>
+                                <div class="form-group">
                                     <div class="input-group" style="width: 100%;">
-                                      <input class="form-control" style="width: 100%;" type="text" placeholder="輸入電郵地址或手機號碼，免費創建試玩帳戶！">
+                                        <input class="form-control" style="width: 100%;" type="text" placeholder="輸入電郵地址或手機號碼，免費創建試玩帳戶！">
                                     </div>
-                                  </div>
-
-
+                                </div>
 
                                 <div class="form-pad">
 
-                                <div class="form-group">
-                                  <div class="row">
-                                    <div class="col-xs-12">
-                                      <input tabindex="4"  data-target="#login-modal" class="form-control btn btn-warning btn-block" value="建立帳號">
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <input tabindex="4" data-target="#login-modal" class="form-control btn btn-warning btn-block" value="建立帳號">
+                                            </div>
+                                        </div>
                                     </div>
-                                  </div>
                                 </div>
-                            </div>
-                                </form>
-                							</div>
-                						</div>
-                					</div>
-                				</div>
-                			</div>
-
-<div class="clearfix">
-
-</div>
-      <div class="" style="
-          ">
-
-        <div class="notice-mobile hidden-lg hidden-md">
-            <div class="marquee marquee-mobile">
-              《沙龙会.ClubS》全新易记域名：www.s36.com 正式启用！并同时更换了更突显中文元素的全新标志，请相互转告，感谢大家的支持！
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <img src="assets/img/jackpot/notice-bg.png" class="img-responsive" alt="">
         </div>
 
-      </div>
-                            <div class="panel-border"></div>
+        <div class="clearfix">
+
+        </div>
+        <div class="" style="
+          ">
+
+            <div class="notice-mobile hidden-lg hidden-md">
+                <div class="marquee marquee-mobile">
+                    《沙龙会.ClubS》全新易记域名：www.s36.com 正式启用！并同时更换了更突显中文元素的全新标志，请相互转告，感谢大家的支持！
+                </div>
+                <img src="assets/img/jackpot/notice-bg.png" class="img-responsive" alt="">
+            </div>
+
+        </div>
+        <div class="panel-border"></div>
         <!-- Carousel -->
         <div class="carousel hidden-sm hidden-xs">
             <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="3000">
@@ -330,21 +345,21 @@
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="live-game">
                     <img src="assets/img/casino/baccarat.png" class="img-responsive" alt="">
-                    <a href="#" class="img-responsive cta-seemore"><img src="assets/img/arrow.png" style="width: 24px;"alt=""></a>
+                    <a href="#" class="img-responsive cta-seemore"><img src="assets/img/arrow.png" style="width: 24px;" alt=""></a>
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="live-game">
                     <img src="assets/img/casino/blackjack.png" class="img-responsive" alt="">
-                    <a href="#" class="img-responsive cta-seemore"><img src="assets/img/arrow.png" style="width: 24px;"alt=""></a>
+                    <a href="#" class="img-responsive cta-seemore"><img src="assets/img/arrow.png" style="width: 24px;" alt=""></a>
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="live-game">
                     <img src="assets/img/casino/roulette.png" class="img-responsive" alt="">
-                    <a href="#" class="img-responsive cta-seemore"><img src="assets/img/arrow.png" style="width: 24px;"alt=""></a>
+                    <a href="#" class="img-responsive cta-seemore"><img src="assets/img/arrow.png" style="width: 24px;" alt=""></a>
                 </div>
             </div>
         </div>
@@ -393,11 +408,28 @@
                     <span class="pull-right"><i class="fa fa-plus" aria-hidden="true"></i> &nbsp;More Live Games</span>
                     <div class="border borderstyler"></div>
                 </div>
-                <div class="gp-g row"><div class="col-md-4 col-xs-6"><div class="live-games"><img src="assets/img/promo/1.png" class="img-responsive" alt=""></div></div><div class="col-md-4 col-xs-6"><div class="live-games"><img src="assets/img/promo/2.png" class="img-responsive" alt=""></div></div><div class="col-md-4 col-xs-6"><div class="live-games"><img src="assets/img/promo/3.png" class="img-responsive" alt=""></div></div><div class="col-md-4 col-xs-6"><div class="live-games"><img src="assets/img/promo/4.png" class="img-responsive" alt=""></div></div><div class="col-md-4 col-xs-6"><div class="live-games"><img src="assets/img/promo/5.png" class="img-responsive" alt=""></div></div><div class="col-md-4 col-xs-6"><div class="live-games"><img src="assets/img/promo/6.png" class="img-responsive" alt=""></div></div></div>
+                <div class="gp-g row">
+                    <div class="col-md-4 col-xs-6">
+                        <div class="live-games"><img src="assets/img/promo/1.png" class="img-responsive" alt=""></div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="live-games"><img src="assets/img/promo/2.png" class="img-responsive" alt=""></div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="live-games"><img src="assets/img/promo/3.png" class="img-responsive" alt=""></div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="live-games"><img src="assets/img/promo/4.png" class="img-responsive" alt=""></div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="live-games"><img src="assets/img/promo/5.png" class="img-responsive" alt=""></div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="live-games"><img src="assets/img/promo/6.png" class="img-responsive" alt=""></div>
+                    </div>
+                </div>
 
                 <div class="gp-g row">
-
-
 
                 </div>
 
@@ -411,7 +443,8 @@
 
             <div class="col-md-4 col-xs-12">
                 <div class="winner-cont">
-                    <div class="win-title">Latest Winners<a href="#" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;"alt=""></a>
+                    <div class="win-title">Latest Winners
+                        <a href="#" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
 
                     </div>
                     <div class="win-body">
@@ -465,7 +498,8 @@
 
             <div class="col-md-4 col-xs-12">
                 <div class="winner-cont">
-                    <div class="win-title">Top Games<a href="#" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;"alt=""></a>
+                    <div class="win-title">Top Games
+                        <a href="#" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
 
                     </div>
                     <div class="win-body">
@@ -517,7 +551,8 @@
             <div class="col-md-4 col-xs-12">
                 <div class="winner-cont">
                     <div class="contact-title">
-                        Contact Us<a href="#" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;"alt=""></a>
+                        Contact Us
+                        <a href="#" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
                     </div>
                     <div class="contactus">
                         <div class="win-body">
@@ -542,7 +577,7 @@
                             <div class="win-cs">
                                 <div class="col-md-3 col-xs-3">
                                     <div class="c-icon cmail">
-                                          <img src="assets/img/email.png" class="img-responsive" alt="">
+                                        <img src="assets/img/email.png" class="img-responsive" alt="">
 
                                     </div>
                                 </div>
@@ -586,179 +621,238 @@
             <div class="container">
                 <div class="footer-icon f-social">
 
-                  <div class="hidden-sm hidden-xs">
-                    <img src="assets/img/footer/logo.png" class="img-responsive" alt="">
-                    <img src="assets/img/footer/g1.png" class="img-responsive" alt="">
-                    <img src="assets/img/footer/g2.png" class="img-responsive" alt="">
-                    <img src="assets/img/footer/g3.png" class="img-responsive" alt="">
-                    <img src="assets/img/footer/g4.png" class="img-responsive" alt="">
-                  </div>
-
-                  <div class="footer-img-m hidden-lg hidden-md">
-                    <div class="row">
-                      <div class="col-xs-12 text-center">
+                    <div class="hidden-sm hidden-xs">
                         <img src="assets/img/footer/logo.png" class="img-responsive" alt="">
-                      </div>
+                        <img src="assets/img/footer/g1.png" class="img-responsive" alt="">
+                        <img src="assets/img/footer/g2.png" class="img-responsive" alt="">
+                        <img src="assets/img/footer/g3.png" class="img-responsive" alt="">
+                        <img src="assets/img/footer/g4.png" class="img-responsive" alt="">
                     </div>
-                    <div class="row">
-                      <div class="col-sm-6 col-xs-6">
-                        <img src="assets/img/footer/g1b.png" class="img-responsive" alt="">
-                      </div>
-                      <div class="col-sm-6 col-xs-6">
-                        <img src="assets/img/footer/g2b.png" class="img-responsive" alt="">
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm-6 col-xs-6">
-                        <img src="assets/img/footer/g3b.png" class="img-responsive" alt="">
-                      </div>
-                      <div class="col-sm-6 col-xs-6">
-                        <img src="assets/img/footer/g4b.png" class="img-responsive" alt="">
-                      </div>
-                    </div>
-                  </div>
 
-
-                <div class="col-md-6">
-                    <div class="footer-services  ">
-                        <h4>关注</h4>
-                        <ul class="columns f-social">
-                            <li><img src="assets/img/footer/tencent.png" class="img-responsive" alt=""></li>
-                            <li><img src="assets/img/footer/youtube.png" class="img-responsive" alt=""></li>
-                            <li><img src="assets/img/footer/weibo.png" class="img-responsive" alt=""></li>
-                            <li><img src="assets/img/footer/google.png" class="img-responsive" alt=""></li>
-                            <li><img src="assets/img/footer/fb.png" class="img-responsive" alt=""></li>
-                            <li><img src="assets/img/footer/twitter.png" class="img-responsive" alt=""></li>
-                        </ul>
-                        <h4>分享</h4>
-                        <div class="footer-shareit">
-                          <ul class="list-inline">
-                            <li><a href="#"><img src="assets/img/footer/shareit icons/tencent.png" class="img-responsive" alt=""></a></li>
-                            <li><a href="#"><img src="assets/img/footer/shareit icons/youtube.png" class="img-responsive" alt=""></a></li>
-                            <li><a href="#"><img src="assets/img/footer/shareit icons/weibo.png" class="img-responsive" alt=""></a></li>
-                            <li><a href="#"><img src="assets/img/footer/shareit icons/google.png" class="img-responsive" alt=""></a></li>
-                            <li><a href="#"><img src="assets/img/footer/shareit icons/fb.png" class="img-responsive" alt=""></a></li>
-                          </ul>
-                        </div>
-                        <h4>订阅电子报</h4>
-                        <div class="sub"><label><input name="info1$Mail" placeholder="免费获得沙龙会最新消息" maxlength="20" id="info1_Mail" tabindex="20" type="text"></label><a href="#">订阅</a></div>
-                        <h4>公司简介 </h4>
-                        <p>
-                          沙龙会属于沙龙国际娱乐集团官方的直营现金网，营运总部位于菲律宾的核心金融商业中心马卡蒂市，并获得菲律宾第一卡加延休闲度假公司 First Cagayan Leisure and Resort Corporation (简称 FCLRC) 签发授权的网上博彩牌照，沙龙会博彩网站的运作流程均受之严格监督与管理，所有博彩游戏都经过第三方软件测试机构GLI及BMM的国际认证，保证每一款真人游戏及电子游戏的公平与公正，证明所有环节均符合相关的规定及法律要求。同时，我们提供多种快速安全的线上支付渠道，让玩家存款提款可以更简单，随时随地安全地进行线上博彩娱乐！马上免费联系沙龙会客服中心，不管是开户、存款、提款、游戏等各项谘询，沙龙国际沙龙会全年无休24小时待命为您服务。沙龙会绝对是玩家们值得信赖、具有实力及专业的线上博彩娱乐品牌。
-
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="footer-gameprovider footer-line">
-                      <div class="footer-pad">
-                        <h4>信息</h4>
-                        <div class="gameprovider footer-services f-right">
-                          <ul class="columns">
-                              <li><div class="list">关於我们</div></li>
-                              <li><div class="list">重要公告</div></li>
-                              <li><div class="list">博彩规则</div></li>
-                              <li><div class="list">使用条款</div></li>
-                              <li><div class="list">负责任博彩</div></li>
-                              <li><div class="list">隐私政策</div></li>
-                          </ul>
-                        </div>
-
-                          <h4>产品 </h4>
-                          <div class="gameprovider footer-services f-right">
-                            <ul class="columns">
-                                <li><div class="list">选择地区</div></li>
-                                <li><div class="list">娱乐场</div></li>
-                                <li><div class="list">老虎机</div></li>
-                                <li><div class="list">彩票</div></li>
-                                <li><div class="list">优惠</div></li>
-                                <li><div class="list">赢家</div></li>
-                                <li><div class="list">所有游戏</div></li>
-                            </ul>
-                          </div>
-                          <h4>服务</h4>
-
-                          <div class="gameprovider footer-services f-right">
-                            <ul class="columns">
-                                <li><div class="list-s">会员注册</div>  </li>
-                                <li><div class="list-s">会员登入</div></li>
-                                <li><div class="list-s">联络我们</div></li>
-                                <li><div class="list-s">如何注册</div></li>
-                                <li><div class="list-s">如何存款</div> </li>
-                                <li><div class="list-s">如何提款</div> </li>
-                                <li><div class="list-s">网站地图</div> </li>
-                                <li><div class="list-s">调查问卷</div> </li>
-                                <li><div class="list-s">防刧持工具</div> </li>
-                                <li><div class="list-s">如何清除缓存</div> </li>
-                                <li><div class="list-s">如何启用弹窗</div> </li>
-                            </ul>
-                          </div>
-
-
-                          <h4>监管及认証</h4>
-
-                          <div class="gameprovider footer-services f-right f-social">
-                            <ul class="columns no-bullet">
-                                <li><img src="assets/img/footer/cert.png" alt="" style="margin: 0;" class="img-responsive">  </li>
-
-                            </ul>
-                          </div>
-
-                          <div class="row fsalon">
-                            <div class="col-md-3">
-                              <h4>游戏平台</h4>
-                              <ul class="no-bullet">
-                                <li><img src="assets/img/footer/sagaming.png" alt=""  style="margin: 0;"  class="img-responsive">  </li>
-                              </ul>
+                    <div class="footer-img-m hidden-lg hidden-md">
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <img src="assets/img/footer/logo.png" class="img-responsive" alt="">
                             </div>
-                            <div class="col-md-3">
-                              <h4>沙龙国际官方直营</h4>
-                              <ul class="no-bullet">
-                                <li><img src="assets/img/footer/ssalon.png" alt=""  style="margin: 0;"  class="img-responsive"></li>
-                              </ul>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-6">
+                                <img src="assets/img/footer/g1b.png" class="img-responsive" alt="">
                             </div>
-                          </div>
+                            <div class="col-sm-6 col-xs-6">
+                                <img src="assets/img/footer/g2b.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-xs-6">
+                                <img src="assets/img/footer/g3b.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="col-sm-6 col-xs-6">
+                                <img src="assets/img/footer/g4b.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                    </div>
 
-                          <h4>浏览器</h4>
-
-                          <div class="gameprovider footer-services f-right f-social">
-                            <ul class="columns no-bullet">
-                                <li><img src="assets/img/footer/browser.png" alt="" class="img-responsive">  </li>
-
+                    <div class="col-md-6">
+                        <div class="footer-services  ">
+                            <h4>关注</h4>
+                            <ul class="columns f-social">
+                                <li><img src="assets/img/footer/tencent.png" class="img-responsive" alt=""></li>
+                                <li><img src="assets/img/footer/youtube.png" class="img-responsive" alt=""></li>
+                                <li><img src="assets/img/footer/weibo.png" class="img-responsive" alt=""></li>
+                                <li><img src="assets/img/footer/google.png" class="img-responsive" alt=""></li>
+                                <li><img src="assets/img/footer/fb.png" class="img-responsive" alt=""></li>
+                                <li><img src="assets/img/footer/twitter.png" class="img-responsive" alt=""></li>
                             </ul>
-                          </div>
-                    </div>
-                    </div>
-                </div>
+                            <h4>分享</h4>
+                            <div class="footer-shareit">
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="#"><img src="assets/img/footer/shareit icons/tencent.png" class="img-responsive" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/img/footer/shareit icons/youtube.png" class="img-responsive" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/img/footer/shareit icons/weibo.png" class="img-responsive" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/img/footer/shareit icons/google.png" class="img-responsive" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="assets/img/footer/shareit icons/fb.png" class="img-responsive" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h4>订阅电子报</h4>
+                            <div class="sub">
+                                <label>
+                                    <input name="info1$Mail" placeholder="免费获得沙龙会最新消息" maxlength="20" id="info1_Mail" tabindex="20" type="text">
+                                </label><a href="#">订阅</a></div>
+                            <h4>公司简介 </h4>
+                            <p>
+                                沙龙会属于沙龙国际娱乐集团官方的直营现金网，营运总部位于菲律宾的核心金融商业中心马卡蒂市，并获得菲律宾第一卡加延休闲度假公司 First Cagayan Leisure and Resort Corporation (简称 FCLRC) 签发授权的网上博彩牌照，沙龙会博彩网站的运作流程均受之严格监督与管理，所有博彩游戏都经过第三方软件测试机构GLI及BMM的国际认证，保证每一款真人游戏及电子游戏的公平与公正，证明所有环节均符合相关的规定及法律要求。同时，我们提供多种快速安全的线上支付渠道，让玩家存款提款可以更简单，随时随地安全地进行线上博彩娱乐！马上免费联系沙龙会客服中心，不管是开户、存款、提款、游戏等各项谘询，沙龙国际沙龙会全年无休24小时待命为您服务。沙龙会绝对是玩家们值得信赖、具有实力及专业的线上博彩娱乐品牌。
 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="footer-gameprovider footer-line">
+                            <div class="footer-pad">
+                                <h4>信息</h4>
+                                <div class="gameprovider footer-services f-right">
+                                    <ul class="columns">
+                                        <li>
+                                            <div class="list">关於我们</div>
+                                        </li>
+                                        <li>
+                                            <div class="list">重要公告</div>
+                                        </li>
+                                        <li>
+                                            <div class="list">博彩规则</div>
+                                        </li>
+                                        <li>
+                                            <div class="list">使用条款</div>
+                                        </li>
+                                        <li>
+                                            <div class="list">负责任博彩</div>
+                                        </li>
+                                        <li>
+                                            <div class="list">隐私政策</div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <h4>产品 </h4>
+                                <div class="gameprovider footer-services f-right">
+                                    <ul class="columns">
+                                        <li>
+                                            <div class="list">选择地区</div>
+                                        </li>
+                                        <li>
+                                            <div class="list">娱乐场</div>
+                                        </li>
+                                        <li>
+                                            <div class="list">老虎机</div>
+                                        </li>
+                                        <li>
+                                            <div class="list">彩票</div>
+                                        </li>
+                                        <li>
+                                            <div class="list">优惠</div>
+                                        </li>
+                                        <li>
+                                            <div class="list">赢家</div>
+                                        </li>
+                                        <li>
+                                            <div class="list">所有游戏</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h4>服务</h4>
+
+                                <div class="gameprovider footer-services f-right">
+                                    <ul class="columns">
+                                        <li>
+                                            <div class="list-s">会员注册</div>
+                                        </li>
+                                        <li>
+                                            <div class="list-s">会员登入</div>
+                                        </li>
+                                        <li>
+                                            <div class="list-s">联络我们</div>
+                                        </li>
+                                        <li>
+                                            <div class="list-s">如何注册</div>
+                                        </li>
+                                        <li>
+                                            <div class="list-s">如何存款</div>
+                                        </li>
+                                        <li>
+                                            <div class="list-s">如何提款</div>
+                                        </li>
+                                        <li>
+                                            <div class="list-s">网站地图</div>
+                                        </li>
+                                        <li>
+                                            <div class="list-s">调查问卷</div>
+                                        </li>
+                                        <li>
+                                            <div class="list-s">防刧持工具</div>
+                                        </li>
+                                        <li>
+                                            <div class="list-s">如何清除缓存</div>
+                                        </li>
+                                        <li>
+                                            <div class="list-s">如何启用弹窗</div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <h4>监管及认証</h4>
+
+                                <div class="gameprovider footer-services f-right f-social">
+                                    <ul class="columns no-bullet">
+                                        <li><img src="assets/img/footer/cert.png" alt="" style="margin: 0;" class="img-responsive"> </li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="row fsalon">
+                                    <div class="col-md-3">
+                                        <h4>游戏平台</h4>
+                                        <ul class="no-bullet">
+                                            <li><img src="assets/img/footer/sagaming.png" alt="" style="margin: 0;" class="img-responsive"> </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h4>沙龙国际官方直营</h4>
+                                        <ul class="no-bullet">
+                                            <li><img src="assets/img/footer/ssalon.png" alt="" style="margin: 0;" class="img-responsive"></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <h4>浏览器</h4>
+
+                                <div class="gameprovider footer-services f-right f-social">
+                                    <ul class="columns no-bullet">
+                                        <li><img src="assets/img/footer/browser.png" alt="" class="img-responsive"> </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div>
-        <div class="copyright">
-            <div class="container text-center">
-                <img src="assets/img/footer/f-logo.png" class="img-responsive" alt="">
-                <span>沙龙国际版权所有 &copy; 2009 - 2017</span>
+            <div class="copyright">
+                <div class="container text-center">
+                    <img src="assets/img/footer/f-logo.png" class="img-responsive" alt="">
+                    <span>沙龙国际版权所有 &copy; 2009 - 2017</span>
+                </div>
             </div>
-        </div>
     </footer>
 
-<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-    	  <div class="modal-dialog">
-				<div class="loginmodal-container">
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="loginmodal-container">
 
-					<p style=margin-top:45px;>沙龍會試玩帳戶，毋須使用一分錢，體驗博彩快感之餘，更能磨練自己的網上博彩技巧，並了解在專業網上賭場裏博彩是什麽樣，學習如何舒適和休閑地進行網上博彩。現在注冊開設你的免費試玩賬戶吧！</p><br>
-				  <form>
-					<input type="text" name="user" placeholder="用户名">
-					<input type="password" name="pass" placeholder="密码">
-					<div class="form">
-          <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="提交">
-</div>
-				  </form>
+                <p style=margin-top:45px;>沙龍會試玩帳戶，毋須使用一分錢，體驗博彩快感之餘，更能磨練自己的網上博彩技巧，並了解在專業網上賭場裏博彩是什麽樣，學習如何舒適和休閑地進行網上博彩。現在注冊開設你的免費試玩賬戶吧！</p>
+                <br>
+                <form>
+                    <input type="text" name="user" placeholder="用户名">
+                    <input type="password" name="pass" placeholder="密码">
+                    <div class="form">
+                        <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="提交">
+                    </div>
+                </form>
 
-
-				</div>
-			</div>
-		  </div>
+            </div>
+        </div>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -824,22 +918,28 @@
     </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-    <div class="back hidden-lg hidden-md hidden-sm" style="display: none;"><a><div class="btn-top">TOP</div></a></div>
-      <script type="text/javascript">
-      $(function(){
-          $(window).scroll( function(){
-             var h= $(window).scrollTop();
-             if(h>100){
-              $(".back").show(500);
-             }else{
-              $(".back").hide(500);
-             }
-          })
-          $(".back a").click(function() {
-                 $('html,body').animate({scrollTop:0}, 500);
-              });
-      })
-      </script>
+    <div class="back hidden-lg hidden-md hidden-sm" style="display: none;">
+        <a>
+            <div class="btn-top">TOP</div>
+        </a>
+    </div>
+    <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                var h = $(window).scrollTop();
+                if (h > 100) {
+                    $(".back").show(500);
+                } else {
+                    $(".back").hide(500);
+                }
+            })
+            $(".back a").click(function() {
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 500);
+            });
+        })
+    </script>
 </body>
 
 </html>
