@@ -376,3 +376,91 @@ margin: 0px auto
   text-decoration: none;
   background: #ccc
 }
+
+.lang-c-2{
+  margin-top: 20px;
+  border-top: 1px solid #5e5a5b;
+}
+
+.lang-c-2 .all-aboutus{
+  padding-bottom: 15px
+}
+
+.lang-txt-head{
+  white-space: nowrap;
+}
+
+.lang-txt-head a{
+  padding-bottom: 10px
+}
+
+.aboutus-contactus{
+  margin-top: 20px
+}
+
+.aboutus-contactus{
+  color: #e0e0e0
+}
+
+.aboutus-contactus span{
+  color: #e7a930;
+  margin-left: 5px
+}
+
+.r-aboutus p{
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  padding-right: 20px
+}
+
+.contactus-social{
+  margin-bottom: 15px
+}
+
+.contactus-numbers div, .contactus-email div, .contactus-qq div{
+  padding-left: 50px;
+  margin-bottom: 5px;
+}
+
+.contactus-numbers{
+  margin-bottom: 10px;
+  background: url(../img/phone.png) no-repeat;
+  background-position: 1% 50%;
+  background-size: 8% 60%;
+}
+
+.contactus-email{
+  background: url(../img/email.png) no-repeat;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  background-size: 10% 75%;
+}
+
+.contactus-qq{
+  background: url(../img/qq.png) no-repeat;
+  background-size: 11% 71%;
+  background-position: 0% 35%;
+}
+
+.seo-partners2{
+  margin-top: 25px
+}
+
+.seo-partners2 ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px
+}
+
+.copyright2{
+  margin-top: 20px;
+  background: none !important
+}
+
+.seo-body .seo-media{
+  width: 900px !important
+}
+
+.seo-footer{
+  background: #000
+}
