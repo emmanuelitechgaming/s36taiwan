@@ -28,6 +28,10 @@ $(function() {
         e.preventDefault();
     });
 
+    $('#mobile-button').click(function() {
+      $('i', this).toggleClass('fa-caret-up fa-caret-down');
+    });
+
 
 });
 $('#datepicker-from').datepicker({

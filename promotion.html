@@ -44,14 +44,32 @@
 
 <body>
   <header>
+    <nav class="collapse clearfix hidden-lg hidden-md" id="mobile-top-menu">
+      <div class="row">
+        <div class="col-xs-4 col-xs-offset-2">
+          <a href="#">
+            <img src="assets/img/login.png" class="img-responsive" alt="">
+          </a>
+        </div>
+        <div class="col-xs-4">
+          <a href="#">
+            <img src="assets/img/register.png" class="img-responsive" alt="">
+          </a>
+        </div>
+      </div>
+    </nav>
       <nav class="navbar">
           <div class="container">
             <div class="navbar-header header-mobile ">
 
-              <div class=" nathan-hamburger-hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-right ">
-                <div class="hamburger-box">
-                  <div class="hamburger-inner"></div>
-                </div>
+              <!-- <div class=" nathan-hamburger-hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-right " style="display: none">
+                  <div class="hamburger-box" data-toggle="collapse" data-target="#mobile-top-menu">
+                      <div class="hamburger-inner"></div>
+                  </div>
+              </div> -->
+
+              <div class="mobile-button hidden-lg hidden-md">
+                <a href="#" id="mobile-button" data-toggle="collapse" data-target="#mobile-top-menu"><i class="fa fa-caret-up"></i></a>
               </div>
 
               <div class="logo nathan-logo header-mobile-logo pull-left">
