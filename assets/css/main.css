@@ -1996,3 +1996,34 @@ header .nathan-hamburger-hm-d {
     text-decoration: none;
     color: #fff;
 }
+
+.mobile-button{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.mobile-button .fa{
+  color: #a7a7a7;
+  font-size: 30px
+}
+
+#mobile-top-menu img{
+  margin: 20px 0 0
+}
+
+.mobile-top-navbar{
+  float: none !important;
+  border-top: none;
+  border-bottom: none;
+  box-shadow: none;
+}
+
+.mobile-top-navbar .account-container.shadow{
+  padding-top: 10px;
+  padding-bottom: -10px
+}
+
+.mobile-top-navbar .notif{
+  top: 10px
+}

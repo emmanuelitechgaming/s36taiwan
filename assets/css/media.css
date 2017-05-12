@@ -105,7 +105,7 @@
     }
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
         width: 75px !important;
-        margin-left: -55px !important;
+        margin-left: -100px !important;
         margin-top: 18px !important;
     }
     .remo-navbar-header .btn {
@@ -144,7 +144,7 @@
 @media only screen and (min-width: 360px) {
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
         width: 75px !important;
-        margin-left: -95px !important;
+        margin-left: -140px !important;
     }
     .panel-login {
         width: 220%;
@@ -157,7 +157,7 @@
 @media only screen and (min-width: 375px) {
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
         width: 75px !important;
-        margin-left: -110px !important;
+        margin-left: -155px !important;
     }
     .panel-login {
         width: 219%;
@@ -174,7 +174,7 @@
 @media only screen and (min-width: 414px) {
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
         width: 75px !important;
-        margin-left: -149px !important;
+        margin-left: -194px !important;
     }
     .panel-login {
         width: 217%;
