@@ -68,4 +68,74 @@ $(document).ready(function() {
     $('#blue-tab').attr('src', 'assets/img/seo-images/7-hover.png');
   });
 
+  function dwActive(dw, type, val){
+    $('#deposit1').closest('li').removeClass('deposit-active');
+    $('#deposit2').closest('li').removeClass('deposit-active');
+    $('#deposit3').closest('li').removeClass('deposit-active');
+    $('#deposit4').closest('li').removeClass('deposit-active');
+    $('#deposit5').closest('li').removeClass('deposit-active');
+    $('#withdraw1').closest('li').removeClass('deposit-active');
+    $('#withdraw2').closest('li').removeClass('deposit-active');
+    $('#withdraw3').closest('li').removeClass('deposit-active');
+    $('#withdraw4').closest('li').removeClass('deposit-active');
+    $('#withdraw5').closest('li').removeClass('deposit-active');
+    $('#withdraw6').closest('li').removeClass('deposit-active');
+
+    $('#' + dw).closest('li').addClass('deposit-active');
+
+    if(type == "deposit"){
+      $('#deposit-info-val').html(val);
+      $(".deposit-info").css('display', 'block');
+      $(".withdraw-info").css('display', 'none');
+    }else{
+      $('#withdraw-info-val').html(val);
+      $(".deposit-info").css('display', 'none');
+      $(".withdraw-info").css('display', 'block');
+    }
+  }
+
+  $("#deposit1").click(function() {
+    dwActive("deposit1", "deposit", $(this).val());
+  });
+
+  $("#deposit2").click(function() {
+    dwActive("deposit2", "deposit", $(this).val());
+  });
+
+  $("#deposit3").click(function() {
+    dwActive("deposit3", "deposit", $(this).val());
+  });
+
+  $("#deposit4").click(function() {
+    dwActive("deposit4", "deposit", $(this).val());
+  });
+
+  $("#deposit5").click(function() {
+    dwActive("deposit5", "deposit", $(this).val());
+  });
+
+  $("#withdraw1").click(function() {
+    dwActive("withdraw1", "withdraw", $(this).val());
+  });
+
+  $("#withdraw2").click(function() {
+    dwActive("withdraw2", "withdraw", $(this).val());
+  });
+
+  $("#withdraw3").click(function() {
+    dwActive("withdraw3", "withdraw", $(this).val());
+  });
+
+  $("#withdraw4").click(function() {
+    dwActive("withdraw4", "withdraw", $(this).val());
+  });
+
+  $("#withdraw5").click(function() {
+    dwActive("withdraw5", "withdraw", $(this).val());
+  });
+
+  $("#withdraw6").click(function() {
+    dwActive("withdraw6", "withdraw", $(this).val());
+  });
+
 });
