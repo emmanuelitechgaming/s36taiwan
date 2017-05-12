@@ -1,8 +1,32 @@
+@font-face {
+    font-family: icomoon;
+    src: url(../../dist/fonts/icomoon.eot?jnmwj);
+    src: url(../../dist/fonts/icomoon.eot?jnmwj#iefix) format("embedded-opentype"), url(../../dist/fonts/icomoon.ttf?jnmwj) format("truetype"), url(../../dist/fonts/icomoon.woff?jnmwj) format("woff"), url(../../dist/fonts/icomoon.svg?jnmwj#icomoon) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.icomoon{
+    font-family: icomoon !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+input, select{
+  outline: 0
+}
+
 .r-ads img{
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px
 }
+
 .marquee-mobile {
     color: #e7c017;
   width: 80% !important;
@@ -463,4 +487,157 @@ margin: 0px auto
 
 .seo-footer{
   background: #000
+}
+
+.provider-icon {
+  line-height: 40px;
+  position: relative;
+}
+
+.icon-bank:before{
+  content: "\e938";
+  vertical-align: top;
+}
+
+.icon-visa:before {
+  content: "\e921";
+}
+
+.icon-master:before{
+  content: "\e923";
+  opacity: .75;
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
+.icon-skrill:before{
+  content: "\e929";
+}
+
+.icon-skrill2:before{
+  content: "\e92a";
+}
+
+.icon-nt::before{
+  content: "\e926";
+}
+
+.icon-mt:before{
+  content: "\e931";
+}
+
+.icon-yx:before{
+  content: "\e932";
+}
+
+.deposit-hold{
+  margin-top: 20px
+}
+
+.deposit-col{
+  max-width: 640px;
+  margin: 0px auto
+}
+
+.deposit-withdraw .deposit, .deposit-withdraw .withdraw{
+  border: 1px solid #565656;
+  border-radius: 15px;
+  padding: 30px 31px 41px 28px;
+  position: relative;
+}
+
+.deposit-withdraw .deposit ul, .deposit-withdraw .withdraw ul{
+  margin: 0;
+  padding: 0;
+}
+
+.deposit-withdraw .deposit input[type=radio], .deposit-withdraw .withdraw input[type=radio]{
+  position: absolute;
+  opacity: 0;
+}
+
+.icon-visa-master{
+  position: relative;
+}
+
+.deposit-withdraw .deposit label, .deposit-withdraw .withdraw label{
+  cursor: pointer;
+  margin-bottom: 0;
+  width: 100%
+}
+
+.deposit-withdraw .deposit label span, .deposit-withdraw .withdraw label span{
+  display: block;
+  text-align: center;
+}
+
+.deposit-withdraw .deposit ul li, .deposit-withdraw .withdraw ul li{
+  width: 33.333333%;
+  list-style: none;
+  border-left: 1px solid #565656;
+  float: left;
+}
+
+.deposit-second, .withdraw-second{
+  border: 1px solid #565656;
+  border-bottom: 1px solid #565656 !important;
+}
+
+.deposit-second li{
+  width: 50% !important
+}
+
+.deposit-withdraw .deposit ul li:first-child, .deposit-withdraw .withdraw ul li:first-child{
+  border: 0;
+}
+
+.deposit-withdraw .deposit{
+  border-radius: 15px 15px 0 0;
+}
+
+.deposit-withdraw .deposit img, .deposit-withdraw .withdraw img{
+  width: 110px;
+  margin-top: -50px;
+  margin-left: 25px
+}
+
+.deposit-withdraw .withdraw{
+  border-radius: 0 0 15px 15px;
+  border-top: none;
+}
+
+.deposit-withdraw .deposit ul, .deposit-withdraw .withdraw ul{
+  border: 1px solid #565656;
+  border-bottom: 0;
+}
+
+.deposit-title, .withdraw-title{
+  padding: 0 0 0 1px;
+  margin: 0 0 16px;
+  font-size: 15px;
+  color: #c1aa88;
+  font-weight: 700
+}
+
+.deposit-title select{
+  font-weight: 400;
+  height: 30px;
+  background-size: 21% 100%;
+  width: 120px;
+  padding: 5px;
+  font-size: 14px
+}
+
+.deposit-active{
+  background: #9c8866;
+  color: #fff
+}
+
+.deposit-info, .withdraw-info{
+  display: none;
+  position: relative;
+  text-align: center;
+  padding: 13px 0 0;
+  margin-top: 30px
 }
