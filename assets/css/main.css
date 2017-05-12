@@ -1997,6 +1997,7 @@ header .nathan-hamburger-hm-d {
     color: #fff;
 }
 
+
 .mobile-button{
   position: absolute;
   right: 20px;
@@ -2026,4 +2027,42 @@ header .nathan-hamburger-hm-d {
 
 .mobile-top-navbar .notif{
   top: 10px
+=======
+.deposit-hold {
+  padding:20px;
+}
+
+.deposit-hold > .deposit-col >.tab-content{
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: hidden;
+
+}
+.deposit-hold .tab-content SPAN.action{
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #c1aa88;
+  float: left;
+  margin: 0;
+  font-weight: 700;
+}
+select.input-lg {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  /* no standardized syntax available, no ie-friendly solution available */
+}
+
+select + i.fa {
+  float: right;
+  margin-top: -30px;
+  margin-right: 5px;
+  /* this is so when you click on the chevron, your click actually goes on the dropdown menu */
+  pointer-events: none;
+  /* everything after this is just to cover up the original arrow */
+  /* (for browsers that don't support the syntax used above) */
+  background-color: #fff;
+  padding-right: 5px;
+
 }
