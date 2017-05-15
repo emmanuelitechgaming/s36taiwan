@@ -171,39 +171,39 @@
                 <div class=" all-aboutus">
 
                     <div class="col-xs-1">
-                        <div class="lang-txt-head"><a href="#" Class="active">关于我们</a></div>
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="simp" Class="active">关于我们</a></div>
 
                     </div>
                     <div class="col-xs-1">
-                        <div class="lang-txt-head"><a href="#">關於我們</a></div>
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="trad">關於我們</a></div>
 
                     </div>
                     <div class="col-xs-2 col2">
-                        <div class="lang-txt-head"><a href="#">เกี่ยวกับเรา</a></div>
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="thai">เกี่ยวกับเรา</a></div>
 
                     </div>
                     <div class="col-xs-1 col1">
-                        <div class="lang-txt-head"><a href="#">Tentang kami</a></div>
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="indo">Tentang kami</a></div>
 
                     </div>
                     <div class="col-xs-1">
-                        <div class="lang-txt-head"><a href="#">Tentang kita</a></div>
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="malay">Tentang kita</a></div>
 
                     </div>
                     <div class="col-xs-2">
-                        <div class="lang-txt-head"><a href="#">	Về chúng tôis</a></div>
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="viet">	Về chúng tôis</a></div>
 
                     </div>
                     <div class="col-xs-1">
-                        <div class="lang-txt-head"><a href="#">	हमारे बारे में </a></div>
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="hindi">	हमारे बारे में </a></div>
 
                     </div>
                     <div class="col-xs-3">
-                        <div class="lang-txt-head"><a href="#">	私たちに関しては </a></div>
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="jap">	私たちに関しては </a></div>
 
                     </div>
                     <div class="col-xs-2">
-                        <div class="lang-txt-head"><a href="#">우리에 대해 </a></div>
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="kor">우리에 대해 </a></div>
 
                     </div>
 
@@ -214,7 +214,7 @@
 
         <div class="container aboutus-contactus">
           <div class="col-md-8 col-sm-12 col-xs-12 r-aboutus">
-            <p>
+            <p class="about-txt">
               沙龍會網上賭場2009年創立經營八年，沙龍集團官方直營信譽值得信賴，沙龍會台灣官方網址 :<span>www.s36.com/tw</span>，持有菲律賓合法網上博彩牌照，全年365天24小時致力為您提供最優質且多元化的網上博彩服務。我們的所有網上博彩遊戲，巳都通過國際第三方軟件測試機構GLI及BMM的認證，確保玩家能得到最公正的網上博彩服務。我們並同時提供多種安全、便捷、高效的支付服務，讓您隨時隨地盡情享受網上博彩娛樂的無限歡樂，另外，我們更為尊貴的您精心挑選了多種與衆不同的驚喜優惠。什麼？還不是會員？現在就馬上注冊加入沙龍會吧！我們必定能為您帶來非凡的網上博彩體驗。
             </p>
           </div>
@@ -278,6 +278,124 @@
     <script src="assets/js/countUp.js"></script>
     <script>
         $(document).ready(function() {
+          $( "#trad" ).click(function() {
+          $('.about-txt').html('沙龙会网上赌场2009年创立经营八年，沙龙集团官方直营信誉值得信赖，沙龙会台湾官方网址:<span>www.s36.com/tw</span>，持有菲律宾合法网上博彩牌照，全年365天24小时致力为您提供最优质且多元化的网上博彩服务。我们的所有网上博彩游戏，巳都通过国际第三方软件测试机构GLI及BMM的认证，确保玩家能得到最公正的网上博彩服务。我们并同时提供多种安全、便捷、高效的支付服务，让您随时随地尽情享受网上博彩娱乐的无限欢乐，另外，我们更为尊贵的您精心挑选了多种与众不同的惊喜优惠。什么？还不是会员？现在就马上注册加入沙龙会吧！我们必定能为您带来非凡的网上博彩体验。  ');
+          $( "#trad" ).addClass( "active" );
+          $("#simp").removeClass("active");
+          $("#thai").removeClass("active");
+          $("#indo").removeClass("active");
+          $("#malay").removeClass("active");
+          $("#viet").removeClass("active");
+          $("#hindi").removeClass("active");
+          $("#jap").removeClass("active");
+          $("#kor").removeClass("active");
+          });
+
+          $( "#simp" ).click(function() {
+          $('.about-txt').html('  沙龍會網上賭場2009年創立經營八年，沙龍集團官方直營信譽值得信賴，沙龍會台灣官方網址:<span>www.s36.com/tw</span>，持有菲律賓合法網上博彩牌照，全年365天24小時致力為您提供最優質且多元化的網上博彩服務。我們的所有網上博彩遊戲，巳都通過國際第三方軟件測試機構GLI及BMM的認證，確保玩家能得到最公正的網上博彩服務。我們並同時提供多種安全、便捷、高效的支付服務，讓您隨時隨地盡情享受網上博彩娛樂的無限歡樂，另外，我們更為尊貴的您精心挑選了多種與眾不同的驚喜優惠。什麼？還不是會員？現在就馬上註冊加入沙龍會吧！我們必定能為您帶來非凡的網上博彩體驗。');
+          $( "#simp" ).addClass( "active" );
+          $("#trad").removeClass("active");
+          $("#thai").removeClass("active");
+          $("#indo").removeClass("active");
+          $("#malay").removeClass("active");
+          $("#viet").removeClass("active");
+          $("#hindi").removeClass("active");
+          $("#jap").removeClass("active");
+          $("#kor").removeClass("active");
+          });
+
+          $( "#thai" ).click(function() {
+          $('.about-txt').html(' ชารอนจะเป็นในปี 2009 วิ่งคาสิโนออนไลน์ตั้งขึ้นในแปดกลุ่มชารอนอย่างเป็นทางการเป็นที่ยอมรับน่าเชื่อถือตรงที่ชารอนเป็นเว็บไซต์อย่างเป็นทางการของไต้หวัน: <span> www.s36.com/tw </span> ที่ใช้บังคับกับใบอนุญาตการพนันออนไลน์ในฟิลิปปินส์ 365 วันต่อปี, บริการการพนันออนไลน์ตลอด 24 ชั่วโมงเพื่อให้มีคุณภาพที่ดีที่สุดและการกระจายความเสี่ยง ทั้งหมดของเราออนไลน์เกมคาสิโนซอฟแวร์เพื่อการทดสอบของบุคคลที่สาม GLI และ BMM รับรองผ่านหน่วยงานระหว่างประเทศเพื่อให้แน่ใจว่าผู้เล่นจะได้รับโสภาบริการการพนันออนไลน์ นอกจากนี้เรายังมีความหลากหลายของความปลอดภัยสะดวกและมีประสิทธิภาพบริการการชำระเงินเพื่อให้คุณสนุกกับการเล่นเกมออนไลน์และความบันเทิงทุกที่ทุกเวลา นอกจากนี้เราแยกแยะความแตกต่างมากขึ้นอย่างรอบคอบเลือกหลากหลายของกิจกรรมส่งเสริมการขายที่น่าตื่นเต้นที่แตกต่างกันคืออะไร? ไม่ได้เป็นสมาชิก? ตอนนี้ชารอนทันทีจะลงทะเบียนในขณะนี้! เราจะได้สัมผัสกับประสบการณ์การเล่นเกมออนไลน์ที่โดดเด่น)');
+          $( "#thai" ).addClass( "active" );
+          $("#trad").removeClass("active");
+          $("#simp").removeClass("active");
+          $("#indo").removeClass("active");
+          $("#malay").removeClass("active");
+          $("#viet").removeClass("active");
+          $("#hindi").removeClass("active");
+          $("#jap").removeClass("active");
+          $("#kor").removeClass("active");
+          });
+
+          $( "#indo" ).click(function() {
+          $('.about-txt').html(' Sharon akan berjalan kasino online pada tahun 2009 mendirikan delapan kelompok, Sharon diterima secara resmi Keandalan mana Sharon adalah situs resmi Taiwan: <span> www.s36.com/tw </span> berlaku untuk lisensi perjudian online di Filipina, 365 hari setahun, 24 jam sehari layanan perjudian online untuk memberikan kualitas terbaik dan diversifikasi. Semua perangkat lunak kasino game online kami untuk pengujian pihak ketiga, GLI dan BMM sertifikasi melalui badan-badan internasional, untuk memastikan bahwa pemain mendapatkan layanan perjudian online paling adil. Kami juga menawarkan berbagai layanan pembayaran yang aman, nyaman dan efisien bagi Anda untuk menikmati game online dan hiburan kapan saja, di mana saja. Selain itu, kami membedakan lebih hati-hati dipilih berbagai kegiatan promosi, menarik, berbeda? Bukan anggota? Sekarang Sharon akan segera daftar sekarang! Kami akan dapat mengalami game online yang luar biasa.');
+          $( "#indo" ).addClass( "active" );
+          $("#trad").removeClass("active");
+          $("#simp").removeClass("active");
+          $("#thai").removeClass("active");
+          $("#malay").removeClass("active");
+          $("#viet").removeClass("active");
+          $("#hindi").removeClass("active");
+          $("#jap").removeClass("active");
+          $("#kor").removeClass("active");
+          });
+
+          $( "#malay" ).click(function() {
+          $('.about-txt').html('Sharon akan berjalan kasino dalam talian pada tahun 2009 menubuhkan lapan kumpulan, Sharon Kebolehpercayaan diterima secara rasmi di mana Sharon adalah laman web rasmi Taiwan: <span> www.s36.com/tw </span> berkenaan dengan lesen perjudian dalam talian di Filipina 365 hari setahun, 24 jam sehari dalam talian perkhidmatan, perjudian untuk memberikan yang terbaik kualiti dan kepelbagaian. Semua perisian permainan kasino dalam talian kami untuk ujian pihak ketiga, pensijilan GLI dan BMM melalui agensi-agensi antarabangsa, untuk memastikan bahawa pemain mendapatkan yang paling adil perkhidmatan perjudian dalam talian. Kami juga menawarkan pelbagai perkhidmatan pembayaran yang selamat, mudah dan cekap untuk anda untuk menikmati permainan dalam talian dan hiburan bila-bila masa, di mana sahaja. Selain itu, kami membezakan memilih lebih teliti pelbagai aktiviti promosi, menarik, yang berbeza adalah? Bukan ahli? Sekarang Sharon akan segera mendaftar sekarang! Kita akan dapat mengalami permainan dalam talian terkumpul ');
+          $( "#malay" ).addClass( "active" );
+          $("#trad").removeClass("active");
+          $("#simp").removeClass("active");
+          $("#thai").removeClass("active");
+          $("#indo").removeClass("active");
+          $("#viet").removeClass("active");
+          $("#hindi").removeClass("active");
+          $("#jap").removeClass("active");
+          $("#kor").removeClass("active");
+          });
+
+          $( "#viet" ).click(function() {
+          $('.about-txt').html('Sharon sẽ chạy casino trực tuyến trong năm 2009 để thành lập tám nhóm, Sharon đáng tin cậy chính thức chấp nhận nơi Sharon là trang web chính thức của Đài Loan: <span> www.s36.com/tw </span> liên quan đến giấy phép chơi game trực tuyến ở Philippines 365 với ngày một năm, các dịch vụ trực tuyến 24 giờ một ngày, cờ bạc để cung cấp chất lượng tốt nhất và đa dạng. Tất cả các phần mềm trò chơi casino trực tuyến để kiểm tra của bên thứ ba, GLI và BMM chứng nhận thông qua các cơ quan quốc tế, để đảm bảo rằng người chơi có được các dịch vụ cờ bạc trực tuyến công tâm nhất. Chúng tôi cũng cung cấp một loạt các dịch vụ thanh toán an toàn, thuận tiện và hiệu quả để bạn có thể thưởng thức chơi game trực tuyến và giải trí mọi lúc mọi nơi. Bên cạnh đó, chúng tôi phân biệt cẩn thận hơn chọn hoạt động quảng bá khác nhau, thú vị, khác nhau là? Không phải là một thành viên? Bây giờ Sharon sẽ sớm đăng ký ngay! Chúng tôi sẽ có thể trải nghiệm các trò chơi trực tuyến tích lũy');
+          $( "#viet" ).addClass( "active" );
+          $("#trad").removeClass("active");
+          $("#simp").removeClass("active");
+          $("#thai").removeClass("active");
+          $("#indo").removeClass("active");
+          $("#malay").removeClass("active");
+          $("#hindi").removeClass("active");
+          $("#jap").removeClass("active");
+          $("#kor").removeClass("active");
+          });
+
+          $( "#hindi" ).click(function() {
+          $('.about-txt').html('शेरोन आठ समूहों की स्थापना 2009 में ऑनलाइन कैसीनो चलेंगे, शेरोन विश्वसनीयता आधिकारिक तौर पर स्वीकार किए जाते हैं जहां शेरोन ताइवान की आधिकारिक वेबसाइट है: <span> www.s36.com/tw </span> फिलीपींस 365 में ऑनलाइन गेमिंग लाइसेंस के संबंध में दिन एक वर्ष, दिन के 24 घंटे ऑनलाइन सेवाओं, जुआ अच्छी गुणवत्ता और विविधता प्रदान करते हैं। तीसरे पक्ष के परीक्षण, अंतरराष्ट्रीय एजेंसियों के माध्यम से GLI और BMM प्रमाणीकरण, करने के लिए सभी ऑनलाइन कैसीनो गेमिंग सॉफ्टवेयर है कि खिलाड़ियों को खूबसूरत ऑनलाइन जुआ सेवाओं मिल सुनिश्चित करने के लिए। आप किसी भी समय ऑनलाइन गेमिंग और मनोरंजन का आनंद लेने के लिए, कहीं भी हम यह भी सुरक्षित भुगतान सेवाओं, सुविधाजनक और कुशल की एक किस्म प्रदान करते हैं। इसके अलावा, हम भेद अधिक ध्यान से विभिन्न प्रचार गतिविधियों, दिलचस्प चुनते हैं, तो अलग है? सदस्य नहीं? अब शेरोन जल्द ही अभी साइन अप होगा! हम ऑनलाइन जमा खेल का अनुभव करने के लिए सक्षम हो जाएगा');
+          $( "#hindi" ).addClass( "active" );
+          $("#trad").removeClass("active");
+          $("#simp").removeClass("active");
+          $("#thai").removeClass("active");
+          $("#indo").removeClass("active");
+          $("#malay").removeClass("active");
+          $("#viet").removeClass("active");
+          $("#jap").removeClass("active");
+          $("#kor").removeClass("active");
+          });
+
+          $( "#jap" ).click(function() {
+          $('.about-txt').html('シャロンはシャロンが台湾の公式ウェブサイトですシャロン・信頼性を公式に認められた、8つのグループを設定するには、2009年にオンラインカジノを実行します。<span>のwww.s36.com/tw </span>のフィリピン365におけるオンラインゲームのライセンスに関して日年間、1日24時間オンラインサービス、最高の品質と多様性を提供するために、ギャンブル。サードパーティのテスト、国際機関を通じてGLIとBMM認定、へのすべてのオンラインカジノのゲームソフトウェアは、プレイヤーが最も公平なオンラインギャンブルのサービスを得ることを確実にします。あなたがいつでもどこでもオンラインゲームとエンターテイメントを楽しむために我々はまた、便利で効率的、安全な決済サービスの多様性を提供します。また、我々はより慎重にされ、興味深い様々なプロモーション活動を、選ぶ違う見分けますか？メンバーじゃありませんの？今、シャロンはすぐに今すぐ登録します！私たちは、オンライン累積ゲームを体験することができます');
+          $( "#jap" ).addClass( "active" );
+          $("#trad").removeClass("active");
+          $("#simp").removeClass("active");
+          $("#thai").removeClass("active");
+          $("#indo").removeClass("active");
+          $("#malay").removeClass("active");
+          $("#viet").removeClass("active");
+          $("#hindi").removeClass("active");
+          $("#kor").removeClass("active");
+          });
+
+          $( "#kor" ).click(function() {
+          $('.about-txt').html('필리핀 365에서 온라인 게임 라이센스에 대한 <SPAN> www.s36.com/tw </SPAN> : 샤론 8 개 그룹을 설정하기 위해 2009 년에 온라인 카지노를 실행, 샤론 신뢰성 공식적 샤론 대만의 공식 웹 사이트입니다 가능 일 년에 하루 24 시간 온라인 서비스, 도박은 최고의 품질과 다양성을 제공합니다. 타사 테스트, 국제기구를 통해 GLI와 BMM 인증에 대한 모든 온라인 카지노 게임 소프트웨어는 플레이어가 공정한 온라인 도박 서비스를 얻을 수 있도록합니다. 당신이 언제 어디서나 온라인 게임과 엔터테인먼트를 즐길 수 있도록 우리는 또한 편리하고 효율적인 보안 결제 서비스의 다양한 제공합니다. 또한, 우리는 더 신중하게 흥미로운 다양한 홍보 활동을 선택 구별 다른 무엇입니까? 회원이 아니신가요? 이제 샤론은 곧 지금 가입 것입니다! 우리는 온라인으로 축적 된 게임을 경험할 수있을 것입니다 ');
+          $( "#kor" ).addClass( "active" );
+          $("#trad").removeClass("active");
+          $("#simp").removeClass("active");
+          $("#thai").removeClass("active");
+          $("#indo").removeClass("active");
+          $("#malay").removeClass("active");
+          $("#viet").removeClass("active");
+          $("#hindi").removeClass("active");
+          $("#jap").removeClass("active");
+          });
+
+
 
         });
     </script>
