@@ -139,6 +139,10 @@
     footer .footer-line:before {
         border-left: none;
     }
+
+    footer .footer-shareit img {
+      width: auto;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -335,5 +339,9 @@
     main .marquee {
         width: 480px;
         bottom: 20px;
+    }
+
+    footer .footer-shareit img {
+      width: 84px;
     }
 }
