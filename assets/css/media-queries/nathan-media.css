@@ -48,7 +48,7 @@ header .nathan-hm-d{
 @media only screen and (min-width: 360px)
 {
   .nav>li>a {
-      padding: 5px 20px !important;
+      padding: 5px 19px !important;
   }
   .back {
     bottom: 40px;
