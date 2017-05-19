@@ -42,12 +42,33 @@
 <body>
   <header>
     <nav class="collapse clearfix hidden-lg hidden-md" id="mobile-top-menu">
+
+
+<div class="div">
+
+      <div class="contactus-m">
+        <div class="container"><a href="#" id="btn" data-toggle="collapse" data-target="#gs-body">Contact Us <i class="fa fa-caret-down"></i></a></div>
+        </div>
+
+      </div>
+
+</div>
+
+
+      <div class="contactus-country collapse"id="gs-body">
+        <div class="container gs-world">
+          <h3>Global Support</h3>
+          Australia<br>
+          Melbourne<br>
+          +61 3 8820 5819<br>
+          24/7 Support<br></div>
+      </div>
       <div class="navbar-header navbar-right navbar-form navbar-cta-btn mobile-top-navbar text-center">
       <div class="account-container shadow">
          <a href="myaccount.html"><img src="assets/img/afterlogin/acc.png" alt=""></a>
          <a href="wallet.html"><img src="assets/img/afterlogin/wallet.png" alt=""></a>
           <a href="#" class="message"><img src="assets/img/afterlogin/info.png" alt=""><span class="notif">4</span></a>
-          <a href="#"><img src="assets/img/afterlogin/out.png" alt=""></a>
+          <a href="index.html"><img src="assets/img/afterlogin/out.png" alt=""></a>
         </div>
       </div>
     </nav>
@@ -55,11 +76,7 @@
           <div class="container">
             <div class="navbar-header header-mobile ">
 
-              <!-- <div class=" nathan-hamburger-hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-right " style="display: none">
-                  <div class="hamburger-box" data-toggle="collapse" data-target="#mobile-top-menu">
-                      <div class="hamburger-inner"></div>
-                  </div>
-              </div> -->
+
 
               <div class="mobile-button hidden-lg hidden-md">
                 <a href="#" id="mobile-button" data-toggle="collapse" data-target="#mobile-top-menu"><i class="fa fa-caret-up"></i></a>
@@ -71,11 +88,11 @@
 
               <div class="hidden-lg hidden-md">
                 <div class="navbar-header remo-navbar-header">
-                    <select class="selectpicker" data-width="fit">
-                        <option data-content='<span class="flag-icon flag-icon-us"></span> English'>Englishss</option>
-                        <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
-                        <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
-                        <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
+                    <select class="selectpicker" id="selector" data-width="fit">
+                        <option value="1"data-content='<span class="flag-icon flag-icon-us"></span> English'>Englishss</option>
+                        <option value="2"data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+                        <option value="3"data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
+                        <option value="4"data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
                     </select>
                 </div>
               </div>
@@ -867,6 +884,29 @@
 
     <script>
         $(document).ready(function() {
+
+          $("#btn").click(function(){
+              $(".contactus-m").toggleClass( "contactus-bg" );
+          });
+          $("#selector").change(function(){
+              // Now see if it's the value you want
+              if ($(this).val() === '1'){
+                $('.gs-world').html('<h3>Global Support</h3>  Australia<br>  Melbourne<br>  +61 3 8820 5819<br>  24/7 Support<br>');
+                  console.log('en');
+              }
+                      if ($(this).val() === '2'){
+                        $('.gs-world').html('<h3>Global Support</h3>  Spain<br>    Madrid<br>    +61 3 8820 5819<br>    24/7 Support<br>');
+                    console.log('sp');
+              }
+                              if ($(this).val() === '3'){
+                                $('.gs-world').html('<h3>Global Support</h3>Taiwan<br>Taipei<br>+61 3 8820 5819<br>24/7 Support<br>');
+                  console.log('tw');
+              }
+                              if ($(this).val() === '4'){
+                                $('.gs-world').html('<h3>Global Support</h3>  China<br>  Beijing<br>  +61 3 8820 5819<br>24/7 Support<br>');
+                console.log('cn');
+              }
+         });
 
             $('.marquee').marquee({
                 //speed in milliseconds of the marquee

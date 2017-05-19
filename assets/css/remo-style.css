@@ -380,9 +380,8 @@ margin: 0px auto
 .sitemap-body ul{
   color: #ffb013;
   margin: 0;
-  padding: 0;
-  padding-left: 35px;
-  padding-right: 5px;
+  padding: 0 25px;
+
 
 }
 
