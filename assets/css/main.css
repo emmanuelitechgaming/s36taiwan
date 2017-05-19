@@ -2174,3 +2174,11 @@ select + i.fa {
   margin-left: 30px;
 
 }
+
+.table-question .checkbox{
+  text-align: left
+}
+
+.question-title{
+  color: #ffb013
+}
