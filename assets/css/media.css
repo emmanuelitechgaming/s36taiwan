@@ -13,6 +13,10 @@
         padding-right: 0;
         padding-left: 0;
     }
+    .helpcenter-section, .casino-section{
+      padding-right: 15px;
+      padding-left: 15px;
+    }
     .account-container span {
         position: absolute;
         background: #f00;
@@ -387,3 +391,4 @@
     footer .footer-shareit img {
       width: 84px;
     }
+}
