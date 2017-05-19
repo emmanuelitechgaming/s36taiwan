@@ -302,6 +302,7 @@ main .marquee {
     position: absolute;
     bottom: 20px;
     left: 13%;
+    cursor: pointer
 }
 
 main .winner {
@@ -2114,4 +2115,40 @@ select + i.fa {
   padding-right: 5px;
 
 }
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 1px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    background-color: #1a1a1a;
+    min-height: auto;
+}
+
+.close, .close:hover {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #FFF1D3;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 1;
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px;
+    border-bottom: 0px solid #e5e5e5;
+    text-align: center;
+}
+
+.notice-dialog{
+  margin-top: 100px;
+  color: #fff
 }

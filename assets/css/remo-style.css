@@ -332,6 +332,7 @@ margin: 0px auto
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1e1e1e), color-stop(50%, #3f3f3f), to(#1e1e1e));
     background: linear-gradient(to bottom, #1e1e1e 0, #3f3f3f 50%, #1e1e1e 100%);
     padding: 20px;
     border-radius: 10px;
@@ -642,4 +643,15 @@ margin-top: 15px;
   text-align: center;
   padding: 13px 0 0;
   margin-top: 30px
+}
+
+.question-number{
+  width: 80px;
+  text-align: right;
+  background: #fff;
+}
+
+.question-footer{
+  background: #ffbd38;
+  color: #fff;
 }
