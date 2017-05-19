@@ -29,6 +29,32 @@ header .nav-lang {
     right: 0;
     top: 3%;
 }
+header .contactus-m{
+  padding: 10px;
+
+  width: 36%;
+
+}
+.contactus-bg{
+  background: #161616;
+}
+header #gs-body{
+  background: #161616;
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+
+}
+header .contactus h3{
+  margin:10px 0;
+}
+header .contactus-country{
+padding:0 0px 30px 20px;
+}
+header .contactus-m a{
+  text-decoration: none;
+  color: #fff;
+}
 
 .mobile-menu {
     overflow: hidden;
@@ -466,7 +492,7 @@ footer .footer-services ul.columns>li:before {
 
 footer .footer-services p {
     font-size: 14px;
-    line-height: 21px;
+    line-height: 30px;
 }
 
 footer .footer-gameprovider .gameprovider {
@@ -1238,18 +1264,7 @@ p {
     position: relative;
 }
 
-.account-container span {
-    position: absolute;
-    background: #f00;
-    color: #fff;
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
-    text-align: center;
-    line-height: 1.4;
-    top: -8px;
-    right: -11px;
-}
+
 
 .wallet {
     padding: 10px;
@@ -2114,4 +2129,9 @@ select + i.fa {
   padding-right: 5px;
 
 }
+
+.marquee a{
+  text-decoration: none;
+  color: #fff;
+  margin-left: 30px;
 }
