@@ -24,7 +24,7 @@ footer .f-social ul.columns > li {
     margin-left: 0px;
 }
 .nav>li>a {
-    padding: 5px 7px !important;
+  padding: 5px 15.5px !important;
 }
 
 .back {
@@ -48,7 +48,7 @@ header .nathan-hm-d{
 @media only screen and (min-width: 360px)
 {
   .nav>li>a {
-      padding: 5px 10px !important;
+      padding: 5px 20px !important;
   }
   .back {
     bottom: 40px;
@@ -74,7 +74,7 @@ header .nathan-hm-d{
         margin-top: -3%;
     }
   .nav>li>a {
-      padding: 5px 11px !important;
+      padding: 5px 21px !important;
   }
   .back {
     bottom: 40px;
@@ -105,7 +105,7 @@ header .nathan-hm-d{
 @media only screen and (min-width: 414px)
 {
   .nav>li>a {
-      padding: 5px 15px !important;
+      padding: 5px 25px !important;
   }
   .back {
     bottom: 40px;
