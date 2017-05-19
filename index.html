@@ -289,7 +289,7 @@
           ">
 
             <div class="notice-mobile hidden-lg hidden-md">
-                <div class="marquee marquee-mobile">
+                <div class="marquee marquee-mobile" data-toggle="modal" data-target="#noticeModal">
                     《沙龙会.ClubS》全新易记域名：www.s36.com 正式启用！并同时更换了更突显中文元素的全新标志，请相互转告，感谢大家的支持！
                 </div>
                 <img src="assets/img/jackpot/notice-bg.png" class="img-responsive" alt="">
@@ -329,7 +329,7 @@
             <div class="jackpot  hidden-xs hidden-sm">
                 <div class="col-md-6">
                     <div class="notice">
-                        <div class="marquee">《沙龙会.ClubS》全新易记域名：www.s36.com 正式启用！并同时更换了更突显中文元素的全新标志，请相互转告，感谢大家的支持！</div>
+                        <div class="marquee" data-toggle="modal" data-target="#noticeModal">《沙龙会.ClubS》全新易记域名：www.s36.com 正式启用！并同时更换了更突显中文元素的全新标志，请相互转告，感谢大家的支持！</div>
                         <img src="assets/img/jackpot/notice-bg.png" class="img-responsive" alt="">
                     </div>
                 </div>
@@ -859,6 +859,34 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="noticeModal">
+      <div class="modal-dialog notice-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">公告列表</h4>
+          </div>
+          <div class="modal-body">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>时间</th>
+                  <th>详细内容</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2017-05-05 08:10</td>
+                  <td>《沙龙会.ClubS》全新易记域名：www.s36.com 正式启用！并同时更换了更突显中文元素的全新标志，请相互转告，感谢大家的支持！</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
