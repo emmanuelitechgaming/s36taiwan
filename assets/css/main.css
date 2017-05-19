@@ -2241,14 +2241,14 @@ select + i.fa {
 }
 
 .mobile-top-hc{
-  border-top: 1px solid #e3e3e3;
+  border-top: 1px solid #7e7e7e;
   margin: 15px -5px 0;
   padding: 15px
 }
 
 .mobile-top-hc a{
-  color: #e3e3e3;
-  border: solid 1px #e3e3e3;
+  color: #7e7e7e;
+  border: solid 1px #7e7e7e;
   padding: 3px 8px;
 }
 
@@ -2263,4 +2263,10 @@ select + i.fa {
 .mobile-top-hc img{
   margin-top: 0 !important;
   margin-right: 5px !important
+}
+
+.mobile-top-nav{
+  border-top: solid 1px #7e7e7e;
+  padding-top: 0 !important;
+  margin: 0 -5px
 }
