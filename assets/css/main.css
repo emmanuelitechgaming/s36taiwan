@@ -2167,6 +2167,7 @@ select + i.fa {
 .notice-dialog{
   margin-top: 100px;
   color: #fff
+}
 
 .marquee a{
   text-decoration: none;
@@ -2174,6 +2175,13 @@ select + i.fa {
   margin-left: 30px;
 
 }
+
+
+.notice-dialog td a{
+  text-decoration: none;
+  color: #fff;
+}
+
 
 .table-question .checkbox{
   text-align: left
