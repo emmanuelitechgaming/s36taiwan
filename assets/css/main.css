@@ -2243,16 +2243,15 @@ select + i.fa {
 }
 
 .mobile-top-hc{
-  border-top: 1px solid #acacac;
-  margin: 15px 25px 0 25px;
+  border-top: 1px solid #e3e3e3;
+  margin: 15px -5px 0;
   padding: 15px
 }
 
 .mobile-top-hc a{
-  color: #acacac;
-  border: solid 1px #acacac;
+  color: #e3e3e3;
+  border: solid 1px #e3e3e3;
   padding: 3px 8px;
-  margin: 0 0 !important;
 }
 
 .mobile-top-hc ul{
