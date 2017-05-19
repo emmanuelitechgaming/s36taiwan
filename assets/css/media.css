@@ -168,6 +168,10 @@
     .notice-dialog {
       width: 100%;
     }
+    main .marquee {
+        width: 80%;
+        bottom: 8px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
