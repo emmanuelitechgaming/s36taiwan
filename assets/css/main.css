@@ -599,6 +599,7 @@ div.border:before {
     border-left: 0px solid #3c3c3c;
 }
 
+
 .navbar-inverse .navbar-nav > li > a {
     color: #fff;
     font-size: 12px;
@@ -946,12 +947,13 @@ div.border:before {
 }
 
 #demo-form .demo-tab {
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
   color: #ffb013;
   font-weight: 700;
+  line-height: 27px;
 
-  line-height: 20px;
+
 
 }
 
@@ -2167,6 +2169,7 @@ select + i.fa {
 .notice-dialog{
   margin-top: 100px;
   color: #fff
+}
 
 .marquee a{
   text-decoration: none;
@@ -2175,10 +2178,29 @@ select + i.fa {
 
 }
 
+
+.notice-dialog td a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
 .table-question .checkbox{
   text-align: left
 }
 
 .question-title{
   color: #ffb013
+}
+
+.panel-login input::-webkit-input-placeholder {
+    color: grey!important;
+}
+
+.panel-login input:-ms-input-placeholder {
+    color: grey!important;
+}
+
+.panel-login input::placeholder {
+    color: grey!important;
 }
