@@ -36,10 +36,12 @@ header .contactus-m{
 
 }
 .contactus-bg{
-  background: #161616;
+  /*background: #161616;*/
+  background: #2a2a2a
 }
 header #gs-body{
-  background: #161616;
+  /*background: #161616;*/
+  background: #2a2a2a;
   position: absolute;
   width: 100%;
   z-index: 9;
@@ -245,6 +247,11 @@ main .live-container {
 .navbar-right {
     float: right !important;
     margin-right: 0;
+}
+
+.nav.navbar-nav.navbar-right.navbar-right li a{
+  letter-spacing: 1.5px;
+  padding: 5px 20px !important
 }
 
 main .gp-g {}
@@ -603,6 +610,7 @@ div.border:before {
     font-size: 12px;
     border-right: 1px solid #000;
     border-left: 1px solid #3c3c3c;
+    font-weight: 700
 }
 
 .navbar-nav > li > a {
@@ -2054,8 +2062,14 @@ header .nathan-hamburger-hm-d {
 
 .mobile-button{
   position: absolute;
-  right: 20px;
-  top: 15px;
+  right: 0px;
+  top: -4px;
+  padding: 20px;
+
+}
+
+.mobile-button-bg{
+  background: #161616;
 }
 
 .mobile-button .fa{
@@ -2065,6 +2079,10 @@ header .nathan-hamburger-hm-d {
 
 #mobile-top-menu img{
   margin: 15px 0 0
+}
+
+#mobile-top-menu{
+  background: #161616
 }
 
 .mobile-top-navbar{
@@ -2271,4 +2289,69 @@ select + i.fa {
   border-top: solid 1px rgba(125, 125, 125, 0.5);
   padding-top: 0 !important;
   margin: 0 -5px
+}
+
+.desktop-support{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 150%;
+  z-index: 999;
+  background: #2a2a2a;
+  padding: 20px 0;
+  letter-spacing: 1px
+}
+
+.desktop-support-title{
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px
+}
+
+.desktop-support-number{
+  margin-bottom: 10px;
+  color: #ffb013;
+  font-size: 15px;
+  font-weight: 700
+}
+
+.desktop-support-trigger{
+  color: #FFF;
+  position: relative;
+  top: -15px;
+}
+
+.desktop-support-trigger:hover, .desktop-support-trigger:focus, .desktop-support-trigger:active{
+  color: #FFF;
+  text-decoration: none
+}
+
+.gp-first{
+  margin-top: 10px
+}
+
+.lg-playnow{
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 16%;
+  text-align: center;
+  color: rgba(26, 26, 26, 0.8) !important;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.lg-playnow:active, .lg-playnow:hover, .lg-playnow:focus{
+  text-decoration: none;
+  color: rgba(26, 26, 26, 0.8) !important;
+}
+
+.lg-seemore{
+  position: absolute;
+  bottom: 45px;
+  right: 25px;
+}
+
+.lg-seemore img{
+  width: 20px
 }
