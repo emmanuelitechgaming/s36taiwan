@@ -251,7 +251,7 @@ main .live-container {
 
 .nav.navbar-nav.navbar-right.navbar-right li a{
   letter-spacing: 1.5px;
-  padding: 5px 20px !important
+  padding: 5px 35px !important
 }
 
 main .gp-g {}
@@ -461,6 +461,7 @@ footer .footer-icon {
 footer .footer-icon img {
     display: inline-block;
     margin: 0px 10px 10px 10px;
+    cursor: pointer;
 }
 
 footer .footer-services {
@@ -2319,6 +2320,10 @@ select + i.fa {
   color: #FFF;
   position: relative;
   top: -15px;
+}
+
+.afterlogin-support-trigger{
+  top: 3px;
 }
 
 .desktop-support-trigger:hover, .desktop-support-trigger:focus, .desktop-support-trigger:active{
