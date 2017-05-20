@@ -30,6 +30,11 @@ $(function() {
 
     $('#mobile-button').click(function() {
       $('i', this).toggleClass('fa-caret-up fa-caret-down');
+      $(this).closest('div').toggleClass('mobile-button-bg');
+    });
+
+    $("#btn").click(function(){
+        $(".contactus-m").toggleClass( "contactus-bg" );
     });
 
 
