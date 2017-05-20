@@ -37,6 +37,34 @@ $(function() {
         $(".contactus-m").toggleClass( "contactus-bg" );
     });
 
+    $('#fg1').hover(
+      function() {
+        $(this).attr("src","assets/img/footer/g1-hover.png");
+    },function() {
+        $(this).attr("src","assets/img/footer/g1.png");
+    });
+
+    $('#fg2').hover(
+      function() {
+        $(this).attr("src","assets/img/footer/g2-hover.png");
+    },function() {
+        $(this).attr("src","assets/img/footer/g2.png");
+    });
+
+    $('#fg3').hover(
+      function() {
+        $(this).attr("src","assets/img/footer/g3-hover.png");
+    },function() {
+        $(this).attr("src","assets/img/footer/g3.png");
+    });
+
+    $('#fg4').hover(
+      function() {
+        $(this).attr("src","assets/img/footer/g4-hover.png");
+    },function() {
+        $(this).attr("src","assets/img/footer/g4.png");
+    });
+
 
 });
 $('#datepicker-from').datepicker({
