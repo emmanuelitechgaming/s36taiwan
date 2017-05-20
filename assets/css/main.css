@@ -2064,7 +2064,7 @@ header .nathan-hamburger-hm-d {
 }
 
 #mobile-top-menu img{
-  margin: 20px 0 0
+  margin: 15px 0 0
 }
 
 .mobile-top-navbar{
@@ -2250,6 +2250,8 @@ select + i.fa {
   color: #7e7e7e;
   border: solid 1px #7e7e7e;
   padding: 3px 8px;
+  margin: 0 0 !important;
+  display: inline-block;
 }
 
 .mobile-top-hc ul{
@@ -2269,4 +2271,8 @@ select + i.fa {
   border-top: solid 1px #7e7e7e;
   padding-top: 0 !important;
   margin: 0 -5px
+}
+
+.mobile-top-nav-div{
+  margin: 25px 0 0
 }
