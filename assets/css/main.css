@@ -2241,14 +2241,14 @@ select + i.fa {
 }
 
 .mobile-top-hc{
-  border-top: 1px solid #7e7e7e;
+  border-top: 1px solid rgba(125, 125, 125, 0.5);
   margin: 15px -5px 0;
   padding: 15px
 }
 
 .mobile-top-hc a{
   color: #7e7e7e;
-  border: solid 1px #7e7e7e;
+  border: solid 1px rgba(125, 125, 125, 0.5);
   padding: 3px 8px;
   margin: 0 0 !important;
   display: inline-block;
@@ -2268,7 +2268,7 @@ select + i.fa {
 }
 
 .mobile-top-nav{
-  border-top: solid 1px #7e7e7e;
+  border-top: solid 1px rgba(125, 125, 125, 0.5);
   padding-top: 0 !important;
   margin: 0 -5px
 }
