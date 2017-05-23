@@ -741,8 +741,29 @@ div.border:before {
     padding-left: 0;
     padding-right: 0;
     padding-top: 15px;
+    position: relative;
+}
+.breadcrumb-inner .casino-g .content{
+  position: absolute;
+  bottom: 1px;
+  width: 100%
+}
+.breadcrumb-inner .casino-g ul {
+  list-style-type: none;
+padding: 0 10px;
+}
+.breadcrumb-inner .casino-g ul li{
+display: inline-block;
+margin: 0 10px;
+font-size: 19px;
+
 }
 
+.breadcrumb-inner .casino-g ul li span{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
 .panel {
     margin-top: 20px;
     background-color: transparent;
