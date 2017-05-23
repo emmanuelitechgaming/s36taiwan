@@ -82,6 +82,13 @@ $(function() {
       $(".contactus-m").toggleClass( "contactus-bg" );
     });
 
+    $('.desktop-support').on('show.bs.collapse', function(){
+      $(this).parent().find(".fa-caret-down").removeClass("fa-caret-down").addClass("fa-caret-up");
+      console.log($(this).parent());
+    }).on('hide.bs.collapse', function(){
+      $(this).parent().find(".fa-caret-up").removeClass("fa-caret-up").addClass("fa-caret-down");
+    });
+
 
 });
 $('#datepicker-from').datepicker({
