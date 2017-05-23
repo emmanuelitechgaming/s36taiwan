@@ -32,6 +32,10 @@ $(function() {
       $('i', this).toggleClass('fa-caret-up fa-caret-down');
       $(this).closest('div').toggleClass('mobile-button-bg');
     });
+    $('.asd').click(function() {
+      $(this).toggleClass('kulaymalupet');
+    });
+
 
     $("#btn").click(function(){
         $(".contactus-m").toggleClass( "contactus-bg" );
