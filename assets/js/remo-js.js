@@ -12,12 +12,12 @@ $(document).ready(function() {
     $('[href="'+val+'"]').tab('show');
   });
 
-  $('.collapse').on('shown.bs.collapse', function(){
-    $(this).parent().find(".fa-caret-right").removeClass("fa-caret-right").addClass("fa-caret-down");
-    console.log($(this).parent());
-    }).on('hidden.bs.collapse', function(){
-    $(this).parent().find(".fa-caret-down").removeClass("fa-caret-down").addClass("fa-caret-right");
-  });
+  // $('.collapse').on('shown.bs.collapse', function(){
+  //   $(this).parent().find(".fa-caret-right").removeClass("fa-caret-right").addClass("fa-caret-down");
+  //   console.log($(this).parent());
+  //   }).on('hidden.bs.collapse', function(){
+  //   $(this).parent().find(".fa-caret-down").removeClass("fa-caret-down").addClass("fa-caret-right");
+  // });
 
   $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
     $('.brand-nav.active').removeClass('active');
