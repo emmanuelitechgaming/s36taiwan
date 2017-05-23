@@ -69,6 +69,19 @@ $(function() {
         $(this).attr("src","assets/img/footer/g4.png");
     });
 
+    $('#gs-body').on('show.bs.collapse', function () {
+      $('.mobile-top-menu-close').addClass('mobile-top-menu-close-toggle');
+    });
+
+    $('#gs-body').on('hidden.bs.collapse', function () {
+      $('.mobile-top-menu-close').removeClass('mobile-top-menu-close-toggle');
+    });
+
+    $('#mobile-top-menu-close').click(function() {
+      $('#gs-body').collapse('hide');
+      $(".contactus-m").toggleClass( "contactus-bg" );
+    });
+
 
 });
 $('#datepicker-from').datepicker({
