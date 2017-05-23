@@ -363,15 +363,16 @@
         margin-left: -5%
     }
     .jumbo {
-        position: absolute;
-        display: inline-block;
-        color: #fff;
-        left: 268px;
-        top: 31px;
-        font-size: 28px;
-        font-weight: 700;
-        letter-spacing: 11.5px;
-        width: auto;
+      position: absolute;
+      display: inline-block;
+      color: #0f0f0f;
+      left: 242px;
+      top: 31px;
+      font-size: 29px;
+      font-weight: 700;
+      letter-spacing: 20px;
+      word-spacing: -26px;
+
     }
     main .marquee {
         width: 480px;
