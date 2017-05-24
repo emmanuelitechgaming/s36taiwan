@@ -1442,6 +1442,7 @@ p {
 
 .live-game .gameplatform {
     text-align: center;
+    position: relative;
 }
 
 .live-game .gameplatform i {
