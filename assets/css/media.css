@@ -172,6 +172,11 @@
         width: 80%;
         bottom: 8px;
     }
+
+    .live-game .gameplatform {
+        top: -39px;
+        left: 67px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -195,6 +200,11 @@
     .panel-login {
         width: 219%;
     }
+
+    .live-game .gameplatform {
+        top: -39px;
+        left: 93px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -211,6 +221,11 @@
     }
     .panel-login {
         width: 217%;
+    }
+
+    .live-game .gameplatform {
+        top: -39px;
+        left: 112px;
     }
 }
 
@@ -272,6 +287,11 @@
 
     .notice-dialog {
       width: 1222px;
+    }
+
+    .live-game .gameplatform {
+        top: -39px;
+        left: 112px;
     }
 }
 
