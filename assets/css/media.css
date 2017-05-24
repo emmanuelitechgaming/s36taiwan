@@ -171,6 +171,28 @@
         top: -39px;
         left: 67px;
     }
+
+    .breadcrumb-inner .casino-g ul li{
+      margin: 0 3px;
+    }
+
+    .breadcrumb-inner .casino-g ul li span{
+      font-size: 12px;
+    }
+
+    .casino-g .content .cta-btn{
+      font-size: 12px;
+      letter-spacing: 1px;
+      padding: 3px 10px;
+    }
+
+    .casino-g .content ul{
+      bottom: -7px;
+    }
+
+    .casino-g img{
+      margin: 0;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -199,6 +221,19 @@
         top: -39px;
         left: 93px;
     }
+
+    .breadcrumb-inner .casino-g ul li span{
+      font-size: 13px;
+    }
+
+    .casino-g .content .cta-btn{
+      font-size: 13px;
+      padding: 3px 10px;
+    }
+
+    .casino-g .content ul{
+      bottom: -4px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -221,12 +256,68 @@
         top: -39px;
         left: 112px;
     }
+
+    .breadcrumb-inner .casino-g ul li{
+      margin: 0 3px;
+    }
+
+    .breadcrumb-inner .casino-g ul li span{
+      font-size: 14px;
+    }
+
+    .casino-g .content .cta-btn{
+      font-size: 14px;
+      letter-spacing: 1px;
+      padding: 5px 12px;
+    }
+
+    .casino-g .content ul{
+      bottom: -3px;
+    }
 }
 
 
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 480px) {}
+
+@media only screen and (min-width: 568px) {
+  .breadcrumb-inner .casino-g ul li{
+    margin: 0 5px;
+  }
+
+  .breadcrumb-inner .casino-g ul li span{
+    font-size: 14px;
+  }
+
+  .casino-g .content .cta-btn{
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+  }
+
+  .casino-g .content ul{
+    width: 75%;
+    margin: 0px auto;
+    bottom: 9px
+  }
+
+  .casino-g img{
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 667px) {
+  .casino-g .content ul{
+    width: 63%;
+  }
+}
+
+@media only screen and (min-width: 736px) {
+  .casino-g .content ul{
+    width: 55%;
+  }
+}
 
 
 /* Small Devices, Tablets */
@@ -286,6 +377,31 @@
     .live-game .gameplatform {
         top: -39px;
         left: 112px;
+    }
+
+    /* inedit ko ngayon */
+    .breadcrumb-inner .casino-g ul li{
+      margin: 0 10px;
+    }
+
+    .breadcrumb-inner .casino-g ul li span{
+      font-size: 16px;
+    }
+
+    .casino-g .content .cta-btn{
+      font-size: 14px;
+      letter-spacing: 2px;
+      padding: 5px 16px;
+    }
+
+    .casino-g .content ul{
+      bottom: -1px;
+      width: auto;
+      margin: auto;
+    }
+
+    .casino-g img{
+      margin: 0 0 10px;
     }
 }
 
