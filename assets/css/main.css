@@ -764,6 +764,34 @@ font-size: 19px;
   font-size: 16px;
   font-weight: 700;
 }
+
+.breadcrumb-inner .sp-container{
+padding: 20px 10px;
+}
+.breadcrumb-inner .sp-container .sp-title{
+  color: #ffb013;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.breadcrumb-inner .sp-container .sp-desc{
+  color: #ffffff;
+  line-height: 25px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+
+}
+.casino-g .content .cta-btn{
+  color:inherit;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 5px 16px;
+  border: 1px solid #fff;
+  text-decoration: none;
+}
+
 .panel {
     margin-top: 20px;
     background-color: transparent;

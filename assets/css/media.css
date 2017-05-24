@@ -9,14 +9,8 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
-    .main-section {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .helpcenter-section, .casino-section{
-      padding-right: 15px;
-      padding-left: 15px;
-    }
+
+
     .account-container span {
         position: absolute;
         background: #f00;
