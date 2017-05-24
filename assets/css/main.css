@@ -754,14 +754,11 @@ padding: 0 10px;
 }
 .breadcrumb-inner .casino-g ul li{
 display: inline-block;
-margin: 0 10px;
 font-size: 19px;
-
 }
 
 .breadcrumb-inner .casino-g ul li span{
   color: #fff;
-  font-size: 16px;
   font-weight: 700;
 }
 
@@ -783,11 +780,13 @@ padding: 20px 10px;
   margin-top: 5px;
 
 }
+
+.casino-g .content ul{
+  position: relative;
+}
+
 .casino-g .content .cta-btn{
   color:inherit;
-  font-size: 14px;
-  letter-spacing: 2px;
-  padding: 5px 16px;
   border: 1px solid #fff;
   text-decoration: none;
 }
