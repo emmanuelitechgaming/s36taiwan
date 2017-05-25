@@ -206,6 +206,23 @@
     .casino-more{
       display: none;
     }
+
+    .jacpot-nus-mobile .jacpot-nus{
+      padding-top: 0;
+    }
+
+    .jacpot-nus-mobile{
+      padding: 0 7px
+    }
+
+    .jumbo {
+        left: 268px;
+        top: 31px;
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 11.5px;
+        width: auto;
+    }
 }
 
 @media only screen and (min-width: 360px) {
