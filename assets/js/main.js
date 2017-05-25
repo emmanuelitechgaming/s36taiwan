@@ -1,5 +1,5 @@
 $(function() {
-    $('.selectpicker').selectpicker();
+
     $('#login-form-link').click(function(e) {
         $("#login-form").delay(100).fadeIn(100);
         $("#register-form").fadeOut(100);
@@ -89,6 +89,12 @@ $(function() {
       $(this).parent().find(".fa-caret-up").removeClass("fa-caret-up").addClass("fa-caret-down");
     });
 
+    $('#casinoSeeMoreBtn').click(function() {
+      $('.casino-more').addClass('casino-more-active');
+      $(this).parent().css('display', 'none');
+    });
+
+    $('.selectpicker').selectpicker();
 
 });
 $('#datepicker-from').datepicker({
