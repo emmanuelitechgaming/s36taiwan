@@ -2432,3 +2432,22 @@ select + i.fa {
 .casino-g .content .fa{
   position: relative;
 }
+
+.casino-more-active{
+  display: block !important;
+}
+
+.casino-seemore a{
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #c4c4c4;
+  background: #333;
+  border: solid 1px #777;
+  padding: 5px 0;
+  margin-top: 15px
+}
+
+.casino-seemore a:active, .casino-seemore a:hover, .casino-seemore a:focus{
+  text-decoration: none;
+}

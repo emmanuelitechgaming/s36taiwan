@@ -202,6 +202,10 @@
       bottom: 80px;
       right: 10px;
     }
+
+    .casino-more{
+      display: none;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -453,6 +457,10 @@
     .cta-seemore {
         bottom: 112px;
         right: 25px;
+    }
+
+    .casino-more{
+      display: block
     }
 }
 
