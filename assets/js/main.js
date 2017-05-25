@@ -90,8 +90,7 @@ $(function() {
     });
 
     $('#casinoSeeMoreBtn').click(function() {
-      $('.casino-more').addClass('casino-more-active');
-      $(this).parent().css('display', 'none');
+      $('.casino-more').toggleClass('casino-more-active');
     });
 
     $('.selectpicker').selectpicker();
