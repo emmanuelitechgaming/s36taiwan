@@ -193,16 +193,34 @@
     .casino-g img{
       margin: 0;
     }
+
+    .casino-g .content .fa{
+      top: 3px
+    }
+
+    .cta-seemore {
+      bottom: 80px;
+      right: 10px;
+    }
+
+    .casino-more{
+      display: none;
+    }
 }
 
 @media only screen and (min-width: 360px) {
-    .remo-navbar-header .btn-group.bootstrap-select.fit-width {
-        width: 75px !important;
-        margin-left: -140px !important;
-    }
-    .panel-login {
-        width: 220%;
-    }
+  .remo-navbar-header .btn-group.bootstrap-select.fit-width {
+      width: 75px !important;
+      margin-left: -140px !important;
+  }
+  .panel-login {
+      width: 220%;
+  }
+
+  .cta-seemore {
+    bottom: 95px;
+    right: 10px;
+  }
 }
 
 
@@ -233,6 +251,11 @@
 
     .casino-g .content ul{
       bottom: -4px;
+    }
+
+    .cta-seemore {
+      bottom: 100px;
+      right: 10px;
     }
 }
 
@@ -274,6 +297,11 @@
     .casino-g .content ul{
       bottom: -3px;
     }
+
+    .cta-seemore {
+      bottom: 115px;
+      right: 10px;
+    }
 }
 
 
@@ -305,17 +333,39 @@
   .casino-g img{
     margin: 0 auto;
   }
+
+  .cta-seemore {
+    bottom: 115px;
+    right: 85px;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .cta-seemore {
+    bottom: 115px;
+    right: 115px;
+  }
 }
 
 @media only screen and (min-width: 667px) {
   .casino-g .content ul{
     width: 63%;
   }
+
+  .cta-seemore {
+    bottom: 115px;
+    right: 135px;
+  }
 }
 
 @media only screen and (min-width: 736px) {
   .casino-g .content ul{
     width: 55%;
+  }
+
+  .cta-seemore {
+    bottom: 115px;
+    right: 165px;
   }
 }
 
@@ -402,6 +452,15 @@
 
     .casino-g img{
       margin: 0 0 10px;
+    }
+
+    .cta-seemore {
+        bottom: 112px;
+        right: 25px;
+    }
+
+    .casino-more{
+      display: block
     }
 }
 
