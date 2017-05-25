@@ -73,8 +73,6 @@ header .contactus-m a{
 
 .cta-seemore {
     position: absolute;
-    bottom: 112px;
-    right: 25px;
 }
 
 .btn-mobile a {
@@ -2429,4 +2427,8 @@ select + i.fa {
 
 .mobile-top-menu-close-toggle{
   display: block
+}
+
+.casino-g .content .fa{
+  position: relative;
 }
