@@ -90,6 +90,7 @@ $(function() {
     });
 
     $('#casinoSeeMoreBtn').click(function() {
+      $(this).find('.fa-caret-down').toggleClass('fa-caret-up');
       $('.casino-more').toggleClass('casino-more-active');
     });
 
