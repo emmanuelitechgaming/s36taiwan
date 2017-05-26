@@ -644,7 +644,7 @@
       display: inline-block;
       color: #0f0f0f;
       left: 242px;
-      top: 31px;
+      top: 25px;
       font-size: 29px;
       font-weight: 700;
       letter-spacing: 20px;
@@ -652,8 +652,8 @@
 
     }
     main .marquee {
-        width: 480px;
-        bottom: 20px;
+        width: 500px;
+        bottom: 15px;
     }
 
     .account-container span {
