@@ -234,7 +234,7 @@
               </a>
             </div>
             <div class="col-xs-4">
-              <a href="#">
+              <a  href="#myModal" data-toggle="modal">
                 <img src="assets/img/register.png" class="img-responsive" alt="">
               </a>
             </div>
@@ -439,7 +439,7 @@
 
                     <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
                         <a href="#desktopSupport" data-toggle="collapse" class="desktop-support-trigger">24/7 Support Manila: (02) 231-2988 <i class="fa fa-caret-down"> </i></a>
-                        <a href="#"><img src="assets/img/register.png" class="img-responsive" alt=""></a>
+                        <a  href="#myModal" data-toggle="modal"><img src="assets/img/register.png" class="img-responsive" alt=""></a>
                         <a href="#"><img src="assets/img/login.png" class="img-responsive" alt=""></a>
                     </div>
                 </div>
@@ -484,7 +484,7 @@
                         <a href="#" id="register-form-link">註冊</a>
                     </div>
                     <div class="col-xs-4 tab" id="login-form-link">
-                        <a href="#" id="login-form-link"> 登入 </a>
+                        <a href="#" id="login-form-link"> 登录 </a>
                     </div>
                     <div class="col-xs-4 tab" id="demo-form-link">
                         <a href="#" id="demo-form-link"> 免費試玩</a>
@@ -498,19 +498,25 @@
                             <form id="register-form" method="post" role="form" style="display: block;">
                                 <div class="form-group">
                                     <div class="input-group">
-                                        <input class="form-control" type="text" placeholder="電子郵箱或手機號碼">
+                                        <input class="form-control" type="text" placeholder="手机号码">
                                     </div>
                                 </div>
                                 <div class="panel-border"></div>
                                 <div class="form-group">
                                     <div class="input-group">
-                                        <input class="form-control" type="password" placeholder="建立帳號">
+                                        <input class="form-control" type="password" placeholder="建立帳號   tw">
                                     </div>
                                 </div>
                                 <div class="panel-border"></div>
                                 <div class="form-group">
                                     <div class="input-group">
                                         <input class="form-control" type="password" placeholder="輸入密碼">
+                                    </div>
+
+                                </div><div class="panel-border"></div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input class="form-control" type="password" placeholder="确认密码">
                                     </div>
                                 </div>
 
@@ -550,13 +556,13 @@
                             <form id="login-form" method="post" role="form" style="display: none;">
                                 <div class="form-group">
                                     <div class="input-group">
-                                        <input class="form-control" type="password" placeholder="帳號">
+                                        <input class="form-control" type="password" placeholder="输入账号">
                                     </div>
                                 </div>
                                 <div class="panel-border"></div>
                                 <div class="form-group">
                                     <div class="input-group">
-                                        <input class="form-control" type="password" placeholder="密碼">
+                                        <input class="form-control" type="password" placeholder="输入密码">
                                     </div>
                                 </div>
 
@@ -576,7 +582,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-xs-12">
-                                                <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="登入">
+                                                <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="登录">
                                             </div>
                                         </div>
                                     </div>
@@ -606,7 +612,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-xs-12">
-                                                <input tabindex="4" data-target="#login-modal" class="form-control btn btn-warning btn-block" value="登入">
+                                                <input  type="submit" tabindex="4" data-target="#login-modal" class="form-control btn btn-warning btn-block" value="登录">
                                             </div>
                                         </div>
                                     </div>
@@ -638,8 +644,8 @@
 
             <div class="jacpot-nus-mobile hidden-lg hidden-md">
               <div class="jacpot-nus">
-                  <img src="assets/img/jackpot/jackpot-bg.png" class="img-responsive" alt="">
-                  <div class="jumbo" id="myTargetElement">0</div>
+                  <img src="assets/img/jackpot/jackpot-m.png" class="img-responsive" alt="">
+                  <!-- <div class="jumbo" id="myTargetElement">0</div> -->
               </div>
             </div>
 
@@ -1217,6 +1223,153 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+       <div class="modal-dialog reg-dialog">
+         <div class="modal-content reg-modal-content">
+           <div class="modal-header  reg-modal">
+              <img src="assets/img/reg/modal-header.png" style="border-top-right-radius: 10px;border-top-left-radius: 10px;" class="img-responsive" alt="">
+           </div>
+           <div class="modal-body">
+
+
+
+
+
+             	<div class="row">
+             		<section>
+                     <div class="wizard">
+                         <div class="wizard-inner">
+                             <div class="connecting-line"></div>
+                             <ul class="nav nav-tabs" role="tablist">
+
+                                 <li role="presentation" class="active">
+                                     <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="个人信息">
+                                         <span class="round-tab">
+                                           <i class="fa fa-user-o" aria-hidden="true"></i>
+                                         </span>
+                                     </a>
+                                 </li>
+
+                                 <li role="presentation" class="disabled"+>
+                                     <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="电话号码">
+                                         <span class="round-tab">
+                                           <i class="fa fa-info" aria-hidden="true"></i>
+                                         </span>
+                                     </a>
+                                 </li>
+                                 <li role="presentation" class="disabled">
+                                     <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab"  title="完成">
+                                         <span class="round-tab">
+                                            <i class="fa fa-phone" aria-hidden="true"></i>
+                                         </span>
+                                     </a>
+                                 </li>
+
+                                 <li role="presentation" class="disabled">
+                                     <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab">
+                                         <span class="round-tab">
+                                           <i class="fa fa-star" aria-hidden="true"></i>
+                                         </span>
+                                     </a>
+                                 </li>
+                             </ul>
+                         </div>
+
+                         <form role="form">
+                             <div class="tab-content">
+                                 <div class="tab-pane active" role="tabpanel" id="step1">
+                                   <div class="col-xs-12">
+
+                                     <h3> 步骤 1</h3>
+                                     <p>注册我的帐号 <br>
+                                        每位玩家仅限拥有一个游戏账户
+                                      </p>
+
+                                     <div class="form-group">
+                                       <label class="control-label">姓：</label>
+                                       <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Enter First Name"  />
+                                     </div>
+                                     <div class="form-group">
+                                       <label class="control-label">名：</label>
+                                       <input maxlength="100" type="text" required="required" class="form-control" placeholder="Enter Last Name" />
+                                     </div>
+                                     <div class="form-group">
+                                      <label class="control-label">电话号码：</label>
+                                       <input maxlength="100" type="text" required="required" class="form-control" placeholder="Enter Telephone" />
+                                     </div>
+                                     <div class="form-group">
+                                      <label class="control-label">电子邮件：</label>
+                                       <input maxlength="100" type="text" required="required" class="form-control" placeholder="Enter Email" />
+                                     </div>
+
+
+
+                                   </div>
+                                     <ul class="list-inline pull-right">
+                                         <li><button type="button" class="btn btn-warning next-step">下一个</button></li>
+                                     </ul>
+                                 </div>
+                                 <div class="tab-pane" role="tabpanel" id="step2">
+                                   <div class="col-xs-12">
+                                     <h3> 步骤 2</h3>
+                                     <div class="form-group">
+                                       <label class="control-label">用户账号：</label>
+                                       <input maxlength="200" type="text" required="required" class="form-control" placeholder="tw" />
+                                     </div>
+                                     <div class="form-group">
+                                       <label class="control-label">用户密码：</label>
+                                       <input maxlength="200" type="text" required="required" class="form-control" />
+                                     </div>
+                                     <div class="form-group">
+                                       <label class="control-label">确认用户密码：</label>
+                                       <input maxlength="200" type="text" required="required" class="form-control" />
+                                     </div>
+                                     <div class="form-group">
+                                       <label class="control-label">提款密码：</label>
+                                       <input maxlength="200" type="text" required="required" class="form-control" />
+                                     </div>
+                                     <div class="form-group">
+                                       <label class="control-label">确认提款密码：</label>
+                                       <input maxlength="200" type="text" required="required" class="form-control" />
+                                     </div>
+                                   </div>
+                                     <ul class="list-inline pull-right">
+                                         <li><button type="button" class="btn btn-default prev-step">上一步</button></li>
+                                         <li><button type="button" class="btn btn-warning next-step">下一个</button></li>
+                                     </ul>
+                                 </div>
+                                 <div class="tab-pane" role="tabpanel" id="step3">
+                                   <div class="col-xs-12">
+                                     <h3> 步骤 3</h3>
+
+
+                                   </div>
+                                     <ul class="list-inline pull-right">
+                                         <li><button type="button" class="btn btn-default prev-step">上一步</button></li>
+                                         <li><button type="button" class="btn btn-warning btn-info-full next-step">下一个</button></li>
+                                     </ul>
+                                 </div>
+                                 <div class="tab-pane" role="tabpanel" id="complete">
+                                     <h3>Complete</h3>
+                                     <p>You have successfully completed all steps.</p>
+                                 </div>
+                                 <div class="clearfix"></div>
+                             </div>
+                         </form>
+                     </div>
+                 </section>
+                </div>
+
+
+             </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+           </div>
+         </div>
+       </div>
+     </div>
 
     <div class="modal fade" tabindex="-1" role="dialog" id="noticeModal">
       <div class="modal-dialog notice-dialog" role="document">
