@@ -15,6 +15,7 @@
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="dist/css/bootstrap-slide.css" rel="stylesheet">
+    <link href="dist/css/sweetalert.css" rel="stylesheet">
     <link href="dist/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -889,7 +890,7 @@
                           </ul>
                         </div>
                         <h4>订阅电子报</h4>
-                        <div class="sub"><label><input name="info1$Mail" placeholder="免费获得沙龙会最新消息" maxlength="20" id="info1_Mail" tabindex="20" type="text"></label><a href="#">订阅</a></div>
+                        <div class="sub"><label><input name="info1$Mail" placeholder="免费获得沙龙会最新消息" maxlength="20" id="info1_Mail" tabindex="20" type="text"></label><a href="javascript:void(0)" class="sweet-12" onclick="_gaq.push(['_trackEvent', 'example, 'try', 'Success']);">订阅</a></div>
                         <h4>公司简介 </h4>
                         <p>
                           沙龙会属于沙龙国际娱乐集团官方的直营现金网，营运总部位于菲律宾的核心金融商业中心马卡蒂市，并获得菲律宾第一卡加延休闲度假公司 First Cagayan Leisure and Resort Corporation (简称 FCLRC) 签发授权的网上博彩牌照，沙龙会博彩网站的运作流程均受之严格监督与管理，所有博彩游戏都经过第三方软件测试机构GLI及BMM的国际认证，保证每一款真人游戏及电子游戏的公平与公正，证明所有环节均符合相关的规定及法律要求。同时，我们提供多种快速安全的线上支付渠道，让玩家存款提款可以更简单，随时随地安全地进行线上博彩娱乐！马上免费联系沙龙会客服中心，不管是开户、存款、提款、游戏等各项谘询，沙龙国际沙龙会全年无休24小时待命为您服务。沙龙会绝对是玩家们值得信赖、具有实力及专业的线上博彩娱乐品牌。
@@ -1002,9 +1003,21 @@
     </script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="dist/js/bootstrap-slider.js"></script>
+    <script src="dist/js/sweetalert.min.js"></script>
     <script src="dist/js/font-awesome.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
+    <script>
+    document.querySelector('.sweet-12').onclick = function(){
+         swal({
+           title: "非常感謝閣下的訂閱",
+           text: "我們將不定期為您送上最新資訊及精選專屬活動，沙龍會誠摯期待閣下蒞臨。",
+           type: "success",
+           confirmButtonClass: 'btn-warning',
+           confirmButtonText: '關閉'
+         });
+       };
+    </script>
 
     <script>
         var forEach = function(t, o, r) {
