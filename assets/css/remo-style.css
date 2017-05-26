@@ -27,6 +27,18 @@ input, select{
   padding-bottom: 5px
 }
 
+.r-ads-wrapper{
+  position: relative;
+}
+
+.r-ads-btn{
+  width: 138px;
+  height: 30px;
+  position: absolute;
+  top: 35px;
+  left: 53px;
+}
+
 .marquee-mobile {
     color: #e7c017;
   width: 80% !important;
