@@ -666,3 +666,87 @@ margin-top: 15px;
   background: #ffbd38;
   color: #fff;
 }
+
+.remo-login {
+    margin: 25px -0;
+}
+
+.remo-login-title {
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.remo-form label {
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.remo-form input{
+  font-size: .875em;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 100%;
+  margin-bottom: 2em;
+  padding: 10px 10px;
+  -webkit-transition: outline .3s;
+  transition: outline .3s;
+  text-indent: 10px;
+  color: #c4c4c4;
+  border: none;
+  border-radius: 0;
+  outline: 0;
+  background-color: #333;
+  -webkit-box-shadow: none;
+          box-shadow: none
+}
+
+.remo-form input[type=password]:hover{
+  border: none
+}
+
+.remo-submit{
+  display: block;
+  width: 100%;
+  background: url(../img/yellow-btn.png) repeat-x;
+  background-size: 100% 100%;
+  border: none;
+  padding: 10px 0;
+}
+
+.remo-submit:hover, .remo-submit:active, .remo-submit:focus{
+  color: #000 ;
+}
+
+.remo-form-footer h4 a {
+  font-size: 15px;
+  text-decoration: underline;
+  color: #c4c4c4;
+  margin: 15px;
+  display: inline-block;
+}
+
+.remo-form-footer h3{
+  font-size: 15px;
+  margin: 15px;
+  margin-top: -15px;
+}
+
+.remo-form-footer h3 a {
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #fff1d3;
+}
+
+.login-input-captcha label {
+    min-height: 15px;
+}
+
+.login-input-captcha img {
+    display: block;
+    height: 38px;
+}
