@@ -211,7 +211,7 @@ main .s36border {
 }
 
 .jacpot-nus-mobile{
-  
+
 }
 
 main .jackpot .col-md-6 {
@@ -2049,11 +2049,16 @@ input[type=password]:hover {
 }
 
 .btn-top {
-    background: #ffb013;
+    /*background: #ffb013;
     color: #fff;
     font-weight: 700;
     padding: 2px 10px;
-    text-decoration: none;
+    text-decoration: none;*/
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url('../img/scrollup-btn.png');
+    background-size: cover
 }
 
 .lang-med {
