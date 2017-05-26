@@ -223,6 +223,10 @@
         letter-spacing: 11.5px;
         width: auto;
     }
+
+    .nav.navbar-nav li:last-child a{
+      border-right: none
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -478,6 +482,10 @@
 
     .casino-more{
       display: block
+    }
+
+    .nav.navbar-nav li:last-child a{
+      border-right: solid 1px #000
     }
 }
 
