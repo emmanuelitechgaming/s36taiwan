@@ -144,11 +144,16 @@ $(function() {
     });
 
     $('.desktop-support').on('show.bs.collapse', function(){
-      $(this).parent().find(".fa-caret-down").removeClass("fa-caret-down").addClass("fa-caret-up");
+      // $(this).parent().find(".fa-caret-down").removeClass("fa-caret-down").addClass("fa-caret-up");
+      $('.desktop-support-trigger .fa').removeClass("fa-caret-down").addClass("fa-caret-up");
       console.log($(this).parent());
     }).on('hide.bs.collapse', function(){
       $(this).parent().find(".fa-caret-up").removeClass("fa-caret-up").addClass("fa-caret-down");
     });
+
+    $('.selectpicker2').click(function() {
+      $('.selectpicker2 .fa').toggleClass('fa-caret-down fa-caret-up');
+    })
 
     $('#casinoSeeMoreBtn').click(function() {
       $(this).find('.fa-caret-down').toggleClass('fa-caret-up');
