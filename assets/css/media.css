@@ -244,6 +244,23 @@
     .bootstrap-select.open .dropdown-menu{
       left: -100px
     }
+
+    .selectpicker2-menu{
+      top: 63px;
+      left: 0;
+      width: 100%;
+    }
+
+    .selectpicker2{
+      padding: 5px 8px;
+      top: 18px;
+      left: -35px;
+      font-size: 10px;
+    }
+
+    .selectpicker2 .fa{
+      margin-left: 5px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -304,6 +321,10 @@
       cursor: pointer;
       display: none;
     }
+
+    .selectpicker2{
+      left: -65px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -358,6 +379,10 @@
       cursor: pointer;
       display: none;
     }
+
+    .selectpicker2{
+      left: -85px;
+    }
 }
 
 
@@ -403,6 +428,10 @@
     cursor: pointer;
     display: none;
   }
+
+  .selectpicker2{
+    left: -160px;
+  }
 }
 
 @media only screen and (min-width: 640px) {
@@ -430,6 +459,10 @@
     cursor: pointer;
     display: none;
   }
+
+  .selectpicker2{
+    left: -210px;
+  }
 }
 
 @media only screen and (min-width: 736px) {
@@ -449,6 +482,10 @@
     position: fixed;
     cursor: pointer;
     display: none;
+  }
+
+  .selectpicker2{
+    left: -245px;
   }
 }
 
@@ -565,6 +602,23 @@
 
     .bootstrap-select.open .dropdown-menu{
       left: 0
+    }
+
+    .selectpicker2-menu{
+      top: 108px;
+      left: 340px;
+      width: 1220px;
+    }
+
+    .selectpicker2{
+      padding: 6px 12px;
+      top: 15px;
+      left: 15px;
+      font-size: 14px
+    }
+
+    .selectpicker2 .fa{
+      margin-left: 18px
     }
 }
 

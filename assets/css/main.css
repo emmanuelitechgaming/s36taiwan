@@ -2478,13 +2478,15 @@ select + i.fa {
   cursor: pointer;
 }
 
-.selectpicker a:focus{
+/*.selectpicker a:focus{
   outline: 0
 }
 
 .selectpicker{
-  -webkit-columns: 2;
-          columns: 2;
+  -webkit-columns: 4;
+          columns: 4;
+          -webkit-column-fill: balance;
+                  column-fill: balance;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -2492,11 +2494,56 @@ select + i.fa {
 .selectpicker li{
   display: block;
   width: 100%;
-  border-bottom: solid 1px #e3e3e3;
 }
 
 .selectpicker li a{
-  padding: 8px 20px
+  padding: 8px 20px;
+  border-bottom: solid 1px #e3e3e3;
+}*/
+
+.selectpicker2{
+  margin-left: 0;
+  background: #1f1f1f;
+  border: 1px solid #4a4a4a;
+  border-radius: 4px;
+  position: relative;
+  color: #fff;
+}
+
+.selectpicker2 .fa{
+  color: #fff;
+  font-size: 12px;
+}
+
+.selectpicker2-menu{
+  padding: 10px 15px 15px;
+  margin: 0px auto;
+  border-radius: 0;
+  background: #1b1b1b
+}
+
+.selectpicker2-menu a{
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #333;
+  padding: 15px 0;
+  font-weight: 700;
+  padding-left: 15px;
+  border-bottom: 1px solid #c2c2c2;
+  color: #fff
+}
+
+.selectpicker2-menu a:hover{
+  background: none
+}
+
+.selectpicker2-sub{
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 20px;
+  color: #c4c4c4
+
 }
 
 .reg-modal{
@@ -2504,8 +2551,7 @@ select + i.fa {
 }
 .reg-modal-content{
   border-top-left-radius: 13px;
-border-top-right-radius: 13px;
-
+  border-top-right-radius: 13px;
 }
 .reg-dialog{
     width: 600px;
@@ -2661,4 +2707,5 @@ span.round-tab i{
         position: absolute;
         left: 35%;
     }
+}
 }
