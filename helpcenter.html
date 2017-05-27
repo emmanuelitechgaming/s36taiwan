@@ -510,7 +510,7 @@
                             <div class="row">
                               <div class="col-md-2 hidden-sm hidden-xs" >
                                   <ul class="nav nav-pills brand-pills nav-stacked sidebar-nav" role="tablist">
-                                      <li role="presentation" class="brand-nav"><a href="#tab1" aria-controls="tab" role="tab" data-toggle="tab">关於我们</a></li>
+                                      <li role="presentation" class="brand-nav active"><a href="#tab1" aria-controls="tab" role="tab" data-toggle="tab">关於我们</a></li>
                                       <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab" role="tab" data-toggle="tab">联络我们</a></li>
                                       <li role="presentation" class="brand-nav"><a href="#tab3" aria-controls="tab" role="tab" data-toggle="tab">重要公告</a></li>
                                       <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab" role="tab" data-toggle="tab">博彩规则</a></li>
@@ -11356,27 +11356,7 @@
     <script src="assets/js/remo-js.js"></script>
     <script src="assets/js/countUp.js"></script>
     <script>
-    function $_GET(param) {
-    	var vars = {};
-    	window.location.href.replace( location.hash, '' ).replace(
-    		/[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
-    		function( m, key, value ) { // callback
-    			vars[key] = value !== undefined ? value : '';
-    		}
-    	);
 
-    	if ( param ) {
-    		return vars[param] ? vars[param] : null;
-    	}
-    	return vars;
-    }
-
-    var haha = $_GET('tab');
-
-    if(haha != ""){
-      $('.tab-content').find('.tab-pane').removeClass('active');
-      $('#tab24').addClass('active');
-    }
 
     document.querySelector('.sweet-12').onclick = function(){
          swal({
