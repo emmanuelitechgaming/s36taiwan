@@ -1,7 +1,9 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+*{
+  font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
+}
 body {
     background: #2a2a2a;
     color: #acacac;
@@ -967,6 +969,14 @@ padding: 20px 10px;
 
 .breadcrumb-content .panel-body {
     padding: 20px;
+}
+.breadcrumb-content .promo-body {
+    padding: 20px 0 0 0!important;
+}
+
+.breadcrumb-content .promo-body .row{
+  margin-right: -10px!important;
+  margin-left: -10px!important
 }
 
 .panel-body .lotto-res {
@@ -2465,7 +2475,7 @@ select + i.fa {
 .sp-back-btn{
   display: block;
   width: 100%;
-  margin-top: 20px
+
 }
 
 .sp-back-btn a{
@@ -2708,4 +2718,43 @@ span.round-tab i{
         left: 35%;
     }
 }
+
+.live-game > .promo-c{
+  max-width: 383px;
+  margin: 0 auto;
+  background: #111111;
+  border: 1px solid #3a3a3a;
+
+}
+.live-game > .promo-c > .promo-txt{
+text-align: center;
+padding: 10px 30px;
+}
+
+.live-game > .promo-c > .promo-txt h3{
+color: #ffb013;
+font-weight: 700;
+
+}
+.live-game > .promo-c > .promo-txt p{
+  color: #fff;
+  line-height: 25px;
+
+}
+.live-game > .promo-c > .promo-cta {
+  overflow: hidden;
+  padding: 30px 30px 15px;
+
+}
+.live-game > .promo-c > .promo-cta a img{
+  display: inline-block;
+}
+.live-game > .promo-c > .promo-cta .pull-left{
+  color:#ffb013;
+  text-decoration: none;
+}
+.live-game > .promo-c > .promo-cta .pull-right{
+  color:#fff;
+  text-decoration: none;
+
 }
