@@ -2462,6 +2462,22 @@ select + i.fa {
   text-decoration: none;
 }
 
+.sp-back-btn{
+  display: block;
+  width: 100%;
+  margin-top: 20px
+}
+
+.sp-back-btn a{
+  display: inline-block;
+  width: 114px;
+  height: 38px;
+  background: url('../img/sp/back-btn.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
 .reg-modal{
   padding: 0;
 }
@@ -2561,6 +2577,7 @@ span.round-tab i{
     bottom: 0px;
     border: 5px solid transparent;
     border-bottom-color: #ffb013;
+    -webkit-transition: 0.1s ease-in-out;
     transition: 0.1s ease-in-out;
 }
 
