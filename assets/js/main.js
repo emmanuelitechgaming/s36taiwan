@@ -1,4 +1,30 @@
 $(document).ready(function () {
+
+   var hash = window.location.hash;
+
+   if (hash != "") {
+
+     $('.sidebar-nav li').each(function() {
+       $(this).removeClass('active');
+     });
+     $('.tab-content div').each(function() {
+       $(this).removeClass('active');
+     });
+
+     var link = "";
+     $('sidebar-nav li').each(function() {
+       link = $(this).find('a').attr('href');
+       if (link == hash) {
+         $(this).addClass('active');
+       }
+     });
+     $('.tab-content div').each(function() {
+       link = $(this).attr('id');
+       if ('#'+link == hash) {
+         $(this).addClass('active');
+       }
+     });
+   }
     //Initialize tooltips
     $('.nav-tabs > li a[title]').tooltip();
 
