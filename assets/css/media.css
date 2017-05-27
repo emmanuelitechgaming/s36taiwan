@@ -236,6 +236,14 @@
       cursor: pointer;
       display: none;
     }
+
+    .selectpicker{
+      font-size: 11px;
+    }
+
+    .bootstrap-select.open .dropdown-menu{
+      left: -100px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -549,6 +557,14 @@
       position: fixed;
       cursor: pointer;
       display: none;
+    }
+
+    .selectpicker{
+      font-size: 14px;
+    }
+
+    .bootstrap-select.open .dropdown-menu{
+      left: 0
     }
 }
 

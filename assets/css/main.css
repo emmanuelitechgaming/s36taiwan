@@ -2478,6 +2478,27 @@ select + i.fa {
   cursor: pointer;
 }
 
+.selectpicker a:focus{
+  outline: 0
+}
+
+.selectpicker{
+  -webkit-columns: 2;
+          columns: 2;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.selectpicker li{
+  display: block;
+  width: 100%;
+  border-bottom: solid 1px #e3e3e3;
+}
+
+.selectpicker li a{
+  padding: 8px 20px
+}
+
 .reg-modal{
   padding: 0;
 }
