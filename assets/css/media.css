@@ -261,6 +261,11 @@
     .selectpicker2 .fa{
       margin-left: 5px
     }
+
+    .breadcrumb-inner .sp-container img{
+      width: 100%;
+      margin-left: auto
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -605,9 +610,13 @@
     }
 
     .selectpicker2-menu{
-      top: 108px;
-      left: 340px;
+      top: 104px;
+      width: 100%;
+    }
+
+    .selectpicker2-menu .row{
       width: 1220px;
+      margin: 0px auto
     }
 
     .selectpicker2{
@@ -619,6 +628,11 @@
 
     .selectpicker2 .fa{
       margin-left: 18px
+    }
+
+    .breadcrumb-inner .sp-container img{
+      width: auto;
+      margin-left: 45px
     }
 }
 
