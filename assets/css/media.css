@@ -264,7 +264,8 @@
 
     .breadcrumb-inner .sp-container img{
       width: 100%;
-      margin-left: auto
+      margin-left: auto;
+      margin-top: 20px;
     }
 }
 
@@ -632,6 +633,7 @@
 
     .breadcrumb-inner .sp-container img{
       width: auto;
+      margin-top: 20px;
       margin-left: 45px
     }
 }
