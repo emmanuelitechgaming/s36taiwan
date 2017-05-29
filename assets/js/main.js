@@ -51,6 +51,10 @@ $(document).ready(function () {
         prevTab($active);
 
     });
+
+    $('#footerLinkLang').click(function() {
+      $('.selectpicker2-menu').css('display', 'block');
+    });
 });
 
 function nextTab(elem) {
