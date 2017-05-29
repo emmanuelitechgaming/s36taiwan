@@ -629,7 +629,7 @@
               <div class="panel-heading hidden-sm hidden-xs">
                 <ul class="nav nav-tabs">
                   <li class="active"><a href="#tab1" data-toggle="tab" class="tab1">今期开奖 </a></li>
-                  <li><a href="#tab2" data-toggle="tab" class="tab2">单式注项</a></li>
+                  <li><a href="#tab2" data-toggle="tab" class="tab2">过往结果</a></li>
                   <li><a href="#tab3" data-toggle="tab" class="tab3">统计资料</a></li>
                 </ul>
                 <div class="border borderstyle" style="margin: 0;"></div>
@@ -657,412 +657,343 @@
                       </div>
                       <div class="col-md-10 col-sm-12 col-xs-12 lotto-res">
 
-                        <div class="tab-info">SA「48彩」每期是从1至48中选出六个号码為中奖号码。每天10:00 - 22:00 (GMT＋8 ) 每小时一期，开彩以自动搅珠机随机抽出，过程现场直播，并由美女主持读出中奖号码。</div>
-                        <div class="ballot-filter  ">
-                          <form class="form-inline">
-                            <div class="ballot-filter-div">
-                              <span class="control-label">攪珠期數/日期 </span>
-                            </div>
-                            <div class="ballot-filter-div">
-                              <label class="radio-inline">
-                                <input type="radio" name="optradio"> <span class="hidden-sm hidden-xs">攪珠期數:</span>
-                                <select name="selectDrawID" id="selectDrawID" class="select2 selectid" onchange="setRadio('radioDrawID');SetHiddenValue('hiddenSelectDrawID', this.value);">
-                                    <option value="1" disabled="">---</option>
-                                    <option value="5">5</option>
-                                    <option value="10">10</option>
-                                    <option value="20">20</option>
-                                    <option value="30">30</option>
-                                    <option value="1" disabled=""><font><font>---</font></font>
-                                    </option>
-                                    <option value="5"><font><font>5</font></font>
-                                    </option>
-                                    <option value="6">6</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                    <option value="9">9</option>
-                                    <option value="10" selected=""><font><font>10</font></font>
-                                    </option>
-                                    <option value="11">11</option>
-                                    <option value="12">12</option>
-                                    <option value="13">13</option>
-                                    <option value="14">14</option>
-                                    <option value="15">15</option>
-                                    <option value="16">16</option>
-                                    <option value="17">17</option>
-                                    <option value="18">18</option>
-                                    <option value="19">19</option>
-                                    <option value="20"><font><font>20</font></font>
-                                    </option>
-                                    <option value="21">21</option>
-                                    <option value="22">22</option>
-                                    <option value="23">23</option>
-                                    <option value="24">24</option>
-                                    <option value="25">25</option>
-                                    <option value="26">26</option>
-                                    <option value="27">27</option>
-                                    <option value="28">28</option>
-                                    <option value="29">29</option>
-                                    <option value="30"><font><font>30</font></font>
-                                    </option>
-                                </select>
-                              </label>
-                            </div>
-                            <div class="ballot-filter-div">
-                              <label class="radio-inline">
-                                <input type="radio" name="optradio"><span>由 : </span>
-                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromMonth" class="select2 selectfrommonth" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromMonth', this.value);">
-                                    <option value="0"><font><font>month</font></font>
-                                    </option>
-                                    <option value="01"><font><font>January</font></font>
-                                    </option>
-                                    <option value="02"><font><font>February</font></font>
-                                    </option>
-                                    <option selected="selected" value="03"><font><font>March</font></font>
-                                    </option>
-                                    <option value="04"><font><font>April</font></font>
-                                    </option>
-                                    <option value="05"><font><font>May</font></font>
-                                    </option>
-                                    <option value="06"><font><font>June</font></font>
-                                    </option>
-                                    <option value="07"><font><font>July</font></font>
-                                    </option>
-                                    <option value="08"><font><font>August</font></font>
-                                    </option>
-                                    <option value="09"><font><font>September</font></font>
-                                    </option>
-                                    <option value="10"><font><font>October</font></font>
-                                    </option>
-                                    <option value="11"><font><font>November</font></font>
-                                    </option>
-                                    <option value="12"><font><font>December</font></font>
-                                    </option>
-                                </select> /
-                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromYear" class="select2 selectfromyear" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromYear', this.value);">
-                                    <option value="0"><font><font>year</font></font>
-                                    </option>
-                                    <option selected="selected" value="2017">2017</option>
-                                    <option value="2016">2016</option>
-                                    <option value="2015">2015</option>
-                                    <option value="2014">2014</option>
-                                    <option value="2013">2013</option>
-                                    <option value="2012">2012</option>
-                                    <option value="2011">2011</option>
-                                    <option value="2010">2010</option>
-                                    <option value="2009">2009</option>
-                                    <option value="2008">2008</option>
-                                    <option value="2007">2007</option>
-                                    <option value="2006">2006</option>
-                                    <option value="2005">2005</option>
-                                    <option value="2004">2004</option>
-                                    <option value="2003">2003</option>
-                                    <option value="2002">2002</option>
-                                    <option value="2001">2001</option>
-                                    <option value="2000">2000</option>
-                                    <option value="1999">1999</option>
-                                    <option value="1998">1998</option>
-                                    <option value="1997">1997</option>
-                                    <option value="1996">1996</option>
-                                    <option value="1995">1995</option>
-                                    <option value="1994">1994</option>
-                                    <option value="1993">1993</option>
-                                </select>
-                              </label>
-                            </div>
-                            <div class="ballot-filter-div">
-                              <label for="">至 :
-                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToMonth" class="select2 selectfrommonth" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToMonth', this.value);">
-                                    <option value="0"><font><font>Month</font></font>
-                                    </option>
-                                    <option value="01"><font><font>January</font></font>
-                                    </option>
-                                    <option value="02"><font><font>February</font></font>
-                                    </option>
-                                    <option value="03"><font><font>March</font></font>
-                                    </option>
-                                    <option selected="selected" value="04"><font><font>April</font></font>
-                                    </option>
-                                    <option value="05"><font><font>May</font></font>
-                                    </option>
-                                    <option value="06"><font><font>June</font></font>
-                                    </option>
-                                    <option value="07"><font><font>July</font></font>
-                                    </option>
-                                    <option value="08"><font><font>August</font></font>
-                                    </option>
-                                    <option value="09"><font><font>September</font></font>
-                                    </option>
-                                    <option value="10"><font><font>October</font></font>
-                                    </option>
-                                    <option value="11"><font><font>November</font></font>
-                                    </option>
-                                    <option value="12"><font><font>December</font></font>
-                                    </option>
-                                </select> /
-                                <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToYear" class="select2 selectfromyear" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToYear', this.value);">
-                                    <option value="0"><font><font>year</font></font>
-                                    </option>
-                                    <option selected="selected" value="2017"><font><font>2017</font></font>
-                                    </option>
-                                    <option value="2016"><font><font>2016</font></font>
-                                    </option>
-                                    <option value="2015"><font><font>2015</font></font>
-                                    </option>
-                                    <option value="2014"><font><font>2014</font></font>
-                                    </option>
-                                    <option value="2013"><font><font>2013</font></font>
-                                    </option>
-                                    <option value="2012"><font><font>2012</font></font>
-                                    </option>
-                                    <option value="2011"><font><font>2011</font></font>
-                                    </option>
-                                    <option value="2010"><font><font>2010</font></font>
-                                    </option>
-                                    <option value="2009"><font><font>2009</font></font>
-                                    </option>
-                                    <option value="2008"><font><font>2008</font></font>
-                                    </option>
-                                    <option value="2007"><font><font>2007</font></font>
-                                    </option>
-                                    <option value="2006"><font><font>2006</font></font>
-                                    </option>
-                                    <option value="2005"><font><font>2005</font></font>
-                                    </option>
-                                    <option value="2004"><font><font>2004</font></font>
-                                    </option>
-                                    <option value="2003"><font><font>2003</font></font>
-                                    </option>
-                                    <option value="2002"><font><font>2002</font></font>
-                                    </option>
-                                    <option value="2001"><font><font>2001</font></font>
-                                    </option>
-                                    <option value="2000"><font><font>2000</font></font>
-                                    </option>
-                                    <option value="1999"><font><font>1999</font></font>
-                                    </option>
-                                    <option value="1998"><font><font>1998</font></font>
-                                    </option>
-                                    <option value="1997"><font><font>1997</font></font>
-                                    </option>
-                                    <option value="1996"><font><font>1996</font></font>
-                                    </option>
-                                    <option value="1995"><font><font>1995</font></font>
-                                    </option>
-                                    <option value="1994"><font><font>1994</font></font>
-                                    </option>
-                                    <option value="1993"><font><font>1993</font></font>
-                                    </option>
-                                </select>
-                              </label>
-                            </div>
-                            <div class="ballot-filter-div text-center">
-                              <a href="#"><img src="assets/img/lotto/lotto-btn2.png" class="img-responsive hidden-sm hidden-xs" style="display: inline-block;" alt=""></a>
-                            </div>
-                          </form>
 
-                          <form action="" class="form-inline">
-
-                          </form>
-                        </div>
-
-                        <div class="ballot-result">
-                          <table class="table table-striped">
-                            <thead>
-                              <tr>
-                                <th>期数 </th>
-                                <th>搅珠日期</th>
-                                <th>搅珠结果</th>
-                                <th>视频回话</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>17/047 </td>
-                                <td>25/04/2017</td>
-                                <td class="ballot-result-balls"><img src="assets/img/lotto/ball/1.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/2.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/3.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/4.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/5.png" class="img-responsive" alt="">
-                                  <i class="fa fa-plus" aria-hidden="true"></i>
-                                  <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt=""></td>
-                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
-                              </tr>
-                              <tr>
-                                <td>17/046 </td>
-                                <td>22/04/2017</td>
-
-                                <td class="ballot-result-balls"><img src="assets/img/lotto/ball/4.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/5.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/7.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/8.png" class="img-responsive" alt="">
-                                  <i class="fa fa-plus" aria-hidden="true"></i>
-                                  <img src="assets/img/lotto/ball/9.png" class="img-responsive" alt=""></td>
-                                  <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
-
-                              </tr>
-                              <tr>
-                                <td>17/045 </td>
-                                <td>18/04/2017</td>
-
-                                <td class="ballot-result-balls">
-                                  <img src="assets/img/lotto/ball/10.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/11.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/12.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/13.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/14.png" class="img-responsive" alt="">
-                                  <i class="fa fa-plus" aria-hidden="true"></i>
-                                  <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt="">
-                                </td>
-                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
-
-                              </tr>
-                              <tr>
-                                <td>17/045 </td>
-                                <td>18/04/2017</td>
-
-                                <td class="ballot-result-balls">
-                                  <img src="assets/img/lotto/ball/10.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/11.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/12.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/13.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/14.png" class="img-responsive" alt="">
-                                  <i class="fa fa-plus" aria-hidden="true"></i>
-                                  <img src="assets/img/lotto/ball/15.png" class="img-responsive" alt="">
-                                </td>
-                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
-
-                              </tr>
-                              <tr>
-                                <td>17/045 </td>
-                                <td>18/04/2017</td>
-
-                                <td class="ballot-result-balls">
-                                  <img src="assets/img/lotto/ball/16.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/17.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/18.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/19.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/20.png" class="img-responsive" alt="">
-                                  <i class="fa fa-plus" aria-hidden="true"></i>
-                                  <img src="assets/img/lotto/ball/21.png" class="img-responsive" alt="">
-                                </td>
-                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
-
-                              </tr>
-                              <tr>
-                                <td>17/045 </td>
-                                <td>18/04/2017</td>
-
-                                <td class="ballot-result-balls">
-                                  <img src="assets/img/lotto/ball/22.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/23.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/24.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/25.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/26.png" class="img-responsive" alt="">
-                                  <i class="fa fa-plus" aria-hidden="true"></i>
-                                  <img src="assets/img/lotto/ball/27.png" class="img-responsive" alt="">
-                                </td>
-                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
-
-                              </tr>
-                              <tr>
-                                <td>17/045 </td>
-                                <td>18/04/2017</td>
-
-                                <td class="ballot-result-balls">
-                                  <img src="assets/img/lotto/ball/28.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/29.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/30.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/31.png" class="img-responsive" alt="">
-                                  <img src="assets/img/lotto/ball/32.png" class="img-responsive" alt="">
-                                  <i class="fa fa-plus" aria-hidden="true"></i>
-                                  <img src="assets/img/lotto/ball/33.png" class="img-responsive" alt="">
-                                </td>
-                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
-
-                              </tr>
-
-                            </tbody>
-                          </table>
-                        </div>
                       </div>
                     </div>
                   </div>
 
                   <div class="tab-pane fade r-tab2" id="tab2">
-                    <div class="row r-banner-info-wrapper hidden-lg hidden-md">
-                      <div class="col-sm-6 col-xs-6"><img src="assets/img/lotto/1.png" class="img-responsive" alt=""></div>
-                      <div class="col-sm-6 col-xs-6"><img src="assets/img/lotto/banner-content.png" alt="" class="img-responsive"></div>
-                    </div>
                     <div class="row">
-                    <div class="col-md-2 hidden-sm hidden-xs lotto-res">
-                      <img src="assets/img/lotto/side-banner.png" class="img-responsive" alt="">
-                    </div>
-                    <div class="col-md-10 col-sm-12 col-xs-12 lotto-res">
-                      <div class="row">
-                        <div class="col-md-4 col-md-offset-2 col-sm-8 col-xs-8">
-                          <div id="calendar">
-                            <h1>October</h1>
-                            <table>
-                              <tr>
-                                <td class="lastmonth">30</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td class="hastask">4</td>
-                                <td>5</td>
-                                <td>6</td>
-                              </tr>
-                              <tr>
-                                <td>7</td>
-                                <td class="current">8</td>
-                                <td class="hastask">9</td>
-                                <td>10</td>
-                                <td>11</td>
-                                <td class="hastask">12</td>
-                                <td>13</td>
-                              </tr>
-                              <tr>
-                                <td>14</td>
-                                <td class="hastask">15</td>
-                                <td>16</td>
-                                <td>17</td>
-                                <td>18</td>
-                                <td>19</td>
-                                <td>20</td>
-                              </tr>
-                              <tr>
-                                <td class="hastask">21</td>
-                                <td>22</td>
-                                <td>23</td>
-                                <td>24</td>
-                                <td>25</td>
-                                <td class="hastask">26</td>
-                                <td>27</td>
-                              </tr>
-                              <tr>
-                                <td>28</td>
-                                <td>29</td>
-                                <td class="hastask">30</td>
-                                <td>31</td>
-                                <td class="nextmonth">1</td>
-                                <td>2</td>
-                                <td>3</td>
-                              </tr>
-                            </table>
-                          </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4 col-xs-4 lotto-desc-wrapper">
-                          <div class="lotto-desc">玩法增多</div>
-                          <div class="lotto-desc-p">中奖机会飙升</div>
-                          <div class="lotto-desc">增设每小时开彩一次
-</div>
-                          <div class="lotto-desc-p">每天由早上十时至晚上十时</div>
-                          <div class="lotto-desc">巨额头奖</div>
-                          <div class="lotto-desc-p">估计一注独得</div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 lotto-res">
 
-                        </div>
+                      <div class="tab-info">SA「48彩」每期是从1至48中选出六个号码為中奖号码。每天10:00 - 22:00 (GMT＋8 ) 每小时一期，开彩以自动搅珠机随机抽出，过程现场直播，并由美女主持读出中奖号码。</div>
+                      <div class="ballot-filter  ">
+                        <form class="form-inline">
+                          <div class="ballot-filter-div">
+                            <span class="control-label">攪珠期數/日期 </span>
+                          </div>
+                          <div class="ballot-filter-div">
+                            <label class="radio-inline">
+                              <input type="radio" name="optradio"> <span class="hidden-sm hidden-xs">攪珠期數:</span>
+                              <select name="selectDrawID" id="selectDrawID" class="select2 selectid" onchange="setRadio('radioDrawID');SetHiddenValue('hiddenSelectDrawID', this.value);">
+                                  <option value="1" disabled="">---</option>
+                                  <option value="5">5</option>
+                                  <option value="10">10</option>
+                                  <option value="20">20</option>
+                                  <option value="30">30</option>
+                                  <option value="1" disabled=""><font><font>---</font></font>
+                                  </option>
+                                  <option value="5"><font><font>5</font></font>
+                                  </option>
+                                  <option value="6">6</option>
+                                  <option value="7">7</option>
+                                  <option value="8">8</option>
+                                  <option value="9">9</option>
+                                  <option value="10" selected=""><font><font>10</font></font>
+                                  </option>
+                                  <option value="11">11</option>
+                                  <option value="12">12</option>
+                                  <option value="13">13</option>
+                                  <option value="14">14</option>
+                                  <option value="15">15</option>
+                                  <option value="16">16</option>
+                                  <option value="17">17</option>
+                                  <option value="18">18</option>
+                                  <option value="19">19</option>
+                                  <option value="20"><font><font>20</font></font>
+                                  </option>
+                                  <option value="21">21</option>
+                                  <option value="22">22</option>
+                                  <option value="23">23</option>
+                                  <option value="24">24</option>
+                                  <option value="25">25</option>
+                                  <option value="26">26</option>
+                                  <option value="27">27</option>
+                                  <option value="28">28</option>
+                                  <option value="29">29</option>
+                                  <option value="30"><font><font>30</font></font>
+                                  </option>
+                              </select>
+                            </label>
+                          </div>
+                          <div class="ballot-filter-div">
+                            <label class="radio-inline">
+                              <input type="radio" name="optradio"><span>由 : </span>
+                              <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromMonth" class="select2 selectfrommonth" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromMonth', this.value);">
+                                  <option value="0"><font><font>month</font></font>
+                                  </option>
+                                  <option value="01"><font><font>January</font></font>
+                                  </option>
+                                  <option value="02"><font><font>February</font></font>
+                                  </option>
+                                  <option selected="selected" value="03"><font><font>March</font></font>
+                                  </option>
+                                  <option value="04"><font><font>April</font></font>
+                                  </option>
+                                  <option value="05"><font><font>May</font></font>
+                                  </option>
+                                  <option value="06"><font><font>June</font></font>
+                                  </option>
+                                  <option value="07"><font><font>July</font></font>
+                                  </option>
+                                  <option value="08"><font><font>August</font></font>
+                                  </option>
+                                  <option value="09"><font><font>September</font></font>
+                                  </option>
+                                  <option value="10"><font><font>October</font></font>
+                                  </option>
+                                  <option value="11"><font><font>November</font></font>
+                                  </option>
+                                  <option value="12"><font><font>December</font></font>
+                                  </option>
+                              </select> /
+                              <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromYear" class="select2 selectfromyear" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromYear', this.value);">
+                                  <option value="0"><font><font>year</font></font>
+                                  </option>
+                                  <option selected="selected" value="2017">2017</option>
+                                  <option value="2016">2016</option>
+                                  <option value="2015">2015</option>
+                                  <option value="2014">2014</option>
+                                  <option value="2013">2013</option>
+                                  <option value="2012">2012</option>
+                                  <option value="2011">2011</option>
+                                  <option value="2010">2010</option>
+                                  <option value="2009">2009</option>
+                                  <option value="2008">2008</option>
+                                  <option value="2007">2007</option>
+                                  <option value="2006">2006</option>
+                                  <option value="2005">2005</option>
+                                  <option value="2004">2004</option>
+                                  <option value="2003">2003</option>
+                                  <option value="2002">2002</option>
+                                  <option value="2001">2001</option>
+                                  <option value="2000">2000</option>
+                                  <option value="1999">1999</option>
+                                  <option value="1998">1998</option>
+                                  <option value="1997">1997</option>
+                                  <option value="1996">1996</option>
+                                  <option value="1995">1995</option>
+                                  <option value="1994">1994</option>
+                                  <option value="1993">1993</option>
+                              </select>
+                            </label>
+                          </div>
+                          <div class="ballot-filter-div">
+                            <label for="">至 :
+                              <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToMonth" class="select2 selectfrommonth" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToMonth', this.value);">
+                                  <option value="0"><font><font>Month</font></font>
+                                  </option>
+                                  <option value="01"><font><font>January</font></font>
+                                  </option>
+                                  <option value="02"><font><font>February</font></font>
+                                  </option>
+                                  <option value="03"><font><font>March</font></font>
+                                  </option>
+                                  <option selected="selected" value="04"><font><font>April</font></font>
+                                  </option>
+                                  <option value="05"><font><font>May</font></font>
+                                  </option>
+                                  <option value="06"><font><font>June</font></font>
+                                  </option>
+                                  <option value="07"><font><font>July</font></font>
+                                  </option>
+                                  <option value="08"><font><font>August</font></font>
+                                  </option>
+                                  <option value="09"><font><font>September</font></font>
+                                  </option>
+                                  <option value="10"><font><font>October</font></font>
+                                  </option>
+                                  <option value="11"><font><font>November</font></font>
+                                  </option>
+                                  <option value="12"><font><font>December</font></font>
+                                  </option>
+                              </select> /
+                              <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawToYear" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawToYear" class="select2 selectfromyear" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawToYear', this.value);">
+                                  <option value="0"><font><font>year</font></font>
+                                  </option>
+                                  <option selected="selected" value="2017"><font><font>2017</font></font>
+                                  </option>
+                                  <option value="2016"><font><font>2016</font></font>
+                                  </option>
+                                  <option value="2015"><font><font>2015</font></font>
+                                  </option>
+                                  <option value="2014"><font><font>2014</font></font>
+                                  </option>
+                                  <option value="2013"><font><font>2013</font></font>
+                                  </option>
+                                  <option value="2012"><font><font>2012</font></font>
+                                  </option>
+                                  <option value="2011"><font><font>2011</font></font>
+                                  </option>
+                                  <option value="2010"><font><font>2010</font></font>
+                                  </option>
+                                  <option value="2009"><font><font>2009</font></font>
+                                  </option>
+                                  <option value="2008"><font><font>2008</font></font>
+                                  </option>
+                                  <option value="2007"><font><font>2007</font></font>
+                                  </option>
+                                  <option value="2006"><font><font>2006</font></font>
+                                  </option>
+                                  <option value="2005"><font><font>2005</font></font>
+                                  </option>
+                                  <option value="2004"><font><font>2004</font></font>
+                                  </option>
+                                  <option value="2003"><font><font>2003</font></font>
+                                  </option>
+                                  <option value="2002"><font><font>2002</font></font>
+                                  </option>
+                                  <option value="2001"><font><font>2001</font></font>
+                                  </option>
+                                  <option value="2000"><font><font>2000</font></font>
+                                  </option>
+                                  <option value="1999"><font><font>1999</font></font>
+                                  </option>
+                                  <option value="1998"><font><font>1998</font></font>
+                                  </option>
+                                  <option value="1997"><font><font>1997</font></font>
+                                  </option>
+                                  <option value="1996"><font><font>1996</font></font>
+                                  </option>
+                                  <option value="1995"><font><font>1995</font></font>
+                                  </option>
+                                  <option value="1994"><font><font>1994</font></font>
+                                  </option>
+                                  <option value="1993"><font><font>1993</font></font>
+                                  </option>
+                              </select>
+                            </label>
+                          </div>
+                          <div class="ballot-filter-div text-center">
+                            <a href="#"><img src="assets/img/lotto/lotto-btn2.png" class="img-responsive hidden-sm hidden-xs" style="display: inline-block;" alt=""></a>
+                          </div>
+                        </form>
+
+                        <form action="" class="form-inline">
+
+                        </form>
+                      </div>
+
+                      <div class="ballot-result">
+                        <table class="table table-striped">
+                          <thead>
+                            <tr>
+                              <th>期数 </th>
+                              <th>搅珠日期</th>
+                              <th>搅珠结果</th>
+                              <th>视频回话</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>17/047 </td>
+                              <td>25/04/2017</td>
+                              <td class="ballot-result-balls"><img src="assets/img/lotto/ball/1.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/2.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/3.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/4.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/5.png" class="img-responsive" alt="">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt=""></td>
+                              <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+                            </tr>
+                            <tr>
+                              <td>17/046 </td>
+                              <td>22/04/2017</td>
+
+                              <td class="ballot-result-balls"><img src="assets/img/lotto/ball/4.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/5.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/7.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/8.png" class="img-responsive" alt="">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                <img src="assets/img/lotto/ball/9.png" class="img-responsive" alt=""></td>
+                                <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+
+                            </tr>
+                            <tr>
+                              <td>17/045 </td>
+                              <td>18/04/2017</td>
+
+                              <td class="ballot-result-balls">
+                                <img src="assets/img/lotto/ball/10.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/11.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/12.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/13.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/14.png" class="img-responsive" alt="">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                <img src="assets/img/lotto/ball/6.png" class="img-responsive" alt="">
+                              </td>
+                              <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+
+                            </tr>
+                            <tr>
+                              <td>17/045 </td>
+                              <td>18/04/2017</td>
+
+                              <td class="ballot-result-balls">
+                                <img src="assets/img/lotto/ball/10.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/11.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/12.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/13.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/14.png" class="img-responsive" alt="">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                <img src="assets/img/lotto/ball/15.png" class="img-responsive" alt="">
+                              </td>
+                              <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+
+                            </tr>
+                            <tr>
+                              <td>17/045 </td>
+                              <td>18/04/2017</td>
+
+                              <td class="ballot-result-balls">
+                                <img src="assets/img/lotto/ball/16.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/17.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/18.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/19.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/20.png" class="img-responsive" alt="">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                <img src="assets/img/lotto/ball/21.png" class="img-responsive" alt="">
+                              </td>
+                              <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+
+                            </tr>
+                            <tr>
+                              <td>17/045 </td>
+                              <td>18/04/2017</td>
+
+                              <td class="ballot-result-balls">
+                                <img src="assets/img/lotto/ball/22.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/23.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/24.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/25.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/26.png" class="img-responsive" alt="">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                <img src="assets/img/lotto/ball/27.png" class="img-responsive" alt="">
+                              </td>
+                              <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+
+                            </tr>
+                            <tr>
+                              <td>17/045 </td>
+                              <td>18/04/2017</td>
+
+                              <td class="ballot-result-balls">
+                                <img src="assets/img/lotto/ball/28.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/29.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/30.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/31.png" class="img-responsive" alt="">
+                                <img src="assets/img/lotto/ball/32.png" class="img-responsive" alt="">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                <img src="assets/img/lotto/ball/33.png" class="img-responsive" alt="">
+                              </td>
+                              <td><a href="#"><img src="assets/img/lotto/lotto-btn2.png" style="width: 40%;" alt=""></a></td>
+
+                            </tr>
+
+                          </tbody>
+                        </table>
                       </div>
 
                   </div>
@@ -1080,7 +1011,6 @@
                     </div> -->
                     <div class="col-md-12 col-sm-12 col-xs-12 lotto-res">
 
-
                       <div class="">
                         <img src="assets/img/lotto/lotto1.jpg" alt="" class="img-responsive">
                       </div>
@@ -1088,7 +1018,6 @@
                       <div class="">
                         <img src="assets/img/lotto/lotto2.jpg" alt="" class="img-responsive">
                       </div>
-
 
                     <!-- <div class="lotto-desc">彩票游戏</div>
                     <div class="lotto-desc-p"> SA「48彩」每期是从1至48中选出六个号码為中奖号码。每天10:00 - 22:00 (GMT＋8 ) 每小时一期，开彩以自动搅珠机随机抽出，过程现场直播，并由美女主持读出中奖号码。
