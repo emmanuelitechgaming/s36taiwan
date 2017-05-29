@@ -267,6 +267,10 @@
       margin-left: auto;
       margin-top: 20px;
     }
+
+    .live-game > .promo-c > .promo-txt h3{
+      font-size: 18px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -636,6 +640,10 @@
       margin-top: 20px;
       margin-left: 45px
     }
+
+    .live-game > .promo-c > .promo-txt h3{
+      font-size: 21px;
+    }
 }
 
 
@@ -730,12 +738,11 @@
       display: inline-block;
       color: #0f0f0f;
       left: 242px;
-      top: 25px;
+      top: 23px;
       font-size: 29px;
       font-weight: 700;
-      letter-spacing: 20px;
-      word-spacing: -26px;
-
+      letter-spacing: 19.9px;
+      word-spacing: -34px;
     }
     main .marquee {
         width: 500px;
