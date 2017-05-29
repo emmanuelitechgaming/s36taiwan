@@ -2,6 +2,10 @@ $(document).ready(function () {
 
    var hash = window.location.hash;
    if (hash != "") {
+     $('html,body').animate({
+         scrollTop: 0
+     }, 500);
+     
      $('.sidebar-nav li').each(function() {
        $(this).removeClass('active');
      });
@@ -50,6 +54,11 @@ $(document).ready(function () {
         var $active = $('.wizard .nav-tabs li.active');
         prevTab($active);
 
+    });
+
+    $('#footerLinkLang').click(function(e) {
+      $('.selectpicker2').trigger('click.bs.dropdown');
+      e.stopPropagation();
     });
 });
 
