@@ -2,6 +2,10 @@ $(document).ready(function () {
 
    var hash = window.location.hash;
    if (hash != "") {
+     $('html,body').animate({
+         scrollTop: 0
+     }, 500);
+     
      $('.sidebar-nav li').each(function() {
        $(this).removeClass('active');
      });
@@ -52,8 +56,9 @@ $(document).ready(function () {
 
     });
 
-    $('#footerLinkLang').click(function() {
-      $('.selectpicker2-menu').css('display', 'block');
+    $('#footerLinkLang').click(function(e) {
+      $('.selectpicker2').trigger('click.bs.dropdown');
+      e.stopPropagation();
     });
 });
 
