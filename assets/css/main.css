@@ -2692,6 +2692,18 @@ span.round-tab i{
     margin-top: 0;
 }
 
+.helpcenter-noticetab{
+  margin-top: 30px;
+}
+
+.helpcenter-noticetab a{
+  color: #333;
+}
+
+.helpcenter-noticetab a:hover{
+  text-decoration: none
+}
+
 @media( max-width : 585px ) {
 
     .wizard {
