@@ -2770,3 +2770,39 @@ padding: 10px 30px;
   text-decoration: none;
 
 }
+.today-winner{
+  padding: 20px;
+}
+
+.td-win{
+background: #2a2a2a;
+padding: 15px;
+font-size: 16px;
+}
+.td-week{
+  padding: 10px;
+  background: #2a2a2a;
+  font-size: 16px;
+  color:#ffb013;
+  font-weight: 700;
+}
+.td-win .username{
+  margin: 0 20px;
+}
+.td-title{
+  background: red;
+  padding: 15px;
+}
+.td-win .title{
+  background: #ffb013;
+  padding: 17px;
+  color: #1a1a1a;
+  font-weight: 700;
+  margin-left: -14px;
+
+}
+
+.td-win .amount{
+  color: #ffb013;
+  font-weight: 700;
+}
