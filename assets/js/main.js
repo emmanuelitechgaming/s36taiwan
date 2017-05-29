@@ -5,7 +5,7 @@ $(document).ready(function () {
      $('html,body').animate({
          scrollTop: 0
      }, 500);
-     
+
      $('.sidebar-nav li').each(function() {
        $(this).removeClass('active');
      });
@@ -60,6 +60,14 @@ $(document).ready(function () {
       $('.selectpicker2').trigger('click.bs.dropdown');
       e.stopPropagation();
     });
+
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+      console.log($(this).context.hash);
+      $('a[href="'+$(this).context.hash+'"]').parent('li').addClass('active');
+      $('html,body').animate({
+          scrollTop: 0
+      }, 300);
+    })
 });
 
 function nextTab(elem) {
