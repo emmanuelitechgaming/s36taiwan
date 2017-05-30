@@ -2887,3 +2887,9 @@ font-size: 16px;
   color: #ffb013;
   font-weight: 700;
 }
+
+@-moz-document url-prefix() {
+  .cs-modal .chatserver-form input[type="text"] {
+    padding: 9.5px
+  }
+}
