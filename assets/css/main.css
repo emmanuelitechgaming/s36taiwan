@@ -2704,6 +2704,87 @@ span.round-tab i{
   text-decoration: none
 }
 
+.cs-modal .modal-content{
+  background: #1a1a1a
+}
+
+.cs-modal .close{
+  opacity: 1;
+  font-size: 15px
+}
+
+.cs-modal .close span{
+  color: #fff1d3
+}
+
+.cs-modal .modal-dialog {
+  margin: 150px auto;
+}
+
+.cs-modal .content-title {
+  text-align: center;
+}
+
+.cs-modal .ctitle h1 {
+  color: #fff!important;
+  font-size: 28px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: .5em;
+  padding: .65em 2em;
+}
+
+.cs-modal .chatserver-form input[type=text]{
+  font-size: .875em;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1.5em;
+  padding: 18px 0;
+  -webkit-transition: outline .3s;
+  transition: outline .3s;
+  text-indent: 10px;
+  color: #c4c4c4;
+  border: 1px solid #333;
+  border-radius: 0;
+  outline: 0;
+  background-color: #333;
+}
+
+.cs-modal .chatserver-form button {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    letter-spacing: .5px;
+    color: #1a1a1a;
+    border: solid 1px #fff1d3;
+    border-radius: 0;
+    background: #fff1d3;
+    text-shadow: none;
+}
+
+.cs-modal .chatserver-form span {
+    font-weight: 400;
+    color: #c00;
+}
+
+.cs-modal .modal-content{
+  color: #fff;
+  padding: 0 20px
+}
+
+.chatserver-form {
+  margin-top: 15px;
+  font-weight: 400;
+}
+
 @media( max-width : 585px ) {
 
     .wizard {
