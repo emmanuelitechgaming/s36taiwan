@@ -113,20 +113,22 @@ input, select{
   padding-left: 10%
 }
 
+.ballot-filter .form-inline{
+  padding: 15px 15px 1px;
+}
+
 .ballot-filter input[type=radio]{
   margin-left: -10%;
   margin-top: 3.5%
 }
 
+.lotto-res .tab-info{
+  padding: 20px 25px !important
+}
+
 .selectid, .selectfromyear, .selectfrommonth{
   height: auto !important;
   padding: 5px;
-}
-
-.selectid{
-  display: block;
-  width: 50%;
-  background-size: 25% 100% !important
 }
 
 .selectfromyear{
