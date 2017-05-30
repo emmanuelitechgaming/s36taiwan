@@ -181,9 +181,9 @@
   }
 
   .selectid{
-    display: block;
-    width: 90px;
-    background-size: 30% 100% !important;
+    display: inline-block;
+    width: 220px;
+    background-size: 20% 100% !important;
   }
 
   .r-tab2{
@@ -272,9 +272,9 @@
     width: 13%
   }
 
-  .ballot-filter-div:nth-child(2){
+  /*.ballot-filter-div:nth-child(2){
     padding-left: 5%;
-  }
+  }*/
 
   .ballot-filter-div:nth-child(3), .ballot-filter-div:nth-child(4){
     width: 28%
@@ -408,7 +408,8 @@
   }
 
   .tab-pane .tab-info {
-    font-size: 12px;
+    font-size: 15px;
+    line-height: 30px;
   }
 
   .footer-social-d{
@@ -447,21 +448,22 @@
   }
 
   .selectid{
-    display: block;
-    margin-left: 23px;
-    margin-top: 3px;
-    width: 90px;
-    background-size: 30% 100% !important;
-    margin-bottom: -7px;
+    display: inline-block;
+  margin-left: 23px;
+  margin-top: 3px;
+  width: 200px;
+  background-size: 15% 100% !important;
+  margin-bottom: -7px;
+
   }
 
   .selectfrommonth{
-    width: 90px;
+    width: 135px;
     background-size: 30% 100% !important
   }
 
   .selectfromyear{
-    width: 95px;
+    width: 135px;
     background-size: 30% 100% !important
   }
 

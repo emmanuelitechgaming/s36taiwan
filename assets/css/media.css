@@ -648,16 +648,16 @@
     .ballot-filter-div{
       display: block;
       width: 100% !important;
-      margin-bottom: 15px;
+      margin-bottom: 25px;
     }
 
-    .ballot-filter-div:nth-child(2) {
-      padding-left: 7% !important;
+    /*.ballot-filter-div:nth-child(2) {
+      padding-left: 1% !important;
     }
 
     .ballot-filter-div:nth-child(3), .ballot-filter-div:nth-child(4) {
       padding-left: 7% !important;
-    }
+    }*/
 
     .casino-section .breadcrumb-inner .sp-container img {
       width: 100%;
@@ -780,6 +780,20 @@
         line-height: 1.4;
         top: -8px;
         right: -11px;
+    }
+    header .lang-logo a {
+        display: inline-block;
+        width: 252px;
+        height: 50px;
+        background: url('../img/logo.png') no-repeat 0 0;
+            background-repeat: no-repeat;
+            background-position-x: 0px;
+            background-position-y: 0px;
+            background-size: auto auto;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        margin-top: -13px;
     }
 
 
