@@ -1524,9 +1524,9 @@ p {
 }
 
 .ballot-filter {
-    background: #d2d2d2;
+
     padding: 10px;
-    color: #333333;
+    color: #ffb013;
     font-size: 12px;
 }
 
@@ -1576,8 +1576,8 @@ input[type=radio] {
 }
 
 .tab-pane .tab-info {
-    background: #ffffff;
-    color: #000;
+
+    color: #fff;
     padding: 10px 25px;
     font-size: 12px;
 }
@@ -2565,7 +2565,7 @@ select + i.fa {
 }
 .reg-dialog{
     width: 600px;
-    margin: 140px auto;
+    margin: 60px auto;
 }
 .wizard {
     margin: 0 auto;
@@ -2882,11 +2882,56 @@ font-size: 16px;
   margin-left: -14px;
 
 }
+.tdw-body{
+  background: #111;
+  padding: 20px 0;
+  overflow: hidden;
+}
+.tdw-body .col-md-3{
+  text-align: center;
+}
 
 .td-win .amount{
   color: #ffb013;
   font-weight: 700;
 }
+<<<<<<< .mine
+.tdw-jackpot{
+  color: #ffb013;
+  font-weight: 700;
+}
+.tdw-body .txt{
+  color: #fff;
+  margin-top: 5px;
+}
+.lotto-tab{
+  margin: 5px 0;
+}
+.lotto-tab th{
+  color: #ffb013;
+}
+.lotto-tab td{
+  color: #fff;
+}
+.lotto-tab th:first-child{
+  text-align: center;
+  color: #ffb013;
+}
+.lotto-tab td:first-child{
+  color: #fff;
+  text-align: center;
+}
+.lt4{
+  color: #fff;
+}
+.lt4 h3{
+  color: #ffb013;
+}
+.md-reg-f{
+  border: 0!important;
+  padding: 0;
+}
+
 
 @-moz-document url-prefix() {
   .cs-modal .chatserver-form input[type="text"] {

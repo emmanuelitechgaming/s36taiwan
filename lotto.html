@@ -241,7 +241,7 @@
       </div>
       <div class="mobile-top-hc clearfix">
         <ul class="clearfix">
-          <li><a href="" data-toggle="modal" data-target="#csModal"><img src="assets/img/cs.png" alt="" width="20px">在线客服</a></li>
+          <li><a href="" onclick="window.open('chatserver.html', 'newwindow', 'width=600, height=750'); return false;"><img src="assets/img/cs.png" alt="" width="20px">在线客服</a></li>
           <li><a href="helpcenter.html"><img src="assets/img/hc.png" alt="" width="20px">帮助中心</a></li>
         </ul>
       </div>
@@ -582,7 +582,7 @@
               </ul>
 
               <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
-                <li><a href="#" data-toggle="modal" data-target="#csModal"><img src="assets/img/cs.png" width="20px"alt="">&nbsp; 在线客服</a></li>
+                <li><a href="helpcenter.html"><img src="assets/img/cs.png" width="20px"alt="">&nbsp; 在线客服</a></li>
                 <li><a href="helpcenter.html"><img src="assets/img/hc.png" width="20px"alt="">&nbsp; 帮助中心</a></li>
               </ul>
           </div>
@@ -631,6 +631,7 @@
                   <li class="active"><a href="#tab1" data-toggle="tab" class="tab1">今期开奖 </a></li>
                   <li><a href="#tab2" data-toggle="tab" class="tab2">过往结果</a></li>
                   <li><a href="#tab3" data-toggle="tab" class="tab3">统计资料</a></li>
+                    <li><a href="#tab4" data-toggle="tab" class="tab4">游戏规则</a></li>
                 </ul>
                 <div class="border borderstyle" style="margin: 0;"></div>
               </div>
@@ -639,6 +640,7 @@
                   <option value="tab1">今期开奖 </option>
                   <option value="tab2">过往结果</option>
                   <option value="tab3">复式注项</option>
+                    <option value="tab4">游戏规则</option>
                 </select>
               </div>
 
@@ -830,12 +832,10 @@
                     <div class="tab-info">SA「48彩」每期是从1至48中选出六个号码為中奖号码。每天10:00 - 22:00 (GMT＋8 ) 每小时一期，开彩以自动搅珠机随机抽出，过程现场直播，并由美女主持读出中奖号码。</div>
                     <div class="ballot-filter  ">
                       <form class="form-inline">
-                        <div class="ballot-filter-div">
-                          <span class="control-label">攪珠期數/日期 </span>
-                        </div>
+                      
                         <div class="ballot-filter-div">
                           <label class="radio-inline">
-                            <input type="radio" name="optradio"> <span class="hidden-sm hidden-xs">攪珠期數:</span>
+                            <span class="" style="font-size:15px;">攪珠期數:</span>
                             <select name="selectDrawID" id="selectDrawID" class="select2 selectid" onchange="setRadio('radioDrawID');SetHiddenValue('hiddenSelectDrawID', this.value);">
                                 <option value="1" disabled="">---</option>
                                 <option value="5">5</option>
@@ -878,8 +878,11 @@
                           </label>
                         </div>
                         <div class="ballot-filter-div">
+                          <span class="" style="font-size:15px;">攪珠日期 :</span>
+                          <br>
+                          <br>
                           <label class="radio-inline">
-                            <input type="radio" name="optradio"><span>由 : </span>
+                            <span>由 : </span>
                             <select name="_ctl0:ContentPlaceHolder1:resultsMarkSix:selectDrawFromMonth" id="_ctl0_ContentPlaceHolder1_resultsMarkSix_selectDrawFromMonth" class="select2 selectfrommonth" onchange="setRadio('radioDrawDate');SetHiddenValue('hiddenSelectDrawFromMonth', this.value);">
                                 <option value="0"><font><font>month</font></font>
                                 </option>
@@ -1049,13 +1052,31 @@
                       <img src="assets/img/lotto/side-banner.png" class="img-responsive" alt="">
                     </div> -->
                     <div class="col-md-12 col-sm-12 col-xs-12 lotto-res">
-                      <div class="" style="margin-bottom:30px">
-                        <img src="assets/img/lotto/lotto2.jpg" alt="" class="img-responsive">
+
+                      <div class="today-winner">
+                        <div class="td-week"> 每種顏色開出的次數</div>
+                        <div class="tdw-body">
+                          <div class="col-md-6">
+                            <img src="assets/img/lotto/legend.png" style="margin: 115px auto;display: block;" class="img-responsive"alt="">
+                          </div>
+                          <div class="col-md-6">
+                            <img src="assets/img/lotto/chart.png" class="img-responsive"alt="">
+                          </div>
+                        </div>
                       </div>
 
-                      <div class="">
-                        <img src="assets/img/lotto/lotto1.jpg" alt="" class="img-responsive">
+                      <div class="today-winner">
+                        <div class="td-week"> 號碼開出次數</div>
+                        <div class="tdw-body">
+                          <div class="col-xs-12">
+                            <h3 style="text-align:center;color:#ffb013;">(29/5/2016至29/52017 (第11/028期) 之搅珠结果统计)</h3>
+                            <img src="assets/img/lotto/graph.png" alt="" class="img-responsive">
+                          </div>
+
+                        </div>
                       </div>
+
+
 
 
 
@@ -1089,6 +1110,95 @@
                     </div> -->
                   </div>
                 </div>
+              </div>
+
+              <div class="tab-pane fade in lt4" id="tab4">
+                <h3>48彩规则 </h3>
+                <p>彩票机内载有1-48个号码的彩球。每注彩票必须从48个号码中选出六个号码。彩票主项单位为每注CNY5.每期彩票结果均从48个号码中搅出七个号码。首六个号码称为【搅出号码】，而第七个称为【特别号码】。</p>
+                <br>
+                <p>奖项详情如下:</p>
+                <table class="table table-bordered lotto-tab">
+                    <thead>
+                        <tr>
+                            <th>奖项</th>
+                            <th>号码组合</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td scope="row">头奖</td>
+                            <td>选中6个【搅出号码】</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">二奖</td>
+                            <td>选中5个【搅出号码】+【特别号码】 </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">三奖</td>
+                            <td>选中5个【搅出号码】 </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">四奖</td>
+                            <td>选中4个【搅出号码】+【特别号码】 </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">五奖</td>
+                            <td>选中4个【搅出号码】 </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">六奖</td>
+                            <td>选中3个【搅出号码】+【特别号码】 </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">七奖</td>
+                            <td>选中3个【搅出号码】</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <p>奖金分配如下：</p>
+                <table class="table table-bordered lotto-tab">
+                    <thead>
+                        <tr>
+                            <th>奖项</th>
+                            <th>奖金分配（以一注项单位作计算） </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td scope="row">奖项</td>
+                            <td>（3.75%*总额注额/中奖单位）+最低头奖奖金每期最低头奖奖金CNY1888888 </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">头奖</td>
+                            <td>（1.54%*总投注额/中奖单位）+最低二奖奖金每期最低二奖金为CNY388888 </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">三奖</td>
+                            <td>每注CNY28888  </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">四奖</td>
+                            <td>每注CNY8888  </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">五奖</td>
+                            <td>每注CNY688 </td>
+                        </tr>
+                        <tr>
+                            <td scope="row">六奖</td>
+                            <td>每注CNY288</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">七奖</td>
+                            <td>每注CNY28</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <p>头奖及二奖奖金之分配百份率可不时作出调整，每一有关奖金以一注项单位作计算。</p>
               </div>
 
 
@@ -1541,61 +1651,6 @@
 
             </tbody>
           </table>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csModal">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <div class="content-title ctitle">
-              <h1>在线客服</h1>
-          </div>
-
-          <div class="aboutus text-left" style="margin-top: 18px;" >
-
-
-              <p style="margin-bottom: 10px">台湾沙龙会（s36.com)客户服务中心，服务时间为每天24小时，每周7天，拥有广东话及普通话座席，竭诚为您提供所需的资讯和服务。 </p>
-              <div>
-                <span>在線客服：</span> 点击这里咨询
-              </div>
-              <div>
-                <span>400熱線：</span>  400 120 3188
-              </div>
-              <div>
-                <span>菲律賓：</span> (+63) 9177 998 899
-              </div>
-              <div>
-                <span>澳門：</span> (+853) 6284 6284
-              </div>
-              <div>
-                <span>QQ號：</span> 392661199 | 382662200
-              </div>
-              <div>
-                <span>微信號：</span> s36taiwan.com
-              </div>
-              <div>
-                <span>電子郵件：</span> cs@saloncs.com
-              </div>
-          </div>
-          <div class="forms chatserver-form">
-              <form action="">
-                <div class="form-group">
-                  <label>称呼 <span>*必填</span></label>
-                  <input type="text" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label for="">用户名</label>
-                  <input type="text" class="form-control">
-                </div>
-                <div class="form-group text-right">
-                  <button type="submit">开始聊天</button>
-                </div>
-              </form>
-          </div>
         </div>
       </div>
     </div>
