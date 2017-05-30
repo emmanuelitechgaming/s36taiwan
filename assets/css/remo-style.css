@@ -110,7 +110,8 @@ input, select{
 
 .ballot-filter label {
   margin: 5% 0;
-  padding-left: 10%
+  padding-left: 10%;
+  font-weight: 400 !important
 }
 
 .ballot-filter .form-inline{
