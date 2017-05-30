@@ -186,6 +186,18 @@
     background-size: 30% 100% !important;
   }
 
+  .r-tab2{
+    padding: 0 0 !important;
+  }
+
+  .ballot-result .table>thead>tr>th{
+    padding: 3px !important
+  }
+
+  .ballot-result th{
+    font-size: 10px
+  }
+
 }
 
 @media only screen and (min-width : 375px) {
@@ -580,8 +592,13 @@
   }
 
   .ballot-filter{
-    min-height: 369px
+    min-height: 359px
   }
+
+  .r-tab2{
+    padding: 0 10px !important;
+  }
+
 }
 
 /* Large Devices, Wide Screens */
