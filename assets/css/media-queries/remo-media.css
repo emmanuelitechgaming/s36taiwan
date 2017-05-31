@@ -480,7 +480,7 @@
   }
 
   .selectid{
-    display: block;
+    display:inline-block;
     margin-left: 23px;
     margin-top: 3px;
     width: 200px;
