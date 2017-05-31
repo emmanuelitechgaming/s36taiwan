@@ -271,6 +271,10 @@
     .live-game > .promo-c > .promo-txt h3{
       font-size: 18px;
     }
+
+    .selectfrommonth, .selectfromyear{
+      background-size: 24% 100% !important;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -442,6 +446,10 @@
   .selectpicker2{
     left: -160px;
   }
+
+  .selectfrommonth, .selectfromyear{
+    background-size: 18% 100% !important;
+  }
 }
 
 @media only screen and (min-width: 640px) {
@@ -472,6 +480,10 @@
 
   .selectpicker2{
     left: -210px;
+  }
+
+  .selectfrommonth, .selectfromyear{
+    background-size: 16% 100% !important;
   }
 }
 
