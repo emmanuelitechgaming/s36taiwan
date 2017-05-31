@@ -1684,19 +1684,19 @@ input[type=radio] {
     border-radius: 0 0 5px 0;
 }
 
-#tab3 .lotto-desc {
+#tab4 .lotto-desc {
     padding: 5px;
     font-weight: 700;
     color: #ffb013;
     font-size: 16px;
-    margin-left: 20PX;
+
 }
 
-#tab3 .lotto-desc-p {
+#tab4 .lotto-desc-p {
     padding: 5px;
     margin-bottom: 5px;
     color: #ffffff;
-    margin-left: 20PX;
+
 }
 
 .breadcrumb-inner .sel {
@@ -2948,4 +2948,26 @@ font-size: 16px;
 }
 .simplefilter{
   margin-top: 10px;
+}
+
+.lotto-roll{
+  font-size: 20px;
+  font-weight: 700;
+}
+.lotto-roll div:first-child{
+padding: 19px;
+background: #2e2e2e;
+border-bottom: 1px solid #333333;
+}
+.lotto-roll div:first-child span{
+  font-size: 30px;
+  line-height: 30px;
+}
+.lotto-roll div{
+padding: 19px;
+background: #202020;
+border-bottom: 1px solid #333333;
+}
+.lotto-roll div span{
+  color: #ffb013;
 }
