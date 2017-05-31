@@ -649,6 +649,18 @@
     min-height: 205px;
   }
 
+  @-moz-document url-prefix() {
+
+    .ballot-filter .ballot-filter-div {
+      padding: 20px 10px 20px 15px !important;
+    }
+
+    .ballot-filter-div:nth-child(4) {
+      min-height: 211px !important;
+    }
+
+  }
+
 }
 
 /* Large Devices, Wide Screens */
