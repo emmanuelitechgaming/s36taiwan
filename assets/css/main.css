@@ -1525,10 +1525,14 @@ p {
 }
 
 .ballot-filter {
-
     padding: 10px;
     color: #ffb013;
     font-size: 12px;
+}
+
+.ballot-filter .ballot-filter-div{
+  border-bottom: 1px solid #333;
+  background: #202020;
 }
 
 .ballot-filter span {
@@ -2558,6 +2562,29 @@ select + i.fa {
 
 .slots-mp .fa-mobile{
   margin-right: 10px;
+}
+
+.tdw-info{
+  display: block;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.tdw-info ul li{
+  display: inline-block;
+  margin-right: 50px
+}
+
+.tdw-info span{
+  display: inline-block;
+  width: 30px;
+  height: 10px;
+  background: #fff;
+  margin-right: 5px
+}
+
+.tdw-info .tdw-yellow{
+  background: #ffb300
 }
 
 .reg-modal{

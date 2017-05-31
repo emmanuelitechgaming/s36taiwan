@@ -664,7 +664,6 @@
     .ballot-filter-div{
       display: block;
       width: 100% !important;
-      margin-bottom: 25px;
     }
 
     /*.ballot-filter-div:nth-child(2) {
