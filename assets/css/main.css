@@ -2554,7 +2554,10 @@ select + i.fa {
   font-weight: 400;
   margin-left: 20px;
   color: #c4c4c4
+}
 
+.slots-mp .fa-mobile{
+  margin-right: 10px;
 }
 
 .reg-modal{

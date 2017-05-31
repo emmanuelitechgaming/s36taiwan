@@ -275,6 +275,10 @@
     .selectfrommonth, .selectfromyear{
       background-size: 24% 100% !important;
     }
+
+    .slots-mp{
+      margin-top: 10px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -675,6 +679,10 @@
       width: 100%;
       margin-top: auto;
       margin-left: auto;
+    }
+
+    .slots-mp{
+      margin-top: auto;
     }
 }
 
