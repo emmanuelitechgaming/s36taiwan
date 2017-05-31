@@ -638,11 +638,11 @@
   }
 
   .ballot-filter .form-inline {
-    padding: 0px 15px 1px;
+    padding: auto;
   }
 
   .ballot-filter .ballot-filter-div{
-    padding: 20px 10px 20px 20px;
+    padding: 20px;
   }
 
   .ballot-filter-div:nth-child(4){
@@ -658,6 +658,12 @@
     .ballot-filter-div:nth-child(4) {
       min-height: 211px !important;
     }
+
+    .selectfrommonth, .selectfromyear{
+      width: 135px;
+      background-size: 25% 100% !important;
+    }
+
 
   }
 
