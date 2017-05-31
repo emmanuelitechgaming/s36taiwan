@@ -216,6 +216,10 @@
     padding-left: 0;
   }
 
+  .ballot-filter .ballot-filter-div{
+     padding: 10px 0px 10px 0px;
+  }
+
 }
 
 @media only screen and (min-width : 375px) {
@@ -463,10 +467,6 @@
     width: 20%
   }
 
-  .ballot-filter-div:nth-child(4){
-    margin-top: -6px;
-  }
-
   .ballot-filter label{
     display: inline-block;
     width: auto;
@@ -626,7 +626,7 @@
 
   .ballot-filter{
     min-height: 359px;
-    padding: 10px 10px
+    padding: 0px 10px 10px
   }
 
   .r-tab2{
@@ -639,6 +639,14 @@
 
   .ballot-filter .form-inline {
     padding: 0px 15px 1px;
+  }
+
+  .ballot-filter .ballot-filter-div{
+    padding: 20px 10px 20px 20px;
+  }
+
+  .ballot-filter-div:nth-child(4){
+    min-height: 205px;
   }
 
 }
