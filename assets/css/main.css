@@ -748,6 +748,7 @@ div.border:before {
     padding-top: 15px;
     position: relative;
 }
+
 .breadcrumb-inner .casino-g .content{
   position: absolute;
   bottom: 1px;
@@ -2783,6 +2784,10 @@ span.round-tab i{
 .chatserver-form {
   margin-top: 15px;
   font-weight: 400;
+}
+
+.casino-g .content ul{
+  max-width: 380px
 }
 
 @media( max-width : 585px ) {
