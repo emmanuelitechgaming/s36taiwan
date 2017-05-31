@@ -1028,7 +1028,7 @@
                             </select>
                           </label>
                         </div>
-                        <div class="ballot-filter-div text-center">
+                        <div class="ballot-filter-div text-center hidden-sm hidden-xs">
                           <a href="#"><img src="assets/img/lotto/lotto-btn2.png" class="img-responsive hidden-sm hidden-xs" style="display: inline-block;" alt=""></a>
                         </div>
                       </form>
@@ -1068,12 +1068,21 @@
                       <div class="today-winner">
                         <div class="td-week"> 號碼開出次數</div>
                         <div class="tdw-body">
-                          <div class="col-xs-12">
-                            <h3 style="text-align:center;color:#ffb013;">(29/5/2016至29/52017 (第11/028期) 之搅珠结果统计)</h3>
-                            <img src="assets/img/lotto/graph.png" alt="" class="img-responsive">
+                          <div class="row">
+                            <div class="col-xs-12">
+                              <h3 style="text-align:center;color:#ffb013;">(29/5/2016至29/52017 (第11/028期) 之搅珠结果统计)</h3>
+                              <img src="assets/img/lotto/graph.png" alt="" class="img-responsive">
+                            </div>
                           </div>
 
+                          <div class="tdw-info">
+                            <ul>
+                              <li><span class="tdw-yellow"></span> 黄色 搅出号码次数</li>
+                              <li><span class="tdw-white"></span> 红色 号码搅出相隔期数</li>
+                            </ul>
+                          </div>
                         </div>
+
                       </div>
 
 
@@ -1688,6 +1697,28 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/remo-js.js"></script>
   <script src="assets/js/countUp.js"></script>
+  <div class="back" style="display: none;">
+      <a>
+          <div class="btn-top"></div>
+      </a>
+  </div>
+  <script type="text/javascript">
+      $(function() {
+          $(window).scroll(function() {
+              var h = $(window).scrollTop();
+              if (h > 100) {
+                  $(".back").css('display', 'block');
+              } else {
+                  $(".back").css('display', 'none');
+              }
+          })
+          $(".back a").click(function() {
+              $('html,body').animate({
+                  scrollTop: 0
+              }, 500);
+          });
+      })
+  </script>
   <script>
   document.querySelector('.sweet-12').onclick = function(){
        swal({
@@ -1764,28 +1795,7 @@
   </script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-  <div class="back" style="display: none;">
-      <a>
-          <div class="btn-top"></div>
-      </a>
-  </div>
-  <script type="text/javascript">
-      $(function() {
-          $(window).scroll(function() {
-              var h = $(window).scrollTop();
-              if (h > 100) {
-                  $(".back").css('display', 'block');
-              } else {
-                  $(".back").css('display', 'none');
-              }
-          })
-          $(".back a").click(function() {
-              $('html,body').animate({
-                  scrollTop: 0
-              }, 500);
-          });
-      })
-  </script>
+
 </body>
 
 </html>
