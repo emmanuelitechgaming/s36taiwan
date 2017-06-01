@@ -1512,17 +1512,12 @@ p {
     transition: width .2s ease-in;
 }
 
-.ballot-result .table-striped>tbody>tr:nth-of-type(odd) {
+.ballot-result .tb-result {
     background-color: #2e2e2e;
     color: #fff;
     font-weight: 700;
 }
 
-.ballot-result .table-striped>tbody>tr:nth-of-type(even) {
-    background-color: #818181;
-    color: #fff;
-    font-weight: 700;
-}
 
 .ballot-filter {
     padding: 10px;
@@ -1603,13 +1598,14 @@ input[type=radio] {
 }
 
 .ballot-result thead tr {
-    background: #222;
+    background: #2E2E2E;
     color: #fff;
 }
 
 .ballot-result tbody > tr {
-    background-color: #7e7e7e;
-    color: #000;
+    background-color: #202020;
+    color: #fff;
+    border-bottom: 1px solid #333;
 }
 
 #calendar {
@@ -2990,6 +2986,7 @@ border-bottom: 1px solid #333333;
 .lotto-roll div:first-child span{
   font-size: 30px;
   line-height: 30px;
+
 }
 .lotto-roll div{
 padding: 19px;
@@ -2998,4 +2995,12 @@ border-bottom: 1px solid #333333;
 }
 .lotto-roll div span{
   color: #ffb013;
+    margin-right: 15px;
+}
+.lotto-tab > tbody > tr:hover {
+    background-color: #2a2a2a!important;
+}
+
+.ballot-result .tb-result > tbody > tr:hover {
+    background-color: #2a2a2a!important;
 }
