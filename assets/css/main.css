@@ -827,6 +827,10 @@ padding: 20px 10px;
     border: 0;
 }
 
+.with-nav-tabs .nav-tabs>li>a:hover{
+  color: #ffb013;
+}
+
 .with-nav-tabs .nav-tabs > li.active > a,
 .with-nav-tabs .nav-tabs > li.active > a:focus {
     color: #ffb013;
