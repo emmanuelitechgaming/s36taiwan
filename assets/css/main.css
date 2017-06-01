@@ -2546,7 +2546,7 @@ select + i.fa {
 }
 
 .selectpicker2-menu a:hover{
-  background: none
+  background: #333333
 }
 
 .selectpicker2-sub{

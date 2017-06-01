@@ -24,8 +24,6 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/media.css">
-    <link rel="stylesheet" href="assets/css/remo-style.css">
-    <link rel="stylesheet" href="assets/css/media-queries/remo-media.css">
     <link rel="stylesheet" href="assets/css/hamburgers.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
@@ -40,6 +38,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body>
@@ -612,221 +611,65 @@
 
         <div class="container main-section casino-section">
             <ul class="breadcrumb">
-                <li class="completed"><a href="index.html">首页</a></li>
-                <li><a href="javascript:void(0);">真人娱乐场</a></li>
-
+              <li class="completed"><a href="index.html">首页</a></li>
+              <li><a href="casino.html">真人娱乐场</a></li>
+              <li><a href="javascript:void(0);">游戏简介</a></li>
             </ul>
 
             <div class=" breadcrumb-content">
                 <div class="breadcrumb-inner">
+                  <div class="sp-container">
+                  <div class="col-md-5 col-sm-12 col-xs-12">
+                    <img src="assets/img/sp/sicbo.png" class="img-responsive" alt="">
+                  </div>
+                  <div class="col-md-7 col-sm-12 col-xs-12">
 
-                    <div class="col-md-8 col-xs-12">
-                      <div class="hidden-lg hidden-md col-sm-12 col-xs-12 form-group sel">
+                    <div class="sp-title">21點</div>
+                    <div class="sp-desc">
+                        <p>
+                            超級21點的遊戲目標，玩家想要贏得牌局，手上的牌點數必須比莊家的牌點數大，盡量接近21點但不可超過21點。遊戲不需理會其他玩家的牌點數，玩家只與莊家的牌點數作對抗，所有玩家的牌均是牌面向上的。
+本遊戲一靴牌共有8副牌合共416張牌，超級21點玩法簡單，只需按上述的遊戲目標，跟據遊戲指示玩家作出決定便成了。
+                        </p>
+                        <br>
+                        <div class="sp-title">詞匯解釋</div>
+                        <p>
+                            •	Blackjack: 簡稱BJ，一張A牌及一張10點的牌所組成的21點，初始注金按1賠1.5派彩。<br>
+                            •	21點: 多於兩張牌所組成的21點。<br>
+                            •	爆牌: 手上所有牌點數加起來超過21點稱為爆牌。玩家會即時輸掉所有初始及加注的金額。<br>
+                            •	和局: 玩家與莊家同時獲得BJ或玩家與莊家同時非BJ但點數相同時，該局視為和局，初始注金及加注金退回。<br>
+                            •	硬牌: 該手牌沒有A牌, 或A牌只能按1點計算。<br>
+                            •	軟牌: 該手牌A牌可按1點或11點計算。
+                        </p>
+                        <br>
+                        <p class="#feb902 red_2"><strong>紙牌點數</strong></p>
+                        <p>
+                            •	2至10點按牌面值計算。<br>
+                            •	J, Q, K按10點計算。<br>
+                            •	A作1或11點計算，若加上11點後成為爆牌，則按1點計算。
 
+                        </p>
+                        <br>
+                        <p class="#feb902 red_2"><strong>玩家選擇項目</strong></p>
+                        <p>
+                            •	初始下注: 每局發牌前的投注項目，玩家必須對該牌局，根據玩家的喜好及賭桌可接受的投注上下限內，作出相應的投注金額。<br>
+                            •	對子: 每局發牌前的投注項目，玩家首兩張牌是對子可按1賠11派彩，10, J, Q及K視為不同牌。<br>
+                            •	要牌: 玩家選擇要下一張牌。<br>
+                            •	不要牌: 玩家選擇不再要牌，以當時的手牌點數與莊家對抗。
+                            <br>
 
-                      <div class="panel-heading hidden-lg hidden-md">
-                        <select id="tabContentSelector">
-                          <option value="tab1">娛樂場</option>
-                          <option value="tab2">ROULETTE</option>
-                          <option value="tab3">FANTAN</option>
-                          <option value="tab4">SICBO</option>
-
-                        </select>
-                      </div>
-
-                    </div>
-                      <div class="game-titl">百家乐 </div>
-
-                        <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <div class="casino-g">
-                            <img src="assets/img/casino/baccarat/1.png" class="img-responsive" alt="">
-                              <div class="content">
-                                <ul>
-                                  <li><span>傳統百家樂</span></li>
-                                  <li class="pull-right"><a href="sp-baccarat.html"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                  <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                </ul>
-                              </div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <div class="casino-g">
-                            <img src="assets/img/casino/baccarat/2.png" class="img-responsive" alt="">
-                              <div class="content">
-                                <ul>
-                                  <li><span>極速百家樂</span></li>
-                                  <li class="pull-right"><a href="#"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                  <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                </ul>
-                              </div>
-                          </div>
-
-                        </div>
-
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <div class="casino-g">
-                            <img src="assets/img/casino/baccarat/3.png" class="img-responsive" alt="">
-                              <div class="content">
-                                <ul>
-                                  <li><span>龍寶百家樂 </span></li>
-                                  <li class="pull-right"><a href="#"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                  <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                </ul>
-                              </div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <div class="casino-g">
-                            <img src="assets/img/casino/baccarat/4.png" class="img-responsive" alt="">
-                              <div class="content">
-                                <ul>
-                                  <li><span>免佣百家樂  </span></li>
-                                  <li class="pull-right"><a href="sp-dragontiger.html"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                  <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                </ul>
-                              </div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <div class="casino-g">
-                            <img src="assets/img/casino/baccarat/5.png" class="img-responsive" alt="">
-                              <div class="content">
-                                <ul>
-                                  <li><span>連環百家樂 </span></li>
-                                  <li class="pull-right"><a href="#"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                  <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                </ul>
-                              </div>
-                          </div>
-                        </div>
-
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <div class="casino-g">
-                            <img src="assets/img/casino/baccarat/6.png" class="img-responsive" alt="">
-                              <div class="content">
-                                <ul>
-                                  <li><span>互動百家樂 </span></li>
-                                  <li class="pull-right"><a href="sp-multibaccarat.html"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                  <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                </ul>
-                              </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <div class="casino-g">
-                            <img src="assets/img/casino/baccarat/7.png" class="img-responsive" alt="">
-                              <div class="content">
-                                <ul>
-                                  <li><span>牛牛百家樂 </span></li>
-                                  <li class="pull-right"><a href="sp-multibaccarat.html"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                  <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                </ul>
-                              </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <div class="casino-g">
-                            <img src="assets/img/casino/baccarat/8.png" class="img-responsive" alt="">
-                              <div class="content">
-                                <ul>
-                                  <li><span>移動百家樂 </span></li>
-                                  <li class="pull-right"><a href="sp-multibaccarat.html"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                  <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                </ul>
-                              </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                          <div class="casino-g">
-                            <img src="assets/img/casino/baccarat/9.png" class="img-responsive" alt="">
-                              <div class="content">
-                                <ul>
-                                  <li><span>電投百家樂 </span></li>
-                                  <li class="pull-right"><a href="sp-multibaccarat.html"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                  <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                </ul>
-                              </div>
-                          </div>
-                        </div>
-                      </div>
-
-
+                        </p>
+                        <br>
                     </div>
 
-                    <div class="col-md-4 col-xs-12 casino-more">
-                        <div class="game-titl">更多游戏 </div>
-                        <div class="row">
-                          <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="casino-g">
-                              <img src="assets/img/casino/other/1.png" class="img-responsive" alt="">
-                                <div class="content">
-                                  <ul>
-                                    <li><span>輪盤</span></li>
-                                    <li class="pull-right"><a href="sp-roulette.html"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                    <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                  </ul>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="casino-g">
-                              <img src="assets/img/casino/other/2.png" class="img-responsive" alt="">
-                                <div class="content">
-                                  <ul>
-                                    <li><span>番摊</span></li>
-                                    <li class="pull-right"><a href="sp-sicbo.html"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                    <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                  </ul>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="casino-g">
-                              <img src="assets/img/casino/other/3.png" class="img-responsive" alt="">
-                                <div class="content">
-                                  <ul>
-                                    <li><span>骰寶</span></li>
-                                    <li class="pull-right"><a href="sp-fantan.html"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                    <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                  </ul>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="casino-g">
-                              <img src="assets/img/casino/other/4.png" class="img-responsive" alt="">
-                                <div class="content">
-                                  <ul>
-                                    <li><span>21点</span></li>
-                                    <li class="pull-right"><a href="sp-21oclock.html"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                    <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                  </ul>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="casino-g">
-                              <img src="assets/img/casino/other/5.png" class="img-responsive" alt="">
-                                <div class="content">
-                                  <ul>
-                                    <li><span>龙虎</span></li>
-                                    <li class="pull-right"><a href="sp-dragontigerb.html"><img src="assets/img/casino/baccarat/info.png" style="margin-top:4px" class="img-responsive" alt=""></a></li>
-                                    <li class="pull-right"><a href="#" class="cta-btn">立即注册</a></li>
-                                  </ul>
-                                </div>
-                            </div>
-                          </div>
-
-                        </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12 text-center sp-back-btn">
+                      <a class="" onclick="history.back(-1)"></a>
                     </div>
+                  </div>
 
-                    <div class="col-xs-12 hidden-lg hidden-md casino-seemore">
-                      <a href="javascript:void(0)" id="casinoSeeMoreBtn">更多优惠 <i class="fa fa-caret-down"></i></a>
-                    </div>
+                  </div>
+
                 </div>
             </div>
 
@@ -834,16 +677,13 @@
 
 
         <div class="container">
-          <div class="row r-ads">
-            <div class="col-md-6 col-sm-12 r-ads-wrapper">
-              <img src="assets/img/lottob.png" alt="">
-              <a href="lotto.html" class="r-ads-btn"><img src="assets/img/btn.png" alt=""></a>
-            </div>
-
-            <div class="col-md-6 col-sm-12 r-ads-wrapper">
-              <img src="assets/img/slotb.png" alt="">
-              <a href="slots.html" class="r-ads-btn"><img src="assets/img/btn.png" alt=""></a>
-            </div>
+          <div class="row">
+          <div class="addbanner col-md-6 col-xs-12">
+            <img src="assets/img/ads/lotto.png" class="img-responsive"alt="">
+          </div>
+          <div class="addbanner col-md-6 col-xs-12">
+            <img src="assets/img/ads/slot.png" class="img-responsive"alt="">
+          </div>
           </div>
         </div>
 
@@ -1152,7 +992,7 @@
                                         <div class="list"><a href="promotion.html">优惠</a></div>
                                     </li>
                                     <li>
-                                        <div class="list"><a href="">赢家</a></div>
+                                        <div class="list"><a href="winner.html">赢家</a></div>
                                     </li>
                                     <li>
                                         <div class="list"><a href="allgames.html">所有游戏</a></div>
@@ -1487,7 +1327,6 @@
     <script src="dist/js/font-awesome.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
-
     <script>
     document.querySelector('.sweet-12').onclick = function(){
          swal({
@@ -1499,6 +1338,7 @@
          });
        };
     </script>
+
     <script>
         var forEach = function(t, o, r) {
             if ("[object Object]" === Object.prototype.toString.call(t))
@@ -1540,6 +1380,7 @@
             });
         })
     </script>
+
 </body>
 
 </html>
