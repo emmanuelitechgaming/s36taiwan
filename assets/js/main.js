@@ -67,6 +67,72 @@ $(document).ready(function () {
       $('html,body').animate({
           scrollTop: 0
       }, 300);
+    });
+
+    $('.browsers li #ie').hover(function() {
+      $('.browsers li #ie img').attr('src', 'assets/img/footer/ie-b.png');
+    }, function() {
+      $('.browsers li #ie img').attr('src', 'assets/img/footer/ie.png');
+    });
+
+    $('.browsers li #moz').hover(function() {
+      $('.browsers li #moz img').attr('src', 'assets/img/footer/moz-b.png');
+    }, function() {
+      $('.browsers li #moz img').attr('src', 'assets/img/footer/moz.png');
+    });
+
+    $('.browsers li #chrome').hover(function() {
+      $('.browsers li #chrome img').attr('src', 'assets/img/footer/chrome-b.png');
+    }, function() {
+      $('.browsers li #chrome img').attr('src', 'assets/img/footer/chrome.png');
+    });
+
+    $('.browsers li #flash').hover(function() {
+      $('.browsers li #flash img').attr('src', 'assets/img/footer/flash-b.png');
+    }, function() {
+      $('.browsers li #flash img').attr('src', 'assets/img/footer/flash.png');
+    });
+
+    $('.certs li #cert1').hover(function() {
+      $('.certs li #cert1 img').attr('src', 'assets/img/footer/cert1-b.png');
+    }, function() {
+      $('.certs li #cert1 img').attr('src', 'assets/img/footer/cert1.png');
+    });
+
+    $('.certs li #cert2').hover(function() {
+      $('.certs li #cert2 img').attr('src', 'assets/img/footer/cert2-b.png');
+    }, function() {
+      $('.certs li #cert2 img').attr('src', 'assets/img/footer/cert2.png');
+    });
+
+    $('.certs li #cert3').hover(function() {
+      $('.certs li #cert3 img').attr('src', 'assets/img/footer/cert3-b.png');
+    }, function() {
+      $('.certs li #cert3 img').attr('src', 'assets/img/footer/cert3.png');
+    });
+
+    $('.certs li #cert4').hover(function() {
+      $('.certs li #cert4 img').attr('src', 'assets/img/footer/cert4-b.png');
+    }, function() {
+      $('.certs li #cert4 img').attr('src', 'assets/img/footer/cert4.png');
+    });
+
+    $('#sagaming').hover(function() {
+      $('#sagaming img').attr('src', 'assets/img/footer/sagaming-b.png');
+    }, function() {
+      $('#sagaming img').attr('src', 'assets/img/footer/sagaming.png');
+    });
+
+    $('#ssalon').hover(function() {
+      $('#ssalon img').attr('src', 'assets/img/footer/ssalon-b.png');
+    }, function() {
+      $('#ssalon img').attr('src', 'assets/img/footer/ssalon.png');
+    });
+
+    $('.live-game > .promo-c > .promo-cta .pull-right').hover(function() {
+      $(this).find('img').attr('src', 'assets/img/promo/new/info-b.png');
+    }, function() {
+      $(this).find('img').attr('src', 'assets/img/promo/new/info.png');
     })
 });
 

@@ -727,11 +727,20 @@ div.border:before {
 }
 
 .breadcrumb li a:hover:after {
-    border-left-color: #0A0A0A !important;
+    /*border-left-color: #0A0A0A !important;*/
+    border-left-color: #0A0A0A;
 }
 
 .breadcrumb-inner .border-right {
     border-right: 3px solid #2A2A2A;
+}
+
+.breadcrumb li a:hover{
+  background: #2f2f2f
+}
+
+.breadcrumb li a:hover:after{
+  border-left: 30px solid #2f2f2f;
 }
 
 .game-titl {
@@ -958,6 +967,14 @@ padding: 20px 10px;
     padding: 8px;
     background: rgb(16, 16, 16);
     color: #fff;
+}
+
+.quick .tab:hover{
+  background: url('../img/yellow-btn.png');
+}
+
+.quick .tab:hover a{
+  color: #000
 }
 
 #register-form {
@@ -2824,6 +2841,27 @@ span.round-tab i{
   max-width: 380px
 }
 
+.browsers li a img{
+  margin: 0 0 10px 0
+}
+
+.certs li a img{
+  margin: 0 0 0 0
+}
+
+footer .browsers li{
+  margin-left: 8px !important;
+}
+
+footer .browsers li:first-child{
+  margin-left: 30px !important;
+  margin-right: -5px
+}
+
+footer .certs li{
+  margin-left: 35px !important
+}
+
 @media( max-width : 585px ) {
 
     .wizard {
@@ -2888,8 +2926,12 @@ padding: 10px 30px;
 .live-game > .promo-c > .promo-cta .pull-right{
   color:#fff;
   text-decoration: none;
-
 }
+
+.live-game > .promo-c > .promo-cta a:hover{
+  color: #ffb013  
+}
+
 .today-winner{
   padding: 20px;
 }
@@ -2934,7 +2976,7 @@ font-size: 16px;
   color: #ffb013;
   font-weight: 700;
 }
-<<<<<<< .mine
+
 .tdw-jackpot{
   color: #ffb013;
   font-weight: 700;
