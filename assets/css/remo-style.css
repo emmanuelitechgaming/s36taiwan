@@ -751,3 +751,11 @@ margin-top: 15px;
     display: block;
     height: 38px;
 }
+
+.helpcenter-section .tab-pane{
+  padding-top: 15px;
+}
+
+.helpcenter-section .tab-pane h4{
+  margin-top: 0;
+}
