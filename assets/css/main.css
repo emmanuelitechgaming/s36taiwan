@@ -2010,6 +2010,10 @@ input[type=password]:hover {
     width: 70px;
 }
 
+.columns .list a:hover{
+  color: #ffb013
+}
+
 .columns .list-s {
     width: 87px;
 }
