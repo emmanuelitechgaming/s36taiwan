@@ -133,7 +133,46 @@ $(document).ready(function () {
       $(this).find('img').attr('src', 'assets/img/promo/new/info-b.png');
     }, function() {
       $(this).find('img').attr('src', 'assets/img/promo/new/info.png');
-    })
+    });
+
+    $('#casinoTabSelector').change(function() {
+      var ctab = $(this).val();
+      console.log(ctab);
+      if(ctab == "ctab2"){
+        $('#ctab3').css('display', 'none');
+        $('#ctab2').css('display', 'block');
+      }else if(ctab == "ctab3"){
+        $('#ctab2').css('display', 'none');
+        $('#ctab3').css('display', 'block');
+      }else if(ctab == "ctab1"){
+        $('#ctab2').css('display', 'block');
+        $('#ctab3').css('display', 'block');
+      }
+    });
+
+    // $('#casinoSeeMoreBtn').click(function() {
+    //   $('#ctab3').css('display', 'block');
+    //   $('#ctab2').css('display', 'block');
+    // });
+
+    $('#slotsTabSelector').change(function() {
+      var stab = $(this).val();
+      if(stab == "stab2"){
+        $('.stab2').css('display', 'block');
+        $('.stab3').css('display', 'none');
+      }else if(stab == "stab3"){
+        $('.stab2').css('display', 'none');
+        $('.stab3').css('display', 'block');
+      }else if(stab == "stab1"){
+        $('.stab2').css('display', 'block');
+        $('.stab3').css('display', 'block');
+      }
+    });
+
+    // $('#casinoSeeMoreBtn').click(function() {
+    //   $(this).find('.fa-caret-down').toggleClass('fa-caret-up');
+    //   $('.slots-see-more').toggleClass('casino-more-active');
+    // });
 });
 
 function nextTab(elem) {
@@ -240,7 +279,7 @@ $(function() {
 
     $('#casinoSeeMoreBtn').click(function() {
       $(this).find('.fa-caret-down').toggleClass('fa-caret-up');
-      $('.casino-more').toggleClass('casino-more-active');
+      $('#ctab3').toggleClass('casino-more-active');
     });
 
     $('.selectpicker').selectpicker();
