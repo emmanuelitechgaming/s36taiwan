@@ -658,7 +658,8 @@
     }
 
     .live-game > .promo-c > .promo-txt h3{
-      font-size: 21px;
+      font-size: 16px;
+      font-weight: 700;
     }
 
     .ballot-filter-div{
