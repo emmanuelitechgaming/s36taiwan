@@ -775,14 +775,15 @@
     }
     .jumbo {
       position: absolute;
-      display: inline-block;
-      color: #0f0f0f;
-      left: 242px;
-      top: 23px;
-      font-size: 29px;
-      font-weight: 700;
-      letter-spacing: 19.9px;
-      word-spacing: -34px;
+  display: inline-block;
+  color: #0f0f0f;
+  left: 171px;
+  top: 23px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 20.9px;
+  word-spacing: -34px;
+
     }
     main .marquee {
         width: 500px;
