@@ -759,3 +759,43 @@ margin-top: 15px;
 .helpcenter-section .tab-pane h4{
   margin-top: 0;
 }
+
+.flexslider{
+  background: none;
+  border: none;
+  padding: 50px;
+  margin: 0;
+}
+
+.flexslider .txt, .flexslider .tdw-jackpot{
+  text-align: center;
+}
+
+.flex-direction-nav a{
+  opacity: 1;
+  -webkit-transition: none;
+  transition: none
+}
+
+.flex-direction-nav .flex-next, .flex-direction-nav .flex-prev{
+  right: 0;
+  top: 43%;
+  width: 25px;
+  height: 30px;
+}
+
+.flex-direction-nav a.flex-next:before{
+  content: " ";
+  background: url('../img/winner/next.png') no-repeat;
+  background-size: 100% 100%;
+  width: 25px;
+  height: 30px;
+}
+
+.flex-direction-nav a.flex-prev:before{
+  content: " ";
+  background: url('../img/winner/previous.png') no-repeat;
+  background-size: 100% 100%;
+  width: 25px;
+  height: 30px;
+}

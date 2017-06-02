@@ -207,6 +207,10 @@
       display: none;
     }
 
+    .slots-see-more{
+      display: none
+    }
+
     .jacpot-nus-mobile .jacpot-nus{
       padding-top: 0;
     }
@@ -278,6 +282,70 @@
 
     .slots-mp{
       margin-top: 10px;
+    }
+
+    .lotto-roll div{
+      font-size: 12px
+    }
+
+    .lotto-roll div:first-child span{
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    .lotto-roll div:first-child{
+      padding: 10px;
+    }
+
+    .lotto-roll div{
+      padding: 10px
+    }
+
+    .lotto-roll div span{
+      margin-right: 0;
+    }
+
+    .td-win{
+      font-size: 14px;
+      padding-bottom: 6px;
+    }
+
+    .td-win .title{
+      padding: 15px
+    }
+
+    .td-win .username-amount{
+      margin-top: -10px;
+      margin-right: -3px;
+    }
+
+    .td-win .username-amount span{
+      display: block
+    }
+
+    .today-winnerb .title{
+      padding: 19px 12px;
+      font-size: 12px
+    }
+
+    .td-list{
+      width: 166px;
+    }
+
+    .td-list ul li div{
+      font-size: 13px;
+      line-height: 26px;
+      width: auto;
+      display: block;
+      padding-right: 10px;
+    }
+
+    .td-list ul{
+      margin-left: 10px
+    }
+
+    .td-list ul li div:first-child{
+      text-align: right;
     }
 }
 
@@ -683,6 +751,63 @@
 
     .slots-mp{
       margin-top: auto;
+    }
+
+    .lotto-roll div{
+      font-size: 30px
+    }
+
+    .lotto-roll div:first-child span{
+      font-size: 30px;
+      line-height: 30px;
+    }
+
+    .lotto-roll div:first-child{
+      padding: 19px;
+    }
+
+    .lotto-roll div{
+      padding: 19px
+    }
+
+    .lotto-roll div span{
+      margin-right: 0;
+    }
+
+    .slots-see-more{
+      display: block
+    }
+
+    .td-win{
+      font-size: 16px;
+      padding-bottom: 15px;
+      height: 52px;
+      overflow: hidden;
+    }
+
+    .today-winnerb .title{
+      padding: 16px 16px;
+      font-size: 16px
+    }
+
+    .td-list{
+      width: 1068px;
+    }
+
+    .td-list ul li div{
+      font-size: 16px;
+      line-height: 52px;
+      display: inline-block;
+      width: 49%;
+      padding-right: 0;
+    }
+
+    .td-list ul{
+      margin-left: 20px
+    }
+
+    .td-list ul li div:first-child{
+      text-align: left;
     }
 }
 

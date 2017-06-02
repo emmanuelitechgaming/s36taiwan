@@ -2941,7 +2941,13 @@ padding: 10px 30px;
 background: #2a2a2a;
 padding: 15px;
 font-size: 16px;
+position: relative;
 }
+
+.td-win span{
+  display: inline-block;
+}
+
 .td-week{
   padding: 10px;
   background: #2a2a2a;
@@ -2949,9 +2955,24 @@ font-size: 16px;
   color:#ffb013;
   font-weight: 700;
 }
+
 .td-win .username{
   margin: 0 20px;
+  margin-left: 115px;
+  position: absolute;
+  height: 52px;
+  line-height: 52px;
+  top: 0;
 }
+
+.td-win .amount{
+  position: absolute;
+  right: 15px;
+  height: 52px;
+  line-height: 52px;
+  top: 0;
+}
+
 .td-title{
   background: red;
   padding: 15px;
@@ -2962,8 +2983,42 @@ font-size: 16px;
   color: #1a1a1a;
   font-weight: 700;
   margin-left: -14px;
-
+  position: absolute;
+  top: 0px
 }
+
+.today-winnerb{
+  padding: 20px;
+  line-height: 52px;
+}
+
+.today-winnerb .title{
+  background: #ffb013;
+  color: #333;
+  font-weight: 700;
+}
+
+.td-list{
+  background: #2a2a2a;
+  height: 52px;
+  overflow: hidden;
+}
+
+.td-list ul{
+  margin: 0;
+  padding: 0;
+}
+
+.td-list ul li{
+  list-style: none
+}
+
+.td-list ul li div:last-child{
+  text-align: right;
+  color: #ffb013;
+  font-weight: 700;
+}
+
 .tdw-body{
   background: #111;
   padding: 20px 0;
@@ -3012,6 +3067,17 @@ font-size: 16px;
 .md-reg-f{
   border: 0!important;
   padding: 0;
+}
+
+.afterlogin-support-trigger{
+  position: relative;
+  right: 33.5%;
+  top: -4px;
+}
+
+.header-demoicon{
+  position: relative;
+  top: 15px
 }
 
 
