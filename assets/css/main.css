@@ -468,6 +468,10 @@ footer .footer-icon img {
     cursor: pointer;
 }
 
+footer .footer-icon img:nth-child(1){
+  cursor: default;
+}
+
 footer .footer-services {
     list-style-type: disc;
     padding: 0;
@@ -3063,6 +3067,10 @@ position: relative;
 }
 .lt4 h3{
   color: #ffb013;
+}
+.lt4 .row, .r-lotto-tab3 .row{
+  margin-right: -35px;
+  margin-left: -35px;
 }
 .md-reg-f{
   border: 0!important;
