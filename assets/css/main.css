@@ -3225,16 +3225,13 @@ font-size: 17px;
 color: #f6b22b;
 
 }
-.panel-login-btn {
-  position: absolute;
-z-index: 9;
-right: -602px;
-top: 4px;
 
-}
 .selectpicker2:hover{
 background: #383838;
 }
 .support-pc:hover{
   color: #ffb013;
+}
+.casino-g .content .cta-btn:hover {
+  background: #535353;
 }
