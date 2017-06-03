@@ -3119,21 +3119,26 @@ position: relative;
   top: -9px
 }
 
+.mnav a:hover, .mnav a:focus, .mnav a:active{
+  text-decoration: none
+}
+
 .mnav .active{
   color: #ffb013
 }
 
 .mnav .home{
   margin-right: 5px;
-margin-left: -5px;
+  margin-left: -5px;
 }
 
 .mnav .menu-toggle{
-  top: 5px
+  top: 2px;
+  padding: 5px 10px;
+  margin-right: -16px;
 }
 
 .swiper-container {
-  width: 250px;
   display: inline-block;
 }
 
