@@ -12,11 +12,11 @@ $(document).ready(function () {
       });
 
 
-          $(".demo-img").hover(function() {
-              $(this).attr("src","assets/img/demo-hover.png");
-                }, function() {
-              $(this).attr("src","assets/img/demo.png");
-            });
+    $(".demo-img").hover(function() {
+        $(this).attr("src","assets/img/demo-hover.png");
+          }, function() {
+        $(this).attr("src","assets/img/demo.png");
+      });
 
    var hash = window.location.hash;
    if (hash != "") {
@@ -199,10 +199,13 @@ $(document).ready(function () {
       }
     });
 
-    // $('#casinoSeeMoreBtn').click(function() {
-    //   $(this).find('.fa-caret-down').toggleClass('fa-caret-up');
-    //   $('.slots-see-more').toggleClass('casino-more-active');
-    // });
+    $('#menu').on('show.bs.collapse', function () {
+       $('.menu-toggle i').removeClass('fa-angle-down').addClass('fa-angle-up');
+    })
+
+    $('#menu').on('hide.bs.collapse', function () {
+       $('.menu-toggle i').removeClass('fa-angle-up').addClass('fa-angle-down');
+    })
 });
 
 function nextTab(elem) {
