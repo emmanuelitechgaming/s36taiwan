@@ -3133,3 +3133,30 @@ border-bottom: 1px solid #333333;
 .support-pc{
   margin: 22px 22px 0px 22px!important;
 }
+
+.panel-close,.panel-close:active,.panel-close:focus{
+  position: absolute;
+right: -19px;
+bottom: 0;
+text-decoration: none;
+color: #ffb013;
+font-size: 17px;
+
+}
+.panel-close:hover{
+color: #f6b22b;
+
+}
+.panel-login-btn {
+  position: absolute;
+z-index: 9;
+right: -602px;
+top: 4px;
+
+}
+.selectpicker2:hover{
+background: #383838;
+}
+.support-pc:hover{
+  color: #ffb013;
+}
