@@ -11,6 +11,13 @@ $(document).ready(function () {
         $(this).attr("src","assets/img/register.png");
       });
 
+
+          $(".demo-img").hover(function() {
+              $(this).attr("src","assets/img/demo-hover.png");
+                }, function() {
+              $(this).attr("src","assets/img/demo.png");
+            });
+
    var hash = window.location.hash;
    if (hash != "") {
      $('html,body').animate({
