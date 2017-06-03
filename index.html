@@ -235,7 +235,7 @@
               </a>
             </div>
             <div class="col-xs-4">
-              <a  href="#myModal" data-toggle="modal">
+              <a  href="#" class="panel-login-btn">
                 <img src="assets/img/register.png" class="img-responsive btn-reg" alt="">
               </a>
             </div>
@@ -562,7 +562,7 @@
                     </div>
                     <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
                         <a href="#" style="margin-bottom: -3px;"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a>
-                        <a  href="#myModal" data-toggle="modal"><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
+                        <a href="#" class="panel-login-btn" ><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
                         <a href="#"><img src="assets/img/login.png" class="img-responsive btn-log" alt=""></a>
                     </div>
                 </div>
@@ -623,9 +623,7 @@
         <img src="assets/img/banner/1m.jpg" class="img-responsive index-img-banner hidden-lg hidden-md" alt="">
 
         <div class="col-xs-6  quick  ihh">
-            <div class="panel-login-btn">
-              <a href="#"><img src="assets/img/index/down-img.png" alt=""></a>
-            </div>
+
             <div class="panel panel-login panel-pane fade out">
                 <div class="panel-heading">
 
@@ -1654,7 +1652,7 @@ document.querySelector('.sweet-12').onclick = function(){
 </script>
     <script>
         $(document).ready(function() {
-            $(".panel-login-btn").hide();
+
           $( ".panel-close" ).click(function() {
             $( ".panel-pane" ).fadeOut( "slow", function() {
               $(".panel-login-btn").show();
@@ -1662,7 +1660,7 @@ document.querySelector('.sweet-12').onclick = function(){
             });
           });
           $( ".panel-login-btn" ).click(function() {
-              $(".panel-login-btn").hide();
+
             $( ".panel-pane" ).slideDown( "fast", function() {
               // Animation complete.
 
