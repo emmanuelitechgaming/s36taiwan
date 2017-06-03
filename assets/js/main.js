@@ -1,4 +1,15 @@
 $(document).ready(function () {
+  $(".btn-log").hover(function() {
+  		$(this).attr("src","assets/img/login-hover.png");
+  			}, function() {
+  		$(this).attr("src","assets/img/login.png");
+  	});
+
+    $(".btn-reg").hover(function() {
+        $(this).attr("src","assets/img/register-hover.png");
+          }, function() {
+        $(this).attr("src","assets/img/register.png");
+      });
 
    var hash = window.location.hash;
    if (hash != "") {
