@@ -135,6 +135,10 @@ $(document).ready(function () {
       $(this).find('img').attr('src', 'assets/img/promo/new/info.png');
     });
 
+    if($('#casinoTabSelector').val() == "ctab1"){
+      $('#ctab3').addClass('casino-more');
+    }
+
     $('#casinoTabSelector').change(function() {
       var ctab = $(this).val();
       console.log(ctab);
@@ -150,10 +154,18 @@ $(document).ready(function () {
       }
     });
 
-    // $('#casinoSeeMoreBtn').click(function() {
-    //   $('#ctab3').css('display', 'block');
-    //   $('#ctab2').css('display', 'block');
-    // });
+    $('#casinoSeeMoreBtn').click(function() {
+      if($('#ctab3').css('display') == 'block'){
+        if($('#ctab2').css('display') == 'none'){
+          $('#ctab2').css('display', 'block');
+          $('#ctab3').css('display', 'block');
+        }else{
+          $('#ctab3').css('display', 'none');
+        }
+      }else{
+        $('#ctab3').css('display', 'block');
+      }
+    });
 
     $('#slotsTabSelector').change(function() {
       var stab = $(this).val();
@@ -276,11 +288,6 @@ $(function() {
     $('.selectpicker2').click(function() {
       $('.selectpicker2 .fa').toggleClass('fa-caret-down fa-caret-up');
     })
-
-    $('#casinoSeeMoreBtn').click(function() {
-      $(this).find('.fa-caret-down').toggleClass('fa-caret-up');
-      $('#ctab3').toggleClass('casino-more-active');
-    });
 
     $('.selectpicker').selectpicker();
 
