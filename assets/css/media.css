@@ -347,6 +347,10 @@
     .td-list ul li div:first-child{
       text-align: right;
     }
+
+    .swiper-container {
+      width: 250px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -411,6 +415,10 @@
     .selectpicker2{
       left: -65px;
     }
+
+    .swiper-container {
+      width: 305px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -468,6 +476,10 @@
 
     .selectpicker2{
       left: -85px;
+    }
+
+    .swiper-container {
+      width: 345px;
     }
 }
 
@@ -753,8 +765,12 @@
       margin-top: auto;
     }
 
-    .lotto-roll div{
+    .lotto-roll div:first-child{
       font-size: 30px
+    }
+
+    .lotto-roll div{
+      font-size: 20px
     }
 
     .lotto-roll div:first-child span{
