@@ -3088,6 +3088,84 @@ position: relative;
   top: 15px
 }
 
+#menu ul{
+  margin: 10px;
+}
+
+#menu ul li{
+  float: none;
+  display: inline-block;
+  width: 32.33%;
+  text-align: center;
+  margin-bottom: 5px
+}
+
+#menu ul li a{
+  display: block;
+  color: #fff;
+  padding: 5px 0;
+  background: #1f1f1f;
+  border-radius: 4px
+}
+
+.mnav{
+  background: url('../img/bg-nav.png') repeat-x;
+  margin-bottom: -5px
+}
+
+.mnav a{
+  color: #fff;
+  position: relative;
+  top: -9px
+}
+
+.mnav .active{
+  color: #ffb013
+}
+
+.mnav .home{
+  margin-right: 5px;
+margin-left: -5px;
+}
+
+.mnav .menu-toggle{
+  top: 5px
+}
+
+.swiper-container {
+  width: 250px;
+  display: inline-block;
+}
+
+.swiper-wrapper div:first-child{
+  border-left: 1px solid #000;
+}
+
+.swiper-slide {
+    text-align: center;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.swiper-slide a{
+  font-size: 12px;
+  padding: 5px 15px;
+  color: #fff;
+  font-weight: 700;
+  border-right: 0.5px solid #000;
+  text-shadow: 2px 2px 0 rgb(0,0,0);
+  top: 0px;
+  line-height: 22px;
+}
+
 
 @-moz-document url-prefix() {
   .cs-modal .chatserver-form input[type="text"] {
