@@ -3175,6 +3175,9 @@ position: relative;
   line-height: 22px;
 }
 
+.m-demo-img{
+  position: absolute;
+}
 
 @-moz-document url-prefix() {
   .cs-modal .chatserver-form input[type="text"] {

@@ -357,6 +357,19 @@
     .breadcrumb-inner .casino-g .content{
       bottom: 48px;
     }
+
+    .m-demo-img{
+      right: 43px;
+      top: 22px;
+    }
+
+    .m-demo-img img{
+      width: 55%;
+    }
+
+    .ctab-none{
+      display: none;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -437,6 +450,15 @@
 
     .swiper-slide a{
       padding: 5px 19px;
+    }
+
+    .m-demo-img img{
+      width: 55%;
+    }
+
+    .m-demo-img {
+      right: 51px;
+      top: 21px;
     }
 }
 
@@ -890,6 +912,10 @@
     }
     .breadcrumb-inner .casino-g .content{
       bottom: 47px;
+    }
+
+    .ctab-none{
+      display: block;
     }
 }
 
