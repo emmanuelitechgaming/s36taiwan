@@ -176,12 +176,12 @@ $(document).ready(function () {
 
     $('a[href="#ctab2"]').click(function() {
       $('#ctab2').css('display', 'block');
-      $('#ctab3').css('display', 'none');
+      $('#ctab3').addClass('ctab-none');
     });
 
     $('a[href="#ctab3"]').click(function() {
       $('#ctab3').css('display', 'block');
-      $('#ctab2').css('display', 'none');
+      $('#ctab2').addClass('ctab-none');
     });
 
     $('#casinoSeeMoreBtn').click(function() {
