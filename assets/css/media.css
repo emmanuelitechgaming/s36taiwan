@@ -370,6 +370,18 @@
     .ctab-none{
       display: none;
     }
+
+    .panel-heading .slots-tabs > li > a{
+      padding: 5px 13px !important;
+    }
+
+    .panel-heading .lotto-tabs > li > a{
+      padding: 5px 12px !important;
+    }
+
+    .stab-none{
+      display: none;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -460,6 +472,14 @@
       right: 51px;
       top: 21px;
     }
+
+    .panel-heading .slots-tabs > li > a {
+      padding: 5px 22px !important;
+    }
+
+    .panel-heading .lotto-tabs > li > a {
+      padding: 5px 21px !important;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -525,6 +545,10 @@
 
     .swiper-slide a {
       padding: 5px 24px;
+    }
+
+    .panel-heading .slots-tabs > li > a {
+      padding: 5px 28px !important;
     }
 }
 
@@ -915,6 +939,10 @@
     }
 
     .ctab-none{
+      display: block;
+    }
+
+    .stab-none{
       display: block;
     }
 }
