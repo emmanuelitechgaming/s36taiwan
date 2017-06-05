@@ -227,6 +227,15 @@ $(function() {
         $(this).addClass('active');
         e.preventDefault();
     });
+    $('#login-form-btn').click(function(e) {
+        $("#login-form").delay(100).fadeIn(100);
+        $("#register-form").fadeOut(100);
+        $("#demo-form").fadeOut(100);
+        $('#register-form-link').removeClass('active');
+        $('#demo-form-link').removeClass('active');
+        $('#login-form-link').addClass('active');
+        e.preventDefault();
+    });
     $('#register-form-link').click(function(e) {
         $("#register-form").delay(100).fadeIn(100);
         $("#demo-form").fadeOut(100);
