@@ -18,6 +18,7 @@
     <link href="dist/css/bootstrap-slide.css" rel="stylesheet">
     <link href="dist/css/sweetalert.css" rel="stylesheet">
     <link href="dist/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -231,7 +232,7 @@
           </a>
         </div>
         <div class="col-xs-4">
-          <a href="index.php">
+          <a href="index.html">
             <img src="assets/img/register.png" class="img-responsive btn-reg" alt="">
           </a>
         </div>
@@ -563,7 +564,7 @@
                   </div>
                   <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
                     <a href="#" style="margin-bottom: -3px;"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a>
-                      <a  href="#myModal" data-toggle="modal"><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
+                      <a  href="index.html"><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
                       <a href="#"><img src="assets/img/login.png" class="img-responsive btn-log" alt=""></a>
                   </div>
               </div>
@@ -573,21 +574,53 @@
 
       <nav class="navbar navbar-inverse nav-bg">
           <div class="container">
-              <ul class="nav navbar-nav">
-                  <li><a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a></li>
-                  <li><a href="casino.html">真人娱乐场</a></li>
-                  <li class="nav-active"><a href="slots.html">老虎机</a></li>
+              <ul class="nav navbar-nav hidden-sm hidden-xs">
+                  <li>
+                      <a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a>
+                  </li>
+                  <li class="nav-active"><a href="casino.html">真人娱乐场</a></li>
+                  <li><a href="slots.html">老虎机</a></li>
                   <li><a href="lotto.html">彩票</a></li>
                   <li><a href="promotion.html">优惠</a></li>
-
+                  <li class="hidden-md hidden-lg pull-right"><a href="#"><i class="fa fa-angle-down" aria-hidden="true" data-toggle="collapse" data-target="#menu"></i></a></li>
               </ul>
 
+              <div class="mnav hidden-lg hidden-md">
+                <a class="home active" href="index.html"><i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a>
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="casino.html">真人娱乐场</a></div>
+                    <div class="swiper-slide"><a href="slots.html">老虎机</a></div>
+                    <div class="swiper-slide"><a href="lotto.html">彩票</a></div>
+                    <div class="swiper-slide"><a href="promotion.html">优惠</a></div>
+                  </div>
+                </div>
+                <a class="menu-toggle pull-right" href="#menu" data-toggle="collapse"><i class="fa fa-angle-down"></i></a>
+              </div>
+
               <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
-                <li><a href="#" data-toggle="modal" data-target="#csModal"><img src="assets/img/cs.png" width="20px"alt="">&nbsp; 在线客服</a></li>
-                <li><a href="helpcenter.html"><img src="assets/img/hc.png" width="20px"alt="">&nbsp; 帮助中心</a></li>
+                  <li>
+                      <a href="#" data-toggle="modal" data-target="#csModal"><img src="assets/img/cs.png" width="20px" alt="">&nbsp; 在线客服</a>
+                  </li>
+                  <li>
+                      <a href="helpcenter.html"><img src="assets/img/hc.png" width="20px" alt="">&nbsp; 帮助中心</a>
+                  </li>
               </ul>
           </div>
       </nav>
+
+      <div class="hidden-lg hidden-md">
+        <div id="menu" class="collapse">
+          <ul>
+            <li><a href="#">Button</a></li>
+            <li><a href="#">Button</a></li>
+            <li><a href="#">Button</a></li>
+            <li><a href="#">Button</a></li>
+            <li><a href="#">Button</a></li>
+            <li><a href="#">Button</a></li>
+          </ul>
+        </div>
+      </div>
 
   </header>
     <main>
@@ -1298,10 +1331,21 @@
     </script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="dist/js/bootstrap-slider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
     <script src="dist/js/sweetalert.min.js"></script>
     <script src="dist/js/font-awesome.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
+    <script>
+    $(document).ready(function() {
+      var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        slidesPerView: 'auto',
+        loop: false,
+        slidesPerView: 'auto',
+      })
+    })
+  </script>
     <script>
     document.querySelector('.sweet-12').onclick = function(){
          swal({
