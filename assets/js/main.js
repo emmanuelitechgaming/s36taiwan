@@ -179,6 +179,7 @@ $(document).ready(function () {
     });
 
     $('a[href="#stab1"]').click(function() {
+      $('.stab1').css('display', 'block');
       $('.stab2').css('display', 'block');
       $('.stab3').css('display', 'block');
     });
@@ -186,13 +187,17 @@ $(document).ready(function () {
     $('a[href="#stab2"]').click(function() {
       $('.stab2').css('display', 'block');
       $('.stab3').css('display', '');
+      $('.stab1').css('display', '');
       $('.stab3').addClass('stab-none');
+      $('.stab1').addClass('stab-none');
     });
 
     $('a[href="#stab3"]').click(function() {
       $('.stab3').css('display', 'block');
       $('.stab2').css('display', '');
+      $('.stab1').css('display', '');
       $('.stab2').addClass('stab-none');
+      $('.stab1').addClass('stab-none');
     });
 });
 
