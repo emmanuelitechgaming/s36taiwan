@@ -2586,6 +2586,12 @@ select + i.fa {
   color: #c4c4c4
 }
 
+.slots-mp{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
 .slots-mp .fa-mobile{
   margin-right: 10px;
 }
@@ -3162,7 +3168,6 @@ position: relative;
 
 .swiper-slide a{
   font-size: 12px;
-  padding: 5px 15px;
   color: #fff;
   font-weight: 700;
   border-right: 0.5px solid #000;
