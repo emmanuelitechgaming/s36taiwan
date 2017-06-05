@@ -245,6 +245,7 @@ $(function() {
         $(this).addClass('active');
         e.preventDefault();
     });
+
     $('#demo-form-btn').click(function(e) {
         $("#demo-form").delay(100).fadeIn(100);
         $("#login-form").fadeOut(100);
@@ -252,6 +253,26 @@ $(function() {
         $('#login-form-link').removeClass('active');
         $('#register-form-link').removeClass('active');
         $("#demo-form-link").addClass('active');
+        e.preventDefault();
+    });
+
+    $('#demo-form-btn2').click(function(e) {
+        $("#login-form").delay(100).fadeIn(100);
+        $("#demo-form").fadeOut(100);
+        $("#register-form").fadeOut(100);
+        $('#login-form-link').addClass('active');
+        $('#register-form-link').removeClass('active');
+        $("#demo-form-link").removeClass('active');
+        e.preventDefault();
+    });
+
+    $('#demo-form-btn1').click(function(e) {
+        $("#register-form").delay(100).fadeIn(100);
+        $("#demo-form").fadeOut(100);
+        $("#login-form").fadeOut(100);
+        $('#login-form-link').removeClass('active');
+        $('#register-form-link').addClass('active');
+        $("#demo-form-link").removeClass('active');
         e.preventDefault();
     });
 
