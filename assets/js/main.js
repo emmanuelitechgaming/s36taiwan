@@ -228,6 +228,15 @@ $(function() {
         $(this).addClass('active');
         e.preventDefault();
     });
+    $('#demo-form-btn').click(function(e) {
+        $("#demo-form").delay(100).fadeIn(100);
+        $("#login-form").fadeOut(100);
+        $("#register-form").fadeOut(100);
+        $('#login-form-link').removeClass('active');
+        $('#register-form-link').removeClass('active');
+        $("#demo-form-link").addClass('active');
+        e.preventDefault();
+    });
 
     $('#mobile-button').click(function() {
       $('i', this).toggleClass('fa-caret-up fa-caret-down');
