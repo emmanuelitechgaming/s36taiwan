@@ -80,7 +80,6 @@ $(document).ready(function () {
     });
 
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-      console.log($(this).context.hash);
       $('a[href="'+$(this).context.hash+'"]').parent('li').addClass('active');
       $('html,body').animate({
           scrollTop: 0
@@ -153,38 +152,6 @@ $(document).ready(function () {
       $(this).find('img').attr('src', 'assets/img/promo/new/info.png');
     });
 
-    if($('#casinoTabSelector').val() == "ctab1"){
-      $('#ctab3').addClass('casino-more');
-    }
-
-    $('#casinoTabSelector').change(function() {
-      var ctab = $(this).val();
-      console.log(ctab);
-      if(ctab == "ctab2"){
-        $('#ctab3').css('display', 'none');
-        $('#ctab2').css('display', 'block');
-      }else if(ctab == "ctab3"){
-        $('#ctab2').css('display', 'none');
-        $('#ctab3').css('display', 'block');
-      }else if(ctab == "ctab1"){
-        $('#ctab2').css('display', 'block');
-        $('#ctab3').css('display', 'block');
-      }
-    });
-
-    $('#casinoSeeMoreBtn').click(function() {
-      if($('#ctab3').css('display') == 'block'){
-        if($('#ctab2').css('display') == 'none'){
-          $('#ctab2').css('display', 'block');
-          $('#ctab3').css('display', 'block');
-        }else{
-          $('#ctab3').css('display', 'none');
-        }
-      }else{
-        $('#ctab3').css('display', 'block');
-      }
-    });
-
     $('#slotsTabSelector').change(function() {
       var stab = $(this).val();
       if(stab == "stab2"){
@@ -205,7 +172,25 @@ $(document).ready(function () {
 
     $('#menu').on('hide.bs.collapse', function () {
        $('.menu-toggle i').removeClass('fa-angle-up').addClass('fa-angle-down');
-    })
+    });
+
+    $('a[href="#ctab2"]').click(function() {
+      $('#ctab2').css('display', 'block');
+      $('#ctab3').css('display', 'none');
+    });
+
+    $('a[href="#ctab3"]').click(function() {
+      $('#ctab3').css('display', 'block');
+      $('#ctab2').css('display', 'none');
+    });
+
+    $('#casinoSeeMoreBtn').click(function() {
+      if($('#ctab2').css('display') == 'block'){
+        $('#ctab3').toggleClass('casino-more');
+      }else{
+        $('#ctab2').toggleClass('casino-more');
+      }
+    });
 });
 
 function nextTab(elem) {
