@@ -3245,3 +3245,35 @@ background: #383838;
 .casino-g .content .cta-btn:hover {
   background: #535353;
 }
+.panel-heading .casino-tabs{
+  border-bottom: 1px solid #ffb013;
+}
+
+.panel-heading .casino-tabs li.active >a , .panel-heading .casino-tabs > li.active > a:focus, .panel-heading .casino-tabs > li.active > a:hover{
+  color: #020202;
+cursor: default;
+background-color: #ffb013;
+border: 1px solid #ffb013;
+
+border-bottom-color: transparent;
+font-weight: 700;
+}
+.panel-heading .casino-tabs > li > a{
+text-decoration: none;
+color: #ffb013;
+font-weight: 700;
+}
+.panel-heading .casino-tabs > li > a{
+text-decoration: none;
+color: #ffb013;
+font-weight: 700;
+}
+.panel-heading .casino-tabs > li > a:hover,.panel-heading .casino-tabs > li > a:focus{
+  color: #020202;
+cursor: default;
+background-color: #ffb013;
+border: 1px solid #ffb013;
+
+border-bottom-color: transparent;
+font-weight: 700;
+}
