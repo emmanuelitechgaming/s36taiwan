@@ -3296,5 +3296,17 @@ font-weight: 700;
 }
 
 .lotto-tabs>li>a{
-  border-radius: 4px 4px 0 0 !important; 
+  border-radius: 4px 4px 0 0 !important;
+}
+
+.promotional-tabs>li>a{
+  border-radius: 4px 4px 0 0
+}
+
+.panel-heading ul li a:hover, .panel-heading ul li a:focus, .panel-heading ul li a:active{
+  background: none
+}
+
+.panel-heading ul li.active{
+  border-bottom: 1px solid #ffb013
 }
