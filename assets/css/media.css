@@ -279,7 +279,7 @@
     }
 
     .slots-mp{
-      margin-top: 10px;
+      margin-top: auto;
     }
 
     .lotto-roll div{
@@ -352,6 +352,10 @@
 
     .swiper-slide a{
       padding: 5px 15px;
+    }
+
+    .breadcrumb-inner .casino-g .content{
+      bottom: 48px;
     }
 }
 
@@ -561,6 +565,10 @@
   .swiper-slide a {
     padding: 5px 43.5px;
   }
+
+  .breadcrumb-inner .casino-g .content {
+    bottom: 28px;
+  }
 }
 
 @media only screen and (min-width: 640px) {
@@ -611,6 +619,10 @@
 
   .swiper-slide a {
     padding: 5px 56px;
+  }
+
+  .breadcrumb-inner .casino-g .content{
+    bottom: 28px;
   }
 }
 
@@ -875,6 +887,9 @@
 
     .td-list ul li div:first-child{
       text-align: left;
+    }
+    .breadcrumb-inner .casino-g .content{
+      bottom: 47px;
     }
 }
 
