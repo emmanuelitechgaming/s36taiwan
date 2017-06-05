@@ -382,6 +382,10 @@
     .stab-none{
       display: none;
     }
+
+    .panel-heading .casino-tabs {
+      width: 559px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -701,6 +705,10 @@
 
   .swiper-slide a {
     padding: 5px 64.8px;
+  }
+
+  .panel-heading .casino-tabs {
+    width: 664px;
   }
 }
 
