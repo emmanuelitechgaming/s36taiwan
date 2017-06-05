@@ -199,6 +199,15 @@ $(document).ready(function () {
       $('.stab2').addClass('stab-none');
       $('.stab1').addClass('stab-none');
     });
+
+    $('.m-demo-img').click(function() {
+      if ( document.URL.contains("index.html") ) {
+        return false;
+      }else{
+        window.location = "index.html";
+      }
+
+    })
 });
 
 function nextTab(elem) {
