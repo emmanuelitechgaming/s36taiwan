@@ -3253,7 +3253,7 @@ background: #383838;
   background: #535353;
 }
 .panel-heading .casino-tabs{
-  border-bottom: 1px solid #ffb013;
+  border-bottom: 1px solid #ffb013 !important;
 }
 
 .panel-heading .casino-tabs li.active >a , .panel-heading .casino-tabs > li.active > a:focus, .panel-heading .casino-tabs > li.active > a:hover{
@@ -3295,4 +3295,8 @@ font-weight: 700;
 .cntry{
 
   width: 107px;
+}
+
+.lotto-tabs>li>a{
+  border-radius: 4px 4px 0 0 !important; 
 }
