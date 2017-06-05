@@ -764,8 +764,8 @@ div.border:before {
 }
 
 .breadcrumb-inner .casino-g .content{
-  position: absolute;
-  bottom: 1px;
+  position: relative;
+  bottom: 47px;
   width: 100%
 }
 .breadcrumb-inner .casino-g ul {
@@ -773,7 +773,7 @@ div.border:before {
 padding: 0 10px;
 }
 .breadcrumb-inner .casino-g ul li{
-display: inline-block;
+  float: left;
 font-size: 19px;
 }
 
