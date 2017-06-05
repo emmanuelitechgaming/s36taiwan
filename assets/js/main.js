@@ -185,11 +185,13 @@ $(document).ready(function () {
 
     $('a[href="#stab2"]').click(function() {
       $('.stab2').css('display', 'block');
-      $('.stab3').addClass('stab-none')
+      $('.stab3').css('display', '');
+      $('.stab3').addClass('stab-none');
     });
 
     $('a[href="#stab3"]').click(function() {
       $('.stab3').css('display', 'block');
+      $('.stab2').css('display', '');
       $('.stab2').addClass('stab-none');
     });
 });
