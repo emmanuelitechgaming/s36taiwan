@@ -146,6 +146,12 @@ header .header-mobile {
 header .header-mobile > .hm-d {
     padding: 15px 10px!important;
 }
+main .mobile-banner{
+  background: #000;
+text-align: center;
+margin: 0 auto;
+
+}
 
 main .carousel {
     background: #2A2A2A;
@@ -3252,23 +3258,31 @@ background: #383838;
 }
 
 .panel-heading .casino-tabs li.active >a , .panel-heading .casino-tabs > li.active > a:focus, .panel-heading .casino-tabs > li.active > a:hover{
-  color: #020202;
+  color: #ffb013;
 cursor: default;
-background-color: #ffb013;
+background-color: transparent;
 border: 1px solid #ffb013;
+border-bottom-color: #1b1b1b;
+font-weight: 700;
+}
+.panel-heading .casino-tabs > li > a{
+text-decoration: none;
+color: #ffb013;
+font-weight: 700;
+}
+.panel-heading .casino-tabs > li > a{
+text-decoration: none;
+color: #ffb013;
+font-weight: 700;
+padding: 5px 44px !important;
+}
 
-border-bottom-color: transparent;
-font-weight: 700;
-}
-.panel-heading .casino-tabs > li > a{
-text-decoration: none;
-color: #ffb013;
-font-weight: 700;
-}
-.panel-heading .casino-tabs > li > a{
-text-decoration: none;
-color: #ffb013;
-font-weight: 700;
+.casino-tabs > li{
+  -webkit-margin-bottom: -1px;
+  -moz-margin-bottom: -1px;
+  -ms-margin-bottom: -1px;
+  -o-margin-bottom: -1px;
+  margin-bottom: -1px;
 }
 .panel-heading .casino-tabs > li > a:hover,.panel-heading .casino-tabs > li > a:focus{
   color: #020202;
@@ -3278,4 +3292,8 @@ border: 1px solid #ffb013;
 
 border-bottom-color: transparent;
 font-weight: 700;
+}
+.cntry{
+
+  width: 107px;
 }
