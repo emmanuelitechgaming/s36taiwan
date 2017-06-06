@@ -344,12 +344,8 @@
         padding: 5px 16px !important;
     }
     .promotion-swiper-container {
-        width: 262px;
-        margin-left: 11px;
-    }
-    .promotion-swiper-container {
-        width: 262px;
-        margin-left: 11px;
+      width: 257px;
+      margin-left: 16px;
     }
     .panel-heading .lotto-tabs > li > a {
         padding: 5px 9px !important;
@@ -360,6 +356,10 @@
     }
     .ballot-result td:nth-child(4) img {
         width: 100%;
+    }
+
+    .panel-close,.panel-close:active,.panel-close:focus{
+      right: 5px;
     }
 }
 
@@ -426,6 +426,9 @@
     .swiper-container {
         width: 305px;
     }
+    .promotion-swiper-container{
+      width: 310px;
+    }
     .swiper-slide a {
         padding: 5px 19px;
     }
@@ -442,10 +445,10 @@
     .panel-heading .lotto-tabs > li > a {
         padding: 5px 19px !important;
     }
-    .promotion-swiper-container {
-        width: 315px;
-        margin-left: 12px;
-    }
+    /*.promotion-swiper-container {
+      width: 545px;
+      margin-left: 12px;
+    }*/
 }
 
 @media only screen and (min-width: 412px) {
@@ -498,6 +501,9 @@
     }
     .swiper-container {
         width: 345px;
+    }
+    .promotion-swiper-container {
+        width: 350px;
     }
     .swiper-slide a {
         padding: 5px 24px;
@@ -591,6 +597,11 @@
         width: auto;
         margin: 0px auto;
     }
+
+    .promotion-swiper-container{
+      width: 382px;
+      margin-left: 78px;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -646,6 +657,11 @@
         width: 600px;
         margin-left: 15px;
     }
+
+    .promotion-swiper-container{
+      width: 382px;
+      margin-left: 126px;
+    }
 }
 
 @media only screen and (min-width: 736px) {
@@ -673,10 +689,6 @@
     .swiper-slide a {
         padding: 5px 64.8px;
     }
-    .promotion-swiper-container {
-        width: 386px;
-        margin-left: 160px;
-    }
     .panel-heading .promotional-tabs {
         width: 353px;
     }
@@ -690,6 +702,11 @@
     .panel-heading .promotional-tabs {
         width: 600px;
         margin-left: 15px;
+    }
+
+    .promotion-swiper-container{
+      width: 382px;
+      margin-left: 161px;
     }
 }
 
@@ -909,6 +926,10 @@
     }
     .ballot-result td:nth-child(4) img {
         width: 40%;
+    }
+
+    .panel-close,.panel-close:active,.panel-close:focus{
+      right: -19px;
     }
 }
 
