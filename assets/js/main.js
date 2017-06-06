@@ -204,6 +204,8 @@ $(document).ready(function () {
       $('.promotion-swiper-container').find('.active').removeClass('active');
       $(this).addClass('active');
     });
+
+    $('.desktop-support .flag-icon').parent('div').css('border-bottom', 'solid 1px #ffb013');
 });
 
 function nextTab(elem) {
