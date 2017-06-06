@@ -376,6 +376,10 @@
       width: 30px;
       height: 30px;
     }
+
+    .account-container img{
+      width: 100%
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -960,6 +964,10 @@
     .lotto-legend div span{
       width: 34px;
       height: 33px;
+    }
+
+    .account-container img{
+      width: 85%
     }
 }
 
