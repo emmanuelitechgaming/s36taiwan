@@ -3453,3 +3453,13 @@ font-weight: 700;
 .account-container a{
   margin: 0 5px !important;
 }
+
+.account-container{
+  position: relative;
+  top: -9px;
+}
+
+.desktop-support-trigger.afterlogin-support-trigger{
+  position: relative;
+  top: -2px;
+}
