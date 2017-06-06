@@ -205,7 +205,7 @@ $(document).ready(function () {
       $(this).addClass('active');
     });
 
-    $('.desktop-support .flag-icon').parent('div').css('border-bottom', 'solid 1px #ffb013');
+    $('.desktop-support .flag-icon').parent('div').addClass('county-line');
 });
 
 function nextTab(elem) {
