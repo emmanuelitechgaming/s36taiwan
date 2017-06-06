@@ -206,6 +206,10 @@ $(document).ready(function () {
     });
 
     $('.desktop-support .flag-icon').parent('div').addClass('county-line');
+
+    $('#desktopSupportClose').click(function() {
+      $('#desktopSupport').collapse('toggle');
+    })
 });
 
 function nextTab(elem) {
