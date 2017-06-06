@@ -3312,34 +3312,33 @@ font-weight: 700;
 
 .lotto-legend{
   color: #fff;
-  font-size: 23px;
   padding-left: 0;
   padding-right: 0;
 }
 
 .lotto-legend div{
-  display: block;
   margin-bottom: 15px;
 }
 
 .lotto-legend div span{
   display: inline-block;
-  width: 34px;
-  height: 33px;
   position: relative;
   top: 8px;
 }
 
 .legend-red{
-  background: url('../img/lotto/legend-colors.png') no-repeat 0 0;
+  background: url('../img/lotto/legend-red.png') no-repeat;
+  background-size: cover
 }
 
 .legend-green{
-  background: url('../img/lotto/legend-colors.png') no-repeat 0 -53px;
+  background: url('../img/lotto/legend-green.png') no-repeat;
+  background-size: cover
 }
 
 .legend-blue{
-  background: url('../img/lotto/legend-colors.png') no-repeat 0 -106px;
+  background: url('../img/lotto/legend-blue.png') no-repeat;
+  background-size: cover
 }
 
 .panel.with-nav-tabs .promotion-swiper-container{
@@ -3370,4 +3369,8 @@ font-weight: 700;
   border: 1px solid #ffb013;
   border-bottom-color: #1b1b1b;
   font-weight: 700;
+}
+
+.desktop-support .county-line{
+  border-bottom: solid 1px #ffb013
 }
