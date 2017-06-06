@@ -210,6 +210,12 @@ $(document).ready(function () {
     $('#desktopSupportClose').click(function() {
       $('#desktopSupport').collapse('toggle');
     })
+
+    $('.selectpicker2-sub, .cntry').hover(function() {
+      $(this).css('color', '#ffb013');
+    }, function() {
+      $(this).css('color', '#c4c4c4');
+    });
 });
 
 function nextTab(elem) {
