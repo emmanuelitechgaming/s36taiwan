@@ -387,9 +387,7 @@
       display: none;
     }
 
-    .panel-heading .casino-tabs {
-      width: 259px;
-    }
+
 
     .panel-heading .casino-tabs > li > a {
       padding: 5px 20px !important;
@@ -399,28 +397,10 @@
       padding: 5px 16px !important;
     }
 
-    .promotion-swiper-container{
-      width: 262px;
-      margin-left: 11px;
-    }
-
-    .lotto-tabs{
-      width: 236px !important;
-      margin-left: 5px;
-    }
-
-    .panel-heading .slots-tabs {
-      width: 259px;
-      margin-left: -14px;
-    }
-
     .panel-heading .lotto-tabs > li > a {
       padding: 5px 9px !important;
     }
 
-    .panel-heading .promotional-tabs {
-      width: 567px;
-    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -525,18 +505,9 @@
       margin-left: 12px;
     }
 
-    .lotto-tabs {
-      width: 292px !important;
-      margin-left: 5px;
-    }
 
-    .panel-heading .casino-tabs {
-      width: 314px;
-    }
 
-    .panel-heading .promotional-tabs {
-      width: 535px;
-    }
+
 }
 
 @media only screen and (min-width: 412px) {
@@ -608,23 +579,7 @@
       padding: 5px 28px !important;
     }
 
-    .promotion-swiper-container {
-      width: 354px;
-      margin-left: 12px;
-    }
 
-    .lotto-tabs {
-      width: 331px !important;
-      margin-left: 5px;
-    }
-
-    .panel-heading .casino-tabs {
-      width: 353px;
-    }
-
-    .panel-heading .promotional-tabs {
-      width: 565px;
-    }
 }
 
 
@@ -691,30 +646,8 @@
     bottom: 28px;
   }
 
-  .promotion-swiper-container {
-    width: 401px;
-    margin-left: 58px;
-  }
 
-  .panel-heading .lotto-tabs {
-    width: 485px !important;
-    margin-left: 5px !important;
-  }
 
-  .panel-heading .casino-tabs {
-    width: 375px;
-    margin-left: 67px;
-  }
-
-  .panel-heading .slots-tabs {
-    width: 377px;
-    margin-left: 51px;
-  }
-
-  .panel-heading .promotional-tabs {
-    width: 600px;
-    margin-left: 15px;
-  }
 }
 
 @media only screen and (min-width: 640px) {
@@ -771,38 +704,8 @@
     bottom: 28px;
   }
 
-  .promotion-swiper-container {
-    width: 401px;
-    margin-left: 107px;
-  }
 
-  .lotto-tabs {
-    width: 585px !important;
-  }
 
-  .panel-heading .casino-tabs {
-    width: 375px;
-    margin-left: 116px;
-  }
-
-  .panel-heading .slots-tabs {
-    width: 377px;
-    margin-left: 51px;
-  }
-
-  .panel-heading .slots-tabs {
-    margin-left: 100px;
-  }
-
-  .panel-heading .lotto-tabs {
-    width: 584px !important;
-    margin-left: 5px !important;
-  }
-
-  .panel-heading .promotional-tabs {
-    width: 600px;
-    margin-left: 15px;
-  }
 }
 
 @media only screen and (min-width: 736px) {
@@ -836,41 +739,13 @@
     padding: 5px 64.8px;
   }
 
-  .panel-heading .casino-tabs {
-    width: 664px;
-  }
 
   .promotion-swiper-container {
     width: 386px;
     margin-left: 160px;
   }
 
-  .lotto-tabs {
-    width: 653px !important;
-  }
 
-  .panel-heading .casino-tabs {
-    width: 375px;
-    margin-left: 151px;
-  }
-
-  .panel-heading .slots-tabs {
-    margin-left: 136px;
-  }
-
-  .panel-heading .lotto-tabs {
-    width: 654px !important;
-    margin-left: 5px !important;
-  }
-
-  .panel-heading .promotional-tabs {
-    width: 353px;
-  }
-
-  .panel-heading .promotional-tabs {
-    width: 600px;
-    margin-left: 15px;
-  }
 }
 
 

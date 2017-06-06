@@ -200,14 +200,7 @@ $(document).ready(function () {
       $('.stab1').addClass('stab-none');
     });
 
-    $('.m-demo-img').click(function() {
-      if ( document.URL.contains("index.html") ) {
-        return false;
-      }else{
-        window.location = "index.html";
-      }
 
-    })
 });
 
 function nextTab(elem) {
@@ -243,6 +236,15 @@ $(function() {
         $('#login-form-link').removeClass('active');
         $('#demo-form-link').removeClass('active');
         $(this).addClass('active');
+        e.preventDefault();
+    });
+    $('#regis-form-btn').click(function(e) {
+        $("#register-form").delay(100).fadeIn(100);
+        $("#demo-form").fadeOut(100);
+        $("#login-form").fadeOut(100);
+        $('#login-form-link').removeClass('active');
+        $('#demo-form-link').removeClass('active');
+        $('#register-form-link').addClass('active');
         e.preventDefault();
     });
     $('#demo-form-link').click(function(e) {
@@ -285,7 +287,7 @@ $(function() {
         e.preventDefault();
     });
 
-    $('.m-demo-img').click(function(e) {
+    $('#mdemo-form-btn').click(function(e) {
         $("#demo-form").delay(100).fadeIn(100);
         $("#login-form").fadeOut(100);
         $("#register-form").fadeOut(100);
