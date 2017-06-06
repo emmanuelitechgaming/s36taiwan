@@ -263,7 +263,7 @@
 
                     <div class="hidden-lg hidden-md">
                         <div class="navbar-header remo-navbar-header">
-                          <button class="selectpicker2" data-toggle="dropdown"><span class="flag-icon flag-icon-au"> </span> Australia <i class="fa fa-caret-down"> </i></button>
+                          <button class="selectpicker2" data-toggle="dropdown"><span class="flag-icon flag-icon-tw"> </span> Taiwan <i class="fa fa-caret-down"> </i></button>
                           <div class="dropdown-menu selectpicker2-menu">
                             <div class="row">
                               <div class="col-md-3">
@@ -335,7 +335,7 @@
                 </div>
                 <div class="hidden-sm hidden-xs">
                     <div class="navbar-header">
-                          <button class="selectpicker2" data-toggle="dropdown"><span class="flag-icon flag-icon-au"> </span> Australia <i class="fa fa-caret-down"> </i></button>
+                          <button class="selectpicker2" data-toggle="dropdown"><span class="flag-icon flag-icon-tw"> </span> Taiwan <i class="fa fa-caret-down"> </i></button>
                           <div class="dropdown-menu selectpicker2-menu">
                             <div class="row">
                               <div class="col-md-3">
@@ -655,13 +655,14 @@
                             <form id="register-form" method="post" role="form" style="display: block;">
                                 <div class="form-group">
                                     <div class="input-group">
-                                        <input class="form-control" type="text" placeholder="手机号码">
+                                        <input class="form-control" type="text" placeholder="邮箱号码">
                                     </div>
                                 </div>
                                 <div class="panel-border"></div>
-                                <div class="form-group">
+                                <div class="form-line">
                                     <div class="input-group">
-                                        <input class="form-control" type="text" placeholder="建立帳號   " value="建立帳號 tw">
+                                      <label for="firstname" style="display:inline-block; margin-left:10px;">tw </label>
+                                      <input type="text" style="margin:0;padding:0;"   placeholder="建立帳號"/>
                                     </div>
                                 </div>
                                 <div class="panel-border"></div>
@@ -679,13 +680,14 @@
 
                                 <div class="panel-border"></div>
                                 <div class="form-group form-inline form-captcha">
-                                    <div class="input-group col-xs-7">
+                                    <!-- <div class="input-group col-xs-7">
 
                                         <input class="form-control" type="text" placeholder="驗證碼">
                                     </div>
                                     <div class="captcha-img col-xs-5">
                                         <img src="assets/img/captcha.png" class="img-responsive" alt="">
-                                    </div>
+                                    </div> -->
+                                    <div class="g-recaptcha" data-sitekey="6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M"></div>
                                 </div>
                                 <div class="panel-border"></div>
                                 <div class="form-pad">
@@ -701,8 +703,8 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-xs-12">
-                                                <!-- <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="註冊賬號"> -->
-                                                <a href="afterlogin.html" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block">註冊賬號</a>
+                                              <a href="afterlogin.html"  class="form-control btn btn-warning btn-block" value="登录">註冊賬號</a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -737,8 +739,8 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-xs-12">
-                                                <!-- <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="登录"> -->
-                                                <a href="afterlogin.html" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-warning btn-block" value="登录">登录</a>
+                                                <a href="afterlogin.html"  class="form-control btn btn-warning btn-block" value="登录">登录</a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -768,8 +770,8 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-xs-12">
-                                                <!-- <input  type="submit" tabindex="4" data-target="#login-modal" class="form-control btn btn-warning btn-block" value="登录"> -->
-                                                <a href="afterlogin.html" tabindex="4" data-target="#login-modal" class="form-control btn btn-warning btn-block">登录</a>
+                                              <a href="afterlogin.html"  class="form-control btn btn-warning btn-block" value="登录">登录</a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -871,7 +873,7 @@
                 <div class="live-game">
                     <img src="assets/img/index/live games.png" class="img-responsive" alt="真人娛樂場">
                     <a href="casino.html" class="img-responsive cta-seemore"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
-                    <a href="#" class="lg-playnow">現在播放</a>
+                    <a href="#" class="lg-playnow">立即注册</a>
                 </div>
             </div>
 
@@ -879,7 +881,7 @@
                 <div class="live-game">
                     <img src="assets/img/index/lottery.png" class="img-responsive" alt="沙龍會彩票">
                     <a href="lotto.html" class="img-responsive cta-seemore"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
-                    <a href="#" class="lg-playnow">現在播放</a>
+                    <a href="#" class="lg-playnow">立即注册</a>
                 </div>
             </div>
 
@@ -887,7 +889,7 @@
                 <div class="live-game">
                     <img src="assets/img/index/slot machine.png" class="img-responsive" alt="角子老虎機">
                     <a href="slots.html" class="img-responsive cta-seemore"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
-                    <a href="#" class="lg-playnow">現在播放</a>
+                    <a href="#" class="lg-playnow">立即注册</a>
                 </div>
             </div>
         </div>
@@ -896,7 +898,7 @@
             <div class="col-md-6 gp-first">
                 <div class="content-title">
                     <i class="fa fa-diamond" aria-hidden="true"></i> 新遊戲
-                    <a href="slots.html"><span class="pull-right"><i class="fa fa-plus" aria-hidden="true"></i> &nbsp; 更多的插槽</span></a>
+                    <a href="slots.html"><span class="pull-right"><i class="fa fa-plus" aria-hidden="true"></i> &nbsp; 更多新遊戲</span></a>
                     <div class="border borderstyler"></div>
                 </div>
                 <div class=" row">
@@ -1579,7 +1581,7 @@
             <div class="aboutus text-left" style="margin-top: 18px;" >
 
 
-                <p style="margin-bottom: 10px">台湾沙龙会（s36taiwan.com)客户服务中心，服务时间为每天24小时，每周7天，拥有广东话及普通话座席，竭诚为您提供所需的资讯和服务。 </p>
+                <p style="margin-bottom: 10px">台湾沙龙会（s36asia.com)客户服务中心，服务时间为每天24小时，每周7天，拥有广东话及普通话座席，竭诚为您提供所需的资讯和服务。 </p>
                 <div>
                   <span>在線客服：</span> 点击这里咨询
                 </div>
@@ -1596,7 +1598,7 @@
                   <span>QQ號：</span> 392661199 | 382662200
                 </div>
                 <div>
-                  <span>微信號：</span> s36taiwan.com
+                  <span>微信號：</span> s36asia.com
                 </div>
                 <div>
                   <span>電子郵件：</span> cs@saloncs.com
@@ -1639,7 +1641,23 @@
     <script src="dist/js/font-awesome.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script type="text/javascript">
+      var onloadCallback = function() {
+        alert("grecaptcha is ready!");
+      };
+    </script>
+    <script type="text/javascript">
+ var RecaptchaOptions = {
+    sitekey : '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
+    theme : 'dark'
+    /*WE CAN USE FOLLOWING THEME TO CHANGE THE COLOR OF RECAPTHCA*/
+    /*red,white,blackglass,clean'*/
 
+    /*lang :'es';*/ //used to set the language
+ };
+ </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit&hl=zh-TW" async defer></script>
     <script>
     $(document).ready(function() {
       var mySwiper = new Swiper ('.swiper-container', {
