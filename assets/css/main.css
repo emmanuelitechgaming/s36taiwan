@@ -3412,3 +3412,15 @@ font-weight: 700;
 .reg-now img{
   height: 43px;
 }
+
+.fsalon h4{
+  white-space: nowrap;
+}
+
+.fsalon .col-md-3:nth-child(3){
+  margin-left: 10%;
+}
+
+.fsalon .col-md-3:nth-child(3) img{
+  width: 20%;
+}
