@@ -997,7 +997,7 @@ padding: 20px 10px;
 }
 
 .breadcrumb-content .panel-body {
-    padding: 14px;
+    padding: 20px;
 }
 .breadcrumb-content .promo-body {
     padding: 20px 0 0 0!important;
@@ -1738,7 +1738,6 @@ input[type=radio] {
 .breadcrumb-inner .sela {
     margin-bottom: 15px;
     margin-top: 28px;
-    padding: 0;
 }
 
 .breadcrumb-inner select {
@@ -1821,9 +1820,9 @@ input[type=radio] {
     width: 100%;
 }
 
-.tab-content .tab-pane {
+/*.tab-content .tab-pane {
     padding: 0 10px
-}
+}*/
 
 .seo-body {
     background: #000;
@@ -3301,7 +3300,7 @@ font-weight: 700;
 }
 
 .promotional-tabs>li>a{
-  border-radius: 4px 4px 0 0
+  border-radius: 4px 4px 0 0 !important
 }
 
 .panel-heading ul li a:hover, .panel-heading ul li a:focus, .panel-heading ul li a:active{
@@ -3310,4 +3309,36 @@ font-weight: 700;
 
 .panel-heading ul li.active{
   border-bottom: 1px solid #ffb013
+}
+
+.lotto-legend{
+  color: #fff;
+  font-size: 23px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.lotto-legend div{
+  display: block;
+  margin-bottom: 15px;
+}
+
+.lotto-legend div span{
+  display: inline-block;
+  width: 34px;
+  height: 33px;
+  position: relative;
+  top: 8px;
+}
+
+.legend-red{
+  background: url('../img/lotto/legend-colors.png') no-repeat 0 0;
+}
+
+.legend-green{
+  background: url('../img/lotto/legend-colors.png') no-repeat 0 -53px;
+}
+
+.legend-blue{
+  background: url('../img/lotto/legend-colors.png') no-repeat 0 -106px;
 }
