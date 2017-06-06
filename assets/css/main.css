@@ -3300,7 +3300,7 @@ font-weight: 700;
 }
 
 .promotional-tabs>li>a{
-  border-radius: 4px 4px 0 0
+  border-radius: 4px 4px 0 0 !important
 }
 
 .panel-heading ul li a:hover, .panel-heading ul li a:focus, .panel-heading ul li a:active{
