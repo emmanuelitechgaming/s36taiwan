@@ -146,6 +146,12 @@ $(document).ready(function () {
       $('#ssalon img').attr('src', 'assets/img/footer/ssalon.png');
     });
 
+    $('#hhelp').hover(function() {
+      $('#hhelp img').attr('src', 'assets/img/footer/help-b.png');
+    }, function() {
+      $('#hhelp img').attr('src', 'assets/img/footer/help.png');
+    });
+
     $('.live-game > .promo-c > .promo-cta .pull-right').hover(function() {
       $(this).find('img').attr('src', 'assets/img/promo/new/info-b.png');
     }, function() {
