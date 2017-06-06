@@ -3229,7 +3229,6 @@ border-bottom: 1px solid #333333;
 
 .panel-close,.panel-close:active,.panel-close:focus{
   position: absolute;
-bottom: 0;
 text-decoration: none;
 color: #ffb013;
 font-size: 17px;

@@ -16,7 +16,7 @@ main .notice-mobile {
   width: 94%;
   margin-left: 10px;
   margin-bottom: 5%;
-  margin-top: -3%;
+  margin-top: 1%;
 
 }
 footer .f-social ul.columns > li {
@@ -71,7 +71,7 @@ header .nathan-hm-d{
         width: 95%;
         margin-left: 10px;
         margin-bottom: 5%;
-        margin-top: -3%;
+        margin-top: 1%;
     }
   .nav>li>a {
       padding: 5px 20px !important;
