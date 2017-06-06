@@ -24,7 +24,6 @@
     .gp .live-game img {
         max-width: 100%;
     }
-
     header .logo a {
         display: inline-block;
         /*width: 184px;*/
@@ -46,9 +45,9 @@
         width: 25px;
         height: 2px;
         -webkit-transition-timing-function: ease;
-                transition-timing-function: ease;
+        transition-timing-function: ease;
         -webkit-transition-duration: .15s;
-                transition-duration: .15s;
+        transition-duration: .15s;
         transition-property: -webkit-transform;
         -webkit-transition-property: -webkit-transform;
         transition-property: transform;
@@ -68,7 +67,7 @@
         overflow: hidden;
         padding: 6px;
         -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
-                box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
         margin: 0px 50px auto;
     }
     .lotto-header {
@@ -83,7 +82,7 @@
     .panel-login {
         border-color: #303030;
         -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
-                box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
         position: relative;
         z-index: 9;
         background: rgba(30, 30, 30, 0.8);
@@ -156,71 +155,56 @@
     footer .footer-line:before {
         border-left: none;
     }
-
     footer .footer-shareit img {
-      width: auto;
+        width: auto;
     }
-
     .notice-dialog {
-      width: 100%;
+        width: 100%;
     }
     main .marquee {
         width: 80%;
         bottom: 8px;
     }
-
     .live-game .gameplatform {
         top: -39px;
         left: 67px;
     }
-
-    .breadcrumb-inner .casino-g ul li{
-      margin: 0 3px;
+    .breadcrumb-inner .casino-g ul li {
+        margin: 0 3px;
     }
-
-    .breadcrumb-inner .casino-g ul li span{
-      font-size: 12px;
+    .breadcrumb-inner .casino-g ul li span {
+        font-size: 12px;
     }
-
-    .casino-g .content .cta-btn{
-      font-size: 12px;
-      letter-spacing: 1px;
-      padding: 3px 10px;
+    .casino-g .content .cta-btn {
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 3px 10px;
     }
-
-    .casino-g .content ul{
-      bottom: -7px;
+    .casino-g .content ul {
+        bottom: -7px;
     }
-
-    .casino-g img{
-      margin: 0;
+    .casino-g img {
+        margin: 0;
     }
-
-    .casino-g .content .fa{
-      top: 3px
+    .casino-g .content .fa {
+        top: 3px
     }
-
     .cta-seemore {
-      bottom: 80px;
-      right: 10px;
+        bottom: 80px;
+        right: 10px;
     }
-
-    .casino-more{
-      display: none;
+    .casino-more {
+        display: none;
     }
-
-    .slots-see-more{
-      display: none
+    .slots-see-more {
+        display: none
     }
-
-    .jacpot-nus-mobile .jacpot-nus{
-      padding-top: 0;
+    .jacpot-nus-mobile .jacpot-nus {
+        padding-top: 0;
     }
-
-    .jacpot-nus-mobile{
-      padding: 0 7px
+    .jacpot-nus-mobile {
+        padding: 0 7px
     }
-
     .jumbo {
         left: 268px;
         top: 31px;
@@ -229,202 +213,174 @@
         letter-spacing: 11.5px;
         width: auto;
     }
-
-    .nav.navbar-nav li:last-child a{
-      border-right: none
+    .nav.navbar-nav li:last-child a {
+        border-right: none
     }
-
     .back {
-      bottom: 40px;
-      margin-right: -180px;
-      right: 65% !important;
-      position: fixed;
-      cursor: pointer;
-      display: none;
+        bottom: 40px;
+        margin-right: -180px;
+        right: 65% !important;
+        position: fixed;
+        cursor: pointer;
+        display: none;
     }
-
-    .selectpicker{
-      font-size: 11px;
+    .selectpicker {
+        font-size: 11px;
     }
-
-    .bootstrap-select.open .dropdown-menu{
-      left: -100px
+    .bootstrap-select.open .dropdown-menu {
+        left: -100px
     }
-
-    .selectpicker2-menu{
-      top: 63px;
-      left: 0;
-      width: 100%;
+    .selectpicker2-menu {
+        top: 63px;
+        left: 0;
+        width: 100%;
     }
-
-    .selectpicker2{
-      padding: 5px 8px;
-      top: 18px;
-      left: -40px;
-      font-size: 10px;
+    .selectpicker2 {
+        padding: 5px 8px;
+        top: 18px;
+        left: -40px;
+        font-size: 10px;
     }
-
-    .selectpicker2 .fa{
-      margin-left: 5px
+    .selectpicker2 .fa {
+        margin-left: 5px
     }
-
-    .breadcrumb-inner .sp-container img{
-      width: 100%;
-      margin-left: auto;
-      margin-top: 20px;
+    .breadcrumb-inner .sp-container img {
+        width: 100%;
+        margin-left: auto;
+        margin-top: 20px;
     }
-
-    .live-game > .promo-c > .promo-txt h3{
-      font-size: 18px;
+    .live-game > .promo-c > .promo-txt h3 {
+        font-size: 18px;
     }
-
-    .selectfrommonth, .selectfromyear{
-      background-size: 24% 100% !important;
+    .selectfrommonth,
+    .selectfromyear {
+        background-size: 24% 100% !important;
     }
-
-    .slots-mp{
-      margin-top: auto;
+    .slots-mp {
+        margin-top: auto;
     }
-
-    .lotto-roll div{
-      font-size: 12px
+    .lotto-roll div {
+        font-size: 12px
     }
-
-    .lotto-roll div:first-child span{
-      font-size: 12px;
-      line-height: 15px;
+    .lotto-roll div:first-child span {
+        font-size: 12px;
+        line-height: 15px;
     }
-
-    .lotto-roll div:first-child{
-      padding: 10px;
+    .lotto-roll div:first-child {
+        padding: 10px;
     }
-
-    .lotto-roll div{
-      padding: 10px
+    .lotto-roll div {
+        padding: 10px
     }
-
-    .lotto-roll div span{
-      margin-right: 0;
+    .lotto-roll div span {
+        margin-right: 0;
     }
-
-    .td-win{
-      font-size: 14px;
-      padding-bottom: 6px;
+    .td-win {
+        font-size: 14px;
+        padding-bottom: 6px;
     }
-
-    .td-win .title{
-      padding: 15px
+    .td-win .title {
+        padding: 15px
     }
-
-    .td-win .username-amount{
-      margin-top: -10px;
-      margin-right: -3px;
+    .td-win .username-amount {
+        margin-top: -10px;
+        margin-right: -3px;
     }
-
-    .td-win .username-amount span{
-      display: block
+    .td-win .username-amount span {
+        display: block
     }
-
-    .today-winnerb .title{
-      padding: 19px 12px;
-      font-size: 12px
+    .today-winnerb .title {
+        padding: 19px 12px;
+        font-size: 12px
     }
-
-    .td-list{
-      width: 166px;
+    .td-list {
+        width: 166px;
     }
-
-    .td-list ul li div{
-      font-size: 13px;
-      line-height: 26px;
-      width: auto;
-      display: block;
-      padding-right: 10px;
+    .td-list ul li div {
+        font-size: 13px;
+        line-height: 26px;
+        width: auto;
+        display: block;
+        padding-right: 10px;
     }
-
-    .td-list ul{
-      margin-left: 10px
+    .td-list ul {
+        margin-left: 10px
     }
-
-    .td-list ul li div:first-child{
-      text-align: right;
+    .td-list ul li div:first-child {
+        text-align: right;
     }
-
     .swiper-container {
-      width: 250px;
+        width: 250px;
     }
-
-    .swiper-slide a{
-      padding: 5px 15px;
+    .swiper-slide a {
+        padding: 5px 15px;
     }
-
-    .breadcrumb-inner .casino-g .content{
-      bottom: 48px;
+    .breadcrumb-inner .casino-g .content {
+        bottom: 48px;
     }
-
-    .m-demo-img{
-      right: 43px;
-      top: 22px;
+    .m-demo-img {
+        right: 43px;
+        top: 22px;
     }
-
-    .m-demo-img img{
-      width: 55%;
+    .m-demo-img img {
+        width: 55%;
     }
-
-    .ctab-none{
-      display: none;
+    .ctab-none {
+        display: none;
     }
-
-    .panel-heading .slots-tabs > li > a{
-      padding: 5px 13px !important;
-    }
-
-    .panel-heading .lotto-tabs > li > a{
-      padding: 5px 10px !important;
-    }
-
-    .stab-none{
-      display: none;
-    }
-
-
-
-    .panel-heading .casino-tabs > li > a {
-      padding: 5px 20px !important;
-    }
-
     .panel-heading .slots-tabs > li > a {
-      padding: 5px 16px !important;
+        padding: 5px 13px !important;
     }
-
     .panel-heading .lotto-tabs > li > a {
-      padding: 5px 9px !important;
+        padding: 5px 10px !important;
     }
-
+    .stab-none {
+        display: none;
+    }
+    .panel-heading .casino-tabs > li > a {
+        padding: 5px 20px !important;
+    }
+    .panel-heading .slots-tabs > li > a {
+        padding: 5px 16px !important;
+    }
+    .promotion-swiper-container {
+        width: 262px;
+        margin-left: 11px;
+    }
+    .promotion-swiper-container {
+        width: 262px;
+        margin-left: 11px;
+    }
+    .panel-heading .lotto-tabs > li > a {
+        padding: 5px 9px !important;
+    }
+    .lotto-legend {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .ballot-result td:nth-child(4) img {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 360px) {
-  .remo-navbar-header .btn-group.bootstrap-select.fit-width {
-      width: 75px !important;
-      margin-left: -140px !important;
-  }
-  .panel-login {
-      width: 220%;
-  }
-
-  .cta-seemore {
-    bottom: 95px;
-    right: 10px;
-  }
-
-  .swiper-container {
-    width: 290px;
-  }
-
-  .swiper-slide a {
-    padding: 5px 17.6px;
-  }
-
+    .remo-navbar-header .btn-group.bootstrap-select.fit-width {
+        width: 75px !important;
+        margin-left: -140px !important;
+    }
+    .panel-login {
+        width: 220%;
+    }
+    .cta-seemore {
+        bottom: 95px;
+        right: 10px;
+    }
+    .swiper-container {
+        width: 290px;
+    }
+    .swiper-slide a {
+        padding: 5px 17.6px;
+    }
 }
 
 
@@ -438,76 +394,58 @@
     .panel-login {
         width: 219%;
     }
-
     .live-game .gameplatform {
         top: -39px;
         left: 93px;
     }
-
-    .breadcrumb-inner .casino-g ul li span{
-      font-size: 13px;
+    .breadcrumb-inner .casino-g ul li span {
+        font-size: 13px;
     }
-
-    .casino-g .content .cta-btn{
-      font-size: 13px;
-      padding: 3px 10px;
+    .casino-g .content .cta-btn {
+        font-size: 13px;
+        padding: 3px 10px;
     }
-
-    .casino-g .content ul{
-      bottom: -4px;
+    .casino-g .content ul {
+        bottom: -4px;
     }
-
     .cta-seemore {
-      bottom: 100px;
-      right: 10px;
+        bottom: 100px;
+        right: 10px;
     }
-
     .back {
-      bottom: 40px;
-      margin-right: -180px;
-      right: 55% !important;
-      position: fixed;
-      cursor: pointer;
-      display: none;
+        bottom: 40px;
+        margin-right: -180px;
+        right: 55% !important;
+        position: fixed;
+        cursor: pointer;
+        display: none;
     }
-
-    .selectpicker2{
-      left: -68px;
+    .selectpicker2 {
+        left: -68px;
     }
-
     .swiper-container {
-      width: 305px;
+        width: 305px;
     }
-
-    .swiper-slide a{
-      padding: 5px 19px;
+    .swiper-slide a {
+        padding: 5px 19px;
     }
-
-    .m-demo-img img{
-      width: 55%;
+    .m-demo-img img {
+        width: 55%;
     }
-
     .m-demo-img {
-      right: 51px;
-      top: 21px;
+        right: 51px;
+        top: 21px;
     }
-
     .panel-heading .slots-tabs > li > a {
-      padding: 5px 22px !important;
+        padding: 5px 22px !important;
     }
-
     .panel-heading .lotto-tabs > li > a {
-      padding: 5px 19px !important;
+        padding: 5px 19px !important;
     }
-
     .promotion-swiper-container {
-      width: 315px;
-      margin-left: 12px;
+        width: 315px;
+        margin-left: 12px;
     }
-
-
-
-
 }
 
 @media only screen and (min-width: 412px) {
@@ -525,61 +463,54 @@
     .panel-login {
         width: 217%;
     }
-
     .live-game .gameplatform {
         top: -39px;
         left: 112px;
     }
-
-    .breadcrumb-inner .casino-g ul li{
-      margin: 0 3px;
+    .breadcrumb-inner .casino-g ul li {
+        margin: 0 3px;
     }
-
-    .breadcrumb-inner .casino-g ul li span{
-      font-size: 14px;
+    .breadcrumb-inner .casino-g ul li span {
+        font-size: 14px;
     }
-
-    .casino-g .content .cta-btn{
-      font-size: 14px;
-      letter-spacing: 1px;
-      padding: 5px 12px;
+    .casino-g .content .cta-btn {
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 5px 12px;
     }
-
-    .casino-g .content ul{
-      bottom: -3px;
+    .casino-g .content ul {
+        bottom: -3px;
     }
-
     .cta-seemore {
-      bottom: 115px;
-      right: 10px;
+        bottom: 115px;
+        right: 10px;
     }
-
     .back {
-      bottom: 40px;
-      margin-right: -180px;
-      right: 50% !important;
-      position: fixed;
-      cursor: pointer;
-      display: none;
+        bottom: 40px;
+        margin-right: -180px;
+        right: 50% !important;
+        position: fixed;
+        cursor: pointer;
+        display: none;
     }
-
-    .selectpicker2{
-      left: -87px;
+    .selectpicker2 {
+        left: -87px;
     }
-
     .swiper-container {
-      width: 345px;
+        width: 345px;
     }
-
     .swiper-slide a {
-      padding: 5px 24px;
+        padding: 5px 24px;
     }
-
     .panel-heading .slots-tabs > li > a {
-      padding: 5px 28px !important;
+        padding: 5px 28px !important;
     }
-
-
+    .panel-heading .promotional-tabs {
+        width: 565px;
+    }
+    .panel-heading .promotional-tabs {
+        width: 565px;
+    }
 }
 
 
@@ -588,164 +519,178 @@
 @media only screen and (min-width: 480px) {}
 
 @media only screen and (min-width: 568px) {
-  .breadcrumb-inner .casino-g ul li{
-    margin: 0 5px;
-  }
-
-  .breadcrumb-inner .casino-g ul li span{
-    font-size: 14px;
-  }
-
-  .casino-g .content .cta-btn{
-    font-size: 14px;
-    letter-spacing: 2px;
-    padding: 5px 15px;
-  }
-
-  .casino-g .content ul{
-    width: 75%;
-    margin: 0px auto;
-    bottom: 9px
-  }
-
-  .casino-g img{
-    margin: 0 auto;
-  }
-
-  .cta-seemore {
-    bottom: 115px;
-    right: 85px;
-  }
-
-  .back {
-    bottom: 40px;
-    margin-right: -180px;
-    right: 35% !important;
-    position: fixed;
-    cursor: pointer;
-    display: none;
-  }
-
-  .selectpicker2{
-    left: -165px;
-  }
-
-  .selectfrommonth, .selectfromyear{
-    background-size: 18% 100% !important;
-  }
-
-  .swiper-container {
-    width: 500px;
-  }
-
-  .swiper-slide a {
-    padding: 5px 43.5px;
-  }
-
-  .breadcrumb-inner .casino-g .content {
-    bottom: 28px;
-  }
-
-
-
+    .breadcrumb-inner .casino-g ul li {
+        margin: 0 5px;
+    }
+    .breadcrumb-inner .casino-g ul li span {
+        font-size: 14px;
+    }
+    .casino-g .content .cta-btn {
+        font-size: 14px;
+        letter-spacing: 2px;
+        padding: 5px 15px;
+    }
+    .casino-g .content ul {
+        width: 75%;
+        margin: 0px auto;
+        bottom: 9px
+    }
+    .casino-g img {
+        margin: 0 auto;
+    }
+    .cta-seemore {
+        bottom: 115px;
+        right: 85px;
+    }
+    .back {
+        bottom: 40px;
+        margin-right: -180px;
+        right: 35% !important;
+        position: fixed;
+        cursor: pointer;
+        display: none;
+    }
+    .selectpicker2 {
+        left: -165px;
+    }
+    .selectfrommonth,
+    .selectfromyear {
+        background-size: 18% 100% !important;
+    }
+    .swiper-container {
+        width: 500px;
+    }
+    .swiper-slide a {
+        padding: 5px 43.5px;
+    }
+    .breadcrumb-inner .casino-g .content {
+        bottom: 28px;
+    }
+    .panel-heading .promotional-tabs {
+        width: 600px;
+        margin-left: 15px;
+    }
+    .tdw-body img {
+        margin: 0px auto;
+    }
+    .ballot-result td:nth-child(4) img {
+        width: 50%;
+    }
+    .panel-heading .casino-tabs {
+        width: 373px;
+        margin: 0px auto;
+    }
+    .panel-heading .slots-tabs {
+        width: 377px;
+    }
+    .panel-heading .promotional-tabs {
+        width: 600px;
+        margin-left: 15px;
+    }
+    .panel-heading .lotto-tabs {
+        width: auto;
+        margin: 0px auto;
+    }
 }
 
 @media only screen and (min-width: 640px) {
-  .cta-seemore {
-    bottom: 115px;
-    right: 115px;
-  }
-
-  .swiper-container {
-    width: 571px;
-  }
-
-  .swiper-slide a {
-    padding: 5px 52.8px;
-  }
+    .cta-seemore {
+        bottom: 115px;
+        right: 115px;
+    }
+    .swiper-container {
+        width: 571px;
+    }
+    .swiper-slide a {
+        padding: 5px 52.8px;
+    }
 }
 
 @media only screen and (min-width: 667px) {
-  .casino-g .content ul{
-    width: 63%;
-  }
-
-  .cta-seemore {
-    bottom: 115px;
-    right: 135px;
-  }
-
-  .back {
-    bottom: 40px;
-    margin-right: -180px;
-    right: 33% !important;
-    position: fixed;
-    cursor: pointer;
-    display: none;
-  }
-
-  .selectpicker2{
-    left: -215px;
-  }
-
-  .selectfrommonth, .selectfromyear{
-    background-size: 16% 100% !important;
-  }
-
-  .swiper-container {
-    width: 599px;
-  }
-
-  .swiper-slide a {
-    padding: 5px 56px;
-  }
-
-  .breadcrumb-inner .casino-g .content{
-    bottom: 28px;
-  }
-
-
-
+    .casino-g .content ul {
+        width: 63%;
+    }
+    .cta-seemore {
+        bottom: 115px;
+        right: 135px;
+    }
+    .back {
+        bottom: 40px;
+        margin-right: -180px;
+        right: 33% !important;
+        position: fixed;
+        cursor: pointer;
+        display: none;
+    }
+    .selectpicker2 {
+        left: -215px;
+    }
+    .selectfrommonth,
+    .selectfromyear {
+        background-size: 16% 100% !important;
+    }
+    .swiper-container {
+        width: 599px;
+    }
+    .swiper-slide a {
+        padding: 5px 56px;
+    }
+    .breadcrumb-inner .casino-g .content {
+        bottom: 28px;
+    }
+    .panel-heading .promotional-tabs {
+        width: 600px;
+        margin-left: 15px;
+    }
+    .panel-heading .promotional-tabs {
+        width: 600px;
+        margin-left: 15px;
+    }
 }
 
 @media only screen and (min-width: 736px) {
-  .casino-g .content ul{
-    width: 55%;
-  }
-
-  .cta-seemore {
-    bottom: 115px;
-    right: 165px;
-  }
-
-  .back {
-    bottom: 40px;
-    margin-right: -180px;
-    right: 30% !important;
-    position: fixed;
-    cursor: pointer;
-    display: none;
-  }
-
-  .selectpicker2{
-    left: -249px;
-  }
-
-  .swiper-container {
-    width: 667px;
-  }
-
-  .swiper-slide a {
-    padding: 5px 64.8px;
-  }
-
-
-  .promotion-swiper-container {
-    width: 386px;
-    margin-left: 160px;
-  }
-
-
+    .casino-g .content ul {
+        width: 55%;
+    }
+    .cta-seemore {
+        bottom: 115px;
+        right: 165px;
+    }
+    .back {
+        bottom: 40px;
+        margin-right: -180px;
+        right: 30% !important;
+        position: fixed;
+        cursor: pointer;
+        display: none;
+    }
+    .selectpicker2 {
+        left: -249px;
+    }
+    .swiper-container {
+        width: 667px;
+    }
+    .swiper-slide a {
+        padding: 5px 64.8px;
+    }
+    .promotion-swiper-container {
+        width: 386px;
+        margin-left: 160px;
+    }
+    .panel-heading .promotional-tabs {
+        width: 353px;
+    }
+    .panel-heading .promotional-tabs {
+        width: 600px;
+        margin-left: 15px;
+    }
+    .panel-heading .promotional-tabs {
+        width: 353px;
+    }
+    .panel-heading .promotional-tabs {
+        width: 600px;
+        margin-left: 15px;
+    }
 }
 
 
@@ -778,7 +723,6 @@
     .gp .live-game img {
         max-width: 88%;
     }
-
     main .marquee {
         bottom: 10px;
         width: 280px;
@@ -802,196 +746,168 @@
     footer .footer-line:before {
         border-left: 1px solid #000000;
     }
-
     .notice-dialog {
-      width: 1222px;
+        width: 1222px;
     }
-
     .live-game .gameplatform {
         top: -39px;
         left: 112px;
     }
-
     /* inedit ko ngayon */
-    .breadcrumb-inner .casino-g ul li{
-      margin: 0 10px;
+    .breadcrumb-inner .casino-g ul li {
+        margin: 0 10px;
     }
-
-    .breadcrumb-inner .casino-g ul li span{
-      font-size: 16px;
+    .breadcrumb-inner .casino-g ul li span {
+        font-size: 16px;
     }
-
-    .casino-g .content .cta-btn{
-      font-size: 14px;
-      letter-spacing: 2px;
-      padding: 5px 16px;
+    .casino-g .content .cta-btn {
+        font-size: 14px;
+        letter-spacing: 2px;
+        padding: 5px 16px;
     }
-
-    .casino-g .content ul{
-      bottom: -1px;
-      width: auto;
-      margin: auto;
+    .casino-g .content ul {
+        bottom: -1px;
+        width: auto;
+        margin: auto;
     }
-
-    .casino-g img{
-      margin: 0 0 10px;
+    .casino-g img {
+        margin: 0 0 10px;
     }
-
     .cta-seemore {
         bottom: 112px;
         right: 25px;
     }
-
-    .casino-more{
-      display: block
+    .casino-more {
+        display: block
     }
-
-    .nav.navbar-nav li:last-child a{
-      border-right: solid 1px #000
+    .nav.navbar-nav li:last-child a {
+        border-right: solid 1px #000
     }
-
     .back {
-      bottom: 40px;
-      margin-right: -180px;
-      right: 21% !important;
-      position: fixed;
-      cursor: pointer;
-      display: none;
+        bottom: 40px;
+        margin-right: -180px;
+        right: 21% !important;
+        position: fixed;
+        cursor: pointer;
+        display: none;
     }
-
-    .selectpicker{
-      font-size: 14px;
+    .selectpicker {
+        font-size: 14px;
     }
-
-    .bootstrap-select.open .dropdown-menu{
-      left: 0
+    .bootstrap-select.open .dropdown-menu {
+        left: 0
     }
-
-    .selectpicker2-menu{
-      top: 104px;
-      width: 100%;
+    .selectpicker2-menu {
+        top: 104px;
+        width: 100%;
     }
-
-    .selectpicker2-menu .row{
-      width: 1220px;
-      margin: 0px auto
+    .selectpicker2-menu .row {
+        width: 1220px;
+        margin: 0px auto
     }
-
-    .selectpicker2{
-      padding: 6px 12px;
-      top: 15px;
-      left: 15px;
-      font-size: 14px
+    .selectpicker2 {
+        padding: 6px 12px;
+        top: 15px;
+        left: 15px;
+        font-size: 14px
     }
-
-    .selectpicker2 .fa{
-      margin-left: 18px
+    .selectpicker2 .fa {
+        margin-left: 18px
     }
-
-    .breadcrumb-inner .sp-container img{
-      width: auto;
-      margin-top: 20px;
-      margin-left: 45px
+    .breadcrumb-inner .sp-container img {
+        width: auto;
+        margin-top: 20px;
+        margin-left: 45px
     }
-
-    .live-game > .promo-c > .promo-txt h3{
-      font-size: 16px;
-      font-weight: 700;
+    .live-game > .promo-c > .promo-txt h3 {
+        font-size: 16px;
+        font-weight: 700;
     }
-
-    .ballot-filter-div{
-      display: block;
-      width: 100% !important;
+    .ballot-filter-div {
+        display: block;
+        width: 100% !important;
     }
-
-    /*.ballot-filter-div:nth-child(2) {
-      padding-left: 1% !important;
+    ballot-filter-div:nth-child(2) {
+        padding-left: 1% !important;
     }
-
-    .ballot-filter-div:nth-child(3), .ballot-filter-div:nth-child(4) {
-      padding-left: 7% !important;
-    }*/
-
+    .ballot-filter-div:nth-child(3),
+    .ballot-filter-div:nth-child(4) {
+        padding-left: 7% !important;
+    }
     .casino-section .breadcrumb-inner .sp-container img {
-      width: 100%;
-      margin-top: auto;
-      margin-left: auto;
+        width: 100%;
+        margin-top: auto;
+        margin-left: auto;
     }
-
-    .slots-mp{
-      margin-top: auto;
+    .slots-mp {
+        margin-top: auto;
     }
-
-    .lotto-roll div:first-child{
-      font-size: 30px
+    .lotto-roll div:first-child {
+        font-size: 30px
     }
-
-    .lotto-roll div{
-      font-size: 20px
+    .lotto-roll div {
+        font-size: 20px
     }
-
-    .lotto-roll div:first-child span{
-      font-size: 30px;
-      line-height: 30px;
+    .lotto-roll div:first-child span {
+        font-size: 30px;
+        line-height: 30px;
     }
-
-    .lotto-roll div:first-child{
-      padding: 19px;
+    .lotto-roll div:first-child {
+        padding: 19px;
     }
-
-    .lotto-roll div{
-      padding: 19px
+    .lotto-roll div {
+        padding: 19px
     }
-
-    .lotto-roll div span{
-      margin-right: 0;
+    .lotto-roll div span {
+        margin-right: 0;
     }
-
-    .slots-see-more{
-      display: block
+    .slots-see-more {
+        display: block
     }
-
-    .td-win{
-      font-size: 16px;
-      padding-bottom: 15px;
-      height: 52px;
-      overflow: hidden;
+    .td-win {
+        font-size: 16px;
+        padding-bottom: 15px;
+        height: 52px;
+        overflow: hidden;
     }
-
-    .today-winnerb .title{
-      padding: 16px 16px;
-      font-size: 16px
+    .today-winnerb .title {
+        padding: 16px 16px;
+        font-size: 16px
     }
-
-    .td-list{
-      width: 1068px;
+    .td-list {
+        width: 1068px;
     }
-
-    .td-list ul li div{
-      font-size: 16px;
-      line-height: 52px;
-      display: inline-block;
-      width: 49%;
-      padding-right: 0;
+    .td-list ul li div {
+        font-size: 16px;
+        line-height: 52px;
+        display: inline-block;
+        width: 49%;
+        padding-right: 0;
     }
-
-    .td-list ul{
-      margin-left: 20px
+    .td-list ul {
+        margin-left: 20px
     }
-
-    .td-list ul li div:first-child{
-      text-align: left;
+    .td-list ul li div:first-child {
+        text-align: left;
     }
-    .breadcrumb-inner .casino-g .content{
-      bottom: 47px;
+    .breadcrumb-inner .casino-g .content {
+        bottom: 47px;
     }
-
-    .ctab-none{
-      display: block;
+    .ctab-none {
+        display: block;
     }
-
-    .stab-none{
-      display: block;
+    .stab-none {
+        display: block;
+    }
+    .lotto-legend {
+        margin-top: 20%;
+        margin-bottom: 0;
+    }
+    .tdw-body img {
+        margin: 0;
+    }
+    .ballot-result td:nth-child(4) img {
+        width: 40%;
     }
 }
 
@@ -1019,9 +935,9 @@
         width: 40px;
         height: 4px;
         -webkit-transition-timing-function: ease;
-                transition-timing-function: ease;
+        transition-timing-function: ease;
         -webkit-transition-duration: .15s;
-                transition-duration: .15s;
+        transition-duration: .15s;
         transition-property: -webkit-transform;
         -webkit-transition-property: -webkit-transform;
         transition-property: transform;
@@ -1069,7 +985,7 @@
     .panel-login {
         border-color: #303030;
         -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
-                box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
         width: 35%;
         position: absolute;
         z-index: 9;
@@ -1083,22 +999,20 @@
         margin-left: -5%
     }
     .jumbo {
-      position: absolute;
-  display: inline-block;
-  color: #0f0f0f;
-  left: 208px;
-  top: 23px;
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: 20.9px;
-  word-spacing: -34px;
-
+        position: absolute;
+        display: inline-block;
+        color: #0f0f0f;
+        left: 208px;
+        top: 23px;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 20.9px;
+        word-spacing: -34px;
     }
     main .marquee {
         width: 500px;
         bottom: 15px;
     }
-
     .account-container span {
         position: absolute;
         background: #f00;
@@ -1116,18 +1030,16 @@
         width: 252px;
         height: 50px;
         background: url('../img/logo.png') no-repeat 0 0;
-            background-repeat: no-repeat;
-            background-position-x: 0px;
-            background-position-y: 0px;
-            background-size: auto auto;
+        background-repeat: no-repeat;
+        background-position-x: 0px;
+        background-position-y: 0px;
+        background-size: auto auto;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
         margin-top: -13px;
     }
-
-
     footer .footer-shareit img {
-      width: 84px;
+        width: 84px;
     }
 }
