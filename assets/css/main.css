@@ -3424,3 +3424,7 @@ font-weight: 700;
 .fsalon .col-md-3:nth-child(3) img{
   width: 20%;
 }
+
+.account-container a{
+  margin: 0 5px !important;
+}
