@@ -3370,3 +3370,7 @@ font-weight: 700;
   border-bottom-color: #1b1b1b;
   font-weight: 700;
 }
+
+.desktop-support .county-line{
+  border-bottom: solid 1px #ffb013
+}
