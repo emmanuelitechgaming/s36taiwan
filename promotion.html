@@ -5,9 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="沙龍國際線上娛樂網站-台灣沙龍會優惠促銷獎勵,娛樂城首存獎金優惠,存款優惠高額回贈,遊戲周返水優惠,老虎機獎金紅利,娛樂城紅利獎金,會員最佳福利優惠活動。">
-    <meta name="keywords" content="沙龍國際賭場,沙龍會,娛樂城優惠,老虎機獎金,博彩網站優惠活動,百家樂獎金,網上賭場優惠,娛樂場返水 ">
+    <meta name="description" content="沙龍國際線上娛樂網站-台灣沙龍會優惠促銷獎勵：娛樂城首存獎金優惠、存款優惠高額回贈、遊戲周返水優惠、老虎機獎金紅利、娛樂城紅利獎金，會員最佳福利優惠活動。">
+    <meta name="keywords" content="沙龍國際賭場,沙龍會,娛樂城優惠,老虎機獎金,博彩網站優惠活動,百家樂獎金,網上賭場優惠,娛樂場返水">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
@@ -662,6 +661,16 @@
                 <div class="breadcrumb-inner">
                     <div class="">
                         <div class="panel with-nav-tabs">
+                          <div class="swiper-container promotion-swiper-container panel-heading hidden-lg hidden-md">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><a class="active" href="#tab1" data-toggle="tab">所有优惠</a></div>
+                                <div class="swiper-slide"><a href="#tab2" data-toggle="tab">娱乐场</a></div>
+                                <div class="swiper-slide"><a href="#tab3" data-toggle="tab">电投娱乐</a></div>
+                                <div class="swiper-slide"><a href="#tab4" data-toggle="tab">体育博彩</a></div>
+                                <div class="swiper-slide"><a href="#tab5" data-toggle="tab">角子老虎</a></div>
+                                <div class="swiper-slide"><a href="#tab6" data-toggle="tab">特式优惠</a></div>
+                            </div>
+                          </div>
                             <div class="panel-heading hidden-sm hidden-xs">
                                 <ul class="nav nav-tabs">
                                     <li class="active"><a href="#tab1" data-toggle="tab"class="tab1">所有优惠</a></li>
@@ -671,18 +680,9 @@
                                     <li><a href="#tab5" data-toggle="tab" class="tab5">角子老虎</a></li>
                                     <li><a href="#tab6" data-toggle="tab" class="tab6">特式优惠</a></li>
                                 </ul>
-                                  <div class="border borderstyle"style="margin: 0;"></div>
+                                <div class="border borderstyle"style="margin: 0;"></div>
                             </div>
-                            <div class="swiper-container promotion-swiper-container panel-heading hidden-lg hidden-md">
-                              <ul class="swiper-wrapper nav nav-tabs casino-tabs promotional-tabs">
-                                <li class="swiper-slide active"><a href="#tab1" data-toggle="tab">所有优惠</a></li>
-                                <li class="swiper-slide"><a href="#tab2" data-toggle="tab">娱乐场</a></li>
-                                <li class="swiper-slide"><a href="#tab3" data-toggle="tab">电投娱乐</a></li>
-                                <li class="swiper-slide"><a href="#tab4" data-toggle="tab">体育博彩</a></li>
-                                <li class="swiper-slide"><a href="#tab5" data-toggle="tab">角子老虎</a></li>
-                                <li class="swiper-slide"><a href="#tab6" data-toggle="tab">特式优惠</a></li>
-                              </ul>
-                            </div>
+
                             <div class="panel-body promo-body">
                                 <div class="tab-content">
                                     <div class="tab-pane fade in active" id="tab1">
@@ -1796,7 +1796,14 @@
         slidesPerView: 'auto',
         loop: false,
         slidesPerView: 'auto',
-      })
+      });
+
+      var mySwiper2 = new Swiper ('.promotion-swiper-container', {
+        direction: 'horizontal',
+        slidesPerView: 'auto',
+        loop: false,
+        slidesPerView: 'auto',
+      });
     })
   </script>
     <script>
