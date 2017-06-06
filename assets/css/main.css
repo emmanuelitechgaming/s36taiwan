@@ -3385,3 +3385,30 @@ font-weight: 700;
 #desktopSupportClose:hover{
   text-decoration: none
 }
+
+.promo-tbl{
+  width: 100%;
+  border: 1px solid #ccc
+}
+
+.promo-tbl th{
+  padding: 2px 10px;
+  background: #222
+}
+
+.promo-tbl td{
+  padding: 2px 10px;
+}
+
+.promo-tbl th, .promo-tbl td{
+  text-align: center;
+}
+
+.reg-now{
+  display: block;
+  margin-top: 15px;
+}
+
+.reg-now img{
+  height: 43px;
+}
