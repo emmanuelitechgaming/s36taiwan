@@ -201,6 +201,7 @@
     }
     .jacpot-nus-mobile .jacpot-nus {
         padding-top: 0;
+        margin-top: -20px;
     }
     .jacpot-nus-mobile {
         padding: 0 7px
