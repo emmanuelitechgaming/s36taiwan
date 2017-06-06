@@ -930,6 +930,7 @@
 
     .panel-close,.panel-close:active,.panel-close:focus{
       right: -19px;
+      bottom: 0;
     }
 }
 
