@@ -3402,6 +3402,7 @@ font-weight: 700;
 
 .promo-tbl th, .promo-tbl td{
   text-align: center;
+  background: #48484A
 }
 
 .reg-now{
@@ -3415,14 +3416,38 @@ font-weight: 700;
 
 .fsalon h4{
   white-space: nowrap;
+  margin-bottom: 15px
+}
+
+.fsalon .col-md-3:nth-child(1) a{
+  display: block;
+  width: 100%
+}
+
+.fsalon .col-md-3:nth-child(2) a{
+  display: block;
+  width: 120%
 }
 
 .fsalon .col-md-3:nth-child(3){
   margin-left: 10%;
 }
 
+
+.fsalon .col-md-3:nth-child(1) img{
+  width: 85%;
+}
+
+.fsalon .col-md-3:nth-child(2) img{
+  width: 100%;
+}
+
 .fsalon .col-md-3:nth-child(3) img{
-  width: 20%;
+  width: 22%;
+}
+
+.fsalon .col-md-3 ul{
+  padding-left: 5px;
 }
 
 .account-container a{
