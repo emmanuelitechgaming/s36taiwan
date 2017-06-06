@@ -203,7 +203,7 @@ $(document).ready(function () {
     $('.promotion-swiper-container a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
       $('.promotion-swiper-container').find('.active').removeClass('active');
       $(this).addClass('active');
-    })
+    });
 });
 
 function nextTab(elem) {
