@@ -3328,17 +3328,17 @@ font-weight: 700;
 
 .legend-red{
   background: url('../img/lotto/legend-red.png') no-repeat;
-  background-size: cover;
+  background-size: cover
 }
 
 .legend-green{
   background: url('../img/lotto/legend-green.png') no-repeat;
-  background-size: cover;
+  background-size: cover
 }
 
 .legend-blue{
   background: url('../img/lotto/legend-blue.png') no-repeat;
-  background-size: cover;
+  background-size: cover
 }
 
 .panel.with-nav-tabs .promotion-swiper-container{
