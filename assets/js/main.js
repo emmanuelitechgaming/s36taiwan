@@ -211,10 +211,26 @@ $(document).ready(function () {
       $('#desktopSupport').collapse('toggle');
     })
 
-    $('.selectpicker2-sub, .cntry').hover(function() {
+    $('.selectpicker2-sub').hover(function() {
       $(this).css('color', '#ffb013');
     }, function() {
       $(this).css('color', '#c4c4c4');
+    });
+
+    $('.cntry').hover(function() {
+      $(this).css('color', '#ffb013');
+      $(this).parent('a').find('.selectpicker2-sub').css('color', '#ffb013');
+    }, function() {
+      $(this).css('color', '#fff');
+      $(this).parent('a').find('.selectpicker2-sub').css('color', '#c4c4c4');
+    });
+
+    $('.selectpicker2-menu a').hover(function() {
+      $(this).find('.cntry').css('color', '#ffb013');
+      $(this).find('.selectpicker2-sub').css('color', '#ffb013')
+    }, function() {
+      $(this).find('.cntry').css('color', '#fff');
+      $(this).find('.selectpicker2-sub').css('color', '#c4c4c4');
     });
 });
 
