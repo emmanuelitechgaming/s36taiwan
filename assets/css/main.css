@@ -2578,7 +2578,7 @@ select + i.fa {
 }
 
 .selectpicker2-menu a:hover{
-  background: #333333
+  color: #ffb013
 }
 
 .selectpicker2-sub{
@@ -3373,4 +3373,15 @@ font-weight: 700;
 
 .desktop-support .county-line{
   border-bottom: solid 1px #ffb013
+}
+
+#desktopSupportClose{
+  background: url('../img/yellow-btn.png') repeat-x;
+  color: #333;
+  padding: 5px 30px;
+  border-radius: 4px
+}
+
+#desktopSupportClose:hover{
+  text-decoration: none
 }
