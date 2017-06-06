@@ -362,6 +362,20 @@
     .panel-close,.panel-close:active,.panel-close:focus{
       right: 5px;
     }
+
+    .lotto-legend div{
+      width: 31.33%;
+      display: inline-block;
+    }
+
+    .lotto-legend{
+      font-size: 15px;
+    }
+
+    .lotto-legend div span{
+      width: 30px;
+      height: 30px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -932,6 +946,20 @@
     .panel-close,.panel-close:active,.panel-close:focus{
       right: -19px;
       bottom: 0;
+    }
+
+    .lotto-legend div{
+      display: block;
+      width: auto;
+    }
+
+    .lotto-legend{
+      font-size: 23px;
+    }
+
+    .lotto-legend div span{
+      width: 34px;
+      height: 33px;
     }
 }
 
