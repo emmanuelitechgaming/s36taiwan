@@ -3229,7 +3229,6 @@ border-bottom: 1px solid #333333;
 
 .panel-close,.panel-close:active,.panel-close:focus{
   position: absolute;
-right: -19px;
 bottom: 0;
 text-decoration: none;
 color: #ffb013;
@@ -3282,10 +3281,11 @@ padding: 5px 44px !important;
   margin-bottom: -1px;
 }
 .panel-heading .casino-tabs > li > a:hover,.panel-heading .casino-tabs > li > a:focus{
-  color: #020202;
+  /*color: #020202;*/
 cursor: default;
-background-color: #ffb013;
-border: 1px solid #ffb013;
+/*background-color: #ffb013;*/
+/*border: 1px solid #ffb013;*/
+outline: 0;
 
 border-bottom-color: transparent;
 font-weight: 700;
@@ -3341,4 +3341,34 @@ font-weight: 700;
 
 .legend-blue{
   background: url('../img/lotto/legend-colors.png') no-repeat 0 -106px;
+}
+
+.panel.with-nav-tabs .promotion-swiper-container{
+    padding: 5px 0 0 0;
+}
+
+.promotion-swiper-container{
+  border-bottom: 1px solid #ffb013;
+}
+
+.promotion-swiper-container .swiper-slide a {
+    border-right: none;
+}
+
+.promotion-swiper-container a{
+  color: #ffb013;
+  border-radius: 4px 4px 0 0 !important
+}
+
+.promotion-swiper-container a:hover, .promotion-swiper-container a:active, .promotion-swiper-container a:focus{
+  text-decoration: none
+}
+
+.promotion-swiper-container a.active{
+  color: #ffb013;
+  cursor: default;
+  background-color: transparent;
+  border: 1px solid #ffb013;
+  border-bottom-color: #1b1b1b;
+  font-weight: 700;
 }
