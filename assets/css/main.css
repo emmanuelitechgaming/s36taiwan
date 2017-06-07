@@ -2581,9 +2581,9 @@ select + i.fa {
   color: #fff
 }
 
-.selectpicker2-menu a:hover{
+/*.selectpicker2-menu a:hover{
   background: #333333
-}
+}*/
 
 .selectpicker2-sub{
   font-size: 13px;
