@@ -235,13 +235,13 @@ $(document).ready(function () {
       $(this).parent('a').find('.selectpicker2-sub').css('color', '#c4c4c4');
     });
 
-    $('.selectpicker2-menu a').hover(function() {
-      $(this).find('.cntry').css('color', '#ffb013');
-      $(this).find('.selectpicker2-sub').css('color', '#ffb013')
-    }, function() {
-      $(this).find('.cntry').css('color', '#fff');
-      $(this).find('.selectpicker2-sub').css('color', '#c4c4c4');
-    });
+    // $('.selectpicker2-menu a').hover(function() {
+    //   $(this).find('.cntry').css('color', '#ffb013');
+    //   $(this).find('.selectpicker2-sub').css('color', '#ffb013')
+    // }, function() {
+    //   $(this).find('.cntry').css('color', '#fff');
+    //   $(this).find('.selectpicker2-sub').css('color', '#c4c4c4');
+    // });
 });
 
 function nextTab(elem) {
