@@ -218,9 +218,13 @@ $(document).ready(function () {
     })
 
     $('.selectpicker2-sub').hover(function() {
+      console.log($(this).html());
+      $('.selectpicker2-sub').css('color', '#c4c4c4');
       $(this).css('color', '#ffb013');
+      $(this).parent('a').find('.cntry').css('color', '#fff');
     }, function() {
       $(this).css('color', '#c4c4c4');
+      $(this).parent('a').find('.cntry').css('color', '#fff');
     });
 
     $('.cntry').hover(function() {
