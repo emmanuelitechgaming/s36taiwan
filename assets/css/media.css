@@ -1,5 +1,5 @@
 /*==================================================
-=            Bootstrap 3 Media Queriess             =
+=            Bootstrap 3 Media Queries             =
 ==================================================*/
 
 
@@ -361,6 +361,7 @@
 
     .panel-close,.panel-close:active,.panel-close:focus{
       right: 5px;
+        bottom: -22px
     }
 
     .lotto-legend div{
