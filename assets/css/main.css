@@ -1026,7 +1026,7 @@ padding: 20px 10px;
 }
 
 .panel-login .form-pad {
-    padding: 10px;
+    padding: 6px;
 }
 
 .panel-login .promo-txt {
@@ -1052,6 +1052,10 @@ padding: 20px 10px;
 
 
 }
+.form-recap{
+margin-top: 5px!important;
+}
+
 
 .ig-demo input::-webkit-input-placeholder {
     color: grey!important;
@@ -2577,9 +2581,9 @@ select + i.fa {
   color: #fff
 }
 
-/*.selectpicker2-menu a:hover{
-  color: #ffb013
-}*/
+.selectpicker2-menu a:hover{
+  background: #333333
+}
 
 .selectpicker2-sub{
   font-size: 13px;
@@ -3083,8 +3087,8 @@ position: relative;
 
 .afterlogin-support-trigger{
   position: relative;
-  right: 61.5%;
-  top: -10px;
+  right: 33.5%;
+  top: -4px;
 }
 
 .header-demoicon{
@@ -3225,6 +3229,8 @@ border-bottom: 1px solid #333333;
 
 .panel-close,.panel-close:active,.panel-close:focus{
   position: absolute;
+right: -19px;
+bottom: 0;
 text-decoration: none;
 color: #ffb013;
 font-size: 17px;
@@ -3276,11 +3282,10 @@ padding: 5px 44px !important;
   margin-bottom: -1px;
 }
 .panel-heading .casino-tabs > li > a:hover,.panel-heading .casino-tabs > li > a:focus{
-  /*color: #020202;*/
+  color: #020202;
 cursor: default;
-/*background-color: #ffb013;*/
-/*border: 1px solid #ffb013;*/
-outline: 0;
+background-color: #ffb013;
+border: 1px solid #ffb013;
 
 border-bottom-color: transparent;
 font-weight: 700;
@@ -3308,154 +3313,32 @@ font-weight: 700;
 
 .lotto-legend{
   color: #fff;
+  font-size: 23px;
   padding-left: 0;
   padding-right: 0;
 }
 
 .lotto-legend div{
+  display: block;
   margin-bottom: 15px;
 }
 
 .lotto-legend div span{
   display: inline-block;
+  width: 34px;
+  height: 33px;
   position: relative;
   top: 8px;
 }
 
 .legend-red{
-  background: url('../img/lotto/legend-red.png') no-repeat;
-  background-size: cover
+  background: url('../img/lotto/legend-colors.png') no-repeat 0 0;
 }
 
 .legend-green{
-  background: url('../img/lotto/legend-green.png') no-repeat;
-  background-size: cover
+  background: url('../img/lotto/legend-colors.png') no-repeat 0 -53px;
 }
 
 .legend-blue{
-  background: url('../img/lotto/legend-blue.png') no-repeat;
-  background-size: cover
-}
-
-.panel.with-nav-tabs .promotion-swiper-container{
-    padding: 5px 0 0 0;
-}
-
-.promotion-swiper-container{
-  border-bottom: 1px solid #ffb013;
-}
-
-.promotion-swiper-container .swiper-slide a {
-    border-right: none;
-}
-
-.promotion-swiper-container a{
-  color: #ffb013;
-  border-radius: 4px 4px 0 0 !important
-}
-
-.promotion-swiper-container a:hover, .promotion-swiper-container a:active, .promotion-swiper-container a:focus{
-  text-decoration: none
-}
-
-.promotion-swiper-container a.active{
-  color: #ffb013;
-  cursor: default;
-  background-color: transparent;
-  border: 1px solid #ffb013;
-  border-bottom-color: #1b1b1b;
-  font-weight: 700;
-}
-
-.desktop-support .county-line{
-  border-bottom: solid 1px #ffb013
-}
-
-#desktopSupportClose{
-  background: url('../img/yellow-btn.png') repeat-x;
-  color: #333;
-  padding: 5px 30px;
-  border-radius: 4px
-}
-
-#desktopSupportClose:hover{
-  text-decoration: none
-}
-
-.promo-tbl{
-  width: 100%;
-  border: 1px solid #ccc
-}
-
-.promo-tbl th{
-  padding: 2px 10px;
-  background: #222
-}
-
-.promo-tbl td{
-  padding: 2px 10px;
-}
-
-.promo-tbl th, .promo-tbl td{
-  text-align: center;
-  background: #48484A
-}
-
-.reg-now{
-  display: block;
-  margin-top: 15px;
-}
-
-.reg-now img{
-  height: 43px;
-}
-
-.fsalon h4{
-  white-space: nowrap;
-  margin-bottom: 15px
-}
-
-.fsalon .col-md-3:nth-child(1) a{
-  display: block;
-  width: 100%
-}
-
-.fsalon .col-md-3:nth-child(2) a{
-  display: block;
-  width: 120%
-}
-
-.fsalon .col-md-3:nth-child(3){
-  margin-left: 10%;
-}
-
-
-.fsalon .col-md-3:nth-child(1) img{
-  width: 85%;
-}
-
-.fsalon .col-md-3:nth-child(2) img{
-  width: 100%;
-}
-
-.fsalon .col-md-3:nth-child(3) img{
-  width: 22%;
-}
-
-.fsalon .col-md-3 ul{
-  padding-left: 5px;
-}
-
-.account-container a{
-  margin: 0 5px !important;
-}
-
-.account-container{
-  position: relative;
-  top: -9px;
-}
-
-.desktop-support-trigger.afterlogin-support-trigger{
-  position: relative;
-  top: -2px;
+  background: url('../img/lotto/legend-colors.png') no-repeat 0 -106px;
 }
