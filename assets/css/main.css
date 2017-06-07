@@ -2871,10 +2871,6 @@ footer .browsers li:first-child{
   margin-right: -5px
 }
 
-footer .certs li{
-  margin-left: 35px !important
-}
-
 @media( max-width : 585px ) {
 
     .wizard {

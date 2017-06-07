@@ -380,6 +380,11 @@
     .account-container img{
       width: 100%
     }
+
+    footer .certs li{
+      margin-left: 0 !important
+    }
+
 }
 
 @media only screen and (min-width: 360px) {
@@ -968,6 +973,10 @@
 
     .account-container img{
       width: 85%
+    }
+
+    footer .certs li{
+      margin-left: 35px !important
     }
 }
 
