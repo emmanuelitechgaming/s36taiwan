@@ -137,12 +137,15 @@ header .nathan-hm-d{
 }
 
 @media only screen and (max-width: 740px) {
+  
   .fsalon .col-md-3:nth-child(1) img{
     width: 25%;
   }
+
   .fsalon .col-md-3:nth-child(2) img{
     width: 30%;
   }
+
   .fsalon .col-md-3:nth-child(3) {
     margin-left: auto;
   }
