@@ -376,10 +376,6 @@
       width: 30px;
       height: 30px;
     }
-
-    .account-container img{
-      width: 100%
-    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -811,7 +807,7 @@
     }
     .cta-seemore {
         bottom: 112px;
-        right: 25px;
+        right: 12px;
     }
     .casino-more {
         display: block
@@ -965,10 +961,6 @@
       width: 34px;
       height: 33px;
     }
-
-    .account-container img{
-      width: 85%
-    }
 }
 
 
@@ -1051,7 +1043,7 @@
         z-index: 9;
         background: rgba(30, 30, 30, 0.8);
         right: -609px;
-        top: -21px;
+        top: -27px;
         border-radius: 0;
     }
     .fsalon div:last-child {
