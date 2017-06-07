@@ -33,6 +33,20 @@
     <link rel="stylesheet" href="assets/css/media-queries/nathan-media.css">
     <link rel="stylesheet" href="assets/css/remo-style.css">
 
+<style>
+
+/* already defined in bootstrap4 */
+.form-recap {
+    text-align: center;
+}
+
+.g-recaptcha {
+    display: inline-block;
+}
+
+
+</style>
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
@@ -679,7 +693,7 @@
                                 </div>
 
                                 <div class="panel-border"></div>
-                                <div class="form-group form-inline form-captcha">
+                                <div class="form-group form-inline form-captcha form-recap">
                                     <!-- <div class="input-group col-xs-7">
 
                                         <input class="form-control" type="text" placeholder="驗證碼">
@@ -687,7 +701,8 @@
                                     <div class="captcha-img col-xs-5">
                                         <img src="assets/img/captcha.png" class="img-responsive" alt="">
                                     </div> -->
-                                    <div class="g-recaptcha" data-sitekey="6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M"></div>
+                                    <script src='https://www.google.com/recaptcha/api.js?hl=zh-TW'></script>
+                                    <div class="g-recaptcha  recaptScale" data-sitekey="6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M" data-theme="dark"   data-size="small"></div>
                                 </div>
                                 <div class="panel-border"></div>
                                 <div class="form-pad">
@@ -1647,23 +1662,8 @@
     <script src="dist/js/font-awesome.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-    <script type="text/javascript">
-      var onloadCallback = function() {
-        alert("grecaptcha is ready!");
-      };
-    </script>
-    <script type="text/javascript">
- var RecaptchaOptions = {
-    sitekey : '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
-    theme : 'dark'
-    /*WE CAN USE FOLLOWING THEME TO CHANGE THE COLOR OF RECAPTHCA*/
-    /*red,white,blackglass,clean'*/
 
-    /*lang :'es';*/ //used to set the language
- };
- </script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit&hl=zh-TW" async defer></script>
+
     <script>
     $(document).ready(function() {
       var mySwiper = new Swiper ('.swiper-container', {
@@ -1673,6 +1673,85 @@
         slidesPerView: 'auto',
       })
     })
+  </script>
+  <script>
+      $(document).ready(function() {
+
+        $( ".panel-close" ).click(function() {
+          $( ".panel-pane" ).fadeOut( "slow", function() {
+            $(".panel-login-btn").show();
+            // Animation complete.
+          });
+        });
+        $( ".panel-login-btn" ).click(function() {
+
+          $( ".panel-pane" ).slideDown( "fast", function() {
+            // Animation complete.
+
+          });
+        });
+          $('.marquee').marquee({
+              //speed in milliseconds of the marquee
+              duration: 9000,
+              //gap in pixels between the tickers
+              gap: 50,
+              //time in milliseconds before the marquee will start animating
+              delayBeforeStart: 0,
+              //'left' or 'right'
+              direction: 'left',
+              //true or false - should the marquee be duplicated to show an effect of continues flow
+              duplicated: true
+          });
+
+          var options = {  
+              useEasing: true,
+                useGrouping: true,
+                separator: ' ',
+                decimal: ' ',
+                prefix: '',
+                suffix: ''
+          };
+
+          var demo = new CountUp("myTargetElement", 12345678, 99999999, 2, 100000000, options);
+          demo.start();
+
+      });
+  </script>
+  <script type="text/javascript">
+  // Resize reCAPTCHA to fit width of container
+  // Since it has a fixed width, we're scaling
+  // using CSS3 transforms
+  // ------------------------------------------
+  // captchaScale = containerWidth / elementWidth
+
+  function scaleCaptcha(elementWidth) {
+  // Width of the reCAPTCHA element, in pixels
+  var reCaptchaWidth = 304;
+  // Get the containing element's width
+  var containerWidth = $('.form-recap').width();
+
+  // Only scale the reCAPTCHA if it won't fit
+  // inside the container
+  if(reCaptchaWidth > containerWidth) {
+    // Calculate the scale
+    var captchaScale = containerWidth / reCaptchaWidth;
+    // Apply the transformation
+    $('.g-recaptcha').css({
+      'transform':'scale('+captchaScale+')'
+    });
+  }
+  }
+
+  $(function() {
+
+  // Initialize scaling
+  scaleCaptcha();
+
+  // Update scaling on window resize
+  // Uses jQuery throttle plugin to limit strain on the browser
+  $(window).resize( $.throttle( 100, scaleCaptcha ) );
+
+  });
   </script>
 
 <script>
@@ -1687,49 +1766,7 @@ document.querySelector('.sweet-12').onclick = function(){
      });
    };
 </script>
-    <script>
-        $(document).ready(function() {
 
-          $( ".panel-close" ).click(function() {
-            $( ".panel-pane" ).fadeOut( "slow", function() {
-              $(".panel-login-btn").show();
-              // Animation complete.
-            });
-          });
-          $( ".panel-login-btn" ).click(function() {
-
-            $( ".panel-pane" ).slideDown( "fast", function() {
-              // Animation complete.
-
-            });
-          });
-            $('.marquee').marquee({
-                //speed in milliseconds of the marquee
-                duration: 9000,
-                //gap in pixels between the tickers
-                gap: 50,
-                //time in milliseconds before the marquee will start animating
-                delayBeforeStart: 0,
-                //'left' or 'right'
-                direction: 'left',
-                //true or false - should the marquee be duplicated to show an effect of continues flow
-                duplicated: true
-            });
-
-            var options = {  
-                useEasing: true,
-                  useGrouping: true,
-                  separator: ' ',
-                  decimal: ' ',
-                  prefix: '',
-                  suffix: ''
-            };
-
-            var demo = new CountUp("myTargetElement", 12345678, 99999999, 2, 100000000, options);
-            demo.start();
-
-        });
-    </script>
 
     <script>
         var forEach = function(t, o, r) {

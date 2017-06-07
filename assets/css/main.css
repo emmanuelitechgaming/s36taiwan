@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Author's custom styles
+   Author's custom styless
    ========================================================================== */
 *{
   font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
@@ -1026,7 +1026,7 @@ padding: 20px 10px;
 }
 
 .panel-login .form-pad {
-    padding: 10px;
+    padding: 6px;
 }
 
 .panel-login .promo-txt {
@@ -1052,6 +1052,10 @@ padding: 20px 10px;
 
 
 }
+.form-recap{
+margin-top: 5px!important;
+}
+
 
 .ig-demo input::-webkit-input-placeholder {
     color: grey!important;
@@ -2577,9 +2581,9 @@ select + i.fa {
   color: #fff
 }
 
-/*.selectpicker2-menu a:hover{
-  color: #ffb013
-}*/
+.selectpicker2-menu a:hover{
+  background: #333333
+}
 
 .selectpicker2-sub{
   font-size: 13px;
@@ -2871,10 +2875,6 @@ footer .browsers li:first-child{
   margin-right: -5px
 }
 
-footer .certs li{
-  margin-left: 35px !important
-}
-
 @media( max-width : 585px ) {
 
     .wizard {
@@ -3087,8 +3087,8 @@ position: relative;
 
 .afterlogin-support-trigger{
   position: relative;
-  right: 61.5%;
-  top: -10px;
+  right: 33.5%;
+  top: -4px;
 }
 
 .header-demoicon{
@@ -3229,6 +3229,8 @@ border-bottom: 1px solid #333333;
 
 .panel-close,.panel-close:active,.panel-close:focus{
   position: absolute;
+right: -19px;
+bottom: 0;
 text-decoration: none;
 color: #ffb013;
 font-size: 17px;
@@ -3280,11 +3282,10 @@ padding: 5px 44px !important;
   margin-bottom: -1px;
 }
 .panel-heading .casino-tabs > li > a:hover,.panel-heading .casino-tabs > li > a:focus{
-  /*color: #020202;*/
+  color: #020202;
 cursor: default;
-/*background-color: #ffb013;*/
-/*border: 1px solid #ffb013;*/
-outline: 0;
+background-color: #ffb013;
+border: 1px solid #ffb013;
 
 border-bottom-color: transparent;
 font-weight: 700;
@@ -3312,28 +3313,30 @@ font-weight: 700;
 
 .lotto-legend{
   color: #fff;
+  font-size: 23px;
   padding-left: 0;
   padding-right: 0;
 }
 
 .lotto-legend div{
+  display: block;
   margin-bottom: 15px;
 }
 
 .lotto-legend div span{
   display: inline-block;
+  width: 34px;
+  height: 33px;
   position: relative;
   top: 8px;
 }
 
 .legend-red{
-  background: url('../img/lotto/legend-red.png') no-repeat;
-  background-size: cover
+  background: url('../img/lotto/legend-colors.png') no-repeat 0 0;
 }
 
 .legend-green{
-  background: url('../img/lotto/legend-green.png') no-repeat;
-  background-size: cover
+  background: url('../img/lotto/legend-colors.png') no-repeat 0 -53px;
 }
 
 .legend-blue{

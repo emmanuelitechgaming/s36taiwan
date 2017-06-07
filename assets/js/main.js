@@ -218,9 +218,13 @@ $(document).ready(function () {
     })
 
     $('.selectpicker2-sub').hover(function() {
+      console.log($(this).html());
+      $('.selectpicker2-sub').css('color', '#c4c4c4');
       $(this).css('color', '#ffb013');
+      $(this).parent('a').find('.cntry').css('color', '#fff');
     }, function() {
       $(this).css('color', '#c4c4c4');
+      $(this).parent('a').find('.cntry').css('color', '#fff');
     });
 
     $('.cntry').hover(function() {
@@ -231,13 +235,13 @@ $(document).ready(function () {
       $(this).parent('a').find('.selectpicker2-sub').css('color', '#c4c4c4');
     });
 
-    $('.selectpicker2-menu a').hover(function() {
-      $(this).find('.cntry').css('color', '#ffb013');
-      $(this).find('.selectpicker2-sub').css('color', '#ffb013')
-    }, function() {
-      $(this).find('.cntry').css('color', '#fff');
-      $(this).find('.selectpicker2-sub').css('color', '#c4c4c4');
-    });
+    // $('.selectpicker2-menu a').hover(function() {
+    //   $(this).find('.cntry').css('color', '#ffb013');
+    //   $(this).find('.selectpicker2-sub').css('color', '#ffb013')
+    // }, function() {
+    //   $(this).find('.cntry').css('color', '#fff');
+    //   $(this).find('.selectpicker2-sub').css('color', '#c4c4c4');
+    // });
 });
 
 function nextTab(elem) {
