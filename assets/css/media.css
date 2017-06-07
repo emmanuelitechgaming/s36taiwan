@@ -386,6 +386,15 @@
       margin-left: 0 !important
     }
 
+    .certs li{
+      width: 49%;
+      margin-bottom: 15px;
+    }
+
+    .certs li:nth-child(even){
+      text-align: center
+    }
+
 }
 
 @media only screen and (min-width: 360px) {
@@ -971,13 +980,22 @@
       width: 34px;
       height: 33px;
     }
-  
+
     .account-container img{
       width: 85%
     }
 
     footer .certs li{
       margin-left: 35px !important
+    }
+
+    .certs li{
+      width: auto;
+      margin-bottom: auto;
+    }
+
+    .certs li:nth-child(even){
+      text-align: center
     }
 }
 
