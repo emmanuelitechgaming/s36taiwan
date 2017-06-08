@@ -1180,3 +1180,19 @@
         width: 84px;
     }
 }
+
+
+@media only screen and (max-width: 740px) {
+  .prizepool {
+    padding: 10px;
+    font-weight: 700;
+    color: #ffb300;
+    font-size: 13px;
+  }
+
+  .win-body .user {
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+  }
+}
