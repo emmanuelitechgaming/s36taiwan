@@ -543,10 +543,6 @@ footer .footer-line {
     position: relative;
 }
 
-footer .footer-pad {
-    padding-left: 15px;
-}
-
 footer .footer-line:before {
     position: relative;
     /*position: absolute;*/
