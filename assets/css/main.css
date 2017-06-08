@@ -370,7 +370,7 @@ main .win-cs {
     overflow: hidden;
 }
 
-main .win-body .user {
+.win-body .user {
     color: #fff;
     font-size: 16px;
     font-weight: 700;
@@ -383,7 +383,7 @@ main .win-body span {
     font-weight: 700;
 }
 
-main .prizepool {
+.prizepool {
     padding: 10px;
     font-weight: 700;
     color: #ffb300;
