@@ -514,7 +514,7 @@ footer .footer-services p {
 }
 
 footer .footer-gameprovider .gameprovider {
-    padding: 5px;
+    padding: 5px 0;
 }
 
 footer .copyright {
@@ -2042,7 +2042,8 @@ input[type=password]:hover {
 }
 
 .no-bullet {
-    list-style: none
+    list-style: none;
+    mar
 }
 
 .columns .list {
@@ -2066,7 +2067,6 @@ input[type=password]:hover {
     background-size: auto auto;
     width: 238px;
     background-size: 237px;
-    margin-left: 15px;
 }
 
 .footer .sub label {
@@ -2878,7 +2878,7 @@ footer .browsers li{
 }
 
 footer .browsers li:first-child{
-  margin-left: 30px !important;
+  margin-left: 0 !important;
   margin-right: -5px
 }
 
@@ -3094,7 +3094,7 @@ position: relative;
 
 .afterlogin-support-trigger{
   position: relative;
-  right: 33.5%;
+  right: 62.5%;
   top: -4px;
 }
 
@@ -3458,7 +3458,7 @@ font-weight: 700;
 }
 
 .fsalon .col-md-3 ul{
-  padding-left: 5px;
+  padding-left: 0;
 }
 
 .account-container a{
@@ -3473,4 +3473,12 @@ font-weight: 700;
 .desktop-support-trigger.afterlogin-support-trigger{
   position: relative;
   top: -2px;
+}
+
+.certs li:nth-child(1){
+  margin-left: 0 !important
+}
+
+.columns.f-social img{
+  margin-left: 0;
 }

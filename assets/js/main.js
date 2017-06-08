@@ -227,21 +227,12 @@ $(document).ready(function () {
       $(this).parent('a').find('.cntry').css('color', '#fff');
     });
 
-    $('.cntry').hover(function() {
-      $(this).css('color', '#ffb013');
-      $(this).parent('a').find('.selectpicker2-sub').css('color', '#ffb013');
+    $('.selectpicker2-menu a').hover(function() {
+      $(this).css('border-bottom', '1px solid #ffb013');
     }, function() {
-      $(this).css('color', '#fff');
-      $(this).parent('a').find('.selectpicker2-sub').css('color', '#c4c4c4');
+      $(this).find('.cntry').css('color', '#fff');
+      $(this).css('border-bottom', '1px solid #c2c2c2');
     });
-
-    // $('.selectpicker2-menu a').hover(function() {
-    //   $(this).find('.cntry').css('color', '#ffb013');
-    //   $(this).find('.selectpicker2-sub').css('color', '#ffb013')
-    // }, function() {
-    //   $(this).find('.cntry').css('color', '#fff');
-    //   $(this).find('.selectpicker2-sub').css('color', '#c4c4c4');
-    // });
 });
 
 function nextTab(elem) {
