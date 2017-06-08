@@ -3504,3 +3504,22 @@ font-weight: 700;
 #a-acc .account-info, #a-wallet .account-info{
   color: #ffb013
 }
+
+.display-inline-block{
+  display: inline-block !important;
+  width: 22.4%
+}
+
+.inv {
+display: none !important;
+}
+.vis{
+  display: block !important;
+}
+
+.invb {
+display: none !important;
+}
+.visb{
+  display: block !important;
+}
