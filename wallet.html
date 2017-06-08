@@ -666,17 +666,224 @@
                 <div class="breadcrumb-inner">
                   <div class=" account account-c">
 
-                    <div class="wallet account balance">
+                    <div class="wallet deposit">
+                      <form action="http://122.152.160.69/paymenttest/depositpostrequest.php" method="post">
+                      <div class="title">我的钱包</div>
+                      <div class="display-block"><div class="account-text">Merchant: </div><input type="text" name="merchant" class="form-control display-inline-block" value="M0068"></div>
+
+                      <div class="display-block">
+                        <div class="account-text">存款：</div>
+                        <div class="form-group">
+                          <select id="currency" name="currency" class="form-control">
+                    					<option value="">--- SELECT CURRENCY ---</option>
+                    					<option value="MYR">MYR</option>
+                    					<option value="THB">THB</option>
+                    					<option value="VND">VND</option>
+                    					<option value="IDR">IDR</option>
+                    				</select>
+                        </div>
+                      </div>
+
+                      <div class="display-block"><div class="account-text">Customer: </div><input type="text" name="customer" class="form-control display-inline-block" value="220099"></div>
+
+                      <div class="display-block"><div class="account-text">Amount: </div><input type="text" name="amount" class="form-control display-inline-block" value="50.00"></div>
+
+                      <div class="display-block">
+                        <div class="account-text">Bank: </div>
+                        <div class="form-group">
+                          <div id="None" name="None" >
+                            <select id="bank1" name="bank1"class="form-control"  >
+                              <option value="">--- SELECT BANK ---</option>
+                            </select>
+                          </div>
+                    				<div id="MYR" name="MYR" class="inv">
+                    					<select id="bank2" name="bank2" class="form-control">
+                    						<option value="">--- SELECT BANK ---</option>
+                    						<option value="MBB">MBB</option>
+                    						<option value="PBB">PBB</option>
+                    						<option value="CIMB">CIMB</option>
+                    						<option value="HLB">HLB</option>
+                    						<option value="RHB">RHB</option>
+                    						<option value="AMB">AMB</option>
+                    					</select>
+                    				</div>
+                    				<div id="THB" name="THB" class="inv">
+                    					<select id="bank3" name="bank3" class="form-control">
+                    						<option value="">--- SELECT BANK ---</option>
+                    						<option value="KKR">KKR</option>
+                    						<option value="BBL">BBL</option>
+                    						<option value="SCB">SCB</option>
+                    						<option value="KTB">KTB</option>
+                    						<option value="BOA">BOA</option>
+                    						<option value="GSB">GSB</option>
+                    					</select>
+                    				</div>
+                    				<div id="VND" name="VND" class="inv ">
+                    					<select id="bank4" name="bank4" class="form-control">
+                    						<option value="">--- SELECT BANK ---</option>
+                    						<option value="TCB">TCB</option>
+                    						<option value="SACOM">SACOM</option>
+                    						<option value="VCB">VCB</option>
+                    						<option value="ACB">ACB</option>
+                    						<option value="DAB">DAB</option>
+                    						<option value="VTB">VTB</option>
+                    						<option value="BIDV">BIDV</option>
+                    						<option value="EXIM">EXIM</option>
+                    					</select>
+                    				</div>
+                    				<div id="IDR" name="IDR" class="inv ">
+                    					<select id="bank5" name="bank5" class="form-control">
+                    						<option value="">--- SELECT BANK ---</option>
+                    						<option value="BCA">BCA</option>
+                    						<option value="BNI">BNI</option>
+                    						<option value="BRI">BRI</option>
+                    						<option value="MDR">MDR</option>
+                    					</select>
+                    				</div>
+
+                    				<input type="hidden" name="bank" id="bank" value="">
+                        </div>
+                      </div>
+
+                      <p class="botton">
+                        <input type="Submit" value="Confirm" class="btn-hidden">
+                      </p>
+                      <input type="hidden" name="reference" value="20170608175916">
+                      <input type="hidden" name="fronturi" value="http://merchant.com/Front.aspx">
+                      <input type="hidden" name="backuri" value="http://merchant.com/Back.aspx">
+                      <input type="hidden" name="language" value="en-us">
+                      </form>
+
+                    </div>
+
+                    <div class="wallet deposit">
+                      <form method="post" action="http://122.152.160.69/paymenttest/payoutpostrequest.php" id="payoutForm">
+
+                        <div class="display-block"><div class="account-text">Amount: </div><input type="text" name="Amount" value="50.00" class="form-control display-inline-block"></div>
+
+                        <div class="display-block">
+                          <div class="account-text">CurrencyCode</div>
+                          <div class="form-group">
+                            <select id="CurrencyCode" name="CurrencyCode" class="form-control">
+                              <option value="">--- SELECT CURRENCY ---</option>
+                              <option value="MYR">MYR</option>
+                              <option value="THB">THB</option>
+                              <option value="VND">VND</option>
+                              <option value="IDR">IDR</option>
+                              <option value="MMK">MMK</option>
+                              <option value="CNY">CNY</option>
+                            </select>
+                          </div>
+                        </div>
+
+                        <div class="display-block"><div class="account-text">MemberCode: </div><input type="text" name="MemberCode" class="form-control display-inline-block" value="player01"></div>
+
+                        <div class="display-block"><div class="account-text">MerchantCode: </div><input type="text" name="MerchantCode" class="form-control display-inline-block" value="M0068"></div>
+
+                        <div class="display-block">
+                          <div class="account-text">BankCode</div>
+                          <div class="form-group">
+                            <div id="Noneb" name="None">
+                              <select id="bank1b" name="bank1" class="form-control">
+                                <option value="">--- SELECT BANK ---</option>
+                              </select>
+                            </div>
+                            <div id="MYR" name="MYR" class="payoutbank invb ">
+                              <select id="bank2b" name="bank2" class="form-control">
+                                <option value="">--- SELECT BANK ---</option>
+                                <option value="MBB">MBB</option>
+                                <option value="PBB">PBB</option>
+                                <option value="CIMB">CIMB</option>
+                                <option value="HLB">HLB</option>
+                                <option value="RHB">RHB</option>
+                                <option value="AMB">AMB</option>
+                              </select>
+                            </div>
+                            <div id="THB" name="THB" class="payoutbank invb ">
+                              <select id="bank3b" name="bank3" class="form-control">
+                                <option value="">--- SELECT BANK ---</option>
+                                <option value="KKR">KKR</option>
+                                <option value="BBL">BBL</option>
+                                <option value="SCB">SCB</option>
+                                <option value="KTB">KTB</option>
+                                <option value="BOA">BOA</option>
+                                <option value="GSB">GSB</option>
+                              </select>
+                            </div>
+                            <div id="VND" name="VND" class="payoutbank invb ">
+                              <select id="bank4b" name="bank4" class="form-control">
+                                <option value="">--- SELECT BANK ---</option>
+                                <option value="TCB">TCB</option>
+                                <option value="SACOM">SACOM</option>
+                                <option value="VCB">VCB</option>
+                                <option value="ACB">ACB</option>
+                                <option value="DAB">DAB</option>
+                                <option value="VTB">VTB</option>
+                                <option value="BIDV">BIDV</option>
+                                <option value="EXIM">EXIM</option>
+                              </select>
+                            </div>
+                            <div id="IDR" name="IDR" class="payoutbank invb ">
+                              <select id="bank5b" name="bank5" class="form-control">
+                                <option value="">--- SELECT BANK ---</option>
+                                <option value="BCA">BCA</option>
+                                <option value="BNI">BNI</option>
+                                <option value="BRI">BRI</option>
+                                <option value="MDR">MDR</option>
+                              </select>
+                            </div>
+                            <div id="MMK" name="MMK" class="payoutbank invb ">
+                              <select id="bank6b" name="bank6" class="form-control">
+                                <option value="">--- SELECT BANK ---</option>
+                                <option value="AYA">AYA</option>
+                                <option value="CCB">CCB</option>
+                                <option value="KBZ">KBZ</option>
+                              </select>
+                            </div>
+                            <div id="CNY" name="CNY" class="payoutbank invb ">
+                              <select id="bank7b" name="bank7" class="form-control">
+                                <option value="">--- SELECT BANK ---</option>
+                                <option value="ABC">ABC</option>
+                                <option value="BOC">BOC</option>
+                              </select>
+                            </div>
+                            <input type="hidden" name="BankCode" id="BankCode" value="">
+                          </div>
+                        </div>
+
+                        <div class="display-block"><div class="account-text">Account Name: </div><input type="text" name="toBankAccountName" class="form-control display-inline-block" value="Ng Chee Meng"></div>
+
+                        <div class="display-block"><div class="account-text">Account Number: </div><input type="text" name="toBankAccountNumber" class="form-control display-inline-block" value="1234567890"></div>
+
+                        <div class="display-block"><div class="account-text">Note: </div><input type="text" name="Note" class="form-control display-inline-block" value="n/a"></div>
+
+                        <div class="display-block"><div class="account-text">Province: </div><input type="text" name="toProvince" class="form-control display-inline-block" value="n/a"></div>
+
+                        <div class="display-block"><div class="account-text">City: </div><input type="text" name="toCity" class="form-control display-inline-block" value="n/a"></div>
+
+                        <div class="display-block"><div class="account-text">Branch: </div><input type="text" name="toBranch" class="form-control display-inline-block" value="n/a"></div>
+
+                      	<input type="hidden" name="Language" value="en">
+                      	<input type="hidden" name="ReturnURI" value="n/a">
+
+                        <p class="botton">
+                          <input type="Submit" value="Confirm" class="btn-hidden">
+                        </p>
+                      </form>
+                    </div>
+
+
+                    <!-- <div class="wallet account balance">
                         <div class="title">我的钱包</div>
                       <div>会员：<span>csabc888888888</span></div>
                       <div class="bal">
                       <div>余额：<span>0.00</span></div>
                       <div> <i class="fa fa-undo" aria-hidden="true"></i> 刷新 </div>
                       </div>
-                    </div>
+                    </div> -->
 
 
-                    <div class="wallet deposit">
+                    <!-- <div class="wallet deposit">
                       <div class="title">我的钱包</div>
                       <div class="account-text">存款：</div>
                       <div class="form-group">
@@ -688,10 +895,10 @@
                         </select>
                       </div>
 
-                    </div>
+                    </div> -->
 
 
-                    <div class="wallet withdraw">
+                    <!-- <div class="wallet withdraw">
                         <div class="title">我的钱包</div>
                       <div class="account-text">取款：</div>
                       <div class="form-group">
@@ -702,10 +909,10 @@
                           <option>withdraw</option>
                         </select>
                       </div>
-                    </div>
+                    </div> -->
 
 
-                    <div class="wallet">
+                    <!-- <div class="wallet">
                         <div class="title">我的钱包</div>
                     <div> <div class="account-text">日期由</div><input id="datepicker-from" type="text"  placeholder="start date" class="datepicker"></div>
                     <div> <div class="account-text">至：</div><input id="datepicker-to" type="text" class="datepicker" placeholder="end date"></div>
@@ -719,10 +926,10 @@
                           <option>交易种类</option>
                         </select>
                       </div>
-                    </div>
+                    </div> -->
 
 
-                    <div class=" display-block">
+                    <!-- <div class=" display-block">
                       <div class="account-text">状态：</div>
                       <div class="form-group">
                         <select class="form-control" >
@@ -735,7 +942,7 @@
                     </div>
                     <p class="botton">
                     <input type="submit" name="btnSearch" value="提交" id="btnSearch" tabindex="15" imageurl="#" class="btn-hidden">
-                    </p>
+                    </p> -->
                     </div>
 
                   </div>
@@ -1269,6 +1476,107 @@
             });
         })
     </script>
+
+    <script>
+
+		document
+				.getElementById('currency')
+				.addEventListener('change', function () {
+						'use strict';
+						var vis = document.querySelector('.vis'),
+								target = document.getElementById(this.value);
+						if (vis !== null) {
+									document.getElementById('None').style.display = "none";
+								vis.className = 'inv';
+
+						}
+						if (target !== null ) {
+								target.className = 'vis';
+								document.getElementById('None').style.display = "none";
+						}
+		});
+
+  </script>
+
+  <script>
+      //
+  		// document
+  		// 		.getElementById('CurrencyCodeb')
+  		// 		.addEventListener('change', function () {
+  		// 				'use strict';
+  		// 				var vis = document.querySelector('.visb'),
+  		// 						target = document.getElementById(this.value);
+  		// 				if (vis !== null) {
+  		// 							document.getElementById('Noneb').style.display = "none";
+  		// 						vis.className = 'invb';
+      //
+  		// 				}
+  		// 				if (target !== null ) {
+  		// 						target.className = 'visb';
+  		// 						document.getElementById('Noneb').style.display = "none";
+  		// 				}
+  		// });
+
+      $('#CurrencyCode').on('change', function() {
+        $('.payoutbank').addClass('invb');
+        console.log('wallet');
+        console.log($(this).val());
+        $('#Noneb').css('display', 'none');
+        $('#payoutForm #'+ $(this).val()).removeClass('invb').addClass('vis');
+      });
+  </script>
+
+  <script type="text/javascript">
+  $(document).ready(function () {
+  	$("#bank1").change(function () {
+  		$('#bank').val($("#bank1").val());
+  	});
+  	$("#bank2").change(function () {
+  		$('#bank').val($("#bank2").val());
+  	});
+  	$("#bank3").change(function () {
+  		$('#bank').val($("#bank3").val());
+  	});
+  	$("#bank4").change(function () {
+  		$('#bank').val($("#bank4").val());
+  	});
+  	$("#bank5").change(function () {
+  		$('#bank').val($("#bank5").val());
+  	});
+
+  });
+
+  </script>
+
+  <script type="text/javascript">
+  $(document).ready(function () {
+  	$("#bank1b").change(function () {
+  		$('#BankCode').val($("#bank1b").val());
+  	});
+  	$("#bank2b").change(function () {
+  		$('#BankCode').val($("#bank2b").val());
+  	});
+  	$("#bank3b").change(function () {
+  		$('#BankCode').val($("#bank3b").val());
+  	});
+  	$("#bank4b").change(function () {
+  		$('#BankCode').val($("#bank4b").val());
+  	});
+  	$("#bank5b").change(function () {
+  		$('#BankCode').val($("#bank5b").val());
+  	});
+  	$("#bank6b").change(function () {
+  		$('#BankCode').val($("#bank6b").val());
+  	});
+      $("#bank7b").change(function () {
+        $('#BankCode').val($("#bank7b").val());
+      });
+      // $("#CurrencyCodeb").change(function () {
+      //   $('#CurrencyCode').val($("#CurrencyCodeb").val());
+      // });
+  });
+
+  </script>
 </body>
 
 </html>
