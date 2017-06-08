@@ -3090,7 +3090,7 @@ position: relative;
 
 .afterlogin-support-trigger{
   position: relative;
-  right: 62.5%;
+  right: 55.5%;
   top: -4px;
 }
 
@@ -3454,7 +3454,7 @@ font-weight: 700;
 }
 
 .account-container a{
-  margin: 0 5px !important;
+  margin: 0 12px !important;
 }
 
 .account-container{
@@ -3464,7 +3464,7 @@ font-weight: 700;
 
 .desktop-support-trigger.afterlogin-support-trigger{
   position: relative;
-  top: -2px;
+  top: -9px;
 }
 
 .certs li:nth-child(1){
@@ -3477,4 +3477,30 @@ font-weight: 700;
 
 .fa-mobile:hover, .fa-desktop:hover{
   color: #ffb013;
+}
+
+.account-container .account-info{
+  display: block;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.account-container img{
+  width: auto;
+}
+
+.account-container a{
+  text-align: center;
+  position: relative;
+  top: 10px
+}
+
+.account-container a:hover{
+  text-decoration: none;
+  color: #fff
+}
+
+#a-acc .account-info, #a-wallet .account-info{
+  color: #ffb013
 }

@@ -378,10 +378,6 @@
       height: 30px;
     }
 
-    .account-container img{
-      width: 100%
-    }
-
     footer .certs li{
       margin-left: 0 !important
     }
@@ -1022,10 +1018,6 @@
       height: 33px;
     }
 
-    .account-container img{
-      width: 85%
-    }
-
     footer .certs li{
       margin-left: 35px !important
     }
@@ -1167,8 +1159,8 @@
         width: 20px;
         text-align: center;
         line-height: 1.4;
-        top: -7px;
-        right: 0px;
+        top: -10px;
+        right: -10px;
     }
     header .lang-logo a {
         display: inline-block;
