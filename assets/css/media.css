@@ -409,6 +409,12 @@
     footer .footer-pad {
         padding-left: 0;
     }
+    .prizepool {
+        font-size: 13px;
+    }
+    .win-body .user {
+        font-size: 13px;
+    }
 
     .tdw-body h3 {
       font-size: 9px;
@@ -1066,9 +1072,18 @@
         padding-left: 15px;
     }
 
+
+    .prizepool {
+        font-size: 17px;
+    }
+
+    .win-body .user {
+        font-size: 16px;
+
     .tdw-body h3{
       font-size: 24px;
       margin-top: 20px;
+
     }
 }
 
