@@ -3339,11 +3339,13 @@ font-weight: 700;
 }
 
 .legend-red{
-  background: url('../img/lotto/legend-colors.png') no-repeat 0 0;
+  background: url('../img/lotto/legend-red.png') no-repeat;
+  background-size: cover
 }
 
 .legend-green{
-  background: url('../img/lotto/legend-colors.png') no-repeat 0 -53px;
+  background: url('../img/lotto/legend-green.png') no-repeat;
+  background-size: cover
 }
 
 .legend-blue{
@@ -3436,7 +3438,6 @@ font-weight: 700;
 
 .fsalon .col-md-3:nth-child(2) a{
   display: block;
-  width: 120%
 }
 
 .fsalon .col-md-3:nth-child(3){
