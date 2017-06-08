@@ -410,6 +410,9 @@
     .fsalon .col-md-3:nth-child(3) img{
       width: 15%;
     }
+    footer .footer-pad {
+        padding-left: 0;
+    }
 
 }
 
@@ -1026,6 +1029,10 @@
 
     .fsalon .col-md-3:nth-child(3) img{
       width: 22%;
+    }
+
+    footer .footer-pad {
+        padding-left: 15px;
     }
 }
 
