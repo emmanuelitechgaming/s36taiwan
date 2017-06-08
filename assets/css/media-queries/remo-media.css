@@ -514,11 +514,11 @@
   }
 
   .breadcrumb-inner .wallet .form-group{
-    width: 15%
+    width: 22%
   }
 
   .breadcrumb-inner .wallet select{
-    background-size: 25% 100%;
+    background-size: 15% 100%;
     display: block;
     width: 100%;
   }
