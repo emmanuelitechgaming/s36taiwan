@@ -501,6 +501,9 @@
     .fsalon .col-md-3:nth-child(3) img{
       width: 14%;
     }
+    .td-list {
+      width: 221px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -571,6 +574,9 @@
     }
     .fsalon .col-md-3:nth-child(3) img {
       width: 12%;
+    }
+    .td-list {
+      width: 260px;
     }
 }
 
@@ -657,6 +663,12 @@
       width: 382px;
       margin-left: 78px;
     }
+    .today-winnerb .title {
+      padding: 19px 20px;
+    }
+    .td-list {
+      width: 398px;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -717,6 +729,12 @@
       width: 382px;
       margin-left: 126px;
     }
+    .today-winnerb .title {
+      padding: 19px 25px;
+    }
+    .td-list {
+      width: 487px;
+    }
 }
 
 @media only screen and (min-width: 736px) {
@@ -758,10 +776,12 @@
         width: 600px;
         margin-left: 15px;
     }
-
     .promotion-swiper-container{
       width: 382px;
       margin-left: 161px;
+    }
+    .td-list {
+      width: 556px;
     }
 }
 
