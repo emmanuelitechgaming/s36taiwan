@@ -3474,3 +3474,7 @@ font-weight: 700;
 .columns.f-social img{
   margin-left: 0;
 }
+
+.fa-mobile:hover, .fa-desktop:hover{
+  color: #ffb013;
+}
