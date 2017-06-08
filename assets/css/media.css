@@ -163,7 +163,7 @@
     }
     main .marquee {
         width: 80%;
-        bottom: 8px;
+        bottom: 4px;
     }
     .live-game .gameplatform {
         top: -39px;
@@ -391,8 +391,20 @@
       margin-bottom: 15px;
     }
 
+    .certs li:nth-child(3), .certs li:nth-child(4){
+      margin-bottom: 0;
+    }
+
     .certs li:nth-child(even){
       text-align: center
+    }
+
+    .fsalon .col-md-3:nth-child(2) a{
+      width: 100%
+    }
+
+    .lotto-legend div span{
+      margin-bottom: 10px;
     }
 
 }
@@ -997,6 +1009,14 @@
     .certs li:nth-child(even){
       text-align: center
     }
+
+    .fsalon .col-md-3:nth-child(2) a{
+      width: 120%
+    }
+
+    .lotto-legend div span{
+      margin-bottom: 0;
+    }
 }
 
 
@@ -1110,8 +1130,8 @@
         width: 20px;
         text-align: center;
         line-height: 1.4;
-        top: -8px;
-        right: -11px;
+        top: -7px;
+        right: 0px;
     }
     header .lang-logo a {
         display: inline-block;
