@@ -370,9 +370,8 @@ main .win-cs {
     overflow: hidden;
 }
 
-main .win-body .user {
+.win-body .user {
     color: #fff;
-    font-size: 16px;
     font-weight: 700;
 }
 
@@ -383,11 +382,10 @@ main .win-body span {
     font-weight: 700;
 }
 
-main .prizepool {
+.prizepool {
     padding: 10px;
     font-weight: 700;
     color: #ffb300;
-    font-size: 17px;
 }
 
 main .contact-title {
@@ -3503,4 +3501,23 @@ font-weight: 700;
 
 #a-acc .account-info, #a-wallet .account-info{
   color: #ffb013
+}
+
+.display-inline-block{
+  display: inline-block !important;
+  width: 22.4%
+}
+
+.inv {
+display: none !important;
+}
+.vis{
+  display: block !important;
+}
+
+.invb {
+display: none !important;
+}
+.visb{
+  display: block !important;
 }
