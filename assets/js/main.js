@@ -218,7 +218,6 @@ $(document).ready(function () {
     })
 
     $('.selectpicker2-sub').hover(function() {
-      console.log($(this).html());
       $('.selectpicker2-sub').css('color', '#c4c4c4');
       $(this).css('color', '#ffb013');
       $(this).parent('a').find('.cntry').css('color', '#fff');
@@ -227,21 +226,36 @@ $(document).ready(function () {
       $(this).parent('a').find('.cntry').css('color', '#fff');
     });
 
-    $('.cntry').hover(function() {
-      $(this).css('color', '#ffb013');
-      $(this).parent('a').find('.selectpicker2-sub').css('color', '#ffb013');
+    $('.selectpicker2-menu a').hover(function() {
+      $(this).css('border-bottom', '1px solid #ffb013');
     }, function() {
-      $(this).css('color', '#fff');
-      $(this).parent('a').find('.selectpicker2-sub').css('color', '#c4c4c4');
+      $(this).find('.cntry').css('color', '#fff');
+      $(this).css('border-bottom', '1px solid #c2c2c2');
     });
 
-    // $('.selectpicker2-menu a').hover(function() {
-    //   $(this).find('.cntry').css('color', '#ffb013');
-    //   $(this).find('.selectpicker2-sub').css('color', '#ffb013')
-    // }, function() {
-    //   $(this).find('.cntry').css('color', '#fff');
-    //   $(this).find('.selectpicker2-sub').css('color', '#c4c4c4');
-    // });
+    $('#a-acc img').hover(function() {
+      $(this).attr('src', 'assets/img/afterlogin/acc2-b.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/afterlogin/acc2.png');
+    });
+
+    $('#a-wallet img').hover(function() {
+      $(this).attr('src', 'assets/img/afterlogin/wallet2-b.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/afterlogin/wallet2.png');
+    });
+
+    $('#a-info img').hover(function() {
+      $(this).attr('src', 'assets/img/afterlogin/info2-b.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/afterlogin/info2.png');
+    });
+
+    $('#a-out img').hover(function() {
+      $(this).attr('src', 'assets/img/afterlogin/out2-b.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/afterlogin/out2.png');
+    });
 });
 
 function nextTab(elem) {
@@ -395,7 +409,6 @@ $(function() {
     $('.desktop-support').on('show.bs.collapse', function(){
       // $(this).parent().find(".fa-caret-down").removeClass("fa-caret-down").addClass("fa-caret-up");
       $('.desktop-support-trigger .fa').removeClass("fa-caret-down").addClass("fa-caret-up");
-      console.log($(this).parent());
     }).on('hide.bs.collapse', function(){
       $(this).parent().find(".fa-caret-up").removeClass("fa-caret-up").addClass("fa-caret-down");
     });

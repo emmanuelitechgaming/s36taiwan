@@ -277,7 +277,7 @@
 
                     <div class="hidden-lg hidden-md">
                         <div class="navbar-header remo-navbar-header">
-                          <button class="selectpicker2" data-toggle="dropdown"><span class="flag-icon flag-icon-tw"> </span> Taiwan <i class="fa fa-caret-down"> </i></button>
+                          <button class="selectpicker2" data-toggle="dropdown"><span class="flag-icon flag-icon-tw"> </span> 台灣 <i class="fa fa-caret-down"> </i></button>
                           <div class="dropdown-menu selectpicker2-menu">
                             <div class="row">
                               <div class="col-md-3">
@@ -349,7 +349,7 @@
                 </div>
                 <div class="hidden-sm hidden-xs">
                     <div class="navbar-header">
-                          <button class="selectpicker2" data-toggle="dropdown"><span class="flag-icon flag-icon-tw"> </span> Taiwan <i class="fa fa-caret-down"> </i></button>
+                          <button class="selectpicker2" data-toggle="dropdown"><span class="flag-icon flag-icon-tw"> </span> 台灣 <i class="fa fa-caret-down"> </i></button>
                           <div class="dropdown-menu selectpicker2-menu">
                             <div class="row">
                               <div class="col-md-3">
@@ -718,7 +718,7 @@
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-xs-12">
-                                              <a href="afterlogin.html"  class="form-control btn btn-warning btn-block" value="登录">註冊賬號</a>
+                                              <a href="#"  class="form-control btn btn-warning btn-block sweet-13"  onclick="_gaq.push(['_trackEvent', 'example, 'try', 'Success']);">註冊賬號</a>
 
                                             </div>
                                         </div>
@@ -892,13 +892,6 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="live-game">
-                    <img src="assets/img/index/lottery.png" class="img-responsive" alt="沙龍會彩票">
-                    <a href="lotto.html" class="img-responsive cta-seemore"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
-                    <a href="#" class="lg-playnow">立即注册</a>
-                </div>
-            </div>
 
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="live-game">
@@ -907,6 +900,15 @@
                     <a href="#" class="lg-playnow">立即注册</a>
                 </div>
             </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="live-game">
+                    <img src="assets/img/index/lottery.png" class="img-responsive" alt="沙龍會彩票">
+                    <a href="lotto.html" class="img-responsive cta-seemore"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
+                    <a href="#" class="lg-playnow">立即注册</a>
+                </div>
+            </div>
+
         </div>
 
         <div class="gp container">
@@ -1756,15 +1758,26 @@
 
 <script>
 
-document.querySelector('.sweet-12').onclick = function(){
-     swal({
-       title: "非常感謝閣下的訂閱",
-       text: "我們將不定期為您送上最新資訊及精選專屬活動，沙龍會誠摯期待閣下蒞臨。",
-       type: "success",
-       confirmButtonClass: 'btn-warning',
-       confirmButtonText: '關閉'
-     });
-   };
+    document.querySelector('.sweet-12').onclick = function(){
+       swal({
+         title: "非常感謝閣下的訂閱",
+         text: "我們將不定期為您送上最新資訊及精選專屬活動，沙龍會誠摯期待閣下蒞臨。",
+         type: "success",
+         confirmButtonClass: 'btn-warning',
+         confirmButtonText: '關閉'
+       });
+     };
+
+   document.querySelector('.sweet-13').onclick = function(){
+        swal({
+          title: "注册成功",
+          text: "很高兴为您服务，如有任何问题请随时联系在线客服 ，我们将24小时竭诚为您服务！",
+          type: "success",
+          confirmButtonClass: 'btn-warning',
+          confirmButtonText: '關閉'
+        });
+      };
+      
 </script>
 
 
