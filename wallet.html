@@ -1517,13 +1517,13 @@
         $(document).ready(function() {
 
             $('#currency').on('change', function() {
-                $('.depositbank').addClass('inv');
+                $('.depositbank').removeClass('vis').addClass('inv');
                 $('#None').css('display', 'none');
                 $('#depositForm #' + $(this).val()).removeClass('inv').addClass('vis');
             });
 
             $('#CurrencyCode').on('change', function() {
-                $('.payoutbank').addClass('inv');
+                $('.payoutbank').removeClass('vis').addClass('inv');
                 $('#Noneb').css('display', 'none');
                 $('#payoutForm #' + $(this).val()).removeClass('inv').addClass('vis');
             });
