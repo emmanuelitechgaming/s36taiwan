@@ -2455,7 +2455,7 @@ select + i.fa {
 
 .lg-playnow:active, .lg-playnow:hover, .lg-playnow:focus{
   text-decoration: none;
-  color: rgba(26, 26, 26, 0.8) !important;
+  color: rgba(49, 49, 49, 0.5) !important;
 }
 
 .lg-seemore{
@@ -3507,4 +3507,29 @@ display: none !important;
 }
 .vis{
   display: block !important;
+}
+
+.live-game-txtb, .live-game-txtc{
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.live-game-txtb a, .live-game-txtc a{
+  display: block;
+  color: #fff;
+}
+
+.live-game-txtb a:hover, .live-game-txtc a:hover{
+  color: #ffb013;
+  text-decoration: none
+}
+
+.live-game-txtc{
+  letter-spacing: 1px;
+}
+
+.i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
+  bottom: 13px;
 }
