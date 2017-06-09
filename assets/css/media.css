@@ -420,7 +420,21 @@
       font-size: 9px;
       margin-top: 5px;
     }
-
+    .live-game-txtb{
+      font-size: 9px;
+      letter-spacing: 0.5px;
+      bottom: 12px;
+    }
+    .frut-popper .live-game-txtb{
+      bottom: 7px
+    }
+    .jigong .live-game-txtb{
+      bottom: 5px;
+    }
+    .live-game-txtc {
+      font-size: 9px;
+      bottom: 19px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -515,6 +529,20 @@
       font-size: 11px;
       margin-top: 5px;
     }
+    .live-game-txtb{
+      font-size: 11px;
+      bottom: 14px;
+    }
+    .frut-popper .live-game-txtb {
+      bottom: 8px;
+    }
+    .jigong .live-game-txtb {
+      bottom: 6px;
+    }
+    .live-game-txtc {
+      font-size: 12px;
+      bottom: 21px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -589,10 +617,17 @@
     .td-list {
       width: 260px;
     }
-
     .tdw-body h3 {
       font-size: 13px;
       margin-top: 5px;
+    }
+    .live-game-txtb {
+      font-size: 12px;
+      letter-spacing: 1px;
+      bottom: 16px;
+    }
+    .live-game-txtc {
+      bottom: 24px;
     }
 }
 
@@ -674,7 +709,6 @@
         width: auto;
         margin: 0px auto;
     }
-
     .promotion-swiper-container{
       width: 382px;
       margin-left: 78px;
@@ -685,10 +719,23 @@
     .td-list {
       width: 398px;
     }
-
     .tdw-body h3 {
       font-size: 18px;
       margin-top: 5px;
+    }
+    .live-game-txtb {
+      font-size: 15px;
+      bottom: 23px;
+    }
+    .frut-popper .live-game-txtb {
+      bottom: 14px;
+    }
+    .jigong .live-game-txtb {
+      bottom: 12px;
+    }
+    .live-game-txtc {
+      font-size: 15px;
+      bottom: 28px;
     }
 }
 
@@ -755,6 +802,15 @@
     }
     .td-list {
       width: 487px;
+    }
+    .live-game-txtb {
+      bottom: 28px;
+    }
+    .frut-popper .live-game-txtb {
+      bottom: 17px;
+    }
+    .jigong .live-game-txtb {
+      bottom: 15px;
     }
 }
 
@@ -1071,16 +1127,12 @@
     footer .footer-pad {
         padding-left: 15px;
     }
-
-
     .prizepool {
         font-size: 17px;
     }
-
     .win-body .user {
         font-size: 16px;
     }
-
     .tdw-body h3{
       font-size: 24px;
       margin-top: 20px;
@@ -1091,6 +1143,24 @@
     }
     .botton {
         margin: 10px 140px;
+    }
+    .live-game-txtb{
+      font-size: 15px;
+      letter-spacing: 1px;
+      bottom: 23px;
+    }
+    .frut-popper .live-game-txtb{
+      bottom: 14px
+    }
+    .jigong .live-game-txtb{
+      bottom: 12px;
+    }
+    .live-game-txtc{
+      font-size: 15px;
+      bottom: 23px;
+    }
+    .wallet .datepicker{
+      width: 22% !important
     }
 }
 
