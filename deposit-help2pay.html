@@ -739,7 +739,7 @@
 
                                 <div class="display-block">
                                     <div class="account-text">Amount: </div>
-                                    <input type="text" name="amount" class="amount form-control display-inline-block" value="50.00" required>
+                                    <input type="text" name="amount" class="amount form-control display-inline-block" value="0.00" required>
                                 </div>
 
                                 <div class="display-block">
@@ -1380,6 +1380,19 @@
                 $('.depositbank').removeClass('vis').addClass('inv');
                 $('#None').css('display', 'none');
                 $('#depositForm #' + $(this).val()).removeClass('inv').addClass('vis');
+
+                if ($("#currency").val() == "MYR") {
+                   $('.amount').val("1.00");
+                 }
+                 if ($("#currency").val() == "THB") {
+                   $('.amount').val("30.00");
+                 }
+                 if ($("#currency").val() == "VND") {
+                   $('.amount').val("30000.00");
+                 }
+                 if ($("#currency").val() == "IDR") {
+                   $('.amount').val("30000.00");
+                 }
             });
 
             $("#bank1").change(function() {
@@ -1398,11 +1411,10 @@
                 $('#bank').val($("#bank5").val());
             });
 
-
-
             $('.amount').inputmask('currency', {
                 rightAlign: false,
-                prefix: ''
+                prefix: '',
+                groupSeparator: ''
             });
         });
     </script>
