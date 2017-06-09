@@ -717,8 +717,8 @@
                             <form method="post" action="http://122.152.160.69/paymenttest/payoutpostrequest.php" onsubmit="window.open('about:blank','payout_print_popup','width=600,height=400');" target="payout_print_popup" id="payoutForm">
                                 <div class="title">賠率</div>
                                 <div class="display-block">
-                                    <div class="account-text">Amount: </div>
-                                    <input type="text" name="Amount" value="0.00" class="amount form-control display-inline-block" required>
+                                    <div class="account-text">MemberCode: </div>
+                                    <input type="text" name="MemberCode" class="form-control display-inline-block" value="player01" required>
                                 </div>
 
                                 <div class="display-block">
@@ -735,11 +735,11 @@
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">MemberCode: </div>
-                                    <input type="text" name="MemberCode" class="form-control display-inline-block" value="player01" required>
+                                    <div class="account-text">Amount: </div>
+                                    <input type="text" name="Amount" value="0.00" class="amount form-control display-inline-block" required>
                                 </div>
 
-                                <div class="display-block">
+                                <div class="display-block" style="display: none !important">
                                     <div class="account-text">MerchantCode: </div>
                                     <input type="text" name="MerchantCode" class="form-control display-inline-block" value="M0068" required>
                                 </div>
@@ -825,24 +825,24 @@
                                     <input type="text" name="toBankAccountNumber" class="form-control display-inline-block" value="1234567890" required>
                                 </div>
 
-                                <div class="display-block">
+                                <div class="display-block" style="display: none !important">
                                     <div class="account-text">Note: </div>
-                                    <input type="text" name="Note" class="form-control display-inline-block" value="n/a" required>
+                                    <input type="text" name="Note" class="form-control display-inline-block" value="" required>
                                 </div>
 
                                 <div class="display-block">
                                     <div class="account-text">Province: </div>
-                                    <input type="text" name="toProvince" class="form-control display-inline-block" value="n/a" required>
+                                    <input type="text" name="toProvince" class="form-control display-inline-block" value="" required>
                                 </div>
 
                                 <div class="display-block">
                                     <div class="account-text">City: </div>
-                                    <input type="text" name="toCity" class="form-control display-inline-block" value="n/a" required>
+                                    <input type="text" name="toCity" class="form-control display-inline-block" value="" required>
                                 </div>
 
                                 <div class="display-block">
                                     <div class="account-text">Branch: </div>
-                                    <input type="text" name="toBranch" class="form-control display-inline-block" value="n/a" required>
+                                    <input type="text" name="toBranch" class="form-control display-inline-block" value="" required>
                                 </div>
 
                                 <input type="hidden" name="Language" value="en">
