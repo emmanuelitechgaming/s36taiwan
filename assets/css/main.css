@@ -1427,7 +1427,7 @@ p {
 }
 
 .account-text {
-    width: 145px;
+    width: 80px;
 }
 
 .botton {
@@ -2610,7 +2610,8 @@ select + i.fa {
 
 .tdw-info ul li{
   display: inline-block;
-  margin-right: 50px
+  margin-right: 50px;
+  margin-top:10px;
 }
 
 .tdw-info span{
