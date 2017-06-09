@@ -718,7 +718,7 @@
                                 <div class="title">賠率</div>
                                 <div class="display-block">
                                     <div class="account-text">Amount: </div>
-                                    <input type="text" name="Amount" value="50.00" class="amount form-control display-inline-block" required>
+                                    <input type="text" name="Amount" value="0.00" class="amount form-control display-inline-block" required>
                                 </div>
 
                                 <div class="display-block">
@@ -730,8 +730,6 @@
                                             <option value="THB">THB</option>
                                             <option value="VND">VND</option>
                                             <option value="IDR">IDR</option>
-                                            <option value="MMK">MMK</option>
-                                            <option value="CNY">CNY</option>
                                         </select>
                                     </div>
                                 </div>
@@ -1424,6 +1422,23 @@
                 $('.payoutbank').removeClass('vis').addClass('inv');
                 $('#Noneb').css('display', 'none');
                 $('#payoutForm #' + $(this).val()).removeClass('inv').addClass('vis');
+
+                console.log($("#CurrencyCode").val());
+
+                if ($("#CurrencyCode").val() == "MYR") {
+                   $('.amount').val("1.00");
+                 }
+                 if ($("#CurrencyCode").val() == "THB") {
+                   $('.amount').val("30.00");
+                 }
+                 if ($("#CurrencyCode").val() == "VND") {
+                   $('.amount').val("30000.00");
+                 }
+                 if ($("#CurrencyCode").val() == "IDR") {
+                   $('.amount').val("30000.00");
+                 }
+
+                 console.log($('.amount').val());
             });
 
 
@@ -1451,7 +1466,8 @@
 
             $('.amount').inputmask('currency', {
                 rightAlign: false,
-                prefix: ''
+                prefix: '',
+                groupSeparator: ''
             });
         });
     </script>
