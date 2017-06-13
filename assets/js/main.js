@@ -169,13 +169,11 @@ $(document).ready(function () {
     $('a[href="#ctab2"]').click(function() {
       $('#ctab2').css('display', 'block');
       $('#ctab3').addClass('ctab-none');
-      $('#ctab3').css('display', 'none');
     });
 
     $('a[href="#ctab3"]').click(function() {
       $('#ctab3').css('display', 'block');
       $('#ctab2').addClass('ctab-none');
-      $('#ctab2').css('display', 'none');
     });
 
     $('#casinoSeeMoreBtn').click(function() {
