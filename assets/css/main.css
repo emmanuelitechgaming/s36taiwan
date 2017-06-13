@@ -465,7 +465,7 @@ footer .footer-icon {
 
 footer .footer-icon img {
     display: inline-block;
-    margin: 0px 10px 10px 10px;
+    margin: 0px 7px 10px 10px;
     cursor: pointer;
 }
 
@@ -1029,7 +1029,9 @@ padding: 20px 10px;
     font-size: 24px;
     padding: 5px;
 }
-
+.promo-txt p{
+  font-size: 13px;
+}
 .panel-login .promo-desc {
     font-size: 18px;
     font-weight: 400;
