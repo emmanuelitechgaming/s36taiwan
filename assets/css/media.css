@@ -435,6 +435,12 @@
       font-size: 9px;
       bottom: 19px;
     }
+
+    .casino-mp{
+      top: 25px;
+      right: 35px;
+      left: auto;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -737,6 +743,9 @@
       font-size: 15px;
       bottom: 28px;
     }
+    .casino-mp {
+    right: 100px;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -812,6 +821,10 @@
     .jigong .live-game-txtb {
       bottom: 15px;
     }
+
+    .casino-mp {
+      right: 150px;
+    }
 }
 
 @media only screen and (min-width: 736px) {
@@ -859,6 +872,9 @@
     }
     .td-list {
       width: 556px;
+    }
+    .casino-mp {
+      right: 185px;
     }
 }
 
@@ -1161,6 +1177,11 @@
     }
     .wallet .datepicker{
       width: 22% !important
+    }
+    .casino-mp{
+      top: 25px;
+      right: 35px;
+      left: auto;
     }
 }
 
