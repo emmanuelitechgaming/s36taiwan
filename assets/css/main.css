@@ -2581,11 +2581,17 @@ select + i.fa {
 
 .selectpicker2{
   margin-left: 0;
-  background: #1f1f1f;
-  border: 1px solid #4a4a4a;
+  background: transparent;
+  /*border: 1px solid #4a4a4a;*/
+  border: none;
   border-radius: 4px;
   position: relative;
   color: #fff;
+  outline: 0
+}
+
+.selectpicker2:hover{
+  background: none !important
 }
 
 .selectpicker2 .fa{
@@ -3119,7 +3125,7 @@ position: relative;
 
 .afterlogin-support-trigger{
   position: relative;
-  right: 55.5%;
+  right: 62%;
   top: -4px;
 }
 
@@ -3788,4 +3794,21 @@ right: 10px;
 #c-h2pay:hover{
   background-image: url('../img/footer/support-payment.png');
   background-position: -541px -37px;
+}
+.fsalon h4{
+  margin-right: 10px;
+}
+.flag-icon {
+    width: 1.5555em !important;
+    line-height: 22px;
+    top: 2px;
+}
+.flag-icon, .flag-icon-background {
+  background-size: 100% 100% !important
+}
+.selectpicker2-menu .flag-icon{
+  top: auto;
+  width: 1.33333333em !important;
+  line-height: 1em;
+  font-size: 14px;
 }
