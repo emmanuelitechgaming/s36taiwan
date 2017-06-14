@@ -3666,6 +3666,26 @@ right: 10px;
   background-position: -120px -44px;
 
 }
+#c-yen{
+  background-image: url('../img/footer/currency-logo.png');
+  background-position: -157px -1px;
+
+}
+#c-yen:hover{
+  background-image: url('../img/footer/currency-logo.png');
+  background-position: -157px -44px;
+
+}
+#c-yuan{
+  background-image: url('../img/footer/currency-logo.png');
+  background-position: -196px -1px;
+
+}
+#c-yuan:hover{
+  background-image: url('../img/footer/currency-logo.png');
+  background-position: -196px -44px;
+
+}
 .payment-icon a{
   overflow: hidden;
   display: block;
