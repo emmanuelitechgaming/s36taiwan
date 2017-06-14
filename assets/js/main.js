@@ -256,6 +256,14 @@ $(document).ready(function () {
     }, function() {
       $(this).attr('src', 'assets/img/afterlogin/out2.png');
     });
+
+    $('.top-header-web, .top-header-loc').click(function() {
+      if($('body .navbar-header').hasClass('open')){
+        $('body').find('.open').removeClass('open');
+      }else{
+        $('.selectpicker2').dropdown('toggle');
+      }
+    });
 });
 
 function nextTab(elem) {
