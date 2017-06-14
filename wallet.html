@@ -696,6 +696,7 @@
                         <select class="form-control" id="withdraw_helptopay">
                           <option value="">Select</option>
                           <option value="withdraw">Help2pay</option>
+                          <option value="neteller">Neteller</option>
                         </select>
                       </div>
                     </div>
@@ -1309,6 +1310,8 @@
             var val = $(this).val();
             if(val == 'withdraw'){
               window.location = "payout-help2pay.html";
+            }else if (val == 'neteller') {
+              window.location = "payout-neteller.html";
             }
           });
         })
