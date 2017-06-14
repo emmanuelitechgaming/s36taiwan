@@ -1196,6 +1196,9 @@
       right: 25px;
       left: auto;
     }
+    #b {
+      margin-top: -10px;
+    }
 }
 
 
