@@ -239,7 +239,7 @@
     .selectpicker2 {
         padding: 5px 8px;
         top: 18px;
-        left: -40px;
+        left: -49px;
         font-size: 10px;
     }
     .selectpicker2 .fa {
@@ -461,6 +461,13 @@
     .swiper-slide a {
         padding: 5px 17.6px;
     }
+
+    .selectpicker2 {
+        padding: 5px 8px;
+        top: 18px;
+        left: -68px;
+        font-size: 10px;
+    }
 }
 
 
@@ -501,7 +508,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -68px;
+        left: -78px;
     }
     .swiper-container {
         width: 305px;
@@ -597,7 +604,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -87px;
+        left: -94px;
     }
     .swiper-container {
         width: 345px;
@@ -675,7 +682,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -165px;
+        left: -173px;
     }
     .selectfrommonth,
     .selectfromyear {
@@ -759,6 +766,12 @@
     .swiper-slide a {
         padding: 5px 52.8px;
     }
+    .selectpicker2 {
+        padding: 5px 8px;
+        top: 18px;
+        left: -208px;
+        font-size: 10px;
+    }
 }
 
 @media only screen and (min-width: 667px) {
@@ -778,7 +791,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -215px;
+        left: -220px;
     }
     .selectfrommonth,
     .selectfromyear {
@@ -844,7 +857,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -249px;
+        left: -255px;
     }
     .swiper-container {
         width: 667px;
