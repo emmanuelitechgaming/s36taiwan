@@ -8,7 +8,17 @@ body {
     background: #2a2a2a;
     color: #acacac;
 }
-
+header .top-header{
+  background: #000;
+  padding: 5px;
+}
+header .top-header ul li{
+  margin-right: 10px;
+}
+header .top-header ul li span{
+  margin: 5px;
+  color: #fff;
+}
 header ul {
     list-style-type: none!important;
     margin: 0;
@@ -481,7 +491,9 @@ footer .footer-services {
 footer .f-right .columns {
     padding-left: 0;
 }
-
+.currency-icon li{
+  margin-left: 10px!important;
+}
 footer .f-right li {
     margin-left: 20px!important;
     line-height: 30px;
@@ -495,7 +507,14 @@ footer .footer-services ul.columns>li {
     display: inline-block;
     margin-left: 15px;
 }
-
+footer .footer-services ul.currency-icon>li {
+    display: inline-block;
+    margin-left: 5px!important;
+}
+footer .footer-services ul.payment-icon>li {
+    display: inline-block;
+    margin-left: 15px!important;
+}
 footer .f-social ul.columns > li {
     list-style-type: none!;
 }
@@ -963,6 +982,13 @@ padding: 20px 10px;
     font-weight: 700;
     margin:  0;
 }
+.form-group .btn-yellowbtn {
+    background: url('../img/index/yellow-btn-mod.png');
+    color: #000;
+    font-weight: 700;
+    margin:  0;
+    height: 46px;
+  }
 
 .quick .tab {
     padding: 8px;
@@ -1150,10 +1176,13 @@ max-width: 331px;
 
 .checkbox label {
     font-size: 13px;
+    font-size: 13px;
+margin-top: 3px;
+
 }
 
 .checkbox label span {
-    color: #ffb013;
+    color: #f60202;
 }
 
 .btn-login {
@@ -3446,7 +3475,7 @@ font-weight: 700;
 
 
 .fsalon .col-md-3:nth-child(2) img{
-  width: 100%;
+  width: 58%;
 }
 
 .fsalon .col-md-3 ul{
@@ -3589,4 +3618,155 @@ right: 10px;
 
 .certs-h4{
   margin-top: 20px;
+}
+.currency-icon a{
+  overflow: hidden;
+  display: block;
+  width: 36px;
+  height: 36px;
+}
+
+#c-myr{
+  background-image: url('../img/footer/currency-logo.png');
+  background-position: -1px 0px;
+
+}
+#c-myr:hover{
+  background-image: url('../img/footer/currency-logo.png');
+  background-position: -1px -43px;
+
+}
+#c-thb{
+  background-image: url('../img/footer/currency-logo.png');
+  background-position: -42px -1px;
+
+}
+#c-thb:hover{
+  background-image: url('../img/footer/currency-logo.png');
+  background-position: -42px -44px;
+
+}
+#c-vnd{
+  background-image: url('../img/footer/currency-logo.png');
+  background-position: -79px -1px;
+
+}
+#c-vnd:hover{
+  background-image: url('../img/footer/currency-logo.png');
+  background-position: -79px -44px;
+
+}
+#c-idr{
+  background-image: url('../img/footer/currency-logo.png');
+  background-position: -120px -1px;
+
+}
+#c-idr:hover{
+  background-image: url('../img/footer/currency-logo.png');
+  background-position: -120px -44px;
+
+}
+.payment-icon a{
+  overflow: hidden;
+  display: block;
+  width: 43px;
+  height: 33px;
+}
+#c-visa{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -1px 68px;
+}
+#c-visa:hover{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -1px -1px;
+}
+#c-mstr{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -49px 68px;
+}
+#c-mstr:hover{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -49px -1px;
+}
+#c-maes{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -99px 68px;
+}
+#c-maes:hover{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -99px -1px;
+}
+#c-cirus{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -148px 68px;
+}
+#c-cirus:hover{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -148px -1px;
+}
+#c-dscvr{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -198px 68px;
+}
+#c-dscvr:hover{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -198px -1px;
+}
+#c-pypal{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -541px 68px;
+}
+#c-pypal:hover{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -541px -1px;
+}
+#c-idk{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -1px 32px;
+}
+#c-idk:hover{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -1px -37px;
+}
+#c-upay{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -49px 32px;
+}
+#c-upay:hover{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -49px -37px;
+
+
+}
+#c-netler{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -101px 32px;
+}
+#c-netler:hover{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -101px -37px;
+}
+#c-wunion{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -149px 32px;
+}
+#c-wunion:hover{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -149px -37px;
+}
+#c-skrl{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -199px 32px;
+}
+#c-skrl:hover{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -199px -37px;
+}
+#c-h2pay{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -541px 32px;
+}
+#c-h2pay:hover{
+  background-image: url('../img/footer/support-payment.png');
+  background-position: -541px -37px;
 }
