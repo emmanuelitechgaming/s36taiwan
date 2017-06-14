@@ -465,7 +465,7 @@ footer .footer-icon {
 
 footer .footer-icon img {
     display: inline-block;
-    margin: 0px 10px 10px 10px;
+    margin: 0px 7px 10px 10px;
     cursor: pointer;
 }
 
@@ -1029,7 +1029,9 @@ padding: 20px 10px;
     font-size: 24px;
     padding: 5px;
 }
-
+.promo-txt p{
+  font-size: 13px;
+}
 .panel-login .promo-desc {
     font-size: 18px;
     font-weight: 400;
@@ -1427,7 +1429,7 @@ p {
 }
 
 .account-text {
-    width: 70px;
+    width: 80px;
 }
 
 .botton {
@@ -1441,7 +1443,6 @@ p {
     font-size: 15px;
     display: inline-block;
     overflow: hidden;
-    margin: 10px 70px;
 }
 
 .btn-hidden {
@@ -2456,7 +2457,7 @@ select + i.fa {
 
 .lg-playnow:active, .lg-playnow:hover, .lg-playnow:focus{
   text-decoration: none;
-  color: rgba(26, 26, 26, 0.8) !important;
+  color: rgba(49, 49, 49, 0.5) !important;
 }
 
 .lg-seemore{
@@ -2611,7 +2612,8 @@ select + i.fa {
 
 .tdw-info ul li{
   display: inline-block;
-  margin-right: 50px
+  margin-right: 50px;
+  margin-top:10px;
 }
 
 .tdw-info span{
@@ -3503,11 +3505,6 @@ font-weight: 700;
   color: #ffb013
 }
 
-.display-inline-block{
-  display: inline-block !important;
-  width: 22.4%
-}
-
 .inv {
 display: none !important;
 }
@@ -3515,9 +3512,81 @@ display: none !important;
   display: block !important;
 }
 
-.invb {
-display: none !important;
+.live-game-txtb, .live-game-txtc{
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
-.visb{
-  display: block !important;
+
+.live-game-txtb a, .live-game-txtc a{
+  display: block;
+  color: #fff;
+}
+
+.live-game-txtb a:hover, .live-game-txtc a:hover{
+  color: #ffb013;
+  text-decoration: none
+}
+
+.live-game-txtc{
+  letter-spacing: 1px;
+}
+
+.i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
+  bottom: 13px;
+}
+.content  span{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+#b {
+  position: relative;
+  top: 0;
+  -webkit-transition: top ease 0.5s;
+  transition: top ease 0.5s;
+
+  padding: 5px;
+  margin-top: -10px;
+  z-index: 9;
+}
+/*#b::before{
+  content: '';
+position: absolute;
+display: block;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 10px 13px 10px;
+border-color: transparent transparent #787878 transparent;
+top: -13px;
+left: 47%;
+}*/
+
+.pull-icon{
+  position: absolute;
+right: 10px;
+
+}
+.hidden-cta{
+  z-index: 0;
+  z-index: 0;
+
+  padding: 8px;
+
+}
+.hidden-cta a{
+  color: #fff;
+  font-weight: 700;
+  display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.certs-h4{
+  margin-top: 20px;
 }

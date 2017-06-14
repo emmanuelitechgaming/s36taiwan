@@ -51,13 +51,13 @@
     background-size: 4% 50%
   }
 
-  .breadcrumb-inner .wallet .form-group{
-    display: inline-block;
-    width: 70%
+  .breadcrumb-inner .wallet .form-group, .breadcrumb-inner .wallet #None, .breadcrumb-inner .wallet #Noneb{
+    display: block;
+    width: 100%
   }
 
   .breadcrumb-inner .wallet select{
-    background-size: 20% 100%;
+    background-size: 10% 100%;
     width: 100%;
   }
 
@@ -663,8 +663,14 @@
       width: 135px;
       background-size: 25% 100% !important;
     }
+  }
+  .breadcrumb-inner .wallet .form-group, .breadcrumb-inner .wallet #None, .breadcrumb-inner .wallet #Noneb{
+    display: inline-block;
+    width: 22%
+  }
 
-
+  .breadcrumb-inner .wallet #None, .breadcrumb-inner .wallet #Noneb{
+    width: 100%
   }
 
 }
