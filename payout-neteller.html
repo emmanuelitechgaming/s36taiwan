@@ -63,7 +63,12 @@
     <nav class="collapse clearfix hidden-lg hidden-md" id="mobile-top-menu">
       <div class="div">
           <div class="contactus-m">
-            <div class="container"><a href="#" id="btn" data-toggle="collapse" data-target="#gs-body">Contact Us <i class="fa fa-caret-down"></i></a></div>
+            <div class="container"><a href="#" class="top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地区</span></a></div>
+            <div class="container"><a href="#" class="top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt=""><span>语言</span></a></div>
+            <div class="container"><a href="#desktopSupport" data-toggle="collapse"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a></div>
+            <div class="container"><a href="#"><img src="assets/img/header/email.png" alt=""><span>info.th@s36.com</span></a></div>
+            <div class="container"><a href="#"><img src="assets/img/header/clock.png" alt=""><span>GMT+8 05:14 下午 周 2017年07月05日</span></a></div>
+            <div class="container"><a href="#"><img src="assets/img/header/21.png" alt=""><span>未满21岁人士禁止进入</span></a></div>
           </div>
           <div class="mobile-top-menu-close pull-right" id="mobile-top-menu-close"><span aria-hidden="true">×</span></div>
       </div>
@@ -274,7 +279,7 @@
       <nav class="navbar">
           <div class="container">
             <div class="navbar-header header-mobile ">
-              <a href="index.html" class="m-demo-img hidden-lg hidden-md"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a>
+              <!-- <a href="index.html" class="m-demo-img hidden-lg hidden-md"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a> -->
               <div class="mobile-button hidden-lg hidden-md">
                 <a href="#" id="mobile-button" data-toggle="collapse" data-target="#mobile-top-menu"><i class="fa fa-caret-up"></i></a>
               </div>
@@ -427,7 +432,7 @@
                   <div class="navbar-header navbar-right navbar-form navbar-cta-btn">
                   <div class="account-container shadow">
                     <!-- <a href="#desktopSupport" data-toggle="collapse" class="desktop-support-trigger afterlogin-support-trigger">24/7 Support Manila: (02) 231-2988</a> -->
-                    <a href="index.html" style="margin-bottom: 7px;" class="header-demoicon"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a>
+                    <!-- <a href="index.html" style="margin-bottom: 7px;" class="header-demoicon"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a> -->
                     <a href="myaccount.html" id="a-acc">
                       <img src="assets/img/afterlogin/acc2.png" alt="">
                       <div class="account-info">abc123</div>
@@ -679,6 +684,19 @@
 
 
                         <div class="wallet deposit">
+
+                          <div class="right-wallet-reminder">
+                            <p>Withdraw amount should be less or equal to your main balance, the minimum amount is $100</p>
+                            <p>The bank account name must be the same as the registered name on your ClubS account</p>
+                            <p>Please enter your province</p>
+                            <p>Please enter your city</p>
+                            <p>Withdrawal request express：</p>
+                            <p>Withdrawal request will be processed within 1 hour for amount under $300000.</p>
+                            <p>For large withdrawals over $300000 and submitted before 3:30pm will be processed on the same day.</p>
+                            <p>The following banks will provide fast cash withdrawal one hour service:</p>
+                            <p>Agricultural Bank of China, Industrial,  Commercial Bank of China and China Construction Bank (Excluding 3rd-party "LePay" withdraw function)</p>
+                          </div>
+                          
                             <form method="post" action="https://pay.skrill.com" onsubmit="window.open('about:blank','payout_print_popup','width=600,height=400');" target="payout_print_popup" id="payoutForm">
                               <input type="hidden" name="pay_to_email" value="demoqco@sun-fish.com">
                               <input type="hidden" name="payment_methods" value="NTL">
@@ -1327,4 +1345,4 @@
 
 </body>
 
-</html> 
+</html>
