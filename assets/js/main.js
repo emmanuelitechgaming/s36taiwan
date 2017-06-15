@@ -322,12 +322,12 @@ $(document).ready(function () {
 
       if($('body .remo-navbar-header').hasClass('open')){
         $('.m-top-header-loc, .m-top-header-web').parent('div').css({
-          'background' : '#1b1b1b',
+          'background' : '#2a2a2a',
           'margin-right' : '130px'
         })
       }else{
         $('.m-top-header-loc, .m-top-header-web').parent('div').css({
-          'background' : '#1a1a1a',
+          'background' : '#161616',
           'margin-right' : 'auto'
         })
       }
@@ -342,7 +342,7 @@ $(document).ready(function () {
 
     $('#gs-body').on('hidden.bs.collapse', function () {
       $('.m-top-header-phone, .m-top-header-email').parent('div').css({
-        'background' : '#1a1a1a',
+        'background' : '#161616',
         'margin-right' : 'auto'
       });
     });
