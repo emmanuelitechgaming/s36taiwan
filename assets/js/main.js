@@ -319,7 +319,34 @@ $(document).ready(function () {
       }else{
         $('#m-selectpicker2').dropdown('toggle');
       }
-    })
+
+      if($('body .remo-navbar-header').hasClass('open')){
+        $('.m-top-header-loc, .m-top-header-web').parent('div').css({
+          'background' : '#1b1b1b',
+          'margin-right' : '130px'
+        })
+      }else{
+        $('.m-top-header-loc, .m-top-header-web').parent('div').css({
+          'background' : '#1a1a1a',
+          'margin-right' : 'auto'
+        })
+      }
+    });
+
+    $('#gs-body').on('show.bs.collapse', function () {
+      $('.m-top-header-phone, .m-top-header-email').parent('div').css({
+        'background' : '#2a2a2a',
+        'margin-right' : '130px'
+      });
+    });
+
+    $('#gs-body').on('hidden.bs.collapse', function () {
+      $('.m-top-header-phone, .m-top-header-email').parent('div').css({
+        'background' : '#1a1a1a',
+        'margin-right' : 'auto'
+      });
+    });
+
 });
 
 function nextTab(elem) {
