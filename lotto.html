@@ -51,10 +51,10 @@
       <ul>
         <li><a href="#" class="top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地区</span></a></li>
         <li><a href="#" class="top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt=""><span>语言</span></a></li>
-        <li><a href="#desktopSupport" data-toggle="collapse"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a></li>
-        <li><a href="#desktopSupport" data-toggle="collapse"><img src="assets/img/header/email.png" alt=""><span>info.th@s36.com</span></a></li>
-        <li><a href="#"><img src="assets/img/header/clock.png" alt=""></a><span>GMT+8 05:14 下午 周 2017年07月05日</span></li>
-        <li class="pull-right"><a href="#"><img src="assets/img/header/21.png" alt=""><span>未满21岁人士禁止进入</span></a></li>
+        <li><a href="#desktopSupport" data-toggle="collapse" class="top-header-phone"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a></li>
+        <li><a href="#desktopSupport" data-toggle="collapse" class="top-header-email"><img src="assets/img/header/email.png" alt=""><span>info.th@s36.com</span></a></li>
+        <li><a href="#" class="top-header-clock"><img src="assets/img/header/clock.png" alt=""></a><span>GMT+8 05:14 下午 周 2017年07月05日</span></li>
+        <li class="pull-right"><a href="#" class="top-header-21"><img src="assets/img/header/21.png" alt=""><span>未满21岁人士禁止进入</span></a></li>
       </ul>
 
       <div class="dropdown-menu selectpicker2-menu">
@@ -307,18 +307,18 @@
         </div>
       </div>
 
-        <div class="row mobile-top-nav mobile-top-nav-div">
-          <div class="col-xs-4 col-xs-offset-2">
-            <a href="#" id="login-form-btn">
-              <img src="assets/img/login.png" class="img-responsive btn-log" alt="">
-            </a>
-          </div>
-          <div class="col-xs-4">
-            <a  href="#" id="regis-form-btn" class="panel-login-btn">
-              <img src="assets/img/register.png" class="img-responsive btn-reg" alt="">
-            </a>
-          </div>
+      <div class="row mobile-top-nav mobile-top-nav-div">
+        <div class="col-xs-4 col-xs-offset-2">
+          <a href="index.html">
+            <img src="assets/img/login.png" class="img-responsive btn-log" alt="">
+          </a>
         </div>
+        <div class="col-xs-4">
+          <a href="index.html">
+            <img src="assets/img/register.png" class="img-responsive btn-reg" alt="">
+          </a>
+        </div>
+      </div>
         <div class="mobile-top-hc clearfix">
           <ul class="clearfix">
             <li><a href="" data-toggle="modal" data-target="#csModal"><img src="assets/img/cs.png" alt="" width="20px">在线客服</a></li>
@@ -647,8 +647,8 @@
                   </div>
                   <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
                       <!-- <a href="#" class="panel-login-btn" id="demo-form-btn"style="margin-bottom: -3px;"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a> -->
-                      <a href="#" class="panel-login-btn" id="demo-form-btn1" data-toggle="modal" data-target="#myModal"><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
-                      <a href="#" class="panel-login-btn" id="demo-form-btn2" data-toggle="modal" data-target="#myModal"><img src="assets/img/login.png" class="img-responsive btn-log" alt=""></a>
+                      <a href="#" class="panel-login-btn" id="demo-form-btn2" data-toggle="modal" data-target="#modal-panel"><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
+                      <a href="#" class="panel-login-btn" id="demo-form-btn" data-toggle="modal" data-target="#modal-panel"><img src="assets/img/login.png" class="img-responsive btn-log" alt=""></a>
                   </div>
               </div>
 
@@ -1998,6 +1998,176 @@
        </div>
      </div>
    </div>
+
+   <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="modal-panel">
+     <div class="modal-dialog modal-panel-dialog" role="document">
+       <div class="modal-content">
+         <div class="modal-body">
+           <div class="quick ihh">
+
+               <div class="panel panel-login panel-pane fade out" >
+                   <div class="panel-heading">
+
+                       <div class="col-xs-4 tab active" id="register-form-link">
+                           <a href="#" id="register-form-link">註冊</a>
+                       </div>
+                       <div class="col-xs-4 tab" id="login-form-link">
+                           <a href="#" id="login-form-link"> 登錄 </a>
+                       </div>
+                       <div class="col-xs-4 tab" id="demo-form-link">
+                           <a href="#" id="demo-form-link"> 免費試玩</a>
+                       </div>
+
+                   </div>
+                   <div class="panel-border"></div>
+                   <div class="panel-body">
+                       <div class="row">
+                           <div class="col-xs-12">
+                               <form id="register-form" method="post" role="form" style="display: block;">
+                                   <div class="form-group">
+                                       <div class="input-group">
+                                           <input class="form-control" type="text" placeholder="郵箱號碼">
+                                       </div>
+                                   </div>
+                                   <div class="panel-border"></div>
+                                   <div class="form-line">
+                                       <div class="input-group">
+                                         <label for="firstname" style="display:inline-block; margin-left:10px;">cs </label>
+                                         <input type="text" style="margin:0;padding:0;"   placeholder="建立帳號"/>
+                                       </div>
+                                   </div>
+                                   <div class="panel-border"></div>
+                                   <div class="form-group">
+                                       <div class="input-group">
+                                           <input class="form-control" type="password" placeholder="建立密码">
+                                       </div>
+
+                                   </div><div class="panel-border"></div>
+                                   <div class="form-group">
+                                       <div class="input-group">
+                                           <input class="form-control" type="password" placeholder="确认密码">
+                                       </div>
+                                   </div>
+
+                                   <div class="panel-border"></div>
+                                   <div class="form-group">
+                                       <div class="input-group">
+                                           <input class="form-control" type="text" placeholder="輸入所在地">
+                                       </div>
+                                   </div>
+
+                                   <div class="panel-border"></div>
+                                   <div class="form-group form-inline form-captcha form-recap">
+                                       <!-- <div class="input-group col-xs-7">
+
+                                           <input class="form-control" type="text" placeholder="驗證碼">
+                                       </div>
+                                       <div class="captcha-img col-xs-5">
+                                           <img src="assets/img/captcha.png" class="img-responsive" alt="">
+                                       </div> -->
+                                       <script src='https://www.google.com/recaptcha/api.js?hl=zh-TW'></script>
+                                       <div class="g-recaptcha  recaptScale" data-sitekey="6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M" data-theme="dark"   data-size="small"></div>
+                                   </div>
+                                   <div class="panel-border"></div>
+                                   <div class="form-pad">
+
+
+
+                                       <div class="form-group">
+                                           <div class="row">
+                                               <div class="col-xs-12">
+                                                 <a href="#"  class="form-control btn btn-yellowbtn btn-block sweet-13"  onclick="_gaq.push(['_trackEvent', 'example, 'try', 'Success']);">註冊賬號
+                                                   <div class="checkbox">
+                                                       <label>
+                                                           <input type="checkbox" value="">我同意<span> “條款及細則” </span>並確認我已滿18歲</label>
+                                                   </div></a>
+
+                                               </div>
+                                           </div>
+                                       </div>
+                                       <div class="form-group">
+
+
+                                       </div>
+                                   </div>
+
+                               </form>
+
+                               <form id="login-form" method="post" role="form" style="display: none;">
+                                   <div class="form-group">
+                                       <div class="input-group">
+                                           <input class="form-control" type="password" placeholder="输入账号">
+                                       </div>
+                                   </div>
+                                   <div class="panel-border"></div>
+                                   <div class="form-group">
+                                       <div class="input-group">
+                                           <input class="form-control" type="password" placeholder="输入密码">
+                                       </div>
+                                   </div>
+
+                                   <div class="panel-border"></div>
+                                   <div class="form-group form-inline form-captcha">
+                                       <div class="input-group col-xs-7"><input class="form-control" type="text" placeholder="驗證碼"></div>
+                                       <div class="captcha-img col-xs-5">
+                                           <img src="assets/img/captcha.png" class="img-responsive" alt="">
+                                       </div>
+                                   </div>
+                                   <div class="panel-border"></div>
+                                   <div class="form-pad">
+
+                                       <div class="form-group">
+                                           <div class="row">
+                                               <div class="col-xs-12">
+                                                   <a href="afterlogin.html"  class="form-control btn btn-warning btn-block" value="登录">登录</a>
+
+                                               </div>
+                                           </div>
+                                       </div>
+
+                                   </div>
+                               </form>
+
+                               <form id="demo-form" method="post" role="form" style="display: none;">
+                                   <div class="form-pad demo-tab">
+                                       沙龍會試玩帳戶，毋須使用一分錢，體驗博彩快感之餘，更能磨練自己的網上博彩技巧，並了解在專業網上賭場裏博彩是什麽樣，學習如何舒適和休閑地進行網上博彩。現在註冊開設你的免費試玩賬戶吧！
+                                   </div>
+
+                                   <div class="form-group">
+                                       <div class="input-group" style="width: 100%;">
+                                           <input class="form-control" style="width: 100%;" type="text" placeholder="輸入電郵地址或手機號碼，免費創建試玩帳戶！"disabled="">
+                                       </div>
+                                   </div>
+
+                                   <div class="form-group" style="padding: 0 10px;">
+                                       <div class="input-group" style="width: 100%;">
+                                           <input class="form-control" style="width: 100%;background: #2A2A2A;border: 1px solid #bcbcbc;" placeholder="" type="text">
+                                       </div>
+                                   </div>
+
+                                   <div class="form-pad">
+
+                                       <div class="form-group">
+                                           <div class="row">
+                                               <div class="col-xs-12">
+                                                 <a href="afterlogin.html"  class="form-control btn btn-warning btn-block" value="登录">登录</a>
+
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </form>
+                           </div>
+                       </div>
+                   </div>
+                   <a href="#" class="pull-right panel-close "  data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></a>
+               </div>
+
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
   <!-- Bootstrap core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
@@ -2126,4 +2296,4 @@
 
 </body>
 
-</html> 
+</html>
