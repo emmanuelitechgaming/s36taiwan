@@ -1415,6 +1415,8 @@ p {
     border: 1px solid #b1b1b1;
     border-radius: 4px;
     margin: 10px 0;
+    position: relative;
+    min-height: 500px
 }
 
 .wallet .form-group {
@@ -3833,6 +3835,25 @@ right: 10px;
 padding: 15px;
 
 }
+
+.wallet-reminder{
+  color: #ffb013;
+  font-size: 13px;
+  margin-left: 20px;
+  width: 700px;
+  white-space: nowrap;
+}
 .contactus-m .container img{
   margin: 8px!important;
+}
+.right-wallet-reminder{
+  width: 500px;
+  position: absolute;
+  right: 60px;
+  top: 65px;
+}
+.right-wallet-reminder p{
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #fff
 }

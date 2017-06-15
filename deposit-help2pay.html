@@ -61,9 +61,20 @@
       </div>
     </div>
     <nav class="collapse clearfix hidden-lg hidden-md" id="mobile-top-menu">
-      <div class="div">
+      <!-- <div class="div">
           <div class="contactus-m">
             <div class="container"><a href="#" id="btn" data-toggle="collapse" data-target="#gs-body">Contact Us <i class="fa fa-caret-down"></i></a></div>
+          </div>
+          <div class="mobile-top-menu-close pull-right" id="mobile-top-menu-close"><span aria-hidden="true">×</span></div>
+      </div> -->
+      <div class="div">
+          <div class="contactus-m">
+            <div class="container"><a href="#" class="top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地区</span></a></div>
+            <div class="container"><a href="#" class="top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt=""><span>语言</span></a></div>
+            <div class="container"><a href="#desktopSupport" data-toggle="collapse"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a></div>
+            <div class="container"><a href="#"><img src="assets/img/header/email.png" alt=""><span>info.th@s36.com</span></a></div>
+            <div class="container"><a href="#"><img src="assets/img/header/clock.png" alt=""><span>GMT+8 05:14 下午 周 2017年07月05日</span></a></div>
+            <div class="container"><a href="#"><img src="assets/img/header/21.png" alt=""><span>未满21岁人士禁止进入</span></a></div>
           </div>
           <div class="mobile-top-menu-close pull-right" id="mobile-top-menu-close"><span aria-hidden="true">×</span></div>
       </div>
@@ -274,7 +285,7 @@
       <nav class="navbar">
           <div class="container">
             <div class="navbar-header header-mobile ">
-              <a href="index.html" class="m-demo-img hidden-lg hidden-md"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a>
+              <!-- <a href="index.html" class="m-demo-img hidden-lg hidden-md"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a> -->
               <div class="mobile-button hidden-lg hidden-md">
                 <a href="#" id="mobile-button" data-toggle="collapse" data-target="#mobile-top-menu"><i class="fa fa-caret-up"></i></a>
               </div>
@@ -427,7 +438,7 @@
                   <div class="navbar-header navbar-right navbar-form navbar-cta-btn">
                   <div class="account-container shadow">
                     <!-- <a href="#desktopSupport" data-toggle="collapse" class="desktop-support-trigger afterlogin-support-trigger">24/7 Support Manila: (02) 231-2988</a> -->
-                    <a href="index.html" style="margin-bottom: 7px;" class="header-demoicon"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a>
+                    <!-- <a href="index.html" style="margin-bottom: 7px;" class="header-demoicon"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a> -->
                     <a href="myaccount.html" id="a-acc">
                       <img src="assets/img/afterlogin/acc2.png" alt="">
                       <div class="account-info">abc123</div>
@@ -679,7 +690,7 @@
                         <div class="wallet deposit">
                             <form action="http://122.152.160.69/paymenttest/depositpostrequest.php" onsubmit="window.open('about:blank','print_popup','width=600,height=400');" target="print_popup" method="post" id="depositForm">
                                 <div class="title">存款</div>
-                                <div class="display-block">
+                                <div class="display-block" style="display: none !important">
                                     <div class="account-text">Merchant: </div>
                                     <input type="text" name="merchant" class="form-control display-inline-block" value="M0068" required>
                                 </div>
@@ -695,6 +706,7 @@
                                             <option value="IDR">Rp IDR</option>
                                         </select>
                                     </div>
+                                    <div class="account-text wallet-reminder"></div>
                                 </div>
 
                                 <div class="display-block">
@@ -1405,6 +1417,19 @@
                  if ($("#currency").val() == "IDR") {
                    $('.amount').val("30000.00");
                  }
+
+                 if($(this).val() == "MYR"){
+                   $('.wallet-reminder').html('* Minimum deposit RM 50, up to RM 50,000. (if you have more than RM 50,000 please deposit into multiple transactions)');
+                 }else if ($(this).val() == "THB") {
+                   $('.wallet-reminder').html('* Minimum deposit THB 500, up to THB 500,000. (if you have more than THB 500,000 please deposit into multiple transactions)');
+                 }else if ($(this).val() == "VND") {
+                   $('.wallet-reminder').html('* Minimum deposit VND 300,000, up to VND 30,000,000. (if you have more than VND 30,000,000 please deposit into multiple transactions)');
+                 }else if ($(this).val() == "IDR") {
+                   $('.wallet-reminder').html('* Minimum deposit IDR 200,000 up to IDR 20,000,000. (if you have more than IDR 20,000,000 please deposit into multiple transactions)');
+                 }else if($(this).val() == ""){
+                   $('.wallet-reminder').html('');
+                 }
+
             });
 
             $("#bank1").change(function() {
@@ -1433,4 +1458,4 @@
 
 </body>
 
-</html> 
+</html>

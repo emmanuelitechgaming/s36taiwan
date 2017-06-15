@@ -242,7 +242,7 @@
     .selectpicker2 {
         padding: 5px 8px;
         top: 18px;
-        left: -49px;
+        left: -60px;
         font-size: 10px;
     }
     .selectpicker2 .fa {
@@ -518,7 +518,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -78px;
+        left: -87px;
     }
     .swiper-container {
         width: 305px;
@@ -614,7 +614,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -94px;
+        left: -107px;
     }
     .swiper-container {
         width: 345px;
@@ -692,7 +692,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -173px;
+        left: -184px;
     }
     .selectfrommonth,
     .selectfromyear {
@@ -807,7 +807,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -220px;
+        left: -233px;
     }
     .selectfrommonth,
     .selectfromyear {
@@ -876,7 +876,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -255px;
+        left: -268px;
     }
     .swiper-container {
         width: 667px;
@@ -1032,7 +1032,7 @@
     .selectpicker2 {
         padding: 6px 12px;
         top: 10px;
-        left: 15px;
+        left: 5px;
         font-size: 14px
     }
     .selectpicker2 .fa {

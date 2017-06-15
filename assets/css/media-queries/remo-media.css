@@ -63,7 +63,7 @@
 
   .wallet .datepicker{
     display: inline-block;
-    width: 98%;  
+    width: 98%;
   }
 
   .acc-cont input[type=text]{
@@ -666,7 +666,7 @@
   }
   .breadcrumb-inner .wallet .form-group, .breadcrumb-inner .wallet #None, .breadcrumb-inner .wallet #Noneb{
     display: inline-block;
-    width: 22%
+    width: 22.5%
   }
 
   .breadcrumb-inner .wallet #None, .breadcrumb-inner .wallet #Noneb{
