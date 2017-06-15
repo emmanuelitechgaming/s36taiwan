@@ -312,6 +312,14 @@ $(document).ready(function () {
       $('.top-header-21 span').css('color', '#fff');
       $('.top-header-21 img').attr('src', 'assets/img/header/21.png');
     });
+
+    $('.m-top-header-loc, .m-top-header-web').click(function() {
+      if($('body .remo-navbar-header').hasClass('open')){
+        $('body .remo-navbar-header').removeClass('open');
+      }else{
+        $('#m-selectpicker2').dropdown('toggle');
+      }
+    })
 });
 
 function nextTab(elem) {
