@@ -266,38 +266,50 @@ $(document).ready(function () {
     });
 
     $('.top-header-loc').hover(function() {
+      $('.top-header-loc span').css('color', '#ffb013');
       $('.top-header-loc img').attr('src', 'assets/img/header/location-b.png');
     }, function() {
+      $('.top-header-loc span').css('color', '#fff');
       $('.top-header-loc img').attr('src', 'assets/img/header/location.png');
     });
 
     $('.top-header-web').hover(function() {
+      $('.top-header-web span').css('color', '#ffb013');
       $('.top-header-web img').attr('src', 'assets/img/header/web-b.png');
     }, function() {
+      $('.top-header-web span').css('color', '#fff');
       $('.top-header-web img').attr('src', 'assets/img/header/web.png');
     });
 
     $('.top-header-phone').hover(function() {
+      $('.top-header-phone span').css('color', '#ffb013');
       $('.top-header-phone img').attr('src', 'assets/img/header/phone-b.png');
     }, function() {
+      $('.top-header-phone span').css('color', '#fff');
       $('.top-header-phone img').attr('src', 'assets/img/header/phone.png');
     });
 
     $('.top-header-email').hover(function() {
+      $('.top-header-email span').css('color', '#ffb013');
       $('.top-header-email img').attr('src', 'assets/img/header/email-b.png');
     }, function() {
+      $('.top-header-email span').css('color', '#fff');
       $('.top-header-email img').attr('src', 'assets/img/header/email.png');
     });
 
     $('.top-header-clock').hover(function() {
+      $('.top-header-clock span').css('color', '#ffb013');
       $('.top-header-clock img').attr('src', 'assets/img/header/clock-b.png');
     }, function() {
+      $('.top-header-clock span').css('color', '#fff');
       $('.top-header-clock img').attr('src', 'assets/img/header/clock.png');
     });
 
     $('.top-header-21').hover(function() {
+      $('.top-header-21 span').css('color', '#ffb013');
       $('.top-header-21 img').attr('src', 'assets/img/header/21-b.png');
     }, function() {
+      $('.top-header-21 span').css('color', '#fff');
       $('.top-header-21 img').attr('src', 'assets/img/header/21.png');
     });
 });
