@@ -323,7 +323,7 @@ $(document).ready(function () {
       if($('body .remo-navbar-header').hasClass('open')){
         $('.m-top-header-loc, .m-top-header-web').parent('div').css({
           'background' : '#2a2a2a',
-          'margin-right' : '130px'
+          'margin-right' : '40%'
         })
       }else{
         $('.m-top-header-loc, .m-top-header-web').parent('div').css({
@@ -336,7 +336,7 @@ $(document).ready(function () {
     $('#gs-body').on('show.bs.collapse', function () {
       $('.m-top-header-phone, .m-top-header-email').parent('div').css({
         'background' : '#2a2a2a',
-        'margin-right' : '130px'
+        'margin-right' : '40%'
       });
     });
 
