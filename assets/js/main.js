@@ -257,7 +257,7 @@ $(document).ready(function () {
       $(this).attr('src', 'assets/img/afterlogin/out2.png');
     });
 
-    $('.top-header-web, .top-header-loc').click(function() {
+    $('.top-header-web, .top-header-loc').hover(function() {
       if($('body .navbar-header').hasClass('open')){
         $('body').find('.open').removeClass('open');
       }else{
@@ -279,6 +279,10 @@ $(document).ready(function () {
     }, function() {
       $('.top-header-web span').css('color', '#fff');
       $('.top-header-web img').attr('src', 'assets/img/header/web.png');
+    });
+
+    $('.top-header-phone, .top-header-email').hover(function() {
+      $('#desktopSupport').toggle('show');
     });
 
     $('.top-header-phone').hover(function() {
@@ -313,7 +317,7 @@ $(document).ready(function () {
       $('.top-header-21 img').attr('src', 'assets/img/header/21.png');
     });
 
-    $('.m-top-header-loc, .m-top-header-web').click(function() {
+    $('.m-top-header-loc, .m-top-header-web, .lp-panel-close').click(function() {
       if($('body .remo-navbar-header').hasClass('open')){
         $('body .remo-navbar-header').removeClass('open');
       }else{
@@ -324,12 +328,14 @@ $(document).ready(function () {
         $('.m-top-header-loc, .m-top-header-web').parent('div').css({
           'background' : '#2a2a2a',
           'margin-right' : '40%'
-        })
+        });
+        $('.contactus-m .lp-panel-close').addClass('panel-close-block');
       }else{
         $('.m-top-header-loc, .m-top-header-web').parent('div').css({
           'background' : '#161616',
           'margin-right' : 'auto'
-        })
+        });
+        $('.contactus-m .lp-panel-close').removeClass('panel-close-block');
       }
     });
 
@@ -338,6 +344,7 @@ $(document).ready(function () {
         'background' : '#2a2a2a',
         'margin-right' : '40%'
       });
+      $('.contactus-m .gs-panel-close').addClass('panel-close-block');
     });
 
     $('#gs-body').on('hidden.bs.collapse', function () {
@@ -345,8 +352,8 @@ $(document).ready(function () {
         'background' : '#161616',
         'margin-right' : 'auto'
       });
+      $('.contactus-m .gs-panel-close').removeClass('panel-close-block');
     });
-
 });
 
 function nextTab(elem) {
