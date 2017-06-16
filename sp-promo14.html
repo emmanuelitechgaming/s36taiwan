@@ -1719,6 +1719,13 @@
             });
         })
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
+    <script>
+    console.log(moment.utc());
+      var now = moment().format("h:mm 下午 周 YYYY年MM月DD日");
+      $('.m-top-header-clock span, .top-header-clock span').html('GMT+8 ' + now);
+    </script>
 </body>
 
 </html>
