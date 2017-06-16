@@ -50,9 +50,6 @@ header .nav-lang {
 }
 header .contactus-m{
   padding: 10px 0;
-
-
-
 }
 .contactus-bg{
   /*background: #161616;*/
@@ -3861,4 +3858,16 @@ padding: 15px;
   margin-bottom: 5px;
   font-size: 14px;
   color: #fff
+}
+.contactus-m .container{
+  position: relative;
+}
+.contactus-m .panel-close{
+  color: #ffb013;
+  z-index: 999;
+  top: 3px;
+  display: none
+}
+.panel-close-block{
+  display: block !important;
 }
