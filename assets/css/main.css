@@ -50,9 +50,6 @@ header .nav-lang {
 }
 header .contactus-m{
   padding: 10px 0;
-
-
-
 }
 .contactus-bg{
   /*background: #161616;*/
@@ -3523,11 +3520,9 @@ font-weight: 700;
 .columns.f-social img{
   margin-left: 0;
 }
-.fa-mobile, .fa-desktop{
-  color: #ffb013;
-}
+
 .fa-mobile:hover, .fa-desktop:hover{
-  color: #fff;
+  color: #ffb013;
 }
 
 .account-container .account-info{
@@ -3599,7 +3594,6 @@ display: none !important;
   top: 0;
   -webkit-transition: top ease 0.5s;
   transition: top ease 0.5s;
-  min-height: 155px;
   padding: 5px;
   z-index: 9;
 }
@@ -3863,4 +3857,16 @@ padding: 15px;
   margin-bottom: 5px;
   font-size: 14px;
   color: #fff
+}
+.contactus-m .container{
+  position: relative;
+}
+.contactus-m .panel-close{
+  color: #ffb013;
+  z-index: 999;
+  top: 3px;
+  display: none
+}
+.panel-close-block{
+  display: block !important;
 }
