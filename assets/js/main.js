@@ -281,12 +281,6 @@ $(document).ready(function () {
       $('.top-header-web img').attr('src', 'assets/img/header/web.png');
     });
 
-    $('.top-header-phone, .top-header-email').hover(function() {
-      $('.desktop-support-trigger').trigger('click');
-    }, function() {
-      $('.desktop-support-trigger').trigger('click');
-    });
-
     $('.top-header-phone').hover(function() {
       $('.top-header-phone span').css('color', '#ffb013');
       $('.top-header-phone img').attr('src', 'assets/img/header/phone-b.png');
@@ -304,25 +298,31 @@ $(document).ready(function () {
     });
 
     $('.m-top-header-loc, .m-top-header-web, .lp-panel-close').click(function() {
-      if($('body .remo-navbar-header').hasClass('open')){
-        $('body .remo-navbar-header').removeClass('open');
-      }else{
-        $('#m-selectpicker2').dropdown('toggle');
-      }
+      // if($('body .remo-navbar-header').hasClass('open')){
+      //   $('body .remo-navbar-header').removeClass('open');
+      // }else{
+      //   $('#m-selectpicker2').dropdown('toggle');
+      // }
+      //
+      // if($('body .remo-navbar-header').hasClass('open')){
+      //   $('.m-top-header-loc, .m-top-header-web').parent('div').css({
+      //     'background' : '#2a2a2a',
+      //     'margin-right' : '40%'
+      //   });
+      //   $('.contactus-m .lp-panel-close').addClass('panel-close-block');
+      // }else{
+      //   $('.m-top-header-loc, .m-top-header-web').parent('div').css({
+      //     'background' : '#161616',
+      //     'margin-right' : 'auto'
+      //   });
+      //   $('.contactus-m .lp-panel-close').removeClass('panel-close-block');
+      // }
 
-      if($('body .remo-navbar-header').hasClass('open')){
-        $('.m-top-header-loc, .m-top-header-web').parent('div').css({
-          'background' : '#2a2a2a',
-          'margin-right' : '40%'
-        });
-        $('.contactus-m .lp-panel-close').addClass('panel-close-block');
-      }else{
-        $('.m-top-header-loc, .m-top-header-web').parent('div').css({
-          'background' : '#161616',
-          'margin-right' : 'auto'
-        });
-        $('.contactus-m .lp-panel-close').removeClass('panel-close-block');
-      }
+      $('.lang .drop').css({
+        "display": "block",
+        "position": "absolute",
+        "z-index": "88888",
+      })
     });
 
     $('#gs-body').on('show.bs.collapse', function () {

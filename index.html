@@ -32,61 +32,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="assets/css/media-queries/nathan-media.css">
     <link rel="stylesheet" href="assets/css/remo-style.css">
-
-<style>
-
-/* already defined in bootstrap4 */
-.form-recap {
-    text-align: center;
-}
-
-.g-recaptcha {
-    display: inline-block;
-}
-.lang {
-
-  min-width: 200px;
-  width: 200px;
-  padding: 4px;
-  font-family: Arial;
-  font-size: .75em;
-  cursor: pointer;
-}
-
-.drop {
-  display: none;
-  margin: 0;
-  background: #1B1B1B;
-  font-family: Arial;
-  color: #fff;
-  font-size: .75em;
-  cursor: pointer;
-  min-width: 200px;
-  width: 100%;
-  left: 0;
-  top: 27px;
-}
-
-.grey {
-  border-bottom: 1px solid #e3e3e3;
-  padding: 6px 4px;
-  cursor: pointer;
-  min-width: 200px;
-  width: 200px;
-  background: #1B1B1B;
-  display: block;
-  position: relative;
-}
-
-
-.lang:hover > .drop{
-display: block;
-position: absolute;
-z-index: 88888;
-}
-
-</style>
-
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
@@ -104,17 +49,16 @@ z-index: 88888;
         <button class="desktop-support-trigger" data-toggle="collapse" data-target="#desktopSupport" style="display: none"></button>
         <div class="container">
           <ul>
-
-            <li><a href="#" id="languages" class="top-header-loc  lang"><img src="assets/img/header/location.png"  style="width:12px;"alt=""><span>地区</span>
-
-              <div id="drop" class="drop">
-
-              </div>
-
+            <li>
+              <a href="#" id="languages" class="top-header-loc lang"><img src="assets/img/header/location.png"  style="width:12px;"alt=""><span>地区</span>
+                <div id="drop" class="drop"></div>
               </a>
-
             </li>
-            <li><a id="languages" href="#" class="top-header-web lang" data-toggle="dropdown"><img src="assets/img/header/web.png"  style="width:15px;"alt=""><span>语言</span></a></li>
+            <li>
+              <a id="languages" href="#" class="top-header-web lang"><img src="assets/img/header/web.png"  style="width:15px;"alt=""><span>语言</span>
+                <div id="drop2" class="drop"></div>
+              </a>
+            </li>
             <li><a href="#desktopSupport" data-toggle="collapse" class="top-header-phone"><img src="assets/img/header/phone.png"  style="width:12px;"alt=""><span>+66 917866756</span></a></li>
             <li><a href="#desktopSupport" data-toggle="collapse" class="top-header-email"><img src="assets/img/header/email.png"  style="width:15px;"alt=""><span>info.th@s36.com</span></a></li>
             <li><a href="#" class="top-header-clock"><img src="assets/img/header/clock.png"  style="width:15px;"alt=""><span>GMT+8 05:14 下午 周 2017年07月05日</span></a></li>
@@ -122,13 +66,15 @@ z-index: 88888;
 
           </ul>
         </div>
-
     </div>
 
         <nav class="collapse clearfix hidden-lg hidden-md" id="mobile-top-menu">
           <div class="div">
               <div class="contactus-m">
-                <div class="container"><a href="#" class="m-top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地区</span></a></div>
+                <div class="container">
+                  <a href="#" class="m-top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地区</span></a>
+                  <div id="drop" class="drop"></div>
+                </div>
                 <div class="container">
                   <a href="#" class="m-top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt="">
                     <span>语言</span>
@@ -1319,14 +1265,11 @@ z-index: 88888;
   }
 
   $(function() {
-
-  // Initialize scaling
-  scaleCaptcha();
-
-  // Update scaling on window resize
-  // Uses jQuery throttle plugin to limit strain on the browser
-  $(window).resize( $.throttle( 100, scaleCaptcha ) );
-
+    // Initialize scaling
+    scaleCaptcha();
+    // Update scaling on window resize
+    // Uses jQuery throttle plugin to limit strain on the browser
+    $(window).resize( $.throttle( 100, scaleCaptcha ) );
   });
   </script>
 
@@ -1400,7 +1343,6 @@ z-index: 88888;
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
     <script>
-    console.log(moment.utc());
       var now = moment().format("h:mm 下午 周 YYYY年MM月DD日");
       $('.m-top-header-clock span, .top-header-clock span').html('GMT+8 ' + now);
     </script>

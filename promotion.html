@@ -50,82 +50,25 @@
       <button class="desktop-support-trigger" data-toggle="collapse" data-target="#desktopSupport" style="display: none"></button>
       <div class="container">
         <ul>
-          <li><a href="#" class="top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地区</span></a></li>
-          <li><a href="#" class="top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt=""><span>语言</span></a></li>
-          <li><a href="#" class="top-header-phone"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a></li>
-          <li><a href="#" class="top-header-email"><img src="assets/img/header/email.png" alt=""><span>info.th@s36.com</span></a></li>
-          <li><a href="#" class="top-header-clock"><img src="assets/img/header/clock.png" alt=""><span>GMT+8 05:14 下午 周 2017年07月05日</span></a></li>
-          <li class="pull-right"><a href="http://www.sa36.net" class="top-header-21"><img src="assets/img/header/21.png" alt=""><span>未满21岁人士禁止进入 SA36.NET 版权所有©2017</span></a></li>
+          <li>
+            <a href="#" id="languages" class="top-header-loc lang"><img src="assets/img/header/location.png"  style="width:12px;"alt=""><span>地区</span>
+              <div id="drop" class="drop"></div>
+            </a>
+          </li>
+          <li>
+            <a id="languages" href="#" class="top-header-web lang"><img src="assets/img/header/web.png"  style="width:15px;"alt=""><span>语言</span>
+              <div id="drop2" class="drop"></div>
+            </a>
+          </li>
+          <li><a href="#desktopSupport" data-toggle="collapse" class="top-header-phone"><img src="assets/img/header/phone.png"  style="width:12px;"alt=""><span>+66 917866756</span></a></li>
+          <li><a href="#desktopSupport" data-toggle="collapse" class="top-header-email"><img src="assets/img/header/email.png"  style="width:12px;"alt=""><span>info.th@s36.com</span></a></li>
+          <li><a href="#" class="top-header-clock"><img src="assets/img/header/clock.png"  style="width:15px;"alt=""><span>GMT+8 05:14 下午 周 2017年07月05日</span></a></li>
+          <li class="pull-right"><a href="#" class="top-header-21"><img src="assets/img/header/21.png"  style="width:15px;"alt=""><span>未滿21歲人士禁止進入</span></a></li>
+
         </ul>
-
-      <div class="dropdown-menu selectpicker2-menu">
-        <div class="row">
-          <div class="col-md-3">
-            <a href=""><span class="flag-icon flag-icon-au"> </span> <span class="cntry">Australia</span> <span href="#" class="selectpicker2-sub">English</span></a>
-            <a href=""><span class="flag-icon flag-icon-mx"> </span> <span class="cntry">Mexico</span>
-              <span href="#" class="selectpicker2-sub">Méjico</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">Việt Nam</span>
-              <span href="#" class="selectpicker2-sub">Việt Nam</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-br"> </span> <span class="cntry">Brasil</span>
-              <span href="#" class="selectpicker2-sub">Brasil</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href=""><span class="flag-icon flag-icon-nz"> </span> <span class="cntry">New Zealand</span>
-              <span href="#" class="selectpicker2-sub">Aotearoa</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">ไทย</span>
-              <span href="#" class="selectpicker2-sub">ประเทศไทย</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">Indonesia</span>
-              <span href="#" class="selectpicker2-sub">Indonesia</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-ph"> </span> <span class="cntry">Philippines</span>
-              <span href="#" class="selectpicker2-sub">Filipino</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href=""><span class="flag-icon flag-icon-kr"> </span> <span class="cntry">대한민국</span>
-              <span href="#" class="selectpicker2-sub">대한민국</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-hk"> </span> <span class="cntry">香港特別行政區</span>
-              <span href="#" class="selectpicker2-sub">香港</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">Malaysia</span>
-              <span href="#" class="selectpicker2-sub">Malaysia</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-sg"> </span> <span class="cntry">Singapore</span>
-              <span href="#" class="selectpicker2-sub">香港</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
-              <span href="#" class="selectpicker2-sub">香港</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
-              <span href="#" class="selectpicker2-sub">日本</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
       </div>
   </div>
+
       <nav class="collapse clearfix hidden-lg hidden-md" id="mobile-top-menu">
         <div class="div">
             <div class="contactus-m">
@@ -148,180 +91,6 @@
             </div>
             <div class="mobile-top-menu-close pull-right" id="mobile-top-menu-close"><span aria-hidden="true">×</span></div>
         </div>
-        <div class="contactus-country collapse" id="gs-body">
-          <div class=" gs-world">
-
-            <div class="container">
-                <h3><b>Global Support</b></h3>
-            <div class="desktop-support-number"><span class="flag-icon flag-icon-au"></span> Australia</div>
-            Melbourne<br>
-            <div class="desktop-support-number">+61 3 8820 5819</div>
-            24/7 Support<br>
-            <br>
-            Countrywide<br>
-            <div class="desktop-support-number">1300 351 076</div>
-            24/7 Support<br>
-            <br>
-            Sydney<br>
-            <div class="desktop-support-number">+61 2 9355 7491</div>
-            24/7 Support<br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-              <div class="desktop-support-number"><span class="flag-icon flag-icon-br"></span> Brazil</div>
-            Em todo o território nacional<br>
-            <div class="desktop-support-number">4003 3329</div>
-            9:00 - 21:00 hrs, de segunda à sexta<br>
-            <br>
-            Rio de Janeiro<br>
-            <div class="desktop-support-number">+55 21 3956 9989</div>
-            9:00 - 21:00 hrs, de segunda à sexta<br>
-            <br>
-            São Paulo <br>
-            <div class="desktop-support-number">+55 11 3958 5679</div>
-            9:00 - 21:00 hrs, de segunda à sexta<br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-              <div class="desktop-support-number"><span class="flag-icon flag-icon-in"></span>Indonesia</div>
-            Jakarta<br>
-            <div class="desktop-support-number">+62 21 2975 8958</div>
-            Dukungan 24/7 (Inggris)<br>
-            <br>
-            Seluruh negara<br>
-            <div class="desktop-support-number">+62 855 7467 0841</div>
-            Dukungan 24/7 (Inggris)<br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-            <div class="desktop-support-number"><span class="flag-icon flag-icon-my"></span> Malaysia</div>
-            Countrywide<br>
-            <div class="desktop-support-number">+60 15 4877 0207</div>
-            24/7 Support<br>
-            <br>
-            Kuala Lumpur<br>
-            <div class="desktop-support-number">+60 3 6207 4694</div>
-            24/7 Support<br>
-            <br>
-            Malay
-            Seluruh Negara<br>
-            <div class="desktop-support-number">+60 15 4877 0207</div>
-            Sokongan B Ing. 24/7<br>
-            <br>
-            Wilayah Persekutuan Kuala Lumpur<br>
-            <div class="desktop-support-number">+60 3 6207 4694</div>
-            Sokongan B Ing. 24/7<br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-            <div class="desktop-support-number"><span class="flag-icon flag-icon-mx"></span> México</div>
-            Ciudad de México<br>
-            <div class="desktop-support-number">+52 55 4631 2410</div>
-            24/7 Atención al cliente<br>
-            <br>
-            Guadalajara<br>
-            <div class="desktop-support-number">+52 33 4624 1997</div>
-            24/7 Atención al cliente<br>
-            <br>
-            Malay
-            Monterrey<br>
-            <div class="desktop-support-number">+52 81 4770 1526</div>
-            Sokongan B Ing. 24/7<br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-              <div class="desktop-support-number"><span class="flag-icon flag-icon-nz"></span> New Zealand</div>
-            Auckland<br>
-            <div class="desktop-support-number">+64 9 975 9407</div>
-            24/7 Support<br>
-            <br>
-            Countrywide<br>
-            <div class="desktop-support-number">0800 441 995</div>
-            Only accessible in country<br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-          <div class="desktop-support-number"><span class="flag-icon flag-icon-ph"></span>Philippines</div>
-            Manila<br>
-            <div class="desktop-support-number">+63 2 759 1426</div>
-            24/7 Support<br>
-            <br>
-            Countrywide<br>
-            <div class="desktop-support-number">+63 923 099 0453</div>
-            24/7 Support<br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-          <div class="desktop-support-number"><span class="flag-icon flag-icon-sg"></span>Singapore</div>
-            Singapore<br>
-            <div class="desktop-support-number">+65 6349 4240</div>
-            24/7 Support<br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-            <div class="desktop-support-number"><span class="flag-icon flag-icon-vn"></span> Việt Nam</div>
-            TPHCM<br>
-            <div class="desktop-support-number">+84 8 4458 1371</div>
-            Hỗ trợ bằng tiếng Anh 24/7<br>
-            <br>
-            Hoa Kỳ<br>
-            <div class="desktop-support-number">+1 480 463 8702</div>
-            Hỗ trợ bằng tiếng Anh 24/7<br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-              <div class="desktop-support-number"><span class="flag-icon flag-icon-th"></span> ไทย</div>
-            กรุงเทพมหานคร<br>
-            <div class="desktop-support-number">+66 2 105 6194</div>
-            สนับสนุน 24/7 อังกฤษ<br>
-            <br>
-            ทั่วประเทศ<br>
-            <div class="desktop-support-number">+66 60 002 4085</div>
-            สนับสนุน 24/7 อังกฤษ<br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-            <div class="desktop-support-number"><span class="flag-icon flag-icon-kr"></span> 대한민국</div>
-            서울<br>
-            <div class="desktop-support-number">+82 2 6433 9576</div>
-            월-금 10:00am - 5:00pm<br>
-            <br>
-            전국적으로<br>
-            <div class="desktop-support-number">080 808 0904</div>
-            다음 국가에서만 액세스 가능<br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-            <div class="desktop-support-number"><span class="flag-icon flag-icon-tw"></span> 台灣</div>
-            全國服務<br>
-            <div class="desktop-support-number">+886 9 7348 2984</div>
-            週一至週五,上午 9:00 至下午 6:00<br>
-            <br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-            <div class="desktop-support-number"><span class="flag-icon flag-icon-jp"></span> 日本</div>
-            <div class="desktop-support-number"><h4><b></b></h4></div>
-            全国対応<br>
-            <div class="desktop-support-number">050 6864 8178</div>
-            全国対応: 午前 10 時~午後 5 時 (月~金)<br>
-            <br>
-            東京<br>
-            <div class="desktop-support-number">+81 3 6731 4843</div>
-            全国対応: 午前 10 時~午後 5 時 (月~金)<br>
-            <br>
-            </div>
-            <div class="gs-border"></div>
-            <div class="container">
-            <div class="desktop-support-number"><span class="flag-icon flag-icon-hk"></span> 香港特別行政區</div>
-            <div class="desktop-support-number"><h4><b></b></h4></div>
-            <div class="desktop-support-number">+852 3018 8600</div>
-            週一至週五,上午 9:00 至下午 6:00)<br>
-            </div>
-            <br>
-            <br>
-        </div>
-      </div>
 
         <div class="row mobile-top-nav mobile-top-nav-div">
           <div class="col-xs-4 col-xs-offset-2">
@@ -360,71 +129,7 @@
                   <div class="hidden-lg hidden-md">
                       <div class="navbar-header remo-navbar-header">
                         <button class="selectpicker2" id="m-selectpicker2"><span class="flag-icon flag-icon-tw"> </span> 台灣</button>
-                        <div class="dropdown-menu selectpicker2-menu m-selectpicker2-menu">
-                          <div class="row">
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-au"> </span> Australia <span href="#" class="selectpicker2-sub">English</span></a>
-                              <a href=""><span class="flag-icon flag-icon-mx"> </span> <span class="cntry">Mexico</span>
-                                <span href="#" class="selectpicker2-sub">Méjico</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">Việt Nam</span>
-                                <span href="#" class="selectpicker2-sub">Việt Nam</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-br"> </span> <span class="cntry">Brasil</span>
-                                <span href="#" class="selectpicker2-sub">Brasil</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-nz"> </span> <span class="cntry">New Zealand</span>
-                                <span href="#" class="selectpicker2-sub">Aotearoa</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">ไทย</span>
-                                <span href="#" class="selectpicker2-sub">ประเทศไทย</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">Indonesia</span>
-                                <span href="#" class="selectpicker2-sub">Indonesia</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-ph"> </span> <span class="cntry">Philippines</span>
-                                <span href="#" class="selectpicker2-sub">Filipino</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-kr"> </span> <span class="cntry">대한민국</span>
-                                <span href="#" class="selectpicker2-sub">대한민국</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-hk"> </span> <span class="cntry">香港特別行政區</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">Malaysia</span>
-                                <span href="#" class="selectpicker2-sub">Malaysia</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-sg"> </span> <span class="cntry">Singapore</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
-                                <span href="#" class="selectpicker2-sub">日本</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
+
                       </div>
 
                   </div>
@@ -432,233 +137,10 @@
               <div class="hidden-sm hidden-xs">
                   <div class="navbar-header">
                         <button class="selectpicker2"><span class="flag-icon flag-icon-tw"> </span> 台灣</button>
-                        <div class="dropdown-menu selectpicker2-menu">
-                          <div class="row">
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-au"> </span> <span class="cntry">Australia</span> <span href="#" class="selectpicker2-sub">English</span></a>
-                              <a href=""><span class="flag-icon flag-icon-mx"> </span> <span class="cntry">Mexico</span>
-                                <span href="#" class="selectpicker2-sub">Méjico</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">Việt Nam</span>
-                                <span href="#" class="selectpicker2-sub">Việt Nam</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-br"> </span> <span class="cntry">Brasil</span>
-                                <span href="#" class="selectpicker2-sub">Brasil</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-nz"> </span> <span class="cntry">New Zealand</span>
-                                <span href="#" class="selectpicker2-sub">Aotearoa</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">ไทย</span>
-                                <span href="#" class="selectpicker2-sub">ประเทศไทย</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">Indonesia</span>
-                                <span href="#" class="selectpicker2-sub">Indonesia</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-ph"> </span> <span class="cntry">Philippines</span>
-                                <span href="#" class="selectpicker2-sub">Filipino</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-kr"> </span> <span class="cntry">대한민국</span>
-                                <span href="#" class="selectpicker2-sub">대한민국</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-hk"> </span> <span class="cntry">香港特別行政區</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">Malaysia</span>
-                                <span href="#" class="selectpicker2-sub">Malaysia</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-sg"> </span> <span class="cntry">Singapore</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
-                                <span href="#" class="selectpicker2-sub">日本</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                  </div>
-
-                  <div class="collapse desktop-support" id="desktopSupport">
-                    <div class="container">
-                        <div class="desktop-support-title">Global Support</div>
-                      <div class="col-md-3">
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-au"></span> Australia</div>
-                        <div>Melbourne</div>
-                        <div class="desktop-support-number">+61 3 8820 5819</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div>Countrywide</div>
-                        <div class="desktop-support-number">1300 351 076</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div>Sydney</div>
-                        <div class="desktop-support-number">+61 2 9355 7491</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-mx"></span> México</div>
-                        <div>Ciudad de México</div>
-                        <div class="desktop-support-number">+52 55 4631 2410</div>
-                        <div>24/7 Atención al cliente</div>
-                        <br>
-                        <div>Guadalajara</div>
-                        <div class="desktop-support-number">+52 33 4624 1997</div>
-                        <div>24/7 Atención al cliente</div>
-                        <br>
-                        <div>Monterrey</div>
-                        <div class="desktop-support-number">+52 81 4770 1526</div>
-                        <div>24/7 Atención al cliente</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-vn"></span> Việt Nam</div>
-                        <div>TPHCM</div>
-                        <div class="desktop-support-number">+84 8 4458 1371</div>
-                        <div>Hỗ trợ bằng tiếng Anh 24/7</div>
-                        <br>
-                        <div>Hoa Kỳ</div>
-                        <div class="desktop-support-number">+1 480 463 8702</div>
-                        <div>Hỗ trợ bằng tiếng Anh 24/7</div>
-
-
-                      </div>
-
-                      <div class="col-md-3">
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-br"></span> Brasil</div>
-                        <div>Em todo o território nacional</div>
-                        <div class="desktop-support-number">4003 3329</div>
-                        <div>Acessível somente no país <br>
-                              9:00 - 21:00 hrs, de segunda à sexta</div>
-                        <br>
-                        <div>Rio de Janeiro</div>
-                        <div class="desktop-support-number">+55 21 3956 9989</div>
-                        <div>9:00 - 21:00 hrs, de segunda à sexta</div>
-                        <br>
-                        <div>São Paulo</div>
-                        <div class="desktop-support-number">+55 11 3958 5679</div>
-                        <div>9:00 - 21:00 hrs, de segunda à sexta</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-nz"></span> New Zealand</div>
-                        <div>Auckland</div>
-                        <div class="desktop-support-number">+64 9 975 9407</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div>Countrywide</div>
-                        <div class="desktop-support-number">0800 441 995</div>
-                        <div>Only accessible in country <br>24/7 Support</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-th"></span> ไทย</div>
-                        <div>กรุงเทพมหานคร</div>
-                        <div class="desktop-support-number">+66 2 105 6194</div>
-                        <div> สนับสนุน 24/7 อังกฤษ</div>
-                        <br>
-                        <div>ทั่วประเทศ</div>
-                        <div class="desktop-support-number">+66 60 002 4085</div>
-                        <div>สนับสนุน 24/7 อังกฤษ</div>
-
-                      </div>
-
-                      <div class="col-md-3">
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-id"></span> Indonesia</div>
-                        <div>Jakarta</div>
-                        <div class="desktop-support-number">+62 21 2975 8958</div>
-                        <div>Dukungan 24/7 (Inggris)</div>
-                        <br>
-                        <div>Seluruh negara</div>
-                        <div class="desktop-support-number">+62 855 7467 0841</div>
-                        <div>Dukungan 24/7 (Inggris)</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-ph"></span> Philippines</div>
-                        <div>Manila</div>
-                        <div class="desktop-support-number">+63 2 759 1426</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div>Countrywide</div>
-                        <div class="desktop-support-number">+63 923 099 0453</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-kr"></span> 대한민국</div>
-                        <div>서울</div>
-                        <div class="desktop-support-number">+82 2 6433 9576</div>
-                        <div>월-금 10:00am - 5:00pm</div>
-                        <br>
-                        <div>전국적으로</div>
-                        <div class="desktop-support-number">080 808 0904</div>
-                        <div>다음 국가에서만 액세스 가능 <br> 월-금 10:00am - 5:00pm</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-hk"></span> 香港特別行政區</div>
-                        <div>서울</div>
-                        <div class="desktop-support-number">+852 3018 8600</div>
-                        <div>週一至週五,上午 9:00 至下午 6:00  </div>
-                    </div>
-
-                      <div class="col-md-3">
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-my"></span> Malaysia</div>
-                        <div>Countrywide</div>
-                        <div class="desktop-support-number">+60 15 4877 0207</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div>Kuala Lumpur</div>
-                        <div class="desktop-support-number">+60 3 6207 4694</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div>Malay Seluruh Negara</div>
-                        <div class="desktop-support-number">+60 15 4877 0207</div>
-                        <div>Sokongan B Ing. 24/7</div>
-                        <br>
-                        <div>Wilayah Persekutuan Kuala Lumpur</div>
-                        <div class="desktop-support-number">+60 3 6207 4694</div>
-                        <div>Sokongan B Ing. 24/7</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-sg"></span> Singapore</div>
-                        <div>Singapore</div>
-                        <div class="desktop-support-number">+65 6349 4240</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-tw"></span> 台灣</div>
-                        <div>全國服務</div>
-                        <div class="desktop-support-number">+886 9 7348 2984</div>
-                        <div>週一至週五,上午 9:00 至下午 6:00</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-jp"></span> 日本</div>
-                        <div>全国対応</div>
-                        <div class="desktop-support-number">050 6864 8178</div>
-                        <div>国内からのみアクセス可能<br>全国対応: 午前 10 時~午後 5 時 (月~金)</div>
-                        <br>
-                        <div>東京</div>
-                        <div class="desktop-support-number">+81 3 6731 4843</div>
-                        <div>全国対応: 午前 10 時~午後 5 時 (月~金)</div>
-
-
-                      </div>
-
-                      <div class="col-md-12 text-center">
-                        <a href="#" id="desktopSupportClose">收起</a>
-                      </div>
-
-                    </div>
-
 
                   </div>
+
+
                   <div class="navbar-header  navbar-form navbar-cta-btn ">
                       <!-- <a href="#desktopSupport" data-toggle="collapse" class="desktop-support-trigger pull-left support-pc">24/7 Support Manila: \(02\) 231-2988</a> -->
                   </div>
@@ -2502,6 +1984,7 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/remo-js.js"></script>
     <script src="assets/js/countUp.js"></script>
+    <script src="assets/js/fotangina.js"></script>
     <script>
     $(document).ready(function() {
       var mySwiper = new Swiper ('.swiper-container', {
