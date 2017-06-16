@@ -478,6 +478,9 @@
         left: -68px;
         font-size: 10px;
     }
+    .m-selectpicker2-menu{
+      top: -285px !important;
+    }
 }
 
 
@@ -660,6 +663,9 @@
     }
     .contactus-m .panel-close {
       margin-right: -155px;
+    }
+    .m-selectpicker2-menu {
+      top: -287px !important;
     }
 }
 
@@ -1207,6 +1213,9 @@
     }
     .botton {
         margin: 10px 145px;
+    }
+    .botton.deposit-neteller-botton {
+      margin: 10px 240px;
     }
     .live-game-txtb{
       font-size: 15px;
