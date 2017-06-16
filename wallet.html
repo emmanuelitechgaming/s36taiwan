@@ -701,6 +701,7 @@
                         <select class="form-control" id="deposit_helptopay">
                           <option value="">Select</option>
                           <option value="deposit">Help2pay</option>
+                          <option value="neteller">Neteller</option>
                         </select>
                       </div>
 
@@ -1337,6 +1338,8 @@
             var val = $(this).val();
             if(val == 'deposit'){
               window.location = "deposit-help2pay.html";
+            }else if(val == 'neteller') {
+              window.location = "deposit-neteller.html";
             }
           });
 
