@@ -27,7 +27,6 @@ $deposit->setPaymentMethodValue($Ntlr_DepositEmail)
         ->setTransactionCurrency($Ntlr_DepositCurrency)
         ->setVerificationCode($Ntlr_DepositSecureId);
 $result = $deposit->doRequest();
-echo NetellerAPI::getIP();
 //These lines are just for debugging purposes, you don't need them in your live code
 /*
 $errors = $deposit->getExecutionErrors();
