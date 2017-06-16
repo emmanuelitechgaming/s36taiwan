@@ -11,6 +11,7 @@ body {
 header .top-header{
   background: #000;
   padding: 5px;
+  font-size: 12px;
 }
 header .top-header ul li{
   margin-right: 10px;
