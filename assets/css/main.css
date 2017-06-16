@@ -2642,6 +2642,7 @@ select + i.fa {
 
 .slots-mp .fa-mobile{
   margin-right: 10px;
+
 }
 
 .tdw-info{
@@ -3516,9 +3517,12 @@ font-weight: 700;
 }
 
 .fa-mobile:hover, .fa-desktop:hover{
-  color: #ffb013;
+  color: #fff;
 }
 
+.fa-mobile, .fa-desktop{
+  color: #ffb013;
+}
 .account-container .account-info{
   display: block;
   color: #fff;
@@ -3590,6 +3594,7 @@ display: none !important;
   transition: top ease 0.5s;
   padding: 5px;
   z-index: 9;
+  min-height: 155px;
 }
 /*#b::before{
   content: '';
