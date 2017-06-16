@@ -44,14 +44,14 @@
   <header>
     <div class="top-header hidden-xs hidden-sm">
       <div class="container">
-      <ul>
-        <li><a href="#" class="top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地区</span></a></li>
-        <li><a href="#" class="top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt=""><span>语言</span></a></li>
-        <li><a href="#desktopSupport" data-toggle="collapse" class="top-header-phone"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a></li>
-        <li><a href="#desktopSupport" data-toggle="collapse" class="top-header-email"><img src="assets/img/header/email.png" alt=""><span>info.th@s36.com</span></a></li>
-        <li><a href="#" class="top-header-clock"><img src="assets/img/header/clock.png" alt=""><span>GMT+8 05:14 下午 周 2017年07月05日</span></a></li>
-        <li class="pull-right"><a href="#" class="top-header-21"><img src="assets/img/header/21.png" alt=""><span>未满21岁人士禁止进入</span></a></li>
-      </ul>
+        <ul>
+          <li><a href="#" class="top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地区</span></a></li>
+          <li><a href="#" class="top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt=""><span>语言</span></a></li>
+          <li><a href="#desktopSupport" data-toggle="collapse" class="top-header-phone"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a></li>
+          <li><a href="#desktopSupport" data-toggle="collapse" class="top-header-email"><img src="assets/img/header/email.png" alt=""><span>info.th@s36.com</span></a></li>
+          <li><a href="#" class="top-header-clock"><img src="assets/img/header/clock.png" alt=""><span>GMT+8 05:14 下午 周 2017年07月05日</span></a></li>
+          <li class="pull-right"><a href="#" class="top-header-21"><img src="assets/img/header/21.png" alt=""><span>未满21岁人士禁止进入</span></a></li>
+        </ul>
 
       <div class="dropdown-menu selectpicker2-menu">
         <div class="row">
@@ -124,11 +124,21 @@
       <nav class="collapse clearfix hidden-lg hidden-md" id="mobile-top-menu">
         <div class="div">
             <div class="contactus-m">
-              <div class="container"><a href="#" class="top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地区</span></a></div>
-              <div class="container"><a href="#" class="top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt=""><span>语言</span></a></div>
-              <div class="container"><a href="#desktopSupport" data-toggle="collapse"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a></div>
-              <div class="container"><a href="#"><img src="assets/img/header/email.png" alt=""><span>info.th@s36.com</span></a></div>
-              <div class="container"><a href="#" class="m-top-header-clock"><img src="assets/img/header/clock.png" alt=""><span></span></a></div>
+              <div class="container"><a href="#" class="m-top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地区</span></a></div>
+              <div class="container">
+                <a href="#" class="m-top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt="">
+                  <span>语言</span>
+                </a>
+                <a href="#" class="panel-close lp-panel-close"><i class="fa fa-times"></i></a>
+              </div>
+              <div class="container"><a href="#gs-body" class="m-top-header-phone" data-toggle="collapse"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a></div>
+              <div class="container m-top-header-email-wrapper">
+                <a href="#gs-body" class="m-top-header-email" data-toggle="collapse"><img src="assets/img/header/email.png" alt="">
+                  <span>info.th@s36.com</span>
+                </a>
+                <a href="#gs-body" class="panel-close gs-panel-close" data-toggle="collapse"><i class="fa fa-times"></i></a>
+              </div>
+              <div class="container"><a href="#gs-body" data-toggle="collapse" class="m-top-header-clock"><img src="assets/img/header/clock.png" alt=""><span></span></a></div>
               <div class="container"><a href="#"><img src="assets/img/header/21.png" alt=""><span>未满21岁人士禁止进入</span></a></div>
             </div>
             <div class="mobile-top-menu-close pull-right" id="mobile-top-menu-close"><span aria-hidden="true">×</span></div>
@@ -308,18 +318,19 @@
         </div>
       </div>
 
-      <div class="row mobile-top-nav mobile-top-nav-div">
-        <div class="col-xs-4 col-xs-offset-2">
-          <a  href="#" id="login-form-btn" data-toggle="modal" data-target="#modal-panel"  class="panel-login-btn">
-            <img src="assets/img/register.png" class="img-responsive btn-reg" alt="">
-          </a>
+        <div class="row mobile-top-nav mobile-top-nav-div">
+          <div class="col-xs-4 col-xs-offset-2">
+            <a  href="#" id="login-form-btn" data-toggle="modal" data-target="#modal-panel"  class="panel-login-btn">
+              <img src="assets/img/register.png" class="img-responsive btn-reg" alt="">
+            </a>
+          </div>
+          <div class="col-xs-4">
+            <a href="#" id="demo-form-btn">
+              <img src="assets/img/login.png"  data-toggle="modal" data-target="#modal-panel" class="img-responsive btn-log" alt="">
+            </a>
+          </div>
         </div>
-        <div class="col-xs-4">
-          <a href="#" id="demo-form-btn">
-            <img src="assets/img/login.png"  data-toggle="modal" data-target="#modal-panel" class="img-responsive btn-log" alt="">
-          </a>
-        </div>
-      </div>
+
         <div class="mobile-top-hc clearfix">
           <ul class="clearfix">
             <li><a href="" data-toggle="modal" data-target="#csModal"><img src="assets/img/cs.png" alt="" width="20px">在线客服</a></li>
@@ -343,8 +354,8 @@
 
                   <div class="hidden-lg hidden-md">
                       <div class="navbar-header remo-navbar-header">
-                        <button class="selectpicker2" data-toggle="dropdown"><span class="flag-icon flag-icon-tw"> </span> 台灣</button>
-                        <div class="dropdown-menu selectpicker2-menu">
+                        <button class="selectpicker2" id="m-selectpicker2"><span class="flag-icon flag-icon-tw"> </span> 台灣</button>
+                        <div class="dropdown-menu selectpicker2-menu m-selectpicker2-menu">
                           <div class="row">
                             <div class="col-md-3">
                               <a href=""><span class="flag-icon flag-icon-au"> </span> Australia <span href="#" class="selectpicker2-sub">English</span></a>
@@ -1695,6 +1706,13 @@
                 }, 500);
             });
         })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
+    <script>
+    console.log(moment.utc());
+      var now = moment().format("h:mm 下午 周 YYYY年MM月DD日");
+      $('.m-top-header-clock span, .top-header-clock span').html('GMT+8 ' + now);
     </script>
 </body>
 
