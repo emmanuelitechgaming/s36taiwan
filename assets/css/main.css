@@ -13,19 +13,12 @@ header .top-header{
   padding: 5px;
   font-size: 12px;
 }
-header .top-header a:hover{
-  color:#ffb013;
-}
 header .top-header ul li{
   margin-right: 10px;
 }
-
 header .top-header ul li span{
   margin: 5px;
   color: #fff;
-}
-header .top-header ul li span:hover{
-  color: #ffb013;
 }
 header ul {
     list-style-type: none!important;

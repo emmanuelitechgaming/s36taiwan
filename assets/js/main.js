@@ -282,7 +282,9 @@ $(document).ready(function () {
     });
 
     $('.top-header-phone, .top-header-email').hover(function() {
-      $('#desktopSupport').toggle('show');
+      $('.desktop-support-trigger').trigger('click');
+    }, function() {
+      $('.desktop-support-trigger').trigger('click');
     });
 
     $('.top-header-phone').hover(function() {
@@ -299,22 +301,6 @@ $(document).ready(function () {
     }, function() {
       $('.top-header-email span').css('color', '#fff');
       $('.top-header-email img').attr('src', 'assets/img/header/email.png');
-    });
-
-    $('.top-header-clock').hover(function() {
-      $('.top-header-clock span').css('color', '#ffb013');
-      $('.top-header-clock img').attr('src', 'assets/img/header/clock-b.png');
-    }, function() {
-      $('.top-header-clock span').css('color', '#fff');
-      $('.top-header-clock img').attr('src', 'assets/img/header/clock.png');
-    });
-
-    $('.top-header-21').hover(function() {
-      $('.top-header-21 span').css('color', '#ffb013');
-      $('.top-header-21 img').attr('src', 'assets/img/header/21-b.png');
-    }, function() {
-      $('.top-header-21 span').css('color', '#fff');
-      $('.top-header-21 img').attr('src', 'assets/img/header/21.png');
     });
 
     $('.m-top-header-loc, .m-top-header-web, .lp-panel-close').click(function() {
