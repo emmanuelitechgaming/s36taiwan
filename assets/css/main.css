@@ -55,7 +55,7 @@ header #gs-body{
   width: 100%;
   z-index: 99;
   border-bottom: 1px solid #5c5c5c;
-  top: 157px
+  top: 140px
 }
 .m-selectpicker2-menu{
   background: #2a2a2a !important;
@@ -1979,8 +1979,7 @@ input[type=password] {
     padding: 0 8px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}*/
+    -moz-box-sizing: border-box;*/
 
 .loginmodal-container input[type=text]:hover,
 input[type=password]:hover {
@@ -2397,7 +2396,6 @@ select + i.fa {
 
 .mobile-top-hc{
   border-top: 1px solid rgba(48,48,48, 0.5);
-  margin: 15px -5px 0;
   padding: 15px
 }
 
@@ -2426,7 +2424,7 @@ select + i.fa {
 .mobile-top-nav{
   border-top: solid 1px rgba(48, 48, 48, 0.5);
   padding-top: 0 !important;
-  margin: 0 -5px
+  padding-bottom: 10px
 }
 
 .desktop-support{
@@ -3858,7 +3856,7 @@ padding: 15px;
   color: #fba601;
   z-index: 999;
   top: 3px;
-  display: none
+  right: 10px;
 }
 .panel-close-block{
   display: block !important;
@@ -3965,7 +3963,6 @@ padding: 15px;
       border-radius: 3px;
       background-color: #fff;
       -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
-      -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
       transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
     .checkbox label::after {
       display: inline-block;
@@ -4015,11 +4012,8 @@ padding: 15px;
   border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 background: rgba(50,50,50,1);
-background: -moz-linear-gradient(top, rgba(50,50,50,1) 0%, rgba(37,37,37,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(50,50,50,1)), color-stop(100%, rgba(37,37,37,1)));
-background: -webkit-linear-gradient(top, rgba(50,50,50,1) 0%, rgba(37,37,37,1) 100%);
-background: -o-linear-gradient(top, rgba(50,50,50,1) 0%, rgba(37,37,37,1) 100%);
-background: -ms-linear-gradient(top, rgba(50,50,50,1) 0%, rgba(37,37,37,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, from(rgba(50,50,50,1)), to(rgba(37,37,37,1)));
 background: linear-gradient(to bottom, rgba(50,50,50,1) 0%, rgba(37,37,37,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#323232', endColorstr='#252525', GradientType=0 );
 border-top: 1px solid #424242;
@@ -4029,4 +4023,25 @@ border-top: 1px solid #424242;
   color: #A4A4A4;
 text-shadow: 1px 1px 3px #000;
 
+}
+#drop2{
+  background: #2a2a2a;
+}
+#drop2 ul li{
+  display: block;
+  width: 90%;
+  border-bottom: 1px solid #c2c2c2;
+  margin: 0 15px
+}
+#drop2 ul li a{
+  display: block;
+  padding: 15px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+#drop2 .m-languages{
+  font-size: 13px;
+  font-weight: 400;
+  color: #c4c4c4;
+  margin-left: 25px
 }
