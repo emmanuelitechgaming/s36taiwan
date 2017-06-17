@@ -119,9 +119,6 @@ $(document).ready(function(){
 	$(obj).each(function(k,v){
 		$('#drop')
 			.append('<div class="language-picker"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span>'+ v.country_name + '<span class="language"></span></div></div>');
-
-			$('#drop2')
-				.append('<div class="language-picker"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span>'+ v.country_name + '<span class="language"></span></div></div>');
 	});
 
 	$('#drop .grey').each(function(){
