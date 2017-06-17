@@ -219,7 +219,7 @@ $(document).ready(function () {
 
     $('.selectpicker2-sub').hover(function() {
       $('.selectpicker2-sub').css('color', '#c4c4c4');
-      $(this).css('color', '#ffb013');
+      $(this).css('color', '#fba601');
       $(this).parent('a').find('.cntry').css('color', '#fff');
     }, function() {
       $(this).css('color', '#c4c4c4');
@@ -227,7 +227,7 @@ $(document).ready(function () {
     });
 
     $('.selectpicker2-menu a').hover(function() {
-      $(this).css('border-bottom', '1px solid #ffb013');
+      $(this).css('border-bottom', '1px solid #fba601');
     }, function() {
       $(this).find('.cntry').css('color', '#fff');
       $(this).css('border-bottom', '1px solid #c2c2c2');
@@ -266,7 +266,7 @@ $(document).ready(function () {
     });
 
     $('.top-header-loc').hover(function() {
-      $('.top-header-loc span').css('color', '#ffb013');
+      $('.top-header-loc span').css('color', '#fba601');
       $('.top-header-loc img').attr('src', 'assets/img/header/location-b.png');
     }, function() {
       $('.top-header-loc span').css('color', '#fff');
@@ -274,7 +274,7 @@ $(document).ready(function () {
     });
 
     $('.top-header-web').hover(function() {
-      $('.top-header-web span').css('color', '#ffb013');
+      $('.top-header-web span').css('color', '#fba601');
       $('.top-header-web img').attr('src', 'assets/img/header/web-b.png');
     }, function() {
       $('.top-header-web span').css('color', '#fff');
@@ -282,7 +282,7 @@ $(document).ready(function () {
     });
 
     $('.top-header-phone').hover(function() {
-      $('.top-header-phone span').css('color', '#ffb013');
+      $('.top-header-phone span').css('color', '#fba601');
       $('.top-header-phone img').attr('src', 'assets/img/header/phone-b.png');
     }, function() {
       $('.top-header-phone span').css('color', '#fff');
@@ -290,7 +290,7 @@ $(document).ready(function () {
     });
 
     $('.top-header-email').hover(function() {
-      $('.top-header-email span').css('color', '#ffb013');
+      $('.top-header-email span').css('color', '#fba601');
       $('.top-header-email img').attr('src', 'assets/img/header/email-b.png');
     }, function() {
       $('.top-header-email span').css('color', '#fff');

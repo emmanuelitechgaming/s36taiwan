@@ -63,7 +63,7 @@ input, select{
 #tab2 .lotto-desc {
   padding: 0;
   font-weight: 700;
-  color: #ffb013;
+  color: #fba601;
   font-size: 11px;
   margin-left: 0;
   margin-bottom: 5px
@@ -360,7 +360,7 @@ margin: 0px auto
 }
 
 .sitemap-header{
-  background: #ffb013
+  background: #fba601
 }
 
 .sitemap-header p{
@@ -391,7 +391,7 @@ margin: 0px auto
 }
 
 .sitemap-body ul{
-  color: #ffb013;
+  color: #fba601;
   margin: 0;
   padding: 0 25px;
 

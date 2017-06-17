@@ -368,7 +368,7 @@ body.stop-scrolling {
   background-color: #5bc0de;
 }
 .sweet-alert .sa-icon.sa-success {
-  border-color: #ffb013;
+  border-color: #fba601;
 }
 .sweet-alert .sa-icon.sa-success::before,
 .sweet-alert .sa-icon.sa-success::after {
@@ -417,7 +417,7 @@ body.stop-scrolling {
 }
 .sweet-alert .sa-icon.sa-success .sa-line {
   height: 5px;
-  background-color: #ffb013;
+  background-color: #fba601;
   display: block;
   border-radius: 2px;
   position: absolute;
