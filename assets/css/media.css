@@ -447,8 +447,11 @@
     .flag-icon {
         font-size: 14px
     }
-    .contactus-m .panel-close{
-      margin-right: -120px;
+    .lp-collapse-toggle{
+      margin-right: -200px;
+    }
+    .gs-collapse-toggle{
+      margin-right: -130px;
     }
 }
 
@@ -572,9 +575,6 @@
       font-size: 12px;
       bottom: 21px;
     }
-    .contactus-m .panel-close{
-      margin-right: -140px;
-    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -660,9 +660,6 @@
     }
     .live-game-txtc {
       bottom: 24px;
-    }
-    .contactus-m .panel-close {
-      margin-right: -155px;
     }
     .m-selectpicker2-menu {
       top: -287px !important;
