@@ -3943,6 +3943,11 @@ padding: 15px;
   margin-top: 15px;
   margin-bottom: 10px;
 }
+.login-info{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
 .form-horizontal .control-label {
     font-weight: 400!important;
     font-size: 12px;
@@ -3998,7 +4003,7 @@ padding: 15px;
   .checkbox.checkbox-inline {
     margin-top: 0; }
 .checkbox-warning input[type="checkbox"]:checked + label::before {
-  background-color: #f0ad4e;
+  background-color: #fba601;
   border-color: #f0ad4e; }
 .checkbox-warning input[type="checkbox"]:checked + label::after {
   color: #fff; }
@@ -4029,4 +4034,51 @@ border-top: 1px solid #424242;
   color: #A4A4A4;
 text-shadow: 1px 1px 3px #000;
 
+}
+.modal-custom-lg .modal-body{
+  background:#252525;
+  border-top: 1px solid #494949;
+  color: #A4A4A4;
+text-shadow: 1px 1px 3px #000;
+}
+.modal-custom-lg .modal-body .nav-tabs {
+    border-bottom: 1px solid #474747!important;
+}
+.modal-custom-lg .modal-body .nav-tabs > li.active > a, .modal-custom-lg .modal-body .nav-tabs > li.active > a:focus, .modal-custom-lg .modal-body .nav-tabs > li.active > a:hover {
+    color: #fba601;
+    cursor: default;
+    background-color: #303030;
+    border: 1px solid #3b3b3b;
+        border-bottom-color: rgb(59, 59, 59);
+    border-bottom-color: transparent;
+}
+.modal-custom-lg .modal-body .nav-tabs > li > a, .modal-custom-lg .modal-body .nav-tabs > li > a:hover {
+    border-color: transparent;
+    color: #A4A4A4;
+}
+.modal-custom-lg .modal-body .nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+.modal-custom-lg .modal-body input{
+  background: #111111;
+border: 2px solid black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+border-radius: 3px;
+outline: none;
+height: 30px;
+color: #A4A4A4;
+border-bottom: none;
+}
+.modal-custom-lg .modal-body .input-border{
+  border-bottom: 1px solid #4C4C4C;
+border-radius: 2px;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #ef9e01;
+    border-color: #eea236;
+    text-shadow: 1px 1px 3px #000;
 }
