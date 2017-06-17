@@ -300,6 +300,26 @@ $(document).ready(function () {
       });
       $('.contactus-m .gs-panel-close').removeClass('panel-close-block');
     });
+
+    $('.lang').hover(function() {
+      $('.lang .top-header-loc span, .lang .top-header-web span').css('color', '#fba601');
+      $('.top-header-loc img').attr('src', 'assets/img/header/location-b.png');
+      $('.top-header-web img').attr('src', 'assets/img/header/web-b.png');
+    }, function() {
+      $('.lang .top-header-loc span, .lang .top-header-web span').css('color', '#b3b3b3');
+      $('.top-header-loc img').attr('src', 'assets/img/header/location.png');
+      $('.top-header-web img').attr('src', 'assets/img/header/web.png');
+    });
+
+    $('.gs').hover(function() {
+      $('.gs .top-header-phone span, .gs .top-header-email span').css('color', '#fba601');
+      $('.top-header-phone img').attr('src', 'assets/img/header/location-b.png');
+      $('.top-header-email img').attr('src', 'assets/img/header/email-b.png');
+    }, function() {
+      $('.gs .top-header-phone span, .gs .top-header-email span').css('color', '#b3b3b3');
+      $('.top-header-phone img').attr('src', 'assets/img/header/location.png');
+      $('.top-header-email img').attr('src', 'assets/img/header/email.png');
+    });
 });
 
 function nextTab(elem) {
