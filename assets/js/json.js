@@ -144,5 +144,11 @@ $(document).ready(function(){
 		$(this).css('color', '#fba601');
 	}, function() {
 		$(this).css('color', '#fff');
-	})
+	});
+
+	$('.grey').hover(function() {
+		$(this).css('border-bottom','1px solid #fba601');
+	}, function() {
+		$(this).css('border-bottom','1px solid #e3e3e3');
+	});
 });
