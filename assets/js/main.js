@@ -302,20 +302,24 @@ $(document).ready(function () {
     });
 
     $('.lang').hover(function() {
+      $(this).css('border-color', '#fba601');
       $('.lang .top-header-loc span, .lang .top-header-web span').css('color', '#fba601');
       $('.top-header-loc img').attr('src', 'assets/img/header/location-b.png');
       $('.top-header-web img').attr('src', 'assets/img/header/web-b.png');
     }, function() {
+      $(this).css('border-color', '#b3b3b3');
       $('.lang .top-header-loc span, .lang .top-header-web span').css('color', '#b3b3b3');
       $('.top-header-loc img').attr('src', 'assets/img/header/location.png');
       $('.top-header-web img').attr('src', 'assets/img/header/web.png');
     });
 
     $('.gs').hover(function() {
+      $(this).css('border-color', '#fba601');
       $('.gs .top-header-phone span, .gs .top-header-email span').css('color', '#fba601');
       $('.top-header-phone img').attr('src', 'assets/img/header/phone-b.png');
       $('.top-header-email img').attr('src', 'assets/img/header/email-b.png');
     }, function() {
+      $(this).css('border-color', '#b3b3b3');
       $('.gs .top-header-phone span, .gs .top-header-email span').css('color', '#b3b3b3');
       $('.top-header-phone img').attr('src', 'assets/img/header/phone.png');
       $('.top-header-email img').attr('src', 'assets/img/header/email.png');

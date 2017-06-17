@@ -119,12 +119,23 @@ $(document).ready(function(){
 	$(obj).each(function(k,v){
 		$('#drop')
 			.append('<div class="language-picker"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span>'+ v.country_name + '<span class="language"></span></div></div>');
+
+		$('#drop2ul')
+			.append('<li><a href="#" id="country2'+ k +'" data-value="'+ k +'"><span class="flag-icon '+v.flag+'"> </span> '+ v.country_name +'<span class="languages"></span></a></li>');
 	});
 
 	$('#drop .grey').each(function(){
 		var divNum = $(this).attr('data-value');
 		$(obj[divNum].languages).each(function(k,v){
 			$('#country'+divNum+'>.language').append("<span class='language-span' style='margin:0 10px;'> "+ v +"</span>");
+		})
+	});
+
+	$('#drop2 li a').each(function(){
+		var divNum = $(this).attr('data-value');
+		$(obj[divNum].languages).each(function(k,v){
+			console.log(k+' '+v);
+			$('#country2'+divNum+' .languages').append('<span class="m-languages">'+ v +'</span>');
 		})
 	});
 
