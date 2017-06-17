@@ -47,81 +47,22 @@
     <div class="top-header hidden-xs hidden-sm">
       <button class="desktop-support-trigger" data-toggle="collapse" data-target="#desktopSupport" style="display: none"></button>
       <div class="container">
-        <ul>
-          <li><a href="#" class="top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地区</span></a></li>
-          <li><a href="#" class="top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt=""><span>语言</span></a></li>
-          <li><a href="#" class="top-header-phone"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a></li>
-          <li><a href="#" class="top-header-email"><img src="assets/img/header/email.png" alt=""><span>info.th@s36.com</span></a></li>
-          <li><a href="#" class="top-header-clock"><img src="assets/img/header/clock.png" alt=""><span>GMT+8 05:14 下午 周 2017年07月05日</span></a></li>
-          <li class="pull-right"><a href="http://www.sa36.net" class="top-header-21"><img src="assets/img/header/21.png" alt=""><span>未满21岁人士禁止进入 SA36.NET 版权所有©2017</span></a></li>
+        <ul class="pull-right">
+          <li>
+            <a href="#" class="group-border lang">
+              <div class="top-header-loc"><img src="assets/img/header/location.png"  style="width:10px;"alt=""><span>地区</span></div>
+              <div class="top-header-web"><img src="assets/img/header/web.png"  style="width:14px;"alt=""><span>语言</span></div>
+              <div id="drop" class="drop"></div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="group-border gs">
+              <div class="top-header-phone"><img src="assets/img/header/phone.png"  style="width:11.5px;"alt=""><span>+66 917866756</span></div>
+              <div class="top-header-email"><img src="assets/img/header/email.png"  style="width:15px;"alt=""><span>info.th@s36.com</span></div>
+            </a>
+          </li>
+          <li style="margin-top: 1px; "><a href="#" class="top-header-clock"><img src="assets/img/header/clock.png"  style="width:14px;"alt=""><span>11:47 16/06/2017</span></a></li>
         </ul>
-
-      <div class="dropdown-menu selectpicker2-menu">
-        <div class="row">
-          <div class="col-md-3">
-            <a href=""><span class="flag-icon flag-icon-au"> </span> <span class="cntry">Australia</span> <span href="#" class="selectpicker2-sub">English</span></a>
-            <a href=""><span class="flag-icon flag-icon-mx"> </span> <span class="cntry">Mexico</span>
-              <span href="#" class="selectpicker2-sub">Méjico</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">Việt Nam</span>
-              <span href="#" class="selectpicker2-sub">Việt Nam</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-br"> </span> <span class="cntry">Brasil</span>
-              <span href="#" class="selectpicker2-sub">Brasil</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href=""><span class="flag-icon flag-icon-nz"> </span> <span class="cntry">New Zealand</span>
-              <span href="#" class="selectpicker2-sub">Aotearoa</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">ไทย</span>
-              <span href="#" class="selectpicker2-sub">ประเทศไทย</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">Indonesia</span>
-              <span href="#" class="selectpicker2-sub">Indonesia</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-ph"> </span> <span class="cntry">Philippines</span>
-              <span href="#" class="selectpicker2-sub">Filipino</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href=""><span class="flag-icon flag-icon-kr"> </span> <span class="cntry">대한민국</span>
-              <span href="#" class="selectpicker2-sub">대한민국</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-hk"> </span> <span class="cntry">香港特別行政區</span>
-              <span href="#" class="selectpicker2-sub">香港</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">Malaysia</span>
-              <span href="#" class="selectpicker2-sub">Malaysia</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-sg"> </span> <span class="cntry">Singapore</span>
-              <span href="#" class="selectpicker2-sub">香港</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-          </div>
-          <div class="col-md-3">
-            <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
-              <span href="#" class="selectpicker2-sub">香港</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-            <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
-              <span href="#" class="selectpicker2-sub">日本</span>
-              <span href="#" class="selectpicker2-sub">English</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
       </div>
   </div>
       <nav class="collapse clearfix hidden-lg hidden-md" id="mobile-top-menu">
@@ -1660,6 +1601,7 @@
     <script src="dist/js/font-awesome.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
+    <script src="assets/js/fotangina.js"></script>
     <script>
     $(document).ready(function() {
       var mySwiper = new Swiper ('.swiper-container', {
@@ -1727,8 +1669,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
     <script>
     console.log(moment.utc());
-      var now = moment().format("h:mm 下午 周 YYYY年MM月DD日");
-      $('.m-top-header-clock span, .top-header-clock span').html('GMT+8 ' + now);
+      var now = moment().format("h:mm  DD/MM/YYYY");
+      $('.m-top-header-clock span, .top-header-clock span').html(now);
     </script>
 </body>
 

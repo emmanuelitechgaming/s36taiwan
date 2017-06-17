@@ -48,18 +48,26 @@
 <body>
   <header>
     <div class="top-header hidden-xs hidden-sm">
+      <button class="desktop-support-trigger" data-toggle="collapse" data-target="#desktopSupport" style="display: none"></button>
       <div class="container">
-      <ul>
-        <li><a href="#" class="top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地区</span></a></li>
-        <li><a href="#" class="top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt=""><span>语言</span></a></li>
-        <li class="pull-right"><a href="#" class="top-header-21"><img src="assets/img/header/21.png" alt=""><span>未滿21歲人士禁止進入</span></a></li>
-        <li><a href="#desktopSupport" data-toggle="collapse" class="top-header-phone"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a></li>
-        <li><a href="#desktopSupport" data-toggle="collapse" class="top-header-email"><img src="assets/img/header/email.png" alt=""><span>info.th@s36.com</span></a></li>
-        <li><a href="#" class="top-header-clock"><img src="assets/img/header/clock.png" alt=""><span>GMT+8 05:14 下午 周 2017年07月05日</span></a></li>
-      </ul>
-
+        <ul class="pull-right">
+          <li>
+            <a href="#" class="group-border lang">
+              <div class="top-header-loc"><img src="assets/img/header/location.png"  style="width:10px;"alt=""><span>地区</span></div>
+              <div class="top-header-web"><img src="assets/img/header/web.png"  style="width:14px;"alt=""><span>语言</span></div>
+              <div id="drop" class="drop"></div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="group-border gs">
+              <div class="top-header-phone"><img src="assets/img/header/phone.png"  style="width:11.5px;"alt=""><span>+66 917866756</span></div>
+              <div class="top-header-email"><img src="assets/img/header/email.png"  style="width:15px;"alt=""><span>info.th@s36.com</span></div>
+            </a>
+          </li>
+          <li style="margin-top: 1px; "><a href="#" class="top-header-clock"><img src="assets/img/header/clock.png"  style="width:14px;"alt=""><span>11:47 16/06/2017</span></a></li>
+        </ul>
       </div>
-    </div>
+  </div>
     <nav class="collapse clearfix hidden-lg hidden-md" id="mobile-top-menu">
       <div class="div">
           <div class="contactus-m">
@@ -1296,6 +1304,7 @@
     <script src="dist/js/font-awesome.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
+    <script src="assets/js/fotangina.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.2.6/jquery.inputmask.bundle.min.js"></script>
     <script>
         $(document).ready(function() {
@@ -1346,8 +1355,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
     <script>
     console.log(moment.utc());
-      var now = moment().format("h:mm 下午 周 YYYY年MM月DD日");
-      $('.m-top-header-clock span, .top-header-clock span').html('GMT+8 ' + now);
+      var now = moment().format("h:mm  DD/MM/YYYY");
+      $('.m-top-header-clock span, .top-header-clock span').html(now);
     </script>
 
 </body>
