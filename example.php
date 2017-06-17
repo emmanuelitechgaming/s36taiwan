@@ -52,7 +52,7 @@
         ?>
           <div class="row">
             <div class="col-xs-12">
-              <div class="well">Your deposit was successful.</div>
+              <div class="well" style="margin: 40px">Your deposit was successful.</div>
             </div>
           </div>
         <?php
