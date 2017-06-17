@@ -670,7 +670,7 @@ div.border:before {
 }
 
 .breadcrumb-inner .live-game {
-    padding-top: 15px;
+  margin: 15px 0;
 }
 
 .breadcrumb>li+li:before {
@@ -1021,7 +1021,23 @@ padding: 20px 10px;
     padding: 20px;
 }
 .breadcrumb-content .promo-body {
-    padding: 20px 0 0 0!important;
+    padding: 20px 15px 0 15px!important;
+}
+.breadcrumb-content .promo-body .live-game {
+margin: 15px 0;
+max-width: 550px;
+position: relative;
+}
+.breadcrumb-content .promo-body .live-game .promo-links {
+  bottom: 1px;
+  right: 1px;
+  position: absolute;
+  top: 75%;
+  left: 44%;
+}
+.breadcrumb-content .promo-body .live-game .promo-links a{
+display: inline-block;
+margin: 5px 10px;
 }
 
 .breadcrumb-content .promo-body .row{
@@ -1078,6 +1094,7 @@ padding: 20px 10px;
 .form-recap{
 height: 76px;
 max-width: 331px;
+margin-top: 20px;
 }
 
 .checkbox, .radio {
@@ -3911,7 +3928,9 @@ padding: 15px;
   display: block;
   position: relative;
 }
+
 .lang:hover > .drop, .gs:hover > .drop{
+
   display: block !important;
   position: absolute;
   z-index: 88888;
@@ -3933,18 +3952,38 @@ padding: 15px;
 .registration-info{
   margin-top: 15px;
   margin-bottom: 10px;
+  font-size: 12px;
+}
+.registration-info a{
+  text-decoration: none;
+  color: #fba601;
 }
 .login-info{
   margin-top: 15px;
   margin-bottom: 10px;
   text-align: center;
 }
+.fp{
+  text-align: center;
+}
+.fp a{
+  text-decoration: none;
+  color: #A4A4A4;
+  text-shadow: 1px 1px 3px #000;
+  text-align: center;
+}
 .form-horizontal .control-label {
     font-weight: 400!important;
     font-size: 12px;
 }
+.border-modal{
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #494949;
+  margin:0 -30px;
+  padding:0 -30px;
+}
 .checkbox {
-  padding-left: 33px; }
+  padding-left: 28px; }
   .checkbox label {
     display: inline-block;
     position: relative;
@@ -4043,7 +4082,10 @@ text-shadow: 1px 1px 3px #000;
   font-weight: 400;
   color: #c4c4c4;
   margin-left: 25px
+
 }
+
+
 
 .modal-custom-lg .modal-body{
   background:#252525;
@@ -4092,6 +4134,16 @@ border-radius: 2px;
     border-color: #eea236;
     text-shadow: 1px 1px 3px #000;
 }
+
+.modal-bottom{
+  margin: 13px 0 0 0;
+  display: inline-block;
+}
+.modal-foot{
+  display: inline-block;
+margin-top: 18px;
+}
+
 .desktop-support-title{
   font-weight: 700;
   font-size: 20px;
@@ -4104,4 +4156,8 @@ border-radius: 2px;
 .desktop-support .col-md-3 div{
   font-size: 13px;
   color: #c4c4c4
+}
+.breadcrumb-inner .live-game img {
+    margin: 0 auto;
+    display: block;
 }
