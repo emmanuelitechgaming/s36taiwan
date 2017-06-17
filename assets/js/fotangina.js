@@ -123,10 +123,15 @@ $(document).ready(function(){
 
 	$('#drop .grey').each(function(){
 		var divNum = $(this).attr('data-value');
-
 		$(obj[divNum].languages).each(function(k,v){
-			$('#country'+divNum+'>.language').append('<span style="margin:0 10px;"> '+ v +'</span>');
+			$('#country'+divNum+'>.language').append("<span class='language-span' style='margin:0 10px;'> "+ v +"</span>");
 		})
-
 	});
+
+	$('.language-span').hover(function() {
+		console.log($(this));
+		$(this).css('color', '#fba601');
+	}, function() {
+		$(this).css('color', '#fff');
+	})
 });
