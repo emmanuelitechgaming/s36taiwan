@@ -344,6 +344,18 @@ $(document).ready(function () {
       });
       $('.lp-collapse-toggle').css('display', 'none');
     });
+
+    $('.promo-join img').hover(function() {
+      $(this).attr('src', 'assets/img/promo/new/join-hover.png')
+    }, function() {
+      $(this).attr('src', 'assets/img/promo/new/join.png')
+    });
+
+    $('.promo-offer img').hover(function() {
+      $(this).attr('src', 'assets/img/promo/new/offer-hover.png')
+    }, function() {
+      $(this).attr('src', 'assets/img/promo/new/offer.png')
+    });
 });
 
 function nextTab(elem) {

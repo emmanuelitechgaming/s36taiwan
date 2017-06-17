@@ -453,6 +453,12 @@
     .gs-collapse-toggle{
       margin-right: -130px;
     }
+    .promo-join, .promo-offer{
+      width: 25%
+    }
+    .breadcrumb-content .promo-body .live-game .promo-links a{
+      margin: 5px 5px 5px 0;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -592,9 +598,6 @@
         width: 75px !important;
         margin-left: -194px !important;
     }
-    .panel-login {
-
-    }
     .live-game .gameplatform {
         top: -39px;
         left: 112px;
@@ -666,6 +669,12 @@
     }
     .m-selectpicker2-menu {
       top: -287px !important;
+    }
+    .lp-collapse-toggle {
+      margin-right: -295px;
+    }
+    .gs-collapse-toggle {
+      margin-right: -165px;
     }
 }
 
@@ -778,6 +787,12 @@
     .casino-mp {
     right: 100px;
     }
+    .lp-collapse-toggle {
+      margin-right: -450px;
+    }
+    .gs-collapse-toggle {
+      margin-right: -225px;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -865,9 +880,11 @@
     .jigong .live-game-txtb {
       bottom: 15px;
     }
-
     .casino-mp {
       right: 150px;
+    }
+    .lp-collapse-toggle {
+      margin-right: -545px;
     }
 }
 
@@ -922,6 +939,9 @@
     }
     .casino-mp {
       right: 185px;
+    }
+    .lp-collapse-toggle {
+      margin-right: -615px;
     }
 }
 
@@ -1245,6 +1265,12 @@
     }
     .flag-icon {
         font-size: 17px
+    }
+    .promo-join, .promo-offer{
+      width: auto
+    }
+    .breadcrumb-content .promo-body .live-game .promo-links a{
+      margin: 5px 10px 5px 10px;
     }
 }
 
