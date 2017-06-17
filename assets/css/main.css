@@ -15,7 +15,6 @@ header .top-header{
 }
 header .top-header ul li span{
   margin: 5px;
-  color: #fff;
 }
 header .top-header ul li{
   padding: 5px
@@ -3887,8 +3886,8 @@ padding: 15px;
 .gs{
   display: block;
 }
-.lang:hover span, .gs:hover span{
-  color: #fba601
+.lang span, .gs span, .top-header-clock span{
+  color: #b3b3b3
 }
 .drop {
   display: none !important;
@@ -3901,7 +3900,7 @@ padding: 15px;
   min-width: 200px;
   width: 100%;
   left: 0;
-  top: 32px;
+  top: 28px;
   padding: 0 18% 20px;
 }
 .top-header ul {
@@ -3935,10 +3934,10 @@ padding: 15px;
   font-size: 14px;
   font-weight: 700;
 }
-.language-picker .language{
+.language-picker .language span{
   font-size: 12px;
   font-weight: 400;
-  color: rgba(196, 196, 196, 1)
+  color: #fff !important
 }
 .lang div, .gs div{
   display: inline-block;
