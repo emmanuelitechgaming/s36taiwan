@@ -2438,16 +2438,9 @@ select + i.fa {
   letter-spacing: 1px
 }
 
-.desktop-support-title{
-  font-weight: 700;
-  font-size: 20px;
-  margin-bottom: 15px
-}
-
 .desktop-support-number{
-
-  color: #fba601;
-  font-size: 15px;
+  color: #fba601 !important;
+  font-size: 15px !important;
   font-weight: 700
 }
 
@@ -3918,7 +3911,7 @@ padding: 15px;
   display: block;
   position: relative;
 }
-.lang:hover > .drop{
+.lang:hover > .drop, .gs:hover > .drop{
   display: block !important;
   position: absolute;
   z-index: 88888;
@@ -4050,6 +4043,7 @@ text-shadow: 1px 1px 3px #000;
   font-weight: 400;
   color: #c4c4c4;
   margin-left: 25px
+}
 
 .modal-custom-lg .modal-body{
   background:#252525;
@@ -4097,4 +4091,17 @@ border-radius: 2px;
     background-color: #ef9e01;
     border-color: #eea236;
     text-shadow: 1px 1px 3px #000;
+}
+.desktop-support-title{
+  font-weight: 700;
+  font-size: 20px;
+  margin: 15px 0;
+  display: block !important
+}
+.desktop-support .col-md-3, .desktop-support .col-md-3 div{
+  display: block !important
+}
+.desktop-support .col-md-3 div{
+  font-size: 13px;
+  color: #c4c4c4
 }
