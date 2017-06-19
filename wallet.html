@@ -868,6 +868,7 @@
                           <option value="">Select</option>
                           <option value="deposit">Help2pay</option>
                           <option value="neteller">Neteller</option>
+                          <option value="skrill">Skrill</option>
                         </select>
                       </div>
 
@@ -882,6 +883,7 @@
                           <option value="">Select</option>
                           <option value="withdraw">Help2pay</option>
                           <option value="neteller">Neteller</option>
+                          <option value="skrill">Skrill</option>
                         </select>
                       </div>
                     </div>
@@ -1507,6 +1509,8 @@
               window.location = "deposit-help2pay.html";
             }else if(val == 'neteller') {
               window.location = "deposit-neteller.html";
+            }else if(val == 'skrill') {
+              window.location = "deposit-skrill.html";
             }
           });
 
@@ -1516,6 +1520,8 @@
               window.location = "payout-help2pay.html";
             }else if (val == 'neteller') {
               window.location = "payout-neteller.html";
+            }else if(val == 'skrill') {
+              window.location = "payout-skrill.html";
             }
           });
         })
