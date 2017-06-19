@@ -463,6 +463,9 @@
       width: 100% !important;
       margin-top: 0 !important;
     }
+    .promo-section .sp-title h3{
+      margin-top: 20px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1281,6 +1284,9 @@
     }
     .reg-now img{
       width: 379px !important;
+    }
+    .promo-section .sp-title h3{
+      margin-top: 0;
     }
 }
 
