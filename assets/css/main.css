@@ -3458,10 +3458,11 @@ font-weight: 700;
 .reg-now{
   display: block;
   margin-top: 15px;
+  text-align: center;
 }
 
 .reg-now img{
-  height: 43px;
+  height: 38px;
 }
 
 .fsalon h4{

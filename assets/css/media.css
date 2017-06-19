@@ -459,6 +459,10 @@
     .breadcrumb-content .promo-body .live-game .promo-links a{
       margin: 5px 5px 5px 0;
     }
+    .reg-now img{
+      width: 100% !important;
+      margin-top: 0 !important;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1271,6 +1275,12 @@
     }
     .breadcrumb-content .promo-body .live-game .promo-links a{
       margin: 5px 10px 5px 10px;
+    }
+    .promo-img{
+      width: 385px !important
+    }
+    .reg-now img{
+      width: 379px !important;
     }
 }
 
