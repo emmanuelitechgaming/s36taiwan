@@ -258,26 +258,6 @@ $(document).ready(function () {
     });
 
     $('.m-top-header-loc, .m-top-header-web, .lp-panel-close').click(function() {
-      // if($('body .remo-navbar-header').hasClass('open')){
-      //   $('body .remo-navbar-header').removeClass('open');
-      // }else{
-      //   $('#m-selectpicker2').dropdown('toggle');
-      // }
-      //
-      // if($('body .remo-navbar-header').hasClass('open')){
-      //   $('.m-top-header-loc, .m-top-header-web').parent('div').css({
-      //     'background' : '#2a2a2a',
-      //     'margin-right' : '40%'
-      //   });
-      //   $('.contactus-m .lp-panel-close').addClass('panel-close-block');
-      // }else{
-      //   $('.m-top-header-loc, .m-top-header-web').parent('div').css({
-      //     'background' : '#161616',
-      //     'margin-right' : 'auto'
-      //   });
-      //   $('.contactus-m .lp-panel-close').removeClass('panel-close-block');
-      // }
-
       $('.lang .drop').css({
         "display": "block",
         "position": "absolute",
@@ -356,6 +336,30 @@ $(document).ready(function () {
     }, function() {
       $(this).attr('src', 'assets/img/promo/new/offer.png')
     });
+
+    $('#myModal1').click(function() {
+      $('a[href="#demo"]').tab('show');
+    });
+
+    $('#myModal2b').click(function() {
+      $('a[href="#Registration"]').tab('show');
+    });
+
+    $('#myModal3bprev').click(function() {
+      $('a[href="#Registration"]').tab('show');
+    });
+
+    $('#myModal2bprev').click(function() {
+      $('a[href="#login"]').tab('show');
+    });
+
+    $('.myModalTab1').click(function() {
+      $('a[href="#login"]').tab('show');
+    })
+
+    $('.myModalTab3').click(function() {
+      $('a[href="#demo"]').tab('show');
+    })
 });
 
 function nextTab(elem) {
@@ -421,46 +425,6 @@ $(function() {
         e.preventDefault();
     });
 
-    $('#demo-form-btn').click(function(e) {
-        $("#demo-form").delay(100).fadeIn(100);
-        $("#login-form").fadeOut(100);
-        $("#register-form").fadeOut(100);
-        $('#login-form-link').removeClass('active');
-        $('#register-form-link').removeClass('active');
-        $("#demo-form-link").addClass('active');
-        e.preventDefault();
-    });
-
-    $('#demo-form-btn2').click(function(e) {
-        $("#login-form").delay(100).fadeIn(100);
-        $("#demo-form").fadeOut(100);
-        $("#register-form").fadeOut(100);
-        $('#login-form-link').addClass('active');
-        $('#register-form-link').removeClass('active');
-        $("#demo-form-link").removeClass('active');
-        e.preventDefault();
-    });
-
-    $('#demo-form-btn1').click(function(e) {
-        $("#register-form").delay(100).fadeIn(100);
-        $("#demo-form").fadeOut(100);
-        $("#login-form").fadeOut(100);
-        $('#login-form-link').removeClass('active');
-        $('#register-form-link').addClass('active');
-        $("#demo-form-link").removeClass('active');
-        e.preventDefault();
-    });
-
-    $('#mdemo-form-btn').click(function(e) {
-        $("#demo-form").delay(100).fadeIn(100);
-        $("#login-form").fadeOut(100);
-        $("#register-form").fadeOut(100);
-        $('#login-form-link').removeClass('active');
-        $('#register-form-link').removeClass('active');
-        $("#demo-form-link").addClass('active');
-        e.preventDefault();
-    });
-
     $('#mobile-button').click(function() {
       $('i', this).toggleClass('fa-caret-up fa-caret-down');
       $(this).closest('div').toggleClass('mobile-button-bg');
@@ -468,7 +432,6 @@ $(function() {
     $('.asd').click(function() {
       $(this).toggleClass('kulaymalupet');
     });
-
 
     $("#btn").click(function(){
         $(".contactus-m").toggleClass( "contactus-bg" );
