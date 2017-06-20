@@ -477,7 +477,7 @@ footer .footer-icon {
 
 footer .footer-icon img {
     display: inline-block;
-    margin: 0px 7px 10px 10px;
+    margin: 0px 6px 10px 6px;
     cursor: pointer;
 }
 
@@ -516,8 +516,17 @@ footer .footer-services ul.currency-icon>li {
     margin-left: 5px!important;
 }
 footer .footer-services ul.bank-icon>li {
-    display: inline-block;
-    margin-left: 6px!important;
+  display: inline-block;
+  margin-left: 6px !important;
+  margin: 5px 0;
+      margin-left: 0px;
+}
+
+.banner-overlay {
+  position: absolute;
+top: 0;
+z-index: 3;
+right: 342px;
 }
 footer .footer-services ul.payment-icon>li {
     display: inline-block;
@@ -534,12 +543,18 @@ footer .footer-services ul.columns>li:before {
 }
 
 footer .footer-services p {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 30px;
 }
 
 footer .footer-gameprovider .gameprovider {
     padding: 2px 0;
+}
+footer .fsalon{
+    border-top: 1px solid #343434;
+    margin: 10px 0;
+    padding-top: 10px;
+
 }
 #sagaming{
   text-decoration: none;
@@ -563,7 +578,7 @@ footer .footer-gameprovider .gameprovider {
   display: inline-block;
   height: auto;
   margin-top: -3px;
-  width: 33%;
+  width: 77%;
 }
 #ssalon img{
   display: inline-block;
@@ -571,8 +586,8 @@ footer .footer-gameprovider .gameprovider {
 footer .copyright {
     background: #1b1b1b;
     color: #5e5e5e;
-    padding: 20px;
-    border-top: 1px solid #343434;
+    padding-top: 20px;
+
 }
 
 footer .copyright span {
@@ -2132,15 +2147,16 @@ input[type=password]:hover {
 }
 
 .footer .sub {
-    padding-left: 15px;
-    height: 32px;
-    background: url('../img/footer/subscribe2.png') no-repeat;
-    background-size: auto auto;
-    background-size: auto auto;
-    background-size: auto auto;
-    width: 238px;
-    background-size: 237px;
-    margin: 10px 0;
+  padding-left: 15px;
+  height: 37px;
+  background: url('../img/footer/subscribe2.png') no-repeat;
+      background-size: auto auto;
+  background-size: auto auto;
+  background-size: auto auto;
+  background-size: auto auto;
+  width: 549px;
+  background-size: 549px;
+  margin: 10px 0;
 }
 
 .footer .sub label {
@@ -2154,19 +2170,20 @@ input[type=password]:hover {
     width: 140px;
     border: none;
     margin: 4px;
-    text-align: center;
+
     color: #393a3c;
 }
 
 .footer .sub a {
-    line-height: 30px;
-    margin: 7px;
-    margin-left: 7px;
-    margin-left: 7px;
-    color: #724f09;
-    text-decoration: none;
-    font-size: 12px;
-    margin-left: 40px;
+  line-height: 30px;
+  margin: 7px;
+      margin-left: 7px;
+  margin-left: 7px;
+  margin-left: 7px;
+  color: #724f09;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 350px;
 }
 
 .no-bullet {
@@ -3721,76 +3738,118 @@ right: 10px;
   background-image: url('../img/footer/support-payment.png');
   overflow: hidden;
   display: block;
-  width: 43px;
-  height: 33px;
+
 }
 #c-visa{
-  background-position: -1px 68px;
+  background-position: 0px 3px;
+  width: 46px;
+  height: 30px;
+
 }
 #c-visa:hover{
-  background-position: -1px -1px;
+  background-position: 0px 3px;
+  width: 46px;
+  height: 30px;
 }
 #c-mstr{
-  background-position: -49px 68px;
+  background-position: -63px 3px;
+  width: 38px;
+  height: 30px;
 }
 #c-mstr:hover{
-  background-position: -49px -1px;
+  background-position: -63px 3px;
+  width: 38px;
+  height: 30px;
 }
 #c-maes{
-  background-position: -99px 68px;
+  background-position: -119px 3px;
+  width: 38px;
+  height: 30px;
 }
 #c-maes:hover{
-  background-position: -99px -1px;
+  background-position: -119px 3px;
+  width: 38px;
+  height: 30px;
 }
 #c-cirus{
-  background-position: -148px 68px;
+  background-position: -174px 3px;
+  width: 38px;
+  height: 30px;
 }
 #c-cirus:hover{
-  background-position: -148px -1px;
+  background-position: -174px 3px;
+  width: 38px;
+  height: 30px;
 }
 #c-dscvr{
-  background-position: -198px 68px;
+  background-position: -231px 3px;
+  width: 36px;
+  height: 30px;
 }
 #c-dscvr:hover{
-  background-position: -198px -1px;
+  background-position: -231px 3px;
+  width: 36px;
+  height: 30px;
 }
 #c-pypal{
-  background-position: -541px 68px;
+  background-position: -284px 3px;
+  width: 93px;
+  height: 30px;
 }
 #c-pypal:hover{
-  background-position: -541px -1px;
+  background-position: -284px 3px;
+  width: 93px;
+  height: 30px;
 }
 #c-idk{
-  background-position: -1px 32px;
+  background-position: -391px 3px;
+  width: 30px;
+  height: 30px;
 }
 #c-idk:hover{
-  background-position: -1px -37px;
+  background-position: -391px 3px;
+  width: 30px;
+  height: 30px;
 }
 #c-upay{
-  background-position: -49px 32px;
+  background-position: -436px 3px;
+  width: 37px;
+  height: 30px;
 }
 #c-upay:hover{
-  background-position: -49px -37px;
-
-
+  background-position: -436px 3px;
+  width: 37px;
+  height: 30px;
 }
 #c-netler{
-  background-position: -101px 32px;
+  background-position: -488px 3px;
+  width: 67px;
+  height: 30px;
 }
 #c-netler:hover{
-  background-position: -101px -37px;
+  background-position: -488px 3px;
+  width: 67px;
+  height: 30px;
 }
 #c-wunion{
-  background-position: -149px 32px;
+  background-position: -583px 3px;
+  width: 50px;
+  height: 30px;
 }
 #c-wunion:hover{
-  background-position: -149px -37px;
+  background-position: -583px 3px;
+  width: 50px;
+  height: 30px;
 }
 #c-skrl{
-  background-position: -199px 32px;
+  background-position: -659px 3px;
+  width: 35px;
+  height: 30px;
 }
 #c-skrl:hover{
-  background-position: -199px -37px;
+  background-position: -659px 3px;
+  width: 35px;
+  height: 30px;
 }
 #c-h2pay{
   background-position: -541px 32px;
@@ -3803,63 +3862,208 @@ right: 10px;
   background-image: url('../img/footer/bank-icon.png');
   overflow: hidden;
   display: block;
-  width: 35px;
-  height: 35px;
+
 }
 
 #c-b1{
-background-position: 0px 1px;
+  background-position: -1px 0px;
+  width: 127px;
+  height: 26px;
 }
 #c-b1:hover{
-background-position: 0px -36px;
+  background-position: -1px 0px;
+  width: 127px;
+  height: 26px;
 }
 #c-b2{
-background-position: -37px 1px;
+  background-position: -142px 0px;
+  width: 153px;
+  height: 26px;
 }
 #c-b2:hover{
-background-position: -37px -36px;
+  background-position: -142px 0px;
+  width: 153px;
+  height: 26px;
 }
 #c-b3{
-background-position: -74px 1px;
+  background-position: -315px 0px;
+  width: 71px;
+  height: 26px;
 }
 #c-b3:hover{
-background-position: -74px -36px;
+  background-position: -315px 0px;
+  width: 71px;
+  height: 26px;
 }
 #c-b4{
-background-position: -115px 1px;
+  background-position: -405px 0px;
+  width: 96px;
+  height: 26px;
 }
 #c-b4:hover{
-background-position: -115px -36px;
+  background-position: -405px 0px;
+  width: 96px;
+  height: 26px;
 }
 #c-b5{
-background-position: -153px 1px;
+  background-position: -516px 0px;
+  width: 61px;
+  height: 26px;
 }
 #c-b5:hover{
-background-position: -153px -36px;
+  background-position: -516px 0px;
+  width: 61px;
+  height: 26px;
 }
 #c-b6{
-background-position: -191px 1px;
+  background-position: -593px 0px;
+  width: 60px;
+  height: 26px;
 }
 #c-b6:hover{
-background-position: -191px -36px;
+  background-position: -593px 0px;
+  width: 60px;
+  height: 26px;
 }
 #c-b7{
-background-position: -230px 1px;
+  background-position: -1px -45px;
+  width: 90px;
+  height: 26px;
 }
 #c-b7:hover{
-background-position: -230px -36px;
+  background-position: -1px -45px;
+  width: 90px;
+  height: 26px;
 }
 #c-b8{
-background-position: -268px 1px;
+  background-position: -112px -45px;
+  width: 95px;
+  height: 26px;
 }
 #c-b8:hover{
-background-position: -268px -36px;
+  background-position: -112px -45px;
+  width: 95px;
+  height: 26px;
 }
 #c-b9{
-background-position: -306px 1px;
+  background-position: -224px -45px;
+  width: 91px;
+  height: 26px;
 }
 #c-b9:hover{
-background-position: -306px -36px;
+  background-position: -224px -45px;
+  width: 91px;
+  height: 26px;
+}
+#c-b10{
+  background-position: -331px -45px;
+  width: 102px;
+  height: 26px;
+}
+#c-b10:hover{
+  background-position: -331px -45px;
+  width: 102px;
+  height: 26px;
+}
+#c-b11{
+  background-position: -451px -45px;
+  width: 93px;
+  height: 26px;
+}
+#c-b11:hover{
+  background-position: -451px -45px;
+  width: 93px;
+  height: 26px;
+}
+#c-b12{
+  background-position: -566px -36px;
+  width: 66px;
+  height: 32px;
+}
+#c-b12:hover{
+  background-position: -566px -36px;
+  width: 66px;
+  height: 32px;
+}
+#c-b13{
+  background-position: 0px -80px;
+  width: 70px;
+  height: 30px;
+}
+#c-b13:hover{
+  background-position: 0px -80px;
+  width: 70px;
+  height: 30px;
+}
+#c-b14{
+  background-position: -92px -80px;
+  width: 51px;
+  height: 30px;
+}
+#c-b14:hover{
+  background-position: -92px -80px;
+  width: 51px;
+  height: 30px;
+}
+#c-b15{
+  background-position: -166px -80px;
+  width: 85px;
+  height: 30px;
+}
+#c-b15:hover{
+  background-position: -166px -80px;
+  width: 85px;
+  height: 30px;
+}
+#c-b16{
+  background-position: -270px -80px;
+  width: 84px;
+  height: 30px;
+}
+#c-b16:hover{
+  background-position: -270px -80px;
+  width: 84px;
+  height: 30px;
+}
+#c-b17{
+  background-position: -374px -80px;
+width: 80px;
+height: 30px;
+}
+#c-b17:hover{
+  background-position: -374px -80px;
+  width: 80px;
+  height: 30px;
+}
+#c-b18{
+  background-position: -475px -80px;
+  width: 51px;
+  height: 30px;
+}
+#c-18:hover{
+  background-position: -475px -80px;
+  width: 51px;
+  height: 30px;
+}
+#c-b19{
+  background-position: -543px -80px;
+  width: 39px;
+  height: 30px;
+}
+#c-b19:hover{
+  background-position: -543px -80px;
+  width: 39px;
+  height: 30px;
+}
+#c-b20{
+  background-position: -603px -80px;
+  width: 88px;
+  height: 30px;
+}
+#c-b20:hover{
+  background-position: -603px -80px;
+  width: 88px;
+  height: 30px;
 }
 .modal-backdrop.in {
     filter: alpha(opacity=90);
@@ -3963,7 +4167,7 @@ padding: 15px;
   padding: 0 18% 20px;
 }
 .top-header ul {
-  background: #000;
+  background: #1B1B1B;
 }
 .group-border{
   border: 1px solid #b3b3b3;
