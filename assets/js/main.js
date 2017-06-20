@@ -360,6 +360,12 @@ $(document).ready(function () {
     $('.myModalTab3').click(function() {
       $('a[href="#demo"]').tab('show');
     })
+
+    $('img[src="assets/img/casino/baccarat/play-icon.png"]').hover(function() {
+      $(this).attr('src', 'assets/img/casino/baccarat/play btn-hover.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/casino/baccarat/play-icon.png');
+    });
 });
 
 function nextTab(elem) {
