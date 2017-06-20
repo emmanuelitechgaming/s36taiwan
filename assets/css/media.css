@@ -466,6 +466,16 @@
     .promo-section .sp-title h3{
       margin-top: 20px;
     }
+
+    footer .copyright span {
+      margin-top: 10px;
+    }
+    footer .copyright img {
+      margin-top: 10px;
+    }
+    #cntnt {
+      margin-left: -1px;
+
     .footer .sub {
       width: 100%;
       background-size: auto;
@@ -852,6 +862,15 @@
     }
     .gs-collapse-toggle {
       margin-right: -225px;
+    }
+    footer .copyright span {
+      margin-top: 0px;
+    }
+    footer .copyright img {
+      margin-top: 0px;
+    }
+    #cntnt {
+      margin-left: 10px;
     }
 }
 
@@ -1368,6 +1387,7 @@
       margin-right: 40px;
       margin-bottom: auto
     }
+
 }
 
 
