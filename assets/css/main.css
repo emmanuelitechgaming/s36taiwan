@@ -4484,7 +4484,5 @@ ol, ul {
 #myModal #demo div div.form-group:nth-child(3) input{
   width: 100%;
   display: block;
-  background: none;
-  border: solid 1px #bcbcbc;
   padding: 5px
 }
