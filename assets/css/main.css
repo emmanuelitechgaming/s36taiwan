@@ -2148,10 +2148,6 @@ input[type=password]:hover {
   padding-left: 15px;
   height: 37px;
   background: url('../img/footer/subscribe2.png') no-repeat;
-      background-size: auto auto;
-  background-size: auto auto;
-  background-size: auto auto;
-  background-size: auto auto;
   margin: 10px 0;
 }
 
@@ -4466,9 +4462,29 @@ ol, ul {
   padding: 0;
   list-style: none
 }
-#myModal .modal-foot ul li:nth-child(2) a{
+#myModal .modal-foot ul li:nth-child(1) a{
   color: #fff
 }
 .border-modal2{
   margin: 0 -14px
+}
+#myModal #demo p{
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+  color: #fba601;
+  padding: 10px 15px
+}
+#myModal #demo div div.form-group:nth-child(2) input{
+  width: 100%;
+  display: block;
+  background: none;
+  border: none
+}
+#myModal #demo div div.form-group:nth-child(3) input{
+  width: 100%;
+  display: block;
+  background: none;
+  border: solid 1px #bcbcbc;
+  padding: 5px
 }
