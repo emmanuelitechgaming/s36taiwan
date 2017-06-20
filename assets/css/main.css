@@ -582,7 +582,7 @@ footer .fsalon{
   display: inline-block;
   height: auto;
 margin: 0 2px;
-  width: 77%;
+  width: 74%;
 }
 #ssalon img{
   display: inline-block;
@@ -4500,15 +4500,10 @@ ol, ul {
 #myModal #demo div div.form-group:nth-child(3) input{
   width: 100%;
   display: block;
-  background: none;
-  border: solid 1px #bcbcbc;
-  padding: 5px
 }
 .rss-submit-verification,.rss-submit-verification:hover{
 
   border: 1px solid #ffad41;
--webkit-border-radius: 3px;
--moz-border-radius: 3px;
 border-radius: 3px;
 font-size: 12px;
 font-family: arial, helvetica, sans-serif;
@@ -4520,10 +4515,6 @@ font-weight: bold;
 color: #FFFFFF;
 background-color: #ffc579;
 background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc579), to(#fb9d23));
-background-image: -webkit-linear-gradient(top, #ffc579, #fb9d23);
-background-image: -moz-linear-gradient(top, #ffc579, #fb9d23);
-background-image: -ms-linear-gradient(top, #ffc579, #fb9d23);
-background-image: -o-linear-gradient(top, #ffc579, #fb9d23);
 background-image: linear-gradient(to bottom, #ffc579, #fb9d23);
 filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc579, endColorstr=#fb9d23);
 }
