@@ -554,7 +554,7 @@ footer .fsalon{
     border-top: 1px solid #343434;
     margin: 10px 0;
     padding-top: 10px;
-    margin-bottom: 30px;
+
 }
 #sagaming{
   text-decoration: none;
@@ -565,6 +565,10 @@ footer .fsalon{
   text-decoration: none;
   color: inherit;
   font-size: 14px;
+}
+#compat{
+  text-decoration: none;
+  color: inherit;
 }
 #sagaming img{
   display: inline-block;
@@ -586,15 +590,16 @@ footer .fsalon{
 footer .copyright {
     background: #1b1b1b;
     color: #5e5e5e;
-    padding-top: 20px;
+
 }
 
 footer .copyright span {
-  display: inline-block;
-  color: #5e5e5e;
-  font-size: 14px;
-  font-weight: 700;
-  margin: 0 10px;
+    display: inline-block;
+    color: #5e5e5e;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 5px;
+        margin-top: 0px;
 }
 
 footer .fsalon h4 {
@@ -3732,6 +3737,12 @@ right: 10px;
   display: block;
 
 }
+.payment-icon a:hover{
+  background-image: url('../img/footer/support-payment-hover.png');
+  overflow: hidden;
+  display: block;
+
+}
 #c-visa{
   background-position: 0px 3px;
   width: 46px;
@@ -3856,7 +3867,12 @@ right: 10px;
   display: block;
 
 }
+.bank-icon a:hover{
+  background-image: url('../img/footer/bank-icon-hover.png');
+  overflow: hidden;
+  display: block;
 
+}
 #c-b1{
   background-position: -1px 0px;
   width: 127px;
@@ -4162,7 +4178,7 @@ padding: 15px;
   background: #1B1B1B;
 }
 .group-border{
-  border: 1px solid #1b1b1b;
+  border: 1px solid #1B1B1B;
   border-radius: 4px;
 }
 .top-header .pull-right img{
@@ -4487,4 +4503,27 @@ ol, ul {
   background: none;
   border: solid 1px #bcbcbc;
   padding: 5px
+}
+.rss-submit-verification,.rss-submit-verification:hover{
+
+  border: 1px solid #ffad41;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+font-size: 12px;
+font-family: arial, helvetica, sans-serif;
+padding: 6px 10px 6px 10px;
+text-decoration: none;
+display: inline-block;
+text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+font-weight: bold;
+color: #FFFFFF;
+background-color: #ffc579;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc579), to(#fb9d23));
+background-image: -webkit-linear-gradient(top, #ffc579, #fb9d23);
+background-image: -moz-linear-gradient(top, #ffc579, #fb9d23);
+background-image: -ms-linear-gradient(top, #ffc579, #fb9d23);
+background-image: -o-linear-gradient(top, #ffc579, #fb9d23);
+background-image: linear-gradient(to bottom, #ffc579, #fb9d23);
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc579, endColorstr=#fb9d23);
 }
