@@ -581,7 +581,7 @@ footer .fsalon{
 #compat img{
   display: inline-block;
   height: auto;
-  margin-top: -3px;
+margin: 0 2px;
   width: 77%;
 }
 #ssalon img{
