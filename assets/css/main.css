@@ -582,7 +582,10 @@ footer .fsalon{
   display: inline-block;
   height: auto;
 margin: 0 2px;
-  width: 74%;
+  width: 77%;
+}
+.fsalon span:nth-child(5){
+  margin-left: -10px
 }
 #ssalon img{
   display: inline-block;
@@ -4517,4 +4520,9 @@ background-color: #ffc579;
 background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc579), to(#fb9d23));
 background-image: linear-gradient(to bottom, #ffc579, #fb9d23);
 filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc579, endColorstr=#fb9d23);
+}
+.my-modal-cs{
+  position: absolute;
+  left: -2px;
+  top: 4px;
 }
