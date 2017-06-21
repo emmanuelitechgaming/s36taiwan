@@ -19,7 +19,6 @@
     <link href="dist/css/sweetalert.css" rel="stylesheet">
     <link href="dist/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -1601,20 +1600,22 @@
                             <!-- Tab panes -->
                             <div class="tab-content">
                                 <div class="tab-pane active" id="login">
-                                  <p class="registration-info">
-                                      沙龙会S36手机版 <a href="m.s36.com">（m.s36.com）</a>现已正式上线，即日起会员可通过手机浏览器直接访问网站，无需下载和安装即可随时随地玩转所有沙龙会的游戏，还等什么？赶紧拿起手机，马上感受我们给您带来的全新游戏体验吧！
-                                  </p>
+                                    <ul class="nav nav-tabs" id="myModalTab" role="tablist">
+                                      <li role="presentation" class="active"><a href="#myModalTab1-1" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-chevron-left"></i></a></li>
+                                      <li role="presentation"><a href="#myModalTab1-2" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-chevron-right"></i></a></li>
+                                    </ul>
 
-                                  <div class="flexslider">
-                                    <ul class="slides">
-                                      <li>
-                                        <p class="login-info">請登錄玩</p>
-
+                                    <div class="tab-content">
+                                      <div role="tabpanel" class="tab-pane fade active" id="myModalTab1-1">
+                                        <p class="login-info">注册</p>
+                                        <p class="registration-info">
+                                            沙龙会S36手机版 <a href="m.s36.com">（m.s36.com）</a>现已正式上线，即日起会员可通过手机浏览器直接访问网站，无需下载和安装即可随时随地玩转所有沙龙会的游戏，还等什么？赶紧拿起手机，马上感受我们给您带来的全新游戏体验吧！
+                                        </p>
                                         <form role="form" class="form-horizontal">
                                             <div class="form-group">
                                                 <label for="email" class="col-sm-2 control-label">
                                                     输入账号</label>
-                                                <div class="col-sm-10">
+                                                <div class="col-sm-9">
                                                     <div class="input-border">
                                                         <input type="email" class="form-control" placeholder="输入账号" />
                                                     </div>
@@ -1623,7 +1624,7 @@
                                             <div class="form-group">
                                                 <label for="exampleInputPassword1" class="col-sm-2 control-label">
                                                     输入密码</label>
-                                                <div class="col-sm-10">
+                                                <div class="col-sm-9">
                                                     <div class="input-border">
                                                         <input type="email" class="form-control" placeholder="输入密码" />
                                                     </div>
@@ -1644,8 +1645,12 @@
                                                 </div>
                                             </div>
                                         </form>
-                                      </li>
-                                      <li>
+                                      </div>
+                                      <div role="tabpanel" class="tab-pane fade" id="myModalTab1-2">
+                                        <p class="login-info">登錄</p>
+                                        <p class="registration-info">
+                                            沙龙会S36手机版 <a href="m.s36.com">（m.s36.com）</a>现已正式上线，即日起会员可通过手机浏览器直接访问网站，无需下载和安装即可随时随地玩转所有沙龙会的游戏，还等什么？赶紧拿起手机，马上感受我们给您带来的全新游戏体验吧！
+                                        </p>
                                         <div class="col-md-6">
                                             <form role="form" class="form-horizontal">
                                               <div class="form-group">
@@ -1706,9 +1711,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                      </li>
-                                    </ul>
-                                  </div>
+                                      </div>
+                                    </div>
 
                                     <div class="col-md-12">
                                         <div class="border-modal"></div>
@@ -1735,7 +1739,30 @@
                                     </div>
                                 </div>
                                 <div class="tab-pane" id="Registration">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae eum, nulla! Distinctio voluptas dolore, quisquam minima ratione vero quia voluptatem ab quis accusamus eius labore odit blanditiis rem natus nihil!</p>
+
+                                    <div class="col-md-12">
+                                        <div class="border-modal"></div>
+                                        <div class="modal-foot">
+                                          <ul>
+                                              <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台灣</a></li>
+                                              <li>
+                                                  <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
+                                              </li>
+                                              <li>
+                                                  <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
+                                              </li>
+                                              <li><img src="assets/img/header/21.png" alt=""></a>
+                                              </li>
+                                          </ul>
+                                        </div>
+                                        <div class=" pull-right">
+
+                                            <div class="modal-bottom">
+                                                <button type="button" id="myModal1" class="btn btn-warning">註冊賬號 </button>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="tab-pane" id="demo">
                                     <div class="col-md-12">
@@ -2101,7 +2128,6 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
     <script src="assets/js/json.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider.min.js"></script>
 
     <script>
         $("a[href='#top']").click(function() {
@@ -2218,15 +2244,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
     <script>
-      $(window).load(function() {
+      $(document).ready(function() {
         var now = moment().format("h:mm  DD/MM/YYYY");
         $('.m-top-header-clock span, .top-header-clock span').html(now);
-
-        $('#myModal').on('shown.bs.modal', function() {
-          $('.flexslider').flexslider({
-            animation: "slide"
-          });
-        })
       });
     </script>
 </body>
