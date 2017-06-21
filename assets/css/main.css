@@ -4526,3 +4526,39 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   left: -2px;
   top: 4px;
 }
+.m-fsalon ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.m-fsalon ul li{
+  display: inline-block;
+}
+.m-fsalon ul li img{
+  display: inline-block;
+}
+.m-fsalon ul li:nth-child(1), .m-fsalon ul li:nth-child(2), .m-fsalon ul li:nth-child(4), .m-fsalon ul li:nth-child(5){
+  width: 50%;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
+  margin: auto;
+}
+.m-fsalon ul li:nth-child(1){
+  text-align: left;
+}
+.m-fsalon ul li:nth-child(2){
+  text-align: right
+}
+.m-fsalon ul li:nth-child(3){
+  display: block;
+  margin-top: 15px;
+}
+.m-fsalon ul li:nth-child(4) span, .m-fsalon ul li:nth-child(5) span{
+  display: block
+}
+.m-fsalon ul li:nth-child(4), .m-fsalon ul li:nth-child(5){
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
