@@ -19,6 +19,7 @@
     <link href="dist/css/sweetalert.css" rel="stylesheet">
     <link href="dist/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -1600,70 +1601,114 @@
                             <!-- Tab panes -->
                             <div class="tab-content">
                                 <div class="tab-pane active" id="login">
-                                    <p class="registration-info">
-                                        沙龙会S36手机版 <a href="m.s36.com">（m.s36.com）</a>现已正式上线，即日起会员可通过手机浏览器直接访问网站，无需下载和安装即可随时随地玩转所有沙龙会的游戏，还等什么？赶紧拿起手机，马上感受我们给您带来的全新游戏体验吧！
-                                    </p>
+                                  <p class="registration-info">
+                                      沙龙会S36手机版 <a href="m.s36.com">（m.s36.com）</a>现已正式上线，即日起会员可通过手机浏览器直接访问网站，无需下载和安装即可随时随地玩转所有沙龙会的游戏，还等什么？赶紧拿起手机，马上感受我们给您带来的全新游戏体验吧！
+                                  </p>
 
-                                    <div class="col-md-6">
+                                  <div class="flexslider">
+                                    <ul class="slides">
+                                      <li>
+                                        <p class="login-info">請登錄玩</p>
+
                                         <form role="form" class="form-horizontal">
-                                          <div class="form-group">
-                                              <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
-                                              <div class="col-sm-8">
-                                                  <div class="input-border">
-                                                      <input type="password" class="form-control" id="password" />
+                                            <div class="form-group">
+                                                <label for="email" class="col-sm-2 control-label">
+                                                    输入账号</label>
+                                                <div class="col-sm-10">
+                                                    <div class="input-border">
+                                                        <input type="email" class="form-control" placeholder="输入账号" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1" class="col-sm-2 control-label">
+                                                    输入密码</label>
+                                                <div class="col-sm-10">
+                                                    <div class="input-border">
+                                                        <input type="email" class="form-control" placeholder="输入密码" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1" class="col-sm-2 control-label">
+                                                    驗證碼</label>
+                                                <div class="col-sm-6">
+                                                    <div class="input-border">
+                                                        <input type="email" class="form-control" placeholder="驗證碼" />
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <div class="input-border">
+                                                        <input type="email" class="form-control" placeholder="A12BC3" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                      </li>
+                                      <li>
+                                        <div class="col-md-6">
+                                            <form role="form" class="form-horizontal">
+                                              <div class="form-group">
+                                                  <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
+                                                  <div class="col-sm-8">
+                                                      <div class="input-border">
+                                                          <input type="password" class="form-control" id="password" />
+                                                      </div>
                                                   </div>
                                               </div>
-                                          </div>
-                                            <div class="form-group">
-                                                <label for="email" class="col-sm-4 control-label">郵箱號碼 *</label>
-                                                <div class="col-sm-8">
-                                                    <div class="input-border">
-                                                        <input type="email" class="form-control" />
+                                                <div class="form-group">
+                                                    <label for="email" class="col-sm-4 control-label">郵箱號碼 *</label>
+                                                    <div class="col-sm-8">
+                                                        <div class="input-border">
+                                                            <input type="email" class="form-control" />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="email" class="col-sm-4 control-label">建立帳號 *</label>
-                                                <div class="col-sm-8">
-                                                    <div class="input-border">
-                                                        <span class="my-modal-cs">cs</span> <input type="email" class="form-control" id="email" />
+                                                <div class="form-group">
+                                                    <label for="email" class="col-sm-4 control-label">建立帳號 *</label>
+                                                    <div class="col-sm-8">
+                                                        <div class="input-border">
+                                                            <span class="my-modal-cs">cs</span> <input type="email" class="form-control" id="email" />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="mobile" class="col-sm-4 control-label">建立密码 *</label>
-                                                <div class="col-sm-8">
-                                                    <div class="input-border">
-                                                        <input type="email" class="form-control" id="mobile" />
+                                                <div class="form-group">
+                                                    <label for="mobile" class="col-sm-4 control-label">建立密码 *</label>
+                                                    <div class="col-sm-8">
+                                                        <div class="input-border">
+                                                            <input type="email" class="form-control" id="mobile" />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="password" class="col-sm-4 control-label">确认密码 *</label>
-                                                <div class="col-sm-8">
-                                                    <div class="input-border">
-                                                        <input type="password" class="form-control" id="password" />
+                                                <div class="form-group">
+                                                    <label for="password" class="col-sm-4 control-label">确认密码 *</label>
+                                                    <div class="col-sm-8">
+                                                        <div class="input-border">
+                                                            <input type="password" class="form-control" id="password" />
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
 
 
-                                        </form>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group form-inline form-captcha form-recap">
-                                            <script src='https://www.google.com/recaptcha/api.js?hl=zh-TW'></script>
-                                            <div class="g-recaptcha  recaptScale" data-sitekey="6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M" data-theme="dark" data-size="small"></div>
+                                            </form>
                                         </div>
-                                        <div class="form-group form-checkbox">
-                                            <div class="checkbox checkbox-warning">
-                                                <input id="checkbox5" type="checkbox" checked="">
-                                                <label for="checkbox5">
-                                                    我同意<span> “條款及細則” </span>並確認我已滿18歲
-                                                </label>
+                                        <div class="col-md-6">
+                                            <div class="form-group form-inline form-captcha form-recap">
+                                                <script src='https://www.google.com/recaptcha/api.js?hl=zh-TW'></script>
+                                                <div class="g-recaptcha  recaptScale" data-sitekey="6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M" data-theme="dark" data-size="small"></div>
+                                            </div>
+                                            <div class="form-group form-checkbox">
+                                                <div class="checkbox checkbox-warning">
+                                                    <input id="checkbox5" type="checkbox" checked="">
+                                                    <label for="checkbox5">
+                                                        我同意<span> “條款及細則” </span>並確認我已滿18歲
+                                                    </label>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                      </li>
+                                    </ul>
+                                  </div>
 
                                     <div class="col-md-12">
                                         <div class="border-modal"></div>
@@ -1690,65 +1735,7 @@
                                     </div>
                                 </div>
                                 <div class="tab-pane" id="Registration">
-                                    <p class="login-info">請登錄玩</p>
-
-                                    <form role="form" class="form-horizontal">
-                                        <div class="form-group">
-                                            <label for="email" class="col-sm-2 control-label">
-                                                输入账号</label>
-                                            <div class="col-sm-10">
-                                                <div class="input-border">
-                                                    <input type="email" class="form-control" placeholder="输入账号" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputPassword1" class="col-sm-2 control-label">
-                                                输入密码</label>
-                                            <div class="col-sm-10">
-                                                <div class="input-border">
-                                                    <input type="email" class="form-control" placeholder="输入密码" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputPassword1" class="col-sm-2 control-label">
-                                                驗證碼</label>
-                                            <div class="col-sm-6">
-                                                <div class="input-border">
-                                                    <input type="email" class="form-control" placeholder="驗證碼" />
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-2">
-                                                <div class="input-border">
-                                                    <input type="email" class="form-control" placeholder="A12BC3" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="border-modal"></div>
-                                            <div class="modal-foot">
-                                              <ul>
-                                                  <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台灣</a></li>
-                                                  <li>
-                                                      <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
-                                                  </li>
-                                                  <li>
-                                                      <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
-                                                  </li>
-                                                  <li><img src="assets/img/header/21.png" alt=""></a>
-                                                  </li>
-                                              </ul>
-                                            </div>
-                                            <div class=" pull-right">
-
-                                                <div class="modal-bottom">
-                                                    <button type="button" id="myModal1" class="btn btn-warning">註冊賬號 </button>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </form>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae eum, nulla! Distinctio voluptas dolore, quisquam minima ratione vero quia voluptatem ab quis accusamus eius labore odit blanditiis rem natus nihil!</p>
                                 </div>
                                 <div class="tab-pane" id="demo">
                                     <div class="col-md-12">
@@ -2114,6 +2101,7 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
     <script src="assets/js/json.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider.min.js"></script>
 
     <script>
         $("a[href='#top']").click(function() {
@@ -2230,8 +2218,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
     <script>
+      $(window).load(function() {
         var now = moment().format("h:mm  DD/MM/YYYY");
         $('.m-top-header-clock span, .top-header-clock span').html(now);
+
+        $('#myModal').on('shown.bs.modal', function() {
+          $('.flexslider').flexslider({
+            animation: "slide"
+          });
+        })
+      });
     </script>
 </body>
 
