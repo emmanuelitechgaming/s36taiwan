@@ -4555,6 +4555,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   display: block;
   margin-top: 15px;
 }
+.m-fsalon ul li:nth-child(3) span{
+  position: relative;
+  top: 6px;
+}
 .m-fsalon ul li:nth-child(4) span, .m-fsalon ul li:nth-child(5) span{
   display: block
 }
