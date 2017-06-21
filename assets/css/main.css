@@ -4566,6 +4566,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.promo-tabs{
+  padding: 0 25px;
+}
 .promo-tabs a{
   color: #adadad !important;
   background: url('../img/promo/tab-btn.png') no-repeat !important;
@@ -4581,7 +4584,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 }
 .panel-heading .promo-tabs li.active a::before{
   content: '';
-  background: url('../img/promo/tab-btn-active.png');
+  background: url('../img/promo/tab-btn-active-line.png');
   background-position: 10px 10px;
   display: block;
   width: 100%;
@@ -4594,7 +4597,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   height: 5px;
   background: url('../img/promo/tab-line.png') repeat-x !important;
   position: relative;
-  bottom: -35px
+  bottom: -35px;
+  margin: 0 25px;
 }
 .flexslider{
   padding: 20px 38px !important;
@@ -4608,9 +4612,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 }
 #myModalTab li:nth-child(1){
   left: -105px;
-  top: 120px;
+  top: 150px;
 }
 #myModalTab li:nth-child(2){
   right: -105px;
-  top: 120px;
+  top: 150px;
 }
