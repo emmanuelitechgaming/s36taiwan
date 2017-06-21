@@ -551,10 +551,10 @@ footer .footer-gameprovider .gameprovider {
     padding: 2px 0;
 }
 footer .fsalon{
-    border-top: 1px solid #343434;
-    margin: 10px 0;
-    padding-top: 10px;
-
+  border-top: 1px solid #343434;
+  margin: 10px 0;
+  padding-top: 10px;
+  text-align: center;
 }
 #sagaming{
   text-decoration: none;
@@ -597,12 +597,11 @@ footer .copyright {
 }
 
 footer .copyright span {
-    display: inline-block;
-    color: #5e5e5e;
-    font-size: 14px;
-    font-weight: 700;
-    margin: 0 5px;
-        margin-top: 0px;
+  display: inline-block;
+  color: #5e5e5e;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 10px 5px;
 }
 
 footer .fsalon h4 {
@@ -2893,10 +2892,10 @@ span.round-tab i{
 }
 
 .cs-modal .ctitle h1 {
-  color: #fff!important;
+  color: #fba601!important;
   font-size: 28px;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fba601;
+  border-bottom: 1px solid #fba601;
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
@@ -2935,6 +2934,7 @@ span.round-tab i{
     border-radius: 4px;
     background: url(../img/yellow-btn.png) repeat-x;
     text-shadow: none;
+    width: 100%;
 }
 
 .cs-modal .chatserver-form span {
