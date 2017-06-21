@@ -287,7 +287,7 @@ $(document).ready(function () {
       $('.top-header-loc img').attr('src', 'assets/img/header/location-b.png');
       $('.top-header-web img').attr('src', 'assets/img/header/web-b.png');
     }, function() {
-      $(this).css('border-color', '#b3b3b3');
+      $(this).css('border-color', '#1b1b1b');
       $('.lang .top-header-loc span, .lang .top-header-web span').css('color', '#b3b3b3');
       $('.top-header-loc img').attr('src', 'assets/img/header/location.png');
       $('.top-header-web img').attr('src', 'assets/img/header/web.png');
@@ -299,7 +299,7 @@ $(document).ready(function () {
       $('.top-header-phone img').attr('src', 'assets/img/header/phone-b.png');
       $('.top-header-email img').attr('src', 'assets/img/header/email-b.png');
     }, function() {
-      $(this).css('border-color', '#b3b3b3');
+      $(this).css('border-color', '#1b1b1b');
       $('.gs .top-header-phone span, .gs .top-header-email span').css('color', '#b3b3b3');
       $('.top-header-phone img').attr('src', 'assets/img/header/phone.png');
       $('.top-header-email img').attr('src', 'assets/img/header/email.png');
@@ -360,6 +360,12 @@ $(document).ready(function () {
     $('.myModalTab3').click(function() {
       $('a[href="#demo"]').tab('show');
     })
+
+    $('img[src="assets/img/casino/baccarat/play-icon.png"]').hover(function() {
+      $(this).attr('src', 'assets/img/casino/baccarat/play btn-hover.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/casino/baccarat/play-icon.png');
+    });
 });
 
 function nextTab(elem) {

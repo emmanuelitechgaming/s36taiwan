@@ -470,6 +470,7 @@
                         <a href="#"><img src="assets/img/header/21.png" alt=""><span>未满21岁人士禁止进入</span></a>
                     </div>
                 </div>
+
                 <div class="mobile-top-menu-close pull-right" id="mobile-top-menu-close"><span aria-hidden="true">×</span></div>
             </div>
 
@@ -495,6 +496,7 @@
                         <a href="helpcenter.html"><img src="assets/img/hc.png" alt="" width="20px">帮助中心</a>
                     </li>
                 </ul>
+
             </div>
         </nav>
         <nav class="navbar">
@@ -1073,10 +1075,30 @@
                                 </ul>
                             </div>
                             <h4>订阅电子报</h4>
-                            <div class="sub">
-                                <label>
-                                    <input name="info1$Mail" placeholder="免费获得沙龙会最新消息" maxlength="20" id="info1_Mail" tabindex="20" type="text">
-                                </label><a href="javascript:void(0)" class="sweet-12" onclick="_gaq.push(['_trackEvent', 'example, 'try', 'Success']);">订阅</a></div>
+                            <div class="rss-field">
+                              <form>
+                                <div class="form-inline">
+                                <div class="form-group">
+
+                                  <input type="text" class="form-control" style="width: 250px;height:30px;" placeholder="输入电子邮箱免费获得沙龙会最新消息
+                            ">
+                                </div>
+                                <div class="form-group">
+
+                                  <input type="text" class="form-control" style="height:30px;"placeholder="输入验证码">
+                                </div>
+                                <div class="form-group">
+
+                                <img src="assets/img/footer/verify.png" style="margin:0;"alt="">
+                                </div>
+                                <div class="form-group">
+
+                                <a href="javascript:void(0)" class="sweet-12 rss-submit-verification" onclick="_gaq.push(['_trackEvent', 'example, 'try', 'Success']);">订阅</a>
+                                </div>
+
+                              </div>
+                              </form>
+                            </div>
                             <h4>公司简介 </h4>
                             <p>
                                 沙龍會屬于沙龍國際娛樂集團官方的直營現金網，營運總部位於菲律賓的核心金融商業中心馬卡蒂市，並獲得菲律賓第一卡加延休閑度假公司 First Cagayan Leisure and Resort Corporation (簡稱 FCLRC) 簽發授權的網上博彩牌照，沙龍會博彩網站的運作流程均受之嚴格監督與管理，所有博彩遊戲都經過第三方軟件測試機構GLI及BMM的國際認證，保證每一款真人遊戲及電子遊戲的公平與公正，證明所有環節均符合相關的規定及法律要求。同時，我們提供多種快速安全的線上支付渠道，讓玩家存款提款可以更簡單，隨時隨地安全地進行線上博彩娛樂！馬上免費聯繫沙龍會客服中心，不管是開戶、存款、提款、遊戲等各項諮詢，沙龍國際沙龍會全年無休24小時待命為您服務。沙龍會絕對是玩家們值得信賴、具有實力及專業的線上博彩娛樂品牌。
@@ -1353,16 +1375,6 @@
                                     </ul>
                                 </div>
 
-                                <h4>安全</h4>
-
-                                <div class="gameprovider footer-services f-right f-social">
-                                    <ul class="columns no-bullet browsers">
-                                        <li>
-                                            <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
-                                        </li>
-
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -1374,9 +1386,10 @@
                   <div class=" fsalon">
                       <span><a href="#" id="sagaming"><img src="assets/img/footer/sagaming.png" alt="" style="margin: 0;" class="img-responsive"><span>软件技术支持</span></a></span>
                       <span><a href="#" id="ssalon"><img src="assets/img/footer/ssalon.png" alt="" style="margin: 0;" class="img-responsive"><span>沙龍國際官方直營</span> </a></span>
-                      <span><a href="#"id="s36logo">  <img src="assets/img/footer/f-logo.png" class="img-responsive" alt=""><span id="cntnt">沙龙国际版权所有 &copy; 2009 - 2017 </span></a></span>
+                      <span><a href="#"id="s36logo">  <img src="assets/img/footer/f-logo.png" class="img-responsive" alt=""><span id="cntnt">沙龙国际版权所有 &copy;</span></a></span>
                       <span><a href="#"id="compat">  <img src="assets/img/footer/compatible.png" class="img-responsive" alt=""><span>兼容</span></a></span>
-                      <span style="margin-left: -5px;"><a href="#"id="" > <img src="assets/img/header/21.png"  alt=""></a></span>
+                      <span><a href="#"id="compat">  <img src="assets/img/footer/safety.png" class="img-responsive" alt=""><span>安全</span></a></span>
+                      <span style="margin-left: -14px;"><a href="#"id="" > <img src="assets/img/header/21.png"  alt=""></a></span>
                   </div>
                     <!-- <img src="assets/img/footer/f-logo.png" class="img-responsive" alt=""> -->
                     <!-- <img src="assets/img/header/21.png"  style="width:16px;"alt="">未滿21歲人士禁止進入 -->
@@ -1554,19 +1567,19 @@
                             <ul class="nav nav-tabs">
                                 <li class="active">
                                     <a href="#login" data-toggle="tab" aria-controls="login" role="tab">
-                                        <span>1</span> 註
+                                        <span>1</span> 注册/登錄
                                     </a>
                                 </li>
                                 <li class="connecting-line cl1"></li>
                                 <li class="">
                                     <a href="#Registration" data-toggle="tab" aria-controls="Registration" role="tab">
-                                        <span>2</span> 登錄
+                                        <span>2</span> 通過支付進行存款
                                     </a>
                                 </li>
                                 <li class="connecting-line cl2"></li>
                                 <li class="">
                                     <a href="#demo" data-toggle="tab" aria-controls="demo" role="tab">
-                                        <span>3</span> 免費試玩
+                                        <span>3</span> 开始游戏
                                     </a>
                                 </li>
                             </ul>
@@ -1582,6 +1595,14 @@
 
                                     <div class="col-md-6">
                                         <form role="form" class="form-horizontal">
+                                          <div class="form-group">
+                                              <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
+                                              <div class="col-sm-8">
+                                                  <div class="input-border">
+                                                      <input type="password" class="form-control" id="password" />
+                                                  </div>
+                                              </div>
+                                          </div>
                                             <div class="form-group">
                                                 <label for="email" class="col-sm-4 control-label">郵箱號碼 *</label>
                                                 <div class="col-sm-8">
@@ -1594,7 +1615,7 @@
                                                 <label for="email" class="col-sm-4 control-label">建立帳號 *</label>
                                                 <div class="col-sm-8">
                                                     <div class="input-border">
-                                                        <input type="email" class="form-control" id="email" value="cs" />
+                                                        <span class="my-modal-cs">cs</span> <input type="email" class="form-control" id="email" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -1614,14 +1635,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="form-group">
-                                                <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
-                                                <div class="col-sm-8">
-                                                    <div class="input-border">
-                                                        <input type="password" class="form-control" id="password" />
-                                                    </div>
-                                                </div>
-                                            </div>
+
 
                                         </form>
                                     </div>
@@ -1648,7 +1662,10 @@
                                                 <li>
                                                     <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                                 </li>
-                                                <li><img src="assets/img/header/21.png" alt=""><span> 未满21岁人士禁止进入</span></a>
+                                                <li>
+                                                    <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
+                                                </li>
+                                                <li><img src="assets/img/header/21.png" alt=""></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1705,14 +1722,16 @@
                                                   <li>
                                                       <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                                   </li>
-                                                  <li><img src="assets/img/header/21.png" alt=""><span> 未满21岁人士禁止进入</span></a>
+                                                  <li>
+                                                      <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
+                                                  </li>
+                                                  <li><img src="assets/img/header/21.png" alt=""></a>
                                                   </li>
                                               </ul>
                                             </div>
                                             <div class=" pull-right">
 
                                                 <div class="modal-bottom">
-                                                    <button type="button" class="btn btn-default" id="myModal2bprev">上一步</button>
                                                     <button type="button" id="myModal1" class="btn btn-warning">註冊賬號 </button>
                                                 </div>
 
@@ -1729,7 +1748,9 @@
                                             <input type="text" placeholder="輸入電郵地址或手機號碼，免費創建試玩帳戶" disabled>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text">
+                                          <div class="input-border">
+                                              <input type="email" class="form-control">
+                                          </div>
                                         </div>
                                     </div>
 
@@ -1741,15 +1762,17 @@
                                               <li>
                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                               </li>
-                                              <li><img src="assets/img/header/21.png" alt=""><span> 未满21岁人士禁止进入</span></a>
+                                              <li>
+                                                  <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
+                                              </li>
+                                              <li><img src="assets/img/header/21.png" alt=""></a>
                                               </li>
                                           </ul>
                                         </div>
                                         <div class=" pull-right">
 
                                             <div class="modal-bottom">
-                                                <button type="button" class="btn btn-default" id="myModal3bprev">上一步</button>
-                                                <button type="button" class="btn btn-warning  ">註冊賬號</button>
+                                                <button type="button" class="btn btn-warning  ">立即試玩</button>
                                             </div>
 
                                         </div>
