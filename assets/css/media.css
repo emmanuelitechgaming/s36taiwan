@@ -506,6 +506,9 @@
       margin-right: auto;
       margin-bottom: 10px
     }
+    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
+      width: 70%;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -643,6 +646,9 @@
     .cl2 {
       left: 219px;
     }
+    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
+      width: 74%;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -746,6 +752,9 @@
     }
     .cl2 {
       left: 239px;
+    }
+    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
+      width: 74%;
     }
 }
 
