@@ -366,6 +366,16 @@ $(document).ready(function () {
     }, function() {
       $(this).attr('src', 'assets/img/casino/baccarat/play-icon.png');
     });
+
+    $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function () {
+      $('#myModal2b').html('立即注册');
+      $('#myModalTab li:nth-child(1), #myModalTab li:nth-child(2)').css('top', '210px');
+    });
+
+    $('a[href="#myModalTab1-2"]').on('hidden.bs.tab', function () {
+      $('#myModal2b').html('註冊賬號');
+      $('#myModalTab li:nth-child(1), #myModalTab li:nth-child(2)').css('top', '150px');
+    });
 });
 
 function nextTab(elem) {
