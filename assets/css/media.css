@@ -475,7 +475,6 @@
     }
     #cntnt {
       margin-left: -1px;
-
     }
     .footer .sub {
       width: 100%;
@@ -508,6 +507,21 @@
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 70%;
+    }
+    .footer-shareit ul li{
+      width: 50%;
+      margin-right: -3px;
+    }
+    .rss-field .form-group:nth-child(2), .rss-field .form-group:nth-child(3), .rss-field .form-group:nth-child(4){
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .rss-field .form-group:nth-child(2){
+      width: 44%
+    }
+    .promo-tabs-border{
+      bottom: -37px;
+      margin: 0 1px;
     }
 }
 
@@ -649,6 +663,16 @@
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 74%;
     }
+    .rss-field .form-group:nth-child(1){
+      display: block;
+      width: 100%
+    }
+    .rss-field .form-group:nth-child(1) input{
+      width: 100% !important
+    }
+    .rss-field .form-group:nth-child(2) {
+      width: 57%;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -755,6 +779,9 @@
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 74%;
+    }
+    .rss-field .form-group:nth-child(2) {
+      width: 61%;
     }
 }
 
@@ -1399,6 +1426,23 @@
     }
     #myModal{
       overflow: hidden;
+    }
+    .footer-shareit ul li{
+      width: auto;
+    }
+    .rss-field .form-group:nth-child(2){
+      width: auto
+    }
+    .rss-field .form-group:nth-child(1){
+      display: inline-block;
+      width: auto
+    }
+    .rss-field .form-group:nth-child(1) input{
+      width: 250px !important
+    }
+    .promo-tabs-border{
+      bottom: -35px;
+      margin: 0 25px;
     }
 }
 
