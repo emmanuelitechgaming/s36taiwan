@@ -382,6 +382,10 @@ $(document).ready(function () {
       $('#myModalTab li:nth-child(1)').css('display', 'none');
       $('#myModalTab li:nth-child(2)').css('display', 'block');
     });
+
+    $('.banner-overlay button').click(function() {
+      $('.banner-overlay').slideUp();
+    })
 });
 
 function nextTab(elem) {

@@ -4624,3 +4624,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 .promotion-swiper-container{
   overflow: inherit;
 }
+.banner-overlay button{
+  position: relative;
+  right: 22px;
+  color: #2a2a2a !important
+}
