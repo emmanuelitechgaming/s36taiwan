@@ -366,6 +366,26 @@ $(document).ready(function () {
     }, function() {
       $(this).attr('src', 'assets/img/casino/baccarat/play-icon.png');
     });
+
+    $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function () {
+      $('#myModal2b_registration').css('display', 'block');
+      $('#myModal2b_login').css('display', 'none');
+      $('#myModalTab li:nth-child(1)').css('top', '210px');
+      $('#myModalTab li:nth-child(1)').css('display', 'block');
+      $('#myModalTab li:nth-child(2)').css('display', 'none');
+    });
+
+    $('a[href="#myModalTab1-2"]').on('hidden.bs.tab', function () {
+      $('#myModal2b_registration').css('display', 'none');
+      $('#myModal2b_login').css('display', 'block');
+      $('#myModalTab li:nth-child(1)').css('top', '150px');
+      $('#myModalTab li:nth-child(1)').css('display', 'none');
+      $('#myModalTab li:nth-child(2)').css('display', 'block');
+    });
+
+    $('.banner-overlay button').click(function() {
+      $('.banner-overlay').slideUp();
+    })
 });
 
 function nextTab(elem) {
