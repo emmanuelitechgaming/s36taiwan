@@ -3448,30 +3448,8 @@ font-weight: 700;
     padding: 5px 0 0 0;
 }
 
-.promotion-swiper-container{
-  border-bottom: 1px solid #fba601;
-}
-
-.promotion-swiper-container .swiper-slide a {
-    border-right: none;
-}
-
-.promotion-swiper-container a{
-  color: #fba601;
-  border-radius: 4px 4px 0 0 !important
-}
-
 .promotion-swiper-container a:hover, .promotion-swiper-container a:active, .promotion-swiper-container a:focus{
   text-decoration: none
-}
-
-.promotion-swiper-container a.active{
-  color: #fba601;
-  cursor: default;
-  background-color: transparent;
-  border: 1px solid #fba601;
-  border-bottom-color: #1b1b1b;
-  font-weight: 700;
 }
 
 .desktop-support .county-line{
@@ -4599,8 +4577,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   height: 5px;
   background: url('../img/promo/tab-line.png') repeat-x !important;
   position: relative;
-  bottom: -35px;
-  margin: 0 25px;
 }
 .flexslider{
   padding: 20px 38px !important;
@@ -4619,4 +4595,32 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 #myModalTab li:nth-child(2){
   right: -105px;
   top: 150px;
+}
+.m-promo-tabs a{
+  position: relative;
+  margin-right: 1px;
+  color: #adadad;
+  background: url('../img/promo/tab-btn.png') no-repeat;
+  background-size: 100% 100%;
+  border-right: none;
+  text-shadow: none
+}
+.m-promo-tabs .active{
+  color: #000;
+  background: url('../img/promo/tab-btn-active.png') no-repeat;
+  background-size: 100% 100%;
+}
+.m-promo-tabs .active::before{
+  content: '';
+  background: url('../img/promo/tab-btn-active-line.png');
+  background-position: 10px 10px;
+  display: block;
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+}
+.promotion-swiper-container{
+  overflow: inherit;
 }
