@@ -1828,11 +1828,10 @@
                                             </ul>
                                         </div>
                                         <div class=" pull-right">
-
                                             <div class="modal-bottom">
-                                                <button type="button" id="myModal2b" class="btn btn-warning">註冊賬號</button>
+                                              <a href="afterlogin.html" id="myModal2b_login" class="btn btn-warning">註冊賬號</a>
+                                              <button type="button" id="myModal2b_registration" class="btn btn-warning sweet-13" style="display: none">立即注册</button>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -2145,6 +2144,16 @@
             swal({
                 title: "非常感謝閣下的訂閱",
                 text: "我們將不定期為您送上最新資訊及精選專屬活動，沙龍會誠摯期待閣下蒞臨。",
+                type: "success",
+                confirmButtonClass: 'btn-warning',
+                confirmButtonText: '關閉'
+            });
+        };
+
+        document.querySelector('.sweet-13').onclick = function() {
+            swal({
+                title: "注册成功",
+                text: "很高兴为您服务，如有任何问题请随时联系在线客服 ，我们将24小时竭诚为您服务！",
                 type: "success",
                 confirmButtonClass: 'btn-warning',
                 confirmButtonText: '關閉'
