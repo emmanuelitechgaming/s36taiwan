@@ -188,6 +188,7 @@
     }
     .casino-g img {
         margin: 0;
+        margin-bottom: 10px;
     }
     .casino-g .content .fa {
         top: 3px
@@ -908,6 +909,12 @@
     }
     #cntnt {
       margin-left: 10px;
+    }
+    .slots-mp {
+        margin-top: 5px;
+    }
+    .fa-dsktp {
+      margin-top: 5px;
     }
 }
 
