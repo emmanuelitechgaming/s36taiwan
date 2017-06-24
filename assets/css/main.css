@@ -4129,7 +4129,7 @@ padding: 15px;
 }
 .lang{
   display: block;
-  min-width: 105px;
+  min-width: 80px;
   padding: 1px;
   font-family: Arial;
   font-size: .75em;
@@ -4140,6 +4140,9 @@ padding: 15px;
 }
 .lang span, .gs span, .top-header-clock span{
   color: #b3b3b3
+}
+header .top-header ul li:nth-child(1){
+  padding-right: 0;
 }
 .drop {
   display: none !important;
