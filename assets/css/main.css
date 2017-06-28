@@ -4178,12 +4178,16 @@ header .top-header ul li:nth-child(1){
   display: block;
   position: relative;
 }
-
 .lang:hover > .drop, .gs:hover > .drop{
-
   display: block !important;
   position: absolute;
   z-index: 88888;
+}
+.lang-click{
+  display: block !important;
+  position: absolute;
+  z-index: 88888;
+  top: 145px !important
 }
 .language-picker{
   display: inline-block;
