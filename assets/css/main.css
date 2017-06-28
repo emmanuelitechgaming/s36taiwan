@@ -275,7 +275,10 @@ main .live-container {
   padding: 5px 35px !important
 }
 
-main .gp-g {}
+main .gp-g {
+  position: relative;
+  top: -5px;
+}
 
 main .gp-d {
     padding-top: 6px;
