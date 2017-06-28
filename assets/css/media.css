@@ -1418,13 +1418,13 @@
       font-size: 15px
     }
     #myModal .nav-tabs li.connecting-line{
-      width: 170px;
+      width: 200px;
     }
     .cl1{
-      left: 157px;
+      left: 140px;
     }
     .cl2{
-      left: 399px
+      left: 383px
     }
     #myModal .modal-foot ul li{
       display: inline-block;
