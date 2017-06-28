@@ -210,9 +210,9 @@
                             </div>
                         </a>
                     </li>
-                    <!-- <li style="margin-top: 1px; ">
+                    <li style="margin-top: 1px; ">
                         <a href="#" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:14px;" alt=""><span>11:47 16/06/2017</span></a>
-                    </li> -->
+                    </li>
                 </ul>
             </div>
         </div>
@@ -514,7 +514,7 @@
 
                     <div class="hidden-lg hidden-md">
                         <div class="navbar-header remo-navbar-header">
-                            <button class="selectpicker2" id="m-selectpicker2"><span class="flag-icon flag-icon-tw"> </span> 台灣/繁體 <i class="fa fa-caret-down"></i></button>
+                            <button class="selectpicker2" id="m-selectpicker2"><span class="flag-icon flag-icon-tw"> </span> 台灣 <i class="fa fa-caret-down"></i></button>
 
                         </div>
 
@@ -522,7 +522,7 @@
                 </div>
                 <div class="hidden-sm hidden-xs">
                     <div class="navbar-header">
-                        <button class="selectpicker2"><span class="flag-icon flag-icon-tw"> </span> 台湾/繁体 <i class="fa fa-caret-down"></i></button>
+                        <button class="selectpicker2"><span class="flag-icon flag-icon-tw"> </span> 台灣 <i class="fa fa-caret-down"></i></button>
                     </div>
 
                     <div class="navbar-header  navbar-form navbar-cta-btn ">
@@ -565,7 +565,6 @@
                 </div>
 
                 <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
-                  <li>  <a href="#" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span>11:47 16/06/2017</span></a></li>
                     <li>
                         <a href="#" data-toggle="modal" data-target="#csModal"><img src="assets/img/cs.png" width="20px" alt="">&nbsp; 在线客服</a>
                     </li>
@@ -648,10 +647,10 @@
                 <!-- End of Wrapper For Slides -->
             </div>
             <!-- End  bootstrap-touch-slider Slider -->
-            <!-- <div class="banner-overlay hidden-sm hidden-xs">
+            <div class="banner-overlay hidden-sm hidden-xs">
               <button type="button" class="close">×</button>
               <img src="assets/img/index/overlay.png" alt="">
-            </div> -->
+            </div>
         </div>
         <!-- /carousel -->
 
@@ -2254,7 +2253,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
     <script>
       $(document).ready(function() {
-        var now = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
+        var now = moment().format("h:mm  DD/MM/YYYY");
         $('.m-top-header-clock span, .top-header-clock span').html(now);
       });
     </script>
