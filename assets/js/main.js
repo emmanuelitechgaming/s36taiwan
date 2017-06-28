@@ -386,6 +386,10 @@ $(document).ready(function () {
     $('.banner-overlay button').click(function() {
       $('.banner-overlay').slideUp();
     })
+
+    $('.selectpicker2').click(function() {
+      $('#drop').toggleClass('lang-click');
+    });
 });
 
 function nextTab(elem) {
