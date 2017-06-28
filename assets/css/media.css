@@ -524,6 +524,12 @@
       bottom: -37px;
       margin: 0 1px;
     }
+    .margin-media img {
+      margin-top: -44px;
+    }
+    .slots-info{
+      right: 24%;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -554,6 +560,9 @@
     }
     .m-selectpicker2-menu{
       top: -285px !important;
+    }
+    .margin-media img {
+      margin-top: -47px;
     }
 }
 
@@ -674,6 +683,9 @@
     .rss-field .form-group:nth-child(2) {
       width: 57%;
     }
+    .margin-media img {
+      margin-top: -47px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -783,6 +795,9 @@
     }
     .rss-field .form-group:nth-child(2) {
       width: 61%;
+    }
+    .margin-media img {
+      margin-top: -50px;
     }
 }
 
@@ -916,6 +931,14 @@
     .fa-dsktp {
       margin-top: 5px;
     }
+    .margin-media img {
+      margin-top: -42px;
+      margin-right: 63px;
+    }
+    .slots-info{
+      right: 30%;
+      top: 2px;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -937,6 +960,9 @@
         top: 18px;
         left: -208px;
         font-size: 10px;
+    }
+    .margin-media img {
+      margin-right: 100px;
     }
 }
 
@@ -1009,6 +1035,9 @@
     .lp-collapse-toggle {
       margin-right: -545px;
     }
+    .margin-media img {
+      margin-right: 115px;
+    }
 }
 
 @media only screen and (min-width: 736px) {
@@ -1065,6 +1094,10 @@
     }
     .lp-collapse-toggle {
       margin-right: -615px;
+    }
+    .margin-media img {
+      margin-top: -40px;
+      margin-right: 147px;
     }
 }
 
@@ -1450,6 +1483,12 @@
     .promo-tabs-border{
       bottom: -35px;
       margin: 0 25px;
+    }
+    .margin-media img {
+      margin-top: -50px;
+    }
+    .slots-info{
+      right: 118px;
     }
 }
 
