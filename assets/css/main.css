@@ -2198,8 +2198,8 @@ input[type=password]:hover {
     padding: 2px 10px;
     text-decoration: none;*/
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 201px;
+    height: 49px;
     background: url('../img/scrollup-btn.png');
     background-size: cover
 }
