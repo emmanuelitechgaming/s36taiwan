@@ -9,9 +9,9 @@ body {
     color: #acacac;
 }
 header .top-header{
+
   padding: 0 5px;
   font-size: 12px;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(27,27,27,0)), color-stop(rgba(27,27,27,1)), to(rgba(27,27,27,0)));
   background: linear-gradient(to right, rgba(27,27,27,0), rgba(27,27,27,1), rgba(27,27,27,0));
   margin-bottom: 15px;
 }
@@ -19,7 +19,8 @@ header .top-header ul li span{
   margin: 5px;
 }
 header .top-header ul li{
-  padding: 2px
+
+padding: 2px;
 }
 header ul {
     list-style-type: none!important;
@@ -4629,8 +4630,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 .promotion-swiper-container{
   overflow: inherit;
 }
-.banner-overlay button{
-  position: relative;
-  right: 22px;
-  color: #2a2a2a !important
+div.cta-contact-info{
+  position: fixed;
+  bottom: 83px;
+  right: 215px;
+}
+div.cta-contact-info a{
+  display: inline-block;
+  margin: 5px;
+}
+#cta-email{
+position: fixed;
+bottom: 149px;
+right: 160px;
 }

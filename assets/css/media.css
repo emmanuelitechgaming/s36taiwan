@@ -1460,7 +1460,7 @@
     header .logo a {
       display: inline-block;
       width: 286px;
-      height: 69px;
+      height: 67px;
       background: url('../img/logo.png') no-repeat 0 0;
           background-repeat: no-repeat;
           background-position-x: 0px;
@@ -1471,9 +1471,13 @@
       background-position-y: 0px;
       background-size: auto auto;
       background-repeat: no-repeat;
+      background-position-x: 0px;
+      background-position-y: 0px;
+      background-size: auto auto;
+      background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
-      margin-top: -18px;
+      margin-top: -5px;
     }
     .header-mobile-logo {
         margin-left: auto
