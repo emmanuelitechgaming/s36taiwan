@@ -4435,15 +4435,16 @@ ol, ul {
 }
 #myModal .nav-tabs li span{
   display: block;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
   color: #fff;
-  width: 60px;
-  height: 60px;
-  line-height: 54px;
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
   border: 2px solid #494949;
   border-radius: 60px;
   margin: 0 auto;
+      margin-bottom: 0px;
   margin-bottom: 5px;
 }
 #myModal .nav-tabs li.active a{
@@ -4643,4 +4644,9 @@ div.cta-contact-info a{
 position: fixed;
 bottom: 149px;
 right: 160px;
+}
+.cta-accounts a{
+  text-decoration: none;
+  color: inherit;
+  margin: 10px 0;
 }
