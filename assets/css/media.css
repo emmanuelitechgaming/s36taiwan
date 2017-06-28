@@ -440,7 +440,7 @@
       bottom: 19px;
     }
 
-    .casino-mp{
+    .casino-mp, .slots-mp{
       top: 25px;
       right: 35px;
       left: auto;
@@ -507,7 +507,7 @@
       margin-bottom: 10px
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      width: 70%;
+      width: 90%;
     }
     .footer-shareit ul li{
       width: 50%;
@@ -892,7 +892,7 @@
       font-size: 15px;
       bottom: 28px;
     }
-    .casino-mp {
+    .casino-mp, .slots-mp{
     right: 100px;
     }
     .lp-collapse-toggle {
@@ -1003,7 +1003,7 @@
     .jigong .live-game-txtb {
       bottom: 15px;
     }
-    .casino-mp {
+    .casino-mp, .slots-mp{
       right: 150px;
     }
     .lp-collapse-toggle {
@@ -1060,7 +1060,7 @@
     .td-list {
       width: 556px;
     }
-    .casino-mp {
+    .casino-mp, .slots-mp{
       right: 185px;
     }
     .lp-collapse-toggle {
@@ -1378,7 +1378,7 @@
     .wallet .datepicker{
       width: 22% !important
     }
-    .casino-mp{
+    .casino-mp, .slots-mp{
       top: 25px;
       right: 25px;
       left: auto;

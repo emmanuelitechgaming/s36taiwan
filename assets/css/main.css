@@ -9,10 +9,8 @@ body {
     color: #acacac;
 }
 header .top-header{
-
   padding: 0 5px;
   font-size: 12px;
-  background: linear-gradient(to right, rgba(27,27,27,0), rgba(27,27,27,1), rgba(27,27,27,0));
   margin-bottom: 15px;
 }
 header .top-header ul li span{
@@ -586,9 +584,6 @@ footer .fsalon{
   height: auto;
 margin: 0 2px;
   width: 77%;
-}
-.fsalon span:nth-child(5){
-  margin-left: -10px
 }
 #ssalon img{
   display: inline-block;
@@ -3623,13 +3618,15 @@ display: none !important;
 }
 
 
-#b {
+#b, #c{
   position: relative;
   top: 0;
   -webkit-transition: top ease 0.5s;
   transition: top ease 0.5s;
   padding: 5px;
   z-index: 9;
+}
+#b{
   min-height: 155px;
 }
 /*#b::before{
@@ -4165,7 +4162,7 @@ header .top-header ul li:nth-child(1){
   background: #1B1B1B;
 }*/
 .group-border{
-  border: 1px solid #1B1B1B;
+  border: 1px solid transparent;
   border-radius: 4px;
 }
 .top-header .pull-right img{
@@ -4645,8 +4642,28 @@ position: fixed;
 bottom: 149px;
 right: 160px;
 }
+
+.d-fsalon4, .d-fsalon6{
+  width: 20%
+}
+.d-fsalon4{
+  margin-right: -25px !important
+}
+.d-fsalon5{
+  margin-right: -20px !important
+}
+.d-fsalon6, .d-fsalon6 img{
+  width: 35%;
+}
+.d-fsalon4 img{
+  width: 35%
+}
+.d-fsalon5 img{
+  width: 50%
+
 .cta-accounts a{
   text-decoration: none;
   color: inherit;
   margin: 10px 0;
+
 }

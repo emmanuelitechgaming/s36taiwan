@@ -287,7 +287,7 @@ $(document).ready(function () {
       $('.top-header-loc img').attr('src', 'assets/img/header/location-b.png');
       $('.top-header-web img').attr('src', 'assets/img/header/web-b.png');
     }, function() {
-      $(this).css('border-color', '#1b1b1b');
+      $(this).css('border-color', 'transparent');
       $('.lang .top-header-loc span, .lang .top-header-web span').css('color', '#b3b3b3');
       $('.top-header-loc img').attr('src', 'assets/img/header/location.png');
       $('.top-header-web img').attr('src', 'assets/img/header/web.png');
@@ -299,7 +299,7 @@ $(document).ready(function () {
       $('.top-header-phone img').attr('src', 'assets/img/header/phone-b.png');
       $('.top-header-email img').attr('src', 'assets/img/header/email-b.png');
     }, function() {
-      $(this).css('border-color', '#1b1b1b');
+      $(this).css('border-color', 'transparent');
       $('.gs .top-header-phone span, .gs .top-header-email span').css('color', '#b3b3b3');
       $('.top-header-phone img').attr('src', 'assets/img/header/phone.png');
       $('.top-header-email img').attr('src', 'assets/img/header/email.png');
