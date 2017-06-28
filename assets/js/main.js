@@ -27,6 +27,9 @@ $(document).ready(function () {
      $('.sidebar-nav li').each(function() {
        $(this).removeClass('active');
      });
+     $('.promo-tabs li').each(function() {
+       $(this).removeClass('active');
+     });
      $('.tab-content div').each(function() {
        $(this).removeClass('active');
      });
