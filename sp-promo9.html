@@ -1787,6 +1787,257 @@
              </div>
          </div>
      </div>
+
+     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg modal-custom-lg">
+             <div class="modal-content">
+                 <div class="modal-body">
+                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                     <div class="row">
+                         <div class="col-md-12">
+                             <!-- Nav tabs -->
+                             <ul class="nav nav-tabs">
+                                 <li class="active">
+                                     <a href="#login" data-toggle="tab" aria-controls="login" role="tab">
+                                         <span>1</span> 注册/登錄
+                                     </a>
+                                 </li>
+                                 <li class="connecting-line cl1"></li>
+                                 <li class="">
+                                     <a href="#Registration" data-toggle="tab" aria-controls="Registration" role="tab">
+                                         <span>2</span> 通過支付進行存款
+                                     </a>
+                                 </li>
+                                 <li class="connecting-line cl2"></li>
+                                 <li class="">
+                                     <a href="#demo" data-toggle="tab" aria-controls="demo" role="tab">
+                                         <span>3</span> 开始游戏
+                                     </a>
+                                 </li>
+                             </ul>
+
+                             <div class="border-modal border-modal2"></div>
+
+                             <!-- Tab panes -->
+                             <div class="tab-content">
+                                 <div class="tab-pane active" id="login">
+                                     <!-- <ul class="nav nav-tabs" id="myModalTab" role="tablist">
+                                       <li role="presentation" class="active" style="display: none"><a href="#myModalTab1-1" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-chevron-left"></i></a></li>
+                                       <li role="presentation"><a href="#myModalTab1-2" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-chevron-right"></i></a></li>
+                                     </ul> -->
+
+                                     <div class="tab-content">
+                                       <div role="tabpanel" class="tab-pane fade active" id="myModalTab1-1">
+                                         <p class="login-info">登錄</p>
+                                         <p class="registration-info">
+                                             沙龙会S36手机版 <a href="m.s36.com">（m.s36.com）</a>现已正式上线，即日起会员可通过手机浏览器直接访问网站，无需下载和安装即可随时随地玩转所有沙龙会的游戏，还等什么？赶紧拿起手机，马上感受我们给您带来的全新游戏体验吧！
+                                         </p>
+                                         <form role="form" class="form-horizontal">
+                                             <div class="form-group">
+                                                 <label for="email" class="col-sm-2 control-label">
+                                                     输入账号</label>
+                                                 <div class="col-sm-9">
+                                                     <div class="input-border">
+                                                         <input type="email" class="form-control" placeholder="输入账号" />
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                             <div class="form-group">
+                                                 <label for="exampleInputPassword1" class="col-sm-2 control-label">
+                                                     输入密码</label>
+                                                 <div class="col-sm-9">
+                                                     <div class="input-border">
+                                                         <input type="email" class="form-control" placeholder="输入密码" />
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                             <div class="form-group">
+                                                 <label for="exampleInputPassword1" class="col-sm-2 control-label">
+                                                     驗證碼</label>
+                                                 <div class="col-sm-6">
+                                                     <div class="input-border">
+                                                         <input type="email" class="form-control" placeholder="驗證碼" />
+                                                     </div>
+                                                 </div>
+                                                 <div class="col-sm-2">
+                                                     <div class="input-border">
+                                                         <input type="email" class="form-control" placeholder="A12BC3" />
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                             <div class="form-group text-center cta-accounts"><a href="#myModalTab1-2" aria-controls="home" role="tab" data-toggle="tab">沒有帳號？ 在這裡註冊！</a></div>
+
+                                         </form>
+
+                                       </div>
+                                       <div role="tabpanel" class="tab-pane fade" id="myModalTab1-2">
+                                         <p class="login-info"> 注册</p>
+                                         <p class="registration-info">
+                                             沙龙会S36手机版 <a href="m.s36.com">（m.s36.com）</a>现已正式上线，即日起会员可通过手机浏览器直接访问网站，无需下载和安装即可随时随地玩转所有沙龙会的游戏，还等什么？赶紧拿起手机，马上感受我们给您带来的全新游戏体验吧！
+                                         </p>
+                                         <div class="col-md-6">
+                                             <form role="form" class="form-horizontal">
+                                               <div class="form-group">
+                                                   <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
+                                                   <div class="col-sm-8">
+                                                       <div class="input-border">
+                                                           <input type="password" class="form-control" id="password" />
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                                 <div class="form-group">
+                                                     <label for="email" class="col-sm-4 control-label">郵箱號碼 *</label>
+                                                     <div class="col-sm-8">
+                                                         <div class="input-border">
+                                                             <input type="email" class="form-control" />
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                                 <div class="form-group">
+                                                     <label for="email" class="col-sm-4 control-label">建立帳號 *</label>
+                                                     <div class="col-sm-8">
+                                                         <div class="input-border">
+                                                             <span class="my-modal-cs">cs</span> <input type="email" class="form-control" id="email" />
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                                 <div class="form-group">
+                                                     <label for="mobile" class="col-sm-4 control-label">建立密码 *</label>
+                                                     <div class="col-sm-8">
+                                                         <div class="input-border">
+                                                             <input type="email" class="form-control" id="mobile" />
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                                 <div class="form-group">
+                                                     <label for="password" class="col-sm-4 control-label">确认密码 *</label>
+                                                     <div class="col-sm-8">
+                                                         <div class="input-border">
+                                                             <input type="password" class="form-control" id="password" />
+                                                         </div>
+                                                     </div>
+                                                 </div>
+
+
+                                             </form>
+
+                                         </div>
+                                         <div class="col-md-6">
+                                             <div class="form-group form-inline form-captcha form-recap">
+                                                 <script src='https://www.google.com/recaptcha/api.js?hl=zh-TW'></script>
+                                                 <div class="g-recaptcha  recaptScale" data-sitekey="6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M" data-theme="dark" data-size="small"></div>
+                                             </div>
+                                             <div class="form-group form-checkbox">
+                                                 <div class="checkbox checkbox-warning">
+                                                     <input id="checkbox5" type="checkbox" checked="">
+                                                     <label for="checkbox5">
+                                                         我同意<span> “條款及細則” </span>並確認我已滿18歲
+                                                     </label>
+                                                 </div>
+                                             </div>
+                                               <div class="text-center cta-accounts"><a href="#myModalTab1-1" aria-controls="home" role="tab" data-toggle="tab">已經有賬戶？ 登錄這裡！</a></div>
+                                         </div>
+                                       </div>
+                                     </div>
+
+                                     <div class="col-md-12">
+                                         <div class="border-modal"></div>
+                                         <div class="modal-foot">
+                                             <ul>
+                                                 <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台灣</a></li>
+                                                 <li>
+                                                     <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
+                                                 </li>
+                                                 <li>
+                                                     <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
+                                                 </li>
+                                                 <li><img src="assets/img/header/21.png" alt=""></a>
+                                                 </li>
+                                             </ul>
+                                         </div>
+                                         <div class=" pull-right">
+                                             <div class="modal-bottom">
+                                               <a href="afterlogin.html" id="myModal2b_login" class="btn btn-warning">註冊賬號</a>
+                                               <button type="button" id="myModal2b_registration" class="btn btn-warning sweet-13" style="display: none">立即注册</button>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="tab-pane" id="Registration">
+
+                                     <div class="col-md-12">
+                                         <div class="border-modal"></div>
+                                         <div class="modal-foot">
+                                           <ul>
+                                               <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台灣</a></li>
+                                               <li>
+                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
+                                               </li>
+                                               <li>
+                                                   <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
+                                               </li>
+                                               <li><img src="assets/img/header/21.png" alt=""></a>
+                                               </li>
+                                           </ul>
+                                         </div>
+                                         <div class=" pull-right">
+
+                                             <div class="modal-bottom">
+                                                 <button type="button" id="myModal1" class="btn btn-warning">註冊賬號 </button>
+                                             </div>
+
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="tab-pane" id="demo">
+                                     <div class="col-md-12">
+                                         <p>
+                                             沙龍會試玩帳戶，毋須使用一分錢，體驗博彩快感之餘，更能磨練自己的網上博彩技巧，並了解在專業網上賭場裏博彩是什麽樣，學習如何舒適和休閑地進行網上博彩。現在註冊開設你的免費試玩賬戶吧！
+                                         </p>
+                                         <div class="form-group">
+                                             <input type="text" placeholder="輸入電郵地址或手機號碼，免費創建試玩帳戶" disabled>
+                                         </div>
+                                         <div class="form-group">
+                                           <div class="input-border">
+                                               <input type="email" class="form-control">
+                                           </div>
+                                         </div>
+                                     </div>
+
+                                     <div class="col-md-12">
+                                         <div class="border-modal"></div>
+                                         <div class="modal-foot">
+                                           <ul>
+                                               <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台灣</a></li>
+                                               <li>
+                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
+                                               </li>
+                                               <li>
+                                                   <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
+                                               </li>
+                                               <li><img src="assets/img/header/21.png" alt=""></a>
+                                               </li>
+                                           </ul>
+                                         </div>
+                                         <div class=" pull-right">
+
+                                             <div class="modal-bottom">
+                                                 <button type="button" class="btn btn-warning  ">立即試玩</button>
+                                             </div>
+
+                                         </div>
+                                     </div>
+
+                                 </div>
+                             </div>
+
+                         </div>
+
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
