@@ -4432,16 +4432,15 @@ ol, ul {
 }
 #myModal .nav-tabs li span{
   display: block;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 600;
   color: #fff;
-  width: 40px;
-  height: 40px;
-  line-height: 36px;
+  width: 60px;
+  height: 60px;
+  line-height: 54px;
   border: 2px solid #494949;
   border-radius: 60px;
   margin: 0 auto;
-      margin-bottom: 0px;
   margin-bottom: 5px;
 }
 #myModal .nav-tabs li.active a{
@@ -4642,28 +4641,24 @@ position: fixed;
 bottom: 149px;
 right: 160px;
 }
-
-.d-fsalon4, .d-fsalon6{
+.d-fsalon4{
   width: 20%
+}
+.d-fsalon5{
+  width: 30%
 }
 .d-fsalon4{
   margin-right: -25px !important
 }
 .d-fsalon5{
-  margin-right: -20px !important
+  margin-right: -45px !important
 }
 .d-fsalon6, .d-fsalon6 img{
-  width: 35%;
+  width: 40% !important;
 }
 .d-fsalon4 img{
-  width: 35%
+  width: 60%
 }
 .d-fsalon5 img{
   width: 50%
-
-.cta-accounts a{
-  text-decoration: none;
-  color: inherit;
-  margin: 10px 0;
-
 }
