@@ -1221,13 +1221,13 @@
         margin: 0px auto
     }
     .selectpicker2 {
-        padding: 6px 12px;
+        padding: 4px 6px;
+        padding-bottom: 5px;
         top: 10px;
         left: 5px;
-        font-size: 14px
     }
     .selectpicker2 .fa {
-        margin-left: 18px
+        margin-left: 6px
     }
     .breadcrumb-inner .sp-container img {
         width: auto;
