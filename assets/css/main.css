@@ -2641,12 +2641,18 @@ select + i.fa {
 .selectpicker2{
   margin-left: 0;
   background: transparent;
-  /*border: 1px solid #4a4a4a;*/
-  border: none;
+  border: 1px solid #4a4a4a;
   border-radius: 4px;
   position: relative;
   color: #fff;
-  outline: 0
+  outline: 0;
+  font-size: 9px;
+}
+
+.selectpicker2 span{
+  font-size: 10px !important;
+  width: 1.3333em !important;
+  margin-right: 3px;
 }
 
 .selectpicker2:hover{
