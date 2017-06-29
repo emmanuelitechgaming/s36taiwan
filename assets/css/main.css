@@ -1146,6 +1146,14 @@ display: inline-block;
     padding-bottom: 8px;
 }*/
 
+.breadcrumb-content .promo-body .live-game .promo-links a{
+  display: inline-block;
+}
+
+.promo-links{
+  margin-top: 10px;
+}
+
 #demo-form .demo-tab {
   font-size: 15px;
   text-align: center;
