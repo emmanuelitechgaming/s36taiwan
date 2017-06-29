@@ -1221,22 +1221,10 @@
         margin: 0px auto
     }
     .selectpicker2 {
-<<<<<<< .mine
-        padding: 4px 6px;
-        padding-bottom: 5px;
-        top: 16px;
-        left: 10px;
-||||||| .r1032
-        padding: 4px 6px;
-        padding-bottom: 5px;
-        top: 10px;
-        left: 5px;
-=======
       padding: 4px 6px;
       padding-bottom: 5px;
       top: 20px;
       left: 23px;
->>>>>>> .r1037
     }
     .selectpicker2 .fa {
         margin-left: 6px
