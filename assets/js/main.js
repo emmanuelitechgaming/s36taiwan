@@ -397,6 +397,10 @@ $(document).ready(function () {
           scrollTop: 0
       }, 500);
       $('#drop3').toggleClass('lang-click');
+    });
+
+    $('#drop3 .close').click(function() {
+      $('#drop3').removeClass('lang-click');
     })
 
 });
