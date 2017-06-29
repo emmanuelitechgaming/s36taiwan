@@ -1594,12 +1594,12 @@
       position: absolute;
       display: inline-block;
       color: #0f0f0f;
-      left: 213px;
-      top: 23px;
-      font-size: 32px;
+      left: 257px;
+      top: 14px;
+      font-size: 25px;
       font-weight: 700;
       letter-spacing: 19px;
-      word-spacing: -28px;
+      word-spacing: -30px;
     }
     main .marquee {
         width: 500px;
