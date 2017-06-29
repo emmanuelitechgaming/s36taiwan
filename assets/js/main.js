@@ -393,6 +393,9 @@ $(document).ready(function () {
     });
 
     $('#cta-contact').click(function() {
+      $('html,body').animate({
+          scrollTop: 0
+      }, 500);
       $('#drop3').toggleClass('lang-click');
     })
 
