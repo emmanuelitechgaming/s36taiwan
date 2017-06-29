@@ -391,6 +391,11 @@ $(document).ready(function () {
     $('.selectpicker2').click(function() {
       $('#drop').toggleClass('lang-click');
     });
+
+    $('#cta-contact').click(function() {
+      $('#drop3').toggleClass('lang-click');
+    })
+
 });
 
 function nextTab(elem) {
