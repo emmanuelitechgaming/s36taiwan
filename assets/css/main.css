@@ -4807,3 +4807,13 @@ right: 160px;
   border-bottom: 1px solid #eee;
   padding-bottom: 15px;
 }
+.slots-tabs{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.slots-tabs li.active{
+  border-bottom: 4px solid #fba601 !important
+}
+.slots-tabs li.active a{
+  border: none !important
+}
