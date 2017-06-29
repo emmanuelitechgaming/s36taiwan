@@ -804,7 +804,13 @@
 
 /* Extra Small Devices, Phones */
 
-@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 480px) {
+  .float-contacts{
+    right: 94px;
+    position: fixed;
+    cursor: pointer;
+    bottom: 45px;
+}
 
 @media only screen and (min-width: 568px) {
     .breadcrumb-inner .casino-g ul li {
