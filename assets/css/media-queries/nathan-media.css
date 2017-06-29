@@ -23,6 +23,9 @@ footer .f-social ul.columns > li {
     list-style-type: none!;
     margin-left: 0px;
 }
+.tab-panel-casino .nav>li>a {
+    padding: 5px 35px !important;
+}
 .nav>li>a {
   padding: 5px 15px !important;
 }
@@ -90,6 +93,9 @@ header .nathan-hm-d{
 
 @media only screen and (min-width: 412px)
 {
+  .tab-panel-casino .nav>li>a {
+      padding: 5px 60px !important;
+  }
   .nav>li>a {
       padding: 5px 11px !important;
   }
@@ -106,6 +112,9 @@ header .nathan-hm-d{
 
 @media only screen and (min-width: 414px)
 {
+  .tab-panel-casino .nav>li>a {
+      padding: 5px 60px !important;
+  }
   .nav>li>a {
       padding: 5px 24px !important;
   }

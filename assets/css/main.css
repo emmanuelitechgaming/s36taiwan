@@ -596,7 +596,6 @@ footer .fsalon{
   display: inline-block;
   height: auto;
 margin: 0 2px;
-  width: 77%;
 }
 #ssalon img{
   display: inline-block;
@@ -1075,7 +1074,7 @@ padding: 20px 10px;
 #register-form {
     padding: 0;
 }
-
+/*
 .panel-heading {
     padding: 0;
     border-bottom: 1px solid transparent;
@@ -1145,7 +1144,7 @@ display: inline-block;
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 8px;
-}
+}*/
 
 #demo-form .demo-tab {
   font-size: 15px;
@@ -3367,7 +3366,7 @@ background: #383838;
   background: #535353;
 }
 .panel-heading .casino-tabs{
-  border-bottom: 1px solid #fba601 !important;
+  border-bottom: 0;
 }
 
 .panel-heading .casino-tabs li.active >a , .panel-heading .casino-tabs > li.active > a:focus, .panel-heading .casino-tabs > li.active > a:hover{
@@ -3645,6 +3644,8 @@ display: none !important;
   transition: top ease 0.5s;
   padding: 5px;
   z-index: 9;
+  max-width: 377px;
+  margin: 0 auto;
 }
 #b{
   min-height: 155px;
@@ -4722,4 +4723,76 @@ right: 160px;
   z-index: 999;
   right: 10px;
   top: 5px;
+}
+
+/* Default mode */
+.tab-panel-casino > .nav-tabs {
+  border: none;
+  margin: 0px;
+    text-align:center;
+}
+.tab-panel-casino > .nav-tabs > li {
+  margin-right: 2px;
+  float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+.tab-panel-casino > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #999999;
+}
+.tab-panel-casino > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tab-panel-casino > .nav-tabs > li.open, .tab-panel-casino > .nav-tabs > li:hover {
+  border-bottom: 4px solid #f6af26;
+}
+.tab-panel-casino > .nav-tabs > li.open > a, .tab-panel-casino > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #7E7E7E7E;
+}
+.tab-panel-casino > .nav-tabs > li.open > a > i, .tab-panel-casino > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tab-panel-casino > .nav-tabs > li.open .dropdown-menu, .tab-panel-casino > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tab-panel-casino > .nav-tabs > li.active {
+  border-bottom: 4px solid #fba601;
+  position: relative;
+}
+.tab-panel-casino > .nav-tabs > li.active > a {
+  border: 0;
+  color: #fba601;
+  background: transparent;
+}
+.tab-panel-casino > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+
+/* Below tabs mode */
+
+.tab-panel-casino.tabs-below > .nav-tabs > li {
+  border-top: 4px solid transparent;
+}
+.tab-panel-casino.tabs-below > .nav-tabs > li > a {
+  margin-top: 0;
+}
+.tab-panel-casino.tabs-below > .nav-tabs > li:hover {
+  border-bottom: 0;
+  border-top: 4px solid #fba601;
+}
+.tab-panel-casino.tabs-below > .nav-tabs > li.active {
+  margin-bottom: -2px;
+  border-bottom: 0;
+  border-top: 4px solid #fba601;
+}
+.tab-panel-casino.tabs-below > .tab-content {
+  margin-top: -10px;
+  border-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
 }
