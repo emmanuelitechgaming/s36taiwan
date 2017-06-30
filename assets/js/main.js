@@ -399,6 +399,18 @@ $(document).ready(function () {
       $('#drop3').removeClass('lang-click');
     });
 
+    $('#cta-contact').hover(function() {
+      $(this).attr('src', 'assets/img/contact hover.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/cta-contact.png');
+    })
+
+    $('.btn-top').hover(function() {
+      $(this).css('background', 'url(assets/img/arrow-up-hover.png)');
+    }, function() {
+      $(this).css('background', 'url(assets/img/scrollup-btn.png)');
+    })
+
 });
 
 function nextTab(elem) {
