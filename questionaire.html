@@ -2560,29 +2560,36 @@
         });
     };
 </script>
-  <div class="float-contacts">
-    <a><img src="assets/img/cta-contact.png" id="cta-contact" alt=""></a>
-  </div>
-  <div class="back" style="display: none;">
+<script>
+$(document).ready(function(){
+    $("#cta-email-bt").click(function(){
+        $("#cta-email").toggle('');
+    });
+});
+</script>
+<div class="float-contacts">
+  <a href="helpcenter.html#tab2"><img src="assets/img/cta-contact.png" id="cta-contact" alt=""></a>
+</div>
+<div class="scrolltotop" style="display: none;">
     <a><div class="btn-top"></div></a>
-  </div>
-  <script type="text/javascript">
-      $(function() {
-          $(window).scroll(function() {
-              var h = $(window).scrollTop();
-              if (h > 100) {
-                  $(".back").css('display', 'block');
-              } else {
-                  $(".back").css('display', 'none');
-              }
-          })
-          $(".back a").click(function() {
-              $('html,body').animate({
-                  scrollTop: 0
-              }, 500);
-          });
-      })
-  </script>
+</div>
+<script type="text/javascript">
+    $(function() {
+        $(window).scroll(function() {
+            var h = $(window).scrollTop();
+            if (h > 100) {
+                $(".scrolltotop").css('display', 'block');
+            } else {
+                $(".scrolltotop").css('display', 'none');
+            }
+        })
+        $(".scrolltotop a").click(function() {
+            $('html,body').animate({
+                scrollTop: 0
+            }, 500);
+        });
+    })
+</script>
 
   <script>
     $(document).ready(function() {
