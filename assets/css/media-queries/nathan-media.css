@@ -31,7 +31,7 @@ footer .f-social ul.columns > li {
 }
 
 .back {
-  bottom: 40px;
+  bottom: 1px;
   margin-right: -180px;
   right: 60%;
   position: fixed;
@@ -54,7 +54,7 @@ header .nathan-hm-d{
       padding: 5px 19px !important;
   }
   .back {
-    bottom: 40px;
+    bottom: 1px;
     margin-right: -180px;
     right: 50%;
     position: fixed;
@@ -80,7 +80,7 @@ header .nathan-hm-d{
       padding: 5px 20px !important;
   }
   .back {
-    bottom: 40px;
+    bottom: 1px;
     margin-right: -180px;
     right: 50%;
     position: fixed;
@@ -100,7 +100,7 @@ header .nathan-hm-d{
       padding: 5px 11px !important;
   }
   .back {
-    bottom: 40px;
+    bottom: 1px;
     margin-right: -180px;
     right: 45%;
     position: fixed;
@@ -119,7 +119,7 @@ header .nathan-hm-d{
       padding: 5px 24px !important;
   }
   .back {
-    bottom: 40px;
+    bottom: 1px;
     margin-right: -180px;
     right: 45%;
     position: fixed;
@@ -135,13 +135,18 @@ header .nathan-hm-d{
       padding: 5px 11px !important;
   }
   .back {
-    bottom: 40px;
+    bottom: 1px;
     margin-right: -350px;
     right: 45%;
     position: fixed;
     cursor: pointer;
     display: none;
 
+  }
+  .scrolltotop{
+    position: fixed;
+        bottom: -4px;
+        right: 50px;
   }
 }
 
