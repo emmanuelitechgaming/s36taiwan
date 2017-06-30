@@ -10,11 +10,9 @@ body {
 }
 header{
   background: url('../img/casino-bg.png');
-      background-repeat: repeat;
-      background-position-x: 0%;
-      background-position-y: 0%;
+    
   background-repeat: no-repeat;
-  background-position-x: 855px;
+  background-position-x: 921px;
   background-position-y: -13px;
 }
 header .top-header{
