@@ -2223,7 +2223,7 @@ input[type=password]:hover {
     text-decoration: none;*/
     display: inline-block;
     width: 44px;
-    height: 49px;
+    height: 38px;
     background: url('../img/scrollup-btn.png');
     background-size: cover
 }
@@ -4826,6 +4826,13 @@ right: 160px;
   color: #FFF1D3;
   opacity: 1
 }
-#ctab3{
+#ctab3 .row{
 border-left: 1px solid #FBA601;
+}
+.selectpicker2:hover {
+  border: 1px solid #fba601;
+  color: #fba601;
+}
+.selectpicker2:hover > i{
+  color: #fba601;
 }
