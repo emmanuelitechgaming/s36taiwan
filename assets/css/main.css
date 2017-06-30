@@ -10,7 +10,7 @@ body {
 }
 header{
   background: url('../img/casino-bg.png');
-    
+
   background-repeat: no-repeat;
   background-position-x: 921px;
   background-position-y: -13px;
@@ -3407,12 +3407,9 @@ padding: 5px 44px !important;
 }
 .panel-heading .casino-tabs > li > a:hover,.panel-heading .casino-tabs > li > a:focus{
   color: #020202;
-cursor: default;
-background-color: #fba601;
-border: 1px solid #fba601;
-
-border-bottom-color: transparent;
-font-weight: 700;
+  cursor: default;
+  border-bottom-color: transparent;
+  font-weight: 700;
 }
 .cntry{
 
@@ -3660,7 +3657,7 @@ display: none !important;
   min-height: 155px;
 }
 #c{
-  min-height: 172px;
+  min-height: 175px;
 }
 /*#b::before{
   content: '';
@@ -4824,13 +4821,18 @@ right: 160px;
   color: #FFF1D3;
   opacity: 1
 }
-#ctab3 .row{
-border-left: 1px solid #FBA601;
-}
 .selectpicker2:hover {
   border: 1px solid #fba601;
   color: #fba601;
 }
 .selectpicker2:hover > i{
   color: #fba601;
+}
+.slots-tabs li:hover, .slots-tabs li:focus{
+  border-bottom: 4px solid #fba601;
+}
+.slots-tabs li a:hover{
+  background: #2a2a2a;
+  color: #fba601 !important;
+  border: none !important
 }
