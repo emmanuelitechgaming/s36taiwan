@@ -1496,6 +1496,17 @@
     .slots-info{
       right: 118px;
     }
+    #ctab3 .row{
+    border-left: 1px solid #FBA601;
+    }
+    .panel-heading .casino-tabs > li > a:hover,.panel-heading .casino-tabs > li > a:focus{
+      color: #020202;
+      cursor: default;
+      background-color: #fba601;
+      border: 1px solid #fba601;
+      border-bottom-color: transparent;
+      font-weight: 700;
+    }
 }
 
 
