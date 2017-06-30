@@ -3661,6 +3661,9 @@ display: none !important;
 #b{
   min-height: 155px;
 }
+#c{
+  min-height: 172px;
+}
 /*#b::before{
   content: '';
 position: absolute;

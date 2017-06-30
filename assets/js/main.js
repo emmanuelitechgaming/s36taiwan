@@ -33,6 +33,9 @@ $(document).ready(function () {
      $('.tab-content div').each(function() {
        $(this).removeClass('active');
      });
+     $('.promo-section .breadcrumb li a[href="promotion.html"]').attr('href', function(i, href) {
+       return href + hash;
+     });
 
      var link = "";
      $('sidebar-nav li').each(function() {
@@ -394,7 +397,7 @@ $(document).ready(function () {
 
     $('#drop3 .close').click(function() {
       $('#drop3').removeClass('lang-click');
-    })
+    });
 
 });
 
