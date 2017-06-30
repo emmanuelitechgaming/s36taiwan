@@ -4831,8 +4831,11 @@ right: 160px;
 .slots-tabs li:hover, .slots-tabs li:focus{
   border-bottom: 4px solid #fba601;
 }
+.nav-tabs.slots-tabs>li>a{
+  border: none !important
+}
 .slots-tabs li a:hover{
   background: #2a2a2a;
   color: #fba601 !important;
-  border: none !important
+  border: none !important;
 }
