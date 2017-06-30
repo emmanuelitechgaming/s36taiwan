@@ -587,8 +587,6 @@ footer .fsalon{
 }
 #s36logo img{
   display: inline-block;
-  width: 140px;
-  height: auto;
 }
 #compat img{
   display: inline-block;
@@ -4676,27 +4674,8 @@ position: fixed;
 bottom: 149px;
 right: 160px;
 }
-.d-fsalon4{
-  width: 32%
-}
-.d-fsalon5{
-  width: 37%
-}
-.d-fsalon4{
-  margin-right: -95px !important
-}
-.d-fsalon5{
-  margin-right: -60px !important
-}
-.d-fsalon6, .d-fsalon6 img{
-  width: 39% !important;
-}
-.d-fsalon4 img{
-  width: 45%
-}
-.d-fsalon5 img{
-  width: 50%
-}
+
+
 .cta-accounts a{
   text-decoration: none;
   color: inherit;
