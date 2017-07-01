@@ -9,6 +9,12 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
+  .float-contacts-m{
+    right: 1px;
+    position: fixed;
+    cursor: pointer;
+    bottom: 65px;
+}
   .modal-panel-dialog{
     width: auto;
   }
@@ -1487,7 +1493,7 @@
     }
     #myModal .modal-foot ul li{
       display: inline-block;
-      margin-right: 20px;
+      margin-right: 5px;
       margin-bottom: auto
     }
     #myModal{
