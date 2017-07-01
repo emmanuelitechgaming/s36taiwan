@@ -409,7 +409,20 @@ $(document).ready(function () {
       $(this).css('background', 'url(assets/img/arrow-up-hover.png)');
     }, function() {
       $(this).css('background', 'url(assets/img/scrollup-btn.png)');
-    })
+    });
+
+    $('.mnav-login').click(function() {
+      $('#myModal').modal('show');
+    });
+
+    $('.mnav-demo').click(function() {
+      $('#demoModal').modal('show');
+    });
+
+    $('.mnav-register').click(function() {
+      $('#myModal').modal('show');
+      $('a[href="#myModalTab1-2"').tab('show');
+    });
 
 });
 
