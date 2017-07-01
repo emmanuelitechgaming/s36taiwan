@@ -2210,7 +2210,12 @@ input[type=password]:hover {
 .back a {
     text-decoration: none;
 }
-
+.scrolltotop-m{
+  display: block;
+position: fixed;
+bottom: 218px;
+right: 1px;
+}
 .btn-top {
     /*background: #fba601;
     color: #fff;
@@ -4800,12 +4805,20 @@ right: 160px;
   color: #FFF1D3;
   opacity: 1
 }
-.selectpicker2:hover {
+.selectpicker2 {
   border: 1px solid #fba601;
   color: #fba601;
 }
+.selectpicker2 > i{
+  color: #fba601!important;
+}
+
+.selectpicker2:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
 .selectpicker2:hover > i{
-  color: #fba601;
+  color: #fff!important;
 }
 .slots-tabs li:hover, .slots-tabs li:focus{
   border-bottom: 4px solid #fba601;
@@ -4827,6 +4840,10 @@ right: 160px;
 }
 .mnav-bottom .swiper-slide a.m-top-header-clock img{
   width: 21px !important;
+}
+<<<<<<< .mine
+.m-top-header-clock{
+  font-size: 12px!important;
 }
 .mnav-top, .swiper-container{
   display: block;

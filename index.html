@@ -45,6 +45,18 @@
 
 <body>
     <header>
+      <div class="container">
+        <div class="mnav hidden-lg hidden-md">
+    <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="casino.html" class="active">真人娛樂場</a></div>
+              <div class="swiper-slide"><a href="slots.html">老虎機</a></div>
+              <div class="swiper-slide"><a href="lotto.html">捕鱼</a></div>
+              <div class="swiper-slide"><a href="promotion.html">優惠</a></div>
+            </div>
+          </div>
+            </div>
+      </div>
         <div class="top-header hidden-xs hidden-sm">
             <button class="desktop-support-trigger" data-toggle="collapse" data-target="#desktopSupport" style="display: none"></button>
             <div class="container">
@@ -529,10 +541,10 @@
         <nav class="navbar navbar-inverse nav-bg">
             <div class="container">
                 <ul class="nav navbar-nav hidden-sm hidden-xs">
-                    <li>
+                    <li  class="nav-active">
                         <a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a>
                     </li>
-                    <li class="nav-active"><a href="casino.html">真人娛樂場</a></li>
+                    <li><a href="casino.html">真人娛樂場</a></li>
                     <li><a href="slots.html">老虎機</a></li>
                     <li><a href="lotto.html">捕鱼</a></li>
                     <li><a href="promotion.html">優惠</a></li>
@@ -1723,17 +1735,17 @@
                                     <div class="col-md-12">
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
-                                            <ul>
-                                                <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
-                                                <li>
-                                                    <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
-                                                </li>
-                                                <li><img src="assets/img/footer/21.png" alt=""></a>
-                                                </li>
-                                            </ul>
+                                          <ul>
+                                              <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
+                                              <li>
+                                                  <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
+                                              </li>
+                                              <li>
+                                                  <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
+                                              </li>
+                                              <li><img src="assets/img/footer/21.png" alt=""></a>
+                                              </li>
+                                          </ul>
                                         </div>
                                         <div class=" pull-right">
                                             <div class="modal-bottom">
@@ -2094,10 +2106,7 @@
                     </div>
 
                     <div class="aboutus text-left" style="margin-top: 18px;">
-
                         <p style="margin-bottom: 10px">  沙龍會試玩帳戶，毋須使用一分錢，體驗博彩快感之餘，更能磨練自己的網上博彩技巧，並了解在專業網上賭場裏博彩是什麽樣，學習如何舒適和休閑地進行網上博彩。現在註冊開設你的免費試玩賬戶吧！ </p>
-
-
                     </div>
                     <div class="forms chatserver-form">
                         <form action="">
@@ -2225,10 +2234,16 @@
         });
     });
     </script>
-    <div class="float-contacts">
+    <div class="float-contacts hidden-xs hidden-sm">
       <a href="helpcenter.html#tab2"><img src="assets/img/cta-contact.png" id="cta-contact" alt=""></a>
     </div>
-    <div class="scrolltotop" style="display: none;">
+    <div class="scrolltotop-m hidden-lg hidden-md" style="display: none;">
+        <a><img src="assets/img/arrow-mobile-up.png" alt=""></a>
+    </div>
+    <div class="float-contacts-m hidden-md hidden-lg">
+      <a href="helpcenter.html#tab2"><img src="assets/img/contact-mobile.png" id="cta-contact" alt=""></a>
+    </div>
+    <div class="scrolltotop hidden-xs hidden-sm" style="display: none;">
         <a><div class="btn-top"></div></a>
     </div>
     <script type="text/javascript">
@@ -2242,6 +2257,23 @@
                 }
             })
             $(".scrolltotop a").click(function() {
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 500);
+            });
+        })
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                var h = $(window).scrollTop();
+                if (h > 100) {
+                    $(".scrolltotop-m").css('display', 'block');
+                } else {
+                    $(".scrolltotop-m").css('display', 'none');
+                }
+            })
+            $(".scrolltotop-m a").click(function() {
                 $('html,body').animate({
                     scrollTop: 0
                 }, 500);
