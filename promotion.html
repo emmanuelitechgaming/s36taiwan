@@ -2378,8 +2378,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
     <script>
-      var now = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
-      $('.m-top-header-clock span, .top-header-clock span').html(now);
+      $(document).ready(function() {
+        var now = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
+        var now2 = moment().format(" h:mm YYYY/MM/DD");
+        $('.top-header-clock span').html(now);
+        $('.m-top-header-clock span').html(now2);
+      });
     </script>
 </body>
 
