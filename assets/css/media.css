@@ -243,7 +243,7 @@
     .selectpicker2 {
         padding: 5px 8px;
         top: 18px;
-        left: -60px;
+        left: -40px;
         font-size: 10px;
     }
     .selectpicker2 .fa {
@@ -607,7 +607,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -87px;
+        left: -67px;
     }
     .swiper-container {
         width: 305px;
@@ -731,7 +731,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -107px;
+        left: -87px;
     }
     .swiper-container {
         width: 345px;
