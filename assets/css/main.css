@@ -3291,7 +3291,7 @@ position: relative;
 }
 
 .swiper-slide a{
-  font-size: 12px;
+  font-size: 11px;
   color: #fff;
   font-weight: 700;
   border-right: 0.5px solid #000;
@@ -4820,4 +4820,14 @@ right: 160px;
 }
 .c-text{
   color: #fff!important;
+}
+.mnav-bottom{
+  margin-right: -15px;
+  margin-left: -30px;
+}
+.mnav-bottom .swiper-container{
+  width: 330px
+}
+.mnav-bottom .swiper-slide a.m-top-header-clock img{
+  width: 21px !important;
 }
