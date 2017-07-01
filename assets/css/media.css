@@ -530,6 +530,9 @@
     .slots-info{
       right: 24%;
     }
+    .mnav-bottom .swiper-container{
+      width: 330px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -686,6 +689,9 @@
     .margin-media img {
       margin-top: -47px;
     }
+    .mnav-bottom .swiper-container{
+      width: 388px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -798,6 +804,9 @@
     }
     .margin-media img {
       margin-top: -50px;
+    }
+    .mnav-bottom .swiper-container{
+      width: 427px;
     }
 }
 
@@ -945,6 +954,12 @@
       right: 30%;
       top: 2px;
     }
+    .mnav-bottom .swiper-container{
+      width: 581px;
+    }
+    .selectpicker2 {
+      left: -165px;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -1044,6 +1059,12 @@
     .margin-media img {
       margin-right: 115px;
     }
+    .mnav-bottom .swiper-container{
+      width: 680px;
+    }
+    .selectpicker2 {
+      left: -211px;
+    }
 }
 
 @media only screen and (min-width: 736px) {
@@ -1104,6 +1125,12 @@
     .margin-media img {
       margin-top: -40px;
       margin-right: 147px;
+    }
+    .mnav-bottom .swiper-container{
+      width: 749px;
+    }
+    .selectpicker2 {
+      left: -245px;
     }
 }
 
