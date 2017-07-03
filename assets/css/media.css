@@ -513,7 +513,10 @@
       margin-bottom: 5px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      width: 90%;
+      width: 95%;
+    }
+    .m-fsalon ul li:nth-child(4) img{
+      width: 82%;
     }
     .footer-shareit ul li{
       width: 50%;
@@ -746,7 +749,7 @@
       left: 219px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      width: 74%;
+      width: 95%;
     }
     .rss-field .form-group:nth-child(1){
       display: block;
@@ -937,7 +940,7 @@
       left: 239px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      width: 74%;
+      width: 95%;
     }
     .rss-field .form-group:nth-child(2) {
       width: 61%;
