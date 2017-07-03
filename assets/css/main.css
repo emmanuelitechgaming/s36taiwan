@@ -363,7 +363,7 @@ main .marquee {
     color: #e7c017;
     overflow: hidden;
     position: absolute;
-    left: 13%;
+    left: 16%;
     cursor: pointer
 }
 

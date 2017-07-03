@@ -1636,13 +1636,13 @@
     .jumbo {
       position: absolute;
       display: inline-block;
-      color: #0f0f0f;
-      left: 257px;
-      top: 14px;
+      color: #FBA601;
+      left: 146px;
+      top: 28px;
       font-size: 25px;
       font-weight: 700;
-      letter-spacing: 19px;
-      word-spacing: -30px;
+      letter-spacing: 18px;
+      word-spacing: -24px;
     }
     main .marquee {
         width: 500px;
