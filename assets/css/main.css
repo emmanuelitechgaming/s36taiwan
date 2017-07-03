@@ -2292,10 +2292,6 @@ header .nathan-hamburger-hm-d {
   bottom: -2px;
 }
 
-.mobile-button-bg{
-  background: #161616;
-}
-
 .mobile-button .fa{
   color: #a7a7a7;
   font-size: 30px
@@ -2303,10 +2299,6 @@ header .nathan-hamburger-hm-d {
 
 #mobile-top-menu img{
   margin: 15px 0 0
-}
-
-#mobile-top-menu{
-  background: #161616;
 }
 
 .mobile-top-navbar{
@@ -4865,6 +4857,9 @@ right: 160px;
   background-size: 22px 17px;
   background-position: 0px 7px;
 }
+.mnav-afterlogin .mnav-home{
+  background-position: 17px 10px !important;
+}
 .mnav-register{
   background: url('../img/s36tw-mobile-home_06.png') no-repeat;
   background-size: 19px 19px;
@@ -4885,10 +4880,46 @@ right: 160px;
   right: -12px;
   margin-left: -3px;
 }
+.mnav-profile{
+  background: url('../img/s36tw-mobile-home--LOGIN_08.png') no-repeat;
+  background-size: 20px 20px;
+  background-position: 18px 9px;
+}
+.mnav-wallet{
+  background: url('../img/s36tw-mobile-home--LOGIN_10.png') no-repeat;
+  background-size: 20px 19px;
+  background-position: 18px 8px;
+}
+.mnav-email{
+  background: url('../img/s36tw-mobile-home--LOGIN_05.png') no-repeat;
+  background-size: 20px 16px;
+  background-position: 18px 11px;
+}
+.mnav-logout{
+  background: url('../img/s36tw-mobile-home--LOGIN_13.png') no-repeat;
+  background-size: 20px 17px;
+  background-position: 17px 10px;
+}
 .mnav-home.active{
   background: url('../img/s36tw-mobile-home-active_09.png') no-repeat;
   background-size: 22px 17px;
   background-position: 0px 7px;
+}
+.mnav-afterlogin{
+  background: none
+}
+.nav-afterlogin-bg{
+  background-size: 1px  50px;
+}
+.mnav-afterlogin .swiper-slide{
+  width: 20%;
+}
+.mnav-afterlogin .swiper-slide a{
+  height: 53px;
+}
+.mnav-afterlogin .swiper-slide a span{
+  display: block;
+  margin-top: 20px
 }
 #myModal .modal-foot ul li:nth-child(1) a{
   position: relative;
@@ -4906,5 +4937,7 @@ right: 160px;
 }
 .main-mnav{
   margin-bottom: 0;
-  margin: 10px 0
+  margin: 10px 0;
+  margin-left: -15px;
+  margin-right: -15px;
 }
