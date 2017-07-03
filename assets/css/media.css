@@ -609,6 +609,36 @@
     .mnav-bottom .swiper-slide a{
       padding: 5px 15px
     }
+    .mnav-top .mnav-home, .mnav-top .mnav-home.active{
+      background-position: 29px 7px;
+    }
+    .mnav-login{
+      background-position: 32.5px 7px;
+    }
+    .mnav-register{
+      background-position: 32px 7px;
+    }
+    .mnav-top .swiper-slide:last-child a span{
+      margin-left: -36px
+    }
+    .mnav-afterlogin .swiper-slide:last-child a span{
+      margin-right: -13px
+    }
+    .mnav-afterlogin .mnav-home{
+      background-position: 18px 10px !important;
+    }
+    .mnav-profile{
+      background-position: 19px 9px;
+    }
+    .mnav-wallet{
+      background-position: 19px 8px;
+    }
+    .mnav-email{
+      background-position: 19px 11px;
+    }
+    .mnav-bottom .swiper-slide a{
+      padding: 5px 8px
+    }
 }
 
 
@@ -768,6 +798,7 @@
     .mnav-bottom .swiper-slide a {
       padding: 5px 18px;
     }
+
 }
 
 @media only screen and (min-width: 412px) {
@@ -777,6 +808,36 @@
     }
     .mnav-bottom .swiper-slide a {
       padding: 5px 24px;
+    }
+    .mnav-top .mnav-home, .mnav-top .mnav-home.active{
+      background-position: 35px 7px;
+    }
+    .mnav-login{
+      background-position: 38.5px 7px;
+    }
+    .mnav-register{
+      background-position: 38px 7px;
+    }
+    .mnav-top .swiper-slide:last-child a span{
+      margin-left: -46px
+    }
+    .mnav-afterlogin .swiper-slide:last-child a span{
+      margin-right: -13px
+    }
+    .mnav-afterlogin .mnav-home{
+      background-position: 18px 10px !important;
+    }
+    .mnav-profile{
+      background-position: 19px 9px;
+    }
+    .mnav-wallet{
+      background-position: 19px 8px;
+    }
+    .mnav-email{
+      background-position: 19px 11px;
+    }
+    .mnav-bottom .swiper-slide a{
+      padding: 5px 8px
     }
 }
 
