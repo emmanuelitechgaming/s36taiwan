@@ -509,7 +509,7 @@
     }
     #myModal .modal-foot ul li{
       display: inline-block;
-      width: 49%;
+      width: 32%;
       margin-bottom: 5px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
@@ -546,7 +546,38 @@
       top: 0;
     }
     #myModal .modal-foot ul li:nth-child(1) a{
-      top: -24px;
+      font-size: 12px;
+      top: -16px;
+    }
+    .mnav-top .mnav-home, .mnav-top .mnav-home.active{
+      background-position: 26px 7px;
+    }
+    .mnav-login{
+      background-position: 29px 7px;
+    }
+    .mnav-register{
+      background-position: 28px 7px;
+    }
+    .mnav-top .swiper-slide:last-child a span{
+      margin-left: -21px
+    }
+    .mnav-afterlogin .swiper-slide:last-child a span{
+      margin-right: -13px
+    }
+    .mnav-afterlogin .mnav-home{
+      background-position: 18px 10px !important;
+    }
+    .mnav-profile{
+      background-position: 19px 9px;
+    }
+    .mnav-wallet{
+      background-position: 19px 8px;
+    }
+    .mnav-email{
+      background-position: 19px 11px;
+    }
+    .mnav-bottom .swiper-slide a{
+      padding: 5px 8px
     }
 }
 
@@ -700,6 +731,40 @@
     .mnav-bottom .swiper-container{
       width: 388px;
     }
+    #myModal .modal-foot ul li:nth-child(1) a {
+      font-size: 13px;
+      top: -19px;
+    }
+    .mnav-top .mnav-home, .mnav-top .mnav-home.active{
+      background-position: 31px 7px;
+    }
+    .mnav-login{
+      background-position: 35px 7px;
+    }
+    .mnav-register{
+      background-position: 33px 7px;
+    }
+    .mnav-top .swiper-slide:last-child a span{
+      margin-left: -36px
+    }
+    .mnav-afterlogin .swiper-slide:last-child a span{
+      margin-left: -14px
+    }
+    .mnav-afterlogin .mnav-home{
+      background-position: 22px 10px !important;
+    }
+    .mnav-profile{
+      background-position: 23px 9px;
+    }
+    .mnav-wallet{
+      background-position: 23px 8px;
+    }
+    .mnav-email{
+      background-position: 23px 11px;
+    }
+    .mnav-bottom .swiper-slide a {
+      padding: 5px 18px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -815,6 +880,37 @@
     }
     .mnav-bottom .swiper-container{
       width: 427px;
+    }
+    #myModal .modal-foot ul li:nth-child(1) a {
+      font-size: 14px;
+      top: -20px;
+    }
+    .mnav-top .mnav-home, .mnav-top .mnav-home.active{
+      background-position: 37px 7px;
+    }
+    .mnav-login{
+      background-position: 39px 7px;
+    }
+    .mnav-register{
+      background-position: 38px 7px;
+    }
+    .mnav-top .swiper-slide:last-child a span{
+      margin-left: -36px
+    }
+    .mnav-afterlogin .mnav-home{
+      background-position: 26px 10px !important;
+    }
+    .mnav-profile{
+      background-position: 28px 9px;
+    }
+    .mnav-wallet{
+      background-position: 28px 8px;
+    }
+    .mnav-email{
+      background-position: 28px 11px;
+    }
+    .mnav-bottom .swiper-slide a {
+      padding: 5px 22px;
     }
 }
 

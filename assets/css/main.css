@@ -2297,6 +2297,10 @@ header .nathan-hamburger-hm-d {
   font-size: 30px
 }
 
+.mobile-button-bg{
+  background: #161616
+}
+
 #mobile-top-menu img{
   margin: 15px 0 0
 }
@@ -4827,7 +4831,7 @@ right: 160px;
 }
 .mnav-bottom{
   margin-right: -15px;
-  margin-left: -30px;
+  margin-left: -15px;
 }
 .mnav-bottom .swiper-slide a.m-top-header-clock img{
   width: 21px !important;
@@ -4855,25 +4859,20 @@ right: 160px;
 .mnav-home{
   background: url('../img/s36tw-mobile-home_09.png') no-repeat;
   background-size: 22px 17px;
-  background-position: 0px 7px;
-}
-.mnav-afterlogin .mnav-home{
-  background-position: 17px 10px !important;
+  background-position: 30px 7px;
 }
 .mnav-register{
   background: url('../img/s36tw-mobile-home_06.png') no-repeat;
   background-size: 19px 19px;
-  background-position: 0px 7px;
 }
 .mnav-login{
   background: url('../img/s36tw-mobile-home_03.png') no-repeat;
   background-size: 18px 18px;
-  background-position: 0px 7px;
 }
 .mnav-demo{
   background: url('../img/s36tw-mobile-home_12.png') no-repeat;
   background-size: 20px 17px;
-  background-position: 0px 8px;
+  background-position: 26px 8px;
 }
 .mnav-demo .mnav-top-span{
   position: relative;
@@ -4883,17 +4882,14 @@ right: 160px;
 .mnav-profile{
   background: url('../img/s36tw-mobile-home--LOGIN_08.png') no-repeat;
   background-size: 20px 20px;
-  background-position: 18px 9px;
 }
 .mnav-wallet{
   background: url('../img/s36tw-mobile-home--LOGIN_10.png') no-repeat;
   background-size: 20px 19px;
-  background-position: 18px 8px;
 }
 .mnav-email{
   background: url('../img/s36tw-mobile-home--LOGIN_05.png') no-repeat;
   background-size: 20px 16px;
-  background-position: 18px 11px;
 }
 .mnav-logout{
   background: url('../img/s36tw-mobile-home--LOGIN_13.png') no-repeat;
@@ -4903,21 +4899,21 @@ right: 160px;
 .mnav-home.active{
   background: url('../img/s36tw-mobile-home-active_09.png') no-repeat;
   background-size: 22px 17px;
-  background-position: 0px 7px;
+  background-position: 30px 7px;
 }
-.mnav-afterlogin{
+.mnav-afterlogin, .mnav-top{
   background: none
 }
-.nav-afterlogin-bg{
+.nav-afterlogin-bg, .nav-main-bg{
   background-size: 1px  50px;
 }
 .mnav-afterlogin .swiper-slide{
   width: 20%;
 }
-.mnav-afterlogin .swiper-slide a{
+.mnav-afterlogin .swiper-slide a, .mnav-top .swiper-slide a{
   height: 53px;
 }
-.mnav-afterlogin .swiper-slide a span{
+.mnav-afterlogin .swiper-slide a span, .mnav-top .swiper-slide a span{
   display: block;
   margin-top: 20px
 }
@@ -4937,7 +4933,20 @@ right: 160px;
 }
 .main-mnav{
   margin-bottom: 0;
-  margin: 10px 0;
   margin-left: -15px;
   margin-right: -15px;
+  background: #161616
+}
+.main-mnav .swiper-slide a{
+  border-right: none;
+}
+.main-mnav .swiper-slide:first-child{
+  border-left: none
+}
+.main-mnav .swiper-wrapper{
+  width: 80%;
+  margin: 0px auto;
+}
+.mnav-bottom .swiper-slide:last-child a{
+  border-right: none
 }

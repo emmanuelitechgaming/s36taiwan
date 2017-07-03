@@ -532,6 +532,14 @@ $(function() {
       $('.mobile-top-menu-close').addClass('mobile-top-menu-close-toggle');
     });
 
+    $('#mobile-top-menu').on('show.bs.collapse', function() {
+      $('.mobile-button').addClass('mobile-button-bg');
+    });
+
+    $('#mobile-top-menu').on('hide.bs.collapse', function() {
+      $('.mobile-button').removeClass('mobile-button-bg');
+    });
+
     $('#gs-body').on('hidden.bs.collapse', function () {
       $('.mobile-top-menu-close').removeClass('mobile-top-menu-close-toggle');
     });
