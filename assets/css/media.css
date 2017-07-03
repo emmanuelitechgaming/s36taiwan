@@ -251,7 +251,8 @@
     }
     .selectpicker2 {
       padding: 3px 5px;
-      top: 25px;
+      padding-bottom: 5px;
+      top: 24px;
       left: -40px;
       font-size: 8px;
     }
@@ -582,8 +583,22 @@
     .mnav-email{
       background-position: 19px 11px;
     }
+    .mnav-bottom .swiper-slide{
+      display: inline-block;
+      border-right: 1px solid #000
+    }
     .mnav-bottom .swiper-slide a{
-      padding: 5px 8px
+      padding: 5px 5px;
+      white-space: nowrap;
+      text-align: center;
+      display: block;
+      border-right: none
+    }
+    .mnav-bottom .swiper-slide:first-child{
+      width: 42%;
+    }
+    .mnav-bottom .swiper-slide:nth-child(2), .mnav-bottom .swiper-slide:nth-child(3){
+      width: 29%
     }
 }
 
@@ -612,9 +627,6 @@
     .margin-media img {
       margin-top: -47px;
     }
-    .mnav-bottom .swiper-slide a{
-      padding: 5px 15px
-    }
     .mnav-top .mnav-home, .mnav-top .mnav-home.active{
       background-position: 29px 7px;
     }
@@ -641,9 +653,6 @@
     }
     .mnav-email{
       background-position: 19px 11px;
-    }
-    .mnav-bottom .swiper-slide a{
-      padding: 5px 15px
     }
 }
 
@@ -801,9 +810,6 @@
     .mnav-email{
       background-position: 23px 11px;
     }
-    .mnav-bottom .swiper-slide a {
-      padding: 5px 18px;
-    }
 
 }
 
@@ -811,9 +817,6 @@
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
         width: 75px !important;
         margin-left: -165px !important;
-    }
-    .mnav-bottom .swiper-slide a {
-      padding: 5px 24px;
     }
     .mnav-top .mnav-home, .mnav-top .mnav-home.active{
       background-position: 35px 7px;
@@ -841,9 +844,6 @@
     }
     .mnav-email{
       background-position: 19px 11px;
-    }
-    .mnav-bottom .swiper-slide a{
-      padding: 5px 24px
     }
 }
 
@@ -981,9 +981,6 @@
     }
     .mnav-email{
       background-position: 28px 11px;
-    }
-    .mnav-bottom .swiper-slide a {
-      padding: 5px 24px;
     }
 }
 
