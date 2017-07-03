@@ -606,6 +606,9 @@
     .margin-media img {
       margin-top: -47px;
     }
+    .mnav-bottom .swiper-slide a{
+      padding: 5px 15px
+    }
 }
 
 
@@ -771,6 +774,9 @@
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
         width: 75px !important;
         margin-left: -165px !important;
+    }
+    .mnav-bottom .swiper-slide a {
+      padding: 5px 24px;
     }
 }
 
