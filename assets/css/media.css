@@ -508,9 +508,9 @@
       left: 191px;
     }
     #myModal .modal-foot ul li{
-      display: block;
-      margin-right: auto;
-      margin-bottom: 10px
+      display: inline-block;
+      width: 49%;
+      margin-bottom: 5px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 90%;
@@ -538,6 +538,15 @@
     }
     .mnav-bottom .swiper-container{
       width: 330px
+    }
+    .modal-foot{
+      margin-top: 30px;
+    }
+    #myModal .modal-bottom{
+      top: 0;
+    }
+    #myModal .modal-foot ul li:nth-child(1) a{
+      top: -24px;
     }
 }
 
@@ -1493,6 +1502,7 @@
     }
     #myModal .modal-foot ul li{
       display: inline-block;
+      width: auto;
       margin-right: 5px;
       margin-bottom: auto
     }
@@ -1532,6 +1542,21 @@
       border: 1px solid #fba601;
       border-bottom-color: transparent;
       font-weight: 700;
+    }
+    .modal-foot{
+      margin-top: 18px;
+    }
+    #myModal .modal-foot ul li:nth-child(2), #myModal .modal-foot ul li:nth-child(3), #myModal .modal-foot ul li:nth-child(4){
+      width: 18%
+    }
+    #myModal .modal-bottom{
+      top: -56px;
+    }
+    #myModal .modal-body{
+      padding-bottom: 0;
+    }
+    #myModal .modal-foot ul li:nth-child(1) a{
+      top: -17px;
     }
 }
 

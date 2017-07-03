@@ -2287,9 +2287,9 @@ header .nathan-hamburger-hm-d {
 .mobile-button{
   position: absolute;
   right: -1px;
-  top: -4px;
+  top: -1px;
   padding: 20px;
-
+  bottom: -2px;
 }
 
 .mobile-button-bg{
@@ -2306,7 +2306,7 @@ header .nathan-hamburger-hm-d {
 }
 
 #mobile-top-menu{
-  background: #161616
+  background: #161616;
 }
 
 .mobile-top-navbar{
@@ -4427,7 +4427,6 @@ border-radius: 2px;
 }
 .modal-foot{
   display: inline-block;
-margin-top: 18px;
 }
 
 .desktop-support-title{
@@ -4891,12 +4890,8 @@ right: 160px;
   background-size: 22px 17px;
   background-position: 0px 7px;
 }
-#myModal .modal-foot ul li:nth-child(2), #myModal .modal-foot ul li:nth-child(3), #myModal .modal-foot ul li:nth-child(4){
-  width: 18%
-}
 #myModal .modal-foot ul li:nth-child(1) a{
   position: relative;
-  top: -17px;
 }
 #myModal .modal-foot ul li:nth-child(2) a, #myModal .modal-foot ul li:nth-child(3) a, #myModal .modal-foot ul li:nth-child(4) a{
   display: block;
@@ -4908,8 +4903,8 @@ right: 160px;
 }
 #myModal .modal-bottom{
   position: relative;
-  top: -56px;
 }
-#myModal .modal-body{
-  padding-bottom: 0;
+.main-mnav{
+  margin-bottom: 0;
+  margin: 10px 0
 }
