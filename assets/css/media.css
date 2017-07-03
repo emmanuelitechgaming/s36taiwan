@@ -36,8 +36,8 @@
     header .logo a {
         display: inline-block;
         /*width: 184px;*/
-        width: 120px;
-        height: 50px;
+        width: 130px;
+        height: 60px;
         background: url('../img/logo.png') no-repeat 0 0;
         background-repeat: no-repeat;
         background-size: contain;
@@ -247,10 +247,10 @@
         width: 100%;
     }
     .selectpicker2 {
-        padding: 5px 8px;
-        top: 18px;
-        left: -40px;
-        font-size: 10px;
+      padding: 3px 5px;
+      top: 25px;
+      left: -40px;
+      font-size: 8px;
     }
     .selectpicker2 .fa {
         margin-left: 5px
@@ -559,13 +559,6 @@
     }
     .swiper-slide a {
         padding: 5px 17.6px;
-    }
-
-    .selectpicker2 {
-        padding: 5px 8px;
-        top: 18px;
-        left: -68px;
-        font-size: 10px;
     }
     .m-selectpicker2-menu{
       top: -285px !important;

@@ -4864,25 +4864,52 @@ right: 160px;
 .mnav-home{
   background: url('../img/s36tw-mobile-home_09.png') no-repeat;
   background-size: 22px 17px;
-  background-position: 24px 7px;
+  background-position: 0px 7px;
 }
 .mnav-register{
   background: url('../img/s36tw-mobile-home_06.png') no-repeat;
   background-size: 19px 19px;
-  background-position: 29px 7px;
+  background-position: 0px 7px;
 }
 .mnav-login{
   background: url('../img/s36tw-mobile-home_03.png') no-repeat;
   background-size: 18px 18px;
-  background-position: 29px 7px;
+  background-position: 0px 7px;
 }
 .mnav-demo{
   background: url('../img/s36tw-mobile-home_12.png') no-repeat;
   background-size: 20px 17px;
-  background-position: 27px 8px;
+  background-position: 0px 8px;
+}
+.mnav-demo .mnav-top-span{
+  position: relative;
+  right: -12px;
+  margin-left: -3px;
 }
 .mnav-home.active{
   background: url('../img/s36tw-mobile-home-active_09.png') no-repeat;
   background-size: 22px 17px;
-  background-position: 24px 7px;
+  background-position: 0px 7px;
+}
+#myModal .modal-foot ul li:nth-child(2), #myModal .modal-foot ul li:nth-child(3), #myModal .modal-foot ul li:nth-child(4){
+  width: 18%
+}
+#myModal .modal-foot ul li:nth-child(1) a{
+  position: relative;
+  top: -17px;
+}
+#myModal .modal-foot ul li:nth-child(2) a, #myModal .modal-foot ul li:nth-child(3) a, #myModal .modal-foot ul li:nth-child(4) a{
+  display: block;
+  width: 100%;
+}
+#myModal .modal-foot ul li:nth-child(2) a img, #myModal .modal-foot ul li:nth-child(3) a img, #myModal .modal-foot ul li:nth-child(4) img{
+  display: block;
+  width: 100%
+}
+#myModal .modal-bottom{
+  position: relative;
+  top: -56px;
+}
+#myModal .modal-body{
+  padding-bottom: 0;
 }
