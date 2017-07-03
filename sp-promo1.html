@@ -2134,10 +2134,16 @@
         });
     });
     </script>
-    <div class="float-contacts">
+    <div class="float-contacts hidden-xs hidden-sm">
       <a href="helpcenter.html#tab2"><img src="assets/img/cta-contact.png" id="cta-contact" alt=""></a>
     </div>
-    <div class="scrolltotop" style="display: none;">
+    <div class="scrolltotop-m hidden-lg hidden-md" style="display: none;">
+        <a><img src="assets/img/arrow-mobile-up.png" alt=""></a>
+    </div>
+    <div class="float-contacts-m hidden-md hidden-lg">
+      <a href="helpcenter.html#tab2"><img src="assets/img/contact-mobile.png" id="cta-contact" alt=""></a>
+    </div>
+    <div class="scrolltotop hidden-xs hidden-sm" style="display: none;">
         <a><div class="btn-top"></div></a>
     </div>
     <script type="text/javascript">
@@ -2151,6 +2157,23 @@
                 }
             })
             $(".scrolltotop a").click(function() {
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 500);
+            });
+        })
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                var h = $(window).scrollTop();
+                if (h > 100) {
+                    $(".scrolltotop-m").css('display', 'block');
+                } else {
+                    $(".scrolltotop-m").css('display', 'none');
+                }
+            })
+            $(".scrolltotop-m a").click(function() {
                 $('html,body').animate({
                     scrollTop: 0
                 }, 500);
