@@ -640,7 +640,7 @@
       background-position: 19px 11px;
     }
     .mnav-bottom .swiper-slide a{
-      padding: 5px 8px
+      padding: 5px 15px
     }
 }
 
@@ -840,7 +840,7 @@
       background-position: 19px 11px;
     }
     .mnav-bottom .swiper-slide a{
-      padding: 5px 8px
+      padding: 5px 24px
     }
 }
 
@@ -980,7 +980,7 @@
       background-position: 28px 11px;
     }
     .mnav-bottom .swiper-slide a {
-      padding: 5px 22px;
+      padding: 5px 24px;
     }
 }
 

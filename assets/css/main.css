@@ -4950,3 +4950,9 @@ right: 160px;
 .mnav-bottom .swiper-slide:last-child a{
   border-right: none
 }
+.m-fsalon ul li:nth-child(4){
+  margin-left: -30px
+}
+.m-fsalon ul li:nth-child(6){
+  padding: 0 4px
+}
