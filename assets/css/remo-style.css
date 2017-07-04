@@ -356,15 +356,16 @@ margin: 0px auto
 }
 
 .sitemap-box{
+  border-bottom: 1px solid #000;
+}
+.border{
 
 }
-
 .sitemap-header{
-  background: #fba601
 }
 
 .sitemap-header p{
-  color: #fff;
+  color: #fba601;
   font-size: 13px;
   padding: 10px 0;
   width: auto;
@@ -372,10 +373,10 @@ margin: 0px auto
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  text-shadow: 1px 1px 3px #000000;
 }
 
 .sitemap-header .fa-sitemap{
-  background: #ffbd38;
   padding: 13px;
   margin: -10px 0;
   margin-left: 0px;
@@ -383,11 +384,9 @@ margin: 0px auto
 }
 
 .sitemap-body{
-  border: solid 1px #e5e5e5;
   border-top: none;
   padding: 15px 0px;
   margin-bottom: 20px;
-  background: #ffffff;
 }
 
 .sitemap-body ul{
@@ -397,21 +396,34 @@ margin: 0px auto
 
 
 }
-
+.sitemap-body ul li a {
+    display: block;
+    color: #5e5e5e;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    padding-left: 10px!important;
+    padding-right: 25px!important;
+}
+.sitemap-body ul.columns > li::before {
+    content: "";
+    display: list-item;
+    position: absolute;
+}
 .sitemap-body ul li{
   padding: 0;
+  display: inline-block;
 }
-
 .sitemap-body ul li a{
   display: block;
   color: #5e5e5e;
   padding: 8px 0;
-  padding-left: 5px
+  padding-left: 5px;
+  text-shadow: 1px 1px 3px #000000;
 }
 
 .sitemap-body ul li a:hover{
   text-decoration: none;
-  background: #ccc
+
 }
 
 .lang-c-2{

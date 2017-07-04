@@ -9,6 +9,15 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
+  #myModal{
+    top:-229px;
+  }
+  .float-contacts-m{
+    right: 1px;
+    position: fixed;
+    cursor: pointer;
+    bottom: 65px;
+}
   .modal-panel-dialog{
     width: auto;
   }
@@ -30,8 +39,8 @@
     header .logo a {
         display: inline-block;
         /*width: 184px;*/
-        width: 120px;
-        height: 50px;
+        width: 130px;
+        height: 60px;
         background: url('../img/logo.png') no-repeat 0 0;
         background-repeat: no-repeat;
         background-size: contain;
@@ -241,10 +250,11 @@
         width: 100%;
     }
     .selectpicker2 {
-        padding: 5px 8px;
-        top: 18px;
-        left: -60px;
-        font-size: 10px;
+      padding: 3px 5px;
+      padding-bottom: 5px;
+      top: 24px;
+      left: -40px;
+      font-size: 8px;
     }
     .selectpicker2 .fa {
         margin-left: 5px
@@ -346,7 +356,7 @@
         padding: 5px 20px !important;
     }
     .panel-heading .slots-tabs > li > a {
-        padding: 5px 16px !important;
+        padding: 5px 18px !important;
     }
     .promotion-swiper-container {
       width: 257px;
@@ -502,12 +512,15 @@
       left: 191px;
     }
     #myModal .modal-foot ul li{
-      display: block;
-      margin-right: auto;
-      margin-bottom: 10px
+      display: inline-block;
+      width: 32%;
+      margin-bottom: 5px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      width: 90%;
+      width: 95%;
+    }
+    .m-fsalon ul li:nth-child(4) img{
+      width: 82%;
     }
     .footer-shareit ul li{
       width: 50%;
@@ -530,6 +543,63 @@
     .slots-info{
       right: 24%;
     }
+    .mnav-bottom .swiper-container{
+      width: 330px
+    }
+    .modal-foot{
+      margin-top: 30px;
+    }
+    #myModal .modal-bottom{
+      top: 0;
+    }
+    #myModal .modal-foot ul li:nth-child(1) a{
+      font-size: 12px;
+      top: -16px;
+    }
+    .mnav-top .mnav-home, .mnav-top .mnav-home.active{
+      background-position: 26px 7px;
+    }
+    .mnav-login{
+      background-position: 29px 7px;
+    }
+    .mnav-register{
+      background-position: 28px 7px;
+    }
+    .mnav-top .swiper-slide:last-child a span{
+      margin-left: -21px
+    }
+    .mnav-afterlogin .swiper-slide:last-child a span{
+      margin-right: -13px
+    }
+    .mnav-afterlogin .mnav-home{
+      background-position: 18px 10px !important;
+    }
+    .mnav-profile{
+      background-position: 19px 9px;
+    }
+    .mnav-wallet{
+      background-position: 19px 8px;
+    }
+    .mnav-email{
+      background-position: 19px 11px;
+    }
+    .mnav-bottom .swiper-slide{
+      display: inline-block;
+      border-right: 1px solid #000
+    }
+    .mnav-bottom .swiper-slide a{
+      padding: 5px 5px;
+      white-space: nowrap;
+      text-align: center;
+      display: block;
+      border-right: none
+    }
+    .mnav-bottom .swiper-slide:first-child{
+      width: 42%;
+    }
+    .mnav-bottom .swiper-slide:nth-child(2), .mnav-bottom .swiper-slide:nth-child(3){
+      width: 29%
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -551,18 +621,38 @@
     .swiper-slide a {
         padding: 5px 17.6px;
     }
-
-    .selectpicker2 {
-        padding: 5px 8px;
-        top: 18px;
-        left: -68px;
-        font-size: 10px;
-    }
     .m-selectpicker2-menu{
       top: -285px !important;
     }
     .margin-media img {
       margin-top: -47px;
+    }
+    .mnav-top .mnav-home, .mnav-top .mnav-home.active{
+      background-position: 29px 7px;
+    }
+    .mnav-login{
+      background-position: 32.5px 7px;
+    }
+    .mnav-register{
+      background-position: 32px 7px;
+    }
+    .mnav-top .swiper-slide:last-child a span{
+      margin-left: -36px
+    }
+    .mnav-afterlogin .swiper-slide:last-child a span{
+      margin-right: -13px
+    }
+    .mnav-afterlogin .mnav-home{
+      background-position: 18px 10px !important;
+    }
+    .mnav-profile{
+      background-position: 19px 9px;
+    }
+    .mnav-wallet{
+      background-position: 19px 8px;
+    }
+    .mnav-email{
+      background-position: 19px 11px;
     }
 }
 
@@ -607,7 +697,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -87px;
+        left: -67px;
     }
     .swiper-container {
         width: 305px;
@@ -626,7 +716,7 @@
         top: 21px;
     }
     .panel-heading .slots-tabs > li > a {
-        padding: 5px 22px !important;
+        padding: 5px 27px !important;
     }
     .panel-heading .lotto-tabs > li > a {
         padding: 5px 19px !important;
@@ -671,7 +761,7 @@
       left: 219px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      width: 74%;
+      width: 95%;
     }
     .rss-field .form-group:nth-child(1){
       display: block;
@@ -686,12 +776,74 @@
     .margin-media img {
       margin-top: -47px;
     }
+    .mnav-bottom .swiper-container{
+      width: 388px;
+    }
+    #myModal .modal-foot ul li:nth-child(1) a {
+      font-size: 13px;
+      top: -19px;
+    }
+    .mnav-top .mnav-home, .mnav-top .mnav-home.active{
+      background-position: 31px 7px;
+    }
+    .mnav-login{
+      background-position: 35px 7px;
+    }
+    .mnav-register{
+      background-position: 33px 7px;
+    }
+    .mnav-top .swiper-slide:last-child a span{
+      margin-left: -36px
+    }
+    .mnav-afterlogin .swiper-slide:last-child a span{
+      margin-left: -14px
+    }
+    .mnav-afterlogin .mnav-home{
+      background-position: 22px 10px !important;
+    }
+    .mnav-profile{
+      background-position: 23px 9px;
+    }
+    .mnav-wallet{
+      background-position: 23px 8px;
+    }
+    .mnav-email{
+      background-position: 23px 11px;
+    }
+
 }
 
 @media only screen and (min-width: 412px) {
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
         width: 75px !important;
         margin-left: -165px !important;
+    }
+    .mnav-top .mnav-home, .mnav-top .mnav-home.active{
+      background-position: 35px 7px;
+    }
+    .mnav-login{
+      background-position: 38.5px 7px;
+    }
+    .mnav-register{
+      background-position: 38px 7px;
+    }
+    .mnav-top .swiper-slide:last-child a span{
+      margin-left: -46px
+    }
+    .mnav-afterlogin .swiper-slide:last-child a span{
+      margin-right: -13px
+    }
+    .mnav-afterlogin .mnav-home{
+      background-position: 18px 10px !important;
+    }
+    .mnav-profile{
+      background-position: 19px 9px;
+    }
+    .mnav-wallet{
+      background-position: 19px 8px;
+    }
+    .mnav-email{
+      background-position: 19px 11px;
     }
 }
 
@@ -731,7 +883,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -107px;
+        left: -87px;
     }
     .swiper-container {
         width: 345px;
@@ -743,7 +895,7 @@
         padding: 5px 24px;
     }
     .panel-heading .slots-tabs > li > a {
-        padding: 5px 28px !important;
+        padding: 5px 33px !important;
     }
     .panel-heading .promotional-tabs {
         width: 565px;
@@ -791,7 +943,7 @@
       left: 239px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      width: 74%;
+      width: 95%;
     }
     .rss-field .form-group:nth-child(2) {
       width: 61%;
@@ -799,12 +951,49 @@
     .margin-media img {
       margin-top: -50px;
     }
+    .mnav-bottom .swiper-container{
+      width: 427px;
+    }
+    #myModal .modal-foot ul li:nth-child(1) a {
+      font-size: 14px;
+      top: -20px;
+    }
+    .mnav-top .mnav-home, .mnav-top .mnav-home.active{
+      background-position: 37px 7px;
+    }
+    .mnav-login{
+      background-position: 39px 7px;
+    }
+    .mnav-register{
+      background-position: 38px 7px;
+    }
+    .mnav-top .swiper-slide:last-child a span{
+      margin-left: -36px
+    }
+    .mnav-afterlogin .mnav-home{
+      background-position: 26px 10px !important;
+    }
+    .mnav-profile{
+      background-position: 28px 9px;
+    }
+    .mnav-wallet{
+      background-position: 28px 8px;
+    }
+    .mnav-email{
+      background-position: 28px 11px;
+    }
 }
 
 
 /* Extra Small Devices, Phones */
 
-@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 480px) {
+  .float-contacts{
+    right: 94px;
+    position: fixed;
+    cursor: pointer;
+    bottom: 1px;
+}
 
 @media only screen and (min-width: 568px) {
     .breadcrumb-inner .casino-g ul li {
@@ -939,6 +1128,12 @@
       right: 30%;
       top: 2px;
     }
+    .mnav-bottom .swiper-container{
+      width: 581px;
+    }
+    .selectpicker2 {
+      left: -165px;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -959,7 +1154,7 @@
         padding: 5px 8px;
         top: 18px;
         left: -208px;
-        font-size: 10px;
+        font-size: 11px;
     }
     .margin-media img {
       margin-right: 100px;
@@ -1038,9 +1233,18 @@
     .margin-media img {
       margin-right: 115px;
     }
+    .mnav-bottom .swiper-container{
+      width: 680px;
+    }
+    .selectpicker2 {
+      left: -211px;
+    }
 }
 
 @media only screen and (min-width: 736px) {
+  #myModal{
+    top:-229px;
+  }
   .modal-panel-dialog{
     width: 400px!important;
   }
@@ -1099,6 +1303,12 @@
       margin-top: -40px;
       margin-right: 147px;
     }
+    .mnav-bottom .swiper-container{
+      width: 749px;
+    }
+    .selectpicker2 {
+      left: -245px;
+    }
 }
 
 
@@ -1121,6 +1331,9 @@
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {
+  #myModal{
+    top:0;
+  }
   .modal-panel-dialog{
     width: 400px!important;
   }
@@ -1221,13 +1434,13 @@
         margin: 0px auto
     }
     .selectpicker2 {
-        padding: 6px 12px;
-        top: 10px;
-        left: 5px;
-        font-size: 14px
+      padding: 7px 10px;
+      padding-bottom: 8px;
+      top: 16px;
+      left: 16px;
     }
     .selectpicker2 .fa {
-        margin-left: 18px
+        margin-left: 6px
     }
     .breadcrumb-inner .sp-container img {
         width: auto;
@@ -1451,17 +1664,18 @@
       font-size: 15px
     }
     #myModal .nav-tabs li.connecting-line{
-      width: 200px;
+      width: 170px;
     }
     .cl1{
-      left: 140px;
+      left: 157px;
     }
     .cl2{
-      left: 383px
+      left: 399px
     }
     #myModal .modal-foot ul li{
       display: inline-block;
-      margin-right: 30px;
+      width: auto;
+      margin-right: 5px;
       margin-bottom: auto
     }
     #myModal{
@@ -1489,6 +1703,32 @@
     }
     .slots-info{
       right: 118px;
+    }
+    #ctab3 .row{
+    border-left: 1px solid #FBA601;
+    }
+    .panel-heading .casino-tabs > li > a:hover,.panel-heading .casino-tabs > li > a:focus{
+      color: #020202;
+      cursor: default;
+      background-color: #fba601;
+      border: 1px solid #fba601;
+      border-bottom-color: transparent;
+      font-weight: 700;
+    }
+    .modal-foot{
+      margin-top: 18px;
+    }
+    #myModal .modal-foot ul li:nth-child(2), #myModal .modal-foot ul li:nth-child(3), #myModal .modal-foot ul li:nth-child(4){
+      width: 18%
+    }
+    #myModal .modal-bottom{
+      top: -56px;
+    }
+    #myModal .modal-body{
+      padding-bottom: 0;
+    }
+    #myModal .modal-foot ul li:nth-child(1) a{
+      top: -17px;
     }
 }
 
@@ -1593,13 +1833,13 @@
     .jumbo {
       position: absolute;
       display: inline-block;
-      color: #0f0f0f;
-      left: 213px;
-      top: 23px;
-      font-size: 32px;
+      color: #FBA601;
+      left: 146px;
+      top: 28px;
+      font-size: 25px;
       font-weight: 700;
-      letter-spacing: 19px;
-      word-spacing: -28px;
+      letter-spacing: 18px;
+      word-spacing: -24px;
     }
     main .marquee {
         width: 500px;

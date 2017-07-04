@@ -8,6 +8,13 @@ body {
     background: #2a2a2a;
     color: #acacac;
 }
+header{
+  background: url('../img/casino-bg.png');
+
+  background-repeat: no-repeat;
+  background-position-x: 921px;
+  background-position-y: -13px;
+}
 header .top-header{
   padding: 0 5px;
   font-size: 12px;
@@ -258,6 +265,7 @@ main .jackpot .col-md-6 {
 
 main .jackpot {
     overflow: hidden;
+    margin-top: 10px;
 }
 
 main .live-container {
@@ -275,7 +283,10 @@ main .live-container {
   padding: 5px 35px !important
 }
 
-main .gp-g {}
+main .gp-g {
+  position: relative;
+  top: -5px;
+}
 
 main .gp-d {
     padding-top: 6px;
@@ -352,7 +363,7 @@ main .marquee {
     color: #e7c017;
     overflow: hidden;
     position: absolute;
-    left: 13%;
+    left: 16%;
     cursor: pointer
 }
 
@@ -576,14 +587,11 @@ footer .fsalon{
 }
 #s36logo img{
   display: inline-block;
-  width: 140px;
-  height: auto;
 }
 #compat img{
   display: inline-block;
   height: auto;
 margin: 0 2px;
-  width: 77%;
 }
 #ssalon img{
   display: inline-block;
@@ -686,7 +694,7 @@ div.border:before {
 
 .navbar-inverse .navbar-nav > li > a {
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
     border-right: 1px solid #000;
     border-left: 1px solid #3c3c3c;
     font-weight: 700;
@@ -859,6 +867,7 @@ padding: 20px 10px;
   font-weight: 700;
   font-size: 15px;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .breadcrumb-inner .sp-container .sp-desc{
@@ -1061,7 +1070,7 @@ padding: 20px 10px;
 #register-form {
     padding: 0;
 }
-
+/*
 .panel-heading {
     padding: 0;
     border-bottom: 1px solid transparent;
@@ -1131,6 +1140,17 @@ display: inline-block;
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 8px;
+}*/
+
+.breadcrumb-content .promo-body .live-game .promo-links {
+  bottom: 1px;
+  right: 1px;
+  position: absolute;
+  top: 75%;
+  left: 44%;
+}
+.breadcrumb-content .promo-body .live-game .promo-links a{
+display: inline-block;
 }
 
 #demo-form .demo-tab {
@@ -2190,16 +2210,21 @@ input[type=password]:hover {
 .back a {
     text-decoration: none;
 }
-
+.scrolltotop-m{
+  display: block;
+position: fixed;
+bottom: 179px;
+right: 1px;
+}
 .btn-top {
     /*background: #fba601;
     color: #fff;
     font-weight: 700;
     padding: 2px 10px;
     text-decoration: none;*/
-    display: block;
-    width: 40px;
-    height: 40px;
+    display: inline-block;
+    width: 44px;
+    height: 38px;
     background: url('../img/scrollup-btn.png');
     background-size: cover
 }
@@ -2262,13 +2287,9 @@ header .nathan-hamburger-hm-d {
 .mobile-button{
   position: absolute;
   right: -1px;
-  top: -4px;
+  top: -1px;
   padding: 20px;
-
-}
-
-.mobile-button-bg{
-  background: #161616;
+  bottom: -2px;
 }
 
 .mobile-button .fa{
@@ -2276,12 +2297,12 @@ header .nathan-hamburger-hm-d {
   font-size: 30px
 }
 
-#mobile-top-menu img{
-  margin: 15px 0 0
+.mobile-button-bg{
+  background: #161616
 }
 
-#mobile-top-menu{
-  background: #161616
+#mobile-top-menu img{
+  margin: 15px 0 0
 }
 
 .mobile-top-navbar{
@@ -2638,12 +2659,18 @@ select + i.fa {
 .selectpicker2{
   margin-left: 0;
   background: transparent;
-  /*border: 1px solid #4a4a4a;*/
-  border: none;
+  border: 1px solid #4a4a4a;
   border-radius: 4px;
   position: relative;
   color: #fff;
-  outline: 0
+  outline: 0;
+  font-size: 9px;
+}
+
+.selectpicker2 span{
+  font-size: 10px !important;
+  width: 1.3333em !important;
+  margin-right: 3px;
 }
 
 .selectpicker2:hover{
@@ -3265,7 +3292,7 @@ position: relative;
 }
 
 .swiper-slide a{
-  font-size: 12px;
+  font-size: 11px;
   color: #fff;
   font-weight: 700;
   border-right: 0.5px solid #000;
@@ -3347,7 +3374,7 @@ background: #383838;
   background: #535353;
 }
 .panel-heading .casino-tabs{
-  border-bottom: 1px solid #fba601 !important;
+  border-bottom: 0;
 }
 
 .panel-heading .casino-tabs li.active >a , .panel-heading .casino-tabs > li.active > a:focus, .panel-heading .casino-tabs > li.active > a:hover{
@@ -3379,12 +3406,9 @@ padding: 5px 44px !important;
 }
 .panel-heading .casino-tabs > li > a:hover,.panel-heading .casino-tabs > li > a:focus{
   color: #020202;
-cursor: default;
-background-color: #fba601;
-border: 1px solid #fba601;
-
-border-bottom-color: transparent;
-font-weight: 700;
+  cursor: default;
+  border-bottom-color: transparent;
+  font-weight: 700;
 }
 .cntry{
 
@@ -3625,9 +3649,14 @@ display: none !important;
   transition: top ease 0.5s;
   padding: 5px;
   z-index: 9;
+  max-width: 377px;
+  margin: 0 auto;
 }
 #b{
   min-height: 155px;
+}
+#c{
+  min-height: 175px;
 }
 /*#b::before{
   content: '';
@@ -4139,7 +4168,7 @@ padding: 15px;
   display: block;
 }
 .lang span, .gs span, .top-header-clock span{
-  color: #b3b3b3
+  color: #FFFFFF;
 }
 header .top-header ul li:nth-child(1){
   padding-right: 0;
@@ -4178,12 +4207,16 @@ header .top-header ul li:nth-child(1){
   display: block;
   position: relative;
 }
-
 .lang:hover > .drop, .gs:hover > .drop{
-
   display: block !important;
   position: absolute;
   z-index: 88888;
+}
+.lang-click{
+  display: block !important;
+  position: absolute;
+  z-index: 88888;
+  top: 125px !important
 }
 .language-picker{
   display: inline-block;
@@ -4390,7 +4423,6 @@ border-radius: 2px;
 }
 .modal-foot{
   display: inline-block;
-margin-top: 18px;
 }
 
 .desktop-support-title{
@@ -4419,7 +4451,7 @@ ol, ul {
   margin-left: -15px;
   margin-right: -15px;
   padding-bottom: 10px;
-  margin-top: -20px
+  margin-top: 5px;
 }
 #myModal .nav-tabs li{
   display: inline-block;
@@ -4642,27 +4674,8 @@ position: fixed;
 bottom: 149px;
 right: 160px;
 }
-.d-fsalon4{
-  width: 20%
-}
-.d-fsalon5{
-  width: 30%
-}
-.d-fsalon4{
-  margin-right: -25px !important
-}
-.d-fsalon5{
-  margin-right: -45px !important
-}
-.d-fsalon6, .d-fsalon6 img{
-  width: 40% !important;
-}
-.d-fsalon4 img{
-  width: 60%
-}
-.d-fsalon5 img{
-  width: 50%
-}
+
+
 .cta-accounts a{
   text-decoration: none;
   color: inherit;
@@ -4671,4 +4684,275 @@ right: 160px;
 .slots-info{
   position: absolute;
   bottom: -6px;
+}
+.gp-first a{
+  padding-bottom: 3px
+}
+.gp-g .col-md-4:nth-child(1) a{
+  padding-left: 5px;
+}
+.gp-g .col-md-4:nth-child(2) a{
+  padding-left: 10px;
+}
+.gp-g .col-md-4:nth-child(3) a{
+  padding-left: 11px;
+}
+.gp-g .col-md-4:nth-child(4) a{
+  padding-left: 3px;
+}
+.gp-g .col-md-4:nth-child(5) a{
+  padding-left: 12px;
+}
+.gp-g .col-md-4:nth-child(6) a{
+  padding-left: 11px;
+}
+#myModal .close{
+  position: absolute;
+  z-index: 999;
+  right: 10px;
+  top: 5px;
+}
+
+/* Default mode */
+.tab-panel-casino > .nav-tabs {
+  border: none;
+  margin: 0px;
+    text-align:center;
+}
+.tab-panel-casino > .nav-tabs > li {
+  margin-right: 2px;
+  float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+.tab-panel-casino > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #999999;
+}
+.tab-panel-casino > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tab-panel-casino > .nav-tabs > li.open, .tab-panel-casino > .nav-tabs > li:hover {
+  border-bottom: 4px solid #f6af26;
+}
+.tab-panel-casino > .nav-tabs > li.open > a, .tab-panel-casino > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #7E7E7E7E;
+}
+.tab-panel-casino > .nav-tabs > li.open > a > i, .tab-panel-casino > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tab-panel-casino > .nav-tabs > li.open .dropdown-menu, .tab-panel-casino > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tab-panel-casino > .nav-tabs > li.active {
+  border-bottom: 4px solid #fba601;
+  position: relative;
+}
+.tab-panel-casino > .nav-tabs > li.active > a {
+  border: 0;
+  color: #fba601;
+  background: transparent;
+}
+.tab-panel-casino > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+
+/* Below tabs mode */
+
+.tab-panel-casino.tabs-below > .nav-tabs > li {
+  border-top: 4px solid transparent;
+}
+.tab-panel-casino.tabs-below > .nav-tabs > li > a {
+  margin-top: 0;
+}
+.tab-panel-casino.tabs-below > .nav-tabs > li:hover {
+  border-bottom: 0;
+  border-top: 4px solid #fba601;
+}
+.tab-panel-casino.tabs-below > .nav-tabs > li.active {
+  margin-bottom: -2px;
+  border-bottom: 0;
+  border-top: 4px solid #fba601;
+}
+.tab-panel-casino.tabs-below > .tab-content {
+  margin-top: -10px;
+  border-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+.slots-tabs{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.slots-tabs li.active{
+  border-bottom: 4px solid #fba601 !important
+}
+.slots-tabs li.active a{
+  border: none !important
+}
+#drop3 .close{
+  position: relative;
+  right: -337px;
+  color: #FFF1D3;
+  opacity: 1
+}
+.selectpicker2 {
+  border: 1px solid #fba601;
+  color: #fba601;
+}
+.selectpicker2 > i{
+  color: #fba601!important;
+}
+
+.selectpicker2:hover {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.selectpicker2:hover > i{
+  color: #fff!important;
+}
+.slots-tabs li:hover, .slots-tabs li:focus{
+  border-bottom: 4px solid #fba601;
+}
+.nav-tabs.slots-tabs>li>a{
+  border: none !important
+}
+.slots-tabs li a:hover{
+  background: #2a2a2a;
+  color: #fba601 !important;
+  border: none !important;
+}
+.c-text{
+  color: #fff!important;
+}
+.mnav-bottom{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.mnav-bottom .swiper-slide a.m-top-header-clock img{
+  width: 21px !important;
+}
+<<<<<<< .mine
+.m-top-header-clock{
+  font-size: 12px!important;
+}
+.mnav-top, .swiper-container{
+  display: block;
+  width: 100% !important
+}
+.mnav-top .swiper-wrapper div:first-child{
+  border-left: none;
+}
+.mnav-top .swiper-slide{
+  width: 25%;
+}
+.mnav-top .swiper-slide a{
+  display: block;
+  width: 100%;
+  height: 37px;
+  border-right: none
+}
+.mnav-home{
+  background: url('../img/s36tw-mobile-home_09.png') no-repeat;
+  background-size: 22px 17px;
+  background-position: 30px 7px;
+}
+.mnav-register{
+  background: url('../img/s36tw-mobile-home_06.png') no-repeat;
+  background-size: 19px 19px;
+}
+.mnav-login{
+  background: url('../img/s36tw-mobile-home_03.png') no-repeat;
+  background-size: 18px 18px;
+}
+.mnav-demo{
+  background: url('../img/s36tw-mobile-home_12.png') no-repeat;
+  background-size: 20px 17px;
+  background-position: 26px 8px;
+}
+.mnav-demo .mnav-top-span{
+  position: relative;
+  right: -12px;
+  margin-left: -3px;
+}
+.mnav-profile{
+  background: url('../img/s36tw-mobile-home--LOGIN_08.png') no-repeat;
+  background-size: 20px 20px;
+}
+.mnav-wallet{
+  background: url('../img/s36tw-mobile-home--LOGIN_10.png') no-repeat;
+  background-size: 20px 19px;
+}
+.mnav-email{
+  background: url('../img/s36tw-mobile-home--LOGIN_05.png') no-repeat;
+  background-size: 20px 16px;
+}
+.mnav-logout{
+  background: url('../img/s36tw-mobile-home--LOGIN_13.png') no-repeat;
+  background-size: 20px 17px;
+  background-position: 17px 10px;
+}
+.mnav-home.active{
+  background: url('../img/s36tw-mobile-home-active_09.png') no-repeat;
+  background-size: 22px 17px;
+  background-position: 30px 7px;
+}
+.mnav-afterlogin, .mnav-top{
+  background: none
+}
+.nav-afterlogin-bg, .nav-main-bg{
+  background-size: 1px  50px;
+}
+.mnav-afterlogin .swiper-slide{
+  width: 20%;
+}
+.mnav-afterlogin .swiper-slide a, .mnav-top .swiper-slide a{
+  height: 53px;
+}
+.mnav-afterlogin .swiper-slide a span, .mnav-top .swiper-slide a span{
+  display: block;
+  margin-top: 20px
+}
+#myModal .modal-foot ul li:nth-child(1) a{
+  position: relative;
+}
+#myModal .modal-foot ul li:nth-child(2) a, #myModal .modal-foot ul li:nth-child(3) a, #myModal .modal-foot ul li:nth-child(4) a{
+  display: block;
+  width: 100%;
+}
+#myModal .modal-foot ul li:nth-child(2) a img, #myModal .modal-foot ul li:nth-child(3) a img, #myModal .modal-foot ul li:nth-child(4) img{
+  display: block;
+  width: 100%
+}
+#myModal .modal-bottom{
+  position: relative;
+}
+.main-mnav{
+  margin-bottom: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  background: #161616
+}
+.main-mnav .swiper-slide a{
+  border-right: none;
+}
+.main-mnav .swiper-slide:first-child{
+  border-left: none
+}
+.main-mnav .swiper-wrapper{
+  width: 80%;
+  margin: 0px auto;
+}
+.mnav-bottom .swiper-slide:last-child a{
+  border-right: none
+}
+.m-fsalon ul li:nth-child(4){
+  margin-left: -30px
+}
+.m-fsalon ul li:nth-child(6){
+  padding: 0 4px
 }

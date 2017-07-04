@@ -27,8 +27,14 @@ $(document).ready(function () {
      $('.sidebar-nav li').each(function() {
        $(this).removeClass('active');
      });
+     $('.promo-tabs li').each(function() {
+       $(this).removeClass('active');
+     });
      $('.tab-content div').each(function() {
        $(this).removeClass('active');
+     });
+     $('.promo-section .breadcrumb li a[href="promotion.html"]').attr('href', function(i, href) {
+       return href + hash;
      });
 
      var link = "";
@@ -282,12 +288,10 @@ $(document).ready(function () {
     });
 
     $('.lang').hover(function() {
-      $(this).css('border-color', '#fba601');
       $('.lang .top-header-loc span, .lang .top-header-web span').css('color', '#fba601');
       $('.top-header-loc img').attr('src', 'assets/img/header/location-b.png');
       $('.top-header-web img').attr('src', 'assets/img/header/web-b.png');
     }, function() {
-      $(this).css('border-color', 'transparent');
       $('.lang .top-header-loc span, .lang .top-header-web span').css('color', '#b3b3b3');
       $('.top-header-loc img').attr('src', 'assets/img/header/location.png');
       $('.top-header-web img').attr('src', 'assets/img/header/web.png');
@@ -386,6 +390,40 @@ $(document).ready(function () {
     $('.banner-overlay button').click(function() {
       $('.banner-overlay').slideUp();
     })
+
+    $('.selectpicker2').click(function() {
+      $('#drop').toggleClass('lang-click');
+    });
+
+    $('#drop3 .close').click(function() {
+      $('#drop3').removeClass('lang-click');
+    });
+
+    $('#cta-contact').hover(function() {
+      $(this).attr('src', 'assets/img/contact hover.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/cta-contact.png');
+    })
+
+    $('.btn-top').hover(function() {
+      $(this).css('background', 'url(assets/img/arrow-up-hover.png)');
+    }, function() {
+      $(this).css('background', 'url(assets/img/scrollup-btn.png)');
+    });
+
+    $('.mnav-login').click(function() {
+      $('#myModal').modal('show');
+    });
+
+    $('.mnav-demo').click(function() {
+      $('#demoModal').modal('show');
+    });
+
+    $('.mnav-register').click(function() {
+      $('#myModal').modal('show');
+      $('a[href="#myModalTab1-2"').tab('show');
+    });
+
 });
 
 function nextTab(elem) {
@@ -453,7 +491,6 @@ $(function() {
 
     $('#mobile-button').click(function() {
       $('i', this).toggleClass('fa-caret-up fa-caret-down');
-      $(this).closest('div').toggleClass('mobile-button-bg');
     });
     $('.asd').click(function() {
       $(this).toggleClass('kulaymalupet');
@@ -493,6 +530,14 @@ $(function() {
 
     $('#gs-body').on('show.bs.collapse', function () {
       $('.mobile-top-menu-close').addClass('mobile-top-menu-close-toggle');
+    });
+
+    $('#mobile-top-menu').on('show.bs.collapse', function() {
+      $('.mobile-button').addClass('mobile-button-bg');
+    });
+
+    $('#mobile-top-menu').on('hide.bs.collapse', function() {
+      $('.mobile-button').removeClass('mobile-button-bg');
     });
 
     $('#gs-body').on('hidden.bs.collapse', function () {
