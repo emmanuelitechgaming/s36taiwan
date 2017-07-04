@@ -2287,7 +2287,7 @@ header .nathan-hamburger-hm-d {
   right: -1px;
   top: -1px;
   padding: 20px;
-  bottom: -2px;
+  padding-bottom: 10px;
 }
 
 .mobile-button .fa{
