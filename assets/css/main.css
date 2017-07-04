@@ -4809,13 +4809,6 @@ right: 160px;
   color: #fba601!important;
 }
 
-.selectpicker2:hover {
-  border: 1px solid #fff;
-  color: #fff;
-}
-.selectpicker2:hover > i{
-  color: #fff!important;
-}
 .slots-tabs li:hover, .slots-tabs li:focus{
   border-bottom: 4px solid #fba601;
 }
@@ -4991,4 +4984,11 @@ right: 160px;
   position: absolute;
 bottom: 56px;
 right: 543px;
+}
+@font-face {
+    font-family: "5by7";
+    src: url("../../dist/fonts/5by7.ttf");
+}
+#myTargetElement{
+  font-family: "5by7";
 }
