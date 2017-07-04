@@ -250,11 +250,12 @@
         width: 100%;
     }
     .selectpicker2 {
-      padding: 3px 5px;
-      padding-bottom: 5px;
+      padding: 1px 3px;
+      padding-bottom: 4px;
       top: 24px;
-      left: -40px;
-      font-size: 8px;
+      left: -34px;
+      font-size: 11px;
+      letter-spacing: 0.5px;
     }
     .selectpicker2 .fa {
         margin-left: 5px
@@ -537,11 +538,6 @@
       bottom: -37px;
       margin: 0 1px;
     }
-    .margin-media img {
-      margin-top: -54px;
-      margin-right: -3px;
-      width: 80%;
-    }
     .slots-info{
       right: 24%;
     }
@@ -602,9 +598,12 @@
     .mnav-bottom .swiper-slide:nth-child(2), .mnav-bottom .swiper-slide:nth-child(3){
       width: 29%
     }
-    .casino-media img {
-       margin-top: -55px;
-       margin-right: 5px;
+    .nav-main-bg{
+      background: #2a2a2a;
+    }
+    .casino-media{
+      position: relative;
+      top: -58px;
     }
 }
 
@@ -625,9 +624,6 @@
     }
     .m-selectpicker2-menu{
       top: -285px !important;
-    }
-    .margin-media img {
-      margin-top: -57px;
     }
     .mnav-top .mnav-home, .mnav-top .mnav-home.active{
       background-position: 29px 7px;
@@ -657,7 +653,7 @@
       background-position: 19px 11px;
     }
     .selectpicker2{
-      left: -61px;
+      left: -54px;
     }
 }
 
@@ -702,7 +698,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -87px;
+        left: -63px;
     }
     .swiper-container {
         width: 305px;
@@ -777,10 +773,6 @@
     }
     .rss-field .form-group:nth-child(2) {
       width: 57%;
-    }
-    .margin-media img {
-      margin-top: -57px;
-      margin-right: 5px;
     }
     .mnav-bottom .swiper-container{
       width: 388px;
@@ -889,7 +881,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -87px;
+        left: -81px;
     }
     .swiper-container {
         width: 345px;
@@ -953,9 +945,6 @@
     }
     .rss-field .form-group:nth-child(2) {
       width: 61%;
-    }
-    .margin-media img {
-      margin-top: -60px;
     }
     .mnav-bottom .swiper-container{
       width: 427px;
@@ -1126,11 +1115,6 @@
     .fa-dsktp {
       margin-top: 5px;
     }
-    .margin-media img {
-      margin-top: -42px;
-      margin-right: 63px;
-      width: auto;
-    }
     .slots-info{
       right: 30%;
       top: 2px;
@@ -1166,10 +1150,6 @@
         top: 18px;
         left: -208px;
         font-size: 11px;
-    }
-    .margin-media img {
-      margin-right: 100px;
-
     }
 }
 
@@ -1242,9 +1222,6 @@
     .lp-collapse-toggle {
       margin-right: -545px;
     }
-    .margin-media img {
-      margin-right: 115px;
-    }
     .mnav-bottom .swiper-container{
       width: 680px;
     }
@@ -1310,10 +1287,6 @@
     }
     .lp-collapse-toggle {
       margin-right: -615px;
-    }
-    .margin-media img {
-      margin-top: -40px;
-      margin-right: 147px;
     }
     .mnav-bottom .swiper-container{
       width: 749px;
@@ -1710,10 +1683,6 @@
       bottom: -35px;
       margin: 0 25px;
     }
-    .margin-media img {
-      margin-top: -60px;
-      width: 100%;
-    }
     .slots-info{
       right: 118px;
     }
@@ -1743,11 +1712,19 @@
     #myModal .modal-foot ul li:nth-child(1) a{
       top: -17px;
     }
-    .casino-media img {
-       margin-top: -48px;
+    .nav-bg {
+        background: url('../img/bg-nav.png');
+        background-repeat: repeat-x;
+    }
+    .casino-media{
+      position: relative;
+      top: -50px;
+    }
+    .slots-media{
+      position: relative;
+      top: -58px;
     }
 }
-
 
 /* Large Devices, Wide Screens */
 
