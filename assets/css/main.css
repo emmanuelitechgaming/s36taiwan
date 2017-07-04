@@ -4987,3 +4987,8 @@ right: 160px;
   margin-top: 3px;
   font-size: 11px
 }
+.bs-slider-overlay{
+  position: absolute;
+bottom: 56px;
+right: 543px;
+}
