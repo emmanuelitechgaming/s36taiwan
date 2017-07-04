@@ -8,6 +8,9 @@ body {
     background: #2a2a2a;
     color: #acacac;
 }
+.navbar-inverse{
+  background-color: #2a2a2a
+}
 header{
   background: url('../img/casino-bg.png');
 
@@ -680,11 +683,6 @@ div.border:before {
 
 .navbar .nav-active i {
     color: #fba601;
-}
-
-.nav-bg {
-    background: url('../img/bg-nav.png');
-    background-repeat: repeat-x;
 }
 
 .navbar-inverse .navbar-nav > li > a:first-child {
@@ -2671,6 +2669,8 @@ select + i.fa {
   font-size: 10px !important;
   width: 1.3333em !important;
   margin-right: 3px;
+  position: relative;
+  top: 1px
 }
 
 .selectpicker2:hover{
@@ -3239,9 +3239,10 @@ position: relative;
   border-radius: 4px
 }
 
-.mnav{
+.mnav-bottom{
   background: url('../img/bg-nav.png') repeat-x;
-  margin-bottom: -5px
+  background-position: 1px 102%;
+  border-top: 1px solid #222
 }
 
 .mnav a{
@@ -4955,4 +4956,27 @@ right: 160px;
 }
 .m-fsalon ul li:nth-child(6){
   padding: 0 4px
+}
+.mnav-top ul{
+  display: block;
+  position: relative;
+  bottom: -3px
+}
+.mnav-top ul li{
+  width: 25%;
+  text-align: center;
+}
+.mnav-top ul li a{
+  display: block;
+}
+.mnav-top ul li a img{
+  display: block;
+  margin: 0px auto;
+  width: 30%;
+  height: 20px;
+}
+.mnav-top ul li a span{
+  display: block;
+  margin-top: 3px;
+  font-size: 11px
 }
