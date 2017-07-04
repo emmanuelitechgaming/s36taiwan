@@ -871,6 +871,9 @@
     .cl2 {
       left: 223px;
     }
+    .selectpicker2 {
+      left: -80px;
+    }
 }
 
 @media only screen and (min-width: 414px) {
