@@ -607,10 +607,6 @@
         width: 75px !important;
         margin-left: -140px !important;
     }
-    .panel-login {
-
-
-    }
     .cta-seemore {
         bottom: 95px;
         right: 10px;
@@ -653,6 +649,9 @@
     }
     .mnav-email{
       background-position: 19px 11px;
+    }
+    .selectpicker2{
+      left: -61px;
     }
 }
 
@@ -697,7 +696,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -67px;
+        left: -87px;
     }
     .swiper-container {
         width: 305px;
