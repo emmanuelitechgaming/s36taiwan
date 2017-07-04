@@ -171,9 +171,21 @@ main .mobile-banner{
   background: #000;
 text-align: center;
 margin: 0 auto;
-
 }
-
+.mobile-banner-wrapper{
+  position: relative;
+}
+.mobile-banner-wrapper a{
+  display: block;
+  position: absolute;
+  bottom: 12%;
+  left: 0;
+  right: 0;
+}
+.mobile-banner-wrapper a img{
+  margin: 0px auto;
+  max-width: 15%
+}
 main .carousel {
     background: #2A2A2A;
 }
@@ -4463,6 +4475,7 @@ ol, ul {
 }
 #myModal .nav-tabs li a{
   color: #fff;
+  cursor: default;
 }
 #myModal .nav-tabs li span{
   display: block;
@@ -4830,7 +4843,6 @@ right: 160px;
 .mnav-bottom .swiper-slide a.m-top-header-clock img{
   width: 21px !important;
 }
-<<<<<<< .mine
 .m-top-header-clock{
   font-size: 12px!important;
 }
@@ -4984,6 +4996,14 @@ right: 160px;
   position: absolute;
 bottom: 56px;
 right: 543px;
+}
+
+#myModal .nav-tabs li span img{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  left: 3px;
+  top: 3px;
 }
 @font-face {
     font-family: "5by7";
