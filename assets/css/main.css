@@ -4928,6 +4928,12 @@ right: 160px;
 .mnav-afterlogin ul li:nth-child(4) a{
   position: relative;
 }
+.mnav-afterlogin ul li:nth-child(4) a img{
+  height: 14px;
+  margin-bottom: 5px;
+  position: relative;
+  top: 2px;
+}
 .mnav-afterlogin ul li:nth-child(4) a .notif{
   position: absolute;
   background: red;
