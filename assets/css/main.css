@@ -4922,6 +4922,21 @@ right: 160px;
   display: block;
   margin-top: 20px
 }
+.mnav-afterlogin ul li:nth-child(2) span, .mnav-afterlogin ul li:nth-child(3) span{
+  color: #fba601
+}
+.mnav-afterlogin ul li:nth-child(4) a{
+  position: relative;
+}
+.mnav-afterlogin ul li:nth-child(4) a .notif{
+  position: absolute;
+  background: red;
+  padding: 1px 5px;
+  border-radius: 50%;
+  top: -30%;
+  right: 20%;
+  font-size: 9px;
+}
 #myModal .modal-foot ul li:nth-child(1) a{
   position: relative;
 }
