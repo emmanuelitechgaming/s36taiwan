@@ -411,15 +411,16 @@ $(document).ready(function () {
       $(this).css('background', 'url(assets/img/scrollup-btn.png)');
     });
 
-    $('.mnav-login').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_03.png"]').click(function() {
       $('#myModal').modal('show');
     });
 
-    $('.mnav-demo').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_12.png"]').click(function() {
       $('#demoModal').modal('show');
+      $('a[href="#myModalTab1-1"').tab('show');
     });
 
-    $('.mnav-register').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_06.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-2"').tab('show');
     });

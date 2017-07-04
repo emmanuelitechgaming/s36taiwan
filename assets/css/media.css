@@ -519,6 +519,10 @@
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 95%;
+      height: 40px
+    }
+    .m-fsalon ul li:nth-child(3) img{
+      height: 40px
     }
     .m-fsalon ul li:nth-child(4) img{
       width: 82%;
