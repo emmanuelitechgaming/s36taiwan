@@ -519,13 +519,17 @@
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 95%;
-      height: 45px
+      height: 50px
     }
     .m-fsalon ul li:nth-child(3) img{
-      height: 40px
+      height: 50px
     }
-    .m-fsalon ul li:nth-child(4) img{
+    /*.m-fsalon ul li:nth-child(4) img{
       width: 82%;
+    }*/
+    .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img{
+      width: 95%;
+      height: 50px;
     }
     .footer-shareit ul li{
       width: 50%;
@@ -609,6 +613,14 @@
       position: relative;
       top: -58px;
     }
+    .m-top-header-clock{
+      font-size: 10px!important;
+    }
+    .wallet-reminder{
+      margin-left: 0px;
+      white-space: inherit;
+      width: auto;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -660,6 +672,7 @@
       left: -54px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
+      width: 90%;
       height: 50px
     }
     #myModal .nav-tabs li.connecting-line {
@@ -670,6 +683,15 @@
     }
     .cl2 {
       left: 196px;
+    }
+    .rss-field .form-group:nth-child(1) input{
+      width: 100% !important
+    }
+    .rss-field .form-group:nth-child(2){
+      width: 54.5%
+    }
+    .m-top-header-clock{
+      font-size: 11px!important;
     }
 }
 
@@ -825,7 +847,8 @@
       background-position: 23px 11px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      height: 55px
+      width: 85%;
+      height: 50px
     }
 
 }
@@ -873,6 +896,9 @@
     }
     .selectpicker2 {
       left: -80px;
+    }
+    .rss-field .form-group:nth-child(2){
+      width: 61.5%
     }
 }
 
@@ -972,7 +998,7 @@
       left: 224px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      width: 95%;
+      width: 75%;
     }
     .rss-field .form-group:nth-child(2) {
       width: 61%;
@@ -1009,7 +1035,10 @@
       background-position: 28px 11px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img {
-      height: 60px;
+      height: 50px;
+    }
+    .m-top-header-clock{
+      font-size: 12px!important;
     }
 }
 
@@ -1757,6 +1786,14 @@
     .slots-media{
       position: relative;
       top: -58px;
+    }
+    .m-top-header-clock{
+      font-size: 12px!important;
+    }
+    .wallet-reminder{
+      margin-left: 20px;
+      white-space: nowrap;
+      width: 700px;
     }
 }
 
