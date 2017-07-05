@@ -860,8 +860,10 @@
 
   </header>
   <main>
-
-      <img src="assets/img/banner/1m.jpg" class="img-responsive index-img-banner hidden-lg hidden-md" alt="">
+    <div class="mobile-banner-wrapper hidden-lg hidden-md">
+      <img src="assets/img/banner/mobile-banner.png" class="img-responsive index-img-banner" alt="">
+      <a href="promotion.html"><img src="assets/img/banner/btn.png" class="img-responsive" alt=""></a>
+    </div>
 
       <div class="clearfix">
 
@@ -872,13 +874,20 @@
           <div class="notice-mobile hidden-lg hidden-md">
 
               <div class="marquee marquee-mobile" data-toggle="modal" data-target="#noticeModal">
-                <a href="#">南北獅王 舞動錢程 HTML5 版本現已推出</a>
-                <a href="#">真人老虎機系列：拍攝花絮</a>
-                <a href="#">傳奇海盜 稱霸一方《張保仔》老虎机游戏全新上线</a>
-                <a href="#">「真」有其「人」！ 沙龍平台推出真人老虎機系列</a>
-                <a href="#">熱滿老虎機遊戲《幸運金鑽》 - 鑽出源源寶物來</a>
+                  <a href="#">南北獅王 舞動錢程 HTML5 版本現已推出</a>
+                  <a href="#">真人老虎機系列：拍攝花絮</a>
+                  <a href="#">傳奇海盜 稱霸一方《張保仔》老虎机游戏全新上线</a>
+                  <a href="#">「真」有其「人」！ 沙龍平台推出真人老虎機系列</a>
+                  <a href="#">熱滿老虎機遊戲《幸運金鑽》 - 鑽出源源寶物來</a>
               </div>
               <img src="assets/img/jackpot/notice-bg.png" class="img-responsive" alt="">
+          </div>
+
+          <div class="jacpot-nus-mobile hidden-lg hidden-md">
+              <div class="jacpot-nus">
+                  <img src="assets/img/jackpot/jackpot-m.png" class="img-responsive" alt="">
+                  <!-- <div class="jumbo" id="myTargetElement">0</div> -->
+              </div>
           </div>
 
       </div>
@@ -900,14 +909,20 @@
                   <!-- Third Slide -->
                   <div class="item active">
                       <!-- Slide Background -->
-                      <img src="assets/img/banner/1.jpg" alt="沙龍會博彩網站" class="slide-image" />
-                      <div class="bs-slider-overlay"></div>
+                      <img src="assets/img/banner/1.jpg" alt="沙龍會博彩網站" title="沙龍會博彩網站" class="slide-image" />
+                      <div class="bs-slider-overlay">
+                          <a href="promotion.html"><img src="assets/img/banner/btn.png" alt=""></a>
+                      </div>
                   </div>
                   <!-- Second Slide -->
               </div>
               <!-- End of Wrapper For Slides -->
           </div>
           <!-- End  bootstrap-touch-slider Slider -->
+          <!-- <div class="banner-overlay hidden-sm hidden-xs">
+            <button type="button" class="close">×</button>
+            <img src="assets/img/index/overlay.png" alt="">
+          </div> -->
       </div>
       <!-- /carousel -->
 
@@ -916,11 +931,11 @@
               <div class="col-md-6">
                   <div class="notice">
                       <div class="marquee" data-toggle="modal" data-target="#noticeModal">
-                        <a href="#">南北獅王 舞動錢程 HTML5 版本現已推出</a>
-                        <a href="#">真人老虎機系列：拍攝花絮</a>
-                        <a href="#">傳奇海盜 稱霸一方《張保仔》老虎机游戏全新上线</a>
-                        <a href="#">「真」有其「人」！ 沙龍平台推出真人老虎機系列</a>
-                        <a href="#">熱滿老虎機遊戲《幸運金鑽》 - 鑽出源源寶物來</a>
+                          <a href="#">南北獅王 舞動錢程 HTML5 版本現已推出</a>
+                          <a href="#">真人老虎機系列：拍攝花絮</a>
+                          <a href="#">傳奇海盜 稱霸一方《張保仔》老虎机游戏全新上线</a>
+                          <a href="#">「真」有其「人」！ 沙龍平台推出真人老虎機系列</a>
+                          <a href="#">熱滿老虎機遊戲《幸運金鑽》 - 鑽出源源寶物來</a>
 
                       </div>
                       <img src="assets/img/index/notice.png" class="img-responsive" alt="">
@@ -944,7 +959,7 @@
               <div class="live-game">
                   <img src="assets/img/index/live games.png" class="img-responsive" alt="真人娛樂場" title="真人娛樂場">
                   <a href="promotion.html#tab2" class="img-responsive cta-seemore"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
-                  <a href="#" class="lg-playnow">立即遊戲</a>
+                  <a href="#" data-toggle="modal" data-target="#myModal" class="lg-playnow">立即遊戲</a>
               </div>
           </div>
 
@@ -952,7 +967,7 @@
               <div class="live-game">
                   <img src="assets/img/index/slot machine.png" class="img-responsive" alt="角子老虎機" title="角子老虎機">
                   <a href="promotion.html#tab5" class="img-responsive cta-seemore"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
-                  <a href="#" class="lg-playnow">立即遊戲</a>
+                  <a href="#" data-toggle="modal" data-target="#myModal" class="lg-playnow">立即遊戲</a>
               </div>
           </div>
 
@@ -960,7 +975,7 @@
               <div class="live-game">
                   <img src="assets/img/index/fish.png" class="img-responsive" alt="沙龍會彩票" title="沙龍會彩票">
                   <a href="promotion.html#tab7" class="img-responsive cta-seemore"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
-                  <a href="#" class="lg-playnow">立即遊戲</a>
+                  <a href="#" data-toggle="modal" data-target="#myModal" class="lg-playnow">立即遊戲</a>
               </div>
           </div>
 
@@ -977,13 +992,19 @@
 
                   <div class="col-md-6 col-xs-6">
                       <div class="live-game">
-                          <img src="assets/img/slots/1.png" class="img-responsive" alt="沙龍會博彩網站">
+
+                          <img src="assets/img/index/beckoning-girl.png" class="img-responsive" alt="沙龍會博彩網站" title="沙龍會博彩網站">
+                          <div class="live-game-txtb"><a href="#">幸運喵星人</a></div>
+
                       </div>
                   </div>
 
                   <div class="col-md-6 col-xs-6">
                       <div class="live-game">
-                          <img src="assets/img/slots/2.png" class="img-responsive" alt="真人娛樂場">
+
+                          <img src="assets/img/index/angel&demon.png" class="img-responsive" alt="真人娛樂場" title="真人娛樂場">
+                          <div class="live-game-txtb"><a href="#">魔鬼天使</a></div>
+
                       </div>
                   </div>
 
@@ -991,14 +1012,22 @@
               <div class="gp-d row">
 
                   <div class="col-md-6 col-xs-6">
+
                       <div class="live-game">
-                          <img src="assets/img/slots/3.png" class="img-responsive" alt="沙龍會彩票">
+
+                          <div class="live-game frut-popper">
+                              <img src="assets/img/index/frut-popper.png" class="img-responsive" alt="沙龍會彩票" title="沙龍會彩票">
+                              <div class="live-game-txtb"><a href="#">脆爆水果</a></div>
+
+                          </div>
                       </div>
                   </div>
-
                   <div class="col-md-6 col-xs-6">
-                      <div class="live-game">
-                          <img src="assets/img/slots/4.png" class="img-responsive" alt="角子老虎機">
+
+                      <div class="live-game jigong">
+                          <img src="assets/img/index/jigong.png" class="img-responsive" alt="角子老虎機" title="角子老虎機">
+                          <div class="live-game-txtb"><a href="#">濟公</a></div>
+
                       </div>
                   </div>
 
@@ -1012,35 +1041,62 @@
               </div>
               <div class="gp-g row">
                   <div class="col-md-4 col-xs-6">
-                      <div class="live-games"><img src="assets/img/promo/1.png" class="img-responsive" alt="真人百家樂"></div>
-                  </div>
-                  <div class="col-md-4 col-xs-6">
-                      <div class="live-games"><img src="assets/img/promo/2.png" class="img-responsive" alt="真人21點"></div>
-                  </div>
-                  <div class="col-md-4 col-xs-6">
-                      <div class="live-games"><img src="assets/img/promo/3.png" class="img-responsive" alt="真人龍虎"></div>
-                  </div>
-                  <div class="col-md-4 col-xs-6">
-                      <div class="live-games"><img src="assets/img/promo/4.png" class="img-responsive" alt="真人輪盤"></div>
-                  </div>
-                  <div class="col-md-4 col-xs-6">
-                      <div class="live-games"><img src="assets/img/promo/5.png" class="img-responsive" alt="真人骰寶"></div>
-                  </div>
-                  <div class="col-md-4 col-xs-6">
-                      <div class="live-games"><img src="assets/img/promo/6.png" class="img-responsive" alt="真人番攤"></div>
-                  </div>
-              </div>
 
-              <div class="gp-g row">
+                      <div class="live-games">
+                          <img src="assets/img/index/baccarat.png" class="img-responsive" alt="真人百家樂" title="真人百家樂">
+                          <div class="live-game-txtc"><a href="#">百家樂</a></div>
+                      </div>
 
+                  </div>
+                  <div class="col-md-4 col-xs-6">
+
+                      <div class="live-games">
+                          <img src="assets/img/index/blackjack.png" class="img-responsive" alt="真人21點" title="真人21點">
+                          <div class="live-game-txtc"><a href="#">21點</a></div>
+                      </div>
+
+                  </div>
+                  <div class="col-md-4 col-xs-6">
+
+                      <div class="live-games">
+                          <img src="assets/img/index/dragon&tiger.png" class="img-responsive" alt="真人龍虎" title="真人龍虎">
+                          <div class="live-game-txtc"><a href="#">龍虎</a></div>
+                      </div>
+
+                  </div>
+                  <div class="col-md-4 col-xs-6">
+
+                      <div class="live-games i-roulette">
+                          <img src="assets/img/index/roulette.png" class="img-responsive" alt="真人輪盤" title="真人輪盤">
+                          <div class="live-game-txtc"><a href="#">輪盤</a></div>
+                      </div>
+
+                  </div>
+                  <div class="col-md-4 col-xs-6">
+
+                      <div class="live-games i-fantan">
+                          <img src="assets/img/index/fantan.png" class="img-responsive" alt="真人骰寶" title="真人骰寶">
+                          <div class="live-game-txtc"><a href="#">番攤</a></div>
+                      </div>
+
+                  </div>
+                  <div class="col-md-4 col-xs-6">
+
+                      <div class="live-games i-sicbo">
+                          <img src="assets/img/index/sicbo.png" class="img-responsive" alt="真人番攤" title="真人番攤">
+                          <div class="live-game-txtc"><a href="#">骰寶</a></div>
+                      </div>
+
+                  </div>
               </div>
 
           </div>
 
       </div>
-      <div class="container">
-          <div class="border borderstyle"></div>
+      <div class=" container">
+          <div class="border borderstyler"></div>
       </div>
+
       <div class="winner  container">
 
           <div class="col-md-4 col-xs-12">
@@ -1153,7 +1209,7 @@
           <div class="col-md-4 col-xs-12">
               <div class="winner-cont">
                   <div class="contact-title">
-                    聯繫我們
+                      聯繫我們
                       <a href="helpcenter.html#tab2" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
                   </div>
                   <div class="contactus">
