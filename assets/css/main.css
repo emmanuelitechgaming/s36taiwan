@@ -5027,3 +5027,8 @@ right: 543px;
 #myTargetElement{
   font-family: "5by7";
 }
+.jackpot-nus-img{
+  display: block;
+  height: auto;
+  width: 102.4%
+}
