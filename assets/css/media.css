@@ -621,6 +621,9 @@
       white-space: inherit;
       width: auto;
     }
+    .marquee-mobile {
+        top: -10% !important;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -692,6 +695,9 @@
     }
     .m-top-header-clock{
       font-size: 11px!important;
+    }
+    .marquee-mobile {
+      top: -6% !important;
     }
 }
 
@@ -1039,6 +1045,9 @@
     }
     .m-top-header-clock{
       font-size: 12px!important;
+    }
+    .marquee-mobile {
+      top: -3% !important;
     }
 }
 
