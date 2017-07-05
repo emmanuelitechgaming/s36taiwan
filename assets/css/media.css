@@ -620,11 +620,11 @@
       top: 10% !important;
     }
     .jumbo{
-      top: 16px;
-      left: 75px;
-      font-size: 13px;
+      top: 15px;
+      left: 78px;
+      font-size: 15px;
       color: #FBA601;
-      letter-spacing: 7px;
+      letter-spacing: 5px;
     }
 }
 
@@ -705,10 +705,10 @@
       top: 16% !important;
     }
     .jumbo {
-      top: 19px;
+      top: 17px;
       left: 86px;
-      letter-spacing: 8px;
-      font-size: 14px;
+      letter-spacing: 6px;
+      font-size: 17px;
     }
 }
 
@@ -868,9 +868,10 @@
       height: 50px
     }
     .jumbo {
-      top: 20px;
+      top: 17px;
       left: 90px;
-      letter-spacing: 9px;
+      letter-spacing: 6px;
+      font-size: 18px;
     }
 }
 
@@ -922,10 +923,10 @@
       width: 61.5%
     }
     .jumbo {
-      top: 21px;
+      top: 19px;
       left: 98px;
-      letter-spacing: 8px;
-      font-size: 16px;
+      letter-spacing: 7px;
+      font-size: 19px;
     }
 }
 
@@ -1074,10 +1075,10 @@
       top: 21% !important;
     }
     .jumbo {
-      top: 21px;
-      left: 100px;
-      letter-spacing: 8px;
-      font-size: 17px;
+      top: 20px;
+      left: 99px;
+      letter-spacing: 7px;
+      font-size: 19px;
     }
 }
 
