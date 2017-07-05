@@ -411,17 +411,28 @@ $(document).ready(function () {
       $(this).css('background', 'url(assets/img/scrollup-btn.png)');
     });
 
-    $('.mnav-login').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_03.png"]').click(function() {
       $('#myModal').modal('show');
     });
 
-    $('.mnav-demo').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_12.png"]').click(function() {
       $('#demoModal').modal('show');
+      $('a[href="#myModalTab1-1"').tab('show');
     });
 
-    $('.mnav-register').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_06.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-2"').tab('show');
+    });
+
+    $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function() {
+      $('#myModal2b_registration').css('display', 'block');
+      $('#myModal2b_login').css('display', 'none');
+    });
+
+    $('a[href="#myModalTab1-1"]').on('shown.bs.tab', function() {
+      $('#myModal2b_registration').css('display', 'none');
+      $('#myModal2b_login').css('display', 'block');
     });
 
 });

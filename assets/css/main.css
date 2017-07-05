@@ -8,6 +8,9 @@ body {
     background: #2a2a2a;
     color: #acacac;
 }
+.navbar-inverse{
+  background-color: #2a2a2a
+}
 header{
   background: url('../img/casino-bg.png');
 
@@ -168,9 +171,21 @@ main .mobile-banner{
   background: #000;
 text-align: center;
 margin: 0 auto;
-
 }
-
+.mobile-banner-wrapper{
+  position: relative;
+}
+.mobile-banner-wrapper a{
+  display: block;
+  position: absolute;
+  bottom: 12%;
+  left: 0;
+  right: 0;
+}
+.mobile-banner-wrapper a img{
+  margin: 0px auto;
+  max-width: 15%
+}
 main .carousel {
     background: #2A2A2A;
 }
@@ -680,11 +695,6 @@ div.border:before {
 
 .navbar .nav-active i {
     color: #fba601;
-}
-
-.nav-bg {
-    background: url('../img/bg-nav.png');
-    background-repeat: repeat-x;
 }
 
 .navbar-inverse .navbar-nav > li > a:first-child {
@@ -2289,7 +2299,7 @@ header .nathan-hamburger-hm-d {
   right: -1px;
   top: -1px;
   padding: 20px;
-  bottom: -2px;
+  padding-bottom: 10px;
 }
 
 .mobile-button .fa{
@@ -2671,6 +2681,8 @@ select + i.fa {
   font-size: 10px !important;
   width: 1.3333em !important;
   margin-right: 3px;
+  position: relative;
+  top: 1px
 }
 
 .selectpicker2:hover{
@@ -3239,9 +3251,9 @@ position: relative;
   border-radius: 4px
 }
 
-.mnav{
+.mnav-bottom{
   background: url('../img/bg-nav.png') repeat-x;
-  margin-bottom: -5px
+  background-position: 1px 102%;
 }
 
 .mnav a{
@@ -4462,6 +4474,7 @@ ol, ul {
 }
 #myModal .nav-tabs li a{
   color: #fff;
+  cursor: default;
 }
 #myModal .nav-tabs li span{
   display: block;
@@ -4569,7 +4582,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 }
 .m-fsalon ul li:nth-child(3){
   display: block;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 .m-fsalon ul li:nth-child(3) span{
   position: relative;
@@ -4579,8 +4592,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   display: block
 }
 .m-fsalon ul li:nth-child(4), .m-fsalon ul li:nth-child(5){
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .promo-tabs{
   padding: 0 25px;
@@ -4808,13 +4821,6 @@ right: 160px;
   color: #fba601!important;
 }
 
-.selectpicker2:hover {
-  border: 1px solid #fff;
-  color: #fff;
-}
-.selectpicker2:hover > i{
-  color: #fff!important;
-}
 .slots-tabs li:hover, .slots-tabs li:focus{
   border-bottom: 4px solid #fba601;
 }
@@ -4836,7 +4842,6 @@ right: 160px;
 .mnav-bottom .swiper-slide a.m-top-header-clock img{
   width: 21px !important;
 }
-<<<<<<< .mine
 .m-top-header-clock{
   font-size: 12px!important;
 }
@@ -4917,6 +4922,27 @@ right: 160px;
   display: block;
   margin-top: 20px
 }
+.mnav-afterlogin ul li:nth-child(2) span, .mnav-afterlogin ul li:nth-child(3) span{
+  color: #fba601
+}
+.mnav-afterlogin ul li:nth-child(4) a{
+  position: relative;
+}
+.mnav-afterlogin ul li:nth-child(4) a img{
+  height: 14px;
+  margin-bottom: 5px;
+  position: relative;
+  top: 2px;
+}
+.mnav-afterlogin ul li:nth-child(4) a .notif{
+  position: absolute;
+  background: red;
+  padding: 1px 5px;
+  border-radius: 50%;
+  top: -30%;
+  right: 20%;
+  font-size: 9px;
+}
 #myModal .modal-foot ul li:nth-child(1) a{
   position: relative;
 }
@@ -4955,4 +4981,54 @@ right: 160px;
 }
 .m-fsalon ul li:nth-child(6){
   padding: 0 4px
+}
+.mnav-top ul{
+  display: block;
+  position: relative;
+  bottom: -3px
+}
+.mnav-top ul li{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+.mnav-afterlogin ul li{
+  width: 20%;
+}
+.mnav-top ul li a{
+  display: block;
+}
+.mnav-top ul li a img{
+  display: block;
+  margin: 0px auto;
+  max-width: 30%;
+  height: 20px;
+}
+.mnav-afterlogin ul li a img{
+  height: 17px;
+}
+.mnav-top ul li a span{
+  display: block;
+  margin-top: 3px;
+  font-size: 11px
+}
+.bs-slider-overlay{
+  position: absolute;
+bottom: 56px;
+right: 543px;
+}
+
+#myModal .nav-tabs li span img{
+  width: 15px;
+  height: 15px;
+  position: relative;
+  left: 3px;
+  top: 3px;
+}
+@font-face {
+    font-family: "5by7";
+    src: url("../../dist/fonts/5by7.ttf");
+}
+#myTargetElement{
+  font-family: "5by7";
 }

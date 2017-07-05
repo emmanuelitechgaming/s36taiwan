@@ -250,11 +250,12 @@
         width: 100%;
     }
     .selectpicker2 {
-      padding: 3px 5px;
-      padding-bottom: 5px;
+      padding: 1px 3px;
+      padding-bottom: 4px;
       top: 24px;
-      left: -40px;
-      font-size: 8px;
+      left: -34px;
+      font-size: 11px;
+      letter-spacing: 0.5px;
     }
     .selectpicker2 .fa {
         margin-left: 5px
@@ -503,13 +504,13 @@
       white-space: nowrap;
     }
     #myModal .nav-tabs li.connecting-line{
-      width: 40px;
+      width: 69px;
     }
     .cl1{
-      left: 85px;
+      left: 70px;
     }
     .cl2 {
-      left: 191px;
+      left: 176px;
     }
     #myModal .modal-foot ul li{
       display: inline-block;
@@ -518,6 +519,10 @@
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 95%;
+      height: 45px
+    }
+    .m-fsalon ul li:nth-child(3) img{
+      height: 40px
     }
     .m-fsalon ul li:nth-child(4) img{
       width: 82%;
@@ -536,11 +541,6 @@
     .promo-tabs-border{
       bottom: -37px;
       margin: 0 1px;
-    }
-    .margin-media img {
-      margin-top: -54px;
-      margin-right: -3px;
-      width: 80%;
     }
     .slots-info{
       right: 24%;
@@ -602,9 +602,12 @@
     .mnav-bottom .swiper-slide:nth-child(2), .mnav-bottom .swiper-slide:nth-child(3){
       width: 29%
     }
-    .casino-media img {
-       margin-top: -55px;
-       margin-right: 5px;
+    .nav-main-bg{
+      background: #2a2a2a;
+    }
+    .casino-media{
+      position: relative;
+      top: -58px;
     }
 }
 
@@ -625,9 +628,6 @@
     }
     .m-selectpicker2-menu{
       top: -285px !important;
-    }
-    .margin-media img {
-      margin-top: -57px;
     }
     .mnav-top .mnav-home, .mnav-top .mnav-home.active{
       background-position: 29px 7px;
@@ -657,7 +657,19 @@
       background-position: 19px 11px;
     }
     .selectpicker2{
-      left: -61px;
+      left: -54px;
+    }
+    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
+      height: 50px
+    }
+    #myModal .nav-tabs li.connecting-line {
+      width: 84px;
+    }
+    .cl1 {
+      left: 76px;
+    }
+    .cl2 {
+      left: 196px;
     }
 }
 
@@ -702,7 +714,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -87px;
+        left: -63px;
     }
     .swiper-container {
         width: 305px;
@@ -757,13 +769,13 @@
       margin-left: 115px;
     }
     #myModal .nav-tabs li.connecting-line{
-      width: 58px;
+      width: 87px;
     }
     .cl1{
-      left: 95px;
+      left: 80px;
     }
     .cl2 {
-      left: 219px;
+      left: 204px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 95%;
@@ -777,10 +789,6 @@
     }
     .rss-field .form-group:nth-child(2) {
       width: 57%;
-    }
-    .margin-media img {
-      margin-top: -57px;
-      margin-right: 5px;
     }
     .mnav-bottom .swiper-container{
       width: 388px;
@@ -816,6 +824,9 @@
     .mnav-email{
       background-position: 23px 11px;
     }
+    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
+      height: 55px
+    }
 
 }
 
@@ -850,6 +861,18 @@
     }
     .mnav-email{
       background-position: 19px 11px;
+    }
+    #myModal .nav-tabs li.connecting-line {
+      width: 100px;
+    }
+    .cl1 {
+      left: 86px;
+    }
+    .cl2 {
+      left: 223px;
+    }
+    .selectpicker2 {
+      left: -80px;
     }
 }
 
@@ -889,7 +912,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -87px;
+        left: -81px;
     }
     .swiper-container {
         width: 345px;
@@ -940,22 +963,19 @@
       margin-left: 155px;
     }
     #myModal .nav-tabs li.connecting-line{
-      width: 69px;
+      width: 101px;
     }
     .cl1{
-      left: 102px;
+      left: 86px;
     }
     .cl2 {
-      left: 239px;
+      left: 224px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 95%;
     }
     .rss-field .form-group:nth-child(2) {
       width: 61%;
-    }
-    .margin-media img {
-      margin-top: -60px;
     }
     .mnav-bottom .swiper-container{
       width: 427px;
@@ -987,6 +1007,9 @@
     }
     .mnav-email{
       background-position: 28px 11px;
+    }
+    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img {
+      height: 60px;
     }
 }
 
@@ -1126,11 +1149,6 @@
     .fa-dsktp {
       margin-top: 5px;
     }
-    .margin-media img {
-      margin-top: -42px;
-      margin-right: 63px;
-      width: auto;
-    }
     .slots-info{
       right: 30%;
       top: 2px;
@@ -1166,10 +1184,6 @@
         top: 18px;
         left: -208px;
         font-size: 11px;
-    }
-    .margin-media img {
-      margin-right: 100px;
-
     }
 }
 
@@ -1242,9 +1256,6 @@
     .lp-collapse-toggle {
       margin-right: -545px;
     }
-    .margin-media img {
-      margin-right: 115px;
-    }
     .mnav-bottom .swiper-container{
       width: 680px;
     }
@@ -1310,10 +1321,6 @@
     }
     .lp-collapse-toggle {
       margin-right: -615px;
-    }
-    .margin-media img {
-      margin-top: -40px;
-      margin-right: 147px;
     }
     .mnav-bottom .swiper-container{
       width: 749px;
@@ -1710,10 +1717,6 @@
       bottom: -35px;
       margin: 0 25px;
     }
-    .margin-media img {
-      margin-top: -60px;
-      width: 100%;
-    }
     .slots-info{
       right: 118px;
     }
@@ -1743,11 +1746,19 @@
     #myModal .modal-foot ul li:nth-child(1) a{
       top: -17px;
     }
-    .casino-media img {
-       margin-top: -48px;
+    .nav-bg {
+        background: url('../img/bg-nav.png');
+        background-repeat: repeat-x;
+    }
+    .casino-media{
+      position: relative;
+      top: -50px;
+    }
+    .slots-media{
+      position: relative;
+      top: -58px;
     }
 }
-
 
 /* Large Devices, Wide Screens */
 
@@ -1848,14 +1859,14 @@
     }
     .jumbo {
       position: absolute;
-      display: inline-block;
-      color: #FBA601;
-      left: 146px;
-      top: 28px;
-      font-size: 25px;
-      font-weight: 700;
-      letter-spacing: 18px;
-      word-spacing: -24px;
+  display: inline-block;
+  color: #FBA601;
+  left: 148px;
+  top: 28px;
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 18px;
+  word-spacing: -28px;
     }
     main .marquee {
         width: 500px;
