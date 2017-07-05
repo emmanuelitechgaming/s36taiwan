@@ -244,11 +244,7 @@ main .s36border {
     position: absolute;
     display: inline-block;
     color: #fff;
-    left: 268px;
-    top: 31px;
-    font-size: 28px;
     font-weight: 700;
-    letter-spacing: 11.5px;
     width: auto;
 }
 
@@ -5024,7 +5020,7 @@ right: 543px;
     font-family: "5by7";
     src: url("../../dist/fonts/5by7.ttf");
 }
-#myTargetElement{
+#myTargetElement, #myTargetElement2{
   font-family: "5by7";
 }
 .jackpot-nus-img{
