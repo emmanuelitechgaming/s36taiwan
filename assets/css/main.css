@@ -5030,5 +5030,6 @@ right: 543px;
 .jackpot-nus-img{
   display: block;
   height: auto;
-  width: 102.4%
+  width: 100%;
+  margin-left: 6px;
 }
