@@ -609,6 +609,11 @@
       position: relative;
       top: -58px;
     }
+    .wallet-reminder{
+      margin-left: 0px;
+      white-space: inherit;
+      width: auto;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1757,6 +1762,11 @@
     .slots-media{
       position: relative;
       top: -58px;
+    }
+    .wallet-reminder{
+      margin-left: 20px;
+      white-space: nowrap;
+      width: 700px;
     }
 }
 
