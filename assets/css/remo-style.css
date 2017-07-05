@@ -46,7 +46,6 @@ input, select{
     position: absolute;
     bottom: 20px;
     left: 13%;
-    top: 1% !important;
     height: 20px !important;
     margin-top: 2%;
 }
