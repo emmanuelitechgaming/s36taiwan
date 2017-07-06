@@ -244,11 +244,7 @@ main .s36border {
     position: absolute;
     display: inline-block;
     color: #fff;
-    left: 268px;
-    top: 31px;
-    font-size: 28px;
     font-weight: 700;
-    letter-spacing: 11.5px;
     width: auto;
 }
 
@@ -4572,10 +4568,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
   margin: auto;
 }
-.m-fsalon ul li:nth-child(1){
+.m-fsalon ul li:nth-child(1), .m-fsalon ul li:nth-child(4){
   text-align: left;
 }
-.m-fsalon ul li:nth-child(2){
+.m-fsalon ul li:nth-child(2), .m-fsalon ul li:nth-child(5){
   text-align: right
 }
 .m-fsalon ul li:nth-child(3){
@@ -4840,9 +4836,6 @@ right: 160px;
 .mnav-bottom .swiper-slide a.m-top-header-clock img{
   width: 21px !important;
 }
-.m-top-header-clock{
-  font-size: 12px!important;
-}
 .mnav-top, .swiper-container{
   display: block;
   width: 100% !important
@@ -4974,9 +4967,9 @@ right: 160px;
 .mnav-bottom .swiper-slide:last-child a{
   border-right: none
 }
-.m-fsalon ul li:nth-child(4){
+/*.m-fsalon ul li:nth-child(4){
   margin-left: -30px
-}
+}*/
 .m-fsalon ul li:nth-child(6){
   padding: 0 4px
 }
@@ -5027,6 +5020,12 @@ right: 543px;
     font-family: "5by7";
     src: url("../../dist/fonts/5by7.ttf");
 }
-#myTargetElement{
+#myTargetElement, #myTargetElement2{
   font-family: "5by7";
+}
+.jackpot-nus-img{
+  display: block;
+  height: auto;
+  width: 101%;
+  margin-left: 5.4px;
 }

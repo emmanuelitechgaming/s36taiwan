@@ -219,14 +219,6 @@
     .jacpot-nus-mobile {
         padding: 0 7px
     }
-    .jumbo {
-        left: 268px;
-        top: 31px;
-        font-size: 28px;
-        font-weight: 700;
-        letter-spacing: 11.5px;
-        width: auto;
-    }
     .nav.navbar-nav li:last-child a {
         border-right: none
     }
@@ -519,13 +511,17 @@
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 95%;
-      height: 45px
+      height: 50px
     }
     .m-fsalon ul li:nth-child(3) img{
-      height: 40px
+      height: 50px
     }
-    .m-fsalon ul li:nth-child(4) img{
+    /*.m-fsalon ul li:nth-child(4) img{
       width: 82%;
+    }*/
+    .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img{
+      width: 95%;
+      height: 50px;
     }
     .footer-shareit ul li{
       width: 50%;
@@ -609,10 +605,26 @@
       position: relative;
       top: -58px;
     }
+    .m-top-header-clock{
+      font-size: 10px!important;
+    }
     .wallet-reminder{
       margin-left: 0px;
       white-space: inherit;
       width: auto;
+    }
+    .marquee-mobile {
+      top: -10% !important;
+    }
+    .afterlogin-marquee{
+      top: 10% !important;
+    }
+    .jumbo{
+      top: 15px;
+      left: 78px;
+      font-size: 15px;
+      color: #FBA601;
+      letter-spacing: 5px;
     }
 }
 
@@ -665,6 +677,7 @@
       left: -54px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
+      width: 90%;
       height: 50px
     }
     #myModal .nav-tabs li.connecting-line {
@@ -675,6 +688,27 @@
     }
     .cl2 {
       left: 196px;
+    }
+    .rss-field .form-group:nth-child(1) input{
+      width: 100% !important
+    }
+    .rss-field .form-group:nth-child(2){
+      width: 54.5%
+    }
+    .m-top-header-clock{
+      font-size: 11px!important;
+    }
+    .marquee-mobile {
+      top: -6% !important;
+    }
+    .afterlogin-marquee{
+      top: 16% !important;
+    }
+    .jumbo {
+      top: 17px;
+      left: 86px;
+      letter-spacing: 6px;
+      font-size: 17px;
     }
 }
 
@@ -830,9 +864,15 @@
       background-position: 23px 11px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      height: 55px
+      width: 85%;
+      height: 50px
     }
-
+    .jumbo {
+      top: 17px;
+      left: 90px;
+      letter-spacing: 6px;
+      font-size: 18px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -878,6 +918,15 @@
     }
     .selectpicker2 {
       left: -80px;
+    }
+    .rss-field .form-group:nth-child(2){
+      width: 61.5%
+    }
+    .jumbo {
+      top: 19px;
+      left: 98px;
+      letter-spacing: 7px;
+      font-size: 19px;
     }
 }
 
@@ -977,7 +1026,7 @@
       left: 224px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      width: 95%;
+      width: 75%;
     }
     .rss-field .form-group:nth-child(2) {
       width: 61%;
@@ -1014,7 +1063,22 @@
       background-position: 28px 11px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img {
-      height: 60px;
+      height: 50px;
+    }
+    .m-top-header-clock{
+      font-size: 12px!important;
+    }
+    .marquee-mobile {
+      top: -3% !important;
+    }
+    .afterlogin-marquee{
+      top: 21% !important;
+    }
+    .jumbo {
+      top: 20px;
+      left: 99px;
+      letter-spacing: 7px;
+      font-size: 19px;
     }
 }
 
@@ -1763,10 +1827,19 @@
       position: relative;
       top: -58px;
     }
+    .m-top-header-clock{
+      font-size: 12px!important;
+    }
     .wallet-reminder{
       margin-left: 20px;
       white-space: nowrap;
       width: 700px;
+    }
+    .jumbo {
+        left: 268px;
+        top: 31px;
+        font-size: 28px;
+        letter-spacing: 11.5px;
     }
 }
 

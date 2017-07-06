@@ -672,7 +672,7 @@
     <main>
       <div class="mobile-banner-wrapper hidden-lg hidden-md">
         <img src="assets/img/banner/mobile-banner.png" class="img-responsive index-img-banner" alt="">
-        <a href="promotion.html"><img src="assets/img/banner/btn.png" class="img-responsive" alt=""></a>
+        <a href="#myModal" data-toggle="modal"><img src="assets/img/banner/btn.png" class="img-responsive" alt=""></a>
       </div>
 
         <div class="clearfix">
@@ -695,8 +695,8 @@
 
             <div class="jacpot-nus-mobile hidden-lg hidden-md">
                 <div class="jacpot-nus">
-                    <img src="assets/img/jackpot/jackpot-m.png" class="img-responsive" alt="">
-                    <!-- <div class="jumbo" id="myTargetElement">0</div> -->
+                    <img src="assets/img/jackpot/jackpot-m.png" class="jackpot-nus-img" alt="">
+                    <div class="jumbo" id="myTargetElement2">0</div>
                 </div>
             </div>
 
@@ -721,7 +721,7 @@
                         <!-- Slide Background -->
                         <img src="assets/img/banner/1.jpg" alt="沙龍會博彩網站" title="沙龍會博彩網站" class="slide-image" />
                         <div class="bs-slider-overlay">
-                            <a href="promotion.html"><img src="assets/img/banner/btn.png" alt=""></a>
+                            <a href="#myModal" data-toggle="modal"><img src="assets/img/banner/btn.png" alt=""></a>
                         </div>
                     </div>
                     <!-- Second Slide -->
@@ -2247,7 +2247,9 @@
                   suffix: ''
             };
             var demo = new CountUp("myTargetElement", 12345678, 99999999, 2, 100000000, options);
+            var demo2 = new CountUp("myTargetElement2", 12345678, 99999999, 2, 100000000, options);
             demo.start();
+            demo2.start();
         });
     </script>
 
