@@ -2686,7 +2686,7 @@ select + i.fa {
 }
 
 .selectpicker2 .fa{
-  color: #fff;
+  color: #fba601;
   font-size: 12px;
 }
 
@@ -4809,7 +4809,12 @@ right: 160px;
 }
 .selectpicker2 {
   border: 1px solid #fba601;
+  color: #fff;
+}
+.selectpicker2-separator{
   color: #fba601;
+  margin-right: 5px !important;
+  margin-left: 5px;
 }
 .selectpicker2 > i{
   color: #fba601!important;
@@ -5028,4 +5033,13 @@ right: 543px;
   height: auto;
   width: 101%;
   margin-left: 5.4px;
+}
+#myModal .form-horizontal .form-group:nth-child(1) a{
+  color: #fff
+}
+#myModal .form-horizontal .form-group:nth-child(1) a:hover{
+  text-decoration: none
+}
+#myModal .form-recap{
+  margin-top: 0;
 }

@@ -1790,7 +1790,7 @@
       right: 118px;
     }
     #ctab3 .row{
-    border-left: 1px solid #FBA601;
+    border-left: 1px solid #000;
     }
     .panel-heading .casino-tabs > li > a:hover,.panel-heading .casino-tabs > li > a:focus{
       color: #020202;
@@ -1807,10 +1807,7 @@
       width: 18%
     }
     #myModal .modal-bottom{
-      top: -56px;
-    }
-    #myModal .modal-body{
-      padding-bottom: 0;
+      top: 8px;
     }
     #myModal .modal-foot ul li:nth-child(1) a{
       top: -17px;
@@ -1840,6 +1837,9 @@
         top: 31px;
         font-size: 28px;
         letter-spacing: 11.5px;
+    }
+    #myModalTab1-2 .form-captcha{
+      margin-top: 20%
     }
 }
 
