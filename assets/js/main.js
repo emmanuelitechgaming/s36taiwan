@@ -420,7 +420,7 @@ $(document).ready(function () {
       $('a[href="#myModalTab1-1"').tab('show');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_06.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_06.png"], img[src="assets/img/promo/register now btn.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-2"').tab('show');
     });
