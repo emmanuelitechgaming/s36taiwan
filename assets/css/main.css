@@ -5034,6 +5034,13 @@ right: 543px;
   width: 101%;
   margin-left: 5.4px;
 }
+.absolute-play{
+  position: absolute;
+  left: 42%;
+  top: 32%;
+  margin-left: auto;
+  margin-right: auto;
+}
 #myModal .form-horizontal .form-group:nth-child(1) a{
   color: #fff
 }
