@@ -1942,14 +1942,14 @@
     }
     .jumbo {
       position: absolute;
-  display: inline-block;
-  color: #FBA601;
-  left: 148px;
-  top: 28px;
-  font-size: 27px;
-  font-weight: 700;
-  letter-spacing: 18px;
-  word-spacing: -28px;
+      display: inline-block;
+      color: #FBA601;
+      left: 148px;
+      top: 28px;
+      font-size: 27px;
+      font-weight: 700;
+      letter-spacing: 18px;
+      word-spacing: -28px;
     }
     main .marquee {
         width: 500px;
