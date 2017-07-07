@@ -366,7 +366,7 @@ $(document).ready(function () {
     })
 
     $('img[src="assets/img/casino/baccarat/play-icon.png"]').hover(function() {
-      $(this).attr('src', 'assets/img/casino/baccarat/play btn-hover.png');
+      $(this).attr('src', 'assets/img/casino/baccarat/play-btn-hover.png');
     }, function() {
       $(this).attr('src', 'assets/img/casino/baccarat/play-icon.png');
     });
