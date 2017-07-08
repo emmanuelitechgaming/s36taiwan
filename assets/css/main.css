@@ -5109,7 +5109,7 @@ right: 543px;
 }
 .m-fsalon ul li:nth-child(6) a{
   color: #5e5e5e
-
+}
 img.b-img{
   width: 350px!important;
 }
@@ -5121,4 +5121,8 @@ img.b-img{
   font-size: 30px!important;
   font-weight: 700!important;
 
+}
+#myTargetElement,#myTargetElement2{
+  text-decoration: none;
+  color: #fba601;
 }
