@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+  $('#country-sel').flagStrap();
+
   $(".btn-log").hover(function() {
   		$(this).attr("src","assets/img/login-hover.png");
   			}, function() {

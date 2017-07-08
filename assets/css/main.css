@@ -5126,3 +5126,22 @@ img.b-img{
   text-decoration: none;
   color: #fba601;
 }
+div.input-border #country-sel.flagstrap .btn{
+  background: #111111;
+border: 2px solid black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+border-bottom-width: 2px;
+border-bottom-style: solid;
+border-bottom-color: black;
+border-bottom-width: 2px;
+border-bottom-style: solid;
+border-bottom-color: black;
+border-radius: 3px;
+outline: none;
+height: 30px;
+color: #A4A4A4;
+border-bottom: none;
+width: 100%;
+}
