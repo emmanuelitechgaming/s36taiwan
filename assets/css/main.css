@@ -4831,7 +4831,7 @@ right: 160px;
 }
 .selectpicker2 {
   border: 1px solid #fba601;
-  color: #fff;
+  color: #fba601;
 }
 .selectpicker2-separator{
   color: #fba601;
@@ -5190,6 +5190,13 @@ div.input-border #country-sel.flagstrap .btn .caret{
 }
 .sitemap-body2c ul .columns{
   margin-top: 10px
+}
+.sitemap-body2d ul li{
+  -webkit-column-count: 1;
+          column-count: 1
+}
+.sitemap-body2d ul{
+  padding-left: 35px !important;
 }
 .sitemap-header p{
   padding-bottom: 0 !important;
