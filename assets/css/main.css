@@ -5070,3 +5070,14 @@ right: 543px;
 #myModal .form-recap{
   margin-top: 0;
 }
+img.b-img{
+  width: 350px!important;
+}
+.text-left{
+  text-align: left!important;
+  font-size: 18px!important;
+}
+.sp-game-title h3{
+  font-size: 30px!important;
+  font-weight: 700!important;
+}
