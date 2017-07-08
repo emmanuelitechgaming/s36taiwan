@@ -83,11 +83,6 @@ $(document).ready(function () {
 
     });
 
-    $('#footerLinkLang').click(function(e) {
-      $('.selectpicker2').trigger('click.bs.dropdown');
-      e.stopPropagation();
-    });
-
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
       $('a[href="'+$(this).context.hash+'"]').parent('li').addClass('active');
       $('html,body').animate({
@@ -438,6 +433,13 @@ $(document).ready(function () {
       $('#myModal2b_registration').css('display', 'none');
       $('#myModal2b_login').css('display', 'block');
     });
+
+    $('#footerLinkLang').click(function() {
+      $('html,body').animate({
+          scrollTop: 0
+      }, 1000);
+      $('#drop').toggleClass('lang-click');
+    })
 
 });
 

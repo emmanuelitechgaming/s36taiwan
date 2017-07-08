@@ -5111,7 +5111,7 @@ right: 543px;
   color: #5e5e5e
 }
 img.b-img{
-  width: 350px!important;
+  width: 300px!important;
 }
 .text-left{
   text-align: left!important;
@@ -5126,22 +5126,87 @@ img.b-img{
   text-decoration: none;
   color: #fba601;
 }
+.sp-md{
+  float: left
+}
+.sp-md .fa-mobile{
+  font-size: 40px
+}
+.sp-md .fa-desktop{
+  font-size: 34px;
+  margin-left: 10px
+}
 div.input-border #country-sel.flagstrap .btn{
   background: #111111;
-border: 2px solid black;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: black;
-border-bottom-width: 2px;
-border-bottom-style: solid;
-border-bottom-color: black;
-border-bottom-width: 2px;
-border-bottom-style: solid;
-border-bottom-color: black;
-border-radius: 3px;
-outline: none;
-height: 30px;
-color: #A4A4A4;
-border-bottom: none;
-width: 100%;
+  border: 2px solid black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-radius: 3px;
+  outline: none;
+  height: 30px;
+  color: #A4A4A4;
+  border-bottom: none;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+  padding-left: 10px;
+  position: relative;
+}
+div.input-border #country-sel.flagstrap .btn .caret{
+  position: absolute;
+  right: 5px;
+  top: 12px;
+}
+#country-sel .dropdown-menu{
+  background: #111111;
+  width: 100%
+}
+#country-sel .dropdown-menu li{
+  text-shadow: none
+}
+#country-sel .dropdown-menu li a{
+  color: #a4a4a4;
+  cursor: pointer;
+  padding: 0;
+  padding-left: 10px;
+}
+.sitemap-body2 ul{
+  padding-left: 35px !important;
+}
+.sitemap-body2a ul{
+  -webkit-column-count: 4;
+          column-count: 4;
+}
+.sitemap-body2b ul{
+  -webkit-column-count: 5;
+          column-count: 5
+}
+.sitemap-body2c ul .columns{
+  margin-top: 10px
+}
+.sitemap-header p{
+  padding-bottom: 0 !important;
+}
+.sitemap-body2 ul li{
+  display: block !important;
+  margin-bottom: 10px
+}
+.sitemap-body2c ul li{
+  display: inline-block !important;
+  width: 33%;
+  vertical-align: top;
+}
+.sitemap-body2c ul li ul{
+  min-height: 260px
+}
+.sitemap-body2c ul li ul li{
+  display: block !important;
+  width: 100%;
 }
