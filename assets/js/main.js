@@ -411,7 +411,7 @@ $(document).ready(function () {
       $(this).css('background', 'url(assets/img/scrollup-btn.png)');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_03.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_03.png"], .login-modal-a').click(function() {
       $('#myModal').modal('show');
     });
 
@@ -420,7 +420,7 @@ $(document).ready(function () {
       $('a[href="#myModalTab1-1"').tab('show');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_06.png"], img[src="assets/img/promo/register now btn.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_06.png"], img[src="assets/img/promo/register now btn.png"], .register-modal-a').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-2"').tab('show');
     });
