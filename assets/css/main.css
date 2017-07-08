@@ -619,6 +619,7 @@ footer .copyright span {
   font-size: 14px;
   font-weight: 700;
   margin: 10px 5px;
+  vertical-align: middle;
 }
 
 footer .fsalon h4 {
@@ -4574,12 +4575,23 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 .m-fsalon ul li img{
   display: inline-block;
 }
-.m-fsalon ul li:nth-child(1), .m-fsalon ul li:nth-child(2), .m-fsalon ul li:nth-child(4), .m-fsalon ul li:nth-child(5){
+.m-fsalon ul li:nth-child(4), .m-fsalon ul li:nth-child(5){
   width: 50%;
   margin-left: -5px;
   margin-right: -5px;
 }
-.m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
+.m-fsalon ul li:nth-child(1), .m-fsalon ul li:nth-child(2), .m-fsalon ul li:nth-child(3){
+  width: 33.33%;
+  text-align: center;
+}
+.m-fsalon ul li:nth-child(2){
+  position: relative;
+}
+.m-fsalon ul li:nth-child(1), .m-fsalon ul li:nth-child(3){
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img, .m-fsalon ul li:nth-child(3) img{
   margin: auto;
 }
 .m-fsalon ul li:nth-child(1), .m-fsalon ul li:nth-child(4){
@@ -4587,10 +4599,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 }
 .m-fsalon ul li:nth-child(2), .m-fsalon ul li:nth-child(5){
   text-align: right
-}
-.m-fsalon ul li:nth-child(3){
-  display: block;
-  margin-top: 5px;
 }
 .m-fsalon ul li:nth-child(3) span{
   position: relative;
@@ -5067,6 +5075,41 @@ right: 543px;
 #myModal .form-recap{
   margin-top: 0;
 }
+
+.fsalon.d-fsalon{
+  white-space: nowrap;
+}
+.d-fsalon span{
+  display: inline-block;
+}
+.d-fsalon span a{
+  display: block
+}
+.d-fsalon .d-fsalon6{
+  display: block;
+}
+.d-fsalon .d-fsalon6 img{
+  margin-bottom: 10px;
+}
+.d-fsalon .d-fsalon6 a{
+  color: #5e5e5e
+}
+.d-fsalon .d-fsalon6 a:hover{
+  text-decoration: none
+}
+.d-fsalon span:nth-child(1){
+  margin-left: -8px
+}
+.m-fsalon ul li:nth-child(6){
+  display: block
+}
+.m-fsalon ul li:nth-child(6) img{
+  display: block;
+  margin-bottom: 5px
+}
+.m-fsalon ul li:nth-child(6) a{
+  color: #5e5e5e
+
 img.b-img{
   width: 350px!important;
 }
@@ -5077,4 +5120,5 @@ img.b-img{
 .sp-game-title h3{
   font-size: 30px!important;
   font-weight: 700!important;
+
 }
