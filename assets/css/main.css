@@ -2632,9 +2632,6 @@ select + i.fa {
 
 .sp-back-btn a{
   display: inline-block;
-  width: 114px;
-  height: 38px;
-  background: url('../img/sp/back-btn.png');
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -5078,6 +5075,7 @@ right: 543px;
 #myModal .form-recap{
   margin-top: 0;
 }
+
 .fsalon.d-fsalon{
   white-space: nowrap;
 }
@@ -5111,4 +5109,16 @@ right: 543px;
 }
 .m-fsalon ul li:nth-child(6) a{
   color: #5e5e5e
+
+img.b-img{
+  width: 350px!important;
+}
+.text-left{
+  text-align: left!important;
+  font-size: 18px!important;
+}
+.sp-game-title h3{
+  font-size: 30px!important;
+  font-weight: 700!important;
+
 }
