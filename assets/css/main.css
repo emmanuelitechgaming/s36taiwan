@@ -3247,6 +3247,23 @@ position: relative;
   border-radius: 4px
 }
 
+.mnav {
+  background: url(../img/bg-nav.png) repeat-x;
+}
+
+.mnav-main{
+  margin-left: -15px;
+  margin-right: -15px
+}
+
+.mnav-main .active a{
+  color: #fba601
+}
+
+.nav-afterlogin-bg .mnav{
+  background-position: 0% 100%;
+}
+
 .mnav-bottom{
   background: url('../img/bg-nav.png') repeat-x;
   background-position: 1px 102%;
