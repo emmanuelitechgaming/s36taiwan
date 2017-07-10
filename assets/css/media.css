@@ -250,7 +250,7 @@
           padding-bottom: 3px;
       padding-bottom: 4px;
       top: 24px;
-      left: -34px;
+      left: -61px;
       font-size: 12px;
       letter-spacing: 0.5px;
     }
@@ -796,7 +796,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -63px;
+        left: -84px;
     }
     .swiper-container {
         width: 305px;
@@ -933,7 +933,7 @@
       top: 22%;
     }
     .header-cs{
-      right: 17%;
+      right: 6%;
     }
 }
 
