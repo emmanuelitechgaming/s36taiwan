@@ -37,7 +37,8 @@
         right: -11px;
     }
     .gp .live-game img {
-        max-width: 100%;
+      max-width: 130%;
+      margin-left: -19px;
     }
     header .logo a {
         display: inline-block;
@@ -240,7 +241,7 @@
         left: -100px
     }
     .selectpicker2-menu {
-        top: 63px;
+        top: 35px;
         left: 0;
         width: 100%;
     }
@@ -646,6 +647,9 @@
       left: 37%;
       top: 18%;
     }
+    .header-cs{
+      right: 4%;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -745,6 +749,9 @@
     .absolute-play{
       left: 39%;
       top: 20%;
+    }
+    .header-cs{
+      right: 13%;
     }
 }
 
@@ -925,6 +932,9 @@
       left: 40%;
       top: 22%;
     }
+    .header-cs{
+      right: 17%;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -989,6 +999,9 @@
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img, .m-fsalon ul li:nth-child(3) img, .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img{
       height: 75px
     }
+    .header-cs {
+      right: 23%;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -1027,7 +1040,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -122px;
+        left: -85px;
     }
     .swiper-container {
         width: 345px;
@@ -1140,6 +1153,9 @@
     }
     .absolute-play{
       top: 23%;
+    }
+    .header-cs {
+      right: 26%;
     }
 }
 
@@ -1744,7 +1760,7 @@
         padding-left: 15px;
     }
     .prizepool {
-        font-size: 17px;
+        font-size: 11px;
     }
     .win-body .user {
         font-size: 16px;

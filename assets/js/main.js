@@ -401,7 +401,7 @@ $(document).ready(function () {
       $('.banner-overlay').slideUp();
     })
 
-    $('.selectpicker2').click(function() {
+    $('.selectpicker2, .sitemap-selectpicker').click(function() {
       $('#drop').toggleClass('lang-click');
     });
 
@@ -431,7 +431,7 @@ $(document).ready(function () {
       $('a[href="#myModalTab1-1"').tab('show');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/promo/register now btn.png"], .register-modal-a').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/promo/register now btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-2"').tab('show');
     });
