@@ -246,11 +246,12 @@
         width: 100%;
     }
     .selectpicker2 {
-      padding: 3px 2px;
+      padding: 3px 8px;
           padding-bottom: 3px;
+      padding-bottom: 3px;
       padding-bottom: 4px;
       top: 24px;
-      left: -61px;
+      left: -50px;
       font-size: 12px;
       letter-spacing: 0.5px;
     }
@@ -648,7 +649,7 @@
       top: 18%;
     }
     .header-cs{
-      right: 4%;
+      right: 1%;
     }
 }
 
@@ -751,7 +752,7 @@
       top: 20%;
     }
     .header-cs{
-      right: 13%;
+      right: 1%;
     }
 }
 
@@ -796,7 +797,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -84px;
+        left: -74px;
     }
     .swiper-container {
         width: 305px;
@@ -933,7 +934,7 @@
       top: 22%;
     }
     .header-cs{
-      right: 6%;
+      right: 1%;
     }
 }
 
@@ -1000,7 +1001,7 @@
       height: 75px
     }
     .header-cs {
-      right: 23%;
+      right: 1%;
     }
 }
 
@@ -1040,7 +1041,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -92px;
+        left: -70px;
     }
     .swiper-container {
         width: 345px;
@@ -1155,7 +1156,7 @@
       top: 23%;
     }
     .header-cs {
-      right: 26%;
+      right: 1%;
     }
 }
 
@@ -1783,6 +1784,8 @@
       font-size: 15px;
       letter-spacing: 1px;
       bottom: 23px;
+      left: -64px;
+
     }
     .frut-popper .live-game-txtb{
       bottom: 14px
