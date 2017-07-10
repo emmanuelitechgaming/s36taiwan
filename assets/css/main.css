@@ -293,8 +293,10 @@ main .live-container {
 }
 
 .nav.navbar-nav.navbar-right.navbar-right li a{
-  letter-spacing: 1.5px;
-  padding: 5px 35px !important
+  letter-spacing: 1px;
+  padding: 5px 12px !important;
+  font-weight: 400 !important;
+  font-size: 12px;
 }
 
 main .gp-g {
@@ -4742,7 +4744,9 @@ right: 160px;
   position: absolute;
   z-index: 999;
   right: 10px;
-  top: 5px;
+  top: -5px;
+  font-size: 40px;
+  color: #fff;
 }
 
 /* Default mode */
@@ -5226,4 +5230,11 @@ div.input-border #country-sel.flagstrap .btn .caret{
 }
 .columns.f-social li a img, .footer-shareit ul li a img{
   cursor: pointer !important
+}
+.navaa li:first-child{
+  min-width: 30px;
+}
+.navaa li{
+  min-width: 110px;
+text-align: center;
 }
