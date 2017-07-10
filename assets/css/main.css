@@ -5129,11 +5129,12 @@ img.b-img{
   float: left
 }
 .sp-md .fa-mobile{
-  font-size: 40px
+  font-size: 38px;
+  margin: 0 5px;
 }
 .sp-md .fa-desktop{
-  font-size: 34px;
-  margin-left: 10px
+  font-size: 30px;
+  margin: 0 5px;
 }
 div.input-border #country-sel.flagstrap .btn{
   background: #111111;
