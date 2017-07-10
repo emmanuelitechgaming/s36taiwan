@@ -4744,7 +4744,9 @@ right: 160px;
   position: absolute;
   z-index: 999;
   right: 10px;
-  top: 5px;
+  top: -5px;
+  font-size: 40px;
+  color: #fff;
 }
 
 /* Default mode */
@@ -5233,6 +5235,6 @@ div.input-border #country-sel.flagstrap .btn .caret{
   min-width: 30px;
 }
 .navaa li{
-  min-width: 98px;
+  min-width: 110px;
 text-align: center;
 }
