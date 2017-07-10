@@ -167,6 +167,9 @@ header .header-mobile {
 header .header-mobile > .hm-d {
     padding: 15px 10px!important;
 }
+.main-section{
+  margin-top: 30px
+}
 main .mobile-banner{
   background: #000;
 text-align: center;
