@@ -5272,3 +5272,11 @@ main .win-lot-top-games{
   max-width: 100%;
   display: block;
 }
+.sp-strip{
+  background: black;
+overflow: hidden;
+margin-left: -15px;
+margin-right: -15px;
+padding: 13px;
+margin-top: -19px;
+}
