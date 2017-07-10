@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+  $('#country-sel').flagStrap();
+
   $(".btn-log").hover(function() {
   		$(this).attr("src","assets/img/login-hover.png");
   			}, function() {
@@ -78,11 +81,6 @@ $(document).ready(function () {
         var $active = $('.wizard .nav-tabs li.active');
         prevTab($active);
 
-    });
-
-    $('#footerLinkLang').click(function(e) {
-      $('.selectpicker2').trigger('click.bs.dropdown');
-      e.stopPropagation();
     });
 
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
@@ -366,7 +364,7 @@ $(document).ready(function () {
     })
 
     $('img[src="assets/img/casino/baccarat/play-icon.png"]').hover(function() {
-      $(this).attr('src', 'assets/img/casino/baccarat/play btn-hover.png');
+      $(this).attr('src', 'assets/img/casino/baccarat/play-btn-hover.png');
     }, function() {
       $(this).attr('src', 'assets/img/casino/baccarat/play-icon.png');
     });
@@ -411,8 +409,9 @@ $(document).ready(function () {
       $(this).css('background', 'url(assets/img/scrollup-btn.png)');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_03.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a').click(function() {
       $('#myModal').modal('show');
+      $('a[href="#myModalTab1-1"').tab('show');
     });
 
     $('img[src="assets/img/s36tw-mobile-home_12.png"]').click(function() {
@@ -420,7 +419,7 @@ $(document).ready(function () {
       $('a[href="#myModalTab1-1"').tab('show');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_06.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/promo/register now btn.png"], .register-modal-a').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-2"').tab('show');
     });
@@ -434,6 +433,13 @@ $(document).ready(function () {
       $('#myModal2b_registration').css('display', 'none');
       $('#myModal2b_login').css('display', 'block');
     });
+
+    $('#footerLinkLang').click(function() {
+      $('html,body').animate({
+          scrollTop: 0
+      }, 1000);
+      $('#drop').toggleClass('lang-click');
+    })
 
 });
 

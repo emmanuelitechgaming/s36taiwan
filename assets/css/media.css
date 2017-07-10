@@ -509,9 +509,9 @@
       width: 32%;
       margin-bottom: 5px;
     }
-    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
+    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img, .m-fsalon ul li:nth-child(3) img{
       width: 95%;
-      height: 50px
+      height: 40px
     }
     .m-fsalon ul li:nth-child(3) img{
       height: 50px
@@ -521,7 +521,7 @@
     }*/
     .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img{
       width: 95%;
-      height: 50px;
+      height: 40px;
     }
     .footer-shareit ul li{
       width: 50%;
@@ -626,6 +626,12 @@
       color: #FBA601;
       letter-spacing: 5px;
     }
+    .mnav-main .swiper-slide a{
+      padding: 5px 23px;
+    }
+    .m-fsalon ul li:nth-child(2){
+      left: -4px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -709,6 +715,12 @@
       left: 86px;
       letter-spacing: 6px;
       font-size: 17px;
+    }
+    .mnav-main .swiper-slide a{
+      padding: 5px 28px;
+    }
+    .m-fsalon ul li:nth-child(2){
+      left: -9px
     }
 }
 
@@ -864,14 +876,20 @@
       background-position: 23px 11px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      width: 85%;
-      height: 50px
+      width: 90%;
+      height: 40px
     }
     .jumbo {
       top: 17px;
       left: 90px;
       letter-spacing: 6px;
       font-size: 18px;
+    }
+    .mnav-main .swiper-slide a{
+      padding: 5px 30px;
+    }
+    .m-fsalon ul li:nth-child(2){
+      left: -10px
     }
 }
 
@@ -927,6 +945,9 @@
       left: 98px;
       letter-spacing: 7px;
       font-size: 19px;
+    }
+    .mnav-main .swiper-slide a{
+      padding: 5px 34.5px;
     }
 }
 
@@ -1026,7 +1047,7 @@
       left: 224px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
-      width: 75%;
+      width: 90%;
     }
     .rss-field .form-group:nth-child(2) {
       width: 61%;
@@ -1202,9 +1223,6 @@
     }
     .gs-collapse-toggle {
       margin-right: -225px;
-    }
-    footer .copyright span {
-      margin-top: 0px;
     }
     footer .copyright img {
       margin-top: 0px;
@@ -1790,7 +1808,7 @@
       right: 118px;
     }
     #ctab3 .row{
-    border-left: 1px solid #FBA601;
+    border-left: 1px solid #000;
     }
     .panel-heading .casino-tabs > li > a:hover,.panel-heading .casino-tabs > li > a:focus{
       color: #020202;
@@ -1807,10 +1825,7 @@
       width: 18%
     }
     #myModal .modal-bottom{
-      top: -56px;
-    }
-    #myModal .modal-body{
-      padding-bottom: 0;
+      top: 8px;
     }
     #myModal .modal-foot ul li:nth-child(1) a{
       top: -17px;
@@ -1840,6 +1855,9 @@
         top: 31px;
         font-size: 28px;
         letter-spacing: 11.5px;
+    }
+    #myModalTab1-2 .form-captcha{
+      margin-top: 20%
     }
 }
 
@@ -1942,14 +1960,14 @@
     }
     .jumbo {
       position: absolute;
-  display: inline-block;
-  color: #FBA601;
-  left: 148px;
-  top: 28px;
-  font-size: 27px;
-  font-weight: 700;
-  letter-spacing: 18px;
-  word-spacing: -28px;
+      display: inline-block;
+      color: #FBA601;
+      left: 148px;
+      top: 25px;
+      font-size: 27px;
+      font-weight: 700;
+      letter-spacing: 18px;
+      word-spacing: -28px;
     }
     main .marquee {
         width: 500px;
