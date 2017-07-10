@@ -4594,10 +4594,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img, .m-fsalon ul li:nth-child(3) img{
   margin: auto;
 }
-.m-fsalon ul li:nth-child(1), .m-fsalon ul li:nth-child(4){
+.m-fsalon ul li:nth-child(1){
   text-align: left;
 }
-.m-fsalon ul li:nth-child(2), .m-fsalon ul li:nth-child(5){
+.m-fsalon ul li:nth-child(2){
   text-align: right
 }
 .m-fsalon ul li:nth-child(3) span{
@@ -5216,4 +5216,7 @@ div.input-border #country-sel.flagstrap .btn .caret{
 .sitemap-body2c ul li ul li{
   display: block !important;
   width: 100%;
+}
+.columns.f-social li a img, .footer-shareit ul li a img{
+  cursor: pointer !important
 }
