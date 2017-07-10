@@ -4733,7 +4733,7 @@ right: 160px;
   bottom: -6px;
 }
 .gp-first a{
-  padding-bottom: 3px
+  padding-bottom: 4px
 }
 .gp-g .col-md-4:nth-child(1) a{
   padding-left: 5px;
@@ -5265,8 +5265,8 @@ main .win-lot-top-games{
 }
 .header-cs a{
   display: inline-block;
-  width: 25px;
-  margin: 0 3px
+  width: 23px;
+  margin: 2px 3px;
 }
 .header-cs img{
   max-width: 100%;
