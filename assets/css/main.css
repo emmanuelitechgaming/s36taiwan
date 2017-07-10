@@ -425,7 +425,7 @@ main .win-body span {
 .prizepool {
     padding: 10px;
     font-weight: 700;
-    color: #fba601;
+    color: #fff;
 }
 
 main .contact-title {
@@ -4200,7 +4200,7 @@ header .top-header ul li:nth-child(1){
   padding-right: 0;
 }
 .drop {
-  display: none !important;
+  /*display: none !important;
   margin: 0;
   background: #1B1B1B;
   font-family: Arial;
@@ -4211,7 +4211,18 @@ header .top-header ul li:nth-child(1){
   width: 100%;
   left: 0;
   top: 28px;
-  padding: 0 18% 20px;
+  padding: 0 18% 20px;*/
+  display: none !important;
+  margin: 0;
+  background: #1B1B1B;
+  font-family: Arial;
+  color: #fff;
+  font-size: .75em;
+  cursor: pointer;
+  min-width: 150px;
+  left: 642px;
+  top: 28px;
+  padding: 0 1% 20px;
 }
 /*.top-header ul {
   background: #1B1B1B;
@@ -4227,8 +4238,8 @@ header .top-header ul li:nth-child(1){
   border-bottom: 1px solid #e3e3e3;
   padding: 6px 4px;
   cursor: pointer;
-  min-width: 270px;
-  width: 280px;
+  min-width: 230px;
+  width: 230px;
   background: #1B1B1B;
   display: block;
   position: relative;
@@ -4242,7 +4253,8 @@ header .top-header ul li:nth-child(1){
   display: block !important;
   position: absolute;
   z-index: 88888;
-  top: 125px !important
+  /*top: 125px !important*/
+  top: 73px !important
 }
 .language-picker{
   display: inline-block;
@@ -4256,7 +4268,8 @@ header .top-header ul li:nth-child(1){
   color: #fff
 }
 .lang div, .gs div{
-  display: inline-block;
+  /*display: inline-block;*/
+  display: block
 }
 .registration-info{
   margin-top: 15px;
@@ -5237,4 +5250,25 @@ div.input-border #country-sel.flagstrap .btn .caret{
 .navaa li{
   min-width: 110px;
 text-align: center;
+}
+.prizepool span{
+  display: block;
+  color: #fba601;
+  font-size: 12px !important
+}
+main .win-lot-top-games{
+  padding: 5px 0
+}
+.header-cs{
+  position: absolute;
+  top: 10px;
+}
+.header-cs a{
+  display: inline-block;
+  width: 25px;
+  margin: 0 3px
+}
+.header-cs img{
+  max-width: 100%;
+  display: block;
 }
