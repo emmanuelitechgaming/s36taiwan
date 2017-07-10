@@ -1,6 +1,18 @@
 $(document).ready(function () {
 
-  $('#country-sel').flagStrap();
+  $('#country-sel').flagStrap({
+    countries: {
+            "TW": "台灣",
+            "CN": "中國",
+            "ID": "印尼",
+            "IN": "印度",
+            "VN": "越南",
+            "JP": "日本",
+            "MY": "馬來西亞",
+            "TH": "泰國"
+
+        }
+  });
 
   $(".btn-log").hover(function() {
   		$(this).attr("src","assets/img/login-hover.png");
