@@ -5058,11 +5058,10 @@ right: 543px;
 }
 .absolute-play{
   position: absolute;
-  left: 42%;
-  top: 25%;
   margin-left: auto;
   margin-right: auto;
 }
+
 .absolute-play-slots{
   top: 29.5%;
 }
