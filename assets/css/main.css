@@ -5194,12 +5194,13 @@ div.input-border #country-sel.flagstrap .btn .caret{
 .sitemap-body2c ul .columns{
   margin-top: 10px
 }
-.sitemap-body2d ul li{
-  -webkit-column-count: 1;
-          column-count: 1
-}
 .sitemap-body2d ul{
-  padding-left: 35px !important;
+  -webkit-column-count: 4;
+          column-count: 4;
+}
+.sitemap-body2e ul{
+  -webkit-column-count: 5;
+          column-count: 5
 }
 .sitemap-header p{
   padding-bottom: 0 !important;
@@ -5215,6 +5216,9 @@ div.input-border #country-sel.flagstrap .btn .caret{
 }
 .sitemap-body2c ul li ul{
   min-height: 260px
+}
+.sitemap-body2c ul li:nth-child(4) ul, .sitemap-body2c ul li:nth-child(5) ul{
+  min-height: auto
 }
 .sitemap-body2c ul li ul li{
   display: block !important;
