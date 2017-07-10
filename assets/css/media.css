@@ -632,6 +632,10 @@
     .m-fsalon ul li:nth-child(2){
       left: -4px
     }
+    .absolute-play{
+      left: 37%;
+      top: 18%;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -721,6 +725,10 @@
     }
     .m-fsalon ul li:nth-child(2){
       left: -9px
+    }
+    .absolute-play{
+      left: 39%;
+      top: 20%;
     }
 }
 
@@ -891,6 +899,10 @@
     .m-fsalon ul li:nth-child(2){
       left: -10px
     }
+    .absolute-play{
+      left: 40%;
+      top: 22%;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -948,6 +960,9 @@
     }
     .mnav-main .swiper-slide a{
       padding: 5px 34.5px;
+    }
+    .absolute-play{
+      left: 41%;
     }
 }
 
@@ -1101,6 +1116,9 @@
       letter-spacing: 7px;
       font-size: 19px;
     }
+    .absolute-play{
+      top: 23%;
+    }
 }
 
 
@@ -1249,6 +1267,10 @@
     .casino-media img {
        margin-top: -50px;
        margin-right: 5px;
+    }
+    .absolute-play{
+      left: 45%;
+      top: 25%;
     }
 }
 
@@ -1414,6 +1436,10 @@
     }
     .selectpicker2 {
       left: -245px;
+    }
+    .absolute-play{
+      left: 46%;
+      top: 25%;
     }
 }
 
@@ -1858,6 +1884,10 @@
     }
     #myModalTab1-2 .form-captcha{
       margin-top: 20%
+    }
+    .absolute-play{
+      left: 42%;
+      top: 25%;
     }
 }
 

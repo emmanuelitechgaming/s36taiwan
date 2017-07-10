@@ -18,6 +18,7 @@
     <link href="dist/css/bootstrap-slide.css" rel="stylesheet">
     <link href="dist/css/sweetalert.css" rel="stylesheet">
     <link href="dist/css/font-awesome.min.css" rel="stylesheet">
+    <link href="dist/css/flags.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -893,16 +894,16 @@
                   <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
                     <img src="assets/img/sp/25.png" class="img-responsive" alt="">
                   </div>
-                  <div class="col-md-6 col-sm-12 col-xs-12">
+                  <div class="col-md-7 col-sm-12 col-xs-12">
 
                   <div class="sp-title text-left">更多游戏</div>
                   <div class="sp-title text-left sp-game-title"><h3>紅樓春夢</h3></div>
                     <div class="sp-desc">
                       <p>遠離俗世繁囂，投入美人懷抱。裙擺一飄，所有煩惱隨即一掃而空。踏上紅樓，浮華春夢，讓您感受最純真脫俗的溫柔。</p>
                     </div>
-                    <div class="">
-                        <i class="fa fa-desktop" style="font-size: 30px; margin:0 5px;"></i>
-                        <i class="fa fa-mobile" style="font-size: 38px; margin:0 5px; "></i>
+                    <div class="sp-md">
+                        <i class="fa fa-desktop"></i>
+                        <i class="fa fa-mobile"></i>
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-12 col-xs-12">
@@ -1652,7 +1653,6 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-<<<<<<< .mine
                                                 <label for="exampleInputPassword1" class="col-md-2 col-md-offset-0 col-sm-12 col-md-offset-2  control-label">
                                                     输入密码</label>
                                                 <div class="col-md-9 col-sm-4">
@@ -1662,32 +1662,6 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label for="exampleInputPassword1" class="col-md-2 col-md-offset-0 col-sm-12 col-md-offset-2  col-xs-12 control-label">
-                                                    驗證碼</label>
-                                                <div class="col-md-6 col-sm-2 col-xs-8">
-                                                    <div class="input-border">
-                                                        <input type="email" class="form-control" placeholder="驗證碼" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-2 col-xs-4">
-                                                    <div class="input-border">
-                                                        <input type="email" class="form-control" placeholder="A12BC3" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-||||||| .r1298
-=======
-                                                <label for="exampleInputPassword1" class="col-md-2 col-md-offset-0 col-sm-12 col-md-offset-2  control-label">
-                                                    输入密码</label>
-                                                <div class="col-md-9 col-sm-4">
-                                                    <div class="input-border">
-                                                        <input type="email" class="form-control" placeholder="输入密码" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
->>>>>>> .r1302
                                                 <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
                                                 <div class="col-md-9 col-sm-4">
                                                   <div class="form-group form-inline form-captcha form-recap">
@@ -1714,7 +1688,7 @@
                                                   <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
                                                   <div class="col-sm-8">
                                                       <div class="input-border">
-                                                          <input type="password" class="form-control" id="password" />
+                                                          <div id="country-sel" data-input-name="country"></div>
                                                       </div>
                                                   </div>
                                               </div>
@@ -2083,6 +2057,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
     <script src="dist/js/sweetalert.min.js"></script>
     <script src="dist/js/font-awesome.js"></script>
+    <script src="dist/js/jquery.flagstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
     <script src="assets/js/json.js"></script>

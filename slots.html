@@ -19,6 +19,7 @@
     <link href="dist/css/sweetalert.css" rel="stylesheet">
     <link href="dist/css/font-awesome.min.css" rel="stylesheet">
     <link href="dist/css/slot.css" rel="stylesheet">
+    <link href="dist/css/flags.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -542,7 +543,7 @@
               </div>
               <div class="hidden-sm hidden-xs">
                   <div class="navbar-header">
-                        <button class="selectpicker2">台湾<span class="selectpicker2-separator">/</span>繁体 <i class="fa fa-caret-down"></i></button>
+                        <button class="selectpicker2"><span class="flag-icon flag-icon-tw"> </span> 台湾/繁体 <i class="fa fa-caret-down"></i></button>
                   </div>
 
 
@@ -1863,44 +1864,19 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="row">
                         <div class="col-md-12">
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-tabs">
-                                <li class="active">
-                                    <a href="javascript:void(0)" data-toggle="tab" aria-controls="login" role="tab">
-                                        <span><img src="assets/img/modal_1.png" class="img-responsive" alt=""></span> 注册/登錄
-                                    </a>
-                                </li>
-                                <li class="connecting-line cl1"></li>
-                                <li class="">
-                                    <a href="javascript:void(0)" data-toggle="tab" aria-controls="Registration" role="tab">
-                                        <span><img src="assets/img/modal_2.png" class="img-responsive" alt=""></span> 进行存款
-                                    </a>
-                                </li>
-                                <li class="connecting-line cl2"></li>
-                                <li class="">
-                                    <a href="javascript:void(0)" data-toggle="tab" aria-controls="demo" role="tab">
-                                        <span><img src="assets/img/modal_3.png" class="img-responsive" alt=""></span> 开始游戏
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <div class="border-modal border-modal2"></div>
-
                             <!-- Tab panes -->
                             <div class="tab-content">
                                 <div class="tab-pane active" id="login">
-                                    <!-- <ul class="nav nav-tabs" id="myModalTab" role="tablist">
-                                      <li role="presentation" class="active" style="display: none"><a href="#myModalTab1-1" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-chevron-left"></i></a></li>
-                                      <li role="presentation"><a href="#myModalTab1-2" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-chevron-right"></i></a></li>
-                                    </ul> -->
-
                                     <div class="tab-content">
                                       <div role="tabpanel" class="tab-pane fade active" id="myModalTab1-1">
                                         <p class="login-info">登錄</p>
-                                        <p class="registration-info">
-                                            沙龙会S36手机版 <a href="m.s36.com">（m.s36.com）</a>现已正式上线，即日起会员可通过手机浏览器直接访问网站，无需下载和安装即可随时随地玩转所有沙龙会的游戏，还等什么？赶紧拿起手机，马上感受我们给您带来的全新游戏体验吧！
-                                        </p>
                                         <form role="form" class="form-horizontal">
+                                          <div class="form-group">
+                                              <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
+                                              <div class="col-md-9 col-sm-4">
+                                                  <a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a>
+                                              </div>
+                                          </div>
                                             <div class="form-group">
                                                 <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label">
                                                     输入账号</label>
@@ -1919,6 +1895,14 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="form-group">
+                                                <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
+                                                <div class="col-md-9 col-sm-4">
+                                                  <div class="form-group form-inline form-captcha form-recap">
+                                                      <div class="g-recaptcha  recaptScale" id="recaptcha1"></div>
+                                                  </div>
+                                                </div>
+                                            </div>
                                             <div class="form-group text-center cta-accounts"><a href="#myModalTab1-2" aria-controls="home" role="tab" data-toggle="tab">沒有帳號？ 在這裡註冊！</a></div>
 
                                         </form>
@@ -1926,16 +1910,19 @@
                                       </div>
                                       <div role="tabpanel" class="tab-pane fade" id="myModalTab1-2">
                                         <p class="login-info"> 注册</p>
-                                        <p class="registration-info">
-                                            沙龙会S36手机版 <a href="m.s36.com">（m.s36.com）</a>现已正式上线，即日起会员可通过手机浏览器直接访问网站，无需下载和安装即可随时随地玩转所有沙龙会的游戏，还等什么？赶紧拿起手机，马上感受我们给您带来的全新游戏体验吧！
-                                        </p>
                                         <div class="col-md-6">
                                             <form role="form" class="form-horizontal">
+                                              <div class="form-group">
+                                                  <label for="password" class="col-sm-4 control-label"></label>
+                                                  <div class="col-sm-8">
+                                                    <a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a>
+                                                  </div>
+                                              </div>
                                               <div class="form-group">
                                                   <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
                                                   <div class="col-sm-8">
                                                       <div class="input-border">
-                                                          <input type="password" class="form-control" id="password" />
+                                                          <div id="country-sel" data-input-name="country"></div>
                                                       </div>
                                                   </div>
                                               </div>
@@ -1978,8 +1965,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group form-inline form-captcha form-recap">
-                                                <script src='https://www.google.com/recaptcha/api.js?hl=zh-TW'></script>
-                                                <div class="g-recaptcha  recaptScale" data-sitekey="6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M" data-theme="dark" data-size="small"></div>
+                                                <div class="g-recaptcha  recaptScale" id="recaptcha2"></div>
                                             </div>
                                             <div class="form-group form-checkbox">
                                                 <div class="checkbox checkbox-warning">
@@ -1998,7 +1984,7 @@
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
                                           <ul>
-                                              <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
+                                              <li style="display: none"><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
                                               <li>
                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                               </li>
@@ -2011,8 +1997,8 @@
                                         </div>
                                         <div class=" pull-right">
                                             <div class="modal-bottom">
-                                              <a href="afterlogin.html" id="myModal2b_login" class="btn btn-warning">立即注册</a>
-                                              <button type="button" id="myModal2b_registration" class="btn btn-warning sweet-13" style="display: none">註冊賬號</button>
+                                              <a href="afterlogin.html" id="myModal2b_login" class="btn btn-warning" >立即登錄</a>
+                                              <button type="button" id="myModal2b_registration" class="btn btn-warning sweet-13" style="display: none" > 註冊賬號  </button>
                                             </div>
                                         </div>
                                     </div>
@@ -2152,14 +2138,6 @@
 
                                     <div class="panel-border"></div>
                                     <div class="form-group form-inline form-captcha form-recap">
-                                        <!-- <div class="input-group col-xs-7">
-                                            <input class="form-control" type="text" placeholder="驗證碼">
-                                        </div>
-                                        <div class="captcha-img col-xs-5">
-                                            <img src="assets/img/captcha.png" class="img-responsive" alt="">
-                                        </div> -->
-                                        <script src='https://www.google.com/recaptcha/api.js?hl=zh-TW'></script>
-                                        <div class="g-recaptcha  recaptScale" data-sitekey="6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M" data-theme="dark"   data-size="small"></div>
                                     </div>
                                     <div class="panel-border"></div>
                                     <div class="form-pad">
@@ -2306,6 +2284,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
     <script src="dist/js/sweetalert.min.js"></script>
     <script src="dist/js/font-awesome.js"></script>
+    <script src="dist/js/jquery.flagstrap.min.js"></script>
     <script src="dist/js/controls.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
@@ -2448,6 +2427,22 @@
         $('.m-top-header-clock span').html(now2);
       });
     </script>
+
+    <script src='https://www.google.com/recaptcha/api.js?hl=zh-TW&onload=CaptchaCallback&render=explicit' async defer></script>
+    <script type="text/javascript">
+      var CaptchaCallback = function() {
+          grecaptcha.render('recaptcha1', {
+            'sitekey' : '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
+            'theme' : 'dark',
+            'size' : 'small'
+          });
+          grecaptcha.render('recaptcha2', {
+            'sitekey' : '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
+            'theme' : 'dark',
+            'size' : 'small'
+          });
+      };
+  </script>
 </body>
 <!-- comment -->
 
