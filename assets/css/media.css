@@ -511,17 +511,23 @@
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img, .m-fsalon ul li:nth-child(3) img{
       width: 95%;
-      height: 40px
+      height: 65px
     }
     .m-fsalon ul li:nth-child(3) img{
-      height: 50px
+      height: 65px
     }
     /*.m-fsalon ul li:nth-child(4) img{
       width: 82%;
     }*/
     .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img{
-      width: 95%;
-      height: 40px;
+      width: 85%;
+      height: 65px;
+    }
+    .m-fsalon ul li:nth-child(4) img{
+      margin-left: 10px
+    }
+    .m-fsalon ul li:nth-child(5) img{
+      margin-right: 10px
     }
     .footer-shareit ul li{
       width: 50%;
@@ -688,7 +694,13 @@
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 90%;
-      height: 50px
+      height: 70px
+    }
+    .m-fsalon ul li:nth-child(3) img{
+      height: 70px
+    }
+    .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img{
+      height: 70px;
     }
     #myModal .nav-tabs li.connecting-line {
       width: 84px;
@@ -885,7 +897,13 @@
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 90%;
-      height: 40px
+      height: 75px
+    }
+    .m-fsalon ul li:nth-child(3) img {
+      height: 75px;
+    }
+    .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img {
+      height: 75px;
     }
     .jumbo {
       top: 17px;
@@ -963,6 +981,9 @@
     }
     .absolute-play{
       left: 41%;
+    }
+    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img, .m-fsalon ul li:nth-child(3) img, .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img{
+      height: 75px
     }
 }
 
@@ -1097,9 +1118,6 @@
     }
     .mnav-email{
       background-position: 28px 11px;
-    }
-    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img {
-      height: 50px;
     }
     .m-top-header-clock{
       font-size: 12px!important;
