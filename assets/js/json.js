@@ -1,119 +1,63 @@
 $(document).ready(function(){
 	var obj = [
 		{
-	    "country_name": "Australia",
+	    "country_name": "中國",
 	    "languages": [
-	      "English"
+	      "CNY"
 	    ],
-	    "flag" : "flag-icon-au"
+	    "flag" : "flag-icon-cn"
 	  },
 
 	  {
-	    "country_name": "Mexico",
+	    "country_name": "印度",
 	    "languages": [
-	      "Méjico",
-	      "English"
+	      "INR"
 	    ],
-	    "flag" : "flag-icon-mx"
+	    "flag" : "flag-icon-in"
 	  },
 
 	  {
-	    "country_name": "Việt Nam",
+	    "country_name": "印尼",
 	    "languages": [
-	      "Việt Nam",
-	      "English"
+	      "IDR"
 	    ],
-	    "flag" : "flag-icon-vn"
+	    "flag" : "flag-icon-id"
 	  },
 	  {
-	    "country_name": "Brazil",
+	    "country_name": "日本",
 	    "languages": [
-	      "Brazil",
-	      "English"
+	      "JPY"
 	    ],
-	    "flag" : "flag-icon-br"
+	    "flag" : "flag-icon-jp"
 	  },
 		{
-			"country_name": "New Zealand",
+			"country_name": "馬來西亞",
 			"languages": [
-				"Aotearoa",
-				"English"
-			],
-			"flag": "flag-icon-nz"
-		},
-		{
-			"country_name": "ไทย",
-			"languages": [
-				"ประเทศไทย",
-				"English"
-			],
-			"flag": "flag-icon-th"
-		},
-		{
-			"country_name": "Indonesia",
-			"languages": [
-				"Indonesia",
-				"English"
-			],
-			"flag": "flag-icon-id"
-		},
-		{
-			"country_name": "Philippines",
-			"languages": [
-				"Filipino",
-				"English"
-			],
-			"flag": "flag-icon-ph"
-		},
-		{
-			"country_name": "대한민국",
-			"languages": [
-				"대한민국",
-				"English"
-			],
-			"flag": "flag-icon-kr"
-		},
-		{
-			"country_name": "香港特別行政區",
-			"languages": [
-				"香港",
-				"English"
-			],
-			"flag": "flag-icon-hk"
-		},
-		{
-			"country_name": "Malaysia",
-			"languages": [
-				"Malaysia",
-				"English"
+				"MYR"
 			],
 			"flag": "flag-icon-my"
 		},
 		{
-			"country_name": "Singapore",
-			"languages": [
-				"香港",
-				"English"
-			],
-			"flag": "flag-icon-sg"
-		},
-		{
 			"country_name": "台灣",
 			"languages": [
-				"香港",
-				"English"
+				"TWD"
 			],
 			"flag": "flag-icon-tw"
 		},
 		{
-			"country_name": "日本",
+			"country_name": "泰國",
 			"languages": [
-				"日本",
-				"English"
+				"THP"
 			],
-			"flag": "flag-icon-jp"
+			"flag": "flag-icon-th"
+		},
+		{
+			"country_name": "越南",
+			"languages": [
+				"VND"
+			],
+			"flag": "flag-icon-vn"
 		}
-
 	];
 
 	$(obj).each(function(k,v){
