@@ -5319,12 +5319,12 @@ margin-left: -10px;
 margin-right: -10px;
 }
 .sp-container .sp-bottom{
-  /*background: url('../img/sp/casino/bg-bot.jpg');
+  background: url('../img/sp/casino/bg-bot.jpg');
       background-color: rgba(0, 0, 0, 0);
-      background-repeat: repeat;*/
-  background-color: rgba(0, 0, 0, 0);
+      background-repeat: repeat;
+  /*background-color: rgba(0, 0, 0, 0);
   background-repeat: repeat;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   /*background-color: #1B1A1A;*/
   background-color: #000;;  overflow: hidden;
   margin-top: 0px;
@@ -5351,6 +5351,86 @@ margin-right: -10px;
 }
 .lotto-strip{
   margin-top: auto
+}
+<<<<<<< .mine
+.sp-title.text-left a{
+  text-decoration: none;
+  color: #fba601;
+}
+#sp-bg-25{
+    background: url('../img/sp/slots/sp-bg-25.jpg')!important;
+}
+#sp-bg-1{
+    background: url('../img/sp/slots/sp-bg-1.jpg')!important;
+}
+#sp-bg-2{
+    background: url('../img/sp/slots/sp-bg-2.jpg')!important;
+}
+#sp-bg-3{
+    background: url('../img/sp/slots/sp-bg-3.jpg')!important;
+}
+#sp-bg-4{
+    background: url('../img/sp/slots/sp-bg-4.jpg')!important;
+}
+#sp-bg-5{
+    background: url('../img/sp/slots/sp-bg-5.jpg')!important;
+}
+#sp-bg-6{
+    background: url('../img/sp/slots/sp-bg-6.jpg')!important;
+}
+#sp-bg-7{
+    background: url('../img/sp/slots/sp-bg-7.jpg')!important;
+}
+#sp-bg-8{
+    background: url('../img/sp/slots/sp-bg-8.jpg')!important;
+}
+#sp-bg-9{
+    background: url('../img/sp/slots/sp-bg-9.jpg')!important;
+}
+#sp-bg-10{
+    background: url('../img/sp/slots/sp-bg-10.jpg')!important;
+}
+#sp-bg-11{
+    background: url('../img/sp/slots/sp-bg-11.jpg')!important;
+}
+#sp-bg-12{
+    background: url('../img/sp/slots/sp-bg-12.jpg')!important;
+}
+#sp-bg-13{
+    background: url('../img/sp/slots/sp-bg-13.jpg')!important;
+}
+#sp-bg-14{
+    background: url('../img/sp/slots/sp-bg-14.jpg')!important;
+}
+#sp-bg-15{
+    background: url('../img/sp/slots/sp-bg-15.jpg')!important;
+}
+#sp-bg-16{
+    background: url('../img/sp/slots/sp-bg-16.jpg')!important;
+}
+#sp-bg-17{
+    background: url('../img/sp/slots/sp-bg-17.jpg')!important;
+}
+#sp-bg-18{
+    background: url('../img/sp/slots/sp-bg-18.jpg')!important;
+}
+#sp-bg-19{
+    background: url('../img/sp/slots/sp-bg-19.jpg')!important;
+}
+#sp-bg-20{
+    background: url('../img/sp/slots/sp-bg-20.jpg')!important;
+}
+#sp-bg-21{
+    background: url('../img/sp/slots/sp-bg-21.jpg')!important;
+}
+#sp-bg-22{
+    background: url('../img/sp/slots/sp-bg-22.jpg')!important;
+}
+#sp-bg-23{
+    background: url('../img/sp/slots/sp-bg-23.jpg')!important;
+}
+#sp-bg-24{
+    background: url('../img/sp/slots/sp-bg-24.jpg')!important;
 }
 .slots-tab-a li{
   display: inline-block;
