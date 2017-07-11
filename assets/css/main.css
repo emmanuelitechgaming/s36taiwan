@@ -2685,7 +2685,7 @@ select + i.fa {
 }
 
 .selectpicker2:hover{
-  background: none !important
+  background:#1D1D1D;
 }
 
 .selectpicker2 .fa{
@@ -3393,7 +3393,7 @@ color: #f6b22b;
 }
 
 .selectpicker2:hover{
-background: #383838;
+background: #1d1d1d;
 }
 .support-pc:hover{
   color: #fba601;
@@ -4859,7 +4859,7 @@ right: 160px;
   margin-left: 5px;
 }
 .selectpicker2 > i{
-  color: #fba601!important;
+  color: #fff!important;
 }
 
 .slots-tabs li:hover, .slots-tabs li:focus{
@@ -5286,7 +5286,7 @@ main .win-lot-top-games{
 
 .casino-g-img{
   cursor: pointer;
-
+}
 .sp-strip{
   background: black;
 overflow: hidden;
@@ -5295,4 +5295,31 @@ margin-right: -15px;
 padding: 13px;
 margin-top: -19px;
 }
+.sp-container .sp-top{
+  background: url('../img/sp/casino/bg-top.jpg');
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: repeat;
+background-repeat: no-repeat;
+background-color: #1B1A1A;
+overflow: hidden;
+margin-top: -20px;
+margin-left: -10px;
+margin-right: -10px;
+}
+.sp-container .sp-bottom{
+  background: url('../img/sp/casino/bg-bot.jpg');
+      background-color: rgba(0, 0, 0, 0);
+      background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-color: #1B1A1A;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-left: -10px;
+  margin-right: -10px;
+  text-shadow: 1px 1px 3px #000;
+}
+.sp-container .sp-top .sp-gameplay-img{
+  margin-top: 23px;
 }
