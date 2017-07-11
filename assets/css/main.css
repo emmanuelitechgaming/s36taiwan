@@ -446,7 +446,7 @@ main .contactus {
 }
 
 main .c-icon {
-    padding: 21px 7px;
+    padding: 19.7px 7px;
     color: #d6d7dc;
     font-size: 54px;
     font-weight: 700;
@@ -478,6 +478,8 @@ main .ctmail {
 
 main .winner-cont {
     margin: 15px 0;
+    min-height: 303px;
+    max-height: 303px
 }
 
 main .win-game img {
@@ -5216,8 +5218,8 @@ div.input-border #country-sel.flagstrap .btn .caret{
   margin-top: 10px
 }
 .sitemap-body2d ul{
-  -webkit-column-count: 4;
-          column-count: 4;
+  -webkit-column-count: 5;
+          column-count: 5;
 }
 .sitemap-body2e ul{
   -webkit-column-count: 5;
