@@ -37,8 +37,8 @@
         right: -11px;
     }
     .gp .live-game img {
-      max-width: 130%;
-      margin-left: -19px;
+      max-width: 120%;
+      margin-left: -15px;
     }
     header .logo a {
         display: inline-block;
@@ -651,6 +651,9 @@
     .header-cs{
       right: 1%;
     }
+    .gp-first a{
+      padding-bottom: 5px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1157,6 +1160,9 @@
     }
     .header-cs {
       right: 1%;
+    }
+    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img, .m-fsalon ul li:nth-child(3) img, .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img {
+      height: 80px;
     }
 }
 

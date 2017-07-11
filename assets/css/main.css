@@ -4733,7 +4733,7 @@ right: 160px;
   bottom: -6px;
 }
 .gp-first a{
-  padding-bottom: 4px
+  padding-bottom: 3px
 }
 .gp-g .col-md-4:nth-child(1) a{
   padding-left: 5px;
@@ -5271,4 +5271,7 @@ main .win-lot-top-games{
 .header-cs img{
   max-width: 100%;
   display: block;
+}
+.casino-g-img{
+  cursor: pointer;
 }
