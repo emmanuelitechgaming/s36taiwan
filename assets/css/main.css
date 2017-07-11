@@ -5326,3 +5326,9 @@ margin-right: -10px;
 .sp-container .sp-top .sp-gameplay-img{
   margin-top: 23px;
 }
+.sp-title.text-left a{
+  color: #fba601
+}
+.sp-title.text-left a:hover{
+  text-decoration: none
+}
