@@ -355,7 +355,7 @@
         padding: 5px 20px !important;
     }
     .panel-heading .slots-tabs > li > a {
-        padding: 5px 18px !important;
+        padding: 5px 16px !important;
     }
     .promotion-swiper-container {
       width: 257px;
@@ -434,7 +434,7 @@
       margin-top: 5px;
     }
     .live-game-txtb{
-      font-size: 9px;
+      font-size: 11px;
       letter-spacing: 0.5px;
       bottom: 12px;
     }
@@ -445,8 +445,8 @@
       bottom: 5px;
     }
     .live-game-txtc {
-      font-size: 9px;
-      bottom: 19px;
+      font-size: 11px;
+      bottom: 18px;
     }
 
     .casino-mp, .slots-mp{
@@ -652,7 +652,7 @@
       right: 1%;
     }
     .gp-first a{
-      padding-bottom: 5px
+      padding-bottom: 4px
     }
 }
 
@@ -758,7 +758,27 @@
       right: 1%;
     }
     .gp-first a {
-      padding-bottom: 8px;
+      padding-bottom: 7px;
+    }
+    .live-game-txtb{
+      font-size: 13px;
+    }
+    .live-game-txtba a{
+      padding-left: 4px
+    }
+    .live-game-txtbb a{
+      padding-left: 7px
+    }
+    .live-game-txtbc a, .live-game-txtbd a{
+      padding-bottom: 5px;
+      padding-left: 3px
+    }
+    .live-game-txtc {
+      font-size: 13px;
+      bottom: 20px;
+    }
+    .panel-heading .slots-tabs > li > a {
+      padding: 5px 23px !important;
     }
 }
 
@@ -822,7 +842,7 @@
         top: 21px;
     }
     .panel-heading .slots-tabs > li > a {
-        padding: 5px 27px !important;
+        padding: 5px 25px !important;
     }
     .panel-heading .lotto-tabs > li > a {
         padding: 5px 19px !important;
@@ -838,11 +858,11 @@
       margin-top: 5px;
     }
     .live-game-txtb{
-      font-size: 11px;
-      bottom: 14px;
+      font-size: 13px;
+      bottom: 13px;
     }
     .frut-popper .live-game-txtb {
-      bottom: 8px;
+      bottom: 7px;
     }
     .jigong .live-game-txtb {
       bottom: 6px;
@@ -942,6 +962,10 @@
     .header-cs{
       right: 1%;
     }
+    .live-game-txtba a {
+      padding-bottom: 6px;
+      padding-left: 6px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1011,13 +1035,26 @@
       right: 1%;
     }
     .gp-first a {
-      padding-bottom: 9px;
+      padding-bottom: 7px;
     }
     .live-game-txtba a, .live-game-txtbc a, .live-game-txtbd a{
       padding-left: 10px
     }
     .live-game-txtbb a{
       padding-left: 15px
+    }
+    .live-game-txtbc a, .live-game-txtbd a{
+      padding-bottom: 6px
+    }
+    .live-game-txtb {
+      font-size: 14px;
+    }
+    .live-game-txtc {
+      font-size: 14px;
+      bottom: 22px;
+    }
+    .prizepool {
+      font-size: 14px;
     }
 }
 
@@ -1066,7 +1103,7 @@
         padding: 5px 24px;
     }
     .panel-heading .slots-tabs > li > a {
-        padding: 5px 33px !important;
+        padding: 5px 32px !important;
     }
     .panel-heading .promotional-tabs {
         width: 565px;
@@ -1085,12 +1122,13 @@
       margin-top: 5px;
     }
     .live-game-txtb {
-      font-size: 12px;
+      font-size: 15px;
       letter-spacing: 1px;
       bottom: 16px;
     }
     .live-game-txtc {
       bottom: 24px;
+      font-size: 15px
     }
     .m-selectpicker2-menu {
       top: -287px !important;
@@ -1175,13 +1213,16 @@
       height: 80px;
     }
     .gp-first a {
-      padding-bottom: 7px;
+      padding-bottom: 5px;
     }
     .live-game-txtba a, .live-game-txtbc a, .live-game-txtbd a{
       padding-left: 10px
     }
     .live-game-txtbb a{
       padding-left: 15px
+    }
+    .prizepool {
+      font-size: 15px;
     }
 }
 
@@ -1786,7 +1827,7 @@
         padding-left: 15px;
     }
     .prizepool {
-        font-size: 11px;
+        font-size: 16px;
     }
     .win-body .user {
         font-size: 16px;
@@ -1960,6 +2001,10 @@
     }
     .gp-first a {
       padding-bottom: 3px;
+    }
+    .win-lot-top-games .prizepool{
+      font-size: 12px;
+      white-space: nowrap;
     }
 }
 
