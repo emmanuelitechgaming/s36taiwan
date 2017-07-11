@@ -446,7 +446,7 @@
     }
     .live-game-txtc {
       font-size: 14px;
-      bottom: 19px;
+      bottom: 15px;
     }
 
     .casino-mp, .slots-mp{
@@ -662,6 +662,25 @@
     main .win-game img{
       margin-left: -10px;
       bottom: -10px
+    }
+    .live-game-txtba a {
+      padding-bottom: 4px;
+      padding-left: 6px;
+    }
+    .live-game-txtbb a {
+      padding-bottom: 2.5px;
+      padding-left: 8px;
+    }
+    .live-game-txtbc a {
+      padding-bottom: 2.5px;
+      padding-left: 8px;
+    }
+    .live-game-txtbd a {
+      padding-bottom: 4.5px;
+      padding-left: 5px;
+    }
+    .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
+      bottom: 8px;
     }
 }
 
@@ -1998,6 +2017,22 @@
     }
     main .win-game img {
       bottom: -3px;
+    }
+    .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
+      bottom: 13px;
+    }
+    .live-game-txtba a{
+      padding-left: 2px;
+    }
+    .live-game-txtbb a{
+      padding-left: 2px;
+    }
+    .live-game-txtbc a{
+      padding-left: 0px;
+    }
+    .live-game-txtbd a{
+      padding-left: 2px;
+      padding-right: 8px
     }
 }
 

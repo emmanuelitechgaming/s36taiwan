@@ -15,7 +15,7 @@ header{
   background: url('../img/casino-bg.png');
 
   background-repeat: no-repeat;
-  background-position-x: 921px;
+  background-position-x: 880px;
   background-position-y: -13px;
 }
 header .top-header{
@@ -3659,10 +3659,6 @@ display: none !important;
 
 .live-game-txtc{
   letter-spacing: 1px;
-}
-
-.i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
-  bottom: 13px;
 }
 .content  span{
   color: #fba601;
