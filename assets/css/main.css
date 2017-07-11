@@ -4215,15 +4215,25 @@ header .top-header ul li:nth-child(1){
   padding: 0 18% 20px;*/
   display: none !important;
   margin: 0;
-  background: #1B1B1B;
+  /*background: #1B1B1B;*/
+  background: #fff;
   font-family: Arial;
-  color: #fff;
+  color: #333;
   font-size: .75em;
   cursor: pointer;
   min-width: 150px;
   left: 642px;
   top: 28px;
   padding: 0 1% 20px;
+}
+.drop .language-picker:nth-child(even) .grey{
+  background: #ffe1e1
+}
+.lang span{
+  color: #333 !important
+}
+.drop .flag-icon{
+  margin-right: 25px;
 }
 /*.top-header ul {
   background: #1B1B1B;
@@ -4241,7 +4251,8 @@ header .top-header ul li:nth-child(1){
   cursor: pointer;
   min-width: 230px;
   width: 230px;
-  background: #1B1B1B;
+  /*background: #1B1B1B;*/
+  background: #fff;
   display: block;
   position: relative;
 }
@@ -5308,14 +5319,14 @@ margin-left: -10px;
 margin-right: -10px;
 }
 .sp-container .sp-bottom{
-  background: url('../img/sp/casino/bg-bot.jpg');
+  /*background: url('../img/sp/casino/bg-bot.jpg');
       background-color: rgba(0, 0, 0, 0);
-      background-repeat: repeat;
+      background-repeat: repeat;*/
   background-color: rgba(0, 0, 0, 0);
   background-repeat: repeat;
   background-repeat: no-repeat;
-  background-color: #1B1A1A;
-  overflow: hidden;
+  /*background-color: #1B1A1A;*/
+  background-color: #000;;  overflow: hidden;
   margin-top: 0px;
   margin-left: -10px;
   margin-right: -10px;
@@ -5329,7 +5340,8 @@ margin-right: -10px;
   font-size: 13px!important;
 }
 .sp-container .sp-bottom .sp-desc p{
-  color: #424242;
+  /*color: #424242;*/
+  color: #fff
 }
 .sp-title.text-left a{
   color: #fba601
@@ -5339,4 +5351,32 @@ margin-right: -10px;
 }
 .lotto-strip{
   margin-top: auto
+}
+.slots-tab-a li{
+  display: inline-block;
+  margin-left: -3px;
+  width: 50%;
+}
+.slots-tab-a li a{
+  color: #999
+}
+.panel-heading ul.slots-tab-a li.active{
+  border-bottom: 4px solid #fba601;
+}
+.panel-heading ul.slots-tab-a li.active a{
+  color: #fba601
+}
+.slots-tab-a li a{
+  text-align: center;
+}
+.slots-breadcrumb-inner{
+  position: relative;
+}
+.slots-breadcrumb-inner-line{
+  width: 1px;
+  background: #000;
+  position: absolute;
+  right: 33.3%;
+  top: 48px;
+  bottom: 25px;
 }
