@@ -355,7 +355,7 @@
         padding: 5px 20px !important;
     }
     .panel-heading .slots-tabs > li > a {
-        padding: 5px 18px !important;
+        padding: 5px 16px !important;
     }
     .promotion-swiper-container {
       width: 257px;
@@ -770,6 +770,9 @@
     .header-cs{
       right: 1%;
     }
+    .panel-heading .slots-tabs > li > a {
+        padding: 5px 23px !important;
+    }
 }
 
 
@@ -832,7 +835,7 @@
         top: 21px;
     }
     .panel-heading .slots-tabs > li > a {
-        padding: 5px 27px !important;
+        padding: 5px 25px !important;
     }
     .panel-heading .lotto-tabs > li > a {
         padding: 5px 19px !important;
@@ -1051,6 +1054,9 @@
     .win-lot-top-games .prizepool{
       font-size: 14px;
     }
+    .panel-heading .slots-tabs > li > a {
+      padding: 5px 32px !important;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -1101,7 +1107,7 @@
         padding: 5px 24px;
     }
     .panel-heading .slots-tabs > li > a {
-        padding: 5px 33px !important;
+        padding: 5px 32px !important;
     }
     .panel-heading .promotional-tabs {
         width: 565px;
