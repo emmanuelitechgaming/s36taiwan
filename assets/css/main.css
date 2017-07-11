@@ -483,8 +483,7 @@ main .winner-cont {
 }
 
 main .win-game img {
-  max-width: 93%;
-  position: relative;
+    max-width: 93%;
 }
 
 main .addbanner {
@@ -737,7 +736,6 @@ div.border:before {
 .breadcrumb-inner {
     overflow: hidden;
     background: #1b1a1a;
-    padding-bottom: 35px;
     margin-bottom: 15px;
 }
 
@@ -875,12 +873,12 @@ font-size: 19px;
 }
 
 .breadcrumb-inner .sp-container{
-padding: 20px 10px;
+padding: 0 10px;
 }
 .breadcrumb-inner .sp-container .sp-title{
   color: #fba601;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 25px;
   letter-spacing: 2px;
   text-align: center;
 }
@@ -5271,7 +5269,7 @@ text-align: center;
   font-size: 12px !important
 }
 main .win-lot-top-games{
-  padding: 5px 0 3px;
+  padding: 5px 0
 }
 .header-cs{
   position: absolute;
@@ -5321,8 +5319,15 @@ margin-right: -10px;
   margin-top: 0px;
   margin-left: -10px;
   margin-right: -10px;
-  text-shadow: 1px 1px 3px #000;
+  font-weight: 700;
+  padding-bottom:  15px;
 }
 .sp-container .sp-top .sp-gameplay-img{
-  margin-top: 23px;
+  margin-top: 45px;
+}
+.sp-container .s-txt{
+  font-size: 13px!important;
+}
+.sp-container .sp-bottom .sp-desc p{
+  color: #424242;
 }
