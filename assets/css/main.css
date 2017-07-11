@@ -481,7 +481,8 @@ main .winner-cont {
 }
 
 main .win-game img {
-    max-width: 93%;
+  max-width: 93%;
+  position: relative;
 }
 
 main .addbanner {
@@ -5268,7 +5269,7 @@ text-align: center;
   font-size: 12px !important
 }
 main .win-lot-top-games{
-  padding: 5px 0
+  padding: 5px 0 3px;
 }
 .header-cs{
   position: absolute;

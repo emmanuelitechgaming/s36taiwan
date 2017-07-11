@@ -651,6 +651,18 @@
     .header-cs{
       right: 1%;
     }
+    .gp-first a{
+      padding-bottom: 4px
+    }
+    .win-lot-top-games .prizepool{
+      font-size: 12px;
+      white-space: nowrap;
+      margin-left: -30px;
+    }
+    main .win-game img{
+      margin-left: -10px;
+      bottom: -10px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -936,6 +948,13 @@
     .header-cs{
       right: 1%;
     }
+    .live-game-txtba a {
+      padding-bottom: 6px;
+      padding-left: 6px;
+    }
+    .win-lot-top-games .prizepool{
+      margin-left: -25px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1002,6 +1021,31 @@
     }
     .header-cs {
       right: 1%;
+    }
+    .gp-first a {
+      padding-bottom: 7px;
+    }
+    .live-game-txtba a, .live-game-txtbc a, .live-game-txtbd a{
+      padding-left: 10px
+    }
+    .live-game-txtbb a{
+      padding-left: 15px
+    }
+    .live-game-txtbc a, .live-game-txtbd a{
+      padding-bottom: 6px
+    }
+    .live-game-txtb {
+      font-size: 14px;
+    }
+    .live-game-txtc {
+      font-size: 14px;
+      bottom: 22px;
+    }
+    .prizepool {
+      font-size: 14px;
+    }
+    .win-lot-top-games .prizepool{
+      font-size: 14px;
     }
 }
 
@@ -1933,6 +1977,17 @@
     .absolute-play{
       left: 42%;
       top: 25%;
+    }
+    .gp-first a {
+      padding-bottom: 3px;
+    }
+    .win-lot-top-games .prizepool{
+      font-size: 12px;
+      white-space: nowrap;
+      margin-left: auto;
+    }
+    main .win-game img {
+      bottom: -3px;
     }
 }
 
