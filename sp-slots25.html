@@ -26,8 +26,6 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/media.css">
-    <link rel="stylesheet" href="assets/css/remo-style.css">
-    <link rel="stylesheet" href="assets/css/media-queries/remo-media.css">
     <link rel="stylesheet" href="assets/css/hamburgers.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
@@ -451,79 +449,334 @@
       </div>
     </div>
   </nav>
-  <nav class="navbar">
-      <div class="container">
-          <div class="navbar-header header-mobile">
+      <nav class="navbar">
+          <div class="container">
+              <div class="navbar-header header-mobile">
 
-              <!-- <a href="#"  id="mdemo-form-btn"class="panel-login-btn m-demo-img hidden-lg hidden-md">
-                <img src="assets/img/demo.png" class="panel-login-btn img-responsive demo-img" alt=""></a> -->
-              <div class="mobile-button hidden-lg hidden-md hidden-sm hidden-xs">
-                  <a href="#" id="mobile-button" class="panel-login-btn" data-toggle="collapse" data-target="#mobile-top-menu"><i class="fa fa-caret-up"></i></a>
-              </div>
+                  <!-- <a href="#"  id="mdemo-form-btn"class="panel-login-btn m-demo-img hidden-lg hidden-md">
+                    <img src="assets/img/demo.png" class="panel-login-btn img-responsive demo-img" alt=""></a> -->
+                    <div class="mobile-button hidden-lg hidden-md hidden-sm hidden-xs">
+                        <a href="#" id="mobile-button" class="panel-login-btn" data-toggle="collapse" data-target="#mobile-top-menu"><i class="fa fa-caret-up"></i></a>
+                    </div>
 
-              <div class="logo nathan-logo header-mobile-logo pull-left">
-                  <a href="index.html"></a>
-              </div>
+                  <div class="logo nathan-logo header-mobile-logo pull-left">
+                      <a href="index.html"></a>
+                  </div>
 
-              <div class="hidden-lg hidden-md">
-                  <div class="navbar-header remo-navbar-header">
-                      <button class="selectpicker2" id="m-selectpicker2" data-toggle="dropdown"> 台灣/繁體</button>
-                      <div class="dropdown-menu selectpicker2-menu">
-                        <div class="row">
-                          <div class="col-md-3">
-                            <a href=""><span class="flag-icon flag-icon-cn"> </span> <span class="cntry">中國</span>
-                              <span href="#" class="selectpicker2-sub">繁体</span>
-                                    <span href="#" class="selectpicker2-sub">简体</span>
-                            </a>
-                            <a href=""><span class="flag-icon flag-icon-in"> </span> <span class="cntry">印度</span>
-                              <span href="#" class="selectpicker2-sub">INR</span>
-                            </a>
-                            <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">印尼</span>
-                              <span href="#" class="selectpicker2-sub">IDR</span>
-                            </a>
-                            <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
-                              <span href="#" class="selectpicker2-sub">JPY</span>
-                            </a>
-                            <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">馬來西亞</span>
-                              <span href="#" class="selectpicker2-sub">MYR</span>
-                            </a>
-                            <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
-                              <span href="#" class="selectpicker2-sub">TWD</span>
-                            </a>
-                            <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">泰國</span>
-                              <span href="#" class="selectpicker2-sub">THP</span>
-                            </a>
-                            <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">越南</span>
-                              <span href="#" class="selectpicker2-sub">VND</span>
-                            </a>
+                  <div class="hidden-lg hidden-md">
+                    <div class="navbar-header remo-navbar-header">
+                        <button class="selectpicker2" id="m-selectpicker2" data-toggle="dropdown">台灣<span class="selectpicker2-separator">/</span>繁體 <i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-menu selectpicker2-menu">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <a href=""><span class="flag-icon flag-icon-au"> </span> Australia <span href="#" class="selectpicker2-sub">English</span></a>
+                              <a href=""><span class="flag-icon flag-icon-mx"> </span> <span class="cntry">Mexico</span>
+                                <span href="#" class="selectpicker2-sub">Méjico</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">Việt Nam</span>
+                                <span href="#" class="selectpicker2-sub">Việt Nam</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-br"> </span> <span class="cntry">Brasil</span>
+                                <span href="#" class="selectpicker2-sub">Brasil</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                            </div>
+                            <div class="col-md-3">
+                              <a href=""><span class="flag-icon flag-icon-nz"> </span> <span class="cntry">New Zealand</span>
+                                <span href="#" class="selectpicker2-sub">Aotearoa</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">ไทย</span>
+                                <span href="#" class="selectpicker2-sub">ประเทศไทย</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">Indonesia</span>
+                                <span href="#" class="selectpicker2-sub">Indonesia</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-ph"> </span> <span class="cntry">Philippines</span>
+                                <span href="#" class="selectpicker2-sub">Filipino</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                            </div>
+                            <div class="col-md-3">
+                              <a href=""><span class="flag-icon flag-icon-kr"> </span> <span class="cntry">대한민국</span>
+                                <span href="#" class="selectpicker2-sub">대한민국</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-hk"> </span> <span class="cntry">香港特別行政區</span>
+                                <span href="#" class="selectpicker2-sub">香港</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">Malaysia</span>
+                                <span href="#" class="selectpicker2-sub">Malaysia</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-sg"> </span> <span class="cntry">Singapore</span>
+                                <span href="#" class="selectpicker2-sub">香港</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                            </div>
+                            <div class="col-md-3">
+                              <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
+                                <span href="#" class="selectpicker2-sub">香港</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
+                                <span href="#" class="selectpicker2-sub">日本</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                            </div>
                           </div>
                         </div>
-                      </div>
+                    </div>
+
                   </div>
               </div>
-          </div>
-          <div class="hidden-sm hidden-xs">
-              <div class="navbar-header">
-                  <button class="selectpicker2"></span><span class="flag-icon flag-icon-tw"> </span> 台灣/繁體 <i class="fa fa-caret-down"></i></button>
+              <div class="hidden-sm hidden-xs">
+                  <div class="navbar-header">
+                        <button class="selectpicker2"></span> 台灣<span class="selectpicker2-separator">/</span>繁體 <i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-menu selectpicker2-menu">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <a href=""><span class="flag-icon flag-icon-au"> </span> <span class="cntry">Australia</span> <span href="#" class="selectpicker2-sub">English</span></a>
+                              <a href=""><span class="flag-icon flag-icon-mx"> </span> <span class="cntry">Mexico</span>
+                                <span href="#" class="selectpicker2-sub">Méjico</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">Việt Nam</span>
+                                <span href="#" class="selectpicker2-sub">Việt Nam</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-br"> </span> <span class="cntry">Brasil</span>
+                                <span href="#" class="selectpicker2-sub">Brasil</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                            </div>
+                            <div class="col-md-3">
+                              <a href=""><span class="flag-icon flag-icon-nz"> </span> <span class="cntry">New Zealand</span>
+                                <span href="#" class="selectpicker2-sub">Aotearoa</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">ไทย</span>
+                                <span href="#" class="selectpicker2-sub">ประเทศไทย</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">Indonesia</span>
+                                <span href="#" class="selectpicker2-sub">Indonesia</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-ph"> </span> <span class="cntry">Philippines</span>
+                                <span href="#" class="selectpicker2-sub">Filipino</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                            </div>
+                            <div class="col-md-3">
+                              <a href=""><span class="flag-icon flag-icon-kr"> </span> <span class="cntry">대한민국</span>
+                                <span href="#" class="selectpicker2-sub">대한민국</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-hk"> </span> <span class="cntry">香港特別行政區</span>
+                                <span href="#" class="selectpicker2-sub">香港</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">Malaysia</span>
+                                <span href="#" class="selectpicker2-sub">Malaysia</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-sg"> </span> <span class="cntry">Singapore</span>
+                                <span href="#" class="selectpicker2-sub">香港</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                            </div>
+                            <div class="col-md-3">
+                              <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
+                                <span href="#" class="selectpicker2-sub">香港</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
+                                <span href="#" class="selectpicker2-sub">日本</span>
+                                <span href="#" class="selectpicker2-sub">English</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+
+                  <div class="collapse desktop-support" id="desktopSupport">
+                    <div class="container">
+                        <div class="desktop-support-title">Global Support</div>
+                      <div class="col-md-3">
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-au"></span> Australia</div>
+                        <div>Melbourne</div>
+                        <div class="desktop-support-number">+61 3 8820 5819</div>
+                        <div>24/7 Support</div>
+                        <br>
+                        <div>Countrywide</div>
+                        <div class="desktop-support-number">1300 351 076</div>
+                        <div>24/7 Support</div>
+                        <br>
+                        <div>Sydney</div>
+                        <div class="desktop-support-number">+61 2 9355 7491</div>
+                        <div>24/7 Support</div>
+                        <br>
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-mx"></span> México</div>
+                        <div>Ciudad de México</div>
+                        <div class="desktop-support-number">+52 55 4631 2410</div>
+                        <div>24/7 Atención al cliente</div>
+                        <br>
+                        <div>Guadalajara</div>
+                        <div class="desktop-support-number">+52 33 4624 1997</div>
+                        <div>24/7 Atención al cliente</div>
+                        <br>
+                        <div>Monterrey</div>
+                        <div class="desktop-support-number">+52 81 4770 1526</div>
+                        <div>24/7 Atención al cliente</div>
+                        <br>
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-vn"></span> Việt Nam</div>
+                        <div>TPHCM</div>
+                        <div class="desktop-support-number">+84 8 4458 1371</div>
+                        <div>Hỗ trợ bằng tiếng Anh 24/7</div>
+                        <br>
+                        <div>Hoa Kỳ</div>
+                        <div class="desktop-support-number">+1 480 463 8702</div>
+                        <div>Hỗ trợ bằng tiếng Anh 24/7</div>
+
+
+                      </div>
+
+                      <div class="col-md-3">
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-br"></span> Brasil</div>
+                        <div>Em todo o território nacional</div>
+                        <div class="desktop-support-number">4003 3329</div>
+                        <div>Acessível somente no país <br>
+                              9:00 - 21:00 hrs, de segunda à sexta</div>
+                        <br>
+                        <div>Rio de Janeiro</div>
+                        <div class="desktop-support-number">+55 21 3956 9989</div>
+                        <div>9:00 - 21:00 hrs, de segunda à sexta</div>
+                        <br>
+                        <div>São Paulo</div>
+                        <div class="desktop-support-number">+55 11 3958 5679</div>
+                        <div>9:00 - 21:00 hrs, de segunda à sexta</div>
+                        <br>
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-nz"></span> New Zealand</div>
+                        <div>Auckland</div>
+                        <div class="desktop-support-number">+64 9 975 9407</div>
+                        <div>24/7 Support</div>
+                        <br>
+                        <div>Countrywide</div>
+                        <div class="desktop-support-number">0800 441 995</div>
+                        <div>Only accessible in country <br>24/7 Support</div>
+                        <br>
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-th"></span> ไทย</div>
+                        <div>กรุงเทพมหานคร</div>
+                        <div class="desktop-support-number">+66 2 105 6194</div>
+                        <div> สนับสนุน 24/7 อังกฤษ</div>
+                        <br>
+                        <div>ทั่วประเทศ</div>
+                        <div class="desktop-support-number">+66 60 002 4085</div>
+                        <div>สนับสนุน 24/7 อังกฤษ</div>
+
+                      </div>
+
+                      <div class="col-md-3">
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-id"></span> Indonesia</div>
+                        <div>Jakarta</div>
+                        <div class="desktop-support-number">+62 21 2975 8958</div>
+                        <div>Dukungan 24/7 (Inggris)</div>
+                        <br>
+                        <div>Seluruh negara</div>
+                        <div class="desktop-support-number">+62 855 7467 0841</div>
+                        <div>Dukungan 24/7 (Inggris)</div>
+                        <br>
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-ph"></span> Philippines</div>
+                        <div>Manila</div>
+                        <div class="desktop-support-number">+63 2 759 1426</div>
+                        <div>24/7 Support</div>
+                        <br>
+                        <div>Countrywide</div>
+                        <div class="desktop-support-number">+63 923 099 0453</div>
+                        <div>24/7 Support</div>
+                        <br>
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-kr"></span> 대한민국</div>
+                        <div>서울</div>
+                        <div class="desktop-support-number">+82 2 6433 9576</div>
+                        <div>월-금 10:00am - 5:00pm</div>
+                        <br>
+                        <div>전국적으로</div>
+                        <div class="desktop-support-number">080 808 0904</div>
+                        <div>다음 국가에서만 액세스 가능 <br> 월-금 10:00am - 5:00pm</div>
+                        <div>24/7 Support</div>
+                        <br>
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-hk"></span> 香港特別行政區</div>
+                        <div>서울</div>
+                        <div class="desktop-support-number">+852 3018 8600</div>
+                        <div>週一至週五,上午 9:00 至下午 6:00  </div>
+                    </div>
+
+                      <div class="col-md-3">
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-my"></span> Malaysia</div>
+                        <div>Countrywide</div>
+                        <div class="desktop-support-number">+60 15 4877 0207</div>
+                        <div>24/7 Support</div>
+                        <br>
+                        <div>Kuala Lumpur</div>
+                        <div class="desktop-support-number">+60 3 6207 4694</div>
+                        <div>24/7 Support</div>
+                        <br>
+                        <div>Malay Seluruh Negara</div>
+                        <div class="desktop-support-number">+60 15 4877 0207</div>
+                        <div>Sokongan B Ing. 24/7</div>
+                        <br>
+                        <div>Wilayah Persekutuan Kuala Lumpur</div>
+                        <div class="desktop-support-number">+60 3 6207 4694</div>
+                        <div>Sokongan B Ing. 24/7</div>
+                        <br>
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-sg"></span> Singapore</div>
+                        <div>Singapore</div>
+                        <div class="desktop-support-number">+65 6349 4240</div>
+                        <div>24/7 Support</div>
+                        <br>
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-tw"></span> 台灣</div>
+                        <div>全國服務</div>
+                        <div class="desktop-support-number">+886 9 7348 2984</div>
+                        <div>週一至週五,上午 9:00 至下午 6:00</div>
+                        <br>
+                        <div class="desktop-support-number"><span class="flag-icon flag-icon-jp"></span> 日本</div>
+                        <div>全國対応</div>
+                        <div class="desktop-support-number">050 6864 8178</div>
+                        <div>国内からのみアクセス可能<br>全國対応: 午前 10 時~午後 5 時 (月~金)</div>
+                        <br>
+                        <div>東京</div>
+                        <div class="desktop-support-number">+81 3 6731 4843</div>
+                        <div>全國対応: 午前 10 時~午後 5 時 (月~金)</div><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+
+                      </div>
+
+                      <div class="col-md-12 text-center">
+                        <a href="#" id="desktopSupportClose">收起</a>
+                      </div>
+
+                    </div>
+
+
+                  </div>
+                  <div class="navbar-header  navbar-form navbar-cta-btn ">
+                      <!-- <a href="#desktopSupport" data-toggle="collapse" class="desktop-support-trigger pull-left support-pc">24/7 Support Manila: \(02\) 231-2988</a> -->
+                  </div>
+                  <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
+                      <!-- <a href="#" class="panel-login-btn" id="demo-form-btn"style="margin-bottom: -3px;"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a> -->
+                      <a href="#" class="panel-login-btn myModalTab1" data-toggle="modal" data-target="#myModal"><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
+                      <a href="#" class="panel-login-btn myModalTab3" data-toggle="modal" data-target="#demoModal"><img src="assets/img/login.png" class="img-responsive btn-log" alt=""></a>
+                  </div>
               </div>
 
-              <div class="navbar-header  navbar-form navbar-cta-btn ">
-                  <!-- <a href="#desktopSupport" data-toggle="collapse" class="desktop-support-trigger pull-left support-pc">24/7 Support Manila: \(02\) 231-2988</a> -->
-              </div>
-              <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
-                  <!-- <a href="#" class="panel-login-btn" id="demo-form-btn"style="margin-bottom: -3px;"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a> -->
-                  <a href="#" class="panel-login-btn myModalTab1" data-toggle="modal" data-target="#myModal"><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
-                  <a href="#" class="panel-login-btn" data-toggle="modal" data-target="#demoModal"><img src="assets/img/login.png" class="img-responsive btn-log" alt=""></a>
-              </div>
           </div>
-
-          <div class="header-cs hidden-lg hidden-md">
-            <a href="#csModal" data-toggle="modal"><img src="assets/img/Y2.png" alt=""></a>
-            <a href="helpcenter.html"><img src="assets/img/Y1.png" alt=""></a>
-          </div>
-
-      </div>
-  </nav>
+      </nav>
 
       <nav class="navbar navbar-inverse nav-bg nav-main-bg">
           <div class="container">
@@ -537,6 +790,19 @@
                   <li><a href="promotion.html">優惠</a></li>
                   <li class="hidden-md hidden-lg pull-right"><a href="#"><i class="fa fa-angle-down" aria-hidden="true" data-toggle="collapse" data-target="#menu"></i></a></li>
               </ul>
+
+              <!-- <div class="mnav hidden-lg hidden-md">
+                <a class="home" href="index.html"><i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a>
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="casino.html" class="active">真人娛樂場</a></div>
+                    <div class="swiper-slide"><a href="slots.html">老虎機</a></div>
+                    <div class="swiper-slide"><a href="lotto.html">捕鱼</a></div>
+                    <div class="swiper-slide"><a href="promotion.html">優惠</a></div>
+                  </div>
+                </div>
+                <a class="menu-toggle pull-right" href="#menu" data-toggle="collapse"><i class="fa fa-angle-down"></i></a>
+              </div> -->
 
               <div class="mnav mnav-top hidden-lg hidden-md">
                 <ul class="clearfix">
@@ -622,31 +888,50 @@
 
             <div class=" breadcrumb-content">
                 <div class="breadcrumb-inner">
-                  <div class="sp-container">
-                  <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                    <img src="assets/img/sp/25.png" class="img-responsive" alt="">
-                  </div>
-                  <div class="col-md-6 col-sm-12 col-xs-12">
 
-                  <div class="sp-title text-left">更多游戏</div>
-                  <div class="sp-title text-left sp-game-title"><h3>紅樓春夢</h3></div>
-                    <div class="sp-desc">
-                      <p>遠離俗世繁囂，投入美人懷抱。裙擺一飄，所有煩惱隨即一掃而空。踏上紅樓，浮華春夢，讓您感受最純真脫俗的溫柔。</p>
+                  <div class="sp-container">
+                    <div class="sp-top" id="sp-bg-25">
+                    <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                      <div class="sp-gameplay-img">
+                      <img src="assets/img/sp/25.png" class="img-responsive" alt="">
+                      </div>
                     </div>
-                    <div class="">
-                        <i class="fa fa-desktop" style="font-size: 30px; margin:0 5px;"></i>
-                        <i class="fa fa-mobile" style="font-size: 38px; margin:0 5px; "></i>
                     </div>
-                  </div>
-                  <div class="col-md-6 col-sm-12 col-xs-12">
-                      <img src="assets/img/sp/25b.png"  class="img-responsive b-img"alt="">
-                  </div>
-                  <div class="row">
-                    <div class="col-xs-12 text-center sp-back-btn">
-                      <a class=""><img src="assets/img/sp/reg-btn.png" class="img-responsive"></a>
+
+                    <div class="sp-strip">
+                      <div class="col-md-12">
+                        <div class="sp-title text-left"><a href="slots.html"><i class="fa fa-caret-left" style="font-size:20px;"aria-hidden="true"></i> 更多游戏</a></div>
+                      </div>
                     </div>
+
+                    <div class="sp-bottom">
+                      <div class="col-md-8 col-sm-12 col-xs-12">
+                      <br>
+
+                        <div class="sp-title text-left sp-game-title"><h3>紅樓春夢</h3></div>
+                        <div class="sp-desc">
+                        <p>遠離俗世繁囂，投入美人懷抱。裙擺一飄，所有煩惱隨即一掃而空。踏上紅樓，浮華春夢，讓您感受最純真脫俗的溫柔。 或「莊家」雙方最多獲補第三張牌，當發牌完畢後，點數最接近9點而不超過9點的一方勝出，總點數相等則是「和局」。</p>
+                        </div>
+
+                        <div class="sp-md">
+                          <i class="fa fa-mobile"></i>
+                          <i class="fa fa-desktop"></i>
+                        </div>
+
+                      </div>
+                      <div class="col-md-4 col-sm-6 col-xs-12">
+                        <img src="assets/img/sp/25b.png"  class="img-responsive b-img"alt="">
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12 text-center sp-back-btn">
+                        <a class=""><img src="assets/img/sp/reg-btn.png" class="img-responsive"></a>
+                      </div>
+                    </div>
+                      </div>
+                    </div>
+
                   </div>
-                  </div>
+
                 </div>
             </div>
 
@@ -654,17 +939,14 @@
 
 
         <div class="container">
-            <div class="row r-ads">
-                <div class="col-md-6 col-sm-12 r-ads-wrapper">
-                    <img src="assets/img/casinob.png" alt="">
-                    <a href="casino.html" class="r-ads-btn"><img src="assets/img/btn.png" alt=""></a>
-                </div>
-
-                <div class="col-md-6 col-sm-12 r-ads-wrapper">
-                    <img src="assets/img/lottob.png" alt="">
-                    <a href="sp-lotto.html" class="r-ads-btn"><img src="assets/img/btn.png" alt=""></a>
-                </div>
-            </div>
+          <div class="row">
+          <div class="addbanner col-md-6 col-xs-12">
+            <img src="assets/img/ads/lotto.png" class="img-responsive"alt="">
+          </div>
+          <div class="addbanner col-md-6 col-xs-12">
+            <img src="assets/img/ads/slot.png" class="img-responsive"alt="">
+          </div>
+          </div>
         </div>
 
 
@@ -734,49 +1016,48 @@
 
             <div class="col-md-4 col-xs-12">
                 <div class="winner-cont">
-                    <div class="win-title">熱門遊戲
-                        <a href="slots.html" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
+                    <div class="win-title">熱門遊戲<a href="winner.html" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;"alt=""></a>
 
                     </div>
                     <div class="win-body">
-                        <div class="win-lot win-lot-top-games">
+                        <div class="win-lot">
                             <div class="col-md-7 col-xs-7">
                                 <div class="win-game">
-                                    <a href="sp-slots3.html"><a href="sp-slots3.html"><img src="assets/img/game/1.png" class="img-responsive" alt=""></a></a>
+                                    <img src="assets/img/game/1.png" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">沙龙坊 - SA Gaming <span>幸运喵星人 - 243线</span></div>
+                                <div class="prizepool">¥562,500.00</div>
                             </div>
                         </div>
-                        <div class="win-lot win-lot-top-games">
+                        <div class="win-lot">
                             <div class="col-md-7 col-xs-7">
                                 <div class="win-game">
-                                    <a href="sp-slots4.html"><a href="sp-slots4.html"><img src="assets/img/game/2.png" class="img-responsive" alt=""></a></a>
+                                    <img src="assets/img/game/2.png" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">沙龙坊 - SA Gaming <span>幸运喵星人 - 243线</span></div>
+                                <div class="prizepool">¥562,500.00</div>
                             </div>
                         </div>
-                        <div class="win-lot win-lot-top-games">
+                        <div class="win-lot">
                             <div class="col-md-7 col-xs-7">
                                 <div class="win-game">
-                                    <a href="sp-slots1.html"><img src="assets/img/game/5.png" class="img-responsive" alt=""></a>
+                                    <img src="assets/img/game/3.png" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">沙龙坊 - SA Gaming <span>幸运喵星人 - 243线</span></div>
+                                <div class="prizepool">¥562,500.00</div>
                             </div>
                         </div>
-                        <div class="win-lot win-lot-top-games">
+                        <div class="win-lot">
                             <div class="col-md-7 col-xs-7">
                                 <div class="win-game">
-                                    <a href="sp-slots18.html"><a href="sp-slots18.html"><img src="assets/img/game/4.png" class="img-responsive" alt=""></a></a>
+                                    <img src="assets/img/game/4.png" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">沙龙坊 - SA Gaming <span>幸运喵星人 - 243线</span></div>
+                                <div class="prizepool">¥562,500.00</div>
                             </div>
                         </div>
 
@@ -971,6 +1252,7 @@
                                 </ul>
                             </div>
                             <!-- <h4 class="certs-h4">監管及認証</h4>
+
                             <div class="gameprovider footer-services f-right f-social">
                                 <ul class="columns no-bullet certs">
                                   <li><a href="#" id="cert1"><img src="assets/img/footer/cert1.png" alt="" class="img-responsive"></a></li>
@@ -1013,9 +1295,6 @@
                                         <li>
                                             <div class="list"><a href="helpcenter.html#tab5">使用條款</a></div>
                                         </li>
-                                        <li>
-                                            <div class="list list-s"><a href="helpcenter.html#tab23">如何提款</a></div>
-                                        </li>
                                     </ul>
                                 </div>
 
@@ -1054,19 +1333,22 @@
                                             <div class="list list-s"><a href="helpcenter.html#tab24">如何清除緩存</a></div>
                                         </li>
                                         <li>
-                                            <div class="list list-s"><a href="helpcenter.html#tab4">博彩规则</a></div>
+                                            <div class="list list-s"><a href="helpcenter.html#tab5">博彩规则</a></div>
                                         </li>
                                         <li>
-                                            <div class="list list-s"><a class="panel-login-btn login-modal-a" id="login-form-btn-bot" href="#">會員登入</a></div>
+                                            <div class="list list-s"><a class="panel-login-btn" id="login-form-btn-bot" href="#top">會員登入</a></div>
                                         </li>
                                         <li>
-                                            <div class="list list-s"><a class="register-modal-a" href="#">會員註冊</a></div>
+                                            <div class="list list-s"><a href="">會員註冊</a></div>
                                         </li>
                                         <li>
                                             <div class="list list-s"><a href="helpcenter.html#tab6">負責任博彩</a></div>
                                         </li>
                                         <li>
                                             <div class="list list-s"><a href="helpcenter.html#tab7">隱私政策</a></div>
+                                        </li>
+                                        <li>
+                                            <div class="list list-s"><a href="helpcenter.html#tab23">如何提款</a></div>
                                         </li>
                                         <li>
                                             <div class="list list-s"><a href="helpcenter.html#tab26">防刧持工具</a></div>
@@ -1232,24 +1514,26 @@
             <div class="copyright">
                 <div class="container ">
                   <div class=" fsalon d-fsalon hidden-sm hidden-xs">
-                    <span><a href="#" id="compat">  <img src="assets/img/footer/compatible.png" class="img-responsive" alt=""></a></span>
-                    <span><a href="#" id="compat">  <img src="assets/img/footer/safety.png" class="img-responsive" alt=""></a></span>
-                    <span><a href="#" id="compat">  <img src="assets/img/footer/21.png" class="img-responsive" alt=""></a></span>
-                    <span class="d-fsalon4"><a href="#" id=""><img src="assets/img/footer/sagaming.png" alt="" style="margin: 0;" class="img-responsive"></a></span>
-                    <span class="d-fsalon5"><a href="#" id=""><img src="assets/img/footer/ssalon.png" alt="" style="margin: 0;" class="img-responsive"> </a></span>
-                    <span  class="d-fsalon6"><a href="#" id=""><img src="assets/img/footer/f-logo2.png" class="img-responsive" alt="">沙龙国际版权所有 © 2009 - 2017</a></span>
+                    <span><a href="#"id="compat">  <img src="assets/img/footer/compatible.png" class="img-responsive" alt=""></a></span>
+                    <span><a href="#"id="compat">  <img src="assets/img/footer/safety.png" class="img-responsive" alt=""></a></span>
+                    <span><a href="#" id="compat">  <img src="assets/img/footer/21.png" class="img-responsive" alt=""></a></span><br>
+                    <span class="d-fsalon4"><a href="#" ><img src="assets/img/footer/sagaming.png" alt="" style="margin: 0;" class="img-responsive"></a></span>
+                    <span class="d-fsalon5"><a href="#" ><img src="assets/img/footer/ssalon.png" alt="" style="margin: 0;" class="img-responsive"> </a></span>
+                    <span  class="d-fsalon6"><a href="#" >  <img src="assets/img/footer/f-logo.png" class="img-responsive" alt=""></a></span>
                   </div>
 
                   <div class="fsalon m-fsalon hidden-lg hidden-md">
                     <ul>
-                      <li><a href="#"><img src="assets/img/footer/compatible_new.png" class="img-responsive" alt=""></a></li>
-                      <li><a href="#"><img src="assets/img/footer/safety_new.png" class="img-responsive" alt=""></a></li>
-                      <li><a href="#"><img src="assets/img/footer/21_new.png"  alt="img-responsive"></a></li>
-                      <li><a href="#"><img src="assets/img/footer/sa logo_new.png" alt="" class="img-responsive"></a></li>
-                      <li><a href="#"><img src="assets/img/footer/Salon logo_new.png" alt="" class="img-responsive"></a></li>
-                      <li><a href="#"><img src="assets/img/footer/f-logo2.png" class="img-responsive" alt="">沙龙国际版权所有 © 2009 - 2017</a></li>
+                      <li><a href="#"><img src="assets/img/footer/compatible.png" class="img-responsive" alt=""></a></li>
+                      <li><a href="#"><img src="assets/img/footer/safety.png" class="img-responsive" alt=""></a></li>
+                      <li><a href="#"><img src="assets/img/footer/21.png"  alt="img-responsive"><span></span></a></li>
+                      <li><a href="#"><img src="assets/img/footer/sagaming.png" alt="" class="img-responsive"></a></li>
+                      <li><a href="#"><img src="assets/img/footer/ssalon.png" alt="" class="img-responsive"></a></li>
+                      <li><a href="#"><img src="assets/img/footer/f-logo.png" class="img-responsive" alt=""></a></li>
                     </ul>
                   </div>
+                    <!-- <img src="assets/img/footer/f-logo.png" class="img-responsive" alt=""> -->
+                    <!-- <img src="assets/img/footer/21.png"  style="width:16px;"alt="">未滿21歲人士禁止進入 -->
                 </div>
             </div>
     </footer>
@@ -1382,6 +1666,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
+<<<<<<< .mine
                                                 <label for="exampleInputPassword1" class="col-md-2 col-md-offset-0 col-sm-12 col-md-offset-2  control-label">
                                                     输入密码</label>
                                                 <div class="col-md-9 col-sm-4">
@@ -1405,6 +1690,18 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
+||||||| .r1298
+=======
+                                                <label for="exampleInputPassword1" class="col-md-2 col-md-offset-0 col-sm-12 col-md-offset-2  control-label">
+                                                    输入密码</label>
+                                                <div class="col-md-9 col-sm-4">
+                                                    <div class="input-border">
+                                                        <input type="email" class="form-control" placeholder="输入密码" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+>>>>>>> .r1302
                                                 <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
                                                 <div class="col-md-9 col-sm-4">
                                                   <div class="form-group form-inline form-captcha form-recap">
