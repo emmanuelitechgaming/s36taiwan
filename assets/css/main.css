@@ -4968,7 +4968,7 @@ right: 160px;
   position: relative;
 }
 .mnav-afterlogin ul li:nth-child(4) a img{
-  height: 14px;
+  height: 24px;
   margin-bottom: 5px;
   position: relative;
   top: 2px;
@@ -5040,14 +5040,14 @@ right: 160px;
 .mnav-top ul li a img{
   display: block;
   margin: 0px auto;
-  max-width: 30%;
-  height: 20px;
+  max-width: 50%;
+  height: 25px;
 }
 .mnav-top ul li:nth-child(3) a img{
-  height: 21.5px;
+  height: 27px;
 }
 .mnav-afterlogin ul li a img{
-  height: 17px;
+  height: 25px;
 }
 .mnav-top ul li a span{
   display: block;
@@ -5336,4 +5336,7 @@ margin-right: -10px;
 }
 .sp-title.text-left a:hover{
   text-decoration: none
+}
+.lotto-strip{
+  margin-top: auto
 }
