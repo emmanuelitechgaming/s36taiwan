@@ -3,7 +3,8 @@ $(document).ready(function(){
 		{
 	    "country_name": "中國",
 	    "languages": [
-	      "CNY"
+	      "繁体",
+				"简体"
 	    ],
 	    "flag" : "flag-icon-cn"
 	  },
