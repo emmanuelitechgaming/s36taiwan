@@ -1,5 +1,9 @@
 $(document).ready(function () {
 
+  if(window.location['pathname'] == '/trunk/index.html'){
+    $('.float-contacts-m, .scrolltotop-m').css('right', '13px');
+  }
+
   $('#country-sel').flagStrap({
     countries: {
             "TW": "台灣",
