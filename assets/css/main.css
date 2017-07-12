@@ -479,8 +479,6 @@ main .ctmail {
 
 main .winner-cont {
     margin: 15px 0;
-    min-height: 303px;
-    max-height: 303px
 }
 
 main .win-game img {
@@ -2915,13 +2913,19 @@ span.round-tab i{
   background: #1a1a1a
 }
 
-.cs-modal .close{
+.cs-modal .close, #noticeModal .close{
   opacity: 1;
-  font-size: 15px
+  font-size: 40px;
+  color: #fff;
+  opacity: .2;
+  position: relative;
+  top: -15px;
 }
-
-.cs-modal .close span{
-  color: #fff1d3
+.cs-modal .close{
+  right: -25px;
+}
+.cs-modal .close:hover, #noticeModal .close:hover{
+  opacity: 1
 }
 
 .cs-modal .modal-dialog {
@@ -5220,20 +5224,8 @@ div.input-border #country-sel.flagstrap .btn .caret{
   -webkit-column-count: 4;
           column-count: 4;
 }
-.sitemap-body2b ul{
-  -webkit-column-count: 5;
-          column-count: 5
-}
 .sitemap-body2c ul .columns{
-  margin-top: 10px
-}
-.sitemap-body2d ul{
-  -webkit-column-count: 5;
-          column-count: 5;
-}
-.sitemap-body2e ul{
-  -webkit-column-count: 5;
-          column-count: 5
+  margin-top: 10px;
 }
 .sitemap-header p{
   padding-bottom: 0 !important;
@@ -5243,8 +5235,6 @@ div.input-border #country-sel.flagstrap .btn .caret{
   margin-bottom: 10px
 }
 .sitemap-body2c ul li{
-  display: inline-block !important;
-  width: 33%;
   vertical-align: top;
 }
 .sitemap-body2c ul li ul{
@@ -5256,14 +5246,6 @@ div.input-border #country-sel.flagstrap .btn .caret{
 .sitemap-body2c ul li ul li{
   display: block !important;
   width: 100%;
-}
-.sitemap-body2f ul{
-  -webkit-column-count: 2;
-          column-count: 2;
-}
-.sitemap-body2f ul li:nth-child(1) ul.columns{
-  -webkit-column-count: 2;
-          column-count: 2;
 }
 .columns.f-social li a img, .footer-shareit ul li a img{
   cursor: pointer !important
@@ -5307,6 +5289,11 @@ margin-left: -15px;
 margin-right: -15px;
 padding: 13px;
 margin-top: -19px;
+}
+.sp-promo-strip{
+  margin-top: auto;
+  margin-left: -25px;
+  margin-right: -25px;
 }
 .sp-container .sp-top{
   background: url('../img/sp/casino/bg-top.jpg');
@@ -5465,4 +5452,7 @@ margin-right: -10px;
 }
 .promo-section .breadcrumb-inner .sp-container .sp-desc{
   margin-top: 25px
+}
+.login-info-div{
+  font-size: 16px;
 }
