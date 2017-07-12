@@ -4577,6 +4577,9 @@ ol, ul {
   width: 100%;
   display: block;
 }
+.mymodal-none{
+  display: none
+}
 .rss-submit-verification,.rss-submit-verification:hover{
 
   border: 1px solid #ffad41;
@@ -4598,6 +4601,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   position: absolute;
   left: -2px;
   top: 4px;
+}
+.m-fsalon{
+  position: relative;
+  left: 1px
 }
 .m-fsalon ul{
   margin: 0;
@@ -5093,7 +5100,7 @@ right: 543px;
 .jackpot-nus-img{
   display: block;
   height: auto;
-  width: 101%;
+  width: 100%;
   margin-left: 5.4px;
 }
 .absolute-play{
