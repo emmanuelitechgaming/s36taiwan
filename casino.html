@@ -16,7 +16,7 @@
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="dist/css/bootstrap-slide.css" rel="stylesheet">
     <link href="dist/css/sweetalert.css" rel="stylesheet">
-    <link href="dist/css/font-awesome.min.css" rel="stylesheet">
+    <link href="dist/css/font-awesome.min.css" rel="stylesheet"><link href="dist/css/flags.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -45,503 +45,515 @@
 
 <body>
   <header>
-    <div class="top-header hidden-xs hidden-sm">
-      <button class="desktop-support-trigger" data-toggle="collapse" data-target="#desktopSupport" style="display: none"></button>
-      <div class="container">
-        <ul class="pull-right">
-          <li><a href="#" class="group-border lang"><div id="drop" class="drop"></div></a></li>
-          <li>
-            <a href="#" class="group-border gs">
-              <div id="drop3" class="drop desktop-support">
-                <div class="desktop-support-title">Global Support</div>
-                  <div class="col-md-3">
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-au"></span> Australia</div>
-                    <div>Melbourne</div>
-                    <div class="desktop-support-number">+61 3 8820 5819</div>
-                    <div>24/7 Support</div>
-                    <br>
-                    <div>Countrywide</div>
-                    <div class="desktop-support-number">1300 351 076</div>
-                    <div>24/7 Support</div>
-                    <br>
-                    <div>Sydney</div>
-                    <div class="desktop-support-number">+61 2 9355 7491</div>
-                    <div>24/7 Support</div>
-                    <br>
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-mx"></span> México</div>
-                    <div>Ciudad de México</div>
-                    <div class="desktop-support-number">+52 55 4631 2410</div>
-                    <div>24/7 Atención al cliente</div>
-                    <br>
-                    <div>Guadalajara</div>
-                    <div class="desktop-support-number">+52 33 4624 1997</div>
-                    <div>24/7 Atención al cliente</div>
-                    <br>
-                    <div>Monterrey</div>
-                    <div class="desktop-support-number">+52 81 4770 1526</div>
-                    <div>24/7 Atención al cliente</div>
-                    <br>
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-vn"></span> Việt Nam</div>
-                    <div>TPHCM</div>
-                    <div class="desktop-support-number">+84 8 4458 1371</div>
-                    <div>Hỗ trợ bằng tiếng Anh 24/7</div>
-                    <br>
-                    <div>Hoa Kỳ</div>
-                    <div class="desktop-support-number">+1 480 463 8702</div>
-                    <div>Hỗ trợ bằng tiếng Anh 24/7</div>
-                  </div>
+      <div class="top-header hidden-xs hidden-sm">
+          <button class="desktop-support-trigger" data-toggle="collapse" data-target="#desktopSupport" style="display: none"></button>
+          <div class="container">
+              <ul class="pull-right">
+                  <li><a href="#" class="group-border lang"><div id="drop" class="drop"></div></a></li>
+                  <li>
+                    <div id="drop3" class="drop desktop-support">
+                        <div class="desktop-support-title">Global Support</div>
+                        <div class="col-md-3">
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-au"></span> Australia</div>
+                            <div>Melbourne</div>
+                            <div class="desktop-support-number">+61 3 8820 5819</div>
+                            <div>24/7 Support</div>
+                            <br>
+                            <div>Countrywide</div>
+                            <div class="desktop-support-number">1300 351 076</div>
+                            <div>24/7 Support</div>
+                            <br>
+                            <div>Sydney</div>
+                            <div class="desktop-support-number">+61 2 9355 7491</div>
+                            <div>24/7 Support</div>
+                            <br>
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-mx"></span> México</div>
+                            <div>Ciudad de México</div>
+                            <div class="desktop-support-number">+52 55 4631 2410</div>
+                            <div>24/7 Atención al cliente</div>
+                            <br>
+                            <div>Guadalajara</div>
+                            <div class="desktop-support-number">+52 33 4624 1997</div>
+                            <div>24/7 Atención al cliente</div>
+                            <br>
+                            <div>Monterrey</div>
+                            <div class="desktop-support-number">+52 81 4770 1526</div>
+                            <div>24/7 Atención al cliente</div>
+                            <br>
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-vn"></span> Việt Nam</div>
+                            <div>TPHCM</div>
+                            <div class="desktop-support-number">+84 8 4458 1371</div>
+                            <div>Hỗ trợ bằng tiếng Anh 24/7</div>
+                            <br>
+                            <div>Hoa Kỳ</div>
+                            <div class="desktop-support-number">+1 480 463 8702</div>
+                            <div>Hỗ trợ bằng tiếng Anh 24/7</div>
+                        </div>
 
-                  <div class="col-md-3">
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-br"></span> Brasil</div>
-                    <div>Em todo o território nacional</div>
-                    <div class="desktop-support-number">4003 3329</div>
-                    <div>Acessível somente no país <br>
-                          9:00 - 21:00 hrs, de segunda à sexta</div>
-                    <br>
-                    <div>Rio de Janeiro</div>
-                    <div class="desktop-support-number">+55 21 3956 9989</div>
-                    <div>9:00 - 21:00 hrs, de segunda à sexta</div>
-                    <br>
-                    <div>São Paulo</div>
-                    <div class="desktop-support-number">+55 11 3958 5679</div>
-                    <div>9:00 - 21:00 hrs, de segunda à sexta</div>
-                    <br>
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-nz"></span> New Zealand</div>
-                    <div>Auckland</div>
-                    <div class="desktop-support-number">+64 9 975 9407</div>
-                    <div>24/7 Support</div>
-                    <br>
-                    <div>Countrywide</div>
-                    <div class="desktop-support-number">0800 441 995</div>
-                    <div>Only accessible in country <br>24/7 Support</div>
-                    <br>
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-th"></span> ไทย</div>
-                    <div>กรุงเทพมหานคร</div>
-                    <div class="desktop-support-number">+66 2 105 6194</div>
-                    <div> สนับสนุน 24/7 อังกฤษ</div>
-                    <br>
-                    <div>ทั่วประเทศ</div>
-                    <div class="desktop-support-number">+66 60 002 4085</div>
-                    <div>สนับสนุน 24/7 อังกฤษ</div>
-                  </div>
+                        <div class="col-md-3">
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-br"></span> Brasil</div>
+                            <div>Em todo o território nacional</div>
+                            <div class="desktop-support-number">4003 3329</div>
+                            <div>Acessível somente no país
+                                <br> 9:00 - 21:00 hrs, de segunda à sexta</div>
+                            <br>
+                            <div>Rio de Janeiro</div>
+                            <div class="desktop-support-number">+55 21 3956 9989</div>
+                            <div>9:00 - 21:00 hrs, de segunda à sexta</div>
+                            <br>
+                            <div>São Paulo</div>
+                            <div class="desktop-support-number">+55 11 3958 5679</div>
+                            <div>9:00 - 21:00 hrs, de segunda à sexta</div>
+                            <br>
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-nz"></span> New Zealand</div>
+                            <div>Auckland</div>
+                            <div class="desktop-support-number">+64 9 975 9407</div>
+                            <div>24/7 Support</div>
+                            <br>
+                            <div>Countrywide</div>
+                            <div class="desktop-support-number">0800 441 995</div>
+                            <div>Only accessible in country
+                                <br>24/7 Support</div>
+                            <br>
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-th"></span> ไทย</div>
+                            <div>กรุงเทพมหานคร</div>
+                            <div class="desktop-support-number">+66 2 105 6194</div>
+                            <div> สนับสนุน 24/7 อังกฤษ</div>
+                            <br>
+                            <div>ทั่วประเทศ</div>
+                            <div class="desktop-support-number">+66 60 002 4085</div>
+                            <div>สนับสนุน 24/7 อังกฤษ</div>
+                        </div>
 
-                  <div class="col-md-3">
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-id"></span> Indonesia</div>
-                    <div>Jakarta</div>
-                    <div class="desktop-support-number">+62 21 2975 8958</div>
-                    <div>Dukungan 24/7 (Inggris)</div>
-                    <br>
-                    <div>Seluruh negara</div>
-                    <div class="desktop-support-number">+62 855 7467 0841</div>
-                    <div>Dukungan 24/7 (Inggris)</div>
-                    <br>
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-ph"></span> Philippines</div>
-                    <div>Manila</div>
-                    <div class="desktop-support-number">+63 2 759 1426</div>
-                    <div>24/7 Support</div>
-                    <br>
-                    <div>Countrywide</div>
-                    <div class="desktop-support-number">+63 923 099 0453</div>
-                    <div>24/7 Support</div>
-                    <br>
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-kr"></span> 대한민국</div>
-                    <div>서울</div>
-                    <div class="desktop-support-number">+82 2 6433 9576</div>
-                    <div>월-금 10:00am - 5:00pm</div>
-                    <br>
-                    <div>전국적으로</div>
-                    <div class="desktop-support-number">080 808 0904</div>
-                    <div>다음 국가에서만 액세스 가능 <br> 월-금 10:00am - 5:00pm</div>
-                    <div>24/7 Support</div>
-                    <br>
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-hk"></span> 香港特別行政區</div>
-                    <div>서울</div>
-                    <div class="desktop-support-number">+852 3018 8600</div>
-                    <div>週一至週五,上午 9:00 至下午 6:00  </div>
-                  </div>
+                        <div class="col-md-3">
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-id"></span> Indonesia</div>
+                            <div>Jakarta</div>
+                            <div class="desktop-support-number">+62 21 2975 8958</div>
+                            <div>Dukungan 24/7 (Inggris)</div>
+                            <br>
+                            <div>Seluruh negara</div>
+                            <div class="desktop-support-number">+62 855 7467 0841</div>
+                            <div>Dukungan 24/7 (Inggris)</div>
+                            <br>
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-ph"></span> Philippines</div>
+                            <div>Manila</div>
+                            <div class="desktop-support-number">+63 2 759 1426</div>
+                            <div>24/7 Support</div>
+                            <br>
+                            <div>Countrywide</div>
+                            <div class="desktop-support-number">+63 923 099 0453</div>
+                            <div>24/7 Support</div>
+                            <br>
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-kr"></span> 대한민국</div>
+                            <div>서울</div>
+                            <div class="desktop-support-number">+82 2 6433 9576</div>
+                            <div>월-금 10:00am - 5:00pm</div>
+                            <br>
+                            <div>전국적으로</div>
+                            <div class="desktop-support-number">080 808 0904</div>
+                            <div>다음 국가에서만 액세스 가능
+                                <br> 월-금 10:00am - 5:00pm</div>
+                            <div>24/7 Support</div>
+                            <br>
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-hk"></span> 香港特別行政區</div>
+                            <div>서울</div>
+                            <div class="desktop-support-number">+852 3018 8600</div>
+                            <div>週一至週五,上午 9:00 至下午 6:00 </div>
+                        </div>
 
-                  <div class="col-md-3">
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-my"></span> Malaysia</div>
-                    <div>Countrywide</div>
-                    <div class="desktop-support-number">+60 15 4877 0207</div>
-                    <div>24/7 Support</div>
-                    <br>
-                    <div>Kuala Lumpur</div>
-                    <div class="desktop-support-number">+60 3 6207 4694</div>
-                    <div>24/7 Support</div>
-                    <br>
-                    <div>Malay Seluruh Negara</div>
-                    <div class="desktop-support-number">+60 15 4877 0207</div>
-                    <div>Sokongan B Ing. 24/7</div>
-                    <br>
-                    <div>Wilayah Persekutuan Kuala Lumpur</div>
-                    <div class="desktop-support-number">+60 3 6207 4694</div>
-                    <div>Sokongan B Ing. 24/7</div>
-                    <br>
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-sg"></span> Singapore</div>
-                    <div>Singapore</div>
-                    <div class="desktop-support-number">+65 6349 4240</div>
-                    <div>24/7 Support</div>
-                    <br>
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-tw"></span> 台灣</div>
-                    <div>全國服務</div>
-                    <div class="desktop-support-number">+886 9 7348 2984</div>
-                    <div>週一至週五,上午 9:00 至下午 6:00</div>
-                    <br>
-                    <div class="desktop-support-number"><span class="flag-icon flag-icon-jp"></span> 日本</div>
-                    <div>全國対応</div>
-                    <div class="desktop-support-number">050 6864 8178</div>
-                    <div>国内からのみアクセス可能<br>全國対応: 午前 10 時~午後 5 時 (月~金)</div>
-                    <br>
-                    <div>東京</div>
-                    <div class="desktop-support-number">+81 3 6731 4843</div>
-                    <div>全國対応: 午前 10 時~午後 5 時 (月~金)</div><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                  </div>
-              </div>
-            </a>
-          </li>
-        </ul>
+                        <div class="col-md-3">
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-my"></span> Malaysia</div>
+                            <div>Countrywide</div>
+                            <div class="desktop-support-number">+60 15 4877 0207</div>
+                            <div>24/7 Support</div>
+                            <br>
+                            <div>Kuala Lumpur</div>
+                            <div class="desktop-support-number">+60 3 6207 4694</div>
+                            <div>24/7 Support</div>
+                            <br>
+                            <div>Malay Seluruh Negara</div>
+                            <div class="desktop-support-number">+60 15 4877 0207</div>
+                            <div>Sokongan B Ing. 24/7</div>
+                            <br>
+                            <div>Wilayah Persekutuan Kuala Lumpur</div>
+                            <div class="desktop-support-number">+60 3 6207 4694</div>
+                            <div>Sokongan B Ing. 24/7</div>
+                            <br>
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-sg"></span> Singapore</div>
+                            <div>Singapore</div>
+                            <div class="desktop-support-number">+65 6349 4240</div>
+                            <div>24/7 Support</div>
+                            <br>
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-tw"></span> 台灣</div>
+                            <div>全國服務</div>
+                            <div class="desktop-support-number">+886 9 7348 2984</div>
+                            <div>週一至週五,上午 9:00 至下午 6:00</div>
+                            <br>
+                            <div class="desktop-support-number"><span class="flag-icon flag-icon-jp"></span> 日本</div>
+                            <div>全國対応</div>
+                            <div class="desktop-support-number">050 6864 8178</div>
+                            <div>国内からのみアクセス可能
+                                <br>全國対応: 午前 10 時~午後 5 時 (月~金)</div>
+                            <br>
+                            <div>東京</div>
+                            <div class="desktop-support-number">+81 3 6731 4843</div>
+                            <div>全國対応: 午前 10 時~午後 5 時 (月~金)</div><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        </div>
+                    </div>
+                  </li>
+              </ul>
+          </div>
       </div>
-  </div>
 
-  <nav class="collapse clearfix hidden-lg hidden-md" id="mobile-top-menu">
-    <div class="div hidden-sm hidden-xs">
-        <div class="contactus-m">
+      <nav class="collapse clearfix hidden-lg hidden-md" id="mobile-top-menu">
+          <div class="div hidden-sm hidden-xs">
+              <div class="contactus-m">
+                  <div class="container">
+                      <a href="#drop2" data-toggle="collapse" class="m-top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地區</span></a>
+                  </div>
+                  <div class="container">
+                      <a href="#drop2" data-toggle="collapse" class="m-top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt="">
+                          <span>語言</span>
+                      </a>
+                      <a href="#drop2" class="panel-close lp-collapse-toggle" data-toggle="collapse" style="display: none"><i class="fa fa-times"></i></a>
+                  </div>
+
+                  <div id="drop2" class="collapse clearfix">
+                      <ul id="drop2ul">
+                      </ul>
+                  </div>
+
+                  <div class="container">
+                      <a href="#gs-body" class="m-top-header-phone" data-toggle="collapse"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a>
+                  </div>
+                  <div class="container m-top-header-email-wrapper">
+                      <a href="#gs-body" class="m-top-header-email" data-toggle="collapse"><img src="assets/img/header/email.png" alt="">
+                          <span>info.th@s36.com</span>
+                      </a>
+                      <a href="#gs-body" class="panel-close gs-collapse-toggle" data-toggle="collapse" style="display: none"><i class="fa fa-times"></i></a>
+                  </div>
+
+                  <div class="contactus-country collapse clearfix" id="gs-body">
+                      <div class="gs-world">
+                          <div class="container">
+                              <h3><b>Global Support</b></h3>
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-au"></span> Australia</div>
+                              Melbourne
+                              <br>
+                              <div class="desktop-support-number">+61 3 8820 5819</div>
+                              24/7 Support
+                              <br>
+                              <br> Countrywide
+                              <br>
+                              <div class="desktop-support-number">1300 351 076</div>
+                              24/7 Support
+                              <br>
+                              <br> Sydney
+                              <br>
+                              <div class="desktop-support-number">+61 2 9355 7491</div>
+                              24/7 Support
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-br"></span> Brazil</div>
+                              Em todo o território nacional
+                              <br>
+                              <div class="desktop-support-number">4003 3329</div>
+                              9:00 - 21:00 hrs, de segunda à sexta
+                              <br>
+                              <br> Rio de Janeiro
+                              <br>
+                              <div class="desktop-support-number">+55 21 3956 9989</div>
+                              9:00 - 21:00 hrs, de segunda à sexta
+                              <br>
+                              <br> São Paulo
+                              <br>
+                              <div class="desktop-support-number">+55 11 3958 5679</div>
+                              9:00 - 21:00 hrs, de segunda à sexta
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-in"></span>Indonesia</div>
+                              Jakarta
+                              <br>
+                              <div class="desktop-support-number">+62 21 2975 8958</div>
+                              Dukungan 24/7 (Inggris)
+                              <br>
+                              <br> Seluruh negara
+                              <br>
+                              <div class="desktop-support-number">+62 855 7467 0841</div>
+                              Dukungan 24/7 (Inggris)
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-my"></span> Malaysia</div>
+                              Countrywide
+                              <br>
+                              <div class="desktop-support-number">+60 15 4877 0207</div>
+                              24/7 Support
+                              <br>
+                              <br> Kuala Lumpur
+                              <br>
+                              <div class="desktop-support-number">+60 3 6207 4694</div>
+                              24/7 Support
+                              <br>
+                              <br> Malay Seluruh Negara
+                              <br>
+                              <div class="desktop-support-number">+60 15 4877 0207</div>
+                              Sokongan B Ing. 24/7
+                              <br>
+                              <br> Wilayah Persekutuan Kuala Lumpur
+                              <br>
+                              <div class="desktop-support-number">+60 3 6207 4694</div>
+                              Sokongan B Ing. 24/7
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-mx"></span> México</div>
+                              Ciudad de México
+                              <br>
+                              <div class="desktop-support-number">+52 55 4631 2410</div>
+                              24/7 Atención al cliente
+                              <br>
+                              <br> Guadalajara
+                              <br>
+                              <div class="desktop-support-number">+52 33 4624 1997</div>
+                              24/7 Atención al cliente
+                              <br>
+                              <br> Malay Monterrey
+                              <br>
+                              <div class="desktop-support-number">+52 81 4770 1526</div>
+                              Sokongan B Ing. 24/7
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-nz"></span> New Zealand</div>
+                              Auckland
+                              <br>
+                              <div class="desktop-support-number">+64 9 975 9407</div>
+                              24/7 Support
+                              <br>
+                              <br> Countrywide
+                              <br>
+                              <div class="desktop-support-number">0800 441 995</div>
+                              Only accessible in country
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-ph"></span>Philippines</div>
+                              Manila
+                              <br>
+                              <div class="desktop-support-number">+63 2 759 1426</div>
+                              24/7 Support
+                              <br>
+                              <br> Countrywide
+                              <br>
+                              <div class="desktop-support-number">+63 923 099 0453</div>
+                              24/7 Support
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-sg"></span>Singapore</div>
+                              Singapore
+                              <br>
+                              <div class="desktop-support-number">+65 6349 4240</div>
+                              24/7 Support
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-vn"></span> Việt Nam</div>
+                              TPHCM
+                              <br>
+                              <div class="desktop-support-number">+84 8 4458 1371</div>
+                              Hỗ trợ bằng tiếng Anh 24/7
+                              <br>
+                              <br> Hoa Kỳ
+                              <br>
+                              <div class="desktop-support-number">+1 480 463 8702</div>
+                              Hỗ trợ bằng tiếng Anh 24/7
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-th"></span> ไทย</div>
+                              กรุงเทพมหานคร
+                              <br>
+                              <div class="desktop-support-number">+66 2 105 6194</div>
+                              สนับสนุน 24/7 อังกฤษ
+                              <br>
+                              <br> ทั่วประเทศ
+                              <br>
+                              <div class="desktop-support-number">+66 60 002 4085</div>
+                              สนับสนุน 24/7 อังกฤษ
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-kr"></span> 대한민국</div>
+                              서울
+                              <br>
+                              <div class="desktop-support-number">+82 2 6433 9576</div>
+                              월-금 10:00am - 5:00pm
+                              <br>
+                              <br> 전국적으로
+                              <br>
+                              <div class="desktop-support-number">080 808 0904</div>
+                              다음 국가에서만 액세스 가능
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-tw"></span> 台灣</div>
+                              全國服務
+                              <br>
+                              <div class="desktop-support-number">+886 9 7348 2984</div>
+                              週一至週五,上午 9:00 至下午 6:00
+                              <br>
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-jp"></span> 日本</div>
+                              <div class="desktop-support-number">
+                                  <h4><b></b></h4></div>
+                              全國対応
+                              <br>
+                              <div class="desktop-support-number">050 6864 8178</div>
+                              全國対応: 午前 10 時~午後 5 時 (月~金)
+                              <br>
+                              <br> 東京
+                              <br>
+                              <div class="desktop-support-number">+81 3 6731 4843</div>
+                              全國対応: 午前 10 時~午後 5 時 (月~金)
+                              <br>
+                              <br>
+                          </div>
+                          <div class="gs-border"></div>
+                          <div class="container">
+                              <div class="desktop-support-number"><span class="flag-icon flag-icon-hk"></span> 香港特別行政區</div>
+                              <div class="desktop-support-number">
+                                  <h4><b></b></h4></div>
+                              <div class="desktop-support-number">+852 3018 8600</div>
+                              週一至週五,上午 9:00 至下午 6:00)
+                              <br>
+                          </div>
+                          <br>
+                          <br>
+                      </div>
+                  </div>
+
+                  <div class="container">
+                      <a href="#gs-body" data-toggle="collapse" class="m-top-header-clock"><img src="assets/img/header/clock.png" alt=""><span></span></a>
+                  </div>
+                  <div class="container">
+                      <a href="#"><img src="assets/img/footer/21.png" alt=""><span></span></a>
+                  </div>
+              </div>
+
+              <div class="mobile-top-menu-close pull-right" id="mobile-top-menu-close"><span aria-hidden="true">×</span></div>
+          </div>
+
+          <!-- <div class="mobile-top-nav mobile-top-nav-div clearfix ">
+              <div class="col-xs-4 col-xs-offset-2">
+                  <a href="#" data-toggle="modal" data-target="#myModal" class="panel-login-btn">
+                      <img src="assets/img/register.png" class="img-responsive btn-reg myModalTab1" alt="">
+                  </a>
+              </div>
+              <div class="col-xs-4">
+                  <a href="#">
+                      <img src="assets/img/login.png" data-toggle="modal" data-target="#demoModal" class="img-responsive btn-log " alt="">
+                  </a>
+              </div>
+          </div> -->
+
+          <!-- <div class="mobile-top-hc clearfix">
+              <ul class="clearfix">
+                  <li>
+                      <a href="" data-toggle="modal" data-target="#csModal"><img src="assets/img/cs.png" alt="" width="20px">在線客服</a>
+                  </li>
+                  <li>
+                      <a href="helpcenter.html"><img src="assets/img/hc.png" alt="" width="20px">幫助中心</a>
+                  </li>
+              </ul>
+
+          </div> -->
+
           <div class="container">
-            <a href="#drop2" data-toggle="collapse" class="m-top-header-loc"><img src="assets/img/header/location.png" alt=""><span>地區</span></a>
+            <div class="mnav main-mnav hidden-lg hidden-md">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a href="casino.html">真人娛樂場</a></div>
+                  <div class="swiper-slide"><a href="slots.html">老虎機</a></div>
+                  <div class="swiper-slide"><a href="lotto.html">捕魚</a></div>
+                  <div class="swiper-slide"><a href="promotion.html">優惠</a></div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="container">
-            <a href="#drop2" data-toggle="collapse" class="m-top-header-web" data-toggle="dropdown"><img src="assets/img/header/web.png" alt="">
-              <span>語言</span>
-            </a>
-            <a href="#drop2" class="panel-close lp-collapse-toggle" data-toggle="collapse" style="display: none"><i class="fa fa-times"></i></a>
-          </div>
-
-          <div id="drop2" class="collapse clearfix">
-            <ul id="drop2ul">
-            </ul>
-          </div>
-
-          <div class="container">
-            <a href="#gs-body" class="m-top-header-phone" data-toggle="collapse"><img src="assets/img/header/phone.png" alt=""><span>+66 917866756</span></a>
-          </div>
-          <div class="container m-top-header-email-wrapper">
-            <a href="#gs-body" class="m-top-header-email" data-toggle="collapse"><img src="assets/img/header/email.png" alt="">
-              <span>info.th@s36.com</span>
-            </a>
-            <a href="#gs-body" class="panel-close gs-collapse-toggle" data-toggle="collapse" style="display: none"><i class="fa fa-times"></i></a>
-          </div>
-
-          <div class="contactus-country collapse clearfix" id="gs-body">
-            <div class="gs-world">
-              <div class="container">
-                  <h3><b>Global Support</b></h3>
-              <div class="desktop-support-number"><span class="flag-icon flag-icon-au"></span> Australia</div>
-              Melbourne<br>
-              <div class="desktop-support-number">+61 3 8820 5819</div>
-              24/7 Support<br>
-              <br>
-              Countrywide<br>
-              <div class="desktop-support-number">1300 351 076</div>
-              24/7 Support<br>
-              <br>
-              Sydney<br>
-              <div class="desktop-support-number">+61 2 9355 7491</div>
-              24/7 Support<br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-                <div class="desktop-support-number"><span class="flag-icon flag-icon-br"></span> Brazil</div>
-              Em todo o território nacional<br>
-              <div class="desktop-support-number">4003 3329</div>
-              9:00 - 21:00 hrs, de segunda à sexta<br>
-              <br>
-              Rio de Janeiro<br>
-              <div class="desktop-support-number">+55 21 3956 9989</div>
-              9:00 - 21:00 hrs, de segunda à sexta<br>
-              <br>
-              São Paulo <br>
-              <div class="desktop-support-number">+55 11 3958 5679</div>
-              9:00 - 21:00 hrs, de segunda à sexta<br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-                <div class="desktop-support-number"><span class="flag-icon flag-icon-in"></span>Indonesia</div>
-              Jakarta<br>
-              <div class="desktop-support-number">+62 21 2975 8958</div>
-              Dukungan 24/7 (Inggris)<br>
-              <br>
-              Seluruh negara<br>
-              <div class="desktop-support-number">+62 855 7467 0841</div>
-              Dukungan 24/7 (Inggris)<br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-              <div class="desktop-support-number"><span class="flag-icon flag-icon-my"></span> Malaysia</div>
-              Countrywide<br>
-              <div class="desktop-support-number">+60 15 4877 0207</div>
-              24/7 Support<br>
-              <br>
-              Kuala Lumpur<br>
-              <div class="desktop-support-number">+60 3 6207 4694</div>
-              24/7 Support<br>
-              <br>
-              Malay
-              Seluruh Negara<br>
-              <div class="desktop-support-number">+60 15 4877 0207</div>
-              Sokongan B Ing. 24/7<br>
-              <br>
-              Wilayah Persekutuan Kuala Lumpur<br>
-              <div class="desktop-support-number">+60 3 6207 4694</div>
-              Sokongan B Ing. 24/7<br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-              <div class="desktop-support-number"><span class="flag-icon flag-icon-mx"></span> México</div>
-              Ciudad de México<br>
-              <div class="desktop-support-number">+52 55 4631 2410</div>
-              24/7 Atención al cliente<br>
-              <br>
-              Guadalajara<br>
-              <div class="desktop-support-number">+52 33 4624 1997</div>
-              24/7 Atención al cliente<br>
-              <br>
-              Malay
-              Monterrey<br>
-              <div class="desktop-support-number">+52 81 4770 1526</div>
-              Sokongan B Ing. 24/7<br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-                <div class="desktop-support-number"><span class="flag-icon flag-icon-nz"></span> New Zealand</div>
-              Auckland<br>
-              <div class="desktop-support-number">+64 9 975 9407</div>
-              24/7 Support<br>
-              <br>
-              Countrywide<br>
-              <div class="desktop-support-number">0800 441 995</div>
-              Only accessible in country<br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-            <div class="desktop-support-number"><span class="flag-icon flag-icon-ph"></span>Philippines</div>
-              Manila<br>
-              <div class="desktop-support-number">+63 2 759 1426</div>
-              24/7 Support<br>
-              <br>
-              Countrywide<br>
-              <div class="desktop-support-number">+63 923 099 0453</div>
-              24/7 Support<br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-            <div class="desktop-support-number"><span class="flag-icon flag-icon-sg"></span>Singapore</div>
-              Singapore<br>
-              <div class="desktop-support-number">+65 6349 4240</div>
-              24/7 Support<br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-              <div class="desktop-support-number"><span class="flag-icon flag-icon-vn"></span> Việt Nam</div>
-              TPHCM<br>
-              <div class="desktop-support-number">+84 8 4458 1371</div>
-              Hỗ trợ bằng tiếng Anh 24/7<br>
-              <br>
-              Hoa Kỳ<br>
-              <div class="desktop-support-number">+1 480 463 8702</div>
-              Hỗ trợ bằng tiếng Anh 24/7<br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-                <div class="desktop-support-number"><span class="flag-icon flag-icon-th"></span> ไทย</div>
-              กรุงเทพมหานคร<br>
-              <div class="desktop-support-number">+66 2 105 6194</div>
-              สนับสนุน 24/7 อังกฤษ<br>
-              <br>
-              ทั่วประเทศ<br>
-              <div class="desktop-support-number">+66 60 002 4085</div>
-              สนับสนุน 24/7 อังกฤษ<br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-              <div class="desktop-support-number"><span class="flag-icon flag-icon-kr"></span> 대한민국</div>
-              서울<br>
-              <div class="desktop-support-number">+82 2 6433 9576</div>
-              월-금 10:00am - 5:00pm<br>
-              <br>
-              전국적으로<br>
-              <div class="desktop-support-number">080 808 0904</div>
-              다음 국가에서만 액세스 가능<br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-              <div class="desktop-support-number"><span class="flag-icon flag-icon-tw"></span> 台灣</div>
-              全國服務<br>
-              <div class="desktop-support-number">+886 9 7348 2984</div>
-              週一至週五,上午 9:00 至下午 6:00<br>
-              <br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-              <div class="desktop-support-number"><span class="flag-icon flag-icon-jp"></span> 日本</div>
-              <div class="desktop-support-number"><h4><b></b></h4></div>
-              全國対応<br>
-              <div class="desktop-support-number">050 6864 8178</div>
-              全國対応: 午前 10 時~午後 5 時 (月~金)<br>
-              <br>
-              東京<br>
-              <div class="desktop-support-number">+81 3 6731 4843</div>
-              全國対応: 午前 10 時~午後 5 時 (月~金)<br>
-              <br>
-              </div>
-              <div class="gs-border"></div>
-              <div class="container">
-              <div class="desktop-support-number"><span class="flag-icon flag-icon-hk"></span> 香港特別行政區</div>
-              <div class="desktop-support-number"><h4><b></b></h4></div>
-              <div class="desktop-support-number">+852 3018 8600</div>
-              週一至週五,上午 9:00 至下午 6:00)<br>
-              </div>
-              <br>
-              <br>
-          </div>
-        </div>
-
-          <div class="container"><a href="#gs-body" data-toggle="collapse" class="m-top-header-clock"><img src="assets/img/header/clock.png" alt=""><span></span></a></div>
-          <div class="container"><a href="#"><img src="assets/img/footer/21.png" alt=""><span></span></a></div>
-        </div>
-        <div class="mobile-top-menu-close pull-right" id="mobile-top-menu-close"><span aria-hidden="true">×</span></div>
-    </div>
-
-    <!-- <div class="mobile-top-nav mobile-top-nav-div clearfix ">
-        <div class="col-xs-4 col-xs-offset-2">
-            <a href="#" data-toggle="modal" data-target="#myModal" class="panel-login-btn">
-                <img src="assets/img/register.png" class="img-responsive btn-reg myModalTab1" alt="">
-            </a>
-        </div>
-        <div class="col-xs-4">
-            <a href="#">
-                <img src="assets/img/login.png" data-toggle="modal" data-target="#demoModal" class="img-responsive btn-log " alt="">
-            </a>
-        </div>
-    </div> -->
-
-    <!-- <div class="mobile-top-hc clearfix">
-        <ul class="clearfix">
-            <li>
-                <a href="" data-toggle="modal" data-target="#csModal"><img src="assets/img/cs.png" alt="" width="20px">在線客服</a>
-            </li>
-            <li>
-                <a href="helpcenter.html"><img src="assets/img/hc.png" alt="" width="20px">幫助中心</a>
-            </li>
-        </ul>
-
-    </div> -->
-
-    <div class="container">
-      <div class="mnav main-mnav hidden-lg hidden-md">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"><a href="casino.html" class="active">真人娛樂場</a></div>
-            <div class="swiper-slide"><a href="slots.html">老虎機</a></div>
-            <div class="swiper-slide"><a href="lotto.html">捕魚</a></div>
-            <div class="swiper-slide"><a href="promotion.html">優惠</a></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
+      </nav>
       <nav class="navbar">
           <div class="container">
               <div class="navbar-header header-mobile">
 
                   <!-- <a href="#"  id="mdemo-form-btn"class="panel-login-btn m-demo-img hidden-lg hidden-md">
                     <img src="assets/img/demo.png" class="panel-login-btn img-responsive demo-img" alt=""></a> -->
-                    <div class="mobile-button hidden-lg hidden-md hidden-sm hidden-xs">
-                        <a href="#" id="mobile-button" class="panel-login-btn" data-toggle="collapse" data-target="#mobile-top-menu"><i class="fa fa-caret-up"></i></a>
-                    </div>
+                  <div class="mobile-button hidden-lg hidden-md hidden-sm hidden-xs">
+                      <a href="#" id="mobile-button" class="panel-login-btn" data-toggle="collapse" data-target="#mobile-top-menu"><i class="fa fa-caret-up"></i></a>
+                  </div>
 
                   <div class="logo nathan-logo header-mobile-logo pull-left">
                       <a href="index.html"></a>
                   </div>
 
                   <div class="hidden-lg hidden-md">
-                    <div class="navbar-header remo-navbar-header">
-                        <button class="selectpicker2" id="m-selectpicker2" data-toggle="dropdown"><span class="flag-icon flag-icon-tw"> </span> 台灣/繁體 <i class="fa fa-caret-down"></i></button>
-                        <div class="dropdown-menu selectpicker2-menu">
-                          <div class="row">
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-au"> </span> Australia <span href="#" class="selectpicker2-sub">English</span></a>
-                              <a href=""><span class="flag-icon flag-icon-mx"> </span> <span class="cntry">Mexico</span>
-                                <span href="#" class="selectpicker2-sub">Méjico</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">Việt Nam</span>
-                                <span href="#" class="selectpicker2-sub">Việt Nam</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-br"> </span> <span class="cntry">Brasil</span>
-                                <span href="#" class="selectpicker2-sub">Brasil</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-nz"> </span> <span class="cntry">New Zealand</span>
-                                <span href="#" class="selectpicker2-sub">Aotearoa</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">ไทย</span>
-                                <span href="#" class="selectpicker2-sub">ประเทศไทย</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">Indonesia</span>
-                                <span href="#" class="selectpicker2-sub">Indonesia</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-ph"> </span> <span class="cntry">Philippines</span>
-                                <span href="#" class="selectpicker2-sub">Filipino</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-kr"> </span> <span class="cntry">대한민국</span>
-                                <span href="#" class="selectpicker2-sub">대한민국</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-hk"> </span> <span class="cntry">香港特別行政區</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">Malaysia</span>
-                                <span href="#" class="selectpicker2-sub">Malaysia</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-sg"> </span> <span class="cntry">Singapore</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
-                                <span href="#" class="selectpicker2-sub">日本</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
+                      <div class="navbar-header remo-navbar-header">
+                          <button class="selectpicker2" id="m-selectpicker2" data-toggle="dropdown"> 台灣/繁體</button>
+                          <div class="dropdown-menu selectpicker2-menu">
+                            <div class="row">
+                              <div class="col-md-3">
+                                <a href=""><span class="flag-icon flag-icon-cn"> </span> <span class="cntry">中國</span>
+                                  <span href="#" class="selectpicker2-sub">繁体</span>
+                                  <span href="#" class="selectpicker2-sub">简体</span>
+                                </a>
+                                <a href=""><span class="flag-icon flag-icon-in"> </span> <span class="cntry">印度</span>
+                                  <span href="#" class="selectpicker2-sub">INR</span>
+                                </a>
+                                <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">印尼</span>
+                                  <span href="#" class="selectpicker2-sub">IDR</span>
+                                </a>
+                                <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
+                                  <span href="#" class="selectpicker2-sub">JPY</span>
+                                </a>
+                                <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">馬來西亞</span>
+                                  <span href="#" class="selectpicker2-sub">MYR</span>
+                                </a>
+                                <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
+                                  <span href="#" class="selectpicker2-sub">TWD</span>
+                                </a>
+                                <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">泰國</span>
+                                  <span href="#" class="selectpicker2-sub">THP</span>
+                                </a>
+                                <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">越南</span>
+                                  <span href="#" class="selectpicker2-sub">VND</span>
+                                </a>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                    </div>
-
+                      </div>
                   </div>
               </div>
               <div class="hidden-sm hidden-xs">
                   <div class="navbar-header">
-                        <button class="selectpicker2"></span><span class="flag-icon flag-icon-tw"> </span>  台灣/繁體 <i class="fa fa-caret-down"></i></button>
-
+                      <button class="selectpicker2"></span><span class="flag-icon flag-icon-tw"> </span> 台灣/繁體 <i class="fa fa-caret-down"></i></button>
                   </div>
-
 
                   <div class="navbar-header  navbar-form navbar-cta-btn ">
                       <!-- <a href="#desktopSupport" data-toggle="collapse" class="desktop-support-trigger pull-left support-pc">24/7 Support Manila: \(02\) 231-2988</a> -->
@@ -549,8 +561,13 @@
                   <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
                       <!-- <a href="#" class="panel-login-btn" id="demo-form-btn"style="margin-bottom: -3px;"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a> -->
                       <a href="#" class="panel-login-btn myModalTab1" data-toggle="modal" data-target="#myModal"><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
-                      <a href="#" class="panel-login-btn myModalTab3" data-toggle="modal" data-target="#demoModal"><img src="assets/img/login.png" class="img-responsive btn-log" alt=""></a>
+                      <a href="#" class="panel-login-btn" data-toggle="modal" data-target="#demoModal"><img src="assets/img/login.png" class="img-responsive btn-log" alt=""></a>
                   </div>
+              </div>
+
+              <div class="header-cs hidden-lg hidden-md">
+                <a href="#csModal" data-toggle="modal"><img src="assets/img/Y2.png" alt=""></a>
+                <a href="helpcenter.html"><img src="assets/img/Y1.png" alt=""></a>
               </div>
 
           </div>
@@ -558,11 +575,11 @@
 
       <nav class="navbar navbar-inverse nav-bg nav-main-bg">
           <div class="container">
-              <ul class="nav navbar-nav hidden-sm hidden-xs">
+              <ul class="nav navaa navbar-nav hidden-sm hidden-xs">
                   <li>
                       <a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a>
                   </li>
-                  <li class="nav-active"><a href="casino.html">真人娛樂場</a></li>
+                  <li  class="nav-active"><a href="casino.html">真人娛樂場</a></li>
                   <li><a href="slots.html">老虎機</a></li>
                   <li><a href="lotto.html">捕魚</a></li>
                   <li><a href="promotion.html">優惠</a></li>
@@ -571,7 +588,7 @@
 
               <div class="mnav mnav-top hidden-lg hidden-md">
                 <ul class="clearfix">
-                  <li><a href="index.html"><img src="assets/img/s36tw-mobile-home_09.png" alt=""></a></li>
+                  <li><a href="index.html" class="active"><img src="assets/img/s36tw-mobile-home_09.png" alt=""></a></li>
                   <li><a href="#"><img src="assets/img/s36tw-mobile-home_03.png" alt=""></a></li>
                   <li><a href="#"><img src="assets/img/s36tw-mobile-home_06.png" alt=""></a></li>
                   <li><a href="#"><img src="assets/img/s36tw-mobile-home_12.png" alt=""></a></li>
@@ -608,18 +625,17 @@
       </nav>
 
       <div class="hidden-lg hidden-md">
-        <div id="menu" class="collapse">
-          <ul>
-            <li><a href="#">Button</a></li>
-            <li><a href="#">Button</a></li>
-            <li><a href="#">Button</a></li>
-            <li><a href="#">Button</a></li>
-            <li><a href="#">Button</a></li>
-            <li><a href="#">Button</a></li>
-          </ul>
-        </div>
+          <div id="menu" class="collapse">
+              <ul>
+                  <li><a href="#">Button</a></li>
+                  <li><a href="#">Button</a></li>
+                  <li><a href="#">Button</a></li>
+                  <li><a href="#">Button</a></li>
+                  <li><a href="#">Button</a></li>
+                  <li><a href="#">Button</a></li>
+              </ul>
+          </div>
       </div>
-
 
   </header>
     <main>
@@ -646,11 +662,11 @@
         <!-- /carousel -->
 
         <div class="container main-section casino-section">
-            <ul class="breadcrumb">
+            <!-- <ul class="breadcrumb">
                 <li class="completed"><a href="index.html">返回</a></li>
                 <li><a href="javascript:void(0);">真人娛樂場</a></li>
 
-            </ul>
+            </ul> -->
 
             <div class=" breadcrumb-content">
                 <div class="breadcrumb-inner">
@@ -674,7 +690,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <div class="cta-casino" >
                           <div class="casino-g" id="a">
-                            <img src="assets/img/casino/baccarat/1.png" class="img-responsive" alt="">
+                            <img src="assets/img/casino/baccarat/1.png" class="img-responsive casino-g-img" alt="">
                             <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                             <div class="content text-center" id="b" >
                               <p><span class="game">傳統百家樂</span> </p>
@@ -697,7 +713,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <div class="cta-casino" >
                           <div class="casino-g" id="a">
-                            <img src="assets/img/casino/baccarat/2.png" class="img-responsive" alt="">
+                            <img src="assets/img/casino/baccarat/2.png" class="img-responsive casino-g-img" alt="">
                             <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                               <div class="content text-center" id="b" >
                                 <p><span class="game">極速百家樂</span> </p>
@@ -720,7 +736,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <div class="cta-casino" >
                           <div class="casino-g" id="a">
-                            <img src="assets/img/casino/baccarat/3.png" class="img-responsive" alt="">
+                            <img src="assets/img/casino/baccarat/3.png" class="img-responsive casino-g-img" alt="">
                               <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                               <div class="content text-center" id="b" >
                                 <p><span class="game">龍寶百家樂</span> </p>
@@ -743,7 +759,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <div class="cta-casino" >
                           <div class="casino-g" id="a">
-                            <img src="assets/img/casino/baccarat/4.png" class="img-responsive" alt="">
+                            <img src="assets/img/casino/baccarat/4.png" class="img-responsive casino-g-img" alt="">
                               <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                               <div class="content text-center" id="b" >
                                 <p><span class="game">電投百家樂</span> </p>
@@ -766,7 +782,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <div class="cta-casino" >
                           <div class="casino-g" id="a">
-                            <img src="assets/img/casino/baccarat/5.png" class="img-responsive" alt="">
+                            <img src="assets/img/casino/baccarat/5.png" class="img-responsive casino-g-img" alt="">
                               <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                               <div class="content text-center" id="b" >
                                 <p><span class="game">連環百家樂</span> </p>
@@ -789,11 +805,11 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <div class="cta-casino" >
                           <div class="casino-g" id="a">
-                            <img src="assets/img/casino/baccarat/6.png" class="img-responsive" alt="">
+                            <img src="assets/img/casino/baccarat/6.png" class="img-responsive casino-g-img" alt="">
                               <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                               <div class="content text-center" id="b" >
                                 <p><span class="game">移動百家樂</span> </p>
-                                <p>移動百家樂可以在智能手機、平板電腦及其他移動設備中運行，您只需要有任何可以支持HTML5的任何移動設備，... <a href="sp-movebaccarat.html"><img src="assets/img/casino/baccarat/info.png"style="margin-bottom: 1px; width:16px;" alt=""></a> </p>
+                                <p>移動百家樂可以在智能手機、平板電腦及其他移動設備中運行，您只需要有任何可以支持HTML5的任何移動... <a href="sp-movebaccarat.html"><img src="assets/img/casino/baccarat/info.png"style="margin-bottom: 1px; width:16px;" alt=""></a> </p>
                                 <ul>
                                   <li><span></span></li>
                                   <li class="pull-right"></li>
@@ -812,7 +828,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <div class="cta-casino" >
                           <div class="casino-g" id="a">
-                            <img src="assets/img/casino/baccarat/7.png" class="img-responsive" alt="">
+                            <img src="assets/img/casino/baccarat/7.png" class="img-responsive casino-g-img" alt="">
                               <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                               <div class="content text-center" id="b" >
                                 <p><span class="game">互動百家樂</span> </p>
@@ -835,11 +851,11 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <div class="cta-casino" >
                           <div class="casino-g" id="a">
-                            <img src="assets/img/casino/baccarat/8.png" class="img-responsive" alt="">
+                            <img src="assets/img/casino/baccarat/8.png" class="img-responsive casino-g-img" alt="">
                               <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                               <div class="content text-center" id="b" >
                                 <p><span class="game">牛牛百家樂</span> </p>
-                                <p>免佣百家樂其玩法與傳統百家樂基本規則是相同的，在免佣百家樂遊戲中「莊家」贏不用抽水免除了佣金，...<a href="sp-multibaccarat.html"><img src="assets/img/casino/baccarat/info.png"style="margin-bottom: 1px; width:16px;" alt=""></a></p>
+                                <p>免佣百家樂其玩法與傳統百家樂基本規則是相同的，在免佣百家樂遊戲中「莊家」贏不用抽水免除了佣金，... <a href="sp-multibaccarat.html"><img src="assets/img/casino/baccarat/info.png"style="margin-bottom: 1px; width:16px;" alt=""></a></p>
                                 <ul>
                                   <li><span></span></li>
                                   <li class="pull-right"></li>
@@ -858,7 +874,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <div class="cta-casino" >
                           <div class="casino-g" id="a">
-                            <img src="assets/img/casino/baccarat/9.png" class="img-responsive" alt="">
+                            <img src="assets/img/casino/baccarat/9.png" class="img-responsive casino-g-img" alt="">
                               <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                               <div class="content text-center" id="b" >
                                 <p><span class="game">免佣百家樂</span> </p>
@@ -892,7 +908,7 @@
                           <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="cta-casino" >
                             <div class="casino-g" id="a">
-                              <img src="assets/img/casino/other/1.png" class="img-responsive" alt="">
+                              <img src="assets/img/casino/other/1.png" class="img-responsive casino-g-img" alt="">
                                 <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                                 <div class="content text-center" id="b" >
                                   <p><span class="game">輪盤</span> </p>
@@ -915,7 +931,7 @@
                           <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="cta-casino" >
                             <div class="casino-g" id="a">
-                              <img src="assets/img/casino/other/2.png" class="img-responsive" alt="">
+                              <img src="assets/img/casino/other/2.png" class="img-responsive casino-g-img" alt="">
                                 <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                                 <div class="content text-center" id="b" >
                                   <p><span class="game">骰寶</span> </p>
@@ -938,7 +954,7 @@
                           <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="cta-casino" >
                             <div class="casino-g" id="a">
-                              <img src="assets/img/casino/other/3.png" class="img-responsive" alt="">
+                              <img src="assets/img/casino/other/3.png" class="img-responsive casino-g-img" alt="">
                                 <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                                 <div class="content text-center" id="b" >
                                   <p><span class="game">番摊</span> </p>
@@ -961,7 +977,7 @@
                           <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="cta-casino" >
                             <div class="casino-g" id="a">
-                              <img src="assets/img/casino/other/4.png" class="img-responsive" alt="">
+                              <img src="assets/img/casino/other/4.png" class="img-responsive casino-g-img" alt="">
                                 <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                                 <div class="content text-center" id="b" >
                                   <p><span class="game">21点</span> </p>
@@ -984,7 +1000,7 @@
                           <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="cta-casino" >
                             <div class="casino-g" id="a">
-                              <img src="assets/img/casino/other/5.png" class="img-responsive" alt="">
+                              <img src="assets/img/casino/other/5.png" class="img-responsive casino-g-img" alt="">
                                 <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                                 <div class="content text-center" id="b" >
                                   <p><span class="game">龙虎</span> </p>
@@ -1006,7 +1022,7 @@
                           <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="cta-casino" >
                             <div class="casino-g" id="a">
-                              <img src="assets/img/casino/baccarat/10.png" class="img-responsive" alt="">
+                              <img src="assets/img/casino/baccarat/10.png" class="img-responsive casino-g-img" alt="">
                                 <span class="absolute-play"><a href="javascript:void(0)" ><img src="assets/img/casino/baccarat/play-icon.png" class="img-responsive" alt=""></a></span>
                                 <div class="content text-center" id="b" >
                                   <p><span class="game">48彩</span> </p>
@@ -1038,7 +1054,7 @@
           <div class="row r-ads">
             <div class="col-md-6 col-sm-12 r-ads-wrapper">
               <img src="assets/img/lottob.png" alt="">
-              <a href="lotto.html" class="r-ads-btn"><img src="assets/img/btn.png" alt=""></a>
+              <a href="sp-lotto.html" class="r-ads-btn"><img src="assets/img/btn.png" alt=""></a>
             </div>
 
             <div class="col-md-6 col-sm-12 r-ads-wrapper">
@@ -1057,177 +1073,7 @@
 
 
 
-        <div class="winner  container">
 
-            <div class="col-md-4 col-xs-12">
-                <div class="winner-cont">
-                    <div class="win-title">最新優勝者<a href="winner.html" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;"alt=""></a>
-
-                    </div>
-                    <div class="win-body">
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="user">
-                                    csdz**6
-                                    <span class="slotgame">老虎機 - 南美洲俱樂部</span>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="user">
-                                    csdz**6
-                                    <span class="slotgame">老虎機 - 南美洲俱樂部</span>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="user">
-                                    csdz**6
-                                    <span class="slotgame">老虎機 - 南美洲俱樂部</span>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="user">
-                                    csdz**6
-                                    <span class="slotgame">老虎機 - 南美洲俱樂部</span>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-xs-12">
-                <div class="winner-cont">
-                    <div class="win-title">熱門遊戲<a href="winner.html" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;"alt=""></a>
-
-                    </div>
-                    <div class="win-body">
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="win-game">
-                                    <img src="assets/img/game/1.png" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="win-game">
-                                    <img src="assets/img/game/2.png" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="win-game">
-                                    <img src="assets/img/game/3.png" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-                        <div class="win-lot">
-                            <div class="col-md-7 col-xs-7">
-                                <div class="win-game">
-                                    <img src="assets/img/game/4.png" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-xs-5">
-                                <div class="prizepool">¥562,500.00</div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-xs-12">
-                <div class="winner-cont">
-                    <div class="contact-title">
-                      聯繫我們<a href="helpcenter.html#tab2" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;"alt=""></a>
-                    </div>
-                    <div class="contactus">
-                        <div class="win-body">
-                            <div class="win-cs ">
-                                <div class="col-md-3 col-xs-3">
-                                    <div class="c-icon">
-                                      <img src="assets/img/phone.png" class="img-responsive" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-9 col-xs-9">
-                                    <div class="c-text">
-                                        400 熱線: <span>400 120 3188</span>
-                                        <br> 國際熱線： <span>+853 6284 6284</span>
-                                        <br> 菲律賓熱線：<span>+63 9177 998 899</span>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="win-body">
-                            <div class="win-cs">
-                                <div class="col-md-3 col-xs-3">
-                                    <div class="c-icon cmail">
-                                        <img src="assets/img/email.png" class="img-responsive" alt="">
-
-                                    </div>
-                                </div>
-                                <div class="col-md-9 col-xs-9">
-                                    <div class="c-text ctmail">
-                                        電子郵件：<span>cs@saloncs.com</span>
-
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="win-body">
-                            <div class="win-cs">
-                                <div class="col-md-3 col-xs-3">
-                                    <div class="c-icon cmail">
-                                      <img src="assets/img/qq.png" class="img-responsive" alt="">
-
-                                    </div>
-                                </div>
-                                <div class="col-md-9 col-xs-9">
-                                    <div class="c-text ctmail">
-                                        QQ 直播支持：<span>392661199 | 382662200</span>
-
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
     </main>
     <footer>
@@ -1393,6 +1239,9 @@
                                         <li>
                                             <div class="list"><a href="helpcenter.html#tab5">使用條款</a></div>
                                         </li>
+                                        <li>
+                                            <div class="list list-s"><a href="helpcenter.html#tab23">如何提款</a></div>
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -1431,7 +1280,7 @@
                                             <div class="list list-s"><a href="helpcenter.html#tab24">如何清除緩存</a></div>
                                         </li>
                                         <li>
-                                            <div class="list list-s"><a href="helpcenter.html#tab5">博彩规则</a></div>
+                                            <div class="list list-s"><a href="helpcenter.html#tab4">博彩规则</a></div>
                                         </li>
                                         <li>
                                             <div class="list list-s"><a class="panel-login-btn login-modal-a" id="login-form-btn-bot" href="#">會員登入</a></div>
@@ -1444,9 +1293,6 @@
                                         </li>
                                         <li>
                                             <div class="list list-s"><a href="helpcenter.html#tab7">隱私政策</a></div>
-                                        </li>
-                                        <li>
-                                            <div class="list list-s"><a href="helpcenter.html#tab23">如何提款</a></div>
                                         </li>
                                         <li>
                                             <div class="list list-s"><a href="helpcenter.html#tab26">防刧持工具</a></div>
@@ -1622,11 +1468,11 @@
 
                   <div class="fsalon m-fsalon hidden-lg hidden-md">
                     <ul>
-                      <li><a href="#"><img src="assets/img/footer/compatible.png" class="img-responsive" alt=""></a></li>
-                      <li><a href="#"><img src="assets/img/footer/safety.png" class="img-responsive" alt=""></a></li>
-                      <li><a href="#"><img src="assets/img/footer/21.png"  alt="img-responsive"></a></li>
-                      <li><a href="#"><img src="assets/img/footer/sagaming.png" alt="" class="img-responsive"></a></li>
-                      <li><a href="#"><img src="assets/img/footer/ssalon.png" alt="" class="img-responsive"></a></li>
+                      <li><a href="#"><img src="assets/img/footer/compatible_new.png" class="img-responsive" alt=""></a></li>
+                      <li><a href="#"><img src="assets/img/footer/safety_new.png" class="img-responsive" alt=""></a></li>
+                      <li><a href="#"><img src="assets/img/footer/21_new.png"  alt="img-responsive"></a></li>
+                      <li><a href="#"><img src="assets/img/footer/sa logo_new.png" alt="" class="img-responsive"></a></li>
+                      <li><a href="#"><img src="assets/img/footer/Salon logo_new.png" alt="" class="img-responsive"></a></li>
                       <li><a href="#"><img src="assets/img/footer/f-logo2.png" class="img-responsive" alt="">沙龙国际版权所有 © 2009 - 2017</a></li>
                     </ul>
                   </div>
@@ -1749,7 +1595,7 @@
                                           <div class="form-group">
                                               <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
                                               <div class="col-md-9 col-sm-4">
-                                                  <a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a>
+
                                               </div>
                                           </div>
                                             <div class="form-group">
@@ -1790,14 +1636,14 @@
                                               <div class="form-group">
                                                   <label for="password" class="col-sm-4 control-label"></label>
                                                   <div class="col-sm-8">
-                                                    <a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a>
+
                                                   </div>
                                               </div>
                                               <div class="form-group">
                                                   <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
                                                   <div class="col-sm-8">
                                                       <div class="input-border">
-                                                          <input type="password" class="form-control" id="password" />
+                                                          <div id="country-sel" data-input-name="country"></div>
                                                       </div>
                                                   </div>
                                               </div>
@@ -1859,7 +1705,7 @@
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
                                           <ul>
-                                              <li style="display: none"><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
+                                              <li style="display: none"></li>
                                               <li>
                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                               </li>
@@ -1884,7 +1730,7 @@
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
                                           <ul>
-                                              <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
+                                              <li></li>
                                               <li>
                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                               </li>
@@ -1923,7 +1769,7 @@
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
                                           <ul>
-                                              <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
+                                              <li></li>
                                               <li>
                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                               </li>
@@ -2166,6 +2012,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
     <script src="dist/js/sweetalert.min.js"></script>
     <script src="dist/js/font-awesome.js"></script>
+    <script src="dist/js/jquery.flagstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
     <script src="assets/js/json.js"></script>
@@ -2301,5 +2148,5 @@
       };
   </script>
 </body>
-
+<!-- coomment -->
 </html>

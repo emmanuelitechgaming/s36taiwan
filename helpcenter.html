@@ -17,7 +17,7 @@
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="dist/css/bootstrap-slide.css" rel="stylesheet">
     <link href="dist/css/sweetalert.css" rel="stylesheet">
-    <link href="dist/css/font-awesome.min.css" rel="stylesheet">
+    <link href="dist/css/font-awesome.min.css" rel="stylesheet"><link href="dist/css/flags.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -451,338 +451,83 @@
       </div>
     </div>
   </nav>
-      <nav class="navbar">
-          <div class="container">
-              <div class="navbar-header header-mobile">
+  <nav class="navbar">
+      <div class="container">
+          <div class="navbar-header header-mobile">
 
-                  <!-- <a href="#"  id="mdemo-form-btn"class="panel-login-btn m-demo-img hidden-lg hidden-md">
-                    <img src="assets/img/demo.png" class="panel-login-btn img-responsive demo-img" alt=""></a> -->
-                    <div class="mobile-button hidden-lg hidden-md hidden-sm hidden-xs">
-                        <a href="#" id="mobile-button" class="panel-login-btn" data-toggle="collapse" data-target="#mobile-top-menu"><i class="fa fa-caret-up"></i></a>
-                    </div>
+              <!-- <a href="#"  id="mdemo-form-btn"class="panel-login-btn m-demo-img hidden-lg hidden-md">
+                <img src="assets/img/demo.png" class="panel-login-btn img-responsive demo-img" alt=""></a> -->
+              <div class="mobile-button hidden-lg hidden-md hidden-sm hidden-xs">
+                  <a href="#" id="mobile-button" class="panel-login-btn" data-toggle="collapse" data-target="#mobile-top-menu"><i class="fa fa-caret-up"></i></a>
+              </div>
 
-                  <div class="logo nathan-logo header-mobile-logo pull-left">
-                      <a href="index.html"></a>
-                  </div>
+              <div class="logo nathan-logo header-mobile-logo pull-left">
+                  <a href="index.html"></a>
+              </div>
 
-                  <div class="hidden-lg hidden-md">
-                      <div class="navbar-header remo-navbar-header">
-                        <button class="selectpicker2" id="m-selectpicker2" data-toggle="dropdown"><span class="flag-icon flag-icon-tw"> </span> 台灣/繁體 <i class="fa fa-caret-down"></i></button>
-                        <div class="dropdown-menu selectpicker2-menu">
-                          <div class="row">
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-au"> </span> Australia <span href="#" class="selectpicker2-sub">English</span></a>
-                              <a href=""><span class="flag-icon flag-icon-mx"> </span> <span class="cntry">Mexico</span>
-                                <span href="#" class="selectpicker2-sub">Méjico</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">Việt Nam</span>
-                                <span href="#" class="selectpicker2-sub">Việt Nam</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-br"> </span> <span class="cntry">Brasil</span>
-                                <span href="#" class="selectpicker2-sub">Brasil</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-nz"> </span> <span class="cntry">New Zealand</span>
-                                <span href="#" class="selectpicker2-sub">Aotearoa</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">ไทย</span>
-                                <span href="#" class="selectpicker2-sub">ประเทศไทย</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">Indonesia</span>
-                                <span href="#" class="selectpicker2-sub">Indonesia</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-ph"> </span> <span class="cntry">Philippines</span>
-                                <span href="#" class="selectpicker2-sub">Filipino</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-kr"> </span> <span class="cntry">대한민국</span>
-                                <span href="#" class="selectpicker2-sub">대한민국</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-hk"> </span> <span class="cntry">香港特別行政區</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">Malaysia</span>
-                                <span href="#" class="selectpicker2-sub">Malaysia</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-sg"> </span> <span class="cntry">Singapore</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
-                                <span href="#" class="selectpicker2-sub">日本</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
+              <div class="hidden-lg hidden-md">
+                  <div class="navbar-header remo-navbar-header">
+                      <button class="selectpicker2" id="m-selectpicker2" data-toggle="dropdown"> 台灣/繁體</button>
+                      <div class="dropdown-menu selectpicker2-menu">
+                        <div class="row">
+                          <div class="col-md-3">
+                            <a href=""><span class="flag-icon flag-icon-cn"> </span> <span class="cntry">中國</span>
+                              <span href="#" class="selectpicker2-sub">繁体</span>
+                                    <span href="#" class="selectpicker2-sub">简体</span>
+                            </a>
+                            <a href=""><span class="flag-icon flag-icon-in"> </span> <span class="cntry">印度</span>
+                              <span href="#" class="selectpicker2-sub">INR</span>
+                            </a>
+                            <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">印尼</span>
+                              <span href="#" class="selectpicker2-sub">IDR</span>
+                            </a>
+                            <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
+                              <span href="#" class="selectpicker2-sub">JPY</span>
+                            </a>
+                            <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">馬來西亞</span>
+                              <span href="#" class="selectpicker2-sub">MYR</span>
+                            </a>
+                            <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
+                              <span href="#" class="selectpicker2-sub">TWD</span>
+                            </a>
+                            <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">泰國</span>
+                              <span href="#" class="selectpicker2-sub">THP</span>
+                            </a>
+                            <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">越南</span>
+                              <span href="#" class="selectpicker2-sub">VND</span>
+                            </a>
                           </div>
                         </div>
                       </div>
-
                   </div>
               </div>
-              <div class="hidden-sm hidden-xs">
-                  <div class="navbar-header">
-                        <button class="selectpicker2"></span><span class="flag-icon flag-icon-tw"> </span>  台灣/繁體 <i class="fa fa-caret-down"></i></button>
-                        <div class="dropdown-menu selectpicker2-menu">
-                          <div class="row">
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-au"> </span> <span class="cntry">Australia</span> <span href="#" class="selectpicker2-sub">English</span></a>
-                              <a href=""><span class="flag-icon flag-icon-mx"> </span> <span class="cntry">Mexico</span>
-                                <span href="#" class="selectpicker2-sub">Méjico</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">Việt Nam</span>
-                                <span href="#" class="selectpicker2-sub">Việt Nam</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-br"> </span> <span class="cntry">Brasil</span>
-                                <span href="#" class="selectpicker2-sub">Brasil</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-nz"> </span> <span class="cntry">New Zealand</span>
-                                <span href="#" class="selectpicker2-sub">Aotearoa</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">ไทย</span>
-                                <span href="#" class="selectpicker2-sub">ประเทศไทย</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">Indonesia</span>
-                                <span href="#" class="selectpicker2-sub">Indonesia</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-ph"> </span> <span class="cntry">Philippines</span>
-                                <span href="#" class="selectpicker2-sub">Filipino</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-kr"> </span> <span class="cntry">대한민국</span>
-                                <span href="#" class="selectpicker2-sub">대한민국</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-hk"> </span> <span class="cntry">香港特別行政區</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">Malaysia</span>
-                                <span href="#" class="selectpicker2-sub">Malaysia</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-sg"> </span> <span class="cntry">Singapore</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                            <div class="col-md-3">
-                              <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
-                                <span href="#" class="selectpicker2-sub">香港</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                              <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
-                                <span href="#" class="selectpicker2-sub">日本</span>
-                                <span href="#" class="selectpicker2-sub">English</span>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                  </div>
-
-                  <div class="collapse desktop-support" id="desktopSupport">
-                    <div class="container">
-                        <div class="desktop-support-title">Global Support</div>
-                      <div class="col-md-3">
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-au"></span> Australia</div>
-                        <div>Melbourne</div>
-                        <div class="desktop-support-number">+61 3 8820 5819</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div>Countrywide</div>
-                        <div class="desktop-support-number">1300 351 076</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div>Sydney</div>
-                        <div class="desktop-support-number">+61 2 9355 7491</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-mx"></span> México</div>
-                        <div>Ciudad de México</div>
-                        <div class="desktop-support-number">+52 55 4631 2410</div>
-                        <div>24/7 Atención al cliente</div>
-                        <br>
-                        <div>Guadalajara</div>
-                        <div class="desktop-support-number">+52 33 4624 1997</div>
-                        <div>24/7 Atención al cliente</div>
-                        <br>
-                        <div>Monterrey</div>
-                        <div class="desktop-support-number">+52 81 4770 1526</div>
-                        <div>24/7 Atención al cliente</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-vn"></span> Việt Nam</div>
-                        <div>TPHCM</div>
-                        <div class="desktop-support-number">+84 8 4458 1371</div>
-                        <div>Hỗ trợ bằng tiếng Anh 24/7</div>
-                        <br>
-                        <div>Hoa Kỳ</div>
-                        <div class="desktop-support-number">+1 480 463 8702</div>
-                        <div>Hỗ trợ bằng tiếng Anh 24/7</div>
-
-
-                      </div>
-
-                      <div class="col-md-3">
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-br"></span> Brasil</div>
-                        <div>Em todo o território nacional</div>
-                        <div class="desktop-support-number">4003 3329</div>
-                        <div>Acessível somente no país <br>
-                              9:00 - 21:00 hrs, de segunda à sexta</div>
-                        <br>
-                        <div>Rio de Janeiro</div>
-                        <div class="desktop-support-number">+55 21 3956 9989</div>
-                        <div>9:00 - 21:00 hrs, de segunda à sexta</div>
-                        <br>
-                        <div>São Paulo</div>
-                        <div class="desktop-support-number">+55 11 3958 5679</div>
-                        <div>9:00 - 21:00 hrs, de segunda à sexta</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-nz"></span> New Zealand</div>
-                        <div>Auckland</div>
-                        <div class="desktop-support-number">+64 9 975 9407</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div>Countrywide</div>
-                        <div class="desktop-support-number">0800 441 995</div>
-                        <div>Only accessible in country <br>24/7 Support</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-th"></span> ไทย</div>
-                        <div>กรุงเทพมหานคร</div>
-                        <div class="desktop-support-number">+66 2 105 6194</div>
-                        <div> สนับสนุน 24/7 อังกฤษ</div>
-                        <br>
-                        <div>ทั่วประเทศ</div>
-                        <div class="desktop-support-number">+66 60 002 4085</div>
-                        <div>สนับสนุน 24/7 อังกฤษ</div>
-
-                      </div>
-
-                      <div class="col-md-3">
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-id"></span> Indonesia</div>
-                        <div>Jakarta</div>
-                        <div class="desktop-support-number">+62 21 2975 8958</div>
-                        <div>Dukungan 24/7 (Inggris)</div>
-                        <br>
-                        <div>Seluruh negara</div>
-                        <div class="desktop-support-number">+62 855 7467 0841</div>
-                        <div>Dukungan 24/7 (Inggris)</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-ph"></span> Philippines</div>
-                        <div>Manila</div>
-                        <div class="desktop-support-number">+63 2 759 1426</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div>Countrywide</div>
-                        <div class="desktop-support-number">+63 923 099 0453</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-kr"></span> 대한민국</div>
-                        <div>서울</div>
-                        <div class="desktop-support-number">+82 2 6433 9576</div>
-                        <div>월-금 10:00am - 5:00pm</div>
-                        <br>
-                        <div>전국적으로</div>
-                        <div class="desktop-support-number">080 808 0904</div>
-                        <div>다음 국가에서만 액세스 가능 <br> 월-금 10:00am - 5:00pm</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-hk"></span> 香港特別行政區</div>
-                        <div>서울</div>
-                        <div class="desktop-support-number">+852 3018 8600</div>
-                        <div>週一至週五,上午 9:00 至下午 6:00  </div>
-                    </div>
-
-                      <div class="col-md-3">
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-my"></span> Malaysia</div>
-                        <div>Countrywide</div>
-                        <div class="desktop-support-number">+60 15 4877 0207</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div>Kuala Lumpur</div>
-                        <div class="desktop-support-number">+60 3 6207 4694</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div>Malay Seluruh Negara</div>
-                        <div class="desktop-support-number">+60 15 4877 0207</div>
-                        <div>Sokongan B Ing. 24/7</div>
-                        <br>
-                        <div>Wilayah Persekutuan Kuala Lumpur</div>
-                        <div class="desktop-support-number">+60 3 6207 4694</div>
-                        <div>Sokongan B Ing. 24/7</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-sg"></span> Singapore</div>
-                        <div>Singapore</div>
-                        <div class="desktop-support-number">+65 6349 4240</div>
-                        <div>24/7 Support</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-tw"></span> 台灣</div>
-                        <div>全國服務</div>
-                        <div class="desktop-support-number">+886 9 7348 2984</div>
-                        <div>週一至週五,上午 9:00 至下午 6:00</div>
-                        <br>
-                        <div class="desktop-support-number"><span class="flag-icon flag-icon-jp"></span> 日本</div>
-                        <div>全國対応</div>
-                        <div class="desktop-support-number">050 6864 8178</div>
-                        <div>国内からのみアクセス可能<br>全國対応: 午前 10 時~午後 5 時 (月~金)</div>
-                        <br>
-                        <div>東京</div>
-                        <div class="desktop-support-number">+81 3 6731 4843</div>
-                        <div>全國対応: 午前 10 時~午後 5 時 (月~金)</div><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-
-
-                      </div>
-
-                      <div class="col-md-12 text-center">
-                        <a href="#" id="desktopSupportClose">收起</a>
-                      </div>
-
-                    </div>
-
-
-                  </div>
-                  <div class="navbar-header  navbar-form navbar-cta-btn ">
-                      <!-- <a href="#desktopSupport" data-toggle="collapse" class="desktop-support-trigger pull-left support-pc">24/7 Support Manila: \(02\) 231-2988</a> -->
-                  </div>
-                  <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
-                      <!-- <a href="#" class="panel-login-btn" id="demo-form-btn"style="margin-bottom: -3px;"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a> -->
-                      <a href="#" class="panel-login-btn myModalTab1" data-toggle="modal" data-target="#myModal"><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
-                      <a href="#" class="panel-login-btn myModalTab3" data-toggle="modal" data-target="#demoModal"><img src="assets/img/login.png" class="img-responsive btn-log" alt=""></a>
-                  </div>
-              </div>
-
           </div>
-      </nav>
+          <div class="hidden-sm hidden-xs">
+              <div class="navbar-header">
+                  <button class="selectpicker2"></span><span class="flag-icon flag-icon-tw"> </span> 台灣/繁體 <i class="fa fa-caret-down"></i></button>
+              </div>
+
+              <div class="navbar-header  navbar-form navbar-cta-btn ">
+                  <!-- <a href="#desktopSupport" data-toggle="collapse" class="desktop-support-trigger pull-left support-pc">24/7 Support Manila: \(02\) 231-2988</a> -->
+              </div>
+              <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
+                  <!-- <a href="#" class="panel-login-btn" id="demo-form-btn"style="margin-bottom: -3px;"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a> -->
+                  <a href="#" class="panel-login-btn myModalTab1" data-toggle="modal" data-target="#myModal"><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
+                  <a href="#" class="panel-login-btn" data-toggle="modal" data-target="#demoModal"><img src="assets/img/login.png" class="img-responsive btn-log" alt=""></a>
+              </div>
+          </div>
+
+          <div class="header-cs hidden-lg hidden-md">
+            <a href="#csModal" data-toggle="modal"><img src="assets/img/Y2.png" alt=""></a>
+            <a href="helpcenter.html"><img src="assets/img/Y1.png" alt=""></a>
+          </div>
+
+      </div>
+  </nav>
 
       <nav class="navbar navbar-inverse nav-bg nav-main-bg">
           <div class="container">
-              <ul class="nav navbar-nav hidden-sm hidden-xs">
+              <ul class="nav navaa navbar-nav hidden-sm hidden-xs">
                   <li class="nav-active">
                       <a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a>
                   </li>
@@ -864,10 +609,10 @@
 
 
         <div class="container main-section helpcenter-section">
-            <ul class="breadcrumb">
+            <!-- <ul class="breadcrumb">
                 <li class="completed"><a href="index.html">返回</a></li>
                 <li><a href="javascript:void(0);">幫助中心</a></li>
-            </ul>
+            </ul> -->
 
             <div class=" breadcrumb-content">
                 <div class="breadcrumb-inner helpcenter">
@@ -1220,8 +965,8 @@
                                         <table class="table table-bordered table-striped helpcenter-noticetab">
                                           <thead>
                                             <tr>
-                                              <th>时间</th>
-                                              <th>详细内容</th>
+                                              <th>時間</th>
+                                              <th>詳細內容</th>
                                             </tr>
                                           </thead>
                                           <tbody>
@@ -1408,8 +1153,8 @@
                                             <div  style="display: block;">
                                                                 <h4>骰宝盅</h4>
                                                                 <p>
-                                                                    1.	骰宝游戏采用三粒骰子，客户可在投注时间内下注投注项目。<br>
-                                                                    2.	投注时间结束后，三粒骰子在自动振动骰盅内进行滚动。当振动时间完毕后，静止的三粒骰子朝上一方的点数便是该局的结果。<br>
+                                                                    1.	骰宝游戏采用三粒骰子，客户可在投注時間内下注投注项目。<br>
+                                                                    2.	投注時間结束后，三粒骰子在自动振动骰盅内进行滚动。当振动時間完毕后，静止的三粒骰子朝上一方的点数便是该局的结果。<br>
                                                                     3.	因斜骰或叠骰...等因素令结果不能清析判定。监场人员有权把该次结果设为无效。该局投注会按重新摇骰后的清析结果计算。<br>
                                                                     4.	当游戏结果出现围骰，投注（大／小 ）或（单／双）项目均作为输计算。
                                                                 </p>
@@ -1714,7 +1459,7 @@
                                                 <div  style="display: block;">
                                                                         <h4>时时彩</h4>
                                                                       <p> 1.玩法介绍<br>
-                                                                        分分乐的开彩结果根据上海、江西、中国社会福利3D彩票、重庆、天津及新疆官方网站。由5组号码，每组号码从0至9个号码中随机摇出3个数字 (或5个数字) 作为开奖号码，依这3个号码 (或5个号码) 变化成各式不同的玩法，猜中号码个数或玩法可以获得不同等级的奖金。开奖时间和相对应地区的官方站点同步。分分乐游戏分为十二种玩法，分别是“珠仔”、“珠仔单双”、“珠仔大小”、“珠仔串关”、“二星组选”、“三星组选三”、“三星组选六”、“和值”、“和值七彩”、“和值单双”、“和值大小”和“和值大小单双过关”。各种玩法的详细规则如下：</p><p></p><br>
+                                                                        分分乐的开彩结果根据上海、江西、中国社会福利3D彩票、重庆、天津及新疆官方网站。由5组号码，每组号码从0至9个号码中随机摇出3个数字 (或5个数字) 作为开奖号码，依这3个号码 (或5个号码) 变化成各式不同的玩法，猜中号码个数或玩法可以获得不同等级的奖金。开奖時間和相对应地区的官方站点同步。分分乐游戏分为十二种玩法，分别是“珠仔”、“珠仔单双”、“珠仔大小”、“珠仔串关”、“二星组选”、“三星组选三”、“三星组选六”、“和值”、“和值七彩”、“和值单双”、“和值大小”和“和值大小单双过关”。各种玩法的详细规则如下：</p><p></p><br>
                                         <p></p>
                                                                         <table border="1" class="helpcenter-tbl">
 
@@ -1819,12 +1564,12 @@
                                                                         <p>
                                                                             1.开奖
                                                                             <br>
-                                                                            &nbsp;&nbsp;&nbsp;&nbsp;a.	上海： 官方开奖销售时间每天10:30至21:30， 每30分钟一期，每天10:00第一期开奖，22:00最后一期开奖，共23期。<br>
-                                                                            &nbsp;&nbsp;&nbsp;&nbsp;b.	重庆：官方白天开奖时间每天10:00至21:50，每10分钟一期，夜间游戏每天晚上10点至凌晨2点，5分钟一期，共120期。<br>
-                                                                            &nbsp;&nbsp;&nbsp;&nbsp;c.	江西： 官方开奖销售时间每天09:00至23:10，每10分钟一期，共84期。<br>
-                                                                            &nbsp;&nbsp;&nbsp;&nbsp;d.	福利3D： 官方开奖销售时间每天21:00，一天一期。<br>
-                                                                            &nbsp;&nbsp;&nbsp;&nbsp;e.	天津：官方开奖销售时间每天09:00至23:00，每一期间隔10分钟，每天共84期。<br>
-                                                                            &nbsp;&nbsp;&nbsp;&nbsp;f.	新疆：官方开奖销售时间每天中午12点至第二天凌晨2点，每一期间隔10分钟，每天共84期。<br>
+                                                                            &nbsp;&nbsp;&nbsp;&nbsp;a.	上海： 官方开奖销售時間每天10:30至21:30， 每30分钟一期，每天10:00第一期开奖，22:00最后一期开奖，共23期。<br>
+                                                                            &nbsp;&nbsp;&nbsp;&nbsp;b.	重庆：官方白天开奖時間每天10:00至21:50，每10分钟一期，夜间游戏每天晚上10点至凌晨2点，5分钟一期，共120期。<br>
+                                                                            &nbsp;&nbsp;&nbsp;&nbsp;c.	江西： 官方开奖销售時間每天09:00至23:10，每10分钟一期，共84期。<br>
+                                                                            &nbsp;&nbsp;&nbsp;&nbsp;d.	福利3D： 官方开奖销售時間每天21:00，一天一期。<br>
+                                                                            &nbsp;&nbsp;&nbsp;&nbsp;e.	天津：官方开奖销售時間每天09:00至23:00，每一期间隔10分钟，每天共84期。<br>
+                                                                            &nbsp;&nbsp;&nbsp;&nbsp;f.	新疆：官方开奖销售時間每天中午12点至第二天凌晨2点，每一期间隔10分钟，每天共84期。<br>
                                                                         </p>
                                                                         <br>
                                                                     </div>
@@ -2054,11 +1799,11 @@
                                             <div  style="display: block;">
                                                                 <h4>足球规则</h4>
                                                                 <p>
-                                                                    -除非另有说明，否则足球投注的结算将以比赛的常规时间（包括伤停补时）为准，不包括加时赛和点球赛的成绩。
+                                                                    -除非另有说明，否则足球投注的结算将以比赛的常规時間（包括伤停补时）为准，不包括加时赛和点球赛的成绩。
                                         -加时赛和点球大战会另外提供盘口和行情。
-                                        -若球赛原定的比赛时间异于常规时间（如各种锦标赛或友谊赛的特别比赛时间），所有投注将依照原定的比赛时间来结算。
-                                        -关于不正规的比赛时间，除非早于比赛前已公布在网站上，否则投注将被作废。
-                                        -若赛事少于正规时间，本公司有权将投注结算搁置至72个小时或必要的其他时限以查实赛事情况和赛果。赛事情况将依据官方网站管理机构所发布的赛果（如有）为准。除非官方所发布的赛果明显错误，或相关赛事并无官方网站或官方网站未有赛果发布
+                                        -若球赛原定的比赛時間异于常规時間（如各种锦标赛或友谊赛的特别比赛時間），所有投注将依照原定的比赛時間来结算。
+                                        -关于不正规的比赛時間，除非早于比赛前已公布在网站上，否则投注将被作废。
+                                        -若赛事少于正规時間，本公司有权将投注结算搁置至72个小时或必要的其他时限以查实赛事情况和赛果。赛事情况将依据官方网站管理机构所发布的赛果（如有）为准。除非官方所发布的赛果明显错误，或相关赛事并无官方网站或官方网站未有赛果发布
                                         ，那么本公司将竭力调查以确定正确的赛果。在此情况下，本公司的决定将是最终决定，所有投注皆依据本网站规则结算。
                                                                 </p>
                                                                 <br>
@@ -2096,14 +1841,14 @@
 
 
                                                                 <h4>下半场投注</h4>
-                                                                <p>投注将按照下半场正确比分盘口进行结算包括伤停时间，若赛事在结束前被中止，投注作废。</p>
+                                                                <p>投注将按照下半场正确比分盘口进行结算包括伤停時間，若赛事在结束前被中止，投注作废。</p>
                                                                 <br>
 
 
                                                                 <p class="#feb902 red_2">
                                                                     <strong>00:00- 30:00 分钟投注&amp; 00:00- 70:00 分钟投</strong>
                                                                         </p><p>
-                                                                            结算依据为比赛在指定时间的赛果. 如果赛事在指定时间前被中止，所有投注作废。
+                                                                            结算依据为比赛在指定時間的赛果. 如果赛事在指定時間前被中止，所有投注作废。
 
                                                                           </p><h4>双重机会</h4>
                                                                             <p>
@@ -2138,7 +1883,7 @@
                                                                             <br>
 
                                                                             <h4>波胆</h4>
-                                                                            <p>波胆是指投注预测完整比赛时间结束后的最终比分。不包括加时赛和点球赛的成绩。投注“波胆”时，如果要赢得“UP 5”，投注者选择的队伍必须净赢五球或以上。例子：5-0, 6-1, 7-0, 7-1, 7-2。</p>
+                                                                            <p>波胆是指投注预测完整比赛時間结束后的最终比分。不包括加时赛和点球赛的成绩。投注“波胆”时，如果要赢得“UP 5”，投注者选择的队伍必须净赢五球或以上。例子：5-0, 6-1, 7-0, 7-1, 7-2。</p>
                                                                             <br>
 
                                                                             <h4>总进球数</h4>
@@ -2158,7 +1903,7 @@
                                                                             <br>
 
                                                                             <h4>单一球队上半场</h4>p>
-                                                                            <p>投注于赛事中的单一球队上半场/下半场的总进球数。如果赛事在指定时间前被中止，所有投注作废。</p>
+                                                                            <p>投注于赛事中的单一球队上半场/下半场的总进球数。如果赛事在指定時間前被中止，所有投注作废。</p>
                                                                             <br>
 
                                                                             <h4>总进球数单双</h4>
@@ -2220,7 +1965,7 @@
                                                                             <br>
 
                                                                             <h4>首粒入球時間投注</h4>
-                                                                            <p>首粒入球时间投注是指赛事的第一粒入球的时间在盘口以上或以下。所有入球时间本公司将依据现场直播为准。如果比赛在入球后被中止，投注依然有效。然而如果比赛在未入球被中止，所有投注均为作废。 </p>
+                                                                            <p>首粒入球時間投注是指赛事的第一粒入球的時間在盘口以上或以下。所有入球時間本公司将依据现场直播为准。如果比赛在入球后被中止，投注依然有效。然而如果比赛在未入球被中止，所有投注均为作废。 </p>
                                                                             <br>
 
                                                                             <h2>首次发生</h2>
@@ -2281,8 +2026,8 @@
                                                                             <p>是指投注比赛中获得最后一个任意球的队伍。</p>
                                                                             <br>
 
-                                                                            <h4>首次产生时间</h4>
-                                                                            <p>是指投注比赛中产生（入球，角球，门球等）的时间。 </p>
+                                                                            <h4>首次产生時間</h4>
+                                                                            <p>是指投注比赛中产生（入球，角球，门球等）的時間。 </p>
                                                                             <br>
 
                                                                             <h4>角球总数包括滚球</h4>
@@ -2290,7 +2035,7 @@
                                                                                 -是指投注比赛中的总角球总数。公司将根据现场直播计算投注结果。<br>
                                                                                 -除非角球实际开出（与判罚角球相对），否则角球不计入在内。<br>
                                                                                 -重新执行的角球将计算为1次。<br>
-                                                                                -所有投注将以比赛的常规时间为准，不包括加时赛。
+                                                                                -所有投注将以比赛的常规時間为准，不包括加时赛。
                                                                             </p>
                                                                             <br>
 
@@ -2340,9 +2085,9 @@
                                                                                 <br>
                                                                                 -如果总分大于“大小盘”预先指定的总分，则投注“大盘”的为贏家；如果总分少于“大小盘”预先指定的总分，则投注“小盘”的为贏家。
                                                                                 <br>
-                                                                                -15分钟大小盘是根据现场直播的时间为准，注单将根据正确的进球时间 (当球越过龙门线) / 角球数(实际开出) /罚牌发出时间来进行结算。
+                                                                                -15分钟大小盘是根据现场直播的時間为准，注单将根据正确的进球時間 (当球越过龙门线) / 角球数(实际开出) /罚牌发出時間来进行结算。
                                                                                 <br>
-                                                                                -如果球赛中止或暂停，所有投注于未完成的特定15分钟大小盘将视为作废。如果时间已超过投注的特定15分钟大小盘，那么所有投注于将视为有效。
+                                                                                -如果球赛中止或暂停，所有投注于未完成的特定15分钟大小盘将视为作废。如果時間已超过投注的特定15分钟大小盘，那么所有投注于将视为有效。
                                                                             </p>
                                                                             <br>
 
@@ -2359,7 +2104,7 @@
                                                 <div  style="display: block;">
                                                                         <h4>篮球规则</h4>
                                                                         <p>
-                                                                            1. 若比赛提前结束，所剩余的比赛时间必须不多于5分钟，投注方为有效，已有明确结果的投注除外（例：时段投注）。<br>
+                                                                            1. 若比赛提前结束，所剩余的比赛時間必须不多于5分钟，投注方为有效，已有明确结果的投注除外（例：时段投注）。<br>
                                                                             2.投注将根据官方公布的最终得分结算，包括加时赛，除非另有说明。<br>
                                                                             3. 美国大学赛的盘口所显示的主、客队场地资讯仅供于参考。<br>
 
@@ -2460,7 +2205,7 @@
                                             <div  style="display: block;">
                                                               <h4>赛车规则</h4>
                                                               <p>
-                                                                  1.若车赛中断或延误，并未于原定开赛时间起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
+                                                                  1.若车赛中断或延误，并未于原定开赛時間起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
                                                                   2.官方练习赛后无开赛的车手之投注将不被退还。<br>
                                                                   3.赛果将以颁奖时所公布的为准。<br>
                                                                   4.排位赛的投注是按照排位赛结束时所指定的起跑排位为准。<br>
@@ -2495,9 +2240,9 @@
                                                                   <br>
                                                                   (viii) 输赢比时
                                                                   <br>
-                                                                  (A) 投注结算将以两位车手相差的时间为准。
+                                                                  (A) 投注结算将以两位车手相差的時間为准。
                                                                   <br>
-                                                                  (B) 网站显示的让分盘以时间（秒）为标准，例：6.0
+                                                                  (B) 网站显示的让分盘以時間（秒）为标准，例：6.0
                                                                   <br>
                                                                   表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
 
@@ -2515,7 +2260,7 @@
                                                                 <h4>北欧两项</h4>
                                                                 <p>
                                                                     1.结算将根据颁奖时所公布的赛果为准。若无进行颁奖仪式，结果将按照官方所公布的赛果而定，随后的上诉、资格取消或赛果更动皆不影响结算。<br>
-                                                                    2.若比赛腰斩或延期，并未于原定开赛时间起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
+                                                                    2.若比赛腰斩或延期，并未于原定开赛時間起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
                                                                     3.若官方更改原本列出的项目条件（包括但不限于场地更换、缩减比赛部分或回合、更改指定的项目等等），所有投注将被作废。至于越野赛和冬季两项，若官方已列明的距离有所更改，投注将被作废；若实际距离有别，投注则有效。至于跳台滑雪项目，在一个回合完成后的赛果方为有效。<br>
 
                                                                     以下为冬季运动项目的投注种类：
@@ -2611,7 +2356,7 @@
                                                                           所有在网站的投注都要符合相关游戏规则以及本协议:
                                                                           <br>
                                                                           •	沙龙会ClubS有权拒绝任何投注而不给予解释说明。<br>
-                                                                          •	只有通过网站或设备的注单，符合条款与协议的被视为有效。 无论结果如何，任何以其它形式的投注（通过信函、邮件、 传真或其它方式）将不被接受或视为无效。 客户的用户名和密码一致，账户余额足够，投注确认的注单才是有效的投注，
+                                                                          •	只有通过网站或设备的注单，符合条款与协议的被视为有效。 无论结果如何，任何以其它形式的投注（通过信函、邮件、 传真或其它方式）将不被接受或视为无效。 客户的用戶名和密码一致，账户余额足够，投注确认的注单才是有效的投注，
                                               而且投注后收到确认信息的注单才被视为有效。注单从屏幕出现确认信息时即开始生效。<br>
                                                                           •	所有账户名和密码输入正确的投注都被视为有效。<br>
                                                                           •	阁下须对所有经由其账户所产生的交易和行为承担责任，无论该交易是否经由您本人同意.<br>
@@ -2832,8 +2577,8 @@
                                                                   <div  style="display: none;">
                                                                       <h4>骰宝盅</h4>
                                                                       <p>
-                                                                          1.	骰宝游戏采用三粒骰子，客户可在投注时间内下注投注项目。<br>
-                                                                          2.	投注时间结束后，三粒骰子在自动振动骰盅内进行滚动。当振动时间完毕后，静止的三粒骰子朝上一方的点数便是该局的结果。<br>
+                                                                          1.	骰宝游戏采用三粒骰子，客户可在投注時間内下注投注项目。<br>
+                                                                          2.	投注時間结束后，三粒骰子在自动振动骰盅内进行滚动。当振动時間完毕后，静止的三粒骰子朝上一方的点数便是该局的结果。<br>
                                                                           3.	因斜骰或叠骰...等因素令结果不能清析判定。监场人员有权把该次结果设为无效。该局投注会按重新摇骰后的清析结果计算。<br>
                                                                           4.	当游戏结果出现围骰，投注（大／小 ）或（单／双）项目均作为输计算。
                                                                       </p>
@@ -3133,7 +2878,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>时时彩</h4>
                                                                       1.玩法介绍<br>
-                                                                      分分乐的开彩结果根据上海、江西、中国社会福利3D彩票、重庆、天津及新疆官方网站。由5组号码，每组号码从0至9个号码中随机摇出3个数字 (或5个数字) 作为开奖号码，依这3个号码 (或5个号码) 变化成各式不同的玩法，猜中号码个数或玩法可以获得不同等级的奖金。开奖时间和相对应地区的官方站点同步。分分乐游戏分为十二种玩法，分别是“珠仔”、“珠仔单双”、“珠仔大小”、“珠仔串关”、“二星组选”、“三星组选三”、“三星组选六”、“和值”、“和值七彩”、“和值单双”、“和值大小”和“和值大小单双过关”。各种玩法的详细规则如下：<p></p><br>
+                                                                      分分乐的开彩结果根据上海、江西、中国社会福利3D彩票、重庆、天津及新疆官方网站。由5组号码，每组号码从0至9个号码中随机摇出3个数字 (或5个数字) 作为开奖号码，依这3个号码 (或5个号码) 变化成各式不同的玩法，猜中号码个数或玩法可以获得不同等级的奖金。开奖時間和相对应地区的官方站点同步。分分乐游戏分为十二种玩法，分别是“珠仔”、“珠仔单双”、“珠仔大小”、“珠仔串关”、“二星组选”、“三星组选三”、“三星组选六”、“和值”、“和值七彩”、“和值单双”、“和值大小”和“和值大小单双过关”。各种玩法的详细规则如下：<p></p><br>
 
                                                                       <table border="1" class="helpcenter-tbl">
 
@@ -3238,12 +2983,12 @@
                                                                       <p>
                                                                           1.开奖
                                                                           <br>
-                                                                          &nbsp;&nbsp;&nbsp;&nbsp;a.	上海： 官方开奖销售时间每天10:30至21:30， 每30分钟一期，每天10:00第一期开奖，22:00最后一期开奖，共23期。<br>
-                                                                          &nbsp;&nbsp;&nbsp;&nbsp;b.	重庆：官方白天开奖时间每天10:00至21:50，每10分钟一期，夜间游戏每天晚上10点至凌晨2点，5分钟一期，共120期。<br>
-                                                                          &nbsp;&nbsp;&nbsp;&nbsp;c.	江西： 官方开奖销售时间每天09:00至23:10，每10分钟一期，共84期。<br>
-                                                                          &nbsp;&nbsp;&nbsp;&nbsp;d.	福利3D： 官方开奖销售时间每天21:00，一天一期。<br>
-                                                                          &nbsp;&nbsp;&nbsp;&nbsp;e.	天津：官方开奖销售时间每天09:00至23:00，每一期间隔10分钟，每天共84期。<br>
-                                                                          &nbsp;&nbsp;&nbsp;&nbsp;f.	新疆：官方开奖销售时间每天中午12点至第二天凌晨2点，每一期间隔10分钟，每天共84期。<br>
+                                                                          &nbsp;&nbsp;&nbsp;&nbsp;a.	上海： 官方开奖销售時間每天10:30至21:30， 每30分钟一期，每天10:00第一期开奖，22:00最后一期开奖，共23期。<br>
+                                                                          &nbsp;&nbsp;&nbsp;&nbsp;b.	重庆：官方白天开奖時間每天10:00至21:50，每10分钟一期，夜间游戏每天晚上10点至凌晨2点，5分钟一期，共120期。<br>
+                                                                          &nbsp;&nbsp;&nbsp;&nbsp;c.	江西： 官方开奖销售時間每天09:00至23:10，每10分钟一期，共84期。<br>
+                                                                          &nbsp;&nbsp;&nbsp;&nbsp;d.	福利3D： 官方开奖销售時間每天21:00，一天一期。<br>
+                                                                          &nbsp;&nbsp;&nbsp;&nbsp;e.	天津：官方开奖销售時間每天09:00至23:00，每一期间隔10分钟，每天共84期。<br>
+                                                                          &nbsp;&nbsp;&nbsp;&nbsp;f.	新疆：官方开奖销售時間每天中午12点至第二天凌晨2点，每一期间隔10分钟，每天共84期。<br>
                                                                       </p>
                                                                       <br>
                                                                   </div>
@@ -3469,11 +3214,11 @@
                                                                   <div  style="display: none;">
                                                                       <h4>足球规则</h4>
                                                                       <p>
-                                                                          -除非另有说明，否则足球投注的结算将以比赛的常规时间（包括伤停补时）为准，不包括加时赛和点球赛的成绩。
+                                                                          -除非另有说明，否则足球投注的结算将以比赛的常规時間（包括伤停补时）为准，不包括加时赛和点球赛的成绩。
                                               -加时赛和点球大战会另外提供盘口和行情。
-                                              -若球赛原定的比赛时间异于常规时间（如各种锦标赛或友谊赛的特别比赛时间），所有投注将依照原定的比赛时间来结算。
-                                              -关于不正规的比赛时间，除非早于比赛前已公布在网站上，否则投注将被作废。
-                                              -若赛事少于正规时间，本公司有权将投注结算搁置至72个小时或必要的其他时限以查实赛事情况和赛果。赛事情况将依据官方网站管理机构所发布的赛果（如有）为准。除非官方所发布的赛果明显错误，或相关赛事并无官方网站或官方网站未有赛果发布
+                                              -若球赛原定的比赛時間异于常规時間（如各种锦标赛或友谊赛的特别比赛時間），所有投注将依照原定的比赛時間来结算。
+                                              -关于不正规的比赛時間，除非早于比赛前已公布在网站上，否则投注将被作废。
+                                              -若赛事少于正规時間，本公司有权将投注结算搁置至72个小时或必要的其他时限以查实赛事情况和赛果。赛事情况将依据官方网站管理机构所发布的赛果（如有）为准。除非官方所发布的赛果明显错误，或相关赛事并无官方网站或官方网站未有赛果发布
                                               ，那么本公司将竭力调查以确定正确的赛果。在此情况下，本公司的决定将是最终决定，所有投注皆依据本网站规则结算。
                                                                       </p>
                                                                       <br>
@@ -3511,14 +3256,14 @@
 
 
                                                                       <h4>下半场投注</h4>
-                                                                      <p>投注将按照下半场正确比分盘口进行结算包括伤停时间，若赛事在结束前被中止，投注作废。</p>
+                                                                      <p>投注将按照下半场正确比分盘口进行结算包括伤停時間，若赛事在结束前被中止，投注作废。</p>
                                                                       <br>
 
 
                                                                       <p class="#feb902 red_2">
                                                                           <strong>00:00- 30:00 分钟投注&amp; 00:00- 70:00 分钟投</strong>
                                                                               </p><p>
-                                                                                  结算依据为比赛在指定时间的赛果. 如果赛事在指定时间前被中止，所有投注作废。
+                                                                                  结算依据为比赛在指定時間的赛果. 如果赛事在指定時間前被中止，所有投注作废。
 
                                                                                 </p><h4>双重机会</h4>
                                                                                   <p>
@@ -3553,7 +3298,7 @@
                                                                                   <br>
 
                                                                                   <h4>波胆</h4>
-                                                                                  <p>波胆是指投注预测完整比赛时间结束后的最终比分。不包括加时赛和点球赛的成绩。投注“波胆”时，如果要赢得“UP 5”，投注者选择的队伍必须净赢五球或以上。例子：5-0, 6-1, 7-0, 7-1, 7-2。</p>
+                                                                                  <p>波胆是指投注预测完整比赛時間结束后的最终比分。不包括加时赛和点球赛的成绩。投注“波胆”时，如果要赢得“UP 5”，投注者选择的队伍必须净赢五球或以上。例子：5-0, 6-1, 7-0, 7-1, 7-2。</p>
                                                                                   <br>
 
                                                                                   <h4>总进球数</h4>
@@ -3573,7 +3318,7 @@
                                                                                   <br>
 
                                                                                   <h4>单一球队上半场</h4>p>
-                                                                                  <p>投注于赛事中的单一球队上半场/下半场的总进球数。如果赛事在指定时间前被中止，所有投注作废。</p>
+                                                                                  <p>投注于赛事中的单一球队上半场/下半场的总进球数。如果赛事在指定時間前被中止，所有投注作废。</p>
                                                                                   <br>
 
                                                                                   <h4>总进球数单双</h4>
@@ -3635,7 +3380,7 @@
                                                                                   <br>
 
                                                                                   <h4>首粒入球時間投注</h4>
-                                                                                  <p>首粒入球时间投注是指赛事的第一粒入球的时间在盘口以上或以下。所有入球时间本公司将依据现场直播为准。如果比赛在入球后被中止，投注依然有效。然而如果比赛在未入球被中止，所有投注均为作废。 </p>
+                                                                                  <p>首粒入球時間投注是指赛事的第一粒入球的時間在盘口以上或以下。所有入球時間本公司将依据现场直播为准。如果比赛在入球后被中止，投注依然有效。然而如果比赛在未入球被中止，所有投注均为作废。 </p>
                                                                                   <br>
 
                                                                                   <h2>首次发生</h2>
@@ -3696,8 +3441,8 @@
                                                                                   <p>是指投注比赛中获得最后一个任意球的队伍。</p>
                                                                                   <br>
 
-                                                                                  <h4>首次产生时间</h4>
-                                                                                  <p>是指投注比赛中产生（入球，角球，门球等）的时间。 </p>
+                                                                                  <h4>首次产生時間</h4>
+                                                                                  <p>是指投注比赛中产生（入球，角球，门球等）的時間。 </p>
                                                                                   <br>
 
                                                                                   <h4>角球总数包括滚球</h4>
@@ -3705,7 +3450,7 @@
                                                                                       -是指投注比赛中的总角球总数。公司将根据现场直播计算投注结果。<br>
                                                                                       -除非角球实际开出（与判罚角球相对），否则角球不计入在内。<br>
                                                                                       -重新执行的角球将计算为1次。<br>
-                                                                                      -所有投注将以比赛的常规时间为准，不包括加时赛。
+                                                                                      -所有投注将以比赛的常规時間为准，不包括加时赛。
                                                                                   </p>
                                                                                   <br>
 
@@ -3755,9 +3500,9 @@
                                                                                       <br>
                                                                                       -如果总分大于“大小盘”预先指定的总分，则投注“大盘”的为贏家；如果总分少于“大小盘”预先指定的总分，则投注“小盘”的为贏家。
                                                                                       <br>
-                                                                                      -15分钟大小盘是根据现场直播的时间为准，注单将根据正确的进球时间 (当球越过龙门线) / 角球数(实际开出) /罚牌发出时间来进行结算。
+                                                                                      -15分钟大小盘是根据现场直播的時間为准，注单将根据正确的进球時間 (当球越过龙门线) / 角球数(实际开出) /罚牌发出時間来进行结算。
                                                                                       <br>
-                                                                                      -如果球赛中止或暂停，所有投注于未完成的特定15分钟大小盘将视为作废。如果时间已超过投注的特定15分钟大小盘，那么所有投注于将视为有效。
+                                                                                      -如果球赛中止或暂停，所有投注于未完成的特定15分钟大小盘将视为作废。如果時間已超过投注的特定15分钟大小盘，那么所有投注于将视为有效。
                                                                                   </p>
                                                                                   <br>
 
@@ -3772,7 +3517,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>篮球规则</h4>
                                                                       <p>
-                                                                          1. 若比赛提前结束，所剩余的比赛时间必须不多于5分钟，投注方为有效，已有明确结果的投注除外（例：时段投注）。<br>
+                                                                          1. 若比赛提前结束，所剩余的比赛時間必须不多于5分钟，投注方为有效，已有明确结果的投注除外（例：时段投注）。<br>
                                                                           2.投注将根据官方公布的最终得分结算，包括加时赛，除非另有说明。<br>
                                                                           3. 美国大学赛的盘口所显示的主、客队场地资讯仅供于参考。<br>
 
@@ -3869,7 +3614,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>赛车规则</h4>
                                                                       <p>
-                                                                          1.若车赛中断或延误，并未于原定开赛时间起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
+                                                                          1.若车赛中断或延误，并未于原定开赛時間起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
                                                                           2.官方练习赛后无开赛的车手之投注将不被退还。<br>
                                                                           3.赛果将以颁奖时所公布的为准。<br>
                                                                           4.排位赛的投注是按照排位赛结束时所指定的起跑排位为准。<br>
@@ -3904,9 +3649,9 @@
                                                                           <br>
                                                                           (viii) 输赢比时
                                                                           <br>
-                                                                          (A) 投注结算将以两位车手相差的时间为准。
+                                                                          (A) 投注结算将以两位车手相差的時間为准。
                                                                           <br>
-                                                                          (B) 网站显示的让分盘以时间（秒）为标准，例：6.0
+                                                                          (B) 网站显示的让分盘以時間（秒）为标准，例：6.0
                                                                           <br>
                                                                           表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
 
@@ -3923,7 +3668,7 @@
                                                                       <h4>北欧两项</h4>
                                                                       <p>
                                                                           1.结算将根据颁奖时所公布的赛果为准。若无进行颁奖仪式，结果将按照官方所公布的赛果而定，随后的上诉、资格取消或赛果更动皆不影响结算。<br>
-                                                                          2.若比赛腰斩或延期，并未于原定开赛时间起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
+                                                                          2.若比赛腰斩或延期，并未于原定开赛時間起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
                                                                           3.若官方更改原本列出的项目条件（包括但不限于场地更换、缩减比赛部分或回合、更改指定的项目等等），所有投注将被作废。至于越野赛和冬季两项，若官方已列明的距离有所更改，投注将被作废；若实际距离有别，投注则有效。至于跳台滑雪项目，在一个回合完成后的赛果方为有效。<br>
 
                                                                           以下为冬季运动项目的投注种类：
@@ -3994,7 +3739,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>冰球</h4>
                                                                       <p>
-                                                                          1.若比赛提前结束，所剩余的比赛时间必须不多于5分钟，投注方为有效，但已有明确结果的投注除外（如时段投注）。<br>
+                                                                          1.若比赛提前结束，所剩余的比赛時間必须不多于5分钟，投注方为有效，但已有明确结果的投注除外（如时段投注）。<br>
                                                                           2.除非另有说明，投注一概根据球赛结束的完场分数结算，并包括加时赛与点球赛的成绩。点球赛的成绩仅将以[1] 分作为获胜者的象征分数。<br>
 
                                                                           以下为冰球项目的投注种类：
@@ -4037,8 +3782,8 @@
                                                                           -技术性击倒:如果参赛一方无法继续比赛,赛事将以技术性击倒结束。<br>
                                                                           -平局将包括技术性平局。<br>
                                                                           5.赛事结束时的结果将被认定为最终赛果。 此赛果已包括重新统计裁判的记分牌或任何权威机构对赛事结果的赛后变更, 将不会更改注单的输赢。<br>
-                                                                          6.如该赛事缓期、取消或放弃时，而赛事在原官方定义的时间之12小时内继续进行时，投注此赛事之所有注单仍有效。<br>
-                                                                          7.如该赛事缓期、取消或放弃时，而赛事在原官方定义的时间之12小时内未能继续进行时，投注此赛事之所有注单将视为无效，投注彩金返还原帐户。<br>
+                                                                          6.如该赛事缓期、取消或放弃时，而赛事在原官方定义的時間之12小时内继续进行时，投注此赛事之所有注单仍有效。<br>
+                                                                          7.如该赛事缓期、取消或放弃时，而赛事在原官方定义的時間之12小时内未能继续进行时，投注此赛事之所有注单将视为无效，投注彩金返还原帐户。<br>
 
                                                                           以下为搏击比赛项目的投注种类：
                                                                           <br>
@@ -4078,7 +3823,7 @@
                                                                           -需要选择至少两项不同的赛事来形成一项过关投注。<br>
                                                                           -总赔率计算是由下注的金额乘于每项赛事胜出的赔率。每个选择的赛事必须胜出方为赢，如果一个（或多个）的选项未能获胜方为输。<br>
                                                                           -如果一个（或多个）的选项延迟或腰折，该选项的赔率将以[1.00]计算。<br>
-                                                                          -如果有一个（或多个）选项的赛事行情有误或赛事在预定的时间前开踢，该选项的赔率亦以[1.00]计算。<br>
+                                                                          -如果有一个（或多个）选项的赛事行情有误或赛事在预定的時間前开踢，该选项的赔率亦以[1.00]计算。<br>
 
                                                                           亚洲盘和大小盘的计算方程式<br>
 
@@ -4234,7 +3979,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>电单车锦标赛</h4>
                                                                       <p>
-                                                                          1.若车赛中断或延误，并未于原定开赛时间起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
+                                                                          1.若车赛中断或延误，并未于原定开赛時間起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
                                                                           2.官方练习赛后无开赛的车手之投注将不被退还。<br>
                                                                           3.赛果将以颁奖时所公布的为准。<br>
                                                                           4.排位赛的投注是按照排位赛结束时所指定的起跑排位为准。<br>
@@ -4275,9 +4020,9 @@
                                                                           <br>
                                                                           (viii) 输赢比时
                                                                           <br>
-                                                                          (A) 投注结算将以两位车手相差的时间为准。
+                                                                          (A) 投注结算将以两位车手相差的時間为准。
                                                                           <br>
-                                                                          (B) 网站显示的让分盘以时间（秒）为标准，例：6.0
+                                                                          (B) 网站显示的让分盘以時間（秒）为标准，例：6.0
                                                                           <br>
                                                                           表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
 
@@ -4294,7 +4039,7 @@
                                                                       <p class="#feb902 red_2">
                                                                           <strong>冬季两项</strong></p><p>
                                                                               1.结算将根据颁奖时所公布的赛果为准。若无进行颁奖仪式，结果将按照官方所公布的赛果而定，随后的上诉、资格取消或赛果更动皆不影响结算。<br>
-                                                                              2.若比赛腰斩或延期，并未于原定开赛时间起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
+                                                                              2.若比赛腰斩或延期，并未于原定开赛時間起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
                                                                               3.若官方更改原本列出的项目条件（包括但不限于场地更换、缩减比赛部分或回合、更改指定的项目等等），所有投注将被作废。至于越野赛和冬季两项，若官方已列明的距离有所更改，投注将被作废；若实际距离有别，投注则有效。至于跳台滑雪项目，在一个回合完成后的赛果方为有效。<br>
 
                                                                               以下为冬季运动项目的投注种类：
@@ -4344,7 +4089,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>盖尔人运动</h4>
                                                                       <p>
-                                                                          -除非另行规定，所有投注都按常规时间比赛结束时的赛果进行结算。伤停补时计算在内，但是加时赛不计算在内。<br>
+                                                                          -除非另行规定，所有投注都按常规時間比赛结束时的赛果进行结算。伤停补时计算在内，但是加时赛不计算在内。<br>
                                                                           -如果成绩/进球存在争议，则以比赛完成后GAA立即公布的裁定的结果为准进行结算。随后的任何修正都不计算在内。<br>
                                                                           -除非已确认获胜方，否则比赛如果中止，投注将无效。<br>
                                                                           -如果比赛推迟，除非比赛重新安排同一天的12小时之后, 否则投注将无效。<br>
@@ -4361,7 +4106,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>橄榄球</h4>
                                                                       <p>
-                                                                          1.除非另有说明，否则橄榄球的所有投注均依照80分钟的比赛时间（包括伤停补时）结算，但不包括加时赛。<br>
+                                                                          1.除非另有说明，否则橄榄球的所有投注均依照80分钟的比赛時間（包括伤停补时）结算，但不包括加时赛。<br>
                                                                           2.若比赛在未足80分钟的情况下被腰斩，该比赛的所有投注将被作废。<br>
 
                                                                           以下为橄榄球项目的投注种类：
@@ -4442,8 +4187,8 @@
                                                                       <p>
                                                                           1.颁奖台上的位次将视为官方赛果，赛后的惩处或修正都不会更改注单的输赢结果。无论该队伍或队员参赛与否，所有的注单都将视为有效。<br>
                                                                           2.注单的输赢将依据F.I.S.A 和 I.C.F（国际划船联盟、国际独木舟联盟，或其他相应的权威机构）公布的官方赛果而定，即使该场赛事没有举行颁奖仪式。<br>
-                                                                          3.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定时间的12小时内重打，所有投注在该场赛事的注单都将视为有效。<br>
-                                                                          4.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定时间的12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回。<br>
+                                                                          3.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定時間的12小时内重打，所有投注在该场赛事的注单都将视为有效。<br>
+                                                                          4.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定時間的12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回。<br>
 
                                                                           以下为室内足球项目的投注种类：<br>
                                                                           (i)优胜冠军<br>
@@ -4455,7 +4200,7 @@
                                                                       <h4>滑雪</h4>
                                                                       <p>
                                                                           1.结算将根据颁奖时所公布的赛果为准。若无进行颁奖仪式，结果将按照官方所公布的赛果而定，随后的上诉、资格取消或赛果更动皆不影响结算。<br>
-                                                                          2.若比赛腰斩或延期，并未于原定开赛时间起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
+                                                                          2.若比赛腰斩或延期，并未于原定开赛時間起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
                                                                           3.若官方更改原本列出的项目条件（包括但不限于场地更换、缩减比赛部分或回合、更改指定的项目等等），所有投注将被作废。至于越野赛和冬季两项，若官方已列明的距离有所更改，投注将被作废；若实际距离有别，投注则有效。至于跳台滑雪项目，在一个回合完成后的赛果方为有效。<br>
 
                                                                           以下为冬季运动项目的投注种类：
@@ -4486,7 +4231,7 @@
                                                                       <h4>击剑</h4>
                                                                       <p>
                                                                           1.比赛以“点击次数” ：投注将被安置在第一个运动员到达各自的点击次数。此规则适用于各种点击数字。<br>
-                                                                          2. 重剑：在“重剑”里，有可能在同一时间内，两个竞争者会都被授予一个分数。
+                                                                          2. 重剑：在“重剑”里，有可能在同一時間内，两个竞争者会都被授予一个分数。
                                                                       </p>
                                                                       <br>
                                                                   </div>
@@ -4505,7 +4250,7 @@
                                                                           <br>
                                                                           (C) 若两位配对赛选手中仅一位顺利晋级决赛，那么无论该选手最后的名次如何，也将被视为获胜者。
                                                                           <br>
-                                                                          (D) 若配对赛的两位选手均未能晋级决赛，那么获胜者将是在晋级赛上取得较好时间的一方。如两位的时间相同（无论组别相同与否），则将以和局计算。
+                                                                          (D) 若配对赛的两位选手均未能晋级决赛，那么获胜者将是在晋级赛上取得较好時間的一方。如两位的時間相同（无论组别相同与否），则将以和局计算。
                                                                           <br>
                                                                           (E) 若配对的选手于不同的回合被淘汰，获胜者将会是获得晋级最多的一方。
                                                                           <br>
@@ -4540,7 +4285,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>拉力赛</h4>
                                                                       <p>
-                                                                          1.若车赛中断或延误，并未于原定开赛时间起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
+                                                                          1.若车赛中断或延误，并未于原定开赛時間起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
                                                                           2.官方练习赛后无开赛的车手之投注将不被退还。<br>
                                                                           3.赛果将以颁奖时所公布的为准。<br>
                                                                           4.排位赛的投注是按照排位赛结束时所指定的起跑排位为准。<br>
@@ -4583,9 +4328,9 @@
                                                                           <br>
                                                                           (viii) 输赢比时
                                                                           <br>
-                                                                          (A) 投注结算将以两位车手相差的时间为准。
+                                                                          (A) 投注结算将以两位车手相差的時間为准。
                                                                           <br>
-                                                                          (B) 网站显示的让分盘以时间（秒）为标准，例：6.0 表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
+                                                                          (B) 网站显示的让分盘以時間（秒）为标准，例：6.0 表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
 
                                                                           (2) 滚球投注
                                                                           <br>
@@ -4598,7 +4343,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>赛车运动</h4>
                                                                       <p>
-                                                                          1.若车赛中断或延误，并未于原定开赛时间起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
+                                                                          1.若车赛中断或延误，并未于原定开赛時間起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
                                                                           2.官方练习赛后无开赛的车手之投注将不被退还。<br>
                                                                           3.赛果将以颁奖时所公布的为准。<br>
                                                                           4.排位赛的投注是按照排位赛结束时所指定的起跑排位为准。<br>
@@ -4637,9 +4382,9 @@
                                                                           (A) 没参赛的车辆将不计算在内。<br>
                                                                           (viii) 输赢比时
                                                                           <br>
-                                                                          (A) 投注结算将以两位车手相差的时间为准。
+                                                                          (A) 投注结算将以两位车手相差的時間为准。
                                                                           <br>
-                                                                          (B) 网站显示的让分盘以时间（秒）为标准，例：6.0
+                                                                          (B) 网站显示的让分盘以時間（秒）为标准，例：6.0
                                                                           <br>
                                                                           表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
 
@@ -4658,8 +4403,8 @@
                                                                       <p>
                                                                           1.如该赛事未达七局就结束，所有的注单将会视为无效，除非在第六局上半局主队已经以五分领先客队。<br>
                                                                           2.成绩将根据官方成绩为准,包括延长赛。<br>
-                                                                          3.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定时间的12小时内重打，所有投注在该场赛事的注单都将视为有效。<br>
-                                                                          4.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定时间的12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回。<br>
+                                                                          3.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定時間的12小时内重打，所有投注在该场赛事的注单都将视为有效。<br>
+                                                                          4.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定時間的12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回。<br>
                                                                           5.如果比赛场地更换，所有原场地之注单无效，将退还本金。
                                                                       </p>
                                                                       <br>
@@ -4683,7 +4428,7 @@
                                                                       <p>
                                                                           1.除另有规定外，投注皆需以比赛结束的完场分数为准，包括加时赛（如有）的得分。<br>
 
-                                                                          2.若比赛提前结束，所剩余的比赛时间必须不多于5分钟，投注方为有效，但已有明确结果的投注除外（如时段投注）。<br>
+                                                                          2.若比赛提前结束，所剩余的比赛時間必须不多于5分钟，投注方为有效，但已有明确结果的投注除外（如时段投注）。<br>
 
                                                                           美国大学赛的盘口所显示的主、客队场地资讯仅供参考。<br>
                                                                           以下为美式足球项目的投注种类：
@@ -4813,7 +4558,7 @@
                                                                       <h4>澳式橄榄</h4>
                                                                       <p>
                                                                           1. 如果比赛场地更改，所有的投注被视为无效。<br>
-                                                                          2. 所有赛事规定时间全场以80分钟为准，不包括加时，除非不同的赛事规定。<br>
+                                                                          2. 所有赛事规定時間全场以80分钟为准，不包括加时，除非不同的赛事规定。<br>
                                                                           3.上半场投注，投注是以上半场赛事的结果为准。<br>
                                                                           4.如果赛事在官方80分钟以内取消，所有投注被视为无效。<br>
                                                                           5.如果赛事延迟或重新安排在12小时以内开始，那么所有的注单有效。如果赛事延迟超过12小时，所有投注被视为无效。<br>
@@ -4871,13 +4616,13 @@
                                                                       <p>
                                                                           以下规则适用：
                                                                           <br>
-                                                                          (a) 若比赛腰斩或延期，并未于原定开赛时间起的36个小时内恢复比赛，投注将被作废。
+                                                                          (a) 若比赛腰斩或延期，并未于原定开赛時間起的36个小时内恢复比赛，投注将被作废。
                                                                           <br>
                                                                           (b) 在单日赛里，若比赛因天气问题等因素而缩减赛程，所有投注将根据官方设定的比赛规则来结算。若比赛的最终结果以击刹或掷币定输赢，所有投注将被作废。
                                                                           <br>
                                                                           (c) 当达科沃斯/刘易斯计算方式（Duckworth Lewis Method）被执行时，“十轮最高得分”和“最高开场配对选手得分”的所有投注将被作废，但在达科沃斯/刘易斯计算方式执行前已有明确结果的盘口除外。
                                                                           <br>
-                                                                          (d) 若单日国际赛事于候补赛日重新掷币，所有于首日原开赛时间前45分钟内的投注将被作废。此规则适用于所有盘口，唯已有明确结果的盘口例外，如：开场掷币获胜队。
+                                                                          (d) 若单日国际赛事于候补赛日重新掷币，所有于首日原开赛時間前45分钟内的投注将被作废。此规则适用于所有盘口，唯已有明确结果的盘口例外，如：开场掷币获胜队。
                                                                           <br>
 
                                                                         </p><h4>对抗赛</h4>
@@ -4933,11 +4678,11 @@
                                                                   <div  style="display: none;">
                                                                       <h4>沙滩足球</h4>
                                                                       <p>
-                                                                          1.除非另有说明, 所有投注一概根据比赛时间3x12 分钟的赛果来结算。
+                                                                          1.除非另有说明, 所有投注一概根据比赛時間3x12 分钟的赛果来结算。
                                                                           <br>
                                                                           2. 加时赛和罚球决胜赛不计入全场赌盘的计算结果。
                                                                           <br>
-                                                                          3.如果比赛延期、暂停或中止，并且未于原定开始时间的十二小时内恢复比赛，所有投注均作废。<br>
+                                                                          3.如果比赛延期、暂停或中止，并且未于原定开始時間的十二小时内恢复比赛，所有投注均作废。<br>
 
                                                                           以下为沙滩足球项目的投注种类：<br>
                                                                           (1) 非滚球投注
@@ -4974,7 +4719,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>室内曲棍球</h4>
                                                                       <p>
-                                                                          1.除非另有说明，所有的室内曲棍球投注将以常规时间3 X 20分钟结算。<br>
+                                                                          1.除非另有说明，所有的室内曲棍球投注将以常规時間3 X 20分钟结算。<br>
                                                                           2.如果赛事延迟超过12小时，没有重新开赛，所有投注被视为无效。<br>
 
                                                                           以下为竞技项目的投注种类:<br>
@@ -4991,7 +4736,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>室内足球</h4>
                                                                       <p>
-                                                                          1.除非另有说明，所有投注一概根据比赛时间4x15分钟的赛果结算。加时赛和点球赛的分数不计算在内。<br>
+                                                                          1.除非另有说明，所有投注一概根据比赛時間4x15分钟的赛果结算。加时赛和点球赛的分数不计算在内。<br>
                                                                           2.如果比赛场地更改，所有的投注被视为无效。<br>
                                                                           3.如果赛事在官方60分钟以内取消，所有投注被视为无效。<br>
                                                                           4.如果赛事延迟或重新安排在12小时以内开始，那么所有的注单有效。如果赛事延迟超过12小时，所有投注被视为无效。<br>
@@ -5094,7 +4839,7 @@
                                                                       <h4>跳台滑雪</h4>
                                                                       <p>
                                                                           1.结算将根据颁奖时所公布的赛果为准。若无进行颁奖仪式，结果将按照官方所公布的赛果而定，随后的上诉、资格取消或赛果更动皆不影响结算。<br>
-                                                                          2.若比赛腰斩或延期，并未于原定开赛时间起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
+                                                                          2.若比赛腰斩或延期，并未于原定开赛時間起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
                                                                           3.若官方更改原本列出的项目条件（包括但不限于场地更换、缩减比赛部分或回合、更改指定的项目等等），所有投注将被作废。至于越野赛和冬季两项，若官方已列明的距离有所更改，投注将被作废；若实际距离有别，投注则有效。至于跳台滑雪项目，在一个回合完成后的赛果方为有效。<br>
 
                                                                           以下为冬季运动项目的投注种类：
@@ -5126,8 +4871,8 @@
                                                                           2.颁奖台上的位次将视为官方赛果，赛后的惩处或修正都不会更改注单的输赢结果.<br>
                                                                           3. 注单输赢将依据I.T.U.（国际铁人三项联合会，或其他相应的权威机构）公布的官方赛果而定，即使该场赛事没有举行颁奖仪式<br>
                                                                           4. 在投注二选一赛事只有双方参赛者均参与比赛注单为有效<br>
-                                                                          5. 如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定时间12小时内重打，所有投注在该场赛事的注单都将视为有效<br>
-                                                                          6.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定时间12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回<br>
+                                                                          5. 如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定時間12小时内重打，所有投注在该场赛事的注单都将视为有效<br>
+                                                                          6.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定時間12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回<br>
 
                                                                           以下为竞技项目的投注种类:<br>
                                                                           (i) 优胜冠军
@@ -5141,7 +4886,7 @@
                                                                           (B) 配对赛的盘口是指获得最佳成绩（名次/排行）的竞争者。（配对赛的成绩将以最佳排名的选手为胜出）<br>
                                                                           (C) 若两位配对赛选手中仅一位顺利晋级决赛，那么无论该选手最后的名次如何，也将被视为获胜者。
                                                                           <br>
-                                                                          (D) 若配对赛的两位选手均未能晋级决赛，那么获胜者将是在晋级赛上取得较好时间的一方。如两位的时间相同（无论组别相同与否），则将以和局计算。
+                                                                          (D) 若配对赛的两位选手均未能晋级决赛，那么获胜者将是在晋级赛上取得较好時間的一方。如两位的時間相同（无论组别相同与否），则将以和局计算。
                                                                           <br>
                                                                           (E) 若配对的选手于不同的回合被淘汰，获胜者将会是获得晋级最多的一方。
                                                                           <br>
@@ -5205,7 +4950,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>五人制足球</h4>
                                                                       <p>
-                                                                          1.除非另有说明，所有投注一概根据比赛时间2x20分钟的赛果结算。加时赛和点球赛的分数不计算在内。<br>
+                                                                          1.除非另有说明，所有投注一概根据比赛時間2x20分钟的赛果结算。加时赛和点球赛的分数不计算在内。<br>
                                                                           2.如果比赛场地更改，所有的投注被视为无效。<br>
                                                                           3.上半场投注，投注是以上半场赛事的结果为准。<br>
                                                                           4.如果赛事在官方40分钟以内取消，所有投注被视为无效。<br>
@@ -5236,7 +4981,7 @@
                                                                       <h4>游泳</h4>
                                                                       <p>
                                                                           1. 颁奖仪式的排名就是所有投注结算的正式结果。 任何后来取消资格或修改结果的情况均不适用于投注目的。<br>
-                                                                          2. 如果赛事延期、暂停或中止，并且未于原定开始时间的十二小时内恢复比赛，所有投注均作废。<br>
+                                                                          2. 如果赛事延期、暂停或中止，并且未于原定开始時間的十二小时内恢复比赛，所有投注均作废。<br>
                                                                           3. 如果游泳选手无法参加比赛，所有投注均作废。<br>
 
                                                                           以下为游泳项目的投注种类：<br>
@@ -5281,10 +5026,10 @@
                                                                   <div  style="display: none;">
                                                                       <h4>长曲棍球</h4>
                                                                       <p>
-                                                                          1.除非特别注明，所有袋棍球赛事的投注皆以球赛所规定的完场时间60分钟为准。<br>
-                                                                          2.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定时间的12小时之后重打, 所有袋棍球交易将视为无效，交易金额可获全数退回。<br>
-                                                                          3.如比赛在法定时间提前进行，在比赛开始前的投注仍然有效。在比赛开始后的所有投注均视为无效，过关赔率以[1]计算。<br>
-                                                                          4.一切投注都将以最终完场比分进行结算。赛事需达到所规定的法定时间，包括加时得分。<br>
+                                                                          1.除非特别注明，所有袋棍球赛事的投注皆以球赛所规定的完场時間60分钟为准。<br>
+                                                                          2.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定時間的12小时之后重打, 所有袋棍球交易将视为无效，交易金额可获全数退回。<br>
+                                                                          3.如比赛在法定時間提前进行，在比赛开始前的投注仍然有效。在比赛开始后的所有投注均视为无效，过关赔率以[1]计算。<br>
+                                                                          4.一切投注都将以最终完场比分进行结算。赛事需达到所规定的法定時間，包括加时得分。<br>
 
                                                                           以下为竞技项目的投注种类:<br>
                                                                           (i) 亚洲盘
@@ -5297,7 +5042,7 @@
                                                                   <div  style="display: none;">
                                                                       <h4>直排轮曲棍球</h4>
                                                                       <p>
-                                                                          1.除非另有说明，所有的直排轮曲棍球投注将以常规时间2 X 25分钟结算。<br>
+                                                                          1.除非另有说明，所有的直排轮曲棍球投注将以常规時間2 X 25分钟结算。<br>
                                                                           2. 如果赛事延迟超过12小时，没有重新开赛，所有投注被视为无效。<br>
 
 
@@ -5408,7 +5153,7 @@
                                                 <div  style="display: block;">
                                                                         <h4>冰球</h4>
                                                                         <p>
-                                                                            1.若比赛提前结束，所剩余的比赛时间必须不多于5分钟，投注方为有效，但已有明确结果的投注除外（如时段投注）。<br>
+                                                                            1.若比赛提前结束，所剩余的比赛時間必须不多于5分钟，投注方为有效，但已有明确结果的投注除外（如时段投注）。<br>
                                                                             2.除非另有说明，投注一概根据球赛结束的完场分数结算，并包括加时赛与点球赛的成绩。点球赛的成绩仅将以[1] 分作为获胜者的象征分数。<br>
 
                                                                             以下为冰球项目的投注种类：
@@ -5511,7 +5256,7 @@
                                                                     所有在网站的投注都要符合相关游戏规则以及本协议:
                                                                     <br>
                                                                     •	沙龙会ClubS有权拒绝任何投注而不给予解释说明。<br>
-                                                                    •	只有通过网站或设备的注单，符合条款与协议的被视为有效。 无论结果如何，任何以其它形式的投注（通过信函、邮件、 传真或其它方式）将不被接受或视为无效。 客户的用户名和密码一致，账户余额足够，投注确认的注单才是有效的投注，
+                                                                    •	只有通过网站或设备的注单，符合条款与协议的被视为有效。 无论结果如何，任何以其它形式的投注（通过信函、邮件、 传真或其它方式）将不被接受或视为无效。 客户的用戶名和密码一致，账户余额足够，投注确认的注单才是有效的投注，
                                         而且投注后收到确认信息的注单才被视为有效。注单从屏幕出现确认信息时即开始生效。<br>
                                                                     •	所有账户名和密码输入正确的投注都被视为有效。<br>
                                                                     •	阁下须对所有经由其账户所产生的交易和行为承担责任，无论该交易是否经由您本人同意.<br>
@@ -5732,8 +5477,8 @@
                                                             <div  style="display: none;">
                                                                 <h4>骰宝盅</h4>
                                                                 <p>
-                                                                    1.	骰宝游戏采用三粒骰子，客户可在投注时间内下注投注项目。<br>
-                                                                    2.	投注时间结束后，三粒骰子在自动振动骰盅内进行滚动。当振动时间完毕后，静止的三粒骰子朝上一方的点数便是该局的结果。<br>
+                                                                    1.	骰宝游戏采用三粒骰子，客户可在投注時間内下注投注项目。<br>
+                                                                    2.	投注時間结束后，三粒骰子在自动振动骰盅内进行滚动。当振动時間完毕后，静止的三粒骰子朝上一方的点数便是该局的结果。<br>
                                                                     3.	因斜骰或叠骰...等因素令结果不能清析判定。监场人员有权把该次结果设为无效。该局投注会按重新摇骰后的清析结果计算。<br>
                                                                     4.	当游戏结果出现围骰，投注（大／小 ）或（单／双）项目均作为输计算。
                                                                 </p>
@@ -6033,7 +5778,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>时时彩</h4>
                                                                 1.玩法介绍<br>
-                                                                分分乐的开彩结果根据上海、江西、中国社会福利3D彩票、重庆、天津及新疆官方网站。由5组号码，每组号码从0至9个号码中随机摇出3个数字 (或5个数字) 作为开奖号码，依这3个号码 (或5个号码) 变化成各式不同的玩法，猜中号码个数或玩法可以获得不同等级的奖金。开奖时间和相对应地区的官方站点同步。分分乐游戏分为十二种玩法，分别是“珠仔”、“珠仔单双”、“珠仔大小”、“珠仔串关”、“二星组选”、“三星组选三”、“三星组选六”、“和值”、“和值七彩”、“和值单双”、“和值大小”和“和值大小单双过关”。各种玩法的详细规则如下：<p></p><br>
+                                                                分分乐的开彩结果根据上海、江西、中国社会福利3D彩票、重庆、天津及新疆官方网站。由5组号码，每组号码从0至9个号码中随机摇出3个数字 (或5个数字) 作为开奖号码，依这3个号码 (或5个号码) 变化成各式不同的玩法，猜中号码个数或玩法可以获得不同等级的奖金。开奖時間和相对应地区的官方站点同步。分分乐游戏分为十二种玩法，分别是“珠仔”、“珠仔单双”、“珠仔大小”、“珠仔串关”、“二星组选”、“三星组选三”、“三星组选六”、“和值”、“和值七彩”、“和值单双”、“和值大小”和“和值大小单双过关”。各种玩法的详细规则如下：<p></p><br>
 
                                                                 <table border="1" class="helpcenter-tbl">
 
@@ -6138,12 +5883,12 @@
                                                                 <p>
                                                                     1.开奖
                                                                     <br>
-                                                                    &nbsp;&nbsp;&nbsp;&nbsp;a.	上海： 官方开奖销售时间每天10:30至21:30， 每30分钟一期，每天10:00第一期开奖，22:00最后一期开奖，共23期。<br>
-                                                                    &nbsp;&nbsp;&nbsp;&nbsp;b.	重庆：官方白天开奖时间每天10:00至21:50，每10分钟一期，夜间游戏每天晚上10点至凌晨2点，5分钟一期，共120期。<br>
-                                                                    &nbsp;&nbsp;&nbsp;&nbsp;c.	江西： 官方开奖销售时间每天09:00至23:10，每10分钟一期，共84期。<br>
-                                                                    &nbsp;&nbsp;&nbsp;&nbsp;d.	福利3D： 官方开奖销售时间每天21:00，一天一期。<br>
-                                                                    &nbsp;&nbsp;&nbsp;&nbsp;e.	天津：官方开奖销售时间每天09:00至23:00，每一期间隔10分钟，每天共84期。<br>
-                                                                    &nbsp;&nbsp;&nbsp;&nbsp;f.	新疆：官方开奖销售时间每天中午12点至第二天凌晨2点，每一期间隔10分钟，每天共84期。<br>
+                                                                    &nbsp;&nbsp;&nbsp;&nbsp;a.	上海： 官方开奖销售時間每天10:30至21:30， 每30分钟一期，每天10:00第一期开奖，22:00最后一期开奖，共23期。<br>
+                                                                    &nbsp;&nbsp;&nbsp;&nbsp;b.	重庆：官方白天开奖時間每天10:00至21:50，每10分钟一期，夜间游戏每天晚上10点至凌晨2点，5分钟一期，共120期。<br>
+                                                                    &nbsp;&nbsp;&nbsp;&nbsp;c.	江西： 官方开奖销售時間每天09:00至23:10，每10分钟一期，共84期。<br>
+                                                                    &nbsp;&nbsp;&nbsp;&nbsp;d.	福利3D： 官方开奖销售時間每天21:00，一天一期。<br>
+                                                                    &nbsp;&nbsp;&nbsp;&nbsp;e.	天津：官方开奖销售時間每天09:00至23:00，每一期间隔10分钟，每天共84期。<br>
+                                                                    &nbsp;&nbsp;&nbsp;&nbsp;f.	新疆：官方开奖销售時間每天中午12点至第二天凌晨2点，每一期间隔10分钟，每天共84期。<br>
                                                                 </p>
                                                                 <br>
                                                             </div>
@@ -6369,11 +6114,11 @@
                                                             <div  style="display: none;">
                                                                 <h4>足球规则</h4>
                                                                 <p>
-                                                                    -除非另有说明，否则足球投注的结算将以比赛的常规时间（包括伤停补时）为准，不包括加时赛和点球赛的成绩。
+                                                                    -除非另有说明，否则足球投注的结算将以比赛的常规時間（包括伤停补时）为准，不包括加时赛和点球赛的成绩。
                                         -加时赛和点球大战会另外提供盘口和行情。
-                                        -若球赛原定的比赛时间异于常规时间（如各种锦标赛或友谊赛的特别比赛时间），所有投注将依照原定的比赛时间来结算。
-                                        -关于不正规的比赛时间，除非早于比赛前已公布在网站上，否则投注将被作废。
-                                        -若赛事少于正规时间，本公司有权将投注结算搁置至72个小时或必要的其他时限以查实赛事情况和赛果。赛事情况将依据官方网站管理机构所发布的赛果（如有）为准。除非官方所发布的赛果明显错误，或相关赛事并无官方网站或官方网站未有赛果发布
+                                        -若球赛原定的比赛時間异于常规時間（如各种锦标赛或友谊赛的特别比赛時間），所有投注将依照原定的比赛時間来结算。
+                                        -关于不正规的比赛時間，除非早于比赛前已公布在网站上，否则投注将被作废。
+                                        -若赛事少于正规時間，本公司有权将投注结算搁置至72个小时或必要的其他时限以查实赛事情况和赛果。赛事情况将依据官方网站管理机构所发布的赛果（如有）为准。除非官方所发布的赛果明显错误，或相关赛事并无官方网站或官方网站未有赛果发布
                                         ，那么本公司将竭力调查以确定正确的赛果。在此情况下，本公司的决定将是最终决定，所有投注皆依据本网站规则结算。
                                                                 </p>
                                                                 <br>
@@ -6411,14 +6156,14 @@
 
 
                                                                 <h4>下半场投注</h4>
-                                                                <p>投注将按照下半场正确比分盘口进行结算包括伤停时间，若赛事在结束前被中止，投注作废。</p>
+                                                                <p>投注将按照下半场正确比分盘口进行结算包括伤停時間，若赛事在结束前被中止，投注作废。</p>
                                                                 <br>
 
 
                                                                 <p class="#feb902 red_2">
                                                                     <strong>00:00- 30:00 分钟投注&amp; 00:00- 70:00 分钟投</strong>
                                                                         </p><p>
-                                                                            结算依据为比赛在指定时间的赛果. 如果赛事在指定时间前被中止，所有投注作废。
+                                                                            结算依据为比赛在指定時間的赛果. 如果赛事在指定時間前被中止，所有投注作废。
 
                                                                           </p><h4>双重机会</h4>
                                                                             <p>
@@ -6453,7 +6198,7 @@
                                                                             <br>
 
                                                                             <h4>波胆</h4>
-                                                                            <p>波胆是指投注预测完整比赛时间结束后的最终比分。不包括加时赛和点球赛的成绩。投注“波胆”时，如果要赢得“UP 5”，投注者选择的队伍必须净赢五球或以上。例子：5-0, 6-1, 7-0, 7-1, 7-2。</p>
+                                                                            <p>波胆是指投注预测完整比赛時間结束后的最终比分。不包括加时赛和点球赛的成绩。投注“波胆”时，如果要赢得“UP 5”，投注者选择的队伍必须净赢五球或以上。例子：5-0, 6-1, 7-0, 7-1, 7-2。</p>
                                                                             <br>
 
                                                                             <h4>总进球数</h4>
@@ -6473,7 +6218,7 @@
                                                                             <br>
 
                                                                             <h4>单一球队上半场</h4>p>
-                                                                            <p>投注于赛事中的单一球队上半场/下半场的总进球数。如果赛事在指定时间前被中止，所有投注作废。</p>
+                                                                            <p>投注于赛事中的单一球队上半场/下半场的总进球数。如果赛事在指定時間前被中止，所有投注作废。</p>
                                                                             <br>
 
                                                                             <h4>总进球数单双</h4>
@@ -6535,7 +6280,7 @@
                                                                             <br>
 
                                                                             <h4>首粒入球時間投注</h4>
-                                                                            <p>首粒入球时间投注是指赛事的第一粒入球的时间在盘口以上或以下。所有入球时间本公司将依据现场直播为准。如果比赛在入球后被中止，投注依然有效。然而如果比赛在未入球被中止，所有投注均为作废。 </p>
+                                                                            <p>首粒入球時間投注是指赛事的第一粒入球的時間在盘口以上或以下。所有入球時間本公司将依据现场直播为准。如果比赛在入球后被中止，投注依然有效。然而如果比赛在未入球被中止，所有投注均为作废。 </p>
                                                                             <br>
 
                                                                             <h2>首次发生</h2>
@@ -6596,8 +6341,8 @@
                                                                             <p>是指投注比赛中获得最后一个任意球的队伍。</p>
                                                                             <br>
 
-                                                                            <h4>首次产生时间</h4>
-                                                                            <p>是指投注比赛中产生（入球，角球，门球等）的时间。 </p>
+                                                                            <h4>首次产生時間</h4>
+                                                                            <p>是指投注比赛中产生（入球，角球，门球等）的時間。 </p>
                                                                             <br>
 
                                                                             <h4>角球总数包括滚球</h4>
@@ -6605,7 +6350,7 @@
                                                                                 -是指投注比赛中的总角球总数。公司将根据现场直播计算投注结果。<br>
                                                                                 -除非角球实际开出（与判罚角球相对），否则角球不计入在内。<br>
                                                                                 -重新执行的角球将计算为1次。<br>
-                                                                                -所有投注将以比赛的常规时间为准，不包括加时赛。
+                                                                                -所有投注将以比赛的常规時間为准，不包括加时赛。
                                                                             </p>
                                                                             <br>
 
@@ -6655,9 +6400,9 @@
                                                                                 <br>
                                                                                 -如果总分大于“大小盘”预先指定的总分，则投注“大盘”的为贏家；如果总分少于“大小盘”预先指定的总分，则投注“小盘”的为贏家。
                                                                                 <br>
-                                                                                -15分钟大小盘是根据现场直播的时间为准，注单将根据正确的进球时间 (当球越过龙门线) / 角球数(实际开出) /罚牌发出时间来进行结算。
+                                                                                -15分钟大小盘是根据现场直播的時間为准，注单将根据正确的进球時間 (当球越过龙门线) / 角球数(实际开出) /罚牌发出時間来进行结算。
                                                                                 <br>
-                                                                                -如果球赛中止或暂停，所有投注于未完成的特定15分钟大小盘将视为作废。如果时间已超过投注的特定15分钟大小盘，那么所有投注于将视为有效。
+                                                                                -如果球赛中止或暂停，所有投注于未完成的特定15分钟大小盘将视为作废。如果時間已超过投注的特定15分钟大小盘，那么所有投注于将视为有效。
                                                                             </p>
                                                                             <br>
 
@@ -6672,7 +6417,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>篮球规则</h4>
                                                                 <p>
-                                                                    1. 若比赛提前结束，所剩余的比赛时间必须不多于5分钟，投注方为有效，已有明确结果的投注除外（例：时段投注）。<br>
+                                                                    1. 若比赛提前结束，所剩余的比赛時間必须不多于5分钟，投注方为有效，已有明确结果的投注除外（例：时段投注）。<br>
                                                                     2.投注将根据官方公布的最终得分结算，包括加时赛，除非另有说明。<br>
                                                                     3. 美国大学赛的盘口所显示的主、客队场地资讯仅供于参考。<br>
 
@@ -6769,7 +6514,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>赛车规则</h4>
                                                                 <p>
-                                                                    1.若车赛中断或延误，并未于原定开赛时间起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
+                                                                    1.若车赛中断或延误，并未于原定开赛時間起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
                                                                     2.官方练习赛后无开赛的车手之投注将不被退还。<br>
                                                                     3.赛果将以颁奖时所公布的为准。<br>
                                                                     4.排位赛的投注是按照排位赛结束时所指定的起跑排位为准。<br>
@@ -6804,9 +6549,9 @@
                                                                     <br>
                                                                     (viii) 输赢比时
                                                                     <br>
-                                                                    (A) 投注结算将以两位车手相差的时间为准。
+                                                                    (A) 投注结算将以两位车手相差的時間为准。
                                                                     <br>
-                                                                    (B) 网站显示的让分盘以时间（秒）为标准，例：6.0
+                                                                    (B) 网站显示的让分盘以時間（秒）为标准，例：6.0
                                                                     <br>
                                                                     表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
 
@@ -6823,7 +6568,7 @@
                                                                 <h4>北欧两项</h4>
                                                                 <p>
                                                                     1.结算将根据颁奖时所公布的赛果为准。若无进行颁奖仪式，结果将按照官方所公布的赛果而定，随后的上诉、资格取消或赛果更动皆不影响结算。<br>
-                                                                    2.若比赛腰斩或延期，并未于原定开赛时间起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
+                                                                    2.若比赛腰斩或延期，并未于原定开赛時間起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
                                                                     3.若官方更改原本列出的项目条件（包括但不限于场地更换、缩减比赛部分或回合、更改指定的项目等等），所有投注将被作废。至于越野赛和冬季两项，若官方已列明的距离有所更改，投注将被作废；若实际距离有别，投注则有效。至于跳台滑雪项目，在一个回合完成后的赛果方为有效。<br>
 
                                                                     以下为冬季运动项目的投注种类：
@@ -6894,7 +6639,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>冰球</h4>
                                                                 <p>
-                                                                    1.若比赛提前结束，所剩余的比赛时间必须不多于5分钟，投注方为有效，但已有明确结果的投注除外（如时段投注）。<br>
+                                                                    1.若比赛提前结束，所剩余的比赛時間必须不多于5分钟，投注方为有效，但已有明确结果的投注除外（如时段投注）。<br>
                                                                     2.除非另有说明，投注一概根据球赛结束的完场分数结算，并包括加时赛与点球赛的成绩。点球赛的成绩仅将以[1] 分作为获胜者的象征分数。<br>
 
                                                                     以下为冰球项目的投注种类：
@@ -6937,8 +6682,8 @@
                                                                     -技术性击倒:如果参赛一方无法继续比赛,赛事将以技术性击倒结束。<br>
                                                                     -平局将包括技术性平局。<br>
                                                                     5.赛事结束时的结果将被认定为最终赛果。 此赛果已包括重新统计裁判的记分牌或任何权威机构对赛事结果的赛后变更, 将不会更改注单的输赢。<br>
-                                                                    6.如该赛事缓期、取消或放弃时，而赛事在原官方定义的时间之12小时内继续进行时，投注此赛事之所有注单仍有效。<br>
-                                                                    7.如该赛事缓期、取消或放弃时，而赛事在原官方定义的时间之12小时内未能继续进行时，投注此赛事之所有注单将视为无效，投注彩金返还原帐户。<br>
+                                                                    6.如该赛事缓期、取消或放弃时，而赛事在原官方定义的時間之12小时内继续进行时，投注此赛事之所有注单仍有效。<br>
+                                                                    7.如该赛事缓期、取消或放弃时，而赛事在原官方定义的時間之12小时内未能继续进行时，投注此赛事之所有注单将视为无效，投注彩金返还原帐户。<br>
 
                                                                     以下为搏击比赛项目的投注种类：
                                                                     <br>
@@ -6979,7 +6724,7 @@
                                                                     -需要选择至少两项不同的赛事来形成一项过关投注。<br>
                                                                     -总赔率计算是由下注的金额乘于每项赛事胜出的赔率。每个选择的赛事必须胜出方为赢，如果一个（或多个）的选项未能获胜方为输。<br>
                                                                     -如果一个（或多个）的选项延迟或腰折，该选项的赔率将以[1.00]计算。<br>
-                                                                    -如果有一个（或多个）选项的赛事行情有误或赛事在预定的时间前开踢，该选项的赔率亦以[1.00]计算。<br>
+                                                                    -如果有一个（或多个）选项的赛事行情有误或赛事在预定的時間前开踢，该选项的赔率亦以[1.00]计算。<br>
 
                                                                     亚洲盘和大小盘的计算方程式<br>
 
@@ -7135,7 +6880,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>电单车锦标赛</h4>
                                                                 <p>
-                                                                    1.若车赛中断或延误，并未于原定开赛时间起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
+                                                                    1.若车赛中断或延误，并未于原定开赛時間起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
                                                                     2.官方练习赛后无开赛的车手之投注将不被退还。<br>
                                                                     3.赛果将以颁奖时所公布的为准。<br>
                                                                     4.排位赛的投注是按照排位赛结束时所指定的起跑排位为准。<br>
@@ -7176,9 +6921,9 @@
                                                                     <br>
                                                                     (viii) 输赢比时
                                                                     <br>
-                                                                    (A) 投注结算将以两位车手相差的时间为准。
+                                                                    (A) 投注结算将以两位车手相差的時間为准。
                                                                     <br>
-                                                                    (B) 网站显示的让分盘以时间（秒）为标准，例：6.0
+                                                                    (B) 网站显示的让分盘以時間（秒）为标准，例：6.0
                                                                     <br>
                                                                     表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
 
@@ -7195,7 +6940,7 @@
                                                                 <p class="#feb902 red_2">
                                                                     <strong>冬季两项</strong></p><p>
                                                                         1.结算将根据颁奖时所公布的赛果为准。若无进行颁奖仪式，结果将按照官方所公布的赛果而定，随后的上诉、资格取消或赛果更动皆不影响结算。<br>
-                                                                        2.若比赛腰斩或延期，并未于原定开赛时间起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
+                                                                        2.若比赛腰斩或延期，并未于原定开赛時間起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
                                                                         3.若官方更改原本列出的项目条件（包括但不限于场地更换、缩减比赛部分或回合、更改指定的项目等等），所有投注将被作废。至于越野赛和冬季两项，若官方已列明的距离有所更改，投注将被作废；若实际距离有别，投注则有效。至于跳台滑雪项目，在一个回合完成后的赛果方为有效。<br>
 
                                                                         以下为冬季运动项目的投注种类：
@@ -7245,7 +6990,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>盖尔人运动</h4>
                                                                 <p>
-                                                                    -除非另行规定，所有投注都按常规时间比赛结束时的赛果进行结算。伤停补时计算在内，但是加时赛不计算在内。<br>
+                                                                    -除非另行规定，所有投注都按常规時間比赛结束时的赛果进行结算。伤停补时计算在内，但是加时赛不计算在内。<br>
                                                                     -如果成绩/进球存在争议，则以比赛完成后GAA立即公布的裁定的结果为准进行结算。随后的任何修正都不计算在内。<br>
                                                                     -除非已确认获胜方，否则比赛如果中止，投注将无效。<br>
                                                                     -如果比赛推迟，除非比赛重新安排同一天的12小时之后, 否则投注将无效。<br>
@@ -7262,7 +7007,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>橄榄球</h4>
                                                                 <p>
-                                                                    1.除非另有说明，否则橄榄球的所有投注均依照80分钟的比赛时间（包括伤停补时）结算，但不包括加时赛。<br>
+                                                                    1.除非另有说明，否则橄榄球的所有投注均依照80分钟的比赛時間（包括伤停补时）结算，但不包括加时赛。<br>
                                                                     2.若比赛在未足80分钟的情况下被腰斩，该比赛的所有投注将被作废。<br>
 
                                                                     以下为橄榄球项目的投注种类：
@@ -7343,8 +7088,8 @@
                                                                 <p>
                                                                     1.颁奖台上的位次将视为官方赛果，赛后的惩处或修正都不会更改注单的输赢结果。无论该队伍或队员参赛与否，所有的注单都将视为有效。<br>
                                                                     2.注单的输赢将依据F.I.S.A 和 I.C.F（国际划船联盟、国际独木舟联盟，或其他相应的权威机构）公布的官方赛果而定，即使该场赛事没有举行颁奖仪式。<br>
-                                                                    3.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定时间的12小时内重打，所有投注在该场赛事的注单都将视为有效。<br>
-                                                                    4.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定时间的12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回。<br>
+                                                                    3.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定時間的12小时内重打，所有投注在该场赛事的注单都将视为有效。<br>
+                                                                    4.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定時間的12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回。<br>
 
                                                                     以下为室内足球项目的投注种类：<br>
                                                                     (i)优胜冠军<br>
@@ -7356,7 +7101,7 @@
                                                                 <h4>滑雪</h4>
                                                                 <p>
                                                                     1.结算将根据颁奖时所公布的赛果为准。若无进行颁奖仪式，结果将按照官方所公布的赛果而定，随后的上诉、资格取消或赛果更动皆不影响结算。<br>
-                                                                    2.若比赛腰斩或延期，并未于原定开赛时间起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
+                                                                    2.若比赛腰斩或延期，并未于原定开赛時間起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
                                                                     3.若官方更改原本列出的项目条件（包括但不限于场地更换、缩减比赛部分或回合、更改指定的项目等等），所有投注将被作废。至于越野赛和冬季两项，若官方已列明的距离有所更改，投注将被作废；若实际距离有别，投注则有效。至于跳台滑雪项目，在一个回合完成后的赛果方为有效。<br>
 
                                                                     以下为冬季运动项目的投注种类：
@@ -7387,7 +7132,7 @@
                                                                 <h4>击剑</h4>
                                                                 <p>
                                                                     1.比赛以“点击次数” ：投注将被安置在第一个运动员到达各自的点击次数。此规则适用于各种点击数字。<br>
-                                                                    2. 重剑：在“重剑”里，有可能在同一时间内，两个竞争者会都被授予一个分数。
+                                                                    2. 重剑：在“重剑”里，有可能在同一時間内，两个竞争者会都被授予一个分数。
                                                                 </p>
                                                                 <br>
                                                             </div>
@@ -7406,7 +7151,7 @@
                                                                     <br>
                                                                     (C) 若两位配对赛选手中仅一位顺利晋级决赛，那么无论该选手最后的名次如何，也将被视为获胜者。
                                                                     <br>
-                                                                    (D) 若配对赛的两位选手均未能晋级决赛，那么获胜者将是在晋级赛上取得较好时间的一方。如两位的时间相同（无论组别相同与否），则将以和局计算。
+                                                                    (D) 若配对赛的两位选手均未能晋级决赛，那么获胜者将是在晋级赛上取得较好時間的一方。如两位的時間相同（无论组别相同与否），则将以和局计算。
                                                                     <br>
                                                                     (E) 若配对的选手于不同的回合被淘汰，获胜者将会是获得晋级最多的一方。
                                                                     <br>
@@ -7441,7 +7186,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>拉力赛</h4>
                                                                 <p>
-                                                                    1.若车赛中断或延误，并未于原定开赛时间起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
+                                                                    1.若车赛中断或延误，并未于原定开赛時間起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
                                                                     2.官方练习赛后无开赛的车手之投注将不被退还。<br>
                                                                     3.赛果将以颁奖时所公布的为准。<br>
                                                                     4.排位赛的投注是按照排位赛结束时所指定的起跑排位为准。<br>
@@ -7484,9 +7229,9 @@
                                                                     <br>
                                                                     (viii) 输赢比时
                                                                     <br>
-                                                                    (A) 投注结算将以两位车手相差的时间为准。
+                                                                    (A) 投注结算将以两位车手相差的時間为准。
                                                                     <br>
-                                                                    (B) 网站显示的让分盘以时间（秒）为标准，例：6.0 表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
+                                                                    (B) 网站显示的让分盘以時間（秒）为标准，例：6.0 表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
 
                                                                     (2) 滚球投注
                                                                     <br>
@@ -7499,7 +7244,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>赛车运动</h4>
                                                                 <p>
-                                                                    1.若车赛中断或延误，并未于原定开赛时间起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
+                                                                    1.若车赛中断或延误，并未于原定开赛時間起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
                                                                     2.官方练习赛后无开赛的车手之投注将不被退还。<br>
                                                                     3.赛果将以颁奖时所公布的为准。<br>
                                                                     4.排位赛的投注是按照排位赛结束时所指定的起跑排位为准。<br>
@@ -7538,9 +7283,9 @@
                                                                     (A) 没参赛的车辆将不计算在内。<br>
                                                                     (viii) 输赢比时
                                                                     <br>
-                                                                    (A) 投注结算将以两位车手相差的时间为准。
+                                                                    (A) 投注结算将以两位车手相差的時間为准。
                                                                     <br>
-                                                                    (B) 网站显示的让分盘以时间（秒）为标准，例：6.0
+                                                                    (B) 网站显示的让分盘以時間（秒）为标准，例：6.0
                                                                     <br>
                                                                     表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
 
@@ -7559,8 +7304,8 @@
                                                                 <p>
                                                                     1.如该赛事未达七局就结束，所有的注单将会视为无效，除非在第六局上半局主队已经以五分领先客队。<br>
                                                                     2.成绩将根据官方成绩为准,包括延长赛。<br>
-                                                                    3.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定时间的12小时内重打，所有投注在该场赛事的注单都将视为有效。<br>
-                                                                    4.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定时间的12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回。<br>
+                                                                    3.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定時間的12小时内重打，所有投注在该场赛事的注单都将视为有效。<br>
+                                                                    4.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定時間的12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回。<br>
                                                                     5.如果比赛场地更换，所有原场地之注单无效，将退还本金。
                                                                 </p>
                                                                 <br>
@@ -7584,7 +7329,7 @@
                                                                 <p>
                                                                     1.除另有规定外，投注皆需以比赛结束的完场分数为准，包括加时赛（如有）的得分。<br>
 
-                                                                    2.若比赛提前结束，所剩余的比赛时间必须不多于5分钟，投注方为有效，但已有明确结果的投注除外（如时段投注）。<br>
+                                                                    2.若比赛提前结束，所剩余的比赛時間必须不多于5分钟，投注方为有效，但已有明确结果的投注除外（如时段投注）。<br>
 
                                                                     美国大学赛的盘口所显示的主、客队场地资讯仅供参考。<br>
                                                                     以下为美式足球项目的投注种类：
@@ -7714,7 +7459,7 @@
                                                                 <h4>澳式橄榄</h4>
                                                                 <p>
                                                                     1. 如果比赛场地更改，所有的投注被视为无效。<br>
-                                                                    2. 所有赛事规定时间全场以80分钟为准，不包括加时，除非不同的赛事规定。<br>
+                                                                    2. 所有赛事规定時間全场以80分钟为准，不包括加时，除非不同的赛事规定。<br>
                                                                     3.上半场投注，投注是以上半场赛事的结果为准。<br>
                                                                     4.如果赛事在官方80分钟以内取消，所有投注被视为无效。<br>
                                                                     5.如果赛事延迟或重新安排在12小时以内开始，那么所有的注单有效。如果赛事延迟超过12小时，所有投注被视为无效。<br>
@@ -7772,13 +7517,13 @@
                                                                 <p>
                                                                     以下规则适用：
                                                                     <br>
-                                                                    (a) 若比赛腰斩或延期，并未于原定开赛时间起的36个小时内恢复比赛，投注将被作废。
+                                                                    (a) 若比赛腰斩或延期，并未于原定开赛時間起的36个小时内恢复比赛，投注将被作废。
                                                                     <br>
                                                                     (b) 在单日赛里，若比赛因天气问题等因素而缩减赛程，所有投注将根据官方设定的比赛规则来结算。若比赛的最终结果以击刹或掷币定输赢，所有投注将被作废。
                                                                     <br>
                                                                     (c) 当达科沃斯/刘易斯计算方式（Duckworth Lewis Method）被执行时，“十轮最高得分”和“最高开场配对选手得分”的所有投注将被作废，但在达科沃斯/刘易斯计算方式执行前已有明确结果的盘口除外。
                                                                     <br>
-                                                                    (d) 若单日国际赛事于候补赛日重新掷币，所有于首日原开赛时间前45分钟内的投注将被作废。此规则适用于所有盘口，唯已有明确结果的盘口例外，如：开场掷币获胜队。
+                                                                    (d) 若单日国际赛事于候补赛日重新掷币，所有于首日原开赛時間前45分钟内的投注将被作废。此规则适用于所有盘口，唯已有明确结果的盘口例外，如：开场掷币获胜队。
                                                                     <br>
 
                                                                   </p><h4>对抗赛</h4>
@@ -7834,11 +7579,11 @@
                                                             <div  style="display: none;">
                                                                 <h4>沙滩足球</h4>
                                                                 <p>
-                                                                    1.除非另有说明, 所有投注一概根据比赛时间3x12 分钟的赛果来结算。
+                                                                    1.除非另有说明, 所有投注一概根据比赛時間3x12 分钟的赛果来结算。
                                                                     <br>
                                                                     2. 加时赛和罚球决胜赛不计入全场赌盘的计算结果。
                                                                     <br>
-                                                                    3.如果比赛延期、暂停或中止，并且未于原定开始时间的十二小时内恢复比赛，所有投注均作废。<br>
+                                                                    3.如果比赛延期、暂停或中止，并且未于原定开始時間的十二小时内恢复比赛，所有投注均作废。<br>
 
                                                                     以下为沙滩足球项目的投注种类：<br>
                                                                     (1) 非滚球投注
@@ -7875,7 +7620,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>室内曲棍球</h4>
                                                                 <p>
-                                                                    1.除非另有说明，所有的室内曲棍球投注将以常规时间3 X 20分钟结算。<br>
+                                                                    1.除非另有说明，所有的室内曲棍球投注将以常规時間3 X 20分钟结算。<br>
                                                                     2.如果赛事延迟超过12小时，没有重新开赛，所有投注被视为无效。<br>
 
                                                                     以下为竞技项目的投注种类:<br>
@@ -7892,7 +7637,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>室内足球</h4>
                                                                 <p>
-                                                                    1.除非另有说明，所有投注一概根据比赛时间4x15分钟的赛果结算。加时赛和点球赛的分数不计算在内。<br>
+                                                                    1.除非另有说明，所有投注一概根据比赛時間4x15分钟的赛果结算。加时赛和点球赛的分数不计算在内。<br>
                                                                     2.如果比赛场地更改，所有的投注被视为无效。<br>
                                                                     3.如果赛事在官方60分钟以内取消，所有投注被视为无效。<br>
                                                                     4.如果赛事延迟或重新安排在12小时以内开始，那么所有的注单有效。如果赛事延迟超过12小时，所有投注被视为无效。<br>
@@ -7995,7 +7740,7 @@
                                                                 <h4>跳台滑雪</h4>
                                                                 <p>
                                                                     1.结算将根据颁奖时所公布的赛果为准。若无进行颁奖仪式，结果将按照官方所公布的赛果而定，随后的上诉、资格取消或赛果更动皆不影响结算。<br>
-                                                                    2.若比赛腰斩或延期，并未于原定开赛时间起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
+                                                                    2.若比赛腰斩或延期，并未于原定开赛時間起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
                                                                     3.若官方更改原本列出的项目条件（包括但不限于场地更换、缩减比赛部分或回合、更改指定的项目等等），所有投注将被作废。至于越野赛和冬季两项，若官方已列明的距离有所更改，投注将被作废；若实际距离有别，投注则有效。至于跳台滑雪项目，在一个回合完成后的赛果方为有效。<br>
 
                                                                     以下为冬季运动项目的投注种类：
@@ -8027,8 +7772,8 @@
                                                                     2.颁奖台上的位次将视为官方赛果，赛后的惩处或修正都不会更改注单的输赢结果.<br>
                                                                     3. 注单输赢将依据I.T.U.（国际铁人三项联合会，或其他相应的权威机构）公布的官方赛果而定，即使该场赛事没有举行颁奖仪式<br>
                                                                     4. 在投注二选一赛事只有双方参赛者均参与比赛注单为有效<br>
-                                                                    5. 如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定时间12小时内重打，所有投注在该场赛事的注单都将视为有效<br>
-                                                                    6.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定时间12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回<br>
+                                                                    5. 如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定時間12小时内重打，所有投注在该场赛事的注单都将视为有效<br>
+                                                                    6.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定時間12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回<br>
 
                                                                     以下为竞技项目的投注种类:<br>
                                                                     (i) 优胜冠军
@@ -8042,7 +7787,7 @@
                                                                     (B) 配对赛的盘口是指获得最佳成绩（名次/排行）的竞争者。（配对赛的成绩将以最佳排名的选手为胜出）<br>
                                                                     (C) 若两位配对赛选手中仅一位顺利晋级决赛，那么无论该选手最后的名次如何，也将被视为获胜者。
                                                                     <br>
-                                                                    (D) 若配对赛的两位选手均未能晋级决赛，那么获胜者将是在晋级赛上取得较好时间的一方。如两位的时间相同（无论组别相同与否），则将以和局计算。
+                                                                    (D) 若配对赛的两位选手均未能晋级决赛，那么获胜者将是在晋级赛上取得较好時間的一方。如两位的時間相同（无论组别相同与否），则将以和局计算。
                                                                     <br>
                                                                     (E) 若配对的选手于不同的回合被淘汰，获胜者将会是获得晋级最多的一方。
                                                                     <br>
@@ -8106,7 +7851,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>五人制足球</h4>
                                                                 <p>
-                                                                    1.除非另有说明，所有投注一概根据比赛时间2x20分钟的赛果结算。加时赛和点球赛的分数不计算在内。<br>
+                                                                    1.除非另有说明，所有投注一概根据比赛時間2x20分钟的赛果结算。加时赛和点球赛的分数不计算在内。<br>
                                                                     2.如果比赛场地更改，所有的投注被视为无效。<br>
                                                                     3.上半场投注，投注是以上半场赛事的结果为准。<br>
                                                                     4.如果赛事在官方40分钟以内取消，所有投注被视为无效。<br>
@@ -8137,7 +7882,7 @@
                                                                 <h4>游泳</h4>
                                                                 <p>
                                                                     1. 颁奖仪式的排名就是所有投注结算的正式结果。 任何后来取消资格或修改结果的情况均不适用于投注目的。<br>
-                                                                    2. 如果赛事延期、暂停或中止，并且未于原定开始时间的十二小时内恢复比赛，所有投注均作废。<br>
+                                                                    2. 如果赛事延期、暂停或中止，并且未于原定开始時間的十二小时内恢复比赛，所有投注均作废。<br>
                                                                     3. 如果游泳选手无法参加比赛，所有投注均作废。<br>
 
                                                                     以下为游泳项目的投注种类：<br>
@@ -8182,10 +7927,10 @@
                                                             <div  style="display: none;">
                                                                 <h4>长曲棍球</h4>
                                                                 <p>
-                                                                    1.除非特别注明，所有袋棍球赛事的投注皆以球赛所规定的完场时间60分钟为准。<br>
-                                                                    2.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定时间的12小时之后重打, 所有袋棍球交易将视为无效，交易金额可获全数退回。<br>
-                                                                    3.如比赛在法定时间提前进行，在比赛开始前的投注仍然有效。在比赛开始后的所有投注均视为无效，过关赔率以[1]计算。<br>
-                                                                    4.一切投注都将以最终完场比分进行结算。赛事需达到所规定的法定时间，包括加时得分。<br>
+                                                                    1.除非特别注明，所有袋棍球赛事的投注皆以球赛所规定的完场時間60分钟为准。<br>
+                                                                    2.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定時間的12小时之后重打, 所有袋棍球交易将视为无效，交易金额可获全数退回。<br>
+                                                                    3.如比赛在法定時間提前进行，在比赛开始前的投注仍然有效。在比赛开始后的所有投注均视为无效，过关赔率以[1]计算。<br>
+                                                                    4.一切投注都将以最终完场比分进行结算。赛事需达到所规定的法定時間，包括加时得分。<br>
 
                                                                     以下为竞技项目的投注种类:<br>
                                                                     (i) 亚洲盘
@@ -8198,7 +7943,7 @@
                                                             <div  style="display: none;">
                                                                 <h4>直排轮曲棍球</h4>
                                                                 <p>
-                                                                    1.除非另有说明，所有的直排轮曲棍球投注将以常规时间2 X 25分钟结算。<br>
+                                                                    1.除非另有说明，所有的直排轮曲棍球投注将以常规時間2 X 25分钟结算。<br>
                                                                     2. 如果赛事延迟超过12小时，没有重新开赛，所有投注被视为无效。<br>
 
 
@@ -8331,7 +8076,7 @@
                                                                     -需要选择至少两项不同的赛事来形成一项过关投注。<br>
                                                                     -总赔率计算是由下注的金额乘于每项赛事胜出的赔率。每个选择的赛事必须胜出方为赢，如果一个（或多个）的选项未能获胜方为输。<br>
                                                                     -如果一个（或多个）的选项延迟或腰折，该选项的赔率将以[1.00]计算。<br>
-                                                                    -如果有一个（或多个）选项的赛事行情有误或赛事在预定的时间前开踢，该选项的赔率亦以[1.00]计算。<br>
+                                                                    -如果有一个（或多个）选项的赛事行情有误或赛事在预定的時間前开踢，该选项的赔率亦以[1.00]计算。<br>
 
                                                                     亚洲盘和大小盘的计算方程式<br>
 
@@ -8489,7 +8234,7 @@
                                             <div  style="display: block;">
                                                                     <h4>电单车锦标赛</h4>
                                                                     <p>
-                                                                        1.若车赛中断或延误，并未于原定开赛时间起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
+                                                                        1.若车赛中断或延误，并未于原定开赛時間起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
                                                                         2.官方练习赛后无开赛的车手之投注将不被退还。<br>
                                                                         3.赛果将以颁奖时所公布的为准。<br>
                                                                         4.排位赛的投注是按照排位赛结束时所指定的起跑排位为准。<br>
@@ -8530,9 +8275,9 @@
                                                                         <br>
                                                                         (viii) 输赢比时
                                                                         <br>
-                                                                        (A) 投注结算将以两位车手相差的时间为准。
+                                                                        (A) 投注结算将以两位车手相差的時間为准。
                                                                         <br>
-                                                                        (B) 网站显示的让分盘以时间（秒）为标准，例：6.0
+                                                                        (B) 网站显示的让分盘以時間（秒）为标准，例：6.0
                                                                         <br>
                                                                         表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
 
@@ -8552,7 +8297,7 @@
                                                                 <p class="#feb902 red_2">
                                                                     <strong>冬季两项</strong></p><p>
                                                                         1.结算将根据颁奖时所公布的赛果为准。若无进行颁奖仪式，结果将按照官方所公布的赛果而定，随后的上诉、资格取消或赛果更动皆不影响结算。<br>
-                                                                        2.若比赛腰斩或延期，并未于原定开赛时间起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
+                                                                        2.若比赛腰斩或延期，并未于原定开赛時間起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
                                                                         3.若官方更改原本列出的项目条件（包括但不限于场地更换、缩减比赛部分或回合、更改指定的项目等等），所有投注将被作废。至于越野赛和冬季两项，若官方已列明的距离有所更改，投注将被作废；若实际距离有别，投注则有效。至于跳台滑雪项目，在一个回合完成后的赛果方为有效。<br>
 
                                                                         以下为冬季运动项目的投注种类：
@@ -8606,7 +8351,7 @@
                                           <div  style="display: block;">
                                                                   <h4>盖尔人运动</h4>
                                                                   <p>
-                                                                      -除非另行规定，所有投注都按常规时间比赛结束时的赛果进行结算。伤停补时计算在内，但是加时赛不计算在内。<br>
+                                                                      -除非另行规定，所有投注都按常规時間比赛结束时的赛果进行结算。伤停补时计算在内，但是加时赛不计算在内。<br>
                                                                       -如果成绩/进球存在争议，则以比赛完成后GAA立即公布的裁定的结果为准进行结算。随后的任何修正都不计算在内。<br>
                                                                       -除非已确认获胜方，否则比赛如果中止，投注将无效。<br>
                                                                       -如果比赛推迟，除非比赛重新安排同一天的12小时之后, 否则投注将无效。<br>
@@ -8625,7 +8370,7 @@
                                           <div  style="display: block;">
                                                                   <h4>橄榄球</h4>
                                                                   <p>
-                                                                      1.除非另有说明，否则橄榄球的所有投注均依照80分钟的比赛时间（包括伤停补时）结算，但不包括加时赛。<br>
+                                                                      1.除非另有说明，否则橄榄球的所有投注均依照80分钟的比赛時間（包括伤停补时）结算，但不包括加时赛。<br>
                                                                       2.若比赛在未足80分钟的情况下被腰斩，该比赛的所有投注将被作废。<br>
 
                                                                       以下为橄榄球项目的投注种类：
@@ -8711,8 +8456,8 @@
                                                                   <p>
                                                                       1.颁奖台上的位次将视为官方赛果，赛后的惩处或修正都不会更改注单的输赢结果。无论该队伍或队员参赛与否，所有的注单都将视为有效。<br>
                                                                       2.注单的输赢将依据F.I.S.A 和 I.C.F（国际划船联盟、国际独木舟联盟，或其他相应的权威机构）公布的官方赛果而定，即使该场赛事没有举行颁奖仪式。<br>
-                                                                      3.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定时间的12小时内重打，所有投注在该场赛事的注单都将视为有效。<br>
-                                                                      4.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定时间的12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回。<br>
+                                                                      3.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定時間的12小时内重打，所有投注在该场赛事的注单都将视为有效。<br>
+                                                                      4.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定時間的12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回。<br>
 
                                                                       以下为室内足球项目的投注种类：<br>
                                                                       (i)优胜冠军<br>
@@ -8726,7 +8471,7 @@
                                                                   <h4>滑雪</h4>
                                                                   <p>
                                                                       1.结算将根据颁奖时所公布的赛果为准。若无进行颁奖仪式，结果将按照官方所公布的赛果而定，随后的上诉、资格取消或赛果更动皆不影响结算。<br>
-                                                                      2.若比赛腰斩或延期，并未于原定开赛时间起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
+                                                                      2.若比赛腰斩或延期，并未于原定开赛時間起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
                                                                       3.若官方更改原本列出的项目条件（包括但不限于场地更换、缩减比赛部分或回合、更改指定的项目等等），所有投注将被作废。至于越野赛和冬季两项，若官方已列明的距离有所更改，投注将被作废；若实际距离有别，投注则有效。至于跳台滑雪项目，在一个回合完成后的赛果方为有效。<br>
 
                                                                       以下为冬季运动项目的投注种类：
@@ -8759,7 +8504,7 @@
                                                                   <h4>击剑</h4>
                                                                   <p>
                                                                       1.比赛以“点击次数” ：投注将被安置在第一个运动员到达各自的点击次数。此规则适用于各种点击数字。<br>
-                                                                      2. 重剑：在“重剑”里，有可能在同一时间内，两个竞争者会都被授予一个分数。
+                                                                      2. 重剑：在“重剑”里，有可能在同一時間内，两个竞争者会都被授予一个分数。
                                                                   </p>
                                                                   <br>
                                                               </div>
@@ -8780,7 +8525,7 @@
                                                                       <br>
                                                                       (C) 若两位配对赛选手中仅一位顺利晋级决赛，那么无论该选手最后的名次如何，也将被视为获胜者。
                                                                       <br>
-                                                                      (D) 若配对赛的两位选手均未能晋级决赛，那么获胜者将是在晋级赛上取得较好时间的一方。如两位的时间相同（无论组别相同与否），则将以和局计算。
+                                                                      (D) 若配对赛的两位选手均未能晋级决赛，那么获胜者将是在晋级赛上取得较好時間的一方。如两位的時間相同（无论组别相同与否），则将以和局计算。
                                                                       <br>
                                                                       (E) 若配对的选手于不同的回合被淘汰，获胜者将会是获得晋级最多的一方。
                                                                       <br>
@@ -8819,7 +8564,7 @@
                                           <div  style="display: block;">
                                                                   <h4>拉力赛</h4>
                                                                   <p>
-                                                                      1.若车赛中断或延误，并未于原定开赛时间起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
+                                                                      1.若车赛中断或延误，并未于原定开赛時間起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
                                                                       2.官方练习赛后无开赛的车手之投注将不被退还。<br>
                                                                       3.赛果将以颁奖时所公布的为准。<br>
                                                                       4.排位赛的投注是按照排位赛结束时所指定的起跑排位为准。<br>
@@ -8862,9 +8607,9 @@
                                                                       <br>
                                                                       (viii) 输赢比时
                                                                       <br>
-                                                                      (A) 投注结算将以两位车手相差的时间为准。
+                                                                      (A) 投注结算将以两位车手相差的時間为准。
                                                                       <br>
-                                                                      (B) 网站显示的让分盘以时间（秒）为标准，例：6.0 表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
+                                                                      (B) 网站显示的让分盘以時間（秒）为标准，例：6.0 表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
 
                                                                       (2) 滚球投注
                                                                       <br>
@@ -8879,7 +8624,7 @@
                                           <div  style="display: block;">
                                                                   <h4>赛车运动</h4>
                                                                   <p>
-                                                                      1.若车赛中断或延误，并未于原定开赛时间起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
+                                                                      1.若车赛中断或延误，并未于原定开赛時間起的72个小时内恢复比赛，所有投注将被作废和退款，已有明确结果的投注除外。<br>
                                                                       2.官方练习赛后无开赛的车手之投注将不被退还。<br>
                                                                       3.赛果将以颁奖时所公布的为准。<br>
                                                                       4.排位赛的投注是按照排位赛结束时所指定的起跑排位为准。<br>
@@ -8918,9 +8663,9 @@
                                                                       (A) 没参赛的车辆将不计算在内。<br>
                                                                       (viii) 输赢比时
                                                                       <br>
-                                                                      (A) 投注结算将以两位车手相差的时间为准。
+                                                                      (A) 投注结算将以两位车手相差的時間为准。
                                                                       <br>
-                                                                      (B) 网站显示的让分盘以时间（秒）为标准，例：6.0
+                                                                      (B) 网站显示的让分盘以時間（秒）为标准，例：6.0
                                                                       <br>
                                                                       表示让6秒给该车手。若投注大于或小于6.0，任何6秒以下（如5.99或5.8秒等）的时差将被视为小于6，而6秒以上（如6.01或6.2秒等）则被视为大于6。若时差正好是6秒（那就是6.00秒）则为和，投注将被退还。<br>
 
@@ -8941,8 +8686,8 @@
                                                                   <p>
                                                                       1.如该赛事未达七局就结束，所有的注单将会视为无效，除非在第六局上半局主队已经以五分领先客队。<br>
                                                                       2.成绩将根据官方成绩为准,包括延长赛。<br>
-                                                                      3.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定时间的12小时内重打，所有投注在该场赛事的注单都将视为有效。<br>
-                                                                      4.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定时间的12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回。<br>
+                                                                      3.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定時間的12小时内重打，所有投注在该场赛事的注单都将视为有效。<br>
+                                                                      4.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定時間的12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回。<br>
                                                                       5.如果比赛场地更换，所有原场地之注单无效，将退还本金。
                                                                   </p>
                                                                   <br>
@@ -8971,7 +8716,7 @@
                                                                   <p>
                                                                       1.除另有规定外，投注皆需以比赛结束的完场分数为准，包括加时赛（如有）的得分。<br>
 
-                                                                      2.若比赛提前结束，所剩余的比赛时间必须不多于5分钟，投注方为有效，但已有明确结果的投注除外（如时段投注）。<br>
+                                                                      2.若比赛提前结束，所剩余的比赛時間必须不多于5分钟，投注方为有效，但已有明确结果的投注除外（如时段投注）。<br>
 
                                                                       美国大学赛的盘口所显示的主、客队场地资讯仅供参考。<br>
                                                                       以下为美式足球项目的投注种类：
@@ -9109,7 +8854,7 @@
                                                                   <h4>澳式橄榄</h4>
                                                                   <p>
                                                                       1. 如果比赛场地更改，所有的投注被视为无效。<br>
-                                                                      2. 所有赛事规定时间全场以80分钟为准，不包括加时，除非不同的赛事规定。<br>
+                                                                      2. 所有赛事规定時間全场以80分钟为准，不包括加时，除非不同的赛事规定。<br>
                                                                       3.上半场投注，投注是以上半场赛事的结果为准。<br>
                                                                       4.如果赛事在官方80分钟以内取消，所有投注被视为无效。<br>
                                                                       5.如果赛事延迟或重新安排在12小时以内开始，那么所有的注单有效。如果赛事延迟超过12小时，所有投注被视为无效。<br>
@@ -9169,13 +8914,13 @@
                                                                   <p>
                                                                       以下规则适用：
                                                                       <br>
-                                                                      (a) 若比赛腰斩或延期，并未于原定开赛时间起的36个小时内恢复比赛，投注将被作废。
+                                                                      (a) 若比赛腰斩或延期，并未于原定开赛時間起的36个小时内恢复比赛，投注将被作废。
                                                                       <br>
                                                                       (b) 在单日赛里，若比赛因天气问题等因素而缩减赛程，所有投注将根据官方设定的比赛规则来结算。若比赛的最终结果以击刹或掷币定输赢，所有投注将被作废。
                                                                       <br>
                                                                       (c) 当达科沃斯/刘易斯计算方式（Duckworth Lewis Method）被执行时，“十轮最高得分”和“最高开场配对选手得分”的所有投注将被作废，但在达科沃斯/刘易斯计算方式执行前已有明确结果的盘口除外。
                                                                       <br>
-                                                                      (d) 若单日国际赛事于候补赛日重新掷币，所有于首日原开赛时间前45分钟内的投注将被作废。此规则适用于所有盘口，唯已有明确结果的盘口例外，如：开场掷币获胜队。
+                                                                      (d) 若单日国际赛事于候补赛日重新掷币，所有于首日原开赛時間前45分钟内的投注将被作废。此规则适用于所有盘口，唯已有明确结果的盘口例外，如：开场掷币获胜队。
                                                                       <br>
 
                                                                     </p><h4>对抗赛</h4>
@@ -9233,11 +8978,11 @@
                                           <div  style="display: block;">
                                                                   <h4>沙滩足球</h4>
                                                                   <p>
-                                                                      1.除非另有说明, 所有投注一概根据比赛时间3x12 分钟的赛果来结算。
+                                                                      1.除非另有说明, 所有投注一概根据比赛時間3x12 分钟的赛果来结算。
                                                                       <br>
                                                                       2. 加时赛和罚球决胜赛不计入全场赌盘的计算结果。
                                                                       <br>
-                                                                      3.如果比赛延期、暂停或中止，并且未于原定开始时间的十二小时内恢复比赛，所有投注均作废。<br>
+                                                                      3.如果比赛延期、暂停或中止，并且未于原定开始時間的十二小时内恢复比赛，所有投注均作废。<br>
 
                                                                       以下为沙滩足球项目的投注种类：<br>
                                                                       (1) 非滚球投注
@@ -9278,7 +9023,7 @@
                                           <div  style="display: block;">
                                                                   <h4>室内曲棍球</h4>
                                                                   <p>
-                                                                      1.除非另有说明，所有的室内曲棍球投注将以常规时间3 X 20分钟结算。<br>
+                                                                      1.除非另有说明，所有的室内曲棍球投注将以常规時間3 X 20分钟结算。<br>
                                                                       2.如果赛事延迟超过12小时，没有重新开赛，所有投注被视为无效。<br>
 
                                                                       以下为竞技项目的投注种类:<br>
@@ -9297,7 +9042,7 @@
                                           <div  style="display: block;">
                                                                   <h4>室内足球</h4>
                                                                   <p>
-                                                                      1.除非另有说明，所有投注一概根据比赛时间4x15分钟的赛果结算。加时赛和点球赛的分数不计算在内。<br>
+                                                                      1.除非另有说明，所有投注一概根据比赛時間4x15分钟的赛果结算。加时赛和点球赛的分数不计算在内。<br>
                                                                       2.如果比赛场地更改，所有的投注被视为无效。<br>
                                                                       3.如果赛事在官方60分钟以内取消，所有投注被视为无效。<br>
                                                                       4.如果赛事延迟或重新安排在12小时以内开始，那么所有的注单有效。如果赛事延迟超过12小时，所有投注被视为无效。<br>
@@ -9408,7 +9153,7 @@
                                                                   <h4>跳台滑雪</h4>
                                                                   <p>
                                                                       1.结算将根据颁奖时所公布的赛果为准。若无进行颁奖仪式，结果将按照官方所公布的赛果而定，随后的上诉、资格取消或赛果更动皆不影响结算。<br>
-                                                                      2.若比赛腰斩或延期，并未于原定开赛时间起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
+                                                                      2.若比赛腰斩或延期，并未于原定开赛時間起的48个小时内恢复比赛，所有投注将被作废和退款。<br>
                                                                       3.若官方更改原本列出的项目条件（包括但不限于场地更换、缩减比赛部分或回合、更改指定的项目等等），所有投注将被作废。至于越野赛和冬季两项，若官方已列明的距离有所更改，投注将被作废；若实际距离有别，投注则有效。至于跳台滑雪项目，在一个回合完成后的赛果方为有效。<br>
 
                                                                       以下为冬季运动项目的投注种类：
@@ -9442,8 +9187,8 @@
                                                                       2.颁奖台上的位次将视为官方赛果，赛后的惩处或修正都不会更改注单的输赢结果.<br>
                                                                       3. 注单输赢将依据I.T.U.（国际铁人三项联合会，或其他相应的权威机构）公布的官方赛果而定，即使该场赛事没有举行颁奖仪式<br>
                                                                       4. 在投注二选一赛事只有双方参赛者均参与比赛注单为有效<br>
-                                                                      5. 如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定时间12小时内重打，所有投注在该场赛事的注单都将视为有效<br>
-                                                                      6.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定时间12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回<br>
+                                                                      5. 如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定時間12小时内重打，所有投注在该场赛事的注单都将视为有效<br>
+                                                                      6.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事并无在原定時間12小时之内重打，所有投注在该场赛事的注单都将视为无效，交易金额可获全数退回<br>
 
                                                                       以下为竞技项目的投注种类:<br>
                                                                       (i) 优胜冠军
@@ -9457,7 +9202,7 @@
                                                                       (B) 配对赛的盘口是指获得最佳成绩（名次/排行）的竞争者。（配对赛的成绩将以最佳排名的选手为胜出）<br>
                                                                       (C) 若两位配对赛选手中仅一位顺利晋级决赛，那么无论该选手最后的名次如何，也将被视为获胜者。
                                                                       <br>
-                                                                      (D) 若配对赛的两位选手均未能晋级决赛，那么获胜者将是在晋级赛上取得较好时间的一方。如两位的时间相同（无论组别相同与否），则将以和局计算。
+                                                                      (D) 若配对赛的两位选手均未能晋级决赛，那么获胜者将是在晋级赛上取得较好時間的一方。如两位的時間相同（无论组别相同与否），则将以和局计算。
                                                                       <br>
                                                                       (E) 若配对的选手于不同的回合被淘汰，获胜者将会是获得晋级最多的一方。
                                                                       <br>
@@ -9525,7 +9270,7 @@
                                           <div  style="display: block;">
                                                                   <h4>五人制足球</h4>
                                                                   <p>
-                                                                      1.除非另有说明，所有投注一概根据比赛时间2x20分钟的赛果结算。加时赛和点球赛的分数不计算在内。<br>
+                                                                      1.除非另有说明，所有投注一概根据比赛時間2x20分钟的赛果结算。加时赛和点球赛的分数不计算在内。<br>
                                                                       2.如果比赛场地更改，所有的投注被视为无效。<br>
                                                                       3.上半场投注，投注是以上半场赛事的结果为准。<br>
                                                                       4.如果赛事在官方40分钟以内取消，所有投注被视为无效。<br>
@@ -9558,7 +9303,7 @@
                                                                   <h4>游泳</h4>
                                                                   <p>
                                                                       1. 颁奖仪式的排名就是所有投注结算的正式结果。 任何后来取消资格或修改结果的情况均不适用于投注目的。<br>
-                                                                      2. 如果赛事延期、暂停或中止，并且未于原定开始时间的十二小时内恢复比赛，所有投注均作废。<br>
+                                                                      2. 如果赛事延期、暂停或中止，并且未于原定开始時間的十二小时内恢复比赛，所有投注均作废。<br>
                                                                       3. 如果游泳选手无法参加比赛，所有投注均作废。<br>
 
                                                                       以下为游泳项目的投注种类：<br>
@@ -9607,10 +9352,10 @@
                                           <div  style="display: block;">
                                                                   <h4>长曲棍球</h4>
                                                                   <p>
-                                                                      1.除非特别注明，所有袋棍球赛事的投注皆以球赛所规定的完场时间60分钟为准。<br>
-                                                                      2.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定时间的12小时之后重打, 所有袋棍球交易将视为无效，交易金额可获全数退回。<br>
-                                                                      3.如比赛在法定时间提前进行，在比赛开始前的投注仍然有效。在比赛开始后的所有投注均视为无效，过关赔率以[1]计算。<br>
-                                                                      4.一切投注都将以最终完场比分进行结算。赛事需达到所规定的法定时间，包括加时得分。<br>
+                                                                      1.除非特别注明，所有袋棍球赛事的投注皆以球赛所规定的完场時間60分钟为准。<br>
+                                                                      2.如该场球赛中断，腰斩，延迟，或因种种因素而使球赛不能继续顺利进行，而赛事在原定時間的12小时之后重打, 所有袋棍球交易将视为无效，交易金额可获全数退回。<br>
+                                                                      3.如比赛在法定時間提前进行，在比赛开始前的投注仍然有效。在比赛开始后的所有投注均视为无效，过关赔率以[1]计算。<br>
+                                                                      4.一切投注都将以最终完场比分进行结算。赛事需达到所规定的法定時間，包括加时得分。<br>
 
                                                                       以下为竞技项目的投注种类:<br>
                                                                       (i) 亚洲盘
@@ -9625,7 +9370,7 @@
                                           <div  style="display: block;">
                                                                   <h4>直排轮曲棍球</h4>
                                                                   <p>
-                                                                      1.除非另有说明，所有的直排轮曲棍球投注将以常规时间2 X 25分钟结算。<br>
+                                                                      1.除非另有说明，所有的直排轮曲棍球投注将以常规時間2 X 25分钟结算。<br>
                                                                       2. 如果赛事延迟超过12小时，没有重新开赛，所有投注被视为无效。<br>
 
 
@@ -9674,7 +9419,7 @@
                                           <div  style="display: block;">
                                                                 <h4>直排轮曲棍球</h4>
                                                                 <p>
-                                                                    1.除非另有说明，所有的直排轮曲棍球投注将以常规时间2 X 25分钟结算。<br>
+                                                                    1.除非另有说明，所有的直排轮曲棍球投注将以常规時間2 X 25分钟结算。<br>
                                                                     2. 如果赛事延迟超过12小时，没有重新开赛，所有投注被视为无效。<br>
 
 
@@ -9858,7 +9603,7 @@
                                               所有在网站的投注都要符合相关游戏规则以及本协议:
                                               <br>
                                               •	沙龙会ClubS有权拒绝任何投注而不给予解释说明。<br>
-                                              •	只有通过网站或设备的注单，符合条款与协议的被视为有效。 无论结果如何，任何以其它形式的投注（通过信函、邮件、 传真或其它方式）将不被接受或视为无效。 客户的用户名和密码一致，账户余额足够，投注确认的注单才是有效的投注，
+                                              •	只有通过网站或设备的注单，符合条款与协议的被视为有效。 无论结果如何，任何以其它形式的投注（通过信函、邮件、 传真或其它方式）将不被接受或视为无效。 客户的用戶名和密码一致，账户余额足够，投注确认的注单才是有效的投注，
                   而且投注后收到确认信息的注单才被视为有效。注单从屏幕出现确认信息时即开始生效。<br>
                                               •	所有账户名和密码输入正确的投注都被视为有效。<br>
                                               •	阁下须对所有经由其账户所产生的交易和行为承担责任，无论该交易是否经由您本人同意.<br>
@@ -9950,7 +9695,7 @@
                                         <dl class="dl-horizontal">
                                         <dt>•</dt>
                                         <dd>
-                                        问题赌博发生于当赌博无法控制的时候，如赌博的范围扩大、赌博的频率增加、博彩金额程度提高和闲暇时间用于赌博。</dd>
+                                        问题赌博发生于当赌博无法控制的时候，如赌博的范围扩大、赌博的频率增加、博彩金额程度提高和闲暇時間用于赌博。</dd>
                                         </dl>
                                         <span>问题赌博所带来的负面影响可能包括:
                                         <br>
@@ -10335,7 +10080,7 @@
                                             假设彩金为300元，场方将收取佣金15元。
                                           </p>
                                           <p>如荷官在用金属罩扣钮子时，移动的过程中有钮子漏出外面，结果都是按金属罩中的钮子为准</p>
-                                          <p>当网络出现故障或视频中断时，本公司规定在游戏进行途中完成该局，并等待网络恢复正常，按照该局最终结果发送，若在投注时间内停止后，但还没正式开始时，则会把该局取消，并退回投注金额。</p>
+                                          <p>当网络出现故障或视频中断时，本公司规定在游戏进行途中完成该局，并等待网络恢复正常，按照该局最终结果发送，若在投注時間内停止后，但还没正式开始时，则会把该局取消，并退回投注金额。</p>
                                       </div>
 
                                       <div role="tabpanel" class="tab-pane" id="tab12">
@@ -10635,7 +10380,7 @@
 
                                         <h4>时时彩</h4>
                                         1.玩法介绍<br>
-                                        分分乐的开彩结果根据上海、江西、中国社会福利3D彩票、重庆、天津及新疆官方网站。由5组号码，每组号码从0至9个号码中随机摇出3个数字 (或5个数字) 作为开奖号码，依这3个号码 (或5个号码) 变化成各式不同的玩法，猜中号码个数或玩法可以获得不同等级的奖金。开奖时间和相对应地区的官方站点同步。分分乐游戏分为十二种玩法，分别是“珠仔”、“珠仔单双”、“珠仔大小”、“珠仔串关”、“二星组选”、“三星组选三”、“三星组选六”、“和值”、“和值七彩”、“和值单双”、“和值大小”和“和值大小单双过关”。各种玩法的详细规则如下：<p></p><br>
+                                        分分乐的开彩结果根据上海、江西、中国社会福利3D彩票、重庆、天津及新疆官方网站。由5组号码，每组号码从0至9个号码中随机摇出3个数字 (或5个数字) 作为开奖号码，依这3个号码 (或5个号码) 变化成各式不同的玩法，猜中号码个数或玩法可以获得不同等级的奖金。开奖時間和相对应地区的官方站点同步。分分乐游戏分为十二种玩法，分别是“珠仔”、“珠仔单双”、“珠仔大小”、“珠仔串关”、“二星组选”、“三星组选三”、“三星组选六”、“和值”、“和值七彩”、“和值单双”、“和值大小”和“和值大小单双过关”。各种玩法的详细规则如下：<p></p><br>
 
                                         <table border="1" class="helpcenter-tbl">
 
@@ -10740,12 +10485,12 @@
                                         <p>
                                             1.开奖
                                             <br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;a.	上海： 官方开奖销售时间每天10:30至21:30， 每30分钟一期，每天10:00第一期开奖，22:00最后一期开奖，共23期。<br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;b.	重庆：官方白天开奖时间每天10:00至21:50，每10分钟一期，夜间游戏每天晚上10点至凌晨2点，5分钟一期，共120期。<br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;c.	江西： 官方开奖销售时间每天09:00至23:10，每10分钟一期，共84期。<br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;d.	福利3D： 官方开奖销售时间每天21:00，一天一期。<br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;e.	天津：官方开奖销售时间每天09:00至23:00，每一期间隔10分钟，每天共84期。<br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;f.	新疆：官方开奖销售时间每天中午12点至第二天凌晨2点，每一期间隔10分钟，每天共84期。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;a.	上海： 官方开奖销售時間每天10:30至21:30， 每30分钟一期，每天10:00第一期开奖，22:00最后一期开奖，共23期。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;b.	重庆：官方白天开奖時間每天10:00至21:50，每10分钟一期，夜间游戏每天晚上10点至凌晨2点，5分钟一期，共120期。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;c.	江西： 官方开奖销售時間每天09:00至23:10，每10分钟一期，共84期。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;d.	福利3D： 官方开奖销售時間每天21:00，一天一期。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;e.	天津：官方开奖销售時間每天09:00至23:00，每一期间隔10分钟，每天共84期。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;f.	新疆：官方开奖销售時間每天中午12点至第二天凌晨2点，每一期间隔10分钟，每天共84期。<br>
                                         </p>
                                         <br>
 
@@ -10920,7 +10665,7 @@
                                         <div class="cc">
                                           <div class="ccc">
                                               如果您使用的瀏覽器或浏览中的网页发生问题，请试着清除瀏覽器的快取。如果仍无法解决问题，建议您接着清除瀏覽器的 Cookie。<br>
-                                              各种瀏覽器及各版本的快取和 Cookie 清除步骤都不尽相同，如果这裡未列出您所用的瀏覽器或版本，请参阅瀏覽器的说明选单。
+                                              各种瀏覽器及各版本的快取和 Cookie 清除步驟都不尽相同，如果这裡未列出您所用的瀏覽器或版本，请参阅瀏覽器的说明选单。
                                           </div>
                                           <div class="titcc">
                                               常见的瀏覽器</div>
@@ -10949,7 +10694,7 @@
                                                       <dt>2.</dt><dd>选取 [工具]。</dd>
                                                       <dt>3.</dt><dd>选取 [清除浏览资料]。</dd>
                                                       <dt>4.</dt><dd>在显示的对话方块中，找到要移除的资讯类型，然后选取旁边的核取方块。</dd>
-                                                      <dt>5.</dt><dd>从顶端的选单中选取要删除的资料范围。选取 [不限时间] 可删除所有资料。</dd>
+                                                      <dt>5.</dt><dd>从顶端的选单中选取要删除的资料范围。选取 [不限時間] 可删除所有资料。</dd>
                                                       <dt>6.</dt><dd>按一下 [清除浏览资料]。</dd>
                                                   </dl>
                                                   <div class="clear">
@@ -10984,7 +10729,7 @@
                                                           按一下 [删除]。</dd>
                                                       <dt>5.</dt>
                                                       <dd>
-                                                          电脑可能需要几分钟的时间才能完全删除快取记录。删除档桉后，按一下 [确定]。</dd>
+                                                          电脑可能需要几分钟的時間才能完全删除快取记录。删除档桉后，按一下 [确定]。</dd>
                                                   </dl>
                                                   <div class="clear">
                                                   </div>
@@ -11007,7 +10752,7 @@
                                                           按一下 [删除]。</dd>
                                                       <dt>5.</dt>
                                                       <dd>
-                                                          电脑可能需要几分钟的时间才能完全删除快取记录。删除档桉后，按一下 [确定]。</dd>
+                                                          电脑可能需要几分钟的時間才能完全删除快取记录。删除档桉后，按一下 [确定]。</dd>
                                                   </dl>
                                                   <div class="clear">
                                                   </div>
@@ -11130,7 +10875,7 @@
                                                           选取 [清除最近的历史记录]。</dd>
                                                       <dt>3.</dt>
                                                       <dd>
-                                                          在 [清除时间范围] 下方选取 [所有历史记录]。</dd>
+                                                          在 [清除時間范围] 下方选取 [所有历史记录]。</dd>
                                                       <dt>4.</dt><dd>展开 [细节] 核取方块。</dd>
                                                       <dt>5.</dt><dd>勾选 [快取] 核取方块。</dd>
                                                       <dt>6.</dt><dd>按一下 [立刻清除]。</dd>
@@ -11180,7 +10925,7 @@
                                                           选取 [清除最近的历史记录]。</dd>
                                                       <dt>3.</dt>
                                                       <dd>
-                                                          在 [清除时间范围] 下方选取 [所有历史记录]。</dd>
+                                                          在 [清除時間范围] 下方选取 [所有历史记录]。</dd>
                                                       <dt>4.</dt><dd>展开 [细节] 核取方块。</dd>
                                                       <dt>5.</dt><dd>勾选 [快取] 核取方块。</dd>
                                                       <dt>6.</dt><dd>按一下 [立刻清除]。</dd>
@@ -11279,7 +11024,7 @@
                                           <p>4. 下拉页面至Flash, 勾选“允许网站运行Flash”。</p>
                                           <p><img src="assets/img/helpcenter/12.png" class="img-responsive" alt=""></p>
                                           <p>5. 点击完成。关闭瀏覽器后再次打开瀏覽器即可。</p>
-                                          <p>如果以上步骤无法进行，请使用这些步骤：</p>
+                                          <p>如果以上步驟无法进行，请使用这些步驟：</p>
                                           <p>1. 访问网址：chrome://flags/</p>
                                           <p>2. 搜索：当Flash设置为“允许”时，运行所有Flash内容。</p>
                                           <p><img src="assets/img/helpcenter/13.png" class="img-responsive" alt=""></p>
@@ -11514,6 +11259,9 @@
                                         <li>
                                             <div class="list"><a href="helpcenter.html#tab5">使用條款</a></div>
                                         </li>
+                                        <li>
+                                            <div class="list list-s"><a href="helpcenter.html#tab23">如何提款</a></div>
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -11552,7 +11300,7 @@
                                             <div class="list list-s"><a href="helpcenter.html#tab24">如何清除緩存</a></div>
                                         </li>
                                         <li>
-                                            <div class="list list-s"><a href="helpcenter.html#tab5">博彩规则</a></div>
+                                            <div class="list list-s"><a href="helpcenter.html#tab4">博彩规则</a></div>
                                         </li>
                                         <li>
                                             <div class="list list-s"><a class="panel-login-btn login-modal-a" id="login-form-btn-bot" href="#">會員登入</a></div>
@@ -11565,9 +11313,6 @@
                                         </li>
                                         <li>
                                             <div class="list list-s"><a href="helpcenter.html#tab7">隱私政策</a></div>
-                                        </li>
-                                        <li>
-                                            <div class="list list-s"><a href="helpcenter.html#tab23">如何提款</a></div>
                                         </li>
                                         <li>
                                             <div class="list list-s"><a href="helpcenter.html#tab26">防刧持工具</a></div>
@@ -11743,11 +11488,11 @@
 
                   <div class="fsalon m-fsalon hidden-lg hidden-md">
                     <ul>
-                      <li><a href="#"><img src="assets/img/footer/compatible.png" class="img-responsive" alt=""></a></li>
-                      <li><a href="#"><img src="assets/img/footer/safety.png" class="img-responsive" alt=""></a></li>
-                      <li><a href="#"><img src="assets/img/footer/21.png"  alt="img-responsive"></a></li>
-                      <li><a href="#"><img src="assets/img/footer/sagaming.png" alt="" class="img-responsive"></a></li>
-                      <li><a href="#"><img src="assets/img/footer/ssalon.png" alt="" class="img-responsive"></a></li>
+                      <li><a href="#"><img src="assets/img/footer/compatible_new.png" class="img-responsive" alt=""></a></li>
+                      <li><a href="#"><img src="assets/img/footer/safety_new.png" class="img-responsive" alt=""></a></li>
+                      <li><a href="#"><img src="assets/img/footer/21_new.png"  alt="img-responsive"></a></li>
+                      <li><a href="#"><img src="assets/img/footer/sa logo_new.png" alt="" class="img-responsive"></a></li>
+                      <li><a href="#"><img src="assets/img/footer/Salon logo_new.png" alt="" class="img-responsive"></a></li>
                       <li><a href="#"><img src="assets/img/footer/f-logo2.png" class="img-responsive" alt="">沙龙国际版权所有 © 2009 - 2017</a></li>
                     </ul>
                   </div>
@@ -11765,8 +11510,8 @@
             <table class="table table-bordered">
               <thead>
                 <tr>
-                  <th>时间</th>
-                  <th>详细内容</th>
+                  <th>時間</th>
+                  <th>詳細內容</th>
                 </tr>
               </thead>
               <tbody>
@@ -11810,9 +11555,9 @@
             <div class="aboutus text-left" style="margin-top: 18px;" >
 
 
-                <p style="margin-bottom: 10px">台湾沙龙会（s36asia.com)客户服务中心，服务时间为每天24小时，每周7天，拥有广东话及普通话座席，竭诚为您提供所需的资讯和服务。 </p>
+                <p style="margin-bottom: 10px">台湾沙龙会（s36asia.com)客户服务中心，服务時間为每天24小时，每周7天，拥有广东话及普通话座席，竭诚为您提供所需的资讯和服务。 </p>
                 <div>
-                  <span>在線客服：</span> 点击这里咨询
+                  <span>在線客服：</span> 點擊這裡諮詢
                 </div>
                 <div>
                   <span>400熱線：</span>  400 120 3188
@@ -11836,15 +11581,15 @@
             <div class="forms chatserver-form">
                 <form action="">
                   <div class="form-group">
-                    <label>称呼 <span>*必填</span></label>
+                    <label>稱呼 <span>*必填</span></label>
                     <input type="text" class="form-control">
                   </div>
                   <div class="form-group">
-                    <label for="">用户名</label>
+                    <label for="">用戶名</label>
                     <input type="text" class="form-control">
                   </div>
                   <div class="form-group text-right">
-                    <button type="submit">开始聊天</button>
+                    <button type="submit">開始聊天</button>
                   </div>
                 </form>
             </div>
@@ -11870,24 +11615,24 @@
                                           <div class="form-group">
                                               <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
                                               <div class="col-md-9 col-sm-4">
-                                                  <a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a>
+                                                  
                                               </div>
                                           </div>
                                             <div class="form-group">
                                                 <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label">
-                                                    输入账号</label>
+                                                    輸入賬號</label>
                                                 <div class="col-md-9 col-sm-4">
                                                     <div class="input-border">
-                                                        <input type="email" class="form-control" placeholder="输入账号" />
+                                                        <input type="email" class="form-control" placeholder="輸入賬號" />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label for="exampleInputPassword1" class="col-md-2 col-md-offset-0 col-sm-12 col-md-offset-2  control-label">
-                                                    输入密码</label>
+                                                    輸入密碼</label>
                                                 <div class="col-md-9 col-sm-4">
                                                     <div class="input-border">
-                                                        <input type="email" class="form-control" placeholder="输入密码" />
+                                                        <input type="email" class="form-control" placeholder="輸入密碼" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -11899,7 +11644,7 @@
                                                   </div>
                                                 </div>
                                             </div>
-                                            <div class="form-group text-center cta-accounts"><a href="#myModalTab1-2" aria-controls="home" role="tab" data-toggle="tab">沒有帳號？ 在這裡註冊！</a></div>
+                                            <div class="form-group text-center cta-accounts"><a href="#myModalTab1-2" aria-controls="home" role="tab" data-toggle="tab">沒有帳號？在這裡註冊！</a></div>
 
                                         </form>
 
@@ -11911,14 +11656,14 @@
                                               <div class="form-group">
                                                   <label for="password" class="col-sm-4 control-label"></label>
                                                   <div class="col-sm-8">
-                                                    <a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a>
+                                                    
                                                   </div>
                                               </div>
                                               <div class="form-group">
                                                   <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
                                                   <div class="col-sm-8">
                                                       <div class="input-border">
-                                                          <input type="password" class="form-control" id="password" />
+                                                          <div id="country-sel" data-input-name="country"></div>
                                                       </div>
                                                   </div>
                                               </div>
@@ -11939,7 +11684,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="mobile" class="col-sm-4 control-label">建立密码 *</label>
+                                                    <label for="mobile" class="col-sm-4 control-label">建立密碼 *</label>
                                                     <div class="col-sm-8">
                                                         <div class="input-border">
                                                             <input type="email" class="form-control" id="mobile" />
@@ -11947,7 +11692,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="password" class="col-sm-4 control-label">确认密码 *</label>
+                                                    <label for="password" class="col-sm-4 control-label">確認密碼 *</label>
                                                     <div class="col-sm-8">
                                                         <div class="input-border">
                                                             <input type="password" class="form-control" id="password" />
@@ -11971,7 +11716,7 @@
                                                     </label>
                                                 </div>
                                             </div>
-                                              <div class="text-center cta-accounts"><a href="#myModalTab1-1" aria-controls="home" role="tab" data-toggle="tab">已經有賬戶？ 登錄這裡！</a></div>
+                                              <div class="text-center cta-accounts"><a href="#myModalTab1-1" aria-controls="home" role="tab" data-toggle="tab">已經有賬戶？登錄這裡！</a></div>
                                         </div>
                                       </div>
                                     </div>
@@ -11980,7 +11725,7 @@
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
                                           <ul>
-                                              <li style="display: none"><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
+                                              <li style="display: none"></li>
                                               <li>
                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                               </li>
@@ -12005,7 +11750,7 @@
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
                                           <ul>
-                                              <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
+                                              <li></li>
                                               <li>
                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                               </li>
@@ -12044,7 +11789,7 @@
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
                                           <ul>
-                                              <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
+                                              <li></li>
                                               <li>
                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                               </li>
@@ -12115,13 +11860,13 @@
                                      <div class="panel-border"></div>
                                      <div class="form-group">
                                          <div class="input-group">
-                                             <input class="form-control" type="password" placeholder="建立密码">
+                                             <input class="form-control" type="password" placeholder="建立密碼">
                                          </div>
 
                                      </div><div class="panel-border"></div>
                                      <div class="form-group">
                                          <div class="input-group">
-                                             <input class="form-control" type="password" placeholder="确认密码">
+                                             <input class="form-control" type="password" placeholder="確認密碼">
                                          </div>
                                      </div>
 
@@ -12170,13 +11915,13 @@
                                  <form id="login-form" method="post" role="form" style="display: none;">
                                      <div class="form-group">
                                          <div class="input-group">
-                                             <input class="form-control" type="password" placeholder="输入账号">
+                                             <input class="form-control" type="password" placeholder="輸入賬號">
                                          </div>
                                      </div>
                                      <div class="panel-border"></div>
                                      <div class="form-group">
                                          <div class="input-group">
-                                             <input class="form-control" type="password" placeholder="输入密码">
+                                             <input class="form-control" type="password" placeholder="輸入密碼">
                                          </div>
                                      </div>
 
@@ -12248,7 +11993,7 @@
                  <div class="modal-body">
                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                      <div class="content-title ctitle">
-                         <h1>免费试玩</h1>
+                         <h1>免費試玩</h1>
                      </div>
 
                      <div class="aboutus text-left" style="margin-top: 18px;">
@@ -12264,7 +12009,7 @@
                                  <input type="text" class="form-control">
                              </div>
                              <div class="form-group text-right">
-                                 <button type="submit">开始游戏</button>
+                                 <button type="submit">開始遊戲</button>
                              </div>
                          </form>
                      </div>
@@ -12286,6 +12031,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
     <script src="dist/js/sweetalert.min.js"></script>
     <script src="dist/js/font-awesome.js"></script>
+    <script src="dist/js/jquery.flagstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/remo-js.js"></script>
     <script src="assets/js/countUp.js"></script>

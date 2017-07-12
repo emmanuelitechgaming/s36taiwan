@@ -17,6 +17,7 @@
     <link href="dist/css/bootstrap-slide.css" rel="stylesheet">
     <link href="dist/css/sweetalert.css" rel="stylesheet">
     <link href="dist/css/font-awesome.min.css" rel="stylesheet">
+    <link href="dist/css/flags.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -202,70 +203,83 @@
             </ul>
         </div>
     </div>
-      <nav class="navbar">
-          <div class="container">
-            <div class="navbar-header header-mobile ">
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-mobile">
 
-              <div class=" nathan-hamburger-hm-d hamburger hamburger--spin hidden-sm hidden-md hidden-lg pull-right ">
-                <div class="hamburger-box">
-                  <div class="hamburger-inner"></div>
+                <!-- <a href="#"  id="mdemo-form-btn"class="panel-login-btn m-demo-img hidden-lg hidden-md">
+                  <img src="assets/img/demo.png" class="panel-login-btn img-responsive demo-img" alt=""></a> -->
+                <div class="mobile-button hidden-lg hidden-md hidden-sm hidden-xs">
+                    <a href="#" id="mobile-button" class="panel-login-btn" data-toggle="collapse" data-target="#mobile-top-menu"><i class="fa fa-caret-up"></i></a>
                 </div>
-              </div>
 
-              <div class="logo nathan-logo header-mobile-logo pull-left">
-                <a href="index.html"></a>
-              </div>
-
-              <div class="hidden-lg hidden-md">
-                <div class="navbar-header remo-navbar-header">
-                    <select class="selectpicker" data-width="fit">
-                        <option data-content='<span class="flag-icon flag-icon-us"></span> English'>Englishss</option>
-                        <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
-                        <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
-                        <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
-                    </select>
+                <div class="logo nathan-logo header-mobile-logo pull-left">
+                    <a href="index.html"></a>
                 </div>
-              </div>
-            </div>
-              <div class="hidden-sm hidden-xs">
-                  <div class="navbar-header">
-                      <select class="selectpicker" data-width="fit">
-                          <option data-content='<span class="flag-icon flag-icon-us"></span> English'>Englishss</option>
-                          <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
-                          <option data-content='<span class="flag-icon flag-icon-tw"></span> Simplified'>Simplified</option>
-                          <option data-content='<span class="flag-icon flag-icon-cn"></span> Traditional'>Traditional</option>
-                      </select>
-                  </div>
 
-                  <div class="collapse desktop-support" id="desktopSupport">
-                    <div class="container">
-                      <div class="desktop-support-title">Alternate numbers</div>
-
-                      <div>24/7 Support Manila:</div>
-                      <div class="desktop-support-number">(02) 231-2988</div>
-
-                      <div>24/7 Support Countrywide:</div>
-                      <div class="desktop-support-number">(0923) 099-0453</div>
+                <div class="hidden-lg hidden-md">
+                    <div class="navbar-header remo-navbar-header">
+                        <button class="selectpicker2" id="m-selectpicker2" data-toggle="dropdown"> 台灣/繁體</button>
+                        <div class="dropdown-menu selectpicker2-menu">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <a href=""><span class="flag-icon flag-icon-cn"> </span> <span class="cntry">中國</span>
+                                <span href="#" class="selectpicker2-sub">繁体</span>
+                                    <span href="#" class="selectpicker2-sub">简体</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-in"> </span> <span class="cntry">印度</span>
+                                <span href="#" class="selectpicker2-sub">INR</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-id"> </span> <span class="cntry">印尼</span>
+                                <span href="#" class="selectpicker2-sub">IDR</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-jp"> </span> <span class="cntry">日本</span>
+                                <span href="#" class="selectpicker2-sub">JPY</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-my"> </span> <span class="cntry">馬來西亞</span>
+                                <span href="#" class="selectpicker2-sub">MYR</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-tw"> </span> <span class="cntry">台灣</span>
+                                <span href="#" class="selectpicker2-sub">TWD</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-th"> </span> <span class="cntry">泰國</span>
+                                <span href="#" class="selectpicker2-sub">THP</span>
+                              </a>
+                              <a href=""><span class="flag-icon flag-icon-vn"> </span> <span class="cntry">越南</span>
+                                <span href="#" class="selectpicker2-sub">VND</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
+            </div>
+            <div class="hidden-sm hidden-xs">
+                <div class="navbar-header">
+                    <button class="selectpicker2"></span><span class="flag-icon flag-icon-tw"> </span> 台灣/繁體 <i class="fa fa-caret-down"></i></button>
+                </div>
 
-                  <div class="navbar-header  navbar-form navbar-cta-btn ">
-                      <!-- <a href="#desktopSupport" data-toggle="collapse" class="desktop-support-trigger pull-left support-pc">24/7 Support Manila: \(02\) 231-2988</a> -->
-                  </div>
-                  <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
-                    <a href="index.html" style="margin-bottom: -3px;"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a>
-                      <a  href="index.html"><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
-                    <a href="index.html"><img src="assets/img/login.png" class="img-responsive btn-log" alt=""></a>
+                <div class="navbar-header  navbar-form navbar-cta-btn ">
+                    <!-- <a href="#desktopSupport" data-toggle="collapse" class="desktop-support-trigger pull-left support-pc">24/7 Support Manila: \(02\) 231-2988</a> -->
+                </div>
+                <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
+                    <!-- <a href="#" class="panel-login-btn" id="demo-form-btn"style="margin-bottom: -3px;"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a> -->
+                    <a href="#" class="panel-login-btn myModalTab1" data-toggle="modal" data-target="#myModal"><img src="assets/img/register.png" class="img-responsive btn-reg" alt=""></a>
+                    <a href="#" class="panel-login-btn" data-toggle="modal" data-target="#demoModal"><img src="assets/img/login.png" class="img-responsive btn-log" alt=""></a>
+                </div>
+            </div>
 
-                  </div>
-              </div>
+            <div class="header-cs hidden-lg hidden-md">
+              <a href="#csModal" data-toggle="modal"><img src="assets/img/Y2.png" alt=""></a>
+              <a href="helpcenter.html"><img src="assets/img/Y1.png" alt=""></a>
+            </div>
 
-          </div>
-      </nav>
+        </div>
+    </nav>
 
       <nav class="navbar navbar-inverse nav-bg nav-main-bg">
           <div class="container">
-              <ul class="nav navbar-nav hidden-sm hidden-xs">
+              <ul class="nav navaa navbar-nav hidden-sm hidden-xs">
                   <li class="nav-active">
                       <a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a>
                   </li>
@@ -427,10 +441,10 @@
         <!-- /carousel -->
 
         <div class="container">
-            <ul class="breadcrumb">
+            <!-- <ul class="breadcrumb">
                 <li class="completed"><a href="javascript:void(0);">Home</a></li>
                 <li><a href="javascript:void(0);">Promotions</a></li>
-            </ul>
+            </ul> -->
 
             <div class=" breadcrumb-content">
                 <div class="breadcrumb-inner">
@@ -574,7 +588,6 @@
                                 </ul>
                             </div>
                             <!-- <h4 class="certs-h4">監管及認証</h4>
-
                             <div class="gameprovider footer-services f-right f-social">
                                 <ul class="columns no-bullet certs">
                                   <li><a href="#" id="cert1"><img src="assets/img/footer/cert1.png" alt="" class="img-responsive"></a></li>
@@ -617,6 +630,9 @@
                                         <li>
                                             <div class="list"><a href="helpcenter.html#tab5">使用條款</a></div>
                                         </li>
+                                        <li>
+                                            <div class="list list-s"><a href="helpcenter.html#tab23">如何提款</a></div>
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -655,22 +671,19 @@
                                             <div class="list list-s"><a href="helpcenter.html#tab24">如何清除緩存</a></div>
                                         </li>
                                         <li>
-                                            <div class="list list-s"><a href="helpcenter.html#tab5">博彩规则</a></div>
+                                            <div class="list list-s"><a href="helpcenter.html#tab4">博彩规则</a></div>
                                         </li>
                                         <li>
-                                            <div class="list list-s"><a class="panel-login-btn" id="login-form-btn-bot" href="#top">會員登入</a></div>
+                                            <div class="list list-s"><a class="panel-login-btn login-modal-a" id="login-form-btn-bot" href="#">會員登入</a></div>
                                         </li>
                                         <li>
-                                            <div class="list list-s"><a href="">會員註冊</a></div>
+                                            <div class="list list-s"><a class="register-modal-a" href="#">會員註冊</a></div>
                                         </li>
                                         <li>
                                             <div class="list list-s"><a href="helpcenter.html#tab6">負責任博彩</a></div>
                                         </li>
                                         <li>
                                             <div class="list list-s"><a href="helpcenter.html#tab7">隱私政策</a></div>
-                                        </li>
-                                        <li>
-                                            <div class="list list-s"><a href="helpcenter.html#tab23">如何提款</a></div>
                                         </li>
                                         <li>
                                             <div class="list list-s"><a href="helpcenter.html#tab26">防刧持工具</a></div>
@@ -846,11 +859,11 @@
 
                   <div class="fsalon m-fsalon hidden-lg hidden-md">
                     <ul>
-                      <li><a href="#"><img src="assets/img/footer/compatible.png" class="img-responsive" alt=""></a></li>
-                      <li><a href="#"><img src="assets/img/footer/safety.png" class="img-responsive" alt=""></a></li>
-                      <li><a href="#"><img src="assets/img/footer/21.png"  alt="img-responsive"></a></li>
-                      <li><a href="#"><img src="assets/img/footer/sagaming.png" alt="" class="img-responsive"></a></li>
-                      <li><a href="#"><img src="assets/img/footer/ssalon.png" alt="" class="img-responsive"></a></li>
+                      <li><a href="#"><img src="assets/img/footer/compatible_new.png" class="img-responsive" alt=""></a></li>
+                      <li><a href="#"><img src="assets/img/footer/safety_new.png" class="img-responsive" alt=""></a></li>
+                      <li><a href="#"><img src="assets/img/footer/21_new.png"  alt="img-responsive"></a></li>
+                      <li><a href="#"><img src="assets/img/footer/sa logo_new.png" alt="" class="img-responsive"></a></li>
+                      <li><a href="#"><img src="assets/img/footer/Salon logo_new.png" alt="" class="img-responsive"></a></li>
                       <li><a href="#"><img src="assets/img/footer/f-logo2.png" class="img-responsive" alt="">沙龙国际版权所有 © 2009 - 2017</a></li>
                     </ul>
                   </div>
@@ -868,8 +881,8 @@
             <table class="table table-bordered">
               <thead>
                 <tr>
-                  <th>时间</th>
-                  <th>详细内容</th>
+                  <th>時間</th>
+                  <th>詳細內容</th>
                 </tr>
               </thead>
               <tbody>
@@ -918,38 +931,24 @@
                                           <div class="form-group">
                                               <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
                                               <div class="col-md-9 col-sm-4">
-                                                  <a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a>
+                                                  
                                               </div>
                                           </div>
                                             <div class="form-group">
                                                 <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label">
-                                                    输入账号</label>
+                                                    輸入賬號</label>
                                                 <div class="col-md-9 col-sm-4">
                                                     <div class="input-border">
-                                                        <input type="email" class="form-control" placeholder="输入账号" />
+                                                        <input type="email" class="form-control" placeholder="輸入賬號" />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label for="exampleInputPassword1" class="col-md-2 col-md-offset-0 col-sm-12 col-md-offset-2  control-label">
-                                                    输入密码</label>
+                                                    輸入密碼</label>
                                                 <div class="col-md-9 col-sm-4">
                                                     <div class="input-border">
-                                                        <input type="email" class="form-control" placeholder="输入密码" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="exampleInputPassword1" class="col-md-2 col-md-offset-0 col-sm-12 col-md-offset-2  col-xs-12 control-label">
-                                                    驗證碼</label>
-                                                <div class="col-md-6 col-sm-2 col-xs-8">
-                                                    <div class="input-border">
-                                                        <input type="email" class="form-control" placeholder="驗證碼" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-2 col-xs-4">
-                                                    <div class="input-border">
-                                                        <input type="email" class="form-control" placeholder="A12BC3" />
+                                                        <input type="email" class="form-control" placeholder="輸入密碼" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -961,7 +960,7 @@
                                                   </div>
                                                 </div>
                                             </div>
-                                            <div class="form-group text-center cta-accounts"><a href="#myModalTab1-2" aria-controls="home" role="tab" data-toggle="tab">沒有帳號？ 在這裡註冊！</a></div>
+                                            <div class="form-group text-center cta-accounts"><a href="#myModalTab1-2" aria-controls="home" role="tab" data-toggle="tab">沒有帳號？在這裡註冊！</a></div>
 
                                         </form>
 
@@ -973,14 +972,14 @@
                                               <div class="form-group">
                                                   <label for="password" class="col-sm-4 control-label"></label>
                                                   <div class="col-sm-8">
-                                                    <a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a>
+                                                    
                                                   </div>
                                               </div>
                                               <div class="form-group">
                                                   <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
                                                   <div class="col-sm-8">
                                                       <div class="input-border">
-                                                          <input type="password" class="form-control" id="password" />
+                                                          <div id="country-sel" data-input-name="country"></div>
                                                       </div>
                                                   </div>
                                               </div>
@@ -1001,7 +1000,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="mobile" class="col-sm-4 control-label">建立密码 *</label>
+                                                    <label for="mobile" class="col-sm-4 control-label">建立密碼 *</label>
                                                     <div class="col-sm-8">
                                                         <div class="input-border">
                                                             <input type="email" class="form-control" id="mobile" />
@@ -1009,7 +1008,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="password" class="col-sm-4 control-label">确认密码 *</label>
+                                                    <label for="password" class="col-sm-4 control-label">確認密碼 *</label>
                                                     <div class="col-sm-8">
                                                         <div class="input-border">
                                                             <input type="password" class="form-control" id="password" />
@@ -1033,7 +1032,7 @@
                                                     </label>
                                                 </div>
                                             </div>
-                                              <div class="text-center cta-accounts"><a href="#myModalTab1-1" aria-controls="home" role="tab" data-toggle="tab">已經有賬戶？ 登錄這裡！</a></div>
+                                              <div class="text-center cta-accounts"><a href="#myModalTab1-1" aria-controls="home" role="tab" data-toggle="tab">已經有賬戶？登錄這裡！</a></div>
                                         </div>
                                       </div>
                                     </div>
@@ -1042,7 +1041,7 @@
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
                                           <ul>
-                                              <li style="display: none"><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
+                                              <li style="display: none"></li>
                                               <li>
                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                               </li>
@@ -1067,7 +1066,7 @@
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
                                           <ul>
-                                              <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
+                                              <li></li>
                                               <li>
                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                               </li>
@@ -1106,7 +1105,7 @@
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
                                           <ul>
-                                              <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台湾/繁体</a></li>
+                                              <li></li>
                                               <li>
                                                   <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
                                               </li>
@@ -1143,7 +1142,7 @@
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <div class="content-title ctitle">
-                        <h1>免费试玩</h1>
+                        <h1>免費試玩</h1>
                     </div>
 
                     <div class="aboutus text-left" style="margin-top: 18px;">
@@ -1159,7 +1158,7 @@
                                 <input type="text" class="form-control">
                             </div>
                             <div class="form-group text-right">
-                                <button type="submit">开始游戏</button>
+                                <button type="submit">開始遊戲</button>
                             </div>
                         </form>
                     </div>
@@ -1181,6 +1180,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
     <script src="dist/js/sweetalert.min.js"></script>
     <script src="dist/js/font-awesome.js"></script>
+    <script src="dist/js/jquery.flagstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
     <script>

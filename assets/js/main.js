@@ -1,6 +1,18 @@
 $(document).ready(function () {
 
-  $('#country-sel').flagStrap();
+  $('#country-sel').flagStrap({
+    countries: {
+            "TW": "台灣",
+            "CN": "中國",
+            "ID": "印尼",
+            "IN": "印度",
+            "VN": "越南",
+            "JP": "日本",
+            "MY": "馬來西亞",
+            "TH": "泰國"
+
+        }
+  });
 
   $(".btn-log").hover(function() {
   		$(this).attr("src","assets/img/login-hover.png");
@@ -362,12 +374,22 @@ $(document).ready(function () {
     $('.myModalTab3').click(function() {
       $('a[href="#demo"]').tab('show');
     })
-
     $('img[src="assets/img/casino/baccarat/play-icon.png"]').hover(function() {
       $(this).attr('src', 'assets/img/casino/baccarat/play-btn-hover.png');
     }, function() {
       $(this).attr('src', 'assets/img/casino/baccarat/play-icon.png');
     });
+    $('img[src="assets/img/casino/baccarat/play-icon.png"]').hover(function() {
+      $(this).attr('src', 'assets/img/casino/baccarat/play-btn-hover.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/casino/baccarat/play-icon.png');
+    });
+
+    $('.casino-g-img').hover(function() {
+      $(this).closest('.casino-g').find('.absolute-play a img').attr('src', 'assets/img/casino/baccarat/play-btn-hover.png');
+    }, function() {
+      $(this).closest('.casino-g').find('.absolute-play a img').attr('src', 'assets/img/casino/baccarat/play-icon.png');
+    })
 
     $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function () {
       $('#myModal2b_registration').css('display', 'block');
@@ -389,7 +411,7 @@ $(document).ready(function () {
       $('.banner-overlay').slideUp();
     })
 
-    $('.selectpicker2').click(function() {
+    $('.selectpicker2, .sitemap-selectpicker').click(function() {
       $('#drop').toggleClass('lang-click');
     });
 
@@ -419,7 +441,7 @@ $(document).ready(function () {
       $('a[href="#myModalTab1-1"').tab('show');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/promo/register now btn.png"], .register-modal-a').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/promo/register now btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-2"').tab('show');
     });

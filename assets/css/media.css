@@ -9,6 +9,9 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
+.navbar-header.header-mobile{
+  margin-top: -15px;
+}
   #myModal{
     top:-229px;
   }
@@ -34,12 +37,13 @@
         right: -11px;
     }
     .gp .live-game img {
-        max-width: 100%;
+      max-width: 130%;
+      margin-left: -19px;
     }
     header .logo a {
         display: inline-block;
         /*width: 184px;*/
-        width: 130px;
+        width: 158px;
         height: 60px;
         background: url('../img/logo.png') no-repeat 0 0;
         background-repeat: no-repeat;
@@ -237,20 +241,22 @@
         left: -100px
     }
     .selectpicker2-menu {
-        top: 63px;
+        top: 35px;
         left: 0;
         width: 100%;
     }
     .selectpicker2 {
-      padding: 1px 3px;
-      padding-bottom: 4px;
-      top: 24px;
-      left: -34px;
-      font-size: 11px;
-      letter-spacing: 0.5px;
+      background: #1d1d1d;
+      padding: 6px 8px;
+      border: 0;
+      color: #fff;
+      letter-spacing: 2px;
+      left: -31px;
+      font-size: 12px;
+      top: 23px;
     }
     .selectpicker2 .fa {
-        margin-left: 5px
+        margin-left: 0px
     }
     .breadcrumb-inner .sp-container img {
         width: 100%;
@@ -349,7 +355,7 @@
         padding: 5px 20px !important;
     }
     .panel-heading .slots-tabs > li > a {
-        padding: 5px 18px !important;
+        padding: 5px 16px !important;
     }
     .promotion-swiper-container {
       width: 257px;
@@ -428,9 +434,9 @@
       margin-top: 5px;
     }
     .live-game-txtb{
-      font-size: 9px;
+      font-size: 13px;
       letter-spacing: 0.5px;
-      bottom: 12px;
+      bottom: 13px;
     }
     .frut-popper .live-game-txtb{
       bottom: 7px
@@ -439,8 +445,8 @@
       bottom: 5px;
     }
     .live-game-txtc {
-      font-size: 9px;
-      bottom: 19px;
+      font-size: 14px;
+      bottom: 15px;
     }
 
     .casino-mp, .slots-mp{
@@ -511,17 +517,23 @@
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img, .m-fsalon ul li:nth-child(3) img{
       width: 95%;
-      height: 40px
+      height: 65px
     }
     .m-fsalon ul li:nth-child(3) img{
-      height: 50px
+      height: 65px
     }
     /*.m-fsalon ul li:nth-child(4) img{
       width: 82%;
     }*/
     .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img{
-      width: 95%;
-      height: 40px;
+      width: 85%;
+      height: 65px;
+    }
+    .m-fsalon ul li:nth-child(4) img{
+      margin-left: 10px
+    }
+    .m-fsalon ul li:nth-child(5) img{
+      margin-right: 10px
     }
     .footer-shareit ul li{
       width: 50%;
@@ -620,7 +632,7 @@
       top: 10% !important;
     }
     .jumbo{
-      top: 15px;
+      top: 12.5px;
       left: 78px;
       font-size: 15px;
       color: #FBA601;
@@ -635,6 +647,40 @@
     .absolute-play{
       left: 37%;
       top: 18%;
+    }
+    .header-cs{
+      right: 1%;
+    }
+    .gp-first a{
+      padding-bottom: 4px
+    }
+    .win-lot-top-games .prizepool{
+      font-size: 12px;
+      white-space: nowrap;
+      margin-left: -30px;
+    }
+    main .win-game img{
+      margin-left: -10px;
+      bottom: -10px
+    }
+    .live-game-txtba a {
+      padding-bottom: 4px;
+      padding-left: 6px;
+    }
+    .live-game-txtbb a {
+      padding-bottom: 2.5px;
+      padding-left: 8px;
+    }
+    .live-game-txtbc a {
+      padding-bottom: 2.5px;
+      padding-left: 8px;
+    }
+    .live-game-txtbd a {
+      padding-bottom: 4.5px;
+      padding-left: 5px;
+    }
+    .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
+      bottom: 8px;
     }
 }
 
@@ -684,11 +730,21 @@
       background-position: 19px 11px;
     }
     .selectpicker2{
-      left: -54px;
+      padding: 6px 10px;
+      letter-spacing: 2px;
+      left: -42px;
+      font-size: 14px;
+      top: 20px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 90%;
-      height: 50px
+      height: 70px
+    }
+    .m-fsalon ul li:nth-child(3) img{
+      height: 70px
+    }
+    .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img{
+      height: 70px;
     }
     #myModal .nav-tabs li.connecting-line {
       width: 84px;
@@ -715,7 +771,7 @@
       top: 16% !important;
     }
     .jumbo {
-      top: 17px;
+      top: 14.5px;
       left: 86px;
       letter-spacing: 6px;
       font-size: 17px;
@@ -729,6 +785,12 @@
     .absolute-play{
       left: 39%;
       top: 20%;
+    }
+    .header-cs{
+      right: 1%;
+    }
+    .panel-heading .slots-tabs > li > a {
+        padding: 5px 23px !important;
     }
 }
 
@@ -773,7 +835,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -63px;
+        left: -50px;
     }
     .swiper-container {
         width: 305px;
@@ -792,7 +854,7 @@
         top: 21px;
     }
     .panel-heading .slots-tabs > li > a {
-        padding: 5px 27px !important;
+        padding: 5px 25px !important;
     }
     .panel-heading .lotto-tabs > li > a {
         padding: 5px 19px !important;
@@ -885,10 +947,16 @@
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 90%;
-      height: 40px
+      height: 75px
+    }
+    .m-fsalon ul li:nth-child(3) img {
+      height: 75px;
+    }
+    .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img {
+      height: 75px;
     }
     .jumbo {
-      top: 17px;
+      top: 15px;
       left: 90px;
       letter-spacing: 6px;
       font-size: 18px;
@@ -902,6 +970,16 @@
     .absolute-play{
       left: 40%;
       top: 22%;
+    }
+    .header-cs{
+      right: 1%;
+    }
+    .live-game-txtba a {
+      padding-bottom: 6px;
+      padding-left: 6px;
+    }
+    .win-lot-top-games .prizepool{
+      margin-left: -25px;
     }
 }
 
@@ -947,13 +1025,13 @@
       left: 223px;
     }
     .selectpicker2 {
-      left: -80px;
+      left: -67px;
     }
     .rss-field .form-group:nth-child(2){
       width: 61.5%
     }
     .jumbo {
-      top: 19px;
+      top: 16.5px;
       left: 98px;
       letter-spacing: 7px;
       font-size: 19px;
@@ -963,6 +1041,40 @@
     }
     .absolute-play{
       left: 41%;
+    }
+    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img, .m-fsalon ul li:nth-child(3) img, .m-fsalon ul li:nth-child(4) img, .m-fsalon ul li:nth-child(5) img{
+      height: 75px
+    }
+    .header-cs {
+      right: 1%;
+    }
+    .gp-first a {
+      padding-bottom: 7px;
+    }
+    .live-game-txtba a, .live-game-txtbc a, .live-game-txtbd a{
+      padding-left: 10px
+    }
+    .live-game-txtbb a{
+      padding-left: 15px
+    }
+    .live-game-txtbc a, .live-game-txtbd a{
+      padding-bottom: 6px
+    }
+    .live-game-txtb {
+      font-size: 14px;
+    }
+    .live-game-txtc {
+      font-size: 14px;
+      bottom: 22px;
+    }
+    .prizepool {
+      font-size: 14px;
+    }
+    .win-lot-top-games .prizepool{
+      font-size: 14px;
+    }
+    .panel-heading .slots-tabs > li > a {
+      padding: 5px 32px !important;
     }
 }
 
@@ -1002,7 +1114,7 @@
         display: none;
     }
     .selectpicker2 {
-        left: -81px;
+        left: -68px;
     }
     .swiper-container {
         width: 345px;
@@ -1014,7 +1126,7 @@
         padding: 5px 24px;
     }
     .panel-heading .slots-tabs > li > a {
-        padding: 5px 33px !important;
+        padding: 5px 32px !important;
     }
     .panel-heading .promotional-tabs {
         width: 565px;
@@ -1098,9 +1210,6 @@
     .mnav-email{
       background-position: 28px 11px;
     }
-    .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img {
-      height: 50px;
-    }
     .m-top-header-clock{
       font-size: 12px!important;
     }
@@ -1111,13 +1220,16 @@
       top: 21% !important;
     }
     .jumbo {
-      top: 20px;
+      top: 16px;
       left: 99px;
       letter-spacing: 7px;
       font-size: 19px;
     }
     .absolute-play{
       top: 23%;
+    }
+    .header-cs {
+      right: 1%;
     }
 }
 
@@ -1463,6 +1575,9 @@
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {
+  .navbar-header.header-mobile{
+    margin-top: 0;
+  }
   #myModal{
     top:0;
   }
@@ -1570,6 +1685,7 @@
       padding-bottom: 8px;
       top: 16px;
       left: 16px;
+      font-size: 12px;
     }
     .selectpicker2 .fa {
         margin-left: 6px
@@ -1719,7 +1835,7 @@
         padding-left: 15px;
     }
     .prizepool {
-        font-size: 17px;
+        font-size: 14px;
     }
     .win-body .user {
         font-size: 16px;
@@ -1742,6 +1858,8 @@
       font-size: 15px;
       letter-spacing: 1px;
       bottom: 23px;
+      left: -64px;
+
     }
     .frut-popper .live-game-txtb{
       bottom: 14px
@@ -1888,6 +2006,33 @@
     .absolute-play{
       left: 42%;
       top: 25%;
+    }
+    .gp-first a {
+      padding-bottom: 3px;
+    }
+    .win-lot-top-games .prizepool{
+      font-size: 12px;
+      white-space: nowrap;
+      margin-left: auto;
+    }
+    main .win-game img {
+      bottom: -3px;
+    }
+    .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
+      bottom: 13px;
+    }
+    .live-game-txtba a{
+      padding-left: 2px;
+    }
+    .live-game-txtbb a{
+      padding-left: 2px;
+    }
+    .live-game-txtbc a{
+      padding-left: 0px;
+    }
+    .live-game-txtbd a{
+      padding-left: 2px;
+      padding-right: 8px
     }
 }
 
