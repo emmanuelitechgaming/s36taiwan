@@ -36,9 +36,9 @@
         top: 10px;
         right: -11px;
     }
-    .gp .live-game img {
-      max-width: 130%;
-      margin-left: -19px;
+    .gp.container .col-md-6.col-xs-6{
+      padding-left: 0;
+      padding-right: 0;
     }
     header .logo a {
         display: inline-block;
@@ -664,11 +664,11 @@
       bottom: -10px
     }
     .live-game-txtba a {
-      padding-bottom: 4px;
+      padding-bottom: 3px;
       padding-left: 6px;
     }
     .live-game-txtbb a {
-      padding-bottom: 2.5px;
+      padding-bottom: 2px;
       padding-left: 8px;
     }
     .live-game-txtbc a {
@@ -676,11 +676,19 @@
       padding-left: 8px;
     }
     .live-game-txtbd a {
-      padding-bottom: 4.5px;
+      padding-bottom: 3px;
       padding-left: 5px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
       bottom: 8px;
+    }
+    .sitemap-body2d ul, .sitemap-body2f ul, .sitemap-body2f ul li:nth-child(1) ul.columns, .sitemap-body2b ul, .sitemap-body2e ul{
+      -webkit-column-count: auto;
+              column-count: auto;
+    }
+    .sitemap-body2c ul li{
+      display: block !important;
+      width: 100%;
     }
 }
 
@@ -793,7 +801,7 @@
         padding: 5px 23px !important;
     }
     .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a {
-      padding-bottom: 7px;
+      padding-bottom: 5px;
       padding-left: 10px;
     }
     .live-game-txtc {
@@ -986,7 +994,7 @@
       right: 1%;
     }
     .live-game-txtba a {
-      padding-bottom: 8px;
+      padding-bottom: 6px;
       padding-left: 13px;
     }
     .win-lot-top-games .prizepool{
@@ -1095,8 +1103,8 @@
       padding-left: 18px;
     }
     .live-game-txtbc a, .live-game-txtbd a{
-      padding-bottom: 7px;
-      padding-left: 18px;
+      padding-bottom: 6px;
+      padding-left: 9px;
     }
 }
 
@@ -1255,8 +1263,8 @@
       right: 1%;
     }
     .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a{
-      padding-bottom: 8px;
-      padding-left: 20px;
+      padding-bottom: 4px;
+      padding-left: 5px;
     }
 }
 
@@ -1885,8 +1893,6 @@
       font-size: 15px;
       letter-spacing: 1px;
       bottom: 23px;
-      left: -64px;
-
     }
     .frut-popper .live-game-txtb{
       bottom: 14px
@@ -2060,6 +2066,38 @@
     .live-game-txtbd a{
       padding-left: 2px;
       padding-right: 8px
+    }
+    main .winner-cont {
+        min-height: 303px;
+        max-height: 303px
+    }
+    .gp.container .col-md-6.col-xs-6{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .sitemap-body2d ul{
+      -webkit-column-count: 5;
+              column-count: 5;
+    }
+    .sitemap-body2f ul{
+      -webkit-column-count: 2;
+              column-count: 2;
+    }
+    .sitemap-body2f ul li:nth-child(1) ul.columns{
+      -webkit-column-count: 2;
+              column-count: 2;
+    }
+    .sitemap-body2b ul{
+      -webkit-column-count: 5;
+              column-count: 5
+    }
+    .sitemap-body2c ul li{
+      display: inline-block !important;
+      width: 33%;
+    }
+    .sitemap-body2e ul{
+      -webkit-column-count: 5;
+              column-count: 5
     }
 }
 

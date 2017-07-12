@@ -1,9 +1,5 @@
 $(document).ready(function () {
 
-  if(window.location['pathname'] == '/trunk/index.html'){
-    $('.float-contacts-m, .scrolltotop-m').css('right', '13px');
-  }
-
   $('#country-sel').flagStrap({
     countries: {
             "TW": "台灣",
@@ -465,6 +461,12 @@ $(document).ready(function () {
           scrollTop: 0
       }, 1000);
       $('#drop').toggleClass('lang-click');
+    });
+
+    $('.cta-contact-hc').click(function() {
+      $('a[href="#tab2"]').tab('show');
+      $('.nav.nav-pills.brand-pills.nav-stacked.sidebar-nav li').removeClass('active');
+      $('.nav.nav-pills.brand-pills.nav-stacked.sidebar-nav li a[href="#tab2"]').parent('li').addClass('active');
     })
 
 });

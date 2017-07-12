@@ -18,6 +18,7 @@
   <link href="dist/css/sweetalert.css" rel="stylesheet">
   <link href="dist/css/font-awesome.min.css" rel="stylesheet">
   <link href="dist/css/flags.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -1462,7 +1463,8 @@
                               <div class="tab-pane active" id="login">
                                   <div class="tab-content">
                                     <div role="tabpanel" class="tab-pane fade active" id="myModalTab1-1">
-                                      <p class="login-info">登錄</p>
+                                      <p class="login-info">注册帳戶</p>
+                                        <div class="text-center login-info-div">免費、簡單、快速</div>
                                       <form role="form" class="form-horizontal">
                                         <div class="form-group">
                                             <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
@@ -1881,6 +1883,7 @@
   </script>
   <script src="dist/js/bootstrap.min.js"></script>
   <script src="dist/js/bootstrap-slider.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
   <script src="dist/js/sweetalert.min.js"></script>
   <script src="dist/js/font-awesome.js"></script>
     <script src="dist/js/jquery.flagstrap.min.js"></script>
@@ -1893,6 +1896,13 @@
       $("#cta-email-bt").click(function(){
           $("#cta-email").toggle('');
       });
+
+      var mySwiper = new Swiper('.swiper-container', {
+          direction: 'horizontal',
+          slidesPerView: 'auto',
+          loop: false,
+          slidesPerView: 'auto',
+      })
   });
   </script>
   <div class="float-contacts hidden-xs hidden-sm">
