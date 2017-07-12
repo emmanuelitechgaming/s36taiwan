@@ -201,26 +201,15 @@ $(document).ready(function () {
     });
 
     $('a[href="#stab1"]').click(function() {
-      $('.stab1').css('display', 'block');
-      $('.stab2').css('display', 'block');
-      $('.stab3').css('display', 'block');
+      $('.stab1').removeClass('stab-none');
+      $('.stab2').addClass('stab-none');
     });
 
     $('a[href="#stab2"]').click(function() {
-      $('.stab2').css('display', 'block');
-      $('.stab3').css('display', '');
-      $('.stab1').css('display', '');
-      $('.stab3').addClass('stab-none');
+      $('.stab2').removeClass('stab-none');
       $('.stab1').addClass('stab-none');
     });
 
-    $('a[href="#stab3"]').click(function() {
-      $('.stab3').css('display', 'block');
-      $('.stab2').css('display', '');
-      $('.stab1').css('display', '');
-      $('.stab2').addClass('stab-none');
-      $('.stab1').addClass('stab-none');
-    });
 
     $('.promotion-swiper-container a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
       $('.promotion-swiper-container').find('.active').removeClass('active');
@@ -392,6 +381,7 @@ $(document).ready(function () {
     })
 
     $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function () {
+      $('.mymodal-init').removeClass('mymodal-none');
       $('#myModal2b_registration').css('display', 'block');
       $('#myModal2b_login').css('display', 'none');
       $('#myModalTab li:nth-child(1)').css('top', '210px');
@@ -452,6 +442,7 @@ $(document).ready(function () {
     });
 
     $('a[href="#myModalTab1-1"]').on('shown.bs.tab', function() {
+      $('.mymodal-init').addClass('mymodal-none')
       $('#myModal2b_registration').css('display', 'none');
       $('#myModal2b_login').css('display', 'block');
     });
