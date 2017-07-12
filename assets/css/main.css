@@ -5319,14 +5319,10 @@ margin-left: -10px;
 margin-right: -10px;
 }
 .sp-container .sp-bottom{
-  background: url('../img/sp/casino/bg-bot.jpg');
-      background-color: rgba(0, 0, 0, 0);
-      background-repeat: repeat;
-  /*background-color: rgba(0, 0, 0, 0);
-  background-repeat: repeat;
-  background-repeat: no-repeat;*/
-  /*background-color: #1B1A1A;*/
-  background-color: #000;;  overflow: hidden;
+
+
+  background-color: #1B1A1A;
+  overflow: hidden;
   margin-top: 0px;
   margin-left: -10px;
   margin-right: -10px;
