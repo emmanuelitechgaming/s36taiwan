@@ -7,6 +7,7 @@
 body {
     background: #2a2a2a;
     color: #acacac;
+    overflow-x: hidden;
 }
 .navbar-inverse{
   background-color: #2a2a2a
@@ -478,8 +479,6 @@ main .ctmail {
 
 main .winner-cont {
     margin: 15px 0;
-    min-height: 303px;
-    max-height: 303px
 }
 
 main .win-game img {
@@ -2698,7 +2697,7 @@ select + i.fa {
   padding: 10px 15px 15px;
   margin: 0px auto;
   border-radius: 0;
-  background: #1b1b1b
+  background: #fff
 }
 
 .selectpicker2-menu a{
@@ -2712,6 +2711,9 @@ select + i.fa {
   border-bottom: 1px solid #c2c2c2;
   color: #fff
 }
+.selectpicker2-menu a:nth-child(even){
+  background: #ffe1e1
+}
 
 /*.selectpicker2-menu a:hover{
   background: #333333
@@ -2720,8 +2722,8 @@ select + i.fa {
 .selectpicker2-sub{
   font-size: 13px;
   font-weight: 400;
-  margin-left: 20px;
-  color: #c4c4c4
+  margin-left: 25px;
+  color: #333
 }
 
 .slots-mp{
@@ -2911,13 +2913,19 @@ span.round-tab i{
   background: #1a1a1a
 }
 
-.cs-modal .close{
+.cs-modal .close, #noticeModal .close{
   opacity: 1;
-  font-size: 15px
+  font-size: 40px;
+  color: #fff;
+  opacity: .2;
+  position: relative;
+  top: -15px;
 }
-
-.cs-modal .close span{
-  color: #fff1d3
+.cs-modal .close{
+  right: -25px;
+}
+.cs-modal .close:hover, #noticeModal .close:hover{
+  opacity: 1
 }
 
 .cs-modal .modal-dialog {
@@ -3440,7 +3448,8 @@ padding: 5px 44px !important;
   font-weight: 700;
 }
 .cntry{
-
+  color: #333;
+  margin-left: 25px;
   width: 107px;
 }
 
@@ -4128,7 +4137,7 @@ height: 30px;
   top: auto;
   width: 1.33333333em !important;
   line-height: 1em;
-  font-size: 14px;
+  font-size: 18px;
 }
 .top-header a:hover{
   text-decoration: none
@@ -4568,6 +4577,9 @@ ol, ul {
   width: 100%;
   display: block;
 }
+.mymodal-none{
+  display: none
+}
 .rss-submit-verification,.rss-submit-verification:hover{
 
   border: 1px solid #ffad41;
@@ -4589,6 +4601,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   position: absolute;
   left: -2px;
   top: 4px;
+}
+.m-fsalon{
+  position: relative;
+  left: 1px
 }
 .m-fsalon ul{
   margin: 0;
@@ -5084,7 +5100,7 @@ right: 543px;
 .jackpot-nus-img{
   display: block;
   height: auto;
-  width: 101%;
+  width: 100%;
   margin-left: 5.4px;
 }
 .absolute-play{
@@ -5215,20 +5231,8 @@ div.input-border #country-sel.flagstrap .btn .caret{
   -webkit-column-count: 4;
           column-count: 4;
 }
-.sitemap-body2b ul{
-  -webkit-column-count: 5;
-          column-count: 5
-}
 .sitemap-body2c ul .columns{
-  margin-top: 10px
-}
-.sitemap-body2d ul{
-  -webkit-column-count: 5;
-          column-count: 5;
-}
-.sitemap-body2e ul{
-  -webkit-column-count: 5;
-          column-count: 5
+  margin-top: 10px;
 }
 .sitemap-header p{
   padding-bottom: 0 !important;
@@ -5238,8 +5242,6 @@ div.input-border #country-sel.flagstrap .btn .caret{
   margin-bottom: 10px
 }
 .sitemap-body2c ul li{
-  display: inline-block !important;
-  width: 33%;
   vertical-align: top;
 }
 .sitemap-body2c ul li ul{
@@ -5251,14 +5253,6 @@ div.input-border #country-sel.flagstrap .btn .caret{
 .sitemap-body2c ul li ul li{
   display: block !important;
   width: 100%;
-}
-.sitemap-body2f ul{
-  -webkit-column-count: 2;
-          column-count: 2;
-}
-.sitemap-body2f ul li:nth-child(1) ul.columns{
-  -webkit-column-count: 2;
-          column-count: 2;
 }
 .columns.f-social li a img, .footer-shareit ul li a img{
   cursor: pointer !important
@@ -5276,7 +5270,7 @@ text-align: center;
   font-size: 12px !important
 }
 main .win-lot-top-games{
-  padding: 5px 0
+  padding: 5px 0 3px
 }
 .header-cs{
   position: absolute;
@@ -5303,6 +5297,11 @@ margin-right: -15px;
 padding: 13px;
 margin-top: -19px;
 }
+.sp-promo-strip{
+  margin-top: auto;
+  margin-left: -25px;
+  margin-right: -25px;
+}
 .sp-container .sp-top{
   background: url('../img/sp/casino/bg-top.jpg');
     background-color: rgba(0, 0, 0, 0);
@@ -5315,19 +5314,14 @@ margin-left: -10px;
 margin-right: -10px;
 }
 .sp-container .sp-bottom{
-  background: url('../img/sp/casino/bg-bot.jpg');
-      background-color: rgba(0, 0, 0, 0);
-      background-repeat: repeat;
-  /*background-color: rgba(0, 0, 0, 0);
-  background-repeat: repeat;
-  background-repeat: no-repeat;*/
-  /*background-color: #1B1A1A;*/
-  background-color: #000;;  overflow: hidden;
+
+
+  background-color: #1B1A1A;
+  overflow: hidden;
   margin-top: 0px;
   margin-left: -10px;
   margin-right: -10px;
   font-weight: 700;
-  padding-bottom:  15px;
 }
 .sp-container .sp-top .sp-gameplay-img{
   margin-top: 45px;
@@ -5455,4 +5449,16 @@ margin-right: -10px;
   right: 33.3%;
   top: 48px;
   bottom: 25px;
+}
+.promo-section{
+  margin-top: 15px;
+}
+.promo-section .breadcrumb-inner .sp-container{
+  padding: 0 10px 30px
+}
+.promo-section .breadcrumb-inner .sp-container .sp-desc{
+  margin-top: 25px
+}
+.login-info-div{
+  font-size: 16px;
 }
