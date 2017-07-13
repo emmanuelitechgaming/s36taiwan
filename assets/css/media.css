@@ -700,6 +700,9 @@
     #m-selectpicker2{
       right: 13px;
     }
+    img.b-img{
+      top: auto
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2148,6 +2151,9 @@
     .sp-back-btn{
       position: relative;
       bottom: 0
+    }
+    img.b-img{
+      top: 70px
     }
 }
 
