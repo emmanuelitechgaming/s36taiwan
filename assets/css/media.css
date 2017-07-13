@@ -549,10 +549,7 @@
     .rss-field .form-group:nth-child(2){
       width: 44%
     }
-    .promo-tabs-border{
-      bottom: -37px;
-      margin: 0 1px;
-    }
+
     .slots-info{
       right: 24%;
     }
@@ -2035,10 +2032,7 @@
     .rss-field .form-group:nth-child(1) input{
       width: 250px !important
     }
-    .promo-tabs-border{
-      bottom: -35px;
-      margin: 0 25px;
-    }
+
     .slots-info{
       right: 118px;
     }
