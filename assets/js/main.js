@@ -235,7 +235,7 @@ $(document).ready(function () {
       $(this).css('border-bottom', '1px solid #fba601');
     }, function() {
       $(this).find('.cntry').css('color', '#fff');
-      $(this).css('border-bottom', '1px solid #c2c2c2');
+      $(this).css('border-bottom', '1px solid #fba601');
     });
 
     $('#a-acc img').hover(function() {

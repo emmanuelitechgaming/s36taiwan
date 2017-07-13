@@ -182,7 +182,7 @@ margin: 0 auto;
 .mobile-banner-wrapper a{
   display: block;
   position: absolute;
-  bottom: 12%;
+  bottom: 34%;
   left: 0;
   right: 0;
 }
@@ -907,7 +907,7 @@ padding: 0 10px;
 }
 
 .panel.with-nav-tabs .panel-heading {
-    padding: 5px 5px 0 5px;
+    padding: 5px 35px 0 35px;
 }
 
 .panel.with-nav-tabs .nav-tabs {
@@ -918,31 +918,8 @@ padding: 0 10px;
     margin-bottom: -1px;
 }
 
-.with-nav-tabs .nav-tabs>li>a {
-    margin-right: 2px;
-    line-height: 1.42857143;
-    border: 1px solid transparent;
-    border-radius: 0 0;
-    background: transparent;
-    color: #fff;
-    font-weight: 700;
-    border: 1px solid #3c3c3c;
-    padding: 5px 15px;
-    border: 0;
-}
 
-.with-nav-tabs .nav-tabs>li>a:hover{
-  color: #fba601;
-}
 
-.with-nav-tabs .nav-tabs > li.active > a,
-.with-nav-tabs .nav-tabs > li.active > a:focus {
-    color: #fba601;
-    cursor: default;
-    font-weight: 700;
-    background: transparent;
-    border: 0;
-}
 
 .lib-panel {
     margin-bottom: 20Px;
@@ -2566,7 +2543,6 @@ select + i.fa {
   display: block;
   width: 100%;
   position: absolute;
-  bottom: 16%;
   text-align: center;
   color: rgba(26, 26, 26, 0.8) !important;
   font-weight: 700;
@@ -2694,10 +2670,11 @@ select + i.fa {
 }
 
 .selectpicker2-menu{
-  padding: 10px 15px 15px;
+  padding: 10px;
   margin: 0px auto;
   border-radius: 0;
-  background: #fff
+  background: #2a2a2a;
+  border: 1px solid #4a4a4a
 }
 
 .selectpicker2-menu a{
@@ -2708,11 +2685,11 @@ select + i.fa {
   padding: 15px 0;
   font-weight: 700;
   padding-left: 15px;
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #fba601;
   color: #fff
 }
 .selectpicker2-menu a:nth-child(even){
-  background: #ffe1e1
+  background: #1b1b1b
 }
 
 /*.selectpicker2-menu a:hover{
@@ -2723,7 +2700,7 @@ select + i.fa {
   font-size: 13px;
   font-weight: 400;
   margin-left: 25px;
-  color: #333
+  color: #fff
 }
 
 .slots-mp{
@@ -3448,7 +3425,7 @@ padding: 5px 44px !important;
   font-weight: 700;
 }
 .cntry{
-  color: #333;
+  color: #fff;
   margin-left: 25px;
   width: 107px;
 }
@@ -3465,9 +3442,7 @@ padding: 5px 44px !important;
   background: none
 }
 
-.panel-heading ul li.active{
-  border-bottom: 1px solid #fba601
-}
+
 
 .lotto-legend{
   color: #fff;
@@ -4206,36 +4181,24 @@ header .top-header ul li:nth-child(1){
   padding-right: 0;
 }
 .drop {
-  /*display: none !important;
+  display: none !important;
   margin: 0;
-  background: #1B1B1B;
+  background: #2a2a2a;
   font-family: Arial;
   color: #fff;
   font-size: .75em;
   cursor: pointer;
-  min-width: 200px;
-  width: 100%;
-  left: 0;
-  top: 28px;
-  padding: 0 18% 20px;*/
-  display: none !important;
-  margin: 0;
-  /*background: #1B1B1B;*/
-  background: #fff;
-  font-family: Arial;
-  color: #333;
-  font-size: .75em;
-  cursor: pointer;
   min-width: 150px;
-  left: 642px;
+  left: 644px;
   top: 28px;
-  padding: 0 1% 20px;
+  padding: 10px;
+  border: 1px solid #4a4a4a
 }
 .drop .language-picker:nth-child(even) .grey{
-  background: #ffe1e1
+  background: #2a2a2a
 }
 .lang span{
-  color: #333 !important
+  color: #fff !important
 }
 .drop .flag-icon{
   margin-right: 25px;
@@ -4251,13 +4214,12 @@ header .top-header ul li:nth-child(1){
   margin: 3px;
 }
 .grey {
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid #fba601;
   padding: 6px 4px;
   cursor: pointer;
   min-width: 230px;
   width: 230px;
-  /*background: #1B1B1B;*/
-  background: #fff;
+  background: #1B1B1B;
   display: block;
   position: relative;
 }
@@ -4653,38 +4615,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.promo-tabs{
-  padding: 0 25px;
-}
-.promo-tabs a{
-  color: #adadad !important;
-  background: url('../img/promo/tab-btn.png') no-repeat !important;
-  background-size: 100% 100% !important;
-}
-.panel-heading .promo-tabs li.active{
-  border-bottom: none;
-}
-.panel-heading .promo-tabs li.active a{
-  background: url('../img/promo/tab-btn-active.png') no-repeat !important;
-  background-size: 100% 100% !important;
-  color: #000 !important
-}
-.panel-heading .promo-tabs li.active a::before{
-  content: '';
-  background: url('../img/promo/tab-btn-active-line.png');
-  background-position: 10px 10px;
-  display: block;
-  width: 100%;
-  height: 5px;
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-}
-.promo-tabs-border{
-  height: 5px;
-  background: url('../img/promo/tab-line.png') repeat-x !important;
-  position: relative;
-}
+
+
 .flexslider{
   padding: 20px 38px !important;
   padding-left: 20px !important;
@@ -5157,7 +5089,10 @@ right: 543px;
   color: #5e5e5e
 }
 img.b-img{
-  width: 300px!important;
+  width: 250px!important;
+}
+img.b-img{
+  position: relative;
 }
 .text-left{
   text-align: left!important;
@@ -5279,7 +5214,6 @@ main .win-lot-top-games{
 .header-cs a{
   display: inline-block;
   width: 23px;
-  margin: 2px 3px;
 }
 .header-cs img{
   max-width: 100%;
@@ -5298,7 +5232,6 @@ padding: 13px;
 margin-top: -19px;
 }
 .sp-promo-strip{
-  margin-top: auto;
   margin-left: -25px;
   margin-right: -25px;
 }
@@ -5461,4 +5394,56 @@ margin-right: -10px;
 }
 .login-info-div{
   font-size: 16px;
+}
+.sp-intro{
+  font-weight: 700;
+  font-size: 18px;
+  color: #fba601;
+  letter-spacing: 1px
+}
+#m-selectpicker2{
+  padding: 0;
+  background: none;
+  left: auto;
+  top: 25px;
+}
+#m-selectpicker2 i{
+  line-height: 23px;
+  border-radius: 23px;
+  width: 23px !important;
+}
+
+.panel.with-nav-tabs .panel-heading .promo-tabs li{
+  min-width: 103px;
+  text-align: center;
+  border: 0;
+  margin:10px;
+
+}
+.panel.with-nav-tabs .panel-heading .promo-tabs li.active a{
+  min-width: 100px;
+  text-align: center;
+  background: #fba601;
+  color: #000;
+  border: 0;
+
+}
+
+.panel.with-nav-tabs .panel-heading .promo-tabs li a{
+  background: #000;
+  color: #fff;
+  border-radius: 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    cursor: default;
+    border: 0!important;
+}
+.promo-tabs li a{
+  border: 0!important;
+}
+.promo-tabs-border{
+  border-bottom: 1px solid #000;
+margin-top: 10px;
+margin-left: 5px;
+margin-right: 5px;
 }
