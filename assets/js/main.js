@@ -458,6 +458,18 @@ $(document).ready(function () {
       $('a[href="#tab2"]').tab('show');
       $('.nav.nav-pills.brand-pills.nav-stacked.sidebar-nav li').removeClass('active');
       $('.nav.nav-pills.brand-pills.nav-stacked.sidebar-nav li a[href="#tab2"]').parent('li').addClass('active');
+    });
+
+    $('#myModal').on('show.bs.modal', function () {
+      if($('#drop').hasClass('lang-click')){
+        $('#drop').toggleClass('lang-click');
+      }
+    });
+
+    $('#myModal').on('hide.bs.modal', function () {
+      if($('.selectpicker2 .fa').hasClass('fa-caret-up')){
+        $('.selectpicker2 .fa').removeClass('fa-caret-up').addClass('fa-caret-down');
+      }
     })
 
 });
