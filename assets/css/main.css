@@ -5288,7 +5288,6 @@ padding: 13px;
 margin-top: -19px;
 }
 .sp-promo-strip{
-  margin-top: auto;
   margin-left: -25px;
   margin-right: -25px;
 }
@@ -5454,7 +5453,7 @@ margin-right: -10px;
 }
 .sp-intro{
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   color: #fba601;
   letter-spacing: 1px
 }
