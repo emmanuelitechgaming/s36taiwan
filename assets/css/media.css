@@ -694,6 +694,9 @@
       position: relative;
       bottom: -5px
     }
+    .lg-playnow{
+      bottom: 15%;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -814,6 +817,9 @@
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
       bottom: 10px;
+    }
+    .lg-playnow{
+      bottom: 15.5%;
     }
 }
 
@@ -1007,6 +1013,20 @@
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
       bottom: 12px;
     }
+    .sitemap-body2d ul{
+      -webkit-column-count: 2;
+              column-count: 2
+    }
+    .sitemap-body2b ul{
+      -webkit-column-count: 2;
+              column-count: 2
+    }
+    .sitemap-body2c-mainul ul li a{
+      white-space: nowrap;
+    }
+    .sitemap-body2c ul li ul{
+      min-height: auto
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1109,6 +1129,10 @@
     .live-game-txtbc a, .live-game-txtbd a{
       padding-bottom: 6px;
       padding-left: 9px;
+    }
+    .sitemap-body2e ul{
+      -webkit-column-count: 2;
+              column-count: 2
     }
 }
 
@@ -1269,6 +1293,9 @@
     .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a{
       padding-bottom: 4px;
       padding-left: 5px;
+    }
+    .lg-playnow{
+      bottom: 16%;
     }
 }
 
