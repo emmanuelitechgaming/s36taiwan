@@ -4638,27 +4638,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 .m-promo-tabs a{
   position: relative;
   margin-right: 1px;
-  color: #adadad;
-  background: url('../img/promo/tab-btn.png') no-repeat;
-  background-size: 100% 100%;
+  color: #fff;
+  background: #000;
   border-right: none;
   text-shadow: none
 }
 .m-promo-tabs .active{
   color: #000;
-  background: url('../img/promo/tab-btn-active.png') no-repeat;
-  background-size: 100% 100%;
+  background: #fba601;
 }
-.m-promo-tabs .active::before{
-  content: '';
-  background: url('../img/promo/tab-btn-active-line.png');
-  background-position: 10px 10px;
-  display: block;
-  width: 100%;
-  height: 5px;
-  position: absolute;
-  left: 0;
-  bottom: -5px;
+.m-promo-tabs .swiper-slide{
+  margin-right: 8px;
 }
 .promotion-swiper-container{
   overflow: inherit;
