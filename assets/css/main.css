@@ -2202,7 +2202,6 @@ input[type=password]:hover {
 .scrolltotop-m{
   display: block;
 position: fixed;
-bottom: 179px;
 right: 1px;
 }
 .btn-top {
