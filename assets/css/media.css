@@ -698,10 +698,13 @@
       bottom: 15%;
     }
     #m-selectpicker2{
-      right: 13px;
+      right: 50px;
     }
     img.b-img{
       top: auto
+    }
+    .header-cs a{
+      margin: 2px 10px;
     }
 }
 
@@ -828,7 +831,10 @@
       bottom: 15.5%;
     }
     #m-selectpicker2{
-      right: -8px;
+      right: 38px;
+    }
+    .header-cs a{
+      margin: 2px 12px;
     }
 }
 
@@ -1037,7 +1043,7 @@
       min-height: auto
     }
     #m-selectpicker2 {
-      right: -17px;
+      right: 28px;
     }
 }
 
@@ -1147,7 +1153,7 @@
               column-count: 2
     }
     #m-selectpicker2 {
-      right: -35px;
+      right: 11px;
     }
 }
 
