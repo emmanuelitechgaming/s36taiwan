@@ -697,6 +697,9 @@
     .lg-playnow{
       bottom: 15%;
     }
+    #m-selectpicker2{
+      right: 13px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -820,6 +823,9 @@
     }
     .lg-playnow{
       bottom: 15.5%;
+    }
+    #m-selectpicker2{
+      right: -8px;
     }
 }
 
@@ -1027,6 +1033,9 @@
     .sitemap-body2c ul li ul{
       min-height: auto
     }
+    #m-selectpicker2 {
+      right: -17px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1133,6 +1142,9 @@
     .sitemap-body2e ul{
       -webkit-column-count: 2;
               column-count: 2
+    }
+    #m-selectpicker2 {
+      right: -35px;
     }
 }
 

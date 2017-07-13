@@ -2693,10 +2693,11 @@ select + i.fa {
 }
 
 .selectpicker2-menu{
-  padding: 10px 15px 15px;
+  padding: 10px;
   margin: 0px auto;
   border-radius: 0;
-  background: #fff
+  background: #2a2a2a;
+  border: 1px solid #4a4a4a
 }
 
 .selectpicker2-menu a{
@@ -2711,7 +2712,7 @@ select + i.fa {
   color: #fff
 }
 .selectpicker2-menu a:nth-child(even){
-  background: #ffe1e1
+  background: #1b1b1b
 }
 
 /*.selectpicker2-menu a:hover{
@@ -2722,7 +2723,7 @@ select + i.fa {
   font-size: 13px;
   font-weight: 400;
   margin-left: 25px;
-  color: #333
+  color: #fff
 }
 
 .slots-mp{
@@ -3447,7 +3448,7 @@ padding: 5px 44px !important;
   font-weight: 700;
 }
 .cntry{
-  color: #333;
+  color: #fff;
   margin-left: 25px;
   width: 107px;
 }
@@ -4205,36 +4206,24 @@ header .top-header ul li:nth-child(1){
   padding-right: 0;
 }
 .drop {
-  /*display: none !important;
+  display: none !important;
   margin: 0;
-  background: #1B1B1B;
+  background: #2a2a2a;
   font-family: Arial;
   color: #fff;
   font-size: .75em;
   cursor: pointer;
-  min-width: 200px;
-  width: 100%;
-  left: 0;
-  top: 28px;
-  padding: 0 18% 20px;*/
-  display: none !important;
-  margin: 0;
-  /*background: #1B1B1B;*/
-  background: #fff;
-  font-family: Arial;
-  color: #333;
-  font-size: .75em;
-  cursor: pointer;
   min-width: 150px;
-  left: 642px;
+  left: 644px;
   top: 28px;
-  padding: 0 1% 20px;
+  padding: 10px;
+  border: 1px solid #4a4a4a
 }
 .drop .language-picker:nth-child(even) .grey{
-  background: #ffe1e1
+  background: #2a2a2a
 }
 .lang span{
-  color: #333 !important
+  color: #fff !important
 }
 .drop .flag-icon{
   margin-right: 25px;
@@ -4250,13 +4239,12 @@ header .top-header ul li:nth-child(1){
   margin: 3px;
 }
 .grey {
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid #fba601;
   padding: 6px 4px;
   cursor: pointer;
   min-width: 230px;
   width: 230px;
-  /*background: #1B1B1B;*/
-  background: #fff;
+  background: #1B1B1B;
   display: block;
   position: relative;
 }
@@ -5460,4 +5448,21 @@ margin-right: -10px;
 }
 .login-info-div{
   font-size: 16px;
+}
+.sp-intro{
+  font-weight: 700;
+  font-size: 14px;
+  color: #fba601;
+  letter-spacing: 1px
+}
+#m-selectpicker2{
+  padding: 0;
+  background: none;
+  left: auto;
+  top: 25px;
+}
+#m-selectpicker2 i{
+  line-height: 23px;
+  border-radius: 23px;
+  width: 23px !important;
 }
