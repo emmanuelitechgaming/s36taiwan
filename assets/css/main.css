@@ -5144,7 +5144,11 @@ right: 543px;
   color: #5e5e5e
 }
 img.b-img{
-  width: 300px!important;
+  width: 250px!important;
+}
+img.b-img{
+  position: relative;
+  top: 70px
 }
 .text-left{
   text-align: left!important;
