@@ -2202,7 +2202,6 @@ input[type=password]:hover {
 .scrolltotop-m{
   display: block;
 position: fixed;
-bottom: 179px;
 right: 1px;
 }
 .btn-top {
@@ -5436,4 +5435,17 @@ margin-right: -10px;
 margin-top: 10px;
 margin-left: 5px;
 margin-right: 5px;
+}
+.promo-btn{
+  position: absolute;
+  bottom: 95px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+.promo-btn img{
+  cursor: pointer;
+}
+.sitemap-body2f ul li ul{
+  min-height: 160px;
 }

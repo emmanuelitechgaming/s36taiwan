@@ -470,6 +470,12 @@ $(document).ready(function () {
       if($('.selectpicker2 .fa').hasClass('fa-caret-up')){
         $('.selectpicker2 .fa').removeClass('fa-caret-up').addClass('fa-caret-down');
       }
+    });
+
+    $('.promo-btn img').hover(function() {
+      $(this).attr('src', 'assets/img/promo/new_13/hover.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/promo/new_13/active.png');
     })
 
 });
