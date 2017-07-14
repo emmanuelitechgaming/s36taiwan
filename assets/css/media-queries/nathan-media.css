@@ -63,6 +63,9 @@ header .nathan-hm-d{
   main .notice-mobile {
     margin-left: 14.5px;
   }
+  .tab-panel-casino .nav>li>a {
+    padding: 5px 45px !important;
+  }
 }
 
 @media only screen and (min-width: 375px)
@@ -97,6 +100,9 @@ header .nathan-hm-d{
     margin-left: 13px;
     margin-bottom: 5%;
     margin-top: 1%;
+}
+.tab-panel-casino .nav>li>a {
+    padding: 5px 50px !important;
 }
 }
 
