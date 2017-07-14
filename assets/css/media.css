@@ -255,8 +255,9 @@
       color: #fff;
       letter-spacing: 2px;
       left: -31px;
-      font-size: 12px;
+      font-size: 11px;
       top: 23px;
+      font-weight: 700;
     }
     .selectpicker2 .fa {
         margin-left: 0px
@@ -707,11 +708,14 @@
       margin: 2px 10px;
     }
     .scrolltotop-m{
-      bottom: 179px;
+      bottom: 158px;
     }
     .sp-back-btn{
       padding-left: 0;
       padding-right: 0;
+    }
+    .lotto-sp-back-btn{
+      bottom: -24px !important;
     }
 }
 
@@ -764,7 +768,7 @@
       padding: 6px 10px;
       letter-spacing: 2px;
       left: -42px;
-      font-size: 14px;
+      font-size: 11px;
       top: 20px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
@@ -2177,6 +2181,9 @@
     .sp-back-btn{
       padding-left: 15px;
       padding-right: 15px;
+    }
+    .lotto-sp-back-btn{
+      bottom: -5px !important;
     }
 }
 
