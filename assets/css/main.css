@@ -172,7 +172,6 @@ header .header-mobile > .hm-d {
   margin-top: 30px
 }
 main .mobile-banner{
-  background: #000;
 text-align: center;
 margin: 0 auto;
 }
@@ -5478,4 +5477,46 @@ margin-right: 5px;
   background-position: 87px 4px;
   padding: 5px 35px 5px 20px;
   opacity: 0.5
+}
+.form-recap-right p{
+  white-space: nowrap;
+  position: relative;
+  left: -55px
+}
+.form-recap-right p a{
+  color: inherit;
+}
+.form-recap-right p a:hover{
+  text-decoration: none
+}
+.mobile-banner-text{
+  text-align: left;
+  padding: 5px 20px 0;
+}
+.mobile-banner-title{
+  color: #fba601;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+.mobile-banner-content{
+  color: #f3f7fa;
+  font-size: 18px;
+}
+.mobile-banner-social{
+  margin: 0;
+  padding: 0;
+  margin-top: 10px
+}
+.mobile-banner-social li{
+  display: inline-block;
+  width: 20px;
+  margin-right: 1px
+}
+.mobile-banner-social li a{
+  text-align: left;
+}
+.mobile-banner-social li a img{
+  max-width: 85%
 }
