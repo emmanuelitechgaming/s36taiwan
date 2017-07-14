@@ -479,9 +479,9 @@ $(document).ready(function () {
     });
 
     $('.casino-g-img, .promo-btn a').hover(function() {
-      $(this).closest('.casino-g').find('.promo-btn img').attr('src', 'assets/img/promo/new_13/hover.png');
+      $(this).closest('.casino-g').find('.promo-btn .cta-cs span').css('opacity', '1');
     }, function() {
-      $(this).closest('.casino-g').find('.promo-btn img').attr('src', 'assets/img/promo/new_13/active.png');
+      $(this).closest('.casino-g').find('.promo-btn .cta-cs span').css('opacity', '0.5');
     })
 
 });
