@@ -1407,7 +1407,8 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="row">
                         <div class="col-md-12">
-                            <ul class="nav nav-tabs mymodal-init mymodal-none">
+
+                          <ul class="nav nav-tabs mymodal-init mymodal-none">
                                 <li class="active">
                                     <a href="javascript:void(0)" data-toggle="tab" aria-controls="login" role="tab">
                                         <span><img src="assets/img/modal_1.png" class="img-responsive" alt=""></span> 注册/登錄
@@ -1427,142 +1428,143 @@
                                 </li>
                             </ul>
                             <div class="border-modal border-modal2 mymodal-init mymodal-none"></div>
+
                             <!-- Tab panes -->
                             <div class="tab-content">
                                 <div class="tab-pane active" id="login">
                                     <div class="tab-content">
-                                        <div role="tabpanel" class="tab-pane fade active" id="myModalTab1-1">
-                                          <p class="login-info">登录</p>
+                                      <div role="tabpanel" class="tab-pane fade active" id="myModalTab1-1">
+                                        <p class="login-info">登录</p>
+                                        <form role="form" class="form-horizontal">
+                                          <div class="form-group">
+                                              <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
+                                              <div class="col-md-9 col-sm-4">
+
+                                              </div>
+                                          </div>
+                                            <div class="form-group">
+                                                <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label">
+                                                    输入账号</label>
+                                                <div class="col-md-9 col-sm-4">
+                                                    <div class="input-border">
+                                                        <input type="email" class="form-control" placeholder="输入账号" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1" class="col-md-2 col-md-offset-0 col-sm-12 col-md-offset-2  control-label">
+                                                    输入密码</label>
+                                                <div class="col-md-9 col-sm-4">
+                                                    <div class="input-border">
+                                                        <input type="email" class="form-control" placeholder="输入密码" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
+                                                <div class="col-md-9 col-sm-4">
+                                                  <div class="form-group form-inline form-captcha form-recap">
+                                                      <div class="g-recaptcha  recaptScale" id="recaptcha1"></div>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group text-center cta-accounts"><a href="#myModalTab1-2" aria-controls="home" role="tab" data-toggle="tab">沒有帳號？ 在這裡註冊！</a></div>
+
+                                        </form>
+
+                                      </div>
+                                      <div role="tabpanel" class="tab-pane fade" id="myModalTab1-2">
+                                        <p class="login-info">注册帳戶</p>
+                                        <div class="text-center login-info-div">免費、簡單、快速</div>
+                                        <div class="col-md-6">
                                             <form role="form" class="form-horizontal">
+                                              <div class="form-group">
+                                                  <label for="password" class="col-sm-4 control-label"></label>
+                                                  <div class="col-sm-8">
+
+                                                  </div>
+                                              </div>
+                                              <div class="form-group">
+                                                  <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
+                                                  <div class="col-sm-8">
+                                                      <div class="input-border">
+                                                          <div id="country-sel" data-input-name="country"></div>
+                                                      </div>
+                                                  </div>
+                                              </div>
                                                 <div class="form-group">
-                                                    <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
-                                                    <div class="col-md-9 col-sm-4">
-                                                        <a href="#"><span class="flag-icon flag-icon-tw"> </span>  台灣/繁體</a>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label">
-                                                        輸入賬號</label>
-                                                    <div class="col-md-9 col-sm-4">
+                                                    <label for="email" class="col-sm-4 control-label">郵箱號碼 *</label>
+                                                    <div class="col-sm-8">
                                                         <div class="input-border">
-                                                            <input type="email" class="form-control" placeholder="輸入賬號" />
+                                                            <input type="email" class="form-control" />
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="exampleInputPassword1" class="col-md-2 col-md-offset-0 col-sm-12 col-md-offset-2  control-label">
-                                                        輸入密碼</label>
-                                                    <div class="col-md-9 col-sm-4">
+                                                    <label for="email" class="col-sm-4 control-label">建立帳號 *</label>
+                                                    <div class="col-sm-8">
                                                         <div class="input-border">
-                                                            <input type="email" class="form-control" placeholder="輸入密碼" />
+                                                            <span class="my-modal-cs">cs</span> <input type="email" class="form-control" id="email" />
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
-                                                    <div class="col-md-9 col-sm-4">
-                                                        <div class="form-group form-inline form-captcha form-recap">
-                                                            <div class="g-recaptcha  recaptScale" id="recaptcha1"></div>
+                                                    <label for="mobile" class="col-sm-4 control-label">建立密码 *</label>
+                                                    <div class="col-sm-8">
+                                                        <div class="input-border">
+                                                            <input type="email" class="form-control" id="mobile" />
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="form-group text-center cta-accounts"><a href="#myModalTab1-2" aria-controls="home" role="tab" data-toggle="tab">沒有帳號？在這裡註冊！</a></div>
+                                                <div class="form-group">
+                                                    <label for="password" class="col-sm-4 control-label">确认密码 *</label>
+                                                    <div class="col-sm-8">
+                                                        <div class="input-border">
+                                                            <input type="password" class="form-control" id="password" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+
 
                                             </form>
 
                                         </div>
-                                        <div role="tabpanel" class="tab-pane fade" id="myModalTab1-2">
-                                            <p class="login-info">注册帳戶</p>
-                                        <div class="text-center login-info-div">免費、簡單、快速</div>
-                                            <div class="col-md-6">
-                                                <form role="form" class="form-horizontal">
-                                                    <div class="form-group">
-                                                        <label for="password" class="col-sm-4 control-label"></label>
-                                                        <div class="col-sm-8">
-                                                            <a href="#"><span class="flag-icon flag-icon-tw"> </span>  台灣/繁體</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
-                                                        <div class="col-sm-8">
-                                                            <div class="input-border">
-                                                                <div id="country-sel" data-input-name="country"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="email" class="col-sm-4 control-label">郵箱號碼 *</label>
-                                                        <div class="col-sm-8">
-                                                            <div class="input-border">
-                                                                <input type="email" class="form-control" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="email" class="col-sm-4 control-label">建立帳號 *</label>
-                                                        <div class="col-sm-8">
-                                                            <div class="input-border">
-                                                                <span class="my-modal-cs">cs</span>
-                                                                <input type="email" class="form-control" id="email" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="mobile" class="col-sm-4 control-label">建立密碼 *</label>
-                                                        <div class="col-sm-8">
-                                                            <div class="input-border">
-                                                                <input type="email" class="form-control" id="mobile" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label for="password" class="col-sm-4 control-label">確認密碼 *</label>
-                                                        <div class="col-sm-8">
-                                                            <div class="input-border">
-                                                                <input type="password" class="form-control" id="password" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                </form>
-
+                                        <div class="col-md-6">
+                                            <div class="form-group form-inline form-captcha form-recap">
+                                                <div class="g-recaptcha  recaptScale" id="recaptcha2"></div>
                                             </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group form-inline form-captcha form-recap">
-                                                    <div class="g-recaptcha  recaptScale" id="recaptcha2"></div>
+                                            <div class="form-group form-checkbox">
+                                                <div class="checkbox checkbox-warning">
+                                                    <input id="checkbox5" type="checkbox" checked="">
+                                                    <label for="checkbox5">
+                                                        我同意<span> “條款及細則” </span>並確認我已滿18歲
+                                                    </label>
                                                 </div>
-                                                <div class="form-group form-checkbox">
-                                                    <div class="checkbox checkbox-warning">
-                                                        <input id="checkbox5" type="checkbox" checked="">
-                                                        <label for="checkbox5">
-                                                            我同意<span> “條款及細則” </span>並確認我已滿18歲
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <div class="text-center cta-accounts"><a href="#myModalTab1-1" aria-controls="home" role="tab" data-toggle="tab">已經有賬戶？登錄這裡！</a></div>
                                             </div>
+                                              <div class="text-center cta-accounts"><a href="#myModalTab1-1" aria-controls="home" role="tab" data-toggle="tab">已經有賬戶？ 登錄這裡！</a></div>
                                         </div>
+                                      </div>
                                     </div>
 
                                     <div class="col-md-12">
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
-                                            <ul>
-                                                <li style="display: none"><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台灣/繁體</a></li>
-                                                <li>
-                                                    <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
-                                                </li>
-                                                <li><img src="assets/img/footer/21b.png" alt=""></a>
-                                                </li>
-                                            </ul>
+                                          <ul>
+                                              <li style="display: none"></li>
+                                              <li>
+                                                  <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
+                                              </li>
+                                              <li>
+                                                  <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
+                                              </li>
+                                              <li><img src="assets/img/footer/21b.png" alt=""></a>
+                                              </li>
+                                          </ul>
                                         </div>
                                         <div class=" pull-right">
                                             <div class="modal-bottom">
-                                                <a href="afterlogin.html" id="myModal2b_login" class="btn btn-warning">立即登錄</a>
-                                                <button type="button" id="myModal2b_registration" class="btn btn-warning sweet-13" style="display: none"> 註冊賬號 </button>
+                                              <a href="#" id="myModal2b_login" class="btn btn-warning sweet-14" >立即登錄</a>
+                                              <button type="button" id="myModal2b_registration" class="btn btn-warning sweet-15" style="display: none" > 註冊賬號  </button>
                                             </div>
                                         </div>
                                     </div>
@@ -1572,17 +1574,17 @@
                                     <div class="col-md-12">
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
-                                            <ul>
-                                                <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台灣/繁體</a></li>
-                                                <li>
-                                                    <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
-                                                </li>
-                                                <li><img src="assets/img/footer/21b.png" alt=""></a>
-                                                </li>
-                                            </ul>
+                                          <ul>
+                                              <li></li>
+                                              <li>
+                                                  <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
+                                              </li>
+                                              <li>
+                                                  <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
+                                              </li>
+                                              <li><img src="assets/img/footer/21b.png" alt=""></a>
+                                              </li>
+                                          </ul>
                                         </div>
                                         <div class=" pull-right">
 
@@ -1602,26 +1604,26 @@
                                             <input type="text" placeholder="輸入電郵地址或手機號碼，免費創建試玩帳戶" disabled>
                                         </div>
                                         <div class="form-group">
-                                            <div class="input-border">
-                                                <input type="email" class="form-control">
-                                            </div>
+                                          <div class="input-border">
+                                              <input type="email" class="form-control">
+                                          </div>
                                         </div>
                                     </div>
 
                                     <div class="col-md-12">
                                         <div class="border-modal"></div>
                                         <div class="modal-foot">
-                                            <ul>
-                                                <li><a href="#"><span class="flag-icon flag-icon-tw"> </span>  台灣/繁體</a></li>
-                                                <li>
-                                                    <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
-                                                </li>
-                                                <li><img src="assets/img/footer/21b.png" alt=""></a>
-                                                </li>
-                                            </ul>
+                                          <ul>
+                                              <li></li>
+                                              <li>
+                                                  <a href="#"><img src="assets/img/footer/compatible.png" alt=""></a>
+                                              </li>
+                                              <li>
+                                                  <a href="#"><img src="assets/img/footer/safety.png" alt=""></a>
+                                              </li>
+                                              <li><img src="assets/img/footer/21b.png" alt=""></a>
+                                              </li>
+                                          </ul>
                                         </div>
                                         <div class=" pull-right">
 
@@ -1916,16 +1918,16 @@
             });
         });
     </script>
-    <div class="float-contacts hidden-lg hidden-md hidden-xs hidden-sm">
+    <div class="float-contacts hidden-xs hidden-sm">
         <a href="helpcenter.html#tab2"><img src="assets/img/cta-contact.png" id="cta-contact" alt=""></a>
     </div>
-    <div class="scrolltotop-m" style="display: none;">
+    <div class="scrolltotop-m hidden-lg hidden-md" style="display: none;">
         <a><img src="assets/img/arrow-mobile-up.png" alt=""></a>
     </div>
-    <div class="float-contacts-m">
+    <div class="float-contacts-m hidden-lg hidden-md">
         <a href="helpcenter.html#tab2"><img src="assets/img/contact-mobile.png" id="cta-contact" alt=""></a>
     </div>
-    <div class="scrolltotop hidden-lg hidden-md hidden-xs hidden-sm" style="display: none;">
+    <div class="scrolltotop hidden-xs hidden-sm" style="display: none;">
         <a>
             <div class="btn-top"></div>
         </a>

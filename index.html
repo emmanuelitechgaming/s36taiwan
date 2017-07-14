@@ -1725,8 +1725,8 @@
                                         </div>
                                         <div class=" pull-right">
                                             <div class="modal-bottom">
-                                              <a href="#" id="myModal2b_login" class="btn btn-warning sweet-12" >立即登錄</a>
-                                              <button type="button" id="myModal2b_registration" class="btn btn-warning sweet-12" style="display: none" > 註冊賬號  </button>
+                                              <a href="#" id="myModal2b_login" class="btn btn-warning sweet-14" >立即登錄</a>
+                                              <button type="button" id="myModal2b_registration" class="btn btn-warning sweet-15" style="display: none" > 註冊賬號  </button>
                                             </div>
                                         </div>
                                     </div>
@@ -2162,7 +2162,6 @@
 
     <script>
         document.querySelector('.sweet-12').onclick = function() {
-          alert('haha');
             swal({
                 title: "非常感謝閣下的訂閱",
                 text: "我們將不定期為您送上最新資訊及精選專屬活動，沙龍會誠摯期待閣下蒞臨。",
@@ -2175,6 +2174,24 @@
             swal({
                 title: "注册成功",
                 text: "很高兴为您服务，如有任何问题请随时联系在線客服 ，我们将24小时竭诚为您服务！",
+                type: "success",
+                confirmButtonClass: 'btn-warning',
+                confirmButtonText: '關閉'
+            });
+        };
+        document.querySelector('.sweet-14').onclick = function() {
+            swal({
+                title: "非常感謝閣下的訂閱",
+                text: "我們將不定期為您送上最新資訊及精選專屬活動，沙龍會誠摯期待閣下蒞臨。",
+                type: "success",
+                confirmButtonClass: 'btn-warning',
+                confirmButtonText: '關閉'
+            });
+        };
+        document.querySelector('.sweet-15').onclick = function() {
+            swal({
+                title: "非常感謝閣下的訂閱",
+                text: "我們將不定期為您送上最新資訊及精選專屬活動，沙龍會誠摯期待閣下蒞臨。",
                 type: "success",
                 confirmButtonClass: 'btn-warning',
                 confirmButtonText: '關閉'
@@ -2208,16 +2225,16 @@
         });
     });
     </script>
-    <div class="float-contacts hidden-lg hidden-md hidden-xs hidden-sm">
+    <div class="float-contacts hidden-xs hidden-sm">
       <a href="helpcenter.html#tab2"><img src="assets/img/cta-contact.png" id="cta-contact" alt=""></a>
     </div>
-    <div class="scrolltotop-m" style="display: none;">
+    <div class="scrolltotop-m hidden-lg hidden-md" style="display: none;">
         <a><img src="assets/img/arrow-mobile-up.png" alt=""></a>
     </div>
-    <div class="float-contacts-m">
+    <div class="float-contacts-m hidden-lg hidden-md">
       <a href="helpcenter.html#tab2"><img src="assets/img/contact-mobile.png" id="cta-contact" alt=""></a>
     </div>
-    <div class="scrolltotop hidden-lg hidden-md hidden-xs hidden-sm" style="display: none;">
+    <div class="scrolltotop hidden-xs hidden-sm" style="display: none;">
         <a><div class="btn-top"></div></a>
     </div>
     <script type="text/javascript">
