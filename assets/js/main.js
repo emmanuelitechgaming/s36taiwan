@@ -431,7 +431,7 @@ $(document).ready(function () {
       $('a[href="#myModalTab1-1"').tab('show');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/promo/register now btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/sp/reg-btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-2"').tab('show');
     });
@@ -478,7 +478,7 @@ $(document).ready(function () {
       $(this).attr('src', 'assets/img/promo/new_13/active.png');
     });
 
-    $('.casino-g-img').hover(function() {
+    $('.casino-g-img, .promo-btn a').hover(function() {
       $(this).closest('.casino-g').find('.promo-btn img').attr('src', 'assets/img/promo/new_13/hover.png');
     }, function() {
       $(this).closest('.casino-g').find('.promo-btn img').attr('src', 'assets/img/promo/new_13/active.png');

@@ -1209,7 +1209,7 @@
                                       <li><div class="list"><a href="promotion.html">優惠</a></div></li>
                                       <li><div class="list"><a href="winner.html">贏家</a></div></li>
                                       <li><div class="list"><a href="allgames.html">所有遊戲</a></div></li>
-                                      <li><div class="list"><a href="#">遊戲規則</a></div></li>
+                                      <li><div class="list"><a href="helpcenter.html#tab4">遊戲規則</a></div></li>
                                     </ul>
                                 </div>
                                 <h4>服務</h4>
@@ -1725,8 +1725,8 @@
                                         </div>
                                         <div class=" pull-right">
                                             <div class="modal-bottom">
-                                              <a href="afterlogin.html" id="myModal2b_login" class="btn btn-warning" >立即登錄</a>
-                                              <button type="button" id="myModal2b_registration" class="btn btn-warning sweet-13" style="display: none" > 註冊賬號  </button>
+                                              <a href="#" id="myModal2b_login" class="btn btn-warning sweet-14" >立即登錄</a>
+                                              <button type="button" id="myModal2b_registration" class="btn btn-warning sweet-15" style="display: none" > 註冊賬號  </button>
                                             </div>
                                         </div>
                                     </div>
@@ -2179,6 +2179,24 @@
                 confirmButtonText: '關閉'
             });
         };
+        document.querySelector('.sweet-14').onclick = function() {
+            swal({
+                title: "非常感謝閣下的訂閱",
+                text: "我們將不定期為您送上最新資訊及精選專屬活動，沙龍會誠摯期待閣下蒞臨。",
+                type: "success",
+                confirmButtonClass: 'btn-warning',
+                confirmButtonText: '關閉'
+            });
+        };
+        document.querySelector('.sweet-15').onclick = function() {
+            swal({
+                title: "非常感謝閣下的訂閱",
+                text: "我們將不定期為您送上最新資訊及精選專屬活動，沙龍會誠摯期待閣下蒞臨。",
+                type: "success",
+                confirmButtonClass: 'btn-warning',
+                confirmButtonText: '關閉'
+            });
+        };
     </script>
 
     <script>
@@ -2207,16 +2225,16 @@
         });
     });
     </script>
-    <div class="float-contacts hidden-lg hidden-md hidden-xs hidden-sm">
+    <div class="float-contacts hidden-xs hidden-sm">
       <a href="helpcenter.html#tab2"><img src="assets/img/cta-contact.png" id="cta-contact" alt=""></a>
     </div>
-    <div class="scrolltotop-m" style="display: none;">
+    <div class="scrolltotop-m hidden-lg hidden-md" style="display: none;">
         <a><img src="assets/img/arrow-mobile-up.png" alt=""></a>
     </div>
-    <div class="float-contacts-m">
+    <div class="float-contacts-m hidden-lg hidden-md">
       <a href="helpcenter.html#tab2"><img src="assets/img/contact-mobile.png" id="cta-contact" alt=""></a>
     </div>
-    <div class="scrolltotop hidden-lg hidden-md hidden-xs hidden-sm" style="display: none;">
+    <div class="scrolltotop hidden-xs hidden-sm" style="display: none;">
         <a><div class="btn-top"></div></a>
     </div>
     <script type="text/javascript">
