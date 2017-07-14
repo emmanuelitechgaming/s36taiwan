@@ -5360,6 +5360,8 @@ margin-right: -10px;
 }
 .slots-tab-a li a{
   text-align: center;
+  font-size: 16px;
+  font-weight: 700;
 }
 .slots-breadcrumb-inner{
   position: relative;
@@ -5445,6 +5447,19 @@ margin-right: 5px;
 }
 .promo-btn img{
   cursor: pointer;
+}
+.promo-btn a{
+  position: absolute;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  text-shadow: 0.5px 0px #333;
+  bottom: 14px;
+  left: 140px;
+  letter-spacing: 1px;
+}
+.promo-btn a:hover{
+  text-decoration: none;
 }
 .sitemap-body2f ul li ul{
   min-height: 160px;

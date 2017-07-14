@@ -709,6 +709,10 @@
     .scrolltotop-m{
       bottom: 179px;
     }
+    .sp-back-btn{
+      padding-left: 0;
+      padding-right: 0;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2169,6 +2173,10 @@
     }
     .scrolltotop-m{
       bottom: 239px;
+    }
+    .sp-back-btn{
+      padding-left: 15px;
+      padding-right: 15px;
     }
 }
 
