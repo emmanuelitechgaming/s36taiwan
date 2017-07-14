@@ -5455,7 +5455,6 @@ margin-right: 5px;
   position: absolute;
   color: #333;
   font-size: 16px;
-  font-weight: 700;
   text-shadow: 0.5px 0px #333;
   bottom: 14px;
   left: 140px;
@@ -5476,6 +5475,7 @@ margin-right: 5px;
 }
 .promo-btn .cta-cs span{
   background: url('../img/promo/new_13/arrow.png') no-repeat #fba601;
-  background-position: 87px 3px;
+  background-position: 87px 4px;
   padding: 5px 35px 5px 20px;
+  opacity: 0.5
 }
