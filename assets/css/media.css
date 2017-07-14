@@ -847,6 +847,9 @@
     .header-cs a{
       margin: 2px 12px;
     }
+    .tab-panel-casino .nav>li>a {
+      padding: 5px 35px !important;
+    }
 }
 
 
@@ -1055,6 +1058,9 @@
     }
     #m-selectpicker2 {
       right: 19px;
+    }
+    .tab-panel-casino .nav>li>a {
+      padding: 5px 47px !important;
     }
 }
 
