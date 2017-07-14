@@ -5464,3 +5464,15 @@ margin-right: 5px;
 .sitemap-body2f ul li ul{
   min-height: 160px;
 }
+.promo-btn .cta-cs{
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 14px
+}
+.promo-btn .cta-cs span{
+  background: url('../img/promo/new_13/arrow.png') no-repeat #fba601;
+  background-position: 87px 3px;
+  padding: 5px 35px 5px 20px;
+}
