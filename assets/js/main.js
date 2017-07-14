@@ -45,7 +45,7 @@ $(document).ready(function () {
      $('.promo-tabs li').each(function() {
        $(this).removeClass('active');
      });
-     $('.tab-content div').each(function() {
+     $('.helpcenter .tab-content div').each(function() {
        $(this).removeClass('active');
      });
      $('.promo-section .breadcrumb li a[href="promotion.html"]').attr('href', function(i, href) {
@@ -59,7 +59,7 @@ $(document).ready(function () {
          $(this).addClass('active');
        }
      });
-     $('.tab-content div').each(function() {
+     $('.helpcenter .tab-content div').each(function() {
        link = $(this).attr('id');
        if ('#'+link == hash) {
          $(this).addClass('active');
@@ -482,7 +482,7 @@ $(document).ready(function () {
       $(this).closest('.casino-g').find('.promo-btn .cta-cs span').css('opacity', '1');
     }, function() {
       $(this).closest('.casino-g').find('.promo-btn .cta-cs span').css('opacity', '0.5');
-    })
+    });
 
 });
 
