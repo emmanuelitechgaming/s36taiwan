@@ -476,6 +476,12 @@ $(document).ready(function () {
       $(this).attr('src', 'assets/img/promo/new_13/hover.png');
     }, function() {
       $(this).attr('src', 'assets/img/promo/new_13/active.png');
+    });
+
+    $('.casino-g-img').hover(function() {
+      $(this).closest('.casino-g').find('.promo-btn img').attr('src', 'assets/img/promo/new_13/hover.png');
+    }, function() {
+      $(this).closest('.casino-g').find('.promo-btn img').attr('src', 'assets/img/promo/new_13/active.png');
     })
 
 });
