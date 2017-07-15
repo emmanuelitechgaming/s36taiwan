@@ -1352,6 +1352,7 @@
 }
 
 @media only screen and (min-width: 568px) {
+
     .breadcrumb-inner .casino-g ul li {
         margin: 0 5px;
     }
@@ -1593,6 +1594,11 @@
 }
 
 @media only screen and (min-width: 736px) {
+
+  .form-recap-right p{
+    left: -6px;
+      top: 0px;
+  }
   #myModal{
     top:-229px;
   }
@@ -1666,6 +1672,10 @@
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
+  .form-recap-right p{
+    left: -55px;
+    top: 0px;
+  }
   .modal-panel-dialog{
     width: 400px!important;
   }
