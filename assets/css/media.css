@@ -450,7 +450,7 @@
     }
     .live-game-txtc {
       font-size: 14px;
-      bottom: 15px;
+      bottom: 13px;
     }
 
     .casino-mp, .slots-mp{
@@ -681,7 +681,7 @@
       padding-left: 5px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
-      bottom: 8px;
+      bottom: 7px;
     }
     .sitemap-body2d ul, .sitemap-body2f ul, .sitemap-body2f ul li:nth-child(1) ul.columns, .sitemap-body2b ul, .sitemap-body2e ul{
       -webkit-column-count: auto;
@@ -726,6 +726,12 @@
     }
     .form-recap{
       max-width: auto;
+    }
+    .contactus{
+      font-size: 13px;
+    }
+    .live-games img {
+        max-width: 88%;
     }
 }
 
@@ -843,7 +849,7 @@
     }
     .live-game-txtc {
       font-size: 14px;
-      bottom: 19px;
+      bottom: 16px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
       bottom: 10px;
@@ -859,6 +865,9 @@
     }
     .tab-panel-casino .nav>li>a {
       padding: 5px 35px !important;
+    }
+    .contactus{
+      font-size: 15px;
     }
 }
 
@@ -949,7 +958,7 @@
     }
     .live-game-txtc {
       font-size: 13px;
-      bottom: 21px;
+      bottom: 18px;
     }
     .lp-collapse-toggle {
       margin-right: -255px;
@@ -1050,7 +1059,7 @@
       margin-left: -25px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
-      bottom: 12px;
+      bottom: 11px;
     }
     .sitemap-body2d ul{
       -webkit-column-count: 2;
@@ -1182,6 +1191,9 @@
     #m-selectpicker2 {
       right: -10px;
     }
+    .contactus{
+      font-size: 16px;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -1257,7 +1269,7 @@
     }
     .live-game-txtc {
       font-size: 15px;
-      bottom: 23px;
+      bottom: 19px;
     }
     .m-selectpicker2-menu {
       top: -287px !important;
@@ -2224,6 +2236,12 @@
     }
     .form-recap{
       max-width: 331px;
+    }
+    .contactus{
+      font-size: 16px;
+    }
+    .live-games img {
+        max-width: 100%;
     }
 }
 
