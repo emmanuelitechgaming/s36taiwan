@@ -1742,7 +1742,8 @@
         width: auto;
     }
     .gp .live-game img {
-        max-width: 88%;
+        max-width: 85%;
+        margin-top: 6px;
     }
     main .marquee {
         bottom: 10px;
