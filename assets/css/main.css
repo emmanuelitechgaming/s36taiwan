@@ -2679,7 +2679,7 @@ select + i.fa {
   padding: 15px 0;
   font-weight: 700;
   padding-left: 15px;
-  border-bottom: 1px solid #fba601;
+  border-bottom: 1px solid transparent;
   color: #fff
 }
 .selectpicker2-menu a:nth-child(even){
@@ -4187,9 +4187,6 @@ header .top-header ul li:nth-child(1){
 .drop .language-picker:nth-child(even) .grey{
   background: #2a2a2a
 }
-.lang span{
-  color: #fff !important
-}
 .drop .flag-icon{
   margin-right: 25px;
 }
@@ -5170,7 +5167,7 @@ div.input-border #country-sel.flagstrap .btn .caret{
   width: 100%;
 }
 .columns.f-social li a img, .footer-shareit ul li a img{
-  cursor: pointer !important
+  cursor: default; !important
 }
 .navaa li:first-child{
   min-width: 30px;
@@ -5543,18 +5540,19 @@ margin-right: 5px;
   margin: 0;
   padding: 0;
   list-style: none;
+  padding-left: 35px;
 }
 .contactus ul li{
   padding: 7px 0
 }
 .contactus ul li span{
-  margin-left: 25px;
+  margin-left: 50px;
 }
 .contactus ul li:nth-child(2) span{
-  margin-left: 35px;
+  margin-left: 61px;
 }
 .contactus ul li:nth-child(3) span{
-  margin-left: 30px
+  margin-left: 55px
 }
 .contactus ul li:nth-child(1) a{
   padding-bottom: 2px;
@@ -5574,7 +5572,7 @@ margin-right: 5px;
   width: 30px;
 }
 .navbar-afterlogin ul li:nth-child(2) a img{
-  width: 25px;
+  width: 6px;
 }
 .navbar-afterlogin ul li:nth-child(3) a img{
   width: 37px;
@@ -5588,4 +5586,24 @@ margin-right: 5px;
   padding: 1px 6px;
   font-size: 13px;
   border-radius: 50%;
+}
+.allgames-body ul li{
+  margin-bottom: 10px;
+}
+.allgames-body ul li a{
+  color: #5e5e5e
+}
+.allgames-body ul li a:hover{
+  text-decoration: none;
+}
+.allgames-body1 ul{
+  -webkit-column-count: 4;
+          column-count: 4
+}
+.allgames-body3 ul{
+  -webkit-column-count: 3;
+          column-count: 3
+}
+.payment-icon li a, .bank-icon li a, .currency-icon li a, .d-fsalon a{
+  cursor: default;
 }

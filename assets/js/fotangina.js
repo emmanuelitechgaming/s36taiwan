@@ -121,7 +121,7 @@ $(document).ready(function(){
 			.append('<div class="language-picker"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span>'+ v.country_name + '<span class="language"></span></div></div>');
 
 		$('#drop2ul')
-			.append('<li><a href="#" id="country2'+ k +'" data-value="'+ k +'"><span class="flag-icon '+v.flag+'"> </span> '+ v.country_name +'<span class="languages"></span></a></li>');
+			.append('<li><a href="javascript:void(0)" id="country2'+ k +'" data-value="'+ k +'"><span class="flag-icon '+v.flag+'"> </span> '+ v.country_name +'<span class="languages"></span></a></li>');
 	});
 
 	$('#drop .grey').each(function(){
