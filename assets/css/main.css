@@ -172,8 +172,10 @@ header .header-mobile > .hm-d {
   margin-top: 30px
 }
 main .mobile-banner{
-text-align: center;
-margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .mobile-banner-wrapper{
   position: relative;
@@ -2901,10 +2903,6 @@ span.round-tab i{
 }
 .cs-modal .close:hover, #noticeModal .close:hover{
   opacity: 1
-}
-
-.cs-modal .modal-dialog {
-  margin: 150px auto;
 }
 
 .cs-modal .content-title {
