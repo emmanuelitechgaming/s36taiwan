@@ -1149,16 +1149,11 @@ display: inline-block;
   color: #fba601;
   font-weight: 700;
   line-height: 27px;
-
-
-
 }
 .form-recap{
-height: 76px;
-max-width: 331px;
-margin-top: 20px;
+  height: 76px;
+  margin-top: 20px;
 }
-
 .checkbox, .radio {
     position: relative;
     display: block;
@@ -5479,7 +5474,7 @@ margin-right: 5px;
 .form-recap-right p{
   white-space: nowrap;
   position: relative;
-  left: -55px
+
 }
 .form-recap-right p a{
   color: inherit;
