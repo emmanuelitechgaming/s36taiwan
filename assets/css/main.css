@@ -2679,7 +2679,7 @@ select + i.fa {
   padding: 15px 0;
   font-weight: 700;
   padding-left: 15px;
-  border-bottom: 1px solid #fba601;
+  border-bottom: 1px solid transparent;
   color: #fff
 }
 .selectpicker2-menu a:nth-child(even){
