@@ -350,7 +350,6 @@ main .borderstyler {
 
 
 .live-games img {
-    max-width: 100%;
     margin-top: 5px;
     margin: 3px auto;
 }
@@ -2541,7 +2540,7 @@ select + i.fa {
   text-align: center;
   color: rgba(26, 26, 26, 0.8) !important;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .lg-playnow:active, .lg-playnow:hover, .lg-playnow:focus{
@@ -2937,17 +2936,17 @@ span.round-tab i{
 }
 
 .cs-modal .chatserver-form button {
-    font-size: 13px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    padding: 10px 15px;
-    letter-spacing: .5px;
-    color: #1a1a1a;
-    border: none;
-    border-radius: 4px;
-    background: url(../img/yellow-btn.png) repeat-x;
-    text-shadow: none;
-    width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 7px 15px;
+  letter-spacing: .5px;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 4px;
+  background: url(../img/yellow-btn.png) repeat-x;
+  text-shadow: none;
+  width: 100%;
 }
 
 .cs-modal .chatserver-form span {
@@ -4205,7 +4204,7 @@ header .top-header ul li:nth-child(1){
   margin: 3px;
 }
 .grey {
-  border-bottom: 1px solid #fba601;
+  border-bottom: 1px solid transparent;
   padding: 6px 4px;
   cursor: pointer;
   min-width: 230px;
@@ -5469,7 +5468,6 @@ margin-right: 5px;
   background: url('../img/promo/new_13/arrow.png') no-repeat #fba601;
   background-position: 87px 4px;
   padding: 5px 35px 5px 20px;
-  opacity: 0.5
 }
 .form-recap-right p{
   white-space: nowrap;
@@ -5523,4 +5521,71 @@ margin-right: 5px;
 .selectpicker2.selectpicker2-navbar-right .flag-icon{
   width: 1.111em !important;
   border-radius: 50%
+}
+.contactus{
+  color: #fff;
+  background: #1b1b1b;
+  padding: 5px 20px;
+  letter-spacing: 1px
+}
+.contactus p{
+  text-align: center;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+.contactus a{
+  color: #fba601
+}
+.contactus a:hover{
+  text-decoration: none
+}
+.contactus ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contactus ul li{
+  padding: 7px 0
+}
+.contactus ul li span{
+  margin-left: 25px;
+}
+.contactus ul li:nth-child(2) span{
+  margin-left: 35px;
+}
+.contactus ul li:nth-child(3) span{
+  margin-left: 30px
+}
+.contactus ul li:nth-child(1) a{
+  padding-bottom: 2px;
+}
+.contactus ul li:nth-child(1) a, .contactus ul li:nth-child(4) a{
+  border-bottom: 2px solid #fba601
+}
+.navbar-afterlogin{
+  position: relative;
+  top: 16px;
+}
+.navbar-afterlogin ul li{
+  margin-left: 40px;
+  position: relative;
+}
+.navbar-afterlogin ul li a img{
+  width: 30px;
+}
+.navbar-afterlogin ul li:nth-child(2) a img{
+  width: 25px;
+}
+.navbar-afterlogin ul li:nth-child(3) a img{
+  width: 37px;
+}
+.navbar-afterlogin .notif{
+  position: absolute;
+  top: -10px;
+  right: -11px;
+  color: #fff;
+  background: #f00;
+  padding: 1px 6px;
+  font-size: 13px;
+  border-radius: 50%;
 }

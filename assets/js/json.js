@@ -92,8 +92,8 @@ $(document).ready(function(){
 	});
 
 	$('.grey').hover(function() {
-		$(this).css('border-bottom','1px solid #e3e3e3');
-	}, function() {
 		$(this).css('border-bottom','1px solid #fba601');
+	}, function() {
+		$(this).css('border-bottom','1px solid transparent');
 	});
 });
