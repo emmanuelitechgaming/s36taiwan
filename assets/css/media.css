@@ -720,6 +720,13 @@
     .cs-modal .modal-dialog {
       margin: 0 auto;
     }
+    .form-recap-right{
+      text-align: center;
+      margin-top: 15px;
+    }
+    .form-recap{
+      max-width: auto;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2210,6 +2217,13 @@
     }
     .cs-modal .modal-dialog {
       margin: 150px auto;
+    }
+    .form-recap-right{
+      text-align: left;
+      margin-top: auto;
+    }
+    .form-recap{
+      max-width: 331px;
     }
 }
 
