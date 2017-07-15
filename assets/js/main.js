@@ -478,12 +478,6 @@ $(document).ready(function () {
       $(this).attr('src', 'assets/img/promo/new_13/active.png');
     });
 
-    $('.casino-g-img, .promo-btn a').hover(function() {
-      $(this).closest('.casino-g').find('.promo-btn .cta-cs span').css('opacity', '1');
-    }, function() {
-      $(this).closest('.casino-g').find('.promo-btn .cta-cs span').css('opacity', '0.5');
-    });
-
     $('.csmodal-forgot').click(function() {
       $('#myModal').modal('hide');
       $('#csModal').modal('show');
