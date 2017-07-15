@@ -1342,10 +1342,10 @@
 
 @media only screen and (min-width: 480px) {
   .float-contacts{
-    right: 94px;
+    right: 1px;
     position: fixed;
     cursor: pointer;
-    bottom: 1px;
+    bottom: 120px;
 }
 
 @media only screen and (min-width: 568px) {
@@ -1793,6 +1793,10 @@
       top: 16px;
       left: 16px;
       font-size: 12px;
+    }
+    .selectpicker2.selectpicker2-navbar-right{
+      top: 0;
+      left: 0;
     }
     .selectpicker2 .fa {
         margin-left: 6px
