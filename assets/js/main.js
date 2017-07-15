@@ -410,16 +410,16 @@ $(document).ready(function () {
     });
 
     $('#cta-contact').hover(function() {
-      $(this).attr('src', 'assets/img/contact hover.png');
+      $(this).attr('src', 'assets/img/contact-mobile hover_15.png');
     }, function() {
-      $(this).attr('src', 'assets/img/cta-contact.png');
+      $(this).attr('src', 'assets/img/contact-mobile_15.png');
     })
 
     $('.btn-top').hover(function() {
-      $(this).css('background', 'url(assets/img/arrow-up-hover.png)');
+      $(this).css('background', 'url("assets/img/arrow up-mobile hover_15.png")');
     }, function() {
-      $(this).css('background', 'url(assets/img/scrollup-btn.png)');
-    });
+      $(this).css('background', 'url("assets/img/arrow up-mobile_15.png")');
+    })
 
     $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a').click(function() {
       $('#myModal').modal('show');
@@ -483,6 +483,11 @@ $(document).ready(function () {
     }, function() {
       $(this).closest('.casino-g').find('.promo-btn .cta-cs span').css('opacity', '0.5');
     });
+
+    $('.csmodal-forgot').click(function() {
+      $('#myModal').modal('hide');
+      $('#csModal').modal('show');
+    })
 
 });
 

@@ -23,7 +23,9 @@ footer .f-social ul.columns > li {
     margin-left: 0px;
 }
 .tab-panel-casino .nav>li>a {
-    padding: 5px 35px !important;
+    padding: 5px 34px !important;
+    font-size: 16px;
+    font-weight: 700;
 }
 .nav>li>a {
   padding: 5px 15px !important;
@@ -64,7 +66,7 @@ header .nathan-hm-d{
     margin-left: 14.5px;
   }
   .tab-panel-casino .nav>li>a {
-    padding: 5px 45px !important;
+    padding: 5px 44px !important;
   }
 }
 
@@ -102,7 +104,7 @@ header .nathan-hm-d{
     margin-top: 1%;
 }
 .tab-panel-casino .nav>li>a {
-    padding: 5px 50px !important;
+    padding: 5px 48px !important;
 }
 }
 
@@ -110,7 +112,7 @@ header .nathan-hm-d{
 @media only screen and (min-width: 412px)
 {
   .tab-panel-casino .nav>li>a {
-      padding: 5px 60px !important;
+      padding: 5px 58px !important;
   }
   .nav>li>a {
       padding: 5px 11px !important;
@@ -129,7 +131,7 @@ header .nathan-hm-d{
 @media only screen and (min-width: 414px)
 {
   .tab-panel-casino .nav>li>a {
-      padding: 5px 60px !important;
+      padding: 5px 58px !important;
   }
   .nav>li>a {
       padding: 5px 24px !important;
@@ -159,8 +161,8 @@ header .nathan-hm-d{
   }
   .scrolltotop{
     position: fixed;
-        bottom: -4px;
-        right: 61px;
+        bottom: 208px;
+        right: 1px;
   }
 }
 @media only screen and (max-width: 740px) {
