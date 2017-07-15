@@ -699,7 +699,7 @@
       bottom: 15%;
     }
     #m-selectpicker2{
-      right: 37px;
+      right: 28px;
     }
     img.b-img{
       top: auto
@@ -716,6 +716,9 @@
     }
     .lotto-sp-back-btn{
       bottom: -24px !important;
+    }
+    .cs-modal .modal-dialog {
+      margin: 0 auto;
     }
 }
 
@@ -842,7 +845,7 @@
       bottom: 15.5%;
     }
     #m-selectpicker2{
-      right: 27px;
+      right: 17px;
     }
     .header-cs a{
       margin: 2px 12px;
@@ -1057,7 +1060,7 @@
       min-height: auto
     }
     #m-selectpicker2 {
-      right: 19px;
+      right: 9px;
     }
     .tab-panel-casino .nav>li>a {
       padding: 5px 47px !important;
@@ -1170,7 +1173,7 @@
               column-count: 2
     }
     #m-selectpicker2 {
-      right: 0px;
+      right: -10px;
     }
 }
 
@@ -2194,6 +2197,9 @@
     }
     .lotto-sp-back-btn{
       bottom: -5px !important;
+    }
+    .cs-modal .modal-dialog {
+      margin: 150px auto;
     }
 }
 

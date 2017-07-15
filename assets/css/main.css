@@ -172,8 +172,10 @@ header .header-mobile > .hm-d {
   margin-top: 30px
 }
 main .mobile-banner{
-text-align: center;
-margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .mobile-banner-wrapper{
   position: relative;
@@ -2903,10 +2905,6 @@ span.round-tab i{
   opacity: 1
 }
 
-.cs-modal .modal-dialog {
-  margin: 150px auto;
-}
-
 .cs-modal .content-title {
   text-align: center;
 }
@@ -4187,7 +4185,7 @@ header .top-header ul li:nth-child(1){
   font-size: .75em;
   cursor: pointer;
   min-width: 150px;
-  right: 600px;
+  right: 604px;
   top: 28px;
   padding: 10px;
   border: 1px solid #4a4a4a
