@@ -421,7 +421,7 @@ $(document).ready(function () {
       $(this).css('background', 'url("assets/img/arrow up-mobile_15.png")');
     })
 
-    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/sp/reg-btn-sp.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-1"').tab('show');
     });
@@ -476,12 +476,6 @@ $(document).ready(function () {
       $(this).attr('src', 'assets/img/promo/new_13/hover.png');
     }, function() {
       $(this).attr('src', 'assets/img/promo/new_13/active.png');
-    });
-
-    $('.casino-g-img, .promo-btn a').hover(function() {
-      $(this).closest('.casino-g').find('.promo-btn .cta-cs span').css('opacity', '1');
-    }, function() {
-      $(this).closest('.casino-g').find('.promo-btn .cta-cs span').css('opacity', '0.5');
     });
 
     $('.csmodal-forgot').click(function() {
