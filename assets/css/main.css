@@ -5563,3 +5563,30 @@ margin-right: 5px;
 .contactus ul li:nth-child(1) a, .contactus ul li:nth-child(4) a{
   border-bottom: 2px solid #fba601
 }
+.navbar-afterlogin{
+  position: relative;
+  top: 16px;
+}
+.navbar-afterlogin ul li{
+  margin-left: 40px;
+  position: relative;
+}
+.navbar-afterlogin ul li a img{
+  width: 30px;
+}
+.navbar-afterlogin ul li:nth-child(2) a img{
+  width: 25px;
+}
+.navbar-afterlogin ul li:nth-child(3) a img{
+  width: 37px;
+}
+.navbar-afterlogin .notif{
+  position: absolute;
+  top: -10px;
+  right: -11px;
+  color: #fff;
+  background: #f00;
+  padding: 1px 6px;
+  font-size: 13px;
+  border-radius: 50%;
+}
