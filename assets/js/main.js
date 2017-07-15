@@ -421,7 +421,7 @@ $(document).ready(function () {
       $(this).css('background', 'url("assets/img/arrow up-mobile_15.png")');
     })
 
-    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/sp/reg-btn-sp.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-1"').tab('show');
     });
