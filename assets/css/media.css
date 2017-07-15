@@ -9,6 +9,9 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
+  .flexslides{
+        margin-left: 17px !important;
+  }
 .navbar-header.header-mobile{
   margin-top: -15px;
 }
@@ -1602,6 +1605,7 @@
 
 @media only screen and (min-width: 736px) {
 
+
   .form-recap-right p{
     left: -6px;
       top: 0px;
@@ -1679,6 +1683,9 @@
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
+  .flexslides{
+        margin-left: 32px !important;
+  }
   .form-recap-right p{
     left: -55px;
     top: 0px;
