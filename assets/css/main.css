@@ -5373,6 +5373,7 @@ margin-right: -10px;
 }
 .login-info-div{
   font-size: 16px;
+  margin-bottom: 10px;
 }
 .sp-intro{
   font-weight: 700;
@@ -5606,4 +5607,22 @@ margin-right: 5px;
 }
 .payment-icon li a, .bank-icon li a, .currency-icon li a, .d-fsalon a{
   cursor: default;
+}
+.login-info span{
+  color: #fba601;
+  padding: 10px 25px;
+  border-bottom: 1px solid #fba601;
+  border-top: 1px solid #fba601;
+}
+.login-info-reg{
+  margin-top: 30px;
+}
+.login-info-reg span{
+  border-bottom: none;
+  padding: 10px 50px 0
+}
+.login-info-div span{
+  color: #fba601;
+  padding: 0 25px 10px;
+  border-bottom: 1px solid #fba601
 }
