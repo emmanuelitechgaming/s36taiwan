@@ -401,11 +401,6 @@ main .win-lot {
     overflow: hidden;
 }
 
-main .win-lot:last-child {
-    border-top: 1px solid #303030;
-    border-bottom: 1px solid #161616;
-}
-
 main .win-cs {
     padding: 5px 0;
     overflow: hidden;
@@ -5548,6 +5543,7 @@ margin-right: 5px;
 }
 .contactus ul li span{
   margin-left: 30px;
+  white-space: nowrap;
 }
 .contactus ul li:nth-child(2) span{
   margin-left: 40px;
