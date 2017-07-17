@@ -582,7 +582,7 @@
               <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
                 <!-- <li><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown"><i class="flag-icon flag-icon-tw"> </i> 繁</button></a></li>
                 <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span></span></a></li> -->
-                <li><a href="javascript:void(0)"><img src="assets/img/msg.png" width="20px" alt="">&nbsp; 即時信息</a></li>
+                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" width="20px" alt="">&nbsp; 即時信息</a></li>
                 <li><a href="javascript:void(0)"><img src="assets/img/whatsapp.png" width="20px" alt="">&nbsp; 免費回撥</a></li>
                 <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="20px" alt="">&nbsp; 在線客服</a></li>
                 <li><a href="helpcenter.html"><img src="assets/img/hc.png" width="20px" alt="">&nbsp; 幫助中心</a></li>
@@ -885,7 +885,9 @@
                                     <li><div class="list"><a href="helpcenter.html#tab5">使用條款</a></div></li>
                                     <li><div class="list"><a href="helpcenter.html#tab6">負責任博彩</a></div></li>
                                     <li><div class="list"><a href="sitemap.html">網站地圖</a></div></li>
-                                    <li><div class="list"><a href="javascript:void(0)" id="footerLinkLang">選擇地區</a></div></li>
+                                    <li><div class="list"><a href="javascript:void\(0\)" id="footerLinkLang">選擇地區</a></div></li>
+                                      <li><div class="list"><a href="#csMsg" data-toggle="modal">即时信息</a></div></li>
+                                      <li><div class="list"><a href="#">免费回拨</a></div></li>
                                   </ul>
                               </div>
 
@@ -1413,6 +1415,38 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csMsg">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="content-title ctitle">
+                        <h1> S36.asia 即時短訊</h1>
+                    </div>
+
+
+                    <div class="forms chatserver-form">
+                        <form action="">
+                            <div class="form-group">
+                                <label>您的名称：</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">编写短讯内容：</label>
+                                <textarea class="form-control" ></textarea>
+                                <label for="">(160 个英文字符或 70 个中文字符)</label>
+                            </div>
+                            <div class="form-group text-right">
+                                <button type="submit">发送</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

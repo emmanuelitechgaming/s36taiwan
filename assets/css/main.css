@@ -5636,7 +5636,7 @@ margin-right: 5px;
   padding: 0 45px 10px;
   border-bottom: 1px solid #fba601
 }
-#csModal .close{
+#csModal .close, #csMsg .close{
   position: absolute;
   top: 0;
   right: -10px;
