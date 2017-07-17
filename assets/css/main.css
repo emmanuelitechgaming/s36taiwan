@@ -5541,19 +5541,19 @@ margin-right: 5px;
   margin: 0;
   padding: 0;
   list-style: none;
-  padding-left: 35px;
+  padding-left: 20px;
 }
 .contactus ul li{
   padding: 7px 0
 }
 .contactus ul li span{
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .contactus ul li:nth-child(2) span{
-  margin-left: 61px;
+  margin-left: 40px;
 }
 .contactus ul li:nth-child(3) span{
-  margin-left: 55px
+  margin-left: 35px
 }
 .contactus ul li:nth-child(1) a{
   padding-bottom: 2px;
