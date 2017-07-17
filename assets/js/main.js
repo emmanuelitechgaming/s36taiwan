@@ -45,7 +45,7 @@ $(document).ready(function () {
      $('.promo-tabs li').each(function() {
        $(this).removeClass('active');
      });
-     $('.tab-content div').each(function() {
+     $('.helpcenter .tab-content div').each(function() {
        $(this).removeClass('active');
      });
      $('.promo-section .breadcrumb li a[href="promotion.html"]').attr('href', function(i, href) {
@@ -59,7 +59,7 @@ $(document).ready(function () {
          $(this).addClass('active');
        }
      });
-     $('.tab-content div').each(function() {
+     $('.helpcenter .tab-content div').each(function() {
        link = $(this).attr('id');
        if ('#'+link == hash) {
          $(this).addClass('active');
@@ -410,18 +410,18 @@ $(document).ready(function () {
     });
 
     $('#cta-contact').hover(function() {
-      $(this).attr('src', 'assets/img/contact hover.png');
+      $(this).attr('src', 'assets/img/contact-mobile hover_15.png');
     }, function() {
-      $(this).attr('src', 'assets/img/cta-contact.png');
+      $(this).attr('src', 'assets/img/contact-mobile_15.png');
     })
 
     $('.btn-top').hover(function() {
-      $(this).css('background', 'url(assets/img/arrow-up-hover.png)');
+      $(this).css('background', 'url("assets/img/arrow up-mobile hover_15.png")');
     }, function() {
-      $(this).css('background', 'url(assets/img/scrollup-btn.png)');
-    });
+      $(this).css('background', 'url("assets/img/arrow up-mobile_15.png")');
+    })
 
-    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/sp/reg-btn-sp.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-1"').tab('show');
     });
@@ -431,7 +431,7 @@ $(document).ready(function () {
       $('a[href="#myModalTab1-1"').tab('show');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/promo/register now btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/sp/reg-btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-2"').tab('show');
     });
@@ -470,6 +470,17 @@ $(document).ready(function () {
       if($('.selectpicker2 .fa').hasClass('fa-caret-up')){
         $('.selectpicker2 .fa').removeClass('fa-caret-up').addClass('fa-caret-down');
       }
+    });
+
+    $('.promo-btn img').hover(function() {
+      $(this).attr('src', 'assets/img/promo/new_13/hover.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/promo/new_13/active.png');
+    });
+
+    $('.csmodal-forgot').click(function() {
+      $('#myModal').modal('hide');
+      $('#csModal').modal('show');
     })
 
 });

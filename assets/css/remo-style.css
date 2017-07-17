@@ -382,18 +382,16 @@ margin: 0px auto
   font-size: 16px;
 }
 
-.sitemap-body{
+.sitemap-body, .allgames-body{
   border-top: none;
   padding: 15px 0px;
   margin-bottom: 20px;
 }
 
-.sitemap-body ul{
+.sitemap-body ul, .allgames-body ul{
   color: #fba601;
   margin: 0;
   padding: 0 25px;
-
-
 }
 .sitemap-body ul li a {
     display: block;

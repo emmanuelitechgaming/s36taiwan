@@ -172,9 +172,10 @@ header .header-mobile > .hm-d {
   margin-top: 30px
 }
 main .mobile-banner{
-  background: #000;
-text-align: center;
-margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 .mobile-banner-wrapper{
   position: relative;
@@ -349,7 +350,6 @@ main .borderstyler {
 
 
 .live-games img {
-    max-width: 100%;
     margin-top: 5px;
     margin: 3px auto;
 }
@@ -1148,16 +1148,11 @@ display: inline-block;
   color: #fba601;
   font-weight: 700;
   line-height: 27px;
-
-
-
 }
 .form-recap{
-height: 76px;
-max-width: 331px;
-margin-top: 20px;
+  height: 76px;
+  margin-top: 20px;
 }
-
 .checkbox, .radio {
     position: relative;
     display: block;
@@ -2202,7 +2197,6 @@ input[type=password]:hover {
 .scrolltotop-m{
   display: block;
 position: fixed;
-bottom: 179px;
 right: 1px;
 }
 .btn-top {
@@ -2212,9 +2206,9 @@ right: 1px;
     padding: 2px 10px;
     text-decoration: none;*/
     display: inline-block;
-    width: 34px;
-    height: 28px;
-    background: url('../img/scrollup-btn.png');
+    width: 23px;
+    height: 23px;
+    background: url('../img/arrow up-mobile_15.png');
     background-size: cover
 }
 
@@ -2546,7 +2540,7 @@ select + i.fa {
   text-align: center;
   color: rgba(26, 26, 26, 0.8) !important;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .lg-playnow:active, .lg-playnow:hover, .lg-playnow:focus{
@@ -2685,7 +2679,7 @@ select + i.fa {
   padding: 15px 0;
   font-weight: 700;
   padding-left: 15px;
-  border-bottom: 1px solid #fba601;
+  border-bottom: 1px solid transparent;
   color: #fff
 }
 .selectpicker2-menu a:nth-child(even){
@@ -2905,10 +2899,6 @@ span.round-tab i{
   opacity: 1
 }
 
-.cs-modal .modal-dialog {
-  margin: 150px auto;
-}
-
 .cs-modal .content-title {
   text-align: center;
 }
@@ -2946,17 +2936,17 @@ span.round-tab i{
 }
 
 .cs-modal .chatserver-form button {
-    font-size: 13px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    padding: 10px 15px;
-    letter-spacing: .5px;
-    color: #1a1a1a;
-    border: none;
-    border-radius: 4px;
-    background: url(../img/yellow-btn.png) repeat-x;
-    text-shadow: none;
-    width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 7px 15px;
+  letter-spacing: .5px;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 4px;
+  background: url(../img/yellow-btn.png) repeat-x;
+  text-shadow: none;
+  width: 100%;
 }
 
 .cs-modal .chatserver-form span {
@@ -4189,16 +4179,13 @@ header .top-header ul li:nth-child(1){
   font-size: .75em;
   cursor: pointer;
   min-width: 150px;
-  left: 644px;
+  right: 604px;
   top: 28px;
   padding: 10px;
   border: 1px solid #4a4a4a
 }
 .drop .language-picker:nth-child(even) .grey{
   background: #2a2a2a
-}
-.lang span{
-  color: #fff !important
 }
 .drop .flag-icon{
   margin-right: 25px;
@@ -4214,7 +4201,7 @@ header .top-header ul li:nth-child(1){
   margin: 3px;
 }
 .grey {
-  border-bottom: 1px solid #fba601;
+  border-bottom: 1px solid transparent;
   padding: 6px 4px;
   cursor: pointer;
   min-width: 230px;
@@ -4233,7 +4220,7 @@ header .top-header ul li:nth-child(1){
   position: absolute;
   z-index: 88888;
   /*top: 125px !important*/
-  top: 73px !important
+  top: 128px !important
 }
 .language-picker{
   display: inline-block;
@@ -5180,7 +5167,7 @@ div.input-border #country-sel.flagstrap .btn .caret{
   width: 100%;
 }
 .columns.f-social li a img, .footer-shareit ul li a img{
-  cursor: pointer !important
+  cursor: default; !important
 }
 .navaa li:first-child{
   min-width: 30px;
@@ -5361,6 +5348,8 @@ margin-right: -10px;
 }
 .slots-tab-a li a{
   text-align: center;
+  font-size: 16px;
+  font-weight: 700;
 }
 .slots-breadcrumb-inner{
   position: relative;
@@ -5396,11 +5385,14 @@ margin-right: -10px;
   background: none;
   left: auto;
   top: 25px;
+  padding-top: 5px
 }
 #m-selectpicker2 i{
   line-height: 23px;
   border-radius: 23px;
   width: 23px !important;
+  position: relative;
+  top: -3px;
 }
 
 .panel.with-nav-tabs .panel-heading .promo-tabs li{
@@ -5436,4 +5428,182 @@ margin-right: -10px;
 margin-top: 10px;
 margin-left: 5px;
 margin-right: 5px;
+}
+.promo-btn{
+  position: absolute;
+  bottom: 95px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+.promo-btn img{
+  cursor: pointer;
+}
+.promo-btn a{
+  position: absolute;
+  color: #333;
+  font-size: 16px;
+  text-shadow: 0.5px 0px #333;
+  bottom: 14px;
+  left: 140px;
+  letter-spacing: 1px;
+}
+.promo-btn a:hover{
+  text-decoration: none;
+}
+.sitemap-body2f ul li ul{
+  min-height: 160px;
+}
+.promo-btn .cta-cs{
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 14px
+}
+.promo-btn .cta-cs span{
+  background: url('../img/promo/new_13/arrow.png') no-repeat #fba601;
+  background-position: 87px 4px;
+  padding: 5px 35px 5px 20px;
+}
+.form-recap-right p{
+  white-space: nowrap;
+  position: relative;
+
+}
+.form-recap-right p a{
+  color: inherit;
+}
+.form-recap-right p a:hover{
+  text-decoration: none
+}
+.form-recap-right p a span{
+  color: #81caff
+}
+.mobile-banner-text{
+  text-align: left;
+  padding: 5px 20px 0;
+}
+.mobile-banner-title{
+  color: #fba601;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+.mobile-banner-content{
+  color: #f3f7fa;
+  font-size: 18px;
+}
+.mobile-banner-social{
+  margin: 0;
+  padding: 0;
+  margin-top: 10px
+}
+.mobile-banner-social li{
+  display: inline-block;
+  width: 20px;
+  margin-right: 1px
+}
+.mobile-banner-social li a{
+  text-align: left;
+}
+.mobile-banner-social li a img{
+  max-width: 85%
+}
+.selectpicker2.selectpicker2-navbar-right{
+  background: none;
+  padding: 0;
+}
+.selectpicker2.selectpicker2-navbar-right .flag-icon{
+  width: 1.111em !important;
+  border-radius: 50%
+}
+.contactus{
+  color: #fff;
+  background: #1b1b1b;
+  padding: 5px 20px;
+  letter-spacing: 1px
+}
+.contactus p{
+  text-align: center;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+.contactus a{
+  color: #fba601
+}
+.contactus a:hover{
+  text-decoration: none
+}
+.contactus ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 35px;
+}
+.contactus ul li{
+  padding: 7px 0
+}
+.contactus ul li span{
+  margin-left: 50px;
+}
+.contactus ul li:nth-child(2) span{
+  margin-left: 61px;
+}
+.contactus ul li:nth-child(3) span{
+  margin-left: 55px
+}
+.contactus ul li:nth-child(1) a{
+  padding-bottom: 2px;
+}
+.contactus ul li:nth-child(1) a, .contactus ul li:nth-child(4) a{
+  border-bottom: 2px solid #fba601
+}
+.navbar-afterlogin{
+  position: relative;
+  top: 16px;
+}
+.navbar-afterlogin ul li{
+  margin-left: 40px;
+  position: relative;
+}
+.navbar-afterlogin ul li a img{
+  width: 30px;
+}
+.navbar-afterlogin ul li:nth-child(2) a img{
+  width: 6px;
+}
+.navbar-afterlogin ul li:nth-child(3) a img{
+  width: 37px;
+}
+.navbar-afterlogin .notif{
+  position: absolute;
+  top: -10px;
+  right: -11px;
+  color: #fff;
+  background: #f00;
+  padding: 1px 6px;
+  font-size: 13px;
+  border-radius: 50%;
+}
+.allgames-body ul li{
+  margin-bottom: 10px;
+}
+.allgames-body ul li a{
+  color: #5e5e5e
+}
+.allgames-body ul li a:hover{
+  text-decoration: none;
+}
+.allgames-body1 ul{
+  -webkit-column-count: 4;
+          column-count: 4
+}
+.allgames-body3 ul{
+  -webkit-column-count: 3;
+          column-count: 3
+}
+.payment-icon li a, .bank-icon li a, .currency-icon li a, .d-fsalon a{
+  cursor: default;
 }
