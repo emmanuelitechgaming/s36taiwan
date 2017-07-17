@@ -5617,3 +5617,19 @@ margin-right: 5px;
   padding: 0 45px 10px;
   border-bottom: 1px solid #fba601
 }
+#csModal .close{
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+.top-header-clock img{
+  margin-right: 0 !important;
+}
+.top-header-clock span{
+  margin-left: 0 !important;
+  position: relative;
+  top: 1px;
+}
+.top-header .pull-right li{
+  margin: 0 5px
+}
