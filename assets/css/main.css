@@ -4172,7 +4172,7 @@ padding: 15px;
   font-size: .75em;
   cursor: pointer;
   min-width: 150px;
-  right: 604px;
+  right: 350px;
   top: 28px;
   padding: 10px;
   border: 1px solid #4a4a4a
@@ -4213,7 +4213,7 @@ padding: 15px;
   position: absolute;
   z-index: 88888;
   /*top: 125px !important*/
-  top: 128px !important
+  top: 30px !important
 }
 .language-picker{
   display: inline-block;
@@ -5565,9 +5565,6 @@ margin-right: 5px;
 }
 .navbar-afterlogin ul li a img{
   width: 30px;
-}
-.navbar-afterlogin ul li:nth-child(2) a img{
-  width: 6px;
 }
 .navbar-afterlogin ul li:nth-child(3) a img{
   width: 37px;
