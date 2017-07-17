@@ -17,12 +17,12 @@ header{
 
   background-repeat: no-repeat;
   background-position-x: 880px;
-  background-position-y: -13px;
+  background-position-y: 1px;
 }
 header .top-header{
   padding: 0 5px;
   font-size: 12px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 header .top-header ul li span{
   margin: 5px;
@@ -4162,9 +4162,7 @@ padding: 15px;
 .lang span, .gs span, .top-header-clock span{
   color: #FFFFFF;
 }
-header .top-header ul li:nth-child(1){
-  padding-right: 0;
-}
+
 .drop {
   display: none !important;
   margin: 0;
@@ -4984,7 +4982,7 @@ right: 160px;
 .bs-slider-overlay{
   position: absolute;
 bottom: 56px;
-right: 543px;
+right: 510px;
 }
 
 #myModal .nav-tabs li span img{
