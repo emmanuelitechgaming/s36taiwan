@@ -1548,7 +1548,7 @@
                               <div class="tab-pane active" id="login">
                                   <div class="tab-content">
                                     <div role="tabpanel" class="tab-pane fade active" id="myModalTab1-1">
-                                      <p class="login-info">登录</p>
+                                      <p class="login-info"><span>登录</span></p>
                                       <form role="form" class="form-horizontal">
                                         <div class="form-group">
                                             <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
@@ -1591,8 +1591,8 @@
 
                                     </div>
                                     <div role="tabpanel" class="tab-pane fade" id="myModalTab1-2">
-                                      <p class="login-info">注册帳戶</p>
-                                      <div class="text-center login-info-div">免費、簡單、快速</div>
+                                      <p class="login-info login-info-reg"><span>注册帳戶</span></p>
+                                      <div class="text-center login-info-div"><span>免費、簡單、快速</span></div>
                                       <div class="col-md-6">
                                           <form role="form" class="form-horizontal">
                                             <div class="form-group">
@@ -1979,6 +1979,8 @@
   <script src="assets/js/remo-js.js"></script>
   <script src="assets/js/countUp.js"></script>
   <script src="assets/js/json.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
   <script>
   $(document).ready(function() {
     var mySwiper = new Swiper ('.swiper-container', {
@@ -1986,7 +1988,12 @@
       slidesPerView: 'auto',
       loop: false,
       slidesPerView: 'auto',
-    })
+    });
+
+    var now = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
+    var now2 = moment().format(" h:mm YYYY/MM/DD");
+    $('.top-header-clock span').html(now);
+    $('.m-top-header-clock span').html(now2);
   })
 </script>
 
@@ -2148,17 +2155,6 @@ $(document).ready(function(){
   </script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      var now = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
-      var now2 = moment().format(" h:mm YYYY/MM/DD");
-      $('.top-header-clock span').html(now);
-      $('.m-top-header-clock span').html(now2);
-    });
-  </script>
-
   <script src='https://www.google.com/recaptcha/api.js?hl=zh-TW&onload=CaptchaCallback&render=explicit' async defer></script>
   <script type="text/javascript">
     var CaptchaCallback = function() {
