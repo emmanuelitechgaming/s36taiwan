@@ -43,14 +43,21 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
+<style>
+div#tab2.tab-pane.active p a:first-child{
+  text-decoration: none;
+  color: #fba601;
+}
+</style>
 <body>
   <header>
     <div class="top-header hidden-xs hidden-sm">
         <button class="desktop-support-trigger" data-toggle="collapse" data-target="#desktopSupport" style="display: none"></button>
         <div class="container">
             <ul class="pull-right">
-                <li><a href="javascript:void(0)" class="group-border lang"><div id="drop" class="drop"></div></a></li>
+              <li><a href="javascript:void(0)" class="group-border lang"><div id="drop" class="drop"></div></a></li>
+              <li><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown" style="margin: 3px;"><i class="flag-icon flag-icon-tw"> </i> 繁</button></a></li>
+              <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span> 4:31  下午 周二2017年07月17日</span></a></li>
                 <li>
                   <div id="drop3" class="drop desktop-support">
                       <div class="desktop-support-title">Global Support</div>
@@ -582,8 +589,10 @@
               </div> -->
 
               <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
-                  <li><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown"><i class="flag-icon flag-icon-tw"> </i> 繁</button></a></li>
-                <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span></span></a></li>
+                <!-- <li><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown"><i class="flag-icon flag-icon-tw"> </i> 繁</button></a></li>
+                <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span></span></a></li> -->
+                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" width="20px" alt="">&nbsp; 即時信息</a></li>
+                <li><a href="javascript:void(0)"><img src="assets/img/whatsapp.png" width="20px" alt="">&nbsp; 免費回撥</a></li>
                 <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="20px" alt="">&nbsp; 在線客服</a></li>
                 <li><a href="helpcenter.html"><img src="assets/img/hc.png" width="20px" alt="">&nbsp; 幫助中心</a></li>
               </ul>
@@ -625,7 +634,7 @@
                                   <option value="#tab1" data-toggle="tab">關於我們</option>
                                   <option value="#tab2" data-toggle="tab">聯絡我們</option>
                                   <option value="#tab3" data-toggle="tab">重要公告</option>
-                                  <option value="#tab4" data-toggle="tab">博彩规则</option>
+                                  <option value="#tab4" data-toggle="tab">博彩規則</option>
                                   <option value="#tab5" data-toggle="tab">使用條款</option>
                                   <option value="#tab6" data-toggle="tab">負責任博彩</option>
                                   <option value="#tab7" data-toggle="tab">隱私政策</option>
@@ -654,7 +663,7 @@
                                       <li role="presentation" class="brand-nav active"><a href="#tab1" aria-controls="tab" role="tab" data-toggle="tab">關於我們</a></li>
                                       <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab" role="tab" data-toggle="tab">聯絡我們</a></li>
                                       <li role="presentation" class="brand-nav"><a href="#tab3" aria-controls="tab" role="tab" data-toggle="tab">重要公告</a></li>
-                                      <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab" role="tab" data-toggle="tab">博彩规则</a></li>
+                                      <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab" role="tab" data-toggle="tab">博彩規則</a></li>
                                       <li role="presentation" class="brand-nav"><a href="#tab5" aria-controls="tab" role="tab" data-toggle="tab">使用條款</a></li>
                                       <li role="presentation" class="brand-nav"><a href="#tab6" aria-controls="tab" role="tab" data-toggle="tab">負責任博彩</a></li>
                                       <li role="presentation" class="brand-nav"><a href="#tab7" aria-controls="tab" role="tab" data-toggle="tab">隱私政策</a></li>
@@ -695,8 +704,7 @@
                                       <div role="tabpanel" class="tab-pane active" id="tab1">
                                         <h4>公司簡介</h4>
                                           <p>
-                                      沙龍會總部位於馬尼拉市中心的商業區，在菲律賓註冊成立並持有當地政府許可合法博彩牌照，我們推出的所有遊戲都必需經過菲律賓博彩理事會嚴謹的審核及監控，
-                                      務求給客戶提供公平以及安全的遊戲環境。本公司設有現場及線上各種遊戲裝置，所有採用的軟體及硬體都是市場上最高品質及最先的技術，即使客戶安坐家中我們都可以為客戶提供品質優良的高清晰線上娛樂。除娛樂場外，我們還提供體育、彩票、老虎機和各式賭場遊戲。為了方便用戶，我們採用一戶通投注平台，只要使用一個帳戶即可體驗所有高品質的娛樂產品。我們除致力提升產品外，同時也十分重視客戶的滿意度，所以公司每位新加入沙龍會的員工都必須經過專業培訓及實習活動，務求把最優質的服務帶給所有客戶。我們的全天候廿四小時的客戶服務中心，可以隨時為客戶解答所有問題。我們保證客戶不只會對我們的產品感到滿意，同時也會對整體的服務給予肯定。
+                                            沙龍會總部位於馬尼拉市中心的商業區，在菲律賓註冊成立並持有當地政府許可合法博彩牌照，我們推出的所有遊戲都必需經過菲律賓博彩理事會嚴謹的審核及監控，=務求給客戶提供公平以及安全的遊戲環境。本公司設有現場及線上各種遊戲裝置，所有採用的軟體及硬體都是市場上最高品質及最先的技術，即使客戶安坐家中我們都可以為客戶提供品質優良的高清晰線上娛樂。除娛樂場外，我們還提供體育、彩票、老虎機和各式賭場遊戲。為了方便用戶，我們採用一戶通投注平台，只要使用一個帳戶即可體驗所有高品質的娛樂產品。我們除致力提升產品外，同時也十分重視客戶的滿意度，所以公司每位新加入沙龍會的員工都必須經過專業培訓及實習活動，務求把最優質的服務帶給所有客戶。我們的全天候廿四小時的客戶服務中心，可以隨時為客戶解答所有問題。我們保證客戶不只會對我們的產品感到滿意，同時也會對整體的服務給予肯定。
                                           </p>
                                           <br>
                                           <img src="assets/img/helpcenter/timeline_cn.png" class="img-responsive" alt="">
@@ -725,9 +733,12 @@
                                           </div>
                                           <div class="col-md-10 ">
                                             <p><b>客戶服務</b></p>
-                                            <p>國際熱線： +853 6284 6284</p>
+                                            <p>在線客服: <a href="#csModal" data-toggle="modal">點擊這裏諮詢</a></p>
                                             <p><b>合作夥伴支持熱線</b></p>
-                                            <p>Philippine hotline: +63 9177 99 88 99</p>
+                                            <p>熱線：(+62) 9177 998 899</p>
+                                            <p>Line：392661199</p>
+                                            <p>WeChat：s36asia.com</p>
+                                            <p>電子郵件: support@s36.com</p>
                                           </div>
                                         </div>
                                         </div>
@@ -754,9 +765,12 @@
                                           </div>
                                           <div class="col-md-10 ">
                                             <p><b>客戶服務</b></p>
-                                            <p>國際熱線： +853 6284 6284</p>
+                                            <p>在線客服: <a href="#csModal" data-toggle="modal">點擊這裏諮詢</a></p>
                                             <p><b>合作夥伴支持熱線</b></p>
-                                            <p>Philippine hotline: +63 9177 99 88 99</p>
+                                            <p>熱線：(+886) 9177 998 899</p>
+                                            <p>Line：392661199</p>
+                                            <p>WeChat：s36asia.com</p>
+                                            <p>電子郵件: support.tw@s36.com</p>
                                           </div>
                                         </div>
                                         </div>
@@ -783,9 +797,12 @@
                                           </div>
                                           <div class="col-md-10 ">
                                             <p><b>客戶服務</b></p>
-                                            <p>國際熱線： +853 6284 6284</p>
+                                            <p>在線客服: <a href="#csModal" data-toggle="modal">點擊這裏諮詢</a></p>
                                             <p><b>合作夥伴支持熱線</b></p>
-                                            <p>Philippine hotline: +63 9177 99 88 99</p>
+                                            <p>熱線：(+84) 9177 998 899</p>
+                                            <p>Line：392661199</p>
+                                            <p>WeChat：s36asia.com</p>
+                                            <p>電子郵件: support.vn@s36.com</p>
                                           </div>
                                         </div>
                                         </div>
@@ -812,9 +829,12 @@
                                           </div>
                                           <div class="col-md-10 ">
                                             <p><b>客戶服務</b></p>
-                                            <p>國際熱線： +853 6284 6284</p>
+                                            <p>在線客服: <a href="#csModal" data-toggle="modal">點擊這裏諮詢</a></p>
                                             <p><b>合作夥伴支持熱線</b></p>
-                                            <p>Philippine hotline: +63 9177 99 88 99</p>
+                                            <p>熱線：(+62) 9177 998 899</p>
+                                            <p>Line：392661199</p>
+                                            <p>WeChat：s36asia.com</p>
+                                            <p>電子郵件: support.id@s36.com</p>
                                           </div>
                                         </div>
                                         </div>
@@ -841,9 +861,12 @@
                                           </div>
                                           <div class="col-md-10 ">
                                             <p><b>客戶服務</b></p>
-                                            <p>國際熱線： +853 6284 6284</p>
+                                            <p>在線客服: <a href="#csModal" data-toggle="modal">點擊這裏諮詢</a></p>
                                             <p><b>合作夥伴支持熱線</b></p>
-                                            <p>Philippine hotline: +63 9177 99 88 99</p>
+                                            <p>熱線：(+60) 9177 998 899</p>
+                                            <p>Line：392661199</p>
+                                            <p>WeChat：s36asia.com</p>
+                                            <p>電子郵件: support.my@s36.com</p>
                                           </div>
                                         </div>
                                         </div>
@@ -870,9 +893,12 @@
                                           </div>
                                           <div class="col-md-10 ">
                                             <p><b>客戶服務</b></p>
-                                            <p>國際熱線： +853 6284 6284</p>
+                                            <p>在線客服: <a href="#csModal" data-toggle="modal">點擊這裏諮詢</a></p>
                                             <p><b>合作夥伴支持熱線</b></p>
-                                            <p>Philippine hotline: +63 9177 99 88 99</p>
+                                            <p>熱線：(+66) 9177 998 899</p>
+                                            <p>Line：392661199</p>
+                                            <p>WeChat：s36asia.com</p>
+                                            <p>電子郵件: support.th@s36.com</p>
                                           </div>
                                         </div>
                                         </div>
@@ -899,9 +925,12 @@
                                           </div>
                                           <div class="col-md-10 ">
                                             <p><b>客戶服務</b></p>
-                                            <p>國際熱線： +853 6284 6284</p>
+                                            <p>在線客服: <a href="#csModal" data-toggle="modal">點擊這裏諮詢</a></p>
                                             <p><b>合作夥伴支持熱線</b></p>
-                                            <p>Philippine hotline: +63 9177 99 88 99</p>
+                                            <p>熱線：(+81) 9177 998 899</p>
+                                            <p>Line：392661199</p>
+                                            <p>WeChat：s36asia.com</p>
+                                            <p>電子郵件: support.jp@s36.com</p>
                                           </div>
                                         </div>
                                         </div>
@@ -927,9 +956,12 @@
                                           </div>
                                           <div class="col-md-10 ">
                                             <p><b>客戶服務</b></p>
-                                            <p>國際熱線： +853 6284 6284</p>
+                                            <p>在線客服: <a href="#csModal" data-toggle="modal">點擊這裏諮詢</a></p>
                                             <p><b>合作夥伴支持熱線</b></p>
-                                            <p>Philippine hotline: +63 9177 99 88 99</p>
+                                            <p>熱線：(+82) 9177 998 899</p>
+                                            <p>Line：392661199</p>
+                                            <p>WeChat：s36asia.com</p>
+                                            <p>電子郵件: support.ko@s36.com</p>
                                           </div>
                                         </div>
                                         </div>
@@ -955,9 +987,12 @@
                                           </div>
                                           <div class="col-md-10 ">
                                             <p><b>客戶服務</b></p>
-                                            <p>國際熱線： +853 6284 6284</p>
+                                            <p>在線客服: <a href="#csModal" data-toggle="modal">點擊這裏諮詢</a></p>
                                             <p><b>合作夥伴支持熱線</b></p>
-                                            <p>Philippine hotline: +63 9177 99 88 99</p>
+                                            <p>熱線：(+91) 9177 998 899</p>
+                                            <p>Line：392661199</p>
+                                            <p>WeChat：s36asia.com</p>
+                                            <p>電子郵件: support/in@s36.com</p>
                                           </div>
                                         </div>
                                         </div>
@@ -1004,8 +1039,7 @@
                                                           <div  style="display: block;">
                                                                                   <h4>傳統百家樂</h4>
                                                                                   <p>
-                                                                                      本遊戲採用8副牌來進行，遊戲牌數合計416張，9點或以下的牌按面值點數，A牌是1點，10點及公仔牌則是0點計算。<br>
-                                                                                      閒丶莊家各先派兩張牌，以閒家先發，如第一輪末分出勝負需再按牌例發第二輪的牌，最多每方３張牌，誰最接近9點即為勝方，而相同點數即和局。
+                                                                                    本遊戲採用8副牌來進行，遊戲牌數合計416張，9點或以下的牌按面值點數，A牌是1點，10點及公仔牌則是0點計算。閒丶莊家各先派兩張牌，以閒家先發，如第一輪末分出勝負需再按牌例發第二輪的牌，最多每方３張牌，誰最接近9點即為勝方，而相同點數即和局。
                                                                                   </p>
                                                                                   <br>
                                                                                   <h4>百家樂博牌規例</h4>
@@ -1105,7 +1139,7 @@
                                             <div  style="display: block;">
                                                                     <h4>免佣百家樂</h4>
                                                                     <p>
-                                                                        免佣百家樂是由傳統百家樂演變而來，兩者的玩法非常相似，不同的是免佣百家樂增加了一項超6的特別投注，莊家的賠率也有別於傳統百家樂。
+                                                                        免佣百家乐是由傳統百家樂演变而来，兩者的玩法非常相似，不同的是免佣百家乐增加了一项超6的特别投注，庄家的赔率也有别于傳統百家樂。
 
                                                                     </p>
                                                                     <br>
@@ -1271,9 +1305,8 @@
                                                                             輪盤的玩法為將一顆小球投在有37個號碼格的輪盤上轉。當輪盤停止轉動，球將落在其中一格中。輪盤的目標是猜測球會落在哪一格上。如果猜到正確的號碼，您將依賠率而贏得彩金。賠率的大小將根據投注的種類而計算。
                                                                         </p>
                                                                         <br>
-
-                                                                          <h4>遊戲玩法</h4>
-                                                                        <p>左擊您想要下注的籌碼，然後將籌碼用滑鼠拖到賭桌上的投注區域內。如果賭桌沒有您想要投注籌碼額值，只需在投注完上一次後再投註一次。例如， 想要投注 $30， 點擊$25且將它放置於賭桌上，然後再點擊 $5且將它放置於$25籌碼上。您的總投注會顯示在'目前投注'視窗上。您可點擊'再次下注'以重複您的下注金額。您必須在將籌碼放置於賭桌上後點擊'下注'，您的下注才會有效。如果您的下注低於賭桌的最低投注限制，或高於最高限制，您的下注金額將自動駁回。您可在輪盤桌上下注不同種類的賭注。每種類型的下注包含某些號碼的範圍，且每種類型都有它的賠率。檯面上三個號碼的短線排列稱之為行(rows)， 而有十二個號碼，較長的稱之為欄(column)。前五種下注都是投注在號碼格上或它們之間的線上且稱為內圍，而最後三種則是下注在特別方格中和檯面的左邊且稱為外圍。以下為不同下注的不同賠率:<br>
+                                                                        <h4>遊戲玩法</h4>
+                                                                        <p>左击您想要下注的筹码，然后将筹码用滑鼠拖到赌桌上的投注区域内。如果赌桌没有您想要投注筹码额值，只需在投注完上一次后再投注一次。例如， 想要投注 $30， 点击$25且将它放置于赌桌上，然后再点击 $5且将它放置于$25筹码上。您的总投注会显示在'目前投注'视窗上。您可点击'再次下注'以重复您的下注金额。您必须在将筹码放置于赌桌上后点击'下注'，您的下注才会有效。如果您的下注低于赌桌的最低投注限制，或高于最高限制，您的下注金额将自动驳回。 您可在輪盤桌上下注不同种类的赌注。每种类型的下注包含某些号码的范围，且每种类型都有它的赔率。台面上三个号码的短线排列称之为行(rows)， 而有十二个号码，较长的称之为栏(column)。前五种下注都是投注在号码格上或它们之间的线上且称为内围，而最后三种则是下注在特别方格中和台面的左边且称为外围。以下为不同下注的不同赔率:<br>
                                                                         </p>
                                                                         <table border="1" class="helpcenter-tbl">
                                                                             <tbody><tr>
@@ -1328,7 +1361,7 @@
                                                                                 <td bgcolor="#48484A" align="center">17:1 </td>
                                                                             </tr>
                                                                             <tr>
-                                                                                  <td bgcolor="#48484A" align="center">3個號碼 </td>
+                                                                                <td bgcolor="#48484A" align="center">3個號碼 </td>
                                                                                 <td bgcolor="#48484A" align="center">11:1 </td>
                                                                             </tr>
                                                                             <tr>
@@ -2694,99 +2727,99 @@
                                                                       </tbody></table>
                                                                   </div>
                                                                   <div  style="display: none;">
-                                                                      <h4>轮盘</h4>
+                                                                      <h4>輪盤</h4>
                                                                       <p>
-                                                                          轮盘的玩法为将一颗小球投在有37个号码格的轮盘上转。当轮盘停止转动，球将落在其中一格中。轮盘的目标是猜测球会落在哪一格上。如果猜到正确的号码，您将依赔率而赢得彩金。赔率的大小将根据投注的种类而计算。
+                                                                          輪盤的玩法为将一颗小球投在有37个号码格的輪盤上转。当輪盤停止转动，球将落在其中一格中。輪盤的目标是猜测球会落在哪一格上。如果猜到正确的号码，您将依赔率而赢得彩金。赔率的大小将根据投注的种类而计算。
                                                                       </p>
                                                                       <br>
 
-                                                                      <h4>游戏玩法</h4>
-                                                                      左击您想要下注的筹码，然后将筹码用滑鼠拖到赌桌上的投注区域内。如果赌桌没有您想要投注筹码额值，只需在投注完上一次后再投注一次。例如， 想要投注 $30， 点击$25且将它放置于赌桌上，然后再点击 $5且将它放置于$25筹码上。您的总投注会显示在'目前投注'视窗上。您可点击'再次下注'以重复您的下注金额。您必须在将筹码放置于赌桌上后点击'下注'，您的下注才会有效。如果您的下注低于赌桌的最低投注限制，或高于最高限制，您的下注金额将自动驳回。 您可在轮盘桌上下注不同种类的赌注。每种类型的下注包含某些号码的范围，且每种类型都有它的赔率。台面上三个号码的短线排列称之为行(rows)， 而有十二个号码，较长的称之为栏(column)。前五种下注都是投注在号码格上或它们之间的线上且称为内围，而最后三种则是下注在特别方格中和台面的左边且称为外围。以下为不同下注的不同赔率:<br>
+                                                                      <h4>遊戲玩法</h4>
+                                                                      左擊您想要下注的籌碼，然後將籌碼用滑鼠拖到賭桌上的投注區域內。如果賭桌沒有您想要投注籌碼額值，只需在投注完上一次後再投註一次。例如， 想要投注 $30， 點擊$25且將它放置於賭桌上，然後再點擊 $5且將它放置於$25籌碼上。您的總投注會顯示在'目前投注'視窗上。您可點擊'再次下注'以重複您的下注金額。您必須在將籌碼放置於賭桌上後點擊'下注'，您的下注才會有效。如果您的下注低於賭桌的最低投注限制，或高於最高限制，您的下注金額將自動駁回。您可在輪盤桌上下注不同種類的賭注。每種類型的下注包含某些號碼的範圍，且每種類型都有它的賠率。檯面上三個號碼的短線排列稱之為行(rows)， 而有十二個號碼，較長的稱之為欄(column)。前五種下注都是投注在號碼格上或它們之間的線上且稱為內圍，而最後三種則是下注在特別方格中和檯面的左邊且稱為外圍。以下為不同下注的不同賠率:<br>
                                                                       <table border="1" class="helpcenter-tbl">
                                                                           <tbody><tr>
-                                                                              <td height="34" bgcolor="#48484A" align="center">下注种类</td>
-                                                                              <td bgcolor="#48484A" align="center">注释 </td>
+                                                                              <td height="34" bgcolor="#48484A" align="center">下注種類</td>
+                                                                              <td bgcolor="#48484A" align="center">註釋 </td>
                                                                           </tr>
                                                                           <tr>
                                                                               <td width="93" height="34" bgcolor="#48484A" align="center">直注 </td>
-                                                                              <td width="371" bgcolor="#48484A" align="center">将筹码下注到任何一个号码上（包括零） </td>
+                                                                              <td width="371" bgcolor="#48484A" align="center">將籌碼下注到任何一個號碼上（包括零） </td>
                                                                           </tr>
                                                                           <tr>
                                                                               <td width="93" height="34" bgcolor="#48484A" align="center">分注</td>
-                                                                              <td width="371" bgcolor="#48484A" align="center">将筹码下注到任何两个号码之间的线（零除外） </td>
+                                                                              <td width="371" bgcolor="#48484A" align="center">將籌碼下注到任何兩個號碼之間的線（零除外） </td>
                                                                           </tr>
                                                                           <tr>
                                                                               <td width="93" height="34" bgcolor="#48484A" align="center">街注 </td>
-                                                                              <td width="371" bgcolor="#48484A" align="center">将筹码下注到任一行号码的最后。街注包含三个号码 </td>
+                                                                              <td width="371" bgcolor="#48484A" align="center">將籌碼下注到任一行號碼的最後。街注包含三個號碼 </td>
                                                                           </tr>
                                                                           <tr>
                                                                               <td width="93" height="34" bgcolor="#48484A" align="center">角注</td>
-                                                                              <td width="371" bgcolor="#48484A" align="center">将筹码下注到四个数位方框交差的那个角区以赌那四个数位 五个号码 </td>
+                                                                              <td width="371" bgcolor="#48484A" align="center">將籌碼下注到四個數位方框交差的那個角區以賭那四個數位 五個號碼 </td>
                                                                           </tr>
                                                                           <tr>
-                                                                              <td width="93" height="34" bgcolor="#48484A" align="center">线注</td>
-                                                                              <td width="371" bgcolor="#48484A" align="center">将筹码下注到两行相交的最顶部的交点处，线注包含两行的号码也就是六个号码</td>
+                                                                              <td width="93" height="34" bgcolor="#48484A" align="center">線注</td>
+                                                                              <td width="371" bgcolor="#48484A" align="center">將籌碼下注到兩行相交的最頂部的交點處，線注包含兩行的號碼也就是六個號碼</td>
                                                                           </tr>
                                                                           <tr>
                                                                               <td width="93" height="34" bgcolor="#48484A" align="center">列注</td>
-                                                                              <td width="371" bgcolor="#48484A" align="center">将筹码下注到每列数位底部都有带' 2 to 1'字样的方框，所有栏的号码，总共有12个号码。（每栏的零都不包含在内） </td>
+                                                                              <td width="371" bgcolor="#48484A" align="center">將籌碼下注到每列數位底部都有帶' 2 to 1'字樣的方框，所有欄的號碼，總共有12個號碼。 （每欄的零都不包含在內） </td>
                                                                           </tr>
                                                                           <tr>
                                                                               <td width="93" height="34" bgcolor="#48484A" align="center">12注</td>
-                                                                              <td width="371" bgcolor="#48484A" align="center">将筹码下注到有'第一组 12'、'第二组 12''和'第三组 12'的  赌区以同时下注每区的12个号码，从1到36。 </td>
+                                                                              <td width="371" bgcolor="#48484A" align="center">將籌碼下注到有'第一組 12'、'第二組 12''和'第三組 12'的 賭區以同時下注每區的12個號碼，從1到36。</td>
                                                                           </tr>
                                                                       </tbody></table>
                                                                       <br>
-                                                                      红色 / 黑色， 双数 / 单数 将筹码下注到台桌左侧的某个赌区，这些赌区几乎占据了整个台桌的 一半。那里的每个赌区都包括 18 个数位。在此赌区内赢钱。(0到36不包含在这些赌区内)。 一旦转动结束，赢的号码将在赌桌上显示
+                                                                      紅色 / 黑色， 雙數 / 單數 將籌碼下注到台桌左側的某個賭區，這些賭區幾乎佔據了整個台桌的 一半。那裡的每個賭區都包括 18 個數位。在此賭區內贏錢。 (0到36不包含在這些賭區內)。一旦轉動結束，贏的號碼將在賭桌上顯示
                                               <br>
-                                                                      <h4>赔率</h4>
+                                                                      <h4>賠率</h4>
                                                                       <table border="1" class="helpcenter-tbl">
 
                                                                           <tbody><tr>
                                                                               <td width="87" height="34" bgcolor="#48484A" align="center">下注 </td>
-                                                                              <td width="87" bgcolor="#48484A" align="center">赔率 </td>
+                                                                              <td width="87" bgcolor="#48484A" align="center">賠率 </td>
                                                                           </tr>
                                                                           <tr>
-                                                                              <td bgcolor="#48484A" align="center">1个号码 </td>
+                                                                              <td bgcolor="#48484A" align="center">1個號碼 </td>
                                                                               <td bgcolor="#48484A" align="center">35:1 </td>
                                                                           </tr>
                                                                           <tr>
-                                                                              <td bgcolor="#48484A" align="center">2个号码 </td>
+                                                                              <td bgcolor="#48484A" align="center">2個號碼 </td>
                                                                               <td bgcolor="#48484A" align="center">17:1 </td>
                                                                           </tr>
                                                                           <tr>
-                                                                              <td bgcolor="#48484A" align="center">3个号码 </td>
+                                                                              <td bgcolor="#48484A" align="center">3個號碼 </td>
                                                                               <td bgcolor="#48484A" align="center">11:1 </td>
                                                                           </tr>
                                                                           <tr>
-                                                                              <td bgcolor="#48484A" align="center">4个号码 </td>
+                                                                              <td bgcolor="#48484A" align="center">4個號碼 </td>
                                                                               <td bgcolor="#48484A" align="center">8:1 </td>
                                                                           </tr>
                                                                           <tr>
-                                                                              <td bgcolor="#48484A" align="center">6个号码 </td>
+                                                                              <td bgcolor="#48484A" align="center">6個號碼 </td>
                                                                               <td bgcolor="#48484A" align="center">5:1 </td>
                                                                           </tr>
                                                                           <tr>
-                                                                              <td bgcolor="#48484A" align="center">12个号码 </td>
+                                                                              <td bgcolor="#48484A" align="center">12個號碼 </td>
                                                                               <td bgcolor="#48484A" align="center">2:1 </td>
                                                                           </tr>
                                                                           <tr>
-                                                                              <td bgcolor="#48484A" align="center">18个号码 </td>
+                                                                              <td bgcolor="#48484A" align="center">18個號碼 </td>
                                                                               <td bgcolor="#48484A" align="center">1:1 </td>
                                                                           </tr>
                                                                       </tbody></table>
                                                                      <br>
-                                                                      <h4>内围和外围的最高赔率</h4>
+                                                                      <h4>內圍和外圍的最高賠率</h4>
                                                                       <p>
-                                                                          内围最高赔率 = $250<br>
-                                                                          外围最高赔率 = $250
+                                                                          內圍最高賠率 = $250<br>
+                                                                          外圍最高賠率 = $250
                                                                       </p>
                                                                       <br>
 
-                                                                      <h4>请注意：</h4>
+                                                                      <h4>請注意：</h4>
 
                                                                       <p>
-                                                                          玩家必须遵守管理部在帮助所描述的下注限制，您可赢的最高金额将依最高下注金额而决定。换句话说，如果您下超过最高投注金额，那么您将只赢取相当于最高投注所赢的彩金。如果您赢的话，任何高于最高下注金额的余额将不会算在赌注内，差额将会退还给您（下注金额－最高下注），但如果您输的话，那么将输掉全部下注且不会收到任何退款。
+                                                                          玩家必須遵守管理部在幫助所描述的下注限制，您可贏的最高金額將依最高下注金額而決定。換句話說，如果您下超過最高投注金額，那麼您將只贏取相當於最高投注所贏的彩金。如果您贏的話，任何高於最高下注金額的餘額將不會算在賭注內，差額將會退還給您（下注金額－最高下注），但如果您輸的話，那麼將輸掉全部下注且不會收到任何退款。
                                                                       </p>
                                                                       <br>
                                                                   </div>
@@ -5594,14 +5627,14 @@
                                                                 </tbody></table>
                                                             </div>
                                                             <div  style="display: none;">
-                                                                <h4>轮盘</h4>
+                                                                <h4>輪盤</h4>
                                                                 <p>
-                                                                    轮盘的玩法为将一颗小球投在有37个号码格的轮盘上转。当轮盘停止转动，球将落在其中一格中。轮盘的目标是猜测球会落在哪一格上。如果猜到正确的号码，您将依赔率而赢得彩金。赔率的大小将根据投注的种类而计算。
+                                                                    輪盤的玩法为将一颗小球投在有37个号码格的輪盤上转。当輪盤停止转动，球将落在其中一格中。輪盤的目标是猜测球会落在哪一格上。如果猜到正确的号码，您将依赔率而赢得彩金。赔率的大小将根据投注的种类而计算。
                                                                 </p>
                                                                 <br>
 
-                                                                <h4>游戏玩法</h4>
-                                                                左击您想要下注的筹码，然后将筹码用滑鼠拖到赌桌上的投注区域内。如果赌桌没有您想要投注筹码额值，只需在投注完上一次后再投注一次。例如， 想要投注 $30， 点击$25且将它放置于赌桌上，然后再点击 $5且将它放置于$25筹码上。您的总投注会显示在'目前投注'视窗上。您可点击'再次下注'以重复您的下注金额。您必须在将筹码放置于赌桌上后点击'下注'，您的下注才会有效。如果您的下注低于赌桌的最低投注限制，或高于最高限制，您的下注金额将自动驳回。 您可在轮盘桌上下注不同种类的赌注。每种类型的下注包含某些号码的范围，且每种类型都有它的赔率。台面上三个号码的短线排列称之为行(rows)， 而有十二个号码，较长的称之为栏(column)。前五种下注都是投注在号码格上或它们之间的线上且称为内围，而最后三种则是下注在特别方格中和台面的左边且称为外围。以下为不同下注的不同赔率:<br>
+                                                                <h4>遊戲玩法</h4>
+                                                                左击您想要下注的筹码，然后将筹码用滑鼠拖到赌桌上的投注区域内。如果赌桌没有您想要投注筹码额值，只需在投注完上一次后再投注一次。例如， 想要投注 $30， 点击$25且将它放置于赌桌上，然后再点击 $5且将它放置于$25筹码上。您的总投注会显示在'目前投注'视窗上。您可点击'再次下注'以重复您的下注金额。您必须在将筹码放置于赌桌上后点击'下注'，您的下注才会有效。如果您的下注低于赌桌的最低投注限制，或高于最高限制，您的下注金额将自动驳回。 您可在輪盤桌上下注不同种类的赌注。每种类型的下注包含某些号码的范围，且每种类型都有它的赔率。台面上三个号码的短线排列称之为行(rows)， 而有十二个号码，较长的称之为栏(column)。前五种下注都是投注在号码格上或它们之间的线上且称为内围，而最后三种则是下注在特别方格中和台面的左边且称为外围。以下为不同下注的不同赔率:<br>
                                                                 <table border="1" class="helpcenter-tbl">
                                                                     <tbody><tr>
                                                                         <td height="34" bgcolor="#48484A" align="center">下注种类</td>
@@ -9765,36 +9798,36 @@
                                       </div>
 
                                       <div role="tabpanel" class="tab-pane" id="tab7">
-                                        我们一直致力以最严格的方式来保护客户的个人资料。这是一份法律档，清楚说明沙龙国际如何处理收集得来及确认客户身份的资料。此隐私权政策是规则与条例中的一部分，您应该将此政策和规则与条例档一起阅读。
+                                        我們一直致力以最嚴格的方式來保護客戶的個人資料。這是一份法律檔，清楚說明沙龍國際如何處理收集得來及確認客戶身份的資料。此隱私權政策是規則與條例中的一部分，您應該將此政策和規則與條例檔一起閱讀。
                                         <br>
                                         <br>
-                                        沙龙国际会尽力保护您所有的个人资料，不会将有关资料转售或转交给协办厂商。<br>
-                                        当您在沙龙国际注册帐户时，您已承认在浏览我们的网站时，已完全理解及接受此政策详细描述的使用规则。
+                                        沙龍國際會盡力保護您所有的個人資料，不會將有關資料轉售或轉交給協辦廠商。<br>
+                                        當您在沙龍國際註冊帳戶時，您已承認在瀏覽我們的網站時，已完全理解及接受此政策詳細描述的使用規則。
                                         <br>
                                         <br>
-                                        沙龙国际不容许发放垃圾邮件，并绝不会向您发送未经许可的电子邮件。您可能会收到一些定期的电邮，向您更新有关沙龙国际的资讯和服务。当本网站推出新颖，好玩和有趣的产品或推广活动时，这些电邮就能帮助您充分享受本网站的服务。沙龙国际使用被称为“资讯记录程式（cookies）”的档案使客户浏览本网站时更轻鬆快捷。当客户关闭瀏覽器时，这些资讯记录程式也随之消失。<br>
+                                        沙龍國際不容許發放垃圾郵件，並絕不會向您發送未經許可的電子郵件。您可能會收到一些定期的電郵，向您更新有關沙龍國際的資訊和服務。當本網站推出新穎，好玩和有趣的產品或推廣活動時，這些電郵就能幫助您充分享受本網站的服務。沙龍國際使用被稱為“資訊記錄程式（cookies）”的檔案使客戶瀏覽本網站時更輕鬆快捷。當客戶關閉瀏覽器時，這些資訊記錄程式也隨之消失。<br>
                                         <br>
-                                        大多数互联网瀏覽器都会自动接收资讯记录程式，您可以设定瀏覽器拒绝资讯记录程式或要求瀏覽器显示资讯记录程式建立的位置。本网站有些服务必须有资讯记录程式才能使用，假如您拒绝资讯记录程式，本网站有可能不可以替您提供某些服务专案。
-                                        <br>
-                                        <br>
-                                        资讯记录程式和嵌入代码能提供浏览本网站网页的一般网站和非个人的统计资讯。沙龙国际会使用此类资讯作改善客戶服務之用。
+                                        大多數互聯網瀏覽器都會自動接收資訊記錄程式，您可以設定瀏覽器拒絕資訊記錄程式或要求瀏覽器顯示資訊記錄程式建立的位置。本網站有些服務必須有資訊記錄程式才能使用，假如您拒絕資訊記錄程式，本網站有可能不可以替您提供某些服務專案。
                                         <br>
                                         <br>
-                                        我们可能会将您提供的（或向您收集的）的资料，提供给沙龙国际集团或相关的联属公司，但仅作此政策所描述之用途。
+                                        資訊記錄程式和嵌入代碼能提供瀏覽本網站網頁的一般網站和非個人的統計資訊。沙龍國際會使用此類資訊作改善客戶服務之用。
                                         <br>
                                         <br>
-                                        我们有严格的安全措施来保护我们的客户资料库，仅限内部员工始可使用。但每位客户亦有责任防止任何未经授权的连接，以确保没有人能使用您的沙龙国际帐户。当关闭沙龙国际网站时，谨记注销或退出沙龙国际网站，并保管好您的密码以免外泄。
+                                        我們可能會將您提供的（或向您收集的）的資料，提供給沙龍國際集團或相關的聯屬公司，但僅作此政策所描述之用途。
                                         <br>
                                         <br>
-                                        当按法律规定或当沙龙国际所選的协办厂商支付公司和金融机构需要填写有关资料以验证您的交易，沙龙国际保留权利向外界提供有关资料。
+                                        我們有嚴格的安全措施來保護我們的客戶資料庫，僅限內部員工始可使用。但每位客戶亦有責任防止任何未經授權的連接，以確保沒有人能使用您的沙龍國際帳戶。當關閉沙龍國際網站時，謹記註銷或退出沙龍國際網站，並保管好您的密碼以免外洩。
                                         <br>
                                         <br>
-                                        我们只会按照博彩执照的规定来保留您的个人资料。
+                                        當按法律規定或當沙龍國際所選的協辦廠商支付公司和金融機構需要填寫有關資料以驗證您的交易，沙龍國際保留權利向外界提供有關資料。
                                         <br>
                                         <br>
-                                        如沙龙国际网站含有其他网站的连结，这只供作参考之用。我们不会对有关网站的隐私惯例或网址的内容承担责任。
+                                        我們只會按照博彩執照的規定來保留您的個人資料。
                                         <br>
-                                        沙龙国际保留权利可自行对此隐私权政策作出任何更改。此政策如有任何更改均具有约束力，并立即生效。
+                                        <br>
+                                        如沙龍國際網站含有其他網站的連結，這只供作參考之用。我們不會對有關網站的隱私慣例或網址的內容承擔責任。
+                                        <br>
+                                        沙龍國際保留權利可自行對此隱私權政策作出任何更改。此政策如有任何更改均具有約束力，並立即生效。
                                       </div>
 
                                       <div role="tabpanel" class="tab-pane" id="tab8">
@@ -9958,14 +9991,14 @@
                                       </div>
 
                                       <div role="tabpanel" class="tab-pane" id="tab10">
-                                        <h4>轮盘</h4>
+                                        <h4>輪盤</h4>
                                         <p>
-                                            轮盘的玩法为将一颗小球投在有37个号码格的轮盘上转。当轮盘停止转动，球将落在其中一格中。轮盘的目标是猜测球会落在哪一格上。如果猜到正确的号码，您将依赔率而赢得彩金。赔率的大小将根据投注的种类而计算。
+                                            輪盤的玩法为将一颗小球投在有37个号码格的輪盤上转。当輪盤停止转动，球将落在其中一格中。輪盤的目标是猜测球会落在哪一格上。如果猜到正确的号码，您将依赔率而赢得彩金。赔率的大小将根据投注的种类而计算。
                                         </p>
                                         <br>
 
-                                        <h4>游戏玩法</h4>
-                                        左击您想要下注的筹码，然后将筹码用滑鼠拖到赌桌上的投注区域内。如果赌桌没有您想要投注筹码额值，只需在投注完上一次后再投注一次。例如， 想要投注 $30， 点击$25且将它放置于赌桌上，然后再点击 $5且将它放置于$25筹码上。您的总投注会显示在'目前投注'视窗上。您可点击'再次下注'以重复您的下注金额。您必须在将筹码放置于赌桌上后点击'下注'，您的下注才会有效。如果您的下注低于赌桌的最低投注限制，或高于最高限制，您的下注金额将自动驳回。 您可在轮盘桌上下注不同种类的赌注。每种类型的下注包含某些号码的范围，且每种类型都有它的赔率。台面上三个号码的短线排列称之为行(rows)， 而有十二个号码，较长的称之为栏(column)。前五种下注都是投注在号码格上或它们之间的线上且称为内围，而最后三种则是下注在特别方格中和台面的左边且称为外围。以下为不同下注的不同赔率:<br>
+                                        <h4>遊戲玩法</h4>
+                                        左击您想要下注的筹码，然后将筹码用滑鼠拖到赌桌上的投注区域内。如果赌桌没有您想要投注筹码额值，只需在投注完上一次后再投注一次。例如， 想要投注 $30， 点击$25且将它放置于赌桌上，然后再点击 $5且将它放置于$25筹码上。您的总投注会显示在'目前投注'视窗上。您可点击'再次下注'以重复您的下注金额。您必须在将筹码放置于赌桌上后点击'下注'，您的下注才会有效。如果您的下注低于赌桌的最低投注限制，或高于最高限制，您的下注金额将自动驳回。 您可在輪盤桌上下注不同种类的赌注。每种类型的下注包含某些号码的范围，且每种类型都有它的赔率。台面上三个号码的短线排列称之为行(rows)， 而有十二个号码，较长的称之为栏(column)。前五种下注都是投注在号码格上或它们之间的线上且称为内围，而最后三种则是下注在特别方格中和台面的左边且称为外围。以下为不同下注的不同赔率:<br>
                                         <table border="1" class="helpcenter-tbl">
                                             <tbody><tr>
                                                 <td height="34" align="center" bgcolor="#48484A">下注种类</td>
@@ -10085,8 +10118,8 @@
                                       </div>
 
                                       <div role="tabpanel" class="tab-pane" id="tab12">
-                                          <h4>龙虎</h4>
-                                          <p>玩法及赔率：龙虎游戏非常简单，荷官只派两门牌，即龙及虎。每门各派一只牌，双方斗大，最大为K，最小为A。玩家可投注龙、虎和两门，如买中龙或虎，1赔1，两门的牌相同即和，买和赔率为1赔8,。如开和，投注龙或虎两门，各输一半</p>
+                                          <h4>龍虎</h4>
+                                          <p>玩法及賠率：龍虎遊戲非常簡單，荷官只派兩門牌，即龍及虎。每門各派一隻牌，雙方斗大，最大為K，最小為A。玩家可投注龍、虎和兩門，如買中龍或虎，1賠1，兩門的牌相同即和，買和賠率為1賠8,。如開和，投注龍或虎兩門，各輸一半</p>
                                       </div>
 
                                       <div role="tabpanel" class="tab-pane" id="tab13">
@@ -10106,44 +10139,44 @@
                                       <div role="tabpanel" class="tab-pane" id="tab14">
                                         <h4>角子老虎</h4>
                                         <p>
-                                            所有被本公司接受于角子老虎的投注（‘角子机，玩家对玩家，扑克，虛擬和赌桌游戏投注’）将根据角子老虎的投注规则。
+                                            所有被本公司接受於角子老虎的投注（‘角子機，玩家對玩家，撲克，虛擬和賭桌遊戲投注’）將根據角子老虎的投注規則。
                                             <br>
-                                            如有任何争议于角子老虎的投注规则，一切将以本公司的解释为准。<br>
-                                            角子老虎的下注只会在系统分配识别码（一个“投注识别码”）之后才被视为投注接受。如果您希望在任何时候观看您的角子老虎投注详情，您可以到账目一页查询。
+                                            如有任何爭議於角子老虎的投注規則，一切將以本公司的解釋為準。<br>
+                                            角子老虎的下注只會在系統分配識別碼（一個“投注識別碼”）之後才被視為投注接受。如果您希望在任何時候觀看您的角子老虎投注詳情，您可以到賬目一頁查詢。
                                             <br>
-                                            如果游戏发生故障，所有的游戏和支出将被作废。
+                                            如果遊戲發生故障，所有的遊戲和支出將被作廢。
                                             <br>
-                                            任何形式的技术故障，包括但不局限于软件，硬件或连接故障，将导致所有受影响的游戏被宣布投注無效，無视任何指示性的结果。<br>
+                                            任何形式的技術故障，包括但不局限於軟件，硬件或連接故障，將導致所有受影響的遊戲被宣布投注無效，無視任何指示性的結果。<br>
                                             <br>
 
-                                            本公司进一步保留角子老虎投注作废的权利，如：
+                                            本公司進一步保留角子老虎投注作廢的權利，如：
                                             <br>
-                                            •	存在不正确或不完整的投注详情 。<br>
-                                            •	本公司有任何质疑于客户参与欺诈，合谋，洗黑线或其他非法活动 。<br>
-                                            •	本公司相信该客户是未满18岁或在他/她的管辖范围低于赌博的法定年龄 。<br>
-                                            •	被接受的投注超过于被设置的游戏限制 。<br>
-                                            •	投注数额不存在于客户的账目 。<br>
-                                            •	一个错误（人为或其他）或系统故障导致使用不正确的赔率。<br>
-                                            •	技术问题，例如：通讯失败，瑕疵，干扰，延迟，病毒，拒绝服务攻击，或出现数据损坏或如果一个技术缺陷而造成过多或不寻常的奖金。
+                                            •	存在不正確或不完整的投注詳情 。<br>
+                                            •	本公司有任何質疑於客戶參與欺詐，合謀，洗黑線或其他非法活動 。<br>
+                                            •	本公司相信該客戶是未滿18歲或在他/她的管轄範圍低於賭博的法定年齡 。<br>
+                                            •	被接受的投注超過於被設置的遊戲限制 。<br>
+                                            •	投注數額不存在於客戶的賬目 。<br>
+                                            •	一個錯誤（人為或其他）或系統故障導致使用不正確的賠率。<br>
+                                            •	技術問題，例如：通訊失敗，瑕疵，干擾，延遲，病毒，拒絕服務攻擊，或出現數據損壞或如果一個技術缺陷而造成過多或不尋常的獎金。
                                             <br>
                                             <br>
-                                            当某个下注被不恰当地处理，不管基于错误（人为或其他）或系统故障，结算将被视为無效和将被更正。如该客户的户口没有足够的余额，该客户将被要求归还相关的款项于本公司。
+                                            當某個下注被不恰當地處理，不管基於錯誤（人為或其他）或系統故障，結算將被視為無效和將被更正。如該客戶的戶口沒有足夠的餘額，該客戶將被要求歸還相關的款項於本公司。
                                         </p>
                                         <br>
 
-                                        <h4>游戏进行当中连接失败 </h4>
-                                        注意：如果您在玩该游戏的中途网络中断，请重新连接您的网络及重新登入该游戏。您将被自动定向到之前被中断的游戏以继续您之前的游戏。在没有实行“自动运行” 的事故当中和您的游戏由于电流短路而被中断，切断，取消，您有24个小时『或48个小时』，从您的游戏中断直到再连接，登入且恢复最接近的中午12点算起。任何未完成的游戏如没有继续将被视为输。
+                                        <h4>遊戲進行當中連接失敗 </h4>
+                                        注意：如果您在玩該遊戲的中途網絡中斷，請重新連接您的網絡及重新登入該遊戲。您將被自動定向到之前被中斷的遊戲以繼續您之前的遊戲。在沒有實行“自動運行” 的事故當中和您的遊戲由於電流短路而被中斷，切斷，取消，您有24個小時『或48個小時』，從您的遊戲中斷直到再連接，登入且恢復最接近的中午12點算起。任何未完成的遊戲如沒有繼續將被視為輸。
                                         <br>
                                         <br>
 
-                                        如果连接很弱，请中止游戏，重新连接以获得较好的连接才继续游戏。在扑克里，如游戏运行当中网络失去连接，会有两个情况。第一个情况是，如果您还未下注，您的手牌将被折叠，同时您将被放置于休息状态。第二个情况是，如果您已下注而又断线了，游戏将会继续，玩家的输赢将被据此计算。
+                                        如果連接很弱，請中止遊戲，重新連接以獲得較好的連接才繼續遊戲。在撲克里，如游戲運行當中網絡失去連接，會有兩個情況。第一個情況是，如果您還未下注，您的手牌將被折疊，同時您將被放置於休息狀態。第二個情況是，如果您已下注而又斷線了，遊戲將會繼續，玩家的輸贏將被據此計算。
                                         <br>
                                         <br>
 
-                                        客户必须明白本公司是唯一的决策与判决人，本公司拥有绝对的权利去更换，取消，中止，删除，修改或重新启动任何游戏，拒绝或取消有关下注，基于偶然事件的原因，战争行为，自然灾害，停电，公司职员违反标准工作操守的人为错误或疏忽或过失，软件故障和任何不可抗力的事件。本公司的决策是有约束力和最终的。
+                                        客戶必須明白本公司是唯一的決策與判決人，本公司擁有絕對的權利去更換，取消，中止，刪除，修改或重新啟動任何遊戲，拒絕或取消有關下注，基於偶然事件的原因，戰爭行為，自然災害，停電，公司職員違反標準工作操守的人為錯誤或疏忽或過失，軟件故障和任何不可抗力的事件。本公司的決策是有約束力和最終的。
                                         <br>
                                         <br>
-                                        本公司以一般条款与细则保留任何时候更改任何有关这些游戏的投注规则的权利。
+                                        本公司以一般條款與細則保留任何時候更改任何有關這些遊戲的投注規則的權利。
                                       </div>
 
                                       <div role="tabpanel" class="tab-pane" id="tab15">
@@ -10161,11 +10194,11 @@
                                       </div>
 
                                       <div role="tabpanel" class="tab-pane" id="tab16">
-                                        <h4>快乐彩</h4>
+                                        <h4>快樂彩</h4>
                                         <p>
-                                            KENO(基诺)玩法起源于中国，这种游戏由中国移民于19世纪晚期引入美国。起初，人们用80个汉字来玩基诺游戏，而在美国这些汉字则由80个阿拉伯数字所代替。KENO名字源于拉丁文和法语的词根，大意是選中5个就有可以获奖。<br>
+                                            KENO(基諾)玩法起源於中國，這種遊戲由中國移民於19世紀晚期引入美國。起初，人們用80個漢字來玩基諾遊戲，而在美國這些漢字則由80個阿拉伯數字所代替。 KENO名字源於拉丁文和法語的詞根，大意是選中5個就有可以獲獎。<br>
                                             <br>
-                                            现在世界多个国家和地区发行KENO游戏，已经成为一种流行的大众数字游戏，普通的官方玩法通常从01-80个数字中任選1-10个数字组成一注，开奖时，随机摇出20个数字作为开奖号码，根据選中号码的个数获得不同等级的奖金，通常選中数字越多，奖金越高，通常官方KENO只使用投注额的50%作为奖金派发，返奖率较低。
+                                            現在世界多個國家和地區發行KENO遊戲，已經成為一種流行的大眾數字遊戲，普通的官方玩法通常從01-80個數字中任選1-10個數字組成一注，開獎時，隨機搖出20個數字作為開獎號碼，根據選中號碼的個數獲得不同等級的獎金，通常選中數字越多，獎金越高，通常官方KENO只使用投注額的50%作為獎金派發，返獎率較低。
                                         </p>
                                         <br>
 
@@ -10174,20 +10207,20 @@
 
 
                                             <tbody><tr>
-                                                <td align="center" bgcolor="#48484A"><strong>类型</strong></td>
-                                                <td align="center" bgcolor="#48484A"><strong>定义</strong></td>
-                                                <td align="center" bgcolor="#48484A"><strong>赔率</strong></td>
+                                                <td align="center" bgcolor="#48484A"><strong>類型</strong></td>
+                                                <td align="center" bgcolor="#48484A"><strong>定義</strong></td>
+                                                <td align="center" bgcolor="#48484A"><strong>賠率</strong></td>
                                             </tr>
                                             <tr>
                                                 <td align="center" bgcolor="#48484A">&nbsp;1)  大 / 小</td>
                                                 <td align="center" bgcolor="#48484A">
                                                     <p align="left">
                                                         <strong>大</strong><strong> (1410 - 811)</strong><br>
-                                                        &nbsp;以开出的20个号码的总和为游戏对象
+                                                        &nbsp;以開出的20個號碼的總和為遊戲對象
                                                     </p>
                                                     <p align="left">
                                                         <strong>小&nbsp; (810-211)</strong><br>
-                                                        &nbsp;以开出的20个号码的总和为游戏对象
+                                                        &nbsp;以開出的20個號碼的總和為遊戲對象
                                                     </p>
                                                 </td>
                                                 <td align="center" bgcolor="#48484A">
@@ -10198,15 +10231,15 @@
                                                     1.95</td>
                                             </tr>
                                             <tr>
-                                                <td align="center" bgcolor="#48484A">2)  超过 / 少于</td>
+                                                <td align="center" bgcolor="#48484A">2)  超過 / 少於</td>
                                                 <td align="center" bgcolor="#48484A">
                                                     <p align="left">
-                                                        <strong>超过</strong><strong> (5,6,7,8,9)</strong><br>
-                                                        &nbsp;以开出的20个号码的总和的最后的数字为游戏对象
+                                                        <strong>超過</strong><strong> (5,6,7,8,9)</strong><br>
+                                                        &nbsp;以開出的20個號碼的總和的最後的數字為遊戲對象
                                                     </p>
                                                     <p align="left">
                                                         <strong>少于 (0,1,2,3,4)</strong><br>
-                                                        &nbsp;以开出的20个号码的总和的最后的数字为游戏对象
+                                                        &nbsp;以開出的20個號碼的總和的最後的數字為遊戲對象
                                                     </p>
                                                 </td>
                                                 <td align="center" bgcolor="#48484A">
@@ -10217,17 +10250,17 @@
                                                     1.95</td>
                                             </tr>
                                             <tr>
-                                                <td align="center" bgcolor="#48484A">&nbsp;3)  单 / 双</td>
+                                                <td align="center" bgcolor="#48484A">&nbsp;3)  單 / 雙</td>
                                                 <td align="center" bgcolor="#48484A">
                                                     <p align="left">
-                                                        <strong>单</strong><strong> (1,3,5, ……)</strong> <strong>
+                                                        <strong>單</strong><strong> (1,3,5, ……)</strong> <strong>
                                                             <br>
-                                                        </strong>&nbsp;开出的20个号码的总和最后的数字为奇数
+                                                        </strong>&nbsp;開出的20個號碼的總和最後的數字為奇數
                                                     </p>
                                                     <p align="left">
                                                         <strong>双 (2,4,6, ……)</strong> <strong>
                                                             <br>
-                                                        </strong>&nbsp;开出的20个号码的总和最后的数字为奇数
+                                                        </strong>&nbsp;開出的20個號碼的總和最後的數字為奇數
                                                     </p>
                                                 </td>
                                                 <td align="center" bgcolor="#48484A">
@@ -10238,31 +10271,31 @@
                                                     1.95</td>
                                             </tr>
                                             <tr>
-                                                <td align="center" bgcolor="#48484A">4)  头 / 尾 (号码1至40为头盘号<br>
-                                                    码，41至80为尾盘号码。<br>
-                                                    开出
-                的20个开奖号码中：<br>
-                                                    如头盘号
-                码占多数（超过10个）时，此
-                局为头盘；<br>
-                                                    尾盘号码占多数时
-                为尾盘；<br>
-                                                    头盘号码和尾盘号码
-                在此局开出的数目相同时（各<br>
-                                                    10个数字），此局为和盘。 )</td>
+                                                <td align="center" bgcolor="#48484A">4)  頭 / 尾 (號碼1至40為頭盤號<br>
+                                                    碼，41至80為尾盤號碼。<br>
+                                                    開出
+                的20個開獎號碼中：<br>
+                                                    如頭盤號
+                碼佔多數（超過10個）時，此
+                局為頭盤；<br>
+                                                    尾盤號碼佔多數時
+                為尾盤；<br>
+                                                    頭盤號碼和尾盤號碼
+                在此局開出的數目相同時（各<br>
+                                                    0個數字），此局為和盤。 )</td>
                                                 <td align="center" bgcolor="#48484A">
                                                     <p align="left">
                                                         <strong>头</strong><strong> (1</strong><strong>至</strong><strong>40)</strong><br>
-                                                        &nbsp;胜出号码于这范围之内
+                                                        &nbsp;勝出號碼於這範圍之內
                                                         <br>
 
                                                         <strong>尾</strong><strong> (41 </strong><strong>至</strong><strong> 80) </strong>
                                                         <br>
-                                                        &nbsp;胜出号码于这范围之内
+                                                        &nbsp;勝出號碼於這範圍之內
                                                     </p>
                                                     <p align="left">
                                                         <strong>和</strong><br>
-                                                        <strong>&nbsp;</strong>( 头盘号码和尾盘号码在此局开出的数目相同时（各10个数字），此局为和盘。 )<br>
+                                                        <strong>&nbsp;</strong>( 頭盤號碼和尾盤號碼在此局開出的數目相同時（各10個數字），此局為和盤。 )<br>
                                                     </p>
                                                 </td>
                                                 <td align="center" bgcolor="#48484A">
@@ -10302,7 +10335,7 @@
                                         </tbody></table>
                                         <br>
                                         <br>
-                                        <p>珠仔玩法是在80个号码中選出1至5个号码组合成一组进行的投注。会员将選择的投注号码与中奖号码对照，根据所選号码与中奖号码相符的个数多少（顺序不限）确定相应的中奖奖级。</p>
+                                        <p>珠仔玩法是在80個號碼中選出1至5個號碼組合成一組進行的投注。會員將選擇的投注號碼與中獎號碼對照，根據所選號碼與中獎號碼相符的個數多少（順序不限）確定相應的中獎獎級。</p>
                                         <br>
                                         <br>
 
@@ -10370,209 +10403,206 @@
                                         </tbody></table>
 
                                         <p>
-                                            例如：投注者购买的是1，2，3这三个号码为一个组合，且该期开奖号码中包含1，2，3这三个数字，则视为投注‘3中3’的玩法者中奖；若开出号码中只有1，2则视为投注‘3中2’的玩法者中奖。<br>
+                                            例如：投注者購買的是1，2，3這三個號碼為一個組合，且該期開獎號碼中包含1，2，3這三個數字，則視為投注'3中3'的玩法者中獎；若開出號碼中只有1，2則視為投注'3中2'的玩法者中獎。<br>
                                             <br>
-                                            例如：开奖号码为01, 04, 05, 10, 11, 13, 20, 27, 30, 32, 33, 36, 40, 47, 54, 59, 61, 64, 67 &amp; 79<br>
+                                          例如：開獎號碼為01, 04, 05, 10, 11, 13, 20, 27, 30, 32, 33, 36, 40, 47, 54, 59, 61, 64, 67 &amp; 79<br>
                                             <br>
                                             投注06, 20, 30 &amp; 67<br>
-                                            则视为投注‘4中3’, 3个中奖号码为20, 30 &amp; 67. 下注100美元， 得以100 x 5.0 = 500美元付款
+                                            則視為投注‘4中3’, 3個中獎號碼為20, 30 &amp; 67. 下注100美元， 得以100 x 5.0 = 500美元付款
                                         </p>
                                         <br>
-
-                                        <h4>时时彩</h4>
-                                        1.玩法介绍<br>
-                                        分分乐的开彩结果根据上海、江西、中国社会福利3D彩票、重庆、天津及新疆官方网站。由5组号码，每组号码从0至9个号码中随机摇出3个数字 (或5个数字) 作为开奖号码，依这3个号码 (或5个号码) 变化成各式不同的玩法，猜中号码个数或玩法可以获得不同等级的奖金。开奖時間和相对应地区的官方站点同步。分分乐游戏分为十二种玩法，分别是“珠仔”、“珠仔单双”、“珠仔大小”、“珠仔串关”、“二星组選”、“三星组選三”、“三星组選六”、“和值”、“和值七彩”、“和值单双”、“和值大小”和“和值大小单双过关”。各种玩法的详细规则如下：<p></p><br>
+                                        <h4>時時彩</h4>
+                                        1.玩法介紹<br>
+                                        分分樂的開彩結果根據上海、江西、中國社會福利3D彩票、重慶、天津及新疆官方網站。由5組號碼，每組號碼從0至9個號碼中隨機搖出3個數字(或5個數字) 作為開獎號碼，依這3個號碼(或5個號碼) 變化成各式不同的玩法，猜中號碼個數或玩法可以獲得不同等級的獎金。開獎時間和相對應地區的官方站點同步。分分樂遊戲分為十二種玩法，分別是“珠仔”、“珠仔單雙”、“珠仔大小”、“珠仔串關”、“二星組選”、“三星組選三” 、“三星組選六”、“和值”、“和值七彩”、“和值單雙”、“和值大小”和“和值大小單雙過關”。各種玩法的詳細規則如下：<p></p><br>
 
                                         <table border="1" class="helpcenter-tbl">
 
                                             <tbody><tr>
                                                 <td height="34" colspan="2" align="center" bgcolor="#48484A"><strong>玩法</strong></td>
-                                                <td width="571" align="center" bgcolor="#48484A"><strong>规则</strong></td>
+                                                <td width="571" align="center" bgcolor="#48484A"><strong>規則</strong></td>
                                             </tr>
                                             <tr>
                                                 <td width="43" rowspan="7" align="center" bgcolor="#48484A"><strong>珠仔</strong></td>
                                                 <td width="84" align="center" bgcolor="#48484A">珠仔</td>
-                                                <td align="center" bgcolor="#48484A">選择单个号码：即万位、千位、百位、十位、个位中任意一位中的一个号码。 [例如：投注十位的号码8，  共一注。开奖结果为：“23384”与投注结果相符，即中奖。] </td>
+                                                <td align="center" bgcolor="#48484A">選擇單個號碼：即萬位、千位、百位、十位、個位中任意一位中的一個號碼。 [例如：投註十位的號碼8， 共一注。開獎結果為：“23384”與投注結果相符，即中獎。 ] </td>
                                             </tr>
                                             <tr>
-                                                <td align="center" bgcolor="#48484A">珠仔 (复式)</td>
-                                                <td align="center" bgcolor="#48484A">選择多个号码：即万位、千位、百位、十位、个位中任意一位中的多个号码。 [例如：投注百位的号码4、3、9，共三注， 开奖结果为：“48376”与投注结果相符，即中奖。] </td>
+                                                <td align="center" bgcolor="#48484A">珠仔 (複式)</td>
+                                                <td align="center" bgcolor="#48484A">選擇多個號碼：即萬位、千位、百位、十位、個位中任意一位中的多個號碼。 [例如：投注百位的號碼4、3、9，共三注， 開獎結果為：“48376”與投注結果相符，即中獎。 ]</td>
                                             </tr>
                                             <tr>
-                                                <td align="center" bgcolor="#48484A">珠仔串关：<br>
-                                                    二星串关<br>
+                                                <td align="center" bgcolor="#48484A">珠仔串關：<br>
+                                                    二星串關<br>
                                                     三星串關<br>
                                                     四星串關<br>
                                                     五星串關</td>
-                                                <td align="center" bgcolor="#48484A">投注任意号码组合，即万位、千位、百位、十位、个位的号码组合，并完全顺序。 [例如三星串關：投注百位：“4”，十位：“3”，个位：“5”。组成三星串關，共一注。开奖结果为：“48435”与投注结果相符，即中奖。] </td>
+                                                <td align="center" bgcolor="#48484A">投注任意號碼組合，即萬位、千位、百位、十位、個位的號碼組合，並完全順序。 [例如三星串關：投注百位：“4”，十位：“3”，個位：“5”。組成三星串關，共一注。開獎結果為：“48435”與投注結果相符，即中獎。 ]</td>
                                             </tr>
                                             <tr>
-                                                <td align="center" bgcolor="#48484A">珠仔串关(复式)
+                                                <td align="center" bgcolor="#48484A">珠仔串關(复式)
                                                     <br>
-                                                    二星串关<br>
+                                                    二星串關<br>
                                                     三星串關<br>
                                                     四星串關<br>
                                                     五星串關</td>
-                                                <td align="center" bgcolor="#48484A">選择多个号码及任意号码组合：万位、千位、百位、十位、个位分别選择多个号码组合，并完全顺序。 [例如三星串關：投注百位：“4、5、6”十位：“3、2、4”个位：“5、6、4”组成三星串關复式，共27注。 开奖结果为：“48435”，即中奖。] </td>
+                                                <td align="center" bgcolor="#48484A">選擇多個號碼及任意號碼組合：萬位、千位、百位、十位、個位分別選擇多個號碼組合，並完全順序。 [例如三星串關：投注百位：“4、5、6”十位：“3、2、4”個位：“5、6、4”組成三星串關複式，共27注。開獎結果為：“48435”，即中獎。 ] </td>
                                             </tr>
                                             <tr>
                                                 <td align="center" bgcolor="#48484A">大小</td>
-                                                <td align="center" bgcolor="#48484A">投注万位、千位、百位、十位、个位开奖结果的大、小，0-4为小，5-9为大。 [例如：投注个位“大”，开奖结果为：“48436”个位号码特征为：大。即中奖。] </td>
+                                                <td align="center" bgcolor="#48484A">投注萬位、千位、百位、十位、個位開獎結果的大、小，0-4為小，5-9為大。 [例如：投注個位“大”，開獎結果為：“48436”個位號碼特徵為：大。即中獎。 ] </td>
                                             </tr>
                                             <tr>
-                                                <td align="center" bgcolor="#48484A">单双</td>
-                                                <td align="center" bgcolor="#48484A">竞猜测万位、千位、百位、十位、个位开奖结果的单、双。 [例如：投注个位“双”，开奖结果为：“48436”个位号码特征为：双。即中奖。] </td>
+                                                <td align="center" bgcolor="#48484A">單雙</td>
+                                                <td align="center" bgcolor="#48484A">競猜測萬位、千位、百位、十位、個位開獎結果的單、雙。 [例如：投注個位“雙”，開獎結果為：“48436”個位號碼特徵為：雙。即中獎。 ] </td>
                                             </tr>
                                             <tr>
-                                                <td align="center" bgcolor="#48484A">串关</td>
-                                                <td align="center" bgcolor="#48484A">投注万位、千位、百位、十位和个位开奖结果的大、小、单、双的组合，并完全顺序。注：在同一位数中，大小单双不能互串。[例如：投注个位"双"，十位"大"。开奖结果为：48486。个位号码与十位号码特征与投注结果相符，即中奖。注：个位数里大小单双不能互串] </td>
+                                                <td align="center" bgcolor="#48484A">串關</td>
+                                                <td align="center" bgcolor="#48484A">投注萬位、千位、百位、十位和個位開獎結果的大、小、單、雙的組合，並完全順序。注：在同一位數中，大小單雙不能互串。 [例如：投注個位"雙"，十位"大"。開獎結果為：48486。個位號碼與十位號碼特徵與投注結果相符，即中獎。注：個位數里大小單雙不能互串] </td>
                                             </tr>
                                             <tr>
-                                                <td rowspan="2" align="center" bgcolor="#48484A"><strong>组選2</strong></td>
-                                                <td align="center" bgcolor="#48484A">组選</td>
-                                                <td align="center" bgcolor="#48484A">投注2个或者以上号码，你可赢得组号里出现与您選择2个或以上相同的投注。（例如：投注号码“2，8”，总投注为1注。开出的结果为“11282”，您選择的2个号码与开出的组号里面符合，即中奖） 个位与十位不能是相同的数字。</td>
+                                                <td rowspan="2" align="center" bgcolor="#48484A"><strong>組選2</strong></td>
+                                                <td align="center" bgcolor="#48484A">組選</td>
+                                                <td align="center" bgcolor="#48484A">投注2個或者以上號碼，你可贏得組號裡出現與您選擇2個或以上相同的投注。 （例如：投注號碼“2，8”，總投注為1注。開出的結果為“11282”，您選擇的2個號碼與開出的組號裡面符合，即中獎） 個位與十位不能是相同的數字。</td>
                                             </tr>
                                             <tr>
-                                                <td align="center" bgcolor="#48484A">复式</td>
-                                                <td align="center" bgcolor="#48484A">在第一和第二数位上選择1个或者以上号码投注，您将赢得与数位上与您選择相同的投注。（例如：分别在第二数和第一数位位投注号码“1，8”和“2，8”。如果开出的组号码为“11682”，您将赢得单倍赔率注金。如果开出的组号码为“”11688，您将赢得双倍赔率注金。）</td>
+                                                <td align="center" bgcolor="#48484A">複式</td>
+                                                <td align="center" bgcolor="#48484A">在第一和第二數位上選擇1個或者以上號碼投注，您將贏得與數位上與您選擇相同的投注。 （例如：分別在第二數和第一數位位投注號碼“1，8”和“2，8”。如果開出的組號碼為“11682”，您將贏得單倍賠率注金。如果開出的組號碼為“”11688，您將贏得雙倍賠率注金。）</td>
                                             </tr>
                                             <tr>
-                                                <td rowspan="2" align="center" bgcolor="#48484A"><strong>组選3X3</strong></td>
-                                                <td align="center" bgcolor="#48484A">单選</td>
-                                                <td align="center" bgcolor="#48484A">在最后第一，第二和第三数位上分别投注一个号码，其中两个号码必需相同(不限顺序)。如开彩结果的最后三个位数与您所投注的其中两个号码相同，您则中奖。例子：您投注号码"2, 2, 8"。开彩结果为"11282"，其中两个号码相同，您则中奖。</td>
+                                                <td rowspan="2" align="center" bgcolor="#48484A"><strong>組選3X3</strong></td>
+                                                <td align="center" bgcolor="#48484A">單選</td>
+                                                <td align="center" bgcolor="#48484A">在最後第一，第二和第三數位上分別投註一個號碼，其中兩個號碼必需相同(不限順序)。如開彩結果的最後三個位數與您所投注的其中兩個號碼相同，您則中獎。例子：您投注號碼"2, 2, 8"。開彩結果為"11282"，其中兩個號碼相同，您則中獎。</td>
                                             </tr>
                                             <tr>
                                                 <td align="center" bgcolor="#48484A">多選</td>
-                                                <td align="center" bgcolor="#48484A">選择两个或者多个数字。不考虑数字所处位置，如果您選择的数字与开奖结果中最后3个数字（第三个数，第二个数，第一个数）一致，您赢。（例如您選择了"2，8，9，4"，开奖结果"11282"，最后的3个数字2和8 在你選择中，则中奖）</td>
+                                                <td align="center" bgcolor="#48484A">選擇兩個或者多個數字。不考慮數字所處位置，如果您選擇的數字與開獎結果中最後3個數字（第三個數，第二個數，第一個數）一致，您贏。 （例如您選擇了"2，8，9，4"，開獎結果"11282"，最後的3個數字2和8 在你選擇中，則中獎）</td>
                                             </tr>
                                             <tr>
-                                                <td align="center" bgcolor="#48484A"><strong>组選3x6</strong></td>
+                                                <td align="center" bgcolor="#48484A"><strong>組選3x6</strong></td>
                                                 <td align="center" bgcolor="#48484A">&nbsp;</td>
-                                                <td align="center" bgcolor="#48484A">投注3个或者以上号码，您可赢得后三位数中与選择相同且不重复的号码。 [例如:投注号码"2，8，9"，总投注为1注，开奖结果为："11928"，3个号码与您投注相同且不重复，则中奖]</td>
+                                                <td align="center" bgcolor="#48484A">投注3個或者以上號碼，您可贏得後三位數中與選擇相同且不重複的號碼。 [例如:投注號碼"2，8，9"，總投注為1注，開獎結果為："11928"，3個號碼與您投注相同且不重複，則中獎]</td>
                                             </tr>
                                             <tr>
                                                 <td rowspan="5" align="center" bgcolor="#48484A"><strong>和值</strong></td>
                                                 <td align="center" bgcolor="#48484A">和值</td>
-                                                <td align="center" bgcolor="#48484A">从0-27个号码中，選择1个和值进行竞猜后三码即百位、十位和个位的总和。 [例如：投注和值“12”共一注，开奖号码为“11552”，后三位号码合计总和为12，即中奖]</td>
+                                                <td align="center" bgcolor="#48484A">從0-27個號碼中，選擇1個和值進行競猜後三碼即百位、十位和個位的總和。 [例如：投注和值“12”共一注，開獎號碼為“11552”，後三位號碼合計總和為12，即中獎]</td>
                                             </tr>
                                             <tr>
                                                 <td align="center" bgcolor="#48484A">七彩</td>
-                                                <td align="center" bgcolor="#48484A">从七个颜色中選择1个颜色区间后三码即百位、十位和个位的总和的区间 [例如：投注七彩和值“蓝色[16-19]”共1注，开奖号码为“11557”，后三位号码合计总和为17，在蓝色[16-19]之间，即中奖。]</td>
+                                                <td align="center" bgcolor="#48484A">從七個顏色中選擇1個顏色區間後三碼即百位、十位和個位的總和的區間[例如：投註七彩和值“藍色[16-19]”共1注，開獎號碼為“ 11557”，後三位號碼合計總和為17，在藍色[16-19]之間，即中獎。 ]</td>
                                             </tr>
                                             <tr>
-                                                <td align="center" bgcolor="#48484A">和值单双</td>
-                                                <td align="center" bgcolor="#48484A">投注后三码，即百位、十位和个位的和值单、双的特征。 [例如：投注和值单双的“双”。开奖结果为：48426。后三位号码合计总和12，单双特征为：“双”，即中奖。] </td>
+                                                <td align="center" bgcolor="#48484A">和值單雙</td>
+                                                <td align="center" bgcolor="#48484A">投注後三碼，即百位、十位和個位的和值單、雙的特徵。 [例如：投注和值單雙的“雙”。開獎結果為：48426。後三位號碼合計總和12，單雙特徵為：“雙”，即中獎。 ]</td>
                                             </tr>
                                             <tr>
                                                 <td align="center" bgcolor="#48484A">和值大小</td>
-                                                <td align="center" bgcolor="#48484A">投注后三码，即百位、十位和个位的和值大、小的特征。 [例如：投注和值大小“小”。开奖结果为：48130。后三位号码合计总和4，特征为：“小”，即中奖。] </td>
+                                                <td align="center" bgcolor="#48484A">投注後三碼，即百位、十位和個位的和值大、小的特徵。 [例如：投注和值大小“小”。開獎結果為：48130。後三位號碼合計總和4，特徵為：“小”，即中獎。 ] </td>
                                             </tr>
                                             <tr>
-                                                <td align="center" bgcolor="#48484A">和值串关</td>
-                                                <td align="center" bgcolor="#48484A">投注后三码，即百位、十位和个位的大、小、单、双的特征的组合. [例如：投注和值中大小“小”，单双“双”。开奖结果为：48130。后三位号码合计总和4，特征即为：“小”“双”，即中奖。] </td>
+                                                <td align="center" bgcolor="#48484A">和值串關</td>
+                                                <td align="center" bgcolor="#48484A">投注後三碼，即百位、十位和個位的大、小、單、雙的特徵的組合. [例如：投注和值中大小“小”，單雙“雙”。開獎結果為：48130。後三位號碼合計總和4，特徵即為：“小”“雙”，即中獎。 ]</td>
                                             </tr>
                                         </tbody></table>
                                         <br>
                                         <h4>投注:</h4>
-
-                                        1.	串关：投注惟一排列的号码。<br>
-                                        2.	组選：投注号码的多种排列。如：123，排列方式有123、132、213、231、312、321，共计6种。<br>
-                                        3.	组選三：在三星组選中，如果一注组選号码的3个数字有两个数字相同，则有3种不同的排列方式，即3个中奖机会，简称组選三。示例：112，排列方式有112、121、211。<br>
-                                        4.	组選六：在三星组選中，如果一注组選号码的3个数字各不相同，则有6种不同的排列方式，因而就有6个中奖机会，简称组選六。示例：123，排列方式有123、132、213、231、312、321，共计6种。<br>
-                                        5.	大小单双：开奖号码0～9十个数字中，0～4为小，5～9为大，1、3、5、7、9为单。0、2、4、6、8为双。<br>
+                                        1.	串關：投注惟一排列的號碼。<br>
+                                        2.	組選：投注號碼的多種排列。如：123，排列方式有123、132、213、231、312、321，共計6種。<br>
+                                        3.	組選三：在三星組選中，如果一注組選號碼的3個數字有兩個數字相同，則有3種不同的排列方式，即3個中獎機會，簡稱組選三。示例：112，排列方式有112、121、211。<br>
+                                        4.	組選六：在三星組選中，如果一注組選號碼的3個數字各不相同，則有6種不同的排列方式，因而就有6個中獎機會，簡稱組選六。示例：123，排列方式有123、132、213、231、312、321，共計6種。<br>
+                                        5.	大小單雙：開獎號碼0～9十個數字中，0～4為小，5～9為大，1、3、5、7、9為單。 0、2、4、6、8為雙。<br>
                                         <br>
 
-                                        <h4>1.开奖及返奖</h4>
+                                        <h4>1.開獎及返獎</h4>
                                         <p>
                                             1.开奖
                                             <br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;a.	上海： 官方开奖销售時間每天10:30至21:30， 每30分钟一期，每天10:00第一期开奖，22:00最后一期开奖，共23期。<br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;b.	重庆：官方白天开奖時間每天10:00至21:50，每10分钟一期，夜间游戏每天晚上10点至凌晨2点，5分钟一期，共120期。<br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;c.	江西： 官方开奖销售時間每天09:00至23:10，每10分钟一期，共84期。<br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;d.	福利3D： 官方开奖销售時間每天21:00，一天一期。<br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;e.	天津：官方开奖销售時間每天09:00至23:00，每一期间隔10分钟，每天共84期。<br>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;f.	新疆：官方开奖销售時間每天中午12点至第二天凌晨2点，每一期间隔10分钟，每天共84期。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;a.	上海： 官方開獎銷售時間每天10:30至21:30， 每30分鐘一期，每天10:00第一期開獎，22:00最後一期開獎，共23期。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;b.	重慶：官方白天開獎時間每天10:00至21:50，每10分鐘一期，夜間遊戲每天晚上10點至凌晨2點，5分鐘一期，共120期。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;c.	江西： 官方開獎銷售時間每天09:00至23:10，每10分鐘一期，共84期。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;d.	福利3D： 官方開獎銷售時間每天21:00，一天一期。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;e.	天津：官方開獎銷售時間每天09:00至23:00，每一期間隔10分鐘，每天共84期。<br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;f.	新疆：官方開獎銷售時間每天中午12點至第二天凌晨2點，每一期間隔10分鐘，每天共84期。<br>
                                         </p>
                                         <br>
-
-                                        <h4>48彩规则</h4>
-                                        <p>彩票机内载有1-48个号码的彩球。每注彩票必须从48个号码中選出六个号码。彩票注项单位为每注CNY5.每期彩票结果均从48个号码中搅出七个号码。首六个号码称为【搅出号码 】，而第七个号码称为【特别号码 】。</p>
-                                        <div>奖项详情如下：</div>
+                                        <h4>48彩規則</h4>
+                                        <p>彩票機內載有1-48個號碼的彩球。每注彩票必須從48個號碼中選出六個號碼。彩票注項單位為每注CNY5.每期彩票結果均從48個號碼中攪出七個號碼。首六個號碼稱為【攪出號碼 】，而第七個號碼稱為【特別號碼 】。</p>
+                                        <div>獎項詳情如下：</div>
                                         <table class="helpcenter-tbl" border="1">
                                           <tbody>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">奖项</td>
-                                              <td  align="center" bgcolor="#48484A">号码组合​</td>
+                                              <td  align="center" bgcolor="#48484A">獎項</td>
+                                              <td  align="center" bgcolor="#48484A">號碼組合​</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">头奖</td>
-                                              <td  align="center" bgcolor="#48484A">選中6个【搅出号码】​</td>
+                                              <td  align="center" bgcolor="#48484A">頭獎</td>
+                                              <td  align="center" bgcolor="#48484A"選中6個【攪出號碼】​</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">二奖</td>
-                                              <td  align="center" bgcolor="#48484A">​選中5个【搅出号码】+【特别号码】</td>
+                                              <td  align="center" bgcolor="#48484A">二獎</td>
+                                              <td  align="center" bgcolor="#48484A">​選中5個【攪出號碼】+【特別號碼】</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">​三奖</td>
-                                              <td  align="center" bgcolor="#48484A">	​選中5个【搅出号码】</td>
+                                              <td  align="center" bgcolor="#48484A">三獎</td>
+                                              <td  align="center" bgcolor="#48484A">	選中5個【攪出號碼】</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">四奖</td>
-                                              <td  align="center" bgcolor="#48484A">選中4个【搅出号码】+【特别号码】</td>
+                                              <td  align="center" bgcolor="#48484A">四獎</td>
+                                              <td  align="center" bgcolor="#48484A">選中4個【攪出號碼】+【特別號碼】</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">五奖</td>
-                                              <td  align="center" bgcolor="#48484A">選中4个【搅出号码】​</td>
+                                              <td  align="center" bgcolor="#48484A">五獎</td>
+                                              <td  align="center" bgcolor="#48484A">選中4個【攪出號碼】​</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">​六奖</td>
-                                              <td  align="center" bgcolor="#48484A">	​選中3个【搅出号码】+【特别号码】</td>
+                                              <td  align="center" bgcolor="#48484A">​六獎</td>
+                                              <td  align="center" bgcolor="#48484A">	​選中3個【攪出號碼】+【特別號碼】</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">​七关</td>
-                                              <td  align="center" bgcolor="#48484A">選中3个【搅出号码】</td>
+                                              <td  align="center" bgcolor="#48484A">​七關</td>
+                                              <td  align="center" bgcolor="#48484A">選中3個【攪出號碼】</td>
                                             </tr>
                                           </tbody>
                                         </table>
 
                                         <br>
 
-                                        <p>奖金分配如下：</p>
+                                        <p>獎金分配如下：</p>
 
                                         <br>
 
                                         <table class="helpcenter-tbl" border="1">
                                           <tbody>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">奖项</td>
-                                              <td  align="center" bgcolor="#48484A">奖金分配（以一注项单位作计算）</td>
+                                              <td  align="center" bgcolor="#48484A">獎項</td>
+                                              <td  align="center" bgcolor="#48484A">獎金分配（以一注項單位作計算）</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">头奖</td>
-                                              <td  align="center" bgcolor="#48484A">（3.75% × 总投注额 ÷ 中奖单位） + 最低头奖奖金每期最低头奖奖金为CNY1,888,888</td>
+                                              <td  align="center" bgcolor="#48484A">頭獎</td>
+                                              <td  align="center" bgcolor="#48484A">（3.75% × 總投注額 ÷ 中獎單位） + 最低頭獎獎金每期最低頭獎獎金為CNY1,888,888</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">二奖</td>
-                                              <td  align="center" bgcolor="#48484A">（1.54% × 总投注额 ÷ 中奖单位） + 最低二奖奖金每期最低二奖奖金CNY388,888</td>
+                                              <td  align="center" bgcolor="#48484A">二獎</td>
+                                              <td  align="center" bgcolor="#48484A">（1.54% × 總投注額 ÷ 中獎單位） + 最低二獎獎金每期最低二獎獎金CNY388,888</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">三奖</td>
+                                              <td  align="center" bgcolor="#48484A">三獎</td>
                                               <td  align="center" bgcolor="#48484A">	​每注CNY28,888</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">四奖</td>
+                                              <td  align="center" bgcolor="#48484A">四獎</td>
                                               <td  align="center" bgcolor="#48484A">每注CNY8,888</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">五奖</td>
+                                              <td  align="center" bgcolor="#48484A">五獎</td>
                                               <td  align="center" bgcolor="#48484A">每注CNY688</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">六奖</td>
+                                              <td  align="center" bgcolor="#48484A">六獎</td>
                                               <td  align="center" bgcolor="#48484A">每注CNY288</td>
                                             </tr>
                                             <tr>
-                                              <td  align="center" bgcolor="#48484A">七奖</td>
+                                              <td  align="center" bgcolor="#48484A">七獎</td>
                                               <td  align="center" bgcolor="#48484A">​每注CNY28</td>
                                             </tr>
                                           </tbody>
@@ -10970,72 +11000,71 @@
                                       </div>
 
                                       <div role="tabpanel" class="tab-pane" id="tab25">
-                                          <h2>请确保游戏前您已经启用弹窗功能！</h2>
-                                          <p>我们强烈推荐您使用IE瀏覽器、火狐或者谷歌瀏覽器参与大发老虎机。在您开始畅玩刺激有趣的老虎机游戏之前，您需要确保瀏覽器的弹窗功能开启：</p>
-                                          <h4>1. 确保弹出窗口 </h4>
-                                          <div>選择瀏覽器并进行设置。</div>
+                                          <h2>請確保遊戲前您已經啟用彈窗功能！</h2>
+                                          <p>我們強烈推薦您使用IE瀏覽器、火狐或者谷歌瀏覽器參與大發老虎機。在您開始暢玩刺激有趣的老虎機遊戲之前，您需要確保瀏覽器的彈窗功能開啟：</p>
+                                          <h4>1. 確保彈出窗口 </h4>
+                                          <div>選擇瀏覽器並進行設置。</div>
 
-                                          <p>1. 打开IE瀏覽器，選择Internet選项工具菜单(Gears)打开Internet属性对话框。</p>
+                                          <p>1. 打開IE瀏覽器，選擇Internet選項工具菜單(Gears)打開Internet屬性對話框</p>
                                           <p><img src="assets/img/helpcenter/1.png" class="img-responsive" alt=""></p>
-                                          <p>2. 選择隐私标签，取消勾選“启用弹出窗口阻止程序（B).</p>
+                                          <p>2. 選擇隱私標籤，取消勾選“啟用彈出窗口阻止程序（B).</p>
                                           <p><img src="assets/img/helpcenter/2.png" alt="" class="img-responsive"></p>
-                                          <p>3. 点击确定，重启瀏覽器即可。</p>
+                                          <p>3. 點擊確定，重啟瀏覽器即可。</p>
                                           <br>
-                                          <p>1. 点击工具栏上的菜单選择“選项”。</p>
+                                          <p>1. 點擊工具欄上的菜單選擇“選項”。</p>
                                           <p><img src="assets/img/helpcenter/3.png" alt="" class="img-responsive"></p>
-                                          <p>点击“内容”标签。取消勾選拦截弹出式窗口（B）.</p>
+                                          <p>點擊“內容”標籤。取消勾選攔截彈出式窗口（B）.</p>
                                           <p><img src="assets/img/helpcenter/4.png" alt="" class="img-responsive"></p>
-                                          <p>3. 关闭窗口。</p>
-                                          <p>4. 重启瀏覽器。</p>
+                                          <p>3. 關閉窗口。</p>
+                                          <p>4. 重啟瀏覽器。</p>
                                           <br>
-                                          <p>1. 在工具栏上点击菜单，選择“设置”。</p>
+                                          <p>1. 在工具欄上點擊菜單，選擇“設置”。</p>
                                           <p><img src="assets/img/helpcenter/5.png" alt="" class="img-responsive"></p>
-                                          <p>2. 在页面底端找到并点击“显示高级设置”。</p>
+                                          <p>2. 在頁面底端找到並點擊“顯示高級設置”。</p>
                                           <p><img src="assets/img/helpcenter/6.png" class="img-responsive" alt=""></p>
-                                          <p>3. 在“隐私”部分，点击“内容设置”。</p>
+                                          <p>3. 在“隱私”部分，點擊“內容設置”。</p>
                                           <p><img src="assets/img/helpcenter/7.png" class="img-responsive" alt=""></p>
-                                          <p>4. 下拉页面至“弹出式窗口”，勾選“允许所有网站显示弹出式窗口”。</p>
+                                          <p>4. 下拉頁面至“彈出式窗口”，勾選“允許所有網站顯示彈出式窗口”。</p>
                                           <p><img src="assets/img/helpcenter/8.png" class="img-responsive" alt=""></p>
                                           <p><img src="assets/img/helpcenter/9.png" class="img-responsive" alt=""></p>
-                                          <p>2. 下拉页面，点击“显示高级设置”。</p>
+                                          <p>2. 下拉頁面，點擊“顯示高級設置”。</p>
                                           <p><img src="assets/img/helpcenter/10.png" class="img-responsive" alt=""></p>
-                                          <p>3. 在隐私设置处，点击“内容设置”按钮。</p>
+                                          <p>3. 在隱私設置處，點擊“內容設置”按鈕。</p>
                                           <p><img src="assets/img/helpcenter/11.png" class="img-responsive" alt=""></p>
-                                          <p>4. 下拉页面至Flash, 勾選“允许网站运行Flash”。</p>
+                                          <p>4. 下拉頁面至Flash, 勾選“允許網站運行Flash”。</p>
                                           <p><img src="assets/img/helpcenter/12.png" class="img-responsive" alt=""></p>
-                                          <p>5. 点击完成。关闭瀏覽器后再次打开瀏覽器即可。</p>
-                                          <p>如果以上步驟無法进行，请使用这些步驟：</p>
-                                          <p>1. 访问网址：chrome://flags/</p>
-                                          <p>2. 搜索：当Flash设置为“允许”时，运行所有Flash内容。</p>
+                                          <p>5. 點擊完成。關閉瀏覽器後再次打開瀏覽器即可。</p>
+                                          <p>如果以上步驟無法進行，請使用這些步驟：</p>
+                                          <p>1. 訪問網址：chrome://flags/</p>
+                                          <p>2. 搜索：當Flash設置為“允許”時，運行所有Flash內容。</p>
                                           <p><img src="assets/img/helpcenter/13.png" class="img-responsive" alt=""></p>
-                                          <p>3. 更改下拉菜单的参数選用为“已启用”。您所做的更改会在下次重新启动Google Chrome时生效。</p>
-                                          <p>重新启动瀏覽器后，检查游戏是否已正常运行。问题即可解决。</p>
+                                          <p>3. 更改下拉菜單的參數選用為“已啟用”。您所做的更改會在下次重新啟動Google Chrome時生效。</p>
+                                          <p>重新啟動瀏覽器後，檢查遊戲是否已正常運行。問題即可解決。</p>
                                           <br>
-                                          <h4>3. 清除缓存 </h4>
-                                          <p>还是玩不了游戏？试试清除瀏覽器缓存。</p>
+                                          <h4>3. 清除緩存 </h4>
+                                          <p>還是玩不了遊戲？試試清除瀏覽器緩存。</p>
                                           <br>
-                                          <p>1. 打开IE点击设置選项。鼠标停留在“安全”選项，点击删除浏览历史记录…</p>
+                                          <p>1. 打開IE點擊設置選項。鼠標停留在“安全”選項，點擊刪除瀏覽歷史記錄…</p>
                                           <p><img src="assets/img/helpcenter/14.png" class="img-responsive" alt=""></p>
-                                          <p>2. 取消選中保留收藏夹网站数据，選中Internet临时文件和Cookie，然后点击删除。 </p>
-                                          <p>*表单数据、密码和InPrivate筛選数据保持取消選中。</p>
+                                          <p>2. 取消選中保留收藏夾網站數據，選中Internet臨時文件和Cookie，然後點擊刪除。 </p>
                                           <p><img src="assets/img/helpcenter/15.png" class="img-responsive" alt=""></p>
-                                          <p>3.重启瀏覽器。</p>
+                                          <p>3.重啟瀏覽器。</p>
                                           <br>
-                                          <p>1. 打开菜单点击“選项”。</p>
+                                          <p>1. 打開菜單點擊“選項”。</p>
                                           <p><img src="assets/img/helpcenter/16.png" class="img-responsive" alt=""></p>
-                                          <p>2. 点击“高级”，選择“连接”。点击“删除”。</p>
+                                          <p>2. 點擊“高級”，選擇“連接”。點擊“刪除”。</p>
                                           <p><img src="assets/img/helpcenter/17.png" class="img-responsive" alt=""></p>
-                                          <p>3. 点击“确认”再重启瀏覽器。</p>
+                                          <p>3. 點擊“確認”再重啟瀏覽器。</p>
                                           <br>
-                                          <p>1. 在瀏覽器工具栏打开菜单，鼠标停留在“工具”，選择“清除浏览数据…”</p>
+                                          <p>1. 在瀏覽器工具欄打開菜單，鼠標停留在“工具”，選擇“清除瀏覽數據…”</p>
                                           <p><img src="assets/img/helpcenter/18.png" class="img-responsive" alt=""></p>
-                                          <p>2. 選中“缓存”然后点击“清除浏览数据”。</p>
+                                          <p>2. 選中“緩存”然後點擊“清除瀏覽數據”。</p>
                                           <p><img src="assets/img/helpcenter/19.png" class="img-responsive" alt=""></p>
-                                          <p>3. 关闭之后重启。</p>
+                                          <p>3. 關閉之後重啟。</p>
 
                                           <br>
 
-                                          <p>如果您还有任何问题，请通过即时聊天功能与我们的在線客服联系，或发送邮件至 support@dafabetgames.com.</p>
+                                          <p>如果您還有任何問題，請通過即時聊天功能與我們的在線客服聯繫，或發送郵件至 support@dafabetgames.com.</p>
 
                                           <br>
                                       </div>
@@ -11222,7 +11251,9 @@
                                     <li><div class="list"><a href="helpcenter.html#tab5">使用條款</a></div></li>
                                     <li><div class="list"><a href="helpcenter.html#tab6">負責任博彩</a></div></li>
                                     <li><div class="list"><a href="sitemap.html">網站地圖</a></div></li>
-                                    <li><div class="list"><a href="javascript:void(0)" id="footerLinkLang">選擇地區</a></div></li>
+                                    <li><div class="list"><a href="javascript:void\(0\)" id="footerLinkLang">選擇地區</a></div></li>
+                                      <li><div class="list"><a href="#csMsg" data-toggle="modal">即时信息</a></div></li>
+                                      <li><div class="list"><a href="#">免费回拨</a></div></li>
                                   </ul>
                               </div>
 
@@ -11476,58 +11507,31 @@
     </div>
 
     <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csModal">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <div class="content-title ctitle">
-                <h1>在線客服</h1>
-            </div>
-
-            <div class="aboutus text-left" style="margin-top: 18px;" >
-
-
-                <p style="margin-bottom: 10px">台湾沙龙会（s36asia.com)客戶服務中心，服务時間为每天24小时，每周7天，拥有广东话及普通话座席，竭诚为您提供所需的资讯和服务。 </p>
-                <div>
-                  <span>在線客服：</span> 點擊這裡諮詢
-                </div>
-                <div>
-                  <span>400熱線：</span>  400 120 3188
-                </div>
-                <div>
-                  <span>菲律賓：</span> (+63) 9177 998 899
-                </div>
-                <div>
-                  <span>澳門：</span> (+853) 6284 6284
-                </div>
-                <div>
-                  <span>QQ號：</span> 392661199 | 382662200
-                </div>
-                <div>
-                  <span>微信號：</span> s36asia.com
-                </div>
-                <div>
-                  <span>電子郵件：</span> cs@saloncs.com
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="content-title ctitle">
+                        <h1>在線客服</h1>
+                    </div>
+                    <div class="forms chatserver-form">
+                        <form action="">
+                            <div class="form-group">
+                                <label>称呼 <span>*必填</span></label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">用户名</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group text-right">
+                                <button type="submit">开始聊天</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="forms chatserver-form">
-                <form action="">
-                  <div class="form-group">
-                    <label>稱呼 <span>*必填</span></label>
-                    <input type="text" class="form-control">
-                  </div>
-                  <div class="form-group">
-                    <label for="">用戶名</label>
-                    <input type="text" class="form-control">
-                  </div>
-                  <div class="form-group text-right">
-                    <button type="submit">開始聊天</button>
-                  </div>
-                </form>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
 
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -11564,7 +11568,7 @@
                                 <div class="tab-pane active" id="login">
                                     <div class="tab-content">
                                       <div role="tabpanel" class="tab-pane fade active" id="myModalTab1-1">
-                                        <p class="login-info">登录</p>
+                                        <p class="login-info"><span>登录</span></p>
                                         <form role="form" class="form-horizontal">
                                           <div class="form-group">
                                               <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
@@ -11607,8 +11611,8 @@
 
                                       </div>
                                       <div role="tabpanel" class="tab-pane fade" id="myModalTab1-2">
-                                        <p class="login-info">注册帳戶</p>
-                                        <div class="text-center login-info-div">免費、簡單、快速</div>
+                                        <p class="login-info login-info-reg"><span>注册帳戶</span></p>
+                                        <div class="text-center login-info-div"><span>免費、簡單、快速</span></div>
                                         <div class="col-md-6">
                                             <form role="form" class="form-horizontal">
                                               <div class="form-group">
@@ -11968,6 +11972,37 @@
                              </div>
                              <div class="form-group text-right">
                                  <button type="submit">開始遊戲</button>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+     <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csMsg">
+         <div class="modal-dialog" role="document">
+             <div class="modal-content">
+                 <div class="modal-body">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                     <div class="content-title ctitle">
+                         <h1> S36.asia 即時短訊</h1>
+                     </div>
+
+
+                     <div class="forms chatserver-form">
+                         <form action="">
+                             <div class="form-group">
+                                 <label>您的名称：</label>
+                                 <input type="text" class="form-control">
+                             </div>
+                             <div class="form-group">
+                                 <label for="">编写短讯内容：</label>
+                                 <textarea class="form-control" ></textarea>
+                                 <label for="">(160 个英文字符或 70 个中文字符)</label>
+                             </div>
+                             <div class="form-group text-right">
+                                 <button type="submit">发送</button>
                              </div>
                          </form>
                      </div>

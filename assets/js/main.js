@@ -479,8 +479,12 @@ $(document).ready(function () {
     });
 
     $('.csmodal-forgot').click(function() {
-      $('#myModal').modal('hide');
-      $('#csModal').modal('show');
+      $('#myModal').modal('toggle');
+      $('#csModal').modal('toggle');
+    });
+
+    $('#csModal').on('hidden.bs.modal', function() {
+      $('body').css('padding-right', '0px')
     })
 
 });

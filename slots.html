@@ -53,7 +53,9 @@
         <button class="desktop-support-trigger" data-toggle="collapse" data-target="#desktopSupport" style="display: none"></button>
         <div class="container">
             <ul class="pull-right">
-                <li><a href="javascript:void(0)" class="group-border lang"><div id="drop" class="drop"></div></a></li>
+              <li><a href="javascript:void(0)" class="group-border lang"><div id="drop" class="drop"></div></a></li>
+              <li><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown" style="margin: 3px;"><i class="flag-icon flag-icon-tw"> </i> 繁</button></a></li>
+              <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span> 4:31  下午 周二2017年07月17日</span></a></li>
                 <li>
                   <div id="drop3" class="drop desktop-support">
                       <div class="desktop-support-title">Global Support</div>
@@ -573,8 +575,10 @@
               </div> -->
 
               <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
-                  <li><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown"><i class="flag-icon flag-icon-tw"> </i> 繁</button></a></li>
-                <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span></span></a></li>
+                <!-- <li><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown"><i class="flag-icon flag-icon-tw"> </i> 繁</button></a></li>
+                <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span></span></a></li> -->
+                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" width="20px" alt="">&nbsp; 即時信息</a></li>
+                <li><a href="javascript:void(0)"><img src="assets/img/whatsapp.png" width="20px" alt="">&nbsp; 免費回撥</a></li>
                 <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="20px" alt="">&nbsp; 在線客服</a></li>
                 <li><a href="helpcenter.html"><img src="assets/img/hc.png" width="20px" alt="">&nbsp; 幫助中心</a></li>
               </ul>
@@ -1312,7 +1316,9 @@
                                     <li><div class="list"><a href="helpcenter.html#tab5">使用條款</a></div></li>
                                     <li><div class="list"><a href="helpcenter.html#tab6">負責任博彩</a></div></li>
                                     <li><div class="list"><a href="sitemap.html">網站地圖</a></div></li>
-                                    <li><div class="list"><a href="javascript:void(0)" id="footerLinkLang">選擇地區</a></div></li>
+                                    <li><div class="list"><a href="javascript:void\(0\)" id="footerLinkLang">選擇地區</a></div></li>
+                                      <li><div class="list"><a href="#csMsg" data-toggle="modal">即时信息</a></div></li>
+                                      <li><div class="list"><a href="#">免费回拨</a></div></li>
                                   </ul>
                               </div>
 
@@ -1573,44 +1579,18 @@
                     <div class="content-title ctitle">
                         <h1>在線客服</h1>
                     </div>
-
-                    <div class="aboutus text-left" style="margin-top: 18px;">
-
-                        <p style="margin-bottom: 10px">台湾沙龙会（s36asia.com)客户服务中心，服务時間为每天24小时，每周7天，拥有广东话及普通话座席，竭诚为您提供所需的资讯和服务。 </p>
-                        <div>
-                            <span>在線客服：</span> 點擊這裡諮詢
-                        </div>
-                        <div>
-                            <span>400熱線：</span> 400 120 3188
-                        </div>
-                        <div>
-                            <span>菲律賓：</span> (+63) 9177 998 899
-                        </div>
-                        <div>
-                            <span>澳門：</span> (+853) 6284 6284
-                        </div>
-                        <div>
-                            <span>QQ號：</span> 392661199 | 382662200
-                        </div>
-                        <div>
-                            <span>微信號：</span> s36asia.com
-                        </div>
-                        <div>
-                            <span>電子郵件：</span> cs@saloncs.com
-                        </div>
-                    </div>
                     <div class="forms chatserver-form">
                         <form action="">
                             <div class="form-group">
-                                <label>稱呼 <span>*必填</span></label>
+                                <label>称呼 <span>*必填</span></label>
                                 <input type="text" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="">用戶名</label>
+                                <label for="">用户名</label>
                                 <input type="text" class="form-control">
                             </div>
                             <div class="form-group text-right">
-                                <button type="submit">開始聊天</button>
+                                <button type="submit">开始聊天</button>
                             </div>
                         </form>
                     </div>
@@ -1653,7 +1633,7 @@
                                 <div class="tab-pane active" id="login">
                                     <div class="tab-content">
                                       <div role="tabpanel" class="tab-pane fade active" id="myModalTab1-1">
-                                        <p class="login-info">登录</p>
+                                        <p class="login-info"><span>登录</span></p>
                                         <form role="form" class="form-horizontal">
                                           <div class="form-group">
                                               <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
@@ -1696,8 +1676,8 @@
 
                                       </div>
                                       <div role="tabpanel" class="tab-pane fade" id="myModalTab1-2">
-                                        <p class="login-info">注册帳戶</p>
-                                        <div class="text-center login-info-div">免費、簡單、快速</div>
+                                        <p class="login-info login-info-reg"><span>注册帳戶</span></p>
+                                        <div class="text-center login-info-div"><span>免費、簡單、快速</span></div>
                                         <div class="col-md-6">
                                             <form role="form" class="form-horizontal">
                                               <div class="form-group">
@@ -2058,6 +2038,38 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csMsg">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="content-title ctitle">
+                        <h1> S36.asia 即時短訊</h1>
+                    </div>
+
+
+                    <div class="forms chatserver-form">
+                        <form action="">
+                            <div class="form-group">
+                                <label>您的名称：</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">编写短讯内容：</label>
+                                <textarea class="form-control" ></textarea>
+                                <label for="">(160 个英文字符或 70 个中文字符)</label>
+                            </div>
+                            <div class="form-group text-right">
+                                <button type="submit">发送</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

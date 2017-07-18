@@ -17,12 +17,12 @@ header{
 
   background-repeat: no-repeat;
   background-position-x: 880px;
-  background-position-y: -13px;
+  background-position-y: 1px;
 }
 header .top-header{
   padding: 0 5px;
   font-size: 12px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 header .top-header ul li span{
   margin: 5px;
@@ -183,13 +183,13 @@ main .mobile-banner{
 .mobile-banner-wrapper a{
   display: block;
   position: absolute;
-  bottom: 34%;
+  bottom: 29%;
   left: 0;
   right: 0;
 }
 .mobile-banner-wrapper a img{
   margin: 0px auto;
-  max-width: 15%
+  max-width: 20%
 }
 main .carousel {
     background: #2A2A2A;
@@ -399,11 +399,6 @@ main .win-lot {
     border-bottom: 1px solid #000;
     border-top: 1px solid #303030;
     overflow: hidden;
-}
-
-main .win-lot:last-child {
-    border-top: 1px solid #303030;
-    border-bottom: 1px solid #161616;
 }
 
 main .win-cs {
@@ -2934,6 +2929,25 @@ span.round-tab i{
   outline: 0;
   background-color: #333;
 }
+.cs-modal .chatserver-form textarea{
+  font-size: .875em;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%!important;
+  margin-bottom: 1.5em;
+  padding: 18px 0;
+  -webkit-transition: outline .3s;
+  transition: outline .3s;
+  text-indent: 10px;
+  color: #c4c4c4;
+  border: 1px solid #333;
+  border-radius: 0;
+  resize: none;
+  outline: 0;
+  background-color: #333;
+}
 
 .cs-modal .chatserver-form button {
   font-size: 16px;
@@ -4167,9 +4181,7 @@ padding: 15px;
 .lang span, .gs span, .top-header-clock span{
   color: #FFFFFF;
 }
-header .top-header ul li:nth-child(1){
-  padding-right: 0;
-}
+
 .drop {
   display: none !important;
   margin: 0;
@@ -4179,7 +4191,7 @@ header .top-header ul li:nth-child(1){
   font-size: .75em;
   cursor: pointer;
   min-width: 150px;
-  right: 604px;
+  right: 350px;
   top: 28px;
   padding: 10px;
   border: 1px solid #4a4a4a
@@ -4220,7 +4232,7 @@ header .top-header ul li:nth-child(1){
   position: absolute;
   z-index: 88888;
   /*top: 125px !important*/
-  top: 128px !important
+  top: 30px !important
 }
 .language-picker{
   display: inline-block;
@@ -4250,7 +4262,7 @@ header .top-header ul li:nth-child(1){
   margin-top: 15px;
   margin-bottom: 10px;
   text-align: center;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 700;
 }
 .fp{
@@ -4989,7 +5001,7 @@ right: 160px;
 .bs-slider-overlay{
   position: absolute;
 bottom: 56px;
-right: 543px;
+right: 510px;
 }
 
 #myModal .nav-tabs li span img{
@@ -5373,6 +5385,7 @@ margin-right: -10px;
 }
 .login-info-div{
   font-size: 16px;
+  margin-bottom: 10px;
 }
 .sp-intro{
   font-weight: 700;
@@ -5540,19 +5553,20 @@ margin-right: 5px;
   margin: 0;
   padding: 0;
   list-style: none;
-  padding-left: 35px;
+  padding-left: 15px;
 }
 .contactus ul li{
   padding: 7px 0
 }
 .contactus ul li span{
-  margin-left: 50px;
+  margin-left: 30px;
+  white-space: nowrap;
 }
 .contactus ul li:nth-child(2) span{
-  margin-left: 61px;
+  margin-left: 40px;
 }
 .contactus ul li:nth-child(3) span{
-  margin-left: 55px
+  margin-left: 35px
 }
 .contactus ul li:nth-child(1) a{
   padding-bottom: 2px;
@@ -5570,9 +5584,6 @@ margin-right: 5px;
 }
 .navbar-afterlogin ul li a img{
   width: 30px;
-}
-.navbar-afterlogin ul li:nth-child(2) a img{
-  width: 6px;
 }
 .navbar-afterlogin ul li:nth-child(3) a img{
   width: 37px;
@@ -5606,4 +5617,51 @@ margin-right: 5px;
 }
 .payment-icon li a, .bank-icon li a, .currency-icon li a, .d-fsalon a{
   cursor: default;
+}
+.login-info span{
+  color: #fba601;
+  padding: 10px 35px;
+  border-bottom: 1px solid #fba601;
+  border-top: 1px solid #fba601;
+}
+.login-info-reg{
+  margin-top: 30px;
+}
+.login-info-reg span{
+  border-bottom: none;
+  padding: 10px 50px 0
+}
+.login-info-div span{
+  color: #fba601;
+  padding: 0 45px 10px;
+  border-bottom: 1px solid #fba601
+}
+#csModal .close, #csMsg .close{
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+.top-header-clock img{
+  margin-right: 0 !important;
+}
+.top-header-clock span{
+  margin-left: 0 !important;
+  position: relative;
+  top: 1px;
+}
+.top-header .pull-right li{
+  margin: 0 0px
+}
+#cscall{
+  font-size: 16px;
+font-weight: 700;
+margin-bottom: 20px;
+padding: 7px 15px;
+letter-spacing: .5px;
+color: #1a1a1a;
+border: none;
+border-radius: 4px;
+background: url(../img/yellow-btn.png) repeat-x;
+text-shadow: none;
+width: 100%;
 }
