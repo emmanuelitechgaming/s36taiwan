@@ -2241,6 +2241,7 @@
     .form-recap-right{
       text-align: left;
       margin-top: auto;
+      margin-left: 10px;
     }
     .form-recap{
       max-width: 331px;
@@ -2261,29 +2262,16 @@
   }
     header .logo a {
       display: inline-block;
-  width: 325px;
-  height: 80px;
+  width: 326px;
+  height: 83px;
   background: url('../img/logo.png') no-repeat 0 0;
       background-repeat: no-repeat;
       background-position-x: 0px;
       background-position-y: 0px;
       background-size: auto auto;
-  background-repeat: no-repeat;
-  background-position-x: 0px;
-  background-position-y: 0px;
-  background-size: auto auto;
-  background-repeat: no-repeat;
-  background-position-x: 0px;
-  background-position-y: 0px;
-  background-size: auto auto;
-  background-repeat: no-repeat;
-  background-position-x: 0px;
-  background-position-y: 0px;
-  background-size: auto auto;
-  background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  margin-top: -22px;
+  margin-top: -18px;
     }
     .header-mobile-logo {
         margin-left: auto
