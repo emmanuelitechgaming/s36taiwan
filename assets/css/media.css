@@ -2189,8 +2189,8 @@
       padding-right: 15px;
     }
     .sitemap-body2d ul{
-      -webkit-column-count: 4;
-              column-count: 4;
+      -webkit-column-count: 5;
+              column-count: 5;
     }
     .sitemap-body2f ul{
       -webkit-column-count: 2;
