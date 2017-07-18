@@ -2896,6 +2896,7 @@ span.round-tab i{
 
 .cs-modal .content-title {
   text-align: center;
+  margin-top: 35px;
 }
 
 .cs-modal .ctitle h1 {
@@ -5664,4 +5665,70 @@ border-radius: 4px;
 background: url(../img/yellow-btn.png) repeat-x;
 text-shadow: none;
 width: 100%;
+}
+#csCallselect{
+  height: 34px;
+color: #c4c4c4;
+border: solid 1px #333;
+border-radius: 0;
+background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
+    background-repeat: repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+background-repeat: repeat;
+background-position-x: 0%;
+background-position-y: 0%;
+background-size: auto auto;
+background-repeat: no-repeat;
+background-position: 100% 10%;
+background-size: 8% 100%;
+}
+#csCallselect{
+  appearance: none;
+-moz-appearance: none;
+-webkit-appearance: none;
+}
+.select-country-code{
+  background-size: 25% 100%!important;
+}
+#csCallselectflag button{
+  font-size: .875em;
+font-weight: 400;
+
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+width: 100%;
+margin-bottom: 1.5em;
+
+-webkit-transition: outline .3s;
+transition: outline .3s;
+text-indent: 10px;
+color: #c4c4c4;
+border: 1px solid #333;
+border-radius: 0;
+outline: 0;
+max-height: 34px;
+background: #333;
+text-align: left;
+}
+#csCallselectflag button span{
+color: #C4C4C4;
+}
+#csCallselectflag button span.caret{
+float: right;
+margin-top: -10px;
+font-size: 25px!important;
+}
+#csCallselectflag .dropdown-menu {
+  background: #333!important;
+}
+#csCallselectflag .dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #ccc;
+    white-space: nowrap;
 }

@@ -2209,8 +2209,8 @@
       width: 33%;
     }
     .sitemap-body2e ul{
-      -webkit-column-count: 5;
-              column-count: 5
+      -webkit-column-count: 6;
+              column-count: 6
     }
     .sp-container .sp-bottom{
       padding-bottom:  15px;
