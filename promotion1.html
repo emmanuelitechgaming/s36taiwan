@@ -1197,15 +1197,35 @@
             <form action="">
               <div class="form-group">
                 <label>您的語言：</label>
-                <input type="text" class="form-control">
+                <div class="form-group">
+                        <div id="csCallselectflag" data-input-name="country"></div>
+                      </div>
               </div>
               <div class="form-group">
-                <label>您的国家码：</label>
-                <input type="text" class="form-control">
+                <div class="row">
+                  <div class="col-xs-5">
+                    <label>您的国家码：</label>
+                    <select class="form-control select-country-code" data-input-name="country" id="csCallselect" >
+                      <option value="">Select</option>
+                      <option value="cn">(+0086)</option>
+                      <option value="tw">(+0886)</option>
+                      <option value="vn">(+0084)</option>
+                      <option value="id">(+0062)</option>
+                      <option value="my">(+0060)</option>
+                      <option value="th">(+0066)</option>
+                      <option value="jp">(+0081)</option>
+                      <option value="ko">(+0082)</option>
+                      <option value="in">(+0091)</option>
+                    </select>
+                  </div>
+                  <div class="col-xs-7">
+                    <label>您的电话号码：</label>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
               </div>
               <div class="form-group">
-                <label for="">您的电话号码：</label>
-                <input type="text" class="form-control">
+
               <label for="">(当第一个数字为0时则省略0)</label>
               </div>
               <div class="form-group">
