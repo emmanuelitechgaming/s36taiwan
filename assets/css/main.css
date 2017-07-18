@@ -22,7 +22,7 @@ header{
 header .top-header{
   padding: 0 5px;
   font-size: 12px;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 header .top-header ul li span{
   margin: 5px;
@@ -568,6 +568,8 @@ footer .footer-services ul.columns>li:before {
 
 footer .footer-services p {
     font-size: 13px;
+    text-align: justify;
+ text-justify: inter-word;
     line-height: 30px;
 }
 
