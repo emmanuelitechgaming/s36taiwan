@@ -631,7 +631,7 @@
                 <!-- <li><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown"><i class="flag-icon flag-icon-tw"> </i> 繁</button></a></li>
                 <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span></span></a></li> -->
                 <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" width="20px" alt="">&nbsp; 即時信息</a></li>
-                <li><a href="javascript:void(0)"><img src="assets/img/whatsapp.png" width="20px" alt="">&nbsp; 免費回撥</a></li>
+                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csPhone"><img src="assets/img/whatsapp.png" width="20px" alt="">&nbsp; 免費回撥</a></li>
                 <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="20px" alt="">&nbsp; 在線客服</a></li>
                 <li><a href="helpcenter.html"><img src="assets/img/hc.png" width="20px" alt="">&nbsp; 幫助中心</a></li>
               </ul>
@@ -1036,7 +1036,7 @@
                                     <li><div class="list"><a href="sitemap.html">網站地圖</a></div></li>
                                     <li><div class="list"><a href="javascript:void\(0\)" id="footerLinkLang">選擇地區</a></div></li>
                                       <li><div class="list"><a href="#csMsg" data-toggle="modal">即时信息</a></div></li>
-                                      <li><div class="list"><a href="#">免费回拨</a></div></li>
+                                      <li><div class="list"><a href="#csPhone" data-toggle="modal">免费回拨</a></div></li>
                                   </ul>
                               </div>
 
@@ -1059,7 +1059,7 @@
                                     <li><div class="list list-s"><a class="panel-login-btn login-modal-a" id="login-form-btn-bot" href="javascript:void(0)">會員登入</a></div></li>
                                     <li><div class="list list-s"><a class="register-modal-a" href="javascript:void(0)">會員註冊</a></div></li>
                                     <li><div class="list list-s"><a href="helpcenter.html#tab21">如何註冊</a></div></li>
-                                    <li><div class="list list-s"><a href="javascript:void(0)">如何登錄</a></div></li>
+                                    <li><div class="list list-s"><a href="helpcenter.html#tab19">如何登錄</a></div></li>
                                     <li><div class="list list-s"><a href="helpcenter.html#tab22">如何存款</a></div></li>
                                     <li><div class="list list-s"><a href="helpcenter.html#tab23">如何提款</a></div></li>
                                     <li><div class="list list-s"><a href="helpcenter.html#tab24">如何清除緩存</a></div></li>
@@ -1804,6 +1804,53 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csPhone">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="content-title ctitle">
+              <h1>S36 免费电话回拨</h1>
+            </div>
+            <div class="forms chatserver-form">
+              <p>欢迎使用免费电话回拨功能，请输入您的电话号码，然后点击“送出”按钮！一般情况下，我们將会在15分鐘內給您回电。</p>
+            <br>
+            <form action="">
+              <div class="form-group">
+                <label>您的語言：</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>您的国家码：</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="">您的电话号码：</label>
+                <input type="text" class="form-control">
+              <label for="">(当第一个数字为0时则省略0)</label>
+              </div>
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <label for="">验证码：</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="col-xs-6" style="margin-top: 27px;">
+                    <label >换一个图片：</label>
+                    <img src="assets/img/footer/verify.png" style="margin:0;" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group text-right">
+              <button type="submit" id="cscall">发送</button>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Bootstrap core JavaScript
