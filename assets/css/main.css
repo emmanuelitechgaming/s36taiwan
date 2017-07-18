@@ -5737,10 +5737,15 @@ font-size: 25px!important;
 }
 .drop-lang-picker{
 margin-top: 0px;
-border-top: 1px solid #4a4a4a;
-border-left: 1px solid #4a4a4a;
-border-right: 1px solid #4a4a4a;
+border-top: 1px solid #2a2a2a;
+border-left: 1px solid #2a2a2a;
+border-right: 1px solid #2a2a2a;
 border-bottom: 1px solid #2a2a2a;
 z-index: 88895;
 position: relative;
+}
+.drop-lang-picker-active{
+  border-top: 1px solid #4a4a4a;
+  border-left: 1px solid #4a4a4a;
+  border-right: 1px solid #4a4a4a;
 }

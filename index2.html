@@ -1604,6 +1604,10 @@
               type: "success",
               confirmButtonClass: 'btn-warning',
               confirmButtonText: '關閉'
+          }, function(isConfirm) {
+            if(isConfirm) {
+              window.location = 'afterlogin.html'
+            }
           });
       };
       document.querySelector('.sweet-15').onclick = function() {
