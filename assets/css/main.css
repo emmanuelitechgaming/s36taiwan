@@ -5638,8 +5638,7 @@ margin-right: 5px;
   margin-top: 30px;
 }
 .login-info-reg span{
-  border-bottom: none;
-  padding: 10px 50px 0;
+  padding: 10px 70px 10px 50px;
 }
 .login-info-div {
     font-size: 16px;
@@ -5649,6 +5648,14 @@ margin-right: 5px;
   color: #fba601;
   padding: 0 45px 10px;
   border-bottom: 1px solid #fba601
+}
+.login-info-span{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  position: relative;
+  bottom: 5px;
+  left: 20px;
 }
 #csModal .close, #csMsg .close{
   position: absolute;
