@@ -14,6 +14,20 @@ $(document).ready(function () {
         }
   });
 
+  $('#csCallselectflag').flagStrap({
+    countries: {
+            "TW": "台灣",
+            "CN": "中國",
+            "ID": "印尼",
+            "IN": "印度",
+            "VN": "越南",
+            "JP": "日本",
+            "MY": "馬來西亞",
+            "TH": "泰國"
+
+        }
+  });
+
   $(".btn-log").hover(function() {
   		$(this).attr("src","assets/img/login-hover.png");
   			}, function() {
@@ -403,6 +417,7 @@ $(document).ready(function () {
 
     $('.selectpicker2, .sitemap-selectpicker').click(function() {
       $('#drop').toggleClass('lang-click');
+      $('.drop-lang-picker').toggleClass('drop-lang-picker-active');
     });
 
     $('#drop3 .close').click(function() {
