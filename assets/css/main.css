@@ -4978,6 +4978,7 @@ right: 160px;
 }
 .mnav-afterlogin ul li{
   width: 20%;
+  vertical-align: bottom;
 }
 .mnav-top ul li a{
   display: block;
@@ -4993,6 +4994,10 @@ right: 160px;
 }
 .mnav-afterlogin ul li a img{
   height: 25px;
+}
+.mnav-afterlogin ul li:nth-child(1) a img{
+  width: 28px;
+  height: 23px;
 }
 .mnav-top ul li a span{
   display: block;
@@ -5623,8 +5628,7 @@ margin-right: 5px;
   margin-top: 30px;
 }
 .login-info-reg span{
-  border-bottom: none;
-  padding: 10px 50px 0
+  padding: 10px 50px
 }
 .login-info-div span{
   color: #fba601;
