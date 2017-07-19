@@ -4218,7 +4218,7 @@ padding: 15px;
   padding: 6px 4px;
   cursor: pointer;
   min-width: 230px;
-  width: 230px;
+  width: 240px;
   background: #1B1B1B;
   display: block;
   position: relative;
@@ -5518,7 +5518,8 @@ margin-right: 5px;
 .mobile-banner-social li{
   display: inline-block;
   width: 20px;
-  margin-right: 1px
+  margin-right: 1px;
+  vertical-align: bottom;
 }
 .mobile-banner-social li a{
   text-align: left;

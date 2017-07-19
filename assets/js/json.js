@@ -72,7 +72,7 @@ $(document).ready(function(){
 	$('#drop .grey').each(function(){
 		var divNum = $(this).attr('data-value');
 		$(obj[divNum].languages).each(function(k,v){
-			$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 30px'> "+ v +"</span>");
+			$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'> "+ v +"</span>");
 		})
 	});
 
