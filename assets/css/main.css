@@ -4641,7 +4641,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   position: relative;
   margin-right: 1px;
   color: #fff;
-  background: #000;
+  background: #2a2a2a;
   border-right: none;
   text-shadow: none
 }
@@ -5436,7 +5436,7 @@ margin-right: -10px;
 }
 
 .panel.with-nav-tabs .panel-heading .promo-tabs li a{
-  background: #000;
+  background: #2a2a2a;
   color: #fff;
   border-radius: 0;
 }
