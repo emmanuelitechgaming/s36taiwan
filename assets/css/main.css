@@ -5518,7 +5518,8 @@ margin-right: 5px;
 .mobile-banner-social li{
   display: inline-block;
   width: 20px;
-  margin-right: 1px
+  margin-right: 1px;
+  vertical-align: bottom;
 }
 .mobile-banner-social li a{
   text-align: left;
