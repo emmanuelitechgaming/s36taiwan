@@ -2304,6 +2304,10 @@
     .contactus ul li:nth-child(3) span{
       margin-left: 35px
     }
+    #myModal .pull-right .modal-bottom{
+      position: absolute;
+      right: 0;
+    }
 }
 
 /* Large Devices, Wide Screens */
