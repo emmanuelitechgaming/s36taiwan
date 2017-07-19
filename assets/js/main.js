@@ -417,6 +417,7 @@ $(document).ready(function () {
 
     $('.selectpicker2, .sitemap-selectpicker').click(function() {
       $('#drop').toggleClass('lang-click');
+      $('.drop-lang-picker').toggleClass('drop-lang-picker-active');
     });
 
     $('#drop3 .close').click(function() {

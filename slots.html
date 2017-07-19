@@ -54,8 +54,9 @@
         <div class="container">
             <ul class="pull-right">
               <li><a href="javascript:void(0)" class="group-border lang"><div id="drop" class="drop"></div></a></li>
-              <li><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown" style="margin: 3px;"><i class="flag-icon flag-icon-tw"> </i> 繁</button></a></li>
+
               <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span> 4:31  下午 周二2017年07月17日</span></a></li>
+                    <li class="drop-lang-picker"><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown" style="margin: 3px;"><i class="flag-icon flag-icon-tw"> </i> 繁 <i class="fa fa-caret-down"></i></button></a></li>
                 <li>
                   <div id="drop3" class="drop desktop-support">
                       <div class="desktop-support-title">Global Support</div>
@@ -577,7 +578,7 @@
               <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
                 <!-- <li><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown"><i class="flag-icon flag-icon-tw"> </i> 繁</button></a></li>
                 <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span></span></a></li> -->
-                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" width="20px" alt="">&nbsp; 即時信息</a></li>
+                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" width="20px" alt="">&nbsp; 網上短信</a></li>
                 <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csPhone"><img src="assets/img/whatsapp.png" width="20px" alt="">&nbsp; 免費回撥</a></li>
                 <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="20px" alt="">&nbsp; 在線客服</a></li>
                 <li><a href="helpcenter.html"><img src="assets/img/hc.png" width="20px" alt="">&nbsp; 幫助中心</a></li>
@@ -1579,6 +1580,7 @@
                     <div class="content-title ctitle">
                         <h1>在線客服</h1>
                     </div>
+                    <p>沙龍會(台灣)客戶服務中心，每天24小時， 每週7天，竭誠爲您提供所需的資訊和服務。</p>
                     <div class="forms chatserver-form">
                         <form action="">
                             <div class="form-group">
@@ -1667,7 +1669,7 @@
                                                   </div>
                                                 </div>
                                                 <div class="col-md-3 form-recap-right">
-                                                  <p><a href="javascript:void(0)" class="csmodal-forgot">（忘记我的密码，<span>联系在线客服</span>）</a></p>
+                                                  <p><a href="javascript:void(0)" class="csmodal-forgot">忘記賬號或密碼？<br><span>聯繫在線客服</span></a></p>
                                                 </div>
                                             </div>
                                             <div class="form-group text-center cta-accounts"><a href="#myModalTab1-2" aria-controls="home" role="tab" data-toggle="tab">沒有帳號？ 在這裡註冊！</a></div>
@@ -2192,6 +2194,10 @@
               type: "success",
               confirmButtonClass: 'btn-warning',
               confirmButtonText: '關閉'
+          }, function(isConfirm) {
+            if(isConfirm) {
+              window.location = 'afterlogin.html'
+            }
           });
       };
       document.querySelector('.sweet-15').onclick = function() {
