@@ -26,6 +26,7 @@
     position: fixed;
     cursor: pointer;
     bottom: 65px;
+    z-index: 99999
 }
   .modal-panel-dialog{
     width: auto;
