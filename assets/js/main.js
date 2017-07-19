@@ -396,7 +396,7 @@ $(document).ready(function () {
 
     $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function () {
       $('.mymodal-init').removeClass('mymodal-none');
-      $('#myModal2b_registration').css('display', 'block');
+      $('#myModal2b_registration').css('display', 'inline-block');
       $('#myModal2b_login').css('display', 'none');
       $('#myModalTab li:nth-child(1)').css('top', '210px');
       $('#myModalTab li:nth-child(1)').css('display', 'block');
@@ -405,7 +405,7 @@ $(document).ready(function () {
 
     $('a[href="#myModalTab1-2"]').on('hidden.bs.tab', function () {
       $('#myModal2b_registration').css('display', 'none');
-      $('#myModal2b_login').css('display', 'block');
+      $('#myModal2b_login').css('display', 'inline-block');
       $('#myModalTab li:nth-child(1)').css('top', '150px');
       $('#myModalTab li:nth-child(1)').css('display', 'none');
       $('#myModalTab li:nth-child(2)').css('display', 'block');
@@ -452,14 +452,14 @@ $(document).ready(function () {
     });
 
     $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function() {
-      $('#myModal2b_registration').css('display', 'block');
-      $('#myModal2b_login').css('display', 'none');
+      $('#myModal2b_registration, .myModal2b_registration_a').css('display', 'inline-block');
+      $('#myModal2b_login,  .myModal2b_login_a').css('display', 'none');
     });
 
     $('a[href="#myModalTab1-1"]').on('shown.bs.tab', function() {
       $('.mymodal-init').addClass('mymodal-none')
-      $('#myModal2b_registration').css('display', 'none');
-      $('#myModal2b_login').css('display', 'block');
+      $('#myModal2b_registration, .myModal2b_registration_a').css('display', 'none');
+      $('#myModal2b_login, .myModal2b_login_a').css('display', 'inline-block');
     });
 
     $('#footerLinkLang').click(function() {
