@@ -5536,7 +5536,6 @@ margin-right: 5px;
 .contactus{
   color: #fff;
   background: #1b1b1b;
-  padding: 5px 20px;
   letter-spacing: 1px
 }
 .contactus p{
@@ -5557,17 +5556,10 @@ margin-right: 5px;
   padding-left: 15px;
 }
 .contactus ul li{
-  padding: 7px 0
+  padding: 8.5px 0
 }
 .contactus ul li span{
-  margin-left: 30px;
   white-space: nowrap;
-}
-.contactus ul li:nth-child(2) span{
-  margin-left: 40px;
-}
-.contactus ul li:nth-child(3) span{
-  margin-left: 35px
 }
 .contactus ul li:nth-child(1) a{
   padding-bottom: 2px;
@@ -5748,4 +5740,9 @@ position: relative;
   border-top: 1px solid #4a4a4a;
   border-left: 1px solid #4a4a4a;
   border-right: 1px solid #4a4a4a;
+}
+#csModal p{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
 }
