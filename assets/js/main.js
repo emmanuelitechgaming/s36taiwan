@@ -28,24 +28,30 @@ $(document).ready(function () {
         }
   });
 
-  $(".btn-log").hover(function() {
-  		$(this).attr("src","assets/img/login-hover.png");
-  			}, function() {
-  		$(this).attr("src","assets/img/login.png");
-  	});
-
-    $(".btn-reg").hover(function() {
-        $(this).attr("src","assets/img/register-hover.png");
-          }, function() {
-        $(this).attr("src","assets/img/register.png");
-      });
-
-
-    $(".demo-img").hover(function() {
-        $(this).attr("src","assets/img/demo-hover.png");
-          }, function() {
-        $(this).attr("src","assets/img/demo.png");
-      });
+  // $(".btn-log").hover(function() {
+  // 		$(this).attr("src","assets/img/login-hover.png");
+  // 			}, function() {
+  // 		$(this).attr("src","assets/img/login.png");
+  // 	});
+  //
+  //   $(".btn-reg").hover(function() {
+  //       $(this).attr("src","assets/img/register-hover.png");
+  //         }, function() {
+  //       $(this).attr("src","assets/img/register.png");
+  //     });
+  //
+  //     $(".btn-reg2").hover(function() {
+  //         $(this).attr("src","assets/img/register2-hover.png");
+  //           }, function() {
+  //         $(this).attr("src","assets/img/register2.png");
+  //       });
+  //
+  //
+  //   $(".demo-img").hover(function() {
+  //       $(this).attr("src","assets/img/demo-hover.png");
+  //         }, function() {
+  //       $(this).attr("src","assets/img/demo.png");
+  //     });
 
    var hash = window.location.hash;
    if (hash != "") {
