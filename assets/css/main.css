@@ -5591,21 +5591,22 @@ margin-right: 5px;
   width: 30px;
 }
 .navbar-afterlogin ul li:nth-child(2) a img{
-  width: 25px;
+  width: 35px;
 }
 .navbar-afterlogin ul li:nth-child(3) a img{
-  width: 35px;
-  margin-top: 2px;
+  width: 38px;
 }
 .navbar-afterlogin ul li:nth-child(4) a img{
   width: 28px;
+  position: relative;
+  top: 3px;
 }
 /*.navbar-afterlogin ul li:nth-child(3) a img{
   width: 37px;
 }*/
 .navbar-afterlogin .notif{
   position: absolute;
-  top: -10px;
+  top: -4px;
   right: -11px;
   color: #fff;
   background: #f00;
@@ -5643,7 +5644,12 @@ margin-right: 5px;
   margin-top: 30px;
 }
 .login-info-reg span{
-  padding: 10px 50px
+  border-bottom: none;
+  padding: 10px 50px 0;
+}
+.login-info-div {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 .login-info-div span{
   color: #fba601;
@@ -5766,4 +5772,13 @@ position: relative;
   text-align: center;
   margin-top: 10px;
   font-size: 15px;
+}
+#myModal .pull-right .modal-bottom .btn-warning{
+  color: #fff
+}
+#myModal .pull-right .modal-bottom a{
+  color: inherit;
+}
+#myModal .pull-right .modal-bottom a:hover, #myModal .pull-right .modal-bottom a:active, #myModal .pull-right .modal-bottom a:focus{
+  text-decoration: none
 }
