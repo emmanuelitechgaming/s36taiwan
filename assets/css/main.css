@@ -704,7 +704,7 @@ div.border:before {
 
 .navbar-inverse .navbar-nav > li > a {
     color: #fba601;
-    font-size: 15px;
+    font-size: 14px;
     border-right: 1px solid #000;
     border-left: 1px solid #3c3c3c;
     font-weight: 700;
@@ -1472,8 +1472,8 @@ p {
 .wallet {
     padding: 10px;
     width: 100%;
-    background: #5e5e5e;
-    border: 1px solid #b1b1b1;
+    background: #2a2a2a;
+    border: 1px solid #333333;
     border-radius: 4px;
     margin: 10px 0;
     position: relative;
@@ -1522,7 +1522,6 @@ p {
 }
 
 .account-c {
-    margin-bottom: 30px;
     padding: 15px;
 }
 
@@ -1531,31 +1530,31 @@ p {
 }
 
 .botton {
-    width: 116px;
-    height: 36px;
-    background: url('../img/yellow-btn.png')repeat-x;
-    color: #000!important;
-    line-height: 38px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 15px;
-    display: inline-block;
-    overflow: hidden;
-    border-radius: 4px;
+  width: 152px;
+  height: 36px;
+  background: url('../img/yellow-btn.png')repeat-x;
+  color: #000 !important;
+  line-height: 38px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 4px;
 }
 
 .btn-hidden {
-    cursor: pointer;
-    font-weight: bold;
-    color: #fff;
-    font-size: 15px;
-    width: 116px;
-    height: 44px;
-    line-height: 30px;
-    background-color: transparent;
-    border: none;
-    margin-top: -15px;
-    color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  color: #fff;
+  font-size: 15px;
+  width: 152px;
+  height: 44px;
+  line-height: 30px;
+  background-color: transparent;
+  border: none;
+  margin-top: -15px;
+  color: #000;
 }
 
 .acc-info .acc-lbl {
@@ -1581,7 +1580,7 @@ p {
 }
 
 .acc-info .botton {
-    margin: 10px 103px!important;
+    margin: 10px 107px!important;
 }
 
 .acc-cont input {
@@ -2900,7 +2899,7 @@ span.round-tab i{
 
 .cs-modal .content-title {
   text-align: center;
-  margin-top: 21px;
+  margin-top: 15px;
 }
 
 .cs-modal .ctitle h1 {
@@ -5253,7 +5252,8 @@ margin-right: -10px;
 
 
   background-color: #1B1A1A;
-  overflow: hidden;
+
+  overflow: hidden;
   margin-top: 0px;
   margin-left: -10px;
   margin-right: -10px;
@@ -5278,7 +5278,6 @@ margin-right: -10px;
 .lotto-strip{
   margin-top: auto
 }
-<<<<<<< .mine
 .sp-title.text-left a{
   text-decoration: none;
   color: #fba601;
@@ -5789,6 +5788,20 @@ position: relative;
 #myModal .pull-right .modal-bottom a:hover, #myModal .pull-right .modal-bottom a:active, #myModal .pull-right .modal-bottom a:focus{
   text-decoration: none
 }
+.modal-title{
+  color: #fba601 !important;
+font-size: 28px;
+border-top: 1px solid #fba601;
+border-bottom: 1px solid #fba601;
+font-weight: 700;
+line-height: 1;
+text-transform: uppercase;
+display: inline-block;
+padding: .5em;
+padding: .65em 2em;
+margin-top: 35px;
+}
+
 .wallet-text{
   background: #333333;
   border: 2px solid #333333;
@@ -5802,4 +5815,12 @@ position: relative;
 }
 .helpcenter .tab-pane{
   padding-right: 20px;
+}
+div.acc-info.acc-edit div.acc-cont input{
+  background: #333333;
+border: 2px solid #333333;
+border-radius: 3px !important;
+padding: 6px 16px !important;
+outline: 0;
+color: #c4c4c4 !important;
 }
