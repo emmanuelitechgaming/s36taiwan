@@ -631,14 +631,14 @@
                                     <div class="account-text">存款：</div>
                                     <div class="form-group">
                                         <select id="currency" name="currency" class="form-control">
-                                            <option value="">選擇貨幣</option>
+                                            <option value="none">選擇貨幣</option>
                                             <option value="MYR">RM MYR</option>
                                             <option value="THB">฿ THB</option>
                                             <option value="VND">₫ VND</option>
                                             <option value="IDR">Rp IDR</option>
                                         </select>
                                     </div>
-                                    <div class="account-text wallet-reminder"></div>
+                                    <div class="account-text wallet-reminder wallet-reminder-none"></div>
                                 </div>
 
                                 <div class="display-block">
@@ -1542,10 +1542,14 @@
             <br>
             <form action="">
               <div class="form-group">
-                <label>您的語言：</label>
-                <div class="form-group">
-                        <div id="csCallselectflag" data-input-name="country"></div>
-                      </div>
+                <div class="row">
+                  <div class="col-xs-5">
+                    <label>您的語言：</label>
+                    <div class="form-group">
+                      <div id="csCallselectflag" data-input-name="country"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="form-group">
                 <div class="row">
@@ -1748,14 +1752,19 @@
 
                  if($(this).val() == "MYR"){
                    $('.wallet-reminder').html('* Minimum deposit RM 50, up to RM 50,000. (if you have more than RM 50,000 please deposit into multiple transactions)');
+                   $('.wallet-reminder').removeClass('wallet-reminder-none');
                  }else if ($(this).val() == "THB") {
                    $('.wallet-reminder').html('* Minimum deposit THB 500, up to THB 500,000. (if you have more than THB 500,000 please deposit into multiple transactions)');
+                   $('.wallet-reminder').removeClass('wallet-reminder-none');
                  }else if ($(this).val() == "VND") {
                    $('.wallet-reminder').html('* Minimum deposit VND 300,000, up to VND 30,000,000. (if you have more than VND 30,000,000 please deposit into multiple transactions)');
+                   $('.wallet-reminder').removeClass('wallet-reminder-none');
                  }else if ($(this).val() == "IDR") {
                    $('.wallet-reminder').html('* Minimum deposit IDR 200,000 up to IDR 20,000,000. (if you have more than IDR 20,000,000 please deposit into multiple transactions)');
-                 }else if($(this).val() == ""){
+                   $('.wallet-reminder').removeClass('wallet-reminder-none');
+                 }else if($(this).val() == "none"){
                    $('.wallet-reminder').html('');
+                   $('.wallet-reminder').addClass('wallet-reminder-none');
                  }
 
             });

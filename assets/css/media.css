@@ -2039,7 +2039,7 @@
     }
     .display-inline-block{
       display: inline-block !important;
-      width: 22.4%
+      width: 28.5%
     }
     .pay-state {
         margin: 10px 0 10px 25px!important;
@@ -2181,7 +2181,7 @@
       font-size: 12px!important;
     }
     .wallet-reminder{
-      margin-left: 20px;
+      margin-left: 150px;
       white-space: nowrap;
       width: 700px;
     }
