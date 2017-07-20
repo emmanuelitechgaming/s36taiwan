@@ -44,9 +44,14 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <style>
+    <style media="screen">
       .account-text {
         width: 240px;
+      }
+      @media only screen and (min-width: 992px){
+        .botton {
+          margin: 10px 0px 10px 245px;
+        }
       }
     </style>
 </head>
@@ -646,17 +651,17 @@
 
                                 <div class="display-block">
                                     <div class="account-text">Amount: </div>
-                                    <input type="text" name="Ntlr_DepositAmount" id="Ntlr_DepositAmount" class="amount form-control display-inline-block" value="" required>
+                                    <input type="text" name="Ntlr_DepositAmount" id="Ntlr_DepositAmount" class="amount form-control display-inline-block wallet-text" value="" required>
                                 </div>
 
                                 <div class="display-block">
                                     <div class="account-text">Email or Account ID: </div>
-                                    <input type="text" name="Ntlr_DepositEmail" id="Ntlr_DepositEmail" class="form-control display-inline-block" value="" required>
+                                    <input type="text" name="Ntlr_DepositEmail" id="Ntlr_DepositEmail" class="form-control display-inline-block wallet-text" value="" required>
                                 </div>
 
                                 <div class="display-block">
                                     <div class="account-text">Secure ID or Authentication Code: </div>
-                                    <input type="text" name="Ntlr_DepositSecureId" id="Ntlr_DepositSecureId" class="form-control display-inline-block" value="" required>
+                                    <input type="text" name="Ntlr_DepositSecureId" id="Ntlr_DepositSecureId" class="form-control display-inline-block wallet-text" value="" required>
                                 </div>
 
                                 <p class="botton">
