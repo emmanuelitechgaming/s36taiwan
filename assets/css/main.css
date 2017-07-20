@@ -16,7 +16,7 @@ header{
   background: url('../img/casino-bg.png');
 
   background-repeat: no-repeat;
-  background-position-x: 880px;
+  background-position-x: 825px;
   background-position-y: 1px;
 }
 header .top-header{
@@ -169,7 +169,7 @@ header .header-mobile > .hm-d {
     padding: 15px 10px!important;
 }
 .main-section{
-  margin-top: 30px
+  margin-top: 20px
 }
 main .mobile-banner{
   text-align: center;
@@ -1532,15 +1532,16 @@ p {
 
 .botton {
     width: 116px;
-    height: 44px;
-    background-image: url('../img/afterlogin/pt_btn.png');
-    background-repeat: no-repeat;
-    line-height: 42px;
+    height: 36px;
+    background: url('../img/yellow-btn.png')repeat-x;
+    color: #000!important;
+    line-height: 38px;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
     display: inline-block;
     overflow: hidden;
+    border-radius: 4px;
 }
 
 .btn-hidden {
@@ -1550,10 +1551,11 @@ p {
     font-size: 15px;
     width: 116px;
     height: 44px;
-    line-height: 42px;
+    line-height: 30px;
     background-color: transparent;
     border: none;
-    color: #fff;
+    margin-top: -15px;
+    color: #000;
 }
 
 .acc-info .acc-lbl {
@@ -2898,7 +2900,7 @@ span.round-tab i{
 
 .cs-modal .content-title {
   text-align: center;
-  margin-top: 35px;
+  margin-top: 21px;
 }
 
 .cs-modal .ctitle h1 {
@@ -4262,7 +4264,7 @@ padding: 15px;
   color: #fba601;
 }
 .login-info{
-  margin-top: 15px;
+  margin-top: 40px;
   margin-bottom: 10px;
   text-align: center;
   font-size: 28px;
@@ -4415,19 +4417,21 @@ text-shadow: 1px 1px 3px #000;
     background-color: transparent;
 }
 .modal-custom-lg .modal-body input{
-  background: #111111;
-border: 2px solid black;
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: black;
-border-radius: 3px;
-outline: none;
-height: 30px;
-color: #A4A4A4;
-border-bottom: none;
+  background: #333333;
+  border: 2px solid #333333;
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: rgb(51, 51, 51);
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-radius: 3px;
+  outline: none;
+  color: #A4A4A4;
+  border-bottom: none;
 }
 .modal-custom-lg .modal-body .input-border{
-  border-bottom: 1px solid #4C4C4C;
+  border-bottom: 1px solid #333333;
 border-radius: 2px;
 }
 .btn-warning {
@@ -4641,7 +4645,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   position: relative;
   margin-right: 1px;
   color: #fff;
-  background: #000;
+  background: #2a2a2a;
   border-right: none;
   text-shadow: none
 }
@@ -5119,8 +5123,8 @@ img.b-img{
   margin: 0 5px;
 }
 div.input-border #country-sel.flagstrap .btn{
-  background: #111111;
-  border: 2px solid black;
+  background: #333333;
+  border: 2px solid #333333;
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: black;
@@ -5147,7 +5151,7 @@ div.input-border #country-sel.flagstrap .btn .caret{
   top: 12px;
 }
 #country-sel .dropdown-menu{
-  background: #111111;
+  background: #333333;
   width: 100%
 }
 #country-sel .dropdown-menu li{
@@ -5436,7 +5440,7 @@ margin-right: -10px;
 }
 
 .panel.with-nav-tabs .panel-heading .promo-tabs li a{
-  background: #000;
+  background: #2a2a2a;
   color: #fff;
   border-radius: 0;
 }
@@ -5587,25 +5591,20 @@ margin-right: 5px;
   margin-left: 40px;
   position: relative;
 }
-.navbar-afterlogin ul li a img{
-  width: 30px;
+.navbar-afterlogin ul li a{
+  text-decoration: none;
+  color: #fff;
 }
-.navbar-afterlogin ul li:nth-child(2) a img{
+.navbar-afterlogin ul li a img{
   width: 25px;
 }
-.navbar-afterlogin ul li:nth-child(3) a img{
-  width: 35px;
-  margin-top: 2px;
-}
-.navbar-afterlogin ul li:nth-child(4) a img{
-  width: 28px;
-}
+
 /*.navbar-afterlogin ul li:nth-child(3) a img{
   width: 37px;
 }*/
 .navbar-afterlogin .notif{
   position: absolute;
-  top: -10px;
+  top: -4px;
   right: -11px;
   color: #fff;
   background: #f00;
@@ -5643,12 +5642,24 @@ margin-right: 5px;
   margin-top: 30px;
 }
 .login-info-reg span{
-  padding: 10px 50px
+  padding: 10px 65px 10px 50px;
+}
+.login-info-div {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 .login-info-div span{
   color: #fba601;
   padding: 0 45px 10px;
   border-bottom: 1px solid #fba601
+}
+.login-info-span{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  position: relative;
+  bottom: 5px;
+  left: 20px;
 }
 #csModal .close, #csMsg .close{
   position: absolute;
@@ -5730,7 +5741,7 @@ color: #C4C4C4;
 }
 #csCallselectflag button span.caret{
 float: right;
-margin-top: 5px;
+margin-top: -10px;
 font-size: 25px!important;
 }
 #csCallselectflag .dropdown-menu {
@@ -5766,4 +5777,13 @@ position: relative;
   text-align: center;
   margin-top: 10px;
   font-size: 15px;
+}
+#myModal .pull-right .modal-bottom .btn-warning{
+  color: #fff
+}
+#myModal .pull-right .modal-bottom a{
+  color: inherit;
+}
+#myModal .pull-right .modal-bottom a:hover, #myModal .pull-right .modal-bottom a:active, #myModal .pull-right .modal-bottom a:focus{
+  text-decoration: none
 }

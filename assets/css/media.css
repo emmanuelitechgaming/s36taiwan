@@ -26,6 +26,7 @@
     position: fixed;
     cursor: pointer;
     bottom: 65px;
+    z-index: 99999
 }
   .modal-panel-dialog{
     width: auto;
@@ -2037,8 +2038,11 @@
       display: inline-block !important;
       width: 22.4%
     }
+    .pay-state {
+        margin: 10px 0 10px 25px!important;
+    }
     .botton {
-        margin: 10px 145px;
+        margin: 10px 0px 10px 150px;
     }
     .botton.deposit-neteller-botton {
       margin: 10px 240px;
@@ -2303,6 +2307,10 @@
     }
     .contactus ul li:nth-child(3) span{
       margin-left: 35px
+    }
+    #myModal .pull-right .modal-bottom{
+      position: absolute;
+      right: 0;
     }
 }
 

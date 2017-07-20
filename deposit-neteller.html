@@ -525,10 +525,10 @@
               </div>
               <div class="navbar-header navbar-right navbar-afterlogin">
                 <ul>
-                  <li><a href="myaccount.html"><img src="assets/img/s36tw-mobile-home--LOGIN_08.png" alt=""></a></li>
-                  <li><a href="wallet.html"><img src="assets/img/s36tw-mobile-home--LOGIN_10.png" alt=""></a></li>
-                  <li><a href="javascript:void(0)"><img src="assets/img/s36tw-mobile-home--LOGIN_05.png" alt=""><span class="notif">4</span></a></li>
-                  <li><a href="index.html"><img src="assets/img/s36tw-mobile-home--LOGIN_13.png" alt=""></a></li>
+                  <li><a href="myaccount.html"><img src="assets/img/afterlogin/1.png" alt=""><span style="display:inline-block; margin-left:12px;">個人信息</span></a></li>
+                  <li><a href="wallet.html"><img src="assets/img/afterlogin/2.png" alt=""><span style="display:inline-block; margin-left:12px;">我的錢包</span></a></a></li>
+                  <li><a href="javascript:void(0)"><img src="assets/img/afterlogin/3.png" alt=""><span style="display:inline-block; margin-left:12px;">系統公告</span></a></a></li>
+                  <li><a href="index.html"><img src="assets/img/afterlogin/4.png" alt=""><span style="display:inline-block;text-align:left; margin-left:12px;">退出</span></a></a></li>
                 </ul>
               </div>
           </div>
@@ -659,8 +659,11 @@
                                     <input type="text" name="Ntlr_DepositSecureId" id="Ntlr_DepositSecureId" class="form-control display-inline-block" value="" required>
                                 </div>
 
-                                <p class="botton deposit-neteller-botton">
-                                    <input type="Submit" value="Confirm" class="btn-hidden">
+                                <p class="botton">
+                                    <input type="Submit" value="確認" class="btn-hidden">
+                                </p>
+                                <p class="botton pay-state">
+                                    <input type="Submit" value="支付說明" class="btn-hidden">
                                 </p>
                                 <input type="hidden" name="reference" value="20170608175916">
                                 <input type="hidden" name="fronturi" value="http://merchant.com/Front.aspx">
@@ -1176,7 +1179,7 @@
                                 <div class="tab-pane active" id="login">
                                     <div class="tab-content">
                                       <div role="tabpanel" class="tab-pane fade active" id="myModalTab1-1">
-                                        <p class="login-info"><span>登录</span></p>
+                                        <p class="login-info"><span>賬戶登入</span></p>
                                         <form role="form" class="form-horizontal">
                                           <div class="form-group">
                                               <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
@@ -1213,14 +1216,15 @@
                                                   <p><a href="javascript:void(0)" class="csmodal-forgot">忘記賬號或密碼？<br><span>聯繫在線客服</span></a></p>
                                                 </div>
                                             </div>
-                                            <div class="form-group text-center cta-accounts"><a href="#myModalTab1-2" aria-controls="home" role="tab" data-toggle="tab">沒有帳號？ 在這裡註冊！</a></div>
+
 
                                         </form>
 
                                       </div>
                                       <div role="tabpanel" class="tab-pane fade" id="myModalTab1-2">
-                                        <p class="login-info login-info-reg"><span>注册帳戶 免費、簡單、快速</span></p>
-                                        
+                                        <p class="login-info login-info-reg"><span>账户注册<i class="login-info-span">免費、簡單、快速</i></span></p>
+
+
                                         <div class="col-md-6">
                                             <form role="form" class="form-horizontal">
                                               <div class="form-group">
@@ -1286,7 +1290,7 @@
                                                     </label>
                                                 </div>
                                             </div>
-                                              <div class="text-center cta-accounts"><a href="#myModalTab1-1" aria-controls="home" role="tab" data-toggle="tab">已經有賬戶？ 登錄這裡！</a></div>
+
                                         </div>
                                       </div>
                                     </div>
@@ -1308,6 +1312,8 @@
                                         </div>
                                         <div class=" pull-right">
                                             <div class="modal-bottom">
+                                              <a href="#myModalTab1-2" class="myModal2b_login_a" aria-controls="home" role="tab" data-toggle="tab">沒有帳號？ 在這裡註冊！</a>
+                                              <a href="#myModalTab1-1" class="myModal2b_registration_a" aria-controls="home" role="tab" data-toggle="tab" style="display: none">已經有賬戶？ 登錄這裡！</a>
                                               <a href="javascript:void(0)" id="myModal2b_login" class="btn btn-warning sweet-14" >立即登錄</a>
                                               <button type="button" id="myModal2b_registration" class="btn btn-warning sweet-15" style="display: none" > 註冊賬號  </button>
                                             </div>
@@ -1427,7 +1433,7 @@
           <div class="modal-body">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <div class="content-title ctitle">
-              <h1>S36 免费电话回拨</h1>
+              <h1>免費電話回撥</h1>
             </div>
             <div class="forms chatserver-form">
               <p>欢迎使用免费电话回拨功能，请输入您的电话号码，然后点击“送出”按钮！一般情况下，我们將会在15分鐘內給您回电。</p>
