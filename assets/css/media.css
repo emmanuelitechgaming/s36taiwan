@@ -2038,8 +2038,11 @@
       display: inline-block !important;
       width: 22.4%
     }
+    .pay-state {
+        margin: 10px 0 10px 25px!important;
+    }
     .botton {
-        margin: 10px 145px;
+        margin: 10px 0px 10px 150px;
     }
     .botton.deposit-neteller-botton {
       margin: 10px 240px;
