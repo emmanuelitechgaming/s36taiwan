@@ -5877,5 +5877,11 @@ color: #c4c4c4 !important;
   top: -7px;
   left: 14px;
   z-index: 10;
-
+}
+.header-cs ul li{
+  border: 1px solid #4a4a4a;
+  border-bottom: none
+}
+.header-cs ul li:last-child{
+  border-bottom: 1px solid #4a4a4a
 }
