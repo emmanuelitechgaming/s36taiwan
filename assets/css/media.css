@@ -26,6 +26,7 @@
     position: fixed;
     cursor: pointer;
     bottom: 65px;
+    z-index: 99999
 }
   .modal-panel-dialog{
     width: auto;
@@ -663,9 +664,10 @@
       white-space: nowrap;
       margin-left: -30px;
     }
-    main .win-game img{
+    .win-game img{
       margin-left: -10px;
-      bottom: -10px
+      bottom: -10px;
+      margin-top: 10px;
     }
     .live-game-txtba a {
       padding-bottom: 3px;
@@ -735,6 +737,18 @@
     }
     .live-games img {
         max-width: 88%;
+    }
+    .contactus{
+      padding: 5px 0px;
+    }
+    .contactus ul li span{
+      margin-left: 10px;
+    }
+    .contactus ul li:nth-child(2) span{
+      margin-left: 20px;
+    }
+    .contactus ul li:nth-child(3) span{
+      margin-left: 15px
     }
 }
 
@@ -871,6 +885,12 @@
     }
     .contactus{
       font-size: 15px;
+    }
+    .contactus{
+      padding: 5px 8px;
+    }
+    .win-game img{
+      margin-top: 8px;
     }
 }
 
@@ -1084,6 +1104,9 @@
     .tab-panel-casino .nav>li>a {
       padding: 5px 47px !important;
     }
+    .win-game img{
+      margin-top: 7px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1196,6 +1219,9 @@
     }
     .contactus{
       font-size: 16px;
+    }
+    .win-game img{
+      margin-top: 6px;
     }
 }
 
@@ -1514,6 +1540,10 @@
       left: 45%;
       top: 25%;
     }
+    .win-game img{
+      margin-top: 0px;
+      margin-bottom: 2px;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -1535,6 +1565,9 @@
         top: 18px;
         left: -208px;
         font-size: 11px;
+    }
+    .win-game img{
+      margin-bottom: 4px;
     }
 }
 
@@ -1612,6 +1645,12 @@
     }
     .selectpicker2 {
       left: -211px;
+    }
+}
+
+@media only screen and (min-width: 732px) {
+  .win-game img{
+      margin-bottom: 4px;
     }
 }
 
@@ -2163,6 +2202,8 @@
     }
     main .win-game img {
       bottom: -3px;
+      margin-bottom: 0px;
+      margin-top: 5px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
       bottom: 13px;
@@ -2251,6 +2292,22 @@
     }
     .live-games img {
         max-width: 100%;
+    }
+    .contactus ul li span{
+      margin-left: 30px;
+    }
+    .contactus{
+      padding: 5px 20px;
+    }
+    .contactus ul li:nth-child(2) span{
+      margin-left: 40px;
+    }
+    .contactus ul li:nth-child(3) span{
+      margin-left: 35px
+    }
+    #myModal .pull-right .modal-bottom{
+      position: absolute;
+      right: 0;
     }
 }
 

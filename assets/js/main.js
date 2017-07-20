@@ -28,24 +28,30 @@ $(document).ready(function () {
         }
   });
 
-  $(".btn-log").hover(function() {
-  		$(this).attr("src","assets/img/login-hover.png");
-  			}, function() {
-  		$(this).attr("src","assets/img/login.png");
-  	});
-
-    $(".btn-reg").hover(function() {
-        $(this).attr("src","assets/img/register-hover.png");
-          }, function() {
-        $(this).attr("src","assets/img/register.png");
-      });
-
-
-    $(".demo-img").hover(function() {
-        $(this).attr("src","assets/img/demo-hover.png");
-          }, function() {
-        $(this).attr("src","assets/img/demo.png");
-      });
+  // $(".btn-log").hover(function() {
+  // 		$(this).attr("src","assets/img/login-hover.png");
+  // 			}, function() {
+  // 		$(this).attr("src","assets/img/login.png");
+  // 	});
+  //
+  //   $(".btn-reg").hover(function() {
+  //       $(this).attr("src","assets/img/register-hover.png");
+  //         }, function() {
+  //       $(this).attr("src","assets/img/register.png");
+  //     });
+  //
+  //     $(".btn-reg2").hover(function() {
+  //         $(this).attr("src","assets/img/register2-hover.png");
+  //           }, function() {
+  //         $(this).attr("src","assets/img/register2.png");
+  //       });
+  //
+  //
+  //   $(".demo-img").hover(function() {
+  //       $(this).attr("src","assets/img/demo-hover.png");
+  //         }, function() {
+  //       $(this).attr("src","assets/img/demo.png");
+  //     });
 
    var hash = window.location.hash;
    if (hash != "") {
@@ -396,7 +402,7 @@ $(document).ready(function () {
 
     $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function () {
       $('.mymodal-init').removeClass('mymodal-none');
-      $('#myModal2b_registration').css('display', 'block');
+      $('#myModal2b_registration').css('display', 'inline-block');
       $('#myModal2b_login').css('display', 'none');
       $('#myModalTab li:nth-child(1)').css('top', '210px');
       $('#myModalTab li:nth-child(1)').css('display', 'block');
@@ -405,7 +411,7 @@ $(document).ready(function () {
 
     $('a[href="#myModalTab1-2"]').on('hidden.bs.tab', function () {
       $('#myModal2b_registration').css('display', 'none');
-      $('#myModal2b_login').css('display', 'block');
+      $('#myModal2b_login').css('display', 'inline-block');
       $('#myModalTab li:nth-child(1)').css('top', '150px');
       $('#myModalTab li:nth-child(1)').css('display', 'none');
       $('#myModalTab li:nth-child(2)').css('display', 'block');
@@ -436,7 +442,7 @@ $(document).ready(function () {
       $(this).css('background', 'url("assets/img/arrow up-mobile_15.png")');
     })
 
-    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/sp/reg-btn-sp.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/sp/reg-btn-sp.png"], img[src="assets/img/register.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-1"').tab('show');
     });
@@ -446,20 +452,20 @@ $(document).ready(function () {
       $('a[href="#myModalTab1-1"').tab('show');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/sp/reg-btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/sp/reg-btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"], img[src="assets/img/register2.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-2"').tab('show');
     });
 
     $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function() {
-      $('#myModal2b_registration').css('display', 'block');
-      $('#myModal2b_login').css('display', 'none');
+      $('#myModal2b_registration, .myModal2b_registration_a').css('display', 'inline-block');
+      $('#myModal2b_login,  .myModal2b_login_a').css('display', 'none');
     });
 
     $('a[href="#myModalTab1-1"]').on('shown.bs.tab', function() {
       $('.mymodal-init').addClass('mymodal-none')
-      $('#myModal2b_registration').css('display', 'none');
-      $('#myModal2b_login').css('display', 'block');
+      $('#myModal2b_registration, .myModal2b_registration_a').css('display', 'none');
+      $('#myModal2b_login, .myModal2b_login_a').css('display', 'inline-block');
     });
 
     $('#footerLinkLang').click(function() {

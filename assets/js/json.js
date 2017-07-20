@@ -63,7 +63,7 @@ $(document).ready(function(){
 
 	$(obj).each(function(k,v){
 		$('#drop')
-			.append('<div class="language-picker"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span>'+ v.country_name + '<span class="language"></span></div></div>');
+			.append('<div class="language-picker"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span><span class="cntry">'+ v.country_name + '</span><span class="language"></span></div></div>');
 
 		$('#drop2ul')
 			.append('<li><a href="javascript:void(0)" id="country2'+ k +'" data-value="'+ k +'"><span class="flag-icon '+v.flag+'"> </span> '+ v.country_name +'<span class="languages"></span></a></li>');
@@ -72,7 +72,7 @@ $(document).ready(function(){
 	$('#drop .grey').each(function(){
 		var divNum = $(this).attr('data-value');
 		$(obj[divNum].languages).each(function(k,v){
-			$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 30px'> "+ v +"</span>");
+			$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'> "+ v +"</span>");
 		})
 	});
 
@@ -84,9 +84,15 @@ $(document).ready(function(){
 		})
 	});
 
-	$('.grey').hover(function() {
+	// $('.grey').hover(function() {
+	// 	$(this).css('color','#fba601');
+	// }, function() {
+	// 	$(this).css('color','#fff');
+	// });
+
+	$('.language-span, .cntry').hover(function() {
 		$(this).css('color','#fba601');
 	}, function() {
 		$(this).css('color','#fff');
-	});
+	})
 });

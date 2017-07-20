@@ -169,7 +169,7 @@ header .header-mobile > .hm-d {
     padding: 15px 10px!important;
 }
 .main-section{
-  margin-top: 30px
+  margin-top: 20px
 }
 main .mobile-banner{
   text-align: center;
@@ -292,11 +292,13 @@ main .live-container {
     margin-right: 0;
 }
 
+
 .nav.navbar-nav.navbar-right.navbar-right li a{
   letter-spacing: 1px;
   padding: 5px 12px !important;
   font-weight: 400 !important;
   font-size: 12px;
+  color: #fff
 }
 
 main .gp-g {
@@ -701,7 +703,7 @@ div.border:before {
 
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #fff;
+    color: #fba601;
     font-size: 15px;
     border-right: 1px solid #000;
     border-left: 1px solid #3c3c3c;
@@ -3312,7 +3314,7 @@ position: relative;
 
 .swiper-slide a{
   font-size: 11px;
-  color: #fff;
+  color: #fba601;
   font-weight: 700;
   border-right: 0.5px solid #000;
   text-shadow: 2px 2px 0 rgb(0,0,0);
@@ -4218,7 +4220,7 @@ padding: 15px;
   padding: 6px 4px;
   cursor: pointer;
   min-width: 230px;
-  width: 230px;
+  width: 240px;
   background: #1B1B1B;
   display: block;
   position: relative;
@@ -4639,7 +4641,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   position: relative;
   margin-right: 1px;
   color: #fff;
-  background: #000;
+  background: #2a2a2a;
   border-right: none;
   text-shadow: none
 }
@@ -4978,6 +4980,7 @@ right: 160px;
 }
 .mnav-afterlogin ul li{
   width: 20%;
+  vertical-align: bottom;
 }
 .mnav-top ul li a{
   display: block;
@@ -4993,6 +4996,10 @@ right: 160px;
 }
 .mnav-afterlogin ul li a img{
   height: 25px;
+}
+.mnav-afterlogin ul li:nth-child(1) a img{
+  width: 28px;
+  height: 23px;
 }
 .mnav-top ul li a span{
   display: block;
@@ -5058,6 +5065,9 @@ right: 510px;
 }
 .d-fsalon .d-fsalon6 img{
   margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 4px;
+  line-height: 17px;
 }
 .d-fsalon .d-fsalon6 a{
   color: #5e5e5e
@@ -5426,7 +5436,7 @@ margin-right: -10px;
 }
 
 .panel.with-nav-tabs .panel-heading .promo-tabs li a{
-  background: #000;
+  background: #2a2a2a;
   color: #fff;
   border-radius: 0;
 }
@@ -5496,7 +5506,8 @@ margin-right: 5px;
 }
 .mobile-banner-text{
   text-align: left;
-  padding: 5px 20px 0;
+  padding: 5px 10px 10px;
+  background: #1b1b1b;
 }
 .mobile-banner-title{
   color: #fba601;
@@ -5517,7 +5528,8 @@ margin-right: 5px;
 .mobile-banner-social li{
   display: inline-block;
   width: 20px;
-  margin-right: 1px
+  margin-right: 1px;
+  vertical-align: bottom;
 }
 .mobile-banner-social li a{
   text-align: left;
@@ -5536,7 +5548,6 @@ margin-right: 5px;
 .contactus{
   color: #fff;
   background: #1b1b1b;
-  padding: 5px 20px;
   letter-spacing: 1px
 }
 .contactus p{
@@ -5557,17 +5568,10 @@ margin-right: 5px;
   padding-left: 15px;
 }
 .contactus ul li{
-  padding: 7px 0
+  padding: 8.5px 0
 }
 .contactus ul li span{
-  margin-left: 30px;
   white-space: nowrap;
-}
-.contactus ul li:nth-child(2) span{
-  margin-left: 40px;
-}
-.contactus ul li:nth-child(3) span{
-  margin-left: 35px
 }
 .contactus ul li:nth-child(1) a{
   padding-bottom: 2px;
@@ -5583,15 +5587,20 @@ margin-right: 5px;
   margin-left: 40px;
   position: relative;
 }
+.navbar-afterlogin ul li a{
+  text-decoration: none;
+  color: #fff;
+}
 .navbar-afterlogin ul li a img{
-  width: 30px;
+  width: 25px;
 }
-.navbar-afterlogin ul li:nth-child(3) a img{
+
+/*.navbar-afterlogin ul li:nth-child(3) a img{
   width: 37px;
-}
+}*/
 .navbar-afterlogin .notif{
   position: absolute;
-  top: -10px;
+  top: -4px;
   right: -11px;
   color: #fff;
   background: #f00;
@@ -5629,13 +5638,24 @@ margin-right: 5px;
   margin-top: 30px;
 }
 .login-info-reg span{
-  border-bottom: none;
-  padding: 10px 50px 0
+  padding: 10px 70px 10px 50px;
+}
+.login-info-div {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 .login-info-div span{
   color: #fba601;
   padding: 0 45px 10px;
   border-bottom: 1px solid #fba601
+}
+.login-info-span{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  position: relative;
+  bottom: 5px;
+  left: 20px;
 }
 #csModal .close, #csMsg .close{
   position: absolute;
@@ -5748,4 +5768,18 @@ position: relative;
   border-top: 1px solid #4a4a4a;
   border-left: 1px solid #4a4a4a;
   border-right: 1px solid #4a4a4a;
+}
+#csModal p{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 15px;
+}
+#myModal .pull-right .modal-bottom .btn-warning{
+  color: #fff
+}
+#myModal .pull-right .modal-bottom a{
+  color: inherit;
+}
+#myModal .pull-right .modal-bottom a:hover, #myModal .pull-right .modal-bottom a:active, #myModal .pull-right .modal-bottom a:focus{
+  text-decoration: none
 }
