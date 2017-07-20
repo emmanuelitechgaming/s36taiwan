@@ -25,7 +25,7 @@
     right: 1px;
     position: fixed;
     cursor: pointer;
-    bottom: 65px;
+    bottom: 1px;
     z-index: 99999
 }
   .modal-panel-dialog{
@@ -713,7 +713,7 @@
       margin: 2px 10px;
     }
     .scrolltotop-m{
-      bottom: 158px;
+      bottom: 44px;
     }
     .sp-back-btn{
       padding-left: 0;
@@ -1399,7 +1399,7 @@
     right: 1px;
     position: fixed;
     cursor: pointer;
-    bottom: 120px;
+    bottom: 1px;
 }
 
 @media only screen and (min-width: 568px) {
@@ -2198,6 +2198,10 @@
       left: 42%;
       top: 25%;
     }
+    .pc-ver-cas{
+      left: 46%;
+      top: 25%;
+    }
     .gp-first a {
       padding-bottom: 3px;
     }
@@ -2415,7 +2419,7 @@
       position: absolute;
       display: inline-block;
       color: #FBA601;
-      left: 148px;
+      left: 142px;
       top: 25px;
       font-size: 27px;
       font-weight: 700;
@@ -2423,7 +2427,7 @@
       word-spacing: -28px;
     }
     main .marquee {
-        width: 500px;
+        width: 490px;
         bottom: 15px;
     }
     .account-container span {

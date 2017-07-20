@@ -430,17 +430,17 @@ $(document).ready(function () {
       $('#drop3').removeClass('lang-click');
     });
 
-    $('#cta-contact').hover(function() {
-      $(this).attr('src', 'assets/img/contact-mobile hover_15.png');
-    }, function() {
-      $(this).attr('src', 'assets/img/contact-mobile_15.png');
-    })
+    // $('#cta-contact').hover(function() {
+    //   $(this).attr('src', 'assets/img/contact-mobile hover_15.png');
+    // }, function() {
+    //   $(this).attr('src', 'assets/img/contact-mobile_15.png');
+    // })
 
-    $('.btn-top').hover(function() {
-      $(this).css('background', 'url("assets/img/arrow up-mobile hover_15.png")');
-    }, function() {
-      $(this).css('background', 'url("assets/img/arrow up-mobile_15.png")');
-    })
+    // $('.btn-top').hover(function() {
+    //   $(this).css('background', 'url("assets/img/arrow up-mobile hover_15.png")');
+    // }, function() {
+    //   $(this).css('background', 'url("assets/img/arrow up-mobile_15.png")');
+    // })
 
     $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/register2.png"]').click(function() {
       $('#myModal').modal('show');

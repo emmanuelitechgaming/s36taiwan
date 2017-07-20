@@ -16,7 +16,7 @@ header{
   background: url('../img/casino-bg.png');
 
   background-repeat: no-repeat;
-  background-position-x: 825px;
+  background-position-x: 680px;
   background-position-y: 1px;
 }
 header .top-header{
@@ -148,7 +148,7 @@ header .navbar-form {
 }
 
 header .navbar {
-    margin-bottom: 0px;
+    margin-bottom: -1px;
 }
 
 header .cs-container {
@@ -2205,8 +2205,8 @@ right: 1px;
     padding: 2px 10px;
     text-decoration: none;*/
     display: inline-block;
-    width: 23px;
-    height: 23px;
+    width: 35px;
+    height: 35px;
     background: url('../img/arrow up-mobile_15.png');
     background-size: cover
 }
@@ -5010,7 +5010,7 @@ right: 160px;
 }
 .bs-slider-overlay{
   position: absolute;
-bottom: 56px;
+bottom: 48px;
 right: 510px;
 }
 
@@ -5854,4 +5854,28 @@ color: #c4c4c4 !important;
 }
 .modal{
   padding: 0!important;
+}
+#menu-m{
+  position: absolute;
+  z-index: 1049;
+  background: #333333;
+  border-radius: 4px;
+}
+#menu-m ul{
+  width: 50px;
+}
+.menu-m-xs{
+  position: relative;
+  display: inline-block;
+}
+.menu-m::before {
+  content: "";
+  border-bottom: 10px solid #333333;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: -7px;
+  left: 14px;
+  z-index: 10;
+
 }
