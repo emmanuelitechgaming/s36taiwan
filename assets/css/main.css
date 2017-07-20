@@ -5667,11 +5667,13 @@ margin-right: 5px;
 }
 .top-header-clock img{
   margin-right: 0 !important;
+  position: relative;
+  top: 2px
 }
 .top-header-clock span{
   margin-left: 0 !important;
   position: relative;
-  top: 1px;
+  top: 4px;
 }
 .top-header .pull-right li{
   margin: 0 0px
