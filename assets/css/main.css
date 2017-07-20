@@ -127,12 +127,14 @@ header .btn-default:active {
 }
 
 header .navbar-cta-btn {
-    margin: 3px 5px;
+  margin: -5px -6px;
 }
 
 header .navbar-cta-btn a {
     display: inline-block;
-    margin: 0 5px;
+    margin: 0px 13px;
+        margin-top: 0px;
+    margin-top: -5px;
 }
 
 header .hamburger {
@@ -705,7 +707,7 @@ div.border:before {
 
 .navbar-inverse .navbar-nav > li > a {
     color: #fba601;
-    font-size: 14px;
+    font-size: 16px;
     border-right: 1px solid #000;
     border-left: 1px solid #3c3c3c;
     font-weight: 700;
@@ -5675,7 +5677,7 @@ margin-right: 5px;
   top: 4px;
 }
 .top-header .pull-right li{
-  margin: 0 0px
+  margin: 0 18px
 }
 #cscall{
   font-size: 16px;
