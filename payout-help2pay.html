@@ -54,7 +54,7 @@
             <ul class="pull-right">
                 <li><a href="javascript:void(0)" class="group-border lang"><div id="drop" class="drop"></div></a></li>
 
-                <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span> 4:31  下午 周二2017年07月17日</span></a></li>
+                <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:18px; height: 18px" alt=""><span> 4:31  下午 周二2017年07月17日</span></a></li>
                     <li class="drop-lang-picker"><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown" style="margin: 3px;"><i class="flag-icon flag-icon-tw"> </i> 繁 <i class="fa fa-caret-down"></i></button></a></li>
                 <li>
                   <div id="drop3" class="drop desktop-support">
@@ -638,15 +638,15 @@
                             <form method="post" action="http://122.152.160.69/paymenttest/payoutpostrequest.php" onsubmit="window.open('about:blank','payout_print_popup','width=600,height=400');" target="payout_print_popup" id="payoutForm">
                                 <div class="title">提款</div>
                                 <div class="display-block">
-                                    <div class="account-text">MemberCode: </div>
+                                    <div class="account-text">會員編號：</div>
                                     <input type="text" name="MemberCode" class="form-control display-inline-block wallet-text" value="player01" required>
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">CurrencyCode</div>
+                                    <div class="account-text">貨幣代碼：</div>
                                     <div class="form-group">
                                         <select id="CurrencyCode" name="CurrencyCode" class="form-control">
-                                            <option value="">--- SELECT CURRENCY ---</option>
+                                            <option value="">選擇貨幣</option>
                                             <option value="MYR">RM MYR</option>
                                             <option value="THB">฿ THB</option>
                                             <option value="VND">₫ VND</option>
@@ -656,26 +656,26 @@
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">Amount: </div>
+                                    <div class="account-text">量：</div>
                                     <input type="text" name="Amount" value="0.00" class="amount form-control display-inline-block wallet-text" required>
                                 </div>
 
                                 <div class="display-block" style="display: none !important">
-                                    <div class="account-text">MerchantCode: </div>
+                                    <div class="account-text">商家代碼：</div>
                                     <input type="text" name="MerchantCode" class="form-control display-inline-block" value="M0068" required>
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">BankCode</div>
+                                    <div class="account-text">銀行代碼</div>
                                     <div class="form-group">
                                         <div id="Noneb" name="None">
                                             <select id="bank1b" name="bank1" class="form-control">
-                                                <option value="">--- SELECT BANK ---</option>
+                                                <option value="">選擇銀行</option>
                                             </select>
                                         </div>
                                         <div id="MYR" name="MYR" class="payoutbank inv">
                                             <select id="bank2b" name="bank2" class="form-control">
-                                                <option value="">--- SELECT BANK ---</option>
+                                                <option value="">選擇銀行</option>
                                                 <option value="MBB">MBB</option>
                                                 <option value="PBB">PBB</option>
                                                 <option value="CIMB">CIMB</option>
@@ -686,7 +686,7 @@
                                         </div>
                                         <div id="THB" name="THB" class="payoutbank inv">
                                             <select id="bank3b" name="bank3" class="form-control">
-                                                <option value="">--- SELECT BANK ---</option>
+                                                <option value="">選擇銀行</option>
                                                 <option value="KKR">KKR</option>
                                                 <option value="BBL">BBL</option>
                                                 <option value="SCB">SCB</option>
@@ -697,7 +697,7 @@
                                         </div>
                                         <div id="VND" name="VND" class="payoutbank inv">
                                             <select id="bank4b" name="bank4" class="form-control">
-                                                <option value="">--- SELECT BANK ---</option>
+                                                <option value="">選擇銀行</option>
                                                 <option value="TCB">TCB</option>
                                                 <option value="SACOM">SACOM</option>
                                                 <option value="VCB">VCB</option>
@@ -710,7 +710,7 @@
                                         </div>
                                         <div id="IDR" name="IDR" class="payoutbank inv">
                                             <select id="bank5b" name="bank5" class="form-control">
-                                                <option value="">--- SELECT BANK ---</option>
+                                                <option value="">選擇銀行</option>
                                                 <option value="BCA">BCA</option>
                                                 <option value="BNI">BNI</option>
                                                 <option value="BRI">BRI</option>
@@ -719,7 +719,7 @@
                                         </div>
                                         <div id="MMK" name="MMK" class="payoutbank inv">
                                             <select id="bank6b" name="bank6" class="form-control">
-                                                <option value="">--- SELECT BANK ---</option>
+                                                <option value="">選擇銀行</option>
                                                 <option value="AYA">AYA</option>
                                                 <option value="CCB">CCB</option>
                                                 <option value="KBZ">KBZ</option>
@@ -727,7 +727,7 @@
                                         </div>
                                         <div id="CNY" name="CNY" class="payoutbank inv">
                                             <select id="bank7b" name="bank7" class="form-control">
-                                                <option value="">--- SELECT BANK ---</option>
+                                                <option value="">選擇銀行</option>
                                                 <option value="ABC">ABC</option>
                                                 <option value="BOC">BOC</option>
                                             </select>
@@ -737,32 +737,32 @@
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">Account Name: </div>
+                                    <div class="account-text">用戶名：</div>
                                     <input type="text" name="toBankAccountName" class="form-control display-inline-block wallet-text" value="Ng Chee Meng" required>
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">Account Number: </div>
+                                    <div class="account-text">帳號： </div>
                                     <input type="text" name="toBankAccountNumber" class="form-control display-inline-block wallet-text" value="1234567890" required>
                                 </div>
 
                                 <div class="display-block" style="display: none !important">
-                                    <div class="account-text">Note: </div>
+                                    <div class="account-text">注意：</div>
                                     <input type="text" name="Note" class="form-control display-inline-block wallet-text" value="" required>
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">Province: </div>
+                                    <div class="account-text">省：</div>
                                     <input type="text" name="toProvince" class="form-control display-inline-block wallet-text" value="" required>
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">City: </div>
+                                    <div class="account-text">市： </div>
                                     <input type="text" name="toCity" class="form-control display-inline-block wallet-text" value="" required>
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">Branch: </div>
+                                    <div class="account-text">科：</div>
                                     <input type="text" name="toBranch" class="form-control display-inline-block wallet-text" value="" required>
                                 </div>
 
