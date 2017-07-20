@@ -3162,7 +3162,6 @@ position: relative;
 
 .tdw-body{
   background: #111;
-  padding: 20px 0;
   overflow: hidden;
 }
 .tdw-body .col-md-3{
@@ -5786,4 +5785,18 @@ position: relative;
 }
 #myModal .pull-right .modal-bottom a:hover, #myModal .pull-right .modal-bottom a:active, #myModal .pull-right .modal-bottom a:focus{
   text-decoration: none
+}
+.wallet-text{
+  background: #333333;
+  border: 2px solid #333333;
+  border-radius: 3px !important;
+  padding: 6px 16px !important;
+  outline: 0;
+  color: #c4c4c4 !important
+}
+.wallet-text::-webkit-input-placeholder, .wallet-text::-moz-placeholder, .wallet-text:-moz-placeholder{
+  color: #c4c4c4
+}
+.helpcenter .tab-pane{
+  padding-right: 20px;
 }
