@@ -53,7 +53,7 @@
             <ul class="pull-right">
               <li><a href="javascript:void(0)" class="group-border lang"><div id="drop" class="drop"></div></a></li>
 
-              <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span> 4:31  下午 周二2017年07月17日</span></a></li>
+              <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:18px; height: 18px" alt=""><span> 4:31  下午 周二2017年07月17日</span></a></li>
                     <li class="drop-lang-picker"><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown" style="margin: 3px;"><i class="flag-icon flag-icon-tw"> </i> 繁 <i class="fa fa-caret-down"></i></button></a></li>
                 <li>
                   <div id="drop3" class="drop desktop-support">
@@ -521,7 +521,7 @@
                 <ul>
                   <li><a href="myaccount.html"><img src="assets/img/afterlogin/1.png" alt=""><span style="display:inline-block; margin-left:12px;">個人信息</span></a></li>
                   <li><a href="wallet.html"><img src="assets/img/afterlogin/2.png" alt=""><span style="display:inline-block; margin-left:12px;">我的錢包</span></a></a></li>
-                  <li><a href="javascript:void(0)"><img src="assets/img/afterlogin/3.png" alt=""><span style="display:inline-block; margin-left:12px;">系統公告</span></a></a></li>
+                  <li><a href="javascript:void(0)" data-toggle="modal" data-target="#noticeModal"><img src="assets/img/afterlogin/3.png" alt=""><span style="display:inline-block; margin-left:12px;">系統公告</span></a></a></li>
                   <li><a href="index.html"><img src="assets/img/afterlogin/4.png" alt=""><span style="display:inline-block;text-align:left; margin-left:12px;">退出</span></a></a></li>
                 </ul>
               </div>
@@ -631,7 +631,7 @@
                                     <div class="account-text">存款：</div>
                                     <div class="form-group">
                                         <select id="currency" name="currency" class="form-control">
-                                            <option value="">--- SELECT CURRENCY ---</option>
+                                            <option value="">選擇貨幣</option>
                                             <option value="MYR">RM MYR</option>
                                             <option value="THB">฿ THB</option>
                                             <option value="VND">₫ VND</option>
@@ -642,21 +642,21 @@
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">Customer: </div>
-                                    <input type="text" name="customer" class="form-control display-inline-block" value="220099" required>
+                                    <div class="account-text">顧客： </div>
+                                    <input type="text" name="customer" class="form-control display-inline-block wallet-text" value="220099" required>
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">Amount: </div>
-                                    <input type="text" name="amount" class="amount form-control display-inline-block" value="0.00" required>
+                                    <div class="account-text">量：</div>
+                                    <input type="text" name="amount" class="amount form-control display-inline-block wallet-text" value="0.00" required>
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">Bank: </div>
+                                    <div class="account-text">銀行：</div>
                                     <div class="form-group">
                                         <div id="None" name="None">
                                             <select id="bank1" name="bank1" class="form-control">
-                                                <option value="">--- SELECT BANK ---</option>
+                                                <option value="">選擇銀行</option>
                                             </select>
                                         </div>
                                         <div id="MYR" name="MYR" class="depositbank inv">
@@ -712,7 +712,7 @@
                                     <input type="Submit" value="確認" class="btn-hidden">
                                 </p>
                                 <p class="botton pay-state">
-                                    <input type="Submit" value="支付說明" class="btn-hidden">
+                                    <input type="button" data-toggle="modal" data-target="#pay-statement" value="支付說明" class="btn-hidden">
                                 </p>
                                 <input type="hidden" name="reference" value="20170608175916">
                                 <input type="hidden" name="fronturi" value="http://merchant.com/Front.aspx">
@@ -1177,17 +1177,71 @@
                     <div class="forms chatserver-form">
                         <form action="">
                             <div class="form-group">
-                                <label>称呼 <span>*必填</span></label>
+                                <label>稱呼<span>*必填</span></label>
                                 <input type="text" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="">用户名</label>
+                                <label for="">用戶名</label>
                                 <input type="text" class="form-control">
                             </div>
                             <div class="form-group text-right">
-                                <button type="submit">开始聊天</button>
+                                <button type="submit">開始聊天</button>
                             </div>
                         </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="pay-statement">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="content-title ctitle">
+                        <h1>支付說明</h1>
+                    </div>
+                    <div class="paystatement">
+                      <div class="pay-title">
+                        註冊
+                      </div>
+                      <div class="pay-info">
+                       • 在您進行任何交易前， 必須先 “<span>創建一個真錢賬戶</span>”。
+                      </div>
+                      <div class="pay-title">
+                        存款
+                      </div>
+                      <div class="pay-info">
+                        • 登錄您的賬戶後點擊 “<span>我的錢包</span>”，選擇您最便利的支付方式進行存款交易。
+                      </div>
+                      <div class="pay-title">
+                        取款
+                      </div>
+                      <div class="pay-info">
+                        • 登錄您的賬戶後點擊 “<span>我的錢包</span>”，選擇您便捷的收款方式以進行取款交易。
+                      </div>
+                      <div class="pay-title">
+                        查詢
+                      </div>
+                      <div class="pay-info">
+                        • 登錄您的賬戶查看目前餘額，點擊 “<span>我的記錄</span>”，查看存款及取款的狀態和記錄。
+                      </div>
+                      <div class="pay-title">
+                        協助
+                      </div>
+                      <div class="pay-info">
+                        • 想了解更多相關信息或尋求幫助， 請隨時聯繫我們的 “<span>客戶服務部門</span>”。
+                      </div>
+                      <br>
+                      <div class="pay-title">
+                        重要提醒 :
+                      </div>
+                      <div class="pay-info">
+                        • 不允許第三方代表您進行任何交易行為或其他活動。<br>
+                        • 匯款人及收款人限同名帳戶，姓名必須與註冊時的信息一致。<br>
+                        • 您當地銀行的一些政策及限制，也許會影響您的交易額度和處理時間。
+
+                      </div>
                     </div>
                 </div>
             </div>
@@ -1205,7 +1259,7 @@
                           <ul class="nav nav-tabs mymodal-init mymodal-none">
                                 <li class="active">
                                     <a href="javascript:void(0)" data-toggle="tab" aria-controls="login" role="tab">
-                                        <span><img src="assets/img/modal_1.png" class="img-responsive" alt=""></span> 注册/登錄
+                                        <span><img src="assets/img/modal_1.png" class="img-responsive" alt=""></span> 註冊/登錄
                                     </a>
                                 </li>
                                 <li class="connecting-line cl1"></li>
@@ -1217,7 +1271,7 @@
                                 <li class="connecting-line cl2"></li>
                                 <li class="">
                                     <a href="javascript:void(0)" data-toggle="tab" aria-controls="demo" role="tab">
-                                        <span><img src="assets/img/modal_3.png" class="img-responsive" alt=""></span> 开始游戏
+                                        <span><img src="assets/img/modal_3.png" class="img-responsive" alt=""></span> 開始遊戲
                                     </a>
                                 </li>
                             </ul>
@@ -1238,19 +1292,19 @@
                                           </div>
                                             <div class="form-group">
                                                 <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label">
-                                                    输入账号</label>
+                                                    輸入賬號</label>
                                                 <div class="col-md-9 col-sm-4">
                                                     <div class="input-border">
-                                                        <input type="email" class="form-control" placeholder="输入账号" />
+                                                        <input type="email" class="form-control" placeholder="輸入賬號" />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label for="exampleInputPassword1" class="col-md-2 col-md-offset-0 col-sm-12 col-md-offset-2  control-label">
-                                                    输入密码</label>
+                                                    輸入密碼</label>
                                                 <div class="col-md-9 col-sm-4">
                                                     <div class="input-border">
-                                                        <input type="email" class="form-control" placeholder="输入密码" />
+                                                        <input type="email" class="form-control" placeholder="輸入密碼" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -1271,7 +1325,7 @@
 
                                       </div>
                                       <div role="tabpanel" class="tab-pane fade" id="myModalTab1-2">
-                                        <p class="login-info login-info-reg"><span>账户注册<i class="login-info-span">免費、簡單、快速</i></span></p>
+                                        <p class="login-info login-info-reg"><span>賬戶註冊<i class="login-info-span">免費、簡單、快速</i></span></p>
 
 
                                         <div class="col-md-6">
@@ -1307,7 +1361,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="mobile" class="col-sm-4 control-label">建立密码 *</label>
+                                                    <label for="mobile" class="col-sm-4 control-label">建立密碼 *</label>
                                                     <div class="col-sm-8">
                                                         <div class="input-border">
                                                             <input type="email" class="form-control" id="mobile" />
@@ -1315,7 +1369,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="password" class="col-sm-4 control-label">确认密码 *</label>
+                                                    <label for="password" class="col-sm-4 control-label">確認密碼 *</label>
                                                     <div class="col-sm-8">
                                                         <div class="input-border">
                                                             <input type="password" class="form-control" id="password" />
@@ -1450,23 +1504,23 @@
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <div class="content-title ctitle">
-                        <h1> S36.asia 即時短訊</h1>
+                        <h1> 網上短信</h1>
                     </div>
 
 
                     <div class="forms chatserver-form">
                         <form action="">
                             <div class="form-group">
-                                <label>您的名称：</label>
+                                <label>您的名稱：</label>
                                 <input type="text" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="">编写短讯内容：</label>
+                                <label>編寫短訊內容：</label>
                                 <textarea class="form-control" ></textarea>
-                                <label for="">(160 个英文字符或 70 个中文字符)</label>
+                                <label for="">（160個中文字符或70個中文字符）</label>
                             </div>
                             <div class="form-group text-right">
-                                <button type="submit">发送</button>
+                                <button type="submit">發送</button>
                             </div>
                         </form>
                     </div>
@@ -1484,7 +1538,7 @@
               <h1>免費電話回撥</h1>
             </div>
             <div class="forms chatserver-form">
-              <p>欢迎使用免费电话回拨功能，请输入您的电话号码，然后点击“送出”按钮！一般情况下，我们將会在15分鐘內給您回电。</p>
+              <p>歡迎使用免費電話回撥功能，請輸入您的電話號碼，然後點擊“送出”按鈕！一般情況下，我們將會在15分鐘內給您回電。</p>
             <br>
             <form action="">
               <div class="form-group">
@@ -1496,45 +1550,45 @@
               <div class="form-group">
                 <div class="row">
                   <div class="col-xs-5">
-                    <label>您的国家码：</label>
+                    <label>您的國家碼：</label>
                     <select class="form-control select-country-code" data-input-name="country" id="csCallselect" >
                       <option value="">Select</option>
-                      <option value="cn">(+0086)</option>
-                      <option value="tw">(+0886)</option>
-                      <option value="vn">(+0084)</option>
-                      <option value="id">(+0062)</option>
-                      <option value="my">(+0060)</option>
-                      <option value="th">(+0066)</option>
-                      <option value="jp">(+0081)</option>
-                      <option value="ko">(+0082)</option>
-                      <option value="in">(+0091)</option>
+                      <option value="cn">(0086)</option>
+                      <option value="tw">(0886)</option>
+                      <option value="vn">(0084)</option>
+                      <option value="id">(0062)</option>
+                      <option value="my">(0060)</option>
+                      <option value="th">(0066)</option>
+                      <option value="jp">(0081)</option>
+                      <option value="ko">(0082)</option>
+                      <option value="in">(0091)</option>
                     </select>
                   </div>
                   <div class="col-xs-7">
-                    <label>您的电话号码：</label>
+                    <label>您的電話號碼：</label>
                     <input type="text" class="form-control">
                   </div>
                 </div>
               </div>
               <div class="form-group">
 
-              <label for="">(当第一个数字为0时则省略0)</label>
+              <label for="">（當第一個數字為0時則省略0）</label>
               </div>
               <div class="form-group">
                 <div class="row">
                   <div class="col-xs-6">
-                    <label for="">验证码：</label>
+                    <label for="">驗證碼：</label>
                     <input type="text" class="form-control">
                   </div>
                   <div class="col-xs-6" style="margin-top: 27px;">
-                    <label >换一个图片：</label>
+                    <label >換一個圖片：</label>
                     <img src="assets/img/footer/verify.png" style="margin:0;" alt="">
                   </div>
                 </div>
               </div>
             </div>
             <div class="form-group text-right">
-              <button type="submit" id="cscall">发送</button>
+              <button type="submit" id="cscall">發送</button>
             </div>
           </form>
           </div>
