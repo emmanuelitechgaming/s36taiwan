@@ -674,7 +674,7 @@
                                     <input type="Submit" value="確認" class="btn-hidden">
                                 </p>
                                 <p class="botton pay-state">
-                                    <input type="Submit" value="支付說明" class="btn-hidden">
+                                    <input type="button" data-toggle="modal" data-target="#pay-statement" value="支付說明" class="btn-hidden">
                                 </p>
                             </form>
                         </div>
@@ -1445,10 +1445,14 @@
             <br>
             <form action="">
               <div class="form-group">
-                <label>您的語言：</label>
-                <div class="form-group">
-                        <div id="csCallselectflag" data-input-name="country"></div>
-                      </div>
+                <div class="row">
+                  <div class="col-xs-5">
+                    <label>您的語言：</label>
+                    <div class="form-group">
+                      <div id="csCallselectflag" data-input-name="country"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="form-group">
                 <div class="row">
@@ -1497,6 +1501,61 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="pay-statement">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="content-title ctitle">
+                        <h1>支付說明</h1>
+                    </div>
+                    <div class="paystatement">
+                      <div class="pay-title">
+                        註冊
+                      </div>
+                      <div class="pay-info">
+                       • 在您進行任何交易前， 必須先 “<span>創建一個真錢賬戶</span>”。
+                      </div>
+                      <div class="pay-title">
+                        存款
+                      </div>
+                      <div class="pay-info">
+                        • 登錄您的賬戶後點擊 “<span>我的錢包</span>”，選擇您最便利的支付方式進行存款交易。
+                      </div>
+                      <div class="pay-title">
+                        取款
+                      </div>
+                      <div class="pay-info">
+                        • 登錄您的賬戶後點擊 “<span>我的錢包</span>”，選擇您便捷的收款方式以進行取款交易。
+                      </div>
+                      <div class="pay-title">
+                        查詢
+                      </div>
+                      <div class="pay-info">
+                        • 登錄您的賬戶查看目前餘額，點擊 “<span>我的記錄</span>”，查看存款及取款的狀態和記錄。
+                      </div>
+                      <div class="pay-title">
+                        協助
+                      </div>
+                      <div class="pay-info">
+                        • 想了解更多相關信息或尋求幫助， 請隨時聯繫我們的 “<span>客戶服務部門</span>”。
+                      </div>
+                      <br>
+                      <div class="pay-title">
+                        重要提醒 :
+                      </div>
+                      <div class="pay-info">
+                        • 不允許第三方代表您進行任何交易行為或其他活動。<br>
+                        • 匯款人及收款人限同名帳戶，姓名必須與註冊時的信息一致。<br>
+                        • 您當地銀行的一些政策及限制，也許會影響您的交易額度和處理時間。
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
