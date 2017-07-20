@@ -280,6 +280,7 @@ main .jackpot .col-md-6 {
 main .jackpot {
     overflow: hidden;
     margin-top: 10px;
+    margin-left: 25px;
 }
 
 main .live-container {
@@ -5823,4 +5824,20 @@ border-radius: 3px !important;
 padding: 6px 16px !important;
 outline: 0;
 color: #c4c4c4 !important;
+}
+.paystatement{
+  font-size: 14px;
+  padding: 0px;
+}
+.paystatement .pay-title{
+  font-weight: 700;
+  margin: 10px 5px;
+  font-size: 16px;
+}
+.paystatement .pay-info span{
+  color: #fba601;
+  margin: 10px;
+}
+.modal{
+  padding: 0!important;
 }
