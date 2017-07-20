@@ -5855,3 +5855,27 @@ color: #c4c4c4 !important;
 .modal{
   padding: 0!important;
 }
+#menu-m{
+  position: absolute;
+  z-index: 1049;
+  background: #333333;
+  border-radius: 4px;
+}
+#menu-m ul{
+  width: 50px;
+}
+.menu-m-xs{
+  position: relative;
+  display: inline-block;
+}
+.menu-m::before {
+  content: "";
+  border-bottom: 10px solid #333333;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: -7px;
+  left: 14px;
+  z-index: 10;
+
+}
