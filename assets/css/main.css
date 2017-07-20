@@ -5252,7 +5252,8 @@ margin-right: -10px;
 
 
   background-color: #1B1A1A;
-  overflow: hidden;
+
+  overflow: hidden;
   margin-top: 0px;
   margin-left: -10px;
   margin-right: -10px;
@@ -5277,7 +5278,6 @@ margin-right: -10px;
 .lotto-strip{
   margin-top: auto
 }
-<<<<<<< .mine
 .sp-title.text-left a{
   text-decoration: none;
   color: #fba601;
@@ -5659,7 +5659,7 @@ margin-right: 5px;
   bottom: 5px;
   left: 20px;
 }
-#csModal .close, #csMsg .close{
+#csModal .close, #csMsg .close, #demoModal .close, #csPhone .close{
   position: absolute;
   top: 0;
   right: -10px;
@@ -5692,21 +5692,21 @@ width: 100%;
 }
 #csCallselect{
   height: 34px;
-color: #c4c4c4;
-border: solid 1px #333;
-border-radius: 0;
-background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
-    background-repeat: repeat;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-size: auto auto;
-background-repeat: repeat;
-background-position-x: 0%;
-background-position-y: 0%;
-background-size: auto auto;
-background-repeat: no-repeat;
-background-position: 100% 10%;
-background-size: 8% 100%;
+  color: #c4c4c4;
+  border: solid 1px #333;
+  border-radius: 0;
+  background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  background-size: 8% 100%;
 }
 #csCallselect{
   appearance: none;
@@ -5714,7 +5714,7 @@ background-size: 8% 100%;
 -webkit-appearance: none;
 }
 .select-country-code{
-  background-size: 25% 100%!important;
+  background-size: 20% 100%!important;
 }
 #csCallselectflag button{
   font-size: .875em;
@@ -5740,9 +5740,10 @@ text-align: left;
 color: #C4C4C4;
 }
 #csCallselectflag button span.caret{
-float: right;
-
-font-size: 25px!important;
+  float: right;
+  font-size: 25px!important;
+  position: relative;
+  top: 6px;
 }
 #csCallselectflag .dropdown-menu {
   background: #333!important;
