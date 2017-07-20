@@ -16,7 +16,7 @@ header{
   background: url('../img/casino-bg.png');
 
   background-repeat: no-repeat;
-  background-position-x: 700px;
+  background-position-x: 880px;
   background-position-y: 1px;
 }
 header .top-header{
@@ -4262,8 +4262,8 @@ padding: 15px;
   color: #fba601;
 }
 .login-info{
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
   text-align: center;
   font-size: 28px;
   font-weight: 700;
@@ -4390,14 +4390,10 @@ text-shadow: 1px 1px 3px #000;
 
 
 .modal-custom-lg .modal-body{
-  background: #252525;
+  background:#252525;
   border-top: 1px solid #494949;
   color: #A4A4A4;
-  text-shadow: 1px 1px 3px #000;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 70px;
-  border-radius: 4px;
+text-shadow: 1px 1px 3px #000;
 }
 .modal-custom-lg .modal-body .nav-tabs {
     border-bottom: none !important;
@@ -5594,7 +5590,6 @@ margin-right: 5px;
 .navbar-afterlogin ul li a{
   text-decoration: none;
   color: #fff;
-  font-size: 12px;
 }
 .navbar-afterlogin ul li a img{
   width: 25px;
@@ -5643,8 +5638,7 @@ margin-right: 5px;
   margin-top: 30px;
 }
 .login-info-reg span{
-  border-bottom: none;
-  padding: 10px 50px 0;
+  padding: 10px 70px 10px 50px;
 }
 .login-info-div {
     font-size: 16px;
@@ -5654,6 +5648,14 @@ margin-right: 5px;
   color: #fba601;
   padding: 0 45px 10px;
   border-bottom: 1px solid #fba601
+}
+.login-info-span{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  position: relative;
+  bottom: 5px;
+  left: 20px;
 }
 #csModal .close, #csMsg .close{
   position: absolute;
