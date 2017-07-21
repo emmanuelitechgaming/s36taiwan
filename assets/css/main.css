@@ -5834,7 +5834,7 @@ margin-top: 35px;
   color: #c4c4c4
 }
 .helpcenter .tab-pane{
-  padding-right: 20px;
+  padding-right: 30px;
 }
 div.acc-info.acc-edit div.acc-cont input{
   background: #333333;
@@ -5889,4 +5889,7 @@ color: #c4c4c4 !important;
 }
 .header-cs ul li:last-child{
   border-bottom: 1px solid #4a4a4a
+}
+#menu-m ul li a{
+  padding: 7px 0 3px;
 }
