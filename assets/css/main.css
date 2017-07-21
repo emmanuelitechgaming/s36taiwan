@@ -4927,7 +4927,7 @@ right: 160px;
   position: relative;
   top: 2px;
 }
-.mnav-afterlogin ul li:nth-child(4) a .notif{
+.mnav-afterlogin ul li:nth-child(5) a .notif{
   position: absolute;
   background: red;
   padding: 1px 5px;
@@ -4986,7 +4986,7 @@ right: 160px;
   text-align: center;
 }
 .mnav-afterlogin ul li{
-  width: 20%;
+  width: 16.6666%;
   vertical-align: bottom;
 }
 .mnav-top ul li a{
@@ -5591,7 +5591,7 @@ margin-right: 5px;
   top: 16px;
 }
 .navbar-afterlogin ul li{
-  margin-left: 40px;
+  margin-left: 30px;
   position: relative;
 }
 .navbar-afterlogin ul li a{
