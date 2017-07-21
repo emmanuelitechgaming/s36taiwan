@@ -4388,7 +4388,9 @@ text-shadow: 1px 1px 3px #000;
   margin-left: 25px
 
 }
-
+.modal-content {
+  background: inherit;
+}
 
 
 .modal-custom-lg .modal-body{
@@ -4396,6 +4398,7 @@ text-shadow: 1px 1px 3px #000;
   border-top: 1px solid #494949;
   color: #A4A4A4;
 text-shadow: 1px 1px 3px #000;
+border-radius: 5px;
 }
 .modal-custom-lg .modal-body .nav-tabs {
     border-bottom: none !important;
@@ -5452,7 +5455,7 @@ margin-right: -10px;
   border: 0!important;
 }
 .promo-tabs-border{
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #fba601;
 margin-top: 10px;
 margin-left: 5px;
 margin-right: 5px;
