@@ -314,7 +314,7 @@ main .gp-d {
 }
 
 main .gp span {
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
 }
 
@@ -334,7 +334,7 @@ main .gp {
     padding: 0;
     color: #fba601;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 main .notice {
@@ -4998,11 +4998,11 @@ right: 160px;
   max-width: 50%;
   height: 25px;
 }
-.mnav-top ul li:nth-child(3) a img{
+/*.mnav-top ul li:nth-child(3) a img{
   height: 27px;
-}
+}*/
 .mnav-afterlogin ul li a img{
-  height: 25px;
+  /*height: 35px;*/
 }
 .mnav-afterlogin ul li:nth-child(1) a img{
   width: 28px;
