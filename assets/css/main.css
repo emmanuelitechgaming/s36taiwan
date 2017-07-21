@@ -5893,3 +5893,6 @@ color: #c4c4c4 !important;
 #menu-m ul li a{
   padding: 7px 0 3px;
 }
+.content i{
+  font-style: normal;
+}
