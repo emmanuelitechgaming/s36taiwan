@@ -454,9 +454,8 @@
     }
     .live-game-txtc {
       font-size: 14px;
-      bottom: 15px;
+      bottom: 13px;
     }
-
     .casino-mp, .slots-mp{
       top: 25px;
       right: 35px;
@@ -686,7 +685,7 @@
       left: 71px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
-      bottom: 9px;
+      bottom: 7px;
     }
     .sitemap-body2d ul, .sitemap-body2f ul, .sitemap-body2f ul li:nth-child(1) ul.columns, .sitemap-body2b ul, .sitemap-body2e ul{
       -webkit-column-count: auto;
@@ -759,6 +758,17 @@
       top: 2px;
       right: 4px;
     }
+    .gp-star{
+      position: relative;
+      top: 3px
+    }
+    .live-games.i-roulette{
+      top: -2px
+    }
+    .live-games.i-sicbo{
+      top: 2px
+    }
+}
 
 @media only screen and (min-width: 360px) {
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
@@ -874,10 +884,10 @@
     }
     .live-game-txtc {
       font-size: 14px;
-      bottom: 19px;
+      bottom: 16px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
-      bottom: 12px;
+      bottom: 9px;
     }
     .lg-playnow{
       bottom: 15.5%;
@@ -899,6 +909,10 @@
     }
     .win-game img{
       margin-top: 8px;
+    }
+    .gp-star{
+      position: relative;
+      top: 6px
     }
 }
 
@@ -2107,7 +2121,7 @@
     }
     .live-game-txtc{
       font-size: 15px;
-      bottom: 28px;
+      bottom: 25px;
     }
     .wallet .datepicker{
       width: 22.7% !important
@@ -2260,7 +2274,7 @@
       margin-top: 5px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
-      bottom: 18px;
+      bottom: 15px;
     }
     .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a{
       position: relative;
@@ -2373,6 +2387,10 @@
       width: 16px;
       height: 16px;
       right: auto;
+    }
+    .gp-star{
+      position: auto;
+      top: auto
     }
 }
 
