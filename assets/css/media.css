@@ -2392,6 +2392,19 @@
       position: auto;
       top: auto
     }
+    .live-games.i-roulette{
+      top: 4px
+    }
+    .live-games.i-fantan {
+      top: 5px;
+    }
+    .live-games.i-sicbo {
+      top: 6px;
+    }
+    .lg-angel-demon{
+      position: relative;
+      top: 1px;
+    }
 }
 
 /* Large Devices, Wide Screens */
