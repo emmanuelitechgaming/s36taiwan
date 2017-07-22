@@ -658,7 +658,7 @@
     <main>
       <div class="mobile-banner-wrapper hidden-lg hidden-md">
         <img src="assets/img/banner/mobile-banner.png" class="img-responsive index-img-banner" alt="">
-        <!-- <a href="javascript:void(0)"><img src="assets/img/banner/btn.png" class="img-responsive" alt=""></a> -->
+        <!-- <!-- <a href="javascript:void(0)"><img src="assets/img/banner/btn.png" class="img-responsive" alt=""></a> --> -->
       </div>
 
         <div class="clearfix">
@@ -707,7 +707,7 @@
                         <!-- Slide Background -->
                         <img src="assets/img/banner/1.jpg" alt="沙龍會博彩網站" title="沙龍會博彩網站" class="slide-image" />
                         <div class="bs-slider-overlay">
-                            <!-- <a href="javascript:void(0)"><img src="assets/img/banner/btn.png" alt=""></a> -->
+                            <!-- <!-- <a href="javascript:void(0)"><img src="assets/img/banner/btn.png" alt=""></a> --> -->
                         </div>
                     </div>
                     <!-- Second Slide -->
@@ -780,9 +780,9 @@
         <div class="gp container">
             <div class="col-md-6 gp-first">
                 <div class="content-title">
-                  <a href="javascript:void(0)" style="display:inline-block"><img src="assets/img/index/star.png" class="img-responsive" alt="" style="width:26px;margin-bottom: -7px;"></a>
+                  <a href="javascript:void(0)" style="display:inline-block"><img src="assets/img/index/star.png" class="img-responsive gp-star" alt="" style="width:26px;margin-bottom: -7px;"></a>
               新遊戲
-                    <a href="slots.html"><span class="pull-right"><img src="assets/img/more.png" style="width:26px;margin-top: -3px;" alt="">&nbsp; 更多</span></a>
+                    <a href="slots.html" class="gp-more"><span class="pull-right"><img src="assets/img/more.png" style="width:26px;" alt="">&nbsp; 更多</span></a>
                     <div class="border borderstyler"></div>
                 </div>
                 <div class=" row">
@@ -831,7 +831,7 @@
                 <div class="content-title content-title-live-games">
                     <a href="javascript:void(0)" style="display:inline-block"><img src="assets/img/index/live.png" class="img-responsive" alt="" style="width:26px;margin-bottom: -7px;"></a>
                     現場遊戲
-                    <a href="casino.html"><span class="pull-right"><img src="assets/img/more.png" style="width:26px;margin-top: -3px;" alt="">&nbsp; 更多</span></a>
+                    <a href="casino.html" class="gp-more"><span class="pull-right"><img src="assets/img/more.png" style="width:26px;margin-top: -3px;" alt="">&nbsp; 更多</span></a>
                     <div class="border borderstyler"></div>
                 </div>
                 <div class="gp-g row">
@@ -896,9 +896,8 @@
 
             <div class="col-md-4 col-xs-12">
                 <div class="winner-cont">
-                    <div class="win-title">最新優勝者
+                    <div class="win-title"><img src="assets/img/latest_winner_icon.png" alt="" class="img-responsive"><span>最新優勝者</span>
                         <a href="winner.html" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
-
                     </div>
                     <div class="win-body">
                         <div class="win-lot">
@@ -951,9 +950,8 @@
 
             <div class="col-md-4 col-xs-12">
                 <div class="winner-cont">
-                    <div class="win-title">熱門遊戲
+                    <div class="win-title"><img src="assets/img/top_games_icon.png" alt="" class="img-responsive"><span>熱門遊戲</span>
                         <a href="slots.html" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
-
                     </div>
                     <div class="win-body">
                         <a href="sp-slots3.html"><div class="win-lot win-lot-top-games">
@@ -1011,7 +1009,8 @@
             <div class="col-md-4 col-xs-12">
                 <div class="winner-cont">
                     <div class="contact-title">
-                        聯繫我們
+                      <img src="assets/img/contact_us_icon.png" alt="" class="img-responsive">
+                        <span>聯繫我們</span>
                         <a href="helpcenter.html#tab2" class="img-responsive pull-right"><img src="assets/img/arrow-orange.png" style="width: 24px;" alt=""></a>
                     </div>
                     <div class="contactus">
@@ -2246,9 +2245,9 @@
             swal({
                 title: "登錄成功",
                 text: "很高興為您服務，如有任何問題請隨時聯繫在線客服，我們24小時竭誠為您服務，祝您遊戲愉快！",
-                type: "success",
                 confirmButtonClass: 'btn-warning',
-                confirmButtonText: '關閉'
+                confirmButtonText: '關閉',
+                imageUrl: 'assets/img/Check_Tao.png'
             }, function(isConfirm) {
               if(isConfirm) {
                 window.location = 'afterlogin.html'
@@ -2258,10 +2257,10 @@
         document.querySelector('.sweet-15').onclick = function() {
             swal({
                 title: "註冊成功 ",
-                  text: "很感謝為您服務，如有任何問題請隨時聯繫在線客服，我們24小時竭誠為您服務，祝您遊戲愉快 ",
-                type: "success",
+                text: "很感謝為您服務，如有任何問題請隨時聯繫在線客服，我們24小時竭誠為您服務，祝您遊戲愉快 ",
                 confirmButtonClass: 'btn-warning',
-                confirmButtonText: '關閉'
+                confirmButtonText: '關閉',
+                imageUrl: 'assets/img/Check_Tao.png'
             });
         };
     </script>
