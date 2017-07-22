@@ -1825,7 +1825,7 @@
     margin-top: 0;
   }
   #myModal{
-    top:0;
+    top: -100px;
   }
   .modal-panel-dialog{
     width: 400px!important;
