@@ -820,7 +820,7 @@
       letter-spacing: 2px;
       left: -42px;
       font-size: 11px;
-      top: 20px;
+      top: 24px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 90%;
@@ -2278,7 +2278,7 @@
     }
     .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a{
       position: relative;
-      top: 2px
+      top: 0px
     }
     .live-game-txtba a{
       left: 1px;
@@ -2290,7 +2290,7 @@
       left: 5px;
     }
     .live-game-txtbd a{
-      left: 3px
+      left: 6px;
     }
     main .winner-cont {
         min-height: 303px;
@@ -2371,10 +2371,10 @@
       padding: 5px 20px;
     }
     .contactus ul li:nth-child(2) span{
-      margin-left: 40px;
+      margin-left: 31px;
     }
     .contactus ul li:nth-child(3) span{
-      margin-left: 35px
+      margin-left: 31px
     }
     #myModal .pull-right .modal-bottom{
       position: absolute;
@@ -2544,6 +2544,4 @@
 
     }
 }
-}
-/**/
 }
