@@ -488,8 +488,8 @@ $(document).ready(function () {
     });
 
     $('#myModal').on('hide.bs.modal', function () {
-      if($('.selectpicker2 .fa').hasClass('fa-caret-up')){
-        $('.selectpicker2 .fa').removeClass('fa-caret-up').addClass('fa-caret-down');
+      if($('.selectpicker2 .fa').hasClass('fa-angle-up')){
+        $('.selectpicker2 .fa').removeClass('fa-angle-up').addClass('fa-angle-down');
       }
     });
 
@@ -641,7 +641,7 @@ $(function() {
     });
 
     $('.selectpicker2').click(function() {
-      $('.selectpicker2 .fa').toggleClass('fa-caret-down fa-caret-up');
+      $('.selectpicker2 .fa').toggleClass('fa-angle-down fa-angle-up');
     })
 
     $('.selectpicker').selectpicker();
