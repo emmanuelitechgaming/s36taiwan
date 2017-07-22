@@ -183,7 +183,7 @@ main .mobile-banner{
 .mobile-banner-wrapper a{
   display: block;
   position: absolute;
-  bottom: 29%;
+  bottom: 24%;
   left: 0;
   right: 0;
 }
@@ -5418,7 +5418,7 @@ margin-right: -10px;
   padding: 0;
   background: none;
   left: auto;
-  top: 19px
+  top: 19px;
   padding-top: 5px
 }
 #m-selectpicker2 i{
@@ -5945,4 +5945,31 @@ margin-right: 10px;
 .win-title span, .contact-title span{
   position: relative;
   top: 3px
+}
+.sp-enter{
+  position: absolute;
+  max-width: 100%;
+  width: auto !important;
+  bottom: 12px;
+  right: 550px;
+}
+.reg-now img.sp-enter{
+  width: auto !important;
+  height: auto !important;
+  bottom: 51px;
+  right: 880px;
+}
+.promo-section .sp-back-btn{
+  margin-bottom: 20px;
+}
+.navaa .fa-home::before{
+  content: ' ';
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url('../img/home.png') no-repeat;
+  background-position: 0px 1px;
+}
+.fa-home-hover::before{
+  background: url('../img/home-hover.png') no-repeat;
 }
