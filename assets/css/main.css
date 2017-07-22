@@ -300,7 +300,7 @@ main .live-container {
   letter-spacing: 1px;
   padding: 5px 12px !important;
   font-weight: 400 !important;
-  font-size: 12px;
+  font-size: 14px;
   color: #fff
 }
 
@@ -314,7 +314,7 @@ main .gp-d {
 }
 
 main .gp span {
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
 }
 
@@ -334,7 +334,7 @@ main .gp {
     padding: 0;
     color: #fba601;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 main .notice {
@@ -3643,7 +3643,9 @@ display: none !important;
 
 .live-game-txtb a, .live-game-txtc a{
   display: block;
-  color: #fff;
+  color: #000;
+  text-shadow: 1px 1px rgb(255, 214, 135);
+  font-weight: 700!important;
 }
 
 .live-game-txtb a:hover, .live-game-txtc a:hover{
@@ -4998,11 +5000,11 @@ right: 160px;
   max-width: 50%;
   height: 25px;
 }
-.mnav-top ul li:nth-child(3) a img{
+/*.mnav-top ul li:nth-child(3) a img{
   height: 27px;
-}
+}*/
 .mnav-afterlogin ul li a img{
-  height: 25px;
+  /*height: 35px;*/
 }
 .mnav-afterlogin ul li:nth-child(1) a img{
   width: 28px;
@@ -5415,7 +5417,7 @@ margin-right: -10px;
   padding: 0;
   background: none;
   left: auto;
-  top: 18px;
+  top: 25px;
   padding-top: 5px
 }
 #m-selectpicker2 i{
@@ -5906,4 +5908,4 @@ color: #c4c4c4 !important;
   background: url('../img/country.png') no-repeat;
   background-size: cover;
 }
-/**/
+
