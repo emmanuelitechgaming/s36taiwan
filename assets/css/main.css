@@ -2540,6 +2540,7 @@ select + i.fa {
   position: absolute;
   text-align: center;
   color: rgba(26, 26, 26, 0.8) !important;
+    text-shadow: 1px 1px rgb(255, 214, 135);
   font-weight: 700;
   font-size: 19px;
 }
@@ -3649,7 +3650,7 @@ display: none !important;
 }
 
 .live-game-txtb a:hover, .live-game-txtc a:hover{
-  color: #fba601;
+color: rgba(49, 49, 49, 0.5) !important;
   text-decoration: none
 }
 
