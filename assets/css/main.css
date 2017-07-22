@@ -5896,14 +5896,14 @@ color: #c4c4c4 !important;
 .content i{
   font-style: normal;
 }
+.before-login{
+  width: 135px;
+}
 .selectpicker2::before{
   content: ' ';
   display: inline-block;
   position: relative;
   background: url('../img/country.png') no-repeat;
   background-size: cover;
-}
-.before-login{
-  width: 135px;
 }
 /**/
