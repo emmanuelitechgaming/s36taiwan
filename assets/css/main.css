@@ -127,7 +127,7 @@ header .btn-default:active {
 }
 
 header .navbar-cta-btn {
-  margin: -5px -6px;
+  margin: -6px -6px;
 }
 
 header .navbar-cta-btn a {
@@ -334,7 +334,7 @@ main .gp {
     padding: 0;
     color: #fba601;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 main .notice {
@@ -359,7 +359,7 @@ main .borderstyler {
 
 main .win-title {
     background: #161616;
-    padding: 7px 10px;
+    padding: 10px;
     color: #fba601;
     font-size: 18px;
     font-weight: 700;
@@ -398,7 +398,7 @@ main .win-body {
 }
 
 main .win-lot {
-    padding: 10px 0;
+    padding: 10.2px 0;
     border-bottom: 1px solid #000;
     border-top: 1px solid #303030;
     overflow: hidden;
@@ -429,7 +429,7 @@ main .win-body span {
 
 main .contact-title {
     background: #161616;
-    padding: 8px 10px;
+    padding: 11px;
     color: #fba601;
     font-size: 18px;
     font-weight: 700;
@@ -2662,9 +2662,7 @@ select + i.fa {
 
 .selectpicker2 .fa{
   color: #fba601;
-  font-size: 18px;
-  position: relative;
-  top: 1px
+  font-size: 12px;
 }
 
 .selectpicker2-menu{
@@ -4242,7 +4240,7 @@ padding: 15px;
   position: absolute;
   z-index: 88888;
   /*top: 125px !important*/
-  top: 31px !important
+  top: 30px !important
 }
 .language-picker{
   display: inline-block;
@@ -4927,7 +4925,7 @@ right: 160px;
   position: relative;
 }
 .mnav-afterlogin ul li:nth-child(4) a img{
-  height: 25px;
+  height: 24px;
   margin-bottom: 5px;
   position: relative;
   top: 2px;
@@ -5011,7 +5009,7 @@ right: 160px;
 }
 .mnav-afterlogin ul li:nth-child(1) a img{
   width: 28px;
-  height: 25px;
+  height: 26px;
 }
 .mnav-top ul li a span{
   display: block;
@@ -5217,7 +5215,7 @@ text-align: center;
   font-size: 12px !important
 }
 main .win-lot-top-games{
-  padding: 5px 0 3px
+  padding: 6px 0 3px
 }
 .header-cs{
   position: absolute;
@@ -5420,7 +5418,7 @@ margin-right: -10px;
   padding: 0;
   background: none;
   left: auto;
-  top: 20px;
+  top: 19px
   padding-top: 5px
 }
 #m-selectpicker2 i{
@@ -5580,7 +5578,7 @@ margin-right: 5px;
   padding-left: 15px;
 }
 .contactus ul li{
-  padding: 5.3px 0
+  padding: 8.3px 0
 }
 .contactus ul li span{
   white-space: nowrap;
@@ -5593,7 +5591,7 @@ margin-right: 5px;
 }
 .navbar-afterlogin{
   position: relative;
-  top: 16px;
+  top: 7px
 }
 .navbar-afterlogin ul li{
   margin-left: 30px;
@@ -5798,7 +5796,6 @@ position: relative;
   border-top: 1px solid #4a4a4a;
   border-left: 1px solid #4a4a4a;
   border-right: 1px solid #4a4a4a;
-  border-bottom: solid 1px #2a2a2a
 }
 #csModal p{
   text-align: center;
@@ -5899,9 +5896,6 @@ color: #c4c4c4 !important;
 #menu-m ul li a{
   padding: 7px 0 3px;
 }
-.content i{
-  font-style: normal;
-}
 .before-login{
   width: 135px;
 }
@@ -5918,6 +5912,14 @@ color: #c4c4c4 !important;
 }
 .live-games.i-roulette, .live-games.i-fantan, .live-games .i-sicbo{
   top: 4px;
+}
+.winner-cont div.win-title img{
+  display: inline-block;
+margin-right: 10px;
+}
+.winner-cont div.contact-title img{
+  display: inline-block;
+margin-right: 10px;
 }
 .promo-heart{
   position: absolute;
