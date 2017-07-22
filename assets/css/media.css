@@ -2053,13 +2053,13 @@
     .live-game-txtb{
       font-size: 15px;
       letter-spacing: 1px;
-      bottom: 23px;
+      bottom: 25px;
     }
     .frut-popper .live-game-txtb{
-      bottom: 14px
+      bottom: 16px
     }
     .jigong .live-game-txtb{
-      bottom: 12px;
+      bottom: 15px;
     }
     .live-game-txtc{
       font-size: 15px;
@@ -2228,7 +2228,7 @@
       padding-left: 0px;
     }
     .live-game-txtbd a{
-      padding-left: 2px;
+      padding-left: 11px;
       padding-right: 8px
     }
     main .winner-cont {

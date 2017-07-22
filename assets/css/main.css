@@ -300,7 +300,7 @@ main .live-container {
   letter-spacing: 1px;
   padding: 5px 12px !important;
   font-weight: 400 !important;
-  font-size: 12px;
+  font-size: 14px;
   color: #fff
 }
 
@@ -5893,6 +5893,6 @@ color: #c4c4c4 !important;
 #menu-m ul li a{
   padding: 7px 0 3px;
 }
-.content i{
-  font-style: normal;
+.before-login{
+  width: 135px;
 }
