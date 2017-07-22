@@ -1599,15 +1599,15 @@
         })
     </script>
     <script>
-    document.querySelector('.sweet-12').onclick = function() {
-        swal({
-            title: "非常感謝閣下的訂閱 ",
-            text: "我們將不定期為您送上最新資訊及精選專屬活動，沙龍會誠摯期待閣下蒞臨。",
-            type: "success",
-            confirmButtonClass: 'btn-warning',
-            confirmButtonText: '關閉'
-        });
-    };
+        document.querySelector('.sweet-12').onclick = function() {
+            swal({
+                title: "非常感謝閣下的訂閱 ",
+                text: "我們將不定期為您送上最新資訊及精選專屬活動，沙龍會誠摯期待閣下蒞臨。",
+                confirmButtonClass: 'btn-warning',
+                confirmButtonText: '關閉',
+                imageUrl: 'assets/img/Check_Tao.png'
+            });
+        };
         document.querySelector('.sweet-13').onclick = function() {
             swal({
                 title: "註冊成功",
@@ -1621,9 +1621,9 @@
             swal({
                 title: "登錄成功",
                 text: "很高興為您服務，如有任何問題請隨時聯繫在線客服，我們24小時竭誠為您服務，祝您遊戲愉快！",
-                type: "success",
                 confirmButtonClass: 'btn-warning',
-                confirmButtonText: '關閉'
+                confirmButtonText: '關閉',
+                imageUrl: 'assets/img/Check_Tao.png'
             }, function(isConfirm) {
               if(isConfirm) {
                 window.location = 'afterlogin.html'
@@ -1633,10 +1633,10 @@
         document.querySelector('.sweet-15').onclick = function() {
             swal({
                 title: "註冊成功 ",
-                  text: "很感謝為您服務，如有任何問題請隨時聯繫在線客服，我們24小時竭誠為您服務，祝您遊戲愉快 ",
-                type: "success",
+                text: "很感謝為您服務，如有任何問題請隨時聯繫在線客服，我們24小時竭誠為您服務，祝您遊戲愉快 ",
                 confirmButtonClass: 'btn-warning',
-                confirmButtonText: '關閉'
+                confirmButtonText: '關閉',
+                imageUrl: 'assets/img/Check_Tao.png'
             });
         };
     </script>

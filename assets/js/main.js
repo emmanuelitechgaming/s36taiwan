@@ -508,6 +508,12 @@ $(document).ready(function () {
       $('body').css('padding-right', '0px')
     })
 
+    $('.promo-heart a img').hover(function() {
+      $(this).attr('src', 'assets/img/Hearto_hover.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/Hearto.png');
+    })
+
 });
 
 function nextTab(elem) {
