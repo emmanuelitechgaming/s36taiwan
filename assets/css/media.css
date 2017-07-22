@@ -454,7 +454,7 @@
     }
     .live-game-txtc {
       font-size: 14px;
-      bottom: 13px;
+      bottom: 15px;
     }
 
     .casino-mp, .slots-mp{
@@ -669,24 +669,24 @@
       bottom: -10px;
       margin-top: 10px;
     }
+    .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a{
+      position: absolute;
+      bottom: -2px;
+    }
     .live-game-txtba a {
-      padding-bottom: 3px;
-      padding-left: 6px;
+      left: 48px;
     }
     .live-game-txtbb a {
-      padding-bottom: 2px;
-      padding-left: 8px;
+      left: 58px;
     }
-    .live-game-txtbc a {
-      padding-bottom: 2.5px;
-      padding-left: 8px;
+    .live-game-txtbc a{
+      left: 55px;
     }
     .live-game-txtbd a {
-      padding-bottom: 3px;
-      padding-left: 5px;
+      left: 71px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
-      bottom: 7px;
+      bottom: 9px;
     }
     .sitemap-body2d ul, .sitemap-body2f ul, .sitemap-body2f ul li:nth-child(1) ul.columns, .sitemap-body2b ul, .sitemap-body2e ul{
       -webkit-column-count: auto;
@@ -759,7 +759,6 @@
       top: 2px;
       right: 4px;
     }
-}
 
 @media only screen and (min-width: 360px) {
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
@@ -875,10 +874,10 @@
     }
     .live-game-txtc {
       font-size: 14px;
-      bottom: 16px;
+      bottom: 19px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
-      bottom: 10px;
+      bottom: 12px;
     }
     .lg-playnow{
       bottom: 15.5%;
@@ -990,7 +989,7 @@
     }
     .live-game-txtc {
       font-size: 13px;
-      bottom: 18px;
+      bottom: 21px;
     }
     .lp-collapse-toggle {
       margin-right: -255px;
@@ -1091,7 +1090,7 @@
       margin-left: -25px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
-      bottom: 11px;
+      bottom: 13px;
     }
     .sitemap-body2d ul{
       -webkit-column-count: 2;
@@ -1115,6 +1114,19 @@
     }
     .win-game img{
       margin-top: 7px;
+    }
+    .live-game-txtba a {
+      left: 48px;
+    }
+    .live-game-txtbb a {
+      left: 63px;
+    }
+    .live-game-txtbc a{
+      left: 60px;
+    }
+    .live-game-txtbd a {
+      left: 75px;
+      bottom: 0px;
     }
 }
 
@@ -1232,6 +1244,18 @@
     .win-game img{
       margin-top: 6px;
     }
+    .live-game-txtba a {
+      bottom: -5px;
+    }
+    .live-game-txtbb a {
+      bottom: -5px;
+    }
+    .live-game-txtbc a{
+      left: 68px;
+    }
+    .live-game-txtbd a {
+      left: 84px;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -1307,7 +1331,7 @@
     }
     .live-game-txtc {
       font-size: 15px;
-      bottom: 19px;
+      bottom: 22px;
     }
     .m-selectpicker2-menu {
       top: -287px !important;
@@ -1394,6 +1418,20 @@
     }
     .lg-playnow{
       bottom: 16%;
+    }
+    .live-game-txtba a {
+      bottom: -2px;
+      left: 61px;
+    }
+    .live-game-txtbb a {
+      bottom: -2px;
+      left: 73px;
+    }
+    .live-game-txtbc a{
+      left: 70px;
+    }
+    .live-game-txtbd a {
+      left: 87px;
     }
 }
 
@@ -2069,7 +2107,7 @@
     }
     .live-game-txtc{
       font-size: 15px;
-      bottom: 23px;
+      bottom: 28px;
     }
     .wallet .datepicker{
       width: 22.7% !important
@@ -2222,20 +2260,23 @@
       margin-top: 5px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
-      bottom: 13px;
+      bottom: 18px;
+    }
+    .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a{
+      position: relative;
+      top: 2px
     }
     .live-game-txtba a{
-      padding-left: 2px;
+      left: 1px;
     }
     .live-game-txtbb a{
-      padding-left: 2px;
+      left: 6px;
     }
     .live-game-txtbc a{
-      padding-left: 0px;
+      left: 5px;
     }
     .live-game-txtbd a{
-      padding-left: 11px;
-      padding-right: 8px
+      left: 3px
     }
     main .winner-cont {
         min-height: 303px;
@@ -2474,3 +2515,4 @@
 }
 }
 /**/
+}
