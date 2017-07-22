@@ -4927,7 +4927,7 @@ right: 160px;
   position: relative;
 }
 .mnav-afterlogin ul li:nth-child(4) a img{
-  height: 24px;
+  height: 25px;
   margin-bottom: 5px;
   position: relative;
   top: 2px;
@@ -5011,7 +5011,7 @@ right: 160px;
 }
 .mnav-afterlogin ul li:nth-child(1) a img{
   width: 28px;
-  height: 23px;
+  height: 25px;
 }
 .mnav-top ul li a span{
   display: block;
@@ -5580,7 +5580,7 @@ margin-right: 5px;
   padding-left: 15px;
 }
 .contactus ul li{
-  padding: 6.8px 0
+  padding: 5.88px 0
 }
 .contactus ul li span{
   white-space: nowrap;
@@ -5931,6 +5931,10 @@ color: #c4c4c4 !important;
 .gp-more span{
   position: relative;
   top: 5px
+}
+.gp-more2 img{
+  position: relative;
+  top: -2px
 }
 .win-title img, .contact-title img{
   display: inline-block;
