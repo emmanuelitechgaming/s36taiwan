@@ -359,7 +359,7 @@ main .borderstyler {
 
 main .win-title {
     background: #161616;
-    padding: 10px;
+    padding: 7px 10px;
     color: #fba601;
     font-size: 18px;
     font-weight: 700;
@@ -429,7 +429,7 @@ main .win-body span {
 
 main .contact-title {
     background: #161616;
-    padding: 10px;
+    padding: 8px 10px;
     color: #fba601;
     font-size: 18px;
     font-weight: 700;
@@ -2662,7 +2662,9 @@ select + i.fa {
 
 .selectpicker2 .fa{
   color: #fba601;
-  font-size: 12px;
+  font-size: 16px;
+  position: relative;
+  top: 1px
 }
 
 .selectpicker2-menu{
@@ -4240,7 +4242,7 @@ padding: 15px;
   position: absolute;
   z-index: 88888;
   /*top: 125px !important*/
-  top: 30px !important
+  top: 31px !important
 }
 .language-picker{
   display: inline-block;
@@ -5578,7 +5580,7 @@ margin-right: 5px;
   padding-left: 15px;
 }
 .contactus ul li{
-  padding: 8.5px 0
+  padding: 6.8px 0
 }
 .contactus ul li span{
   white-space: nowrap;
@@ -5796,6 +5798,7 @@ position: relative;
   border-top: 1px solid #4a4a4a;
   border-left: 1px solid #4a4a4a;
   border-right: 1px solid #4a4a4a;
+  border-bottom: solid 1px #2a2a2a
 }
 #csModal p{
   text-align: center;
@@ -5908,4 +5911,32 @@ color: #c4c4c4 !important;
   position: relative;
   background: url('../img/country.png') no-repeat;
   background-size: cover;
+}
+.live-games{
+  position: relative;
+  top: 6px
+}
+.live-games.i-roulette, .live-games.i-fantan, .live-games .i-sicbo{
+  top: 4px;
+}
+.promo-heart{
+  position: absolute;
+  top: 21px;
+  right: 8px;
+}
+.promo-heart img{
+  width: 32px;
+  height: 32px;
+}
+.gp-more span{
+  position: relative;
+  top: 5px
+}
+.win-title img, .contact-title img{
+  display: inline-block;
+  margin-right: 13px;
+}
+.win-title span, .contact-title span{
+  position: relative;
+  top: 3px
 }
