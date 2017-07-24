@@ -411,7 +411,6 @@
     .certs li:nth-child(3), .certs li:nth-child(4){
       margin-bottom: 0;
     }
-
     .certs li:nth-child(even){
       text-align: center
     }
@@ -703,7 +702,7 @@
       bottom: -5px
     }
     .lg-playnow{
-      bottom: 14.3%;
+      bottom: 14.5%;
     }
     #m-selectpicker2{
       right: 28px;
@@ -920,7 +919,7 @@
       bottom: 10px;
     }
     .lg-playnow{
-      bottom: 14.5%;
+      bottom: 15%;
     }
     #m-selectpicker2{
       right: 17px;
@@ -1324,6 +1323,10 @@
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
       bottom: 12px;
     }
+    .lg-playnow {
+      font-size: 18px;
+      bottom: 15.5%
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -1485,7 +1488,7 @@
       padding-left: 5px;
     }
     .lg-playnow{
-      bottom: 15%;
+      bottom: 15.6%;
     }
     .live-game-txtba a {
       bottom: -2px;
