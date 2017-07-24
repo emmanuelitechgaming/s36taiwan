@@ -5934,8 +5934,8 @@ margin-right: 10px;
   right: 8px;
 }
 .promo-heart img{
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
 }
 .gp-more span{
   position: relative;
@@ -5982,5 +5982,10 @@ margin-right: 10px;
   background-position: 0px 1px;
 }
 .fa-home-hover::before{
-  background: url('../img/home-hover.png') no-repeat;
+  content: ' ';
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url('../img/home_hover.png') no-repeat;
+  background-position: 0px 1px;
 }
