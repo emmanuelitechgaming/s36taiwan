@@ -619,6 +619,13 @@ $(function() {
         $(this).attr("src","assets/img/footer/g3.png");
     });
 
+    $('#fg5').hover(
+      function() {
+        $(this).attr("src","assets/img/footer/PanDelta-hover.png");
+    },function() {
+        $(this).attr("src","assets/img/footer/PanDelta.png");
+    });
+
     $('#fg4').hover(
       function() {
         $(this).attr("src","assets/img/footer/g4-hover.png");
