@@ -6204,3 +6204,19 @@ margin-right: 10px;
   display: block;
   width: 30px;
 }
+.arrow-modal{
+  position: relative;
+  bottom: 1.5px;
+  left: 10px;
+}
+#myModal .arrow-modal{
+  width: 18px;
+  left: 5px;
+  bottom: 0px;
+}
+.sweetalert-arrow{
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: red
+}

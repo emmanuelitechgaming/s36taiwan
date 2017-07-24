@@ -778,11 +778,17 @@
     .live-game.jigong img{
       margin-top: -2px
     }
-    #b p:first-child, #c p:first-child{
-      margin-top: 5px;
+    #b p:first-child{
+      margin-top: 15px;
+    }
+    #c p:first-child{
+      margin-top: 15px;
     }
     #c{
-      margin-top: 10px;
+      margin-top: 17px;
+    }
+    #b{
+      margin-top: 17px;
     }
     .lg-playnow{
       font-size: 16px;
