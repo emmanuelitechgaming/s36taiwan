@@ -888,8 +888,8 @@
         padding: 5px 23px !important;
     }
     .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a {
-      padding-bottom: 5px;
-      padding-left: 10px;
+      padding-bottom: 3px;
+      padding-left: 5px;
     }
     .live-game-txtc {
       font-size: 14px;
@@ -899,7 +899,7 @@
       bottom: 9px;
     }
     .lg-playnow{
-      bottom: 15.5%;
+      bottom: 14.5%;
     }
     #m-selectpicker2{
       right: 17px;

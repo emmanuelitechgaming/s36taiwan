@@ -183,13 +183,7 @@ main .mobile-banner{
 .mobile-banner-wrapper a{
   display: block;
   position: absolute;
-<<<<<<< .mine
   bottom: 37%;
-||||||| .r1870
-  bottom: 29%;
-=======
-  bottom: 24%;
->>>>>>> .r1879
   left: 0;
   right: 0;
 }
