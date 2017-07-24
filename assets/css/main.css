@@ -183,7 +183,7 @@ main .mobile-banner{
 .mobile-banner-wrapper a{
   display: block;
   position: absolute;
-  bottom: 29%;
+  bottom: 37%;
   left: 0;
   right: 0;
 }
@@ -331,14 +331,14 @@ main .ws_image li a {
 }
 
 main .gp {
-    padding: 0;
-    color: #fba601;
-    font-weight: 700;
-    font-size: 24px;
+  color: #fba601;
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: 1px;
 }
 
 main .notice {
-
+2
     padding-right: 3px;
 }
 
@@ -2366,6 +2366,7 @@ select + i.fa {
     box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
     background-color: #1a1a1a;
     min-height: auto;
+    border-radius: 4px;
 }
 
 .notice-dialog  .close, .close:hover {
@@ -2540,7 +2541,7 @@ select + i.fa {
   position: absolute;
   text-align: center;
   color: rgba(26, 26, 26, 0.8) !important;
-    text-shadow: 1px 1px rgb(255, 214, 135);
+  text-shadow: 1px 1px rgb(255, 214, 135);
   font-weight: 700;
   font-size: 19px;
 }
@@ -3644,7 +3645,7 @@ display: none !important;
 
 .live-game-txtb a, .live-game-txtc a{
   display: block;
-  color: #000;
+color: rgba(26, 26, 26, 0.8) !important;
   text-shadow: 1px 1px rgb(255, 214, 135);
   font-weight: 700!important;
 }
@@ -4700,7 +4701,7 @@ right: 160px;
   padding-left: 10px;
 }
 .gp-g .col-md-4:nth-child(3) a{
-  padding-left: 11px;
+  padding-left: 15px;
 }
 .gp-g .col-md-4:nth-child(4) a{
   padding-left: 3px;
@@ -5019,7 +5020,7 @@ right: 160px;
 .bs-slider-overlay{
   position: absolute;
 bottom: 48px;
-right: 510px;
+right: 555px;
 }
 
 #myModal .nav-tabs li span img{
@@ -5418,7 +5419,7 @@ margin-right: -10px;
   padding: 0;
   background: none;
   left: auto;
-  top: 19px
+  top: 19px;
   padding-top: 5px
 }
 #m-selectpicker2 i{
@@ -5683,7 +5684,7 @@ margin-right: 5px;
   top: 4px;
 }
 .top-header .pull-right li{
-  margin: 0 18px
+  margin: 0 1px
 }
 #cscall{
   font-size: 16px;
@@ -5927,8 +5928,8 @@ margin-right: 10px;
   right: 8px;
 }
 .promo-heart img{
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
 }
 .gp-more span{
   position: relative;
@@ -5945,4 +5946,40 @@ margin-right: 10px;
 .win-title span, .contact-title span{
   position: relative;
   top: 3px
+}
+.login-modal-a img{
+  display: inline-block;
+  word-break: 16px;
+}
+.sp-enter{
+  position: absolute;
+  max-width: 100%;
+  width: auto !important;
+  bottom: 12px;
+  right: 550px;
+}
+.reg-now img.sp-enter{
+  width: auto !important;
+  height: auto !important;
+  bottom: 51px;
+  right: 880px;
+}
+.promo-section .sp-back-btn{
+  margin-bottom: 20px;
+}
+.navaa .fa-home::before{
+  content: ' ';
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url('../img/home.png') no-repeat;
+  background-position: 0px 1px;
+}
+.fa-home-hover::before{
+  content: ' ';
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url('../img/home_hover.png') no-repeat;
+  background-position: 0px 1px;
 }

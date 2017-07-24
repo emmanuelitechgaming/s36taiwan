@@ -2,30 +2,28 @@ $(document).ready(function () {
 
   $('#country-sel').flagStrap({
     countries: {
-            "TW": "台灣",
-            "CN": "中國",
-            "ID": "印尼",
-            "IN": "印度",
-            "VN": "越南",
-            "JP": "日本",
-            "MY": "馬來西亞",
-            "TH": "泰國"
-
-        }
+      "CN": "中國",
+      "TW": "台灣",
+      "VN": "越南",
+      "ID": "印尼",
+      "MY": "馬來西亞",
+      "TH": "泰國",
+      "JP": "日本",
+      "IN": "印度",
+      }
   });
 
   $('#csCallselectflag').flagStrap({
     countries: {
-            "TW": "台灣",
-            "CN": "中國",
-            "ID": "印尼",
-            "IN": "印度",
-            "VN": "越南",
-            "JP": "日本",
-            "MY": "馬來西亞",
-            "TH": "泰國"
-
-        }
+      "CN": "中國",
+      "TW": "台灣",
+      "VN": "越南",
+      "ID": "印尼",
+      "MY": "馬來西亞",
+      "TH": "泰國",
+      "JP": "日本",
+      "IN": "印度",
+      }
   });
 
   // $(".btn-log").hover(function() {
@@ -512,6 +510,16 @@ $(document).ready(function () {
       $(this).attr('src', 'assets/img/Hearto_hover.png');
     }, function() {
       $(this).attr('src', 'assets/img/Hearto.png');
+    })
+
+    $('.navaa li a').hover(function() {
+      if($(this).find('i').length > 0){
+        $(this).find('i').toggleClass('fa-home fa-home-hover');
+      }
+    }, function() {
+      if($(this).find('i').length > 0){
+        $(this).find('i').toggleClass('fa-home fa-home-hover');
+      }
     })
 
 });

@@ -8,28 +8,26 @@ $(document).ready(function(){
 	    ],
 	    "flag" : "flag-icon-cn"
 	  },
-
-	  {
-	    "country_name": "印度",
-	    "languages": [
-	      "INR"
-	    ],
-	    "flag" : "flag-icon-in"
-	  },
-
-	  {
+		{
+			"country_name": "台灣",
+			"languages": [
+				"TWD"
+			],
+			"flag": "flag-icon-tw"
+		},
+		{
+			"country_name": "越南",
+			"languages": [
+				"VND"
+			],
+			"flag": "flag-icon-vn"
+		},
+		{
 	    "country_name": "印尼",
 	    "languages": [
 	      "IDR"
 	    ],
 	    "flag" : "flag-icon-id"
-	  },
-	  {
-	    "country_name": "日本",
-	    "languages": [
-	      "JPY"
-	    ],
-	    "flag" : "flag-icon-jp"
 	  },
 		{
 			"country_name": "馬來西亞",
@@ -39,13 +37,6 @@ $(document).ready(function(){
 			"flag": "flag-icon-my"
 		},
 		{
-			"country_name": "台灣",
-			"languages": [
-				"TWD"
-			],
-			"flag": "flag-icon-tw"
-		},
-		{
 			"country_name": "泰國",
 			"languages": [
 				"THP"
@@ -53,12 +44,19 @@ $(document).ready(function(){
 			"flag": "flag-icon-th"
 		},
 		{
-			"country_name": "越南",
-			"languages": [
-				"VND"
-			],
-			"flag": "flag-icon-vn"
-		}
+	    "country_name": "日本",
+	    "languages": [
+	      "JPY"
+	    ],
+	    "flag" : "flag-icon-jp"
+	  },
+	  {
+	    "country_name": "印度",
+	    "languages": [
+	      "INR"
+	    ],
+	    "flag" : "flag-icon-in"
+	  },	
 	];
 
 	$(obj).each(function(k,v){
