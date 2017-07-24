@@ -25,7 +25,7 @@
     right: 1px;
     position: fixed;
     cursor: pointer;
-    bottom: 65px;
+    bottom: 1px;
     z-index: 99999
 }
   .modal-panel-dialog{
@@ -456,7 +456,6 @@
       font-size: 14px;
       bottom: 13px;
     }
-
     .casino-mp, .slots-mp{
       top: 25px;
       right: 35px;
@@ -669,21 +668,21 @@
       bottom: -10px;
       margin-top: 10px;
     }
+    .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a{
+      position: absolute;
+      bottom: -2px;
+    }
     .live-game-txtba a {
-      padding-bottom: 3px;
-      padding-left: 6px;
+      left: 48px;
     }
     .live-game-txtbb a {
-      padding-bottom: 2px;
-      padding-left: 8px;
+      left: 53px;
     }
-    .live-game-txtbc a {
-      padding-bottom: 2.5px;
-      padding-left: 8px;
+    .live-game-txtbc a{
+      left: 55px;
     }
     .live-game-txtbd a {
-      padding-bottom: 3px;
-      padding-left: 5px;
+      left: 65px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
       bottom: 7px;
@@ -713,7 +712,7 @@
       margin: 2px 10px;
     }
     .scrolltotop-m{
-      bottom: 158px;
+      bottom: 44px;
     }
     .sp-back-btn{
       padding-left: 0;
@@ -752,6 +751,29 @@
     }
     .tdw-body{
       padding: 20px 0 0;
+    }
+    .selectpicker2::before{
+      width: 24px;
+      height: 24px;
+      top: 2px;
+      right: 4px;
+    }
+    .gp-star{
+      position: relative;
+      top: 3px
+    }
+    .live-games.i-roulette{
+      top: -2px
+    }
+    .live-games.i-sicbo{
+      top: 2px
+    }
+    .lg-angel-demon img, .live-game.jigong img{
+      max-width: 103%;
+      margin-left: -10px !important
+    }
+    .live-game.jigong img{
+      margin-top: -2px
     }
 }
 
@@ -805,7 +827,7 @@
       letter-spacing: 2px;
       left: -42px;
       font-size: 11px;
-      top: 20px;
+      top: 24px;
     }
     .m-fsalon ul li:nth-child(1) img, .m-fsalon ul li:nth-child(2) img{
       width: 90%;
@@ -872,7 +894,7 @@
       bottom: 16px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
-      bottom: 10px;
+      bottom: 9px;
     }
     .lg-playnow{
       bottom: 15.5%;
@@ -894,6 +916,10 @@
     }
     .win-game img{
       margin-top: 8px;
+    }
+    .gp-star{
+      position: relative;
+      top: 6px
     }
 }
 
@@ -984,7 +1010,7 @@
     }
     .live-game-txtc {
       font-size: 13px;
-      bottom: 18px;
+      bottom: 21px;
     }
     .lp-collapse-toggle {
       margin-right: -255px;
@@ -1085,7 +1111,7 @@
       margin-left: -25px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
-      bottom: 11px;
+      bottom: 13px;
     }
     .sitemap-body2d ul{
       -webkit-column-count: 2;
@@ -1109,6 +1135,19 @@
     }
     .win-game img{
       margin-top: 7px;
+    }
+    .live-game-txtba a {
+      left: 48px;
+    }
+    .live-game-txtbb a {
+      left: 58px;
+    }
+    .live-game-txtbc a{
+      left: 60px;
+    }
+    .live-game-txtbd a {
+      left: 71px;
+      bottom: 0px;
     }
 }
 
@@ -1226,6 +1265,18 @@
     .win-game img{
       margin-top: 6px;
     }
+    .live-game-txtba a {
+      bottom: -5px;
+    }
+    .live-game-txtbb a {
+      bottom: -5px;
+    }
+    .live-game-txtbc a{
+      left: 68px;
+    }
+    .live-game-txtbd a {
+      left: 84px;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -1301,7 +1352,7 @@
     }
     .live-game-txtc {
       font-size: 15px;
-      bottom: 19px;
+      bottom: 22px;
     }
     .m-selectpicker2-menu {
       top: -287px !important;
@@ -1389,6 +1440,20 @@
     .lg-playnow{
       bottom: 16%;
     }
+    .live-game-txtba a {
+      bottom: -2px;
+      left: 61px;
+    }
+    .live-game-txtbb a {
+      bottom: -2px;
+      left: 73px;
+    }
+    .live-game-txtbc a{
+      left: 70px;
+    }
+    .live-game-txtbd a {
+      left: 83px;
+    }
 }
 
 
@@ -1399,7 +1464,7 @@
     right: 1px;
     position: fixed;
     cursor: pointer;
-    bottom: 120px;
+    bottom: 1px;
 }
 
 @media only screen and (min-width: 568px) {
@@ -1767,7 +1832,7 @@
     margin-top: 0;
   }
   #myModal{
-    top:0;
+    top: -100px;
   }
   .modal-panel-dialog{
     width: 400px!important;
@@ -1877,7 +1942,7 @@
       font-size: 12px;
     }
     .selectpicker2.selectpicker2-navbar-right{
-      top: 0;
+      top: -2px;
       left: 0;
     }
     .selectpicker2 .fa {
@@ -2053,17 +2118,17 @@
     .live-game-txtb{
       font-size: 15px;
       letter-spacing: 1px;
-      bottom: 23px;
+      bottom: 25px;
     }
     .frut-popper .live-game-txtb{
-      bottom: 14px
+      bottom: 16px
     }
     .jigong .live-game-txtb{
-      bottom: 12px;
+      bottom: 15px;
     }
     .live-game-txtc{
       font-size: 15px;
-      bottom: 23px;
+      bottom: 25px;
     }
     .wallet .datepicker{
       width: 22.7% !important
@@ -2198,8 +2263,12 @@
       left: 42%;
       top: 25%;
     }
+    .pc-ver-cas{
+      left: 46%;
+      top: 25%;
+    }
     .gp-first a {
-      padding-bottom: 3px;
+    padding-bottom: 0px;
     }
     .win-lot-top-games .prizepool{
       font-size: 12px;
@@ -2212,20 +2281,23 @@
       margin-top: 5px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
-      bottom: 13px;
+      bottom: 15px;
+    }
+    .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a{
+      position: relative;
+      top: 0px
     }
     .live-game-txtba a{
-      padding-left: 2px;
+      left: 1px;
     }
     .live-game-txtbb a{
-      padding-left: 2px;
+      left: 6px;
     }
     .live-game-txtbc a{
-      padding-left: 0px;
+      left: 5px;
     }
     .live-game-txtbd a{
-      padding-left: 2px;
-      padding-right: 8px
+      left: 6px;
     }
     main .winner-cont {
         min-height: 303px;
@@ -2306,10 +2378,10 @@
       padding: 5px 20px;
     }
     .contactus ul li:nth-child(2) span{
-      margin-left: 40px;
+      margin-left: 31px;
     }
     .contactus ul li:nth-child(3) span{
-      margin-left: 35px
+      margin-left: 31px
     }
     #myModal .pull-right .modal-bottom{
       position: absolute;
@@ -2317,6 +2389,31 @@
     }
     .tdw-body{
       padding: 20px 0;
+    }
+    .selectpicker2::before{
+      width: 16px;
+      height: 16px;
+      right: auto;
+    }
+    .gp-star{
+      position: auto;
+      top: auto
+    }
+    .live-games.i-roulette{
+      top: 4px
+    }
+    .live-games.i-fantan {
+      top: 5px;
+    }
+    .live-games.i-sicbo {
+      top: 6px;
+    }
+    .lg-angel-demon{
+      position: relative;
+      top: 1px;
+    }
+    .lg-angel-demon img, .live-game.jigong img{
+      margin-left: auto !important
     }
 }
 
@@ -2337,7 +2434,7 @@
       background-size: auto auto;
   background-size: contain;
   background-position: center;
-  margin-top: -18px;
+  margin-top: -30px;
     }
     .header-mobile-logo {
         margin-left: auto
@@ -2415,7 +2512,7 @@
       position: absolute;
       display: inline-block;
       color: #FBA601;
-      left: 148px;
+      left: 142px;
       top: 25px;
       font-size: 27px;
       font-weight: 700;
@@ -2423,7 +2520,7 @@
       word-spacing: -28px;
     }
     main .marquee {
-        width: 500px;
+        width: 490px;
         bottom: 15px;
     }
     .account-container span {

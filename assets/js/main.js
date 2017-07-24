@@ -430,19 +430,19 @@ $(document).ready(function () {
       $('#drop3').removeClass('lang-click');
     });
 
-    $('#cta-contact').hover(function() {
-      $(this).attr('src', 'assets/img/contact-mobile hover_15.png');
-    }, function() {
-      $(this).attr('src', 'assets/img/contact-mobile_15.png');
-    })
+    // $('#cta-contact').hover(function() {
+    //   $(this).attr('src', 'assets/img/contact-mobile hover_15.png');
+    // }, function() {
+    //   $(this).attr('src', 'assets/img/contact-mobile_15.png');
+    // })
 
-    $('.btn-top').hover(function() {
-      $(this).css('background', 'url("assets/img/arrow up-mobile hover_15.png")');
-    }, function() {
-      $(this).css('background', 'url("assets/img/arrow up-mobile_15.png")');
-    })
+    // $('.btn-top').hover(function() {
+    //   $(this).css('background', 'url("assets/img/arrow up-mobile hover_15.png")');
+    // }, function() {
+    //   $(this).css('background', 'url("assets/img/arrow up-mobile_15.png")');
+    // })
 
-    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/register2.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/register2.png"], img[src="assets/img/sp/reg-btn-sp.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-1"').tab('show');
     });
@@ -452,7 +452,7 @@ $(document).ready(function () {
       $('a[href="#myModalTab1-1"').tab('show');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/sp/reg-btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"], img[src="assets/img/register.png"], img[src="assets/img/sp/reg-btn-sp.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/sp/reg-btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"], img[src="assets/img/register.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-2"').tab('show');
     });
@@ -488,8 +488,8 @@ $(document).ready(function () {
     });
 
     $('#myModal').on('hide.bs.modal', function () {
-      if($('.selectpicker2 .fa').hasClass('fa-caret-up')){
-        $('.selectpicker2 .fa').removeClass('fa-caret-up').addClass('fa-caret-down');
+      if($('.selectpicker2 .fa').hasClass('fa-angle-up')){
+        $('.selectpicker2 .fa').removeClass('fa-angle-up').addClass('fa-angle-down');
       }
     });
 
@@ -506,6 +506,12 @@ $(document).ready(function () {
 
     $('#csModal').on('hidden.bs.modal', function() {
       $('body').css('padding-right', '0px')
+    })
+
+    $('.promo-heart a img').hover(function() {
+      $(this).attr('src', 'assets/img/Hearto_hover.png');
+    }, function() {
+      $(this).attr('src', 'assets/img/Hearto.png');
     })
 
 });
@@ -641,7 +647,7 @@ $(function() {
     });
 
     $('.selectpicker2').click(function() {
-      $('.selectpicker2 .fa').toggleClass('fa-caret-down fa-caret-up');
+      $('.selectpicker2 .fa').toggleClass('fa-angle-down fa-angle-up');
     })
 
     $('.selectpicker').selectpicker();

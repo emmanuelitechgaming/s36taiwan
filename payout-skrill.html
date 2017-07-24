@@ -54,8 +54,8 @@
             <ul class="pull-right">
                 <li><a href="javascript:void(0)" class="group-border lang"><div id="drop" class="drop"></div></a></li>
 
-                <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:18px; height: 18px" alt=""><span> 4:31  下午 周二2017年07月17日</span></a></li>
-                    <li class="drop-lang-picker"><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown" style="margin: 3px;"><i class="flag-icon flag-icon-tw"> </i> 繁 <i class="fa fa-caret-down"></i></button></a></li>
+                <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:15px; height: 15px" alt=""><span> 4:31  下午 周二2017年07月17日</span></a></li>
+                    <li class="drop-lang-picker"><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown" style="margin: 3px;"> 繁 <i class="fa fa-angle-down"></i></button></a></li>
                 <li>
                   <div id="drop3" class="drop desktop-support">
                       <div class="desktop-support-title">Global Support</div>
@@ -475,7 +475,7 @@
 
               <div class="hidden-lg hidden-md">
                   <div class="navbar-header remo-navbar-header">
-                      <button class="selectpicker2" id="m-selectpicker2" data-toggle="dropdown"><i class="flag-icon flag-icon-tw"> </i> 繁</button>
+                      <button class="selectpicker2" id="m-selectpicker2" data-toggle="dropdown">繁</button>
                       <div class="dropdown-menu selectpicker2-menu">
                         <div class="row">
                           <div class="col-md-3">
@@ -521,6 +521,7 @@
               <div class="navbar-header navbar-right navbar-afterlogin">
                 <ul>
                   <li><a href="myaccount.html"><img src="assets/img/afterlogin/1.png" alt=""><span style="display:inline-block; margin-left:12px;">個人信息</span></a></li>
+                  <li><a href="#"><img src="assets/img/afterlogin/6.png" alt=""><span style="display:inline-block; margin-left:12px;">戶內轉賬</span></a></li>
                   <li><a href="wallet.html"><img src="assets/img/afterlogin/2.png" alt=""><span style="display:inline-block; margin-left:12px;">我的錢包</span></a></a></li>
                   <li><a href="javascript:void(0)" data-toggle="modal" data-target="#noticeModal"><img src="assets/img/afterlogin/3.png" alt=""><span style="display:inline-block; margin-left:12px;">系統公告</span></a></a></li>
                   <li><a href="index.html"><img src="assets/img/afterlogin/4.png" alt=""><span style="display:inline-block;text-align:left; margin-left:12px;">退出</span></a></a></li>
@@ -529,8 +530,18 @@
           </div>
 
           <div class="header-cs hidden-lg hidden-md">
-            <a href="#csModal" data-toggle="modal"><img src="assets/img/Y2.png" alt=""></a>
-            <a href="helpcenter.html"><img src="assets/img/Y1.png" alt=""></a>
+            <a href="helpcenter.html"><img src="assets/img/hc.png" alt=""></a>
+            <div class="menu-m-xs">
+              <a data-toggle="collapse" href="#menu-m"><img src="assets/img/Y1.png" alt=""></a>
+              <div class="collapse menu-m" id="menu-m">
+                    <ul class="">
+                      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" width="23px" alt=""></a></li>
+                      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csPhone"><img src="assets/img/whatsapp.png" width="23px" alt=""></a></li>
+                      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="23px" alt=""></a></li>
+                    </ul>
+              </div>
+
+            </div>
           </div>
 
       </div>
@@ -553,8 +564,9 @@
                 <ul>
                   <li><a href="index.html" class="active"><img src="assets/img/s36tw-mobile-home-active_09.png" alt=""><!--<span>首頁</span>--></a></li>
                   <li><a href="myaccount.html"><img src="assets/img/s36tw-mobile-home--LOGIN_08.png" alt=""><!--<span>abc123</span>--></a></li>
+                  <li><a href="#"><img src="assets/img/afterlogin/6.png" alt=""><!--<span>abc123</span>--></a></li>
                   <li><a href="wallet.html"><img src="assets/img/s36tw-mobile-home--LOGIN_10.png" alt=""><!--<span>100.00</span>--></a></li>
-                  <li><a href="javascript:void(0)"><img src="assets/img/s36tw-mobile-home--LOGIN_05.png" alt=""><!--<span>信息</span>--><span class="notif">4</span></a></li>
+                  <li><a href="javascript:void(0)"><img src="assets/img/s36tw-mobile-home--LOGIN_05.png" alt=""><!--<span>信息</span>--><span class="notif hidden-sm hidden-xs">4</span></a></li>
                   <li><a href="index.html"><img src="assets/img/s36tw-mobile-home--LOGIN_13.png" alt=""><!--<span>登出</span>--></a></li>
                 </ul>
               </div>
@@ -574,8 +586,8 @@
                   <div class="swiper-container">
                       <div class="swiper-wrapper">
                           <div class="swiper-slide"><a href="#gs-body" data-toggle="collapse" class="m-top-header-clock"><img src="assets/img/header/clock.png" alt=""><span></span></a></div>
-                          <div class="swiper-slide"><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="20px" alt="">&nbsp; 在線客服</a></div>
-                          <div class="swiper-slide"><a href="helpcenter.html"><img src="assets/img/hc.png" width="20px" alt="">&nbsp; 幫助中心</a></div>
+                          <div class="swiper-slide"><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="23px" alt="">&nbsp; 在線客服</a></div>
+                          <div class="swiper-slide"><a href="helpcenter.html"><img src="assets/img/hc.png" width="23px" alt="">&nbsp; 幫助中心</a></div>
                       </div>
                   </div>
               </div> -->
@@ -583,10 +595,10 @@
               <ul class="nav navbar-nav navbar-right  hidden-xs hidden-sm">
                 <!-- <li><a href="javascript:void(0)"><button class="selectpicker2 selectpicker2-navbar-right" data-toggle="dropdown"><i class="flag-icon flag-icon-tw"> </i> 繁</button></a></li>
                 <li><a href="javascript:void(0)" class="top-header-clock"><img src="assets/img/header/clock.png" style="width:20px;" alt=""><span></span></a></li> -->
-                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" width="20px" alt="">&nbsp; 網上短信</a></li>
-                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csPhone"><img src="assets/img/whatsapp.png" width="20px" alt="">&nbsp; 免費回撥</a></li>
-                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="20px" alt="">&nbsp; 在線客服</a></li>
-                <li><a href="helpcenter.html"><img src="assets/img/hc.png" width="20px" alt="">&nbsp; 幫助中心</a></li>
+                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" width="23px" alt="">&nbsp; 網上短信</a></li>
+                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csPhone"><img src="assets/img/whatsapp.png" width="23px" alt="">&nbsp; 免費回撥</a></li>
+                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="23px" alt="">&nbsp; 在線客服</a></li>
+                <li><a href="helpcenter.html"><img src="assets/img/hc.png" width="23px" alt="">&nbsp; 幫助中心</a></li>
               </ul>
           </div>
       </nav>
@@ -1551,17 +1563,17 @@
     <script>
         document.querySelector('.sweet-12').onclick = function() {
             swal({
-                title: "注册成功 ",
-                  text: "很感谢为您服务，如有任何问题请随时联系在线客服，我们将24小时竭诚为您服务，祝您游戏愉快 ",
-                type: "success",
+                title: "非常感謝閣下的訂閱 ",
+                text: "我們將不定期為您送上最新資訊及精選專屬活動，沙龍會誠摯期待閣下蒞臨。",
                 confirmButtonClass: 'btn-warning',
-                confirmButtonText: '關閉'
+                confirmButtonText: '關閉',
+                imageUrl: 'assets/img/Check_Tao.png'
             });
         };
         document.querySelector('.sweet-13').onclick = function() {
             swal({
-                title: "注册成功",
-                text: "很高兴为您服务，如有任何问题请随时联系在線客服 ，我们将24小时竭诚为您服务！",
+                title: "註冊成功",
+                text: "很高興為您服務，如有任何問題請隨時聯繫在線客服 ，我們24小時竭誠為您服務！",
                 type: "success",
                 confirmButtonClass: 'btn-warning',
                 confirmButtonText: '關閉'
@@ -1569,11 +1581,11 @@
         };
         document.querySelector('.sweet-14').onclick = function() {
             swal({
-                title: "登录成功",
-                text: "很高兴为您服务，如有任何问题请随时联系在线客服，我们将24小时竭诚为您服务，祝您游戏愉快！",
-                type: "success",
+                title: "登錄成功",
+                text: "很高興為您服務，如有任何問題請隨時聯繫在線客服，我們24小時竭誠為您服務，祝您遊戲愉快！",
                 confirmButtonClass: 'btn-warning',
-                confirmButtonText: '關閉'
+                confirmButtonText: '關閉',
+                imageUrl: 'assets/img/Check_Tao.png'
             }, function(isConfirm) {
               if(isConfirm) {
                 window.location = 'afterlogin.html'
@@ -1582,11 +1594,11 @@
         };
         document.querySelector('.sweet-15').onclick = function() {
             swal({
-                title: "注册成功 ",
-                  text: "很感谢为您服务，如有任何问题请随时联系在线客服，我们将24小时竭诚为您服务，祝您游戏愉快 ",
-                type: "success",
+                title: "註冊成功 ",
+                text: "很感謝為您服務，如有任何問題請隨時聯繫在線客服，我們24小時竭誠為您服務，祝您遊戲愉快 ",
                 confirmButtonClass: 'btn-warning',
-                confirmButtonText: '關閉'
+                confirmButtonText: '關閉',
+                imageUrl: 'assets/img/Check_Tao.png'
             });
         };
     </script>
