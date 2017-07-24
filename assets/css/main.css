@@ -5871,6 +5871,7 @@ color: #c4c4c4 !important;
   z-index: 1049;
   background: #333333;
   border-radius: 4px;
+  right: 1px;
 }
 #menu-m ul{
   width: 50px;
@@ -5886,12 +5887,13 @@ color: #c4c4c4 !important;
   border-left: 10px solid transparent;
   position: absolute;
   top: -7px;
-  left: 14px;
+  left: 18px;
   z-index: 10;
 }
 .header-cs ul li{
   border: 1px solid #4a4a4a;
-  border-bottom: none
+  border-bottom: none;
+  display: block;
 }
 .header-cs ul li:last-child{
   border-bottom: 1px solid #4a4a4a
@@ -6116,10 +6118,10 @@ margin-right: 10px;
   background: url('../img/yellow-btn.png') repeat-x;
 }
 .mnav-top-home img{
-  height: 20px !important;
+  height: 23px !important;
 }
 .mnav-afterlogin .mnav-top-home img{
-  height: 22px !important
+  height: 25px !important
 }
 .promo-body #c{
   margin-top: -10px;
@@ -6185,4 +6187,20 @@ margin-right: 10px;
 .nav.navbar-nav.navbar-right li:nth-child(4) a img{
   position: relative;
   bottom: 2px
+}
+.top-hc img{
+  max-width: 130%;
+  position: relative;
+  bottom: 3px
+}
+.header-cs .menu-m-xs{
+  position: relative;
+  bottom: 6px
+}
+.menu-m-xs div ul li{
+  background: #333
+}
+.menu-m-xs div ul li a{
+  display: block;
+  width: 30px;
 }
