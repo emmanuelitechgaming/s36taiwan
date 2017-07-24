@@ -183,7 +183,13 @@ main .mobile-banner{
 .mobile-banner-wrapper a{
   display: block;
   position: absolute;
+<<<<<<< .mine
+  bottom: 37%;
+||||||| .r1870
+  bottom: 29%;
+=======
   bottom: 24%;
+>>>>>>> .r1879
   left: 0;
   right: 0;
 }
@@ -331,14 +337,14 @@ main .ws_image li a {
 }
 
 main .gp {
-    padding: 0;
-    color: #fba601;
-    font-weight: 700;
-    font-size: 24px;
+  color: #fba601;
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: 1px;
 }
 
 main .notice {
-
+2
     padding-right: 3px;
 }
 
@@ -2366,6 +2372,7 @@ select + i.fa {
     box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
     background-color: #1a1a1a;
     min-height: auto;
+    border-radius: 4px;
 }
 
 .notice-dialog  .close, .close:hover {
@@ -2540,7 +2547,7 @@ select + i.fa {
   position: absolute;
   text-align: center;
   color: rgba(26, 26, 26, 0.8) !important;
-    text-shadow: 1px 1px rgb(255, 214, 135);
+  text-shadow: 1px 1px rgb(255, 214, 135);
   font-weight: 700;
   font-size: 19px;
 }
@@ -3644,7 +3651,7 @@ display: none !important;
 
 .live-game-txtb a, .live-game-txtc a{
   display: block;
-  color: #000;
+color: rgba(26, 26, 26, 0.8) !important;
   text-shadow: 1px 1px rgb(255, 214, 135);
   font-weight: 700!important;
 }
@@ -4700,7 +4707,7 @@ right: 160px;
   padding-left: 10px;
 }
 .gp-g .col-md-4:nth-child(3) a{
-  padding-left: 11px;
+  padding-left: 15px;
 }
 .gp-g .col-md-4:nth-child(4) a{
   padding-left: 3px;
@@ -5019,7 +5026,7 @@ right: 160px;
 .bs-slider-overlay{
   position: absolute;
 bottom: 48px;
-right: 510px;
+right: 555px;
 }
 
 #myModal .nav-tabs li span img{
@@ -5683,7 +5690,7 @@ margin-right: 5px;
   top: 4px;
 }
 .top-header .pull-right li{
-  margin: 0 18px
+  margin: 0 1px
 }
 #cscall{
   font-size: 16px;
@@ -5945,6 +5952,10 @@ margin-right: 10px;
 .win-title span, .contact-title span{
   position: relative;
   top: 3px
+}
+.login-modal-a img{
+  display: inline-block;
+  word-break: 16px;
 }
 .sp-enter{
   position: absolute;
