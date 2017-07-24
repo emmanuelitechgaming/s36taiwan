@@ -459,7 +459,7 @@
     .casino-mp, .slots-mp{
       right: 0;
       left: 0;
-      bottom: 89px
+      bottom: 71px
     }
     .flag-icon {
         font-size: 14px
@@ -702,7 +702,7 @@
       bottom: -5px
     }
     .lg-playnow{
-      bottom: 15%;
+      bottom: 14.3%;
     }
     #m-selectpicker2{
       right: 28px;
@@ -779,6 +779,17 @@
     }
     #b p:first-child, #c p:first-child{
       margin-top: 25px;
+    }
+    #c{
+      margin-top: 10px;
+    }
+    .lg-playnow{
+      font-size: 16px;
+    }
+    .lg-playnow.login-modal-a img{
+      width: 20px;
+      position: relative;
+      bottom: 1px;
     }
 }
 
@@ -2429,6 +2440,12 @@
     }
     #b p:first-child, #c p:first-child{
       margin-top: 15px;
+    }
+    #c{
+      margin-top: 28px;
+    }
+    .lg-playnow{
+      font-size: 19px;
     }
 }
 
