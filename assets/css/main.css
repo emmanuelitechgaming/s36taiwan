@@ -5971,5 +5971,10 @@ margin-right: 10px;
   background-position: 0px 1px;
 }
 .fa-home-hover::before{
-  background: url('../img/home-hover.png') no-repeat;
+  content: ' ';
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url('../img/home_hover.png') no-repeat;
+  background-position: 0px 1px;
 }
