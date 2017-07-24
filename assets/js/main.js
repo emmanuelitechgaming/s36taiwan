@@ -512,6 +512,16 @@ $(document).ready(function () {
       $(this).attr('src', 'assets/img/Hearto.png');
     })
 
+    $('.navaa li a').hover(function() {
+      if($(this).find('i').length > 0){
+        $(this).find('i').toggleClass('fa-home fa-home-hover');
+      }
+    }, function() {
+      if($(this).find('i').length > 0){
+        $(this).find('i').toggleClass('fa-home fa-home-hover');
+      }
+    })
+
 });
 
 function nextTab(elem) {
