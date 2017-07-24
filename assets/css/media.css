@@ -679,10 +679,12 @@
       left: 53px;
     }
     .live-game-txtbc a{
-      left: 55px;
+      left: 56px;
+      bottom: -3px;
     }
     .live-game-txtbd a {
       left: 65px;
+      bottom: -1px
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
       bottom: 7px;
@@ -1010,7 +1012,7 @@
     }
     .live-game-txtc {
       font-size: 13px;
-      bottom: 21px;
+      bottom: 18px;
     }
     .lp-collapse-toggle {
       margin-right: -255px;
@@ -1111,7 +1113,7 @@
       margin-left: -25px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
-      bottom: 13px;
+      bottom: 11px;
     }
     .sitemap-body2d ul{
       -webkit-column-count: 2;
@@ -1141,6 +1143,7 @@
     }
     .live-game-txtbb a {
       left: 58px;
+      bottom: 0;
     }
     .live-game-txtbc a{
       left: 60px;
@@ -1233,7 +1236,7 @@
     }
     .live-game-txtc {
       font-size: 14px;
-      bottom: 22px;
+      bottom: 21px;
     }
     .prizepool {
       font-size: 14px;
@@ -1275,7 +1278,10 @@
       left: 68px;
     }
     .live-game-txtbd a {
-      left: 84px;
+      left: 80px;
+    }
+    .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
+      bottom: 12px;
     }
 }
 
@@ -1352,7 +1358,7 @@
     }
     .live-game-txtc {
       font-size: 15px;
-      bottom: 22px;
+      bottom: 21px;
     }
     .m-selectpicker2-menu {
       top: -287px !important;
@@ -1445,14 +1451,16 @@
       left: 61px;
     }
     .live-game-txtbb a {
-      bottom: -2px;
-      left: 73px;
+      bottom: -1px;
+      left: 69px;
     }
     .live-game-txtbc a{
       left: 70px;
+      bottom: 0;
     }
     .live-game-txtbd a {
       left: 83px;
+      bottom: 1.5px;
     }
 }
 
