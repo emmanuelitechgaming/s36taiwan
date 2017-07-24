@@ -2146,11 +2146,11 @@
       bottom: 15px
     }
     .jigong .live-game-txtb{
-      bottom: 15px;
+      bottom: 14px;
     }
     .live-game-txtc{
       font-size: 15px;
-      bottom: 25px;
+      bottom: 24px;
     }
     .wallet .datepicker{
       width: 22.7% !important
@@ -2304,7 +2304,7 @@
       margin-top: 5px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
-      bottom: 15px;
+      bottom: 14px;
     }
     .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a{
       position: relative;
