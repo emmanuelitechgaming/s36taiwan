@@ -457,9 +457,9 @@
       bottom: 13px;
     }
     .casino-mp, .slots-mp{
-      top: 25px;
-      right: 35px;
-      left: auto;
+      right: 0;
+      left: 0;
+      bottom: 89px
     }
     .flag-icon {
         font-size: 14px
@@ -776,6 +776,9 @@
     }
     .live-game.jigong img{
       margin-top: -2px
+    }
+    #b p:first-child, #c p:first-child{
+      margin-top: 25px;
     }
 }
 
@@ -2142,12 +2145,13 @@
       width: 22.7% !important
     }
     .casino-mp, .slots-mp{
-      top: 25px;
-      right: 25px;
-      left: auto;
+      top: auto;
+      right: 0;
+      left: 0;
+      bottom: 75px
     }
     #b {
-      margin-top: -10px;
+      margin-top: 26px;
     }
     .flag-icon {
         font-size: 17px
@@ -2422,6 +2426,9 @@
     }
     .lg-angel-demon img, .live-game.jigong img{
       margin-left: auto !important
+    }
+    #b p:first-child, #c p:first-child{
+      margin-top: 15px;
     }
 }
 
