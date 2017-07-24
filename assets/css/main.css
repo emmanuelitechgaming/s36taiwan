@@ -3645,15 +3645,15 @@ display: none !important;
 }
 
 .live-game-txtb a, .live-game-txtc a{
-  display: block;
-color: rgba(26, 26, 26, 0.8) !important;
-  text-shadow: 1px 1px rgb(255, 214, 135);
-  font-weight: 700!important;
+      display: block;
+    color: rgb(251, 166, 1) !important;
+    text-shadow: 1px 1px rgb(86, 57, 0);
+    font-weight: 700!important;
 }
 
 .live-game-txtb a:hover, .live-game-txtc a:hover{
-color: rgba(49, 49, 49, 0.5) !important;
-  text-decoration: none
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
 }
 
 .live-game-txtc{
@@ -5827,6 +5827,7 @@ display: inline-block;
 padding: .5em;
 padding: .65em 2em;
 margin-top: 35px;
+margin-left:50px;
 }
 
 .wallet-text{
