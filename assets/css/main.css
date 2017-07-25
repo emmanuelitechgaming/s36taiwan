@@ -6144,12 +6144,16 @@ margin-right: 10px;
   background: #1b1a1a
 }
 .promotion-form{
-  padding: 50px 10px 80px;
+  padding: 30px 10px 80px;
   border-radius: 3px;
   background: #1b1a1a;
   position: relative;
-  margin-top: 50px;
   margin-bottom: 50px;
+}
+.promotion-form-inner h1{
+  color: #fba601;
+  font-size: 28px;
+  margin-top: 30px;
 }
 .promotion-form .control-label, .promotion-form .table th{
   font-size: 14px;
@@ -6168,16 +6172,24 @@ margin-right: 10px;
   display: block;
   width: 100%;
   height: 32px;
-  background: url('../img/promo/btn-promos.png');
+  background-image: url('../img/promo/btn-bg.png');
+  background-repeat: repeat-x;
+  font-weight: 700;
+  color: #000;
+  outline: 0
 }
-.promotion-form-btn2:active{
-  background-image: url('../img/promo/btn-promos.png');
+.promotion-form-btn2:hover, .promotion-form-btn2:active, .promotion-form-btn2:focus {
+  color: #000;
+  background-image: url('../img/promo/btn-bg.png');
 }
 .breadcrumb-inner .promotion-form select{
   background: none;
   background-color: #fff;
   border-radius: 4px;
-  color: #333
+  color: #333;
+  -webkit-appearance: menulist !important;
+     -moz-appearance: menulist !important;
+          appearance: menulist !important;
 }
 .promotion-search{
   display: block;
@@ -6275,4 +6287,27 @@ margin-right: 10px;
   position: absolute;
   right: 40px;
   left: auto;
+}
+.navbar-top-right{
+  position: relative;
+  top: 5px
+}
+.navbar-top-right li a{
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 15px
+}
+.navbar-top-right li a:hover, .navbar-top-right li a:active, .navbar-top-right li a:focus{
+  text-decoration: none;
+}
+.navbar-top-right li a span{
+  position: relative;
+  top: 1px
+}
+.navbar-top-right li a img{
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  margin-right: 5px;
 }
