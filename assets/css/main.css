@@ -702,6 +702,8 @@ div.border:before {
 
 .navbar-inverse .navbar-nav > li > a:first-child {
     border-left: 0px solid #3c3c3c;
+    height: 35px;
+    line-height: 23px;
 }
 
 
@@ -2964,7 +2966,8 @@ span.round-tab i{
   margin-bottom: 20px;
   padding: 7px 15px;
   letter-spacing: .5px;
-  color: #1a1a1a;
+  color: rgba(26, 26, 26, 0.8) !important;
+  text-shadow: 1px 1px rgb(255, 214, 135)!important;
   border: none;
   border-radius: 4px;
   background: url(../img/yellow-btn.png) repeat-x;
@@ -5592,18 +5595,20 @@ margin-right: 5px;
 }
 .navbar-afterlogin{
   position: relative;
-  top: 7px
+  top:3px
 }
 .navbar-afterlogin ul li{
   margin-left: 30px;
   position: relative;
+  font-size: 19px;
+  font-weight: 700;
 }
 .navbar-afterlogin ul li a{
   text-decoration: none;
   color: #fff;
 }
 .navbar-afterlogin ul li a img{
-  width: 25px;
+  width: 30px;
 }
 
 /*.navbar-afterlogin ul li:nth-child(3) a img{
@@ -5805,7 +5810,8 @@ position: relative;
   font-size: 15px;
 }
 #myModal .pull-right .modal-bottom .btn-warning{
-  color: #fff
+color: rgba(26, 26, 26, 0.8) !important;
+text-shadow: 1px 1px rgb(255, 214, 135);
 }
 #myModal .pull-right .modal-bottom a{
   color: inherit;
