@@ -653,7 +653,7 @@ border-bottom: none!important;
         <div class="container main-section casino-section promo-section">
             <div class=" breadcrumb-content">
                 <div class="breadcrumb-inner promotion-form-inner">
-                  <h1 class="text-center">優惠申請表格</h1>
+                  <h1 class="text-center"><span>優惠申請表格</span></h1>
                   <div class="col-md-8 col-md-offset-2 col-xs-12 promotion-form">
                     <div class="row">
                       <div class="col-md-8 col-md-offset-1 col-xs-12">
@@ -733,7 +733,7 @@ border-bottom: none!important;
                           </div>
                           <div class="form-group">
                             <div class="col-md-4"></div>
-                            <div class="col-md-8"><input type="submit" class="btn promotion-form-btn" value=""></div>
+                            <div class="col-md-8 promotion-form-btn-wrapper"><input type="submit" class="btn promotion-form-btn" value=""></div>
                           </div>
                         </form>
                       </div>
@@ -1872,16 +1872,11 @@ border-bottom: none!important;
                <label for="">（當第一個數字為0時則省略0）</label>
                </div>
                <div class="form-group">
-                 <div class="row">
-                   <div class="col-xs-6">
-                     <label for="">驗證碼：</label>
-                     <input type="text" class="form-control">
+
+                     <div class="form-group form-inline form-captcha form-recap">
+                         <div class="g-recaptcha  recaptScale" id="recaptcha3"></div>
+
                    </div>
-                   <div class="col-xs-6" style="margin-top: 27px;">
-                     <label >換一個圖片：</label>
-                     <img src="assets/img/footer/verify.png" style="margin:0;" alt="">
-                   </div>
-                 </div>
                </div>
              </div>
              <div class="form-group text-right">
@@ -2056,6 +2051,11 @@ border-bottom: none!important;
             'size' : 'small'
           });
           grecaptcha.render('recaptcha2', {
+            'sitekey' : '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
+            'theme' : 'dark',
+            'size' : 'small'
+          });
+          grecaptcha.render('recaptcha3', {
             'sitekey' : '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
             'theme' : 'dark',
             'size' : 'small'
