@@ -702,6 +702,8 @@ div.border:before {
 
 .navbar-inverse .navbar-nav > li > a:first-child {
     border-left: 0px solid #3c3c3c;
+    height: 35px;
+    line-height: 23px;
 }
 
 
