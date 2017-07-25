@@ -2544,7 +2544,6 @@ select + i.fa {
   color: rgba(26, 26, 26, 0.8) !important;
   text-shadow: 1px 1px rgb(255, 214, 135);
   font-weight: 700;
-  font-size: 19px;
 }
 
 .lg-playnow:active, .lg-playnow:hover, .lg-playnow:focus{
@@ -3645,15 +3644,15 @@ display: none !important;
 }
 
 .live-game-txtb a, .live-game-txtc a{
-  display: block;
-color: rgba(26, 26, 26, 0.8) !important;
-  text-shadow: 1px 1px rgb(255, 214, 135);
-  font-weight: 700!important;
+      display: block;
+    color: rgb(251, 166, 1) !important;
+    text-shadow: 1px 1px rgb(86, 57, 0);
+    font-weight: 700!important;
 }
 
 .live-game-txtb a:hover, .live-game-txtc a:hover{
-color: rgba(49, 49, 49, 0.5) !important;
-  text-decoration: none
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
 }
 
 .live-game-txtc{
@@ -3680,7 +3679,6 @@ color: rgba(49, 49, 49, 0.5) !important;
   min-height: 90px;
 }
 #c{
-  margin-top: 28px;
   min-height: 90px;
 }
 /*#b::before{
@@ -4445,9 +4443,9 @@ border-radius: 2px;
 }
 .btn-warning {
     color: #fff;
-    background-color: #ef9e01;
     border-color: #eea236;
     text-shadow: 1px 1px 3px #000;
+    background: url(../img/yellow-btn.png) repeat-x #fba601;
 }
 
 .modal-bottom{
@@ -4560,19 +4558,16 @@ ol, ul {
 .rss-submit-verification,.rss-submit-verification:hover{
 
   border: 1px solid #ffad41;
-border-radius: 3px;
-font-size: 12px;
-font-family: arial, helvetica, sans-serif;
-padding: 6px 10px 6px 10px;
-text-decoration: none;
-display: inline-block;
-text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-font-weight: bold;
-color: #FFFFFF;
-background-color: #ffc579;
-background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc579), to(#fb9d23));
-background-image: linear-gradient(to bottom, #ffc579, #fb9d23);
-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc579, endColorstr=#fb9d23);
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    padding: 6px 10px 6px 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
+    font-weight: bold;
+    background: url(../img/yellow-btn.png) repeat-x;
+    color: #FFFFFF;
 }
 .my-modal-cs{
   position: absolute;
@@ -4706,10 +4701,10 @@ right: 160px;
   padding-left: 15px;
 }
 .gp-g .col-md-4:nth-child(4) a{
-  padding-left: 3px;
+  padding-left: 4px;
 }
 .gp-g .col-md-4:nth-child(5) a{
-  padding-left: 12px;
+  padding-left: 14px;
 }
 .gp-g .col-md-4:nth-child(6) a{
   padding-left: 11px;
@@ -5202,8 +5197,11 @@ div.input-border #country-sel.flagstrap .btn .caret{
   display: block !important;
   width: 100%;
 }
-.columns.f-social li a img, .footer-shareit ul li a img{
+.footer-shareit ul li a img{
   cursor: default; !important
+}
+.columns.f-social li a img{
+  cursor: pointer
 }
 .navaa li:first-child{
   min-width: 30px;
@@ -5827,6 +5825,7 @@ display: inline-block;
 padding: .5em;
 padding: .65em 2em;
 margin-top: 35px;
+margin-left:50px;
 }
 
 .wallet-text{
@@ -5872,6 +5871,7 @@ color: #c4c4c4 !important;
   z-index: 1049;
   background: #333333;
   border-radius: 4px;
+  right: 1px;
 }
 #menu-m ul{
   width: 50px;
@@ -5887,12 +5887,13 @@ color: #c4c4c4 !important;
   border-left: 10px solid transparent;
   position: absolute;
   top: -7px;
-  left: 14px;
+  left: 18px;
   z-index: 10;
 }
 .header-cs ul li{
   border: 1px solid #4a4a4a;
-  border-bottom: none
+  border-bottom: none;
+  display: block;
 }
 .header-cs ul li:last-child{
   border-bottom: 1px solid #4a4a4a
@@ -5901,7 +5902,7 @@ color: #c4c4c4 !important;
   padding: 7px 0 3px;
 }
 .before-login{
-  width: 135px;
+  width: 120px;
 }
 .selectpicker2::before{
   content: ' ';
@@ -6070,24 +6071,24 @@ margin-right: 10px;
   display: inline-block;
 }
 .fa-mobile::before{
-  background: url('../img/gadget-small.png') no-repeat 0 -4px;
+  background: url('../img/gadget-small.png') no-repeat 0 0;
 	width: 11px;
 	height: 19px;
 }
 .fa-tablet::before{
-  background: url('../img/gadget-small.png') no-repeat -25px 0;
-	width: 19px;
-	height: 23px;
+  background: url('../img/gadget-small.png') no-repeat -23px 0;
+	width: 16px;
+	height: 19px;
 }
 .fa-laptop::before{
-  background: url('../img/gadget-small.png') no-repeat -59px -1px;
-	width: 35px;
-	height: 22px;
+  background: url('../img/gadget-small.png') no-repeat -49px 0;
+	width: 32px;
+	height: 20px;
 }
 .fa-desktop::before{
-  background: url('../img/gadget-small.png') no-repeat -106px 0;
-	width: 32px;
-	height: 23px;
+  background: url('../img/gadget-small.png') no-repeat -86px 0;
+	width: 28px;
+	height: 20px;;
 }
 .fa-mobile-lg::before{
   background: url('../img/gadget-big.png') no-repeat 0 -5px;
@@ -6117,8 +6118,105 @@ margin-right: 10px;
   background: url('../img/yellow-btn.png') repeat-x;
 }
 .mnav-top-home img{
-  height: 20.5px !important;
+  height: 23px !important;
 }
 .mnav-afterlogin .mnav-top-home img{
-  height: 22px !important
+  height: 25px !important
+}
+.promo-body #c{
+  margin-top: -10px;
+}
+.promotion-form-inner{
+  background: none
+}
+.promotion-form{
+  padding: 50px 10px 80px;
+  border-radius: 3px;
+  background: url('../img/promo/form-bg.png') no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.promotion-form-btn{
+  display: inline-block;
+  width: 91px;
+  height: 32px;
+  background: url('../img/promo/btn-promo.png');
+}
+.promotion-form-btn2{
+  display: inline-block;
+  width: 91px;
+  height: 32px;
+  background: url('../img/promo/btn-promos.png');
+}
+.breadcrumb-inner .promotion-form select{
+  background: none;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #333
+}
+.promotion-search{
+  display: block;
+  width: 148px;
+  height: 44px;
+  position: absolute;
+  top: 46px;
+  right: 40px;
+}
+.promotion-table{
+  margin-top: 30px;
+}
+.promotion-table th{
+  padding: 3px !important;
+  text-align: center;
+  width: 25%;
+}
+.nav.navbar-nav.navbar-right li:nth-child(1) a img{
+  position: relative;
+  bottom: 1.55px
+}
+.nav.navbar-nav.navbar-right li:nth-child(2) a img{
+  position: relative;
+  bottom: 1.5px
+}
+.nav.navbar-nav.navbar-right li:nth-child(3) a img{
+  position: relative;
+  bottom: 2px
+}
+.nav.navbar-nav.navbar-right li:nth-child(4) a img{
+  position: relative;
+  bottom: 2px
+}
+.top-hc img{
+  max-width: 130%;
+  position: relative;
+  bottom: 3px
+}
+.header-cs .menu-m-xs{
+  position: relative;
+  bottom: 6px
+}
+.menu-m-xs div ul li{
+  background: #333
+}
+.menu-m-xs div ul li a{
+  display: block;
+  width: 30px;
+}
+.arrow-modal{
+  position: relative;
+  bottom: 1.5px;
+  left: 10px;
+}
+#myModal .arrow-modal{
+  width: 18px;
+  left: 5px;
+  bottom: 0px;
+}
+.sweetalert-arrow{
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: red
 }

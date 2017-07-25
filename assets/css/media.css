@@ -411,7 +411,6 @@
     .certs li:nth-child(3), .certs li:nth-child(4){
       margin-bottom: 0;
     }
-
     .certs li:nth-child(even){
       text-align: center
     }
@@ -442,7 +441,7 @@
       margin-top: 5px;
     }
     .live-game-txtb{
-      font-size: 13px;
+      font-size: 11px;
       letter-spacing: 0.5px;
       bottom: 13px;
     }
@@ -453,13 +452,13 @@
       bottom: 5px;
     }
     .live-game-txtc {
-      font-size: 14px;
+      font-size: 11px;
       bottom: 13px;
     }
     .casino-mp, .slots-mp{
       right: 0;
       left: 0;
-      bottom: 89px
+      bottom: 71px
     }
     .flag-icon {
         font-size: 14px
@@ -670,20 +669,21 @@
     }
     .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a{
       position: absolute;
-      bottom: -2px;
     }
     .live-game-txtba a {
-      left: 48px;
+      left: 46px;
+      bottom: -4px
     }
     .live-game-txtbb a {
-      left: 53px;
+      left: 45px;
+      bottom: -2px;
     }
     .live-game-txtbc a{
       left: 56px;
       bottom: -3px;
     }
     .live-game-txtbd a {
-      left: 65px;
+      left: 59px;
       bottom: -1px
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
@@ -702,7 +702,7 @@
       bottom: -5px
     }
     .lg-playnow{
-      bottom: 15%;
+      bottom: 14.5%;
     }
     #m-selectpicker2{
       right: 28px;
@@ -777,8 +777,25 @@
     .live-game.jigong img{
       margin-top: -2px
     }
-    #b p:first-child, #c p:first-child{
-      margin-top: 25px;
+    #b p:first-child{
+      margin-top: 15px;
+    }
+    #c p:first-child{
+      margin-top: 15px;
+    }
+    #c{
+      margin-top: 17px;
+    }
+    #b{
+      margin-top: 17px;
+    }
+    .lg-playnow{
+      font-size: 16px;
+    }
+    .lg-playnow.login-modal-a img{
+      width: 20px;
+      position: relative;
+      bottom: 1px;
     }
 }
 
@@ -895,14 +912,14 @@
       padding-left: 5px;
     }
     .live-game-txtc {
-      font-size: 14px;
+      font-size: 11px;
       bottom: 16px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
-      bottom: 9px;
+      bottom: 10px;
     }
     .lg-playnow{
-      bottom: 14.5%;
+      bottom: 15%;
     }
     #m-selectpicker2{
       right: 17px;
@@ -925,6 +942,22 @@
     .gp-star{
       position: relative;
       top: 6px
+    }
+    .live-game-txtba a {
+      left: 51px;
+      bottom: -1px;
+    }
+    .live-game-txtbb a {
+      left: 54px;
+      bottom: 1px;
+    }
+    .live-game-txtbc a {
+      left: 58px;
+      bottom: -1px;
+    }
+    .live-game-txtbd a {
+      left: 65px;
+      bottom: 2px;
     }
 }
 
@@ -1015,7 +1048,7 @@
     }
     .live-game-txtc {
       font-size: 13px;
-      bottom: 18px;
+      bottom: 17px;
     }
     .lp-collapse-toggle {
       margin-right: -255px;
@@ -1116,7 +1149,7 @@
       margin-left: -25px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
-      bottom: 11px;
+      bottom: 10px;
     }
     .sitemap-body2d ul{
       -webkit-column-count: 2;
@@ -1142,17 +1175,18 @@
       margin-top: 7px;
     }
     .live-game-txtba a {
-      left: 48px;
+      left: 43px;
+      bottom: -4px;
     }
     .live-game-txtbb a {
-      left: 58px;
+      left: 54px;
       bottom: 0;
     }
     .live-game-txtbc a{
       left: 60px;
     }
     .live-game-txtbd a {
-      left: 71px;
+      left: 67px;
       bottom: 0px;
     }
 }
@@ -1239,7 +1273,7 @@
     }
     .live-game-txtc {
       font-size: 14px;
-      bottom: 21px;
+      bottom: 19px;
     }
     .prizepool {
       font-size: 14px;
@@ -1272,19 +1306,26 @@
       margin-top: 6px;
     }
     .live-game-txtba a {
-      bottom: -5px;
+      bottom: -7px;
     }
     .live-game-txtbb a {
-      bottom: -5px;
+      bottom: -6px;
+      left: 49px;
     }
-    .live-game-txtbc a{
-      left: 68px;
+    .live-game-txtbc a {
+      left: 62px;
+      bottom: -3px;
     }
     .live-game-txtbd a {
-      left: 80px;
+      left: 71px;
+      bottom: -1px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
       bottom: 12px;
+    }
+    .lg-playnow {
+      font-size: 18px;
+      bottom: 15.5%
     }
 }
 
@@ -1355,13 +1396,13 @@
       margin-top: 5px;
     }
     .live-game-txtb {
-      font-size: 15px;
+      font-size: 14px;
       letter-spacing: 1px;
       bottom: 16px;
     }
     .live-game-txtc {
       font-size: 15px;
-      bottom: 21px;
+      bottom: 18px;
     }
     .m-selectpicker2-menu {
       top: -287px !important;
@@ -1447,23 +1488,26 @@
       padding-left: 5px;
     }
     .lg-playnow{
-      bottom: 15%;
+      bottom: 15.6%;
     }
     .live-game-txtba a {
       bottom: -2px;
-      left: 61px;
+      left: 58px;
     }
     .live-game-txtbb a {
       bottom: -1px;
-      left: 69px;
+      left: 63px;
     }
-    .live-game-txtbc a{
-      left: 70px;
-      bottom: 0;
+    .live-game-txtbc a {
+      left: 67px;
+      bottom: -1px;
     }
     .live-game-txtbd a {
-      left: 83px;
-      bottom: 1.5px;
+      left: 76px;
+      bottom: -0.5px;
+    }
+    .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
+      bottom: 10px;
     }
 }
 
@@ -2135,11 +2179,11 @@
       bottom: 15px
     }
     .jigong .live-game-txtb{
-      bottom: 15px;
+      bottom: 14px;
     }
     .live-game-txtc{
       font-size: 15px;
-      bottom: 25px;
+      bottom: 24px;
     }
     .wallet .datepicker{
       width: 22.7% !important
@@ -2293,7 +2337,7 @@
       margin-top: 5px;
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
-      bottom: 15px;
+      bottom: 14px;
     }
     .live-game-txtba a, .live-game-txtbb a, .live-game-txtbc a, .live-game-txtbd a{
       position: relative;
@@ -2429,6 +2473,17 @@
     }
     #b p:first-child, #c p:first-child{
       margin-top: 15px;
+    }
+    #c{
+      margin-top: 28px;
+    }
+    .lg-playnow{
+      font-size: 19px;
+    }
+    .lg-playnow.login-modal-a img{
+      width: auto;
+      position: relative;
+      bottom: 0;
     }
 }
 
