@@ -777,17 +777,11 @@
     .live-game.jigong img{
       margin-top: -2px
     }
-    #b p:first-child{
-      margin-top: 15px;
-    }
     #c p:first-child{
-      margin-top: 15px;
+      margin-top: auto;
     }
     #c{
-      margin-top: 17px;
-    }
-    #b{
-      margin-top: 17px;
+      margin-top: auto;
     }
     .lg-playnow{
       font-size: 16px;
@@ -818,6 +812,16 @@
     }
     .promotion-form-btn2{
       background-position: -16px -1px
+    }
+    .acc-info .myaccount-botton{
+      margin: 10px 4px!important;
+    }
+    .deposit-reminder{
+      left: 0;
+      height: 610px;
+    }
+    .deposit-reminder-neteller{
+      position: relative;
     }
 }
 
@@ -2247,7 +2251,7 @@
       bottom: 75px
     }
     #b {
-      margin-top: 26px;
+      margin-top: auto;
     }
     .flag-icon {
         font-size: 17px
@@ -2523,11 +2527,11 @@
     .lg-angel-demon img, .live-game.jigong img{
       margin-left: auto !important
     }
-    #b p:first-child, #c p:first-child{
-      margin-top: 15px;
+    #c p:first-child{
+      margin-top: auto;
     }
     #c{
-      margin-top: 28px;
+      margin-top: auto;
     }
     .lg-playnow{
       font-size: 19px;
@@ -2555,6 +2559,16 @@
     }
     .promotion-form-btn2{
       background-position: 18px -1px
+    }
+    .acc-info .myaccount-botton{
+      margin: 10px 107px!important;
+    }
+    .deposit-reminder{
+      left: -10px;
+      height: auto;
+    }
+    .deposit-reminder-neteller{
+      position: absolute;
     }
 }
 
