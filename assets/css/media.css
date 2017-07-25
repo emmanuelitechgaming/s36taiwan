@@ -803,6 +803,22 @@
     .menu-m::before {
       left: 15px;
     }
+    .promotion-form-btn2{
+      margin-bottom: 20px;
+    }
+    .promotion-search{
+      top: 10px;
+      right: 5px;
+    }
+    .promotion-form .form-horizontal{
+      margin-top: 15px
+    }
+    .promotion-form-btn{
+      background-position: -16px -1px
+    }
+    .promotion-form-btn2{
+      background-position: -16px -1px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -970,6 +986,12 @@
     }
     .menu-m::before {
       left: 16px;
+    }
+    .promotion-form-btn{
+      background-position: 3px -1px
+    }
+    .promotion-form-btn2{
+      background-position: 2px -1px
     }
 }
 
@@ -1201,6 +1223,12 @@
       left: 67px;
       bottom: 0px;
     }
+    .promotion-form-btn{
+      background-position: 10px -1px
+    }
+    .promotion-form-btn2{
+      background-position: 16px -1px
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1338,6 +1366,12 @@
     .lg-playnow {
       font-size: 18px;
       bottom: 15.5%
+    }
+    .promotion-form-btn{
+      background-position: 32px -1px
+    }
+    .promotion-form-btn2{
+      background-position: 31px -1px
     }
 }
 
@@ -1523,6 +1557,9 @@
     }
     .lg-playnow.login-modal-a img {
       bottom: 0px;
+    }
+    .promotion-form-btn2{
+      background-position: 35px -1px
     }
 }
 
@@ -2502,6 +2539,22 @@
     }
     .lg-playnow{
       bottom: 15.4%;
+    }
+    .promotion-form-btn2{
+      margin-bottom: auto;
+    }
+    .promotion-search{
+      top: 46px;
+      right: 40px;
+    }
+    .promotion-form .form-horizontal{
+      margin-top: auto
+    }
+    .promotion-form-btn{
+      background-position: 12px -1px
+    }
+    .promotion-form-btn2{
+      background-position: 18px -1px
     }
 }
 
