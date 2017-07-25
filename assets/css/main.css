@@ -504,7 +504,7 @@ footer .footer-icon {
 
 footer .footer-icon img {
     display: inline-block;
-    margin: 0px 6px 10px 6px;
+    margin: 0px 10px 10px 9px;
     cursor: pointer;
 }
 
@@ -2966,13 +2966,13 @@ span.round-tab i{
   margin-bottom: 20px;
   padding: 7px 15px;
   letter-spacing: .5px;
-  color: rgba(26, 26, 26, 0.8) !important;
-  text-shadow: 1px 1px rgb(255, 214, 135)!important;
-  border: none;
+    border: none;
   border-radius: 4px;
   background: url(../img/yellow-btn.png) repeat-x;
   text-shadow: none;
   width: 100%;
+  color: rgba(26, 26, 26, 0.8) !important;
+text-shadow: 1px 1px rgb(255, 214, 135) !important;
 }
 
 .cs-modal .chatserver-form span {
@@ -4445,10 +4445,11 @@ border-radius: 5px;
 border-radius: 2px;
 }
 .btn-warning {
-    color: #fff;
+    color: rgba(26, 26, 26, 0.8) !important;
+    text-shadow: 1px 1px rgb(255, 214, 135);
     border-color: #eea236;
-    text-shadow: 1px 1px 3px #000;
     background: url(../img/yellow-btn.png) repeat-x #fba601;
+    font-weight: 700
 }
 
 .modal-bottom{
@@ -4559,7 +4560,8 @@ ol, ul {
   display: none
 }
 .rss-submit-verification,.rss-submit-verification:hover{
-
+  color: rgba(26, 26, 26, 0.8) !important;
+  text-shadow: 1px 1px rgb(255, 214, 135);
   border: 1px solid #ffad41;
     border-radius: 3px;
     font-size: 12px;
@@ -4567,10 +4569,9 @@ ol, ul {
     padding: 6px 10px 6px 10px;
     text-decoration: none;
     display: inline-block;
-    text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
     font-weight: bold;
     background: url(../img/yellow-btn.png) repeat-x;
-    color: #FFFFFF;
+
 }
 .my-modal-cs{
   position: absolute;
@@ -4990,7 +4991,7 @@ right: 160px;
   text-align: center;
 }
 .mnav-afterlogin ul li{
-  width: 16.6666%;
+  width: 20%;
   vertical-align: bottom;
 }
 .mnav-top ul li a{
@@ -5598,7 +5599,7 @@ margin-right: 5px;
   top:3px
 }
 .navbar-afterlogin ul li{
-  margin-left: 30px;
+  margin-left: 60px;
   position: relative;
   font-size: 19px;
   font-weight: 700;
@@ -5697,12 +5698,15 @@ font-weight: 700;
 margin-bottom: 20px;
 padding: 7px 15px;
 letter-spacing: .5px;
-color: #1a1a1a;
+color: rgba(26, 26, 26, 0.8) !important;
+text-shadow: 1px 1px rgb(255, 214, 135)!important;
+
 border: none;
 border-radius: 4px;
 background: url(../img/yellow-btn.png) repeat-x;
 text-shadow: none;
 width: 100%;
+
 }
 #csCallselect{
   height: 38px;
@@ -5812,6 +5816,8 @@ position: relative;
 #myModal .pull-right .modal-bottom .btn-warning{
 color: rgba(26, 26, 26, 0.8) !important;
 text-shadow: 1px 1px rgb(255, 214, 135);
+padding-left: 20px;
+padding-right: 20px;
 }
 #myModal .pull-right .modal-bottom a{
   color: inherit;
@@ -6129,7 +6135,9 @@ margin-right: 10px;
   width: 180px;
 }
 .btn-yellow{
-  background: url('../img/yellow-btn.png') repeat-x;
+  background: url('../img/yellow-btn.png') repeat-x #fba601;
+  font-size: 17px;
+  font-weight: 700;
 }
 .mnav-top-home img{
   height: 23px !important;
@@ -6141,6 +6149,7 @@ margin-right: 10px;
   margin-top: -10px;
 }
 .promotion-form-inner{
+
   background: #1b1a1a
 }
 .promotion-form{
@@ -6231,9 +6240,9 @@ margin-right: 10px;
   left: 10px;
 }
 #myModal .arrow-modal{
-  width: 18px;
-  left: 5px;
-  bottom: 0px;
+  width: 26px;
+left: 5px;
+bottom: 0px;
 }
 .btn-warning:hover {
   color: #fff;
