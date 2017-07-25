@@ -520,7 +520,87 @@ $(document).ready(function () {
       if($(this).find('i').length > 0){
         $(this).find('i').toggleClass('fa-home fa-home-hover');
       }
-    })
+    });
+
+    $('.fa-mobile').hover(function() {
+      $(this).removeClass('fa-mobile');
+      $(this).addClass('fa-mobile-hover');
+    }, function() {
+      $(this).addClass('fa-mobile');
+      $(this).removeClass('fa-mobile-hover');
+    });
+
+    $('.fa-tablet').hover(function() {
+      $(this).removeClass('fa-tablet');
+      $(this).addClass('fa-tablet-hover');
+    }, function() {
+      $(this).addClass('fa-tablet');
+      $(this).removeClass('fa-tablet-hover');
+    });
+
+    $('.fa-laptop').hover(function() {
+      $(this).removeClass('fa-laptop');
+      $(this).addClass('fa-laptop-hover');
+    }, function() {
+      $(this).addClass('fa-laptop');
+      $(this).removeClass('fa-laptop-hover');
+    });
+
+    $('.fa-desktop').hover(function() {
+      $(this).removeClass('fa-desktop');
+      $(this).addClass('fa-desktop-hover');
+    }, function() {
+      $(this).addClass('fa-desktop');
+      $(this).removeClass('fa-desktop-hover');
+    });
+
+    $('.fa-mobile-lg').hover(function() {
+      $(this).removeClass('fa-mobile-lg');
+      $(this).addClass('fa-mobile-hover-lg');
+    }, function() {
+      $(this).addClass('fa-mobile-lg');
+      $(this).removeClass('fa-mobile-hover-lg');
+    });
+
+    $('.fa-tablet-lg').hover(function() {
+      $(this).removeClass('fa-tablet-lg');
+      $(this).addClass('fa-tablet-hover-lg');
+    }, function() {
+      $(this).addClass('fa-tablet-lg');
+      $(this).removeClass('fa-tablet-hover-lg');
+    });
+
+    $('.fa-laptop-lg').hover(function() {
+      $(this).removeClass('fa-laptop-lg');
+      $(this).addClass('fa-laptop-hover-lg');
+    }, function() {
+      $(this).addClass('fa-laptop-lg');
+      $(this).removeClass('fa-laptop-hover-lg');
+    });
+
+    $('.fa-desktop-lg').hover(function() {
+      $(this).removeClass('fa-desktop-lg');
+      $(this).addClass('fa-desktop-hover-lg');
+    }, function() {
+      $(this).addClass('fa-desktop-lg');
+      $(this).removeClass('fa-desktop-hover-lg');
+    });
+
+    $('.fa-mobile-lotto-lg').hover(function() {
+      $(this).removeClass('fa-mobile-lotto-hover-lg');
+      $(this).addClass('fa-mobile-lotto-hover-lg');
+    }, function() {
+      $(this).addClass('fa-mobile-lotto-hover-lg');
+      $(this).removeClass('fa-mobile-lotto-hover-lg');
+    });
+
+    $('.fa-desktop-lotto-lg').hover(function() {
+      $(this).removeClass('fa-desktop-lotto-hover-lg');
+      $(this).addClass('fa-desktop-lotto-hover-lg');
+    }, function() {
+      $(this).addClass('fa-desktop-lotto-hover-lg');
+      $(this).removeClass('fa-desktop-lotto-hover-lg');
+    });
 
 });
 
