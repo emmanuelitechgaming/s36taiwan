@@ -6070,7 +6070,7 @@ margin-right: 10px;
 .casino-mp{
   text-align: center;
 }
-.fa-mobile::before, .fa-tablet::before, .fa-laptop::before, .fa-desktop::before, .fa-mobile-lg::before, .fa-tablet-lg::before, .fa-laptop-lg::before, .fa-desktop-lg::before{
+.fa-mobile::before, .fa-tablet::before, .fa-laptop::before, .fa-desktop::before, .fa-mobile-lg::before, .fa-tablet-lg::before, .fa-laptop-lg::before, .fa-desktop-lg::before, .fa-mobile-lotto-lg::before, .fa-desktop-lotto-lg::before{
   content: ' ' !important;
   display: inline-block;
 }
@@ -6112,6 +6112,16 @@ margin-right: 10px;
 }
 .fa-desktop-lg::before{
   background: url('../img/gadget-big.png') no-repeat -132px 0;
+	width: 40px;
+	height: 28px;
+}
+.fa-mobile-lotto-lg::before{
+  background: url('../img/gadget-big-lotto.png') no-repeat 0 -1px;
+	width: 16px;
+	height: 26px;
+}
+.fa-desktop-lotto-lg::before{
+  background: url('../img/gadget-big-lotto.png') no-repeat -28px 0;
 	width: 40px;
 	height: 28px;
 }
