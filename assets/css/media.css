@@ -823,6 +823,10 @@
     .deposit-reminder-neteller{
       position: relative;
     }
+    .sp-enter{
+      bottom: 9px;
+      right: 90px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -996,6 +1000,10 @@
     }
     .promotion-form-btn2{
       background-position: 2px -1px
+    }
+    .sp-enter{
+      bottom: 11px;
+      right: 105px;
     }
 }
 
@@ -1233,6 +1241,10 @@
     .promotion-form-btn2{
       background-position: 16px -1px
     }
+    .sp-enter{
+      bottom: 12px;
+      right: 107px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1376,6 +1388,10 @@
     }
     .promotion-form-btn2{
       background-position: 31px -1px
+    }
+    .sp-enter{
+      bottom: 12px;
+      right: 125px;
     }
 }
 
@@ -2569,6 +2585,10 @@
     }
     .deposit-reminder-neteller{
       position: absolute;
+    }
+    .sp-enter{
+      bottom: 12px;
+      right: 550px;
     }
 }
 
