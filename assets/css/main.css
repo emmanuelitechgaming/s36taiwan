@@ -5579,7 +5579,7 @@ margin-right: 5px;
   padding-left: 15px;
 }
 .contactus ul li{
-  padding: 7.6px 0
+  padding: 7.8px 0
 }
 .contactus ul li span{
   white-space: nowrap;
@@ -5871,7 +5871,6 @@ color: #c4c4c4 !important;
   z-index: 1049;
   background: #333333;
   border-radius: 4px;
-  right: 1px;
 }
 #menu-m ul{
   width: 50px;
@@ -5887,7 +5886,6 @@ color: #c4c4c4 !important;
   border-left: 10px solid transparent;
   position: absolute;
   top: -7px;
-  left: 18px;
   z-index: 10;
 }
 .header-cs ul li{
@@ -6214,9 +6212,44 @@ margin-right: 10px;
   left: 5px;
   bottom: 0px;
 }
-.sweetalert-arrow{
+.btn-warning:hover {
+  color: #fff;
+  background-color: #fba601 !important;
+}
+.sweet-arrow{
+  background-color: #fba601 !important;
+  padding-right: 40px;
+}
+.sweet-arrow::before{
+  content: ' ';
   display: inline-block;
-  width: 23px;
-  height: 23px;
-  background: red
+  width: 24px;
+  height: 24px;
+  background: url('../img/arrow-right.png') no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 9px;
+  top: 12px;
+}
+.win-title a img, .contact-title a img{
+  position: relative;
+  top: 5px
+}
+.contact-title a img{
+  top: 4px
+}
+.deposit-help2pay, .deposit-neteller{
+  min-height: 520px;
+}
+.deposit-reminder{
+  float: right;
+  color: #fff;
+  margin-top: 50px;
+  position: relative;
+  left: -10px
+}
+.deposit-reminder-neteller{
+  position: absolute;
+  right: 40px;
+  left: auto;
 }
