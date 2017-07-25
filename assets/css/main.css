@@ -5912,7 +5912,7 @@ color: #c4c4c4 !important;
   content: ' ';
   display: inline-block;
   position: relative;
-  background: url('../img/country.png') no-repeat;
+  background: url('../img/flags/taiwan.png') no-repeat;
   background-size: cover;
 }
 .live-games{
@@ -5963,8 +5963,6 @@ margin-right: 10px;
   position: absolute;
   max-width: 100%;
   width: auto !important;
-  bottom: 12px;
-  right: 550px;
 }
 .reg-now img.sp-enter{
   width: auto !important;
