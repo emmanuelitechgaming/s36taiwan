@@ -827,6 +827,12 @@
       bottom: 9px;
       right: 90px;
     }
+    .time-margin{
+      margin-top: 10px;
+    }
+    .promotion-form-btn-wrapper::before{
+      right: 80px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1004,6 +1010,9 @@
     .sp-enter{
       bottom: 11px;
       right: 105px;
+    }
+    .promotion-form-btn-wrapper::before{
+      right: 100px;
     }
 }
 
@@ -1245,6 +1254,9 @@
       bottom: 12px;
       right: 107px;
     }
+    .promotion-form-btn-wrapper::before{
+      right: 110px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1392,6 +1404,9 @@
     .sp-enter{
       bottom: 12px;
       right: 125px;
+    }
+    .promotion-form-btn-wrapper::before{
+      right: 130px;
     }
 }
 
@@ -1739,6 +1754,10 @@
       margin-top: 0px;
       margin-bottom: 2px;
     }
+    .promotion-form-btn-wrapper::before{
+      right: 280  px;
+    }
+
 }
 
 @media only screen and (min-width: 640px) {
@@ -1763,6 +1782,9 @@
     }
     .win-game img{
       margin-bottom: 4px;
+    }
+    .promotion-form-btn-wrapper::before{
+      right: 350px;
     }
 }
 
@@ -1840,6 +1862,9 @@
     }
     .selectpicker2 {
       left: -211px;
+    }
+    .promotion-form-btn-wrapper::before{
+      right: 370px;
     }
 }
 
@@ -2589,6 +2614,12 @@
     .sp-enter{
       bottom: 12px;
       right: 550px;
+    }
+    .time-margin{
+      margin-top: 0px;
+    }
+    .promotion-form-btn-wrapper::before{
+      right: 120px;
     }
 }
 
