@@ -26,6 +26,7 @@ header .top-header{
 }
 header .top-header ul li span{
   margin: 5px;
+  font-size: 15px;
 }
 header .top-header ul li{
 
@@ -3644,13 +3645,13 @@ display: none !important;
 
 .live-game-txtb a, .live-game-txtc a{
       display: block;
-    color: rgb(251, 166, 1) !important;
+    color: #fff;
     text-shadow: 1px 1px rgb(86, 57, 0);
     font-weight: 700!important;
 }
 
 .live-game-txtb a:hover, .live-game-txtc a:hover{
-    color: rgb(255, 255, 255) !important;
+      color: rgb(251, 166, 1) !important;
     text-decoration: none;
 }
 
