@@ -6235,7 +6235,6 @@ margin-right: 10px;
   background: url('../img/arrow-right.png') no-repeat;
   position: absolute;
   background-size: cover;
-  right: 120px;
   top: 5px;
 }
 .promotion-form-btn:active{
@@ -6391,3 +6390,4 @@ bottom: 0px;
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(2) a img{position: relative; bottom: 3px}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(3) a img{position: relative; bottom: 2px}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(4) a img{position: relative; bottom: 3px}
+#csMsg .arrow-modal, #csPhone .arrow-modal, #csModal .arrow-modal, #demoModal .arrow-modal{width: 24px; bottom: 0; left: 2px}
