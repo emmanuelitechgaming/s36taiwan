@@ -5431,13 +5431,11 @@ margin-right: -10px;
   padding-top: 5px
 }
 #m-selectpicker2 i{
-  line-height: 23px;
-  border-radius: 23px;
-  width: 23px !important;
+  font-size: 18px;
   position: relative;
-  top: -3px;
+  bottom: -1px;
+  left: -1px
 }
-
 .panel.with-nav-tabs .panel-heading .promo-tabs li{
   min-width: 103px;
   text-align: center;
