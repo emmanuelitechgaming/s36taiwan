@@ -6236,7 +6236,10 @@ margin-right: 10px;
   display: block;
   width: 100%;
   height: 32px;
-  background: url('../img/promo/btn-promo.png') #edd58c;
+  background: url('../img/yellow-btn.png') repeat-x;
+  color: #000;
+  font-weight: 700;
+  font-size: 15px
 }
 .promotion-form-btn-wrapper::before{
   content: ' ';
@@ -6405,4 +6408,9 @@ bottom: 0px;
 .arrow-modal{width: 23px; height: 24px}
 .ul-new-promo li:hover{
   color: #fba601;
+}
+.tooltip > .tooltip-inner {
+    position: relative;
+    top: 5px;
+    right: 5px
 }
