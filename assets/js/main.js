@@ -609,6 +609,13 @@ $(document).ready(function () {
       $('a[href="#'+link+'"]').tab('show');
     })
 
+    $('.lg-playnow, .arrow-right-btn').hover(function() {
+      $(this).css('color','rgba(49, 49, 49, 0.5)');
+      $(this).find('img').attr('src', 'assets/img/arrow-right-hover.png');
+    }, function() {
+      $(this).css('color','rgba(26, 26, 26, 0.8)');
+      $(this).find('img').attr('src', 'assets/img/arrow-right.png');
+    })
 });
 
 function nextTab(elem) {
