@@ -2955,7 +2955,7 @@ span.round-tab i{
 }
 
 .cs-modal .chatserver-form button {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 700;
   margin-bottom: 20px;
   padding: 7px 15px;
@@ -2968,6 +2968,7 @@ span.round-tab i{
   color: rgba(26, 26, 26, 0.8) !important;
   text-shadow: 1px 1px rgb(255, 214, 135) !important;
   font-weight: 700;
+  line-height: 5px;
 }
 
 .cs-modal .chatserver-form span {
@@ -5442,6 +5443,7 @@ margin-right: -10px;
   background: #fba601;
   color: #000;
   border: 0;
+  text-shadow: 1px 1px 3px #fff;
 
 }
 
@@ -5449,6 +5451,9 @@ margin-right: -10px;
   background: #2a2a2a;
   color: #fff;
   border-radius: 0;
+  font-size: 16px;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px #000;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
     cursor: default;
@@ -5688,7 +5693,7 @@ margin-right: 5px;
   margin: 0 1px
 }
 #cscall{
-  font-size: 17px;
+  font-size: 19px;
 font-weight: 700;
 margin-bottom: 20px;
 padding: 7px 15px;
@@ -5701,7 +5706,7 @@ border-radius: 4px;
 background: url(../img/yellow-btn.png) repeat-x;
 text-shadow: none;
 width: 100%;
-
+line-height: 5px;
 }
 #csCallselect{
   height: 38px;
@@ -6391,3 +6396,7 @@ bottom: 0px;
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(3) a img{position: relative; bottom: 2px}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(4) a img{position: relative; bottom: 3px}
 #csMsg .arrow-modal, #csPhone .arrow-modal, #csModal .arrow-modal, #demoModal .arrow-modal{width: 24px; bottom: 0; left: 2px}
+
+.ul-new-promo li:hover{
+  color: #fba601;
+}
