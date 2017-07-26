@@ -6244,12 +6244,12 @@ margin-right: 10px;
 .promotion-form-btn-wrapper::before{
   content: ' ';
   display: block;
-  width: 24px;
+  width: 25px;
   height: 24px;
   background: url('../img/arrow-right.png') no-repeat;
   position: absolute;
   background-size: cover;
-  top: 5px;
+  top: 4.5px;
 }
 .promotion-form-btn:active{
   background-image: url('../img/promo/btn-promo.png');
