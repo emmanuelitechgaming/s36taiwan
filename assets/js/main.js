@@ -615,6 +615,12 @@ $(document).ready(function () {
     }, function() {
       $(this).css('color','rgba(26, 26, 26, 0.8)');
       $(this).find('img').attr('src', 'assets/img/arrow-right.png');
+    });
+
+    $('.lotto-sp-back-btn').hover(function() {
+      $(this).find('img.sp-enter').attr('src', 'assets/img/arrow-right-hover.png');
+    }, function() {
+      $(this).find('img.sp-enter').attr('src', 'assets/img/enter.png');
     })
 });
 
