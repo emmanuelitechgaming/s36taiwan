@@ -6249,10 +6249,10 @@ margin-right: 10px;
   background: url('../img/arrow-right.png') no-repeat;
   position: absolute;
   background-size: cover;
-  top: 4.4px;
+  top: 4.5px;
 }
 .promotion-form-btn:active{
-  background-image: url('../img/promo/btn-promo.png');
+  background: url('../img/yellow-btn.png') repeat-x;
 }
 .promotion-form-btn2{
   display: block;
@@ -6262,7 +6262,8 @@ margin-right: 10px;
   background-repeat: repeat-x;
   font-weight: 700;
   color: #000;
-  outline: 0
+  outline: 0;
+  font-size: 15px
 }
 .promotion-form-btn2:hover, .promotion-form-btn2:active, .promotion-form-btn2:focus {
   color: #000;
