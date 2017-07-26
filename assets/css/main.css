@@ -2965,7 +2965,7 @@ span.round-tab i{
   background: url(../img/yellow-btn.png) repeat-x;
   text-shadow: none;
   width: 100%;
-  color: rgba(26, 26, 26, 0.8) !important;
+  color: rgba(26, 26, 26, 0.8);
   text-shadow: 1px 1px rgb(255, 214, 135) !important;
   font-weight: 700;
   line-height: 5px;
@@ -4441,13 +4441,21 @@ border-radius: 5px;
 border-radius: 2px;
 }
 .btn-warning {
-    color: rgba(26, 26, 26, 0.8) !important;
+    color: rgba(26, 26, 26, 0.8);
     text-shadow: 1px 1px rgb(255, 214, 135);
     border-color: #eea236;
     background: url(../img/yellow-btn.png) repeat-x #fba601;
     font-weight: 700
 }
-
+.btn-warning2 {
+    color: rgba(26, 26, 26, 0.8) !important;
+}
+.btn-warning2:hover{
+  color: rgba(49, 49, 49, 0.5) !important
+}
+.btn-warning2:hover::before{
+    background: url(../img/arrow-right-hover.png) no-repeat !important;
+}
 .modal-bottom{
   margin: 13px 0 0 0;
   display: inline-block;
@@ -5698,7 +5706,7 @@ font-weight: 700;
 margin-bottom: 20px;
 padding: 7px 15px;
 letter-spacing: .5px;
-color: rgba(26, 26, 26, 0.8) !important;
+color: rgba(26, 26, 26, 0.8);
 text-shadow: 1px 1px rgb(255, 214, 135)!important;
 
 border: none;
@@ -5814,7 +5822,7 @@ position: relative;
   font-size: 15px;
 }
 #myModal .pull-right .modal-bottom .btn-warning{
-color: rgba(26, 26, 26, 0.8) !important;
+color: rgba(26, 26, 26, 0.8);
 text-shadow: 1px 1px rgb(255, 214, 135);
 padding-left: 20px;
 padding-right: 20px;
@@ -6395,8 +6403,8 @@ bottom: 0px;
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(2) a img{position: relative; bottom: 3px}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(3) a img{position: relative; bottom: 2px}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(4) a img{position: relative; bottom: 3px}
-#csMsg .arrow-modal, #csPhone .arrow-modal, #csModal .arrow-modal, #demoModal .arrow-modal{width: 24px; bottom: 0; left: 2px}
-
+#csMsg .arrow-modal, #csPhone .arrow-modal, #csModal .arrow-modal, #demoModal .arrow-modal{width: 23px; height: 24px;bottom: 0; left: 2px}
+.arrow-modal{width: 23px; height: 24px}
 .ul-new-promo li:hover{
   color: #fba601;
 }
