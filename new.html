@@ -765,10 +765,12 @@
                   <div class="navbar-header  navbar-form navbar-cta-btn ">
                       <!-- <a href="#desktopSupport" data-toggle="collapse" class="desktop-support-trigger pull-left support-pc">24/7 Support Manila: \(02\) 231-2988</a> -->
                   </div>
-                  <div class="navbar-header navbar-right navbar-form navbar-cta-btn ">
-                      <!-- <a href="javascript:void(0)" class="panel-login-btn" id="demo-form-btn"style="margin-bottom: -3px;"><img src="assets/img/demo.png" class="img-responsive demo-img" alt=""></a> -->
-                      <a href="javascript:void(0)" class="panel-login-btn" id="demo-form-btn1" data-toggle="modal" data-target="#myModal"><img src="assets/img/register.png" class="img-responsive btn-reg before-login" alt=""></a>
-                      <a href="javascript:void(0)" class="panel-login-btn" id="demo-form-btn2" data-toggle="modal" data-target="#myModal"><img src="assets/img/login.png" class="img-responsive btn-log before-login" alt=""></a>
+                  <div class="navbar-header navbar-right navbar-form navbar-cta-btn">
+                      <ul class="navbar-top-right">
+                        <li><a href="#" class="register-modal-a"><img src="assets/img/register_25.png" alt=""><span>賬戶註冊</span></a></li>
+                        <li><a href="#" class="login-modal-a"><img src="assets/img/lock_25.png" alt=""><span>賬戶登入</span></a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#demoModal"><img src="assets/img/spade_25.png" alt=""><span>免費試玩</span></a></li>
+                      </ul>
                   </div>
               </div>
 
@@ -779,7 +781,7 @@
           <div class="container">
               <ul class="nav navaa navbar-nav hidden-sm hidden-xs">
                   <li class="nav-active">
-                      <a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;"></i></a>
+                      <a href="index.html"> <i class="fa fa-home" aria-hidden="true" style="font-size:20px;margin-top:2px;"></i></a>
                   </li>
                   <li><a href="casino.html">真人娛樂場</a></li>
                   <li><a href="slots.html">老虎機</a></li>
@@ -1389,6 +1391,11 @@
                             <div class="col-sm-6 col-xs-6">
                                 <img src="assets/img/footer/g4b.png" class="img-responsive" alt="">
                             </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-6 col-xs-6">
+                              <img src="assets/img/footer/PanDeltab.png" class="img-responsive" alt="">
+                          </div>
                         </div>
                     </div>
 
@@ -2121,7 +2128,7 @@
                                 <input type="text" class="form-control">
                             </div>
                             <div class="form-group text-right">
-                                <button type="submit">開始遊戲</button>
+                                <button type="submit">開始遊戲 <img src="assets/img/arrow-right.png" alt="" class="arrow-modal"></button>
                             </div>
                         </form>
                     </div>
@@ -2211,16 +2218,11 @@
               <label for="">（當第一個數字為0時則省略0）</label>
               </div>
               <div class="form-group">
-                <div class="row">
-                  <div class="col-xs-6">
-                    <label for="">驗證碼：</label>
-                    <input type="text" class="form-control">
+
+                    <div class="form-group form-inline form-captcha form-recap">
+                        <div class="g-recaptcha  recaptScale" id="recaptcha3"></div>
+
                   </div>
-                  <div class="col-xs-6" style="margin-top: 27px;">
-                    <label >換一個圖片：</label>
-                    <img src="assets/img/footer/verify.png" style="margin:0;" alt="">
-                  </div>
-                </div>
               </div>
             </div>
             <div class="form-group text-right">
@@ -2285,7 +2287,7 @@ document.querySelector('.sweet-12').onclick = function(){
        title: "註冊成功 ",
          text: "很感謝為您服務，如有任何問題請隨時聯繫在線客服，我們24小時竭誠為您服務，祝您遊戲愉快 ",
        type: "success",
-       confirmButtonClass: 'btn-warning',
+       confirmButtonClass: 'btn-warning sweet-arrow',
        confirmButtonText: '關閉'
      });
    };
@@ -2416,6 +2418,11 @@ document.querySelector('.sweet-12').onclick = function(){
             'size' : 'small'
           });
           grecaptcha.render('recaptcha2', {
+            'sitekey' : '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
+            'theme' : 'dark',
+            'size' : 'small'
+          });
+          grecaptcha.render('recaptcha3', {
             'sitekey' : '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
             'theme' : 'dark',
             'size' : 'small'

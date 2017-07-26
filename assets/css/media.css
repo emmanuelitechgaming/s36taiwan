@@ -702,7 +702,7 @@
       bottom: -5px
     }
     .lg-playnow{
-      bottom: 14.5%;
+      bottom: 14.6%;
     }
     #m-selectpicker2{
       right: 28px;
@@ -777,17 +777,11 @@
     .live-game.jigong img{
       margin-top: -2px
     }
-    #b p:first-child{
-      margin-top: 15px;
-    }
     #c p:first-child{
-      margin-top: 15px;
+      margin-top: auto;
     }
     #c{
-      margin-top: 17px;
-    }
-    #b{
-      margin-top: 17px;
+      margin-top: auto;
     }
     .lg-playnow{
       font-size: 16px;
@@ -796,6 +790,42 @@
       width: 20px;
       position: relative;
       bottom: 1px;
+    }
+    #menu-m{
+      right: -3.7px;
+    }
+    .menu-m::before {
+      left: 15px;
+    }
+    .promotion-form-btn2{
+      margin-bottom: 20px;
+    }
+    .promotion-search{
+      top: 10px;
+      right: 10px;
+    }
+    .promotion-form .form-horizontal{
+      margin-top: 30px
+    }
+    .promotion-form-btn{
+      background-position: -16px -1px
+    }
+    .promotion-form-btn2{
+      background-position: -16px -1px
+    }
+    .acc-info .myaccount-botton{
+      margin: 10px 4px!important;
+    }
+    .deposit-reminder{
+      left: 0;
+      height: 610px;
+    }
+    .deposit-reminder-neteller{
+      position: relative;
+    }
+    .sp-enter{
+      bottom: 9px;
+      right: 90px;
     }
 }
 
@@ -919,7 +949,7 @@
       bottom: 10px;
     }
     .lg-playnow{
-      bottom: 15%;
+      bottom: 15.3%;
     }
     #m-selectpicker2{
       right: 17px;
@@ -958,6 +988,22 @@
     .live-game-txtbd a {
       left: 65px;
       bottom: 2px;
+    }
+    #menu-m{
+      right: 0px;
+    }
+    .menu-m::before {
+      left: 16px;
+    }
+    .promotion-form-btn{
+      background-position: 3px -1px
+    }
+    .promotion-form-btn2{
+      background-position: 2px -1px
+    }
+    .sp-enter{
+      bottom: 11px;
+      right: 105px;
     }
 }
 
@@ -1189,6 +1235,16 @@
       left: 67px;
       bottom: 0px;
     }
+    .promotion-form-btn{
+      background-position: 10px -1px
+    }
+    .promotion-form-btn2{
+      background-position: 16px -1px
+    }
+    .sp-enter{
+      bottom: 12px;
+      right: 107px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1326,6 +1382,16 @@
     .lg-playnow {
       font-size: 18px;
       bottom: 15.5%
+    }
+    .promotion-form-btn{
+      background-position: 32px -1px
+    }
+    .promotion-form-btn2{
+      background-position: 31px -1px
+    }
+    .sp-enter{
+      bottom: 12px;
+      right: 125px;
     }
 }
 
@@ -1488,7 +1554,7 @@
       padding-left: 5px;
     }
     .lg-playnow{
-      bottom: 15.6%;
+      bottom: 15%;
     }
     .live-game-txtba a {
       bottom: -2px;
@@ -1508,6 +1574,12 @@
     }
     .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
       bottom: 10px;
+    }
+    .lg-playnow.login-modal-a img {
+      bottom: 0px;
+    }
+    .promotion-form-btn2{
+      background-position: 35px -1px
     }
 }
 
@@ -2195,7 +2267,7 @@
       bottom: 75px
     }
     #b {
-      margin-top: 26px;
+      margin-top: auto;
     }
     .flag-icon {
         font-size: 17px
@@ -2471,19 +2543,52 @@
     .lg-angel-demon img, .live-game.jigong img{
       margin-left: auto !important
     }
-    #b p:first-child, #c p:first-child{
-      margin-top: 15px;
+    #c p:first-child{
+      margin-top: auto;
     }
     #c{
-      margin-top: 28px;
+      margin-top: auto;
     }
     .lg-playnow{
       font-size: 19px;
     }
     .lg-playnow.login-modal-a img{
-      width: auto;
+      width: 24px;
       position: relative;
-      bottom: 0;
+      bottom: 1px;
+    }
+    .lg-playnow{
+      bottom: 15.4%;
+    }
+    .promotion-form-btn2{
+      margin-bottom: auto;
+    }
+    .promotion-search{
+      top: 34px;
+      right: 40px;
+    }
+    .promotion-form .form-horizontal{
+      margin-top: auto
+    }
+    .promotion-form-btn{
+      background-position: 12px -1px
+    }
+    .promotion-form-btn2{
+      background-position: 18px -1px
+    }
+    .acc-info .myaccount-botton{
+      margin: 10px 107px!important;
+    }
+    .deposit-reminder{
+      left: -10px;
+      height: auto;
+    }
+    .deposit-reminder-neteller{
+      position: absolute;
+    }
+    .sp-enter{
+      bottom: 12px;
+      right: 550px;
     }
 }
 
