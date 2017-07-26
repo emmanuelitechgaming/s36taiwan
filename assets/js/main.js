@@ -602,6 +602,13 @@ $(document).ready(function () {
       $(this).removeClass('fa-desktop-lotto-hover-lg');
     });
 
+    $('.helpcenter-footer ul li div a').click(function() {
+      window.location.hash='';
+      var link = $(this).attr('href');
+      link = link.substr(16);
+      $('a[href="#'+link+'"]').tab('show');
+    })
+
 });
 
 function nextTab(elem) {
