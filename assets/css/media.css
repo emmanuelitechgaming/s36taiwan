@@ -1601,10 +1601,10 @@
   .today-winnerb .title {padding: 19px 20px;}
   .td-list {width: 398px;}
   .tdw-body h3 {font-size: 18px;margin-top: 5px;}
-  .live-game-txtb {font-size: 15px;bottom: 23px;}
+  .live-game-txtb {font-size: 16px;bottom: 23px;}
   .frut-popper .live-game-txtb {bottom: 14px;}
   .jigong .live-game-txtb {bottom: 12px;}
-  .live-game-txtc {font-size: 15px;bottom: 28px;}
+  .live-game-txtc {font-size: 16px;bottom: 28px;}
   .casino-mp, .slots-mp{right: 100px;}
   .lp-collapse-toggle {margin-right: -450px;}
   .gs-collapse-toggle {margin-right: -225px;}
@@ -1624,6 +1624,40 @@
   .marquee-mobile {margin-top: 3%;}
   .marquee-mobile{font-size: 18px; bottom: 12px !important}
   main .marquee-mobile {width: 455px; left: 90px;}
+  .live-game-txtba a {
+	  bottom: -1px;
+	  left: 91px;
+  }
+  .live-game-txtbb a {
+	  bottom: 2px;
+	  left: 100px;
+  }
+  .live-game-txtbc a {
+	  bottom: -1px;
+	  left: 102px;
+  }
+  .live-game-txtbd a {
+	  bottom: 1.5px;
+	  left: 117px;
+  }
+  .gp-g .col-md-4:nth-child(1) a{
+    padding-bottom: 3px;
+  }
+  .gp-g .col-md-4:nth-child(2) a{
+    padding-bottom: 3px;
+  }
+  .gp-g .col-md-4:nth-child(3) a{
+    padding-bottom: 3px;
+  }
+  .gp-g .col-md-4:nth-child(4) a{
+    padding-bottom: 9px;
+  }
+  .gp-g .col-md-4:nth-child(5) a{
+    padding-bottom: 9px;
+  }
+  .gp-g .col-md-4:nth-child(6) a{
+    padding-bottom: 9px;
+  }
 }
 
 @media only screen and (min-width: 640px) {
@@ -1638,6 +1672,22 @@
   .mnav-main .swiper-slide a {padding: 5px 63px;}
   .marquee-mobile {bottom: 14px !important;}
   main .marquee-mobile {width: 495px; left: 95px;}
+  .live-game-txtba a {
+	  bottom: 1px;
+	  left: 108px;
+  }
+  .live-game-txtbb a {
+	  bottom: 3px;
+	  left: 105px;
+	}
+  .live-game-txtbc a {
+	  bottom: 0px;
+	  left: 121px;
+	}
+  .live-game-txtbd a {
+	  bottom: 2.5px;
+	  left: 121px;
+	}
 }
 
 @media only screen and (min-width: 667px) {
@@ -1666,12 +1716,36 @@
   .header-cs {right: 12%;}
   .marquee-mobile2 img{margin: 0px auto}
   main .marquee-mobile{left: 123px;}
+  .live-game-txtba a {
+	  bottom: -4px;
+	  left: 116px;
+	}
+  .live-game-txtbb a {
+	  bottom: -2px;
+	  left: 105px;
+	}
+  .live-game-txtbc a {
+	  bottom: -3px;
+	  left: 128px;
+	}
+  .live-game-txtbd a {
+	  bottom: 0.5px;
+	  left: 121px;
+	}
 }
 
 @media only screen and (min-width: 732px) {
   .win-game img{margin-bottom: 4px;}
   .mnav-main .swiper-slide a {padding: 5px 74px;}
   .header-cs {right: 11%;}
+  .live-game-txtba a {
+	  bottom: -4px;
+	  left: 119px;
+	}
+  .live-game-txtbc a {
+	  bottom: -3px;
+	  left: 132px;
+	}
 }
 
 @media only screen and (min-width: 736px) {
@@ -1696,6 +1770,14 @@
   .selectpicker2 {left: -245px;}
   .absolute-play{left: 46%;top: 25%;}
   main .marquee-mobile {left: 156px;}
+  .live-game-txtba a {
+	  bottom: -3px;
+	  left: 132px;
+	}
+  .live-game-txtbc a {
+	  bottom: -2px;
+	  left: 144px;
+	}
 }
 
 /* Small Devices, Tablets */
