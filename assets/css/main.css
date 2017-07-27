@@ -1150,6 +1150,7 @@ display: inline-block;
   height: 76px;
   margin-top: 20px;
 }
+#csMsg .form-recap{margin-top: 0; margin-bottom: 20px;}
 .checkbox, .radio {
     position: relative;
     display: block;
@@ -2971,7 +2972,7 @@ span.round-tab i{
 
 .cs-modal .chatserver-form span {
     font-weight: 400;
-    color: #c00;
+    color: #81caff;
 }
 
 .cs-modal .modal-content{
@@ -4436,8 +4437,9 @@ border-radius: 5px;
 }
 .modal-custom-lg .modal-body .input-border{
   border-bottom: 1px solid #333333;
-border-radius: 2px;
+  border-radius: 2px;
 }
+.modal-custom-lg .modal-body #myModalTab1-1 .input-border{margin-left: 10px;}
 .btn-warning {
     color: rgba(26, 26, 26, 0.8);
     text-shadow: 1px 1px rgb(255, 214, 135);
@@ -5754,9 +5756,7 @@ max-height: 34px;
 background: #333;
 text-align: left;
 }
-#csCallselectflag button span{
-color: #C4C4C4;
-}
+#csCallselectflag button span{color: #C4C4C4; position: relative; bottom: 4px}
 #csCallselectflag button span.caret{
   float: right;
   font-size: 25px!important;
@@ -6401,6 +6401,6 @@ bottom: 0px;
 .arrow-modal{width: 23px; height: 24px}
 .ul-new-promo li:hover{color: #fba601;}
 .tooltip > .tooltip-inner {position: relative;top: 5px;right: 5px}
-.select-country-code{width: 165px; background: none !important; background-color: #333 !important; cursor: pointer}
-.select-country-code-caret{display: block; width: 39px; height: 38px; background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat; position: absolute; right: 15px; top: 25px; cursor: pointer; background-size: 35px 40px; background-position: 0px 0px}
-.select-country-code:focus{box-shadow: none}
+.cs-modal .chatserver-form button.select-country-code{height: 38px; background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;background-size: 35px 40px; background-position: 163px 0px; color: #fff; font-weight: normal; letter-spacing: auto; font-size: 13px; text-shadow: none !important; text-align: left; margin-bottom: 0;}
+.select-country-code-dropdown .dropdown-menu{background-color: #333; min-width: 165px;}
+.select-country-code-dropdown .dropdown-menu>li>a{color: #ccc}
