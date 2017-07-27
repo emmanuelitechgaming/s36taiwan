@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+  // window.setInterval(function() {
+  //   if($(window).width() == '1024'){
+  //     location.reload(true);
+  //   }
+  // }, 500)
+
   $('#country-sel').flagStrap({
     countries: {
       "CN": "中國",
