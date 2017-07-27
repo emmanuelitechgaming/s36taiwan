@@ -13,10 +13,8 @@ main .notice-mobile {
   padding-right: 0px;
   position: relative;
   display: inline-block;
-  width: 92%;
-  margin-left: 14px;
   margin-bottom: 5%;
-  margin-top: 1%;
+  margin-top: 4%;
 }
 footer .f-social ul.columns > li {
     list-style-type: none!;
@@ -77,7 +75,6 @@ header .nathan-hm-d{
         padding-right: 0px;
         position: relative;
         display: inline-block;
-        width: 94%;
         margin-left: 14px;
         margin-bottom: 5%;
         margin-top: 1%;
@@ -98,10 +95,8 @@ header .nathan-hm-d{
     padding-right: 0px;
     position: relative;
     display: inline-block;
-    width: 93%;
-    margin-left: 13px;
     margin-bottom: 5%;
-    margin-top: 1%;
+    margin-top: 4%;
 }
 .tab-panel-casino .nav>li>a {
     padding: 5px 48px !important;
@@ -163,6 +158,11 @@ header .nathan-hm-d{
     position: fixed;
         bottom: 38px;
         right: 1px;
+  }
+}
+@media only screen and (min-width: 568px){
+  main .notice-mobile {
+    margin-bottom: 3%;
   }
 }
 @media only screen and (max-width: 740px) {

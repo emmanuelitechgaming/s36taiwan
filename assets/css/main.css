@@ -14,9 +14,6 @@ body {
 }
 header{
   background: url('../img/casino-bg.png');
-
-  background-repeat: no-repeat;
-  background-position-x: 680px;
   background-position-y: 1px;
 }
 header .top-header{
@@ -26,6 +23,7 @@ header .top-header{
 }
 header .top-header ul li span{
   margin: 5px;
+  font-size: 15px;
 }
 header .top-header ul li{
 
@@ -253,9 +251,7 @@ main .s36border {
     width: auto;
 }
 
-.jacpot-nus-mobile{
-
-}
+.jacpot-nus-mobile{margin-top: 5px;}
 
 main .jackpot .col-md-6 {
     padding: 0;
@@ -1929,6 +1925,7 @@ input[type=radio] {
 
 .index-img-banner {
     width: 100%;
+    margin-bottom: 15px;
 }
 
 /*.tab-content .tab-pane {
@@ -2471,7 +2468,9 @@ select + i.fa {
 
 .mobile-top-hc{
   border-top: 1px solid rgba(48,48,48, 0.5);
-  padding: 15px
+  padding: 15px;
+  position: relative;
+  bottom: 2px
 }
 
 .mobile-top-hc a{
@@ -2955,7 +2954,7 @@ span.round-tab i{
 }
 
 .cs-modal .chatserver-form button {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 700;
   margin-bottom: 20px;
   padding: 7px 15px;
@@ -2965,9 +2964,10 @@ span.round-tab i{
   background: url(../img/yellow-btn.png) repeat-x;
   text-shadow: none;
   width: 100%;
-  color: rgba(26, 26, 26, 0.8) !important;
+  color: rgba(26, 26, 26, 0.8);
   text-shadow: 1px 1px rgb(255, 214, 135) !important;
   font-weight: 700;
+  line-height: 5px;
 }
 
 .cs-modal .chatserver-form span {
@@ -3643,13 +3643,13 @@ display: none !important;
 
 .live-game-txtb a, .live-game-txtc a{
       display: block;
-    color: rgb(251, 166, 1) !important;
+    color: #fff;
     text-shadow: 1px 1px rgb(86, 57, 0);
     font-weight: 700!important;
 }
 
 .live-game-txtb a:hover, .live-game-txtc a:hover{
-    color: rgb(255, 255, 255) !important;
+      color: rgb(251, 166, 1) !important;
     text-decoration: none;
 }
 
@@ -4440,13 +4440,21 @@ border-radius: 5px;
 border-radius: 2px;
 }
 .btn-warning {
-    color: rgba(26, 26, 26, 0.8) !important;
+    color: rgba(26, 26, 26, 0.8);
     text-shadow: 1px 1px rgb(255, 214, 135);
     border-color: #eea236;
     background: url(../img/yellow-btn.png) repeat-x #fba601;
     font-weight: 700
 }
-
+.btn-warning2 {
+    color: rgba(26, 26, 26, 0.8) !important;
+}
+.btn-warning2:hover{
+  color: rgba(49, 49, 49, 0.5) !important
+}
+.btn-warning2:hover::before{
+    background: url(../img/arrow-right-hover.png) no-repeat !important;
+}
 .modal-bottom{
   margin: 13px 0 0 0;
   display: inline-block;
@@ -5037,7 +5045,6 @@ right: 555px;
   display: block;
   height: auto;
   width: 100%;
-  margin-left: 5.4px;
 }
 .absolute-play{
   position: absolute;
@@ -5418,17 +5425,17 @@ margin-right: -10px;
   padding: 0;
   background: none;
   left: auto;
-  top: 19px;
-  padding-top: 5px
+  top: 4px;
+  padding-top: 5px;
+  position: absolute;
+  right: 5px;
 }
 #m-selectpicker2 i{
-  line-height: 23px;
-  border-radius: 23px;
-  width: 23px !important;
+  font-size: 18px;
   position: relative;
-  top: -3px;
+  bottom: -1px;
+  left: -1px
 }
-
 .panel.with-nav-tabs .panel-heading .promo-tabs li{
   min-width: 103px;
   text-align: center;
@@ -5442,6 +5449,7 @@ margin-right: -10px;
   background: #fba601;
   color: #000;
   border: 0;
+  text-shadow: 1px 1px 3px #fff;
 
 }
 
@@ -5449,6 +5457,9 @@ margin-right: -10px;
   background: #2a2a2a;
   color: #fff;
   border-radius: 0;
+  font-size: 16px;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px #000;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
     cursor: default;
@@ -5688,12 +5699,12 @@ margin-right: 5px;
   margin: 0 1px
 }
 #cscall{
-  font-size: 17px;
+  font-size: 19px;
 font-weight: 700;
 margin-bottom: 20px;
 padding: 7px 15px;
 letter-spacing: .5px;
-color: rgba(26, 26, 26, 0.8) !important;
+color: rgba(26, 26, 26, 0.8);
 text-shadow: 1px 1px rgb(255, 214, 135)!important;
 
 border: none;
@@ -5701,7 +5712,7 @@ border-radius: 4px;
 background: url(../img/yellow-btn.png) repeat-x;
 text-shadow: none;
 width: 100%;
-
+line-height: 5px;
 }
 #csCallselect{
   height: 38px;
@@ -5809,7 +5820,7 @@ position: relative;
   font-size: 15px;
 }
 #myModal .pull-right .modal-bottom .btn-warning{
-color: rgba(26, 26, 26, 0.8) !important;
+color: rgba(26, 26, 26, 0.8);
 text-shadow: 1px 1px rgb(255, 214, 135);
 padding-left: 20px;
 padding-right: 20px;
@@ -6225,20 +6236,23 @@ margin-right: 10px;
   display: block;
   width: 100%;
   height: 32px;
-  background: url('../img/promo/btn-promo.png') #edd58c;
+  background: url('../img/yellow-btn.png') repeat-x;
+  color: #000;
+  font-weight: 700;
+  font-size: 15px
 }
 .promotion-form-btn-wrapper::before{
   content: ' ';
   display: block;
-  width: 24px;
+  width: 25px;
   height: 24px;
   background: url('../img/arrow-right.png') no-repeat;
   position: absolute;
   background-size: cover;
-  top: 5px;
+  top: 4.5px;
 }
 .promotion-form-btn:active{
-  background-image: url('../img/promo/btn-promo.png');
+  background: url('../img/yellow-btn.png') repeat-x;
 }
 .promotion-form-btn2{
   display: block;
@@ -6248,7 +6262,8 @@ margin-right: 10px;
   background-repeat: repeat-x;
   font-weight: 700;
   color: #000;
-  outline: 0
+  outline: 0;
+  font-size: 15px
 }
 .promotion-form-btn2:hover, .promotion-form-btn2:active, .promotion-form-btn2:focus {
   color: #000;
@@ -6390,3 +6405,13 @@ bottom: 0px;
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(2) a img{position: relative; bottom: 3px}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(3) a img{position: relative; bottom: 2px}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(4) a img{position: relative; bottom: 3px}
+#csMsg .arrow-modal, #csPhone .arrow-modal, #csModal .arrow-modal, #demoModal .arrow-modal{width: 23px; height: 24px;bottom: 0; left: 2px}
+.arrow-modal{width: 23px; height: 24px}
+.ul-new-promo li:hover{
+  color: #fba601;
+}
+.tooltip > .tooltip-inner {
+    position: relative;
+    top: 5px;
+    right: 5px
+}

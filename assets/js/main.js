@@ -602,6 +602,26 @@ $(document).ready(function () {
       $(this).removeClass('fa-desktop-lotto-hover-lg');
     });
 
+    $('.helpcenter-footer ul li div a').click(function() {
+      window.location.hash='';
+      var link = $(this).attr('href');
+      link = link.substr(16);
+      $('a[href="#'+link+'"]').tab('show');
+    })
+
+    $('.lg-playnow, .arrow-right-btn').hover(function() {
+      $(this).css('color','rgba(49, 49, 49, 0.5)');
+      $(this).find('img').attr('src', 'assets/img/arrow-right-hover.png');
+    }, function() {
+      $(this).css('color','rgba(26, 26, 26, 0.8)');
+      $(this).find('img').attr('src', 'assets/img/arrow-right.png');
+    });
+
+    $('.lotto-sp-back-btn').hover(function() {
+      $(this).find('img.sp-enter').attr('src', 'assets/img/arrow-right-hover.png');
+    }, function() {
+      $(this).find('img.sp-enter').attr('src', 'assets/img/enter.png');
+    })
 });
 
 function nextTab(elem) {
