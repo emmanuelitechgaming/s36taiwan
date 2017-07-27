@@ -26,11 +26,9 @@ input, select{
   padding-top: 5px;
   padding-bottom: 5px
 }
-
 .r-ads-wrapper{
   position: relative;
 }
-
 .r-ads-btn{
   width: 138px;
   height: 30px;
@@ -38,27 +36,12 @@ input, select{
   top: 35px;
   left: 53px;
 }
-
-.marquee-mobile {
-    color: #e7c017;
-  width: 80% !important;
-    overflow: hidden;
-    position: absolute;
-    bottom: 20px;
-    left: 13%;
-    height: 20px !important;
-    margin-top: 2%;
-}
-
-
 .r-banner-info-wrapper{
   padding: 10px 0 20px
 }
-
 .r-banner-info-wrapper div:nth-child(2){
   padding-top: 8%
 }
-
 #tab2 .lotto-desc {
   padding: 0;
   font-weight: 700;

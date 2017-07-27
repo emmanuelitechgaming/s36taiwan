@@ -14,9 +14,6 @@ body {
 }
 header{
   background: url('../img/casino-bg.png');
-
-  background-repeat: no-repeat;
-  background-position-x: 680px;
   background-position-y: 1px;
 }
 header .top-header{
@@ -254,9 +251,7 @@ main .s36border {
     width: auto;
 }
 
-.jacpot-nus-mobile{
-
-}
+.jacpot-nus-mobile{margin-top: 5px;}
 
 main .jackpot .col-md-6 {
     padding: 0;
@@ -1930,6 +1925,7 @@ input[type=radio] {
 
 .index-img-banner {
     width: 100%;
+    margin-bottom: 15px;
 }
 
 /*.tab-content .tab-pane {
@@ -2472,7 +2468,9 @@ select + i.fa {
 
 .mobile-top-hc{
   border-top: 1px solid rgba(48,48,48, 0.5);
-  padding: 15px
+  padding: 15px;
+  position: relative;
+  bottom: 2px
 }
 
 .mobile-top-hc a{
@@ -5047,7 +5045,6 @@ right: 555px;
   display: block;
   height: auto;
   width: 100%;
-  margin-left: 5.4px;
 }
 .absolute-play{
   position: absolute;
@@ -5428,8 +5425,10 @@ margin-right: -10px;
   padding: 0;
   background: none;
   left: auto;
-  top: 19px;
-  padding-top: 5px
+  top: 4px;
+  padding-top: 5px;
+  position: absolute;
+  right: 5px;
 }
 #m-selectpicker2 i{
   font-size: 18px;
