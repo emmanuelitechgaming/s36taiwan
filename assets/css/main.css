@@ -499,7 +499,6 @@ footer .footer-icon {
 
 footer .footer-icon img {
     display: inline-block;
-    margin: 0px 10px 10px 9px;
     cursor: pointer;
 }
 
@@ -2913,6 +2912,7 @@ span.round-tab i{
   display: inline-block;
   padding: .5em;
   padding: .65em 2em;
+  white-space: nowrap;
 }
 
 .cs-modal .chatserver-form input[type=text]{
@@ -4668,9 +4668,6 @@ ol, ul {
 .m-promo-tabs .swiper-slide{
   margin-right: 8px;
 }
-.promotion-swiper-container{
-  overflow: inherit;
-}
 div.cta-contact-info{
   position: fixed;
   bottom: 83px;
@@ -5733,9 +5730,6 @@ line-height: 5px;
 -moz-appearance: none;
 -webkit-appearance: none;
 }
-.select-country-code{
-  background-size: 20% 100%!important;
-}
 #csCallselectflag button{
   font-size: .875em;
 font-weight: 400;
@@ -5776,17 +5770,15 @@ text-align: left;
     color: #ccc;
     white-space: nowrap;
 }
-#csCallselectflag .dropdown-menu{top: 65%; min-width: 165px}
+#csCallselectflag .dropdown-menu{top: 65%;}
 #csCallselectflag button{
   height: 38px;
   background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
   background-size: 35px 40px;
-  background-position: 163px -4px;
 }
 #myModal #country-sel button{
   background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
   background-size: 35px 40px;
-  background-position: 163px -6px;
 }
 #myModal #country-sel .caret{
   display: none
@@ -5937,7 +5929,6 @@ margin-right: 10px;
 .promo-heart{
   position: absolute;
   top: 21px;
-  right: 8px;
 }
 .promo-heart img{
   width: 40px;
@@ -6193,9 +6184,6 @@ margin-right: 10px;
 .mnav-afterlogin .mnav-top-home img{
   height: 25px !important
 }
-.promo-body #c{
-  margin-top: -10px;
-}
 .promotion-form-inner{
 
   background: #1b1a1a
@@ -6404,3 +6392,6 @@ bottom: 0px;
 .cs-modal .chatserver-form button.select-country-code{height: 38px; background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;background-size: 35px 40px; background-position: 163px 0px; color: #fff; font-weight: normal; letter-spacing: auto; font-size: 13px; text-shadow: none !important; text-align: left; margin-bottom: 0;}
 .select-country-code-dropdown .dropdown-menu{background-color: #333; min-width: 165px;}
 .select-country-code-dropdown .dropdown-menu>li>a{color: #ccc}
+.login-info-mobile{text-align: center; font-size: 25px; font-weight: 700; color: #fba601; padding: 10px 0}
+.login-info-mobile{border-bottom: solid 1px #fba601; border-top: 1px solid #fba601; max-width: 200px; margin: 0px auto; margin-top: 10px; }
+.login-info-mobile i{display: block; font-size: 15px; font-weight: normal;}

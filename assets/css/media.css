@@ -355,7 +355,7 @@
         padding: 5px 16px !important;
     }
     .promotion-swiper-container {
-      width: 257px;
+      width: 257px !important;
       margin-left: 16px;
     }
     .panel-heading .lotto-tabs > li > a {
@@ -821,6 +821,17 @@
     header{background: none}
     main .marquee-mobile{width: 238px; left: 60px; bottom: 3px}
     main .jacpot-nus-mobile .jacpot-nus{display: block}
+    footer .footer-icon img {display: inline-block;margin: 0px 10px 10px 9px;}
+    #myModal #country-sel button{background-position: 163px -6px;}
+    #myModal #country-sel button{background-position-x: 100%}
+    #myModalTab1-1{padding: 0 15px}
+    .promo-heart{right: 8px;}
+    .promo-body #c{margin-top: -10px;}
+    #csCallselectflag button{background-position: 163px -4px;}
+    #csCallselectflag button{background-position-x: 100%}
+    .cs-modal .chatserver-form button.select-country-code{background-position: 163px 0px;}
+    .cs-modal .chatserver-form button.select-country-code{background-position-x: 100%}
+    #csCallselectflag .dropdown-menu{min-width: 213px}
 }
 
 @media only screen and (min-width: 360px) {
@@ -996,6 +1007,7 @@
       right: 108px;
     }
     main .marquee-mobile{width: 275px; left: 63px; bottom: 5.45px}
+    .promotion-swiper-container {width: 295px !important;}
 }
 
 
@@ -1233,6 +1245,7 @@
       right: 118px;
     }
     main .marquee-mobile {width: 291px; bottom: 6px;}
+    .promotion-swiper-container {width: 310px !important;}
 }
 
 @media only screen and (min-width: 412px) {
@@ -1382,6 +1395,7 @@
       right: 136px;
     }
     main .marquee {width:320px; left: 70px; bottom: 8px;}
+    .promotion-swiper-container {width: 347px !important;}
 }
 
 @media only screen and (min-width: 414px) {
@@ -1563,6 +1577,7 @@
     .promotion-form-btn2{
       background-position: 35px -1px
     }
+    .promotion-swiper-container {width: 349px !important;}
 }
 
 
@@ -1574,6 +1589,7 @@
     position: fixed;
     cursor: pointer;
     bottom: 1px;
+  }
 }
 
 @media only screen and (min-width: 568px) {
@@ -1597,7 +1613,7 @@
   .panel-heading .slots-tabs {width: 377px;}
   .panel-heading .promotional-tabs {width: 600px;margin-left: 15px;}
   .panel-heading .lotto-tabs {width: auto;margin: 0px auto;}
-  .promotion-swiper-container{width: 382px;margin-left: 78px;}
+  .promotion-swiper-container{width: 505px !important;}
   .today-winnerb .title {padding: 19px 20px;}
   .td-list {width: 398px;}
   .tdw-body h3 {font-size: 18px;margin-top: 5px;}
@@ -1678,6 +1694,9 @@
   .rss-field .form-group:nth-child(2) {width: 73%;}
   .footer-shareit ul li {width: 33.33%;}
   .prizepool{text-align: right}
+  .promo-heart{right:55px;}
+  .promo-body #c{margin-top: auto;}
+  .promotion-swiper-container {width: 377px !important; margin: 0px auto !important}
 }
 
 @media only screen and (min-width: 640px) {
@@ -1718,6 +1737,8 @@
     margin: auto 30%;
   }
   .rss-field .form-group:nth-child(2) {width: 76.5%;}
+  footer .footer-icon img {display: inline-block;margin: 0px 6px 10px 9px;}
+  .promo-heart{right:93px;}
 }
 
 @media only screen and (min-width: 667px) {
@@ -1768,6 +1789,7 @@
   }
   .rss-field .form-group:nth-child(2) {width: 77.5%;}
   .footer-shareit ul li {width: 25%; margin-right: -4px}
+  .promo-heart{right:105px;}
 }
 
 @media only screen and (min-width: 732px) {
@@ -1778,10 +1800,10 @@
   .jumbo{left: 209px}
   .live-game-txtba a {bottom: -4px;left: 119px;}
   .live-game-txtbc a {bottom: -3px;left: 132px;}
-  .m-fsalon ul li:nth-child(2) img {
-    margin: auto 32%;
-  }
+  .m-fsalon ul li:nth-child(2) img {margin: auto 32%;}
   .rss-field .form-group:nth-child(2) {width: 79.5%;}
+  footer .footer-icon img {display: inline-block;margin: 0px 2px 10px 9px;}
+  .promo-heart{right:138px;}
 }
 
 @media only screen and (min-width: 736px) {
@@ -1824,6 +1846,15 @@
   .mnav-main .swiper-slide a {padding: 5px 79px;}
   .marquee-mobile2 img{margin: 0px auto}
   main .marquee-mobile{width: 490px; left: 175px;}
+  .jumbo{left: 225px}
+  .lg-playnow{font-size: 14px; bottom: 14%}
+  .lg-playnow.login-modal-a img {width: 16px; bottom: 1px}
+  .live-game-txtba a {left: 140px}
+  .live-game-txtbc a {left: 152px;}
+  .footer-shareit ul li {width: 20%;}
+  .rss-field .form-group:nth-child(1){margin-bottom: 5px}
+  .rss-field .form-group:nth-child(2) input{width: 100%}
+  .rss-field .form-group:nth-child(2){width: 80.6%}
 }
 
 /* Medium Devices, Desktops */
@@ -2493,6 +2524,14 @@
     .gp-g .col-md-4:nth-child(6) a{
       padding-bottom: 0px;
     }
+    .rss-field .form-group:nth-child(1) {margin-bottom: auto;}
+    footer .footer-icon img {display: inline-block;margin: 0px 10px 10px 9px;}
+    #myModal #country-sel button{background-position: 163px -6px;}
+    .promo-heart{right: 8px;}
+    .promo-body #c{margin-top: -10px;}
+    #csCallselectflag button{background-position: 163px -4px;}
+    .cs-modal .chatserver-form button.select-country-code{background-position: 163px 0px;}
+    #csCallselectflag .dropdown-menu{min-width: 165px}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -2630,5 +2669,7 @@
 
     }
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
 }
-}}}}
