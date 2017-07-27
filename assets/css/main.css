@@ -371,7 +371,6 @@ main .notice {
 main .jacpot-nus {
     position: relative;
     display: inline-block;
-
     padding-left: 2px;
 }
 
@@ -5041,11 +5040,6 @@ right: 555px;
 #myTargetElement, #myTargetElement2{
   font-family: "5by7";
 }
-.jackpot-nus-img{
-  display: block;
-  height: auto;
-  width: 100%;
-}
 .absolute-play{
   position: absolute;
   margin-left: auto;
@@ -5782,9 +5776,7 @@ color: #C4C4C4;
     color: #ccc;
     white-space: nowrap;
 }
-#csCallselectflag .dropdown-menu{
-  top: 65%;
-}
+#csCallselectflag .dropdown-menu{top: 65%; min-width: 165px}
 #csCallselectflag button{
   height: 38px;
   background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
@@ -6407,11 +6399,8 @@ bottom: 0px;
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(4) a img{position: relative; bottom: 3px}
 #csMsg .arrow-modal, #csPhone .arrow-modal, #csModal .arrow-modal, #demoModal .arrow-modal{width: 23px; height: 24px;bottom: 0; left: 2px}
 .arrow-modal{width: 23px; height: 24px}
-.ul-new-promo li:hover{
-  color: #fba601;
-}
-.tooltip > .tooltip-inner {
-    position: relative;
-    top: 5px;
-    right: 5px
-}
+.ul-new-promo li:hover{color: #fba601;}
+.tooltip > .tooltip-inner {position: relative;top: 5px;right: 5px}
+.select-country-code{width: 165px; background: none !important; background-color: #333 !important; cursor: pointer}
+.select-country-code-caret{display: block; width: 39px; height: 38px; background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat; position: absolute; right: 15px; top: 25px; cursor: pointer; background-size: 35px 40px; background-position: 0px 0px}
+.select-country-code:focus{box-shadow: none}
