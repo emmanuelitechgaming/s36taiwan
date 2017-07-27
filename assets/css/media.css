@@ -1659,6 +1659,9 @@
   .gp-g .col-md-4:nth-child(6) a{
     padding-bottom: 9px;
   }
+  .lg-playnow {
+    bottom: 15.9%;
+  }
 }
 
 @media only screen and (min-width: 640px) {
@@ -2448,6 +2451,24 @@
     }
     header{background: url('../img/casino-bg.png');background-repeat: no-repeat;background-position-x: 680px;}
     main .marquee {left: 98px;}
+    .gp-g .col-md-4:nth-child(1) a{
+      padding-bottom: 0px;
+    }
+    .gp-g .col-md-4:nth-child(2) a{
+      padding-bottom: 0px;
+    }
+    .gp-g .col-md-4:nth-child(3) a{
+      padding-bottom: 0px;
+    }
+    .gp-g .col-md-4:nth-child(4) a{
+      padding-bottom: 0px;
+    }
+    .gp-g .col-md-4:nth-child(5) a{
+      padding-bottom: 0px;
+    }
+    .gp-g .col-md-4:nth-child(6) a{
+      padding-bottom: 0px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
