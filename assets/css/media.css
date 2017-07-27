@@ -622,10 +622,11 @@
     }
     .jumbo{
       top: 12.5px;
-      left: 78px;
+      left: 74px;
       font-size: 15px;
       color: #FBA601;
-      letter-spacing: 5px;
+      letter-spacing: 4px;
+      word-spacing: 4px
     }
     .mnav-main .swiper-slide a{
       padding: 5px 23px;
@@ -819,6 +820,7 @@
     main .notice-mobile {width: 93%; margin-left: 13px;}
     header{background: none}
     main .marquee-mobile{width: 238px; left: 60px; bottom: 3px}
+    main .jacpot-nus-mobile .jacpot-nus{display: block}
 }
 
 @media only screen and (min-width: 360px) {
@@ -905,8 +907,8 @@
     }
     .jumbo {
       top: 14.5px;
-      left: 86px;
-      letter-spacing: 6px;
+      left: 85px;
+      letter-spacing: 5px;
       font-size: 17px;
     }
     .mnav-main .swiper-slide a{
@@ -1159,8 +1161,7 @@
     }
     .jumbo {
       top: 15px;
-      left: 90px;
-      letter-spacing: 6px;
+      left: 88px;
       font-size: 18px;
     }
     .mnav-main .swiper-slide a{
@@ -1283,9 +1284,9 @@
     }
     .jumbo {
       top: 16.5px;
-      left: 98px;
-      letter-spacing: 7px;
+      left: 99px;
       font-size: 19px;
+      word-spacing: 7px
     }
     .mnav-main .swiper-slide a{
       padding: 5px 34.5px;
@@ -1525,7 +1526,6 @@
     .jumbo {
       top: 16px;
       left: 99px;
-      letter-spacing: 7px;
       font-size: 19px;
     }
     .absolute-play{
@@ -1624,6 +1624,7 @@
   .marquee-mobile {margin-top: 3%;}
   .marquee-mobile{font-size: 18px; bottom: 12px !important}
   main .marquee-mobile {width: 455px; left: 90px;}
+  .jumbo{top: 25px; left: 140px; font-size: 25px; letter-spacing: 6px; word-spacing: 18px}
   .live-game-txtba a {
 	  bottom: -1px;
 	  left: 91px;
@@ -1671,7 +1672,10 @@
   .header-cs {right: 13%;}
   .mnav-main .swiper-slide a {padding: 5px 63px;}
   .marquee-mobile {bottom: 14px !important;}
-  main .marquee-mobile {width: 495px; left: 95px;}
+  main .marquee-mobile {width: 495px; left: 109px;}
+  .jumbo{top: 28px; left: 163px; letter-spacing: 8px;}
+  .marquee-mobile2 img{margin: 0px auto}
+  .jackpot-nus-img{margin: 0px auto}
   .live-game-txtba a {
 	  bottom: 1px;
 	  left: 108px;
@@ -1716,6 +1720,7 @@
   .header-cs {right: 12%;}
   .marquee-mobile2 img{margin: 0px auto}
   main .marquee-mobile{left: 123px;}
+  .jumbo{left: 177px; word-spacing: 19px}
   .live-game-txtba a {
 	  bottom: -4px;
 	  left: 116px;
@@ -1738,6 +1743,8 @@
   .win-game img{margin-bottom: 4px;}
   .mnav-main .swiper-slide a {padding: 5px 74px;}
   .header-cs {right: 11%;}
+  main .marquee-mobile {left: 155px;}
+  .jumbo{left: 209px}
   .live-game-txtba a {
 	  bottom: -4px;
 	  left: 119px;
@@ -2536,12 +2543,12 @@
       position: absolute;
       display: inline-block;
       color: #FBA601;
-      left: 142px;
+      left: 155px;
       top: 25px;
       font-size: 27px;
       font-weight: 700;
-      letter-spacing: 18px;
-      word-spacing: -28px;
+      letter-spacing: 8px;
+      word-spacing: 12px;
     }
     main .marquee {
         width: 490px;
