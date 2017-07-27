@@ -1675,6 +1675,9 @@
   .m-fsalon ul li:nth-child(2) img {
     margin-right: 32px;
   }
+  .rss-field .form-group:nth-child(2) {width: 73%;}
+  .footer-shareit ul li {width: 33.33%;}
+  .prizepool{text-align: right}
 }
 
 @media only screen and (min-width: 640px) {
@@ -1713,6 +1716,8 @@
   }
   .m-fsalon ul li:nth-child(2) img {
     margin: auto 30%;
+  }
+  .rss-field .form-group:nth-child(2) {width: 76.5%;}
 }
 
 @media only screen and (min-width: 667px) {
@@ -1760,6 +1765,9 @@
 	}
   .m-fsalon ul li:nth-child(2) img {
     margin: auto 31%;
+  }
+  .rss-field .form-group:nth-child(2) {width: 77.5%;}
+  .footer-shareit ul li {width: 25%; margin-right: -4px}
 }
 
 @media only screen and (min-width: 732px) {
@@ -1768,16 +1776,12 @@
   .header-cs {right: 11%;}
   main .marquee-mobile {left: 155px;}
   .jumbo{left: 209px}
-  .live-game-txtba a {
-	  bottom: -4px;
-	  left: 119px;
-	}
-  .live-game-txtbc a {
-	  bottom: -3px;
-	  left: 132px;
-	}
+  .live-game-txtba a {bottom: -4px;left: 119px;}
+  .live-game-txtbc a {bottom: -3px;left: 132px;}
   .m-fsalon ul li:nth-child(2) img {
     margin: auto 32%;
+  }
+  .rss-field .form-group:nth-child(2) {width: 79.5%;}
 }
 
 @media only screen and (min-width: 736px) {
@@ -1802,16 +1806,11 @@
   .selectpicker2 {left: -245px;}
   .absolute-play{left: 46%;top: 25%;}
   main .marquee-mobile {left: 156px;}
-  .live-game-txtba a {
-	  bottom: -3px;
-	  left: 132px;
-	}
-  .live-game-txtbc a {
-	  bottom: -2px;
-	  left: 144px;
-	}
+  .live-game-txtba a {bottom: -3px;left: 132px;}
+  .live-game-txtbc a {bottom: -2px;left: 144px;}
   .m-fsalon ul li:nth-child(2) img {
     margin: auto 32%;
+  }
 }
 
 /* Small Devices, Tablets */
@@ -2367,6 +2366,7 @@
       margin-top: auto;
       margin-left: 10px;
     }
+    #csMsg .form-recap-right{margin-left: 40px;}
     .form-recap{
       max-width: 331px;
     }
@@ -2631,3 +2631,4 @@
     }
 }
 }
+}}}}
