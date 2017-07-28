@@ -5878,7 +5878,7 @@ color: #c4c4c4 !important;
   border-radius: 4px;
 }
 #menu-m ul{
-  width: 50px;
+  width: 55px;
 }
 .menu-m-xs{
   position: relative;
@@ -6305,7 +6305,7 @@ margin-right: 10px;
 }
 .menu-m-xs div ul li a{
   display: block;
-  width: 30px;
+  width: 36px;
 }
 .arrow-modal{
   position: relative;
@@ -6386,6 +6386,13 @@ bottom: 0px;
   display: inline-block;
   position: relative;
   bottom: 1px;
+}
+.menu-m-xs ul li a img{
+margin: 0 auto
+}
+.menu-m-xs ul li a span{
+  color: #fff;
+  font-size: 9px;
 }
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(1) a span{margin-left: 5px}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(2) a img{position: relative; bottom: 3px}
