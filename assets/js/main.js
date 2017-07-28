@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+  // window.setInterval(function() {
+  //   if($(window).width() == '1024'){
+  //     location.reload(true);
+  //   }
+  // }, 500)
+
   $('#country-sel').flagStrap({
     countries: {
       "CN": "中國",
@@ -428,18 +434,6 @@ $(document).ready(function () {
       $('#drop3').removeClass('lang-click');
     });
 
-    // $('#cta-contact').hover(function() {
-    //   $(this).attr('src', 'assets/img/contact-mobile hover_15.png');
-    // }, function() {
-    //   $(this).attr('src', 'assets/img/contact-mobile_15.png');
-    // })
-
-    // $('.btn-top').hover(function() {
-    //   $(this).css('background', 'url("assets/img/arrow up-mobile hover_15.png")');
-    // }, function() {
-    //   $(this).css('background', 'url("assets/img/arrow up-mobile_15.png")');
-    // })
-
     $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/register2.png"], img[src="assets/img/sp/reg-btn-sp.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-1"').tab('show');
@@ -499,6 +493,11 @@ $(document).ready(function () {
 
     $('.csmodal-forgot').click(function() {
       $('#myModal').modal('toggle');
+      $('#csModal').modal('toggle');
+    });
+
+    $('#csMsg .csmodal-forgot').click(function() {
+      $('#csMsg').modal('toggle');
       $('#csModal').modal('toggle');
     });
 
@@ -621,6 +620,11 @@ $(document).ready(function () {
       $(this).find('img.sp-enter').attr('src', 'assets/img/arrow-right-hover.png');
     }, function() {
       $(this).find('img.sp-enter').attr('src', 'assets/img/enter.png');
+    })
+
+    $('.select-country-code-dropdown ul li a').click(function() {
+      var val = $(this).data('value');
+      $('.select-country-code').html(val);
     })
 });
 
