@@ -5605,6 +5605,9 @@ margin-right: 5px;
 }
 .navbar-afterlogin ul li a{
   text-decoration: none;
+  color: #999999;
+}
+.navbar-afterlogin ul li a:hover{
   color: #fff;
 }
 .navbar-afterlogin ul li a img{
@@ -6359,8 +6362,11 @@ bottom: 0px;
 .navbar-top-right li a{
   font-size: 19px;
   font-weight: 700;
-  color: #fff;
+  color: #999999;
   margin-left: 15px
+}
+.navbar-top-right li a:hover{
+  color: #ffffff;
 }
 .navbar-top-right li a:hover, .navbar-top-right li a:active, .navbar-top-right li a:focus{
   text-decoration: none;
