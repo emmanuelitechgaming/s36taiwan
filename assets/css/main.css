@@ -2952,7 +2952,9 @@ span.round-tab i{
   outline: 0;
   background-color: #333;
 }
-
+.flagstrap{
+  font-size: 16px;
+}
 .cs-modal .chatserver-form button {
   font-size: 19px;
   font-weight: 700;
@@ -2964,8 +2966,6 @@ span.round-tab i{
   background: url(../img/yellow-btn.png) repeat-x;
   text-shadow: none;
   width: 100%;
-  color: rgba(26, 26, 26, 0.8);
-  text-shadow: 1px 1px rgb(255, 214, 135) !important;
   font-weight: 700;
   line-height: 5px;
 }
