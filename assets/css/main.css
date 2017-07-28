@@ -2952,9 +2952,7 @@ span.round-tab i{
   outline: 0;
   background-color: #333;
 }
-.flagstrap{
-  font-size: 16px;
-}
+
 .cs-modal .chatserver-form button {
   font-size: 19px;
   font-weight: 700;
@@ -2966,6 +2964,8 @@ span.round-tab i{
   background: url(../img/yellow-btn.png) repeat-x;
   text-shadow: none;
   width: 100%;
+  color: rgba(26, 26, 26, 0.8);
+  text-shadow: 1px 1px rgb(255, 214, 135) !important;
   font-weight: 700;
   line-height: 5px;
 }
@@ -4921,9 +4921,6 @@ right: 160px;
   display: block;
   margin-top: 20px
 }
-.mnav-afterlogin ul li:nth-child(2) span, .mnav-afterlogin ul li:nth-child(3) span{
-  color: #fba601
-}
 .mnav-afterlogin ul li:nth-child(4) a{
   position: relative;
 }
@@ -5605,11 +5602,9 @@ margin-right: 5px;
 }
 .navbar-afterlogin ul li a{
   text-decoration: none;
-  color: #999999;
+  color: #999;
 }
-.navbar-afterlogin ul li a:hover{
-  color: #fff;
-}
+.navbar-afterlogin ul li a span{position: relative; top: 3px}
 .navbar-afterlogin ul li a img{
   width: 30px;
 }
@@ -5876,9 +5871,11 @@ color: #c4c4c4 !important;
   z-index: 1049;
   background: #333333;
   border-radius: 4px;
+  min-width: 60px;
 }
 #menu-m ul{
-  width: 55px;
+  display: block;
+  width: 100%;
 }
 .menu-m-xs{
   position: relative;
@@ -5897,13 +5894,21 @@ color: #c4c4c4 !important;
   border: 1px solid #4a4a4a;
   border-bottom: none;
   display: block;
+  width: 100%
 }
 .header-cs ul li:last-child{
   border-bottom: 1px solid #4a4a4a
 }
 #menu-m ul li a{
-  padding: 7px 0 3px;
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px
 }
+#menu-m ul li a img{margin: 0px auto}
+#menu-m ul li a span{font-size: 12px; color: #fff;}
 .before-login{
   width: 120px;
 }
@@ -6227,12 +6232,12 @@ margin-right: 10px;
 .promotion-form-btn-wrapper::before{
   content: ' ';
   display: block;
-  width: 25px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   background: url('../img/arrow-right.png') no-repeat;
   position: absolute;
   background-size: cover;
-  top: 4.5px;
+  top: 5.5px;
 }
 .promotion-form-btn:active{
   background: url('../img/yellow-btn.png') repeat-x;
@@ -6241,7 +6246,7 @@ margin-right: 10px;
   display: block;
   width: 100%;
   height: 32px;
-  background-image: url('../img/promo/btn-bg.png');
+  background-image: url('../img/yellow-btn.png');
   background-repeat: repeat-x;
   font-weight: 700;
   color: #000;
@@ -6267,6 +6272,8 @@ margin-right: 10px;
   height: 44px;
   position: absolute;
 }
+.promotion-search a{display: block; width: 148px; height: 33px; background: url(../img/yellow-btn.png) repeat-x; border-radius: 3px; color: #000; font-weight: 700; text-align: center; line-height: 33px; font-size: 15px}
+.promotion-search a:hover{text-decoration: none}
 .promotion-table{
   margin-top: 50px;
 }
@@ -6294,7 +6301,7 @@ margin-right: 10px;
 .top-hc img{
   max-width: 130%;
   position: relative;
-  bottom: 3px
+  bottom: 4px
 }
 .header-cs .menu-m-xs{
   position: relative;
@@ -6305,7 +6312,7 @@ margin-right: 10px;
 }
 .menu-m-xs div ul li a{
   display: block;
-  width: 36px;
+  width: 30px;
 }
 .arrow-modal{
   position: relative;
@@ -6362,11 +6369,8 @@ bottom: 0px;
 .navbar-top-right li a{
   font-size: 19px;
   font-weight: 700;
-  color: #999999;
+  color: #999;
   margin-left: 15px
-}
-.navbar-top-right li a:hover{
-  color: #ffffff;
 }
 .navbar-top-right li a:hover, .navbar-top-right li a:active, .navbar-top-right li a:focus{
   text-decoration: none;
@@ -6387,13 +6391,6 @@ bottom: 0px;
   position: relative;
   bottom: 1px;
 }
-.menu-m-xs ul li a img{
-margin: 0 auto
-}
-.menu-m-xs ul li a span{
-  color: #fff;
-  font-size: 9px;
-}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(1) a span{margin-left: 5px}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(2) a img{position: relative; bottom: 3px}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li:nth-child(3) a img{position: relative; bottom: 2px}
@@ -6408,3 +6405,4 @@ margin: 0 auto
 .login-info-mobile{text-align: center; font-size: 25px; font-weight: 700; color: #fba601; padding: 10px 0}
 .login-info-mobile{border-bottom: solid 1px #fba601; border-top: 1px solid #fba601; max-width: 200px; margin: 0px auto; margin-top: 10px; }
 .login-info-mobile i{display: block; font-size: 15px; font-weight: normal;}
+.mnav-top span{position: relative; top: -2px; color: #fff; font-size: 11px; font-weight: 700}
