@@ -32,31 +32,6 @@ $(document).ready(function () {
       }
   });
 
-  // $(".btn-log").hover(function() {
-  // 		$(this).attr("src","assets/img/login-hover.png");
-  // 			}, function() {
-  // 		$(this).attr("src","assets/img/login.png");
-  // 	});
-  //
-  //   $(".btn-reg").hover(function() {
-  //       $(this).attr("src","assets/img/register-hover.png");
-  //         }, function() {
-  //       $(this).attr("src","assets/img/register.png");
-  //     });
-  //
-  //     $(".btn-reg2").hover(function() {
-  //         $(this).attr("src","assets/img/register2-hover.png");
-  //           }, function() {
-  //         $(this).attr("src","assets/img/register2.png");
-  //       });
-  //
-  //
-  //   $(".demo-img").hover(function() {
-  //       $(this).attr("src","assets/img/demo-hover.png");
-  //         }, function() {
-  //       $(this).attr("src","assets/img/demo.png");
-  //     });
-
    var hash = window.location.hash;
    if (hash != "") {
      $('html,body').animate({
@@ -625,6 +600,50 @@ $(document).ready(function () {
     $('.select-country-code-dropdown ul li a').click(function() {
       var val = $(this).data('value');
       $('.select-country-code').html(val);
+    })
+
+    $('.navbar-top-right li a').hover(function() {
+      $(this).css('color', '#fff');
+      if($(this).find('img').attr('src') == 'assets/img/register_25.png'){
+        $(this).find('img').attr('src', 'assets/img/register_25-hover.png');
+      }else if($(this).find('img').attr('src') == 'assets/img/lock_25.png'){
+        $(this).find('img').attr('src', 'assets/img/lock_25-hover.png');
+      }else if($(this).find('img').attr('src') == 'assets/img/spade_25.png'){
+        $(this).find('img').attr('src', 'assets/img/spade_25-hover.png');
+      }
+    }, function() {
+      $(this).css('color', '#999');
+      if($(this).find('img').attr('src') == 'assets/img/register_25-hover.png'){
+        $(this).find('img').attr('src', 'assets/img/register_25.png');
+      }else if($(this).find('img').attr('src') == 'assets/img/lock_25-hover.png'){
+        $(this).find('img').attr('src', 'assets/img/lock_25.png');
+      }else if($(this).find('img').attr('src') == 'assets/img/spade_25-hover.png'){
+        $(this).find('img').attr('src', 'assets/img/spade_25.png');
+      }
+    });
+
+    $('.navbar-afterlogin ul li a').hover(function() {
+      $(this).css('color','#fff');
+      if($(this).find('img').attr('src') == 'assets/img/afterlogin/1.png'){
+        $(this).find('img').attr('src', 'assets/img/afterlogin/1-hover.png')
+      }else if($(this).find('img').attr('src') == 'assets/img/afterlogin/2.png'){
+        $(this).find('img').attr('src', 'assets/img/afterlogin/2-hover.png')
+      }else if($(this).find('img').attr('src') == 'assets/img/afterlogin/3.png'){
+        $(this).find('img').attr('src', 'assets/img/afterlogin/3-hover.png')
+      }else if($(this).find('img').attr('src') == 'assets/img/afterlogin/4.png'){
+        $(this).find('img').attr('src', 'assets/img/afterlogin/4-hover.png')
+      }
+    }, function() {
+      $(this).css('color','#999');
+      if($(this).find('img').attr('src') == 'assets/img/afterlogin/1-hover.png'){
+        $(this).find('img').attr('src', 'assets/img/afterlogin/1.png')
+      }else if($(this).find('img').attr('src') == 'assets/img/afterlogin/2-hover.png'){
+        $(this).find('img').attr('src', 'assets/img/afterlogin/2.png')
+      }else if($(this).find('img').attr('src') == 'assets/img/afterlogin/3-hover.png'){
+        $(this).find('img').attr('src', 'assets/img/afterlogin/3.png')
+      }else if($(this).find('img').attr('src') == 'assets/img/afterlogin/4-hover.png'){
+        $(this).find('img').attr('src', 'assets/img/afterlogin/4.png')
+      }
     })
 });
 
