@@ -2964,8 +2964,6 @@ span.round-tab i{
   background: url(../img/yellow-btn.png) repeat-x;
   text-shadow: none;
   width: 100%;
-  color: rgba(26, 26, 26, 0.8);
-  text-shadow: 1px 1px rgb(255, 214, 135) !important;
   font-weight: 700;
   line-height: 5px;
 }
@@ -5386,11 +5384,11 @@ margin-right: -10px;
 }
 .slots-breadcrumb-inner-line{
   width: 1px;
-  background: #000;
-  position: absolute;
-  right: 33.3%;
-  top: 48px;
-  bottom: 25px;
+      background: #000;
+      position: absolute;
+      right: 33.3%;
+      top: 90px;
+      bottom: 25px;
 }
 .promo-section{
   margin-top: 15px;
@@ -6406,3 +6404,6 @@ bottom: 0px;
 .login-info-mobile{border-bottom: solid 1px #fba601; border-top: 1px solid #fba601; max-width: 200px; margin: 0px auto; margin-top: 10px; }
 .login-info-mobile i{display: block; font-size: 15px; font-weight: normal;}
 .mnav-top span{position: relative; top: -2px; color: #fff; font-size: 11px; font-weight: 700}
+.flagstrap-selected-q5pRygow i{
+  margin-left: -11px;
+}
