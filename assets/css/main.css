@@ -2966,6 +2966,7 @@ span.round-tab i{
   width: 100%;
   font-weight: 700;
   line-height: 5px;
+  color: rgba(26, 26, 26, 0.8);
 }
 
 .cs-modal .chatserver-form span {
@@ -3279,12 +3280,6 @@ position: relative;
 .mnav .active{
   color: #fba601
 }
-
-.mnav .home{
-  margin-right: 5px;
-  margin-left: -5px;
-}
-
 .mnav .menu-toggle{
   top: 2px;
   padding: 5px 10px;
@@ -4983,11 +4978,13 @@ right: 160px;
 }
 .mnav-top ul li{
   display: inline-block;
-  width: 25%;
+  width: 33.33%;
   text-align: center;
+  float: none;
+  margin-left: -4px
 }
 .mnav-afterlogin ul li{
-  width: 20%;
+  width: 25%;
   vertical-align: bottom;
 }
 .mnav-top ul li a{
@@ -5593,7 +5590,7 @@ margin-right: 5px;
   top:3px
 }
 .navbar-afterlogin ul li{
-  margin-left: 60px;
+  margin-left: 40px;
   position: relative;
   font-size: 19px;
   font-weight: 700;
@@ -6407,3 +6404,6 @@ bottom: 0px;
 .flagstrap-selected-q5pRygow i{
   margin-left: -11px;
 }
+.slots-breadcrumb-inner .casino-g img{border: solid 1px #3b3b3b}
+.slots-breadcrumb-inner .casino-g .absolute-play-slots img{border: none}
+.mnav-main .home img{width: 20px; height: 20px; position: relative; top: 2px}
