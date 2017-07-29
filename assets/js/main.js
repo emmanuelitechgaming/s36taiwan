@@ -604,46 +604,14 @@ $(document).ready(function () {
 
     $('.navbar-top-right li a').hover(function() {
       $(this).css('color', '#fff');
-      if($(this).find('img').attr('src') == 'assets/img/register_25.png'){
-        $(this).find('img').attr('src', 'assets/img/register_25-hover.png');
-      }else if($(this).find('img').attr('src') == 'assets/img/lock_25.png'){
-        $(this).find('img').attr('src', 'assets/img/lock_25-hover.png');
-      }else if($(this).find('img').attr('src') == 'assets/img/spade_25.png'){
-        $(this).find('img').attr('src', 'assets/img/spade_25-hover.png');
-      }
     }, function() {
       $(this).css('color', '#999');
-      if($(this).find('img').attr('src') == 'assets/img/register_25-hover.png'){
-        $(this).find('img').attr('src', 'assets/img/register_25.png');
-      }else if($(this).find('img').attr('src') == 'assets/img/lock_25-hover.png'){
-        $(this).find('img').attr('src', 'assets/img/lock_25.png');
-      }else if($(this).find('img').attr('src') == 'assets/img/spade_25-hover.png'){
-        $(this).find('img').attr('src', 'assets/img/spade_25.png');
-      }
     });
 
     $('.navbar-afterlogin ul li a').hover(function() {
       $(this).css('color','#fff');
-      if($(this).find('img').attr('src') == 'assets/img/afterlogin/1.png'){
-        $(this).find('img').attr('src', 'assets/img/afterlogin/1-hover.png')
-      }else if($(this).find('img').attr('src') == 'assets/img/afterlogin/2.png'){
-        $(this).find('img').attr('src', 'assets/img/afterlogin/2-hover.png')
-      }else if($(this).find('img').attr('src') == 'assets/img/afterlogin/3.png'){
-        $(this).find('img').attr('src', 'assets/img/afterlogin/3-hover.png')
-      }else if($(this).find('img').attr('src') == 'assets/img/afterlogin/4.png'){
-        $(this).find('img').attr('src', 'assets/img/afterlogin/4-hover.png')
-      }
     }, function() {
       $(this).css('color','#999');
-      if($(this).find('img').attr('src') == 'assets/img/afterlogin/1-hover.png'){
-        $(this).find('img').attr('src', 'assets/img/afterlogin/1.png')
-      }else if($(this).find('img').attr('src') == 'assets/img/afterlogin/2-hover.png'){
-        $(this).find('img').attr('src', 'assets/img/afterlogin/2.png')
-      }else if($(this).find('img').attr('src') == 'assets/img/afterlogin/3-hover.png'){
-        $(this).find('img').attr('src', 'assets/img/afterlogin/3.png')
-      }else if($(this).find('img').attr('src') == 'assets/img/afterlogin/4-hover.png'){
-        $(this).find('img').attr('src', 'assets/img/afterlogin/4.png')
-      }
     })
 });
 
