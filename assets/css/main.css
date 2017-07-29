@@ -6412,6 +6412,7 @@ bottom: 0px;
   margin-left: -11px;
 }
 .slots-breadcrumb-inner .casino-g img{border: solid 1px #3b3b3b}
+.slots-breadcrumb-inner .casino-g #c p:nth-child(2) img{border: none}
 .slots-breadcrumb-inner .casino-g .absolute-play-slots img{border: none}
 .mnav-main .home img{width: 20px; height: 20px; position: relative; top: 2px}
 .tdw-slots ul{margin: 0; padding: 0; list-style: none; color: #fff; border: solid 1px #fba601; padding-top: 10px; padding-bottom: 10px}
