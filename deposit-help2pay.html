@@ -43,6 +43,17 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <style media="screen">
+      .account-text {
+        width: 240px;
+      }
+      @media only screen and (min-width: 992px){
+        .botton {
+          margin: 10px 0px 10px 245px;
+        }
+      }
+    </style>
 </head>
 
 <body>
@@ -488,17 +499,17 @@
           </div>
 
           <div class="header-cs hidden-lg hidden-md">
-            <div class="menu-m-xs">
-              <a data-toggle="collapse" href="#menu-m"><img src="assets/img/Y1.png" alt=""></a>
-              <div class="collapse menu-m" id="menu-m">
-                    <ul class="">
-                      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" width="27px" alt=""></a></li>
-                      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csPhone"><img src="assets/img/whatsapp.png" width="27px" alt=""></a></li>
-                      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="23px" alt=""></a></li>
-                    </ul>
+              <div class="menu-m-xs">
+                  <a data-toggle="collapse" href="#menu-m"><img src="assets/img/Y1.png" alt=""></a>
+                  <div class="collapse menu-m" id="menu-m">
+                      <ul class="clearfix">
+                          <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" width="27px" alt=""><span>網上短信</span></a></li>
+                          <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csPhone"><img src="assets/img/whatsapp.png" width="27px" alt=""><span>免費回撥</span></a></li>
+                          <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="27px" alt=""><span>在線客服</span></a></li>
+                      </ul>
+                  </div>
               </div>
-            </div>
-            <a href="helpcenter.html" class="top-hc"><img src="assets/img/hc.png" alt=""></a>
+              <a href="helpcenter.html" class="top-hc"><img src="assets/img/hc.png" alt=""></a>
           </div>
           <div class="hidden-lg hidden-md">
               <div class="navbar-header remo-navbar-header">
@@ -556,23 +567,11 @@
               <div class="mnav mnav-top mnav-afterlogin hidden-lg hidden-md">
                 <ul>
                   <li><a href="index.html" class="active mnav-top-home"><img src="assets/img/s36tw-mobile-home-active_09.png" alt=""><!--<span>首頁</span>--></a></li>
-                  <li><a href="myaccount.html"><img src="assets/img/s36tw-mobile-home--LOGIN_08.png" alt=""><!--<span>abc123</span>--></a></li>
-
-                  <li><a href="wallet.html"><img src="assets/img/s36tw-mobile-home--LOGIN_10.png" alt=""><!--<span>100.00</span>--></a></li>
-                  <li><a href="javascript:void(0)"><img src="assets/img/s36tw-mobile-home--LOGIN_05.png" alt=""><!--<span>信息</span>--><span class="notif hidden-sm hidden-xs">4</span></a></li>
+                  <li><a href="myaccount.html"><img src="assets/img/s36tw-mobile-home--LOGIN_08.png" alt=""><span>帳戶</span></a></li>
+                  <li><a href="wallet.html"><img src="assets/img/s36tw-mobile-home--LOGIN_10.png" alt=""><span>餘額</span></a></li>
+                  <li><a href="javascript:void(0)"><img src="assets/img/s36tw-mobile-home--LOGIN_05.png" alt=""><span>信息</span><span class="notif hidden-sm hidden-xs">4</span></a></li>
                   <li><a href="index.html"><img src="assets/img/s36tw-mobile-home--LOGIN_13.png" alt=""><!--<span>登出</span>--></a></li>
                 </ul>
-              </div>
-
-              <div class="mnav mnav-main hidden-lg hidden-md">
-                <div class="swiper-container swiper-container-horizontal">
-                  <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
-                    <div class="swiper-slide swiper-slide-active"><a href="casino.html">真人娛樂場</a></div>
-                    <div class="swiper-slide swiper-slide-next"><a href="slots.html">老虎機</a></div>
-                    <div class="swiper-slide"><a href="lotto.html">捕魚</a></div>
-                    <div class="swiper-slide"><a href="promotion.html">優惠</a></div>
-                  </div>
-                </div>
               </div>
 
               <!-- <div class="mnav mnav-bottom hidden-lg hidden-md">
@@ -623,8 +622,8 @@
                 <div class="breadcrumb-inner">
                     <div class=" account account-c">
 
-                        <div class="wallet deposit deposit-help2pay">
-                        <div class="title">存款</div>
+                        <div class="wallet deposit deposit-neteller">
+                          <div class="title">存款</div>
                           <div class="deposit-reminder">
                             <h4>註冊</h4>
                             <p>• 在您進行任何交易前， 必須先 “<span>創建一個真錢賬戶</span>”。</p>
@@ -645,92 +644,36 @@
                             </p>
                           </div>
 
-                            <form action="http://122.152.160.69/paymenttest/depositpostrequest.php" onsubmit="window.open('about:blank','print_popup','width=600,height=400');" target="print_popup" method="post" id="depositForm">
-
-                                <div class="display-block" style="display: none !important">
-                                    <div class="account-text">Merchant: </div>
-                                    <input type="text" name="merchant" class="form-control display-inline-block" value="M0068" required>
-                                </div>
+                            <form action="example.php" onsubmit="window.open('about:blank','print_popup','width=500,height=400');" target="print_popup" method="post" id="depositForm">
 
                                 <div class="display-block">
                                     <div class="account-text">存款：</div>
                                     <div class="form-group">
-                                        <select id="currency" name="currency" class="form-control">
-                                            <option value="none">選擇貨幣</option>
-                                            <option value="MYR">RM MYR</option>
-                                            <option value="THB">฿ THB</option>
-                                            <option value="VND">₫ VND</option>
-                                            <option value="IDR">Rp IDR</option>
-                                        </select>
+                                      <select name="Ntlr_DepositCurrency" id="Ntlr_DepositCurrency" class="form-control ntlr">
+                                        <option value="USD">USD</option>
+                                        <option value="JPY">JPY</option>
+                                        <option value="INR">INR</option>
+                                        <option value="MYR">MYR</option>
+                                        <option value="TND">TND</option>
+                                        <option value="TWD">TWD</option>
+                                      </select>
                                     </div>
-                                    <div class="account-text wallet-reminder wallet-reminder-none"></div>
+                                    <!-- <div class="account-text wallet-reminder"></div> -->
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">顧客： </div>
-                                    <input type="text" name="customer" class="form-control display-inline-block wallet-text" value="220099" required>
+                                    <div class="account-text">量： </div>
+                                    <input type="text" name="Ntlr_DepositAmount" id="Ntlr_DepositAmount" class="amount form-control display-inline-block wallet-text" value="" required>
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">量：</div>
-                                    <input type="text" name="amount" class="amount form-control display-inline-block wallet-text" value="0.00" required>
+                                    <div class="account-text">電子郵件或帳號： </div>
+                                    <input type="text" name="Ntlr_DepositEmail" id="Ntlr_DepositEmail" class="form-control display-inline-block wallet-text" value="" required>
                                 </div>
 
                                 <div class="display-block">
-                                    <div class="account-text">銀行：</div>
-                                    <div class="form-group">
-                                        <div id="None" name="None">
-                                            <select id="bank1" name="bank1" class="form-control">
-                                                <option value="">選擇銀行</option>
-                                            </select>
-                                        </div>
-                                        <div id="MYR" name="MYR" class="depositbank inv">
-                                            <select id="bank2" name="bank2" class="form-control">
-                                                <option value="">--- SELECT BANK ---</option>
-                                                <option value="MBB">MBB</option>
-                                                <option value="PBB">PBB</option>
-                                                <option value="CIMB">CIMB</option>
-                                                <option value="HLB">HLB</option>
-                                                <option value="RHB">RHB</option>
-                                                <option value="AMB">AMB</option>
-                                            </select>
-                                        </div>
-                                        <div id="THB" name="THB" class="depositbank inv">
-                                            <select id="bank3" name="bank3" class="form-control">
-                                                <option value="">--- SELECT BANK ---</option>
-                                                <option value="KKR">KKR</option>
-                                                <option value="BBL">BBL</option>
-                                                <option value="SCB">SCB</option>
-                                                <option value="KTB">KTB</option>
-                                                <option value="BOA">BOA</option>
-                                                <option value="GSB">GSB</option>
-                                            </select>
-                                        </div>
-                                        <div id="VND" name="VND" class="depositbank inv ">
-                                            <select id="bank4" name="bank4" class="form-control">
-                                                <option value="">--- SELECT BANK ---</option>
-                                                <option value="TCB">TCB</option>
-                                                <option value="SACOM">SACOM</option>
-                                                <option value="VCB">VCB</option>
-                                                <option value="ACB">ACB</option>
-                                                <option value="DAB">DAB</option>
-                                                <option value="VTB">VTB</option>
-                                                <option value="BIDV">BIDV</option>
-                                                <option value="EXIM">EXIM</option>
-                                            </select>
-                                        </div>
-                                        <div id="IDR" name="IDR" class="depositbank inv ">
-                                            <select id="bank5" name="bank5" class="form-control">
-                                                <option value="">--- SELECT BANK ---</option>
-                                                <option value="BCA">BCA</option>
-                                                <option value="BNI">BNI</option>
-                                                <option value="BRI">BRI</option>
-                                                <option value="MDR">MDR</option>
-                                            </select>
-                                        </div>
-
-                                        <input type="hidden" name="bank" id="bank" value="">
-                                    </div>
+                                    <div class="account-text">安全ID或驗證碼：</div>
+                                    <input type="text" name="Ntlr_DepositSecureId" id="Ntlr_DepositSecureId" class="form-control display-inline-block wallet-text" value="" required>
                                 </div>
 
                                 <p class="botton">
@@ -747,6 +690,7 @@
 
                         </div>
                         <div class="wallet deposit">
+
                                 <div class="title">存款歷史</div>
                       <div class="" style="width:100%;overflow:auto;">
                         <table class="table table-bordered table-striped datatable">
@@ -804,6 +748,7 @@
         <div class="container">
             <div class="border borderstyle"></div>
         </div>
+
     </main>
     <footer>
         <div class="footer">
@@ -1240,60 +1185,6 @@
             </div>
         </div>
     </div>
-    <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="pay-statement">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <div class="content-title ctitle">
-                        <h1>支付說明</h1>
-                    </div>
-                    <div class="paystatement">
-                      <div class="pay-title">
-                        註冊
-                      </div>
-                      <div class="pay-info">
-                       • 在您進行任何交易前， 必須先 “<span>創建一個真錢賬戶</span>”。
-                      </div>
-                      <div class="pay-title">
-                        存款
-                      </div>
-                      <div class="pay-info">
-                        • 登錄您的賬戶後點擊 “<span>我的錢包</span>”，選擇您最便利的支付方式進行存款交易。
-                      </div>
-                      <div class="pay-title">
-                        取款
-                      </div>
-                      <div class="pay-info">
-                        • 登錄您的賬戶後點擊 “<span>我的錢包</span>”，選擇您便捷的收款方式以進行取款交易。
-                      </div>
-                      <div class="pay-title">
-                        查詢
-                      </div>
-                      <div class="pay-info">
-                        • 登錄您的賬戶查看目前餘額，點擊 “<span>我的記錄</span>”，查看存款及取款的狀態和記錄。
-                      </div>
-                      <div class="pay-title">
-                        協助
-                      </div>
-                      <div class="pay-info">
-                        • 想了解更多相關信息或尋求幫助， 請隨時聯繫我們的 “<span>客戶服務部門</span>”。
-                      </div>
-                      <br>
-                      <div class="pay-title">
-                        重要提醒 :
-                      </div>
-                      <div class="pay-info">
-                        • 不允許第三方代表您進行任何交易行為或其他活動。<br>
-                        • 匯款人及收款人限同名帳戶，姓名必須與註冊時的信息一致。<br>
-                        • 您當地銀行的一些政策及限制，也許會影響您的交易額度和處理時間。
-
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-custom-lg">
@@ -1373,7 +1264,8 @@
 
                                       </div>
                                       <div role="tabpanel" class="tab-pane fade" id="myModalTab1-2">
-                                        <p class="login-info login-info-reg"><span>賬戶註冊<i class="login-info-span">免費、簡單、快速</i></span></p>
+                                        <p class="login-info login-info-reg hidden-sm hidden-xs"><span>賬戶註冊<i class="login-info-span">免費、簡單、快速</i></span></p>
+                                             <p class="login-info-mobile hidden-lg hidden-md"><span>賬戶註冊 <i class="">免費、簡單、快速</span></i></p>
 
 
                                         <div class="col-md-6">
@@ -1546,6 +1438,7 @@
             </div>
         </div>
     </div>
+
     <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csMsg">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -1656,6 +1549,61 @@
       </div>
     </div>
 
+    <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="pay-statement">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="content-title ctitle">
+                        <h1>支付說明</h1>
+                    </div>
+                    <div class="paystatement">
+                      <div class="pay-title">
+                        註冊
+                      </div>
+                      <div class="pay-info">
+                       • 在您進行任何交易前， 必須先 “<span>創建一個真錢賬戶</span>”。
+                      </div>
+                      <div class="pay-title">
+                        存款
+                      </div>
+                      <div class="pay-info">
+                        • 登錄您的賬戶後點擊 “<span>我的錢包</span>”，選擇您最便利的支付方式進行存款交易。
+                      </div>
+                      <div class="pay-title">
+                        取款
+                      </div>
+                      <div class="pay-info">
+                        • 登錄您的賬戶後點擊 “<span>我的錢包</span>”，選擇您便捷的收款方式以進行取款交易。
+                      </div>
+                      <div class="pay-title">
+                        查詢
+                      </div>
+                      <div class="pay-info">
+                        • 登錄您的賬戶查看目前餘額，點擊 “<span>我的記錄</span>”，查看存款及取款的狀態和記錄。
+                      </div>
+                      <div class="pay-title">
+                        協助
+                      </div>
+                      <div class="pay-info">
+                        • 想了解更多相關信息或尋求幫助， 請隨時聯繫我們的 “<span>客戶服務部門</span>”。
+                      </div>
+                      <br>
+                      <div class="pay-title">
+                        重要提醒 :
+                      </div>
+                      <div class="pay-info">
+                        • 不允許第三方代表您進行任何交易行為或其他活動。<br>
+                        • 匯款人及收款人限同名帳戶，姓名必須與註冊時的信息一致。<br>
+                        • 您當地銀行的一些政策及限制，也許會影響您的交易額度和處理時間。
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -1684,7 +1632,7 @@
                 slidesPerView: 'auto',
                 loop: false,
                 slidesPerView: 'auto',
-            })
+            });
         })
     </script>
     <script>
@@ -1783,70 +1731,6 @@
                 }, 500);
             });
         })
-    </script>
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-
-            $('#currency').on('change', function() {
-                $('.depositbank').removeClass('vis').addClass('inv');
-                $('#None').css('display', 'none');
-                $('#depositForm #' + $(this).val()).removeClass('inv').addClass('vis');
-
-                if ($("#currency").val() == "MYR") {
-                   $('.amount').val("1.00");
-                 }
-                 if ($("#currency").val() == "THB") {
-                   $('.amount').val("30.00");
-                 }
-                 if ($("#currency").val() == "VND") {
-                   $('.amount').val("30000.00");
-                 }
-                 if ($("#currency").val() == "IDR") {
-                   $('.amount').val("30000.00");
-                 }
-
-                 if($(this).val() == "MYR"){
-                   $('.wallet-reminder').html('* Minimum deposit RM 50, up to RM 50,000. (if you have more than RM 50,000 please deposit into multiple transactions)');
-                   $('.wallet-reminder').removeClass('wallet-reminder-none');
-                 }else if ($(this).val() == "THB") {
-                   $('.wallet-reminder').html('* Minimum deposit THB 500, up to THB 500,000. (if you have more than THB 500,000 please deposit into multiple transactions)');
-                   $('.wallet-reminder').removeClass('wallet-reminder-none');
-                 }else if ($(this).val() == "VND") {
-                   $('.wallet-reminder').html('* Minimum deposit VND 300,000, up to VND 30,000,000. (if you have more than VND 30,000,000 please deposit into multiple transactions)');
-                   $('.wallet-reminder').removeClass('wallet-reminder-none');
-                 }else if ($(this).val() == "IDR") {
-                   $('.wallet-reminder').html('* Minimum deposit IDR 200,000 up to IDR 20,000,000. (if you have more than IDR 20,000,000 please deposit into multiple transactions)');
-                   $('.wallet-reminder').removeClass('wallet-reminder-none');
-                 }else if($(this).val() == "none"){
-                   $('.wallet-reminder').html('');
-                   $('.wallet-reminder').addClass('wallet-reminder-none');
-                 }
-
-            });
-
-            $("#bank1").change(function() {
-                $('#bank').val($("#bank1").val());
-            });
-            $("#bank2").change(function() {
-                $('#bank').val($("#bank2").val());
-            });
-            $("#bank3").change(function() {
-                $('#bank').val($("#bank3").val());
-            });
-            $("#bank4").change(function() {
-                $('#bank').val($("#bank4").val());
-            });
-            $("#bank5").change(function() {
-                $('#bank').val($("#bank5").val());
-            });
-
-            $('.amount').inputmask('currency', {
-                rightAlign: false,
-                prefix: '',
-                groupSeparator: ''
-            });
-        });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
