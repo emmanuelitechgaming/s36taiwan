@@ -629,7 +629,7 @@
       word-spacing: 4px
     }
     .mnav-main .swiper-slide a{
-      padding: 5px 23px;
+      padding: 5px 18px;
     }
     .m-fsalon ul li:nth-child(2){
       left: -4px
@@ -833,6 +833,7 @@
     .cs-modal .chatserver-form button.select-country-code{background-position-x: 100%}
     #csCallselectflag .dropdown-menu{min-width: 213px}
     .myModal2b_registration_a, .myModal2b_login_a{margin-bottom: 10px}
+    .mnav-main .swiper-slide .home{padding: 5px 10px}
 }
 
 @media only screen and (min-width: 360px) {
@@ -924,7 +925,7 @@
       font-size: 17px;
     }
     .mnav-main .swiper-slide a{
-      padding: 5px 28px;
+      padding: 5px 23px;
     }
     .m-fsalon ul li:nth-child(2){
       left: -9px
@@ -1172,7 +1173,7 @@
       font-size: 18px;
     }
     .mnav-main .swiper-slide a{
-      padding: 5px 30px;
+      padding: 5px 25px;
     }
     .m-fsalon ul li:nth-child(2){
       left: -10px
@@ -1298,7 +1299,7 @@
       word-spacing: 7px
     }
     .mnav-main .swiper-slide a{
-      padding: 5px 34.5px;
+      padding: 5px 29px;
     }
     .absolute-play{
       left: 41%;
@@ -1632,7 +1633,7 @@
   .win-game img{margin-top: 0px;margin-bottom: 2px;}
   .promotion-form-btn-wrapper::before{right: 280  px;}
   .header-cs{right: 14%}
-  .mnav-main .swiper-slide a {padding: 5px 54px;}
+  .mnav-main .swiper-slide a {padding: 5px 48px;}
   .marquee-mobile {margin-top: 3%;}
   .marquee-mobile{font-size: 18px; bottom: 12px !important}
   main .marquee-mobile {width: 455px; left: 90px;}
@@ -1693,6 +1694,7 @@
   .promo-heart{right:55px;}
   .promo-body #c{margin-top: auto;}
   .promotion-swiper-container {width: 377px !important; margin: 0px auto !important}
+  .mnav-main .swiper-slide .home{padding: 5px 15px}
 }
 
 @media only screen and (min-width: 640px) {
@@ -1704,7 +1706,7 @@
   .win-game img{margin-bottom: 4px;}
   .promotion-form-btn-wrapper::before{right: 350px;}
   .header-cs {right: 12.5%;}
-  .mnav-main .swiper-slide a {padding: 5px 63px;}
+  .mnav-main .swiper-slide a {padding: 5px 57px;}
   .marquee-mobile {bottom: 14px !important;}
   main .marquee-mobile {width: 495px; left: 109px;}
   .jumbo{top: 28px; left: 163px; letter-spacing: 8px;}
@@ -1759,7 +1761,7 @@
   .mnav-bottom .swiper-container{width: 680px;}
   .selectpicker2 {left: -211px;}
   .promotion-form-btn-wrapper::before{right: 370px;}
-  .mnav-main .swiper-slide a {padding: 5px 66px;}
+  .mnav-main .swiper-slide a {padding: 5px 60px;}
   .header-cs {right: 12%;}
   .marquee-mobile2 img{margin: 0px auto}
   main .marquee-mobile{left: 123px;}
@@ -1790,7 +1792,7 @@
 
 @media only screen and (min-width: 732px) {
   .win-game img{margin-bottom: 4px;}
-  .mnav-main .swiper-slide a {padding: 5px 74px;}
+  .mnav-main .swiper-slide a {padding: 5px 68px;}
   .header-cs {right: 11%;}
   main .marquee-mobile {left: 155px;}
   .jumbo{left: 209px}
@@ -2237,9 +2239,6 @@
 
     .slots-info{
       right: 118px;
-    }
-    #ctab3 .row{
-    border-left: 1px solid #000;
     }
     .panel-heading .casino-tabs > li > a:hover,.panel-heading .casino-tabs > li > a:focus{
       color: #020202;
