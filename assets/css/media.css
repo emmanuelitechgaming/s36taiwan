@@ -345,9 +345,9 @@
     .panel-heading .lotto-tabs > li > a {
         padding: 5px 10px !important;
     }
-    .stab-none {
+    /*.stab-none {
         display: none;
-    }
+    }*/
     .panel-heading .casino-tabs > li > a {
         padding: 5px 20px !important;
     }
@@ -741,7 +741,7 @@
     .selectpicker2::before{
       width: 24px;
       height: 24px;
-      top: 2px;
+      top: 7px;
       right: 4px;
     }
     .gp-star{
@@ -764,6 +764,7 @@
     #c p:first-child{
       margin-top: auto;
     }
+    .promo-body #c p:first-child{margin-top: 5px; margin-bottom: 5px;}
     #c{
       margin-top: auto;
     }
@@ -834,6 +835,11 @@
     #csCallselectflag .dropdown-menu{min-width: 213px}
     .myModal2b_registration_a, .myModal2b_login_a{margin-bottom: 10px}
     .mnav-main .swiper-slide .home{padding: 5px 10px}
+    .today-winner{padding: 0; margin-right: -10px; margin-left: -10px; margin-bottom: 20px;}
+    .ul-new-promo{margin-left: 0; padding-left: 25px; padding-bottom: 20px; padding-right: 70px}
+    .coming-soon{width: 60px; top:20px; right: 15px;}
+    .tdw-slots .col-md-3{margin-left: 30px; margin-right: 30px}
+    .tdw-slots ul{padding: 0 10px}
 }
 
 @media only screen and (min-width: 360px) {
@@ -1243,6 +1249,7 @@
     main .marquee-mobile {width: 291px; bottom: 6px;}
     .promotion-swiper-container {width: 310px !important;}
     .header-cs {right: 21.99%;}
+    .tdw-slots .col-md-3{margin-left: 45px; margin-right: 45px}
 }
 
 @media only screen and (min-width: 412px) {
@@ -1393,6 +1400,7 @@
     }
     main .marquee {width:320px; left: 70px; bottom: 8px;}
     .promotion-swiper-container {width: 347px !important;}
+    .tdw-slots .col-md-3{margin-left: 65px; margin-right: 65px}
 }
 
 @media only screen and (min-width: 414px) {
@@ -1695,6 +1703,7 @@
   .promo-body #c{margin-top: auto;}
   .promotion-swiper-container {width: 377px !important; margin: 0px auto !important}
   .mnav-main .swiper-slide .home{padding: 5px 15px}
+  .coming-soon{width: 100px; right: 25px;}
 }
 
 @media only screen and (min-width: 640px) {
@@ -1908,7 +1917,7 @@
         border-left: 1px solid #000000;
     }
     .notice-dialog {
-        width: 1222px;
+        width: 600px;
     }
     .live-game .gameplatform {
         top: -39px;
@@ -1976,9 +1985,6 @@
     .selectpicker2.selectpicker2-navbar-right{
       top: -2px;
       left: 0;
-    }
-    .selectpicker2 .fa {
-        margin-left: 6px
     }
     .breadcrumb-inner .sp-container img {
         width: auto;
@@ -2063,9 +2069,9 @@
     .ctab-none {
         display: block;
     }
-    .stab-none {
+    /*.stab-none {
         display: block;
-    }
+    }*/
     .lotto-legend {
         margin-top: 20%;
         margin-bottom: 0;
@@ -2419,12 +2425,13 @@
       right: 0;
     }
     .tdw-body{
-      padding: 20px 0;
+      padding: 20px 40px;
     }
     .selectpicker2::before{
       width: 16px;
       height: 16px;
       right: auto;
+      top: 3px
     }
     .gp-star{
       position: auto;
@@ -2449,6 +2456,7 @@
     #c p:first-child{
       margin-top: auto;
     }
+    .promo-body #c p:first-child{margin-top: 5px; margin-bottom: 5px;}
     #c{
       margin-top: auto;
     }
@@ -2528,6 +2536,12 @@
     .cs-modal .chatserver-form button.select-country-code{background-position: 163px 0px;}
     #csCallselectflag .dropdown-menu{min-width: 165px}
     .form-recap-right p{left: -20px;top: 0px;}
+    .today-winner{padding: 20px;margin-right: auto; margin-left: auto; margin-bottom: auto;}
+    .ul-new-promo{padding-left: 40px; margin-left: 20px}
+    .coming-soon{width: auto;top: 38px; right: 80px;}
+    .tdw1{padding: 40px 0; margin-left: auto; margin-right: auto;}
+    .tdw-slots .col-md-3{margin-left: auto; margin-right: auto}
+    .tdw-slots ul{padding: 10px; margin-left: 10px; margin-right: 10px}
 }
 
 @media only screen and (min-width: 1200px) {
