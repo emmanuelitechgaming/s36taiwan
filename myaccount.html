@@ -46,7 +46,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
+<style media="screen">
+.sa-success {
+  display: none!important;
+}
+</style>
 <body>
 
     <header>
@@ -677,7 +681,7 @@
     </header>
     <main>
 
-        <div class="container">
+        <div class="container main-section ">
             <!-- <ul class="breadcrumb">
                 <li class="completed"><a href="javascript:void(0);">首页</a></li>
                 <li><a href="javascript:void(0);">我的账号</a></li>
@@ -686,7 +690,7 @@
             <div class=" breadcrumb-content">
                 <div class="breadcrumb-inner">
                     <div class=" account account-c">
-
+                      <div id="myaccount-info">
                         <div class="wallet account acc-info">
                             <div class="title">您的帳戶信息</div>
                             <div class="acc-cont">
@@ -706,35 +710,13 @@
                                 <div class="acc-details"> ******</div>
                             </div>
                             <div class="acc-cont">
-                                <div class="acc-lbl"><a href="#"  id="fpw" >更改密碼</a></div>
+                                <div class="acc-lbl"><a href="#"   >更改密碼</a></div>
 
                           </div>
-                          <p class="botton myaccount-botton">
-                              <input type="submit" name="btnSearch" value="提交" id="btnSearch" tabindex="15" imageurl="#" class="btn-hidden">
-                          </p>
-                            <!-- <div id="fpwd" class="collapse f-toggle">
-                              <div class="pull-right "> <a href="#" class='fcsd'><i class="fa fa-times" aria-hidden="true"></i></a></div>
-
-                            <div class="acc-cont">
-                              <div class="acc-lbl">輸入舊密碼： </div>
-                              <input type="text">
-                            </div>
-                            <div class="acc-cont">
-                              <div class="acc-lbl">輸入新密碼： </div>
-                              <input type="text">
-                            </div>
-                            <div class="acc-cont">
-                              <div class="acc-lbl">確認新密碼： </div>
-                              <input type="text">
-                            </div>
-                            <p class="botton myaccount-botton">
-                              <input name="btnSearch" value="提交" id="btnSearch" tabindex="15" imageurl="#" class="btn-hidden" type="submit">
-                            </p>
-                            </div> -->
 
                         </div>
 
-                        <div class="wallet account acc-info">
+                        <div class="wallet account acc-info" >
                       <div class="title">您的個人信息</div>
                       <div class="acc-cont">
                         <div class="acc-lbl">姓名： </div>
@@ -748,18 +730,18 @@
 
                       <div class="acc-cont">
                         <div class="acc-lbl">性別： </div>
-                        <div class="acc-details">  <div class="checkbox checkbox-warning" style="margin-left:20px;">
-                                                        <input id="checkbox5" checked="" type="checkbox">
-                                                        <label for="checkbox5">
-                                                          男
-                                                        </label>
-                                                    </div>
-                                                    <div class="checkbox checkbox-warning" style="margin-left:25px;">
-                                                                                    <input id="checkbox6" checked="" type="checkbox">
-                                                                                    <label for="checkbox6">
-                                                                                      女
-                                                                                    </label>
-                                                                                </div></div>
+
+                        <div class="acc-details">
+                          <div class="checkbox checkbox-warning" style="margin-left:20px;">
+                            <input id="checkbox5"  type="checkbox">
+                            <label for="checkbox5"> 男</label>
+                          </div>
+                          <div class="checkbox checkbox-warning" style="margin-left:25px;">
+                            <input id="checkbox6"  type="checkbox">
+                            <label for="checkbox6">  女  </label>
+                          </div>
+                        </div>
+
                       </div>
 
                       <div class="acc-cont">
@@ -773,35 +755,19 @@
                       </div>
 
                       <div class="acc-cont">
-                          <div class="acc-lbl"> <a href="#"  id="fsc">更改安全碼</a></div>
+                          <div class="acc-lbl"> <a href="#"  >更改安全碼</a></div>
 
                       </div>
                       <p class="botton myaccount-botton">
-                          <input type="submit" name="btnSearch" value="提交" id="btnSearch" tabindex="15" imageurl="#" class="btn-hidden">
+                          <input name="btnSearch" value="提交" id="btn-edit-info" tabindex="15" imageurl="#" class="sweet-13 btn-hidden"  onclick="_gaq.push(['_trackEvent', 'example, 'try', 'Success']);" type="submit">
+
                       </p>
-                      <!-- <div id="fscd"  class="collapse f-toggle">
-                        <div class="pull-right "> <a href="#" class='fcsd'><i class="fa fa-times" aria-hidden="true"></i></a></div>
-                    <div class="acc-cont">
-                        <div class="acc-lbl">輸入舊安全碼： </div>
-                        <input type="text">
-                      </div>
-                      <div class="acc-cont">
-                        <div class="acc-lbl">輸入新安全碼： </div>
-                        <input type="text">
-                      </div>
-                      <div class="acc-cont">
-                        <div class="acc-lbl">確認新安全碼： </div>
-                        <input type="text">
-                      </div>
-                      <p class="botton myaccount-botton">
-                        <input name="btnSearch" value="提交" id="btnSearch" tabindex="15" imageurl="#" class="btn-hidden" type="submit">
-                      </p>
-                      </div> -->
 
 
+</div>
                     </div>
-
-                    <!-- <div class="wallet account acc-info">
+                    <div  id="myaccount-p-info">
+                    <div class="wallet account acc-info">
                         <div class="title">您的帳戶信息</div>
                         <div class="acc-cont">
                             <div class="acc-lbl">所在地： </div>
@@ -820,13 +786,35 @@
                             <div class="acc-details"> ******</div>
                         </div>
                         <div class="acc-cont">
-                            <div class="acc-lbl"><a href="">更改密碼</a> </div>
+                            <div class="acc-lbl"><a href="#"  id="fpw" >更改密碼</a></div>
+
+                      </div>
+
+                        <div id="fpwd" class="collapse f-toggle">
+                          <div class="pull-right "> <a href="#" class='fcsd'><i class="fa fa-times" aria-hidden="true"></i></a></div>
+
+                        <div class="acc-cont">
+                          <div class="acc-lbl">輸入舊密碼： </div>
+                          <input type="text">
+                        </div>
+                        <div class="acc-cont">
+                          <div class="acc-lbl">輸入新密碼： </div>
+                          <input type="text">
+                        </div>
+                        <div class="acc-cont">
+                          <div class="acc-lbl">確認新密碼： </div>
+                          <input type="text">
+                        </div>
+                        <p class="botton myaccount-botton">
+                          <input name="btnSearch" value="提交" id="btnSearch" tabindex="15" imageurl="#" class="btn-hidden" type="submit">
+
+                        </p>
                         </div>
 
+                    </div>
+              <div class="wallet account acc-info">
 
-                    </div> -->
 
-                    <!-- <div class="wallet account acc-info">
                   <div class="title">您的個人信息</div>
                   <div class="acc-cont">
                     <div class="acc-lbl">姓名： </div>
@@ -854,11 +842,33 @@
                   </div>
 
                   <div class="acc-cont">
-                      <div class="acc-lbl"> <a href="#">更改安全碼</a></div>
+                      <div class="acc-lbl"> <a href="#" id="fsc">更改安全碼</a></div>
                   </div>
+                  <div id="fscd"  class="collapse f-toggle">
+                    <div class="pull-right "> <a href="#" class='fcsd'><i class="fa fa-times" aria-hidden="true"></i></a></div>
+                  <div class="acc-cont">
+                    <div class="acc-lbl">輸入舊安全碼： </div>
+                    <input type="text">
+                  </div>
+                  <div class="acc-cont">
+                    <div class="acc-lbl">輸入新安全碼： </div>
+                    <input type="text">
+                  </div>
+                  <div class="acc-cont">
+                    <div class="acc-lbl">確認新安全碼： </div>
+                    <input type="text">
+                  </div>
+                  <p class="botton myaccount-botton">
+                    <input name="btnSearch" value="提交" id="btnSearch" tabindex="15" imageurl="#" class="btn-hidden " type="submit">
+                  </p>
+                  </div>
+                  <!-- <p class="botton myaccount-botton">
+                    <input name="btnSearch" value="提交" id="btnSearch" tabindex="15" imageurl="#" class="btn-hidden sweet-12"  onclick="_gaq.push(['_trackEvent', 'example, 'try', 'Success']);" type="submit">
 
+                    </p> -->
 
-                </div> -->
+              </div>
+              </div>
 
                         <!-- <div class="wallet account-edit">
                             <div class="title">個人設定</div>
@@ -1839,11 +1849,19 @@
         };
         document.querySelector('.sweet-13').onclick = function() {
             swal({
-                title: "註冊成功",
-                text: "很高興為您服務，如有任何問題請隨時聯繫在線客服 ，我們24小時竭誠為您服務！",
+                title: "提交成功",
                 type: "success",
                 confirmButtonClass: 'btn-warning btn-warning2 sweet-arrow arrow-right-btn',
-                confirmButtonText: '關閉'
+                confirmButtonText: '關閉',
+                imageUrl: 'assets/img/Check_Tao.png'
+            });
+        };
+        document.querySelector('.sweet-16').onclick = function() {
+            swal({
+                title: "提交成功 ",
+                confirmButtonClass: 'btn-warning btn-warning2 sweet-arrow arrow-right-btn',
+                confirmButtonText: '關閉',
+                imageUrl: 'assets/img/Check_Tao.png'
             });
         };
         document.querySelector('.sweet-14').onclick = function() {
@@ -1868,6 +1886,7 @@
                 imageUrl: 'assets/img/Check_Tao.png'
             });
         };
+
     </script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -1895,19 +1914,24 @@
         </a>
     </div>
     <script type="text/javascript">
-    // $("#fpwd").hide();
-    // $("#fscd").hide();
-    // $("#fpw").click(function(){
-    //     $("#fpwd").toggle();
-    // });
-    // $(".f-toggle").click(function(){
-    //         $("#fpwd").hide();
-    //         $("#fscd").hide();
-    //
-    //     });
-    // $("#fsc").click(function(){
-    //     $("#fscd").toggle();
-    // });
+    $("#fpwd").hide();
+    $("#fscd").hide();
+    $("#fpw").click(function(){
+        $("#fpwd").toggle();
+    });
+    $(".f-toggle").click(function(){
+            $("#fpwd").hide();
+            $("#fscd").hide();
+
+        });
+    $("#fsc").click(function(){
+        $("#fscd").toggle();
+    });
+    $("#myaccount-p-info").hide();
+    $("#btn-edit-info").click(function(){
+      $("#myaccount-p-info").show();
+      $("#myaccount-info").hide();
+    });
         $(function() {
             $(window).scroll(function() {
                 var h = $(window).scrollTop();
