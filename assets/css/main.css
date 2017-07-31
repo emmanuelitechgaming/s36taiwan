@@ -407,6 +407,7 @@ main .winner {
 main .win-body {
     background: #161616;
     overflow: hidden;
+    min-height: 258px;
 }
 
 main .win-lot {
@@ -2429,6 +2430,10 @@ select + i.fa {
 
 .notice-dialog th:first-child{
   width: 85%
+}
+
+.notice-dialog td{
+  height: 42px;
 }
 
 .marquee a {
@@ -7442,4 +7447,8 @@ div.acc-info.acc-edit div.acc-cont input {
 
 .gp-live{
   position: relative;
+}
+
+.top-games .flexslider, .recent-winners .flexslider{
+  padding: 0 !important
 }
