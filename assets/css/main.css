@@ -2427,6 +2427,10 @@ select + i.fa {
     color: #fff
 }
 
+.notice-dialog th:first-child{
+  width: 85%
+}
+
 .marquee a {
     text-decoration: none;
     color: #fff;
@@ -3319,6 +3323,7 @@ footer .browsers li:first-child {
 
 .mnav {
     background: url(../img/bg-nav.png) repeat-x;
+    background-size: contain;
 }
 
 .mnav-main {
@@ -5063,6 +5068,10 @@ div.cta-contact-info a {
     /* ie7 fix */
     zoom: 1;
     /* hasLayout ie7 trigger */
+}
+
+.tab-panel-lotto > .nav-tabs > li {
+  margin-right: 0;
 }
 
 .tab-panel-casino > .nav-tabs > li > a {
@@ -7429,4 +7438,8 @@ div.acc-info.acc-edit div.acc-cont input {
     font-weight: 700;
     padding: 5px 45px;
     font-size: 16px
+}
+
+.gp-live{
+  position: relative;
 }
