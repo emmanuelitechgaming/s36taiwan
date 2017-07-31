@@ -6143,9 +6143,9 @@ main .win-lot-top-games {
 }
 
 .navbar-afterlogin ul li {
-    margin-left: 20px;
+    margin-left: 22px;
     position: relative;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -6173,7 +6173,7 @@ main .win-lot-top-games {
 .navbar-afterlogin .notif {
     position: absolute;
     top: 0px;
-    right: 110px;
+    right: 95px;
     color: #fff;
     background: #fba601;
     padding: 1px 6px;
@@ -7169,7 +7169,7 @@ div.acc-info.acc-edit div.acc-cont input {
 }
 
 .navbar-top-right li a {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     color: #999;
     margin-left: 17.8px
