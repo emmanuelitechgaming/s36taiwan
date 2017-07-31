@@ -616,7 +616,7 @@ $(document).ready(function () {
       $(this).css('color','#fff');
     }, function() {
       $(this).css('color','#999');
-    })
+    });
 });
 
 function nextTab(elem) {
