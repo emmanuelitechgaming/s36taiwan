@@ -3026,7 +3026,8 @@
         background-position: 18px -1px
     }
     .acc-info .myaccount-botton {
-        margin: 10px 107px!important;
+        margin: 10px 120px!important;
+        width: 182px;
     }
     .deposit-reminder {
         left: -10px;

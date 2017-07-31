@@ -59,7 +59,13 @@
   }
   .acc-cont input[type=text]{
     display: block;
-    width: 100%
+    width: 100%;
+    background: #333333;
+border: 1px solid #4b4b4b;
+border-radius: 3px !important;
+padding: 6px 16px !important;
+outline: 0;
+color: #c4c4c4 !important;
   }
   .acc-info.acc-edit{
     width: 100%;
@@ -494,7 +500,7 @@
   }
 
   .account-edit .botton{
-    text-align: right
+    text-align: center
   }
 
   .lotto-balls-wrapper{
