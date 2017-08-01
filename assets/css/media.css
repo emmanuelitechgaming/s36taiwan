@@ -915,6 +915,10 @@
     .gp-live{
       top: 2px
     }
+    .notice-dialog .modal-title{
+      margin-left: 20%;
+      margin-right: 20%;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1101,6 +1105,10 @@
     }
     .mnav-afterlogin .notif {
         right: 40px
+    }
+    .notice-dialog .modal-title{
+      margin-left: 20%;
+      margin-right: 20%;
     }
 }
 
@@ -1534,6 +1542,10 @@
     .gp-star {
       position: relative;
       top: 9px;
+    }
+    .notice-dialog .modal-title{
+      margin-left: 25%;
+      margin-right: 25%;
     }
 }
 
@@ -1995,6 +2007,10 @@
         width: 100px;
         right: 25px;
     }
+    .notice-dialog .modal-title{
+      margin-left: 30%;
+      margin-right: 30%;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -2449,7 +2465,7 @@
         border-left: 1px solid #000000;
     }
     .notice-dialog {
-        width: 700px;
+        width: 900px;
     }
     .live-game .gameplatform {
         top: -39px;
@@ -3129,6 +3145,10 @@
         padding: 10px;
         margin-left: 10px;
         margin-right: 10px
+    }
+    .notice-dialog .modal-title{
+      margin-left: 40%;
+      margin-right: 40%;
     }
 }
 
