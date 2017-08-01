@@ -617,6 +617,14 @@ $(document).ready(function () {
     }, function() {
       $(this).css('color','#999');
     });
+
+    $('.btn-hidden').hover(function() {
+      $(this).css('color', 'rgba(49, 49, 49, 0.5)');
+      $(this).addClass('btn-hidden-hover');
+    }, function() {
+      $(this).css('color', 'rgba(26, 26, 26, 0.7)');
+      $(this).removeClass('btn-hidden-hover');
+    })
 });
 
 function nextTab(elem) {
