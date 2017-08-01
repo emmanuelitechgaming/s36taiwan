@@ -919,6 +919,11 @@
       margin-left: 20%;
       margin-right: 20%;
     }
+
+    .f-toggle .btn-hidden{
+      padding: 6px 35px;
+      padding-right: 70px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3152,6 +3157,10 @@
     }
     .btn-hidden-ph2p2, .btn-hidden-dh2p2{
       margin-left: 35px
+    }
+    .f-toggle .btn-hidden{
+      padding: 6px 40px;
+      padding-right: 70px
     }
 }
 

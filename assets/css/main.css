@@ -1605,6 +1605,11 @@ p {
   padding-right: 55px;
 }
 
+.promotion-form .btn-hidden{
+  display: block;
+  width: 100%
+}
+
 .btn-hidden::after{
   content: ' ';
   display: inline-block;
@@ -7487,10 +7492,15 @@ div.acc-info.acc-edit div.acc-cont input {
   display: inline-block;
 border: 1px solid #484848;
 padding: 10px 20px!important;
+padding-right: 70px !important;
+position: relative;
+
 }
 a.fcsd{
   text-decoration: none;
   color:#5f5f5f !important;
+  position: absolute;
+  right: 10px;
 }
 
 
