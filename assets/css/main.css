@@ -1586,16 +1586,39 @@ p {
 .btn-hidden {
     cursor: pointer;
     font-weight: bold;
-    color: #fff;
-    font-size: 15px;
-    width: 152px;
-    height: 44px;
-    line-height: 30px;
+    font-size: 17px;
     background-color: transparent;
     border: none;
-    margin-top: -15px;
-    color: #000;
-    background: url('../img/yellow-btn.png') repeat-x
+    color: rgba(26, 26, 26, 0.7);
+    background: url('../img/yellow-btn.png') repeat-x;
+    position: relative;
+    text-shadow: 1px 1px rgb(255, 214, 135);
+    padding: 6px 40px;
+    padding-right: 70px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-hidden-ph2p2, .btn-hidden-dh2p2{
+  padding: 6px 25px;
+  padding-right: 55px;
+}
+
+.btn-hidden::after{
+  content: ' ';
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url('../img/arrow-right.png') no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-left: 10px;
+  top: 7px;
+}
+
+.btn-hidden-hover::after{
+  background: url('../img/arrow-right-hover.png') no-repeat;
 }
 
 .acc-info .acc-lbl {
