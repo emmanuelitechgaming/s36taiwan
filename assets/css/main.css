@@ -7457,7 +7457,6 @@ div.acc-info.acc-edit div.acc-cont input {
   text-decoration: underline;
 }
 
-
 .gp-live{
   position: relative;
 }
@@ -7474,4 +7473,7 @@ a.fcsd{
 
 .top-games .flexslider, .recent-winners .flexslider{
   padding: 0 !important
+}
+#noticeModal thead tr th{
+  text-align: center;
 }
