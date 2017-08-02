@@ -796,15 +796,15 @@
 
                         <div class="acc-cont">
                           <div class="acc-lbl">輸入舊密碼： </div>
-                          <input type="text">
+                          <input type="text" class="myaccount-change-pass">
                         </div>
                         <div class="acc-cont">
                           <div class="acc-lbl">輸入新密碼： </div>
-                          <input type="text">
+                          <input type="text" class="myaccount-change-pass">
                         </div>
                         <div class="acc-cont">
                           <div class="acc-lbl">確認新密碼： </div>
-                          <input type="text">
+                          <input type="text" class="myaccount-change-pass">
                         </div>
                         <div class="acc-cont">
                           <div class="acc-lbl"></div>
@@ -849,15 +849,15 @@
                     <div class="pull-right "> <a href="#" class='fcsd'><i class="fa fa-times" aria-hidden="true"></i></a></div>
                   <div class="acc-cont">
                     <div class="acc-lbl">輸入舊安全碼： </div>
-                    <input type="text">
+                    <input type="text" class="myaccount-change-pass">
                   </div>
                   <div class="acc-cont">
                     <div class="acc-lbl">輸入新安全碼： </div>
-                    <input type="text">
+                    <input type="text" class="myaccount-change-pass">
                   </div>
                   <div class="acc-cont">
                     <div class="acc-lbl">確認新安全碼： </div>
-                    <input type="text">
+                    <input type="text" class="myaccount-change-pass">
                   </div>
                   <div class="acc-cont">
                     <div class="acc-lbl"></div>
@@ -1931,10 +1931,12 @@
         $("#fpwd").toggle();
     });
     $(".f-toggle").click(function(){
-            $("#fpwd").hide();
-            $("#fscd").hide();
+      if(!$('.myaccount-change-pass').is(':focus')){
+        $("#fpwd").hide();
+        $("#fscd").hide();
+      }
+    });
 
-        });
     $("#fsc").click(function(){
         $("#fscd").toggle();
     });
