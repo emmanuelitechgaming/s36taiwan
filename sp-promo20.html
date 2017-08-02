@@ -991,7 +991,7 @@
                                     <li><div class="list"><a href="helpcenter.html#tab6">負責任博彩</a></div></li>
                                     <li><div class="list"><a href="sitemap.html">網站地圖</a></div></li>
                                     <li><div class="list"><a href="javascript:void\(0\)" id="footerLinkLang">選擇地區</a></div></li>
-                                      <li><div class="list"><a href="#csMsg" data-toggle="modal">網上短信</a></div></li>
+                                      <li><div class="list"><a href="#csMsg" data-toggle="modal">即时信息</a></div></li>
                                       <li><div class="list"><a href="#csPhone" data-toggle="modal">免費回撥</a></div></li>
                                   </ul>
                               </div>
@@ -1202,52 +1202,47 @@
             </div>
     </footer>
     <div class="modal fade" tabindex="-1" role="dialog" id="noticeModal">
-        <div class="modal-dialog notice-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">通知</h4>
-                </div>
-                <div class="modal-body">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>日期、時間</th>
-                                <th>標題</th>
-                                <th>狀態</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+      <div class="modal-dialog notice-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">通知</h4>
+          </div>
+          <div class="modal-body">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>標題</th>
+                  <th>狀態</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2017-05-05 08:10</td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <td>2017-05-05 08:10</td>
+                  <td>  </td>
+                </tr>
+                <tr>
+                  <td>2017-05-05 08:10</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>2017-05-05 08:10</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>2017-05-05 08:10</td>
+                  <td></td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csModal">
@@ -1389,7 +1384,7 @@
                                                     <label for="email" class="col-sm-4 control-label">建立帳號 *</label>
                                                     <div class="col-sm-8">
                                                         <div class="input-border">
-                                                            <input type="email" class="form-control" id="email" value="cs"/>
+                                                            <input type="email" class="form-control" id="email" placeholder="cs"/>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1758,6 +1753,9 @@
                                          <div class="g-recaptcha  recaptScale" id="recaptcha4"></div>
                                      </div>
                                  </div>
+                                 <div class="col-md-3 form-recap-right">
+                                     <p><a href="javascript:void(0)" class="csmodal-forgot">忘記賬號或密碼？<br><span>聯繫在線客服</span></a></p>
+                                 </div>
                              </div>
                              <div class="form-group text-right">
                                  <button type="submit" class="arrow-right-btn">發送 <img src="assets/img/arrow-right.png" class="arrow-modal" alt=""></button>
@@ -1770,72 +1768,72 @@
      </div>
 
      <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csPhone">
-         <div class="modal-dialog" role="document">
-             <div class="modal-content">
-                 <div class="modal-body">
-                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                     <div class="content-title ctitle">
-                         <h1>免費電話回撥</h1>
-                     </div>
-                     <div class="forms chatserver-form">
-                         <p>歡迎使用免費電話回撥功能，請輸入您的電話號碼，然後點擊“送出”按鈕！一般情況下，我們將會在15分鐘內給您回電。</p>
-                         <br>
-                         <form action="">
-                             <div class="form-group">
-                                 <div class="row">
-                                     <div class="col-md-5 col-xs-12">
-                                         <label>您的語言：</label>
-                                         <div class="form-group">
-                                             <div id="csCallselectflag" data-input-name="country"></div>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                             <div class="form-group">
-                                 <div class="row">
-                                     <div class="col-xs-5">
-                                         <label>您的國家碼：</label>
-                                         <div class="dropdown select-country-code-dropdown">
-                                           <button type="button" class="select-country-code" data-toggle="dropdown">Select</button>
-                                           <ul class="dropdown-menu">
-                                             <li><a href="javascript:void(0)" data-value="Select">Select</a></li>
-                                             <li><a href="javascript:void(0)" data-value="(0086)">(0086)</a></li>
-                                             <li><a href="javascript:void(0)" data-value="(0886)">(0886)</a></li>
-                                             <li><a href="javascript:void(0)" data-value="(0084)">(0084)</a></li>
-                                             <li><a href="javascript:void(0)" data-value="(0062)">(0062)</a></li>
-                                             <li><a href="javascript:void(0)" data-value="(0060)">(0060)</a></li>
-                                             <li><a href="javascript:void(0)" data-value="(0066)">(0066)</a></li>
-                                             <li><a href="javascript:void(0)" data-value="(0081)">(0081)</a></li>
-                                             <li><a href="javascript:void(0)" data-value="(0082)">(0082)</a></li>
-                                             <li><a href="javascript:void(0)" data-value="(0091)">(0091)</a></li>
-                                           </ul>
-                                         </div>
-                                     </div>
-                                     <div class="col-xs-7">
-                                         <label>您的電話號碼：</label>
-                                         <input type="text" class="form-control">
-                                     </div>
-                                 </div>
-                             </div>
-                             <div class="form-group">
-
-                                 <label for="">（當第一個數字為0時則省略0）</label>
-                             </div>
-                             <div class="form-group">
-                                 <div class="col-md-8 col-sm-4">
-                                     <div class="form-group form-inline form-captcha form-recap csphone-recap">
-                                         <div class="g-recaptcha  recaptScale" id="recaptcha3"></div>
-                                     </div>
-                                 </div>
-                             </div>
-                     </div>
-                     <div class="form-group text-right">
-                         <button type="submit" class="arrow-right-btn" id="cscall">發送 <img src="assets/img/arrow-right.png" alt="" class="arrow-modal"></button>
-                     </div>
-                     </form>
-                 </div>
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+           <div class="modal-body">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+             <div class="content-title ctitle">
+               <h1>免費電話回撥</h1>
              </div>
+             <div class="forms chatserver-form">
+               <p>歡迎使用免費電話回撥功能，請輸入您的電話號碼，然後點擊“送出”按鈕！一般情況下，我們將會在15分鐘內給您回電。</p>
+             <br>
+             <form action="">
+               <div class="form-group">
+                 <div class="row">
+                   <div class="col-xs-5">
+                     <label>您的語言：</label>
+                     <div class="form-group">
+                       <div id="csCallselectflag" data-input-name="country"></div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="form-group">
+                 <div class="row">
+                   <div class="col-xs-5">
+                     <label>您的國家碼：</label>
+                     <div class="dropdown select-country-code-dropdown">
+                       <button type="button" class="select-country-code" data-toggle="dropdown">Select</button>
+                       <ul class="dropdown-menu">
+                         <li><a href="javascript:void(0)" data-value="Select">Select</a></li>
+                         <li><a href="javascript:void(0)" data-value="(0086)">(0086)</a></li>
+                         <li><a href="javascript:void(0)" data-value="(0886)">(0886)</a></li>
+                         <li><a href="javascript:void(0)" data-value="(0084)">(0084)</a></li>
+                         <li><a href="javascript:void(0)" data-value="(0062)">(0062)</a></li>
+                         <li><a href="javascript:void(0)" data-value="(0060)">(0060)</a></li>
+                         <li><a href="javascript:void(0)" data-value="(0066)">(0066)</a></li>
+                         <li><a href="javascript:void(0)" data-value="(0081)">(0081)</a></li>
+                         <li><a href="javascript:void(0)" data-value="(0082)">(0082)</a></li>
+                         <li><a href="javascript:void(0)" data-value="(0091)">(0091)</a></li>
+                       </ul>
+                     </div>
+                   </div>
+                   <div class="col-xs-7">
+                     <label>您的電話號碼：</label>
+                     <input type="text" class="form-control">
+                   </div>
+                 </div>
+               </div>
+               <div class="form-group">
+
+               <label for="">（當第一個數字為0時則省略0）</label>
+               </div>
+               <div class="form-group">
+
+                     <div class="form-group form-inline form-captcha form-recap">
+                         <div class="g-recaptcha  recaptScale" id="recaptcha3"></div>
+
+                   </div>
+               </div>
+             </div>
+             <div class="form-group text-right">
+               <button type="submit" class="arrow-right-btn" id="cscall">發送 <img src="assets/img/arrow-right.png" alt="" class="arrow-modal"></button>
+             </div>
+           </form>
+           </div>
          </div>
+       </div>
      </div>
 
      <!-- Bootstrap core JavaScript
