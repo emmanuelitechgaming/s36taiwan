@@ -924,6 +924,9 @@
       padding: 6px 35px;
       padding-right: 70px
     }
+    #csMsg .form-recap, #csPhone .form-recap{
+      margin-left: -15px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3161,6 +3164,12 @@
     .f-toggle .btn-hidden{
       padding: 6px 40px;
       padding-right: 70px
+    }
+    #myModal .form-recap {
+        margin-left: 0
+    }
+    #csMsg .form-recap, #csPhone .form-recap{
+      margin-left: -29px;
     }
 }
 
