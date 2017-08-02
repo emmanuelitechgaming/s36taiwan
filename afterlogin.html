@@ -20,6 +20,7 @@
     <link href="dist/css/font-awesome.min.css" rel="stylesheet">
     <link href="dist/css/flags.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -476,10 +477,10 @@
               </div>
               <div class="navbar-header navbar-right navbar-afterlogin">
                 <ul>
-                  <li><a href="myaccount.html"><img src="assets/img/afterlogin/1-hover.png" alt=""><span style="display:inline-block; margin-left:5px;">cs12345678</span></a></li>
-                  <li><a href="wallet.html"><img src="assets/img/afterlogin/2-hover.png" alt=""><span style="display:inline-block; margin-left:5px;">1000.00</span></a></a></li>
-                  <li><a href="javascript:void(0)" data-toggle="modal" data-target="#noticeModal"><img src="assets/img/afterlogin/3-hover.png" alt=""><span class="notif">8</span></a></a></li>
-                  <li><a href="index.html"><img src="assets/img/afterlogin/4.png" alt=""><span style="display:inline-block;text-align:left; margin-left:12px;"></span></a></a></li>
+                  <li><a href="myaccount.html"><img src="assets/img/afterlogin/1-hover.png" alt=""><span style="display:inline-block; margin-left:5px;">我的帳號</span></a></li>
+                  <li><a href="wallet.html"><img src="assets/img/afterlogin/2-hover.png" alt=""><span style="display:inline-block; margin-left:5px;">我的錢包</span></a></a></li>
+                  <li><a href="javascript:void(0)" data-toggle="modal" data-target="#noticeModal"><img src="assets/img/afterlogin/3-hover.png" alt=""><span>我的通知</span><span class="notif">0</span></a></a></li>
+                  <li><a href="index.html"><img src="assets/img/afterlogin/4-hover.png" alt=""><span style="display:inline-block;text-align:left; margin-left:12px;"></span></a></a></li>
                 </ul>
               </div>
           </div>
@@ -552,9 +553,9 @@
 
               <div class="mnav mnav-top mnav-afterlogin hidden-lg hidden-md">
                 <ul>
-                  <li><a href="myaccount.html"><img src="assets/img/afterlogin/1-hover.png" alt=""><span>cs12345678</span></a></li>
-                  <li><a href="wallet.html"><img src="assets/img/afterlogin/2-hover.png" alt=""><span>1000.00</span></a></li>
-                  <li><a href="#noticeModal" data-toggle="modal"><img src="assets/img/afterlogin/3-hover.png" alt=""><span class="notif">8</span></a></li>
+                  <li><a href="myaccount.html"><img src="assets/img/afterlogin/1-hover.png" alt=""><span>我的帳號</span></a></li>
+                  <li><a href="wallet.html"><img src="assets/img/afterlogin/2-hover.png" alt=""><span>我的錢包</span></a></li>
+                  <li><a href="#noticeModal" data-toggle="modal"><img src="assets/img/afterlogin/3-hover.png" alt=""><span>我的通知</span><span class="notif">0</span></a></li>
                   <li><a href="index.html"><img src="assets/img/afterlogin/4-hover.png" alt=""><span>登出</span></a></li>
                 </ul>
               </div>
@@ -845,51 +846,151 @@
                   <div class="win-title"><img src="assets/img/latest_winner_icon.png" alt="" class="img-responsive"><span>最近獲勝者</span>
                       <a href="winner.html" class="img-responsive pull-right"><img src="assets/img/arrow-orange2.png" style="width: 24px;" alt=""></a>
                   </div>
-                  <div class="win-body">
-                      <div class="win-lot">
-                          <div class="col-md-7 col-xs-7">
-                              <div class="user">
-                                  csdz**3
-                                  <span class="slotgame">老虎機 —沙龍坊</span>
+                  <div class="win-body recent-winners">
+                    <div class="flexslider">
+                      <ul class="slides">
+                        <li>
+                          <div class="win-lot">
+                              <div class="col-md-7 col-xs-7">
+                                  <div class="user">
+                                      csdz**3
+                                      <span class="slotgame">老虎機 —沙龍坊</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-5 col-xs-5">
+                                  <div class="prizepool">¥755,500.00</div>
                               </div>
                           </div>
-                          <div class="col-md-5 col-xs-5">
-                              <div class="prizepool">¥755,500.00</div>
-                          </div>
-                      </div>
-                      <div class="win-lot">
-                          <div class="col-md-7 col-xs-7">
-                              <div class="user">
-                                  cser**8
-                                  <span class="slotgame">老虎機 —沙龍坊</span>
+                          <div class="win-lot">
+                              <div class="col-md-7 col-xs-7">
+                                  <div class="user">
+                                      cser**8
+                                      <span class="slotgame">老虎機 —沙龍坊</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-5 col-xs-5">
+                                  <div class="prizepool">¥651,943.00</div>
                               </div>
                           </div>
-                          <div class="col-md-5 col-xs-5">
-                              <div class="prizepool">¥651,943.00</div>
-                          </div>
-                      </div>
-                      <div class="win-lot">
-                          <div class="col-md-7 col-xs-7">
-                              <div class="user">
-                                  csfq**2
-                                  <span class="slotgame">老虎機 —沙龍坊</span>
+                          <div class="win-lot">
+                              <div class="col-md-7 col-xs-7">
+                                  <div class="user">
+                                      csfq**2
+                                      <span class="slotgame">老虎機 —沙龍坊</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-5 col-xs-5">
+                                  <div class="prizepool">¥632,987.00</div>
                               </div>
                           </div>
-                          <div class="col-md-5 col-xs-5">
-                              <div class="prizepool">¥632,987.00</div>
-                          </div>
-                      </div>
-                      <div class="win-lot">
-                          <div class="col-md-7 col-xs-7">
-                              <div class="user">
-                                  cski**4
-                                  <span class="slotgame">老虎機 —沙龍坊</span>
+                          <div class="win-lot">
+                              <div class="col-md-7 col-xs-7">
+                                  <div class="user">
+                                      cski**4
+                                      <span class="slotgame">老虎機 —沙龍坊</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-5 col-xs-5">
+                                  <div class="prizepool">¥562,500.00</div>
                               </div>
                           </div>
-                          <div class="col-md-5 col-xs-5">
-                              <div class="prizepool">¥562,500.00</div>
+                        </li>
+
+                        <li>
+                          <div class="win-lot">
+                              <div class="col-md-7 col-xs-7">
+                                  <div class="user">
+                                      csdz**3
+                                      <span class="slotgame">老虎機 —沙龍坊</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-5 col-xs-5">
+                                  <div class="prizepool">¥755,500.00</div>
+                              </div>
                           </div>
-                      </div>
+                          <div class="win-lot">
+                              <div class="col-md-7 col-xs-7">
+                                  <div class="user">
+                                      cser**8
+                                      <span class="slotgame">老虎機 —沙龍坊</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-5 col-xs-5">
+                                  <div class="prizepool">¥651,943.00</div>
+                              </div>
+                          </div>
+                          <div class="win-lot">
+                              <div class="col-md-7 col-xs-7">
+                                  <div class="user">
+                                      csfq**2
+                                      <span class="slotgame">老虎機 —沙龍坊</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-5 col-xs-5">
+                                  <div class="prizepool">¥632,987.00</div>
+                              </div>
+                          </div>
+                          <div class="win-lot">
+                              <div class="col-md-7 col-xs-7">
+                                  <div class="user">
+                                      cski**4
+                                      <span class="slotgame">老虎機 —沙龍坊</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-5 col-xs-5">
+                                  <div class="prizepool">¥562,500.00</div>
+                              </div>
+                          </div>
+                        </li>
+
+                        <li>
+                          <div class="win-lot">
+                              <div class="col-md-7 col-xs-7">
+                                  <div class="user">
+                                      csdz**3
+                                      <span class="slotgame">老虎機 —沙龍坊</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-5 col-xs-5">
+                                  <div class="prizepool">¥755,500.00</div>
+                              </div>
+                          </div>
+                          <div class="win-lot">
+                              <div class="col-md-7 col-xs-7">
+                                  <div class="user">
+                                      cser**8
+                                      <span class="slotgame">老虎機 —沙龍坊</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-5 col-xs-5">
+                                  <div class="prizepool">¥651,943.00</div>
+                              </div>
+                          </div>
+                          <div class="win-lot">
+                              <div class="col-md-7 col-xs-7">
+                                  <div class="user">
+                                      csfq**2
+                                      <span class="slotgame">老虎機 —沙龍坊</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-5 col-xs-5">
+                                  <div class="prizepool">¥632,987.00</div>
+                              </div>
+                          </div>
+                          <div class="win-lot">
+                              <div class="col-md-7 col-xs-7">
+                                  <div class="user">
+                                      cski**4
+                                      <span class="slotgame">老虎機 —沙龍坊</span>
+                                  </div>
+                              </div>
+                              <div class="col-md-5 col-xs-5">
+                                  <div class="prizepool">¥562,500.00</div>
+                              </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
               </div>
           </div>
@@ -897,58 +998,171 @@
           <div class="col-md-4 col-xs-12">
               <div class="winner-cont">
                   <div class="win-title"><img src="assets/img/top_games_icon.png" alt="" class="img-responsive"><span>熱門遊戲</span>
-                      <a href="slots.html" class="img-responsive pull-right"><img src="assets/img/arrow-orange2.png" style="width: 24px;" alt=""></a>
+                      <a href="slots.html#slot-tab2" id="topGamesTrigger" class="img-responsive pull-right"><img src="assets/img/arrow-orange2.png" style="width: 24px;" alt=""></a>
                   </div>
-                  <div class="win-body">
-                      <a href="sp-slots3.html">
-                          <div class="win-lot win-lot-top-games">
-                              <div class="col-md-7 col-xs-7">
-                                  <div class="win-game">
-                                      <img src="assets/img/game/1.png" class="img-responsive" alt="">
-                                  </div>
-                              </div>
-                              <div class="col-md-5 col-xs-5">
-                                  <div class="prizepool">沙龍坊 - SA Gaming<span>魔鬼天使 - 30線</span></div>
-                              </div>
+                  <div class="win-body top-games">
+                    <div class="flexslider">
+                      <ul class="slides">
+                        <li>
+                          <div class="win-body">
+                            <a href="sp-slots3.html">
+                                <div class="win-lot win-lot-top-games">
+                                    <div class="col-md-7 col-xs-7">
+                                        <div class="win-game">
+                                            <img src="assets/img/game/1.png" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-5">
+                                        <div class="prizepool">沙龍坊 - SA Gaming<span>魔鬼天使 - 30線</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="sp-slots4.html">
+                                <div class="win-lot win-lot-top-games">
+                                    <div class="col-md-7 col-xs-7">
+                                        <div class="win-game">
+                                            <img src="assets/img/game/2.png" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-5">
+                                        <div class="prizepool">沙龍坊 - SA Gaming<span>幸運喵星人 - 243線</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="sp-slots1.html">
+                                <div class="win-lot win-lot-top-games">
+                                    <div class="col-md-7 col-xs-7">
+                                        <div class="win-game">
+                                            <img src="assets/img/game/5.png" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-5">
+                                        <div class="prizepool">沙龍坊 - SA Gaming<span>喪屍獵人 - 30線</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="sp-slots18.html">
+                                <div class="win-lot win-lot-top-games">
+                                    <div class="col-md-7 col-xs-7">
+                                        <div class="win-game">
+                                            <img src="assets/img/game/4.png" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-5">
+                                        <div class="prizepool">沙龍坊 - SA Gaming<span>夢幻女神 - 243線</span></div>
+                                    </div>
+                                </div>
+                            </a>
                           </div>
-                      </a>
-                      <a href="sp-slots4.html">
-                          <div class="win-lot win-lot-top-games">
-                              <div class="col-md-7 col-xs-7">
-                                  <div class="win-game">
-                                      <img src="assets/img/game/2.png" class="img-responsive" alt="">
-                                  </div>
-                              </div>
-                              <div class="col-md-5 col-xs-5">
-                                  <div class="prizepool">沙龍坊 - SA Gaming<span>幸運喵星人 - 243線</span></div>
-                              </div>
-                          </div>
-                      </a>
-                      <a href="sp-slots1.html">
-                          <div class="win-lot win-lot-top-games">
-                              <div class="col-md-7 col-xs-7">
-                                  <div class="win-game">
-                                      <img src="assets/img/game/5.png" class="img-responsive" alt="">
-                                  </div>
-                              </div>
-                              <div class="col-md-5 col-xs-5">
-                                  <div class="prizepool">沙龍坊 - SA Gaming<span>喪屍獵人 - 30線</span></div>
-                              </div>
-                          </div>
-                      </a>
-                      <a href="sp-slots18.html">
-                          <div class="win-lot win-lot-top-games">
-                              <div class="col-md-7 col-xs-7">
-                                  <div class="win-game">
-                                      <img src="assets/img/game/4.png" class="img-responsive" alt="">
-                                  </div>
-                              </div>
-                              <div class="col-md-5 col-xs-5">
-                                  <div class="prizepool">沙龍坊 - SA Gaming<span>夢幻女神 - 243線</span></div>
-                              </div>
-                          </div>
-                      </a>
+                        </li>
 
+                        <li>
+                          <div class="win-body">
+                            <a href="sp-slots4.html">
+                                <div class="win-lot win-lot-top-games">
+                                    <div class="col-md-7 col-xs-7">
+                                        <div class="win-game">
+                                            <img src="assets/img/game/2.png" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-5">
+                                        <div class="prizepool">沙龍坊 - SA Gaming<span>幸運喵星人 - 243線</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="sp-slots3.html">
+                                <div class="win-lot win-lot-top-games">
+                                    <div class="col-md-7 col-xs-7">
+                                        <div class="win-game">
+                                            <img src="assets/img/game/1.png" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-5">
+                                        <div class="prizepool">沙龍坊 - SA Gaming<span>魔鬼天使 - 30線</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="sp-slots18.html">
+                                <div class="win-lot win-lot-top-games">
+                                    <div class="col-md-7 col-xs-7">
+                                        <div class="win-game">
+                                            <img src="assets/img/game/4.png" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-5">
+                                        <div class="prizepool">沙龍坊 - SA Gaming<span>夢幻女神 - 243線</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="sp-slots1.html">
+                                <div class="win-lot win-lot-top-games">
+                                    <div class="col-md-7 col-xs-7">
+                                        <div class="win-game">
+                                            <img src="assets/img/game/5.png" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-5">
+                                        <div class="prizepool">沙龍坊 - SA Gaming<span>喪屍獵人 - 30線</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                          </div>
+                        </li>
+
+                        <li>
+                          <div class="win-body">
+                            <a href="sp-slots18.html">
+                                <div class="win-lot win-lot-top-games">
+                                    <div class="col-md-7 col-xs-7">
+                                        <div class="win-game">
+                                            <img src="assets/img/game/4.png" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-5">
+                                        <div class="prizepool">沙龍坊 - SA Gaming<span>夢幻女神 - 243線</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="sp-slots4.html">
+                                <div class="win-lot win-lot-top-games">
+                                    <div class="col-md-7 col-xs-7">
+                                        <div class="win-game">
+                                            <img src="assets/img/game/2.png" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-5">
+                                        <div class="prizepool">沙龍坊 - SA Gaming<span>幸運喵星人 - 243線</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="sp-slots3.html">
+                                <div class="win-lot win-lot-top-games">
+                                    <div class="col-md-7 col-xs-7">
+                                        <div class="win-game">
+                                            <img src="assets/img/game/1.png" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-5">
+                                        <div class="prizepool">沙龍坊 - SA Gaming<span>魔鬼天使 - 30線</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="sp-slots1.html">
+                                <div class="win-lot win-lot-top-games">
+                                    <div class="col-md-7 col-xs-7">
+                                        <div class="win-game">
+                                            <img src="assets/img/game/5.png" class="img-responsive" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-xs-5">
+                                        <div class="prizepool">沙龍坊 - SA Gaming<span>喪屍獵人 - 30線</span></div>
+                                    </div>
+                                </div>
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
               </div>
           </div>
@@ -1128,7 +1342,7 @@
                                   <li><div class="list"><a href="helpcenter.html#tab6">負責任博彩</a></div></li>
                                   <li><div class="list"><a href="sitemap.html">網站地圖</a></div></li>
                                   <li><div class="list"><a href="javascript:void\(0\)" id="footerLinkLang">選擇地區</a></div></li>
-                                      <li><div class="list"><a href="#csMsg" data-toggle="modal">即时信息</a></div></li>
+                                      <li><div class="list"><a href="#csMsg" data-toggle="modal">網上短信</a></div></li>
                                       <li><div class="list"><a href="#csPhone" data-toggle="modal">免費回撥</a></div></li>
                                 </ul>
                             </div>
@@ -1405,7 +1619,7 @@
                                               <div class="col-md-9 col-sm-4">
                                                   <div class="input-border">
                                                     <span class="my-modal-cs">cs</span>
-                                                      <input type="email" class="form-control" placeholder="輸入賬號" />
+                                                      <input type="email" class="form-control" placeholder="cs 輸入賬號" />
                                                   </div>
                                               </div>
                                           </div>
@@ -1469,7 +1683,7 @@
                                                   <label for="email" class="col-sm-4 control-label">建立帳號 *</label>
                                                   <div class="col-sm-8">
                                                       <div class="input-border">
-                                                          <span class="my-modal-cs">cs</span> <input type="email" class="form-control" id="email" />
+                                                          <input type="email" class="form-control" id="email" value="cs"/>
                                                       </div>
                                                   </div>
                                               </div>
@@ -1613,47 +1827,52 @@
   </div>
 
   <div class="modal fade" tabindex="-1" role="dialog" id="noticeModal">
-    <div class="modal-dialog notice-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title">通知</h4>
-        </div>
-        <div class="modal-body">
-          <table class="table table-bordered">
-            <thead>
-              <tr>
-                <th>標題</th>
-                <th>狀態</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>2017-05-05 08:10</td>
-                <td> <a href="javascript:void(0)" onclick="window.open('https://www.sagaming.com/edm/media/nslions_tc.html', 'newwindow', 'width=600, height=750'); return false;">南北獅王 舞動錢程 HTML5 版本現已推出</a></td>
-              </tr>
-              <tr>
-                <td>2017-05-05 08:10</td>
-                <td>  <a href="javascript:void(0)" onclick="window.open('https://www.sagaming.com/edm/media/hotmodel_behindscene_tc.html', 'newwindow', 'width=600, height=750'); return false;">真人老虎機系列：拍攝花絮</a></td>
-              </tr>
-              <tr>
-                <td>2017-05-05 08:10</td>
-                <td><a href="javascript:void(0)" onclick="window.open('https://www.sagaming.com/edm/media/cheungpotsai_tc.html', 'newwindow', 'width=600, height=750'); return false;">傳奇海盜 稱霸一方《張保仔》老虎機遊戲全新上線</a></td>
-              </tr>
-              <tr>
-                <td>2017-05-05 08:10</td>
-                <td><a href="javascript:void(0)" onclick="window.open('https://www.sagaming.com/edm/media/hotmodelslot_tc.html', 'newwindow', 'width=600, height=750'); return false;">「真」有其「人」！沙龍平台推出真人老虎機系列</a></td>
-              </tr>
-              <tr>
-                <td>2017-05-05 08:10</td>
-                <td><a href="javascript:void(0)" onclick="window.open('https://www.sagaming.com/edm/media/diamondcrush_tc.html', 'newwindow', 'width=600, height=750'); return false;">熱滿老虎機遊戲《幸運金鑽》 - 鑽出源源寶物來</a></td>
-              </tr>
-
-            </tbody>
-          </table>
-        </div>
+      <div class="modal-dialog notice-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title">通知</h4>
+              </div>
+              <div class="modal-body">
+                  <table class="table table-bordered">
+                      <thead>
+                          <tr>
+                              <th>日期、時間</th>
+                              <th>標題</th>
+                              <th>狀態</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                          </tr>
+                          <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                          </tr>
+                          <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                          </tr>
+                          <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                          </tr>
+                          <tr>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
       </div>
-    </div>
   </div>
 
   <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csModal">
@@ -1713,9 +1932,6 @@
                                       <div class="g-recaptcha  recaptScale" id="recaptcha4"></div>
                                   </div>
                               </div>
-                              <div class="col-md-3 form-recap-right">
-                                  <p><a href="javascript:void(0)" class="csmodal-forgot">忘記賬號或密碼？<br><span>聯繫在線客服</span></a></p>
-                              </div>
                           </div>
                           <div class="form-group text-right">
                               <button type="submit" class="arrow-right-btn">發送 <img src="assets/img/arrow-right.png" class="arrow-modal" alt=""></button>
@@ -1728,72 +1944,72 @@
   </div>
 
   <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csPhone">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <div class="content-title ctitle">
-            <h1>免費電話回撥</h1>
-          </div>
-          <div class="forms chatserver-form">
-            <p>歡迎使用免費電話回撥功能，請輸入您的電話號碼，然後點擊“送出”按鈕！一般情況下，我們將會在15分鐘內給您回電。</p>
-          <br>
-          <form action="">
-            <div class="form-group">
-              <div class="row">
-                <div class="col-xs-5">
-                  <label>您的語言：</label>
-                  <div class="form-group">
-                    <div id="csCallselectflag" data-input-name="country"></div>
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <div class="content-title ctitle">
+                      <h1>免費電話回撥</h1>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="row">
-                <div class="col-xs-5">
-                  <label>您的國家碼：</label>
-                  <div class="dropdown select-country-code-dropdown">
-                    <button type="button" class="select-country-code" data-toggle="dropdown">Select</button>
-                    <ul class="dropdown-menu">
-                      <li><a href="javascript:void(0)" data-value="Select">Select</a></li>
-                      <li><a href="javascript:void(0)" data-value="(0086)">(0086)</a></li>
-                      <li><a href="javascript:void(0)" data-value="(0886)">(0886)</a></li>
-                      <li><a href="javascript:void(0)" data-value="(0084)">(0084)</a></li>
-                      <li><a href="javascript:void(0)" data-value="(0062)">(0062)</a></li>
-                      <li><a href="javascript:void(0)" data-value="(0060)">(0060)</a></li>
-                      <li><a href="javascript:void(0)" data-value="(0066)">(0066)</a></li>
-                      <li><a href="javascript:void(0)" data-value="(0081)">(0081)</a></li>
-                      <li><a href="javascript:void(0)" data-value="(0082)">(0082)</a></li>
-                      <li><a href="javascript:void(0)" data-value="(0091)">(0091)</a></li>
-                    </ul>
+                  <div class="forms chatserver-form">
+                      <p>歡迎使用免費電話回撥功能，請輸入您的電話號碼，然後點擊“送出”按鈕！一般情況下，我們將會在15分鐘內給您回電。</p>
+                      <br>
+                      <form action="">
+                          <div class="form-group">
+                              <div class="row">
+                                  <div class="col-md-5 col-xs-12">
+                                      <label>您的語言：</label>
+                                      <div class="form-group">
+                                          <div id="csCallselectflag" data-input-name="country"></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="form-group">
+                              <div class="row">
+                                  <div class="col-xs-5">
+                                      <label>您的國家碼：</label>
+                                      <div class="dropdown select-country-code-dropdown">
+                                        <button type="button" class="select-country-code" data-toggle="dropdown">Select</button>
+                                        <ul class="dropdown-menu">
+                                          <li><a href="javascript:void(0)" data-value="Select">Select</a></li>
+                                          <li><a href="javascript:void(0)" data-value="(0086)">(0086)</a></li>
+                                          <li><a href="javascript:void(0)" data-value="(0886)">(0886)</a></li>
+                                          <li><a href="javascript:void(0)" data-value="(0084)">(0084)</a></li>
+                                          <li><a href="javascript:void(0)" data-value="(0062)">(0062)</a></li>
+                                          <li><a href="javascript:void(0)" data-value="(0060)">(0060)</a></li>
+                                          <li><a href="javascript:void(0)" data-value="(0066)">(0066)</a></li>
+                                          <li><a href="javascript:void(0)" data-value="(0081)">(0081)</a></li>
+                                          <li><a href="javascript:void(0)" data-value="(0082)">(0082)</a></li>
+                                          <li><a href="javascript:void(0)" data-value="(0091)">(0091)</a></li>
+                                        </ul>
+                                      </div>
+                                  </div>
+                                  <div class="col-xs-7">
+                                      <label>您的電話號碼：</label>
+                                      <input type="text" class="form-control">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="form-group">
+
+                              <label for="">（當第一個數字為0時則省略0）</label>
+                          </div>
+                          <div class="form-group">
+                              <div class="col-md-8 col-sm-4">
+                                  <div class="form-group form-inline form-captcha form-recap csphone-recap">
+                                      <div class="g-recaptcha  recaptScale" id="recaptcha3"></div>
+                                  </div>
+                              </div>
+                          </div>
                   </div>
-                </div>
-                <div class="col-xs-7">
-                  <label>您的電話號碼：</label>
-                  <input type="text" class="form-control">
-                </div>
+                  <div class="form-group text-right">
+                      <button type="submit" class="arrow-right-btn" id="cscall">發送 <img src="assets/img/arrow-right.png" alt="" class="arrow-modal"></button>
+                  </div>
+                  </form>
               </div>
-            </div>
-            <div class="form-group">
-
-            <label for="">（當第一個數字為0時則省略0）</label>
-            </div>
-            <div class="form-group">
-
-                  <div class="form-group form-inline form-captcha form-recap">
-                      <div class="g-recaptcha  recaptScale" id="recaptcha3"></div>
-
-                </div>
-            </div>
           </div>
-          <div class="form-group text-right">
-            <button type="submit" class="arrow-right-btn" id="cscall">發送 <img src="assets/img/arrow-right.png" alt="" class="arrow-modal"></button>
-          </div>
-        </form>
-        </div>
       </div>
-    </div>
   </div>
 
   <!-- Bootstrap core JavaScript
@@ -1808,6 +2024,7 @@
   <script src="dist/js/bootstrap.min.js"></script>
   <script src="dist/js/bootstrap-slider.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider.min.js"></script>
   <script src="dist/js/sweetalert.min.js"></script>
   <script src="dist/js/font-awesome.js"></script>
     <script src="dist/js/jquery.flagstrap.min.js"></script>
@@ -1998,6 +2215,23 @@
       console.log(now2);
       $('.top-header-clock span').html(now);
       $('.m-top-header-clock span').html(now2);
+
+      $('.top-games .flexslider').flexslider({
+        animation: 'fade',
+        direction: 'vertical',
+        slideshowSpeed: '5000',
+        controlNav: false,
+        directionNav: false
+      });
+
+      $('.recent-winners .flexslider').flexslider({
+        animation: 'slide',
+        direction: 'vertical',
+        slideshowSpeed: '4000',
+        animationSpeed: '2000',
+        controlNav: false,
+        directionNav: false,
+      });
     });
   </script>
 
@@ -2040,29 +2274,29 @@
 
   <script src='https://www.google.com/recaptcha/api.js?hl=zh-TW&onload=CaptchaCallback&render=explicit' async defer></script>
   <script type="text/javascript">
-    var CaptchaCallback = function() {
-        grecaptcha.render('recaptcha1', {
-          'sitekey' : '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
-          'theme' : 'dark',
-          'size' : 'small'
-        });
-        grecaptcha.render('recaptcha2', {
-          'sitekey' : '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
-          'theme' : 'dark',
-          'size' : 'small'
-        });
-        grecaptcha.render('recaptcha3', {
-          'sitekey' : '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
-          'theme' : 'dark',
-          'size' : 'small'
-        });
-        grecaptcha.render('recaptcha4', {
-            'sitekey': '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
-            'theme': 'dark',
-            'size': 'small'
-        });
-    };
-</script>
+      var CaptchaCallback = function() {
+          grecaptcha.render('recaptcha1', {
+              'sitekey': '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
+              'theme': 'dark',
+              'size': 'small'
+          });
+          grecaptcha.render('recaptcha2', {
+              'sitekey': '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
+              'theme': 'dark',
+              'size': 'small'
+          });
+          grecaptcha.render('recaptcha3', {
+              'sitekey': '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
+              'theme': 'dark',
+              'size': 'small'
+          });
+          grecaptcha.render('recaptcha4', {
+              'sitekey': '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
+              'theme': 'dark',
+              'size': 'small'
+          });
+      };
+  </script>
 </body>
 
 </html>

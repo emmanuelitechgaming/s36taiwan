@@ -64,6 +64,10 @@ $(document).ready(function () {
          $(this).addClass('active');
        }
      });
+
+     if(hash == '#slot-tab2'){
+       $('a[href="#slot-tab2"]').tab('show');
+     }
    }
    $('a[href="'+hash+'"]').parent('li').attr('class', 'brand-nav active');
 
@@ -409,7 +413,7 @@ $(document).ready(function () {
       $('#drop3').removeClass('lang-click');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/register2.png"], img[src="assets/img/sp/reg-btn-sp.png"], img[src="assets/img/lock_25-hover.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/register2.png"], img[src="assets/img/sp/reg-btn-sp.png"], img[src="assets/img/lock_25-hover.png"], img[src="assets/img/casino/baccarat/play-icon.png"]').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-1"').tab('show');
     });
@@ -612,6 +616,14 @@ $(document).ready(function () {
       $(this).css('color','#fff');
     }, function() {
       $(this).css('color','#999');
+    });
+
+    $('.btn-hidden').hover(function() {
+      $(this).css('color', 'rgba(49, 49, 49, 0.5)');
+      $(this).addClass('btn-hidden-hover');
+    }, function() {
+      $(this).css('color', 'rgba(26, 26, 26, 0.7)');
+      $(this).removeClass('btn-hidden-hover');
     })
 });
 
