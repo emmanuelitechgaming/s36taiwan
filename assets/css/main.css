@@ -7513,3 +7513,8 @@ a.fcsd{
 #noticeModal thead tr th{
   text-align: center;
 }
+
+.csphone-recap{
+  margin-top: 0;
+  margin-bottom: 20px;;
+}
