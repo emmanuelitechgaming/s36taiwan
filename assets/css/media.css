@@ -2352,6 +2352,14 @@
     .m-fsalon ul li:nth-child(2) img {
         margin: auto 32%;
     }
+    .contactus ul{
+
+      padding-left: -5px;
+    }
+    .contactus ul li {
+      padding: 7.8px 0;
+      font-size: 15px;
+  }
 }
 
 
@@ -2368,9 +2376,9 @@
     .modal-panel-dialog {
         width: 400px!important;
     }
-    .container {
+    /*.container {
         width: 768px;
-    }
+    }*/
     .panel-heading select {
         background-size: 3% 30%
     }
@@ -2416,12 +2424,31 @@
     .rss-field .form-group:nth-child(2) {
         width: 80.6%
     }
+    .contactus ul li {
+      padding: 7.8px 0;
+      font-size: 15px;
+      padding-left: 15px;
+  }
 }
 
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {
+  .bs-slider-overlay {
+      position: absolute;
+      bottom: 13px;
+      right: 26%;
+  }
+  .contactus ul li {
+    padding: 7.8px 0;
+    font-size: 12px;
+    padding-left: 0;
+}
+  .container {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 20px;
     }
@@ -2450,8 +2477,8 @@
         margin-top: 6px;
     }
     main .marquee {
-        bottom: 10px;
-        width: 280px;
+      bottom: 10px;
+width: 360px;
     }
     .nathan-logo a {
         background-size: 100% 67% !important
@@ -2500,7 +2527,7 @@
         margin: 0 0 10px;
     }
     .cta-seemore {
-        bottom: 112px;
+        bottom: 84px;
         right: 12px;
     }
     .casino-more {
@@ -2701,19 +2728,19 @@
         margin: 10px 240px;
     }
     .live-game-txtb {
-        font-size: 15px;
-        letter-spacing: 1px;
-        bottom: 23px;
+      font-size: 11px;
+      letter-spacing: 1px;
+      bottom: 18px;
     }
     .frut-popper .live-game-txtb {
-        bottom: 15px
+        bottom: 11px
     }
     .jigong .live-game-txtb {
-        bottom: 14px;
+        bottom: 11px;
     }
     .live-game-txtc {
-        font-size: 15px;
-        bottom: 24px;
+      font-size: 11px;
+      bottom: 18px;
     }
     .wallet .datepicker {
         width: 22.7% !important
@@ -2789,7 +2816,7 @@
         width: auto
     }
     .rss-field .form-group:nth-child(1) input {
-        width: 250px !important
+        width: 125px !important
     }
     .slots-info {
         right: 118px;
@@ -2838,10 +2865,10 @@
         width: 700px;
     }
     .jumbo {
-        left: 268px;
-        top: 31px;
-        font-size: 28px;
-        letter-spacing: 11.5px;
+      left: 116px;
+      top: 16px;
+      font-size: 26px;
+      letter-spacing: -0.5px;
     }
     #myModalTab1-2 .form-captcha {
         margin-top: 20%
@@ -2860,7 +2887,6 @@
     .win-lot-top-games .prizepool {
         font-size: 12px;
         white-space: nowrap;
-        margin-left: auto;
     }
     main .win-game img {
         bottom: -3px;
@@ -2870,7 +2896,7 @@
     .i-roulette .live-game-txtc,
     .i-fantan .live-game-txtc,
     .i-sicbo .live-game-txtc {
-        bottom: 14px;
+        bottom: 11px;
     }
     .live-game-txtba a,
     .live-game-txtbb a,
@@ -2967,16 +2993,19 @@
         max-width: 100%;
     }
     .contactus ul li span {
-        margin-left: 30px;
+        margin-left: 18px;
     }
     .contactus {
         padding: 5px 20px;
     }
     .contactus ul li:nth-child(2) span {
-        margin-left: 31px;
+        margin-left: 18px;
     }
     .contactus ul li:nth-child(3) span {
-        margin-left: 31px
+        margin-left: 18px
+    }
+    .contactus ul li:last-child span {
+        margin-left: 15px
     }
     #myModal .pull-right .modal-bottom {
         position: absolute;
@@ -3023,7 +3052,7 @@
         margin-top: auto;
     }
     .lg-playnow {
-        font-size: 19px;
+        font-size: 17px;;
     }
     .lg-playnow.login-modal-a img {
         width: 24px;
@@ -3031,7 +3060,7 @@
         bottom: 1px;
     }
     .lg-playnow {
-        bottom: 15.4%;
+        bottom: 14%;
     }
     .promotion-form-btn2 {
         margin-bottom: auto;
@@ -3073,10 +3102,10 @@
     header {
         background: url('../img/casino-bg.png');
         background-repeat: no-repeat;
-        background-position-x: 680px;
+        background-position-x: 45%;
     }
     main .marquee {
-        left: 98px;
+        left: 80px;
     }
     .gp-g .col-md-4:nth-child(1) a {
         padding-bottom: 0px;
@@ -3174,6 +3203,9 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .rss-field .form-group:nth-child(1) input {
+      width: 250px !important
+  }
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 20px;
     }
@@ -3216,9 +3248,9 @@
         width: 40px;
         height: 24px
     }
-    .container {
+    /*.container {
         width: 1250px;
-    }
+    }*/
     .lotto-header {
         padding: 11px;
         background: transparent;
@@ -3305,4 +3337,58 @@
     footer .footer-shareit img {
         width: 132px;
     }
+    .contactus ul {
+        padding-left: 15px;
+    }
+    .contactus ul li {
+    padding: 7.8px 0;
+        padding-left: 0px;
+    font-size: 14px;
+    padding-left: 0;
 }
+main .marquee {
+    left: 95px;
+}
+.live-game-txtb {
+    font-size: 13px;
+    letter-spacing: 1px;
+    bottom: 25px;
+}
+.live-game-txtc {
+    font-size: 13px;
+    bottom: 25px;
+}
+.frut-popper .live-game-txtb {
+    bottom: 16px;
+}
+.jigong .live-game-txtb {
+    bottom: 16px;
+}
+.i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
+    bottom: 16px;
+}
+.bs-slider-overlay {
+    position: absolute;
+    bottom: 48px;
+    right: 29%;
+}
+.cta-seemore {
+    bottom: 112px;
+    right: 12px;
+}
+.lg-playnow {
+    bottom: 15%;
+}
+.lg-playnow {
+    font-size: 18px;
+}
+}
+
+/*@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .container{
+    width: 1024px;
+  }
+}*/

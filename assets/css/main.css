@@ -4436,7 +4436,7 @@ left: 47%;
     font-size: .75em;
     cursor: pointer;
     min-width: 150px;
-    right: 348px;
+    right: 341px;
     top: 28px;
     padding: 10px;
     border: 1px solid #4a4a4a
@@ -5478,11 +5478,7 @@ div.cta-contact-info a {
     font-size: 11px
 }
 
-.bs-slider-overlay {
-    position: absolute;
-    bottom: 48px;
-    right: 555px;
-}
+
 
 #myModal .nav-tabs li span img {
     width: 15px;
@@ -6164,11 +6160,11 @@ main .win-lot-top-games {
     margin: 0;
     padding: 0;
     list-style: none;
-    padding-left: 15px;
 }
 
 .contactus ul li {
-    padding: 7.8px 0
+    padding: 7.8px 0;
+    padding-left:15px;
 }
 
 .contactus ul li span {
