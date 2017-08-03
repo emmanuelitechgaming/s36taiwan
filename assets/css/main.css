@@ -1600,6 +1600,13 @@ p {
     margin-bottom: 10px;
 }
 
+.sp-btn-hidden{
+  border-radius: 0;
+  font-size: 19px;
+  background: url('../img/sp/reg-btn-bg.png') repeat-x;
+  background-size: contain;
+}
+
 .btn-hidden-ph2p2, .btn-hidden-dh2p2{
   padding: 6px 25px;
   padding-right: 55px;
@@ -1624,6 +1631,10 @@ p {
 
 .btn-hidden-hover::after{
   background: url('../img/arrow-right-hover.png') no-repeat;
+}
+
+.sp-btn-hidden::after{
+  top: 8px
 }
 
 .acc-info .acc-lbl {
