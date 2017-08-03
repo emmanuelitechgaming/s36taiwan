@@ -5359,9 +5359,7 @@ div.cta-contact-info a {
     position: relative;
 }
 
-.mnav-afterlogin ul li:nth-child(4) a img {
-    height: 24px;
-    margin-bottom: 5px;
+.mnav-afterlogin ul li:nth-child(4) a img, .mnav-afterlogin ul li:nth-child(3) a img {
     position: relative;
     top: 2px;
 }
@@ -5434,7 +5432,11 @@ div.cta-contact-info a {
 .mnav-top ul {
     display: block;
     position: relative;
-    bottom: -3px
+    bottom: -5px
+}
+
+.mnav-afterlogin ul{
+  bottom: 0px
 }
 
 .mnav-top ul li {
@@ -5457,8 +5459,8 @@ div.cta-contact-info a {
 .mnav-top ul li a img {
     display: block;
     margin: 0px auto;
-    max-width: 50%;
-    height: 25px;
+    max-width: 100%;
+    height: 28px;
 }
 
 
@@ -5467,12 +5469,7 @@ div.cta-contact-info a {
 }*/
 
 .mnav-afterlogin ul li a img {
-    /*height: 35px;*/
-}
-
-.mnav-afterlogin ul li:nth-child(1) a img {
-    width: 25px;
-    height: 26px;
+    height: 32px;
 }
 
 .mnav-top ul li a span {
@@ -7521,4 +7518,22 @@ a.fcsd{
 .csphone-recap{
   margin-top: 0;
   margin-bottom: 20px;;
+}
+.checkbox label .myaccount-gender{
+  color: #acacac;
+}
+.myaccount-gender::before{
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-right: 8px
+}
+.myaccount-gender.gender-male{
+  background: url('../img/winner/gender-male2.png') no-repeat;
+  background-size: contain;
+}
+.myaccount-gender.gender-female{
+  background: url('../img/winner/gender-female2.png') no-repeat;
+  background-size: contain;
 }
