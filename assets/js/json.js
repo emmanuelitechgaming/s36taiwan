@@ -3,15 +3,15 @@ $(document).ready(function(){
 		{
 	    "country_name": "中國",
 	    "languages": [
-	      "繁体",
-				"简体"
+	      "简体"
+				
 	    ],
 	    "flag" : "flag-icon-cn"
 	  },
 		{
 			"country_name": "台灣",
 			"languages": [
-				"TWD"
+				"繁体"
 			],
 			"flag": "flag-icon-tw"
 		},
@@ -56,7 +56,14 @@ $(document).ready(function(){
 	      "INR"
 	    ],
 	    "flag" : "flag-icon-in"
-	  },	
+	  },
+		{
+	    "country_name": "美國",
+	    "languages": [
+	      "EN"
+	    ],
+	    "flag" : "flag-icon-um"
+	  },
 	];
 
 	$(obj).each(function(k,v){

@@ -6493,7 +6493,7 @@ main .win-lot-top-games {
     text-transform: uppercase;
     display: inline-block;
     padding: .5em;
-    padding: .65em 2em;
+    /*padding: .65em 2em;*/
     margin-top: 35px;
     margin-left: 50px;
 }
@@ -6758,6 +6758,9 @@ div.acc-info.acc-edit div.acc-cont input {
     background: url('../img/flags/india.png');
 }
 
+.flag-icon-um::before {
+    background: url('../img/flags/uk.png');
+}
 .flag-icon-cn::before,
 .flag-icon-tw::before,
 .flag-icon-vn::before,
@@ -6766,7 +6769,8 @@ div.acc-info.acc-edit div.acc-cont input {
 .flag-icon-my::before,
 .flag-icon-th::before,
 .flag-icon-jp::before,
-.flag-icon-in::before {
+.flag-icon-in::before,
+.flag-icon-um::before {
     background-size: cover
 }
 
