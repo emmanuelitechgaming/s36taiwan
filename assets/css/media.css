@@ -2492,7 +2492,9 @@ width: 360px;
         background-size: 100% 67% !important
     }
     header .logo a {
-        width: 184px;
+      width: 253px;
+height: 70px;
+margin-top: -18px;
     }
     .header-mobile-logo {
         margin-left: 0px
