@@ -935,6 +935,10 @@
     #csMsg .form-recap, #csPhone .form-recap{
       margin-left: -15px;
     }
+    .sp-btn-hidden{
+      display: block;
+      margin-bottom: 0;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3209,6 +3213,12 @@ margin-top: -18px;
     }
     #csMsg .form-recap, #csPhone .form-recap{
       margin-left: -29px;
+    }
+    .sp-btn-hidden{
+      display: inline-block;
+      padding: 6px 130px;
+      padding-right: 150px;
+      margin-bottom: 10px;
     }
 }
 
