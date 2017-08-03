@@ -140,8 +140,8 @@
         margin-left: 0;
         margin-right: 0;
     }
-    footer .footer-icon .footer-img-m .col-xs-12{
-      width: 95%;
+    footer .footer-icon .footer-img-m .col-xs-12 img{
+      width: 50%;
       margin-left: 10px;
       margin-right: 10px;
       margin-bottom: 10px
