@@ -939,6 +939,16 @@
       display: block;
       margin-bottom: 0;
     }
+    .tdw-button{
+      display: block;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .tdw-button button{
+      display: block;
+      width: 100%;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3219,6 +3229,14 @@ margin-top: -18px;
       padding: 6px 130px;
       padding-right: 150px;
       margin-bottom: 10px;
+    }
+    .tdw-button{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .tdw-button button{
+      display: inline-block;
+      width: auto;
     }
 }
 

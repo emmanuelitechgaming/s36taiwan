@@ -1607,6 +1607,10 @@ p {
   background-size: contain;
 }
 
+.sp-btn-hidden:hover{
+  text-decoration: none
+}
+
 .btn-hidden-ph2p2, .btn-hidden-dh2p2{
   padding: 6px 25px;
   padding-right: 55px;
