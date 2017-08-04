@@ -717,11 +717,11 @@
         <div class="container">
           <div class="row r-ads">
             <div class="col-md-6 col-sm-12 r-ads-wrapper">
-              <img src="assets/img/abs2.png" class="img-responsive" alt="">
+              <img src="assets/img/abs2.png" alt="">
             </div>
 
             <div class="col-md-6 col-sm-12 r-ads-wrapper">
-              <img src="assets/img/abs1.png" class="img-responsive" alt="">
+              <img src="assets/img/abs1.png" alt="">
             </div>
           </div>
         </div>
@@ -887,7 +887,7 @@
                             <div class="gameprovider footer-services f-right">
                                 <ul class="columns">
                                     <li>
-                                        <div class="list"><a href="javascript:void(0)" data-toggle="modal" data-target="#noticeModal">笭猁鼠豢</a></div>
+                                        <div class="list"><a href="javascript:void(0)" data-toggle="modal" data-target="#noticeModal">重要公告</a></div>
                                     </li>
                                     <li>
                                         <div class="list"><a href="helpcenter.html#tab1">關於我們</a></div>
@@ -1177,7 +1177,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">通知</h4>
+                    <h4 class="modal-title">重要公告</h4>
                 </div>
                 <div class="modal-body">
                     <table class="table table-bordered">
@@ -1605,7 +1605,7 @@
             </div>
         </div>
     </div>
-
+<a href="javascript:void(0)" class="p-details rss-submit-verification hidden" onclick="_gaq.push(['_trackEvent', 'example, 'try', 'Success']);">訂閱</a>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -1644,6 +1644,18 @@
           confirmButtonClass: 'btn-warning btn-warning2 sweet-arrow arrow-right-btn',
           confirmButtonText: '關閉',
           imageUrl: 'assets/img/Check_Tao.png'
+      });
+  };
+  document.querySelector('.p-details').onclick = function() {
+      swal({
+          title: "請先 “我的帳戶” 完善個人信息 ",
+           type: "warning",
+          confirmButtonClass: 'btn-warning btn-warning2 sweet-arrow arrow-right-btn',
+          confirmButtonText: '關閉'
+      }, function(isConfirm) {
+        if(isConfirm) {
+          window.location = 'myaccount.html'
+        }
       });
   };
   document.querySelector('.sweet-13').onclick = function() {
@@ -1759,11 +1771,11 @@
           $('#withdraw_helptopay').on('change', function() {
             var val = $(this).val();
             if(val == 'withdraw'){
-              window.location = "payout-help2pay.html";
+                $( ".p-details" ).click();
             }else if (val == 'neteller') {
-              window.location = "payout-neteller.html";
+                $( ".p-details" ).click();
             }else if(val == 'skrill') {
-              window.location = "payout-skrill.html";
+              $( ".p-details" ).click();
             }
           });
         })

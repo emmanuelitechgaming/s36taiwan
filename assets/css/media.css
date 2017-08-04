@@ -2898,8 +2898,8 @@ margin-top: -18px;
         margin-top: 20%
     }
     .absolute-play {
-        left: 42%;
-        top: 25%;
+        left: 38%;
+        top: 20%;
     }
     .pc-ver-cas {
         left: 46%;
@@ -3419,6 +3419,10 @@ main .marquee {
 }
 .lg-playnow {
     font-size: 18px;
+}
+.absolute-play {
+    left: 42%;
+    top: 25%;
 }
 }
 
