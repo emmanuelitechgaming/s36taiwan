@@ -4512,7 +4512,7 @@ left: 47%;
     font-weight: 700;
 }
 
-.language-picker .language span {
+.language-picker .language span a {
     font-size: 12px;
     font-weight: 400;
     color: #fff
