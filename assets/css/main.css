@@ -4484,7 +4484,7 @@ left: 47%;
     padding: 6px 4px 5.5px;
     cursor: pointer;
     min-width: 230px;
-    width: 240px;
+    width: 285px;
     background: #1B1B1B;
     display: block;
     position: relative;
@@ -7572,4 +7572,10 @@ margin-right: 23px;
 .username-availability div{
   display: inline-block;
   margin-left: 10px
+}
+#myModalTab1-2 .fa-pencil{
+  color: #fba601;
+  position: relative;
+  top: 9px;
+  left: -10px
 }
