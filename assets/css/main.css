@@ -7550,3 +7550,9 @@ margin-right: 23px;
   background: url('../img/winner/gender-female2.png') no-repeat;
   background-size: contain;
 }
+#myModalTab1-2 .checkbox{
+  padding-left: 20px;
+}
+.cta-casino .casino-g-img{
+  border: solid 1px #3b3b3b
+}

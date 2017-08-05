@@ -378,9 +378,9 @@ $(document).ready(function () {
     });
 
     $('.casino-g-img').hover(function() {
-      $(this).closest('.casino-g').find('.absolute-play a img').attr('src', 'assets/img/casino/baccarat/play-btn-hover.png');
+      $(this).closest('.casino-g').find('.absolute-play-slots a img').attr('src', 'assets/img/casino/baccarat/play-btn-hover.png');
     }, function() {
-      $(this).closest('.casino-g').find('.absolute-play a img').attr('src', 'assets/img/casino/baccarat/play-icon.png');
+      $(this).closest('.casino-g').find('.absolute-play-slots a img').attr('src', 'assets/img/casino/baccarat/play-icon.png');
     })
 
     $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function () {

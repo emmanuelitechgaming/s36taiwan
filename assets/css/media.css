@@ -949,6 +949,21 @@
       display: block;
       width: 100%;
     }
+    .themorebaccarat{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .thebaccarat{
+      padding-right: 0;
+      padding-left: 0
+    }
+    .slots-tab-a li a{
+      padding: 5px 20px !important;
+    }
+    #myModalTab1-2 .form-recap{
+      position: relative;
+      left: 0;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1393,6 +1408,9 @@
     .tdw-slots .col-md-3 {
         margin-left: 45px;
         margin-right: 45px
+    }
+    #myModalTab1-2 .form-recap{
+      left: -23px;
     }
 }
 
@@ -2895,7 +2913,7 @@ margin-top: -18px;
       letter-spacing: -0.5px;
     }
     #myModalTab1-2 .form-captcha {
-        margin-top: 20%
+        margin-top: 0
     }
     .absolute-play {
         left: 38%;
@@ -3238,6 +3256,20 @@ margin-top: -18px;
       display: inline-block;
       width: auto;
     }
+    .casino-g-img{
+      height: 186px;
+    }
+    .themorebaccarat{
+      padding-left: 0;
+      padding-right: 15px;
+    }
+    .thebaccarat{
+      padding-right: 0;
+      padding-left: 15px
+    }
+    #myModalTab1-2 .form-recap{
+      left: -13px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -3423,6 +3455,11 @@ main .marquee {
 .absolute-play {
     left: 42%;
     top: 25%;
+}
+.cta-casino .absolute-play{
+  left: auto;
+  right: 14%;
+  top: 22%
 }
 }
 
