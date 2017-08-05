@@ -7579,3 +7579,26 @@ margin-right: 23px;
   top: 9px;
   left: -10px
 }
+.slots-swiper-container{
+  border-bottom: solid 1px #fba601;
+  padding-bottom: 10px;
+}
+.slots-swiper-container .swiper-slide a{
+  background: #2a2a2a;
+  color: #fff
+}
+.slots-swiper-container .swiper-wrapper div:first-child{
+  border-left: none
+}
+.slots-swiper-container .swiper-slide{
+  width: auto !important;
+  margin-right: 10px !important;
+}
+.slots-swiper-container .swiper-slide a.active{
+  color: #000;
+  background: #fba601;
+  text-shadow: none;
+}
+.slots-swiper-container .swiper-slide a:active, .slots-swiper-container .swiper-slide a:focus, .slots-swiper-container .swiper-slide a:hover{
+  text-decoration: none
+}

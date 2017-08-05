@@ -1,11 +1,5 @@
 $(document).ready(function () {
 
-  // window.setInterval(function() {
-  //   if($(window).width() == '1024'){
-  //     location.reload(true);
-  //   }
-  // }, 500)
-
   $('#country-sel').flagStrap({
     countries: {
       "CN": "中國",
@@ -624,6 +618,16 @@ $(document).ready(function () {
     }, function() {
       $(this).css('color', 'rgba(26, 26, 26, 0.7)');
       $(this).removeClass('btn-hidden-hover');
+    });
+
+    $('a[href="#slot-tab1"]').on('shown.bs.tab', function () {
+      $('.slots-swiper-container .swiper-slide a').removeClass('active');
+      $('.slots-swiper-container .swiper-slide a[href="#slot-tab1"]').addClass('active');
+    });
+
+    $('a[href="#slot-tab2"]').on('shown.bs.tab', function () {
+      $('.slots-swiper-container .swiper-slide a').removeClass('active');
+      $('.slots-swiper-container .swiper-slide a[href="#slot-tab2"]').addClass('active');
     })
 });
 
