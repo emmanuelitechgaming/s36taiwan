@@ -1,69 +1,69 @@
 $(document).ready(function(){
 	var obj = [
 		{
-	    "country_name": "中國",
-	    "languages": [
-	      "简体"
-				
-	    ],
-	    "flag" : "flag-icon-cn"
-	  },
-		{
-			"country_name": "台灣",
-			"languages": [
-				"繁体"
+			'country_name': '中国',
+			'languages': [
+				'簡体中文'
 			],
-			"flag": "flag-icon-tw"
+			'flag': 'flag-icon-cn'
 		},
 		{
-			"country_name": "越南",
-			"languages": [
-				"VND"
+			'country_name': '台灣',
+			'languages': [
+				'繁體中文'
 			],
-			"flag": "flag-icon-vn"
+			'flag': 'flag-icon-tw'
 		},
 		{
-	    "country_name": "印尼",
-	    "languages": [
-	      "IDR"
-	    ],
-	    "flag" : "flag-icon-id"
-	  },
-		{
-			"country_name": "馬來西亞",
-			"languages": [
-				"MYR"
+			'country_name': '日本国',
+			'languages': [
+				'日本語'
 			],
-			"flag": "flag-icon-my"
+			'flag': 'flag-icon-jp'
 		},
 		{
-			"country_name": "泰國",
-			"languages": [
-				"THP"
+			'country_name': 'UK',
+			'languages': [
+				'English'
 			],
-			"flag": "flag-icon-th"
+			'flag': 'flag-icon-um'
 		},
 		{
-	    "country_name": "日本",
-	    "languages": [
-	      "JPY"
-	    ],
-	    "flag" : "flag-icon-jp"
-	  },
-	  {
-	    "country_name": "印度",
-	    "languages": [
-	      "INR"
-	    ],
-	    "flag" : "flag-icon-in"
-	  },
+			'country_name': 'Vietnam',
+			'languages': [
+				'Tiếng Việt'
+			],
+			'flag': 'flag-icon-vn'
+		},
 		{
-	    "country_name": "美國",
-	    "languages": [
-	      "EN"
-	    ],
-	    "flag" : "flag-icon-um"
-	  },
+			'country_name': 'Indonesia',
+			'languages': [
+				'Bahasa'
+			],
+			'flag': 'flag-icon-id'
+		},
+		{
+			'country_name': 'Malaysia',
+			'languages': [
+				'English',
+				'中文'
+			],
+			'flag': 'flag-icon-my'
+		},
+		{
+			'country_name': 'ไทย',
+			'languages': [
+				'ภาษาไทย'
+			],
+			'flag': 'flag-icon-th'
+		},
+		{
+			'country_name': 'India',
+			'languages': [
+				'हिन्दी'
+			],
+			'flag': 'flag-icon-in'
+		}
 	];
 
 	$(obj).each(function(k,v){
