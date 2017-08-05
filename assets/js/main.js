@@ -622,12 +622,16 @@ $(document).ready(function () {
 
     $('a[href="#slot-tab1"]').on('shown.bs.tab', function () {
       $('.slots-swiper-container .swiper-slide a').removeClass('active');
-      $('.slots-swiper-container .swiper-slide a[href="#slot-tab1"]').addClass('active');
+      // $('.slots-breadcrumb-inner ul li').hasClass('active').removeClass('active');
+      // $('.slots-breadcrumb-inner ul li a[href="#slot-tab1"]').closest('li').addClass('active');
+      $(this).addClass('active');
     });
 
     $('a[href="#slot-tab2"]').on('shown.bs.tab', function () {
       $('.slots-swiper-container .swiper-slide a').removeClass('active');
-      $('.slots-swiper-container .swiper-slide a[href="#slot-tab2"]').addClass('active');
+      // $('.slots-breadcrumb-inner ul li').hasClass('active').removeClass('active');
+      // $('.slots-breadcrumb-inner ul li a[href="#slot-tab1"]').closest('li').addClass('active');
+      $(this).addClass('active');
     })
 });
 

@@ -5,42 +5,48 @@ $(document).ready(function(){
 			'languages': [
 				'簡体中文'
 			],
-			'flag': 'flag-icon-cn'
+			'flag': 'flag-icon-cn',
+			'link': '#'
 		},
 		{
 			'country_name': '台灣',
 			'languages': [
 				'繁體中文'
 			],
-			'flag': 'flag-icon-tw'
+			'flag': 'flag-icon-tw',
+			'link': '#'
 		},
 		{
 			'country_name': '日本国',
 			'languages': [
 				'日本語'
 			],
-			'flag': 'flag-icon-jp'
+			'flag': 'flag-icon-jp',
+			'link': '#'
 		},
 		{
 			'country_name': 'UK',
 			'languages': [
 				'English'
 			],
-			'flag': 'flag-icon-um'
+			'flag': 'flag-icon-um',
+			'link': '#'
 		},
 		{
 			'country_name': 'Vietnam',
 			'languages': [
 				'Tiếng Việt'
 			],
-			'flag': 'flag-icon-vn'
+			'flag': 'flag-icon-vn',
+			'link': '#'
 		},
 		{
 			'country_name': 'Indonesia',
 			'languages': [
 				'Bahasa'
 			],
-			'flag': 'flag-icon-id'
+			'flag': 'flag-icon-id',
+			'link': '#'
 		},
 		{
 			'country_name': 'Malaysia',
@@ -48,21 +54,24 @@ $(document).ready(function(){
 				'English',
 				'中文'
 			],
-			'flag': 'flag-icon-my'
+			'flag': 'flag-icon-my',
+			'link': '#'
 		},
 		{
 			'country_name': 'ไทย',
 			'languages': [
 				'ภาษาไทย'
 			],
-			'flag': 'flag-icon-th'
+			'flag': 'flag-icon-th',
+			'link': '#'
 		},
 		{
 			'country_name': 'India',
 			'languages': [
 				'हिन्दी'
 			],
-			'flag': 'flag-icon-in'
+			'flag': 'flag-icon-in',
+			'link': '#'
 		}
 	];
 
@@ -77,7 +86,8 @@ $(document).ready(function(){
 	$('#drop .grey').each(function(){
 		var divNum = $(this).attr('data-value');
 		$(obj[divNum].languages).each(function(k,v){
-			$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'> "+ v +"</span>");
+			console.log(obj[divNum].link);
+			$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'><a href='"+ obj[divNum].link +"'> "+ v +"</a></span>");
 		})
 	});
 
@@ -95,7 +105,7 @@ $(document).ready(function(){
 	// 	$(this).css('color','#fff');
 	// });
 
-	$('.language-span, .cntry').hover(function() {
+	$('.language-span a, .cntry').hover(function() {
 		$(this).css('color','#fba601');
 	}, function() {
 		$(this).css('color','#fff');
