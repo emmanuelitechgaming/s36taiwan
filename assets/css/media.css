@@ -964,6 +964,15 @@
       position: relative;
       left: 0;
     }
+    .absolute-play-casino{
+      width: 60px;
+      height: 60px;
+    }
+    .cta-casino .absolute-play{
+      left: auto;
+      right: 14%;
+      top: 19%
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1154,6 +1163,9 @@
     .notice-dialog .modal-title{
       margin-left: 20%;
       margin-right: 20%;
+    }
+    .cta-casino .absolute-play{
+      top: 21%
     }
 }
 
@@ -1412,6 +1424,13 @@
     #myModalTab1-2 .form-recap{
       left: -23px;
     }
+    .absolute-play-casino{
+      width: 70px;
+      height: 70px;
+    }
+    .cta-casino .absolute-play{
+      top: 20%
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1594,6 +1613,9 @@
     .notice-dialog .modal-title{
       margin-left: 25%;
       margin-right: 25%;
+    }
+    .cta-casino .absolute-play{
+      top: 22%
     }
 }
 
@@ -2059,6 +2081,9 @@
       margin-left: 30%;
       margin-right: 30%;
     }
+    .cta-casino .absolute-play{
+      right: 24%
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -2142,6 +2167,9 @@
     }
     .promo-heart {
         right: 93px;
+    }
+    .cta-casino .absolute-play{
+      right: 27%
     }
 }
 
@@ -2303,6 +2331,9 @@
     .promo-heart {
         right: 138px;
     }
+    .cta-casino .absolute-play {
+      right: 30%;
+    }
 }
 
 @media only screen and (min-width: 736px) {
@@ -2399,6 +2430,9 @@
     .contactus ul li {
       padding: 7.8px 0;
       font-size: 15px;
+  }
+  .cta-casino .absolute-play{
+    right: 30%
   }
 }
 
@@ -3460,6 +3494,13 @@ main .marquee {
   left: auto;
   right: 14%;
   top: 22%
+}
+.cta-casino .absolute-play.pc-ver-cas{
+  right: 18%;
+}
+.absolute-play-casino{
+  width: auto;
+  height: auto;
 }
 }
 

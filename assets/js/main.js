@@ -377,10 +377,12 @@ $(document).ready(function () {
       $(this).attr('src', 'assets/img/casino/baccarat/play-icon.png');
     });
 
-    $('.casino-g-img').hover(function() {
+    $('.casino-g-img, .absolute-play-casino a img').hover(function() {
       $(this).closest('.casino-g').find('.absolute-play-slots a img').attr('src', 'assets/img/casino/baccarat/play-btn-hover.png');
+      $(this).closest('.casino-g').find('.absolute-play-casino a img').attr('src', 'assets/img/casino/play-button-hover.png');
     }, function() {
       $(this).closest('.casino-g').find('.absolute-play-slots a img').attr('src', 'assets/img/casino/baccarat/play-icon.png');
+      $(this).closest('.casino-g').find('.absolute-play-casino a img').attr('src', 'assets/img/casino/play-button.png');
     })
 
     $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function () {
