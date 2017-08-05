@@ -7556,3 +7556,20 @@ margin-right: 23px;
 .cta-casino .casino-g-img{
   border: solid 1px #3b3b3b
 }
+.username-availability{
+  font-size: 12px;
+  color: #fba601;
+  position: relative;
+  top: 5px;
+}
+.username-availability button{
+  background: url('../img/yellow-btn.png');
+  color: #000;
+  border: none;
+  border-radius: 3px;
+  padding: 4px 8px
+}
+.username-availability div{
+  display: inline-block;
+  margin-left: 10px
+}

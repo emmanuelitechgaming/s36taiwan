@@ -973,6 +973,9 @@
       right: 14%;
       top: 19%
     }
+    .username-availability{
+      margin-top: 10px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2332,7 +2335,7 @@
         right: 138px;
     }
     .cta-casino .absolute-play {
-      right: 30%;
+       right: 30%;
     }
 }
 
@@ -3303,6 +3306,9 @@ margin-top: -18px;
     }
     #myModalTab1-2 .form-recap{
       left: -13px;
+    }
+    .username-availability{
+      padding-left: 0;
     }
 }
 
