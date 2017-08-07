@@ -6,7 +6,7 @@ $(document).ready(function(){
 				'簡体中文'
 			],
 			'flag': 'flag-icon-cn',
-			'link': '#'
+			'link': 'cn/'
 		},
 		{
 			'country_name': '台灣',
@@ -108,7 +108,11 @@ $(document).ready(function(){
 
 	$.each($('.selectpicker2-menu ul li'), function(index, value) {
 		$.each(obj[index].languages, function(i, v) {
-			$('.selectpicker2-menu ul .li'+index+' .languages').append('<a href="#" class="language'+ i +'">'+ v +'</a>');
+			if(v == "English"){
+				$('.selectpicker2-menu ul .li'+index+' .languages').append('<a href="en/" class="language'+ i +'">'+ v +'</a>');
+			}else{
+				$('.selectpicker2-menu ul .li'+index+' .languages').append('<a href="#" class="language'+ i +'">'+ v +'</a>');
+			}
 		})
 	})
 
