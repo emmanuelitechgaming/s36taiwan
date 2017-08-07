@@ -6635,7 +6635,7 @@ div.acc-info.acc-edit div.acc-cont input {
     content: ' ';
     display: inline-block;
     position: relative;
-    background: url('../img/flags/china.png') no-repeat;
+    background: url('../img/flags/taiwan.png') no-repeat;
     background-size: cover;
 }
 
@@ -7618,4 +7618,7 @@ margin-right: 23px;
 }
 .slots-swiper-container .swiper-slide a:active, .slots-swiper-container .swiper-slide a:focus, .slots-swiper-container .swiper-slide a:hover{
   text-decoration: none
+}
+.modal-dialog.notice-dialog th{
+  text-align: center;
 }

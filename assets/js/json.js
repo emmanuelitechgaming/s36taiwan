@@ -51,8 +51,7 @@ $(document).ready(function(){
 		{
 			'country_name': 'Malaysia',
 			'languages': [
-				'Bahasa',
-				'Melayu',
+				'Bahasa Melayu',
 				'English',
 				'中文'
 			],
