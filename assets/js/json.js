@@ -109,7 +109,7 @@ $(document).ready(function(){
 		var language = $(this).attr('class');
 	})
 
-	$('.language-span a, .cntry').hover(function() {
+	$('.language-span a').hover(function() {
 		$(this).css('color','#fba601');
 	}, function() {
 		$(this).css('color','#fff');
