@@ -30,7 +30,7 @@ $(document).ready(function(){
 				'English'
 			],
 			'flag': 'flag-icon-um',
-			'link': '#'
+			'link': 'en/'
 		},
 		{
 			'country_name': 'Vietnam',
@@ -64,7 +64,7 @@ $(document).ready(function(){
 				'ภาษาไทย'
 			],
 			'flag': 'flag-icon-th',
-			'link': '#'
+			'link': 'th/'
 		},
 		{
 			'country_name': 'India',
@@ -87,7 +87,11 @@ $(document).ready(function(){
 	$('#drop .grey').each(function(){
 		var divNum = $(this).attr('data-value');
 		$(obj[divNum].languages).each(function(k,v){
-			$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'><a href='"+ obj[divNum].link +"'> "+ v +"</a></span>");
+			if(v == "English"){
+				$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'><a href='en/'>"+ v +"</a></span>");
+			}else{
+				$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'><a href='"+ obj[divNum].link +"'>"+ v +"</a></span>");
+			}
 		})
 	});
 
@@ -104,7 +108,7 @@ $(document).ready(function(){
 
 	$.each($('.selectpicker2-menu ul li'), function(index, value) {
 		$.each(obj[index].languages, function(i, v) {
-			$('.selectpicker2-menu ul .li'+index+' .languages').append('<a href="#">'+ v +'</a>');
+			$('.selectpicker2-menu ul .li'+index+' .languages').append('<a href="#" class="language'+ i +'">'+ v +'</a>');
 		})
 	})
 
