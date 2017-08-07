@@ -100,13 +100,13 @@ $(document).ready(function(){
 	});
 
 	$.each(obj, function(index, value) {
-		$('.selectpicker2-menu ul').append('<li class="'+ index +'"><div class="flag-icon '+ value.flag +'"></div><div class="country"><a href="#">'+ value.country_name +'</a></div><div class="languages"></div></li>')
-	})
-
-	console.log(obj[6].languages);
+		$('.selectpicker2-menu ul').append('<li class="li'+ index +'"><div class="flag-icon '+ value.flag +'"></div><div class="country"><a href="#">'+ value.country_name +'</a></div><div class="languages"></div></li>');
+	});
 
 	$.each($('.selectpicker2-menu ul li'), function(index, value) {
-		var language = $(this).attr('class');
+		$.each(obj[index].languages, function(i, v) {
+			$('.selectpicker2-menu ul .li'+index+' .languages').append('<a href="#">'+ v +'</a>');
+		})
 	})
 
 	$('.language-span a').hover(function() {
