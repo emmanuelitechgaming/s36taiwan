@@ -2776,26 +2776,37 @@ select + i.fa {
     border: 1px solid #4a4a4a
 }
 
-.selectpicker2-menu a {
-    display: block;
-    width: 100%;
-    text-decoration: none;
-    color: #333;
-    padding: 15px 0;
-    font-weight: 700;
-    padding-left: 15px;
-    border-bottom: 1px solid transparent;
-    color: #fff
+.selectpicker2-menu ul li{
+  display: block;
+  float: none;
+  padding: 15px 0
 }
 
-.selectpicker2-menu a:nth-child(even) {
-    background: #1b1b1b
+.selectpicker2-menu ul li:nth-child(even){
+  background: #1b1b1b
 }
 
+.selectpicker2-menu ul li div{
+  display: inline-block;
+}
 
-/*.selectpicker2-menu a:hover{
-  background: #333333
-}*/
+.selectpicker2-menu ul li .flag-icon{
+  margin-left: 10px
+}
+
+.selectpicker2-menu ul li .flag-icon::before{
+  bottom: 0
+}
+
+.selectpicker2-menu ul li a{
+  color: #fff;
+  margin: 0 10px;
+}
+
+.selectpicker2-menu ul li .country a{
+  font-weight: 700;
+  margin-left: 15px
+}
 
 .selectpicker2-sub {
     font-size: 13px;
@@ -3581,7 +3592,8 @@ footer .browsers li:first-child {
 .cntry {
     color: #fff;
     margin-left: 25px;
-    width: 107px;
+    display: inline-block;
+    min-width: 75px;
 }
 
 .lotto-tabs>li>a {
@@ -4442,6 +4454,11 @@ left: 47%;
     color: #FFFFFF;
 }
 
+.language-span{
+  display: inline-block;
+  min-width: 55px
+}
+
 .drop {
     display: none !important;
     margin: 0;
@@ -4484,7 +4501,7 @@ left: 47%;
     padding: 6px 4px 5.5px;
     cursor: pointer;
     min-width: 230px;
-    width: 430px;
+    width: 487px;
     background: #1B1B1B;
     display: block;
     position: relative;
