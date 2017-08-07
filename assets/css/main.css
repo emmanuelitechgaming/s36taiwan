@@ -3000,7 +3000,7 @@ span.round-tab i {
 }
 
 .cs-modal .close,
-#noticeModal .close {
+#noticeModal .close, #afterloginNoticeModal .close {
     opacity: 1;
     font-size: 40px;
     color: #fff;
@@ -3014,7 +3014,7 @@ span.round-tab i {
 }
 
 .cs-modal .close:hover,
-#noticeModal .close:hover {
+#noticeModal .close:hover, #afterloginNoticeModal .close:hover {
     opacity: 1
 }
 
@@ -3091,6 +3091,10 @@ span.round-tab i {
     line-height: 5px;
     color: rgba(26, 26, 26, 0.8);
     text-shadow: 1px 1px rgb(255, 214, 135)!important;
+}
+
+#csPhone .chatserver-form button{
+  text-shadow: none !important;
 }
 
 .cs-modal .chatserver-form span {
@@ -6329,10 +6333,15 @@ main .win-lot-top-games {
 #csMsg .close,
 #demoModal .close,
 #csPhone .close,
-#pay-statement .close {
+#pay-statement .close,
+#afterloginNoticeModal .close {
     position: absolute;
     top: 0;
     right: -10px;
+}
+
+#afterloginNoticeModal .close{
+  right: 10px;
 }
 
 .top-header-clock img {
