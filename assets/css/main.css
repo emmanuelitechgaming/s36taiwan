@@ -2222,15 +2222,11 @@ input[type=password]:hover {
 }
 
 .columns .list {
-    width: 70px;
+    width: 90px;
 }
 
 .columns .list a:hover {
     color: #fba601
-}
-
-.columns .list-s {
-    width: 87px;
 }
 
 .footer .sub {
