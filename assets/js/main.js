@@ -721,6 +721,9 @@ $(function() {
         e.preventDefault();
     });
 
+        // $('.dropdown=toggle').click(function() {
+        //   $('i', this).toggleClass('fa-caret-up fa-caret-down');
+        // });
     $('#mobile-button').click(function() {
       $('i', this).toggleClass('fa-caret-up fa-caret-down');
     });
