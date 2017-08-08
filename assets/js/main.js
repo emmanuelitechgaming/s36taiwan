@@ -656,6 +656,14 @@ $(document).ready(function () {
       // $('.slots-breadcrumb-inner ul li a[href="#slot-tab1"]').closest('li').addClass('active');
       $(this).addClass('active');
     })
+
+    $('#offer-dropdown').on('show.bs.dropdown', function () {
+      $(this).find('i').removeClass('fa-caret-down').addClass('fa-caret-up');
+    });
+
+    $('#offer-dropdown').on('hide.bs.dropdown', function () {
+      $(this).find('i').removeClass('fa-caret-up').addClass('fa-caret-down');
+    })
 });
 
 function nextTab(elem) {
