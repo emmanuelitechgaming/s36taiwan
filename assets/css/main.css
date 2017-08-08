@@ -147,9 +147,9 @@ header .navbar-cta-btn a {
     margin-top: -5px;
 }
 
-header .hamburger {
+/*header .hamburger {
     padding: 2px 10px!important;
-}
+}*/
 
 header .btn {
     margin: 0 5px;
@@ -247,8 +247,10 @@ main .s36border {
     transition-property: transform;
     transition-property: transform, -webkit-transform;
     border-radius: 4px;
-    background-color: #a7a7a7!important;
+    background-color: #ffffff!important;
 }
+
+
 
 .btn-default:hover,
 .btn-default:focus,
@@ -2294,9 +2296,9 @@ input[type=password]:hover {
     padding-top: 20px;
 }
 
-header .nathan-hamburger-hm-d {
+/*header .nathan-hamburger-hm-d {
     margin-right: 20px;
-}
+}*/
 
 .lang-c .col-xs-1 {
     width: 9.333%;
@@ -7626,4 +7628,30 @@ margin-right: 23px;
 }
 .modal-dialog.notice-dialog th{
   text-align: center;
+}
+.nav-slide{
+  position: absolute;
+  z-index: 98999;
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+}
+.nav-slide li{
+float: none;
+
+}
+.nav-slide .navbar-nav a,.nav-slide .navbar-nav a:hover,.nav-slide .navbar-nav a:focus{
+width: 100%;
+display: inline-block;
+font-size: 17px;
+float: left;
+border-bottom: 1px dotted #352a31;
+color: #908c8e;
+height: 50px;
+-webkit-transition-duration: .25s,.25s;
+-webkit-transition-timing-function: linear,linear;
+cursor: pointer;
+-webkit-transition-property: border-color,color;
+background-color: inherit;
+line-height: 38px;
+padding: 5px 39px !important;
 }
