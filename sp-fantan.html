@@ -575,35 +575,19 @@
               </ul>
 
               <div class="mnav mnav-top hidden-lg hidden-md">
-  <ul class="clearfix">
-    <li><a href="javascript:void(0)"><img src="assets/img/register_25-hover.png" alt=""></a></li>
-    <li><a href="javascript:void(0)"><img src="assets/img/lock_25-hover.png" alt=""></a></li>
-    <li><a href="#demoModal" data-toggle="modal"><img src="assets/img/spade_25-hover.png" alt=""></a></li>
-  </ul>
-</div>
-
-
-              <div class="mnav mnav-main hidden-lg hidden-md">
-                  <div class="swiper-container swiper-container-horizontal">
-                      <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
-                          <div class="swiper-slide swiper-slide-active"><a href="index.html" class="home"><img src="assets/img/s36tw-mobile-home-active_09.png" class="img-responsive" alt=""></a></div>
-                          <div class="swiper-slide swiper-slide-active"><a href="casino.html">真人娛樂場</a></div>
-                          <div class="swiper-slide swiper-slide-next"><a href="slots.html">老虎機</a></div>
-                          <div class="swiper-slide"><a href="lotto.html">捕魚</a></div>
-                          <div class="swiper-slide"><a href="promotion.html">優惠</a></div>
+                <ul class="clearfix">
+                  <li>
+                    <div class="hamburger hamburger--vortex  collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                      <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
                       </div>
-                  </div>
+                    </div>
+                  </li>
+                  <li><a href="javascript:void(0)"><img src="assets/img/register_25-hover.png" alt=""></a></li>
+                  <li><a href="javascript:void(0)"><img src="assets/img/lock_25-hover.png" alt=""></a></li>
+                  <li><a href="#demoModal" data-toggle="modal"><img src="assets/img/spade_25-hover.png" alt=""></a></li>
+                </ul>
               </div>
-
-              <!-- <div class="mnav mnav-bottom hidden-lg hidden-md">
-                  <div class="swiper-container">
-                      <div class="swiper-wrapper">
-                          <div class="swiper-slide"><a href="#gs-body" data-toggle="collapse" class="m-top-header-clock"><img src="assets/img/header/clock.png" alt=""><span></span></a></div>
-                          <div class="swiper-slide"><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" width="23px" alt="">&nbsp; 在線客服</a></div>
-                          <div class="swiper-slide"><a href="helpcenter.html"><img src="assets/img/hc.png" width="23px" alt="">&nbsp; 幫助中心</a></div>
-                      </div>
-                  </div>
-              </div> -->
 
               <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
                 <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" alt=""><span>網上短信</span></a></li>
@@ -614,17 +598,14 @@
           </div>
       </nav>
 
-      <div class="hidden-lg hidden-md">
-          <div id="menu" class="collapse">
-              <ul>
-                  <li><a href="javascript:void(0)">Button</a></li>
-                  <li><a href="javascript:void(0)">Button</a></li>
-                  <li><a href="javascript:void(0)">Button</a></li>
-                  <li><a href="javascript:void(0)">Button</a></li>
-                  <li><a href="javascript:void(0)">Button</a></li>
-                  <li><a href="javascript:void(0)">Button</a></li>
-              </ul>
-          </div>
+      <div class="collapse  nav-slide" id="navbar-collapse-1">
+        <ul class="nav navbar-nav hidden-md hidden-lg">
+          <li><a href="index.html">主頁</a></li>
+          <li><a href="casino.html">真人娛樂場</a></li>
+          <li><a href="slots.html">老虎機</a></li>
+          <li><a href="lotto.html">捕魚</a></li>
+          <li><a href="promotion.html">優惠</a></li>
+        </ul>
       </div>
 
   </header>
@@ -1877,23 +1858,6 @@
           });
       };
   </script>
-    <script>
-        var forEach = function(t, o, r) {
-            if ("[object Object]" === Object.prototype.toString.call(t))
-                for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
-            else
-                for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
-        };
-
-        var hamburgers = document.querySelectorAll(".hamburger");
-        if (hamburgers.length > 0) {
-            forEach(hamburgers, function(hamburger) {
-                hamburger.addEventListener("click", function() {
-                    this.classList.toggle("is-active");
-                }, false);
-            });
-        }
-    </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     <script>

@@ -427,17 +427,14 @@
             </div>
         </nav>
 
-        <div class="hidden-lg hidden-md">
-          <div id="menu" class="collapse">
-            <ul>
-              <li><a href="javascript:void(0)">Button</a></li>
-              <li><a href="javascript:void(0)">Button</a></li>
-              <li><a href="javascript:void(0)">Button</a></li>
-              <li><a href="javascript:void(0)">Button</a></li>
-              <li><a href="javascript:void(0)">Button</a></li>
-              <li><a href="javascript:void(0)">Button</a></li>
-            </ul>
-          </div>
+        <div class="collapse  nav-slide" id="navbar-collapse-1">
+          <ul class="nav navbar-nav hidden-md hidden-lg">
+            <li><a href="index.html">主頁</a></li>
+            <li><a href="casino.html">真人娛樂場</a></li>
+            <li><a href="slots.html">老虎機</a></li>
+            <li><a href="lotto.html">捕魚</a></li>
+            <li><a href="promotion.html">優惠</a></li>
+          </ul>
         </div>
 
 
@@ -1766,25 +1763,6 @@
           });
       };
   </script>
-
-
-    <script>
-        var forEach = function(t, o, r) {
-            if ("[object Object]" === Object.prototype.toString.call(t))
-                for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
-            else
-                for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
-        };
-
-        var hamburgers = document.querySelectorAll(".hamburger");
-        if (hamburgers.length > 0) {
-            forEach(hamburgers, function(hamburger) {
-                hamburger.addEventListener("click", function() {
-                    this.classList.toggle("is-active");
-                }, false);
-            });
-        }
-    </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
     <script>
