@@ -163,7 +163,7 @@
     .remo-navbar-header .caret {
         margin-right: 4px
     }
-    .hamburger--spin.is-active .hamburger-inner:after {
+    /*.hamburger--spin.is-active .hamburger-inner:after {
         bottom: auto !important;
     }
     .hamburger-inner:before {
@@ -171,7 +171,7 @@
     }
     .hamburger-inner:after {
         bottom: -9px !important;
-    }
+    }*/
     .nathan-logo a {
         background-size: 100% 45% !important
     }
