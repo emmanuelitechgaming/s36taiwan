@@ -20,30 +20,32 @@ $(document).ready(function () {
         }, false);
       });
     }
-    
+
   $('#country-sel').flagStrap({
     countries: {
-      "CN": "中國",
+      "CN": "中国",
       "TW": "台灣",
-      "VN": "越南",
-      "ID": "印尼",
-      "MY": "馬來西亞",
-      "TH": "泰國",
-      "JP": "日本",
-      "IN": "印度",
+      "JP": "日本国",
+      "UM": "UK",
+      "VN": "Vietnam",
+      "ID": "Indonesia",
+      "MY": "Malaysia",
+      "TH": "ไทย",
+      "IN": "India",
       }
   });
 
   $('#csCallselectflag').flagStrap({
     countries: {
-      "CN": "中國",
+      "CN": "中国",
       "TW": "台灣",
-      "VN": "越南",
-      "ID": "印尼",
-      "MY": "馬來西亞",
-      "TH": "泰國",
-      "JP": "日本",
-      "IN": "印度",
+      "JP": "日本国",
+      "UM": "UK",
+      "VN": "Vietnam",
+      "ID": "Indonesia",
+      "MY": "Malaysia",
+      "TH": "ไทย",
+      "IN": "India",
       }
   });
 

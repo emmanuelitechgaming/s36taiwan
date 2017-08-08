@@ -247,7 +247,7 @@ main .s36border {
     transition-property: transform;
     transition-property: transform, -webkit-transform;
     border-radius: 4px;
-    background-color: #ffffff!important;
+    background-color: #fbfbfb!important;
 }
 
 
@@ -6844,6 +6844,9 @@ div.acc-info.acc-edit div.acc-cont input {
 .flagstrap-jp {
     background: url('../img/flags/japan.png');
 }
+.flagstrap-um {
+    background: url('../img/flags/uk.png');
+}
 
 .flagstrap-in {
     background: url('../img/flags/india.png');
@@ -6855,6 +6858,7 @@ div.acc-info.acc-edit div.acc-cont input {
 .flagstrap-id,
 .flagstrap-my,
 .flagstrap-th,
+.flagstrap-um,
 .flagstrap-jp,
 .flagstrap-in {
     background-position: -208px -16px !important;
