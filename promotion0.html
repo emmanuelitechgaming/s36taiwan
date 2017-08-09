@@ -2227,7 +2227,7 @@
                                     <div role="tabpanel" class="tab-pane fade" id="myModalTab1-2">
                                         <p class="login-info login-info-reg hidden-sm hidden-xs"><span>賬戶註冊<i class="login-info-span">免費、簡單、快速</i></span></p>
                                         <p class="login-info-mobile hidden-lg hidden-md"><span>賬戶註冊 <i class="">免費、簡單、快速</span></i></p>
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <form role="form" class="form-horizontal">
                                                 <div class="form-group">
                                                     <label for="password" class="col-sm-4 control-label"></label>
@@ -2236,61 +2236,75 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="password" class="col-sm-4 control-label">輸入所在地 *</label>
-                                                    <div class="col-sm-8">
+                                                    <label for="password" class="col-sm-2 control-label">輸入所在地 *</label>
+                                                    <div class="col-sm-5">
                                                         <div class="input-border">
                                                             <div id="country-sel" data-input-name="country"></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="email" class="col-sm-4 control-label">电子邮件 *</label>
-                                                    <div class="col-sm-8">
+                                                    <label for="email" class="col-sm-2 control-label">电子邮件 *</label>
+                                                    <div class="col-sm-5 col-xs-10">
                                                         <div class="input-border">
                                                             <input type="email" class="form-control" />
                                                         </div>
                                                     </div>
+                                                    <div class="col-sm-1 col-xs-2">
+                                                        <a href="#"><i class="fa fa-pencil"></i></a>
+                                                    </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="email" class="col-sm-4 control-label">建立帳號 *</label>
-                                                    <div class="col-sm-8">
+                                                    <label for="email" class="col-sm-2 control-label">建立帳號 *</label>
+                                                    <div class="col-sm-5">
                                                         <div class="input-border">
                                                             <input type="email" class="form-control" id="email" value="cs"/>
                                                         </div>
                                                     </div>
+                                                    <div class="col-sm-4 username-availability">
+                                                        <button>檢查是否可用</button>
+                                                        <div type="button">最少需要 6 個字符</div>
+                                                    </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="mobile" class="col-sm-4 control-label">建立密碼 *</label>
-                                                    <div class="col-sm-8">
+                                                    <label for="mobile" class="col-sm-2 control-label">建立密碼 *</label>
+                                                    <div class="col-sm-5 col-xs-10">
                                                         <div class="input-border">
                                                             <input type="password" class="form-control" id="mobile" />
                                                         </div>
                                                     </div>
+                                                    <div class="col-sm-1 col-xs-2 ">
+                                                        <a href="#"><i class="fa fa-pencil"></i></a>
+                                                    </div>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="password" class="col-sm-4 control-label">確認密碼 *</label>
-                                                    <div class="col-sm-8">
+                                                    <label for="password" class="col-sm-2 control-label">確認密碼 *</label>
+                                                    <div class="col-sm-5">
                                                         <div class="input-border">
                                                             <input type="password" class="form-control" id="password" />
                                                         </div>
                                                     </div>
                                                 </div>
-
-                                            </form>
-
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group form-inline form-captcha form-recap">
-                                                <div class="g-recaptcha  recaptScale" id="recaptcha2"></div>
-                                            </div>
-                                            <div class="form-group form-checkbox">
-                                                <div class="checkbox checkbox-warning">
-                                                    <input id="checkbox5" type="checkbox" checked="">
-                                                    <label for="checkbox5">
-                                                        我同意<span> “條款及細則” </span>並確認我已滿18歲
-                                                    </label>
+                                                <div class="form-group">
+                                                    <label for="password" class="col-sm-2 control-label"></label>
+                                                    <div class="col-sm-9">
+                                                      <div class="form-captcha form-recap">
+                                                          <div class="g-recaptcha  recaptScale" id="recaptcha2"></div>
+                                                      </div>
+                                                    </div>
                                                 </div>
-                                            </div>
+                                                <div class="form-group">
+                                                    <label for="password" class="col-sm-2 control-label"></label>
+                                                    <div class="col-sm-9">
+                                                      <div class="checkbox checkbox-warning">
+                                                          <input id="checkbox5" type="checkbox" checked="">
+                                                          <label for="checkbox5">
+                                                              我同意<span> “條款及細則” </span>並確認我已滿18歲
+                                                          </label>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </form>
 
                                         </div>
                                     </div>
