@@ -163,7 +163,7 @@
     .remo-navbar-header .caret {
         margin-right: 4px
     }
-    .hamburger--spin.is-active .hamburger-inner:after {
+    /*.hamburger--spin.is-active .hamburger-inner:after {
         bottom: auto !important;
     }
     .hamburger-inner:before {
@@ -171,13 +171,13 @@
     }
     .hamburger-inner:after {
         bottom: -9px !important;
-    }
+    }*/
     .nathan-logo a {
         background-size: 100% 45% !important
     }
     .nav.navbar-nav {
         margin-left: -20px;
-        margin-right: -15PX;
+        /*margin-right: -15PX;*/
     }
     footer .footer-line {
         border-left: none;
@@ -635,7 +635,7 @@
         word-spacing: 4px
     }
     .mnav-main .swiper-slide a {
-        padding: 5px 14.5px;
+        padding: 5px 18px;
     }
     .m-fsalon ul li:nth-child(2) {
         left: -4px
@@ -918,7 +918,7 @@
         padding: 0 10px
     }
     .mnav-afterlogin .notif {
-        right: 35px
+        right: 28px
     }
     .gp-live{
       top: 2px
@@ -934,6 +934,53 @@
     }
     #csMsg .form-recap, #csPhone .form-recap{
       margin-left: -15px;
+    }
+    .sp-btn-hidden{
+      display: block;
+      margin-bottom: 0;
+    }
+    .tdw-button{
+      display: block;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .tdw-button button{
+      display: block;
+      width: 100%;
+    }
+    .themorebaccarat{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .thebaccarat{
+      padding-right: 0;
+      padding-left: 0
+    }
+    .slots-tab-a li a{
+      padding: 5px 20px !important;
+    }
+    #myModalTab1-2 .form-recap{
+      position: relative;
+      left: 0;
+    }
+    .absolute-play-casino{
+      width: 60px;
+      height: 60px;
+    }
+    .cta-casino .absolute-play{
+      left: auto;
+      right: 14%;
+      top: 19%
+    }
+    .username-availability{
+      margin-top: 10px
+    }
+    .selectpicker2-menu ul li .country a{
+      font-size: 13px;
+    }
+    .selectpicker2-menu .languages a{
+      font-size: 10px;
     }
 }
 
@@ -1029,7 +1076,7 @@
         font-size: 17px;
     }
     .mnav-main .swiper-slide a {
-        padding: 5px 19.5px;
+        padding: 5px 23px;
     }
     .m-fsalon ul li:nth-child(2) {
         left: -9px
@@ -1120,11 +1167,21 @@
         width: 295px !important;
     }
     .mnav-afterlogin .notif {
-        right: 40px
+        right: 32px
     }
     .notice-dialog .modal-title{
       margin-left: 20%;
       margin-right: 20%;
+    }
+    .cta-casino .absolute-play{
+      top: 21%
+    }
+    .selectpicker2-menu ul li .country a{
+      font-size: 14px;
+    }
+    .selectpicker2-menu .languages a{
+      font-size: 11px;
+      margin: 0 12px
     }
 }
 
@@ -1297,7 +1354,7 @@
         font-size: 18px;
     }
     .mnav-main .swiper-slide a {
-        padding: 5px 21.5px;
+        padding: 5px 25px;
     }
     .m-fsalon ul li:nth-child(2) {
         left: -10px
@@ -1380,6 +1437,24 @@
         margin-left: 45px;
         margin-right: 45px
     }
+    #myModalTab1-2 .form-recap{
+      left: -23px;
+    }
+    .absolute-play-casino{
+      width: 70px;
+      height: 70px;
+    }
+    .cta-casino .absolute-play{
+      top: 20%
+    }
+    .selectpicker2-menu ul li .country a{
+      font-size: 15px;
+      margin-left: 30px
+    }
+    .selectpicker2-menu .languages a{
+      font-size: 13px;
+      margin: 0 10px
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1437,7 +1512,7 @@
         word-spacing: 7px
     }
     .mnav-main .swiper-slide a {
-        padding: 5px 26px;
+        padding: 5px 29px;
     }
     .absolute-play {
         left: 41%;
@@ -1553,7 +1628,7 @@
         margin-right: 65px
     }
     .mnav-afterlogin .notif {
-        right: 47px
+        right: 38px
     }
     .gp-star {
       position: relative;
@@ -1562,6 +1637,13 @@
     .notice-dialog .modal-title{
       margin-left: 25%;
       margin-right: 25%;
+    }
+    .cta-casino .absolute-play{
+      top: 22%
+    }
+    .selectpicker2-menu .languages a{
+      font-size: 13px;
+      margin: 0 13px
     }
 }
 
@@ -2027,6 +2109,9 @@
       margin-left: 30%;
       margin-right: 30%;
     }
+    .cta-casino .absolute-play{
+      right: 24%
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -2110,6 +2195,9 @@
     }
     .promo-heart {
         right: 93px;
+    }
+    .cta-casino .absolute-play{
+      right: 27%
     }
 }
 
@@ -2271,6 +2359,9 @@
     .promo-heart {
         right: 138px;
     }
+    .cta-casino .absolute-play {
+       right: 30%;
+    }
 }
 
 @media only screen and (min-width: 736px) {
@@ -2367,6 +2458,9 @@
     .contactus ul li {
       padding: 7.8px 0;
       font-size: 15px;
+  }
+  .cta-casino .absolute-play{
+    right: 30%
   }
 }
 
@@ -2881,11 +2975,11 @@ margin-top: -18px;
       letter-spacing: -0.5px;
     }
     #myModalTab1-2 .form-captcha {
-        margin-top: 20%
+        margin-top: 0
     }
     .absolute-play {
-        left: 42%;
-        top: 25%;
+        left: 38%;
+        top: 20%;
     }
     .pc-ver-cas {
         left: 46%;
@@ -3143,7 +3237,7 @@ margin-top: -18px;
         margin: 0px 10px 10px 9px;
     }
     #myModal #country-sel button {
-        background-position: 163px -6px;
+        background-position: 215px -6px;
     }
     .promo-heart {
         right: 8px;
@@ -3209,6 +3303,40 @@ margin-top: -18px;
     }
     #csMsg .form-recap, #csPhone .form-recap{
       margin-left: -29px;
+    }
+    .sp-btn-hidden{
+      display: inline-block;
+      padding: 6px 130px;
+      padding-right: 150px;
+      margin-bottom: 10px;
+    }
+    .tdw-button{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .tdw-button button{
+      display: inline-block;
+      width: auto;
+    }
+    .casino-g-img{
+      height: 186px;
+    }
+    .themorebaccarat{
+      padding-left: 0;
+      padding-right: 15px;
+    }
+    .thebaccarat{
+      padding-right: 0;
+      padding-left: 15px
+    }
+    #myModalTab1-2 .form-recap{
+      left: -13px;
+    }
+    .username-availability{
+      padding-left: 0;
+    }
+    .username-availability{
+      margin-top: 0
     }
 }
 
@@ -3391,6 +3519,22 @@ main .marquee {
 }
 .lg-playnow {
     font-size: 18px;
+}
+.absolute-play {
+    left: 42%;
+    top: 25%;
+}
+.cta-casino .absolute-play{
+  left: auto;
+  right: 14%;
+  top: 22%
+}
+.cta-casino .absolute-play.pc-ver-cas{
+  right: 18%;
+}
+.absolute-play-casino{
+  width: auto;
+  height: auto;
 }
 }
 
