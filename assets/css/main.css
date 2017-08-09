@@ -7675,3 +7675,45 @@ margin-right: 23px;
 .nav-slide-inner li a{
   margin-left: 15px;
 }
+.promotion-form  select.form-control  , input.form-control{
+  background: #333333!important;
+  border: 2px solid #333333!important;
+  border-bottom-width: 2px!important;
+  border-bottom-style: solid!important;
+  border-bottom-color: rgb(51, 51, 51)!important;
+  border-bottom-width: 2px!important;
+  border-bottom-style: solid!important;
+  border-bottom-color: rgb(51, 51, 51)!important;
+  border-bottom-width: 2px!important;
+  border-bottom-style: solid!important;
+  border-bottom-color: black!important;
+  border-radius: 3px!important;
+  outline: none!important;
+  color: #A4A4A4!important;
+  border-bottom: none!important;
+}
+
+.promotion-form .offer-dropdown button{
+  display: block;
+  width: 100%;
+  padding: 7px 15px;
+  background: #333;
+  border: none;
+  border-radius: 3px;
+  color: #a4a4a4;
+  text-align: left;
+  outline: 0;
+}
+.promotion-form .offer-dropdown .dropdown-menu{
+  background: #333;
+  width: 100%;
+  max-height: 350px;
+  overflow-y: auto;
+}
+.promotion-form .offer-dropdown .dropdown-menu a{
+  color: #a4a4a4
+}
+.promotion-form .offer-dropdown .fa{
+  position: relative;
+  top: 3px
+}

@@ -645,15 +645,11 @@ $(document).ready(function () {
 
     $('a[href="#slot-tab1"]').on('shown.bs.tab', function () {
       $('.slots-swiper-container .swiper-slide a').removeClass('active');
-      // $('.slots-breadcrumb-inner ul li').hasClass('active').removeClass('active');
-      // $('.slots-breadcrumb-inner ul li a[href="#slot-tab1"]').closest('li').addClass('active');
       $(this).addClass('active');
     });
 
     $('a[href="#slot-tab2"]').on('shown.bs.tab', function () {
       $('.slots-swiper-container .swiper-slide a').removeClass('active');
-      // $('.slots-breadcrumb-inner ul li').hasClass('active').removeClass('active');
-      // $('.slots-breadcrumb-inner ul li a[href="#slot-tab1"]').closest('li').addClass('active');
       $(this).addClass('active');
     })
 
@@ -663,6 +659,10 @@ $(document).ready(function () {
 
     $('#offer-dropdown').on('hide.bs.dropdown', function () {
       $(this).find('i').removeClass('fa-caret-up').addClass('fa-caret-down');
+    });
+
+    $('.promotion-form .dropdown-menu li a').click(function() {
+      $('.promotion-form .dropdown button span').html($(this).html());
     })
 });
 
