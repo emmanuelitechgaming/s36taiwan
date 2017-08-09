@@ -53,7 +53,7 @@ $(document).ready(function(){
 			'languages': [
 				'Bahasa Melayu',
 				'English',
-				'中文'
+				'繁體中文'
 			],
 			'flag': 'flag-icon-my',
 			'link': '#'

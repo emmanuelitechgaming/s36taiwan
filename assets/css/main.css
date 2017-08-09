@@ -7659,9 +7659,8 @@ margin-right: 23px;
 
 .nav-slide .navbar-nav a,.nav-slide .navbar-nav a:hover,.nav-slide .navbar-nav a:focus{
   width: 100%;
-  display: inline-block;
+  display: block;
   font-size: 17px;
-  float: left;
   border-bottom: 1px dotted #352a31;
   color: #908c8e;
   height: 50px;
@@ -7700,7 +7699,7 @@ margin-right: 23px;
   padding: 7px 15px;
   background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
   background-size: contain;
-  background-position-x: 100%; 
+  background-position-x: 100%;
   border: none;
   border-radius: 3px;
   color: #a4a4a4;
