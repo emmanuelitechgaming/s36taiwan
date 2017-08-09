@@ -85,6 +85,8 @@ $(document).ready(function () {
      if(hash == '#slot-tab2'){
        $('a[href="#slot-tab2"]').tab('show');
      }
+
+     $('a[href="'+hash+'"]').tab('show');
    }
    $('a[href="'+hash+'"]').parent('li').attr('class', 'brand-nav active');
 
