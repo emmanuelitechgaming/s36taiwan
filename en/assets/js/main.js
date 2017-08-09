@@ -1,34 +1,51 @@
 $(document).ready(function () {
+  /**
+   * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
+   *
+   * @private
+   * @author Todd Motto
+   * @link https://github.com/toddmotto/foreach
+   * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList
+   * @callback requestCallback      callback   - Callback function for each iteration.
+   * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
+   * @returns {}
+   */
+    var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
 
-  // window.setInterval(function() {
-  //   if($(window).width() == '1024'){
-  //     location.reload(true);
-  //   }
-  // }, 500)
+    var hamburgers = document.querySelectorAll(".hamburger");
+    if (hamburgers.length > 0) {
+      forEach(hamburgers, function(hamburger) {
+        hamburger.addEventListener("click", function() {
+          this.classList.toggle("is-active");
+        }, false);
+      });
+    }
 
   $('#country-sel').flagStrap({
     countries: {
-      "CN": "中國",
+      "CN": "中国",
       "TW": "台灣",
-      "VN": "越南",
-      "ID": "印尼",
-      "MY": "馬來西亞",
-      "TH": "泰國",
-      "JP": "日本",
-      "IN": "印度",
+      "JP": "日本国",
+      "UM": "UK",
+      "VN": "Vietnam",
+      "ID": "Indonesia",
+      "MY": "Malaysia",
+      "TH": "ไทย",
+      "IN": "India",
       }
   });
 
   $('#csCallselectflag').flagStrap({
     countries: {
-      "CN": "中國",
+      "CN": "中国",
       "TW": "台灣",
-      "VN": "越南",
-      "ID": "印尼",
-      "MY": "馬來西亞",
-      "TH": "泰國",
-      "JP": "日本",
-      "IN": "印度",
+      "JP": "日本国",
+      "UM": "UK",
+      "VN": "Vietnam",
+      "ID": "Indonesia",
+      "MY": "Malaysia",
+      "TH": "ไทย",
+      "IN": "India",
       }
   });
 
@@ -377,7 +394,7 @@ $(document).ready(function () {
       $(this).attr('src', 'assets/img/casino/baccarat/play-icon.png');
     });
 
-    $('.casino-g-img').hover(function() {
+    $('.casino-g-img, .absolute-play-casino a img').hover(function() {
       $(this).closest('.casino-g').find('.absolute-play a img').attr('src', 'assets/img/casino/baccarat/play-btn-hover.png');
     }, function() {
       $(this).closest('.casino-g').find('.absolute-play a img').attr('src', 'assets/img/casino/baccarat/play-icon.png');
@@ -413,7 +430,7 @@ $(document).ready(function () {
       $('#drop3').removeClass('lang-click');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/register2.png"], img[src="assets/img/sp/reg-btn-sp.png"], img[src="assets/img/lock_25-hover.png"], img[src="assets/img/casino/baccarat/play-icon.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/register2.png"], img[src="assets/img/sp/reg-btn-sp.png"], img[src="assets/img/lock_25-hover.png"], img[src="assets/img/casino/baccarat/play-icon.png"], .sp-btn-hidden').click(function() {
       $('#myModal').modal('show');
       $('a[href="#myModalTab1-1"').tab('show');
     });
@@ -624,6 +641,28 @@ $(document).ready(function () {
     }, function() {
       $(this).css('color', 'rgba(26, 26, 26, 0.7)');
       $(this).removeClass('btn-hidden-hover');
+    });
+
+    $('a[href="#slot-tab1"]').on('shown.bs.tab', function () {
+      $('.slots-swiper-container .swiper-slide a').removeClass('active');
+      // $('.slots-breadcrumb-inner ul li').hasClass('active').removeClass('active');
+      // $('.slots-breadcrumb-inner ul li a[href="#slot-tab1"]').closest('li').addClass('active');
+      $(this).addClass('active');
+    });
+
+    $('a[href="#slot-tab2"]').on('shown.bs.tab', function () {
+      $('.slots-swiper-container .swiper-slide a').removeClass('active');
+      // $('.slots-breadcrumb-inner ul li').hasClass('active').removeClass('active');
+      // $('.slots-breadcrumb-inner ul li a[href="#slot-tab1"]').closest('li').addClass('active');
+      $(this).addClass('active');
+    })
+
+    $('#offer-dropdown').on('show.bs.dropdown', function () {
+      $(this).find('i').removeClass('fa-caret-down').addClass('fa-caret-up');
+    });
+
+    $('#offer-dropdown').on('hide.bs.dropdown', function () {
+      $(this).find('i').removeClass('fa-caret-up').addClass('fa-caret-down');
     })
 });
 
@@ -690,6 +729,9 @@ $(function() {
         e.preventDefault();
     });
 
+        // $('.dropdown=toggle').click(function() {
+        //   $('i', this).toggleClass('fa-caret-up fa-caret-down');
+        // });
     $('#mobile-button').click(function() {
       $('i', this).toggleClass('fa-caret-up fa-caret-down');
     });
