@@ -1623,6 +1623,10 @@ p {
   width: 100%
 }
 
+.promotion-form select{
+  outline: 0;
+}
+
 .btn-hidden::after{
   content: ' ';
   display: inline-block;
