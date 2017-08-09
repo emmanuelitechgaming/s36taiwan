@@ -2806,6 +2806,7 @@ select + i.fa {
 }
 
 .selectpicker2-menu ul li .country a{
+  display: inline-block;
   font-weight: 700;
   margin-left: 15px;
 }
@@ -7697,7 +7698,9 @@ margin-right: 23px;
   display: block;
   width: 100%;
   padding: 7px 15px;
-  background: #333;
+  background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
+  background-size: contain;
+  background-position-x: 100%; 
   border: none;
   border-radius: 3px;
   color: #a4a4a4;
@@ -7712,8 +7715,4 @@ margin-right: 23px;
 }
 .promotion-form .offer-dropdown .dropdown-menu a{
   color: #a4a4a4
-}
-.promotion-form .offer-dropdown .fa{
-  position: relative;
-  top: 3px
 }

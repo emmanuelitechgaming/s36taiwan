@@ -982,6 +982,9 @@
     .selectpicker2-menu .languages a{
       font-size: 10px;
     }
+    .selectpicker2-menu ul li .country a{
+      min-width: 65px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1182,6 +1185,9 @@
     .selectpicker2-menu .languages a{
       font-size: 11px;
       margin: 0 12px
+    }
+    .selectpicker2-menu ul li .country a{
+      min-width: 80px;
     }
 }
 
