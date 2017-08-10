@@ -3324,9 +3324,9 @@ margin-top: -18px;
       display: inline-block;
       width: auto;
     }
-    .casino-g-img{
+    /*.casino-g-img{
       height: 186px;
-    }
+    }*/
     .themorebaccarat{
       padding-left: 0;
       padding-right: 15px;
@@ -3533,7 +3533,7 @@ main .marquee {
 .cta-casino .absolute-play{
   left: auto;
   right: 14%;
-  top: 22%
+  top: 30%
 }
 .cta-casino .absolute-play.pc-ver-cas{
   right: 18%;

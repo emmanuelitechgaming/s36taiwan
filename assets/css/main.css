@@ -7715,3 +7715,47 @@ margin-right: 23px;
 .promotion-form .offer-dropdown .dropdown-menu a{
   color: #a4a4a4
 }
+/*.img-wrap {
+	float:left;
+}*/
+.img-wrap img{
+	vertical-align:bottom;
+}
+.img-wrap:hover{
+  border:0;
+  z-index: 1;
+}
+.img-wrap:hover {
+	border:0;
+	z-index:1;
+}
+.img-wrap .hover-img {
+  border: 1px solid #ffb601;
+  position: absolute;
+  z-index: 9;
+  top: 16px;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.8);
+  -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,.8);
+  box-shadow: 0 0 30px 0 rgba(0,0,0,.8);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform .3s,opacity .3s;
+  -moz-transition: -moz-transform .3s,opacity .3s;
+  transition: transform .3s,opacity .3s;
+
+}
+.img-wrap:hover .hover-img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+.img-wrap:hover .hover-img img{
+    margin-bottom: 0px;
+}

@@ -396,11 +396,11 @@ $(document).ready(function () {
       $(this).attr('src', 'assets/img/casino/baccarat/play-icon.png');
     });
 
-    $('.casino-g-img, .absolute-play-casino a img').hover(function() {
-      $(this).closest('.casino-g').find('.absolute-play a img').attr('src', 'assets/img/casino/baccarat/play-btn-hover.png');
-    }, function() {
-      $(this).closest('.casino-g').find('.absolute-play a img').attr('src', 'assets/img/casino/baccarat/play-icon.png');
-    })
+    // $('.casino-g-img, .absolute-play-casino a img').hover(function() {
+    //   $(this).closest('.casino-g').find('.absolute-play a img').attr('src', 'assets/img/casino/baccarat/play-btn-hover.png');
+    // }, function() {
+    //   $(this).closest('.casino-g').find('.absolute-play a img').attr('src', 'assets/img/casino/baccarat/play-icon.png');
+    // })
 
     $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function () {
       $('.mymodal-init').removeClass('mymodal-none');
