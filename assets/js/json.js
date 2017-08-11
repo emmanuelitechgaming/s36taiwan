@@ -22,7 +22,7 @@ $(document).ready(function(){
 				'日本語'
 			],
 			'flag': 'flag-icon-jp',
-			'link': '#'
+			'link': 'jp/'
 		},
 		{
 			'country_name': 'UK',
