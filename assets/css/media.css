@@ -2537,6 +2537,9 @@
       font-size: 15px;
       padding-left: 15px;
   }
+  .casino-g-img{
+    min-height: 184px;
+  }
 }
 
 
