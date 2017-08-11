@@ -971,7 +971,7 @@
     .cta-casino .absolute-play{
       left: auto;
       right: 14%;
-      top: 19%
+      top: 25%
     }
     .username-availability{
       margin-top: 10px
@@ -1672,7 +1672,7 @@
       margin-right: 25%;
     }
     .cta-casino .absolute-play{
-      top: 22%
+      top: 30%
     }
     .selectpicker2-menu .languages a{
       font-size: 13px;
@@ -3586,7 +3586,7 @@ main .marquee {
 }
 .cta-casino .absolute-play{
   left: auto;
-  right: 14%;
+  right: 42%;
   top: 30%
 }
 .cta-casino .absolute-play.pc-ver-cas{
