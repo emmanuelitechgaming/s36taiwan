@@ -971,7 +971,7 @@
     .cta-casino .absolute-play{
       left: auto;
       right: 14%;
-      top: 19%
+      top: 25%
     }
     .username-availability{
       margin-top: 10px
@@ -984,33 +984,6 @@
     }
     .selectpicker2-menu ul li .country a{
       min-width: 65px;
-    }
-    .mnav-top ul li {
-        width: 34%;
-    }
-    .mnav-top ul li:nth-child(1), .mnav-top ul li:nth-child(4){
-      width: 16%;
-    }
-    .mnav-top ul li:nth-child(2) img{
-      margin-left: 45%;
-    }
-    .mnav-top ul li:nth-child(3) img{
-      margin-right: 45%;
-    }
-    .mnav-afterlogin ul li{
-      width: 22.66%;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
-      width: 22.6%;
-    }
-    .mnav-afterlogin ul li:nth-child(2) img{
-      margin-left: auto;
-    }
-    .mnav-afterlogin ul li:nth-child(3) img{
-      margin-right: auto;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
-      width: 16%
     }
 }
 
@@ -1672,7 +1645,7 @@
       margin-right: 25%;
     }
     .cta-casino .absolute-play{
-      top: 22%
+      top: 30%
     }
     .selectpicker2-menu .languages a{
       font-size: 13px;
@@ -1883,33 +1856,6 @@
         position: fixed;
         cursor: pointer;
         bottom: 1px;
-    }
-    .mnav-top ul li {
-        width: 25%;
-    }
-    .mnav-top ul li:nth-child(1), .mnav-top ul li:nth-child(4){
-      width: 25%;
-    }
-    .mnav-top ul li:nth-child(2) img{
-      margin-left: auto;
-    }
-    .mnav-top ul li:nth-child(3) img{
-      margin-right: auto;
-    }
-    .mnav-afterlogin ul li{
-      width: 20%;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
-      width: 20%;
-    }
-    .mnav-afterlogin ul li:nth-child(2) img{
-      margin-left: auto;
-    }
-    .mnav-afterlogin ul li:nth-child(3) img{
-      margin-right: auto;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
-      width: 20%
     }
 }
 
@@ -3586,11 +3532,11 @@ main .marquee {
 }
 .cta-casino .absolute-play{
   left: auto;
-  right: 14%;
+  right: 42%;
   top: 30%
 }
 .cta-casino .absolute-play.pc-ver-cas{
-  right: 18%;
+  right: 45%;
 }
 .absolute-play-casino{
   width: auto;
