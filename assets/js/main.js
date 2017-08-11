@@ -499,8 +499,16 @@ $(document).ready(function () {
       $('#csModal').modal('toggle');
     });
 
+    $('#csModal').on('show.bs.modal', function() {
+      $('html').css('overflow', 'hidden');
+    });
+
+    $('#csModal').on('hide.bs.modal', function() {
+      $('html').css('overflow', 'auto');
+    })
+
     $('#csModal').on('hidden.bs.modal', function() {
-      $('body').css('padding-right', '0px')
+      $('body').css('padding-right', '0px');
     })
 
     $('.promo-heart a img').hover(function() {
