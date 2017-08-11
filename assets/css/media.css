@@ -986,13 +986,16 @@
       min-width: 65px;
     }
     .mnav-top ul li {
-        width: 34%;
+        width: 35%;
     }
     .mnav-top ul li:nth-child(1), .mnav-top ul li:nth-child(4){
-      width: 16%;
+      width: 15%;
+    }
+    .mnav-top ul li:nth-child(4) img{
+      margin-left: 35%;
     }
     .mnav-top ul li:nth-child(2) img{
-      margin-left: 45%;
+      margin-left: 45%
     }
     .mnav-top ul li:nth-child(3) img{
       margin-right: 45%;
@@ -1011,6 +1014,9 @@
     }
     .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
       width: 16%
+    }
+    .mnav-afterlogin ul li:nth-child(5) img{
+      margin-left: 35%;
     }
 }
 
@@ -1215,6 +1221,25 @@
     }
     .selectpicker2-menu ul li .country a{
       min-width: 80px;
+    }
+    .mnav-afterlogin ul li{
+      width: 23.33%;
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
+      width: 23.33%;
+    }
+    .mnav-afterlogin ul li:nth-child(2) img{
+      margin-left: 40%;
+    }
+    .mnav-afterlogin ul li:nth-child(3) img{
+      margin-right: auto;
+      margin-left: 40%
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
+      width: 15%
+    }
+    .mnav-afterlogin ul li:nth-child(5) img{
+      margin-left: 40%;
     }
 }
 
@@ -1677,6 +1702,40 @@
     .selectpicker2-menu .languages a{
       font-size: 13px;
       margin: 0 13px
+    }
+    .mnav-top ul li {
+        width: 37%;
+    }
+    .mnav-top ul li:nth-child(1), .mnav-top ul li:nth-child(4){
+      width: 13%;
+    }
+    .mnav-top ul li:nth-child(4) img{
+      margin-left: 40%;
+    }
+    .mnav-top ul li:nth-child(2) img{
+      margin-left: 55%
+    }
+    .mnav-top ul li:nth-child(3) img{
+      margin-right: 55%;
+    }
+    .mnav-afterlogin ul li{
+      width: 24.66%;
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
+      width: 24.66%;
+    }
+    .mnav-afterlogin ul li:nth-child(2) img{
+      margin-left: 40%;
+    }
+    .mnav-afterlogin ul li:nth-child(3) img{
+      margin-right: auto;
+      margin-left: 40%
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
+      width: 13%
+    }
+    .mnav-afterlogin ul li:nth-child(5) img{
+      margin-left: 40%;
     }
 }
 
