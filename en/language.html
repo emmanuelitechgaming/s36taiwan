@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content=""><meta name="theme-color" content="#252525" />
+    <link rel="icon" href="favicon.ico">
+
+    <title>S36 TAIWAN</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/bootstrap-slide.css" rel="stylesheet">
+    <link href="dist/css/font-awesome.min.css" rel="stylesheet"><link href="dist/css/flags.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/remo-style.css">
+    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<style>
+/* Account for fixed navbar */
+
+header .logo a {
+    display: inline-block;
+    width: 300px;
+    height: 80px;
+    background: url('assets/img/logo.png') no-repeat 0 0;
+        background-repeat: no-repeat;
+        background-position-x: 0px;
+        background-position-y: 0px;
+        background-size: auto auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: -15px!important;
+}
+
+body,
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  min-width: 970px;
+}
+
+/* Don't let the lead text change font-size. */
+.lead {
+  font-size: 16px;
+}
+
+/* Finesse the page header spacing */
+.page-header {
+  margin-bottom: 30px;
+}
+.page-header .lead {
+  margin-bottom: 10px;
+}
+
+
+/* Non-responsive overrides
+ *
+ * Utilize the following CSS to disable the responsive-ness of the container,
+ * grid system, and navbar.
+ */
+
+/* Reset the container */
+.container {
+  width: 1250px;
+  max-width: none !important;
+}
+
+/* Demonstrate the grids */
+.col-xs-4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+  float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+  visibility: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+}
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+  float: right;
+}
+
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #333;
+}
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+}
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
+}
+
+/* Undo form expansion */
+.navbar-form {
+  float: left;
+  width: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* Copy-pasted from forms.less since we mixin the .form-inline styles. */
+.navbar-form .form-group {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.navbar-form .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+.navbar-form .form-control-static {
+  display: inline-block;
+}
+
+.navbar-form .input-group {
+  display: inline-table;
+  vertical-align: middle;
+}
+
+.navbar-form .input-group .input-group-addon,
+.navbar-form .input-group .input-group-btn,
+.navbar-form .input-group .form-control {
+  width: auto;
+}
+
+.navbar-form .input-group > .form-control {
+  width: 100%;
+}
+
+.navbar-form .control-label {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.navbar-form .radio,
+.navbar-form .checkbox {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.navbar-form .radio label,
+.navbar-form .checkbox label {
+  padding-left: 0;
+}
+
+.navbar-form .radio input[type="radio"],
+.navbar-form .checkbox input[type="checkbox"] {
+  position: relative;
+  margin-left: 0;
+}
+
+.navbar-form .has-feedback .form-control-feedback {
+  top: 0;
+}
+
+/* Undo inline form compaction on small screens */
+.form-inline .form-group {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.form-inline .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+.form-inline .form-control-static {
+  display: inline-block;
+}
+
+.form-inline .input-group {
+  display: inline-table;
+  vertical-align: middle;
+}
+.form-inline .input-group .input-group-addon,
+.form-inline .input-group .input-group-btn,
+.form-inline .input-group .form-control {
+  width: auto;
+}
+
+.form-inline .input-group > .form-control {
+  width: 100%;
+}
+
+.form-inline .control-label {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.form-inline .radio,
+.form-inline .checkbox {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+.form-inline .radio label,
+.form-inline .checkbox label {
+  padding-left: 0;
+}
+
+.form-inline .radio input[type="radio"],
+.form-inline .checkbox input[type="checkbox"] {
+  position: relative;
+  margin-left: 0;
+}
+
+.form-inline .has-feedback .form-control-feedback {
+  top: 0;
+}
+</style>
+<body>
+
+    <header>
+        <nav class="navbar nav-lang">
+            <div class="container">
+                <div class="navbar-header header-mobile">
+
+                    <div class="logo lang-logo">
+                        <a href="index.html"></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div id="bootstrap-touch-slider" class="carousel seo bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner seo-carousel-inner" role="listbox">
+
+                <!-- Third Slide -->
+                <div class="item active">
+
+                    <!-- Slide Background -->
+                    <img src="assets/img/lang/s36-Taiwan-language-banner.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+                    <div class="bs-slider-overlay"></div>
+
+                    <div class="container">
+                        <div class="row">
+                            <!-- Slide Text Layer -->
+                            <div class="slide-text slide_style_center lang-center">
+                                <a href="javascript:void(0)" target="_blank" data-animation="animated fadeInLeft"><img src="assets/img/lang/lang-panel.png" alt=""></a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+            </div>
+            <!-- End of Wrapper For Slides -->
+
+        </div>
+        <!-- End  bootstrap-touch-slider Slider -->
+
+        <div class="seo-media lang-med">
+          <div class="container">
+              <img src="assets/img/footer/logo.png" class="img-responsive" alt="">
+              <img src="assets/img/footer/g1.png" class="img-responsive" id="fg1" alt="">
+              <img src="assets/img/footer/g2.png" class="img-responsive" id="fg2" alt="">
+              <img src="assets/img/footer/g3.png" class="img-responsive" id="fg3" alt="">
+              <img src="assets/img/footer/g4.png" class="img-responsive" id="fg4" alt="">
+                        <img src="assets/img/footer/PanDelta.png" class="img-responsive" id="fg5" alt="">
+          </div>
+        </div>
+
+        <div class="container text-center lang-c">
+            <div class="border borderstyler"></div>
+
+            <div class="col-xs-1">
+                <div class="lang-txt-head">中文簡体</div>
+                <p>赌场</p>
+                <p>插槽</p>
+                <p>乐透</p>
+                <p>促销</p>
+            </div>
+            <div class="col-xs-1">
+                <div class="lang-txt-head">中文繁體</div>
+                <p>賭場</p>
+                <p>插槽</p>
+                <p>樂透</p>
+                <p>促銷</p>
+            </div>
+            <div class="col-xs-2">
+                <div class="lang-txt-head">อักษรไทย</div>
+                <p>บ่อนคาสิโน</p>
+                <p>คาสิโนออนไลน์</p>
+                <p>เกมพนันชนิดหนึ่ง</p>
+                <p>โปรโมชั่น</p>
+            </div>
+            <div class="col-xs-1">
+                <div class="lang-txt-head">Bahasa</div>
+                <p>Kasino</p>
+                <p>Slot</p>
+                <p>loto</p>
+                <p>Promosi</p>
+            </div>
+            <div class="col-xs-1">
+                <div class="lang-txt-head">Melayu</div>
+                <p>Casino</p>
+                <p>Slot</p>
+                <p>lotto</p>
+                <p>Promosi</p>
+            </div>
+            <div class="col-xs-2">
+                <div class="lang-txt-head"> Tiếng Việt</div>
+                <p>Sòng bạc</p>
+                <p>Khe</p>
+                <p>lotto</p>
+                <p>Khuyến mãi</p>
+            </div>
+            <div class="col-xs-1">
+                <div class="lang-txt-head"> हिन्दी或हिंदी </div>
+                <p>कैसिनो</p>
+                <p>स्लॉट</p>
+                <p>लोट्टो</p>
+                <p>प्रचार</p>
+            </div>
+            <div class="col-xs-2">
+                <div class="lang-txt-head"> にほんご </div>
+                <p>カジノ</p>
+                <p>スロット</p>
+                <p>ロト</p>
+                <p>プロモーション</p>
+            </div>
+            <div class="col-xs-3">
+                <div class="lang-txt-head"> 한국어 </div>
+                <p>카지노</p>
+                <p>슬롯</p>
+                <p>숫자 카드 맞추기 놀이</p>
+                <p>프로모션</p>
+            </div>
+        </div>
+
+        <!-------->
+        <div class="container">
+            <div class=" text-center lang-c lang-c-2">
+                <div class=" all-aboutus">
+
+                    <div class="col-xs-1">
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="simp" Class="active">关于我们</a></div>
+
+                    </div>
+                    <div class="col-xs-1">
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="trad">About Us</a></div>
+
+                    </div>
+                    <div class="col-xs-2 col2">
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="thai">เกี่ยวกับเรา</a></div>
+
+                    </div>
+                    <div class="col-xs-1 col1">
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="indo">Tentang kami</a></div>
+
+                    </div>
+                    <div class="col-xs-1">
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="malay">Tentang kita</a></div>
+
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="viet">	Về chúng tôis</a></div>
+
+                    </div>
+                    <div class="col-xs-1">
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="hindi">	हमारे बारे में </a></div>
+
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="jap">	私たちに関しては </a></div>
+
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="lang-txt-head"><a href="javascript:void(0)" id="kor">우리에 대해 </a></div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container aboutus-contactus">
+          <div class="col-md-8 col-sm-12 col-xs-12 r-aboutus">
+            <p class="about-txt">
+              沙龍會網上賭場2009年創立經營八年，沙龍集團官方直營信譽值得信賴，沙龍會Taiwan官方網址 :<span>www.s36.com/tw</span>，持有菲律賓合法網上博彩牌照，全年365天24小時致力為您提供最優質且多元化的網上博彩Service。我們的所有網上博彩遊戲，巳都通過國際第三方軟件測試機構GLI及BMM的認證，確保玩家能得到最公正的網上博彩Service。我們並同時提供多種安全、便捷、高效的PaymentService，讓您隨時隨地盡情享受網上博彩娛樂的無限歡樂，另外，我們更為尊貴的您精心挑選了多種與衆不同的驚喜Promotion。什麼？還不是會員？現在就馬上注冊加入沙龍會吧！我們必定能為您帶來非凡的網上博彩體驗。
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12 r-contactus">
+            <div class="contactus-social">
+              <a href="javascript:void(0)"><img src="assets/img/seo-images/social-icons.png" alt=""></a>
+            </div>
+            <div class="contactus-numbers">
+                <div class="cs-hotline">400热线：<span> 400 120 3188 </span></div>
+                <div class="cs-ihotline">国际热线：<span> +853 6284 6284 </span></di
+                <div class="cs-lhotline">菲律宾热线：<span> +639177998899 </span></div>
+              </div>
+            <div class="contactus-email">
+              <div>電子郵件：<span>cs@saloncs.com</span></div>
+            </div>
+            <div class="contactus-qq">
+              <div>QQ 直播支持：<span>382661199 | 382662200 | 382662211</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container seo-partners2 text-center">
+          <ul>
+            <li><a href="javascript:void(0)"><img src="assets/img/footer/sagaming.png" class="img-responsive" alt=""></a></li>
+            <li><a href="javascript:void(0)"><img src="assets/img/footer/ssalon.png" class="img-responsive" alt=""></a></li>
+            <li><a href="javascript:void(0)"><img src="assets/img/footer/cert1.png" class="img-responsive" alt=""></a></li>
+            <li><a href="javascript:void(0)"><img src="assets/img/footer/cert2.png" class="img-responsive" alt=""></a></li>
+            <li><a href="javascript:void(0)"><img src="assets/img/footer/cert3.png" class="img-responsive" alt=""></a></li>
+            <li><a href="javascript:void(0)"><img src="assets/img/footer/cert4.png" class="img-responsive" alt=""></a></li>
+          </ul>
+        </div>
+
+    </main>
+
+    <footer>
+      <div class="copyright copyright2">
+          <div class="container text-center">
+              <img src="assets/img/footer/f-logo.png" class="img-responsive" alt="">
+              <span>沙龙国际版权所有 &copy; 2009 - 2017</span>
+          </div>
+      </div>
+    </footer>
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/bootstrap-slider.js"></script>
+    <script src="dist/js/font-awesome.js"></script>
+    <script src="dist/js/jquery.flagstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/remo-js.js"></script>
+    <script src="assets/js/countUp.js"></script>
+    <script>
+          $(document).ready(function() {
+            $( "#trad" ).click(function() {
+              $('.about-txt').html('  沙龍會網上賭場2009年創立經營八年，沙龍集團官方直營信譽值得信賴，沙龍會Taiwan官方網址:<span>www.s36.com/tw</span>，持有菲律賓合法網上博彩牌照，全年365天24小時致力為您提供最優質且多元化的網上博彩Service。我們的所有網上博彩遊戲，巳都通過國際第三方軟件測試機構GLI及BMM的認證，確保玩家能得到最公正的網上博彩Service。我們並同時提供多種安全、便捷、高效的PaymentService，讓您隨時隨地盡情享受網上博彩娛樂的無限歡樂，另外，我們更為尊貴的您精心挑選了多種與眾不同的驚喜Promotion。什麼？還不是會員？現在就馬上Registered加入沙龍會吧！我們必定能為您帶來非凡的網上博彩體驗。');
+              $('.cs-hotline').html('400Hotline：<span> 400 120 3188 </span>');
+              $('.cs-ihotline').html('國際Hotline：<span> +853 6284 6284 </span>');
+              $('.cs-lhotline').html('菲律賓Hotline：<span> +639177998899 </span>');
+              $('.contactus-email').html('<div>Email: <span>cs@saloncs.com</span></div>');
+              $('.contactus-qq').html('<div>QQ直播支持: <span>382661199 | 382662200 | 382662211</span></div>');
+              $( "#trad" ).addClass( "active" );
+              $("#simp").removeClass("active");
+              $("#thai").removeClass("active");
+              $("#indo").removeClass("active");
+              $("#malay").removeClass("active");
+              $("#viet").removeClass("active");
+              $("#hindi").removeClass("active");
+              $("#jap").removeClass("active");
+              $("#kor").removeClass("active");
+
+
+            });
+
+            $( "#simp" ).click(function() {
+              $('.about-txt').html('沙龙会网上赌场2009年创立经营八年，沙龙集团官方直营信誉值得信赖，沙龙会台湾官方网址:<span>www.s36.com/tw</span>，持有菲律宾合法网上博彩牌照，全年365天24小时致力为您提供最优质且多元化的网上博彩服务。我们的所有网上博彩游戏，巳都通过国际第三方软件测试机构GLI及BMM的认证，确保玩家能得到最公正的网上博彩服务。我们并同时提供多种安全、便捷、高效的Payment服务，让您随时随地尽情享受网上博彩娱乐的无限欢乐，另外，我们更为尊贵的您精心挑选了多种与众不同的惊喜优惠。什么？还不是会员？现在就马上注册加入沙龙会吧！我们必定能为您带来非凡的网上博彩体验。  ');
+              $('.cs-hotline').html('400热线：<span> 400 120 3188 </span>');
+              $('.cs-ihotline').html('国际热线：<span> +853 6284 6284 </span>');
+              $('.cs-lhotline').html('菲律宾热线：<span> +639177998899 </span>');
+              $('.contactus-email').html('<div>电子邮件: <span>cs@saloncs.com</span></div>');
+              $('.contactus-qq').html('<div>QQ直播支持: <span>382661199 | 382662200 | 382662211</span></div>');
+              $( "#simp" ).addClass( "active" );
+              $("#trad").removeClass("active");
+              $("#thai").removeClass("active");
+              $("#indo").removeClass("active");
+              $("#malay").removeClass("active");
+              $("#viet").removeClass("active");
+              $("#hindi").removeClass("active");
+              $("#jap").removeClass("active");
+              $("#kor").removeClass("active");
+              });
+
+            $( "#thai" ).click(function() {
+            $('.about-txt').html(' ชารอนจะเป็นในปี 2009 วิ่งคาสิโนออนไลน์ตั้งขึ้นในแปดกลุ่มชารอนอย่างเป็นทางการเป็นที่ยอมรับน่าเชื่อถือตรงที่ชารอนเป็นเว็บไซต์อย่างเป็นทางการของไต้หวัน: <span> www.s36.com/tw </span> ที่ใช้บังคับกับใบอนุญาตการพนันออนไลน์ในฟิลิปปินส์ 365 วันต่อปี, บริการการพนันออนไลน์ตลอด 24 ชั่วโมงเพื่อให้มีคุณภาพที่ดีที่สุดและการกระจายความเสี่ยง ทั้งหมดของเราออนไลน์เกมคาสิโนซอฟแวร์เพื่อการทดสอบของบุคคลที่สาม GLI และ BMM รับรองผ่านหน่วยงานระหว่างประเทศเพื่อให้แน่ใจว่าผู้เล่นจะได้รับโสภาบริการการพนันออนไลน์ นอกจากนี้เรายังมีความหลากหลายของความปลอดภัยสะดวกและมีประสิทธิภาพบริการการชำระเงินเพื่อให้คุณสนุกกับการเล่นเกมออนไลน์และความบันเทิงทุกที่ทุกเวลา นอกจากนี้เราแยกแยะความแตกต่างมากขึ้นอย่างรอบคอบเลือกหลากหลายของกิจกรรมส่งเสริมการขายที่น่าตื่นเต้นที่แตกต่างกันคืออะไร? ไม่ได้เป็นสมาชิก? ตอนนี้ชารอนทันทีจะลงทะเบียนในขณะนี้! เราจะได้สัมผัสกับประสบการณ์การเล่นเกมออนไลน์ที่โดดเด่น)');
+            $('.cs-hotline').html('400 สายด่วน: <span> 400 120 3188 </span>');
+            $('.cs-ihotline').html('โทรไปต่างประเทศ: <span> +853 6284 6284 </span');
+            $('.cs-lhotline').html('ร้อนฟิลิปปินส์: <span> 639177998899 </span>');
+            $('.contactus-email').html('<div>อีเมล: <span> cs@saloncs.com </span></div>');
+            $('.contactus-qq').html('<div>QQ สนับสนุนสด: <span> 382661199 | 382662200 | 382662211 </span></div>');
+            $( "#thai" ).addClass( "active" );
+            $("#trad").removeClass("active");
+            $("#simp").removeClass("active");
+            $("#indo").removeClass("active");
+            $("#malay").removeClass("active");
+            $("#viet").removeClass("active");
+            $("#hindi").removeClass("active");
+            $("#jap").removeClass("active");
+            $("#kor").removeClass("active");
+            });
+
+            $( "#indo" ).click(function() {
+            $('.about-txt').html(' Sharon akan berjalan kasino online pada tahun 2009 mendirikan delapan kelompok, Sharon diterima secara resmi Keandalan mana Sharon adalah situs resmi Taiwan: <span> www.s36.com/tw </span> berlaku untuk lisensi perjudian online di Filipina, 365 hari setahun, 24 jam sehari layanan perjudian online untuk memberikan kualitas terbaik dan diversifikasi. Semua perangkat lunak kasino game online kami untuk pengujian pihak ketiga, GLI dan BMM sertifikasi melalui badan-badan internasional, untuk memastikan bahwa pemain mendapatkan layanan perjudian online paling adil. Kami juga menawarkan berbagai layanan pembayaran yang aman, nyaman dan efisien bagi Anda untuk menikmati game online dan hiburan kapan saja, di mana saja. Selain itu, kami membedakan lebih hati-hati dipilih berbagai kegiatan promosi, menarik, berbeda? Bukan anggota? Sekarang Sharon akan segera daftar sekarang! Kami akan dapat mengalami game online yang luar biasa.');
+            $('.cs-hotline').html('400 Hotline: <span> 400 120 3188 </span>');
+            $('.cs-ihotline').html('International Call: <span> +853 6284 6284 </span');
+            $('.cs-lhotline').html('Hotline: <span> 639177998899 </span>');
+            $('.contactus-email').html('<div>อีเมล: <span> cs@saloncs.com </span></div>');
+            $('.contactus-qq').html('<div>QQ dukungan Live: <span> 382661199 | 382662200 | 382662211 </span></div>');
+            $( "#indo" ).addClass( "active" );
+            $("#trad").removeClass("active");
+            $("#simp").removeClass("active");
+            $("#thai").removeClass("active");
+            $("#malay").removeClass("active");
+            $("#viet").removeClass("active");
+            $("#hindi").removeClass("active");
+            $("#jap").removeClass("active");
+            $("#kor").removeClass("active");
+            });
+
+            $( "#malay" ).click(function() {
+            $('.about-txt').html('Sharon akan berjalan kasino dalam talian pada tahun 2009 menubuhkan lapan kumpulan, Sharon Kebolehpercayaan diterima secara rasmi di mana Sharon adalah laman web rasmi Taiwan: <span> www.s36.com/tw </span> berkenaan dengan lesen perjudian dalam talian di Filipina 365 hari setahun, 24 jam sehari dalam talian perkhidmatan, perjudian untuk memberikan yang terbaik kualiti dan kepelbagaian. Semua perisian permainan kasino dalam talian kami untuk ujian pihak ketiga, pensijilan GLI dan BMM melalui agensi-agensi antarabangsa, untuk memastikan bahawa pemain mendapatkan yang paling adil perkhidmatan perjudian dalam talian. Kami juga menawarkan pelbagai perkhidmatan pembayaran yang selamat, mudah dan cekap untuk anda untuk menikmati permainan dalam talian dan hiburan bila-bila masa, di mana sahaja. Selain itu, kami membezakan memilih lebih teliti pelbagai aktiviti promosi, menarik, yang berbeza adalah? Bukan ahli? Sekarang Sharon akan segera mendaftar sekarang! Kita akan dapat mengalami permainan dalam talian terkumpul ');
+            $('.cs-hotline').html('400 Hotline: <span> 400 120 3188 </span>');
+            $('.cs-ihotline').html('Panggilan Antarabangsa: <span> +853 6284 6284 </span');
+            $('.cs-lhotline').html('Hotline: <span> 639177998899 </span>');
+            $('.contactus-email').html('<div>อีเมล: <span> cs@saloncs.com </span></div>');
+            $('.contactus-qq').html('<div>QQ sokongan Live: <span> 382661199 | 382662200 | 382662211 </span></div>');
+            $( "#malay" ).addClass( "active" );
+            $("#trad").removeClass("active");
+            $("#simp").removeClass("active");
+            $("#thai").removeClass("active");
+            $("#indo").removeClass("active");
+            $("#viet").removeClass("active");
+            $("#hindi").removeClass("active");
+            $("#jap").removeClass("active");
+            $("#kor").removeClass("active");
+            });
+
+            $( "#viet" ).click(function() {
+            $('.about-txt').html('Sharon sẽ chạy casino trực tuyến trong năm 2009 để thành lập tám nhóm, Sharon đáng tin cậy chính thức chấp nhận nơi Sharon là trang web chính thức của Đài Loan: <span> www.s36.com/tw </span> liên quan đến giấy phép chơi game trực tuyến ở Philippines 365 với ngày một năm, các dịch vụ trực tuyến 24 giờ một ngày, cờ bạc để cung cấp chất lượng tốt nhất và đa dạng. Tất cả các phần mềm trò chơi casino trực tuyến để kiểm tra của bên thứ ba, GLI và BMM chứng nhận thông qua các cơ quan quốc tế, để đảm bảo rằng người chơi có được các dịch vụ cờ bạc trực tuyến công tâm nhất. Chúng tôi cũng cung cấp một loạt các dịch vụ thanh toán an toàn, thuận tiện và hiệu quả để bạn có thể thưởng thức chơi game trực tuyến và giải trí mọi lúc mọi nơi. Bên cạnh đó, chúng tôi phân biệt cẩn thận hơn chọn hoạt động quảng bá khác nhau, thú vị, khác nhau là? Không phải là một thành viên? Bây giờ Sharon sẽ sớm đăng ký ngay! Chúng tôi sẽ có thể trải nghiệm các trò chơi trực tuyến tích lũy');
+            $('.cs-hotline').html('400 Hotline: <span> 400 120 3188 </span>');
+            $('.cs-ihotline').html('Gọi quốc tế: <span> +853 6284 6284 </span');
+            $('.cs-lhotline').html('nóng Philippines: <span> 639177998899 </span>');
+            $('.contactus-email').html('<div>อีเมล: <span> cs@saloncs.com </span></div>');
+            $('.contactus-qq').html('<div>QQ Live hỗ trợ: <span> 382661199 | 382662200 | 382662211 </span></div>');
+            $( "#viet" ).addClass( "active" );
+            $("#trad").removeClass("active");
+            $("#simp").removeClass("active");
+            $("#thai").removeClass("active");
+            $("#indo").removeClass("active");
+            $("#malay").removeClass("active");
+            $("#hindi").removeClass("active");
+            $("#jap").removeClass("active");
+            $("#kor").removeClass("active");
+            });
+
+            $( "#hindi" ).click(function() {
+            $('.about-txt').html('शेरोन आठ समूहों की स्थापना 2009 में ऑनलाइन कैसीनो चलेंगे, शेरोन विश्वसनीयता आधिकारिक तौर पर स्वीकार किए जाते हैं जहां शेरोन ताइवान की आधिकारिक वेबसाइट है: <span> www.s36.com/tw </span> फिलीपींस 365 में ऑनलाइन गेमिंग लाइसेंस के संबंध में दिन एक वर्ष, दिन के 24 घंटे ऑनलाइन सेवाओं, जुआ अच्छी गुणवत्ता और विविधता प्रदान करते हैं। तीसरे पक्ष के परीक्षण, अंतरराष्ट्रीय एजेंसियों के माध्यम से GLI और BMM प्रमाणीकरण, करने के लिए सभी ऑनलाइन कैसीनो गेमिंग सॉफ्टवेयर है कि खिलाड़ियों को खूबसूरत ऑनलाइन जुआ सेवाओं मिल सुनिश्चित करने के लिए। आप किसी भी समय ऑनलाइन गेमिंग और मनोरंजन का आनंद लेने के लिए, कहीं भी हम यह भी सुरक्षित भुगतान सेवाओं, सुविधाजनक और कुशल की एक किस्म प्रदान करते हैं। इसके अलावा, हम भेद अधिक ध्यान से विभिन्न प्रचार गतिविधियों, दिलचस्प चुनते हैं, तो अलग है? सदस्य नहीं? अब शेरोन जल्द ही अभी साइन अप होगा! हम ऑनलाइन जमा खेल का अनुभव करने के लिए सक्षम हो जाएगा');
+            $('.cs-hotline').html('400 हॉटलाइन: <span> 400 120 3188 </span>');
+            $('.cs-ihotline').html('अंतर्राष्ट्रीय कॉल: <span> +853 6284 6284 </span');
+            $('.cs-lhotline').html('हॉट फिलीपींस: <span> 639177998899 </span>');
+            $('.contactus-email').html('<div>อีเมล: <span> cs@saloncs.com </span></div>');
+            $('.contactus-qq').html('<div>QQ  लाइव समर्थन: <span> 382661199 | 382662200 | 382662211 </span></div>');
+            $( "#hindi" ).addClass( "active" );
+            $("#trad").removeClass("active");
+            $("#simp").removeClass("active");
+            $("#thai").removeClass("active");
+            $("#indo").removeClass("active");
+            $("#malay").removeClass("active");
+            $("#viet").removeClass("active");
+            $("#jap").removeClass("active");
+            $("#kor").removeClass("active");
+            });
+
+            $( "#jap" ).click(function() {
+            $('.about-txt').html('シャロンはシャロンが台湾の公式ウェブサイトですシャロン・信頼性を公式に認められた、8つのグループを設定するには、2009年にオンラインカジノを実行します。<span>のwww.s36.com/tw </span>のフィリピン365におけるオンラインゲームのライセンスに関して日年間、1日24時間オンラインサービス、最高の品質と多様性を提供するために、ギャンブル。サードパーティのテスト、国際機関を通じてGLIとBMM認定、へのすべてのオンラインカジノのゲームソフトウェアは、プレイヤーが最も公平なオンラインギャンブルのサービスを得ることを確実にします。あなたがいつでもどこでもオンラインゲームとエンターテイメントを楽しむために我々はまた、便利で効率的、安全な決済サービスの多様性を提供します。また、我々はより慎重にされ、興味深い様々なプロモーション活動を、選ぶ違う見分けますか？メンバーじゃありませんの？今、シャロンはすぐに今すぐ登録します！私たちは、オンライン累積ゲームを体験することができます');
+            $('.cs-hotline').html('400ホットライン: <span> 400 120 3188 </span>');
+            $('.cs-ihotline').html('国際電話: <span> +853 6284 6284 </span');
+            $('.cs-lhotline').html('ホットフィリピン: <span> 639177998899 </span>');
+            $('.contactus-email').html('<div>電子メール: <span> cs@saloncs.com </span></div>');
+            $('.contactus-qq').html('<div>QQ ライブサポート: <span> 382661199 | 382662200 | 382662211 </span></div>');
+            $( "#jap" ).addClass( "active" );
+            $("#trad").removeClass("active");
+            $("#simp").removeClass("active");
+            $("#thai").removeClass("active");
+            $("#indo").removeClass("active");
+            $("#malay").removeClass("active");
+            $("#viet").removeClass("active");
+            $("#hindi").removeClass("active");
+            $("#kor").removeClass("active");
+            });
+
+            $( "#kor" ).click(function() {
+            $('.about-txt').html('필리핀 365에서 온라인 게임 라이센스에 대한 <SPAN> www.s36.com/tw </SPAN> : 샤론 8 개 그룹을 설정하기 위해 2009 년에 온라인 카지노를 실행, 샤론 신뢰성 공식적 샤론 대만의 공식 웹 사이트입니다 가능 일 년에 하루 24 시간 온라인 서비스, 도박은 최고의 품질과 다양성을 제공합니다. 타사 테스트, 국제기구를 통해 GLI와 BMM 인증에 대한 모든 온라인 카지노 게임 소프트웨어는 플레이어가 공정한 온라인 도박 서비스를 얻을 수 있도록합니다. 당신이 언제 어디서나 온라인 게임과 엔터테인먼트를 즐길 수 있도록 우리는 또한 편리하고 효율적인 보안 결제 서비스의 다양한 제공합니다. 또한, 우리는 더 신중하게 흥미로운 다양한 홍보 활동을 선택 구별 다른 무엇입니까? 회원이 아니신가요? 이제 샤론은 곧 지금 가입 것입니다! 우리는 온라인으로 축적 된 게임을 경험할 수있을 것입니다 ');
+            $('.cs-hotline').html('400핫라인 : <span> 400 120 3188 </span>');
+            $('.cs-ihotline').html('국제 전화: <span> +853 6284 6284 </span');
+            $('.cs-lhotline').html('핫 필리핀: <span> 639177998899 </span>');
+            $('.contactus-email').html('<div>전자 메일: <span> cs@saloncs.com </span></div>');
+            $('.contactus-qq').html('<div>QQ Live Support : <span> 382661199 | 382662200 | 382662211 </span></div>');
+            $( "#kor" ).addClass( "active" );
+            $("#trad").removeClass("active");
+            $("#simp").removeClass("active");
+            $("#thai").removeClass("active");
+            $("#indo").removeClass("active");
+            $("#malay").removeClass("active");
+            $("#viet").removeClass("active");
+            $("#hindi").removeClass("active");
+            $("#jap").removeClass("active");
+            });
+
+
+
+          });
+      </script>
+      <script>
+          var forEach = function(t, o, r) {
+              if ("[objec
+    <script>
+        var forEach = function(t, o, r) {
+            if ("[object Object]" === Object.prototype.toString.call(t))
+                for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(r, t[c], c, t);
+            else
+                for (var e = 0, l = t.length; l > e; e++) o.call(r, t[e], e, t)
+        };
+
+        var hamburgers = document.querySelectorAll(".hamburger");
+        if (hamburgers.length > 0) {
+            forEach(hamburgers, function(hamburger) {
+                hamburger.addEventListener("click", function() {
+                    this.classList.toggle("is-active");
+                }, false);
+            });
+        }
+    </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+
+</html> 

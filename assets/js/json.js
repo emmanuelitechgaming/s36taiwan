@@ -1,62 +1,79 @@
 $(document).ready(function(){
 	var obj = [
 		{
-	    "country_name": "中國",
-	    "languages": [
-	      "繁体",
-				"简体"
-	    ],
-	    "flag" : "flag-icon-cn"
-	  },
-		{
-			"country_name": "台灣",
-			"languages": [
-				"TWD"
+			'country_name': '中国',
+			'languages': [
+				'簡体中文'
 			],
-			"flag": "flag-icon-tw"
+			'flag': 'flag-icon-cn',
+			'link': 'cn/'
 		},
 		{
-			"country_name": "越南",
-			"languages": [
-				"VND"
+			'country_name': '台灣',
+			'languages': [
+				'繁體中文'
 			],
-			"flag": "flag-icon-vn"
+			'flag': 'flag-icon-tw',
+			'link': '#'
 		},
 		{
-	    "country_name": "印尼",
-	    "languages": [
-	      "IDR"
-	    ],
-	    "flag" : "flag-icon-id"
-	  },
-		{
-			"country_name": "馬來西亞",
-			"languages": [
-				"MYR"
+			'country_name': '日本国',
+			'languages': [
+				'日本語'
 			],
-			"flag": "flag-icon-my"
+			'flag': 'flag-icon-jp',
+			'link': 'jp/'
 		},
 		{
-			"country_name": "泰國",
-			"languages": [
-				"THP"
+			'country_name': 'UK',
+			'languages': [
+				'English'
 			],
-			"flag": "flag-icon-th"
+			'flag': 'flag-icon-um',
+			'link': 'en/'
 		},
 		{
-	    "country_name": "日本",
-	    "languages": [
-	      "JPY"
-	    ],
-	    "flag" : "flag-icon-jp"
-	  },
-	  {
-	    "country_name": "印度",
-	    "languages": [
-	      "INR"
-	    ],
-	    "flag" : "flag-icon-in"
-	  },	
+			'country_name': 'Vietnam',
+			'languages': [
+				'Tiếng Việt'
+			],
+			'flag': 'flag-icon-vn',
+			'link': '#'
+		},
+		{
+			'country_name': 'Indonesia',
+			'languages': [
+				'Bahasa'
+			],
+			'flag': 'flag-icon-id',
+			'link': '#'
+		},
+		{
+			'country_name': 'Malaysia',
+			'languages': [
+				'Bahasa Melayu',
+				'English',
+				'繁體中文'
+			],
+			'flag': 'flag-icon-my',
+			'link': '#'
+		},
+		{
+			'country_name': 'ไทย',
+			'languages': [
+				'ภาษาไทย'
+			],
+			'flag': 'flag-icon-th',
+			'link': 'th/'
+		},
+		{
+			'country_name': 'India',
+			'languages': [
+				'हिन्दी'
+			],
+			'flag': 'flag-icon-in',
+			'link': '#'
+		}
 	];
 
 	$(obj).each(function(k,v){
@@ -70,25 +87,36 @@ $(document).ready(function(){
 	$('#drop .grey').each(function(){
 		var divNum = $(this).attr('data-value');
 		$(obj[divNum].languages).each(function(k,v){
-			$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'> "+ v +"</span>");
+			if(v == "English"){
+				$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'><a href='en/'>"+ v +"</a></span>");
+			}else{
+				$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'><a href='"+ obj[divNum].link +"'>"+ v +"</a></span>");
+			}
 		})
 	});
 
 	$('#drop2 li a').each(function(){
 		var divNum = $(this).attr('data-value');
 		$(obj[divNum].languages).each(function(k,v){
-			console.log(k+' '+v);
 			$('#country2'+divNum+' .languages').append('<span class="m-languages">'+ v +'</span>');
 		})
 	});
 
-	// $('.grey').hover(function() {
-	// 	$(this).css('color','#fba601');
-	// }, function() {
-	// 	$(this).css('color','#fff');
-	// });
+	$.each(obj, function(index, value) {
+		$('.selectpicker2-menu ul').append('<li class="li'+ index +'"><div class="flag-icon '+ value.flag +'"></div><div class="country"><a href="#">'+ value.country_name +'</a></div><div class="languages"></div></li>');
+	});
 
-	$('.language-span, .cntry').hover(function() {
+	$.each($('.selectpicker2-menu ul li'), function(index, value) {
+		$.each(obj[index].languages, function(i, v) {
+			if(v == "English"){
+				$('.selectpicker2-menu ul .li'+index+' .languages').append('<a href="en/" class="language'+ i +'">'+ v +'</a>');
+			}else{
+				$('.selectpicker2-menu ul .li'+index+' .languages').append('<a href="#" class="language'+ i +'">'+ v +'</a>');
+			}
+		})
+	})
+
+	$('.language-span a').hover(function() {
 		$(this).css('color','#fba601');
 	}, function() {
 		$(this).css('color','#fff');
