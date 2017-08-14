@@ -3460,6 +3460,10 @@ margin-top: -18px;
     .username-availability{
       margin-top: 0
     }
+    .slots-breadcrumb-inner .col-xs-12{
+      width: 403px;
+      height: 325px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
