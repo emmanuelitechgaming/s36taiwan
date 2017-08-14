@@ -490,9 +490,13 @@ $(document).ready(function () {
     });
 
     $('.csmodal-forgot').click(function() {
+      var validation = 0;
       $('#myModal').modal('toggle');
       $('#myModal').on('hidden.bs.modal', function(e) {
-        $('#csModal').modal('show');
+        if(validation == 0){
+          $('#csModal').modal('show');
+          validation = 1;
+        }
       })
     });
 
