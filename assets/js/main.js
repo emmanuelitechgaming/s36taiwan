@@ -491,25 +491,10 @@ $(document).ready(function () {
 
     $('.csmodal-forgot').click(function() {
       $('#myModal').modal('toggle');
-      $('#csModal').modal('toggle');
+      $('#myModal').on('hidden.bs.modal', function(e) {
+        $('#csModal').modal('show');
+      })
     });
-
-    $('#csMsg .csmodal-forgot').click(function() {
-      $('#csMsg').modal('toggle');
-      $('#csModal').modal('toggle');
-    });
-
-    $('#csModal').on('show.bs.modal', function() {
-      $('html').css('overflow', 'hidden');
-    });
-
-    $('#csModal').on('hide.bs.modal', function() {
-      $('html').css('overflow', 'auto');
-    })
-
-    $('#csModal').on('hidden.bs.modal', function() {
-      $('body').css('padding-right', '0px');
-    })
 
     $('.promo-heart a img').hover(function() {
       $(this).attr('src', 'assets/img/Hearto_hover.png');
