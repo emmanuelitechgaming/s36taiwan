@@ -771,7 +771,7 @@
     }
     .lg-angel-demon img,
     .live-game.jigong img {
-        max-width: 103%;
+        max-width: 100%;
         margin-left: -10px !important
     }
     .live-game.jigong img {
@@ -2697,7 +2697,6 @@
         width: auto;
     }
     .gp .live-game img {
-        max-width: 85%;
         margin-top: 6px;
     }
     main .marquee {
@@ -3463,6 +3462,9 @@ margin-top: -18px;
     .slots-breadcrumb-inner .col-xs-12{
       width: 403px;
       height: 325px;
+    }
+    .live-games img{
+      max-width: 80%
     }
 }
 
