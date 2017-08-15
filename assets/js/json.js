@@ -6,7 +6,9 @@ $(document).ready(function(){
 				'簡体中文'
 			],
 			'flag': 'flag-icon-cn',
-			'link': 'cn/'
+			'link': [
+				'cn/'
+			]
 		},
 		{
 			'country_name': '台灣',
@@ -14,7 +16,9 @@ $(document).ready(function(){
 				'繁體中文'
 			],
 			'flag': 'flag-icon-tw',
-			'link': '#'
+			'link': [
+				'#'
+			]
 		},
 		{
 			'country_name': '日本国',
@@ -22,7 +26,9 @@ $(document).ready(function(){
 				'日本語'
 			],
 			'flag': 'flag-icon-jp',
-			'link': '#'
+			'link': [
+				'jp/'
+			]
 		},
 		{
 			'country_name': 'UK',
@@ -30,7 +36,9 @@ $(document).ready(function(){
 				'English'
 			],
 			'flag': 'flag-icon-um',
-			'link': 'en/'
+			'link': [
+				'en/'
+			]
 		},
 		{
 			'country_name': 'Vietnam',
@@ -38,7 +46,9 @@ $(document).ready(function(){
 				'Tiếng Việt'
 			],
 			'flag': 'flag-icon-vn',
-			'link': '#'
+			'link': [
+				'#'
+			]
 		},
 		{
 			'country_name': 'Indonesia',
@@ -46,7 +56,9 @@ $(document).ready(function(){
 				'Bahasa'
 			],
 			'flag': 'flag-icon-id',
-			'link': '#'
+			'link': [
+				'#'
+			]
 		},
 		{
 			'country_name': 'Malaysia',
@@ -56,7 +68,11 @@ $(document).ready(function(){
 				'繁體中文'
 			],
 			'flag': 'flag-icon-my',
-			'link': '#'
+			'link': [
+				'#',
+				'my-en',
+				'#'
+			]
 		},
 		{
 			'country_name': 'ไทย',
@@ -64,7 +80,9 @@ $(document).ready(function(){
 				'ภาษาไทย'
 			],
 			'flag': 'flag-icon-th',
-			'link': 'th/'
+			'link': [
+				'th/'
+			]
 		},
 		{
 			'country_name': 'India',
@@ -72,7 +90,9 @@ $(document).ready(function(){
 				'हिन्दी'
 			],
 			'flag': 'flag-icon-in',
-			'link': '#'
+			'link': [
+				'#'
+			]
 		}
 	];
 
@@ -87,11 +107,8 @@ $(document).ready(function(){
 	$('#drop .grey').each(function(){
 		var divNum = $(this).attr('data-value');
 		$(obj[divNum].languages).each(function(k,v){
-			if(v == "English"){
-				$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'><a href='en/'>"+ v +"</a></span>");
-			}else{
-				$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'><a href='"+ obj[divNum].link +"'>"+ v +"</a></span>");
-			}
+			console.log(k)
+				$('#country'+divNum+'>.language').append("<span class='language-span' style='margin-left: 25px; white-space: nowrap'><a href='"+ obj[divNum].link[k] +"'>"+ v +"</a></span>");
 		})
 	});
 
