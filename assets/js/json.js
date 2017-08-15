@@ -70,7 +70,7 @@ $(document).ready(function(){
 			'flag': 'flag-icon-my',
 			'link': [
 				'#',
-				'my-en',
+				'my-en/',
 				'#'
 			]
 		},
