@@ -1164,7 +1164,7 @@
         bottom: 0px;
     }
     .live-game-txtbb a {
-        left: 49px;
+        left: 45px;
         bottom: 1px;
     }
     .live-game-txtbc a {
@@ -1451,11 +1451,11 @@
         margin-top: 7px;
     }
     .live-game-txtba a {
-        left: 41px;
+        left: 40px;
         bottom: -4px;
     }
     .live-game-txtbb a {
-        left: 49px;
+        left: 46px;
         bottom: 0;
     }
     .live-game-txtbc a {
@@ -1463,7 +1463,7 @@
         bottom: -1px
     }
     .live-game-txtbd a {
-        left: 67px;
+        left: 57px;
         bottom: 0px;
     }
     .promotion-form-btn {
@@ -1639,14 +1639,14 @@
     }
     .live-game-txtbb a {
         bottom: -6px;
-        left: 49px;
+        left: 39px;
     }
     .live-game-txtbc a {
-        left: 62px;
+        left: 57px;
         bottom: -3px;
     }
     .live-game-txtbd a {
-        left: 71px;
+        left: 62px;
         bottom: -1px;
     }
     .i-roulette .live-game-txtc,
@@ -1898,18 +1898,18 @@
     }
     .live-game-txtba a {
         bottom: -2px;
-        left: 58px;
+        left: 53px;
     }
     .live-game-txtbb a {
         bottom: -1px;
-        left: 63px;
+        left: 53px;
     }
     .live-game-txtbc a {
-        left: 67px;
+        left: 63px;
         bottom: -1px;
     }
     .live-game-txtbd a {
-        left: 76px;
+        left: 67px;
         bottom: -0.5px;
     }
     .i-roulette .live-game-txtc,
@@ -2749,6 +2749,9 @@ margin-top: -18px;
     .casino-g img {
         margin: 0 0 10px;
     }
+    .casino-section .casino-g-img{
+      margin: 0 0 0
+    }
     .cta-seemore {
         bottom: 84px;
         right: 12px;
@@ -3466,6 +3469,9 @@ margin-top: -18px;
     }
     .top-games-tab-pane{
       padding-left: 15px;
+    }
+    .casino-mp{
+      margin-top: 10px
     }
 }
 
