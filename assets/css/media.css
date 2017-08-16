@@ -3618,17 +3618,17 @@ main .marquee {
 .live-game-txtb {
     font-size: 13px;
     letter-spacing: 1px;
-    bottom: 25px;
+    bottom: 23px;
 }
 .live-game-txtc {
     font-size: 13px;
     bottom: 25px;
 }
 .frut-popper .live-game-txtb {
-    bottom: 16px;
+    bottom: 15px;
 }
 .jigong .live-game-txtb {
-    bottom: 16px;
+    bottom: 15px;
 }
 .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
     bottom: 16px;
