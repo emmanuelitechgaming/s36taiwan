@@ -3129,16 +3129,16 @@ margin-top: -18px;
         top: 0px
     }
     .live-game-txtba a {
-        left: 1px;
+        left: -2px;
     }
     .live-game-txtbb a {
-        left: 4px;
+        left: 0px;
     }
     .live-game-txtbc a {
-        left: -6px;
+        left: -1px;
     }
     .live-game-txtbd a {
-        left: -2px;
+        left: -1px;
     }
     main .winner-cont {
         min-height: 303px;
@@ -3463,6 +3463,9 @@ margin-top: -18px;
     }
     .live-games img{
       max-width: 80%
+    }
+    .top-games-tab-pane{
+      padding-left: 15px;
     }
 }
 
