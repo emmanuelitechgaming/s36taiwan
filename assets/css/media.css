@@ -135,8 +135,16 @@
     .footer-img-m {
         padding-right: 15px
     }
-    .footer-img-m img {
-        width: 95%;
+    footer .footer-icon .footer-img-m img {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    footer .footer-icon .footer-img-m .col-xs-12 img{
+      width: 50%;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px
     }
     .footer-img-m .col-xs-12 img {
         width: 50%
@@ -155,7 +163,7 @@
     .remo-navbar-header .caret {
         margin-right: 4px
     }
-    .hamburger--spin.is-active .hamburger-inner:after {
+    /*.hamburger--spin.is-active .hamburger-inner:after {
         bottom: auto !important;
     }
     .hamburger-inner:before {
@@ -163,13 +171,13 @@
     }
     .hamburger-inner:after {
         bottom: -9px !important;
-    }
+    }*/
     .nathan-logo a {
         background-size: 100% 45% !important
     }
     .nav.navbar-nav {
         margin-left: -20px;
-        margin-right: -15PX;
+        /*margin-right: -15PX;*/
     }
     footer .footer-line {
         border-left: none;
@@ -763,7 +771,7 @@
     }
     .lg-angel-demon img,
     .live-game.jigong img {
-        max-width: 103%;
+        max-width: 100%;
         margin-left: -10px !important
     }
     .live-game.jigong img {
@@ -910,7 +918,7 @@
         padding: 0 10px
     }
     .mnav-afterlogin .notif {
-        right: 35px
+        right: 28px
     }
     .gp-live{
       top: 2px
@@ -926,6 +934,89 @@
     }
     #csMsg .form-recap, #csPhone .form-recap{
       margin-left: -15px;
+    }
+    .sp-btn-hidden{
+      display: block;
+      margin-bottom: 0;
+    }
+    .tdw-button{
+      display: block;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .tdw-button button{
+      display: block;
+      width: 100%;
+    }
+    .themorebaccarat{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .thebaccarat{
+      padding-right: 0;
+      padding-left: 0
+    }
+    .slots-tab-a li a{
+      padding: 5px 20px !important;
+    }
+    #myModalTab1-2 .form-recap{
+      position: relative;
+      left: 0;
+    }
+    .absolute-play-casino{
+      width: 60px;
+      height: 60px;
+    }
+    .cta-casino .absolute-play{
+      left: auto;
+      right: 14%;
+      top: 25%
+    }
+    .username-availability{
+      margin-top: 10px
+    }
+    .selectpicker2-menu ul li .country a{
+      font-size: 13px;
+    }
+    .selectpicker2-menu .languages a{
+      font-size: 10px;
+    }
+    .selectpicker2-menu ul li .country a{
+      min-width: 65px;
+    }
+    .mnav-top ul li {
+        width: 35%;
+    }
+    .mnav-top ul li:nth-child(1), .mnav-top ul li:nth-child(4){
+      width: 15%;
+    }
+    .mnav-top ul li:nth-child(4) img{
+      margin-left: 35%;
+    }
+    .mnav-top ul li:nth-child(2) img{
+      margin-left: 45%
+    }
+    .mnav-top ul li:nth-child(3) img{
+      margin-right: 45%;
+    }
+    .mnav-afterlogin ul li{
+      width: 22.66%;
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
+      width: 22.6%;
+    }
+    .mnav-afterlogin ul li:nth-child(2) img{
+      margin-left: auto;
+    }
+    .mnav-afterlogin ul li:nth-child(3) img{
+      margin-right: auto;
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
+      width: 16%
+    }
+    .mnav-afterlogin ul li:nth-child(5) img{
+      margin-left: 35%;
     }
 }
 
@@ -1112,11 +1203,43 @@
         width: 295px !important;
     }
     .mnav-afterlogin .notif {
-        right: 40px
+        right: 32px
     }
     .notice-dialog .modal-title{
       margin-left: 20%;
       margin-right: 20%;
+    }
+    .cta-casino .absolute-play{
+      top: 21%
+    }
+    .selectpicker2-menu ul li .country a{
+      font-size: 14px;
+    }
+    .selectpicker2-menu .languages a{
+      font-size: 11px;
+      margin: 0 12px
+    }
+    .selectpicker2-menu ul li .country a{
+      min-width: 80px;
+    }
+    .mnav-afterlogin ul li{
+      width: 23.33%;
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
+      width: 23.33%;
+    }
+    .mnav-afterlogin ul li:nth-child(2) img{
+      margin-left: 40%;
+    }
+    .mnav-afterlogin ul li:nth-child(3) img{
+      margin-right: auto;
+      margin-left: 40%
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
+      width: 15%
+    }
+    .mnav-afterlogin ul li:nth-child(5) img{
+      margin-left: 40%;
     }
 }
 
@@ -1372,6 +1495,24 @@
         margin-left: 45px;
         margin-right: 45px
     }
+    #myModalTab1-2 .form-recap{
+      left: -23px;
+    }
+    .absolute-play-casino{
+      width: 70px;
+      height: 70px;
+    }
+    .cta-casino .absolute-play{
+      top: 20%
+    }
+    .selectpicker2-menu ul li .country a{
+      font-size: 15px;
+      margin-left: 30px
+    }
+    .selectpicker2-menu .languages a{
+      font-size: 13px;
+      margin: 0 10px
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1545,7 +1686,7 @@
         margin-right: 65px
     }
     .mnav-afterlogin .notif {
-        right: 47px
+        right: 38px
     }
     .gp-star {
       position: relative;
@@ -1554,6 +1695,47 @@
     .notice-dialog .modal-title{
       margin-left: 25%;
       margin-right: 25%;
+    }
+    .cta-casino .absolute-play{
+      top: 30%
+    }
+    .selectpicker2-menu .languages a{
+      font-size: 13px;
+      margin: 0 13px
+    }
+    .mnav-top ul li {
+        width: 37%;
+    }
+    .mnav-top ul li:nth-child(1), .mnav-top ul li:nth-child(4){
+      width: 13%;
+    }
+    .mnav-top ul li:nth-child(4) img{
+      margin-left: 40%;
+    }
+    .mnav-top ul li:nth-child(2) img{
+      margin-left: 55%
+    }
+    .mnav-top ul li:nth-child(3) img{
+      margin-right: 55%;
+    }
+    .mnav-afterlogin ul li{
+      width: 24.66%;
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
+      width: 24.66%;
+    }
+    .mnav-afterlogin ul li:nth-child(2) img{
+      margin-left: 40%;
+    }
+    .mnav-afterlogin ul li:nth-child(3) img{
+      margin-right: auto;
+      margin-left: 40%
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
+      width: 13%
+    }
+    .mnav-afterlogin ul li:nth-child(5) img{
+      margin-left: 40%;
     }
 }
 
@@ -1760,6 +1942,33 @@
         position: fixed;
         cursor: pointer;
         bottom: 1px;
+    }
+    .mnav-top ul li {
+        width: 25%;
+    }
+    .mnav-top ul li:nth-child(1), .mnav-top ul li:nth-child(4){
+      width: 25%;
+    }
+    .mnav-top ul li:nth-child(2) img{
+      margin-left: auto;
+    }
+    .mnav-top ul li:nth-child(3) img{
+      margin-right: auto;
+    }
+    .mnav-afterlogin ul li{
+      width: 20%;
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
+      width: 20%;
+    }
+    .mnav-afterlogin ul li:nth-child(2) img{
+      margin-left: auto;
+    }
+    .mnav-afterlogin ul li:nth-child(3) img{
+      margin-right: auto;
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
+      width: 20%
     }
 }
 
@@ -2019,6 +2228,9 @@
       margin-left: 30%;
       margin-right: 30%;
     }
+    .cta-casino .absolute-play{
+      right: 24%
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -2102,6 +2314,9 @@
     }
     .promo-heart {
         right: 93px;
+    }
+    .cta-casino .absolute-play{
+      right: 27%
     }
 }
 
@@ -2263,6 +2478,9 @@
     .promo-heart {
         right: 138px;
     }
+    .cta-casino .absolute-play {
+       right: 30%;
+    }
 }
 
 @media only screen and (min-width: 736px) {
@@ -2352,6 +2570,17 @@
     .m-fsalon ul li:nth-child(2) img {
         margin: auto 32%;
     }
+    .contactus ul{
+
+      padding-left: -5px;
+    }
+    .contactus ul li {
+      padding: 7.8px 0;
+      font-size: 15px;
+  }
+  .cta-casino .absolute-play{
+    right: 30%
+  }
 }
 
 
@@ -2368,9 +2597,9 @@
     .modal-panel-dialog {
         width: 400px!important;
     }
-    .container {
+    /*.container {
         width: 768px;
-    }
+    }*/
     .panel-heading select {
         background-size: 3% 30%
     }
@@ -2416,12 +2645,34 @@
     .rss-field .form-group:nth-child(2) {
         width: 80.6%
     }
+    .contactus ul li {
+      padding: 7.8px 0;
+      font-size: 15px;
+      padding-left: 15px;
+  }
+  /*.casino-g-img{
+    height: 186px;
+  }*/
 }
 
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {
+  .bs-slider-overlay {
+      position: absolute;
+      bottom: 13px;
+      right: 26%;
+  }
+  .contactus ul li {
+    padding: 7.8px 0;
+    font-size: 12px;
+    padding-left: 0;
+}
+  .container {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 20px;
     }
@@ -2446,18 +2697,19 @@
         width: auto;
     }
     .gp .live-game img {
-        max-width: 85%;
         margin-top: 6px;
     }
     main .marquee {
-        bottom: 10px;
-        width: 280px;
+      bottom: 10px;
+width: 360px;
     }
     .nathan-logo a {
         background-size: 100% 67% !important
     }
     header .logo a {
-        width: 184px;
+      width: 253px;
+height: 70px;
+margin-top: -18px;
     }
     .header-mobile-logo {
         margin-left: 0px
@@ -2500,7 +2752,7 @@
         margin: 0 0 10px;
     }
     .cta-seemore {
-        bottom: 112px;
+        bottom: 84px;
         right: 12px;
     }
     .casino-more {
@@ -2701,19 +2953,19 @@
         margin: 10px 240px;
     }
     .live-game-txtb {
-        font-size: 15px;
-        letter-spacing: 1px;
-        bottom: 23px;
+      font-size: 11px;
+      letter-spacing: 1px;
+      bottom: 18px;
     }
     .frut-popper .live-game-txtb {
-        bottom: 15px
+        bottom: 11px
     }
     .jigong .live-game-txtb {
-        bottom: 14px;
+        bottom: 11px;
     }
     .live-game-txtc {
-        font-size: 15px;
-        bottom: 24px;
+      font-size: 11px;
+      bottom: 18px;
     }
     .wallet .datepicker {
         width: 22.7% !important
@@ -2789,7 +3041,7 @@
         width: auto
     }
     .rss-field .form-group:nth-child(1) input {
-        width: 250px !important
+        width: 125px !important
     }
     .slots-info {
         right: 118px;
@@ -2838,17 +3090,17 @@
         width: 700px;
     }
     .jumbo {
-        left: 268px;
-        top: 31px;
-        font-size: 28px;
-        letter-spacing: 11.5px;
+      left: 116px;
+      top: 16px;
+      font-size: 26px;
+      letter-spacing: -0.5px;
     }
     #myModalTab1-2 .form-captcha {
-        margin-top: 20%
+        margin-top: 0
     }
     .absolute-play {
-        left: 42%;
-        top: 25%;
+        left: 38%;
+        top: 20%;
     }
     .pc-ver-cas {
         left: 46%;
@@ -2860,7 +3112,6 @@
     .win-lot-top-games .prizepool {
         font-size: 12px;
         white-space: nowrap;
-        margin-left: auto;
     }
     main .win-game img {
         bottom: -3px;
@@ -2870,7 +3121,7 @@
     .i-roulette .live-game-txtc,
     .i-fantan .live-game-txtc,
     .i-sicbo .live-game-txtc {
-        bottom: 14px;
+        bottom: 11px;
     }
     .live-game-txtba a,
     .live-game-txtbb a,
@@ -2967,16 +3218,19 @@
         max-width: 100%;
     }
     .contactus ul li span {
-        margin-left: 30px;
+        margin-left: 18px;
     }
     .contactus {
         padding: 5px 20px;
     }
     .contactus ul li:nth-child(2) span {
-        margin-left: 31px;
+        margin-left: 18px;
     }
     .contactus ul li:nth-child(3) span {
-        margin-left: 31px
+        margin-left: 18px
+    }
+    .contactus ul li:last-child span {
+        margin-left: 15px
     }
     #myModal .pull-right .modal-bottom {
         position: absolute;
@@ -3023,7 +3277,7 @@
         margin-top: auto;
     }
     .lg-playnow {
-        font-size: 19px;
+        font-size: 17px;;
     }
     .lg-playnow.login-modal-a img {
         width: 24px;
@@ -3031,7 +3285,7 @@
         bottom: 1px;
     }
     .lg-playnow {
-        bottom: 15.4%;
+        bottom: 14%;
     }
     .promotion-form-btn2 {
         margin-bottom: auto;
@@ -3073,10 +3327,10 @@
     header {
         background: url('../img/casino-bg.png');
         background-repeat: no-repeat;
-        background-position-x: 680px;
+        background-position-x: 45%;
     }
     main .marquee {
-        left: 98px;
+        left: 80px;
     }
     .gp-g .col-md-4:nth-child(1) a {
         padding-bottom: 0px;
@@ -3104,7 +3358,7 @@
         margin: 0px 10px 10px 9px;
     }
     #myModal #country-sel button {
-        background-position: 163px -6px;
+        background-position: 215px -6px;
     }
     .promo-heart {
         right: 8px;
@@ -3171,9 +3425,53 @@
     #csMsg .form-recap, #csPhone .form-recap{
       margin-left: -29px;
     }
+    .sp-btn-hidden{
+      display: inline-block;
+      padding: 6px 130px;
+      padding-right: 150px;
+      margin-bottom: 10px;
+    }
+    .tdw-button{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .tdw-button button{
+      display: inline-block;
+      width: auto;
+    }
+    /*.casino-g-img{
+      height: 186px;
+    }*/
+    .themorebaccarat{
+      padding-left: 0;
+      padding-right: 15px;
+    }
+    .thebaccarat{
+      padding-right: 0;
+      padding-left: 15px
+    }
+    #myModalTab1-2 .form-recap{
+      left: -13px;
+    }
+    .username-availability{
+      padding-left: 0;
+    }
+    .username-availability{
+      margin-top: 0
+    }
+    .slots-breadcrumb-inner .col-xs-12{
+      width: 403px;
+      height: 325px;
+    }
+    .live-games img{
+      max-width: 80%
+    }
 }
 
 @media only screen and (min-width: 1200px) {
+  .rss-field .form-group:nth-child(1) input {
+      width: 250px !important
+  }
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 20px;
     }
@@ -3216,9 +3514,9 @@
         width: 40px;
         height: 24px
     }
-    .container {
+    /*.container {
         width: 1250px;
-    }
+    }*/
     .lotto-header {
         padding: 11px;
         background: transparent;
@@ -3305,4 +3603,74 @@
     footer .footer-shareit img {
         width: 132px;
     }
+    .contactus ul {
+        padding-left: 15px;
+    }
+    .contactus ul li {
+    padding: 7.8px 0;
+        padding-left: 0px;
+    font-size: 14px;
+    padding-left: 0;
 }
+main .marquee {
+    left: 95px;
+}
+.live-game-txtb {
+    font-size: 13px;
+    letter-spacing: 1px;
+    bottom: 25px;
+}
+.live-game-txtc {
+    font-size: 13px;
+    bottom: 25px;
+}
+.frut-popper .live-game-txtb {
+    bottom: 16px;
+}
+.jigong .live-game-txtb {
+    bottom: 16px;
+}
+.i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
+    bottom: 16px;
+}
+.bs-slider-overlay {
+    position: absolute;
+    bottom: 48px;
+    right: 29%;
+}
+.cta-seemore {
+    bottom: 112px;
+    right: 12px;
+}
+.lg-playnow {
+    bottom: 15%;
+}
+.lg-playnow {
+    font-size: 18px;
+}
+.absolute-play {
+    left: 42%;
+    top: 25%;
+}
+.cta-casino .absolute-play{
+  left: auto;
+  right: 42%;
+  top: 30%
+}
+.cta-casino .absolute-play.pc-ver-cas{
+  right: 45%;
+}
+.absolute-play-casino{
+  width: auto;
+  height: auto;
+}
+}
+
+/*@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .container{
+    width: 1024px;
+  }
+}*/

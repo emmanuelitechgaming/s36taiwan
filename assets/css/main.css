@@ -147,9 +147,9 @@ header .navbar-cta-btn a {
     margin-top: -5px;
 }
 
-header .hamburger {
+/*header .hamburger {
     padding: 2px 10px!important;
-}
+}*/
 
 header .btn {
     margin: 0 5px;
@@ -247,8 +247,10 @@ main .s36border {
     transition-property: transform;
     transition-property: transform, -webkit-transform;
     border-radius: 4px;
-    background-color: #a7a7a7!important;
+    background-color: #fbfbfb!important;
 }
+
+
 
 .btn-default:hover,
 .btn-default:focus,
@@ -714,10 +716,10 @@ div.border:before {
     border: 1px solid transparent;
 }
 
-.navbar .nav-active,
+/*.navbar .nav-active,
 .navbar-nav > li:hover {
     background: rgba(255, 255, 255, 0.1);
-}
+}*/
 
 .navbar .nav-active a {
     color: #fba601!important;
@@ -1600,6 +1602,17 @@ p {
     margin-bottom: 10px;
 }
 
+.sp-btn-hidden{
+  border-radius: 0;
+  font-size: 19px;
+  background: url('../img/sp/reg-btn-bg.png') repeat-x;
+  background-size: contain;
+}
+
+.sp-btn-hidden:hover{
+  text-decoration: none
+}
+
 .btn-hidden-ph2p2, .btn-hidden-dh2p2{
   padding: 6px 25px;
   padding-right: 55px;
@@ -1608,6 +1621,10 @@ p {
 .promotion-form .btn-hidden{
   display: block;
   width: 100%
+}
+
+.promotion-form select{
+  outline: 0;
 }
 
 .btn-hidden::after{
@@ -1624,6 +1641,10 @@ p {
 
 .btn-hidden-hover::after{
   background: url('../img/arrow-right-hover.png') no-repeat;
+}
+
+.sp-btn-hidden::after{
+  top: 8px
 }
 
 .acc-info .acc-lbl {
@@ -2207,15 +2228,11 @@ input[type=password]:hover {
 }
 
 .columns .list {
-    width: 70px;
+    width: 90px;
 }
 
 .columns .list a:hover {
     color: #fba601
-}
-
-.columns .list-s {
-    width: 87px;
 }
 
 .footer .sub {
@@ -2283,9 +2300,9 @@ input[type=password]:hover {
     padding-top: 20px;
 }
 
-header .nathan-hamburger-hm-d {
+/*header .nathan-hamburger-hm-d {
     margin-right: 20px;
-}
+}*/
 
 .lang-c .col-xs-1 {
     width: 9.333%;
@@ -2754,33 +2771,45 @@ select + i.fa {
 }
 
 .selectpicker2-menu {
-    padding: 10px;
+    padding: 10px 0;
     margin: 0px auto;
     border-radius: 0;
     background: #2a2a2a;
     border: 1px solid #4a4a4a
 }
 
-.selectpicker2-menu a {
-    display: block;
-    width: 100%;
-    text-decoration: none;
-    color: #333;
-    padding: 15px 0;
-    font-weight: 700;
-    padding-left: 15px;
-    border-bottom: 1px solid transparent;
-    color: #fff
+.selectpicker2-menu ul li{
+  display: block;
+  float: none;
+  padding: 15px 0
 }
 
-.selectpicker2-menu a:nth-child(even) {
-    background: #1b1b1b
+.selectpicker2-menu ul li:nth-child(even){
+  background: #1b1b1b
 }
 
+.selectpicker2-menu ul li div{
+  display: inline-block;
+}
 
-/*.selectpicker2-menu a:hover{
-  background: #333333
-}*/
+.selectpicker2-menu ul li .flag-icon{
+  margin-left: 10px
+}
+
+.selectpicker2-menu ul li .flag-icon::before{
+  bottom: 0
+}
+
+.selectpicker2-menu ul li a{
+  color: #fff;
+  margin: 0 10px;
+}
+
+.selectpicker2-menu ul li .country a{
+  display: inline-block;
+  font-weight: 700;
+  margin-left: 15px;
+}
 
 .selectpicker2-sub {
     font-size: 13px;
@@ -2978,7 +3007,7 @@ span.round-tab i {
 }
 
 .cs-modal .close,
-#noticeModal .close {
+#noticeModal .close, #afterloginNoticeModal .close {
     opacity: 1;
     font-size: 40px;
     color: #fff;
@@ -2992,7 +3021,7 @@ span.round-tab i {
 }
 
 .cs-modal .close:hover,
-#noticeModal .close:hover {
+#noticeModal .close:hover, #afterloginNoticeModal .close:hover {
     opacity: 1
 }
 
@@ -3069,6 +3098,10 @@ span.round-tab i {
     line-height: 5px;
     color: rgba(26, 26, 26, 0.8);
     text-shadow: 1px 1px rgb(255, 214, 135)!important;
+}
+
+#csPhone .chatserver-form button{
+  text-shadow: none !important;
 }
 
 .cs-modal .chatserver-form span {
@@ -3566,7 +3599,8 @@ footer .browsers li:first-child {
 .cntry {
     color: #fff;
     margin-left: 25px;
-    width: 107px;
+    display: inline-block;
+    min-width: 75px;
 }
 
 .lotto-tabs>li>a {
@@ -4427,6 +4461,11 @@ left: 47%;
     color: #FFFFFF;
 }
 
+.language-span{
+  display: inline-block;
+  min-width: 55px
+}
+
 .drop {
     display: none !important;
     margin: 0;
@@ -4436,7 +4475,7 @@ left: 47%;
     font-size: .75em;
     cursor: pointer;
     min-width: 150px;
-    right: 348px;
+    right: 341px;
     top: 28px;
     padding: 10px;
     border: 1px solid #4a4a4a
@@ -4469,7 +4508,7 @@ left: 47%;
     padding: 6px 4px 5.5px;
     cursor: pointer;
     min-width: 230px;
-    width: 240px;
+    width: 426px;
     background: #1B1B1B;
     display: block;
     position: relative;
@@ -4497,7 +4536,7 @@ left: 47%;
     font-weight: 700;
 }
 
-.language-picker .language span {
+.language-picker .language span a {
     font-size: 12px;
     font-weight: 400;
     color: #fff
@@ -5441,15 +5480,19 @@ div.cta-contact-info a {
 
 .mnav-top ul li {
     display: inline-block;
-    width: 33.33%;
     text-align: center;
     float: none;
     margin-left: -4px
 }
 
 .mnav-afterlogin ul li {
-    width: 25%;
+    width: 20%;
     vertical-align: bottom;
+}
+
+.mnav-afterlogin ul li .hamburger{
+  position: relative;
+  top: 4px
 }
 
 .mnav-top ul li a {
@@ -5478,11 +5521,7 @@ div.cta-contact-info a {
     font-size: 11px
 }
 
-.bs-slider-overlay {
-    position: absolute;
-    bottom: 48px;
-    right: 555px;
-}
+
 
 #myModal .nav-tabs li span img {
     width: 15px;
@@ -5525,7 +5564,6 @@ div.cta-contact-info a {
 }
 
 .fsalon.d-fsalon {
-    white-space: nowrap;
 }
 
 .d-fsalon span {
@@ -6164,11 +6202,11 @@ main .win-lot-top-games {
     margin: 0;
     padding: 0;
     list-style: none;
-    padding-left: 15px;
 }
 
 .contactus ul li {
-    padding: 7.8px 0
+    padding: 7.8px 0;
+    padding-left:15px;
 }
 
 .contactus ul li span {
@@ -6306,10 +6344,15 @@ main .win-lot-top-games {
 #csMsg .close,
 #demoModal .close,
 #csPhone .close,
-#pay-statement .close {
+#pay-statement .close,
+#afterloginNoticeModal .close {
     position: absolute;
     top: 0;
     right: -10px;
+}
+
+#afterloginNoticeModal .close{
+  right: 10px;
 }
 
 .top-header-clock img {
@@ -6608,7 +6651,7 @@ div.acc-info.acc-edit div.acc-cont input {
     content: ' ';
     display: inline-block;
     position: relative;
-    background: url('../img/flags/china.png') no-repeat;
+    background: url('../img/flags/taiwan.png') no-repeat;
     background-size: cover;
 }
 
@@ -6805,6 +6848,9 @@ div.acc-info.acc-edit div.acc-cont input {
 .flagstrap-jp {
     background: url('../img/flags/japan.png');
 }
+.flagstrap-um {
+    background: url('../img/flags/uk.png');
+}
 
 .flagstrap-in {
     background: url('../img/flags/india.png');
@@ -6816,6 +6862,7 @@ div.acc-info.acc-edit div.acc-cont input {
 .flagstrap-id,
 .flagstrap-my,
 .flagstrap-th,
+.flagstrap-um,
 .flagstrap-jp,
 .flagstrap-in {
     background-position: -208px -16px !important;
@@ -6975,9 +7022,9 @@ div.acc-info.acc-edit div.acc-cont input {
     height: 28px;
 }
 
-.footer-icon.f-social .hidden-sm.hidden-xs img {
+/*.footer-icon.f-social .hidden-sm.hidden-xs img {
     width: 180px;
-}
+}*/
 
 .btn-yellow {
     background: url('../img/yellow-btn.png') repeat-x #fba601;
@@ -7298,10 +7345,19 @@ div.acc-info.acc-edit div.acc-cont input {
     color: #fba601;
 }
 
+.tooltip{
+  top: -2px !important;
+}
+
+.tooltip.left .tooltip-arrow{
+  right: 3px;
+  margin-top: -4px
+}
+
 .tooltip > .tooltip-inner {
     position: relative;
-    top: 5px;
-    right: 5px
+    top: 10px;
+    right: 7px
 }
 
 .cs-modal .chatserver-form button.select-country-code {
@@ -7491,9 +7547,11 @@ div.acc-info.acc-edit div.acc-cont input {
 }
 .f-toggle{
   display: inline-block;
+  margin: 10px 0;
 border: 1px solid #484848;
 padding: 10px 20px!important;
 padding-right: 70px !important;
+padding-top: 25px!important;
 position: relative;
 
 }
@@ -7502,6 +7560,7 @@ a.fcsd{
   color:#5f5f5f !important;
   position: absolute;
   right: 10px;
+  top: 1px;
 }
 
 
@@ -7527,7 +7586,7 @@ a.fcsd{
   display: inline-block;
   width: 13px;
   height: 13px;
-  margin-right: 8px
+margin-right: 23px;
 }
 .myaccount-gender.gender-male{
   background: url('../img/winner/gender-male2.png') no-repeat;
@@ -7536,4 +7595,171 @@ a.fcsd{
 .myaccount-gender.gender-female{
   background: url('../img/winner/gender-female2.png') no-repeat;
   background-size: contain;
+}
+#myModalTab1-2 .checkbox{
+  padding-left: 20px;
+}
+/*.cta-casino .casino-g-img{
+  border: solid 1px #3b3b3b
+}*/
+.username-availability{
+  font-size: 12px;
+  color: #fba601;
+  position: relative;
+  top: 5px;
+}
+.username-availability button{
+  background: url('../img/yellow-btn.png');
+  color: #000;
+  border: none;
+  border-radius: 3px;
+  padding: 4px 8px
+}
+.username-availability div{
+  display: inline-block;
+  margin-left: 10px
+}
+#myModalTab1-2 .fa-pencil{
+  color: #fba601;
+  position: relative;
+  top: 9px;
+  left: -10px
+}
+.slots-swiper-container{
+  border-bottom: solid 1px #fba601;
+  padding-bottom: 10px;
+}
+.slots-swiper-container .swiper-slide a{
+  background: #2a2a2a;
+  color: #fff
+}
+.slots-swiper-container .swiper-wrapper div:first-child{
+  border-left: none
+}
+.slots-swiper-container .swiper-slide{
+  width: auto !important;
+  margin-right: 10px !important;
+}
+.slots-swiper-container .swiper-slide a.active{
+  color: #000;
+  background: #fba601;
+  text-shadow: none;
+}
+.slots-swiper-container .swiper-slide a:active, .slots-swiper-container .swiper-slide a:focus, .slots-swiper-container .swiper-slide a:hover{
+  text-decoration: none
+}
+.modal-dialog.notice-dialog th{
+  text-align: center;
+}
+.nav-slide{
+  position: absolute;
+  z-index: 98999;
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+}
+.nav-slide li{
+  float: none;
+}
+
+.nav-slide-inner{
+  background: rgba(21,21,21,0.9);
+}
+
+.nav-slide .navbar-nav a,.nav-slide .navbar-nav a:hover,.nav-slide .navbar-nav a:focus{
+  width: 100%;
+  display: block;
+  font-size: 17px;
+  border-bottom: 1px dotted #352a31;
+  color: #908c8e;
+  height: 50px;
+  -webkit-transition-duration: .25s,.25s;
+  -webkit-transition-timing-function: linear,linear;
+  cursor: pointer;
+  -webkit-transition-property: border-color,color;
+  background-color: rgba(0,0,0,0);
+  line-height: 38px;
+  padding: 5px 39px !important;
+}
+.nav-slide-inner li a{
+  margin-left: 15px;
+}
+.promotion-form  select.form-control  , input.form-control{
+  background: #333333!important;
+  border: 2px solid #333333!important;
+  border-bottom-width: 2px!important;
+  border-bottom-style: solid!important;
+  border-bottom-color: rgb(51, 51, 51)!important;
+  border-bottom-width: 2px!important;
+  border-bottom-style: solid!important;
+  border-bottom-color: rgb(51, 51, 51)!important;
+  border-bottom-width: 2px!important;
+  border-bottom-style: solid!important;
+  border-bottom-color: black!important;
+  border-radius: 3px!important;
+  outline: none!important;
+  color: #A4A4A4!important;
+  border-bottom: none!important;
+}
+
+.promotion-form .offer-dropdown button{
+  display: block;
+  width: 100%;
+  padding: 7px 15px;
+  background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
+  background-size: contain;
+  background-position-x: 100%;
+  border: none;
+  border-radius: 3px;
+  color: #a4a4a4;
+  text-align: left;
+  outline: 0;
+}
+.promotion-form .offer-dropdown .dropdown-menu{
+  background: #333;
+  width: 100%;
+  max-height: 350px;
+  overflow-y: auto;
+}
+.promotion-form .offer-dropdown .dropdown-menu a{
+  color: #a4a4a4
+}
+/*.img-wrap {
+	float:left;
+}*/
+.img-wrap img{
+	vertical-align:bottom;
+}
+.img-wrap:hover{
+  border:0;
+  z-index: 1;
+}
+.img-wrap:hover {
+	border:0;
+	z-index:1;
+}
+.img-wrap .hover-img {
+  border: 1px solid #ffb601;
+  position: absolute;
+  z-index: 9;
+  top: 16px;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.8);
+  box-shadow: 0 0 30px 0 rgba(0,0,0,.8);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform .3s,opacity .3s;
+  -webkit-transition: opacity .3s,-webkit-transform .3s;
+  transition: opacity .3s,-webkit-transform .3s;
+  transition: transform .3s,opacity .3s;
+  transition: transform .3s,opacity .3s,-webkit-transform .3s;
+
+}
+.img-wrap:hover .hover-img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+.img-wrap:hover .hover-img img{
+    margin-bottom: 0px;
 }
