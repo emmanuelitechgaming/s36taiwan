@@ -652,7 +652,7 @@ footer .copyright span {
     color: #5e5e5e;
     font-size: 14px;
     font-weight: 700;
-    margin: 10px 5px;
+    margin: 10px 6px;
     vertical-align: middle;
 }
 
@@ -5594,7 +5594,7 @@ div.cta-contact-info a {
 }
 
 .d-fsalon span:nth-child(1) {
-    margin-left: -8px
+    margin-left: 0
 }
 
 .m-fsalon ul li:nth-child(6) {
@@ -7762,4 +7762,15 @@ margin-right: 23px;
 }
 .img-wrap:hover .hover-img img{
     margin-bottom: 0px;
+}
+.d-fsalon #compat img{
+  margin: 0 0;
+}
+.d-fsalon span:nth-child(5){
+  margin-right: 0;
+  margin-left: 9.5px;
+}
+footer .footer-icon .hidden-sm.hidden-xs img{
+  position: relative;
+  left: 1px
 }
