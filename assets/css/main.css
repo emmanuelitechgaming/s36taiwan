@@ -7780,11 +7780,14 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(2){
   left: 2px;
 }
 footer .footer-icon .hidden-sm.hidden-xs img:nth-child(3){
-  left: 11px;
+  left: 8px;
 }
 footer .footer-icon .hidden-sm.hidden-xs img:nth-child(4){
-  left: 16px;
+  left: 13px;
 }
 footer .footer-icon .hidden-sm.hidden-xs img:nth-child(5){
+  left: 18px;
+}
+footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   left: 21px;
 }
