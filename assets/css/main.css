@@ -939,7 +939,7 @@ div.border:before {
 }
 
 .panel.with-nav-tabs .panel-heading {
-    padding: 5px 35px 0 35px;
+    padding: 5px 20px 0 20px;
 }
 
 .panel.with-nav-tabs .nav-tabs {
@@ -6063,7 +6063,7 @@ main .win-lot-top-games {
 .promo-tabs-border {
     border-bottom: 1px solid #fba601;
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 5px;
 }
 
