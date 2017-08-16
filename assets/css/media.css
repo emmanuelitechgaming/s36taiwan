@@ -3137,10 +3137,10 @@ margin-top: -18px;
         left: 6px;
     }
     .live-game-txtbc a {
-        left: 5px;
+        left: -6px;
     }
     .live-game-txtbd a {
-        left: 6px;
+        left: -2px;
     }
     main .winner-cont {
         min-height: 303px;
@@ -3650,7 +3650,7 @@ main .marquee {
 }
 .absolute-play {
     left: 42%;
-    top: 25%;
+    top: 23%;
 }
 .cta-casino .absolute-play{
   left: auto;
