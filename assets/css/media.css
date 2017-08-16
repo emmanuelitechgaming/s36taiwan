@@ -2749,6 +2749,9 @@ margin-top: -18px;
     .casino-g img {
         margin: 0 0 10px;
     }
+    .casino-section .casino-g-img{
+      margin: 0 0 0
+    }
     .cta-seemore {
         bottom: 84px;
         right: 12px;
@@ -3466,6 +3469,9 @@ margin-top: -18px;
     }
     .top-games-tab-pane{
       padding-left: 15px;
+    }
+    .casino-mp{
+      margin-top: 10px
     }
 }
 
