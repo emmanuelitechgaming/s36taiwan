@@ -668,19 +668,19 @@
     }
       .live-game-txtba a {
         left: 45px;
-        bottom: -3px
+        bottom: -13px
     }
     .live-game-txtbb a {
-        left: 43px;
-        bottom: -2px;
+        left: 39px;
+        bottom: -1px;
     }
     .live-game-txtbc a {
-        left: 48px;
-        bottom: -3px;
+        left: 50px;
+        bottom: -7px;
     }
     .live-game-txtbd a {
         left: 52px;
-        bottom: 0px
+        bottom: -5px
     }
     .i-roulette .live-game-txtc,
     .i-fantan .live-game-txtc,
@@ -1021,6 +1021,9 @@
       bottom: 12px;
       right: 10px;
     }
+    .live-game-txtca, .live-game-txtcb{
+      bottom: 5px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1167,7 +1170,7 @@
     }
     .live-game-txtba a {
         left: 49px;
-        bottom: 0px;
+        bottom: -11px;
     }
     .live-game-txtbb a {
         left: 45px;
