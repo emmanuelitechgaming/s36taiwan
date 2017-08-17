@@ -769,6 +769,12 @@ $(function() {
     },function() {
         $(this).attr("src","assets/img/footer/PanDelta.png");
     });
+    $('#fg6').hover(
+      function() {
+        $(this).attr("src","assets/img/footer/Mcube-hover.png");
+    },function() {
+        $(this).attr("src","assets/img/footer/Mcube.png");
+    });
 
     $('#fg4').hover(
       function() {
