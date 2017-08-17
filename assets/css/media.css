@@ -3476,7 +3476,7 @@ margin-top: -18px;
     .top-games-tab-pane{
       padding-left: 15px;
     }
-    .casino-mp{
+    .casino-mp, .slots-mp{
       margin-top: 10px
     }
     .live-game.jigong, .live-game.frut-popper{
@@ -3651,9 +3651,12 @@ main .marquee {
     font-size: 13px;
     bottom: 25px;
 }
-/*.live-game-txtcb{
+.live-game-txtca{
   bottom: 11px
-}*/
+}
+.live-game-txtcb{
+  bottom: 12px
+}
 .frut-popper .live-game-txtb {
     bottom: 8px;
 }
