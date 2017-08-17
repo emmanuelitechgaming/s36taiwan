@@ -652,7 +652,7 @@ footer .copyright span {
     color: #5e5e5e;
     font-size: 14px;
     font-weight: 700;
-    margin: 10px 5px;
+    margin: 10px 6px;
     vertical-align: middle;
 }
 
@@ -939,7 +939,7 @@ div.border:before {
 }
 
 .panel.with-nav-tabs .panel-heading {
-    padding: 5px 35px 0 35px;
+    padding: 5px 20px 0 20px;
 }
 
 .panel.with-nav-tabs .nav-tabs {
@@ -2802,7 +2802,7 @@ select + i.fa {
 
 .selectpicker2-menu ul li a{
   color: #fff;
-  margin: 0 10px;
+  margin: 0 8px;
 }
 
 .selectpicker2-menu ul li .country a{
@@ -5103,23 +5103,23 @@ div.cta-contact-info a {
 }
 
 .gp-g .col-md-4:nth-child(2) a {
-    padding-left: 10px;
+    padding-left: 0;
 }
 
 .gp-g .col-md-4:nth-child(3) a {
-    padding-left: 15px;
+    padding-left: 0;
 }
 
 .gp-g .col-md-4:nth-child(4) a {
-    padding-left: 4px;
+    padding-left: 0;
 }
 
 .gp-g .col-md-4:nth-child(5) a {
-    padding-left: 14px;
+    padding-left: 0;
 }
 
 .gp-g .col-md-4:nth-child(6) a {
-    padding-left: 11px;
+    padding-left: 0;
 }
 
 #myModal .close {
@@ -5594,7 +5594,7 @@ div.cta-contact-info a {
 }
 
 .d-fsalon span:nth-child(1) {
-    margin-left: -8px
+    margin-left: 0
 }
 
 .m-fsalon ul li:nth-child(6) {
@@ -6063,7 +6063,7 @@ main .win-lot-top-games {
 .promo-tabs-border {
     border-bottom: 1px solid #fba601;
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 5px;
 }
 
@@ -7762,4 +7762,32 @@ margin-right: 23px;
 }
 .img-wrap:hover .hover-img img{
     margin-bottom: 0px;
+}
+.d-fsalon #compat img{
+  margin: 0 0;
+}
+.d-fsalon span:nth-child(5){
+  margin-right: 0;
+  margin-left: 9.5px;
+}
+footer .footer-icon .hidden-sm.hidden-xs img{
+  position: relative;
+}
+footer .footer-icon .hidden-sm.hidden-xs img:nth-child(1){
+  left: -2px;
+}
+footer .footer-icon .hidden-sm.hidden-xs img:nth-child(2){
+  left: 2px;
+}
+footer .footer-icon .hidden-sm.hidden-xs img:nth-child(3){
+  left: 8px;
+}
+footer .footer-icon .hidden-sm.hidden-xs img:nth-child(4){
+  left: 13px;
+}
+footer .footer-icon .hidden-sm.hidden-xs img:nth-child(5){
+  left: 18px;
+}
+footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
+  left: 21px;
 }
