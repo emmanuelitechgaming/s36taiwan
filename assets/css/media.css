@@ -3473,6 +3473,21 @@ margin-top: -18px;
     .casino-mp{
       margin-top: 10px
     }
+    .live-game.jigong, .live-game.frut-popper{
+      top: 2px
+    }
+    .live-games{
+      top: 15px
+    }
+    .live-game.lg-angel-demon img{
+      max-width: 110%;
+      position: relative;
+      bottom: 19px;
+      right: 14px;
+    }
+    .live-game-txtbb a{
+      top: -19px
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -3625,17 +3640,17 @@ main .marquee {
 .live-game-txtb {
     font-size: 13px;
     letter-spacing: 1px;
-    bottom: 23px;
+    bottom: 8px;
 }
 .live-game-txtc {
     font-size: 13px;
     bottom: 25px;
 }
 .frut-popper .live-game-txtb {
-    bottom: 15px;
+    bottom: 8px;
 }
 .jigong .live-game-txtb {
-    bottom: 15px;
+    bottom: 8px;
 }
 .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
     bottom: 16px;
