@@ -1015,6 +1015,12 @@
     .mnav-afterlogin ul li:nth-child(5) img{
       margin-left: 35%;
     }
+    .live-game.lg-angel-demon img{
+      max-width: 110%;
+      position: relative;
+      bottom: 12px;
+      right: 10px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3481,7 +3487,6 @@ margin-top: -18px;
     }
     .live-game.lg-angel-demon img{
       max-width: 110%;
-      position: relative;
       bottom: 19px;
       right: 14px;
     }
@@ -3646,6 +3651,9 @@ main .marquee {
     font-size: 13px;
     bottom: 25px;
 }
+/*.live-game-txtcb{
+  bottom: 11px
+}*/
 .frut-popper .live-game-txtb {
     bottom: 8px;
 }
