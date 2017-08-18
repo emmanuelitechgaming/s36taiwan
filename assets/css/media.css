@@ -3269,7 +3269,7 @@ margin-top: -18px;
         top: 2px
     }
     .live-games.i-roulette {
-        top: 24px
+        top: 37px
     }
     .live-games.i-fantan {
         top: 24px;
@@ -3678,6 +3678,9 @@ main .marquee {
 }
 .live-game-txtcb, .live-game-txtcc{
   bottom: 7px
+}
+.i-roulette .live-game-txtc.live-game-txtcd{
+  bottom: 7px;
 }
 .frut-popper .live-game-txtb {
     bottom: 8px;
