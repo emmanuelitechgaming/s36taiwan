@@ -7793,3 +7793,6 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 .mobile-banner .img-responsive{
   border-bottom: solid 1px #4a4a4a
 }
+main .win-title-recent{
+  border-bottom: 1px solid transparent
+}

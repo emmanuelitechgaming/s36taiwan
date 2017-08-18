@@ -217,7 +217,7 @@
         top: 3px
     }
     .cta-seemore {
-        bottom: 80px;
+        bottom: 77px;
         right: 10px;
     }
     .casino-more {
@@ -704,7 +704,7 @@
         bottom: -5px
     }
     .lg-playnow {
-        bottom: 14.6%;
+        bottom: 12.4%;
     }
     img.b-img {
         top: auto
@@ -1041,7 +1041,7 @@
         margin-left: -140px !important;
     }
     .cta-seemore {
-        bottom: 95px;
+        bottom: 90px;
         right: 10px;
     }
     .swiper-container {
@@ -1159,7 +1159,7 @@
         bottom: 10px;
     }
     .lg-playnow {
-        bottom: 15.3%;
+        bottom: 13%;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1285,7 +1285,7 @@
         bottom: -4px;
     }
     .cta-seemore {
-        bottom: 100px;
+        bottom: 95px;
         right: 10px;
     }
     .back {
@@ -1674,7 +1674,7 @@
     }
     .lg-playnow {
         font-size: 18px;
-        bottom: 15.5%
+        bottom: 13.3%
     }
     .promotion-form-btn {
         background-position: 32px -1px
@@ -1753,6 +1753,10 @@
     .mnav-afterlogin ul li:nth-child(5) img{
       margin-left: 40%;
     }
+    .cta-seemore {
+      bottom: 105px;
+      right: 10px;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -1779,7 +1783,7 @@
         bottom: -3px;
     }
     .cta-seemore {
-        bottom: 115px;
+        bottom: 106px;
         right: 10px;
     }
     .back {
@@ -1912,7 +1916,7 @@
         padding-left: 5px;
     }
     .lg-playnow {
-        bottom: 15%;
+        bottom: 13.3%;
     }
     .live-game-txtba a {
         bottom: -2px;
@@ -1936,7 +1940,7 @@
         bottom: 10px;
     }
     .lg-playnow.login-modal-a img {
-        bottom: 0px;
+        bottom: 1px;
     }
     .promotion-form-btn2 {
         background-position: 35px -1px
@@ -2009,7 +2013,7 @@
         margin: 0 auto;
     }
     .cta-seemore {
-        bottom: 115px;
+        bottom: 106px;
         right: 85px;
     }
     .back {
@@ -2194,7 +2198,7 @@
         padding-bottom: 9px;
     }
     .lg-playnow {
-        bottom: 15.9%;
+        bottom: 13.4%;
     }
     .m-fsalon ul li:nth-child(1) img,
     .m-fsalon ul li:nth-child(2) img {
@@ -3485,8 +3489,11 @@ margin-top: -18px;
     .live-games img{
       max-width: 80%
     }
-    .live-games-baccarat img, .live-games-blackjack img, .live-games-dragontiger img{
+    .live-games-baccarat img, .live-games-blackjack img{
       max-width: 82%
+    }
+    .live-games-dragontiger img{
+      max-width: 80%
     }
     .top-games-tab-pane{
       padding-left: 15px;
@@ -3697,7 +3704,7 @@ main .marquee {
     right: 29%;
 }
 .cta-seemore {
-    bottom: 112px;
+    bottom: 107px;
     right: 12px;
 }
 .lg-playnow {
