@@ -2010,6 +2010,7 @@ input[type=radio] {
 .index-img-banner {
     width: 100%;
     margin-bottom: 15px;
+    border-bottom: 1px solid #4a4a4a
 }
 
 
@@ -7788,4 +7789,7 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(5){
 }
 footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   left: 21px;
+}
+.mobile-banner .img-responsive{
+  border-bottom: solid 1px #4a4a4a
 }
