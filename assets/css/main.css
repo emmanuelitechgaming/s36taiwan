@@ -2010,7 +2010,8 @@ input[type=radio] {
 .index-img-banner {
     width: 100%;
     margin-bottom: 15px;
-    border-bottom: 1px solid #4a4a4a
+    border-bottom: 4px solid #4a4a4a;
+    border-top: 4px solid #4a4a4a
 }
 
 

@@ -1028,8 +1028,8 @@
       content: '';
       display: block;
       width: 100%;
-      height: 1px;
-      background: #4e4e4e;
+      /*height: 1px;*/
+      /*background: #4e4e4e;*/
       position: relative;
       bottom: 10px
     }
