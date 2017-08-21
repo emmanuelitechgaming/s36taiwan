@@ -3237,9 +3237,9 @@ margin-top: -18px;
     .contactus {
         font-size: 16px;
     }
-    .live-games img {
+    /*.live-games img {
         max-width: 100%;
-    }
+    }*/
     .contactus ul li span {
         margin-left: 18px;
     }
@@ -3273,13 +3273,13 @@ margin-top: -18px;
         top: 2px
     }
     .live-games.i-roulette {
-        top: 37px
+        top: 7px
     }
     .live-games.i-fantan {
-        top: 24px;
+        top: 7px;
     }
     .live-games.i-sicbo {
-        top: 24px;
+        top: 7px;
     }
     .lg-angel-demon {
         position: relative;
@@ -3486,15 +3486,15 @@ margin-top: -18px;
       width: 403px;
       height: 325px;
     }
-    .live-games img{
+    /*.live-games img{
       max-width: 80%
-    }
-    .live-games-baccarat img, .live-games-blackjack img{
+    }*/
+  /*  .live-games-baccarat img, .live-games-blackjack img{
       max-width: 82%
     }
     .live-games-dragontiger img{
       max-width: 80%
-    }
+    }*/
     .top-games-tab-pane{
       padding-left: 15px;
     }
@@ -3508,7 +3508,7 @@ margin-top: -18px;
       top: 15px
     }
     .live-games-baccarat, .live-games-blackjack, .live-games-dragontiger{
-      top: 18px
+      top: 5px
     }
     .live-game.lg-angel-demon img{
       max-width: 110%;
@@ -3681,13 +3681,13 @@ main .marquee {
     bottom: 25px;
 }
 .live-game-txtca{
-  bottom: 7px
+  bottom: 10px
 }
 .live-game-txtcb, .live-game-txtcc{
-  bottom: 7px
+  bottom: 10px
 }
 .i-roulette .live-game-txtc.live-game-txtcd{
-  bottom: 7px;
+  bottom: 10px;
 }
 .frut-popper .live-game-txtb {
     bottom: 8px;
@@ -3696,7 +3696,7 @@ main .marquee {
     bottom: 8px;
 }
 .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
-    bottom: 16px;
+    bottom: 9px;
 }
 .bs-slider-overlay {
     position: absolute;
