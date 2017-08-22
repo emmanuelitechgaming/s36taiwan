@@ -91,7 +91,7 @@ $(document).ready(function(){
 			],
 			'flag': 'flag-icon-in',
 			'link': [
-				'#'
+				'in/'
 			]
 		}
 	];

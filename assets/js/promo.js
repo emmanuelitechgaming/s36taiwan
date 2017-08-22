@@ -41,3 +41,16 @@ $(window).load(function() {
 $(window).resize(function(){
   equalheight('.content p');
 });
+
+
+$('a[data-toggle="tab"]').on('shown.bs.tab', function() {
+  console.log(equalheight('.content p'));
+  $(window).load(function() {
+    equalheight('.content p');
+  });
+
+
+  $(window).resize(function(){
+    equalheight('.content p');
+  });
+})
