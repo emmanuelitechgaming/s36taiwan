@@ -736,7 +736,7 @@
         font-size: 13px;
     }
     .live-games img {
-        max-width: 88%;
+        max-width: 80%;
     }
     .contactus {
         padding: 5px 0px;
@@ -3274,13 +3274,13 @@ margin-top: -18px;
         top: 2px
     }
     .live-games.i-roulette {
-        top: 7px
+        top: 35px
     }
     .live-games.i-fantan {
-        top: 7px;
+        top: 35px;
     }
     .live-games.i-sicbo {
-        top: 7px;
+        top: 35px;
     }
     .lg-angel-demon {
         position: relative;
@@ -3509,7 +3509,7 @@ margin-top: -18px;
       top: 15px
     }
     .live-games-baccarat, .live-games-blackjack, .live-games-dragontiger{
-      top: 5px
+      top: 16px
     }
     .live-game.lg-angel-demon img{
       max-width: 110%;
