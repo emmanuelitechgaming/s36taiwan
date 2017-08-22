@@ -3679,13 +3679,13 @@ main .marquee {
     bottom: 25px;
 }
 .live-game-txtca{
-  bottom: 10px
+  bottom: 7px
 }
 .live-game-txtcb, .live-game-txtcc{
-  bottom: 10px
+  bottom: 7px
 }
 .i-roulette .live-game-txtc.live-game-txtcd{
-  bottom: 10px;
+  bottom: 7px;
 }
 .frut-popper .live-game-txtb {
     bottom: 8px;
@@ -3693,8 +3693,11 @@ main .marquee {
 .jigong .live-game-txtb {
     bottom: 8px;
 }
-.i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
-    bottom: 9px;
+.i-roulette .live-game-txtc, .i-sicbo .live-game-txtc {
+    bottom: 7px;
+}
+.i-fantan .live-game-txtc{
+  bottom: 8px
 }
 .bs-slider-overlay {
     position: absolute;
