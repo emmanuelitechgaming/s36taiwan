@@ -69,6 +69,15 @@ color: #ffffff;
 .promotion > .inner > .cta > .btn {
     display: inline-block;
 }
+.promotion .btn {
+    height: 40px;
+    border-radius: 20px;
+    padding: 3px 14px 7px 14px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    border-width: 2px;
+}
 .btn.wide {
     padding-left: 45px;
     padding-right: 45px;
