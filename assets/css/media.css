@@ -217,7 +217,7 @@
         top: 3px
     }
     .cta-seemore {
-        bottom: 80px;
+        bottom: 77px;
         right: 10px;
     }
     .casino-more {
@@ -668,19 +668,19 @@
     }
       .live-game-txtba a {
         left: 45px;
-        bottom: -3px
+        bottom: -13px
     }
     .live-game-txtbb a {
-        left: 43px;
-        bottom: -2px;
+        left: 39px;
+        bottom: -1px;
     }
     .live-game-txtbc a {
-        left: 48px;
-        bottom: -3px;
+        left: 50px;
+        bottom: -7px;
     }
     .live-game-txtbd a {
         left: 52px;
-        bottom: 0px
+        bottom: -5px
     }
     .i-roulette .live-game-txtc,
     .i-fantan .live-game-txtc,
@@ -704,7 +704,7 @@
         bottom: -5px
     }
     .lg-playnow {
-        bottom: 14.6%;
+        bottom: 12.4%;
     }
     img.b-img {
         top: auto
@@ -1015,6 +1015,24 @@
     .mnav-afterlogin ul li:nth-child(5) img{
       margin-left: 35%;
     }
+    .live-game.lg-angel-demon img{
+      max-width: 110%;
+      position: relative;
+      bottom: 12px;
+      right: 10px;
+    }
+    .live-game-txtca, .live-game-txtcb{
+      bottom: 5px
+    }
+    .navbar-top::after{
+      content: '';
+      display: block;
+      width: 100%;
+      /*height: 1px;*/
+      /*background: #4e4e4e;*/
+      position: relative;
+      bottom: 10px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1023,7 +1041,7 @@
         margin-left: -140px !important;
     }
     .cta-seemore {
-        bottom: 95px;
+        bottom: 90px;
         right: 10px;
     }
     .swiper-container {
@@ -1141,7 +1159,7 @@
         bottom: 10px;
     }
     .lg-playnow {
-        bottom: 15.3%;
+        bottom: 13%;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1161,7 +1179,7 @@
     }
     .live-game-txtba a {
         left: 49px;
-        bottom: 0px;
+        bottom: -11px;
     }
     .live-game-txtbb a {
         left: 45px;
@@ -1267,7 +1285,7 @@
         bottom: -4px;
     }
     .cta-seemore {
-        bottom: 100px;
+        bottom: 95px;
         right: 10px;
     }
     .back {
@@ -1318,14 +1336,14 @@
         bottom: 14px;
     }
     .frut-popper .live-game-txtb {
-        bottom: 8px;
+        bottom: 1px;
     }
     .jigong .live-game-txtb {
-        bottom: 6px;
+        bottom: 1px;
     }
     .live-game-txtc {
         font-size: 13px;
-        bottom: 17px;
+        bottom: 5px;
     }
     .lp-collapse-toggle {
         margin-right: -255px;
@@ -1418,17 +1436,17 @@
         left: 40%;
         top: 22%;
     }
-    .live-game-txtba a {
+    /*.live-game-txtba a {
         padding-bottom: 6px;
         padding-left: 13px;
-    }
+    }*/
     .win-lot-top-games .prizepool {
         margin-left: -25px;
     }
     .i-roulette .live-game-txtc,
     .i-fantan .live-game-txtc,
     .i-sicbo .live-game-txtc {
-        bottom: 10px;
+        bottom: 5px;
     }
     .sitemap-body2d ul {
         -webkit-column-count: 2;
@@ -1450,9 +1468,9 @@
     .win-game img {
         margin-top: 7px;
     }
-    .live-game-txtba a {
-        left: 40px;
-        bottom: -4px;
+    .live-game-txtb {
+        font-size: 13px;
+        bottom: 14px;
     }
     .live-game-txtbb a {
         left: 46px;
@@ -1656,7 +1674,7 @@
     }
     .lg-playnow {
         font-size: 18px;
-        bottom: 15.5%
+        bottom: 13.3%
     }
     .promotion-form-btn {
         background-position: 32px -1px
@@ -1735,6 +1753,10 @@
     .mnav-afterlogin ul li:nth-child(5) img{
       margin-left: 40%;
     }
+    .cta-seemore {
+      bottom: 105px;
+      right: 10px;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -1761,7 +1783,7 @@
         bottom: -3px;
     }
     .cta-seemore {
-        bottom: 115px;
+        bottom: 106px;
         right: 10px;
     }
     .back {
@@ -1894,7 +1916,7 @@
         padding-left: 5px;
     }
     .lg-playnow {
-        bottom: 15%;
+        bottom: 13.3%;
     }
     .live-game-txtba a {
         bottom: -2px;
@@ -1918,7 +1940,7 @@
         bottom: 10px;
     }
     .lg-playnow.login-modal-a img {
-        bottom: 0px;
+        bottom: 1px;
     }
     .promotion-form-btn2 {
         background-position: 35px -1px
@@ -1991,7 +2013,7 @@
         margin: 0 auto;
     }
     .cta-seemore {
-        bottom: 115px;
+        bottom: 106px;
         right: 85px;
     }
     .back {
@@ -2176,7 +2198,7 @@
         padding-bottom: 9px;
     }
     .lg-playnow {
-        bottom: 15.9%;
+        bottom: 13.4%;
     }
     .m-fsalon ul li:nth-child(1) img,
     .m-fsalon ul li:nth-child(2) img {
@@ -3215,9 +3237,9 @@ margin-top: -18px;
     .contactus {
         font-size: 16px;
     }
-    .live-games img {
+    /*.live-games img {
         max-width: 100%;
-    }
+    }*/
     .contactus ul li span {
         margin-left: 18px;
     }
@@ -3251,13 +3273,13 @@ margin-top: -18px;
         top: 2px
     }
     .live-games.i-roulette {
-        top: 4px
+        top: 7px
     }
     .live-games.i-fantan {
-        top: 5px;
+        top: 7px;
     }
     .live-games.i-sicbo {
-        top: 6px;
+        top: 7px;
     }
     .lg-angel-demon {
         position: relative;
@@ -3464,13 +3486,19 @@ margin-top: -18px;
       width: 403px;
       height: 325px;
     }
-    .live-games img{
+    /*.live-games img{
       max-width: 80%
+    }*/
+  /*  .live-games-baccarat img, .live-games-blackjack img{
+      max-width: 82%
     }
+    .live-games-dragontiger img{
+      max-width: 80%
+    }*/
     .top-games-tab-pane{
       padding-left: 15px;
     }
-    .casino-mp{
+    .casino-mp, .slots-mp{
       margin-top: 10px
     }
     .live-game.jigong, .live-game.frut-popper{
@@ -3479,14 +3507,20 @@ margin-top: -18px;
     .live-games{
       top: 15px
     }
+    .live-games-baccarat, .live-games-blackjack, .live-games-dragontiger{
+      top: 5px
+    }
     .live-game.lg-angel-demon img{
       max-width: 110%;
-      position: relative;
       bottom: 19px;
       right: 14px;
     }
     .live-game-txtbb a{
       top: -19px
+    }
+    .navbar-top::after{
+      content: '';
+      display: none;
     }
 }
 
@@ -3646,6 +3680,15 @@ main .marquee {
     font-size: 13px;
     bottom: 25px;
 }
+.live-game-txtca{
+  bottom: 10px
+}
+.live-game-txtcb, .live-game-txtcc{
+  bottom: 10px
+}
+.i-roulette .live-game-txtc.live-game-txtcd{
+  bottom: 10px;
+}
 .frut-popper .live-game-txtb {
     bottom: 8px;
 }
@@ -3653,7 +3696,7 @@ main .marquee {
     bottom: 8px;
 }
 .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc {
-    bottom: 16px;
+    bottom: 9px;
 }
 .bs-slider-overlay {
     position: absolute;
@@ -3661,11 +3704,11 @@ main .marquee {
     right: 29%;
 }
 .cta-seemore {
-    bottom: 112px;
+    bottom: 107px;
     right: 12px;
 }
 .lg-playnow {
-    bottom: 15%;
+    bottom: 13%;
 }
 .lg-playnow {
     font-size: 18px;

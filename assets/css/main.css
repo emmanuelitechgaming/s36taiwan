@@ -188,6 +188,7 @@ header .header-mobile > .hm-d {
 main .mobile-banner {
     text-align: center;
     margin: 0 auto;
+    border-top: solid 4px #4a4a4a; /*nathan*/
 }
 
 .mobile-banner-wrapper {
@@ -2010,6 +2011,8 @@ input[type=radio] {
 .index-img-banner {
     width: 100%;
     margin-bottom: 15px;
+    border-bottom: 4px solid #4a4a4a;
+    border-top: 4px solid #4a4a4a
 }
 
 
@@ -7350,14 +7353,12 @@ div.acc-info.acc-edit div.acc-cont input {
 }
 
 .tooltip.left .tooltip-arrow{
-  right: 3px;
   margin-top: -4px
 }
 
 .tooltip > .tooltip-inner {
     position: relative;
     top: 10px;
-    right: 7px
 }
 
 .cs-modal .chatserver-form button.select-country-code {
@@ -7417,9 +7418,9 @@ div.acc-info.acc-edit div.acc-cont input {
     margin-left: -11px;
 }
 
-.slots-breadcrumb-inner .casino-g img {
+/*.slots-breadcrumb-inner .casino-g img {
     border: solid 1px #3b3b3b
-}
+}*/
 
 .slots-breadcrumb-inner .casino-g #c p:nth-child(2) img {
     border: none
@@ -7790,4 +7791,10 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(5){
 }
 footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   left: 21px;
+}
+.mobile-banner .img-responsive{
+  border-bottom: solid 4px #4a4a4a
+}
+main .win-title-recent{
+  border-bottom: 1px solid transparent
 }
