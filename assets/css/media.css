@@ -3522,7 +3522,8 @@ margin-top: -18px;
     }
     .spotlight-bg{
       background: url('../img/promo/spotlight.png') no-repeat #000;
-      background-position: 110% 40px;
+      background-position: 130%;
+      background-size: contain;
     }
 }
 
