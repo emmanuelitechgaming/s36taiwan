@@ -7798,3 +7798,6 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 main .win-title-recent{
   border-bottom: 1px solid transparent
 }
+.spotlight-bg .today-winner, .spotlight-bg .td-week, .spotlight-bg .tdw-body{
+  background: transparent
+}

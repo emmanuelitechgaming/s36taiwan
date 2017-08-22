@@ -3520,6 +3520,11 @@ margin-top: -18px;
     .live-games img {
         max-width: 80%;
     }
+    .spotlight-bg{
+      background: url('../img/promo/spotlight.png') no-repeat #000;
+      background-size: 80% 80%;
+      background-position: 160% 45px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
