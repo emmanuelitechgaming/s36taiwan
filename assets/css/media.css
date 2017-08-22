@@ -1336,14 +1336,14 @@
         bottom: 14px;
     }
     .frut-popper .live-game-txtb {
-        bottom: 8px;
+        bottom: 1px;
     }
     .jigong .live-game-txtb {
-        bottom: 6px;
+        bottom: 1px;
     }
     .live-game-txtc {
         font-size: 13px;
-        bottom: 17px;
+        bottom: 5px;
     }
     .lp-collapse-toggle {
         margin-right: -255px;
@@ -1436,17 +1436,17 @@
         left: 40%;
         top: 22%;
     }
-    .live-game-txtba a {
+    /*.live-game-txtba a {
         padding-bottom: 6px;
         padding-left: 13px;
-    }
+    }*/
     .win-lot-top-games .prizepool {
         margin-left: -25px;
     }
     .i-roulette .live-game-txtc,
     .i-fantan .live-game-txtc,
     .i-sicbo .live-game-txtc {
-        bottom: 10px;
+        bottom: 5px;
     }
     .sitemap-body2d ul {
         -webkit-column-count: 2;
@@ -1468,9 +1468,9 @@
     .win-game img {
         margin-top: 7px;
     }
-    .live-game-txtba a {
-        left: 40px;
-        bottom: -4px;
+    .live-game-txtb {
+        font-size: 13px;
+        bottom: 14px;
     }
     .live-game-txtbb a {
         left: 46px;
