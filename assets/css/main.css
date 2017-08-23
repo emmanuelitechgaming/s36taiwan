@@ -1601,12 +1601,13 @@ p {
     border-radius: 4px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 20px
 }
 
 .sp-btn-hidden{
-  border-radius: 0;
+  border-radius: 20px;
   font-size: 19px;
-  background: url('../img/sp/reg-btn-bg.png') repeat-x;
+  background: #fba601;
   background-size: contain;
 }
 
@@ -1993,6 +1994,7 @@ input[type=radio] {
 .cs-content .cta-cs a {
     background: #fba601;
     padding: 5px 40px;
+    border-radius: 20px;
     color: #000;
     text-decoration: none;
     white-space: nowrap;
@@ -3094,11 +3096,13 @@ span.round-tab i {
     letter-spacing: .5px;
     border: none;
     border-radius: 4px;
-    background: url(../img/yellow-btn.png) repeat-x;
+    /*background: url(../img/yellow-btn.png) repeat-x;*/
+    background: #fba601;
     text-shadow: none;
     width: 100%;
     font-weight: 700;
-    line-height: 5px;
+    line-height: 6px;
+    border-radius: 20px;
     color: rgba(26, 26, 26, 0.8);
     text-shadow: 1px 1px rgb(255, 214, 135)!important;
 }
@@ -4789,7 +4793,8 @@ left: 47%;
     text-shadow: 1px 1px rgb(255, 214, 135);
     border-color: #eea236;
     background: url(../img/yellow-btn.png) repeat-x #fba601;
-    font-weight: 700
+    font-weight: 700;
+    border-radius: 20px
 }
 
 .btn-warning2 {
@@ -6383,8 +6388,8 @@ main .win-lot-top-games {
     color: rgba(26, 26, 26, 0.8);
     text-shadow: 1px 1px rgb(255, 214, 135)!important;
     border: none;
-    border-radius: 4px;
-    background: url(../img/yellow-btn.png) repeat-x;
+    border-radius: 20px;
+    background:#fba601;
     text-shadow: none;
     width: 100%;
     line-height: 5px;
@@ -7030,9 +7035,11 @@ div.acc-info.acc-edit div.acc-cont input {
 }*/
 
 .btn-yellow {
-    background: url('../img/yellow-btn.png') repeat-x #fba601;
+    background:#fba601;
+    border-radius: 20px;
     font-size: 17px;
     font-weight: 700;
+
 }
 
 .mnav-top-home img {
@@ -7610,10 +7617,10 @@ margin-right: 23px;
   top: 5px;
 }
 .username-availability button{
-  background: url('../img/yellow-btn.png');
+  background:#fba601;
   color: #000;
   border: none;
-  border-radius: 3px;
+  border-radius: 20px;
   padding: 4px 8px
 }
 .username-availability div{
@@ -7797,4 +7804,10 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 }
 main .win-title-recent{
   border-bottom: 1px solid transparent
+}
+.spotlight-bg .today-winner, .spotlight-bg .td-week, .spotlight-bg .tdw-body{
+  background: transparent
+}
+.subscribe-btn{
+  border-radius: 20px;
 }

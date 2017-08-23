@@ -44,7 +44,7 @@ color: #ffffff;
 }
 .promotion h3 {
     font-size: 24px;
-    color: #ff9c00;
+    color: #fba601;
 }
 .promotion h3 > a{
   color: inherit;
@@ -69,14 +69,23 @@ color: #ffffff;
 .promotion > .inner > .cta > .btn {
     display: inline-block;
 }
+.promotion .btn {
+    height: 40px;
+    border-radius: 20px;
+    padding: 3px 14px 7px 14px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    border-width: 2px;
+}
 .btn.wide {
     padding-left: 45px;
     padding-right: 45px;
 }
 .btn.btn-primary {
-    background-color: #ff9c00;
+    background-color: #fba601;
     color: #111;
-    border-color: #ff9c00;
+    border-color: #fba601;
 }
 * {
     box-sizing: border-box;

@@ -57,7 +57,7 @@ $(document).ready(function(){
 			],
 			'flag': 'flag-icon-id',
 			'link': [
-				'#'
+				'id/'
 			]
 		},
 		{
@@ -91,7 +91,7 @@ $(document).ready(function(){
 			],
 			'flag': 'flag-icon-in',
 			'link': [
-				'#'
+				'in/'
 			]
 		}
 	];
