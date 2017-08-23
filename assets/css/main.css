@@ -7149,12 +7149,12 @@ div.acc-info.acc-edit div.acc-cont input {
     width: 148px;
     height: 33px;
     background: url(../img/yellow-btn.png) repeat-x;
-    border-radius: 3px;
+    border-radius: 20px;
     color: #000;
     font-weight: 700;
     text-align: center;
     line-height: 33px;
-    font-size: 15px
+    font-size: 15px;
 }
 
 .promotion-search a:hover {
@@ -7543,7 +7543,8 @@ div.acc-info.acc-edit div.acc-cont input {
     color: #000;
     font-weight: 700;
     padding: 5px 45px;
-    font-size: 16px
+    font-size: 16px;
+    border-radius: 20px;
 }
 .acc-cont  a{
   color: #fba601;
