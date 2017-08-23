@@ -4944,7 +4944,7 @@ ul {
     color: rgba(26, 26, 26, 0.8) !important;
     text-shadow: 1px 1px rgb(255, 214, 135);
     border: 1px solid #ffad41;
-    border-radius: 3px;
+    border-radius: 20px;
     font-size: 12px;
     font-family: arial, helvetica, sans-serif;
     padding: 6px 10px 6px 10px;
@@ -4952,6 +4952,7 @@ ul {
     display: inline-block;
     font-weight: bold;
     background: url(../img/yellow-btn.png) repeat-x;
+
 }
 
 .my-modal-cs {
