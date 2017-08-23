@@ -1601,6 +1601,7 @@ p {
     border-radius: 4px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 20px
 }
 
 .sp-btn-hidden{
@@ -4792,7 +4793,8 @@ left: 47%;
     text-shadow: 1px 1px rgb(255, 214, 135);
     border-color: #eea236;
     background: url(../img/yellow-btn.png) repeat-x #fba601;
-    font-weight: 700
+    font-weight: 700;
+    border-radius: 20px
 }
 
 .btn-warning2 {
@@ -4942,7 +4944,7 @@ ul {
     color: rgba(26, 26, 26, 0.8) !important;
     text-shadow: 1px 1px rgb(255, 214, 135);
     border: 1px solid #ffad41;
-    border-radius: 3px;
+    border-radius: 20px;
     font-size: 12px;
     font-family: arial, helvetica, sans-serif;
     padding: 6px 10px 6px 10px;
@@ -4950,6 +4952,7 @@ ul {
     display: inline-block;
     font-weight: bold;
     background: url(../img/yellow-btn.png) repeat-x;
+
 }
 
 .my-modal-cs {
@@ -7147,12 +7150,12 @@ div.acc-info.acc-edit div.acc-cont input {
     width: 148px;
     height: 33px;
     background: url(../img/yellow-btn.png) repeat-x;
-    border-radius: 3px;
+    border-radius: 20px;
     color: #000;
     font-weight: 700;
     text-align: center;
     line-height: 33px;
-    font-size: 15px
+    font-size: 15px;
 }
 
 .promotion-search a:hover {
@@ -7541,7 +7544,8 @@ div.acc-info.acc-edit div.acc-cont input {
     color: #000;
     font-weight: 700;
     padding: 5px 45px;
-    font-size: 16px
+    font-size: 16px;
+    border-radius: 20px;
 }
 .acc-cont  a{
   color: #fba601;
@@ -7805,4 +7809,7 @@ main .win-title-recent{
 }
 .spotlight-bg .today-winner, .spotlight-bg .td-week, .spotlight-bg .tdw-body{
   background: transparent
+}
+.subscribe-btn{
+  border-radius: 20px;
 }
