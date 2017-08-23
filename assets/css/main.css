@@ -1601,6 +1601,7 @@ p {
     border-radius: 4px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 20px
 }
 
 .sp-btn-hidden{
@@ -4792,7 +4793,8 @@ left: 47%;
     text-shadow: 1px 1px rgb(255, 214, 135);
     border-color: #eea236;
     background: url(../img/yellow-btn.png) repeat-x #fba601;
-    font-weight: 700
+    font-weight: 700;
+    border-radius: 20px
 }
 
 .btn-warning2 {
@@ -7805,4 +7807,7 @@ main .win-title-recent{
 }
 .spotlight-bg .today-winner, .spotlight-bg .td-week, .spotlight-bg .tdw-body{
   background: transparent
+}
+.subscribe-btn{
+  border-radius: 20px;
 }
