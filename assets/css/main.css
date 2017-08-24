@@ -7864,3 +7864,9 @@ main .win-title-recent{
   position: relative;
   top: 25px
 }
+.fffssa{
+  padding: 5px 10px;
+overflow: hidden;
+position: absolute;
+bottom: 44px;
+}
