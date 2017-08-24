@@ -311,7 +311,7 @@ main .jackpot {
 }
 
 main .live-container {
-    margin-top: 20px;
+    margin-top: 0;
     padding: 0px;
 }
 
@@ -7830,6 +7830,7 @@ main .win-title-recent{
   height: 100%;
   width: 100%;
   opacity: 0;
+  -webkit-transition: .5s ease;
   transition: .5s ease;
   background:rgba(0,0,0,0.7);
 }
@@ -7843,7 +7844,8 @@ main .win-title-recent{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
 .oc-content a{
@@ -7857,5 +7859,8 @@ main .win-title-recent{
     text-shadow: none;
     letter-spacing: 1px;
     padding: 6px 30px !important;
-
+}
+.img-responsive-live-games{
+  position: relative;
+  top: 25px
 }
