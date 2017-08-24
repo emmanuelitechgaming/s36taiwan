@@ -217,8 +217,8 @@
         top: 3px
     }
     .cta-seemore {
-        bottom: 77px;
-        right: 10px;
+        bottom: 42px;
+        right: 15px;
     }
     .casino-more {
         display: none;
@@ -704,7 +704,7 @@
         bottom: -5px
     }
     .lg-playnow {
-        bottom: 12.4%;
+        bottom: 2.1%;
     }
     img.b-img {
         top: auto
@@ -1035,8 +1035,8 @@
         margin-left: -140px !important;
     }
     .cta-seemore {
-        bottom: 90px;
-        right: 10px;
+        bottom: 54px;
+        right: 15px;
     }
     .swiper-container {
         width: 290px;
@@ -1153,7 +1153,7 @@
         bottom: 6px;
     }
     .lg-playnow {
-        bottom: 13%;
+        bottom: 4%;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -3710,11 +3710,11 @@ main .marquee {
     right: 29%;
 }
 .cta-seemore {
-    bottom: 107px;
+    bottom: 70px;
     right: 25px;
 }
 .lg-playnow {
-    bottom: 7%;
+    bottom: 5%;
 }
 .lg-playnow {
     font-size: 18px;
