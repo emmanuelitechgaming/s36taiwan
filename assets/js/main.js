@@ -844,15 +844,15 @@ $(function() {
       }
     });
 
-    $('.modal').on('hide.bs.modal', function(e) {
-      e.preventDefault();
-      $('.modal-dialog').velocity('transition.flipYOut', {
-        duration: 300,
-        complete: function(e) {
-          $(this).modal('hide')
-        }
-      });
-    })
+    // $('.modal').on('hide.bs.modal', function(e) {
+    //   e.preventDefault();
+    //   $('.modal-dialog').velocity('transition.flipYOut', {
+    //     duration: 300,
+    //     complete: function(e) {
+    //       $(this).modal('hide')
+    //     }
+    //   });
+    // })
 
     // $('.modal .close').click(function() {
     //   $('.modal-dialog').velocity('transition.flipYOut', {duration: 300});
