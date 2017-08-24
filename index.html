@@ -2572,6 +2572,9 @@
         </a>
     </div>
     <script type="text/javascript">
+    $( ".register-modal-a" ).click(function() {
+       $(".modal-dialog").addClass( "modal-flip" );
+    });
         $(function() {
             $(window).scroll(function() {
                 var h = $(window).scrollTop();
