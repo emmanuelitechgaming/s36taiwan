@@ -7817,3 +7817,45 @@ main .win-title-recent{
 .subscribe-btn{
   border-radius: 20px;
 }
+.img-container {
+  position: relative;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background:rgba(0,0,0,0.7);
+}
+
+.img-container:hover .img-overlay {
+  opacity: 1;
+}
+
+.oc-content {
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.oc-content a{
+  text-decoration: none;
+    min-width: 100px;
+    text-align: center;
+    background: #fba601;
+    color: #111111;
+    border-radius: 20px;
+    font-weight: 700;
+    text-shadow: none;
+    letter-spacing: 1px;
+    padding: 6px 30px !important;
+
+}
