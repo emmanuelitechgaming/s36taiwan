@@ -19,6 +19,12 @@ body {
 header {
     background: url('../img/casino-bg.png');
     background-position-y: 1px;
+    box-shadow: 0 0 4px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 0 0 4px 2px rgba(0,0,0,1);
+    -webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,1);
+    position: relative;
+    z-index: 9999999999;
+    margin-bottom: 2px;
 }
 
 header .top-header {
@@ -188,7 +194,7 @@ header .header-mobile > .hm-d {
 main .mobile-banner {
     text-align: center;
     margin: 0 auto;
-    border-top: solid 4px #4a4a4a; /*nathan*/
+
 }
 
 .mobile-banner-wrapper {
@@ -2013,8 +2019,6 @@ input[type=radio] {
 .index-img-banner {
     width: 100%;
     margin-bottom: 15px;
-    border-bottom: 4px solid #4a4a4a;
-    border-top: 4px solid #4a4a4a
 }
 
 
