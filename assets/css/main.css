@@ -7870,3 +7870,12 @@ overflow: hidden;
 position: absolute;
 bottom: 44px;
 }
+.lotto-button{
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 33%;
+  text-align: center;
+}
+.lotto-button a{
+}
