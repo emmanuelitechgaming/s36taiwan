@@ -435,9 +435,21 @@ $(document).ready(function () {
     $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/register2.png"], img[src="assets/img/sp/reg-btn-sp.png"], img[src="assets/img/lock_25-hover.png"], img[src="assets/img/casino/baccarat/play-icon.png"], .sp-btn-hidden').click(function() {
       $('a[href="#myModalTab1-1"').tab('show');
       $('a[href="#myModalTab1-1"').on('shown.bs.tab', function (e) {
-        $('#myModal').modal('show');
+        $('#myModal').modal('toggle');
       })
     });
+
+    function haha(){
+      alert('hahah')
+    }
+
+    $('#myModal').on('show.bs.modal', function() {
+      var remo = 0;
+      if(remo == 0){
+        haha();
+        remo = 1;
+      }
+    })
 
     $('img[src="assets/img/s36tw-mobile-home_12.png"]').click(function() {
       $('#demoModal').modal('show');
@@ -824,17 +836,18 @@ $(function() {
     $('.selectpicker').selectpicker();
 
     $('.modal').on('show.bs.modal', function(e) {
-      var a = 0;
-      $('.modal-dialog').velocity('transition.flipYIn', {duration: 300});
+      var attr = $(this).attr('id');
+      if($(this).attr('id') != "myModal"){
+        $('.modal-dialog').velocity('transition.flipYIn', {duration: 300});
+      }
     });
 
-    $('.modal .close').click(function() {
-      $('.modal-dialog').velocity('transition.flipYOut', {duration: 300});
-      setTimeout(function(){
-         $('.modal').modal('hide');
-       }, 350);
-    });
-
+    // $('.modal .close').click(function() {
+    //   $('.modal-dialog').velocity('transition.flipYOut', {duration: 300});
+    //   setTimeout(function(){
+    //      $('.modal').modal('hide');
+    //    }, 350);
+    // });
     // $('.modal').on('hide.bs.modal', function(e) {
     //   $(this).find('.modal-dialog').velocity('transition.flipYOut', {duration: 300});
     //   setTimeout(function(){
