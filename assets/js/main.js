@@ -433,23 +433,12 @@ $(document).ready(function () {
     });
 
     $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/register2.png"], img[src="assets/img/sp/reg-btn-sp.png"], img[src="assets/img/lock_25-hover.png"], img[src="assets/img/casino/baccarat/play-icon.png"], .sp-btn-hidden').click(function() {
+      $('#myModal').modal('hide');
       $('a[href="#myModalTab1-1"').tab('show');
       $('a[href="#myModalTab1-1"').on('shown.bs.tab', function (e) {
-        $('#myModal').modal('toggle');
+        $('#myModal').modal('show');
       })
     });
-
-    function haha(){
-      alert('hahah')
-    }
-
-    $('#myModal').on('show.bs.modal', function() {
-      var remo = 0;
-      if(remo == 0){
-        haha();
-        remo = 1;
-      }
-    })
 
     $('img[src="assets/img/s36tw-mobile-home_12.png"]').click(function() {
       $('#demoModal').modal('show');
@@ -457,11 +446,24 @@ $(document).ready(function () {
     });
 
     $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/sp/reg-btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"], img[src="assets/img/register.png"], img[src="assets/img/register_25-hover.png"]').click(function() {
+      $('#myModal').modal('hide');
       $('a[href="#myModalTab1-2"').tab('show');
       $('a[href="#myModalTab1-2"').on('shown.bs.tab', function (e) {
         $('#myModal').modal('show');
       })
     });
+
+    var showAlert = true;
+    $('#myModal').on('show.bs.modal', function(e) {
+      if(showAlert == true){
+        $('.modal-dialog').velocity('transition.flipYIn', {duration: 300});
+        showAlert = false;
+      }
+    })
+
+    $('#myModal').on('hide.bs.modal', function(e) {
+      showAlert = true;
+    })
 
     $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function() {
       $('#myModal2b_registration, .myModal2b_registration_a').css('display', 'inline-block');
@@ -841,6 +843,17 @@ $(function() {
         $('.modal-dialog').velocity('transition.flipYIn', {duration: 300});
       }
     });
+
+    // $('.modal').on('hide.bs.modal', function(e) {
+    //   e.stopPropagation();
+    //   $('.modal-dialog').velocity('transition.flipYOut', {
+    //     duration: 300,
+    //     complete: function(e) {
+    //       $(this).modal('hide');
+    //       return true;
+    //     }
+    //   });
+    // })
 
     // $('.modal .close').click(function() {
     //   $('.modal-dialog').velocity('transition.flipYOut', {duration: 300});
