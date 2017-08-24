@@ -1279,8 +1279,8 @@
         bottom: -4px;
     }
     .cta-seemore {
-        bottom: 95px;
-        right: 10px;
+        bottom: 57px;
+        right: 17px;
     }
     .back {
         bottom: 40px;
@@ -1522,6 +1522,9 @@
     .selectpicker2-menu .languages a{
       font-size: 12px;
       margin: 0 8px
+    }
+    .lg-playnow {
+      bottom: 4.5%;
     }
 }
 
@@ -1778,8 +1781,8 @@
         bottom: -3px;
     }
     .cta-seemore {
-        bottom: 106px;
-        right: 10px;
+        bottom: 68px;
+        right: 20px;
     }
     .back {
         bottom: 40px;
@@ -1911,7 +1914,7 @@
         padding-left: 5px;
     }
     .lg-playnow {
-        bottom: 13.3%;
+        bottom: 5.7%;
     }
     .live-game-txtba a {
         bottom: -15px;
