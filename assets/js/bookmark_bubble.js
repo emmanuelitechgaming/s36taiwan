@@ -663,7 +663,7 @@ google.bookmarkbubble.Bubble.prototype.build_ = function() {
   bubbleInner.style.position = 'relative';
   bubbleInner.style.width = '214px';
   if (this.getAndroidVersion_() >= this.getVersion_(3, 0)) {
-    bubbleInner.style.margin = '0 0 0 ' +(window.innerWidth - 240) + 'px';
+    bubbleInner.style.margin = '0 0 0 ' +(window.innerWidth - 220) + 'px';
   } else {
     bubbleInner.style.margin = isIpad ? '0 0 0 82px' : '0 auto';
   }

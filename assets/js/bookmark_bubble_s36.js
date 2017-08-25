@@ -23,10 +23,11 @@ if(typeof(page_popup_bubble)=="undefined"){
   page_popup_bubble = "#index";
 }
 
-
 /** bookmark bubble initialized in mobileinit event for jquery mobile. */
 $(document).bind("mobileinit", function(){
-
+  $.mobile.ajaxEnabled=false;
+  $.mobile.loadingMessage = false;
+  $.mobile.loading().hide();
  /**
   * live deprecated jquery, see http://api.jquery.com/live/
   *
