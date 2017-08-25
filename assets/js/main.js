@@ -845,12 +845,11 @@ $(function() {
     });
 
     // $('.modal').on('hide.bs.modal', function(e) {
-    //   e.stopPropagation();
+    //   e.preventDefault();
     //   $('.modal-dialog').velocity('transition.flipYOut', {
     //     duration: 300,
     //     complete: function(e) {
-    //       $(this).modal('hide');
-    //       return true;
+    //       $(this).modal('hide')
     //     }
     //   });
     // })
