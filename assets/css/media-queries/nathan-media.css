@@ -157,7 +157,7 @@ header .nathan-hm-d{
   .scrolltotop{
     position: fixed;
         bottom: 30px;
-        right: 52px;
+        right: 1px;
         z-index: 1;
         opacity: 0;
         -webkit-transition: all 1s;

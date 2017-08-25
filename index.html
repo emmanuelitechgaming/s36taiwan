@@ -9,6 +9,8 @@
     <meta name="description" content="沙龍國際官方直營沙龍匯博彩網站，網上娛樂城內設有公平與公正的網上百家樂賭場，提供網上角子真錢老虎機遊戲及網上真人荷官娛樂場，實力及專業的亞州線上娛樂城。">
     <meta name="keywords" content="沙龍國際沙龍匯網上賭場,線上百家樂娛樂城,網上真人荷官娛樂場,網上真錢老虎機遊戲,角子老虎機博彩網站">
     <meta name="author" content="">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon-precomposed" href="assets/img/icon_jqm.png" />
     <link rel="icon" href="favicon.ico">
 
     <title>沙龍國際官方直營沙龍匯博彩網站</title>
@@ -2434,7 +2436,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js"></script>
     <script>
@@ -2451,8 +2453,15 @@
     <script src="dist/js/jquery.flagstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/countUp.js"></script>
-
     <script src="assets/js/json.js"></script>
+
+    <script type="text/javascript" src="assets/js/bookmark_bubble.js"></script>
+    <script type="text/javascript" src="assets/js/bookmark_bubble_msg_ja.js"></script>
+    <script type="text/javascript" src="assets/js/bookmark_bubble_s36.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js"></script>
+    <script>
+      page_popup_bubble = "#index";
+    </script>
 
     <script>
         $("a[href='#top']").click(function() {
@@ -2581,9 +2590,10 @@
             $(window).scroll(function() {
                 var h = $(window).scrollTop();
                 if (h > 100) {
-                    $(".scrolltotop").addClass('scrolltotop-animate');
+                    $('.float-contacts').addClass('float-contacts-animate');$(".scrolltotop").addClass('scrolltotop-animate');
                 } else {
-                    $(".scrolltotop").removeClass('scrolltotop-animate');
+                    $('.float-contacts').removeClass('float-contacts-animate');
+                    $('.float-contacts').removeClass('float-contacts-animate');$(".scrolltotop").removeClass('scrolltotop-animate');
                 }
             })
             $(".scrolltotop a").click(function() {

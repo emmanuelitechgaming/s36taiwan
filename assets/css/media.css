@@ -173,7 +173,7 @@
         bottom: -9px !important;
     }*/
     .nathan-logo a {
-        background-size: 100% 45% !important
+        background-size: 100% 60% !important
     }
     .nav.navbar-nav {
         margin-left: -20px;
@@ -1956,11 +1956,13 @@
 
 @media only screen and (min-width: 480px) {
     .float-contacts {
-        right: 49px;
+        right: 1px;
         position: fixed;
         cursor: pointer;
         bottom: 25px;
-        z-index: 2
+        z-index: 2;
+        -webkit-transition: right 1s;
+        transition: right 1s;
     }
     .mnav-top ul li {
         width: 25%;
