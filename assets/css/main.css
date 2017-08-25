@@ -1615,6 +1615,7 @@ p {
   font-size: 19px;
   background: #fba601;
   background-size: contain;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
 }
 
 .sp-btn-hidden:hover{
@@ -7862,6 +7863,7 @@ main .win-title-recent{
     text-shadow: none;
     letter-spacing: 1px;
     padding: 6px 30px !important;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
 }
 .img-responsive-live-games{
   position: relative;
