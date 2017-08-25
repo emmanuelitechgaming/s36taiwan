@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  $("a").each(function(){
+          $(this).attr("rel","external");
+    });
   /**
    * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
    *
