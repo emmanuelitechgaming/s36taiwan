@@ -22,7 +22,7 @@
         top: -229px;
     }
     .float-contacts-m {
-        right: 1px;
+        right: 35px;
         position: fixed;
         cursor: pointer;
         bottom: 1px;
@@ -713,7 +713,7 @@
         margin: 2px 5px;
     }
     .scrolltotop-m {
-        bottom: 44px;
+        bottom: 12px;
     }
     .sp-back-btn {
         padding-left: 0;
@@ -1956,10 +1956,11 @@
 
 @media only screen and (min-width: 480px) {
     .float-contacts {
-        right: 1px;
+        right: 70px;
         position: fixed;
         cursor: pointer;
-        bottom: 1px;
+        bottom: 25px;
+        z-index: 2
     }
     .mnav-top ul li {
         width: 25%;

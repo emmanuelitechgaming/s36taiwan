@@ -2298,8 +2298,8 @@ input[type=password]:hover {
     padding: 2px 10px;
     text-decoration: none;*/
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 51px;
+    height: 37px;
     background: url('../img/arrow up-mobile_15.png');
     background-size: cover
 }
