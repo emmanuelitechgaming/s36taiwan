@@ -1924,13 +1924,13 @@
     <div class="float-contacts hidden-xs hidden-sm">
         <a href="helpcenter.html#tab2"><img src="assets/img/contact-mobile_15.png" id="cta-contact" alt=""></a>
     </div>
-    <div class="scrolltotop-m hidden-lg hidden-md" style="display: none;">
+    <div class="scrolltotop-m hidden-lg hidden-md">
         <a><img src="assets/img/arrow-mobile-up.png" alt=""></a>
     </div>
     <div class="float-contacts-m hidden-lg hidden-md">
         <a href="helpcenter.html#tab2"><img src="assets/img/contact-mobile.png" id="cta-contact" alt=""></a>
     </div>
-    <div class="scrolltotop hidden-xs hidden-sm" style="display: none;">
+    <div class="scrolltotop hidden-xs hidden-sm">
         <a>
             <div class="btn-top"></div>
         </a>
@@ -1940,9 +1940,9 @@
             $(window).scroll(function() {
                 var h = $(window).scrollTop();
                 if (h > 100) {
-                    $(".scrolltotop").css('display', 'block');
+                    $(".scrolltotop").addClass('scrolltotop-animate');
                 } else {
-                    $(".scrolltotop").css('display', 'none');
+                    $(".scrolltotop").removeClass('scrolltotop-animate');
                 }
             })
             $(".scrolltotop a").click(function() {
@@ -1957,9 +1957,9 @@
             $(window).scroll(function() {
                 var h = $(window).scrollTop();
                 if (h > 100) {
-                    $(".scrolltotop-m").css('display', 'block');
+                    $(".scrolltotop-m").addClass('scrolltotop-m-animate');
                 } else {
-                    $(".scrolltotop-m").css('display', 'none');
+                    $(".scrolltotop-m").removeClass('scrolltotop-m-animate');
                 }
             })
             $(".scrolltotop-m a").click(function() {
