@@ -37,6 +37,7 @@ $(document).bind("mobileinit", function(){
    * replaced with on event for jquery 1.7+ note requires more recent versions of jquery and jquerymobile
    */
   $( document ).on( "pageinit", function() {
+
   window.setTimeout(function() {
     var bubble = new google.bookmarkbubble.Bubble();
 
