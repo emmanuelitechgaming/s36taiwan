@@ -1956,7 +1956,7 @@
 
 @media only screen and (min-width: 480px) {
     .float-contacts {
-        right: 50px;
+        right: 49px;
         position: fixed;
         cursor: pointer;
         bottom: 25px;

@@ -2288,7 +2288,10 @@ input[type=password]:hover {
 .scrolltotop-m {
     display: block;
     position: fixed;
-    right: 1px;
+    right: 38px;
+    opacity: 0;
+    -webkit-transition: all 1s;
+    transition: all 1s
 }
 
 .btn-top {
@@ -7877,5 +7880,15 @@ bottom: 44px;
   top: 33%;
   text-align: center;
 }
-.lotto-button a{
+.scrolltotop-animate{
+  right: 15px !important;
+  opacity: 1 !important;
+  -webkit-transition: all 1s;
+  transition: all 1s
+}
+.scrolltotop-m-animate{
+  right: 1px;
+  opacity: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s
 }
