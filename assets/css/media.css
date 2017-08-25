@@ -1956,11 +1956,13 @@
 
 @media only screen and (min-width: 480px) {
     .float-contacts {
-        right: 49px;
+        right: 1px;
         position: fixed;
         cursor: pointer;
         bottom: 25px;
-        z-index: 2
+        z-index: 2;
+        -webkit-transition: right 1s;
+        transition: right 1s;
     }
     .mnav-top ul li {
         width: 25%;

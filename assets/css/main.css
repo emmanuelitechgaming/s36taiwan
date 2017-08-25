@@ -7881,7 +7881,6 @@ bottom: 44px;
   text-align: center;
 }
 .scrolltotop-animate{
-  right: 15px !important;
   opacity: 1 !important;
   -webkit-transition: all 1s;
   transition: all 1s
@@ -7889,6 +7888,11 @@ bottom: 44px;
 .scrolltotop-m-animate{
   right: 1px;
   opacity: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s
+}
+.float-contacts-animate{
+  right: 34.5px !important;
   -webkit-transition: all 1s;
   transition: all 1s
 }
