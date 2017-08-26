@@ -3455,6 +3455,10 @@ margin-top: -18px;
       padding-right: 150px;
       margin-bottom: 10px;
     }
+    .absolute-play-casino .sp-btn-hidden{
+      padding: 6px 40px;
+      padding-right: 70px;
+    }
     .tdw-button{
       padding-left: 15px;
       padding-right: 15px;
@@ -3731,11 +3735,11 @@ main .marquee {
 }
 .cta-casino .absolute-play{
   left: auto;
-  right: 42%;
+  right: 25%;
   top: 30%
 }
 .cta-casino .absolute-play.pc-ver-cas{
-  right: 45%;
+  right: 39%;
 }
 .absolute-play-casino{
   width: auto;
