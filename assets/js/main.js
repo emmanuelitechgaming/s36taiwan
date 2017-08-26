@@ -661,7 +661,7 @@ $(document).ready(function () {
       $(this).css('color', 'rgba(49, 49, 49, 0.5)');
       $(this).addClass('btn-hidden-hover');
     }, function() {
-      $(this).css('color', 'rgba(26, 26, 26, 0.7)');
+      $(this).css('color', 'rgba(26, 26, 26, 0.8)');
       $(this).removeClass('btn-hidden-hover');
     });
 
