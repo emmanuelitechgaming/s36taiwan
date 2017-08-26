@@ -1615,7 +1615,8 @@ p {
   font-size: 19px;
   background: #fba601;
   background-size: contain;
-      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+      -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+              box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
 }
 
 .sp-btn-hidden:hover{
@@ -3859,7 +3860,6 @@ footer .browsers li:first-child {
     transition: top ease 0.5s;
     padding: 5px;
     z-index: 9;
-    max-width: 377px;
     margin: 0 auto;
 }
 
@@ -3869,6 +3869,7 @@ footer .browsers li:first-child {
 
 #c {
     min-height: 90px;
+    max-width: 377px;
 }
 
 
@@ -7759,7 +7760,7 @@ margin-right: 23px;
   border: 1px solid #ffb601;
   position: absolute;
   z-index: 9;
-  top: 16px;
+  top: 14px;
   -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.8);
   box-shadow: 0 0 30px 0 rgba(0,0,0,.8);
   -webkit-transform: scale(0);
@@ -7863,7 +7864,8 @@ main .win-title-recent{
     text-shadow: none;
     letter-spacing: 1px;
     padding: 6px 30px !important;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
 }
 .img-responsive-live-games{
   position: relative;
@@ -7897,4 +7899,33 @@ bottom: 44px;
   right: 34.5px !important;
   -webkit-transition: all 1s;
   transition: all 1s
+}
+.img-wrap .game-title{
+  position: absolute;
+  top: 44%;
+  right: 1px;
+  left: 1px;
+  text-align: center;
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 0;
+  font-size: 18px;
+  min-height: 36px
+}
+.img-wrap .game-title-pc{
+  top: 46.5%
+}
+.casino-g .content{
+  background: #242424;
+  border: 1px solid #323232;
+  border-top: none
+}
+.casino-g .content p{
+  background: #0e0e0e;
+  margin: 5px;
+  padding: 10px 5px;
+  border-radius: 5px
+}
+.casino-section .breadcrumb-inner{
+  padding-bottom: 20px
 }

@@ -3504,7 +3504,8 @@ margin-top: -18px;
       padding-left: 15px;
     }
     .casino-mp, .slots-mp{
-      margin-top: 10px
+      margin-top: 0;
+      margin-bottom: 5px
     }
     .live-game.jigong, .live-game.frut-popper{
       top: -15px
