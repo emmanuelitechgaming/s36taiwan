@@ -3508,6 +3508,9 @@ margin-top: -18px;
       padding-left: 15px;
     }
     .casino-mp, .slots-mp{
+      margin-top: 10px;
+    }
+    .casino-mp{
       margin-top: 0;
       margin-bottom: 5px
     }

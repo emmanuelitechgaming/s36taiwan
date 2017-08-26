@@ -7900,7 +7900,7 @@ bottom: 44px;
   -webkit-transition: all 1s;
   transition: all 1s
 }
-.img-wrap .game-title{
+.main-casino-section .img-wrap .game-title{
   position: absolute;
   top: 44%;
   right: 1px;
@@ -7912,17 +7912,17 @@ bottom: 44px;
   font-size: 18px;
   min-height: 36px
 }
-.casino-g .content{
+.main-casino-section .casino-g .content{
   background: #242424;
   border: 1px solid #323232;
   border-top: none
 }
-.casino-g .content p{
+.main-casino-section .casino-g .content p{
   background: #0e0e0e;
   margin: 5px;
   padding: 10px 5px;
   border-radius: 5px
 }
-.casino-section .breadcrumb-inner{
+.main-casino-section .breadcrumb-inner{
   padding-bottom: 20px
 }
