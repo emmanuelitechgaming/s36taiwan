@@ -7628,8 +7628,8 @@ margin-right: 23px;
   top: 5px;
 }
 .username-availability button{
-  background:#fba601;
-  color: #000;
+  background: none;
+  color: #81caff;
   border: none;
   border-radius: 20px;
   padding: 4px 8px
@@ -7885,6 +7885,7 @@ bottom: 44px;
   text-align: center;
 }
 .scrolltotop-animate{
+  right: 40px !important;
   opacity: 1 !important;
   -webkit-transition: all 1s;
   transition: all 1s
@@ -7892,11 +7893,6 @@ bottom: 44px;
 .scrolltotop-m-animate{
   right: 1px;
   opacity: 1;
-  -webkit-transition: all 1s;
-  transition: all 1s
-}
-.float-contacts-animate{
-  right: 34.5px !important;
   -webkit-transition: all 1s;
   transition: all 1s
 }
@@ -7912,9 +7908,6 @@ bottom: 44px;
   font-size: 18px;
   min-height: 36px
 }
-.img-wrap .game-title-pc{
-  top: 46.5%
-}
 .casino-g .content{
   background: #242424;
   border: 1px solid #323232;
@@ -7926,6 +7919,6 @@ bottom: 44px;
   padding: 10px 5px;
   border-radius: 5px
 }
-.casino-section .breadcrumb-inner{
+.main-casino-section .breadcrumb-inner{
   padding-bottom: 20px
 }
