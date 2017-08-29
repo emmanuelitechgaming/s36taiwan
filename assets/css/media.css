@@ -22,7 +22,7 @@
         top: -229px;
     }
     .float-contacts-m {
-        right: 35px;
+        right: 1px;
         position: fixed;
         cursor: pointer;
         bottom: 1px;
@@ -704,7 +704,7 @@
         bottom: -5px
     }
     .lg-playnow {
-        bottom: 2.1%;
+        bottom: 1.6%;
     }
     img.b-img {
         top: auto
@@ -1153,7 +1153,7 @@
         bottom: 6px;
     }
     .lg-playnow {
-        bottom: 4%;
+        bottom: 3.7%;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1524,7 +1524,7 @@
       margin: 0 8px
     }
     .lg-playnow {
-      bottom: 4.5%;
+      bottom: 4.1%;
     }
 }
 
@@ -1672,7 +1672,7 @@
     }
     .lg-playnow {
         font-size: 18px;
-        bottom: 13.3%
+        bottom: 4.6%;
     }
     .promotion-form-btn {
         background-position: 32px -1px
@@ -1914,7 +1914,7 @@
         padding-left: 5px;
     }
     .lg-playnow {
-        bottom: 5.7%;
+        bottom: 4.7%;
     }
     .live-game-txtba a {
         bottom: -15px;
@@ -2199,7 +2199,7 @@
         padding-bottom: 9px;
     }
     .lg-playnow {
-        bottom: 13.4%;
+        bottom: 4.9%;
     }
     .m-fsalon ul li:nth-child(1) img,
     .m-fsalon ul li:nth-child(2) img {
