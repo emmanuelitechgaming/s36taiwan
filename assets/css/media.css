@@ -3300,7 +3300,7 @@ margin-top: -18px;
     #c {
         margin-top: auto;
         padding-top: 10px;
-        min-height: 175px;
+        min-height: 116px;
     }
     .lg-playnow {
         font-size: 17px;;
@@ -3461,6 +3461,10 @@ margin-top: -18px;
       padding: 6px 80px;
       padding-right: 105px;
     }
+    .oc-content .sp-btn-hidden{
+      padding: 6px 30px;
+      padding-right: 60px;
+    }
     .absolute-play-casino .sp-btn-hidden{
       padding: 6px 40px;
       padding-right: 70px;
@@ -3495,7 +3499,7 @@ margin-top: -18px;
     }
     .slots-breadcrumb-inner .col-xs-12{
       width: 403px;
-      height: 374px;
+      height: 315px;
     }
     /*.live-games img{
       max-width: 80%

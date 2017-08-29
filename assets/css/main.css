@@ -7862,10 +7862,6 @@ main .win-title-recent{
     border-radius: 20px;
     font-weight: 700;
     text-shadow: none;
-    letter-spacing: 1px;
-    padding: 6px 30px !important;
-    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
-            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
 }
 .img-responsive-live-games{
   position: relative;
@@ -7898,7 +7894,7 @@ bottom: 44px;
 }
 .img-wrap .game-title{
   position: absolute;
-  top: 44%;
+  top: 52.5%;
   right: 1px;
   left: 1px;
   text-align: center;
@@ -7907,6 +7903,9 @@ bottom: 44px;
   padding: 5px 0;
   font-size: 18px;
   min-height: 36px
+}
+.img-wrap.img-container .game-title{
+  top: 80%;
 }
 .casino-g .content{
   background: #242424;
