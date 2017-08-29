@@ -3299,6 +3299,8 @@ margin-top: -18px;
     }
     #c {
         margin-top: auto;
+        padding-top: 10px;
+        min-height: 175px;
     }
     .lg-playnow {
         font-size: 17px;;
@@ -3493,7 +3495,7 @@ margin-top: -18px;
     }
     .slots-breadcrumb-inner .col-xs-12{
       width: 403px;
-      height: 325px;
+      height: 374px;
     }
     /*.live-games img{
       max-width: 80%
