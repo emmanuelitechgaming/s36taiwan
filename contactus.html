@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content=""><meta name="theme-color" content="#252525" />
-    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon.ico">
 
     <title>S36 TAIWAN</title>
 
@@ -1018,7 +1018,7 @@
 </footer>
 
 
-    <div class="modal fade" tabindex="-1" role="dialog" id="noticeModal">
+    <div class="modal" tabindex="-1" role="dialog" id="noticeModal">
         <div class="modal-dialog notice-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1061,7 +1061,7 @@
         </div>
     </div>
 
-    <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csModal">
+    <div class="modal cs-modal" tabindex="-1" role="dialog" id="csModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1089,7 +1089,7 @@
         </div>
     </div>
 
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-custom-lg">
         <div class="modal-content">
             <div class="modal-body">
@@ -1185,13 +1185,13 @@
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="email" class="col-sm-2 control-label">电子邮件 *</label>
-                                                    <div class="col-sm-5 col-xs-10">
+                                                    <div class="col-sm-5 col-xs-12">
                                                         <div class="input-border">
                                                             <input type="email" class="form-control" />
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-1 col-xs-2">
-                                                        <a href="#"><i class="fa fa-pencil"></i></a>
+                                                        
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
@@ -1208,13 +1208,13 @@
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="mobile" class="col-sm-2 control-label">建立密碼 *</label>
-                                                    <div class="col-sm-5 col-xs-10">
+                                                    <div class="col-sm-5 col-xs-12">
                                                         <div class="input-border">
                                                             <input type="password" class="form-control" id="mobile" />
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-1 col-xs-2 ">
-                                                        <a href="#"><i class="fa fa-pencil"></i></a>
+                                                        
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
@@ -1352,7 +1352,7 @@
 </div>
 
 
-    <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="demoModal">
+    <div class="modal cs-modal" tabindex="-1" role="dialog" id="demoModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1382,7 +1382,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csMsg">
+    <div class="modal cs-modal" tabindex="-1" role="dialog" id="csMsg">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1413,7 +1413,7 @@
         </div>
     </div>
 
-    <div class="modal fade cs-modal" tabindex="-1" role="dialog" id="csPhone">
+    <div class="modal cs-modal" tabindex="-1" role="dialog" id="csPhone">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -1493,6 +1493,8 @@
     </script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="dist/js/bootstrap-slider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.min.js"></script>
     <script src="dist/js/sweetalert.min.js"></script>
     <script src="dist/js/font-awesome.js"></script>
     <script src="dist/js/jquery.flagstrap.min.js"></script>
@@ -1521,13 +1523,13 @@
     <div class="float-contacts hidden-xs hidden-sm">
       <a href="helpcenter.html#tab2"><img src="assets/img/contact-mobile_15.png" id="cta-contact" alt=""></a>
     </div>
-    <div class="scrolltotop-m hidden-lg hidden-md" style="display: none;">
+    <div class="scrolltotop-m hidden-lg hidden-md">
         <a><img src="assets/img/arrow-mobile-up.png" alt=""></a>
     </div>
     <div class="float-contacts-m hidden-lg hidden-md">
       <a href="helpcenter.html#tab2"><img src="assets/img/contact-mobile.png" id="cta-contact" alt=""></a>
     </div>
-    <div class="scrolltotop hidden-xs hidden-sm" style="display: none;">
+    <div class="scrolltotop hidden-xs hidden-sm">
         <a><div class="btn-top"></div></a>
     </div>
     <script type="text/javascript">
@@ -1535,9 +1537,9 @@
             $(window).scroll(function() {
                 var h = $(window).scrollTop();
                 if (h > 100) {
-                    $(".scrolltotop").css('display', 'block');
+                    $(".scrolltotop").addClass('scrolltotop-animate');
                 } else {
-                    $(".scrolltotop").css('display', 'none');
+                    $(".scrolltotop").removeClass('scrolltotop-animate');
                 }
             })
             $(".scrolltotop a").click(function() {
@@ -1552,9 +1554,9 @@
             $(window).scroll(function() {
                 var h = $(window).scrollTop();
                 if (h > 100) {
-                    $(".scrolltotop-m").css('display', 'block');
+                    $(".scrolltotop-m").addClass('scrolltotop-m-animate');
                 } else {
-                    $(".scrolltotop-m").css('display', 'none');
+                    $(".scrolltotop-m").removeClass('scrolltotop-m-animate');
                 }
             })
             $(".scrolltotop-m a").click(function() {

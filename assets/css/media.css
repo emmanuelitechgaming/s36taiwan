@@ -22,7 +22,7 @@
         top: -229px;
     }
     .float-contacts-m {
-        right: 1px;
+        right: 35px;
         position: fixed;
         cursor: pointer;
         bottom: 1px;
@@ -173,7 +173,7 @@
         bottom: -9px !important;
     }*/
     .nathan-logo a {
-        background-size: 100% 45% !important
+        background-size: 100% 60% !important
     }
     .nav.navbar-nav {
         margin-left: -20px;
@@ -217,8 +217,8 @@
         top: 3px
     }
     .cta-seemore {
-        bottom: 77px;
-        right: 10px;
+        bottom: 42px;
+        right: 15px;
     }
     .casino-more {
         display: none;
@@ -704,7 +704,7 @@
         bottom: -5px
     }
     .lg-playnow {
-        bottom: 12.4%;
+        bottom: 2.1%;
     }
     img.b-img {
         top: auto
@@ -713,7 +713,7 @@
         margin: 2px 5px;
     }
     .scrolltotop-m {
-        bottom: 44px;
+        bottom: 12px;
     }
     .sp-back-btn {
         padding-left: 0;
@@ -1035,8 +1035,8 @@
         margin-left: -140px !important;
     }
     .cta-seemore {
-        bottom: 90px;
-        right: 10px;
+        bottom: 54px;
+        right: 15px;
     }
     .swiper-container {
         width: 290px;
@@ -1153,7 +1153,7 @@
         bottom: 6px;
     }
     .lg-playnow {
-        bottom: 13%;
+        bottom: 4%;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1279,8 +1279,8 @@
         bottom: -4px;
     }
     .cta-seemore {
-        bottom: 95px;
-        right: 10px;
+        bottom: 57px;
+        right: 17px;
     }
     .back {
         bottom: 40px;
@@ -1522,6 +1522,9 @@
     .selectpicker2-menu .languages a{
       font-size: 12px;
       margin: 0 8px
+    }
+    .lg-playnow {
+      bottom: 4.5%;
     }
 }
 
@@ -1778,8 +1781,8 @@
         bottom: -3px;
     }
     .cta-seemore {
-        bottom: 106px;
-        right: 10px;
+        bottom: 68px;
+        right: 20px;
     }
     .back {
         bottom: 40px;
@@ -1911,7 +1914,7 @@
         padding-left: 5px;
     }
     .lg-playnow {
-        bottom: 13.3%;
+        bottom: 5.7%;
     }
     .live-game-txtba a {
         bottom: -15px;
@@ -1956,7 +1959,10 @@
         right: 1px;
         position: fixed;
         cursor: pointer;
-        bottom: 1px;
+        bottom: 25px;
+        z-index: 2;
+        -webkit-transition: right 1s;
+        transition: right 1s;
     }
     .mnav-top ul li {
         width: 25%;
@@ -2719,7 +2725,7 @@
 width: 360px;
     }
     .nathan-logo a {
-        background-size: 100% 67% !important
+        background-size: 100% 95% !important
     }
     header .logo a {
       width: 253px;
@@ -3293,6 +3299,8 @@ margin-top: -18px;
     }
     #c {
         margin-top: auto;
+        padding-top: 10px;
+        min-height: 116px;
     }
     .lg-playnow {
         font-size: 17px;;
@@ -3449,6 +3457,18 @@ margin-top: -18px;
       padding-right: 150px;
       margin-bottom: 10px;
     }
+    .casino-g .sp-btn-hidden{
+      padding: 6px 80px;
+      padding-right: 105px;
+    }
+    .oc-content .sp-btn-hidden{
+      padding: 6px 30px;
+      padding-right: 60px;
+    }
+    .absolute-play-casino .sp-btn-hidden{
+      padding: 6px 40px;
+      padding-right: 70px;
+    }
     .tdw-button{
       padding-left: 15px;
       padding-right: 15px;
@@ -3479,7 +3499,7 @@ margin-top: -18px;
     }
     .slots-breadcrumb-inner .col-xs-12{
       width: 403px;
-      height: 325px;
+      height: 315px;
     }
     /*.live-games img{
       max-width: 80%
@@ -3494,7 +3514,11 @@ margin-top: -18px;
       padding-left: 15px;
     }
     .casino-mp, .slots-mp{
-      margin-top: 10px
+      margin-top: 10px;
+    }
+    .casino-mp{
+      margin-top: 0;
+      margin-bottom: 5px
     }
     .live-game.jigong, .live-game.frut-popper{
       top: -15px
@@ -3524,6 +3548,12 @@ margin-top: -18px;
       background: url('../img/promo/spotlight.png') no-repeat #000;
       background-position: 130%;
       background-size: contain;
+    }
+    .username-availability button{
+      padding-left: 0;
+    }
+    .username-availability div{
+      margin-left: 0;
     }
 }
 
@@ -3710,11 +3740,11 @@ main .marquee {
     right: 29%;
 }
 .cta-seemore {
-    bottom: 107px;
-    right: 12px;
+    bottom: 70px;
+    right: 30px;
 }
 .lg-playnow {
-    bottom: 13%;
+    bottom: 2%;
 }
 .lg-playnow {
     font-size: 18px;
@@ -3725,11 +3755,11 @@ main .marquee {
 }
 .cta-casino .absolute-play{
   left: auto;
-  right: 42%;
+  right: 25%;
   top: 30%
 }
 .cta-casino .absolute-play.pc-ver-cas{
-  right: 45%;
+  right: 39%;
 }
 .absolute-play-casino{
   width: auto;
