@@ -1657,6 +1657,10 @@ p {
   top: 8px
 }
 
+.lg-playnow.sp-btn-hidden::after{
+  top: 7px
+}
+
 .acc-info .acc-lbl {
     display: inline-block;
     width:113px;
@@ -7920,4 +7924,9 @@ bottom: 44px;
 }
 .main-casino-section .breadcrumb-inner{
   padding-bottom: 20px
+}
+.lg-playnow.sp-btn-hidden{
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
