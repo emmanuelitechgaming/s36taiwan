@@ -3549,6 +3549,12 @@ margin-top: -18px;
       background-position: 130%;
       background-size: contain;
     }
+    .username-availability button{
+      padding-left: 0;
+    }
+    .username-availability div{
+      margin-left: 0;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
