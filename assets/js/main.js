@@ -665,6 +665,12 @@ $(document).ready(function () {
       $(this).removeClass('btn-hidden-hover');
     });
 
+    $('.casino-desc-bot .sp-btn-hidden').hover(function() {
+      $(this).addClass('sp-btn-hidden-hover');
+    }, function() {
+      $(this).removeClass('sp-btn-hidden-hover');
+    })
+
     $('a[href="#slot-tab1"]').on('shown.bs.tab', function () {
       $('.slots-swiper-container .swiper-slide a').removeClass('active');
       $(this).addClass('active');
