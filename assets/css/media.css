@@ -930,6 +930,14 @@
       display: block;
       margin-bottom: 0;
     }
+    .casino-desc-bot .sp-btn-hidden{
+      display: inline-block;
+      margin: 0px auto;
+      padding: 4px 25px;
+    }
+    .casino-desc-bot .text-right{
+      text-align: center;
+    }
     .tdw-button{
       display: block;
       width: 100%;
@@ -1022,10 +1030,12 @@
       content: '';
       display: block;
       width: 100%;
-      /*height: 1px;*/
-      /*background: #4e4e4e;*/
       position: relative;
       bottom: 10px
+    }
+    .casino-mp {
+        text-align: center;
+        margin-bottom: 10px;
     }
 }
 
@@ -3557,6 +3567,12 @@ margin-top: -18px;
     }
     .username-availability div{
       margin-left: 0;
+    }
+    .casino-mp {
+        text-align: left;
+    }
+    .casino-desc-bot .text-right{
+      text-align: right;
     }
 }
 
