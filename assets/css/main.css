@@ -313,6 +313,7 @@ main .jackpot {
 main .live-container {
     margin-top: 0;
     padding: 0px;
+    margin-bottom: 30px;
 }
 
 .navbar-right {
@@ -771,7 +772,7 @@ div.border:before {
 
 .breadcrumb-inner {
     overflow: hidden;
-    background: #1b1a1a;
+    /*background: #1b1a1a;*/
     margin-bottom: 15px;
 }
 
@@ -2294,7 +2295,7 @@ input[type=password]:hover {
 .scrolltotop-m {
     display: block;
     position: fixed;
-    right: 1px;
+    right: 38px;
     opacity: 0;
     -webkit-transition: all 1s;
     transition: all 1s
@@ -7891,7 +7892,7 @@ bottom: 44px;
   transition: all 1s
 }
 .scrolltotop-m-animate{
-  right: 39px;
+  right: 1px;
   opacity: 1;
   -webkit-transition: all 1s;
   transition: all 1s
@@ -7912,12 +7913,12 @@ bottom: 44px;
   top: 80%;
 }
 .casino-g .content{
-  background: #242424;
+  background: #1b1a1a;
   border: 1px solid #323232;
   border-top: none
 }
 .casino-g .content p{
-  background: #0e0e0e;
+  background:#1b1a1a;
   margin: 5px;
   padding: 10px 5px;
   border-radius: 5px
