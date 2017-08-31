@@ -2311,7 +2311,8 @@ input[type=password]:hover {
     width: 51px;
     height: 37px;
     background: url('../img/arrow up-mobile_15.png');
-    background-size: cover
+    background-size: cover;
+    display:none;
 }
 
 .lang-med {
@@ -6083,12 +6084,12 @@ main .win-lot-top-games {
     border: 0!important;
 }
 
-.promo-tabs-border {
+/*.promo-tabs-border {
     border-bottom: 1px solid #fba601;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 5px;
-}
+}*/
 
 .promo-btn {
     position: absolute;
