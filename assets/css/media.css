@@ -217,7 +217,7 @@
         top: 3px
     }
     .cta-seemore {
-        bottom: 42px;
+        bottom: 92px;
         right: 15px;
     }
     .casino-more {
@@ -704,7 +704,7 @@
         bottom: -5px
     }
     .lg-playnow {
-        bottom: 1.6%;
+        bottom: 11%;
     }
     img.b-img {
         top: auto
@@ -1045,8 +1045,8 @@
         margin-left: -140px !important;
     }
     .cta-seemore {
-        bottom: 54px;
-        right: 15px;
+        bottom: 110px;
+        right: 20px;
     }
     .swiper-container {
         width: 290px;
@@ -1163,7 +1163,7 @@
         bottom: 6px;
     }
     .lg-playnow {
-        bottom: 9%;
+        bottom: 12.5%;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1289,8 +1289,8 @@
         bottom: -4px;
     }
     .cta-seemore {
-        bottom: 57px;
-        right: 17px;
+        bottom: 117px;
+        right: 20px;
     }
     .back {
         bottom: 40px;
@@ -1534,7 +1534,7 @@
       margin: 0 8px
     }
     .lg-playnow {
-      bottom: 10.1%;
+      bottom: 12.94%;
     }
 }
 
@@ -1682,7 +1682,7 @@
     }
     .lg-playnow {
         font-size: 18px;
-        bottom: 4.6%;
+        bottom: 13.5%;
     }
     .promotion-form-btn {
         background-position: 32px -1px
@@ -1762,8 +1762,8 @@
       margin-left: 40%;
     }
     .cta-seemore {
-      bottom: 105px;
-      right: 10px;
+      bottom: 132px;
+      right: 20px;
     }
 }
 
@@ -1791,7 +1791,7 @@
         bottom: -3px;
     }
     .cta-seemore {
-        bottom: 68px;
+        bottom: 134px;
         right: 20px;
     }
     .back {
@@ -1924,7 +1924,7 @@
         padding-left: 5px;
     }
     .lg-playnow {
-        bottom: 10%;
+        bottom: 13.5%;
     }
     .live-game-txtba a {
         bottom: -15px;
@@ -3574,6 +3574,9 @@ margin-top: -18px;
     .casino-desc-bot .text-right{
       text-align: right;
     }
+    .lg-playnow.sp-btn-hidden::after {
+      top: 8px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -3759,11 +3762,11 @@ main .marquee {
     right: 29%;
 }
 .cta-seemore {
-    bottom: 70px;
-    right: 30px;
+    bottom: 135px;
+    right: 25px;
 }
 .lg-playnow {
-    bottom: 8%;
+    bottom: 11.5%;
 }
 .lg-playnow {
     font-size: 18px;
