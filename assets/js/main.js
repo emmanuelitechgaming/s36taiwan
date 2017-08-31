@@ -665,10 +665,12 @@ $(document).ready(function () {
       $(this).removeClass('btn-hidden-hover');
     });
 
-    $('.casino-desc-bot .sp-btn-hidden').hover(function() {
+    $('.casino-desc-bot .sp-btn-hidden, .btn-promotion').hover(function() {
       $(this).addClass('sp-btn-hidden-hover');
+      $(this).addClass('btn-promotion-hover');
     }, function() {
       $(this).removeClass('sp-btn-hidden-hover');
+      $(this).removeClass('btn-promotion-hover');
     })
 
     $('a[href="#slot-tab1"]').on('shown.bs.tab', function () {
