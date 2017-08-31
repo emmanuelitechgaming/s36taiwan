@@ -1163,7 +1163,7 @@
         bottom: 6px;
     }
     .lg-playnow {
-        bottom: 3.7%;
+        bottom: 9%;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1534,7 +1534,7 @@
       margin: 0 8px
     }
     .lg-playnow {
-      bottom: 4.1%;
+      bottom: 10.1%;
     }
 }
 
@@ -1924,7 +1924,7 @@
         padding-left: 5px;
     }
     .lg-playnow {
-        bottom: 4.7%;
+        bottom: 10%;
     }
     .live-game-txtba a {
         bottom: -15px;
@@ -1969,7 +1969,7 @@
         right: 1px;
         position: fixed;
         cursor: pointer;
-        bottom: 25px;
+        bottom: 1px;
         z-index: 2;
         -webkit-transition: right 1s;
         transition: right 1s;
@@ -3763,7 +3763,7 @@ main .marquee {
     right: 30px;
 }
 .lg-playnow {
-    bottom: 2%;
+    bottom: 8%;
 }
 .lg-playnow {
     font-size: 18px;
