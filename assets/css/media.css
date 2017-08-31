@@ -3574,6 +3574,9 @@ margin-top: -18px;
     .casino-desc-bot .text-right{
       text-align: right;
     }
+    .lg-playnow.sp-btn-hidden::after {
+      top: 8px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
