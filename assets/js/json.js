@@ -69,7 +69,7 @@ $(document).ready(function(){
 			],
 			'flag': 'flag-icon-my',
 			'link': [
-				'#',
+				'my-bm/',
 				'my-en/',
 				'#'
 			]
