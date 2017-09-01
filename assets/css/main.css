@@ -2295,7 +2295,7 @@ input[type=password]:hover {
 .scrolltotop-m {
     display: block;
     position: fixed;
-    right: 38px;
+    right: 1px;
     opacity: 0;
     -webkit-transition: all 1s;
     transition: all 1s
@@ -7893,7 +7893,7 @@ bottom: 44px;
   transition: all 1s
 }
 .scrolltotop-m-animate{
-  right: 1px;
+  right: 40px;
   opacity: 1;
   -webkit-transition: all 1s;
   transition: all 1s
