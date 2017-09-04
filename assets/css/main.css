@@ -8022,7 +8022,20 @@ bottom: 44px;
   height: 32px!important;
 }
 .contact-title .flag-icon::before {
-
   bottom: -1px;
   left: 1px;
+}
+.float-contacts{
+  display: block;
+  width: 57px;
+  height: 57px;
+  background: url('../img/contact-button.png') no-repeat;
+  background-size: contain;
+}
+.float-contacts-m{
+  display: block;
+  width: 75px;
+  height: 75px;
+  background: url('../img/contact-button.png') no-repeat;
+  background-size: contain;
 }
