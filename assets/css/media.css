@@ -1038,6 +1038,9 @@
         text-align: center;
         margin-bottom: 10px;
     }
+    .selected-cntry{
+      display: none;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3577,6 +3580,9 @@ margin-top: -18px;
     }
     .lg-playnow.sp-btn-hidden::after {
       top: 8px;
+    }
+    .selected-cntry{
+      display: inline-block;
     }
 }
 
