@@ -7885,7 +7885,10 @@ main .win-title-recent{
 }
 .fffssa{
   padding: 5px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 bottom: 44px;
+background: #1b1b1b
 }
 .lotto-button{
   position: absolute;
@@ -7893,6 +7896,12 @@ bottom: 44px;
   left: 0;
   top: 42%;
   text-align: center;
+}
+.sp-lottot-container .sp-intro{
+  display: inline-block;
+  background: #1b1b1b;
+  margin-left: 5px;
+  padding: 10px 25px
 }
 .scrolltotop-animate{
   right: 40px !important;
