@@ -8045,3 +8045,7 @@ bottom: 44px;
   background: url('../img/contact-button.png') no-repeat;
   background-size: contain;
 }
+.line-separator{
+  border-left: 1px solid red;
+  display: inline-block;
+}
