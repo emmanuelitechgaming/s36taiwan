@@ -22,10 +22,10 @@
         top: -229px;
     }
     .float-contacts-m {
-        right: 1px;
+        right: 10px;
         position: fixed;
         cursor: pointer;
-        bottom: 1px;
+        bottom: 10px;
         z-index: 99999
     }
     .modal-panel-dialog {

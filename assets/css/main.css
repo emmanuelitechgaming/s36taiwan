@@ -8030,8 +8030,8 @@ bottom: 44px;
 }
 .float-contacts, .float-contacts-m{
   display: block;
-  width: 57px;
-  height: 57px;
+  width: 73px;
+  height: 73px;
   background: url('../img/contact-button.png') no-repeat;
   background-size: contain;
 }
