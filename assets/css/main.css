@@ -313,7 +313,7 @@ main .jackpot {
 main .live-container {
     margin-top: 0;
     padding: 0px;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 
 .navbar-right {
@@ -934,7 +934,10 @@ div.border:before {
 .casino-g .content ul {
     position: relative;
 }
-
+.panel-body {
+    padding: 15px;
+    margin-top: -10px;
+}
 .casino-g .content .cta-btn {
     color: inherit;
     border: 1px solid #fff;
@@ -942,7 +945,7 @@ div.border:before {
 }
 
 .panel {
-    margin-top: 20px;
+    margin-top: -10px;
     background-color: transparent;
 }
 
@@ -6071,6 +6074,7 @@ main .win-lot-top-games {
     font-size: 16px;
     font-weight: 700;
     text-shadow: 1px 1px 3px #000;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.4);
 }
 
 .nav-tabs > li.active > a,
@@ -7988,4 +7992,18 @@ bottom: 44px;
 }
 .r-ads{
   margin-bottom: 15px
+}
+.selected-cntry{
+  display: inline-block;
+  margin-top: -15px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.selected-cntry div{
+  display: block;
+}
+.selected-cntry div.b-txt{
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 1.5px;
 }
