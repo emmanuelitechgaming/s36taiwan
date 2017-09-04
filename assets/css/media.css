@@ -3360,11 +3360,11 @@ margin-top: -18px;
     .promotion-form-btn-wrapper::before {
         right: 122px;
     }
-    header {
+    /*header {
         background: url('../img/casino-bg.png');
         background-repeat: no-repeat;
         background-position-x: 45%;
-    }
+    }*/
     main .marquee {
         left: 80px;
     }
@@ -3559,7 +3559,7 @@ margin-top: -18px;
     }
     .spotlight-bg{
       background: url('../img/promo/spotlight.png') no-repeat #000;
-      background-position: 130%;
+      background-position: 100%;
       background-size: contain;
     }
     .username-availability button{
@@ -3588,8 +3588,9 @@ margin-top: -18px;
     }
     header .logo a {
         display: inline-block;
-        width: 326px;
-        height: 83px;
+        width: 280px;
+    height: 66px;
+
         background: url('../img/logo.png') no-repeat 0 0;
         background-repeat: no-repeat;
         background-position-x: 0px;
@@ -3597,7 +3598,7 @@ margin-top: -18px;
         background-size: auto auto;
         background-size: contain;
         background-position: center;
-        margin-top: -30px;
+          margin-top: -18px;
     }
     .header-mobile-logo {
         margin-left: auto
