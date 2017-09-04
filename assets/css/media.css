@@ -714,6 +714,7 @@
     }
     .scrolltotop-m {
         bottom: 12px;
+        display: none
     }
     .sp-back-btn {
         padding-left: 0;
