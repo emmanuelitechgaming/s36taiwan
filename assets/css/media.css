@@ -1970,10 +1970,10 @@
 
 @media only screen and (min-width: 480px) {
     .float-contacts {
-        right: 1px;
+        right: 8px;
         position: fixed;
         cursor: pointer;
-        bottom: 1px;
+        bottom: 8px;
         z-index: 2;
         -webkit-transition: right 1s;
         transition: right 1s;
