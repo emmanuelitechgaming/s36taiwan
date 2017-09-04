@@ -8015,10 +8015,14 @@ bottom: 44px;
 .contact-title span{
   margin: 0 3px;
   margin-top: 1px;
-  border: 2px solid #81caff;
-  border-radius: 50%;
+  opacity: 0.6;
   width: 32px!important;
   height: 32px!important;
+}
+.contact-title span.active{
+  border: 2px solid #81caff;
+  border-radius: 50%;
+  opacity: 1;
 }
 .contact-title .flag-icon::before {
   bottom: -1px;
