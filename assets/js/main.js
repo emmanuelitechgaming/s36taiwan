@@ -120,12 +120,12 @@ $(document).ready(function () {
 
     });
 
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-      $('a[href="'+$(this).context.hash+'"]').parent('li').addClass('active');
-      $('html,body').animate({
-          scrollTop: 0
-      }, 300);
-    });
+    // $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+    //   $('a[href="'+$(this).context.hash+'"]').parent('li').addClass('active');
+    //   $('html,body').animate({
+    //       scrollTop: 0
+    //   }, 300);
+    // });
 
     $('.browsers li #ie').hover(function() {
       $('.browsers li #ie img').attr('src', 'assets/img/footer/ie-b.png');
