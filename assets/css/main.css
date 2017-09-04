@@ -7885,15 +7885,13 @@ main .win-title-recent{
 }
 .fffssa{
   padding: 5px 10px;
-overflow: hidden;
-position: absolute;
 bottom: 44px;
 }
 .lotto-button{
   position: absolute;
   right: 0;
   left: 0;
-  top: 33%;
+  top: 42%;
   text-align: center;
 }
 .scrolltotop-animate{
@@ -8017,17 +8015,27 @@ bottom: 44px;
   font-size: 25px;
   letter-spacing: 1.5px;
 }
-.contact-title span{
+.contact-title ul{
+  padding: 0;
+}
+.contact-title li{
+  display: inline-block;
   margin: 0 3px;
   margin-top: 1px;
-  opacity: 0.6;
+}
+.contact-title li a{
+  border: none;
+  opacity: 0.7;
+  border-radius: 50%;
   width: 32px!important;
   height: 32px!important;
 }
-.contact-title span.active{
+.contact-title li.active a{
   border: 2px solid #81caff;
-  border-radius: 50%;
   opacity: 1;
+}
+.contact-title li a:hover, .contact-title li a:active, .contact-title li a:focus{
+  text-decoration: none
 }
 .contact-title .flag-icon::before {
   bottom: -1px;
@@ -8039,4 +8047,8 @@ bottom: 44px;
   height: 73px;
   background: url('../img/contact-button.png') no-repeat;
   background-size: contain;
+}
+.line-separator{
+  border-left: 1px solid red;
+  display: inline-block;
 }
