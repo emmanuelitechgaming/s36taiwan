@@ -1041,6 +1041,9 @@
     .selected-cntry{
       display: none;
     }
+    .contact-title li{
+      margin: 0 -2px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1263,6 +1266,9 @@
     }
     .mnav-afterlogin ul li:nth-child(5) img{
       margin-left: 40%;
+    }
+    .contact-title li{
+      margin: 0 0px;
     }
 }
 
@@ -1540,6 +1546,9 @@
     .lg-playnow {
       bottom: 12.94%;
     }
+    .contact-title li{
+      margin: 0 1px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1768,6 +1777,9 @@
     .cta-seemore {
       bottom: 132px;
       right: 20px;
+    }
+    .contact-title li{
+      margin: 0 3px;
     }
 }
 
@@ -3583,6 +3595,9 @@ margin-top: -18px;
     }
     .selected-cntry{
       display: inline-block;
+    }
+    .contact-title li{
+      margin: 0 3px;
     }
 }
 
