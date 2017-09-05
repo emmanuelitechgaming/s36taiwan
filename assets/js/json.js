@@ -7,7 +7,7 @@ $(document).ready(function(){
 			],
 			'flag': 'flag-icon-cn',
 			'link': [
-				'../cn/'
+				'../'
 			]
 		},
 		{
