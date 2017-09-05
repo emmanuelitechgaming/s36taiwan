@@ -21,6 +21,7 @@
     <link href="dist/css/slot.css" rel="stylesheet">
     <link href="dist/css/flags.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -638,11 +639,38 @@
       <div class="breadcrumb-inner slots-breadcrumb-inner">
         <ul class="slots-recent-winners">
           <li>
-            <p class="title">最近獲勝者</p>
-            <div class="row content">
-              <div class="col-md-4 text-center">老虎機 —沙龍坊</div>
-              <div class="col-md-4 text-center">cser**8</div>
-              <div class="col-md-4 text-center">¥651,943.00</div>
+            <p class="title">累積獎池遊戲</p>
+            <div class="flexslider">
+              <ul class="slides">
+                <li>
+                  <div class="row content">
+                    <div class="col-md-4 text-center">老虎機 —沙龍坊</div>
+                    <div class="col-md-4 text-center">cser**8</div>
+                    <div class="col-md-4 text-center">¥651,943.00</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row content">
+                    <div class="col-md-4 text-center">老虎機 —沙龍坊</div>
+                    <div class="col-md-4 text-center">cser**8</div>
+                    <div class="col-md-4 text-center">¥651,943.00</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row content">
+                    <div class="col-md-4 text-center">老虎機 —沙龍坊</div>
+                    <div class="col-md-4 text-center">cser**8</div>
+                    <div class="col-md-4 text-center">¥651,943.00</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row content">
+                    <div class="col-md-4 text-center">老虎機 —沙龍坊</div>
+                    <div class="col-md-4 text-center">cser**8</div>
+                    <div class="col-md-4 text-center">¥651,943.00</div>
+                  </div>
+                </li>
+              </ul>
             </div>
           </li>
           <li>
@@ -2688,6 +2716,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider.min.js"></script>
     <script src="dist/js/sweetalert.min.js"></script>
     <script src="dist/js/font-awesome.js"></script>
     <script src="dist/js/jquery.flagstrap.min.js"></script>
@@ -2838,6 +2867,14 @@
         var now2 = moment().format(" h:mm YYYY/MM/DD");
         $('.top-header-clock span').html(now);
         $('.m-top-header-clock span').html(now2);
+
+        $('.slots-recent-winners .flexslider').flexslider({
+          animation: 'fade',
+          direction: 'vertical',
+          slideshowSpeed: '3000',
+          controlNav: false,
+          directionNav: false
+        });
       });
     </script>
 

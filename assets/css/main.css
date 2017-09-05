@@ -8162,3 +8162,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 .slots-recent-winners .content div:first-child{
   color: #fba601
 }
+.slots-recent-winners .slides{
+  padding: 0;
+}
+.slots-recent-winners .flexslider{
+  padding: 0px 20px !important
+}
+.flexslider .slides li{
+  width: 100%;
+}
