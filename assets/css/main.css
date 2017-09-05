@@ -8104,8 +8104,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
   color: #c4c4c4;
   background: #333;
   padding: 6px 12px;
+  padding-right: 30px;
   border-radius: 3px;
-  border: none
+  border: none;
+}
+.netbet-search .fa{
+  position: absolute;
+  right: 25px;
+  top: 8px;
 }
 .slots-recent-winners{
   list-style: none;
@@ -8113,7 +8119,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 }
 .slots-recent-winners li:first-child{
   margin-left: -8px;
-  margin-right: 28px
+  margin-right: 31px
 }
 .slots-recent-winners li{
   float: left;
