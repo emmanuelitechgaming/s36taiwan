@@ -7888,7 +7888,11 @@ main .win-title-recent{
   margin-left: 5px;
   margin-right: 5px;
 bottom: 44px;
-background: #1b1b1b
+background: #333333;
+background: -moz-linear-gradient(top, #333333 0%, #000000 100%);
+background: -webkit-linear-gradient(top, #333333 0%,#000000 100%);
+background: linear-gradient(to bottom, #333333 0%,#000000 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
 }
 .lotto-button{
   position: absolute;
@@ -7899,7 +7903,7 @@ background: #1b1b1b
 }
 .sp-lottot-container .sp-intro{
   display: inline-block;
-  background: #1b1b1b;
+  background: #333333;
   margin-left: 5px;
   padding: 10px 25px
 }
@@ -8011,7 +8015,7 @@ background: #1b1b1b
   margin-right: 25px;
   position: relative;
   bottom: 15px;
-  border-left: 3px solid #acacac;
+      border-left: 2px solid #545454;
   padding-left: 25px;
   min-height: 61px;
   margin-bottom: -10px;
