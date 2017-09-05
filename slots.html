@@ -637,7 +637,7 @@
 <div class="container main-section casino-section">
   <div class="breadcrumb-content">
       <div class="breadcrumb-inner slots-breadcrumb-inner">
-        <ul class="slots-recent-winners">
+        <ul class="slots-recent-winners clearfix">
           <li>
             <p class="title">累積獎池遊戲</p>
             <div class="flexslider">
@@ -674,7 +674,7 @@
             </div>
           </li>
           <li>
-            <p class="title">最近獲勝者</p>
+            <p class="title">前十大贏家</p>
             <div class="row content">
             </div>
           </li>
@@ -687,7 +687,10 @@
             </ul>
           </div>
           <div class="col-md-6 text-right">
-            <input type="text" placeholder="Search here">
+            <span class="netbet-search">
+              <input type="text" placeholder="Search here">
+              <i class="fa fa-search"></i>
+            </span>
           </div>
         </div>
         <div class="panel with-nav-tabs">
@@ -2869,11 +2872,12 @@
         $('.m-top-header-clock span').html(now2);
 
         $('.slots-recent-winners .flexslider').flexslider({
-          animation: 'fade',
+          animation: 'slide',
           direction: 'vertical',
-          slideshowSpeed: '3000',
+          slideshowSpeed: '2000',
           controlNav: false,
-          directionNav: false
+          directionNav: false,
+          animationLoop: true
         });
       });
     </script>
