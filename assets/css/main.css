@@ -8067,3 +8067,98 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
   background: #111;
   padding-top: 20px;
 }
+.netbet{
+  background: #6b6b6b;
+  margin-left: 32px;
+  margin-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px
+}
+.netbet div{
+  float: none;
+  display: inline-block;
+  margin-left: -4px;
+  vertical-align: middle;
+}
+.netbet ul{
+  padding: 0;
+  list-style: none;
+  position: relative;
+  top: 1px
+}
+.netbet ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+.netbet ul li a{
+  color: #fba601;
+  font-weight: 700;
+  background: #2a2a2a;
+  padding: 6px 10px;
+  border-radius: 20px
+}
+.netbet ul li a:hover, .netbet ul li a:active, .netbet ul li a:focus{
+  text-decoration: none;
+}
+.netbet input[type=text]{
+  color: #c4c4c4;
+  background: #333;
+  padding: 6px 12px;
+  border-radius: 3px;
+  border: none
+}
+.slots-recent-winners{
+  list-style: none;
+  margin-bottom: 15px;
+}
+.slots-recent-winners li:first-child{
+  margin-left: -8px;
+  margin-right: 28px
+}
+.slots-recent-winners li{
+  display: inline-block;
+  width: 48%;
+  background: #111;
+}
+.slots-recent-winners .title{
+  font-size: 18px;
+  color: #fba601;
+  font-weight: 700;
+  border-bottom: solid 1px #545454;
+  padding: 10px;
+  padding-top: 0px;
+  padding-left: 20px;
+  position: relative;
+}
+.slots-recent-winners .title::before{
+  content: '';
+  display: inline-block;
+  width: 23px;
+  height: 31px;
+  background: url('../img/latest_winner_icon.png');
+  background-size: cover;
+  margin-right: 10px;
+  position: relative;
+  top: 9px
+}
+.slots-recent-winners .title::after{
+  content: '';
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url('../img/arrow-orange2.png');
+  background-size: cover;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+.slots-recent-winners .content{
+  min-height: 50px;
+  padding: 15px 10px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+}
+.slots-recent-winners .content div:first-child{
+  color: #fba601
+}
