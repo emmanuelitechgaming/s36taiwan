@@ -7,7 +7,7 @@ $(document).ready(function(){
 			],
 			'flag': 'flag-icon-cn',
 			'link': [
-				'cn/'
+				'../cn/'
 			]
 		},
 		{
@@ -27,7 +27,7 @@ $(document).ready(function(){
 			],
 			'flag': 'flag-icon-jp',
 			'link': [
-				'jp/'
+				'../jp/'
 			]
 		},
 		{
@@ -37,7 +37,7 @@ $(document).ready(function(){
 			],
 			'flag': 'flag-icon-um',
 			'link': [
-				'en/'
+				'../en/'
 			]
 		},
 		{
@@ -57,7 +57,7 @@ $(document).ready(function(){
 			],
 			'flag': 'flag-icon-id',
 			'link': [
-				'id/'
+				'../id/'
 			]
 		},
 		{
@@ -69,8 +69,8 @@ $(document).ready(function(){
 			],
 			'flag': 'flag-icon-my',
 			'link': [
-				'my-bm/',
-				'my-en/',
+				'../my-bm/',
+				'../my-en/',
 				'#'
 			]
 		},
@@ -81,7 +81,7 @@ $(document).ready(function(){
 			],
 			'flag': 'flag-icon-th',
 			'link': [
-				'th/'
+				'../th/'
 			]
 		},
 		{
@@ -91,7 +91,7 @@ $(document).ready(function(){
 			],
 			'flag': 'flag-icon-in',
 			'link': [
-				'in/'
+				'../in/'
 			]
 		}
 	];
