@@ -28,7 +28,8 @@ color: #ffffff;
     position: relative;
     border-radius: 10px;
     background-color: #191919;
-    box-shadow: inset 0 -2px 0 #ff9c00;
+    -webkit-box-shadow: inset 0 -2px 0 #ff9c00;
+            box-shadow: inset 0 -2px 0 #ff9c00;
     border: solid 1px #323232;
 }
 .promotion > .inner > a > img {
@@ -68,7 +69,8 @@ color: #ffffff;
    bottom: 45px;
    left: 0;
    right: 0;
-   text-align: center;
+   text-align: left;
+   padding: 0px 15px;
 }
 .promotion > .inner > .cta > .btn {
     display: inline-block;
