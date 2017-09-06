@@ -388,6 +388,8 @@ main .win-title {
     font-weight: 700;
     border-bottom: 1px solid #000;
     border-top: 1px solid #303030;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 main .notice {
@@ -457,6 +459,8 @@ main .contact-title {
     font-size: 18px;
     font-weight: 700;
     text-align: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px
 }
 
 main .contact-title:first-child {
@@ -466,6 +470,8 @@ main .contact-title:first-child {
 main .contactus {
     border-top: 1px solid #303030;
     border-bottom: 2px solid #161616;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 main .c-icon {
@@ -493,6 +499,8 @@ main .c-text span {
 
 main .live-game img {
     margin: 0 auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 main .ctmail {
@@ -8188,4 +8196,9 @@ border-top-right-radius: 6px
 }
 .flexslider .slides li{
   width: 100%;
+}
+.winner-cont .border-radius{
+  overflow: auto;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
