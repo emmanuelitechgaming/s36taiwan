@@ -1059,6 +1059,31 @@ z-index: 99999;
       margin-right: 0;
       margin-bottom: 10px
     }
+    .slots-recent-winners .content div{
+      padding-left: 5px;
+      padding-right: 5px
+    }
+    .netbet{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .netbet ul{
+      margin-bottom: 10px
+    }
+    .netbet ul li{
+      width: 50%;
+      margin-left: -4px;
+    }
+    .netbet ul li{
+      text-align: center;
+    }
+    .netbet ul li a{
+      display: inline-block;
+    }
+    .netbet .text-right .netbet-search, .netbet .text-right .netbet-search input[type="text"]{
+      display: block;
+      width: 100%
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3555,6 +3580,10 @@ margin-top: -18px;
       width: 403px;
       height: 375px;
     }
+    .slots-breadcrumb-inner .netbet .col-xs-12{
+      width: 50%;
+      height: auto;
+    }
     .slots-breadcrumb-inner .netbet{
       width: 1177px;
       height: auto;
@@ -3635,6 +3664,30 @@ margin-top: -18px;
       margin-left: -8px;;
       margin-bottom: 0;
       margin-right: 31px
+    }
+    .slots-recent-winners .content div{
+      padding-left: 15px;
+      padding-right: 15px
+    }
+    .netbet{
+      margin-left: 32px;
+      margin-right: 30px;
+    }
+    .netbet div{
+      margin-left: -4px;
+    }
+    .netbet ul li{
+      width: auto;
+    }
+    .netbet ul li:first-child{
+      margin-right: 25px
+    }
+    .netbet ul{
+      margin-bottom: 0
+    }
+    .netbet .text-right .netbet-search, .netbet .text-right .netbet-search input[type="text"]{
+      display: inline-block;
+      width: auto;
     }
 }
 
