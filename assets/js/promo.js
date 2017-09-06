@@ -33,6 +33,8 @@ var currentTallest = 0,
  });
 }
 
+console.log(equalheight('.content p'))
+
 $(window).load(function() {
   equalheight('.content p');
 });
