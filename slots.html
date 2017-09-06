@@ -640,7 +640,7 @@
         <ul class="slots-recent-winners clearfix">
           <li>
             <p class="title">累積獎池遊戲</p>
-            <div class="flexslider">
+            <div class="flexslider flexslider-slide">
               <ul class="slides">
                 <li>
                   <div class="row content">
@@ -675,7 +675,37 @@
           </li>
           <li>
             <p class="title">前十大贏家</p>
-            <div class="row content">
+            <div class="flexslider flexslider-fade">
+              <ul class="slides">
+                <li>
+                  <div class="row content">
+                    <div class="col-md-4 text-center">老虎機 —沙龍坊</div>
+                    <div class="col-md-4 text-center">cser**8</div>
+                    <div class="col-md-4 text-center">¥651,943.00</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row content">
+                    <div class="col-md-4 text-center">老虎機 —沙龍坊</div>
+                    <div class="col-md-4 text-center">cser**8</div>
+                    <div class="col-md-4 text-center">¥651,943.00</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row content">
+                    <div class="col-md-4 text-center">老虎機 —沙龍坊</div>
+                    <div class="col-md-4 text-center">cser**8</div>
+                    <div class="col-md-4 text-center">¥651,943.00</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row content">
+                    <div class="col-md-4 text-center">老虎機 —沙龍坊</div>
+                    <div class="col-md-4 text-center">cser**8</div>
+                    <div class="col-md-4 text-center">¥651,943.00</div>
+                  </div>
+                </li>
+              </ul>
             </div>
           </li>
         </ul>
@@ -2871,10 +2901,17 @@
         $('.top-header-clock span').html(now);
         $('.m-top-header-clock span').html(now2);
 
-        $('.slots-recent-winners .flexslider').flexslider({
+        $('.flexslider.flexslider-slide').flexslider({
           animation: 'slide',
           direction: 'vertical',
           slideshowSpeed: '2000',
+          controlNav: false,
+          directionNav: false,
+          animationLoop: true
+        });
+        $('.flexslider.flexslider-fade').flexslider({
+          animation: 'fade',
+          slideshowSpeed: '4000',
           controlNav: false,
           directionNav: false,
           animationLoop: true
