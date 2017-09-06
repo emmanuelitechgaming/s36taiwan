@@ -7925,12 +7925,151 @@ border-top-right-radius: 6px
 }
 .lotto-button a{
   display: inline-block;
-  width: 405px;
-  height: 80px;
-  background: url('../img/betnow-button.png') no-repeat;
-  background-size: contain;
-  background-position: center;
   text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdb021), to(#9d6805));
+  background-image: linear-gradient(to bottom, #fdb021 0%, #9d6805 100%);
+  background-repeat: repeat-x;
+  padding: 10px 15px 10px 25px;
+  position: relative;
+  border-radius: 2px;
+}
+.lotto-button a::before{
+  content: '';
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset, 0 0 0 1px rgba(0,0,0,.1);
+  box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset, 0 0 0 1px rgba(0,0,0,.1);
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  top: -2px;
+  bottom: -2px
+}
+.lotto-button a:hover{
+  color: #fff;
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e49808), to(#e49808));
+  background-image: linear-gradient(to bottom, #e49808 0%, #e49808 100%);
+}
+.lotto-button .text{
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-right: 25px;
+}
+.lotto-button .arrow::before{
+  content: '';
+  display: block;
+  height: 54px;
+  width: 2px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+  box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0px;
+  right: 60px;
+}
+.lotto-button .glyphicon{
+  color: #fff;
+  padding: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #9d6805), to(#fdb021));
+  background-image: linear-gradient(to bottom, #9d6805 0, #fdb021 100%);
+  border-radius: 50%;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+  top: 0;
+}
+.lotto-button a:hover .glyphicon{
+  color: #fff;
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d28b07), to(#d28b07));
+  background-image: linear-gradient(to bottom, #d28b07 0%, #d28b07 100%);
+}
+.corners-outer{
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px
+}
+.corner-inner-lt::before{
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-top: solid 1px rgba(120, 161, 255, 0.95);
+  border-left: solid 1px rgba(120, 161, 255, 0.95);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s
+}
+.lotto-button a:hover .corner-inner-lt::before{
+  width: 13px;
+  height: 13px;
+  border-top: solid 1px rgba(184, 205, 255, 0.95);
+  border-left: solid 1px rgba(184, 205, 255, 0.95);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s
+}
+.corner-inner-lb::before{
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-bottom: solid 1px rgba(120, 161, 255, 0.95);
+  border-left: solid 1px rgba(120, 161, 255, 0.95);
+  position: absolute;
+  bottom: 0px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s
+}
+.lotto-button a:hover .corner-inner-lb::before{
+  width: 13px;
+  height: 13px;
+  border-bottom: solid 1px rgba(184, 205, 255, 0.95);
+  border-left: solid 1px rgba(184, 205, 255, 0.95);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s
+}
+.corner-inner-rb::before{
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-bottom: solid 1px rgba(120, 161, 255, 0.95);
+  border-right: solid 1px rgba(120, 161, 255, 0.95);
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s
+}
+.lotto-button a:hover .corner-inner-rb::before{
+  width: 13px;
+  height: 13px;
+  border-bottom: solid 1px rgba(184, 205, 255, 0.95);
+  border-right: solid 1px rgba(184, 205, 255, 0.95);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s
+}
+.corner-inner-rt::before{
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-top: solid 1px rgba(120, 161, 255, 0.95);
+  border-right: solid 1px rgba(120, 161, 255, 0.95);
+  position: absolute;
+  top: 0px;
+  right: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s
+}
+.lotto-button a:hover .corner-inner-rt::before{
+  width: 13px;
+  height: 13px;
+  border-top: solid 1px rgba(184, 205, 255, 0.95);
+  border-right: solid 1px rgba(184, 205, 255, 0.95);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s
 }
 .sp-lottot-container .sp-intro{
   display: inline-block;
@@ -8223,4 +8362,23 @@ border-top-right-radius: 6px
   overflow: auto;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+.cta .more{
+  float: right;
+  color: #8d8d8d;
+  font-weight: 700;
+}
+.cta .more:hover{
+  text-decoration: none
+}
+.cta .more::after{
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url('../img/casino/baccarat/info.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 2px;
+  margin-left: 5px;
 }
