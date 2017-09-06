@@ -19,7 +19,7 @@ color: #ffffff;
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
-    padding: 10px;
+    padding: 10px 0;
 }
  .promotion > .inner {
     -ms-flex: 0 1 auto;
