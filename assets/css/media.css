@@ -1048,6 +1048,17 @@ z-index: 99999;
       width: 32px!important;
       height: 32px!important;
     }
+    .slots-recent-winners li{
+      width: 100%;
+    }
+    .slots-recent-winners{
+      padding-left: 0;
+    }
+    .slots-recent-winners li:first-child{
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 10px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3613,6 +3624,17 @@ margin-top: -18px;
     }
     .selected-cntry{
       display: inline-block;
+    }
+    .slots-recent-winners li{
+      width: 48%;
+    }
+    .slots-recent-winners{
+      padding-left: 40px;
+    }
+    .slots-recent-winners li:first-child{
+      margin-left: -8px;;
+      margin-bottom: 0;
+      margin-right: 31px
     }
 }
 

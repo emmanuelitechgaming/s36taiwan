@@ -8035,13 +8035,22 @@ border-top-right-radius: 6px
 }
 .selected-cntry{
   margin-left: 5px;
-      margin-right: 20px;
-      position: relative;
-      bottom: 15px;
-      border-left: 2px solid #545454;
-      padding-left:15px;
-      min-height: 61px;
-      margin-bottom: -10px;
+  margin-right: 20px;
+  position: relative;
+  bottom: 15px;
+  border-left: 2px solid #000;
+  padding-left:15px;
+  min-height: 61px;
+  margin-bottom: -10px;
+}
+.selected-cntry::before{
+  content: '';
+  display: block;
+  height: 61px;
+  width: 1px;
+  background: #5d5a5a;
+  position: absolute;
+  left: 0px
 }
 .selected-cntry div{
   display: block;
@@ -8147,13 +8156,8 @@ border-top-right-radius: 6px
   list-style: none;
   margin-bottom: 15px;
 }
-.slots-recent-winners li:first-child{
-  margin-left: -8px;
-  margin-right: 31px
-}
 .slots-recent-winners li{
   float: left;
-  width: 48%;
   background: #161616;
   border-radius: 6px
 }
