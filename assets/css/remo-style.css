@@ -23,7 +23,8 @@ input, select{
 
 .r-ads img{
   padding-top: 5px;
-  padding-bottom: 5px
+  padding-bottom: 5px;
+  border-radius: 6px;
 }
 .r-ads-wrapper{
   position: relative;
