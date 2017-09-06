@@ -7492,7 +7492,8 @@ div.acc-info.acc-edit div.acc-cont input {
     color: #fff;
     border: solid 1px #fba601;
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    border-radius: 7px
 }
 
 .tdw-slots ul li {
@@ -7545,7 +7546,8 @@ div.acc-info.acc-edit div.acc-cont input {
     padding: 15px !important;
     color: #fff;
     border: 1px solid #fba601;
-    margin: 2px
+    margin: 2px;
+    border-radius: 8px
 }
 
 .tdw1 ul li {
@@ -8101,8 +8103,6 @@ border-top-right-radius: 6px
 }
 .netbet{
   background: #1b1b1b;
-  margin-left: 32px;
-  margin-right: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 6px;
@@ -8110,7 +8110,6 @@ border-top-right-radius: 6px
 .netbet div{
   float: none;
   display: inline-block;
-  margin-left: -4px;
   vertical-align: middle;
 }
 .netbet ul{
@@ -8120,7 +8119,6 @@ border-top-right-radius: 6px
 }
 .netbet ul li{
   display: inline-block;
-  margin-right: 20px;
 }
 .netbet ul li a{
   color: #8d8d8d;
