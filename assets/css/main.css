@@ -7918,9 +7918,18 @@ border-top-right-radius: 6px
 }
 .lotto-button{
   position: absolute;
-  right: 0;
-  left: 0;
   top: 42%;
+  text-align: center;
+  display: block;
+  width: 100%
+}
+.lotto-button a{
+  display: inline-block;
+  width: 405px;
+  height: 80px;
+  background: url('../img/betnow-button.png') no-repeat;
+  background-size: contain;
+  background-position: center;
   text-align: center;
 }
 .sp-lottot-container .sp-intro{
