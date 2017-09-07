@@ -7935,9 +7935,9 @@ border-top-right-radius: 6px
 }
 .lotto-button a::before{
   content: '';
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset, 0 0 0 1px rgba(0,0,0,.1);
-  box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset, 0 0 0 1px rgba(0,0,0,.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset, 0 0 0 1px rgba(0,0,0,0.3);
+  box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset, 0 0 0 1px rgba(0,0,0,0.3);
   position: absolute;
   left: -2px;
   right: -2px;
@@ -8014,8 +8014,8 @@ border-top-right-radius: 6px
   display: block;
   width: 15px;
   height: 15px;
-  border-top: solid 2px rgba(255, 255, 255, 0.07);
-  border-left: solid 2px rgba(255, 255, 255, 0.07);
+  border-top: solid 2px rgba(255, 255, 255, 0.3);
+  border-left: solid 2px rgba(255, 255, 255, 0.3);
   position: absolute;
   top: -7px;
   left: -7px;
@@ -8025,8 +8025,8 @@ border-top-right-radius: 6px
 .lotto-button a:hover .corner-inner-lt::after{
   width: 18px;
   height: 18px;
-  border-top: solid 2px rgba(255, 255, 255, 0.4);
-  border-left: solid 2px rgba(255, 255, 255, 0.4);
+  border-top: solid 2px rgba(255, 255, 255, 0.5);
+  border-left: solid 2px rgba(255, 255, 255, 0.5);
   top: -8px;
   left: -8px;
   -webkit-transition: all 0.3s;
@@ -8057,8 +8057,8 @@ border-top-right-radius: 6px
   display: block;
   width: 15px;
   height: 15px;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.07);
-  border-left: solid 2px rgba(255, 255, 255, 0.07);
+  border-bottom: solid 2px rgba(255, 255, 255, 0.3);
+  border-left: solid 2px rgba(255, 255, 255, 0.3);
   position: absolute;
   bottom: -7px;
   left: -7px;
@@ -8068,8 +8068,8 @@ border-top-right-radius: 6px
 .lotto-button a:hover .corner-inner-lb::after{
   width: 18px;
   height: 18px;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.4);
-  border-left: solid 2px rgba(255, 255, 255, 0.4);
+  border-bottom: solid 2px rgba(255, 255, 255, 0.5);
+  border-left: solid 2px rgba(255, 255, 255, 0.5);
   bottom: -8px;
   left: -8px;
   -webkit-transition: all 0.3s;
@@ -8101,8 +8101,8 @@ border-top-right-radius: 6px
   display: block;
   width: 15px;
   height: 15px;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.07);
-  border-right: solid 2px rgba(255, 255, 255, 0.07);
+  border-bottom: solid 2px rgba(255, 255, 255, 0.3);
+  border-right: solid 2px rgba(255, 255, 255, 0.3);
   position: absolute;
   bottom: -7px;
   right: -7px;
@@ -8112,8 +8112,8 @@ border-top-right-radius: 6px
 .lotto-button a:hover .corner-inner-rb::after{
   width: 18px;
   height: 18px;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.4);
-  border-right: solid 2px rgba(255, 255, 255, 0.4);
+  border-bottom: solid 2px rgba(255, 255, 255, 0.5);
+  border-right: solid 2px rgba(255, 255, 255, 0.5);
   bottom: -8px;
   right: -8px;
   -webkit-transition: all 0.3s;
@@ -8145,8 +8145,8 @@ border-top-right-radius: 6px
   display: block;
   width: 15px;
   height: 15px;
-  border-top: solid 2px rgba(255, 255, 255, 0.07);
-  border-right: solid 2px rgba(255, 255, 255, 0.07);
+  border-top: solid 2px rgba(255, 255, 255, 0.3);
+  border-right: solid 2px rgba(255, 255, 255, 0.3);
   position: absolute;
   top: -7px;
   right: -7px;
@@ -8156,8 +8156,8 @@ border-top-right-radius: 6px
 .lotto-button a:hover .corner-inner-rt::after{
   width: 18px;
   height: 18px;
-  border-top: solid 2px rgba(255, 255, 255, 0.4);
-  border-right: solid 2px rgba(255, 255, 255, 0.4);
+  border-top: solid 2px rgba(255, 255, 255, 0.5);
+  border-right: solid 2px rgba(255, 255, 255, 0.5);
   top: -8px;
   right: -8px;
   -webkit-transition: all 0.3s;
@@ -8437,7 +8437,7 @@ border-top-right-radius: 6px
   color: #fff;
   font-weight: 700;
 }
-.slots-recent-winners .content div:first-child{
+.slots-recent-winners .content div:first-child, .flexslider-fade .content div:nth-child(2){
   color: #fba601
 }
 .slots-recent-winners .slides{
