@@ -3667,7 +3667,8 @@ margin-top: -18px;
     }
     .slots-recent-winners .content div{
       padding-left: 15px;
-      padding-right: 15px
+      padding-right: 15px;
+      line-height: 36px;
     }
     .netbet{
       margin-left: 32px;
