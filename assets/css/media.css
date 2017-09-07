@@ -2765,10 +2765,16 @@ z-index: 99999;
         bottom: 1px
     }
     .live-game-txtba a {
-        left: 140px
+        left: 135px
+    }
+    .live-game-txtbb a {
+      left: 119px;
     }
     .live-game-txtbc a {
-        left: 152px;
+        left: 141px;
+    }
+    .live-game-txtbd a {
+      left: 138px;
     }
     .footer-shareit ul li {
         width: 20%;
@@ -2798,6 +2804,19 @@ z-index: 99999;
   }
   .cta-seemore img{
     width: 18px !important
+  }
+  .live-game.lg-angel-demon img {
+    width: 85%;
+  }
+  .lg-angel-demon img, .live-game.jigong img {
+    margin-left: 0 !important;
+  }
+  .live-game.lg-angel-demon img{
+    right: 0;
+  }
+  .live-game.jigong img{
+    position: relative;
+    left: 15px;
   }
 
 }
@@ -3278,7 +3297,6 @@ margin-top: -18px;
     .live-game-txtbc a,
     .live-game-txtbd a {
         position: relative;
-        top: 0px
     }
     .live-game-txtba a {
         left: -2px;
@@ -3659,9 +3677,6 @@ margin-top: -18px;
       margin-top: 3px;
       margin-bottom: 5px
     }
-    .live-game.jigong, .live-game.frut-popper{
-      top: -15px
-    }
     .live-games{
       top: 15px
     }
@@ -3778,6 +3793,34 @@ margin-top: -18px;
   .cta-seemore {
     bottom: 94px;
     right: 15px;
+  }
+  .how-to-reg .step-txt{
+    top: 55%;
+    right: 5%;
+  }
+  .live-game.lg-angel-demon img {
+    max-width: inherit;
+    width: 113%;
+    bottom: 17px;
+  }
+  .live-game.jigong, .live-game.frut-popper {
+    top: -11px;
+  }
+  .live-game.jigong{
+    right: 14px
+  }
+  .live-game-txtba a {
+    bottom: -12px;
+  }
+  .live-game-txtbb a {
+    top: -6px;
+  }
+  .live-game-txtbc a {
+    bottom: -5px;
+  }
+  .live-game-txtbd a {
+    bottom: -6px;
+    left: 14px;
   }
 }
 
@@ -4011,7 +4054,7 @@ main .marquee {
   }
   .slots-breadcrumb-inner .col-xs-12{
     width: 403px;
-    height: 375px;
+    height: 395px;
   }
   .slots-breadcrumb-inner .flexslider-slide .col-xs-12, .slots-breadcrumb-inner .flexslider-fade .col-xs-12{
     width: 33.33333333%;
@@ -4023,5 +4066,31 @@ main .marquee {
   }
   .flexslider-fade .content div{
     font-size: 14px;
+  }
+  .live-game.lg-angel-demon img {
+    width: auto;
+  }
+  .how-to-reg .step-txt{
+    right: 15%;
+  }
+  .live-game.lg-angel-demon img {
+     max-width: 110%;
+     margin-left: -10px !important;
+  }
+  .live-game.jigong, .live-game.frut-popper{
+    top: -15px
+  }
+  .live-game-txtba a {
+    bottom: 0px;
+  }
+  .live-game-txtbb a {
+    top: -17px;
+    left: -10px;
+  }
+  .live-game-txtbc a {
+    bottom: 1px;
+  }
+  .live-game-txtbd a {
+    bottom: 0px;
   }
 }
