@@ -211,7 +211,6 @@ z-index: 99999;
     }
     .casino-g img {
         margin: 0;
-        margin-bottom: 10px;
     }
     .casino-g .content .fa {
         top: 3px
@@ -1084,6 +1083,19 @@ z-index: 99999;
       display: block;
       width: 100%
     }
+    .how-to-reg .step-txt{
+     font-size: 18px;
+     top: 50%;
+     right: 15%;
+    }
+    .btn-hidden::after{
+      width: 21px;
+      height: 21px;
+    }
+    .netbet{
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1309,6 +1321,10 @@ z-index: 99999;
     }
     .contact-title li{
       margin: 0 0px;
+    }
+    .how-to-reg .step-txt{
+       font-size: 20px;
+      top: 45%;
     }
 }
 
@@ -1831,6 +1847,15 @@ z-index: 99999;
       bottom: 0;
       left: 0;
     }
+    .how-to-reg .step-txt{
+       font-size: 25px;
+      top: 45%;
+      right: 15%;
+    }
+    .btn-hidden::after{
+      width: 23px;
+      height: 23px;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -2090,8 +2115,8 @@ z-index: 99999;
         margin: 0 auto;
     }
     .cta-seemore {
-        bottom: 106px;
-        right: 85px;
+        bottom: 135px;
+        right: 100px;
     }
     .back {
         bottom: 40px;
@@ -2275,7 +2300,7 @@ z-index: 99999;
         padding-bottom: 9px;
     }
     .lg-playnow {
-        bottom: 4.9%;
+        bottom: 13.5%;
     }
     .m-fsalon ul li:nth-child(1) img,
     .m-fsalon ul li:nth-child(2) img {
@@ -2328,6 +2353,12 @@ z-index: 99999;
     .cta-casino .absolute-play{
       right: 24%
     }
+    .how-to-reg .step-txt{
+     font-size: 25px;
+    }
+    #b{
+      max-width: 381px
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -2335,8 +2366,8 @@ z-index: 99999;
         width: 400px!important;
     }
     .cta-seemore {
-        bottom: 115px;
-        right: 115px;
+        bottom: 135px;
+        right: 140px;
     }
     .swiper-container {
         width: 571px;
@@ -2425,8 +2456,8 @@ z-index: 99999;
         width: 63%;
     }
     .cta-seemore {
-        bottom: 115px;
-        right: 135px;
+        bottom: 135px;
+        right: 145px;
     }
     .back {
         bottom: 40px;
@@ -2578,6 +2609,10 @@ z-index: 99999;
     .cta-casino .absolute-play {
        right: 30%;
     }
+    .cta-seemore {
+        bottom: 135px;
+        right: 180px;
+    }
 }
 
 @media only screen and (min-width: 736px) {
@@ -2595,8 +2630,8 @@ z-index: 99999;
         width: 55%;
     }
     .cta-seemore {
-        bottom: 115px;
-        right: 165px;
+        bottom: 135px;
+        right: 180px;
     }
     .back {
         bottom: 40px;
@@ -2717,8 +2752,13 @@ z-index: 99999;
         left: 225px
     }
     .lg-playnow {
-        font-size: 14px;
-        bottom: 14%
+        font-size: 12px;
+        bottom: 7.8%;
+        padding-left: 25%;
+    }
+    .btn-hidden::after{
+      width: 15px;
+      height: 15px;
     }
     .lg-playnow.login-modal-a img {
         width: 16px;
@@ -2747,9 +2787,19 @@ z-index: 99999;
       font-size: 15px;
       padding-left: 15px;
   }
-  /*.casino-g-img{
-    height: 186px;
-  }*/
+  .how-to-reg .step-txt{
+   font-size: 16px;
+   top: 50%;
+   right: 12%;
+  }
+  .cta-seemore {
+    bottom: 63px;
+    right: 11px;
+  }
+  .cta-seemore img{
+    width: 18px !important
+  }
+
 }
 
 
@@ -3533,12 +3583,18 @@ margin-top: -18px;
       padding-right: 150px;
       margin-bottom: 10px;
     }
+    .sp-btn-hidden2{
+      display: block;
+      width: 100%;
+      padding: 6px 0;
+      padding-right: 6%;
+    }
     .casino-g .sp-btn-hidden{
       padding: 6px 80px;
       padding-right: 105px;
     }
     .casino-desc-bot .sp-btn-hidden{
-      padding: 6px 20px;
+      padding: 6px 10px;
     }
     .oc-content .sp-btn-hidden{
       padding: 6px 30px;
@@ -3575,10 +3631,6 @@ margin-top: -18px;
     }
     .username-availability{
       margin-top: 0
-    }
-    .slots-breadcrumb-inner .col-xs-12{
-      width: 403px;
-      height: 375px;
     }
     .slots-breadcrumb-inner .netbet .col-xs-12{
       width: 50%;
@@ -3690,6 +3742,43 @@ margin-top: -18px;
       display: inline-block;
       width: auto;
     }
+    .how-to-reg .step-txt{
+     font-size: 25px;
+     top: 45%;
+     right: 15%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+  .btn-hidden::after{
+    width: 21px;
+    height: 21px;
+  }
+  .lg-playnow {
+    bottom: 8%;
+  }
+  #b{
+    max-width: inherit !important
+  }
+  .slots-breadcrumb-inner .col-xs-12{
+    width: 309px;
+    height: 375px;
+  }
+  .slots-breadcrumb-inner .col-xs-12.netbet{
+    width: 94%;
+    height: auto;
+  }
+  .flexslider-fade .content div{
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .cta-seemore img{
+    width: 23px !important
+  }
+  .cta-seemore {
+    bottom: 94px;
+    right: 15px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -3712,6 +3801,8 @@ margin-top: -18px;
         background-size: contain;
         background-position: center;
           margin-top: -18px;
+          position: relative;
+          left: 10px
     }
     .header-mobile-logo {
         margin-left: auto
@@ -3901,13 +3992,36 @@ main .marquee {
   width: auto;
   height: auto;
 }
-}
-
-/*@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-  .container{
-    width: 1024px;
+  .sp-btn-hidden2{
+    display: block;
+    width: 100%;
+    padding: 6px 0;
+    padding-right: 6%;
   }
-}*/
+  .btn-hidden::after{
+    width: 23px;
+    height: 23px;
+  }
+  .casino-desc-bot .sp-btn-hidden{
+    padding: 6px 20px;
+  }
+  .netbet{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .slots-breadcrumb-inner .col-xs-12{
+    width: 403px;
+    height: 375px;
+  }
+  .slots-breadcrumb-inner .flexslider-slide .col-xs-12, .slots-breadcrumb-inner .flexslider-fade .col-xs-12{
+    width: 33.33333333%;
+    height: auto;
+  }
+  .slots-breadcrumb-inner .col-xs-12.netbet{
+    width: 1177px;
+    height: auto;
+  }
+  .flexslider-fade .content div{
+    font-size: 14px;
+  }
+}

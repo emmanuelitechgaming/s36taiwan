@@ -1653,8 +1653,6 @@ p {
 .btn-hidden::after{
   content: ' ';
   display: inline-block;
-  width: 23px;
-  height: 23px;
   background: url('../img/arrow-right.png') no-repeat;
   background-size: contain;
   position: absolute;
@@ -8184,7 +8182,7 @@ border-top-right-radius: 6px
   margin-bottom: 15px
 }
 .selected-cntry{
-  margin-left: 5px;
+  margin-left: 15px;
   margin-right: 20px;
   position: relative;
   bottom: 15px;
@@ -8252,8 +8250,6 @@ border-top-right-radius: 6px
 }
 .netbet{
   background: #1b1b1b;
-  padding-top: 5px;
-  padding-bottom: 5px;
   border-radius: 6px;
 }
 .netbet div{
@@ -8398,15 +8394,11 @@ border-top-right-radius: 6px
 
 }
 .how-to-reg .step-txt{
-
 overflow: auto;
  margin: auto;
  position: absolute;
- top: 45%;
- left: 10%;
- right: 0;
- transform: translateY(-50%);
- font-size: 25px;
+ -webkit-transform: translateY(-50%);
+         transform: translateY(-50%);
  color: #fff;
  font-weight: 700;
 }
