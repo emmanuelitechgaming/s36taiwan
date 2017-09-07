@@ -8188,7 +8188,7 @@ border-top-right-radius: 6px
   margin-right: 20px;
   position: relative;
   bottom: 15px;
-  border-left: 2px solid #000;
+  /*border-left: 2px solid #000;*/
   padding-left:15px;
   min-height: 61px;
   margin-bottom: -10px;
@@ -8197,8 +8197,9 @@ border-top-right-radius: 6px
   content: '';
   display: block;
   height: 61px;
-  width: 1px;
-  background: #5d5a5a;
+  width: 3px;
+  background: url('../img/separator.png') no-repeat;
+  background-size: 100% 100%;
   position: absolute;
   left: 0px
 }
