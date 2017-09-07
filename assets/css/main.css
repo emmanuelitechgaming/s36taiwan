@@ -7929,7 +7929,7 @@ border-top-right-radius: 6px
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fdb021), to(#9d6805));
   background-image: linear-gradient(to bottom, #fdb021 0%, #9d6805 100%);
   background-repeat: repeat-x;
-  padding: 15px 15px 15px 50px;
+  padding: 15px 15px 15px 80px;
   position: relative;
   border-radius: 2px;
 }
@@ -7954,7 +7954,7 @@ border-top-right-radius: 6px
   font-size: 19px;
   font-weight: 700;
   color: #fff;
-  margin-right: 70px;
+  margin-right: 95px;
 }
 .lotto-button .arrow::before{
   content: '';
