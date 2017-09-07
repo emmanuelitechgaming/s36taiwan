@@ -4093,4 +4093,7 @@ main .marquee {
   .live-game-txtbd a {
     bottom: 0px;
   }
+  .how-to-reg .step-txt{
+    top: 49%;
+  }
 }
