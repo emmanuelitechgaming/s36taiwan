@@ -8347,7 +8347,7 @@ border-top-right-radius: 6px
   color: #fff;
   font-weight: 700;
 }
-.slots-recent-winners .content div:first-child{
+.slots-recent-winners .content div:first-child, .flexslider-fade .content div:last-child{
   color: #fba601
 }
 .slots-recent-winners .slides{
