@@ -8383,3 +8383,30 @@ border-top-right-radius: 6px
   top: 2px;
   margin-left: 5px;
 }
+.how-to-reg{
+  margin: 0 auto;
+    margin-top: 15px;
+  margin-bottom: -5px;
+  overflow: hidden;
+}
+.how-to-reg .steps {
+  position: relative;
+  margin: 10px auto;
+  text-align: center;
+  clear: both;
+  max-width: 361px;
+
+}
+.how-to-reg .step-txt{
+
+overflow: auto;
+ margin: auto;
+ position: absolute;
+ top: 45%;
+ left: 10%;
+ right: 0;
+ transform: translateY(-50%);
+ font-size: 25px;
+ color: #fff;
+ font-weight: 700;
+}
