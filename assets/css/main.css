@@ -8493,7 +8493,6 @@ overflow: auto;
  font-weight: 700;
 }
 .homescreen{position: absolute;
-    bottom: 0;
     background: #1f1d27;
     width: 100%;
     padding: 10px;
