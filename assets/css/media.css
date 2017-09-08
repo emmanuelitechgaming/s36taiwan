@@ -1096,6 +1096,12 @@ z-index: 99999;
       padding-top: 15px;
       padding-bottom: 15px;
     }
+    .how-to-reg{
+      margin-bottom: 30px;
+    }
+    .homescreen{
+      bottom: -59px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1325,6 +1331,9 @@ z-index: 99999;
     .how-to-reg .step-txt{
        font-size: 20px;
       top: 45%;
+    }
+    .homescreen {
+      bottom: -42px;
     }
 }
 
@@ -1605,6 +1614,9 @@ z-index: 99999;
     .contact-title li{
       margin: 0 1px;
     }
+    .homescreen {
+      bottom: -38px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -1856,6 +1868,9 @@ z-index: 99999;
       width: 23px;
       height: 23px;
     }
+    .homescreen {
+      bottom: -23px;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -2050,6 +2065,9 @@ z-index: 99999;
     .gp-star{
       top: 9px
     }
+    .homescreen {
+      bottom: -22px;
+    }
 }
 
 
@@ -2091,6 +2109,9 @@ z-index: 99999;
     }
     .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
       width: 20%
+    }
+    .homescreen {
+      bottom: -548px;
     }
 }
 
@@ -2446,6 +2467,9 @@ z-index: 99999;
     .cta-casino .absolute-play{
       right: 27%
     }
+    .homescreen {
+      bottom: -553px;
+    }
 }
 
 @media only screen and (min-width: 667px) {
@@ -2567,6 +2591,9 @@ z-index: 99999;
     .promo-heart {
         right: 105px;
     }
+    .homescreen {
+      bottom: -552px;
+    }
 }
 
 @media only screen and (min-width: 732px) {
@@ -2612,6 +2639,9 @@ z-index: 99999;
     .cta-seemore {
         bottom: 135px;
         right: 180px;
+    }
+    .homescreen {
+      bottom: -546px;
     }
 }
 
@@ -2817,6 +2847,9 @@ z-index: 99999;
   .live-game.jigong img{
     position: relative;
     left: 15px;
+  }
+  .homescreen {
+    bottom: 292px;
   }
 
 }
@@ -3821,6 +3854,9 @@ margin-top: -18px;
   .live-game-txtbd a {
     bottom: -6px;
     left: 14px;
+  }
+  .how-to-reg {
+     margin-bottom: 0px; 
   }
 }
 
