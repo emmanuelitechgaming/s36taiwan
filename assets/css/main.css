@@ -8506,3 +8506,13 @@ margin-right: -10px;
 margin-bottom: -10px;
 margin-top: -10px;
   }
+.bookmark{
+  display: block;
+  width: 28px;
+  height: 28px;
+  background: url('../img/bookmark.png') no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 1px;
+  right: 40%;
+}
