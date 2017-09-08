@@ -8316,10 +8316,6 @@ border-top-right-radius: 6px
   opacity: 0.3;
   border-radius: 50%;
 }
-.contact-title li a:hover{
-  opacity: 1;
-  border: 2px solid #fba601;
-}
 .contact-title li.active a{
   border: 2px solid #fba601;
   opacity: 1;
