@@ -695,16 +695,11 @@ $(document).ready(function () {
       $('.promotion-form .dropdown button span').html($(this).html());
     });
 
-    // $('.lotto-button a').hover(function() {
-    //   setInterval(function(){
-    //     $('.lotto-button a .corners-outer .corner-inner-lt').addClass('corner-inner-lt-color');
-    //   }, 300);
-    //   setTimeout(function(){
-    //     $('.lotto-button a .corners-outer .corner-inner-lt').removeClass('corner-inner-lt-color');
-    //   }, 300);
-    // }, function() {
-    //   $('.lotto-button a .corners-outer .corner-inner-lt').removeClass('corner-inner-lt-color');
-    // })
+    $('.lotto-button a').hover(function() {
+      $('.lotto-button a .corners-outer').addClass('corners-outer-hover');
+    }, function() {
+      $('.lotto-button a .corners-outer').removeClass('corners-outer-hover');
+    })
 });
 
 function nextTab(elem) {
