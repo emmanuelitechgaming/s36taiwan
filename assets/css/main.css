@@ -8001,7 +8001,7 @@ border-top-right-radius: 6px
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
-.lotto-button a:hover .corner-inner-lt-color::before{
+.lotto-button a:hover .corner-inner-lt::before{
   width: 13px;
   height: 13px;
   border-top: solid 1px rgba(184, 205, 255, 0.95);
