@@ -1853,6 +1853,23 @@ z-index: 99999;
       width: 36px!important;
       height: 36px!important;
     }
+
+    /*.contact-title li a:hover{
+      width: 37px!important;
+      height: 37px!important;
+    }*/
+    .contact-title .flag-icon:hover::before{
+      width: 36px;
+      height: 36px;
+      bottom: 0;
+      left: 0;
+    }
+    .contact-title .active .flag-icon:hover::before{
+      width: 32px;
+      height: 32px;
+      bottom: 0;
+      left: 0;
+    }
     .contact-title .flag-icon::before{
       width: 32px;
       height: 32px;
