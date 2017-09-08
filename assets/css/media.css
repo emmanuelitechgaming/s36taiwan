@@ -2950,6 +2950,9 @@ margin-top: -18px;
     .casino-g img {
         margin: 0 0 10px;
     }
+    .slot-content .casino-g img{
+      margin: 0 0 0;
+    }
     .casino-section .casino-g-img{
       margin: 0 0 0
     }
@@ -3856,7 +3859,7 @@ margin-top: -18px;
     left: 14px;
   }
   .how-to-reg {
-     margin-bottom: 0px; 
+     margin-bottom: 0px;
   }
 }
 
