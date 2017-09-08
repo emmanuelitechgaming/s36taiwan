@@ -7989,7 +7989,17 @@ border-top-right-radius: 6px
   top: -4px;
   bottom: -4px;
   left: -4px;
-  right: -4px
+  right: -4px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s
+}
+.corners-outer-hover{
+  top: -8px;
+  bottom: -8px;
+  left: -8px;
+  right: -8px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s
 }
 .corner-inner-lt::before{
   content: '';
@@ -8027,8 +8037,8 @@ border-top-right-radius: 6px
   height: 18px;
   border-top: solid 2px rgba(255, 255, 255, 0.4);
   border-left: solid 2px rgba(255, 255, 255, 0.4);
-  top: -8px;
-  left: -8px;
+  top: -12px;
+  left: -12px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
@@ -8070,8 +8080,8 @@ border-top-right-radius: 6px
   height: 18px;
   border-bottom: solid 2px rgba(255, 255, 255, 0.4);
   border-left: solid 2px rgba(255, 255, 255, 0.4);
-  bottom: -8px;
-  left: -8px;
+  bottom: -12px;
+  left: -12px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
@@ -8114,8 +8124,8 @@ border-top-right-radius: 6px
   height: 18px;
   border-bottom: solid 2px rgba(255, 255, 255, 0.4);
   border-right: solid 2px rgba(255, 255, 255, 0.4);
-  bottom: -8px;
-  right: -8px;
+  bottom: -12px;
+  right: -12px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
@@ -8158,8 +8168,8 @@ border-top-right-radius: 6px
   height: 18px;
   border-top: solid 2px rgba(255, 255, 255, 0.4);
   border-right: solid 2px rgba(255, 255, 255, 0.4);
-  top: -8px;
-  right: -8px;
+  top: -12px;
+  right: -12px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
@@ -8540,7 +8550,15 @@ box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
 .logo2 img{
   width: 50px;
 
-    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+
+        image-rendering: -webkit-optimize-contrast;
+
+        image-rendering: -moz-crisp-edges;
+
+        image-rendering: -o-pixelated;
+
+        image-rendering: pixelated;
 }
 .download-app{
   display: inline-block;
