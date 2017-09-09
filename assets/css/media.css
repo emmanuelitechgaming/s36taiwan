@@ -12,9 +12,6 @@
     .flexslides {
         margin-left: 17px !important;
     }
-    .navbar-header.header-mobile {
-        margin-top: -15px;
-    }
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 0px;
     }
@@ -50,13 +47,17 @@ z-index: 99999;
     header .logo a {
         display: inline-block;
         /* width: 184px; */
-        width: 130px;
-        height: 55px;
-        background: url(../img/logo.png) no-repeat 0 0;
+        width: 135px;
+        height: 40px;
+        background: url(../img/logo-m.png) no-repeat 0 0;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        margin-top: 10px;
+        position: relative;
+        top: 4px
+    }
+    .navbar-header.header-mobile{
+      margin-bottom: 10px
     }
     .header-mobile-logo {
         margin-left: 10px
@@ -131,9 +132,6 @@ z-index: 99999;
         -webkit-appearance: none;
         margin-top: -20px;
         margin-bottom: -20px;
-    }
-    .footer-img-m {
-        padding-right: 15px
     }
     footer .footer-icon .footer-img-m img {
         width: 100%;
@@ -1107,6 +1105,19 @@ z-index: 99999;
     .promo-body{
       padding-left: 0;
       padding-right: 0;
+    }
+    .footer-img-m ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .footer-img-m ul li{
+      display: inline-block;
+      width: 50%;
+      margin-left: -4px;
+      margin-right: -4px;
+      padding-right: 7px;
+      padding-left: 7px;
     }
 }
 
@@ -2386,6 +2397,42 @@ z-index: 99999;
     .promotion-swiper-container .swiper-slide a {
       top: 2px;
     }
+    .m-fsalon ul li:nth-child(1), .m-fsalon ul li:nth-child(2), .m-fsalon ul li:nth-child(3){
+      width: auto;
+    }
+    .m-fsalon ul li:nth-child(1) img{
+      margin-left: 0;
+    }
+    .m-fsalon ul li:nth-child(2) img{
+      margin-right: 0;
+    }
+    .m-fsalon ul li:nth-child(1), .m-fsalon ul li:nth-child(3){
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .m-fsalon ul li:nth-child(2){
+      left: auto;
+    }
+    .m-fsalon ul li:nth-child(4), .m-fsalon ul li:nth-child(5){
+      width: auto;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .m-fsalon ul li:nth-child(4) img{
+      margin-left: 0;
+    }
+    .m-fsalon ul li{
+      margin: 0 10px;
+    }
+    .m-fsalon ul li:nth-child(4){
+      margin: 14px 31px
+    }
+    .m-fsalon ul li:nth-child(5){
+      margin-left: -5px
+    }
+    .footer-img-m ul li{
+      width: 33.33333%
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -2454,12 +2501,6 @@ z-index: 99999;
         bottom: -5px;
         left: 110px;
     }
-    .m-fsalon ul li:nth-child(1) img {
-        margin-left: 20%;
-    }
-    .m-fsalon ul li:nth-child(2) img {
-        margin: auto 30%;
-    }
     .rss-field .form-group:nth-child(2) {
         width: 76.5%;
     }
@@ -2472,6 +2513,15 @@ z-index: 99999;
     }
     .cta-casino .absolute-play{
       right: 27%
+    }
+    .m-fsalon ul li:nth-child(4), .m-fsalon ul li{
+      margin: 0 0;
+    }
+    .m-fsalon ul li:nth-child(5){
+      margin-left: 0;
+    }
+    .m-fsalon ul li:nth-child(6){
+      margin-top: 10px
     }
 }
 
@@ -2581,9 +2631,6 @@ z-index: 99999;
         bottom: -9px;
         left: 112px;
     }
-    .m-fsalon ul li:nth-child(2) img {
-        margin: auto 31%;
-    }
     .rss-field .form-group:nth-child(2) {
         width: 77.5%;
     }
@@ -2593,6 +2640,9 @@ z-index: 99999;
     }
     .promo-heart {
         right: 105px;
+    }
+    .m-fsalon ul li, .m-fsalon ul li:nth-child(4){
+      margin: 0 5px
     }
 }
 
@@ -2620,9 +2670,6 @@ z-index: 99999;
         bottom: -10px;
         left: 135px;
     }
-    .m-fsalon ul li:nth-child(2) img {
-        margin: auto 32%;
-    }
     .rss-field .form-group:nth-child(2) {
         width: 79.5%;
     }
@@ -2639,6 +2686,9 @@ z-index: 99999;
     .cta-seemore {
         bottom: 135px;
         right: 180px;
+    }
+    .m-fsalon ul li, .m-fsalon ul li:nth-child(4){
+      margin: 0 10px
     }
 }
 
@@ -2725,9 +2775,6 @@ z-index: 99999;
     .live-game-txtbc a {
         bottom: -10px;
         left: 136px;
-    }
-    .m-fsalon ul li:nth-child(2) img {
-        margin: auto 32%;
     }
     .contactus ul{
 
@@ -3874,6 +3921,17 @@ margin-top: -18px;
   .promo-body{
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .footer-img-d ul li{
+    width: 16.66666%;
+    margin-left: -4px;
+    padding: 5px
+  }
+  footer .footer-icon .footer-img-d img{
+    margin: 0 0 0 0;
+  }
+  header .logo a {
+      background: url(../img/logo.png) no-repeat 0 0;
   }
 }
 
