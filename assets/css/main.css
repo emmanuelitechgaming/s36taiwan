@@ -8615,3 +8615,11 @@ line-height: 49px;
   -webkit-transform: rotate(5deg) scale(1.2);
   transform: rotate(5deg) scale(1.2);
 }
+.footer-img-d ul{
+  list-style: none;
+  margin: 0;
+  padding: 0 10px;
+}
+.footer-img-d ul li{
+  display: inline-block;
+}
