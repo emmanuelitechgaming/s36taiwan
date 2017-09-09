@@ -8531,16 +8531,20 @@ margin-top: -10px;
 }
 .dl-area{
   display: inline-block;
-  vertical-align: top;
-  margin-top: -17px;
-  border: 1px solid #4e4e4e;
-  padding: 6px 13px;
-  border-radius: 5px;
-padding-bottom: 1px;
--webkit-box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
-box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
-    margin-left: 30px;
-
+      vertical-align: top;
+      margin-top: -17px;
+      border: 1px solid #4e4e4e;
+      padding: 6px 13px;
+      border-radius: 5px;
+      padding-bottom: 1px;
+      -webkit-box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
+      box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
+      margin-left: 30px;
+      background: #1a2225;
+  background: -moz-linear-gradient(-45deg, #1a2225 0%, #1f232c 5%, #242831 22%, #1a2225 35%, #1f232c 43%, #1a2225 60%, #1f232c 67%, #2e3740 84%, #1a2225 99%, #1f232c 100%);
+  background: -webkit-linear-gradient(-45deg, #1a2225 0%,#1f232c 5%,#242831 22%,#1a2225 35%,#1f232c 43%,#1a2225 60%,#1f232c 67%,#2e3740 84%,#1a2225 99%,#1f232c 100%);
+  background: linear-gradient(135deg, #1a2225 0%,#1f232c 5%,#242831 22%,#1a2225 35%,#1f232c 43%,#1a2225 60%,#1f232c 67%,#2e3740 84%,#1a2225 99%,#1f232c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2225', endColorstr='#1f232c',GradientType=1 );
 }
 .logo2 {
   display: inline-block;
@@ -8568,18 +8572,18 @@ margin: 0 5px;
 }
 .btn-tp{
   display: inline-block;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 17px;
 line-height: 49px;
   vertical-align: top;
 }
 .btn-tp a{
   text-decoration: none;
-  color: #fba601;
-  border:  1px solid #fba601;
-  padding: 3px 8px;
-  border-radius: 5px;
+  color: #000000;
+  padding: 3px 20px;
+  border-radius: 16px;
+  font-weight: 400;
   margin-left: 20px;
+  background: #acacb4;
 }
 .os{
   display: inline-block;
