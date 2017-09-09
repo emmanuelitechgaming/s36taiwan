@@ -8310,7 +8310,7 @@ border-top-right-radius: 6px
 }
 .download-app div.b-txts{
   font-weight: 600;
-  font-size: 19px;
+  font-size: 14px;
 }
 .contact-title ul{
   padding: 0;
@@ -8541,8 +8541,6 @@ margin-top: -10px;
       box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
       margin-left: 30px;
       background: #1a2225;
-  background: -moz-linear-gradient(-45deg, #1a2225 0%, #1f232c 5%, #242831 22%, #1a2225 35%, #1f232c 43%, #1a2225 60%, #1f232c 67%, #2e3740 84%, #1a2225 99%, #1f232c 100%);
-  background: -webkit-linear-gradient(-45deg, #1a2225 0%,#1f232c 5%,#242831 22%,#1a2225 35%,#1f232c 43%,#1a2225 60%,#1f232c 67%,#2e3740 84%,#1a2225 99%,#1f232c 100%);
   background: linear-gradient(135deg, #1a2225 0%,#1f232c 5%,#242831 22%,#1a2225 35%,#1f232c 43%,#1a2225 60%,#1f232c 67%,#2e3740 84%,#1a2225 99%,#1f232c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2225', endColorstr='#1f232c',GradientType=1 );
 }
@@ -8565,14 +8563,14 @@ margin-top: -10px;
 .download-app{
   display: inline-block;
 vertical-align: top;
-font-size: 20px;
+font-size: 14px;
 font-weight: 700;
 margin: 0 5px;
     line-height: 23px;
 }
 .btn-tp{
   display: inline-block;
-  font-size: 17px;
+  font-size: 14px;
 line-height: 49px;
   vertical-align: top;
 }
