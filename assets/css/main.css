@@ -8249,6 +8249,7 @@ border-top-right-radius: 6px
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
   color: #111;
   text-shadow: none;
+  font-weight: 700;
 }
 .btn-promotion{
   padding: 8px 25px;
@@ -8540,9 +8541,12 @@ margin-top: -10px;
       -webkit-box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
       box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
       margin-left: 10px;
-      background: #1a2225;
-      background: linear-gradient(135deg, #1a2225 0%,#1f232c 5%,#2e3740 22%,#1a2225 35%,#1f232c 43%,#1a2225 60%,#1f232c 67%,#2e3740 84%,#1a2225 99%,#1f232c 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2225', endColorstr='#1f232c',GradientType=1 );
+      background: #5e5e5e;
+background: -moz-linear-gradient(top, #5e5e5e 0%, #3f3f3f 100%);
+background: -webkit-linear-gradient(top, #5e5e5e 0%,#3f3f3f 100%);
+background: linear-gradient(to bottom, #5e5e5e 0%,#3f3f3f 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#3f3f3f',GradientType=0 );
+
 
 }
 .logo2 {
@@ -8550,16 +8554,13 @@ margin-top: -10px;
 }
 .logo2 img{
   width: 50px;
-
-    -ms-interpolation-mode: nearest-neighbor;
-
-        image-rendering: -webkit-optimize-contrast;
-
-        image-rendering: -moz-crisp-edges;
-
-        image-rendering: -o-pixelated;
-
-        image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-pixelated;
+  image-rendering: pixelated;
+  border: 2px solid #3c3c3c;
+  border-radius: 10px;
 }
 .download-app{
   display: inline-block;
@@ -8578,12 +8579,13 @@ line-height: 49px;
 }
 .btn-tp a{
   text-decoration: none;
-  color: #000000;
-  padding: 3px 20px;
-  border-radius: 16px;
-  font-weight: 400;
-  margin-left: 20px;
-  background: #acacb4;
+      color: #000000;
+      padding: 4px 20px;
+      border-radius: 5px;
+      font-weight: 700;
+      margin-left: 20px;
+    box-shadow: 0px 1px 5px #000;
+      background: #acacb4;
 }
 .os{
   display: inline-block;
