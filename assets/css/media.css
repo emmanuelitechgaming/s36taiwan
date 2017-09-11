@@ -1144,6 +1144,10 @@ z-index: 99999;
       padding-left: 5px;
       padding-right: 5px;
     }
+    .boxer-last a{
+      display: inline-block;
+      padding: 5px 25px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3991,6 +3995,13 @@ margin-top: -18px;
   .bago_nanaman .col-md-3.col-xs-12{
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .bago_nanaman .boxer-last{
+    top: 12px
+  }
+  .boxer-last a{
+    display: block;
+    padding: 0 0;
   }
 }
 
