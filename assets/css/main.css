@@ -5823,7 +5823,7 @@ main .win-lot-top-games {
 }
 
 .sp-strip {
-    background: black;
+    background: #1b1b1b;
     overflow: hidden;
     margin-left: -15px;
     margin-right: -15px;
