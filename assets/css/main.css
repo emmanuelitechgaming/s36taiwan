@@ -3125,7 +3125,7 @@ span.round-tab i {
     text-shadow: none;
     width: 100%;
     font-weight: 700;
-    border-radius: 20px;
+    border-radius: 5px;
     color: #000;
 }
 
@@ -4974,7 +4974,7 @@ ul {
 
 .rss-submit-verification{
     color: #000;
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 12px;
     font-family: arial, helvetica, sans-serif;
     padding: 6px 10px 6px 10px;
@@ -6423,7 +6423,7 @@ main .win-lot-top-games {
     letter-spacing: .5px;
     color: #000;
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
     background:#acacb4;
     text-shadow: none;
     width: 100%;
@@ -7085,7 +7085,7 @@ div.acc-info.acc-edit div.acc-cont input {
 
 .btn-yellow {
     background:#acacb4;
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 17px;
     font-weight: 700;
 
@@ -7859,9 +7859,6 @@ main .win-title-recent{
 }
 .spotlight-bg .today-winner, .spotlight-bg .td-week, .spotlight-bg .tdw-body{
   background: transparent
-}
-.subscribe-btn{
-  border-radius: 20px;
 }
 .img-container {
   position: relative;
