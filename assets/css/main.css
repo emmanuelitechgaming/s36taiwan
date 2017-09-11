@@ -8528,13 +8528,22 @@ margin-top: -10px;
   }
 .bookmark{
   display: block;
-  width: 28px;
-  height: 28px;
-  background: url('../img/bookmark.png') no-repeat;
   background-size: cover;
   position: absolute;
-  top: 3px;
-  right: 40%;
+  top: 4px;
+  right: 35%;
+  padding: 2px 18px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.bookmark span{
+  font-size: 12px;
+  position: absolute;
+  top: -2px;
+  left: 4px;
+
 }
 .dl-area{
   display: inline-block;
@@ -8637,11 +8646,10 @@ line-height: 49px;
   padding-bottom: 10px;
 }
 .bago_nanaman{
-  background: #0e0e0e;
+  background: #1B1B1B;
   padding:10px;
 }
 .bago_nanaman .boxer{
-  border: 1px solid #3e3e3e;
   text-align: center;
   vertical-align: middle;
   font-weight: 700;
@@ -8669,6 +8677,8 @@ line-height: 49px;
   background: #fba601;
   -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
           box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+
+          border-radius: 5px;
 }
 .boxer-last a{
   display: block;
