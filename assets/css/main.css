@@ -1612,10 +1612,9 @@ p {
     font-size: 17px;
     background-color: transparent;
     border: none;
-    color: rgba(26, 26, 26, 0.8);
-    background: url('../img/yellow-btn.png') repeat-x;
+    color: #000;
+    background: #acacb4;
     position: relative;
-    text-shadow: 1px 1px rgb(255, 214, 135);
     padding: 6px 40px;
     padding-right: 70px;
     border-radius: 4px;
@@ -1627,7 +1626,7 @@ p {
 .sp-btn-hidden{
   border-radius: 20px;
   font-size: 19px;
-  background: #fba601;
+  background: #acacb4;
   background-size: contain;
       -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
               box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
@@ -2017,7 +2016,7 @@ input[type=radio] {
 }
 
 .cs-content .cta-cs a {
-    background: #fba601;
+    background: #acacb4;
     padding: 5px 40px;
     border-radius: 20px;
     color: #000;
@@ -2681,7 +2680,7 @@ select + i.fa {
 .lg-playnow:hover,
 .lg-playnow:focus {
     text-decoration: none;
-    color: rgba(49, 49, 49, 0.5) !important;
+    color: #111
 }
 
 .lg-seemore {
@@ -3122,15 +3121,23 @@ span.round-tab i {
     letter-spacing: .5px;
     border: none;
     border-radius: 4px;
-    /*background: url(../img/yellow-btn.png) repeat-x;*/
-    background: #fba601;
+    background: #acacb4;
     text-shadow: none;
     width: 100%;
     font-weight: 700;
-    line-height: 6px;
     border-radius: 20px;
-    color: rgba(26, 26, 26, 0.8);
-    text-shadow: 1px 1px rgb(255, 214, 135)!important;
+    color: #000;
+}
+
+.cs-modal .chatserver-form button::after, #cscall::after{
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: url('../img/arrow-right.png') no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 3px;
 }
 
 #csPhone .chatserver-form button{
@@ -4761,7 +4768,6 @@ left: 47%;
     background: #252525;
     border-top: 1px solid #494949;
     color: #A4A4A4;
-    text-shadow: 1px 1px 3px #000;
     border-radius: 5px;
 }
 
@@ -4817,10 +4823,9 @@ left: 47%;
 }
 
 .btn-warning {
-    color: rgba(26, 26, 26, 0.8);
-    text-shadow: 1px 1px rgb(255, 214, 135);
-    border-color: #eea236;
-    background: url(../img/yellow-btn.png) repeat-x #fba601;
+    color: #000;
+    border-color: #acacb4;
+    background: #acacb4;
     font-weight: 700;
     border-radius: 20px
 }
@@ -4967,11 +4972,8 @@ ul {
     display: none
 }
 
-.rss-submit-verification,
-.rss-submit-verification:hover {
-    color: rgba(26, 26, 26, 0.8) !important;
-    text-shadow: 1px 1px rgb(255, 214, 135);
-    border: 1px solid #ffad41;
+.rss-submit-verification{
+    color: #000;
     border-radius: 20px;
     font-size: 12px;
     font-family: arial, helvetica, sans-serif;
@@ -4979,8 +4981,7 @@ ul {
     text-decoration: none;
     display: inline-block;
     font-weight: bold;
-    background: url(../img/yellow-btn.png) repeat-x;
-
+    background: #acacb4
 }
 
 .my-modal-cs {
@@ -6420,14 +6421,12 @@ main .win-lot-top-games {
     margin-bottom: 20px;
     padding: 7px 15px;
     letter-spacing: .5px;
-    color: rgba(26, 26, 26, 0.8);
-    text-shadow: 1px 1px rgb(255, 214, 135)!important;
+    color: #000;
     border: none;
     border-radius: 20px;
-    background:#fba601;
+    background:#acacb4;
     text-shadow: none;
     width: 100%;
-    line-height: 5px;
 }
 
 #csCallselect {
@@ -6550,10 +6549,21 @@ main .win-lot-top-games {
 }
 
 #myModal .pull-right .modal-bottom .btn-warning {
-    color: rgba(26, 26, 26, 0.8);
-    text-shadow: 1px 1px rgb(255, 214, 135);
+    color: #000;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+#myModal .pull-right .modal-bottom .btn-warning::after{
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/arrow-right-30.png) no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 3px;
+  margin-left: 3px
 }
 
 #myModal .pull-right .modal-bottom a {
@@ -7074,7 +7084,7 @@ div.acc-info.acc-edit div.acc-cont input {
 }*/
 
 .btn-yellow {
-    background:#fba601;
+    background:#acacb4;
     border-radius: 20px;
     font-size: 17px;
     font-weight: 700;
@@ -7261,10 +7271,10 @@ div.acc-info.acc-edit div.acc-cont input {
     left: 5px;
     bottom: 0px;
 }
-
-.btn-warning:hover {
-    color: #fff;
-    background-color: #fba601 !important;
+.btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover{
+    color: #000;
+    background-color: #acacb4;
+    border-color: #acacb4
 }
 
 .sweet-arrow {
@@ -7579,14 +7589,13 @@ div.acc-info.acc-edit div.acc-cont input {
 
 .tdw-button button {
     display: inline-block;
-    background: #fba601;
+    background: #acacb4;
     border: none;
-    color: rgba(26, 26, 26, 0.8);
+    color: #000;
     font-weight: 700;
     padding: 5px 45px;
     font-size: 16px;
     border-radius: 20px;
-    text-shadow: 1px 1px rgb(255, 214, 135);
 }
 .acc-cont  a{
   color: #fba601;
@@ -8262,11 +8271,19 @@ border-top-right-radius: 6px
   color: #111;
   text-decoration: none;
 }
-.btn-tp a:hover{
+.btn-tp a:hover, .boxer.boxer-last a:hover, .rss-submit-verification:hover, .btn-hidden:hover, .sp-btn-hidden:hover, .cs-content .cta-cs a:hover, .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover, .cs-modal .chatserver-form button:hover, #cscall:hover, .tdw-button button:hover{
   background-color: #c5c7d3;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
   color: #111;
+  text-decoration: none;
+}
+.live-game .btn-hidden:hover, .live-game .sp-btn-hidden:hover{
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #111;
+  text-decoration: none;
 }
 .casino-desc-bot .sp-btn-hidden::after, .btn-promotion::after {
   content: '';
@@ -8673,17 +8690,8 @@ line-height: 49px;
   position: relative;
   top: 2px
 }
-.boxer-last{
-  background: #fba601;
-  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
-
-          border-radius: 5px;
-}
 .boxer-last a{
-  display: block;
-  color: rgba(26, 26, 26, 0.8);
-  text-shadow: 1px 1px rgb(255, 214, 135);
+  color: #000;
   padding: 0 0;
   font-size: 20px;
   background: none;
@@ -8691,12 +8699,15 @@ line-height: 49px;
   -webkit-box-shadow: none;
           box-shadow: none;
   margin-bottom: 0;
+  background: #acacb4;
+  border-radius: 5px
 }
 .boxer-last a::after{
   content: none;
 }
 .bago_nanaman .boxer-last{
   padding: 0 0;
-  min-height: 64px;
-  line-height: 64px;
+  min-height: 41px;
+  line-height: 41px;
+  position: relative;
 }
