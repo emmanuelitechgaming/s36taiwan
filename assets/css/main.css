@@ -2036,7 +2036,6 @@ input[type=radio] {
 
 .index-img-banner {
     width: 100%;
-    margin-bottom: 15px;
 }
 
 
@@ -8558,8 +8557,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', end
   image-rendering: -moz-crisp-edges;
   image-rendering: -o-pixelated;
   image-rendering: pixelated;
-  border: 2px solid #3c3c3c;
-  border-radius: 10px;
 }
 .download-app{
   display: inline-block;
@@ -8583,8 +8580,6 @@ line-height: 49px;
       border-radius: 5px;
       font-weight: 700;
       margin-left: 20px;
-    -webkit-box-shadow: 0px 1px 5px #000;
-            box-shadow: 0px 1px 5px #000;
       background: #acacb4;
 }
 .os{
@@ -8633,4 +8628,17 @@ line-height: 49px;
 .sp-breadcrumb{
   background: #1B1A1A;
   padding-bottom: 10px;
+}
+.bago_nanaman{
+  background: #0e0e0e;
+  padding:10px;
+}
+.bago_nanaman .boxer{
+  height: 60px;
+  border: 1px solid #3e3e3e;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 55px;
+  font-weight: 700;
+  font-size: 20px;
 }
