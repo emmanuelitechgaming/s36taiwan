@@ -1119,6 +1119,10 @@ z-index: 99999;
       padding-right: 7px;
       padding-left: 7px;
     }
+    .bago_nanaman .boxer{
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2522,6 +2526,12 @@ z-index: 99999;
     }
     .m-fsalon ul li:nth-child(6){
       margin-top: 10px
+    }
+    .col-6{
+      width: 50%
+    }
+    .bago_nanaman .boxer{
+      margin: 10px 0;
     }
 }
 
@@ -3933,6 +3943,16 @@ margin-top: -18px;
   header .logo a {
       background: url(../img/logo.png) no-repeat 0 0;
   }
+  .bago_nanaman .boxer {
+    margin-bottom: 0;
+  }
+  .col-6{
+    width: 25%;
+  }
+  .bago_nanaman .boxer{
+    margin: 0 0;
+    font-size: 15px
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -4215,5 +4235,8 @@ main .marquee {
   .contact-title .flag-icon::before, .contact-title .active .flag-icon:hover::before {
     width: 34px;
     height: 34px;
+  }
+  .bago_nanaman .boxer {
+    font-size: 20px;
   }
 }
