@@ -8628,3 +8628,7 @@ line-height: 49px;
 .btn-hidden-radius, .btn-hidden-radius a{
   border-radius: 4px
 }
+.sp-breadcrumb{
+  background: #1B1A1A;
+  padding-bottom: 10px;
+}
