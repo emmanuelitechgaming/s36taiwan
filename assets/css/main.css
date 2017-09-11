@@ -7589,14 +7589,13 @@ div.acc-info.acc-edit div.acc-cont input {
 
 .tdw-button button {
     display: inline-block;
-    background: #fba601;
+    background: #acacb4;
     border: none;
-    color: rgba(26, 26, 26, 0.8);
+    color: #000;
     font-weight: 700;
     padding: 5px 45px;
     font-size: 16px;
     border-radius: 20px;
-    text-shadow: 1px 1px rgb(255, 214, 135);
 }
 .acc-cont  a{
   color: #fba601;
@@ -8272,7 +8271,7 @@ border-top-right-radius: 6px
   color: #111;
   text-decoration: none;
 }
-.btn-tp a:hover, .boxer.boxer-last a:hover, .rss-submit-verification:hover, .btn-hidden:hover, .sp-btn-hidden:hover, .cs-content .cta-cs a:hover, .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover, .cs-modal .chatserver-form button:hover, #cscall:hover{
+.btn-tp a:hover, .boxer.boxer-last a:hover, .rss-submit-verification:hover, .btn-hidden:hover, .sp-btn-hidden:hover, .cs-content .cta-cs a:hover, .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover, .cs-modal .chatserver-form button:hover, #cscall:hover, .tdw-button button:hover{
   background-color: #c5c7d3;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
