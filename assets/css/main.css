@@ -8262,6 +8262,12 @@ border-top-right-radius: 6px
   color: #111;
   text-decoration: none;
 }
+.btn-tp a:hover{
+  background-color: #c5c7d3;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
+  color: #111;
+}
 .casino-desc-bot .sp-btn-hidden::after, .btn-promotion::after {
   content: '';
   display: inline-block;
