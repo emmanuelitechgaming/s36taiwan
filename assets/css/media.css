@@ -1122,6 +1122,11 @@ z-index: 99999;
     .bago_nanaman .boxer{
       margin-bottom: 10px;
       font-size: 20px;
+      border: 2px solid #acacb4;
+      border-radius: 15px
+    }
+    .bago_nanaman .boxer-last{
+      border: none
     }
     .col-6{
       width: 33.33333%;
@@ -3975,7 +3980,8 @@ margin-top: -18px;
   }
   .bago_nanaman .boxer{
     margin: 0 0;
-    font-size: 15px
+    font-size: 15px;
+    border: none
   }
   .boxer .number{
     display: inline-block;
