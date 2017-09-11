@@ -627,10 +627,8 @@ $(document).ready(function () {
     })
 
     $('.lg-playnow, .arrow-right-btn').hover(function() {
-      $(this).css('color','rgba(49, 49, 49, 0.5)');
       $(this).find('img').attr('src', 'assets/img/arrow-right-hover.png');
     }, function() {
-      $(this).css('color','rgba(26, 26, 26, 0.8)');
       $(this).find('img').attr('src', 'assets/img/arrow-right.png');
     });
 
@@ -655,14 +653,6 @@ $(document).ready(function () {
       $(this).css('color','#fff');
     }, function() {
       $(this).css('color','#999');
-    });
-
-    $('.btn-hidden').hover(function() {
-      $(this).css('color', 'rgba(49, 49, 49, 0.5)');
-      $(this).addClass('btn-hidden-hover');
-    }, function() {
-      $(this).css('color', 'rgba(26, 26, 26, 0.8)');
-      $(this).removeClass('btn-hidden-hover');
     });
 
     $('.casino-desc-bot .sp-btn-hidden, .btn-promotion').hover(function() {
