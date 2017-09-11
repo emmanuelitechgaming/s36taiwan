@@ -1123,6 +1123,17 @@ z-index: 99999;
       margin-bottom: 10px;
       font-size: 20px;
     }
+    .col-6{
+      width: 33.33333%;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+    .boxer .number{
+      display: block
+    }
+    .boxer .content .title{
+      font-size: 15px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3948,10 +3959,17 @@ margin-top: -18px;
   }
   .col-6{
     width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .bago_nanaman .boxer{
     margin: 0 0;
     font-size: 15px
+  }
+  .boxer .number{
+    display: inline-block;
+    line-height: 45px;
+    font-size: 19px;
   }
 }
 
@@ -4238,5 +4256,9 @@ main .marquee {
   }
   .bago_nanaman .boxer {
     font-size: 20px;
+  }
+  .boxer .number{
+    font-size: 48px;
+    margin-right: 10px;
   }
 }
