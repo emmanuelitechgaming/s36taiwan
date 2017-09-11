@@ -8541,8 +8541,6 @@ margin-top: -10px;
       box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
       margin-left: 10px;
       background: #1a2225;
-      background: -moz-linear-gradient(-45deg, #1a2225 0%, #1f232c 5%, #2e3740 22%, #1a2225 35%, #1f232c 43%, #1a2225 60%, #1f232c 67%, #2e3740 84%, #1a2225 99%, #1f232c 100%);
-      background: -webkit-linear-gradient(-45deg, #1a2225 0%,#1f232c 5%,#2e3740 22%,#1a2225 35%,#1f232c 43%,#1a2225 60%,#1f232c 67%,#2e3740 84%,#1a2225 99%,#1f232c 100%);
       background: linear-gradient(135deg, #1a2225 0%,#1f232c 5%,#2e3740 22%,#1a2225 35%,#1f232c 43%,#1a2225 60%,#1f232c 67%,#2e3740 84%,#1a2225 99%,#1f232c 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2225', endColorstr='#1f232c',GradientType=1 );
 
@@ -8627,6 +8625,10 @@ line-height: 49px;
 .footer-img-d ul li{
   display: inline-block;
 }
-.btn-hidden-radius{
+.btn-hidden-radius, .btn-hidden-radius a{
   border-radius: 4px
+}
+.sp-breadcrumb{
+  background: #1B1A1A;
+  padding-bottom: 10px;
 }
