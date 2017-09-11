@@ -8641,7 +8641,25 @@ line-height: 49px;
   line-height: 55px;
   font-weight: 700;
 }
-
 .marquee-mobile2 {
   margin-top: 10px;
+}
+.boxer div{
+  display: inline-block;
+  vertical-align: middle;
+}
+.boxer .content{
+  line-height: normal;
+  text-align: left;
+}
+.boxer .content .title{
+  font-size: 19px;
+  color: #acacac;
+}
+.boxer .content p{
+  font-size: 13px;
+}
+.boxer .number{
+  font-size: 48px;
+  margin-right: 10px;
 }
