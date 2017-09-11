@@ -1134,6 +1134,16 @@ z-index: 99999;
     .boxer .content .title{
       font-size: 15px;
     }
+    .boxer .content p{
+      font-size: 10px;
+    }
+    .boxer .content{
+      text-align: center;
+    }
+    .bago_nanaman .col-md-3.col-xs-12{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2537,9 +2547,6 @@ z-index: 99999;
     }
     .m-fsalon ul li:nth-child(6){
       margin-top: 10px
-    }
-    .col-6{
-      width: 50%
     }
     .bago_nanaman .boxer{
       margin: 10px 0;
@@ -3969,7 +3976,21 @@ margin-top: -18px;
   .boxer .number{
     display: inline-block;
     line-height: 45px;
+    font-size: 48px;
+    margin-right: 10px;
+  }
+  .boxer .content .title {
     font-size: 19px;
+  }
+  .boxer .content p{
+    font-size: 13px;
+  }
+  .boxer .content{
+    text-align: left;
+  }
+  .bago_nanaman .col-md-3.col-xs-12{
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -4256,9 +4277,5 @@ main .marquee {
   }
   .bago_nanaman .boxer {
     font-size: 20px;
-  }
-  .boxer .number{
-    font-size: 48px;
-    margin-right: 10px;
   }
 }
