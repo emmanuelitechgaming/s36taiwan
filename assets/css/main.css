@@ -8759,3 +8759,16 @@ line-height: 49px;
 .mobile-banner-wrapper .bs-slider-overlay a{
   display: inline-block;
 }
+.spotlight-bg-text{
+  position: absolute;
+  font-size: 90px;
+  font-weight: 700;
+  color: #fba601;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  text-align: center;
+  text-shadow: 0px 10px 0px rgba(121, 4, 4, 1);
+  line-height: 462px
+}
