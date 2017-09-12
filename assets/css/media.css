@@ -1155,6 +1155,18 @@ z-index: 99999;
       display: inline-block;
       width: 33.33333%;
     }
+    .mobile-banner-wrapper .bs-slider-overlay{
+      bottom: 36%
+    }
+    .mobile-banner-wrapper .bs-slider-overlay a{
+      font-size: 11px;
+      padding: 4px 10px
+    }
+    .mobile-banner-wrapper .bs-slider-overlay a::after{
+      width: 12px;
+      height: 12px;
+      top: 2px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2469,6 +2481,18 @@ z-index: 99999;
     .footer-img-m ul li{
       width: 33.33333%
     }
+    .mobile-banner-wrapper .bs-slider-overlay a {
+      font-size: 13px;
+      padding: 6px 12px;
+    }
+    .mobile-banner-wrapper .bs-slider-overlay {
+      bottom: 37%;
+    }
+    .mobile-banner-wrapper .bs-slider-overlay a::after {
+      width: 16px;
+      height: 16px;
+      top: 3px;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -3484,7 +3508,10 @@ margin-top: -18px;
         bottom: -5px !important;
     }
     .cs-modal .modal-dialog {
-        margin: 150px auto;
+        margin: 160px auto;
+    }
+    .modal-dialog{
+      margin: 160px auto;
     }
     .form-recap-right {
         text-align: left;
@@ -4014,6 +4041,20 @@ margin-top: -18px;
     padding: 0 0;
     width: auto;
   }
+  .bs-slider-overlay a{
+    font-size: 13px;
+    padding: 4px 12px;
+  }
+  .bs-slider-overlay a::after{
+    width: 13px;
+    height: 13px;
+    top: 3px
+  }
+  .bs-slider-overlay {
+    position: absolute;
+    bottom: 26px;
+    right: 28.5%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -4299,5 +4340,18 @@ main .marquee {
   }
   .bago_nanaman .boxer {
     font-size: 20px;
+  }
+  .bs-slider-overlay a{
+    padding: 6px 15px;
+    font-size: 20px;
+  }
+  .bs-slider-overlay a::after{
+    height: 23px;
+    width: 23px;
+    top: 5px;
+  }
+  .bs-slider-overlay {
+    bottom: 50px;
+    right: 29.5%;
   }
 }
