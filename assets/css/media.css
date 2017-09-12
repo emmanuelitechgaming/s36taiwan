@@ -1123,7 +1123,8 @@ z-index: 99999;
       margin-bottom: 10px;
       font-size: 20px;
       border: 2px solid #acacb4;
-      border-radius: 15px
+      border-radius: 15px;
+      text-align: center;
     }
     .bago_nanaman .boxer-last{
       border: none;
@@ -4340,6 +4341,8 @@ main .marquee {
   }
   .bago_nanaman .boxer {
     font-size: 20px;
+    margin-left: -10px;
+    text-align: left;
   }
   .bs-slider-overlay a{
     padding: 6px 15px;
@@ -4353,5 +4356,8 @@ main .marquee {
   .bs-slider-overlay {
     bottom: 50px;
     right: 29.5%;
+  }
+  .bago_nanaman .container{
+    width: 1167px;
   }
 }
