@@ -2238,10 +2238,6 @@ input[type=password]:hover {
     font-size: 18px;
 }
 
-.modal-dialog {
-    margin: 160px auto;
-}
-
 .seo-partners ul > li {
     list-style-type: none;
     display: inline-block;
@@ -2250,7 +2246,6 @@ input[type=password]:hover {
 
 .no-bullet {
     list-style: none;
-    mar
 }
 
 .columns .list {
@@ -8707,4 +8702,34 @@ line-height: 49px;
   min-height: 41px;
   line-height: 41px;
   position: relative;
+}
+.bs-slider-overlay a{
+  display: block;
+  background: url('../img/sp/reg-btn-bg.png') no-repeat;
+  background-size: 100% 100%;
+  color: #1b1b1b;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  text-shadow: 1px 1px rgb(255, 214, 135);
+  color: #000;
+  padding: 6px 15px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+}
+.bs-slider-overlay a:hover{
+  text-decoration: none;
+}
+.bs-slider-overlay a::after{
+  content: '';
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+  background: url('../img/arrow-right.png') no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 5px;
+  margin-left: 5px
 }
