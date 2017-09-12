@@ -8558,7 +8558,7 @@ margin-top: -10px;
       box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
       margin-left: 10px;
       background: #616060;
-background: -webkit-gradient(linear, left top, left bottom, from(#616060),to(#2d2d2d ));
+background: -webkit-gradient(linear, left top, left bottom, from(#616060),to(#2d2d2d));
 background: linear-gradient(to bottom, #616060 0%,#2d2d2d  100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616060', endColorstr='#2d2d2d ',GradientType=0 );
 
@@ -8656,6 +8656,20 @@ line-height: 49px;
   vertical-align: middle;
   font-weight: 700;
   padding: 0 0;
+}
+.bago_nanaman .boxer::after{
+  content: '';
+  display: inline-block;
+  width: 1px;
+  background: #e6e6e6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 14%;
+}
+.bago_nanaman .boxer-last::after{
+  content: none
+
 }
 .marquee-mobile2 {
   margin-top: 10px;
