@@ -202,14 +202,6 @@ main .mobile-banner {
     position: relative;
 }
 
-.mobile-banner-wrapper a {
-    display: block;
-    position: absolute;
-    bottom: 37%;
-    left: 0;
-    right: 0;
-}
-
 .mobile-banner-wrapper a img {
     margin: 0px auto;
     max-width: 20%
@@ -8713,8 +8705,6 @@ line-height: 49px;
   border-radius: 5px;
   text-shadow: 1px 1px rgb(255, 214, 135);
   color: #000;
-  padding: 6px 15px;
-  font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
 
@@ -8725,11 +8715,17 @@ line-height: 49px;
 .bs-slider-overlay a::after{
   content: '';
   display: inline-block;
-  height: 23px;
-  width: 23px;
   background: url('../img/arrow-right.png') no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
-  top: 5px;
   margin-left: 5px
+}
+.mobile-banner-wrapper .bs-slider-overlay{
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.mobile-banner-wrapper .bs-slider-overlay a{
+  display: inline-block;
 }
