@@ -4015,25 +4015,25 @@ margin-top: -18px;
   }
   .boxer .number{
     display: inline-block;
-    line-height: 45px;
-    font-size: 48px;
+    line-height: 43px;
+    font-size: 43px;
     margin-right: 10px;
   }
   .boxer .content .title {
-    font-size: 19px;
+    font-size: 30px;
   }
   .boxer .content p{
-    font-size: 13px;
+    font-size: 12px;
   }
   .boxer .content{
-    text-align: left;
+    text-align: center;
   }
   .bago_nanaman .col-md-3.col-xs-12{
     padding-left: 15px;
     padding-right: 15px;
   }
   .bago_nanaman .boxer-last{
-    top: 12px;
+    top: 13px;
     padding-left: 0;
     padding-right: 0;
   }
