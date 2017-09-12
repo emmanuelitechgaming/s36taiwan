@@ -8557,10 +8557,10 @@ margin-top: -10px;
       -webkit-box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
       box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
       margin-left: 10px;
-      background: #5e5e5e;
-background: -webkit-gradient(linear, left top, left bottom, from(#5e5e5e),to(#3f3f3f));
-background: linear-gradient(to bottom, #5e5e5e 0%,#3f3f3f 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#3f3f3f',GradientType=0 );
+      background: #616060;
+background: -webkit-gradient(linear, left top, left bottom, from(#616060),to(#2d2d2d ));
+background: linear-gradient(to bottom, #616060 0%,#2d2d2d  100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616060', endColorstr='#2d2d2d ',GradientType=0 );
 
 
 }
@@ -8649,7 +8649,9 @@ line-height: 49px;
 .bago_nanaman{
   background: #1B1B1B;
   padding:10px;
+  color: #e6e6e6;
 }
+
 .bago_nanaman .boxer{
   vertical-align: middle;
   font-weight: 700;
@@ -8666,13 +8668,13 @@ line-height: 49px;
   line-height: normal;
 }
 .boxer .content .title{
-  color: #acacac;
+    color: #e6e6e6;
 }
 .boxer .content .title .fa{
   font-weight: 700;
   position: relative;
   top: 1px;
-  color: #ba0034
+  color: #fba601
 }
 .boxer .content p{
   color: #6b6b76
@@ -8681,9 +8683,9 @@ line-height: 49px;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   top: 0;
-  background: #cdd1d0;
-  color: #ba0034;
-  border: solid 3px #ba0034;
+  background: #161616;
+  color: #fba601;
+  border: solid 3px #fba601;
   padding: 10px 20px;
   border-radius: 50%;
 }
