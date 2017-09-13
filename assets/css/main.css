@@ -8709,6 +8709,9 @@ line-height: 49px;
   border-radius: 5px;
   text-align: center;
 }
+.boxer-last a:hover, .boxer-last a:active, .boxer-last a:focus, .boxer-last a:visited, .bs-slider-overlay a:hover, .bs-slider-overlay a:active, .bs-slider-overlay a:focus, .bs-slider-overlay a:visited{
+  text-decoration: none;
+}
 .boxer-last a::after{
   content: '';
   display: inline-block;
