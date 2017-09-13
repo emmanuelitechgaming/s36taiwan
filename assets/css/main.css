@@ -8717,7 +8717,14 @@ line-height: 49px;
   text-align: center;
 }
 .boxer-last a::after{
-  content: none;
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 24px;
+  background: url('../img/arrow-right.png') no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  margin-left: 5px;
 }
 .bago_nanaman .boxer-last{
   padding: 0 0;
