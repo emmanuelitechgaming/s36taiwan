@@ -8254,7 +8254,7 @@ border-top-right-radius: 6px
   color: #111;
   text-decoration: none;
 }
-.btn-tp a:hover, .boxer.boxer-last a:hover, .rss-submit-verification:hover, .btn-hidden:hover, .sp-btn-hidden:hover, .cs-content .cta-cs a:hover, .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover, .cs-modal .chatserver-form button:hover, #cscall:hover, .tdw-button button:hover{
+.btn-tp a:hover, .rss-submit-verification:hover, .btn-hidden:hover, .sp-btn-hidden:hover, .cs-content .cta-cs a:hover, .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover, .cs-modal .chatserver-form button:hover, #cscall:hover, .tdw-button button:hover{
   background-color: #c5c7d3;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
@@ -8647,7 +8647,7 @@ line-height: 49px;
 }
 .bago_nanaman{
   background: #1B1B1B;
-  padding:10px;
+  padding: 5px 10px;
   color: #e6e6e6;
 }
 
@@ -8658,14 +8658,25 @@ line-height: 49px;
 }
 .bago_nanaman .boxer::after{
   display: inline-block;
-  width: 1px;
-  background: #e6e6e6;
+  width: 3px;
+  background: #5e5e5e;
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 10px;
+  bottom: 10px;
 }
 .bago_nanaman .boxer-last::after{
   content: none !important
+}
+.bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: url('../img/caret-right.png') no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  left: 33%
 }
 .marquee-mobile2 {
   margin-top: 10px;
@@ -8678,7 +8689,7 @@ line-height: 49px;
   line-height: normal;
 }
 .boxer .content .title{
-    color: #e6e6e6;
+    color: #ffda37;
 }
 .boxer .content .title .fa{
   font-weight: 700;
@@ -8694,7 +8705,7 @@ line-height: 49px;
   position: relative;
   top: 0;
   background: #161616;
-  color: #fba601;
+  color: #fff;
   border-radius: 50%;
 }
 .boxer-last a{
@@ -8705,8 +8716,7 @@ line-height: 49px;
   -webkit-box-shadow: none;
           box-shadow: none;
   margin-bottom: 0;
-  background: #acacb4;
-  border-radius: 5px;
+  background: #fba601;
   text-align: center;
 }
 .boxer-last a:hover, .boxer-last a:active, .boxer-last a:focus, .boxer-last a:visited, .bs-slider-overlay a:hover, .bs-slider-overlay a:active, .bs-slider-overlay a:focus, .bs-slider-overlay a:visited{

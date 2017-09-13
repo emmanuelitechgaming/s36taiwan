@@ -4067,11 +4067,10 @@ margin-top: -18px;
   }
   .boxer .number{
     display: inline-block;
-    line-height: 43px;
-    font-size: 43px;
+    line-height: 41px;
+    font-size: 82px;
     margin-right: 10px;
-    border: solid 3px #fba601;
-    padding: 10px 20px;
+    padding: 10px 10px;
   }
   .boxer .content .title {
     font-size: 24px;
@@ -4087,7 +4086,7 @@ margin-top: -18px;
     padding-right: 15px;
   }
   .bago_nanaman .boxer-last{
-    top: 13px;
+    top: 10px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -4438,10 +4437,9 @@ main .marquee {
   }
   .boxer .number{
     display: inline-block;
-    line-height: 43px;
-    font-size: 43px;
+    line-height: 41px;
+    font-size: 82px;
     margin-right: 10px;
-    border: solid 3px #fba601;
-    padding: 10px 20px;
+    padding: 10px 10px;
   }
 }
