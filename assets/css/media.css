@@ -1125,6 +1125,7 @@ z-index: 99999;
       border: 2px solid #acacb4;
       border-radius: 15px;
       text-align: center;
+      padding-bottom: 10px;
     }
     .bago_nanaman .boxer-last{
       border: none;
@@ -1137,7 +1138,9 @@ z-index: 99999;
       padding-left: 15px;
     }
     .boxer .number{
-      display: block
+      display: block;
+      padding: 5px 20px;
+      padding-bottom: 0;
     }
     .boxer .content .title{
       font-size: 15px;
@@ -1167,6 +1170,16 @@ z-index: 99999;
       width: 12px;
       height: 12px;
       top: 2px
+    }
+    .bago_nanaman .boxer::after{
+      content: none
+    }
+    .boxer-last a{
+      font-size: 12px;
+    }
+    .boxer-last a::after{
+      width: 14px;
+      height: 16px;
     }
 }
 
@@ -1936,6 +1949,13 @@ z-index: 99999;
       width: 23px;
       height: 23px;
     }
+    .boxer-last a{
+      font-size: 15px;
+    }
+    .boxer-last a::after{
+      width: 16px;
+      height: 18px;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -2493,6 +2513,13 @@ z-index: 99999;
       width: 16px;
       height: 16px;
       top: 3px;
+    }
+    .boxer-last a{
+      font-size: 18px;
+    }
+    .boxer-last a::after{
+      width: 18px;
+      height: 20px;
     }
 }
 
@@ -4011,13 +4038,16 @@ margin-top: -18px;
   .bago_nanaman .boxer{
     margin: 0 0;
     font-size: 15px;
-    border: none
+    border: none;
+    padding-bottom: 0;
   }
   .boxer .number{
     display: inline-block;
     line-height: 43px;
     font-size: 43px;
     margin-right: 10px;
+    border: solid 3px #fba601;
+    padding: 10px 20px;
   }
   .boxer .content .title {
     font-size: 24px;
@@ -4055,6 +4085,22 @@ margin-top: -18px;
     position: absolute;
     bottom: 26px;
     right: 28.5%;
+  }
+  .bago_nanaman .boxer::after{
+    content: '';
+  }
+  .boxer-last a{
+    font-size: 20px;
+  }
+  .boxer-last a::after{
+    width: 20px;
+    height: 24px;
+  }
+  .bago_nanaman .boxer::after{
+    right: 1%;
+  }
+  .drop {
+      right: 4.1%;
   }
 }
 
@@ -4359,5 +4405,11 @@ main .marquee {
   }
   .bago_nanaman .container{
     width: 1167px;
+  }
+  .bago_nanaman .boxer::after{
+    right: 14%;
+  }
+  .drop {
+      right: 17.9%;
   }
 }
