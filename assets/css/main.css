@@ -8793,6 +8793,21 @@ margin-top: -10px;
   width: 50px;
   display: inline-block;
 }
+.dl-separator{
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
+}
+.dl-separator::after{
+  content: '';
+  display: inline-block;
+  width: 1px;
+  position: absolute;
+  background: #fff;
+  top: 3px;
+  bottom: 8px;
+  right: -9px;
+}
 .spotlight-bg-text span{
   display: inline-block;
   position: relative;
