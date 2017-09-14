@@ -8530,13 +8530,13 @@ margin-top: -10px;
   display: block;
   background-size: cover;
   position: absolute;
-  top: 4px;
+  top: 7px;
   right: 35%;
-  padding: 2px 18px;
+  padding: 0px   18px;
   border: 1px solid #ffffff;
   color: #ffffff;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .bookmark span{
