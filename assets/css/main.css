@@ -6056,7 +6056,7 @@ main .win-lot-top-games {
     min-width: 103px;
     text-align: center;
     border: 0;
-    margin: 10px;
+    margin: 20px 10px 0px 10px;
 }
 
 .panel.with-nav-tabs .panel-heading .promo-tabs li.active a {
@@ -8557,7 +8557,7 @@ margin-top: -10px;
 .dl-area{
   display: inline-block;
       vertical-align: top;
-      margin-top: -17px;
+      margin-top: -13px;
       border: 1px solid #FFFFFF;
       color: #ffffff;
       padding: 6px 13px;
@@ -8824,4 +8824,13 @@ margin-top: -10px;
   position: relative;
   top: 35px;
   left: 20px;
+}
+.vip-button{
+  display: block;
+  width: 66px;
+  height: 26px;
+  background-image: url('../img/promo/vip-button.png') !important;
+  position: absolute;
+  top: -14px;
+  right: -9px;
 }
