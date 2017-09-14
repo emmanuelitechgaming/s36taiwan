@@ -4824,10 +4824,6 @@ left: 47%;
     color: rgba(49, 49, 49, 0.5) !important
 }
 
-.btn-warning2:hover::before {
-    background: url(../img/arrow-right-hover.png) no-repeat !important;
-}
-
 .modal-bottom {
     margin: 13px 0 0 0;
     display: inline-block;
@@ -7269,15 +7265,15 @@ div.acc-info.acc-edit div.acc-cont input {
 }
 
 .sweet-arrow::before {
-    content: ' ';
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    background: url('../img/arrow-right.png') no-repeat;
-    background-size: cover;
-    position: absolute;
-    right: 9px;
-    top: 12px;
+  content: ' ';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/arrow-right-white.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 15px;
+  top: 14px;
 }
 
 .win-title a img,
@@ -8832,12 +8828,13 @@ margin-top: -10px;
   top: -14px;
   right: -9px;
 }
-#myModal label, .ui-select span, #myModal .form-control, #myModal .modal-bottom .myModal2b_login_a, #myModal .form-control::-webkit-input-placeholder, #myModal .modal-bottom .myModal2b_registration_a, #myModal .form-recap-right{
-  color: #fff !important
+#myModal label, .ui-select span, #myModal .form-control, #myModal .modal-bottom .myModal2b_login_a, #myModal .form-control::-webkit-input-placeholder, #myModal .modal-bottom .myModal2b_registration_a, #myModal .form-recap-right, .my-sweet-15, .my-sweet-15 p{
+  color: #fff !important;
 }
-#myModal label, .ui-select span, #myModal .form-control, #myModal .modal-bottom .myModal2b_login_a, #myModal .form-control:-ms-input-placeholder, #myModal .modal-bottom .myModal2b_registration_a, #myModal .form-recap-right{
-  color: #fff !important
+.my-sweet-15 button{
+  color: #fff !important;
+  font-weight: normal;
 }
-#myModal label, .ui-select span, #myModal .form-control, #myModal .modal-bottom .myModal2b_login_a, #myModal .form-control::placeholder, #myModal .modal-bottom .myModal2b_registration_a, #myModal .form-recap-right{
+.my-sweet-15 button:hover{
   color: #fff !important
 }
