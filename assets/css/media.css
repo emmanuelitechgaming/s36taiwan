@@ -1160,7 +1160,7 @@ z-index: 99999;
       width: 33.33333%;
     }
     .mobile-banner-wrapper .bs-slider-overlay{
-      bottom: 36%
+      bottom: 5%
     }
     .mobile-banner-wrapper .bs-slider-overlay a{
       font-size: 11px;
@@ -1407,6 +1407,9 @@ z-index: 99999;
     .how-to-reg .step-txt{
        font-size: 20px;
       top: 45%;
+    }
+    .mobile-banner-wrapper .bs-slider-overlay {
+      bottom: 6%;
     }
 }
 
@@ -2507,7 +2510,7 @@ z-index: 99999;
       padding: 6px 12px;
     }
     .mobile-banner-wrapper .bs-slider-overlay {
-      bottom: 37%;
+      bottom: 7%;
     }
     .mobile-banner-wrapper .bs-slider-overlay a::after {
       width: 16px;
@@ -2613,6 +2616,15 @@ z-index: 99999;
     }
     .bago_nanaman .boxer{
       margin: 10px 0;
+    }
+    .mobile-banner-wrapper .bs-slider-overlay a {
+      font-size: 18px;
+      padding: 6px 12px;
+    }
+    .mobile-banner-wrapper .bs-slider-overlay a::after {
+      width: 18px;
+      height: 18px;
+      top: 3px;
     }
 }
 
@@ -2985,6 +2997,15 @@ z-index: 99999;
   }
   .promotion-swiper-container .swiper-slide a {
     top: 1px;
+  }
+  .mobile-banner-wrapper .bs-slider-overlay a {
+    font-size: 20px;
+    padding: 8px 14px;
+  }
+  .mobile-banner-wrapper .bs-slider-overlay a::after {
+    width: 20px;
+    height: 20px;
+    top: 3px;
   }
 }
 
@@ -3935,6 +3956,9 @@ margin-top: -18px;
      top: 45%;
      right: 15%;
     }
+    .bago_nanaman .container{
+      width: 912px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -4043,11 +4067,10 @@ margin-top: -18px;
   }
   .boxer .number{
     display: inline-block;
-    line-height: 43px;
-    font-size: 43px;
+    line-height: 41px;
+    font-size: 82px;
     margin-right: 10px;
-    border: solid 3px #fba601;
-    padding: 10px 20px;
+    padding: 10px 10px;
   }
   .boxer .content .title {
     font-size: 24px;
@@ -4063,7 +4086,7 @@ margin-top: -18px;
     padding-right: 15px;
   }
   .bago_nanaman .boxer-last{
-    top: 13px;
+    top: 10px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -4411,5 +4434,12 @@ main .marquee {
   }
   .drop {
       right: 17.9%;
+  }
+  .boxer .number{
+    display: inline-block;
+    line-height: 41px;
+    font-size: 82px;
+    margin-right: 10px;
+    padding: 10px 10px;
   }
 }
