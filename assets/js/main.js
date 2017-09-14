@@ -684,6 +684,30 @@ $(document).ready(function () {
     }, function() {
       $('.lotto-button a .corners-outer').removeClass('corners-outer-hover');
     })
+
+    $.each($('.navbar-header-desktop ul li'), function(index, value) {
+      $(this).hover(function() {
+        $(this).find('a span').css('color', '#fba601');
+        var img = $(this).find('a img').attr('src');
+        $(this).find('a img').attr('src', img.slice(0, -4)+'Y.png');
+      }, function() {
+        $(this).find('a span').css('color', '#fff');
+        var img = $(this).find('a img').attr('src');
+        $(this).find('a img').attr('src', img.slice(0, -5)+'.png');
+      })
+    });
+
+    $.each($('.navbar-right-desktop li'), function(index, value) {
+      $(this).hover(function() {
+        $(this).find('a').css('color', '#fba601');
+        var img = $(this).find('a img').attr('src');
+        $(this).find('a img').attr('src', img.slice(0, -4)+'Y.png');
+      }, function() {
+        $(this).find('a').css('color', '#fff');
+        var img = $(this).find('a img').attr('src');
+        $(this).find('a img').attr('src', img.slice(0, -5)+'.png');
+      })
+    });
 });
 
 function nextTab(elem) {
