@@ -3158,7 +3158,7 @@ margin-top: -18px;
         padding-bottom: 8px;
         top: 16px;
         left: 16px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .selectpicker2.selectpicker2-navbar-right {
         top: -2px;
@@ -4458,7 +4458,7 @@ main .marquee {
     right: 29.5%;
   }
   .bago_nanaman .container{
-    width: 1265px;
+    width: 1185px;
   }
   .bago_nanaman .boxer::after{
     right: 10%;
