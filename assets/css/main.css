@@ -8538,28 +8538,27 @@ margin-top: -10px;
   border-radius: 5px;
   font-size: 14px;
 }
+
 .bookmark span{
   font-size: 12px;
   position: absolute;
   top: -2px;
   left: 4px;
-
 }
+
 .dl-area{
   display: inline-block;
       vertical-align: top;
       margin-top: -17px;
-      border: 1px solid #4e4e4e;
+      border: 1px solid #FFFFFF;
+      color: #ffffff;
       padding: 6px 13px;
       border-radius: 5px;
       padding-bottom: 1px;
       -webkit-box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
       box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
       margin-left: 10px;
-      background: #616060;
-background: -webkit-gradient(linear, left top, left bottom, from(#616060),to(#2d2d2d));
-background: linear-gradient(to bottom, #616060 0%,#2d2d2d  100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616060', endColorstr='#2d2d2d ',GradientType=0 );
+      background: #000000;
 
 
 }
@@ -8578,15 +8577,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616060', end
   display: inline-block;
   vertical-align: top;
   font-size: 14px;
-  font-weight: 700;
   margin: 0 5px;
   line-height: 15px;
-  margin-top: 10px;
 }
+.download-app:first-child{
+  border-right: 1px solid red;
+}
+.download-app .txt-down{
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+
 .btn-tp{
   display: inline-block;
   font-size: 14px;
-line-height: 49px;
+  line-height: 49px;
   vertical-align: top;
 }
 .btn-tp a{
@@ -8772,4 +8778,8 @@ line-height: 49px;
   text-align: center;
   text-shadow: 0px 10px 0px rgba(121, 4, 4, 1);
   line-height: 462px
+}
+.platform-logo {
+  width: 50px;
+  display: inline-block;
 }
