@@ -8287,7 +8287,7 @@ border-top-right-radius: 6px
   margin-bottom: 15px
 }
 .selected-cntry{
-  margin-left: 10px;
+  margin-left: 50px;
   margin-right: 5px;
   position: relative;
   bottom: 15px;
@@ -8578,14 +8578,15 @@ margin-top: -10px;
   vertical-align: top;
   font-size: 14px;
   margin: 0 5px;
-  line-height: 15px;
+  letter-spacing: 1px;
+  line-height: 26px;
 }
 .download-app:first-child{
   border-right: 1px solid red;
 }
 .download-app .txt-down{
-  margin-top: 10px;
-  font-size: 25px;
+  margin-top: -5px;
+  font-size: 20px;
 }
 
 
@@ -8696,7 +8697,7 @@ margin-top: -10px;
   position: relative;
 }
 .boxer .content .title{
-    color: #ffda37;
+    color: #fba601;
 }
 .boxer .content .title .fa{
   font-weight: 700;
