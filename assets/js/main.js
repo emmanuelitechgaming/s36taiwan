@@ -643,12 +643,6 @@ $(document).ready(function () {
       $('.select-country-code').html(val);
     })
 
-    $('.navbar-top-right li a').hover(function() {
-      $(this).css('color', '#fff');
-    }, function() {
-      $(this).css('color', '#999');
-    });
-
     $('.navbar-afterlogin ul li a').hover(function() {
       $(this).css('color','#fff');
     }, function() {
