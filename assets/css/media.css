@@ -1178,6 +1178,9 @@ z-index: 99999;
       width: 14px;
       height: 16px;
     }
+    .bookmark{
+      display: none;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1407,6 +1410,13 @@ z-index: 99999;
     }
     .mobile-banner-wrapper .bs-slider-overlay {
       bottom: 6%;
+    }
+    .bookmark{
+      display: block;
+      top: 15px;
+      right: 47%;
+      background: url('../img/add-mobile.png') no-repeat;
+      background-size: cover
     }
 }
 
@@ -1955,6 +1965,9 @@ z-index: 99999;
     .boxer-last a::after{
       width: 16px;
       height: 18px;
+    }
+    .bookmark{
+      right: 43%;
     }
 }
 
@@ -4133,6 +4146,12 @@ margin-top: -18px;
   .register-area{
     position: relative;
     top: 20px
+  }
+  .bookmark{
+    top: 7px;
+    right: 35%;
+    background: url('../img/add-desktop.png') no-repeat;
+    background-size: cover;
   }
 }
 

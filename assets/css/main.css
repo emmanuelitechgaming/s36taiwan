@@ -1951,7 +1951,7 @@ input[type=radio] {
 
 .breadcrumb-inner select {
     height: 40px;
-    color: #c4c4c4;
+    color: #fff;
     border: solid 1px #333;
     border-radius: 0;
     background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
@@ -4812,16 +4812,11 @@ left: 47%;
     color: #000;
     border-color: #acacb4;
     background: #acacb4;
-    font-weight: 700;
     border-radius: 20px
 }
 
 .btn-warning2 {
-    color: rgba(26, 26, 26, 0.8) !important;
-}
-
-.btn-warning2:hover {
-    color: rgba(49, 49, 49, 0.5) !important
+    color: #fff !important;
 }
 
 .modal-bottom {
@@ -5708,7 +5703,7 @@ div.input-border #country-sel.flagstrap .btn .caret {
 }
 
 #country-sel .dropdown-menu li a {
-    color: #a4a4a4;
+    color: #fff;
     cursor: pointer;
     padding: 0;
     padding-left: 10px;
@@ -6151,7 +6146,7 @@ main .win-lot-top-games {
 }
 
 .form-recap-right p a span {
-    color: #81caff
+    color: #fba601
 }
 
 .mobile-banner-text {
@@ -6397,6 +6392,10 @@ main .win-lot-top-games {
     margin: 0 1px
 }
 
+#csPhone button::after{
+  content: none;
+}
+
 #cscall {
     font-size: 19px;
     font-weight: 700;
@@ -6446,7 +6445,7 @@ main .win-lot-top-games {
     -webkit-transition: outline .3s;
     transition: outline .3s;
     text-indent: 10px;
-    color: #c4c4c4;
+    color: #fff;
     border: 1px solid #333;
     border-radius: 0;
     outline: 0;
@@ -6456,7 +6455,7 @@ main .win-lot-top-games {
 }
 
 #csCallselectflag button span {
-    color: #C4C4C4;
+    color: #fff;
     position: relative;
     bottom: 5px
 }
@@ -6479,12 +6478,19 @@ main .win-lot-top-games {
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: #ccc;
+    color: #fff;
     white-space: nowrap;
 }
 
 #csCallselectflag .dropdown-menu {
     top: 65%;
+}
+.select-country-code-dropdown button{
+  border-radius: 0 !important;
+}
+.select-country-code-dropdown button:hover{
+  background-color: #333 !important;
+  color: #fff !important
 }
 
 #csCallselectflag button {
@@ -7310,7 +7316,7 @@ div.acc-info.acc-edit div.acc-cont input {
 .navbar-top-right li a {
     font-size: 20px;
     font-weight: 700;
-    color: #999;
+    color: #fff;
     margin-left: 17.8px
 }
 
@@ -7419,7 +7425,7 @@ div.acc-info.acc-edit div.acc-cont input {
 }
 
 .select-country-code-dropdown .dropdown-menu>li>a {
-    color: #ccc
+    color: #fff
 }
 
 .login-info-mobile {
@@ -7652,7 +7658,6 @@ margin-right: 23px;
 }
 .username-availability button{
   background: none;
-  color: #81caff;
   border: none;
   border-radius: 20px;
   padding: 4px 8px
@@ -8531,23 +8536,11 @@ margin-bottom: -10px;
 margin-top: -10px;
   }
 .bookmark{
-  display: none;;
-  background-size: cover;
+  display: block;
   position: absolute;
-  top: 7px;
-  right: 35%;
-  padding: 0px   18px;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-  border-radius: 5px;
-  font-size: 12px;
-}
-
-.bookmark span{
-  font-size: 12px;
-  position: absolute;
-  top: -2px;
-  left: 4px;
+  width: 20px;
+  height: 20px;
+  background-size: cover
 }
 
 .dl-area{
@@ -8831,8 +8824,14 @@ margin-top: -10px;
   top: -14px;
   right: -9px;
 }
-#myModal label, .ui-select span, #myModal .form-control, #myModal .modal-bottom .myModal2b_login_a, #myModal .form-control::-webkit-input-placeholder, #myModal .modal-bottom .myModal2b_registration_a, #myModal .form-recap-right, .my-sweet-15, .my-sweet-15 p{
+#myModal label, .ui-select span, #myModal .form-control, #myModal .form-control::-webkit-input-placeholder, #myModal .form-recap-right, .my-sweet-15, .my-sweet-15 p, input::-webkit-input-placeholder{
   color: #fff !important;
+}
+#myModal label, .ui-select span, #myModal .form-control, #myModal .form-control::-webkit-input-placeholder, #myModal .form-recap-right, .my-sweet-15, .my-sweet-15 p, input::placeholder{
+  color: #fff !important;
+}
+#myModal .modal-bottom .myModal2b_login_a, #myModal .modal-bottom .myModal2b_registration_a{
+  color: #fba601 !important
 }
 .my-sweet-15 button{
   color: #fff !important;
