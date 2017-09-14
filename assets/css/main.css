@@ -8300,7 +8300,7 @@ border-top-right-radius: 6px
   content: '';
   display: block;
   height: 61px;
-  width: 3px;
+  width: 2px;
   background: url('../img/separator.png') no-repeat;
   background-size: 100% 100%;
   position: absolute;
@@ -8530,13 +8530,13 @@ margin-top: -10px;
   display: block;
   background-size: cover;
   position: absolute;
-  top: 4px;
+  top: 7px;
   right: 35%;
-  padding: 2px 18px;
+  padding: 0px   18px;
   border: 1px solid #ffffff;
   color: #ffffff;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .bookmark span{
@@ -8668,7 +8668,7 @@ margin-top: -10px;
   background: #5e5e5e;
   position: absolute;
   top: 10px;
-  bottom: 10px;
+  bottom: 7px;
 }
 .bago_nanaman .boxer-last::after{
   content: none !important
@@ -8693,6 +8693,12 @@ margin-top: -10px;
 }
 .boxer .content{
   line-height: normal;
+  position: relative;
+  left: 6%
+}
+
+.boxer-arrow .content{
+  left: 13%;
 }
 .boxer .content .title{
     color: #ffda37;
