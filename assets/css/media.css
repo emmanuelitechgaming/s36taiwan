@@ -15,9 +15,6 @@
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 0px;
     }
-    #myModal {
-        top: -229px;
-    }
     .float-contacts-m {
       right: 10px;
 position: fixed;
@@ -3894,7 +3891,7 @@ margin-top: -18px;
     }
     .spotlight-bg{
       background: url('../img/promo/spotlight.png') no-repeat #000;
-      background-position: 145%;
+      background-position: 100%;
       background-size: contain;
     }
     .username-availability button{
@@ -4077,6 +4074,7 @@ margin-top: -18px;
   }
   .boxer .content p{
     font-size: 15px;
+    display: inline-block;
   }
   .boxer .content{
     text-align: left;
@@ -4126,10 +4124,10 @@ margin-top: -18px;
       right: 4.1%;
   }
   .boxer .content{
-    left: 6%
+    left: -2%
   }
   .boxer-arrow .content{
-    left: 13%;
+    left: 8%;
   }
 }
 
