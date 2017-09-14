@@ -8376,7 +8376,7 @@ border-top-right-radius: 6px
   display: inline-block;
 }
 .netbet ul li a{
-  color: #8d8d8d;
+  color: #ffffff;
   font-weight: 700;
   background: #2a2a2a;
   padding: 6px 20px !important;
@@ -8393,14 +8393,22 @@ border-top-right-radius: 6px
   color: #111
 }
 .netbet input[type=text]{
-  color: #c4c4c4;
+  color: #ffffff;
   background: #333;
   padding: 6px 12px;
   padding-right: 30px;
   border-radius: 3px;
   border: none;
 }
+.netbet input[type=text]::-webkit-input-placeholder,
+.netbet input[type=text]::-moz-placeholder,
+.netbet input[type=text]:-ms-input-placeholder ,
+.netbet input[type=text]:-moz-placeholder
+{
+  color: #ffffff;
+}
 .netbet-search .fa{
+  color:#fff;
   position: absolute;
   right: 25px;
   top: 8px;
@@ -8579,14 +8587,16 @@ margin-top: -10px;
   font-size: 14px;
   margin: 0 5px;
   letter-spacing: 1px;
+
   line-height: 26px;
 }
 .download-app:first-child{
   border-right: 1px solid red;
 }
 .download-app .txt-down{
+  font-weight: 700;
   margin-top: -5px;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 
@@ -8712,7 +8722,6 @@ margin-top: -10px;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   top: 0;
-  background: #161616;
   color: #fff;
   border-radius: 50%;
 }
