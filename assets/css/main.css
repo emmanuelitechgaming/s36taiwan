@@ -1971,8 +1971,8 @@ input[type=radio] {
 }
 
 .breadcrumb-inner select option {
-    color: #c4c4c4;
-    background: #fff;
+    color: #ffffff;
+    background: #333333;
 }
 
 .cs-country {
@@ -8573,7 +8573,7 @@ margin-top: -10px;
 .download-app{
   display: inline-block;
   vertical-align: top;
-  font-size: 13px;
+  font-size: 14  px;
   margin: 0 5px;
   letter-spacing: 1px;
 }
@@ -8661,12 +8661,17 @@ margin-top: -10px;
   padding: 0 0;
 }
 .bago_nanaman .boxer::after{
-  display: inline-block;
-  width: 3px;
-  background: #5e5e5e;
-  position: absolute;
-  top: 10px;
-  bottom: 7px;
+
+  top: 11px;
+      bottom: 19px;
+      content: '';
+      display: block;
+      height: 44px;
+      width: 3px;
+      background: url(../img/separator.png) no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      left: 282px;
 }
 .bago_nanaman .boxer-last::after{
   content: none !important
@@ -8719,6 +8724,7 @@ margin-top: -10px;
   margin-top: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
+          border-radius: 5px;
   margin-bottom: 0;
   background: #fba601;
   text-align: center;
