@@ -5687,7 +5687,7 @@ div.input-border #country-sel.flagstrap .btn {
     border-radius: 3px;
     outline: none;
     height: 30px;
-    color: #A4A4A4;
+    color: #fff;
     border-bottom: none;
     width: 100%;
     text-align: left;
@@ -8557,7 +8557,7 @@ margin-top: -10px;
 .dl-area{
   display: inline-block;
       vertical-align: top;
-      margin-top: -13px;
+      margin-top: -12px;
       border: 1px solid #FFFFFF;
       color: #ffffff;
       padding: 6px 13px;
@@ -8584,11 +8584,9 @@ margin-top: -10px;
 .download-app{
   display: inline-block;
   vertical-align: top;
-  font-size: 14px;
+  font-size: 13px;
   margin: 0 5px;
   letter-spacing: 1px;
-
-  line-height: 26px;
 }
 .download-app:first-child{
   border-right: 1px solid red;
@@ -8801,7 +8799,7 @@ margin-top: -10px;
   line-height: 462px
 }
 .platform-logo {
-  width: 50px;
+  width: 38px;
   display: inline-block;
 }
 .dl-separator{
@@ -8833,4 +8831,13 @@ margin-top: -10px;
   position: absolute;
   top: -14px;
   right: -9px;
+}
+#myModal label, .ui-select span, #myModal .form-control, #myModal .modal-bottom .myModal2b_login_a, #myModal .form-control::-webkit-input-placeholder, #myModal .modal-bottom .myModal2b_registration_a, #myModal .form-recap-right{
+  color: #fff !important
+}
+#myModal label, .ui-select span, #myModal .form-control, #myModal .modal-bottom .myModal2b_login_a, #myModal .form-control:-ms-input-placeholder, #myModal .modal-bottom .myModal2b_registration_a, #myModal .form-recap-right{
+  color: #fff !important
+}
+#myModal label, .ui-select span, #myModal .form-control, #myModal .modal-bottom .myModal2b_login_a, #myModal .form-control::placeholder, #myModal .modal-bottom .myModal2b_registration_a, #myModal .form-recap-right{
+  color: #fff !important
 }

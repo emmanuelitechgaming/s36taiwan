@@ -4089,9 +4089,10 @@ margin-top: -18px;
     padding-right: 0;
   }
   .boxer-last a{
-    display: block;
+    display: inline-block;
     padding: 0 0;
-    width: auto;
+    width: 70%;
+    margin: 0px auto
   }
   .bs-slider-overlay a{
     font-size: 13px;
@@ -4111,7 +4112,7 @@ margin-top: -18px;
     content: '';
   }
   .boxer-last a{
-    font-size: 20px;
+    font-size: 18px;
   }
   .boxer-last a::after{
     width: 20px;
@@ -4420,6 +4421,9 @@ main .marquee {
     font-size: 20px;
     margin-left: -10px;
     text-align: left;
+  }
+  .bago_nanaman .boxer-last{
+    text-align: center;
   }
   .bs-slider-overlay a{
     padding: 6px 15px;
