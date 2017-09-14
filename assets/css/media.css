@@ -4129,6 +4129,10 @@ margin-top: -18px;
   .boxer-arrow .content{
     left: 0%;
   }
+  .register-area{
+    position: relative;
+    top: 20px
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -4434,7 +4438,7 @@ main .marquee {
     width: 1265px;
   }
   .bago_nanaman .boxer::after{
-    right: 14%;
+    right: 10%;
   }
   .drop {
       right: 17.9%;
