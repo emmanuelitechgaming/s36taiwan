@@ -8658,7 +8658,7 @@ margin-top: -10px;
 }
 .bago_nanaman{
   background: #1B1B1B;
-  padding: 5px 10px;
+  padding: 0px 10px;
   color: #e6e6e6;
 }
 
@@ -8668,12 +8668,11 @@ margin-top: -10px;
   padding: 0 0;
 }
 .bago_nanaman .boxer::after{
-
-  top: 11px;
+  top: 6px;
       bottom: 19px;
       content: '';
       display: block;
-      height: 44px;
+      height: 34px;
       width: 3px;
       background: url(../img/separator.png) no-repeat;
       background-size: 100% 100%;
@@ -8691,7 +8690,7 @@ margin-top: -10px;
   background: url('../img/caret-right.png') no-repeat;
   background-size: contain;
   position: relative;
-  top: 8px;
+  top: 5px;
   left: 18%
 }
 .marquee-mobile2 {
@@ -8706,7 +8705,7 @@ margin-top: -10px;
   position: relative;
 }
 .boxer .content .title{
-    color: #fba601;
+    color: #ffffff;
 }
 .boxer .content .title .fa{
   font-weight: 700;
@@ -8721,7 +8720,7 @@ margin-top: -10px;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   top: 0;
-  color: #fff;
+  color: #fba601;
   border-radius: 50%;
 }
 .boxer-last a{

@@ -4097,9 +4097,10 @@ margin-top: -18px;
     padding-right: 15px;
   }
   .bago_nanaman .boxer-last{
-    top: 15px;
+    top: 7px;
     padding-left: 0;
     padding-right: 0;
+    
   }
   .boxer-last a{
     display: inline-block;
@@ -4471,6 +4472,6 @@ main .marquee {
     line-height: 41px;
     font-size: 40px;;
     margin-right: 10px;
-    padding: 10px 10px;
+    padding: 3px 10px;
   }
 }
