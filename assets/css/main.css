@@ -8480,7 +8480,7 @@ border-top-right-radius: 6px
 }
 .cta .more{
   float: right;
-  color: #8d8d8d;
+  color: #ffffff;
   font-weight: 700;
 }
 .cta .more:hover{
@@ -8750,7 +8750,7 @@ margin-top: -10px;
 .bago_nanaman .boxer-last{
   padding: 0 0;
   min-height: 41px;
-  line-height: 41px;
+  line-height: 32px;
   position: relative;
 }
 .bs-slider-overlay a{
