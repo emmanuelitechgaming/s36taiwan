@@ -4070,7 +4070,7 @@ margin-top: -18px;
     padding: 10px 10px;
   }
   .boxer .content .title {
-    font-size: 24px;
+    font-size: 20px;
   }
   .boxer .content p{
     font-size: 15px;
@@ -4127,7 +4127,7 @@ margin-top: -18px;
     left: -2%
   }
   .boxer-arrow .content{
-    left: 8%;
+    left: 0%;
   }
 }
 
@@ -4442,7 +4442,7 @@ main .marquee {
   .boxer .number{
     display: inline-block;
     line-height: 41px;
-    font-size: 82px;
+    font-size: 96px;
     margin-right: 10px;
     padding: 10px 10px;
   }
