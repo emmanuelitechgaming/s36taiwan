@@ -8579,8 +8579,8 @@ span.add-ico{
 }
 .dl-area ul li{
   border: 2px solid #333;
-  /*background: #000000;*/
-  padding: 5px;
+  background: #2a2a2a;
+  padding: 4.5px 5px;
   border-radius: 3px;
 }
 .dl-area .qr, .dl-area .content{
@@ -8588,7 +8588,7 @@ span.add-ico{
   vertical-align: top
 }
 .dl-area p{
-  font-size: 10px
+  font-size: 11px
 }
 .dl-area .content .clearfix{
   border: solid 1px #333;
