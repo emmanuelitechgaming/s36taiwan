@@ -36,7 +36,7 @@ header .top-header {
 
 header .top-header ul li span {
     margin: 5px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 header .top-header ul li {
@@ -8551,6 +8551,7 @@ span.add-ico{
 .bookmark{
   display: block;
   position: absolute;
+  font-size: 14px;
 }
 .bookmark a{
   color: #fff
@@ -8913,6 +8914,11 @@ span.add-ico{
 }
 .my-sweet-15 button:hover{
   color: #fff !important
+}
+.selectpicker2 {
+font-weight: 400!important;
+font-size: 13px;
+
 }
 .top-header ul{
   margin-right: -15px;
