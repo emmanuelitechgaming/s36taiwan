@@ -314,6 +314,10 @@ main .live-container {
     margin-right: 0;
 }
 
+.navbar-header-desktop ul li:last-child a{
+  margin-right: 5px;
+}
+
 .nav.navbar-nav.navbar-right.navbar-right li a {
     letter-spacing: 1px;
     padding: 5px 12px !important;
@@ -8833,11 +8837,12 @@ margin-top: -10px;
 .vip-button{
   display: block;
   width: 66px;
-  height: 26px;
+  height: 28px;
   background-image: url('../img/promo/vip-button.png') !important;
   position: absolute;
-  top: -14px;
-  right: -9px;
+  top: -18px;
+  right: -7px;
+  background-size: 100% 100%;
 }
 #myModal label, .ui-select span, #myModal .form-control, #myModal .form-control::-webkit-input-placeholder, #myModal .form-recap-right, .my-sweet-15, .my-sweet-15 p, input::-webkit-input-placeholder{
   color: #fff !important;
@@ -8854,4 +8859,7 @@ margin-top: -10px;
 }
 .my-sweet-15 button:hover{
   color: #fff !important
+}
+.top-header ul{
+  margin-right: -15px;
 }
