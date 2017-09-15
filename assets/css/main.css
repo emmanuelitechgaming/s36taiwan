@@ -4567,7 +4567,7 @@ left: 47%;
     position: absolute;
     z-index: 88888;
     /*top: 125px !important*/
-    top: 31px !important
+    top: 35px !important
 }
 
 .language-picker {
@@ -6810,8 +6810,8 @@ div.acc-info.acc-edit div.acc-cont input {
 .flag-icon::before {
     content: ' ';
     display: block;
-    width: 26px;
-    height: 26px;
+    width: 35px;
+    height: 35px;
     position: relative;
     bottom: 3px;
 }
@@ -8738,7 +8738,7 @@ span.add-ico{
       background: url(../img/separator.png) no-repeat;
       background-size: 100% 100%;
       position: absolute;
-      left: 282px;
+      left: 100%;
 }
 .bago_nanaman .boxer-last::after{
   content: none !important
@@ -8922,4 +8922,13 @@ font-size: 13px;
 }
 .top-header ul{
   margin-right: -15px;
+}
+.bago_nanaman .boxer .bx1){
+  text-align: left!important;
+}
+.bago_nanaman .boxer .bx2){
+  text-align: center!important;
+}
+.bago_nanaman .boxer .bx3){
+  text-align: right!important;
 }

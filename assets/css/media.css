@@ -3175,7 +3175,7 @@ margin-top: -18px;
         font-size: 13px;
     }
     .selectpicker2.selectpicker2-navbar-right {
-        top: -2px;
+        top: -6px;
         left: 0;
     }
     .breadcrumb-inner .sp-container img {
@@ -3626,10 +3626,11 @@ margin-top: -18px;
         padding: 20px 40px;
     }
     .selectpicker2::before {
-        width: 16px;
-        height: 16px;
-        right: auto;
-        top: 3px
+      width: 20px;
+       height: 20px;
+       right: auto;
+       top: 5px;
+
     }
     .gp-star {
         position: auto;
@@ -4168,6 +4169,9 @@ margin-top: -18px;
   }
   .bookmark a{
     display: inline-block;
+    border-bottom: 1px solid;
+  }
+  .bookmark a:hover{
   }
   .bookmark::before{
     background: url('../img/add-desktop.png') no-repeat;
@@ -4459,10 +4463,10 @@ main .marquee {
   .bago_nanaman .boxer {
     font-size: 20px;
     margin-left: -10px;
-    text-align: left;
   }
   .bago_nanaman .boxer-last{
-    text-align: center;
+    text-align: right;
+        padding-right: 39px;
   }
   .bs-slider-overlay a{
     padding: 6px 15px;
@@ -4478,7 +4482,7 @@ main .marquee {
     right: 29.5%;
   }
   .bago_nanaman .container{
-    width: 1185px;
+    width: 1246px;
   }
   .bago_nanaman .boxer::after{
     right: 10%;
@@ -4494,7 +4498,7 @@ main .marquee {
     padding: 3px 10px;
   }
   .bookmark {
-    top: 7px;
+    top: 6px;
     right: 35.5%;
   }
 }
