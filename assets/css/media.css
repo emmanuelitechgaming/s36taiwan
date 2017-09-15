@@ -3163,6 +3163,7 @@ margin-top: -18px;
     .selectpicker2.selectpicker2-navbar-right {
         top: -2px;
         left: 0;
+        margin-right: -15px !important
     }
     .breadcrumb-inner .sp-container img {
         width: auto;
@@ -4150,7 +4151,7 @@ margin-top: -18px;
   }
   .bookmark{
     top: 7px;
-    right: 38%;
+    right: 37%;
     background: url('../img/add-desktop.png') no-repeat;
     background-size: cover;
   }
