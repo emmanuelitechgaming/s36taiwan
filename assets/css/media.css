@@ -1414,9 +1414,14 @@ z-index: 99999;
     .bookmark{
       display: block;
       top: 15px;
-      right: 47%;
+      right: 46%;
+    }
+    .bookmark a{
+      display: none
+    }
+    .bookmark::before{
       background: url('../img/add-mobile.png') no-repeat;
-      background-size: cover
+      background-size: cover;
     }
 }
 
@@ -1966,8 +1971,8 @@ z-index: 99999;
       width: 16px;
       height: 18px;
     }
-    .bookmark{
-      right: 43%;
+    .bookmark {
+      right: 41%;
     }
 }
 
@@ -2534,6 +2539,9 @@ z-index: 99999;
       width: 18px;
       height: 20px;
     }
+    .bookmark {
+      right: 30%;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -2635,6 +2643,9 @@ z-index: 99999;
       width: 18px;
       height: 18px;
       top: 3px;
+    }
+    .bookmark {
+      right: 26%;
     }
 }
 
@@ -2802,6 +2813,9 @@ z-index: 99999;
     }
     .m-fsalon ul li, .m-fsalon ul li:nth-child(4){
       margin: 0 10px
+    }
+    .bookmark {
+      right: 23%;
     }
 }
 
@@ -4148,9 +4162,14 @@ margin-top: -18px;
     position: relative;
     top: 20px
   }
-  .bookmark{
+  .bookmark {
     top: 7px;
-    right: 37%;
+    right: 39%;
+  }
+  .bookmark a{
+    display: inline-block;
+  }
+  .bookmark::before{
     background: url('../img/add-desktop.png') no-repeat;
     background-size: cover;
   }
@@ -4473,5 +4492,9 @@ main .marquee {
     font-size: 40px;;
     margin-right: 10px;
     padding: 3px 10px;
+  }
+  .bookmark {
+    top: 7px;
+    right: 37%;
   }
 }
