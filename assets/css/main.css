@@ -8535,27 +8535,39 @@ overflow: auto;
  font-weight: 700;
 }
 .homescreen{position: fixed;
-    bottom: 0;
-    background: #1f1d27;
-    width: 100%;
-    padding: 10px;
-  }
-  span.add-ico{
-    background: #312e40;
-padding: 10px;
-margin-left: -15px;
-margin-right: -10px;
-margin-bottom: -10px;
-margin-top: -10px;
-  }
+  bottom: 0;
+  background: #1f1d27;
+  width: 100%;
+  padding: 10px;
+}
+span.add-ico{
+  background: #312e40;
+  padding: 10px;
+  margin-left: -15px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
 .bookmark{
   display: block;
   position: absolute;
+}
+.bookmark a{
+  color: #fff
+}
+.bookmark a:hover, .bookmark a:active, .bookmark a:visited{
+  text-decoration: none;
+  color: #fff
+}
+.bookmark::before{
+  content: '';
+  display: inline-block;
   width: 20px;
   height: 20px;
-  background-size: cover
+  background-size: cover;
+  vertical-align: top;
+  margin-right: 5px
 }
-
 .dl-area{
   display: inline-block;
   vertical-align: top;
