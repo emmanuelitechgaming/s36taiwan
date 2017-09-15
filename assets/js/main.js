@@ -1,3 +1,9 @@
+$(document).bind("mobileinit", function(){
+  $.mobile.ajaxEnabled=false;
+  $.mobile.loadingMessage = false;
+  $.mobile.loading().hide();
+})
+
 $(document).ready(function () {
   $("a").each(function(){
           $(this).attr("rel","external");
