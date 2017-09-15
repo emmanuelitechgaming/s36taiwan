@@ -8565,17 +8565,17 @@ margin-top: -10px;
 }
 .dl-area ul li{
   margin: 0 5px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #333;
   background: #000000;
   padding: 5px 5px 5px 5px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .dl-area .qr, .dl-area .content{
   display: inline-block;
   vertical-align: top
 }
 .dl-area .content .clearfix{
-  border: solid 1px #fff;
+  border: solid 1px #333;
   border-radius: 5px;
   padding: 0 20px 0 5px;
   background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
