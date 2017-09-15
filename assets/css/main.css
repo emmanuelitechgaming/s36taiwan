@@ -7323,7 +7323,7 @@ div.acc-info.acc-edit div.acc-cont input {
 
 .navbar-top-right {
     position: relative;
-    top: 5px
+    top: 7px
 }
 
 .navbar-top-right li a {
@@ -8559,20 +8559,23 @@ margin-top: -10px;
 .dl-area{
   display: inline-block;
   vertical-align: top;
-  margin-top: -21px;
+  margin-top: -15px;
   color: #ffffff;
   margin-left: 30px;
+  letter-spacing: 1px
 }
 .dl-area ul li{
-  margin: 0 5px;
-  border: 1px solid #333;
+  border: 2px solid #333;
   background: #000000;
-  padding: 8px 10px;
+  padding: 5px;
   border-radius: 3px;
 }
 .dl-area .qr, .dl-area .content{
   display: inline-block;
   vertical-align: top
+}
+.dl-area p{
+  font-size: 10px
 }
 .dl-area .content .clearfix{
   border: solid 1px #333;
@@ -8580,11 +8583,11 @@ margin-top: -10px;
   padding: 0 20px 0 5px;
   background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
   background: linear-gradient(#666, #000);
-  margin-top: 5px
+  margin-top: 1px
 }
 .dl-area .content img{
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 5px;
 }
 .dl-area .content .inner-content{
   display: inline-block;
@@ -8594,13 +8597,15 @@ margin-top: -10px;
 .dl-area .content span{
   color: #fff;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 10px;
 }
-.dl-area .content span:first-child{
-  font-size: 11px
+.dl-area .content span:last-child{
+  font-size: 10px;
+  position: relative;
+  top: -2px
 }
 .dl-area .qr{
-  width: 62px;
+  width: 45px;
   margin-right: 8px
 }
 .dl-area p{
@@ -8852,7 +8857,7 @@ margin-top: -10px;
 .dl-separator{
   display: inline-block;
   position: relative;
-  margin-right: 15px;
+  margin-right: 25px;
 }
 .dl-separator::after{
   content: '';
@@ -8863,7 +8868,7 @@ margin-top: -10px;
   background-size: 100% 100%;
   top: 0;
   bottom: 0;
-  right: -8px;
+  right: -16px;
 }
 .spotlight-bg-text span{
   display: inline-block;
