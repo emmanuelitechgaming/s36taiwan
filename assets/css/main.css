@@ -8559,7 +8559,7 @@ margin-top: -10px;
 .dl-area{
   display: inline-block;
   vertical-align: top;
-  margin-top: -16px;
+  margin-top: -21px;
   color: #ffffff;
   margin-left: 30px;
 }
@@ -8567,7 +8567,7 @@ margin-top: -10px;
   margin: 0 5px;
   border: 1px solid #333;
   background: #000000;
-  padding: 5px 5px 5px 5px;
+  padding: 8px 10px;
   border-radius: 3px;
 }
 .dl-area .qr, .dl-area .content{
@@ -8580,9 +8580,11 @@ margin-top: -10px;
   padding: 0 20px 0 5px;
   background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
   background: linear-gradient(#666, #000);
+  margin-top: 5px
 }
 .dl-area .content img{
   display: inline-block;
+  margin-right: 8px;
 }
 .dl-area .content .inner-content{
   display: inline-block;
@@ -8598,7 +8600,8 @@ margin-top: -10px;
   font-size: 11px
 }
 .dl-area .qr{
-  width: 57px
+  width: 62px;
+  margin-right: 8px
 }
 .dl-area p{
   text-align: left;
