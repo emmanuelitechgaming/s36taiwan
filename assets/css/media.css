@@ -3163,7 +3163,6 @@ margin-top: -18px;
     .selectpicker2.selectpicker2-navbar-right {
         top: -2px;
         left: 0;
-        margin-right: -15px !important
     }
     .breadcrumb-inner .sp-container img {
         width: auto;
@@ -4466,7 +4465,7 @@ main .marquee {
     right: 10%;
   }
   .drop {
-      right: 17.9%;
+      right: 17.11%;
   }
   .boxer .number{
     display: inline-block;
