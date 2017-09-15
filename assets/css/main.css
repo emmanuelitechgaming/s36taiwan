@@ -8558,19 +8558,53 @@ margin-top: -10px;
 
 .dl-area{
   display: inline-block;
-      vertical-align: top;
-      margin-top: -12px;
-      border: 1px solid #FFFFFF;
-      color: #ffffff;
-      padding: 6px 13px;
-      border-radius: 5px;
-      padding-bottom: 1px;
-      -webkit-box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
-      box-shadow: 2px 2px 19px -1px rgba(0,0,0,0.75);
-      margin-left: 115px;
-      background: #000000;
-
-
+  vertical-align: top;
+  margin-top: -16px;
+  color: #ffffff;
+  margin-left: 30px;
+}
+.dl-area ul li{
+  margin: 0 5px;
+  border: 1px solid #FFFFFF;
+  background: #000000;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+}
+.dl-area .qr, .dl-area .content{
+  display: inline-block;
+  vertical-align: top
+}
+.dl-area .content .clearfix{
+  border: solid 1px #fff;
+  border-radius: 5px;
+  padding: 0 20px 0 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+  background: linear-gradient(#666, #000);
+}
+.dl-area .content img{
+  display: inline-block;
+}
+.dl-area .content .inner-content{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+.dl-area .content span{
+  color: #fff;
+  font-weight: normal;
+  font-size: 14px;
+}
+.dl-area .content span:first-child{
+  font-size: 11px
+}
+.dl-area .qr{
+  width: 57px
+}
+.dl-area p{
+  text-align: left;
+}
+.dl-area .content span{
+  display: block
 }
 .logo2 {
   display: inline-block;
