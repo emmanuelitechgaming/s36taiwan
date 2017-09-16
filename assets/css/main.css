@@ -8882,7 +8882,8 @@ span.add-ico{
   position: absolute;
   background: url(../img/separator.png) no-repeat;
   background-size: 100% 100%;
-  top: 0;
+  top: -2px;
+  height: 106%;
   bottom: 0;
   right: -16px;
 }
