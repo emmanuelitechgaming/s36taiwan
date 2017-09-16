@@ -5721,6 +5721,7 @@ div.input-border #country-sel.flagstrap .btn .caret {
     cursor: pointer;
     padding: 3px;
     padding-left: 10px;
+    font-size: 15px
 }
 #country-sel .dropdown-menu li a:hover{
   color: #000
