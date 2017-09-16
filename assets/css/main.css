@@ -8566,8 +8566,8 @@ span.add-ico{
 .bookmark::before{
   content: '';
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 19px;
+  height: 18px;
   background: url('../img/add-desktop.png') no-repeat;
   background-size: cover;
   vertical-align: top;
