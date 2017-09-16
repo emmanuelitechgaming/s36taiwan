@@ -8,7 +8,8 @@ $(document).ready(function(){
 			'flag': 'flag-icon-cn',
 			'link': [
 				'../'
-			]
+			],
+			'icon': 'cn'
 		},
 		{
 			'country_name': '台灣',
@@ -18,7 +19,8 @@ $(document).ready(function(){
 			'flag': 'flag-icon-tw',
 			'link': [
 				'#'
-			]
+			],
+			'icon': 'tw'
 		},
 		{
 			'country_name': '日本国',
@@ -28,7 +30,8 @@ $(document).ready(function(){
 			'flag': 'flag-icon-jp',
 			'link': [
 				'../jp/'
-			]
+			],
+			'icon': 'jp'
 		},
 		{
 			'country_name': 'UK',
@@ -38,7 +41,8 @@ $(document).ready(function(){
 			'flag': 'flag-icon-um',
 			'link': [
 				'../en/'
-			]
+			],
+			'icon': 'uk'
 		},
 		{
 			'country_name': 'Vietnam',
@@ -48,7 +52,8 @@ $(document).ready(function(){
 			'flag': 'flag-icon-vn',
 			'link': [
 				'#'
-			]
+			],
+			'icon': 'vn'
 		},
 		{
 			'country_name': 'Indonesia',
@@ -58,7 +63,8 @@ $(document).ready(function(){
 			'flag': 'flag-icon-id',
 			'link': [
 				'../id/'
-			]
+			],
+			'icon': 'id'
 		},
 		{
 			'country_name': 'Malaysia',
@@ -72,7 +78,8 @@ $(document).ready(function(){
 				'../my-bm/',
 				'../my-en/',
 				'#'
-			]
+			],
+			'icon': 'my'
 		},
 		{
 			'country_name': 'ไทย',
@@ -82,7 +89,8 @@ $(document).ready(function(){
 			'flag': 'flag-icon-th',
 			'link': [
 				'../th/'
-			]
+			],
+			'icon': 'th'
 		},
 		{
 			'country_name': 'India',
@@ -92,13 +100,14 @@ $(document).ready(function(){
 			'flag': 'flag-icon-in',
 			'link': [
 				'../in/'
-			]
+			],
+			'icon': 'in'
 		}
 	];
 
 	$(obj).each(function(k,v){
 		$('#drop')
-			.append('<div class="language-picker"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span><span class="cntry" data-value="'+v.country_name+'">'+ v.country_name + '</span><span class="language"></span></div></div>');
+			.append('<div class="language-picker"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span><span class="cntry" data-value="'+v.country_name+'" data-icon="'+v.icon+'">'+ v.country_name + '</span><span class="language"></span></div></div>');
 
 		$('#drop2ul')
 			.append('<li><a href="javascript:void(0)" id="country2'+ k +'" data-value="'+ k +'"><span class="flag-icon '+v.flag+'"> </span> '+ v.country_name +'<span class="languages"></span></a></li>');
@@ -134,7 +143,11 @@ $(document).ready(function(){
 		$(this).css('color','#fff');
 	});
 
+	var the_icon = '';
 	$('.cntry').click(function() {
+		$('.selectpicker2-val').removeClass('selectpicker2-'+the_icon);
+		$('.selectpicker2-val').addClass('selectpicker2-'+$(this).data('icon'));
 		$('.selectpicker2-val').html($(this).data('value'));
+		the_icon = $(this).data('icon');
 	})
 });
