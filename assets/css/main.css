@@ -8565,13 +8565,15 @@ span.add-ico{
 }
 .bookmark::before{
   content: '';
-  display: inline-block;
-  width: 19px;
-  height: 19px;
-  background: url('../img/add-desktop.png') no-repeat;
-  background-size: cover;
-  vertical-align: top;
-  margin-right: 5px
+      display: inline-block;
+      width: 17px;
+      height: 17px;
+      background: url(../img/add-desktop.png) no-repeat;
+      background-size: cover;
+      vertical-align: top;
+      margin-right: 5px;
+      margin-top: 1px;
+  
 }
 .dl-area{
   display: inline-block;
