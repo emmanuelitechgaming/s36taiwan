@@ -8566,8 +8566,8 @@ span.add-ico{
 .bookmark::before{
   content: '';
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 19px;
+  height: 18px;
   background: url('../img/add-desktop.png') no-repeat;
   background-size: cover;
   vertical-align: top;
@@ -8583,7 +8583,7 @@ span.add-ico{
 }
 .dl-area ul li{
   border: 1px solid #4a4a4a;
-  background: #2a2a2a;
+  background: #000;
   padding: 4.5px 5px;
   border-radius: 3px;
 }
