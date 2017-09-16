@@ -7279,7 +7279,7 @@ div.acc-info.acc-edit div.acc-cont input {
 }
 
 .sweet-arrow {
-    background-color: #fba601 !important;
+    background-color: #acacb4 !important;
     padding-right: 40px;
 }
 
@@ -7288,7 +7288,7 @@ div.acc-info.acc-edit div.acc-cont input {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(../img/arrow-right-white.png) no-repeat;
+  background: url(../img/arrow-right.png) no-repeat;
   background-size: cover;
   position: absolute;
   right: 15px;
@@ -8553,11 +8553,11 @@ span.add-ico{
   font-size: 14px;
   position: relative;
   top: 4px;
-  margin: 0 10px
+  margin: 0 10px;
+  border-bottom: 1px solid
 }
 .bookmark a{
   color: #fff;
-  border-bottom: 1px solid
 }
 .bookmark a:hover, .bookmark a:active, .bookmark a:visited{
   text-decoration: none;
@@ -8573,7 +8573,7 @@ span.add-ico{
       vertical-align: top;
       margin-right: 5px;
       margin-top: 1px;
-  
+
 }
 .dl-area{
   display: inline-block;
@@ -8621,6 +8621,7 @@ span.add-ico{
 .dl-area .content span:last-child{
   font-size: 10px;
   position: relative;
+  text-align: center;
   top: -2px
 }
 .dl-area .qr{
@@ -8915,11 +8916,16 @@ span.add-ico{
   color: #fba601 !important
 }
 .my-sweet-15 button{
-  color: #fff !important;
+  color: #000 !important;
   font-weight: normal;
 }
 .my-sweet-15 button:hover{
-  color: #fff !important
+  color: #000 !important;
+  background-color: #c5c7d3 !important;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15) !important;
+  color: #111 !important;
+  text-decoration: none !important;
 }
 .selectpicker2 {
 font-weight: 400!important;
