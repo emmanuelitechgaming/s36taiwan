@@ -8734,15 +8734,15 @@ span.add-ico{
 }
 .bago_nanaman .boxer::after{
   top: 6px;
-      bottom: 19px;
-      content: '';
-      display: block;
-      height: 34px;
-      width: 3px;
-      background: url(../img/separator.png) no-repeat;
-      background-size: 100% 100%;
-      position: absolute;
-      left: 100%;
+  bottom: 19px;
+  content: '';
+  display: block;
+  height: 34px;
+  width: 3px;
+  background: url(../img/separator.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 100%;
 }
 .bago_nanaman .boxer-last::after{
   content: none !important
@@ -8754,9 +8754,8 @@ span.add-ico{
   height: 22px;
   background: url('../img/caret-right.png') no-repeat;
   background-size: contain;
-  position: relative;
-  top: 5px;
-  left: 18%
+  position: absolute;
+  left: 105%;
 }
 .marquee-mobile2 {
   margin-top: 10px;
