@@ -8550,11 +8550,14 @@ span.add-ico{
 }
 .bookmark{
   display: block;
-  position: absolute;
   font-size: 14px;
+  position: relative;
+  top: 4px;
+  margin: 0 10px
 }
 .bookmark a{
-  color: #fff
+  color: #fff;
+  border-bottom: 1px solid
 }
 .bookmark a:hover, .bookmark a:active, .bookmark a:visited{
   text-decoration: none;
@@ -8565,6 +8568,7 @@ span.add-ico{
   display: inline-block;
   width: 20px;
   height: 20px;
+  background: url('../img/add-desktop.png') no-repeat;
   background-size: cover;
   vertical-align: top;
   margin-right: 5px
