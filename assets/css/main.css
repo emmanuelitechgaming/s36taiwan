@@ -8619,7 +8619,8 @@ span.add-ico{
 .dl-area .content span:last-child{
   font-size: 10px;
   position: relative;
-  top: -2px
+  top: -2px;
+  text-align: center;
 }
 .dl-area .qr{
   width: 45px;
