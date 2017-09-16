@@ -36,7 +36,7 @@ header .top-header {
 
 header .top-header ul li span {
     margin: 5px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 header .top-header ul li {
@@ -5708,7 +5708,8 @@ div.input-border #country-sel.flagstrap .btn .caret {
 
 #country-sel .dropdown-menu {
     background: #333333;
-    width: 100%
+    width: 100%;
+    max-height: 255px !important
 }
 
 #country-sel .dropdown-menu li {
@@ -5718,8 +5719,11 @@ div.input-border #country-sel.flagstrap .btn .caret {
 #country-sel .dropdown-menu li a {
     color: #fff;
     cursor: pointer;
-    padding: 0;
+    padding: 3px;
     padding-left: 10px;
+}
+#country-sel .dropdown-menu li a:hover{
+  color: #000
 }
 
 .sitemap-body2 ul {
@@ -8552,12 +8556,12 @@ span.add-ico{
   display: block;
   font-size: 14px;
   position: relative;
-  top: 4px;
+  top: 3px;
   margin: 0 10px;
-  border-bottom: 1px solid
 }
 .bookmark a{
   color: #fff;
+  font-size: 12px
 }
 .bookmark a:hover, .bookmark a:active, .bookmark a:visited{
   text-decoration: none;
@@ -8565,15 +8569,14 @@ span.add-ico{
 }
 .bookmark::before{
   content: '';
-      display: inline-block;
-      width: 17px;
-      height: 17px;
-      background: url(../img/add-desktop.png) no-repeat;
-      background-size: cover;
-      vertical-align: top;
-      margin-right: 5px;
-      margin-top: 1px;
-
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url(../img/add-desktop.png) no-repeat;
+  background-size: cover;
+  vertical-align: top;
+  margin-right: 5px;
+  margin-top: 3px;
 }
 .dl-area{
   display: inline-block;
@@ -8787,7 +8790,7 @@ span.add-ico{
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   top: 0;
-  color: #fba601;
+  color: #fff;
   border-radius: 50%;
 }
 .boxer-last a{
