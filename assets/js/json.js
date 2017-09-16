@@ -147,7 +147,7 @@ $(document).ready(function(){
 	$('.cntry').click(function() {
 		$('.selectpicker2-val').removeClass('selectpicker2-'+the_icon);
 		$('.selectpicker2-val').addClass('selectpicker2-'+$(this).data('icon'));
-		$('.selectpicker2-val').html($(this).data('value'));
+		$('.selectpicker2-val').html(' '+$(this).data('value'));
 		the_icon = $(this).data('icon');
 	})
 });
