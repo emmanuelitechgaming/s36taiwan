@@ -1178,8 +1178,8 @@ z-index: 99999;
       width: 14px;
       height: 16px;
     }
-    .bookmark{
-      display: none;
+    .header-cs .bookmark-m{
+      display: none
     }
 }
 
@@ -1411,17 +1411,9 @@ z-index: 99999;
     .mobile-banner-wrapper .bs-slider-overlay {
       bottom: 6%;
     }
-    .bookmark{
-      display: block;
-      top: 15px;
-      right: 46%;
-    }
-    .bookmark a{
-      display: none
-    }
-    .bookmark::before{
-      background: url('../img/add-mobile.png') no-repeat;
-      background-size: cover;
+    .header-cs .bookmark-m{
+      display: inline-block;
+      margin: 2px 15px
     }
 }
 
@@ -1970,9 +1962,6 @@ z-index: 99999;
     .boxer-last a::after{
       width: 16px;
       height: 18px;
-    }
-    .bookmark {
-      right: 41%;
     }
 }
 
@@ -2539,9 +2528,6 @@ z-index: 99999;
       width: 18px;
       height: 20px;
     }
-    .bookmark {
-      right: 30%;
-    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -2643,9 +2629,6 @@ z-index: 99999;
       width: 18px;
       height: 18px;
       top: 3px;
-    }
-    .bookmark {
-      right: 26%;
     }
 }
 
@@ -2813,9 +2796,6 @@ z-index: 99999;
     }
     .m-fsalon ul li, .m-fsalon ul li:nth-child(4){
       margin: 0 10px
-    }
-    .bookmark {
-      right: 23%;
     }
 }
 
@@ -3982,7 +3962,7 @@ margin-top: -18px;
      right: 15%;
     }
     .bago_nanaman .container{
-      width: 912px;
+      width: 945px;
     }
 }
 
@@ -4092,13 +4072,13 @@ margin-top: -18px;
   }
   .boxer .number{
     display: inline-block;
-    line-height: 41px;
-    font-size: 82px;
+    line-height: 25px;
+    font-size: 40px;
     margin-right: 10px;
     padding: 10px 10px;
   }
   .boxer .content .title {
-    font-size: 18px;
+    font-size: 17px;
   }
   .boxer .content p{
     font-size: 15px;
@@ -4106,6 +4086,7 @@ margin-top: -18px;
   }
   .boxer .content{
     text-align: left;
+    line-height: 42px
   }
   .bago_nanaman .col-md-3.col-xs-12{
     padding-left: 15px;
@@ -4147,9 +4128,6 @@ margin-top: -18px;
     width: 20px;
     height: 24px;
   }
-  .bago_nanaman .boxer::after{
-    right: 1%;
-  }
   .drop {
       right: 4.1%;
   }
@@ -4163,19 +4141,8 @@ margin-top: -18px;
     position: relative;
     top: 20px
   }
-  .bookmark {
-    top: 7px;
-    right: 39%;
-  }
-  .bookmark a{
-    display: inline-block;
-    border-bottom: 1px solid;
-  }
-  .bookmark a:hover{
-  }
-  .bookmark::before{
-    background: url('../img/add-desktop.png') no-repeat;
-    background-size: cover;
+  .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
+    top: 10px;
   }
 }
 
@@ -4484,9 +4451,6 @@ main .marquee {
   .bago_nanaman .container{
     width: 1246px;
   }
-  .bago_nanaman .boxer::after{
-    right: 10%;
-  }
   .drop {
       right: 17.11%;
   }
@@ -4497,8 +4461,10 @@ main .marquee {
     margin-right: 10px;
     padding: 3px 10px;
   }
-  .bookmark {
-    top: 6px;
-    right: 35.5%;
+  .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
+    top: 12px;
+  }
+  .boxer .content .title {
+    font-size: 18px;
   }
 }
