@@ -8567,7 +8567,7 @@ span.add-ico{
   content: '';
   display: inline-block;
   width: 19px;
-  height: 18px;
+  height: 19px;
   background: url('../img/add-desktop.png') no-repeat;
   background-size: cover;
   vertical-align: top;
@@ -8619,8 +8619,7 @@ span.add-ico{
 .dl-area .content span:last-child{
   font-size: 10px;
   position: relative;
-  top: -2px;
-  text-align: center;
+  top: -2px
 }
 .dl-area .qr{
   width: 45px;
