@@ -35,7 +35,7 @@ header .top-header {
 }
 
 header .top-header ul li span {
-    margin: 5px;
+      margin: 6px 9px 1px 9px;
     font-size: 12px;
 }
 
@@ -3637,9 +3637,9 @@ footer .browsers li:first-child {
 }
 
 .cntry {
-    color: #fff;
-    margin-left: 25px;
     display: inline-block;
+    min-width: 53px;
+    text-align: center;
 }
 
 .lotto-tabs>li>a {
@@ -4545,9 +4545,9 @@ left: 47%;
 
 .grey {
     border-bottom: 1px solid transparent;
-    padding: 6px 4px 5.5px;
+    padding: 1px 4px;
     cursor: pointer;
-    width: 120px;
+    width: 130px;
     background: #1B1B1B;
     display: block;
     position: relative;
@@ -5607,6 +5607,7 @@ div.cta-contact-info a {
 .d-fsalon .d-fsalon6 img {
     margin-bottom: 2px;
     display: inline-block;
+    width: 169px;
     margin-right: 4px;
     line-height: 17px;
 }
@@ -6708,7 +6709,7 @@ div.acc-info.acc-edit div.acc-cont input {
     content: ' ';
     display: inline-block;
     position: relative;
-    background: url('../img/flags/taiwan.png') no-repeat;
+    background: url('../img/flags/taiwan-w.png') no-repeat;
     background-size: cover;
 }
 
