@@ -765,7 +765,14 @@ $(document).ready(function () {
 
      $.each($('.contact-title ul li'), function(index, value) {
        $(this).hover(function() {
-         $(this).find('a').addClass('flag-icon-"'+$(this).find('a').data('icon')+'"');
+         $(this).find('a').addClass('flag-icon-'+$(this).find('a').data('icon')+'-hover');
+       }, function() {
+         $(this).find('a').removeClass('flag-icon-'+$(this).find('a').data('icon')+'-hover');
+       });
+
+       var the_a = $(this).find('a');
+       $(the_a).click(function() {
+         $(this).addClass('flag-icon-'+$(this).data('icon')+'-active');
        })
      })
 });

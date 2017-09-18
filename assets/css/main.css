@@ -6859,41 +6859,59 @@ div.acc-info.acc-edit div.acc-cont input {
 .flag-icon-cn::before {
     background: url('../img/flags/china.png');
 }
-
+.flag-icon-cn-hover::before, .flag-icon-cn-active::before{
+  background: url('../img/flags/china-y.png');
+}
 .flag-icon-tw::before {
     background: url('../img/flags/taiwan.png');
 }
-
+.flag-icon-tw-hover::before, .flag-icon-tw-active::before{
+  background: url('../img/flags/taiwan-y.png');
+}
 .flag-icon-vn::before {
     background: url('../img/flags/veitnam.png');
 }
-
 .flag-icon-vn::before {
     background: url('../img/flags/vietnam.png');
 }
-
+.flag-icon-vn-hover::before, .flag-icon-vn-active::before{
+  background: url('../img/flags/vietnam-y.png');
+}
 .flag-icon-id::before {
     background: url('../img/flags/indonesia.png');
 }
-
+.flag-icon-id-hover::before, .flag-icon-id-active::before{
+  background: url('../img/flags/indo-y.png');
+}
 .flag-icon-my::before {
     background: url('../img/flags/malaysia.png');
 }
-
+.flag-icon-my-hover::before, .flag-icon-my-active::before{
+  background: url('../img/flags/malaysia-y.png');
+}
 .flag-icon-th::before {
     background: url('../img/flags/thailand.png');
 }
-
+.flag-icon-th-hover::before, .flag-icon-th-active::before{
+  background: url('../img/flags/thailand-y.png');
+}
 .flag-icon-jp::before {
     background: url('../img/flags/japan.png');
 }
-
+.flag-icon-jp-hover::before, .flag-icon-jp-active::before{
+  background: url('../img/flags/japan-y.png');
+}
 .flag-icon-in::before {
     background: url('../img/flags/india.png');
 }
-
+.flag-icon-in-hover::before, .flag-icon-in-active::before{
+  background: url('../img/flags/india-y.png');
+}
 .flag-icon-um::before {
     background: url('../img/flags/uk.png');
+}
+.flag-icon-um-hover::before, .flag-icon-um-active::before{
+  background: url('../img/flags/uk-y.png');
 }
 .flag-icon-kr::before {
     background: url('../img/flags/sk.png');
