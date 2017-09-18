@@ -107,7 +107,7 @@ $(document).ready(function(){
 
 	$(obj).each(function(k,v){
 		$('#drop')
-			.append('<div class="language-picker"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span><span class="cntry" data-value="'+v.country_name+'" data-icon="'+v.icon+'">'+ v.country_name + '</span><span class="language"></span></div></div>');
+			.append('<div class="language-picker"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span><span class="cntry" data-value="'+v.country_name+'" data-icon="'+v.icon+'">'+ v.country_name + '</span></div></div>');
 
 		$('#drop2ul')
 			.append('<li><a href="javascript:void(0)" id="country2'+ k +'" data-value="'+ k +'"><span class="flag-icon '+v.flag+'"> </span> '+ v.country_name +'<span class="languages"></span></a></li>');
@@ -147,7 +147,7 @@ $(document).ready(function(){
 	$('.cntry').click(function() {
 		$('.selectpicker2-val').removeClass('selectpicker2-'+the_icon);
 		$('.selectpicker2-val').addClass('selectpicker2-'+$(this).data('icon'));
-		$('.selectpicker2-val').html(' '+$(this).data('value'));
+		$('.selectpicker2-val').html(' '+$(this).data('value')+' <i class="fa fa-angle-down" style="font-size:16px;"></i>');
 		the_icon = $(this).data('icon');
 	})
 });

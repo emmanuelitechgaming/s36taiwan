@@ -3640,7 +3640,6 @@ footer .browsers li:first-child {
     color: #fff;
     margin-left: 25px;
     display: inline-block;
-    min-width: 75px;
 }
 
 .lotto-tabs>li>a {
@@ -3873,7 +3872,7 @@ footer .browsers li:first-child {
 .content span {
     color: #fba601;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: normal;
 }
 
 #b,
@@ -4548,8 +4547,7 @@ left: 47%;
     border-bottom: 1px solid transparent;
     padding: 6px 4px 5.5px;
     cursor: pointer;
-    min-width: 230px;
-    width: 426px;
+    width: 120px;
     background: #1B1B1B;
     display: block;
     position: relative;
@@ -5721,6 +5719,7 @@ div.input-border #country-sel.flagstrap .btn .caret {
     cursor: pointer;
     padding: 3px;
     padding-left: 10px;
+    font-size: 15px
 }
 #country-sel .dropdown-menu li a:hover{
   color: #000
@@ -8386,11 +8385,6 @@ border-top-right-radius: 6px
   opacity: 1;
   border-radius: 50%;
 }
-
-.contact-title li.active a{
-  border: 2px solid #fba601;
-  opacity: 1;
-}
 .contact-title li a:hover, .contact-title li a:active, .contact-title li a:focus{
   text-decoration: none
 }
@@ -8953,7 +8947,12 @@ span.add-ico{
   color: #fff !important;
 }
 #myModal .modal-bottom .myModal2b_login_a, #myModal .modal-bottom .myModal2b_registration_a{
-  color: #fba601 !important
+  color: #fba601 !important;
+  border-radius: 16px;
+  padding: 3px 8px;
+  padding-right: 4px;
+  border: 1px solid #fba601;
+  margin-right: 5px;
 }
 .my-sweet-15 button{
   color: #000 !important;
@@ -8983,4 +8982,40 @@ font-size: 13px;
 }
 .bago_nanaman .boxer .bx3){
   text-align: right!important;
+}
+.flag-dropdown button{
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
+  background-size: 35px 40px;
+  background-position: right;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 12px;
+  color: #fff;
+  font-size: 12px
+}
+.flag-dropdown button div{
+  position: relative;
+  top: 2px
+}
+.flag-dropdown .flag-icon::before{
+  width: 20px;
+  height: 20px;
+}
+.flag-dropdown .dropdown-menu>li>a{
+  padding-left: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+.flag-dropdown .dropdown-menu>li>a:hover, .flag-dropdown .dropdown-menu>li>a:focus{
+  color: #000
+}
+.flag-dropdown .dropdown-menu{
+  right: 0;
+  background: #333;
+}
+.flag-val{
+  color: #fff
 }
