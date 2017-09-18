@@ -3641,6 +3641,16 @@ footer .browsers li:first-child {
     min-width: 53px;
     text-align: center;
 }
+.language-picker span{
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  -ms-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+.language-picker:hover span{
+color: #fba601;
+}
 
 .lotto-tabs>li>a {
     border-radius: 4px 4px 0 0 !important;
@@ -8651,7 +8661,7 @@ span.add-ico{
 .dl-area .content .clearfix{
   border: solid 1px #333;
   border-radius: 5px;
-  padding: 3px 20px 3px 5px; /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
+  padding: 0px 19px 0px 5px; /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */
   background: #000;
   border: solid 1px #666
 }
@@ -8674,13 +8684,13 @@ span.add-ico{
   font-size: 11px;
 }
 .dl-area .content span:last-child{
-  font-size: 17px;
+    font-size: 15px;
   position: relative;
   text-align: left;
   top: -2px
 }
 .dl-area .qr{
-  width: 43px;
+  width: 35px;
   margin: 0 5px;
   position: relative;
   top: 2px;
@@ -8789,7 +8799,6 @@ span.add-ico{
 
 .bago_nanaman .boxer{
   vertical-align: middle;
-  font-weight: 700;
   padding: 0 0;
 }
 .bago_nanaman .boxer::after{
@@ -8802,7 +8811,7 @@ span.add-ico{
   background: url(../img/separator.png) no-repeat;
   background-size: 100% 100%;
   position: absolute;
-  left: 100%;
+  left: 90%;
 }
 .bago_nanaman .boxer-last::after{
   content: none !important
@@ -8815,7 +8824,7 @@ span.add-ico{
   background: url('../img/caret-right.png') no-repeat;
   background-size: contain;
   position: absolute;
-  left: 105%;
+  left: 95%;
 }
 .marquee-mobile2 {
   margin-top: 10px;
@@ -8823,6 +8832,11 @@ span.add-ico{
 .boxer div{
   display: inline-block;
   vertical-align: middle;
+  text-shadow: 1px 1px 3px #000;
+  letter-spacing: 1px
+}
+.boxer  div.step-txt{
+  margin: 0 20px;
 }
 .boxer .content{
   line-height: normal;
@@ -8830,6 +8844,9 @@ span.add-ico{
 }
 .boxer .content .title{
     color: #ffffff;
+}
+.boxer-last{
+  font-weight: 700
 }
 .boxer .content .title .fa{
   font-weight: 700;
@@ -8840,12 +8857,13 @@ span.add-ico{
 .boxer .content p{
   color: #fff
 }
-.boxer .number{
+.boxer .step-no{
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   top: 0;
   color: #fff;
-  border-radius: 50%;
+  font-weight: 700;
+  font-size: 2.5em;
 }
 .boxer-last a{
   color: #000;
