@@ -58,6 +58,49 @@ $(document).ready(function () {
       }
   });
 
+  var flag_dropdown = [
+    {
+      'country_name': '中国',
+      'icon': 'cn'
+    },
+    {
+      'country_name': '台灣',
+      'icon': 'tw'
+    },
+    {
+      'country_name': '日本国',
+      'icon': 'jp'
+    },
+    {
+      'country_name': 'UK',
+      'icon': 'um'
+    },
+    {
+      'country_name': 'Vietnam',
+      'icon': 'vn'
+    },
+    {
+      'country_name': 'Indonesia',
+      'icon': 'id'
+    },
+    {
+      'country_name': 'Malaysia',
+      'icon': 'my'
+    },
+    {
+      'country_name': 'ไทย',
+      'icon': 'th'
+    },
+    {
+      'country_name': 'India',
+      'icon': 'in'
+    }
+  ];
+
+  $.each(flag_dropdown, function(key, val) {
+    $('.flag-dropdown .dropdown-menu').append('<li><a href="#" data-value="'+val.country_name+'" data-icon="'+val.icon+'"><span class="flag-icon flag-icon-'+val.icon+'"></span> '+val.country_name+'</a></li>')
+  })
+
    var hash = window.location.hash;
    if (hash != "") {
      $('html,body').animate({
@@ -714,6 +757,17 @@ $(document).ready(function () {
          $(this).find('a img').attr('src', img.slice(0, -5)+'.png');
        })
      });
+
+     $('.flag-dropdown ul li a').click(function() {
+       $('.flag-val').html($(this).data('value'));
+       $('.flag-dropdown button').html('<span class="flag-icon flag-icon-'+$(this).data('icon')+'"></span>'+$(this).data('value'));
+     });
+
+     $.each($('.contact-title ul li'), function(index, value) {
+       $(this).hover(function() {
+         $(this).find('a').addClass('flag-icon-"'+$(this).find('a').data('icon')+'"');
+       })
+     })
 });
 
 function nextTab(elem) {
