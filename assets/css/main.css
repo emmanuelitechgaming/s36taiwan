@@ -9058,7 +9058,11 @@ font-size: 13px;
   background-color: transparent !important;
   outline: 0 !important;
 }
-.footer-dropdown button span::before{
+.footer-dropdown button .flag-icon::before{
+  width: 20px;
+  height: 20px;
+}
+.footer-dropdown button .flag-icon-tw::before{
   width: 20px;
   height: 20px;
   background: url('../img/flags/taiwan-w.png') no-repeat;
