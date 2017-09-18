@@ -758,6 +758,7 @@ $(document).ready(function () {
        })
      });
 
+     var the_active = '';
      $('.flag-dropdown ul li a').click(function() {
        $('.flag-val').html($(this).data('value'));
        $('.flag-dropdown button').html('<span class="flag-icon flag-icon-'+$(this).data('icon')+'"></span>'+$(this).data('value'));
@@ -769,12 +770,13 @@ $(document).ready(function () {
        }, function() {
          $(this).find('a').removeClass('flag-icon-'+$(this).find('a').data('icon')+'-hover');
        });
+     });
 
-       var the_a = $(this).find('a');
-       $(the_a).click(function() {
-         $(this).addClass('flag-icon-'+$(this).data('icon')+'-active');
-       })
-     })
+     $('.contact-title ul li a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+       $('.contact-title ul li a').removeClass('flag-icon-'+$(e.relatedTarget).data('icon')+'-active');
+       console.log(e.target);
+       $(this).addClass('flag-icon-'+$(e.target).data('icon')+'-active');
+      })
 });
 
 function nextTab(elem) {
