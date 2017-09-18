@@ -758,19 +758,23 @@ $(document).ready(function () {
        })
      });
 
+     var the_active = '';
      $('.flag-dropdown ul li a').click(function() {
        $('.flag-val').html($(this).data('value'));
        $('.flag-dropdown button').html('<span class="flag-icon flag-icon-'+$(this).data('icon')+'"></span>'+$(this).data('value'));
      });
 
-     var the_last_a = '';
      $.each($('.contact-title ul li'), function(index, value) {
        $(this).hover(function() {
          $(this).find('a').addClass('flag-icon-'+$(this).find('a').data('icon')+'-hover');
        }, function() {
          $(this).find('a').removeClass('flag-icon-'+$(this).find('a').data('icon')+'-hover');
        });
-     })
+
+       $(this).click(function() {
+
+       })
+     });
 });
 
 function nextTab(elem) {
