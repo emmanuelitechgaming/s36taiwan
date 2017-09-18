@@ -770,11 +770,13 @@ $(document).ready(function () {
        }, function() {
          $(this).find('a').removeClass('flag-icon-'+$(this).find('a').data('icon')+'-hover');
        });
-
-       $(this).click(function() {
-
-       })
      });
+
+     $('.contact-title ul li a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+       $('.contact-title ul li a').removeClass('flag-icon-'+$(e.relatedTarget).data('icon')+'-active');
+       console.log(e.target);
+       $(this).addClass('flag-icon-'+$(e.target).data('icon')+'-active');
+      })
 });
 
 function nextTab(elem) {
