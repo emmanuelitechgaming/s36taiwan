@@ -1118,8 +1118,6 @@ z-index: 99999;
     }
     .bago_nanaman .boxer{
       margin-bottom: 10px;
-      font-size: 20px;
-      border: 2px solid #acacb4;
       border-radius: 15px;
       text-align: center;
       padding-bottom: 10px;
@@ -4082,11 +4080,9 @@ margin-top: -18px;
     line-height: 42px
   }
   .bago_nanaman .col-md-3.col-xs-12{
-    padding-left: 15px;
-    padding-right: 15px;
   }
   .bago_nanaman .boxer-last{
-    top: 7px;
+    top: 8px;
     padding-left: 0;
     padding-right: 0;
 
@@ -4095,7 +4091,8 @@ margin-top: -18px;
     display: inline-block;
     padding: 0 0;
     width: 70%;
-    margin: 0px auto
+    margin: 0px auto;
+        margin-right: 46px;
   }
   .bs-slider-overlay a{
     font-size: 13px;
@@ -4421,12 +4418,10 @@ main .marquee {
     height: 38px;
   }
   .bago_nanaman .boxer {
-    font-size: 20px;
-    margin-left: -10px;
+    font-size: 1em;
   }
   .bago_nanaman .boxer-last{
-    text-align: right;
-        padding-right: 39px;
+    text-align: center;
   }
   .bs-slider-overlay a{
     padding: 6px 15px;
@@ -4442,7 +4437,7 @@ main .marquee {
     right: 29.5%;
   }
   .bago_nanaman .container{
-    width: 1246px;
+      width: 1295px;
   }
   .drop {
       right: 17.11%;
@@ -4455,7 +4450,7 @@ main .marquee {
     padding: 3px 10px;
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
-    top: 12px;
+    top: 13px;
   }
   .boxer .content .title {
     font-size: 14px;
