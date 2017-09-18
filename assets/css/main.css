@@ -2521,7 +2521,7 @@ select + i.fa {
 
 .marquee a {
     text-decoration: none;
-    color: #fff;
+    color: #fba601;
     margin-left: 30px;
 }
 
@@ -3861,7 +3861,7 @@ color: #fba601;
 .live-game-txtb a,
 .live-game-txtc a {
     display: block;
-    color: #fff;
+    color: #fba601;
     text-shadow: 1px 1px rgb(86, 57, 0);
     font-weight: 700!important;
 }
@@ -8789,7 +8789,7 @@ span.add-ico{
   padding-bottom: 10px;
 }
 .bago_nanaman{
-  background: #1B1B1B;
+  background: #161616;
   padding: 0px 10px;
   color: #e6e6e6;
 }
