@@ -4528,7 +4528,7 @@ left: 47%;
     border: 1px solid #4a4a4a
 }
 
-.drop .language-picker:nth-child(even) .grey {
+.drop .language-picker:nth-child(even) .grey  {
     background: #2a2a2a
 }
 
@@ -9044,4 +9044,50 @@ font-size: 13px;
 }
 .flag-val{
   color: #fff
+}
+.footer-dropdown button{
+  position: absolute;
+  bottom: 12px;
+  right: 1px;
+  background: none;
+  border: none;
+  color: #fff
+}
+.footer-dropdown button:active, .footer-dropdown button:focus, .footer-dropdown button:hover{
+  color: #fff !important;
+  background-color: transparent !important;
+  outline: 0 !important;
+}
+.footer-dropdown button span::before{
+  width: 20px;
+  height: 20px;
+  background: url('../img/flags/taiwan-w.png') no-repeat;
+  background-size: cover;
+}
+.footer-dropdown .dropdown-menu .flag-icon{
+  width: 2.3333em;
+}
+.dropup.footer-dropdown .dropdown-menu{
+  margin-bottom: 55px;
+  background: #2a2a2a;
+  border: solid 1px #4a4a4a;
+  padding: 0 0;
+  border-radius: 0
+}
+.footer-dropdown .dropdown-menu li a{
+  color: #fff;
+  font-weight: 700;
+  padding: 0 10px;
+  margin: 0 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.footer-dropdown .dropdown-menu li a:hover{
+  background-color: transparent;
+  color: #fba601;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s
+}
+.footer-dropdown .dropdown-menu li:nth-child(even) a{
+  background: #1b1b1b
 }
