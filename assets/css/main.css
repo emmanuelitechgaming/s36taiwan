@@ -9059,16 +9059,28 @@ font-size: 13px;
 }
 .footer-dropdown button{
   position: absolute;
-  bottom: 12px;
+  bottom: 15px;
   right: 1px;
   background: none;
   border: none;
   color: #fff
 }
+.footer-dropdown2 button{
+  background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
+  background-size: 35px 40px;
+  background-position: right;
+  padding: 4px 20px;
+  padding-right: 45px;
+  font-size: 13px;
+  bottom: 1px;
+}
 .footer-dropdown button:active, .footer-dropdown button:focus, .footer-dropdown button:hover{
   color: #fff !important;
   background-color: transparent !important;
   outline: 0 !important;
+}
+.footer-dropdown2 button:active, .footer-dropdown2 button:focus, .footer-dropdown2 button:hover{
+  background-color: #333 !important
 }
 .footer-dropdown button .flag-icon::before{
   width: 20px;
@@ -9090,6 +9102,9 @@ font-size: 13px;
   padding: 0 0;
   border-radius: 0
 }
+.dropup.footer-dropdown2 .dropdown-menu{
+  margin-bottom: 30px;
+}
 .footer-dropdown .dropdown-menu li a{
   color: #fff;
   font-weight: 700;
@@ -9097,6 +9112,10 @@ font-size: 13px;
   margin: 0 10px;
   font-size: 12px;
   cursor: pointer;
+}
+.footer-dropdown2 .dropdown-menu li a{
+  padding: 10px 10px;
+  margin: 0 10px;
 }
 .footer-dropdown .dropdown-menu li a:hover{
   background-color: transparent;
