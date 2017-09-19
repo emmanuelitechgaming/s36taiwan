@@ -761,12 +761,50 @@ $(document).ready(function () {
      var the_active = '';
      $('.flag-dropdown ul li a').click(function() {
        $('.flag-val').html($(this).data('value'));
-       $('.flag-dropdown button').html('<span class="flag-icon flag-icon-'+$(this).data('icon')+'"></span>'+$(this).data('value'));
+       $('.flag-dropdown1 button').html('<span class="flag-icon flag-icon-'+$(this).data('icon')+'"></span>'+$(this).data('value'));
      });
 
-     $('.footer-dropdown ul li a').click(function() {
-       $('.footer-dropdown button').html('<span class="flag-icon flag-icon-'+$(this).data('icon')+'"></span>'+$(this).data('value')+' <i class="fa fa-angle-up"></i>');
-     });
+     var fd2 = [
+       {
+         'country_name': '簡体中文'
+       },
+       {
+         'country_name': '繁體中文'
+       },
+       {
+         'country_name': '日本語'
+       },
+       {
+         'country_name': 'English'
+       },
+       {
+         'country_name': 'Tiếng Việt'
+       },
+       {
+         'country_name': 'Bahasa'
+       },
+       {
+         'country_name': 'Bahasa Melayu'
+       },
+       {
+         'country_name': 'English'
+       },
+       {
+         'country_name': 'ภาษาไทย'
+       },
+       {
+         'country_name': 'हिन्दी'
+       }
+     ];
+
+     $.each(fd2, function(k, v) {
+       $('.footer-dropdown2 ul').append('<li><a href="javascript:void(0)" data-value="'+v.country_name+'">'+v.country_name+'</a><input type="radio"></li>')
+     })
+
+     $('.footer-dropdown2 ul li a').click(function() {
+       console.log($(this).data('value'));
+       $('.footer-dropdown2 button').html($(this).data('value'));
+     })
 
      $.each($('.contact-title ul li'), function(index, value) {
        $(this).hover(function() {

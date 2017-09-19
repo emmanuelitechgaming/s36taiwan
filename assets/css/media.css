@@ -3608,13 +3608,13 @@ margin-top: -18px;
         top: 2px
     }
     .live-games.i-roulette {
-        top: 35px
+        top: 33px
     }
     .live-games.i-fantan {
-        top: 35px;
+        top: 33px;
     }
     .live-games.i-sicbo {
-        top: 35px;
+        top: 33px;
     }
     .lg-angel-demon {
         position: relative;
@@ -3871,7 +3871,7 @@ margin-top: -18px;
       top: 15px
     }
     .live-games-baccarat, .live-games-blackjack, .live-games-dragontiger{
-      top: 16px
+      top: 17px
     }
     .live-game.lg-angel-demon img{
       max-width: 110%;
@@ -3886,7 +3886,7 @@ margin-top: -18px;
       display: none;
     }
     .live-games img {
-        max-width: 80%;
+        max-width: 80.3%;
     }
     .spotlight-bg{
       background: url('../img/promo/spotlight.png') no-repeat #000;
@@ -4278,7 +4278,7 @@ margin-top: -18px;
         padding-left: 15px;
     }
     .contactus ul li {
-    padding: 7.1px 0;
+    padding: 6.6px 0;
         padding-left: 0px;
     font-size: 14px;
     padding-left: 0;
@@ -4287,34 +4287,34 @@ main .marquee {
     left: 95px;
 }
 .live-game-txtb {
-    font-size: 13px;
+    font-size: 16px;
     letter-spacing: 1px;
-    bottom: 8px;
+    bottom: 6px;
 }
 .live-game-txtc {
-    font-size: 13px;
+    font-size: 16px;
     bottom: 25px;
 }
 .live-game-txtca{
-  bottom: 7px
+  bottom: 5px
 }
 .live-game-txtcb, .live-game-txtcc{
-  bottom: 7px
+  bottom: 5px
 }
 .i-roulette .live-game-txtc.live-game-txtcd{
-  bottom: 7px;
+  bottom: 5px;
 }
 .frut-popper .live-game-txtb {
-    bottom: 8px;
+    bottom: 7px;
 }
 .jigong .live-game-txtb {
     bottom: 8px;
 }
 .i-roulette .live-game-txtc, .i-sicbo .live-game-txtc {
-    bottom: 7px;
+    bottom: 5px;
 }
 .i-fantan .live-game-txtc{
-  bottom: 8px
+  bottom: 5px
 }
 .bs-slider-overlay {
     position: absolute;
@@ -4401,21 +4401,21 @@ main .marquee {
     left: -10px;
   }
   .live-game-txtbc a {
-    bottom: 1px;
+    bottom: -2px;
   }
   .live-game-txtbd a {
-    bottom: 0px;
+    bottom: -3px;
   }
   .contact-title li {
     margin: 0px 1px;
   }
   .contact-title li a {
-    width: 38px;
-    height: 38px;
+    width: 35px;
+    height: 35px;
   }
   .contact-title .flag-icon::before, .contact-title .active .flag-icon:hover::before {
-    width: 38px;
-    height: 38px;
+    width: 35px;
+    height: 35px;
   }
   .bago_nanaman .boxer {
     font-size: 1em;
