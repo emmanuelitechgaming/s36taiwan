@@ -452,15 +452,14 @@ main .win-body span {
 }
 
 main .contact-title {
-  background: #161616;
-  padding: 7px;
-  color: #fba601;
-  font-size: 18px;
-  font-weight: 700;
-  text-align: center;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  padding-bottom: 13px;
+    background: #161616;
+    padding: 8px;
+    color: #fba601;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px
 }
 
 main .contact-title:first-child {
@@ -7934,9 +7933,9 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 .mobile-banner .img-responsive{
   border-bottom: solid 4px #4a4a4a
 }
-main .win-title-recent{
+/*main .win-title-recent{
   border-bottom: 1px solid transparent
-}
+}*/
 .spotlight-bg .today-winner, .spotlight-bg .td-week, .spotlight-bg .tdw-body{
   background: transparent
 }
