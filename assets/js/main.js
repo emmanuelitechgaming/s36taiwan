@@ -764,6 +764,10 @@ $(document).ready(function () {
        $('.flag-dropdown button').html('<span class="flag-icon flag-icon-'+$(this).data('icon')+'"></span>'+$(this).data('value'));
      });
 
+     $('.footer-dropdown ul li a').click(function() {
+       $('.footer-dropdown button').html('<span class="flag-icon flag-icon-'+$(this).data('icon')+'"></span>'+$(this).data('value')+' <i class="fa fa-angle-up"></i>');
+     });
+
      $.each($('.contact-title ul li'), function(index, value) {
        $(this).hover(function() {
          $(this).find('a').addClass('flag-icon-'+$(this).find('a').data('icon')+'-hover');
@@ -927,6 +931,10 @@ $(function() {
 
     $('.selectpicker2').click(function() {
       $('.selectpicker2 .fa').toggleClass('fa-angle-down fa-angle-up');
+    });
+
+    $('.footer-dropdown button').click(function() {
+      $('.footer-dropdown button .fa').toggleClass('fa-angle-up fa-angle-down');
     })
 
     $('.selectpicker').selectpicker();
