@@ -4278,7 +4278,7 @@ margin-top: -18px;
         padding-left: 15px;
     }
     .contactus ul li {
-    padding: 7.1px 0;
+    padding: 7.4px 0;
         padding-left: 0px;
     font-size: 14px;
     padding-left: 0;
@@ -4410,12 +4410,12 @@ main .marquee {
     margin: 0px 1px;
   }
   .contact-title li a {
-    width: 38px;
-    height: 38px;
+    width: 35px;
+    height: 35px;
   }
   .contact-title .flag-icon::before, .contact-title .active .flag-icon:hover::before {
-    width: 38px;
-    height: 38px;
+    width: 35px;
+    height: 35px;
   }
   .bago_nanaman .boxer {
     font-size: 1em;
