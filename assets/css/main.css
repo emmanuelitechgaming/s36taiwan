@@ -459,7 +459,8 @@ main .contact-title {
     font-weight: 700;
     text-align: center;
     border-top-left-radius: 6px;
-    border-top-right-radius: 6px
+    border-top-right-radius: 6px;
+    padding-bottom: 9px
 }
 
 main .contact-title:first-child {
