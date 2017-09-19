@@ -417,6 +417,8 @@ main .win-body {
     background: #161616;
     overflow: hidden;
     min-height: 258px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 main .win-lot {
