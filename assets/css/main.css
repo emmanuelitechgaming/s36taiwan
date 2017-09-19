@@ -9134,3 +9134,6 @@ font-size: 13px;
   bottom: 10px;
   right: 10px;
 }
+.footer-dropdown2 label{
+  display: none
+}

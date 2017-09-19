@@ -806,8 +806,6 @@ $(document).ready(function () {
        $('.footer-dropdown2 button').html($(this).data('value'));
      })
 
-     $('.footer-dropdown2 input[type="radio"]').radio('disable');
-
      $.each($('.contact-title ul li'), function(index, value) {
        $(this).hover(function() {
          $(this).find('a').addClass('flag-icon-'+$(this).find('a').data('icon')+'-hover');
