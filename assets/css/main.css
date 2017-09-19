@@ -9065,13 +9065,15 @@ font-size: 13px;
   color: #fff
 }
 .footer-dropdown2 button{
-  background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
+  background: #333 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAYAAABrEgIKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAxhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDM0MiwgMjAxMC8wMS8xMC0xODowNjo0MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowMEExNjVCNzlEMTcxMUU3OTU1MEFDRTFBRjBCNURFOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowMEExNjVCODlEMTcxMUU3OTU1MEFDRTFBRjBCNURFOSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAwQTE2NUI1OUQxNzExRTc5NTUwQUNFMUFGMEI1REU5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAwQTE2NUI2OUQxNzExRTc5NTUwQUNFMUFGMEI1REU5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+nEQ73AAAAQ9JREFUeNrs2s1JxEAYgOGZD/HgyU5sIEVYgp1Zgi14SPqxgzGLHtbFyHjYzTfheWEgPyQwDyGHZGprrdRaW/mqlrNO547UOs9fj/fMM4q6AgUKFChQoEAJFChQoECBAiVQoECBAgVKoECBAgXqMN1d8+bLsvz3kud1vE/T9OGJ2u5lHW8nqHmeH0FtI71+bz9lxIpkSCUrViRESokVSZHSYUVipFRYkRwpDVYMgJQCKwZB2h0rBkLaFSsGQ9oNKwZE+oF1K6h6zXXmW+u6s2Wd+UG/HoACBUqgQIECBQoUKIECBQoUKFACBQoUqITVi19IoP6wAtVXA9WjdPFXFJSXuZf5rboH1dfD+c6nAAMAUOZPmylBgPMAAAAASUVORK5CYII=') no-repeat;
   background-size: 35px 40px;
   background-position: right;
   padding: 4px 20px;
   padding-right: 45px;
   font-size: 14px;
-  bottom: 5px;
+  bottom: 22px;
+  min-width: 180px;
+  border: solid 1px #333
 }
 .footer-dropdown button:active, .footer-dropdown button:focus, .footer-dropdown button:hover{
   color: #fff !important;
@@ -9079,7 +9081,8 @@ font-size: 13px;
   outline: 0 !important;
 }
 .footer-dropdown2 button:active, .footer-dropdown2 button:focus, .footer-dropdown2 button:hover{
-  background-color: #333 !important
+  background-color: #333 !important;
+  border: solid 1px #333 !important
 }
 .footer-dropdown button .flag-icon::before{
   width: 20px;
@@ -9099,10 +9102,7 @@ font-size: 13px;
   background: #2a2a2a;
   border: solid 1px #4a4a4a;
   padding: 0 0;
-  border-radius: 0
-}
-.dropup.footer-dropdown2 .dropdown-menu{
-  margin-bottom: 30px;
+  border-radius: 3px
 }
 .footer-dropdown .dropdown-menu li a{
   color: #fff;
@@ -9124,4 +9124,13 @@ font-size: 13px;
 }
 .footer-dropdown .dropdown-menu li:nth-child(even) a{
   background: #1b1b1b
+}
+.footer-dropdown ul li{
+  position: relative;
+  min-width: 180px;
+}
+.footer-dropdown2 input[type=radio]{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }

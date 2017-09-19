@@ -764,53 +764,6 @@ $(document).ready(function () {
        $('.flag-dropdown1 button').html('<span class="flag-icon flag-icon-'+$(this).data('icon')+'"></span>'+$(this).data('value'));
      });
 
-     var fd1 = [
-       {
-         'country_name': '中国',
-         'icon': 'cn'
-       },
-       {
-         'country_name': '台灣',
-         'icon': 'tw'
-       },
-       {
-         'country_name': '日本国',
-         'icon': 'jp'
-       },
-       {
-         'country_name': 'UK',
-         'icon': 'um'
-       },
-       {
-         'country_name': 'Vietnam',
-         'icon': 'vn'
-       },
-       {
-         'country_name': 'Indonesia',
-         'icon': 'id'
-       },
-       {
-         'country_name': 'Malaysia',
-         'icon': 'my'
-       },
-       {
-         'country_name': 'ไทย',
-         'icon': 'th'
-       },
-       {
-         'country_name': 'India',
-         'icon': 'in'
-       }
-     ]
-
-     $.each(fd1, function(k, v){
-       $('.footer-dropdown1 ul').append('<li><a href="#" data-value="'+v.country_name+'" data-icon="'+v.icon+'"><span class="flag-icon flag-icon-'+v.icon+'"></span> '+v.country_name+'</a></li>');
-     })
-
-     $('.footer-dropdown1 ul li a').click(function() {
-       $('.footer-dropdown1 button').html('<span class="flag-icon flag-icon-'+$(this).data('icon')+'"></span>'+$(this).data('value')+' <i class="fa fa-angle-up"></i>');
-     });
-
      var fd2 = [
        {
          'country_name': '簡体中文'
@@ -845,13 +798,15 @@ $(document).ready(function () {
      ];
 
      $.each(fd2, function(k, v) {
-       $('.footer-dropdown2 ul').append('<li><a href="#" data-value="'+v.country_name+'">'+v.country_name+'</a></li>')
+       $('.footer-dropdown2 ul').append('<li><a href="javascript:void(0)" data-value="'+v.country_name+'">'+v.country_name+'</a><input type="radio"></li>')
      })
 
      $('.footer-dropdown2 ul li a').click(function() {
        console.log($(this).data('value'));
        $('.footer-dropdown2 button').html($(this).data('value'));
      })
+
+     $('.footer-dropdown2 input[type="radio"]').radio('disable');
 
      $.each($('.contact-title ul li'), function(index, value) {
        $(this).hover(function() {
