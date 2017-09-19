@@ -452,15 +452,15 @@ main .win-body span {
 }
 
 main .contact-title {
-    background: #161616;
-    padding: 11px;
-    color: #fba601;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    padding-bottom: 9px
+  background: #161616;
+  padding: 7px;
+  color: #fba601;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  padding-bottom: 13px;
 }
 
 main .contact-title:first-child {
