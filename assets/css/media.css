@@ -3608,13 +3608,13 @@ margin-top: -18px;
         top: 2px
     }
     .live-games.i-roulette {
-        top: 35px
+        top: 33px
     }
     .live-games.i-fantan {
-        top: 35px;
+        top: 33px;
     }
     .live-games.i-sicbo {
-        top: 35px;
+        top: 33px;
     }
     .lg-angel-demon {
         position: relative;
@@ -3871,7 +3871,7 @@ margin-top: -18px;
       top: 15px
     }
     .live-games-baccarat, .live-games-blackjack, .live-games-dragontiger{
-      top: 19px
+      top: 17px
     }
     .live-game.lg-angel-demon img{
       max-width: 110%;
@@ -3886,7 +3886,7 @@ margin-top: -18px;
       display: none;
     }
     .live-games img {
-        max-width: 80%;
+        max-width: 80.3%;
     }
     .spotlight-bg{
       background: url('../img/promo/spotlight.png') no-repeat #000;
