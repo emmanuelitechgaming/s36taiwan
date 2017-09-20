@@ -8923,6 +8923,10 @@ span.add-ico{
   color: #fff;
   font-weight: 700;
   font-size: 2.5em;
+  min-width: 60px;
+  background: url('../img/number-circle.png') no-repeat;
+  background-size: 55px 55px;
+  background-position: 7px -3px;
 }
 .boxer-last a{
   color: #000;
