@@ -8926,9 +8926,15 @@ span.add-ico{
   margin: 0 20px;
   text-align: left;
   font-weight: 700;
+  font-size: 14px;
+  margin-left: 1px;
+  padding-right: 35px;
+
+
 }
 .boxer div span{
   font-weight: 400;
+  font-size: 14px;
 }
 .boxer .content{
   line-height: normal;
@@ -8957,9 +8963,6 @@ span.add-ico{
       font-weight: 700;
       font-size: 2.5em;
       min-width: 60px;
-      background: url(../img/number-circle.png) no-repeat;
-      background-size: 51px 51px;
-      background-position: 9px 0px;
 }
 .boxer-last a{
   color: #000;
