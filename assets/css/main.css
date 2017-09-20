@@ -9187,7 +9187,9 @@ span.add-ico{
   background: #2a2a2a;
   border: solid 1px #4a4a4a;
   padding: 0 0;
-  border-radius: 3px
+  border-radius: 3px;
+  height: 322px;
+    overflow-y: scroll;
 }
 .footer-dropdown .dropdown-menu li a{
   color: #fff;
@@ -9198,16 +9200,17 @@ span.add-ico{
 }
 .footer-dropdown2 .dropdown-menu li a{
   padding: 10px 10px;
-  border-bottom: solid 1px #4a4a4a
 }
 .footer-dropdown2 .dropdown-menu li:last-child a{
   border-bottom: none
 }
 .footer-dropdown .dropdown-menu li a:hover{
   background-color: transparent;
-  color: #fba601;
   -webkit-transition: color 0.3s;
   transition: color 0.3s
+}
+.footer-dropdown ul li:hover{
+  background: #525252;
 }
 .footer-dropdown ul li{
   position: relative;
