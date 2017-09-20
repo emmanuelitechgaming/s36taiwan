@@ -42,7 +42,7 @@ $(document).ready(function(){
 			'link': [
 				'../en/'
 			],
-			'icon': 'uk'
+			'icon': 'um'
 		},
 		{
 			'country_name': 'Vietnam',
@@ -128,7 +128,7 @@ $(document).ready(function(){
 	});
 
 	$.each(obj, function(index, value) {
-		$('.selectpicker2-menu ul').append('<li class="li'+ index +'"><div class="flag-icon '+ value.flag +'"></div><div class="country"><a href="#">'+ value.country_name +'</a></div><div class="languages"></div></li>');
+		$('#m-selectpicker2-collapse ul').append('<li><a href="#"><span class="flag-icon flag-icon-'+value.icon+'"></span></a></li>');
 	});
 
 	$.each($('.selectpicker2-menu ul li'), function(index, value) {
