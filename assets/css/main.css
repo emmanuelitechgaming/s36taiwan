@@ -4537,9 +4537,8 @@ left: 47%;
     color: #fff;
     font-size: .75em;
     cursor: pointer;
-    min-width: 150px;
+    min-width: 130px;
     top: 28px;
-    padding: 10px;
     border: 1px solid #4a4a4a
 }
 
@@ -4570,8 +4569,6 @@ left: 47%;
     display: block;
     position: relative;
     border-bottom: solid 1px #4a4a4a;
-    margin-left: 7px;
-    margin-right: 7px
 }
 .drop .language-picker:last-child .grey{
   border-bottom: none
@@ -8058,11 +8055,14 @@ background: #333333;
 background: -webkit-gradient(linear, left top, left bottom, from(#333333),to(#000000));
 background: linear-gradient(to bottom, #333333 0%,#000000 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
-border-top-right-radius: 6px
+border-top-right-radius: 6px;
+    border: 1px solid #636363;
+    border-bottom: 0;
+
 }
 .fish-lotto{
   border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px
+  border-bottom-right-radius: 6px;
 }
 .lotto-button{
   position: absolute;
@@ -8327,7 +8327,11 @@ border-top-right-radius: 6px
   margin-left: 5px;
   padding: 10px 25px;
   border-top-left-radius: 6px;
-  border-top-right-radius: 6px
+  border-top-right-radius: 6px;
+  border: 1px solid #636363;
+border-bottom: 1px solid #333333;
+position: relative;
+bottom: -2px;
 }
 .scrolltotop-animate{
   right: 40px !important;
@@ -8915,6 +8919,11 @@ span.add-ico{
 }
 .boxer  div.step-txt{
   margin: 0 20px;
+  text-align: left;
+  font-weight: 700;
+}
+.boxer div span{
+  font-weight: 400;
 }
 .boxer .content{
   line-height: normal;
@@ -8937,15 +8946,15 @@ span.add-ico{
 }
 .boxer .step-no{
   font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-  top: 0;
-  color: #fff;
-  font-weight: 700;
-  font-size: 2.5em;
-  min-width: 60px;
-  background: url('../img/number-circle.png') no-repeat;
-  background-size: 55px 55px;
-  background-position: 7px -3px;
+      position: relative;
+      top: 0;
+      color: #fff;
+      font-weight: 700;
+      font-size: 2.5em;
+      min-width: 60px;
+      background: url(../img/number-circle.png) no-repeat;
+      background-size: 51px 51px;
+      background-position: 9px 0px;
 }
 .boxer-last a{
   color: #000;
@@ -9178,29 +9187,30 @@ span.add-ico{
   background: #2a2a2a;
   border: solid 1px #4a4a4a;
   padding: 0 0;
-  border-radius: 3px
+  border-radius: 3px;
+  height: 322px;
+    overflow-y: scroll;
 }
 .footer-dropdown .dropdown-menu li a{
   color: #fff;
   font-weight: 700;
   padding: 0 10px;
-  margin: 0 10px;
   font-size: 12px;
   cursor: pointer;
 }
 .footer-dropdown2 .dropdown-menu li a{
   padding: 10px 10px;
-  margin: 0 10px;
-  border-bottom: solid 1px #4a4a4a
 }
 .footer-dropdown2 .dropdown-menu li:last-child a{
   border-bottom: none
 }
 .footer-dropdown .dropdown-menu li a:hover{
   background-color: transparent;
-  color: #fba601;
   -webkit-transition: color 0.3s;
   transition: color 0.3s
+}
+.footer-dropdown ul li:hover{
+  background: #525252;
 }
 .footer-dropdown ul li{
   position: relative;
