@@ -841,6 +841,12 @@ $(document).ready(function () {
       }, function() {
         $(this).attr('src', 'assets/img/casino/baccarat/info.png');
       })
+
+      $('.cta .more').hover(function() {
+        $(this).addClass('more-hover');
+      }, function() {
+        $(this).removeClass('more-hover');
+      })
 });
 
 function nextTab(elem) {
