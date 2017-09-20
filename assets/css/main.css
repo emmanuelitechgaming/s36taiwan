@@ -6276,7 +6276,7 @@ main .win-lot-top-games {
   height: 2px;
   position: absolute;
   left: -35px;
-  right: -35px;
+  right: -20px;
   bottom: 0;
   border-bottom: 1px solid #303030;
   border-top: 1px solid #000
