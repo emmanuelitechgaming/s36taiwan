@@ -8889,16 +8889,16 @@ span.add-ico{
   padding: 0 0;
 }
 .bago_nanaman .boxer::after{
-  top: 6px;
-  bottom: 19px;
-  content: '';
-  display: block;
-  height: 34px;
-  width: 3px;
-  background: url(../img/separator.png) no-repeat;
-  background-size: 100% 100%;
-  position: absolute;
-  left: 90%;
+  top: 13px;
+      bottom: 19px;
+      content: '';
+      display: block;
+      height: 34px;
+      width: 2px;
+      background: url(../img/separator.png) no-repeat;
+      background-size: 100% 100%;
+      position: absolute;
+      left: 90%;
 }
 .bago_nanaman .boxer-last::after{
   content: none !important
@@ -8956,13 +8956,13 @@ span.add-ico{
   color: #fff
 }
 .boxer .step-no{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Tungsten;
       position: relative;
       top: 0;
       color: #fff;
       font-weight: 700;
-      font-size: 2.5em;
-      min-width: 60px;
+      font-size: 2.9em;
+      min-width: 40px;
 }
 .boxer-last a{
   color: #000;
@@ -9228,4 +9228,8 @@ span.add-ico{
   position: absolute;
   bottom: 10px;
   right: 10px;
+}
+@font-face {
+    font-family: Tungsten;
+    src: url(../fonts/Tungsten-Semibold.ttf);
 }
