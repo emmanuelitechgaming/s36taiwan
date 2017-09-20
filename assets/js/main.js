@@ -819,6 +819,22 @@ $(document).ready(function () {
        console.log(e.target);
        $(this).addClass('flag-icon-'+$(e.target).data('icon')+'-active');
       })
+
+      $('.bookmark').hover(function() {
+        $(this).find('a').css('color', '#fba601');
+        $(this).addClass('bookmark-hover');
+      }, function() {
+        $(this).find('a').css('color', '#fff');
+        $(this).removeClass('bookmark-hover');
+      })
+
+      $('.gp-more').hover(function() {
+        $(this).find('span').css('color', '#fba601');
+        $(this).find('img').attr('src', 'assets/img/more-hover.png');
+      }, function() {
+        $(this).find('span').css('color', '#fff');
+        $(this).find('img').attr('src', 'assets/img/more.png');
+      })
 });
 
 function nextTab(elem) {
