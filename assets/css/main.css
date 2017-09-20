@@ -383,10 +383,24 @@ main .win-title {
     color: #fba601;
     font-size: 18px;
     font-weight: 700;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #000;
     border-top: 1px solid #303030;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+    position: relative;
+}
+main .win-title-recent{
+  border-bottom: 1px solid #000
+}
+main .win-title::after{
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #5d5a5a;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  z-index: 999;
 }
 
 main .notice {
@@ -427,7 +441,6 @@ main .win-lot {
     border-top: 1px solid #303030;
     overflow: hidden;
 }
-
 main .win-cs {
     padding: 5px 0;
     overflow: hidden;
@@ -463,11 +476,11 @@ main .contact-title {
 }
 
 main .contact-title:first-child {
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 main .contactus {
-    border-top: 1px solid #303030;
+    border-top: 1px solid #5d5a5a;
     border-bottom: 2px solid #161616;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
@@ -4530,10 +4543,6 @@ left: 47%;
     border: 1px solid #4a4a4a
 }
 
-.drop .language-picker:nth-child(even) .grey  {
-    background: #2a2a2a
-}
-
 .drop .flag-icon {
     margin-right: 15px;
 }
@@ -4554,12 +4563,18 @@ left: 47%;
 
 .grey {
     border-bottom: 1px solid transparent;
-    padding: 1px 4px;
+    padding: 1px 0px;
     cursor: pointer;
     width: 130px;
-    background: #1B1B1B;
+    background: #2a2a2a;
     display: block;
     position: relative;
+    border-bottom: solid 1px #4a4a4a;
+    margin-left: 7px;
+    margin-right: 7px
+}
+.drop .language-picker:last-child .grey{
+  border-bottom: none
 }
 
 .lang:hover > .drop,
@@ -9072,7 +9087,7 @@ font-size: 13px;
   padding-right: 45px;
   font-size: 14px;
   bottom: 22px;
-  min-width: 180px;
+  min-width: 159px;
   border: solid 1px #333
 }
 .footer-dropdown button:active, .footer-dropdown button:focus, .footer-dropdown button:hover{
@@ -9115,6 +9130,10 @@ font-size: 13px;
 .footer-dropdown2 .dropdown-menu li a{
   padding: 10px 10px;
   margin: 0 10px;
+  border-bottom: solid 1px #4a4a4a
+}
+.footer-dropdown2 .dropdown-menu li:last-child a{
+  border-bottom: none
 }
 .footer-dropdown .dropdown-menu li a:hover{
   background-color: transparent;
@@ -9122,18 +9141,12 @@ font-size: 13px;
   -webkit-transition: color 0.3s;
   transition: color 0.3s
 }
-.footer-dropdown .dropdown-menu li:nth-child(even) a{
-  background: #1b1b1b
-}
 .footer-dropdown ul li{
   position: relative;
-  min-width: 180px;
+  min-width: 150px;
 }
 .footer-dropdown2 input[type=radio]{
   position: absolute;
   bottom: 10px;
   right: 10px;
-}
-.footer-dropdown2 label{
-  display: none
 }

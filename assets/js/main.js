@@ -736,7 +736,7 @@ $(document).ready(function () {
 
     $.each($('.navbar-header-desktop ul li'), function(index, value) {
        $(this).hover(function() {
-         $(this).find('a span').css('color', '#fff');
+         $(this).find('a span').css('color', '#fba601');
          var img = $(this).find('a img').attr('src');
          $(this).find('a img').attr('src', img.slice(0, -4)+'Y.png');
        }, function() {
@@ -748,7 +748,7 @@ $(document).ready(function () {
 
      $.each($('.navbar-right-desktop li'), function(index, value) {
        $(this).hover(function() {
-         $(this).find('a').css('color', '#fff');
+         $(this).find('a').css('color', '#fba601');
         var img = $(this).find('a img').attr('src');
         $(this).find('a img').attr('src', img.slice(0, -4)+'Y.png');
        }, function() {
@@ -798,7 +798,7 @@ $(document).ready(function () {
      ];
 
      $.each(fd2, function(k, v) {
-       $('.footer-dropdown2 ul').append('<li><a href="javascript:void(0)" data-value="'+v.country_name+'">'+v.country_name+'</a><input type="radio"></li>')
+       $('.footer-dropdown2 ul').append('<li><a href="javascript:void(0)" data-value="'+v.country_name+'">'+v.country_name+'</a></li>')
      })
 
      $('.footer-dropdown2 ul li a').click(function() {
