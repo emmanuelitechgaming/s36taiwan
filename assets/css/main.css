@@ -6733,44 +6733,44 @@ div.acc-info.acc-edit div.acc-cont input {
     content: ' ';
     display: inline-block;
     position: relative;
-    background: url('../img/flags/taiwan-w.png') no-repeat;
+    background: url('../img/flags/taiwan-nb.png') no-repeat;
     background-size: cover;
 }
 
 .selectpicker2-cn::before{
-  background: url('../img/flags/china.png') no-repeat;
+  background: url('../img/flags/china-nb.png') no-repeat;
   background-size: cover;
 }
 .selectpicker2-tw::before{
-  background: url('../img/flags/taiwan.png') no-repeat;
+  background: url('../img/flags/taiwan-nb.png') no-repeat;
   background-size: cover;
 }
 .selectpicker2-vn::before{
-  background: url('../img/flags/vietnam.png') no-repeat;
+  background: url('../img/flags/vietnam-nb.png') no-repeat;
   background-size: cover;
 }
 .selectpicker2-jp::before{
-  background: url('../img/flags/japan.png') no-repeat;
+  background: url('../img/flags/japan-nb.png') no-repeat;
   background-size: cover;
 }
 .selectpicker2-uk::before{
-  background: url('../img/flags/uk.png') no-repeat;
+  background: url('../img/flags/uk-nb.png') no-repeat;
   background-size: cover;
 }
 .selectpicker2-id::before{
-  background: url('../img/flags/indonesia.png') no-repeat;
+  background: url('../img/flags/indonesia-nb.png') no-repeat;
   background-size: cover;
 }
 .selectpicker2-my::before{
-  background: url('../img/flags/malaysia.png') no-repeat;
+  background: url('../img/flags/malaysia-nb.png') no-repeat;
   background-size: cover;
 }
 .selectpicker2-th::before{
-  background: url('../img/flags/thailand.png') no-repeat;
+  background: url('../img/flags/thailand-nb.png') no-repeat;
   background-size: cover;
 }
 .selectpicker2-in::before{
-  background: url('../img/flags/india.png') no-repeat;
+  background: url('../img/flags/india-nb.png') no-repeat;
   background-size: cover;
 }
 
