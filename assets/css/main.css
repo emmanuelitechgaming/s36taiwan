@@ -2686,8 +2686,7 @@ select + i.fa {
     width: 100%;
     position: absolute;
     text-align: center;
-    color: rgba(26, 26, 26, 0.8) !important;
-    text-shadow: 1px 1px rgb(255, 214, 135);
+    color: #000 !important;
     font-weight: 700;
 }
 
