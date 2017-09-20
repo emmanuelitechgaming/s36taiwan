@@ -834,6 +834,18 @@ $(document).ready(function () {
       }, function() {
         $(this).find('span').css('color', '#fff');
         $(this).find('img').attr('src', 'assets/img/more.png');
+      });
+
+      $('img[src="assets/img/casino/baccarat/info.png"]').hover(function() {
+        $(this).attr('src', 'assets/img/casino/baccarat/info-hover.png');
+      }, function() {
+        $(this).attr('src', 'assets/img/casino/baccarat/info.png');
+      })
+
+      $('.cta .more').hover(function() {
+        $(this).addClass('more-hover');
+      }, function() {
+        $(this).removeClass('more-hover');
       })
 });
 
