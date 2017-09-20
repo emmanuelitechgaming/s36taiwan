@@ -694,7 +694,7 @@ z-index: 99999;
         bottom: -5px
     }
     .lg-playnow {
-        bottom: 11%;
+        bottom: 9%;
     }
     img.b-img {
         top: auto
@@ -1305,7 +1305,7 @@ z-index: 99999;
         bottom: 6px;
     }
     .lg-playnow {
-        bottom: 12.5%;
+        bottom: 10.8%;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1684,7 +1684,7 @@ z-index: 99999;
       margin: 0 8px
     }
     .lg-playnow {
-      bottom: 12.94%;
+      bottom: 11.1%;
     }
     .contact-title li{
       margin: 0 1px;
@@ -1835,7 +1835,7 @@ z-index: 99999;
     }
     .lg-playnow {
         font-size: 18px;
-        bottom: 13.5%;
+        bottom: 11.9%;
     }
     .promotion-form-btn {
         background-position: 32px -1px
@@ -2113,7 +2113,7 @@ z-index: 99999;
         padding-left: 5px;
     }
     .lg-playnow {
-        bottom: 13.5%;
+        bottom: 11.9%;
     }
     .live-game-txtba a {
         bottom: -15px;
@@ -2392,7 +2392,7 @@ z-index: 99999;
         padding-bottom: 9px;
     }
     .lg-playnow {
-        bottom: 13.5%;
+        bottom: 12%;
     }
     .m-fsalon ul li:nth-child(1) img,
     .m-fsalon ul li:nth-child(2) img {
@@ -2925,7 +2925,7 @@ z-index: 99999;
     }
     .lg-playnow {
         font-size: 12px;
-        bottom: 7.8%;
+        bottom: 6%;
         padding-left: 25%;
     }
     .btn-hidden::after{
@@ -3578,7 +3578,7 @@ margin-top: -18px;
         margin-left: 18px;
     }
     .contactus {
-      padding: 10px 20px;
+      padding: 0 20px 10px;
     }
     .contactus ul li:nth-child(2) span {
         margin-left: 18px;
@@ -3963,7 +3963,7 @@ margin-top: -18px;
     height: 21px;
   }
   .lg-playnow {
-    bottom: 8%;
+    bottom: 6%;
   }
   #b{
     max-width: inherit !important
@@ -4278,11 +4278,10 @@ margin-top: -18px;
         padding-left: 15px;
     }
     .contactus ul li {
-    padding: 6.6px 0;
-        padding-left: 0px;
-    font-size: 14px;
-    padding-left: 0;
-}
+      padding: 7.5px 0;
+      padding-left: 0px;
+      font-size: 14px;
+    }
 main .marquee {
     left: 95px;
 }
