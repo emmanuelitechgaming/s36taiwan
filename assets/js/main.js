@@ -175,6 +175,11 @@ $(document).ready(function () {
     //       scrollTop: 0
     //   }, 300);
     // });
+    $('.dl-area img').hover(function() {
+      $('.dl-area img').attr('src', 'assets/img//dl-area-hover.jpg');
+    }, function() {
+      $('.dl-area img').attr('src', 'assets/img//dl-area.jpg');
+    });
 
     $('.browsers li #ie').hover(function() {
       $('.browsers li #ie img').attr('src', 'assets/img/footer/ie-b.png');
