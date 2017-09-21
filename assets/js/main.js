@@ -176,7 +176,7 @@ $(document).ready(function () {
     //   }, 300);
     // });
     $('.dl-area img').hover(function() {
-      $('.dl-area img').attr('src', 'assets/img//dl-area-hover.jpg');
+      $('.dl-area img').attr('src', 'assets/img//dl-area.jpg');
     }, function() {
       $('.dl-area img').attr('src', 'assets/img//dl-area.jpg');
     });
