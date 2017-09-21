@@ -1184,6 +1184,9 @@ z-index: 99999;
       text-align: center;
       padding-right: 0;
     }
+    .njackpot-nwinner{
+      display: none;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4149,6 +4152,10 @@ margin-top: -18px;
     text-align: left;
     padding-right: 35px;
   }
+  .njackpot-nwinner{
+    display: block;
+    margin-bottom: 15px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -4293,7 +4300,7 @@ margin-top: -18px;
         padding-left: 15px;
     }
     .contactus ul li {
-      padding: 8.5px 0;
+      padding: 7.8px 0;
       padding-left: 0px;
       font-size: 14px;
     }

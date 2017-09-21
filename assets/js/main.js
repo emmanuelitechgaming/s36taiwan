@@ -767,13 +767,16 @@ $(document).ready(function () {
 
      var fd2 = [
        {
-         'country_name': '簡体中文'
+         'country_name': '中文(简体)'
        },
        {
-         'country_name': '繁體中文'
+         'country_name': '中文(香港)'
        },
        {
-         'country_name': '日本語'
+         'country_name': '中文(繁体)'
+       },
+       {
+         'country_name': '日本语（英文）'
        },
        {
          'country_name': 'English'
@@ -788,7 +791,7 @@ $(document).ready(function () {
          'country_name': 'Bahasa Melayu'
        },
        {
-         'country_name': 'English'
+         'country_name': 'Bahasa Melayu (Bahasa Inggeris)'
        },
        {
          'country_name': 'ภาษาไทย'
@@ -847,7 +850,55 @@ $(document).ready(function () {
         $(this).addClass('more-hover');
       }, function() {
         $(this).removeClass('more-hover');
-      })
+      });
+
+      $('.top-games .flexslider').flexslider({
+        animation: 'slide',
+        direction: 'vertical',
+        slideshowSpeed: '5000',
+        controlNav: false,
+        directionNav: false
+      });
+
+      $('.top1 .flexslider').flexslider({
+        animation: 'slide',
+        direction: 'vertical',
+        slideshowSpeed: '5000',
+        controlNav: false,
+        directionNav: false
+
+      });
+      $('.top2 .flexslider').flexslider({
+        animation: 'slide',
+        direction: 'vertical',
+        slideshowSpeed: '6000',
+        controlNav: false,
+        directionNav: false,
+        reverse: true
+      });
+      $('.top3 .flexslider').flexslider({
+        animation: 'slide',
+        direction: 'vertical',
+        slideshowSpeed: '7000',
+        controlNav: false,
+        directionNav: false
+      });
+
+      $('.top-players .flexslider').flexslider({
+        animation: 'slide',
+        direction: 'horizontal',
+        slideshowSpeed: '5000',
+        controlNav: false,
+        directionNav: false
+      });
+
+      $('.recent-winners .flexslider').flexslider({
+        animation: 'slide',
+        direction: 'vertical',
+        slideshowSpeed: '4000',
+        controlNav: false,
+        directionNav: false,
+      });
 });
 
 function nextTab(elem) {
@@ -1012,29 +1063,6 @@ $(function() {
         $('.modal-dialog').velocity('transition.flipYIn', {duration: 300});
       }
     });
-
-    // $('.modal').on('hide.bs.modal', function(e) {
-    //   e.preventDefault();
-    //   $('.modal-dialog').velocity('transition.flipYOut', {
-    //     duration: 300,
-    //     complete: function(e) {
-    //       $(this).modal('hide')
-    //     }
-    //   });
-    // })
-
-    // $('.modal .close').click(function() {
-    //   $('.modal-dialog').velocity('transition.flipYOut', {duration: 300});
-    //   setTimeout(function(){
-    //      $('.modal').modal('hide');
-    //    }, 350);
-    // });
-    // $('.modal').on('hide.bs.modal', function(e) {
-    //   $(this).find('.modal-dialog').velocity('transition.flipYOut', {duration: 300});
-    //   setTimeout(function(){
-    //     $(this).modal('hide');
-    //   }, 350);
-    // });
 });
 
 
