@@ -764,41 +764,55 @@ $(document).ready(function () {
        $('.flag-val').html($(this).data('value'));
        $('.flag-dropdown1 button').html('<span class="flag-icon flag-icon-'+$(this).data('icon')+'"></span>'+$(this).data('value'));
      });
-
      var fd2 = [
        {
-         'country_name': '中文(简体)'
+         'country_name': '简体 - (中国)'
        },
        {
-         'country_name': '中文(香港)'
+         'country_name': '英文 - (中国)'
        },
        {
-         'country_name': '中文(繁体)'
+         'country_name': '繁體 - (澳門)'
        },
        {
-         'country_name': '日本语（英文）'
+         'country_name': '英文 - (澳門)'
        },
        {
-         'country_name': 'English'
+         'country_name': '繁體 - (台灣)'
        },
        {
-         'country_name': 'Tiếng Việt'
+         'country_name': '英文 - (台灣)'
        },
        {
-         'country_name': 'Bahasa'
+         'country_name': '印尼文- (印尼)'
        },
        {
-         'country_name': 'Bahasa Melayu'
+         'country_name': '中文 - (印尼)'
        },
        {
-         'country_name': 'Bahasa Melayu (Bahasa Inggeris)'
+         'country_name': '泰文 - (泰国)'
        },
        {
-         'country_name': 'ภาษาไทย'
+         'country_name': '中文 - (泰国)'
        },
        {
-         'country_name': 'हिन्दी'
-       }
+         'country_name': '越南文 - (越南)'
+       },
+       {
+         'country_name': '英文 -(越南)'
+       },
+       {
+         'country_name': '中文 -(越南)'
+       },
+       {
+         'country_name': '马来文 - (马来西亚)'
+       },
+       {
+         'country_name': '英文 - (马来西亚)'
+       },
+       {
+         'country_name': '中文 -(马来西亚)'
+       },
      ];
 
      $.each(fd2, function(k, v) {
