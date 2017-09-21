@@ -766,13 +766,16 @@ $(document).ready(function () {
 
      var fd2 = [
        {
-         'country_name': '簡体中文'
+         'country_name': '中文(简体)'
        },
        {
-         'country_name': '繁體中文'
+         'country_name': '中文(香港)'
        },
        {
-         'country_name': '日本語'
+         'country_name': '中文(繁体)'
+       },
+       {
+         'country_name': '日本语（英文）'
        },
        {
          'country_name': 'English'
@@ -787,7 +790,7 @@ $(document).ready(function () {
          'country_name': 'Bahasa Melayu'
        },
        {
-         'country_name': 'English'
+         'country_name': 'Malaysian (English)'
        },
        {
          'country_name': 'ภาษาไทย'
