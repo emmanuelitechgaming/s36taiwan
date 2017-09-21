@@ -813,6 +813,18 @@ $(document).ready(function () {
        {
          'country_name': '中文 -(马来西亚)'
        },
+       {
+         'country_name': '日文 - (日本)'
+       },
+       {
+         'country_name': '中文 - (日本)'
+       },
+       {
+         'country_name': '印度文 - (印度)'
+       },
+       {
+         'country_name': '中文 - (印度)'
+       }
      ];
 
      $.each(fd2, function(k, v) {
