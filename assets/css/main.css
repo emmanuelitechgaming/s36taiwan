@@ -8904,7 +8904,6 @@ span.add-ico{
   padding: 0 0;
 }
 .bago_nanaman .boxer::after{
-  top: 13px;
       bottom: 19px;
       content: '';
       display: block;
@@ -8918,7 +8917,7 @@ span.add-ico{
 .bago_nanaman .boxer-last::after{
   content: none !important
 }
-.bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
+/*.bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
   content: '';
   display: inline-block;
   width: 22px;
@@ -8927,7 +8926,7 @@ span.add-ico{
   background-size: contain;
   position: absolute;
   left: 95%;
-}
+}*/
 .marquee-mobile2 {
   margin-top: 10px;
 }
