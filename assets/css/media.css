@@ -635,7 +635,7 @@ z-index: 99999;
         top: 18%;
     }
     .header-cs {
-        right: 25%;
+        right: 5%;
     }
     .gp-first a {
         padding-bottom: 4px
@@ -1283,7 +1283,7 @@ z-index: 99999;
         top: 20%;
     }
     .header-cs {
-        right: 23%;
+        right: 6%;
     }
     .panel-heading .slots-tabs > li > a {
         padding: 5px 23px !important;
@@ -1340,7 +1340,11 @@ z-index: 99999;
         bottom: -1px;
     }
     #menu-m {
-        right: -14px;
+      right: -15px;
+      left: 42px;
+    }
+    .menu-m::before {
+      left: 22px;
     }
     .promotion-form-btn {
         background-position: 3px -1px
@@ -1659,7 +1663,7 @@ z-index: 99999;
         bottom: 6px;
     }
     .header-cs {
-        right: 21.99%;
+        right: 5.3%;
     }
     .tdw-slots .col-md-3 {
         margin-left: 45px;
@@ -1759,7 +1763,7 @@ z-index: 99999;
         height: 75px
     }
     .header-cs {
-        right: 20%;
+        right: 5%;
     }
     .gp-first a {
         padding-bottom: 7px;

@@ -1668,9 +1668,12 @@ p {
   background-size: contain;
   position: absolute;
   margin-left: 10px;
-  top: 7px;
+  top: 6px;
 }
-
+.arrow-right-brown::after{
+  background: url('../img/arrow-right-brown.png') no-repeat;
+  background-size: contain;
+}
 .btn-hidden-hover::after{
   background: url('../img/arrow-right-hover.png') no-repeat;
   background-size: contain;
@@ -2686,8 +2689,7 @@ select + i.fa {
     width: 100%;
     position: absolute;
     text-align: center;
-    color: rgba(26, 26, 26, 0.8) !important;
-    text-shadow: 1px 1px rgb(255, 214, 135);
+    color: rgba(84, 54, 1, 1) !important;
     font-weight: 700;
 }
 
@@ -5821,8 +5823,12 @@ main .win-lot-top-games {
 }
 
 .header-cs a {
-    display: inline-block;
-    width: 23px;
+  display: inline-block;
+  width: 23px;
+  vertical-align: middle;
+}
+.header-cs #m-selectpicker2-collapse a{
+  width: auto;
 }
 
 .header-cs img {
@@ -6692,7 +6698,7 @@ div.acc-info.acc-edit div.acc-cont input {
     width: 100%;
 }
 
-.menu-m-xs {
+.menu-m-xs, .flag-menu-m {
     position: relative;
     display: inline-block;
 }
@@ -6713,7 +6719,12 @@ div.acc-info.acc-edit div.acc-cont input {
     display: block;
     width: 100%
 }
-
+.header-cs #m-selectpicker2-collapse ul li{
+  border-top: none
+}
+.header-cs #m-selectpicker2-collapse ul li:first-child{
+  border-top: 1px solid #4a4a4a
+}
 .header-cs ul li:last-child {
     border-bottom: 1px solid #4a4a4a
 }
@@ -7385,12 +7396,13 @@ button .flag-icon-kr::before {
 .top-hc img {
     max-width: 130%;
     position: relative;
-    bottom: 4px
+    bottom: 4px;
+    right: 3px;
 }
 
 .header-cs .menu-m-xs {
     position: relative;
-    bottom: 6px
+    bottom: 3px
 }
 
 .menu-m-xs div ul li {
@@ -8732,7 +8744,9 @@ span.add-ico{
   vertical-align: top;
   color: #ffffff;
   margin-left: 30px;
-  letter-spacing: 1px
+  letter-spacing: 1px;
+  position: relative;
+  top: 7px;
 }
 .dl-area ul li{
   padding: 4.5px 5px;
@@ -8965,7 +8979,7 @@ span.add-ico{
       min-width: 40px;
 }
 .boxer-last a{
-  color: #000;
+  color: #573601;
   padding: 0 0;
   background: none;
   margin-top: 0;
@@ -8987,6 +9001,10 @@ span.add-ico{
   vertical-align: middle;
   margin-left: 5px;
 }
+.boxer-last .arrow-right-brown::after{
+  background: url('../img/arrow-right-brown.png') no-repeat;
+  background-size: contain;
+}
 .bago_nanaman .boxer-last{
   padding: 0 0;
   min-height: 41px;
@@ -9001,8 +9019,7 @@ span.add-ico{
   -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
-  text-shadow: 1px 1px rgb(255, 214, 135);
-  color: #000;
+  color: #573601;
   font-weight: 700;
   letter-spacing: 1px;
 
@@ -9017,6 +9034,10 @@ span.add-ico{
   background-size: cover;
   position: relative;
   margin-left: 5px
+}
+.bs-slider-overlay .arrow-right-brown::after{
+  background: url('../img/arrow-right-brown.png') no-repeat;
+  background-size: cover;
 }
 .mobile-banner-wrapper .bs-slider-overlay{
   position: absolute;
@@ -9165,7 +9186,7 @@ span.add-ico{
   padding-right: 45px;
   font-size: 14px;
   bottom: 3px;
-  min-width: 159px;
+  min-width: 240px;
   border: solid 1px #333
 }
 .footer-dropdown button:active, .footer-dropdown button:focus, .footer-dropdown button:hover{
@@ -9197,7 +9218,8 @@ span.add-ico{
   padding: 0 0;
   border-radius: 3px;
   height: 322px;
-    overflow-y: scroll;
+  overflow-y: scroll;
+  min-width: 240px;
 }
 .footer-dropdown .dropdown-menu li a{
   color: #fff;
@@ -9232,4 +9254,31 @@ span.add-ico{
 @font-face {
     font-family: Tungsten;
     src: url(../fonts/Tungsten-Semibold.ttf);
+}
+.m-selectpicker2 span{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url('../img/flags/taiwan-nb.png') no-repeat;
+  background-size: contain;
+}
+#m-selectpicker2-collapse{
+  position: absolute;
+  z-index: 1049;
+  background: #333;
+  left: -23px
+}
+#m-selectpicker2-collapse a{
+  text-align: center;
+  padding: 5px 15px;
+}
+#m-selectpicker2-collapse ul li:first-child a{
+  padding-top: 15px;
+}
+#m-selectpicker2-collapse ul li:last-child a{
+  padding-bottom: 15px;
+}
+#m-selectpicker2-collapse .flag-icon{
+  display: block;
+  width: 100%;
 }
