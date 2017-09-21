@@ -790,7 +790,7 @@ $(document).ready(function () {
          'country_name': 'Bahasa Melayu'
        },
        {
-         'country_name': 'Malaysian (English)'
+         'country_name': 'Bahasa Melayu (Bahasa Inggeris)'
        },
        {
          'country_name': 'ภาษาไทย'
