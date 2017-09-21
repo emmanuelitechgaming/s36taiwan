@@ -8746,7 +8746,7 @@ span.add-ico{
   margin-left: 50px;
   letter-spacing: 1px;
   position: relative;
-  top: -12px;
+  top: -22px;
   width: 379px;
 }
 .dl-area ul li{
@@ -8938,9 +8938,14 @@ span.add-ico{
   letter-spacing: 1px
 }
 .boxer  div.step-txt{
+  margin: 0 20px;
+  text-align: left;
   font-weight: 700;
   font-size: 14px;
   margin-left: 1px;
+  padding-right: 35px;
+
+
 }
 .boxer div span{
   font-weight: 400;
@@ -9277,4 +9282,60 @@ span.add-ico{
 #m-selectpicker2-collapse .flag-icon{
   display: block;
   width: 100%;
+}
+.jackpot-winner{
+  background: url("../../jackpotAds-bg.png");
+  height: 127px;
+  width: 603px;
+}
+.users-winner{
+  background: url("../../winnerAds-bg.png");
+  height: 127px;
+  width: 603px;
+}
+.top-users{
+  margin-top: 55px;
+}
+.top-users .flexslider, .top-players .flexslider{
+  padding:  0!important;
+}
+.users-winner .user {
+  text-align: center;
+}
+.users-winner div span{
+  display: block;
+  color: #fba601;
+  font-size: 14;
+}
+.jackpot-winner .top-players div{
+  text-align: center;
+}
+
+.top-players .player{
+  width: 100%;
+margin-top: 55px;
+text-align: center;
+}
+.top-players .player img{
+  display: inline-block;
+vertical-align: top;
+width: 53px;
+height: 57px;
+margin: 0 10px;
+}
+.top-players .player div{
+  display: inline-block;
+  text-align: left;
+}
+.top-players .player div span{
+  display: block;
+  color: #fba601;
+  font-size: 20px;
+}
+.dl-area img{
+
+  border: 2px solid #484848;
+}
+.dl-area img:hover{
+  border: 2px solid #fba601;
 }
