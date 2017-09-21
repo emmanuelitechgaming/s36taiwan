@@ -9304,7 +9304,8 @@ span.add-ico{
 .users-winner div span{
   display: block;
   color: #fba601;
-  font-size: 14;
+  font-size: 17px;
+  margin-top: 2px;
 }
 .jackpot-winner .top-players div{
   text-align: center;
