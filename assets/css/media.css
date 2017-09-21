@@ -1184,6 +1184,9 @@ z-index: 99999;
       text-align: center;
       padding-right: 0;
     }
+    .njackpot-nwinner{
+      display: none;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4148,6 +4151,10 @@ margin-top: -18px;
     margin: 0 20px;
     text-align: left;
     padding-right: 35px;
+  }
+  .njackpot-nwinner{
+    display: block;
+    margin-bottom: 15px;
   }
 }
 
