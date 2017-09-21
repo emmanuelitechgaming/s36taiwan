@@ -1179,6 +1179,11 @@ z-index: 99999;
     .header-cs .bookmark-m{
       display: none
     }
+    .boxer  div.step-txt{
+      margin: 0 0;
+      text-align: center;
+      padding-right: 0;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4137,6 +4142,11 @@ margin-top: -18px;
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
     top: 10px;
+  }
+  .boxer  div.step-txt{
+    margin: 0 20px;
+    text-align: left;
+    padding-right: 35px;
   }
 }
 
