@@ -2967,8 +2967,7 @@ z-index: 99999;
         margin-bottom: 5px
     }
     .rss-field .form-group:nth-child(2) input {
-      width: 39%;
-      float: right;
+    width: 90px;
     }
     .rss-field .form-group:nth-child(2) {
         width: 80.6%
@@ -4160,7 +4159,7 @@ margin-top: -18px;
 
 @media only screen and (min-width: 1200px) {
   .rss-field .form-group:nth-child(1) input {
-      width: 240px !important
+      width: 350px !important
   }
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 20px;
