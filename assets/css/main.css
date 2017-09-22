@@ -9220,12 +9220,12 @@ span.add-ico{
   min-width: 240px;
 }
 .footer-dropdown .dropdown-menu li a{
-  color: #fff;
+  color: #222;
   font-weight: 700;
   padding: 0 10px;
   font-size: 12px;
   cursor: pointer;
-  background: #222
+  background: #f5f5f5
 }
 .footer-dropdown2 .dropdown-menu li a{
   padding: 10px 10px;
@@ -9236,7 +9236,8 @@ span.add-ico{
 .footer-dropdown .dropdown-menu li a:hover{
   background-color: transparent;
   -webkit-transition: color 0.3s;
-  transition: color 0.3s
+  transition: color 0.3s;
+  color: #f5f5f5;
 }
 .footer-dropdown ul li:hover{
   background: #525252;
