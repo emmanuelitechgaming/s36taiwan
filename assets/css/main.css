@@ -9217,8 +9217,6 @@ span.add-ico{
   border: solid 1px #4a4a4a;
   padding: 0 0;
   border-radius: 3px;
-  height: 322px;
-  overflow-y: scroll;
   min-width: 240px;
 }
 .footer-dropdown .dropdown-menu li a{
@@ -9227,6 +9225,7 @@ span.add-ico{
   padding: 0 10px;
   font-size: 12px;
   cursor: pointer;
+  background: #222
 }
 .footer-dropdown2 .dropdown-menu li a{
   padding: 10px 10px;

@@ -4067,6 +4067,9 @@ margin-top: -18px;
     padding-left: 15px;
     padding-right: 15px;
   }
+  .bago-afterlogin .col-6{
+    width: 33.33333%
+  }
   .bago_nanaman .boxer{
     margin: 0 0;
     font-size: 15px;
@@ -4122,6 +4125,9 @@ margin-top: -18px;
   }
   .bago_nanaman .boxer::after{
     content: '';
+  }
+  .bago-afterlogin .col-6:last-child .boxer::after{
+    content: none;
   }
   .boxer-last a{
     font-size: 18px;
