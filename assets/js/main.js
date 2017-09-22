@@ -891,7 +891,8 @@ $(document).ready(function () {
         direction: 'vertical',
         slideshowSpeed: '5000',
         controlNav: false,
-        directionNav: false
+        directionNav: false,
+        animationLoop: true
 
       });
       $('.top2 .flexslider').flexslider({
@@ -900,14 +901,16 @@ $(document).ready(function () {
         slideshowSpeed: '6000',
         controlNav: false,
         directionNav: false,
-        reverse: true
+        reverse: true,
+        animationLoop: true
       });
       $('.top3 .flexslider').flexslider({
         animation: 'slide',
         direction: 'vertical',
         slideshowSpeed: '7000',
         controlNav: false,
-        directionNav: false
+        directionNav: false,
+        animationLoop: true
       });
 
       $('.top-players .flexslider').flexslider({
@@ -915,7 +918,8 @@ $(document).ready(function () {
         direction: 'horizontal',
         slideshowSpeed: '5000',
         controlNav: false,
-        directionNav: false
+        directionNav: false,
+        animationLoop: true
       });
 
       $('.recent-winners .flexslider').flexslider({
