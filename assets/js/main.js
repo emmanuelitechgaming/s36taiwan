@@ -879,22 +879,19 @@ $(document).ready(function () {
       });
 
       $('.flexslider-parent').flexslider({
-
           selector: ".slides-parent > li",
           animation: "slide",
           slideshowSpeed: '10000',
           direction: 'horizontal',
           directionNav: false,
-          controlNav: false
+          controlNav: false,
       });
-
-
       $('#flexslider-nested-1.flexslider').flexslider({
         animation: 'slide',
         direction: 'vertical',
         controlNav: false,
         slideshowSpeed: '3000',
-        directionNav: false
+        directionNav: false,
       });
       $('#flexslider-nested-2.flexslider').flexslider({
         animation: 'slide',
@@ -902,16 +899,15 @@ $(document).ready(function () {
         controlNav: false,
         slideshowSpeed: '3000',
         directionNav: false,
-        reverse: true
+        reverse: true,
       });
       $('#flexslider-nested-3.flexslider').flexslider({
         animation: 'slide',
         direction: 'vertical',
         controlNav: false,
         slideshowSpeed: '3000',
-        directionNav: false
+        directionNav: false,
       });
-
 
       $('.malupetnaflexslider .flexslider').flexslider({
         animation: 'slide',
@@ -934,8 +930,7 @@ $(document).ready(function () {
         slideshowSpeed: '5000',
         controlNav: false,
         directionNav: false,
-        animationLoop: true
-
+        animationLoop: true,
       });
       $('.top2 .flexslider').flexslider({
         animation: 'slide',
@@ -944,7 +939,8 @@ $(document).ready(function () {
         controlNav: false,
         directionNav: false,
         reverse: true,
-        animationLoop: true
+        animationLoop: true,
+        slideshow: false
       });
       $('.top3 .flexslider').flexslider({
         animation: 'slide',
@@ -952,7 +948,8 @@ $(document).ready(function () {
         slideshowSpeed: '7000',
         controlNav: false,
         directionNav: false,
-        animationLoop: true
+        animationLoop: true,
+        slideshow: false
       });
 
       $('.top-players .flexslider').flexslider({
@@ -961,7 +958,8 @@ $(document).ready(function () {
         slideshowSpeed: '5000',
         controlNav: false,
         directionNav: false,
-        animationLoop: true
+        animationLoop: true,
+        slideshow: false
       });
 
       $('.recent-winners .flexslider').flexslider({
