@@ -8971,12 +8971,31 @@ span.add-ico{
 }
 .boxer .step-no{
   font-family: Tungsten;
-      position: relative;
-      top: 0;
-      color: #fff;
-      font-weight: 700;
-      font-size: 2.9em;
-      min-width: 40px;
+  position: relative;
+  top: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.9em;
+  min-width: 40px;
+}
+.boxer .step-no.steps{
+  width: 50px;
+  height: 50px;
+  margin: 3.5px 0;
+  position: relative;
+  top: -1px
+}
+.boxer .step-no.step1{
+  background: url('../img/step1.png') no-repeat;
+  background-size: cover;
+}
+.boxer .step-no.step2{
+  background: url('../img/step2.png') no-repeat;
+  background-size: cover;
+}
+.boxer .step-no.step3{
+  background: url('../img/step3.png') no-repeat;
+  background-size: cover;
 }
 .boxer-last a{
   color: #573601;
@@ -9292,10 +9311,10 @@ span.add-ico{
   height: 127px;
   width: 603px;
 }
-.top-users{
+.top-users, .flexslider-parent ul li .flexslider{
   margin-top: 55px;
 }
-.top-users .flexslider, .top-players .flexslider{
+.top-users .flexslider, .top-players .flexslider, .flexslider-parent, .flexslider-parent ul li .flexslider{
   padding:  0!important;
 }
 .users-winner .user {
@@ -9311,23 +9330,23 @@ span.add-ico{
   text-align: center;
 }
 
-.top-players .player{
+.top-players .player, .flexslider-parent .player{
   width: 100%;
 margin-top: 55px;
 text-align: center;
 }
-.top-players .player img{
+.top-players .player img, .flexslider-parent .player img{
   display: inline-block;
-vertical-align: top;
-width: 53px;
-height: 57px;
-margin: 0 10px;
-}
-.top-players .player div{
+  vertical-align: top;
+  width: 53px;
+  height: 57px;
+  margin: 0 10px;
+  }
+.top-players .player div, .flexslider-parent .player div{
   display: inline-block;
   text-align: left;
 }
-.top-players .player div span{
+.top-players .player div span, .flexslider-parent .player div span{
   display: block;
   color: #fba601;
   font-size: 20px;
