@@ -878,6 +878,31 @@ $(document).ready(function () {
         $(this).removeClass('more-hover');
       });
 
+      $('.flexslider-parent').flexslider({
+
+          selector: ".slides-parent > li",
+          animation: "slide",
+          direction: 'horizontal',
+          directionNav: false,
+          controlNav: false
+      });
+
+
+      $('#flexslider-nested-1.flexslider').flexslider({
+        animation: 'slide',
+        direction: 'vertical',
+        controlNav: false,
+        directionNav: false
+      });
+
+
+      $('.malupetnaflexslider .flexslider').flexslider({
+        animation: 'slide',
+        direction: 'horizontal',
+        slideshowSpeed: '5000',
+        controlNav: false,
+        directionNav: false
+      });
       $('.top-games .flexslider').flexslider({
         animation: 'slide',
         direction: 'vertical',
@@ -930,6 +955,7 @@ $(document).ready(function () {
         directionNav: false,
       });
 });
+
 
 function nextTab(elem) {
     $(elem).next().find('a[data-toggle="tab"]').click();
