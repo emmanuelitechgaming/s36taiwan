@@ -4464,6 +4464,12 @@ main .marquee {
   }
   .bago_nanaman .container{
       width: 1295px;
+      padding-right: 12px;
+  }
+  .bago-afterlogin .container{
+    width: 1511px;
+    padding-right: 19px;
+    padding-left: 65px;
   }
   .drop {
       right: 17.11%;
