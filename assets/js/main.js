@@ -900,7 +900,7 @@ $(document).ready(function () {
         animation: 'slide',
         direction: 'vertical',
         controlNav: false,
-        slideshowSpeed: '3000',
+        slideshowSpeed: '4000',
         directionNav: false,
         reverse: true
       });
@@ -908,7 +908,7 @@ $(document).ready(function () {
         animation: 'slide',
         direction: 'vertical',
         controlNav: false,
-        slideshowSpeed: '3000',
+        slideshowSpeed: '5000',
         directionNav: false
       });
 
