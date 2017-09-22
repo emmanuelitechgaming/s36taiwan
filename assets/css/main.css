@@ -9310,6 +9310,7 @@ span.add-ico{
   background: url("../../winnerAds-bg.png");
   height: 127px;
   width: 603px;
+  padding-right: 13px;
 }
 .top-users, .flexslider-parent ul li .flexslider{
   margin-top: 45px;
@@ -9387,15 +9388,26 @@ span.add-ico{
   max-width: 100%;
 }
 .user .number{
-  width: 48px;
+  width: 55px;
   position: absolute;
-  left: 0;
-  top: 0px
+  left: -3px;
+  top: 3px;
 }
 .user div{
   display: inline-block;
   position: relative;
-  left: 15px
+  left: -10px;
+  background: #7d7d7d;
+  z-index: 1;
+  white-space: nowrap;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+.user .number{
+  background: transparent;
+  z-index: 2;
+  padding-left: 0;
+  padding-right: 0;
 }
 .users-winner .col-md-4{
   padding-right: 0
