@@ -887,14 +887,17 @@ $(document).ready(function () {
           controlNav: false,
           animationLoop: true,
           after: function(slider) {
-            $('.flexslider-parent').flexslider('pause');
+            // $('.flexslider-parent').flexslider('pause');
             $('#flexslider-nested-1.flexslider').flexslider({
               animation: 'slide',
               direction: 'vertical',
               controlNav: false,
               slideshowSpeed: '3000',
               directionNav: false,
-              animationLoop: false
+              animationLoop: false,
+              end: function() {
+                // $('.flexslider-parent').flexslider('play');
+              }
             });
             $('#flexslider-nested-2.flexslider').flexslider({
               animation: 'slide',
