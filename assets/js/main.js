@@ -950,7 +950,6 @@ $(document).ready(function () {
         directionNav: false,
         reverse: true,
         animationLoop: true,
-        slideshow: false
       });
       $('.top3 .flexslider').flexslider({
         animation: 'slide',
@@ -959,9 +958,7 @@ $(document).ready(function () {
         controlNav: false,
         directionNav: false,
         animationLoop: true,
-        slideshow: false
       });
-
       $('.top-players .flexslider').flexslider({
         animation: 'slide',
         direction: 'horizontal',
