@@ -882,6 +882,7 @@ $(document).ready(function () {
 
           selector: ".slides-parent > li",
           animation: "slide",
+          slideshowSpeed: '10000',
           direction: 'horizontal',
           directionNav: false,
           controlNav: false
@@ -892,6 +893,22 @@ $(document).ready(function () {
         animation: 'slide',
         direction: 'vertical',
         controlNav: false,
+        slideshowSpeed: '3000',
+        directionNav: false
+      });
+      $('#flexslider-nested-2.flexslider').flexslider({
+        animation: 'slide',
+        direction: 'vertical',
+        controlNav: false,
+        slideshowSpeed: '3000',
+        directionNav: false,
+        reverse: true
+      });
+      $('#flexslider-nested-3.flexslider').flexslider({
+        animation: 'slide',
+        direction: 'vertical',
+        controlNav: false,
+        slideshowSpeed: '3000',
         directionNav: false
       });
 
