@@ -881,32 +881,35 @@ $(document).ready(function () {
       $('.flexslider-parent').flexslider({
           selector: ".slides-parent > li",
           animation: "slide",
-          slideshowSpeed: '10000',
           direction: 'horizontal',
+          slideshowSpeed: 11000,
           directionNav: false,
           controlNav: false,
-      });
-      $('#flexslider-nested-1.flexslider').flexslider({
-        animation: 'slide',
-        direction: 'vertical',
-        controlNav: false,
-        slideshowSpeed: '3000',
-        directionNav: false,
-      });
-      $('#flexslider-nested-2.flexslider').flexslider({
-        animation: 'slide',
-        direction: 'vertical',
-        controlNav: false,
-        slideshowSpeed: '3000',
-        directionNav: false,
-        reverse: true,
-      });
-      $('#flexslider-nested-3.flexslider').flexslider({
-        animation: 'slide',
-        direction: 'vertical',
-        controlNav: false,
-        slideshowSpeed: '3000',
-        directionNav: false,
+          animationLoop: true,
+          after: function() {
+            $('#flexslider-nested-1.flexslider').flexslider({
+              animation: 'slide',
+              direction: 'vertical',
+              controlNav: false,
+              slideshowSpeed: '3000',
+              directionNav: false,
+            });
+            $('#flexslider-nested-2.flexslider').flexslider({
+              animation: 'slide',
+              direction: 'vertical',
+              controlNav: false,
+              slideshowSpeed: '3000',
+              directionNav: false,
+              reverse: true,
+            });
+            $('#flexslider-nested-3.flexslider').flexslider({
+              animation: 'slide',
+              direction: 'vertical',
+              controlNav: false,
+              slideshowSpeed: '3000',
+              directionNav: false,
+            });
+          }
       });
 
       $('.malupetnaflexslider .flexslider').flexslider({
@@ -959,7 +962,6 @@ $(document).ready(function () {
         controlNav: false,
         directionNav: false,
         animationLoop: true,
-        slideshow: false
       });
 
       $('.recent-winners .flexslider').flexslider({

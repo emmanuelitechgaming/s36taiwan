@@ -9317,6 +9317,20 @@ span.add-ico{
 .top-users .flexslider, .top-players .flexslider, .flexslider-parent, .flexslider-parent ul li .flexslider{
   padding:  0!important;
 }
+.flexslider-parent ul li .flexslider::after{
+  content: '';
+  width: 2px;
+  position: absolute;
+  background: red;
+  top: 0;
+  bottom: 0;
+  right: -15px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#595959));
+  background: linear-gradient(#000000, #595959);
+}
+.flexslider-parent .last-md .flexslider::after{
+  content: none !important
+}
 .users-winner .user {
   text-align: center;
 }
@@ -9357,4 +9371,7 @@ text-align: center;
 }
 .dl-area img:hover{
   border: 2px solid #fba601;
+}
+.user-1first,.user-3first{
+  visibility: hidden;
 }
