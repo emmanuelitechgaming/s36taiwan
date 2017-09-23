@@ -979,7 +979,7 @@ $(document).ready(function () {
         directionNav: false,
         after: function(){ // After Call back
              $('.tab2 .flex-next ').trigger('click');
-              }
+           }
       });
       $('.tab2 .flexslider').flexslider({
         animation: 'slide ',

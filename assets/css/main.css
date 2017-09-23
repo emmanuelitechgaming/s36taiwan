@@ -9398,14 +9398,21 @@ span.add-ico{
   padding-right: 0
 }
 .flexslider table, th, td {
-    border: 1px solid #636363;
-    border-top: 0;
-    border-collapse: collapse;
-    text-align: center;
-        padding: 5px 15px;
+  border: 1px solid #636363;
+  border-top: 0;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px 15px;
+}
+.jackpot-winner2 .flexslider td{
+  padding: 10px 15px
 }
 .flexslider tr{
   background: #1b1a1a;
+}
+.flexslider tr.grand-winner{
+  background: -webkit-gradient(linear, left top, left bottom, from(#2e2e2e), to(#1b1a1a));
+  background: linear-gradient(#2e2e2e, #1b1a1a);
 }
 .flexslider tr td:first-child {
   min-width: 47px;
@@ -9421,9 +9428,13 @@ span.add-ico{
 }
 .flexslider tr th{
   background: #131313;
-  color: #fba601;
+  background: -webkit-linear-gradient(#f7b86b, #fba601);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 700;
   letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 700;
 }
 .other-tab{
   margin-top: -40px;
@@ -9438,4 +9449,14 @@ span.add-ico{
 }
 .grand-winner .top-ano,.grand-winner .top-bakit{
   display: inline-block;
+}
+.jackpot-winner .flexslider table{
+  width: 100%;
+  max-width: 100%;
+}
+.jackpot-winner2 .flexslider table tr td:first-child{
+  width: 175px
+}
+.footer-dropdown .title{
+  text-align: center;
 }
