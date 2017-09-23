@@ -9240,14 +9240,13 @@ span.add-ico{
 }
 .footer-dropdown .dropdown-menu li a{
   color: #222;
-  font-weight: 700;
   padding: 0 10px;
   font-size: 12px;
   cursor: pointer;
   background: whitesmoke
 }
 .footer-dropdown2 .dropdown-menu li a{
-  padding: 10px 10px;
+  padding: 10px 20px;
 }
 .footer-dropdown2 .dropdown-menu li:last-child a{
   border-bottom: none
@@ -9269,6 +9268,33 @@ span.add-ico{
   position: absolute;
   bottom: 10px;
   right: 10px;
+}
+.footer-dropdown .title{
+  text-align: center;
+}
+.footer-dropdown .dropdown-menu .title a{
+  background: #333;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: normal
+}
+.footer-dropdown .dropdown-menu i{
+  font-size: 16px;
+  font-weight: normal;
+  margin-right: 10px;
+  opacity: 0;
+}
+.footer-dropdown .dropdown-menu .check i{
+  opacity: 1
+}
+.footer-dropdown .dropdown-menu .check a{
+  font-weight: 700;
+  border-bottom: 1px solid #8a8a8a;
+  padding: 15px 20px;
+}
+.footer-dropdown .dropdown-menu .last{
+  text-align: right;
 }
 @font-face {
     font-family: Tungsten;
@@ -9350,16 +9376,16 @@ span.add-ico{
 
 .top-players .player, .flexslider-parent .player{
   width: 100%;
-  margin-top: 20px;
+  margin-top: 13px;
   text-align: center;
 }
 .top-players .player img, .flexslider-parent .player img{
   display: inline-block;
   vertical-align: top;
-  width: 90px;
-  height: 95px;
+  width: 120px;
+  height: 100px;
   margin: 0px 25px;
-  margin-left: 60px;
+  margin-left: 25px;
   }
 .top-players .player div, .flexslider-parent .player div{
   display: inline-block;
@@ -9367,6 +9393,7 @@ span.add-ico{
   font-size: 20px;
   position: relative;
   top: 25px;
+  letter-spacing: 4px
 }
 .top-players .player div span, .flexslider-parent .player div span{
   display: block;
