@@ -9310,9 +9310,10 @@ span.add-ico{
   background: url("../../winnerAds-bg.png");
   height: 127px;
   width: 603px;
+  padding-right: 13px;
 }
 .top-users, .flexslider-parent ul li .flexslider{
-  margin-top: 55px;
+  margin-top: 45px;
 }
 .top-users .flexslider, .top-players .flexslider, .flexslider-parent, .flexslider-parent ul li .flexslider{
   padding:  0!important;
@@ -9332,12 +9333,15 @@ span.add-ico{
   content: none !important
 }
 .users-winner .user {
-  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  font-size: 13px;
+  padding-left: 40px
 }
 .users-winner div span{
   display: block;
   color: #fba601;
-  font-size: 17px;
+  font-size: 14px;
   margin-top: 2px;
 }
 .jackpot-winner .top-players div{
@@ -9346,24 +9350,28 @@ span.add-ico{
 
 .top-players .player, .flexslider-parent .player{
   width: 100%;
-margin-top: 55px;
-text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 .top-players .player img, .flexslider-parent .player img{
   display: inline-block;
   vertical-align: top;
-  width: 53px;
-  height: 57px;
-  margin: 0 10px;
+  width: 90px;
+  height: 95px;
+  margin: 0px 25px;
+  margin-left: 60px;
   }
 .top-players .player div, .flexslider-parent .player div{
   display: inline-block;
   text-align: left;
+  font-size: 20px;
+  position: relative;
+  top: 25px;
 }
 .top-players .player div span, .flexslider-parent .player div span{
   display: block;
   color: #fba601;
-  font-size: 20px;
+  font-size: 30px;
 }
 .dl-area img{
 
@@ -9374,4 +9382,33 @@ text-align: center;
 }
 .user-1first,.user-3first{
   visibility: hidden;
+}
+.users-winner .flexsliderx .slides img{
+  width: auto;
+  max-width: 100%;
+}
+.user .number{
+  width: 55px;
+  position: absolute;
+  left: -3px;
+  top: 3px;
+}
+.user div{
+  display: inline-block;
+  position: relative;
+  left: -10px;
+  background: #7d7d7d;
+  z-index: 1;
+  white-space: nowrap;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+.user .number{
+  background: transparent;
+  z-index: 2;
+  padding-left: 0;
+  padding-right: 0;
+}
+.users-winner .col-md-4{
+  padding-right: 0
 }
