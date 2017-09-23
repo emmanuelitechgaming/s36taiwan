@@ -799,7 +799,7 @@ $(document).ready(function () {
          'country_name': '中文 -(越南)'
        },
        {
-         'country_name': '马来文 - (Malaysia)'
+         'country_name': '马来文 - (Bahasa Malaysia)'
        },
        {
          'country_name': '英文 - (马来西亚)'
