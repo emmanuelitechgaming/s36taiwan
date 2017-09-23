@@ -831,7 +831,7 @@ $(document).ready(function () {
        $('.footer-dropdown2 ul').append('<li><a href="javascript:void(0)" data-value="'+v.country_name+'"><i class="fa fa-check"> </i> '+v.country_name+'</a></li>')
      })
 
-     $('.footer-dropdown2 ul').append('<li class="last"><a href="javascript:void(0)">取消</a></li>')
+     $('.footer-dropdown2 ul').append('<li class="last"><a href="javascript:void(0)">取消 </a></li>')
 
      $('.footer-dropdown2 ul li a').click(function() {
        console.log($(this).data('value'));
