@@ -6291,49 +6291,39 @@ main .win-lot-top-games {
 .contactus ul li span {
     white-space: nowrap;
 }
-
 .contactus ul li:nth-child(1) a {
     padding-bottom: 2px;
 }
-
 .contactus ul li:nth-child(1) a,
 .contactus ul li:nth-child(4) a {
     border-bottom: 2px solid #fba601
 }
-
 .navbar-afterlogin {
     position: relative;
-    top: -2px
+    top: -2px;
+    left: 22px
 }
-
 .navbar-afterlogin ul li {
-    margin-left: 22px;
+    margin-left: 28px;
     position: relative;
     font-size: 20px;
-    font-weight: 700;
 }
-
 .navbar-afterlogin ul li a {
     text-decoration: none;
     color: #fff;
 }
-
 .navbar-afterlogin ul li a span {
     position: relative;
     top: 3px
 }
-
 .navbar-afterlogin ul li a img {
     width: 30px;
     position: relative;
-    top: 2px
+    top: 1px
 }
-
-
-/*.navbar-afterlogin ul li:nth-child(3) a img{
-  width: 37px;
-}*/
-
+.navbar-afterlogin ul li:nth-child(2) a img{
+  width: 29px
+}
 .navbar-afterlogin .notif {
     position: absolute;
     top: 0px;
@@ -6344,7 +6334,6 @@ main .win-lot-top-games {
     font-size: 13px;
     border-radius: 50%;
 }
-
 .mnav-afterlogin .notif {
     background: #fba601;
     border-radius: 50%;
@@ -6354,11 +6343,9 @@ main .win-lot-top-games {
     position: absolute;
     top: -7px;
 }
-
 .allgames-body ul li {
     margin-bottom: 10px;
 }
-
 .allgames-body ul li a {
     color: #5e5e5e
 }
@@ -7473,15 +7460,8 @@ button .flag-icon-kr::before {
     right: 40px;
     left: auto;
 }
-
-.navbar-top-right {
-    position: relative;
-    top: 7px
-}
-
 .navbar-top-right li a {
     font-size: 20px;
-    font-weight: 700;
     color: #fff;
     margin-left: 17.8px
 }
@@ -7503,10 +7483,12 @@ button .flag-icon-kr::before {
     height: 24px;
     margin-right: 5px;
 }
-
-.navbar-top-right li:nth-child(1) a img{
+.navbar-top-right li a img{
   position: relative;
-  top: 1px;
+  top: -1px
+}
+.navbar-top-right li:nth-child(1) a img{
+  top: 0px;
 }
 
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li a img {
@@ -8979,23 +8961,27 @@ span.add-ico{
   min-width: 40px;
 }
 .boxer .step-no.steps{
-  width: 50px;
-  height: 50px;
-  margin: 3.5px 0;
+  width: 45px;
+  height: 45px;
+  margin: 6px 0;
   position: relative;
-  top: -1px
+  top: 0px
 }
 .boxer .step-no.step1{
   background: url('../img/step1.png') no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .boxer .step-no.step2{
   background: url('../img/step2.png') no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .boxer .step-no.step3{
   background: url('../img/step3.png') no-repeat;
-  background-size: cover;
+  background-size: contain;
+}
+.boxer .step-no.step4{
+  background: url('../img/step4.png') no-repeat;
+  background-size: contain;
 }
 .boxer-last a{
   color: #573601;
@@ -9231,7 +9217,6 @@ span.add-ico{
   width: 2.3333em;
 }
 .dropup.footer-dropdown .dropdown-menu{
-  margin-bottom: 36px;
   background: #2a2a2a;
   border: solid 1px #4a4a4a;
   padding: 0 0;
@@ -9251,18 +9236,31 @@ span.add-ico{
 .footer-dropdown2 .dropdown-menu li:last-child a{
   border-bottom: none
 }
+.footer-dropdown .dropdown-menu .last a{
+  display: inline-block;
+}
 .footer-dropdown .dropdown-menu li a:hover{
   background-color: transparent;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
   color: #f5f5f5;
 }
+.footer-dropdown .dropdown-menu .last a:hover{
+  font-weight: 700;
+  color: #000;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s
+}
 .footer-dropdown ul li:hover{
   background: #525252;
+}
+.footer-dropdown ul .last:hover{
+  background: whitesmoke
 }
 .footer-dropdown ul li{
   position: relative;
   min-width: 150px;
+  background: whitesmoke
 }
 .footer-dropdown2 input[type=radio]{
   position: absolute;
