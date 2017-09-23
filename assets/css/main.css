@@ -4850,7 +4850,7 @@ left: 47%;
 }
 
 .btn-warning2 {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 .modal-bottom {
@@ -9194,7 +9194,7 @@ span.add-ico{
   padding: 4px 20px;
   padding-right: 45px;
   font-size: 14px;
-  bottom: 14px;
+  bottom: 3px;
   min-width: 240px;
   border: solid 1px #333
 }
@@ -9227,30 +9227,29 @@ span.add-ico{
   border-radius: 3px;
   min-width: 240px;
 }
-.footer-dropdown .dropdown-menu li a{
+.footer-dropdown .dropdown-menu li a, .footer-dropdown .dropdown-menu li div{
   color: #222;
-  font-weight: 700;
   padding: 0 10px;
   font-size: 12px;
   cursor: pointer;
   background: whitesmoke
 }
-.footer-dropdown2 .dropdown-menu li a{
-  padding: 10px 10px;
+.footer-dropdown2 .dropdown-menu li a, .footer-dropdown2 .dropdown-menu li div{
+  padding: 10px 20px;
 }
-.footer-dropdown2 .dropdown-menu li:last-child a{
+.footer-dropdown2 .dropdown-menu li:last-child a, .footer-dropdown2 .dropdown-menu li:last-child div{
   border-bottom: none
 }
-.footer-dropdown .dropdown-menu .last a{
+.footer-dropdown .dropdown-menu .last a, .footer-dropdown .dropdown-menu .last div{
   display: inline-block;
 }
-.footer-dropdown .dropdown-menu li a:hover{
+.footer-dropdown .dropdown-menu li a:hover, .footer-dropdown .dropdown-menu li div:hover{
   background-color: transparent;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
   color: #f5f5f5;
 }
-.footer-dropdown .dropdown-menu .last a:hover{
+.footer-dropdown .dropdown-menu .last a:hover, .footer-dropdown .dropdown-menu .last div:hover{
   font-weight: 700;
   color: #000;
   -webkit-transition: all 0.2s;
@@ -9271,6 +9270,34 @@ span.add-ico{
   position: absolute;
   bottom: 10px;
   right: 10px;
+}
+.footer-dropdown .title{
+   text-align: center;
+}
+ .footer-dropdown .dropdown-menu .title a{
+   background: #333;
+   color: #fff;
+   padding: 15px 0;
+   font-size: 16px;
+   font-weight: normal
+}
+ .footer-dropdown .dropdown-menu i{
+   font-size: 16px;
+   font-weight: normal;
+   margin-right: 10px;
+   opacity: 0;
+}
+ .footer-dropdown .dropdown-menu .check i{
+   opacity: 1
+}
+ .footer-dropdown .dropdown-menu .check a,  .footer-dropdown .dropdown-menu .check div{
+   font-weight: 700;
+   border-bottom: 1px solid #8a8a8a;
+   border-top: 1px solid #8a8a8a;
+   padding: 15px 20px;
+}
+ .footer-dropdown .dropdown-menu .last{
+   text-align: right;
 }
 @font-face {
     font-family: Tungsten;
@@ -9456,7 +9483,4 @@ span.add-ico{
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
   width: 175px
-}
-.footer-dropdown .title{
-  text-align: center;
 }
