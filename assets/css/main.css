@@ -8997,6 +8997,10 @@ span.add-ico{
   background: url('../img/step3.png') no-repeat;
   background-size: cover;
 }
+.boxer .step-no.step4{
+  background: url('../img/step4.png') no-repeat;
+  background-size: cover;
+}
 .boxer-last a{
   color: #573601;
   padding: 0 0;
