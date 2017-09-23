@@ -8961,27 +8961,30 @@ span.add-ico{
   min-width: 40px;
 }
 .boxer .step-no.steps{
-  width: 45px;
-  height: 45px;
-  margin: 6px 0;
+  height: 33px;
+  margin: 12px 0;
   position: relative;
   top: 0px
 }
 .boxer .step-no.step1{
   background: url('../img/step1.png') no-repeat;
   background-size: contain;
+  width: 38px;
 }
 .boxer .step-no.step2{
   background: url('../img/step2.png') no-repeat;
   background-size: contain;
+  width: 36px
 }
 .boxer .step-no.step3{
   background: url('../img/step3.png') no-repeat;
   background-size: contain;
+  width: 30px;
 }
 .boxer .step-no.step4{
   background: url('../img/step4.png') no-repeat;
   background-size: contain;
+  width: 36px;
 }
 .boxer-last a{
   color: #573601;
