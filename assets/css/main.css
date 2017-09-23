@@ -8979,11 +8979,11 @@ span.add-ico{
   min-width: 40px;
 }
 .boxer .step-no.steps{
-  width: 50px;
-  height: 50px;
-  margin: 3.5px 0;
+  width: 45px;
+  height: 45px;
+  margin: 6px 0;
   position: relative;
-  top: -1px
+  top: 0px
 }
 .boxer .step-no.step1{
   background: url('../img/step1.png') no-repeat;
