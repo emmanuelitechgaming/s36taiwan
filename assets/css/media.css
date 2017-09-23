@@ -3904,6 +3904,7 @@ margin-top: -18px;
       background: url('../img/promo/spotlight.png') no-repeat #000;
       background-position: 100%;
       background-size: contain;
+      margin-top: 10px;
     }
     .username-availability button{
       padding-left: 0;

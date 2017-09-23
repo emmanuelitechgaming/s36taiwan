@@ -958,7 +958,7 @@ $(document).ready(function () {
       $('.top-players .flexslider').flexslider({
         animation: 'slide',
         direction: 'horizontal',
-        slideshowSpeed: '5000',
+        slideshowSpeed: '2000',
         controlNav: false,
         directionNav: false,
         animationLoop: true,
@@ -971,6 +971,46 @@ $(document).ready(function () {
         controlNav: false,
         directionNav: false,
       });
+      $('.tab .flexslider').flexslider({
+        animation: 'slide ',
+        direction: 'vertical',
+        slideshowSpeed: '4000',
+        controlNav: false,
+        directionNav: false,
+        after: function(){ // After Call back
+             $('.tab2 .flex-next ').trigger('click');
+              }
+      });
+      $('.tab2 .flexslider').flexslider({
+        animation: 'slide ',
+        direction: 'vertical',
+        slideshow: false,
+        controlNav: false,
+        directionNav: true,
+        after: function(){ // After Call back
+             $('.tab3 .flex-next ').trigger('click');
+              }
+
+
+      });
+      $('.tab3 .flexslider').flexslider({
+        animation: 'slide ',
+        direction: 'vertical',
+        slideshow: false,
+        controlNav: false,
+        directionNav: true
+
+
+});
+$('.tops .flexslider').flexslider({
+  animation: 'slide ',
+  direction: 'vertical',
+  slideshowSpeed: '4000',
+  controlNav: false,
+  directionNav: false
+
+});
+
 });
 
 
