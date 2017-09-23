@@ -772,12 +772,6 @@ $(document).ready(function () {
          'country_name': '英文 - (中国)'
        },
        {
-         'country_name': '繁體 - (澳門)'
-       },
-       {
-         'country_name': '英文 - (澳門)'
-       },
-       {
          'country_name': '繁體 - (台灣)'
        },
        {
