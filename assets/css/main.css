@@ -6317,9 +6317,12 @@ main .win-lot-top-games {
     top: 3px
 }
 .navbar-afterlogin ul li a img {
-    width: 25px;
+    width: 30px;
     position: relative;
     top: 1px
+}
+.navbar-afterlogin ul li:nth-child(2) a img{
+  width: 29px
 }
 .navbar-afterlogin .notif {
     position: absolute;
@@ -7476,8 +7479,8 @@ button .flag-icon-kr::before {
 
 .navbar-top-right li a img {
     display: inline-block;
-    width: 24px;
-    height: 22px;
+    width: 25px;
+    height: 24px;
     margin-right: 5px;
 }
 .navbar-top-right li a img{
