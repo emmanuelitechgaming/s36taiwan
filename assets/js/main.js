@@ -98,7 +98,7 @@ $(document).ready(function () {
   ];
 
   $.each(flag_dropdown, function(key, val) {
-    $('.flag-dropdown .dropdown-menu').append('<li><a href="#" data-value="'+val.country_name+'" data-icon="'+val.icon+'"><span class="flag-icon flag-icon-'+val.icon+'"></span> '+val.country_name+'</a></li>')
+    $('.flag-dropdown .dropdown-menu').append('<li><a href="#" data-value="'+val.country_name+'" data-icon="'+val.icon+'"> <span class="flag-icon flag-icon-'+val.icon+'"> </span> '+val.country_name+'</a></li>')
   })
 
    var hash = window.location.hash;
