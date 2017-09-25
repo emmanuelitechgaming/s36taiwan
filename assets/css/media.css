@@ -9,6 +9,11 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
+  .bago_nanaman .container{
+    padding-left: 0!important;
+    padding-right: 0!important;
+
+  }
     .flexslides {
         margin-left: 17px !important;
     }
@@ -1181,7 +1186,7 @@ z-index: 99999;
     }
     .boxer  div.step-txt{
       margin: 0 0;
-      text-align: center;
+      text-align: left;
       padding-right: 0;
     }
     .njackpot-nwinner{
