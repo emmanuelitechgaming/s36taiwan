@@ -1120,18 +1120,22 @@ z-index: 99999;
       padding-left: 7px;
     }
     .bago_nanaman .boxer{
-      margin-bottom: 10px;
+      margin-bottom: 0px;
       text-align: center;
     }
     .bago_nanaman .boxer-last{
       border: none;
       padding-left: 12px;
-      padding-right: 12px
+      padding-right: 12px;
+      margin-bottom: 3px;
     }
     .col-6{
       width: 33.33333%;
       padding-right: 15px;
       padding-left: 15px;
+    }
+    .bago-afterlogin .col-6{
+      width: 25%;
     }
     .boxer .number{
       display: block;
