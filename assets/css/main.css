@@ -8875,7 +8875,7 @@ span.add-ico{
 }
 .bago_nanaman{
   background: #161616;
-  padding: 0px 10px;
+  padding: 0px ;
   color: #e6e6e6;
 }
 
@@ -8985,7 +8985,7 @@ span.add-ico{
   margin-top: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
-          border-radius: 25px;
+          border-radius: 5PX;
   margin-bottom: 0;
   background: #fba601;
   text-align: center;
