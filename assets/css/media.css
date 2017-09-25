@@ -1123,9 +1123,7 @@ z-index: 99999;
     }
     .bago_nanaman .boxer{
       margin-bottom: 10px;
-      border-radius: 15px;
       text-align: center;
-      padding-bottom: 10px;
     }
     .bago_nanaman .boxer-last{
       border: none;
@@ -4100,7 +4098,7 @@ margin-top: -18px;
   .bago_nanaman .col-md-3.col-xs-12{
   }
   .bago_nanaman .boxer-last{
-    top: 13px;
+    top: 9px;
     padding-left: 0;
     padding-right: 0;
 
@@ -4485,7 +4483,7 @@ main .marquee {
     padding: 3px 10px;
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
-    top: 15px;
+    top: 10px;
   }
   .boxer .content .title {
     font-size: 14px;
