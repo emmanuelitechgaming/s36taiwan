@@ -778,19 +778,19 @@ $(document).ready(function () {
          'country_name': '英文 - (台灣)'
        },
        {
-         'country_name': '印尼文- (印尼)'
+         'country_name': '印尼文- (Bahasa Indonesia)'
        },
        {
          'country_name': '中文 - (印尼)'
        },
        {
-         'country_name': '泰文 - (泰国)'
+         'country_name': '泰文 - (Thailand)'
        },
        {
          'country_name': '中文 - (泰国)'
        },
        {
-         'country_name': '越南文 - (越南)'
+         'country_name': '越南文 - (Vietnam)'
        },
        {
          'country_name': '英文 -(越南)'
@@ -799,7 +799,7 @@ $(document).ready(function () {
          'country_name': '中文 -(越南)'
        },
        {
-         'country_name': '马来文 - (马来西亚)'
+         'country_name': '马来文 - (Bahasa Malaysia)'
        },
        {
          'country_name': '英文 - (马来西亚)'
@@ -808,13 +808,13 @@ $(document).ready(function () {
          'country_name': '中文 -(马来西亚)'
        },
        {
-         'country_name': '日文 - (日本)'
+         'country_name': '日文 - (Japan)'
        },
        {
          'country_name': '中文 - (日本)'
        },
        {
-         'country_name': '印度文 - (印度)'
+         'country_name': '印度文 - (India)'
        },
        {
          'country_name': '中文 - (印度)'
@@ -823,6 +823,12 @@ $(document).ready(function () {
 
      $.each(fd2, function(k, v) {
        $('.footer-dropdown2 ul').append('<li><a href="javascript:void(0)" data-value="'+v.country_name+'"><i class="fa fa-check"> </i> '+v.country_name+'</a></li>')
+     })
+
+     $('.footer-dropdown2 ul li a').click(function(e) {
+       e.stopPropagation();
+       $('.footer-dropdown2 ul li').removeClass('check');
+       $(this).parent('li').addClass('check')
      })
 
      $('.footer-dropdown2 ul').append('<li class="last"><a href="javascript:void(0)">取消 </a></li>')
@@ -979,7 +985,7 @@ $(document).ready(function () {
         directionNav: false,
         after: function(){ // After Call back
              $('.tab2 .flex-next ').trigger('click');
-              }
+           }
       });
       $('.tab2 .flexslider').flexslider({
         animation: 'slide ',
