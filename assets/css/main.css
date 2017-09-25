@@ -9226,6 +9226,7 @@ span.add-ico{
   padding: 0 0;
   border-radius: 3px;
   min-width: 240px;
+  margin-bottom: 15px;
 }
 .footer-dropdown .dropdown-menu li a, .footer-dropdown .dropdown-menu li div{
   color: #222;
