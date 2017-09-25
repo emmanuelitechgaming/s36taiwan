@@ -9149,6 +9149,10 @@ span.add-ico{
   position: relative;
   top: 2px
 }
+.flag-dropdown button div .flag-icon::before{
+  width: 25px;
+  height: 25px;
+}
 .flag-dropdown .flag-icon::before{
   width: 35px;
   height: 35px;
