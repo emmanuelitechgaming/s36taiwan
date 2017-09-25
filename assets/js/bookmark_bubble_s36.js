@@ -20,7 +20,7 @@ google.bookmarkbubble.Bubble.prototype.NUMBER_OF_TIMES_TO_DISMISS=3;
 /** page to bookmark bubble (generally, this should be top page) */
 /** page to bookmark bubble (generally, this should be top page) */
 if(typeof(page_popup_bubble)=="undefined"){
-  page_popup_bubble = "#index";
+  
 }
 
 /** bookmark bubble initialized in mobileinit event for jquery mobile. */
