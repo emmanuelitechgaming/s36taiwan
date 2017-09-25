@@ -1181,6 +1181,13 @@ z-index: 99999;
       top: 7px;
       left: 97%;
     }
+    .bago-pages .boxer::after{
+      content: none
+    }
+    .bago-pages{
+      margin-left: 15px;
+      margin-right: 15px;
+    }
     .bago_nanaman .col-6:nth-child(3) .boxer::after{
       content: none
     }
@@ -1214,6 +1221,12 @@ z-index: 99999;
     }
     .bago_nanaman .boxer-last{
       line-height: 27px;
+    }
+    .bago-pages .col-xs-12:first-child .boxer{
+      text-align: center;
+    }
+    .bago-pages .col-xs-12:last-child .boxer{
+      text-align: center;
     }
 }
 
@@ -4193,6 +4206,9 @@ margin-top: -18px;
   .bago-afterlogin .col-6:last-child .boxer::after{
     content: none;
   }
+  .bago-pages .col-xs-12:last-child .boxer::after{
+    content: none
+  }
   .boxer-last a{
     font-size: 18px;
   }
@@ -4234,6 +4250,16 @@ margin-top: -18px;
   }
   .boxer div span{
     font-size: 12px;
+  }
+  .bago-pages .col-xs-12:first-child .boxer{
+    text-align: left;
+  }
+  .bago-pages .col-xs-12:last-child .boxer{
+    text-align: right;
+  }
+  .bago-pages{
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -4544,6 +4570,18 @@ main .marquee {
     width: 1360px;
     padding-right: 21px;
     padding-left: 71px;
+  }
+  .bago-pages-casino .container{
+    width: 1345px;
+    padding-left: 57px;
+  }
+  .bago-pages-slots .container{
+    width: 1329px;
+    padding-left: 64px;
+  }
+  .bago-pages-lotto .container{
+    width: 1318px;
+    padding-left: 58px;
   }
   .drop {
       right: 17.11%;
