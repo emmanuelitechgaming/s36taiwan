@@ -1168,12 +1168,13 @@ z-index: 99999;
     }
     .mobile-banner-wrapper .bs-slider-overlay a{
       font-size: 11px;
-      padding: 4px 10px
+      padding: 6px 10px;
+      min-width: 120px;
     }
     .mobile-banner-wrapper .bs-slider-overlay a::after{
       width: 12px;
       height: 12px;
-      top: 2px
+      top: 1px
     }
     .bago_nanaman .boxer::after{
       content: '';
@@ -1185,6 +1186,7 @@ z-index: 99999;
     }
     .boxer-last a{
       font-size: 12px;
+      min-width: 120px;
     }
     .boxer-last a::after{
       width: 14px;
@@ -1209,6 +1211,9 @@ z-index: 99999;
     }
     .boxer div span{
       font-size: 11px;
+    }
+    .bago_nanaman .boxer-last{
+      line-height: 27px;
     }
 }
 
@@ -1442,7 +1447,7 @@ z-index: 99999;
       top: 45%;
     }
     .mobile-banner-wrapper .bs-slider-overlay {
-      bottom: 6%;
+      bottom: 4%;
     }
     .header-cs .bookmark-m{
       display: inline-block;
@@ -1453,6 +1458,23 @@ z-index: 99999;
     }
     .boxer div span{
       font-size: 11px;
+    }
+    .mobile-banner-wrapper .bs-slider-overlay a {
+      font-size: 13px;
+      padding: 7px 10px;
+      min-width: 150px;
+    }
+    .mobile-banner-wrapper .bs-slider-overlay a::after {
+      width: 14px;
+      height: 14px;
+      top: 2px;
+    }
+    .bago_nanaman .boxer-last {
+      line-height: 32px;
+    }
+    .boxer-last a{
+      font-size: 14px;
+      min-width: 150px;
     }
 }
 
@@ -4500,7 +4522,7 @@ main .marquee {
   .bs-slider-overlay a::after{
     height: 20px;
     width: 20px;
-    top: 5px;
+    top: 4px;
   }
   .bs-slider-overlay {
     bottom: 50px;
@@ -4536,5 +4558,8 @@ main .marquee {
   }
   .footer-dropdown2 button{
     bottom: 15px;
+  }
+  .bago_nanaman .boxer-last{
+    line-height: 32px;
   }
 }
