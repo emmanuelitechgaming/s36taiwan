@@ -10,8 +10,8 @@
 
 @media only screen and (min-width: 320px) {
   .bago_nanaman .container{
-    padding-left: 0!important;
-    padding-right: 0!important;
+    padding-left: 0;
+    padding-right: 0;
 
   }
     .flexslides {
@@ -4211,7 +4211,7 @@ margin-top: -18px;
   }
   .register-area{
     position: relative;
-    top: 30px
+    top: 23px
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
     top: 10px;
@@ -4538,10 +4538,10 @@ main .marquee {
   }
   .bago_nanaman .container{
       width: 1295px;
-      padding-right: 12px;
+      padding-right: 0;
   }
   .bago-afterlogin .container{
-    width: 1317px;
+    width: 1360px;
     padding-right: 21px;
     padding-left: 71px;
   }
