@@ -1196,6 +1196,12 @@ z-index: 99999;
     .footer-dropdown2{
       margin-top: 10px;
     }
+    .boxer  div.step-txt{
+      font-size: 11px;
+    }
+    .boxer div span{
+      font-size: 11px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1433,6 +1439,12 @@ z-index: 99999;
     .header-cs .bookmark-m{
       display: inline-block;
       margin: 2px 15px
+    }
+    .boxer  div.step-txt{
+      font-size: 12px;
+    }
+    .boxer div span{
+      font-size: 12px;
     }
 }
 
