@@ -1164,16 +1164,16 @@ z-index: 99999;
       width: 33.33333%;
     }
     .mobile-banner-wrapper .bs-slider-overlay{
-      bottom: 5%
+      bottom: 4%
     }
     .mobile-banner-wrapper .bs-slider-overlay a{
-      font-size: 11px;
-      padding: 6px 10px;
+      font-size: 16px;
+      padding: 2px 10px;
       min-width: 120px;
     }
     .mobile-banner-wrapper .bs-slider-overlay a::after{
-      width: 12px;
-      height: 12px;
+      width: 15px;
+      height: 15px;
       top: 1px
     }
     .bago_nanaman .boxer::after{
@@ -1185,7 +1185,7 @@ z-index: 99999;
       content: none
     }
     .boxer-last a{
-      font-size: 12px;
+      font-size: 16px;
       min-width: 120px;
     }
     .boxer-last a::after{
@@ -1460,8 +1460,8 @@ z-index: 99999;
       font-size: 11px;
     }
     .mobile-banner-wrapper .bs-slider-overlay a {
-      font-size: 13px;
-      padding: 7px 10px;
+      font-size: 16px;
+      padding: 5px 10px;
       min-width: 150px;
     }
     .mobile-banner-wrapper .bs-slider-overlay a::after {
@@ -1473,7 +1473,7 @@ z-index: 99999;
       line-height: 32px;
     }
     .boxer-last a{
-      font-size: 14px;
+      font-size: 16px;
       min-width: 150px;
     }
 }
@@ -2021,11 +2021,19 @@ z-index: 99999;
       height: 23px;
     }
     .boxer-last a{
-      font-size: 15px;
+      font-size: 18px;
     }
     .boxer-last a::after{
       width: 16px;
       height: 18px;
+    }
+    .mobile-banner-wrapper .bs-slider-overlay a {
+      font-size: 18px;
+      padding: 3px 10px;
+    }
+    .mobile-banner-wrapper .bs-slider-overlay a::after {
+      width: 16px;
+      height: 16px;
     }
 }
 
