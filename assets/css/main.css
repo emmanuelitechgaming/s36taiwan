@@ -9150,13 +9150,13 @@ span.add-ico{
   top: 2px
 }
 .flag-dropdown .flag-icon::before{
-  width: 20px;
-  height: 21px;
+  width: 22px;
+  height: 22px;
 }
 .flag-dropdown .dropdown-menu>li>a{
   padding-left: 10px;
   color: #fff;
-  font-size: 16px;
+  font-size: 17px;
 }
 .flag-dropdown .dropdown-menu>li>a:hover, .flag-dropdown .dropdown-menu>li>a:focus{
   color: #000
