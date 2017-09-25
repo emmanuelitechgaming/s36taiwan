@@ -1441,10 +1441,10 @@ z-index: 99999;
       margin: 2px 15px
     }
     .boxer  div.step-txt{
-      font-size: 12px;
+      font-size: 11px;
     }
     .boxer div span{
-      font-size: 12px;
+      font-size: 11px;
     }
 }
 
@@ -4180,6 +4180,12 @@ margin-top: -18px;
   .njackpot-nwinner{
     display: block;
     margin-bottom: 15px;
+  }
+  .boxer  div.step-txt{
+    font-size: 12px;
+  }
+  .boxer div span{
+    font-size: 12px;
   }
 }
 
