@@ -8986,6 +8986,10 @@ span.add-ico{
   background-size: contain;
   width: 36px;
 }
+.bago-pages .img-before-step{
+  width: 34px;
+  margin-right: 5px;
+}
 .boxer-last a{
   color: #573601;
   padding: 0 0;
@@ -9492,10 +9496,10 @@ span.add-ico{
   border-top: 0;
   border-collapse: collapse;
   text-align: center;
-  padding: 5px 15px;
+  padding: 5px 0;
 }
 .jackpot-winner2 .flexslider td{
-  padding: 7px 15px
+  padding: 10px 15px
 }
 .flexslider tr{
   background: #1b1a1a;
@@ -9504,27 +9508,25 @@ span.add-ico{
   background: -webkit-gradient(linear, left top, left bottom, from(#2e2e2e), to(#1b1a1a));
   background: linear-gradient(#2e2e2e, #1b1a1a);
 }
-.flexslider tr td:first-child {
-  min-width: 47px;
-}
-.flexslider tr td:nth-child(2) {
-  min-width:    222px;
-}
-.flexslider tr td:nth-child(3) {
-  min-width:    133px;
-}
-.flexslider tr td:nth-child(4) {
-  min-width:    131px;
-}
 .flexslider tr th{
-  background: #131313;
-  background: -webkit-linear-gradient(#f7b86b, #fba601);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: #fba601;
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 18px;
   font-weight: 700;
+  color: #333
+}
+.jackpot-winner tr td:last-child, .jackpot-winner tr td:nth-child(4){
+  width: 126px;
+}
+.jackpot-winner tr td:nth-child(3){
+  width: 100px;
+}
+.jackpot-winner tr td:nth-child(3){
+  width: 100px;
+}
+.jackpot-winner tr td:nth-child(1){
+  width: 40px;
 }
 .other-tab{
   margin-top: -40px;
@@ -9552,4 +9554,44 @@ span.add-ico{
 margin: 0 5px;
 width: 21px!important;
 height: 27px!important;
+}
+.flag-icon.flag-icon-rectangle{
+  width: auto
+}
+.flag-icon-rectangle::before{
+  content: '';
+  width: 40px;
+  height: 25px;
+}
+.flag-icon-rectangle-cn::before{
+  background: url('../img/flags/cn-rectangle.jpg') no-repeat;
+  background-size: cover;
+}
+.flag-icon-rectangle-id::before{
+  background: url('../img/flags/id-rectangle.jpg') no-repeat;
+  background-size: cover;
+}
+.flag-icon-rectangle-in::before{
+  background: url('../img/flags/in-rectangle.jpg') no-repeat;
+  background-size: cover;
+}
+.flag-icon-rectangle-jp::before{
+  background: url('../img/flags/jp-rectangle.jpg') no-repeat;
+  background-size: cover;
+}
+.flag-icon-rectangle-my::before{
+  background: url('../img/flags/my-rectangle.jpg') no-repeat;
+  background-size: cover;
+}
+.flag-icon-rectangle-th::before{
+  background: url('../img/flags/th-rectangle.jpg') no-repeat;
+  background-size: cover;
+}
+.flag-icon-rectangle-tw::before{
+  background: url('../img/flags/tw-rectangle.jpg') no-repeat;
+  background-size: cover;
+}
+.flag-icon-rectangle-uk::before{
+  background: url('../img/flags/uk-rectangle.jpg') no-repeat;
+  background-size: cover;
 }

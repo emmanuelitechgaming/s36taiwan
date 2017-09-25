@@ -4174,7 +4174,7 @@ margin-top: -18px;
   .bago_nanaman .col-md-3.col-xs-12{
   }
   .bago_nanaman .boxer-last{
-    top: 9px;
+    top: 10px;
     padding-left: 0;
     padding-right: 0;
 
@@ -4606,6 +4606,6 @@ main .marquee {
     bottom: 15px;
   }
   .bago_nanaman .boxer-last{
-    line-height: 32px;
+    line-height: 30px;
   }
 }
