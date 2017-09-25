@@ -823,6 +823,7 @@ $(document).ready(function () {
 
      $.each(fd2, function(k, v) {
        $('.footer-dropdown2 ul').append('<li><a href="javascript:void(0)" data-value="'+v.country_name+'"><i class="fa fa-check"> </i> '+v.country_name+'</a></li>')
+       $('.m-footer-dropdown ul').append('<li><a href="javascript:void(0)"><i class="fa fa-check"> </i> '+v.country_name+'</a></li>')
      })
 
      $('.footer-dropdown2 ul li a').click(function(e) {
@@ -831,11 +832,22 @@ $(document).ready(function () {
        $(this).parent('li').addClass('check')
      })
 
-     $('.footer-dropdown2 ul').append('<li class="last"><a href="javascript:void(0)">取消 </a></li>')
+     $('.m-footer-dropdown ul li a').click(function(e) {
+       e.stopPropagation();
+       $('.m-footer-dropdown ul li').removeClass('check');
+       $(this).parent('li').addClass('check')
+     })
+
+     $('.footer-dropdown2 ul, .m-footer-dropdown ul').append('<li class="last"><a href="javascript:void(0)">取消 </a></li>')
 
      $('.footer-dropdown2 ul li a').click(function() {
        console.log($(this).data('value'));
        $('.footer-dropdown2 button').html($(this).data('value'));
+     })
+
+     $('.footer-dropdown2 ul li.title div').click(function(e) {
+       e.preventDefault();
+       e.stopPropagation();
      })
 
      $.each($('.contact-title ul li'), function(index, value) {
