@@ -8985,7 +8985,7 @@ span.add-ico{
   margin-top: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
-          border-radius: 5px;
+          border-radius: 25px;
   margin-bottom: 0;
   background: #fba601;
   text-align: center;
@@ -9013,12 +9013,10 @@ span.add-ico{
 }
 .bs-slider-overlay a{
   display: block;
-  background: url('../img/sp/reg-btn-bg.png') no-repeat;
+  background: #fba601;
+  border-radius: 25px;
   background-size: 100% 100%;
   color: #1b1b1b;
-  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
   color: #573601;
   font-weight: 700;
   letter-spacing: 1px;
