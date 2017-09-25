@@ -5652,13 +5652,12 @@ div.cta-contact-info a {
 
 .m-fsalon ul li:nth-child(6) img {
     display: block;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    max-width: 60%;
 }
-
 .m-fsalon ul li:nth-child(6) a {
     color: #5e5e5e
 }
-
 img.b-img {
     width: 250px!important;
 }
@@ -8885,15 +8884,14 @@ span.add-ico{
   padding: 0 0;
 }
 .bago_nanaman .boxer::after{
-      bottom: 19px;
-      content: '';
-      display: block;
-      height: 34px;
-      width: 2px;
-      background: url(../img/separator.png) no-repeat;
-      background-size: 100% 100%;
-      position: absolute;
-      left: 90%;
+  bottom: 19px;
+  content: '';
+  display: block;
+  height: 34px;
+  width: 2px;
+  background: url(../img/separator.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
 }
 .bago_nanaman .boxer-last::after{
   content: none !important
@@ -9179,7 +9177,6 @@ span.add-ico{
 }
 .footer-dropdown button{
   position: absolute;
-  bottom: 20px;
   right: 1px;
   background: none;
   border: none;
@@ -9193,7 +9190,6 @@ span.add-ico{
   padding: 4px 20px;
   padding-right: 45px;
   font-size: 14px;
-  bottom: 15px;
   min-width: 240px;
   border: solid 1px #333
 }
@@ -9249,6 +9245,9 @@ span.add-ico{
   transition: color 0.3s;
   color: #f5f5f5;
 }
+ .footer-dropdown .dropdown-menu .title div:hover{
+   background: #333
+ }
 .footer-dropdown .dropdown-menu .last a:hover, .footer-dropdown .dropdown-menu .last div:hover{
   font-weight: 700;
   color: #000;
@@ -9274,12 +9273,13 @@ span.add-ico{
 .footer-dropdown .title{
    text-align: center;
 }
- .footer-dropdown .dropdown-menu .title a{
+ .footer-dropdown .dropdown-menu .title div{
    background: #333;
    color: #fff;
    padding: 15px 0;
    font-size: 16px;
-   font-weight: normal
+   font-weight: normal;
+   cursor: default;
 }
  .footer-dropdown .dropdown-menu i{
    font-size: 16px;
@@ -9298,6 +9298,61 @@ span.add-ico{
 }
  .footer-dropdown .dropdown-menu .last{
    text-align: right;
+}
+.m-footer-dropdown{
+  margin-top: 10px;
+  display: inline-block;
+}
+.m-footer-dropdown button{
+  background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAYAAABrEgIKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAxhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDM0MiwgMjAxMC8wMS8xMC0xODowNjo0MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowMEExNjVCNzlEMTcxMUU3OTU1MEFDRTFBRjBCNURFOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowMEExNjVCODlEMTcxMUU3OTU1MEFDRTFBRjBCNURFOSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAwQTE2NUI1OUQxNzExRTc5NTUwQUNFMUFGMEI1REU5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAwQTE2NUI2OUQxNzExRTc5NTUwQUNFMUFGMEI1REU5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+nEQ73AAAAQ9JREFUeNrs2s1JxEAYgOGZD/HgyU5sIEVYgp1Zgi14SPqxgzGLHtbFyHjYzTfheWEgPyQwDyGHZGprrdRaW/mqlrNO547UOs9fj/fMM4q6AgUKFChQoEAJFChQoECBAiVQoECBAgVKoECBAgXqMN1d8+bLsvz3kud1vE/T9OGJ2u5lHW8nqHmeH0FtI71+bz9lxIpkSCUrViRESokVSZHSYUVipFRYkRwpDVYMgJQCKwZB2h0rBkLaFSsGQ9oNKwZE+oF1K6h6zXXmW+u6s2Wd+UG/HoACBUqgQIECBQoUKIECBQoUKFACBQoUqITVi19IoP6wAtVXA9WjdPFXFJSXuZf5rboH1dfD+c6nAAMAUOZPmylBgPMAAAAASUVORK5CYII=) no-repeat;
+  background-size: 35px 40px;
+  background-position: right;
+  color: #fff;
+  padding: 6px 20px;
+  padding-right: 50px;
+  border: solid 1px #333;
+}
+.m-footer-dropdown button:active, .m-footer-dropdown button:hover, .m-footer-dropdown button:focus{
+  color: #fff !important;
+  border: solid 1px #333 !important;
+  background-color: #333 !important;
+  outline: 0
+}
+.m-footer-dropdown ul li{
+  display: block;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  left: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  text-align: left !important;
+}
+.m-footer-dropdown ul li.title{
+  text-align: center !important
+}
+.m-footer-dropdown ul li.title div{
+  display: block;
+  width: 100%;
+  color: #fff;
+  background: #333;
+  padding: 10px;
+  font-size: 15px;
+}
+.m-footer-dropdown ul li .fa{
+  opacity: 0;
+}
+.m-footer-dropdown ul li.check .fa{
+  opacity: 1
+}
+.m-footer-dropdown .dropdown-menu>li>a{
+  padding: 5px 10px;
+}
+.m-footer-dropdown button, .m-footer-dropdown .dropdown-menu{
+  min-width: 230px;
+}
+.m-footer-dropdown ul li.last{
+  text-align: right !important;
 }
 @font-face {
     font-family: Tungsten;
@@ -9424,7 +9479,7 @@ span.add-ico{
 .users-winner .col-md-4{
   padding-right: 0
 }
-.flexslider table, th, td {
+.flexslider table, .flexslider th, .flexslider td {
   border: 1px solid #636363;
   border-top: 0;
   border-collapse: collapse;

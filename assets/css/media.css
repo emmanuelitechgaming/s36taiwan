@@ -784,6 +784,7 @@ z-index: 99999;
     }
     #menu-m {
         right: -13.7px;
+        top: 30px;
     }
     .menu-m::before {
         left: 19px;
@@ -1098,9 +1099,6 @@ z-index: 99999;
     .homescreen{
       bottom: 0;
     }
-    body{
-      padding-bottom: 35px;
-    }
     .promotion-swiper-container .swiper-slide a{
       top: 4px
     }
@@ -1170,6 +1168,11 @@ z-index: 99999;
       top: 2px
     }
     .bago_nanaman .boxer::after{
+      content: '';
+      top: 7px;
+      left: 97%;
+    }
+    .bago_nanaman .col-6:nth-child(3) .boxer::after{
       content: none
     }
     .boxer-last a{
@@ -1189,6 +1192,9 @@ z-index: 99999;
     }
     .njackpot-nwinner{
       display: none;
+    }
+    .footer-dropdown2{
+      margin-top: 10px;
     }
 }
 
@@ -1352,7 +1358,7 @@ z-index: 99999;
     }
     #menu-m {
       right: -15px;
-      left: 42px;
+      left: -15px;
     }
     .menu-m::before {
       left: 22px;
@@ -4034,9 +4040,6 @@ margin-top: -18px;
   .how-to-reg {
      margin-bottom: 0px;
   }
-  body{
-    padding-bottom: 0;
-  }
   .contact-title li {
     margin: 0px 0px;
   }
@@ -4152,6 +4155,10 @@ margin-top: -18px;
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
     top: 10px;
+    left: 90%;
+  }
+  .bago_nanaman .col-6:nth-child(3) .boxer::after{
+    content: ''
   }
   .boxer  div.step-txt{
     margin: 0 20px;
@@ -4487,5 +4494,11 @@ main .marquee {
   }
   .boxer .content .title {
     font-size: 14px;
+  }
+  .footer-dropdown2{
+    margin-top: 0;
+  }
+  .footer-dropdown2 button{
+    bottom: 15px;
   }
 }
