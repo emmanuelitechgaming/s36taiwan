@@ -1086,8 +1086,11 @@ z-index: 99999;
      right: 15%;
     }
     .btn-hidden::after{
-      width: 21px;
+      width: 16px;
       height: 21px;
+    }
+    .lg-playnow.sp-btn-hidden::after {
+      top: 9px;
     }
     .netbet{
       padding-top: 15px;
@@ -1332,7 +1335,7 @@ z-index: 99999;
         bottom: 6px;
     }
     .lg-playnow {
-        bottom: 10%;
+        bottom: 9.6%;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1876,7 +1879,7 @@ z-index: 99999;
     }
     .lg-playnow {
         font-size: 18px;
-        bottom: 11.9%;
+        bottom: 11%;
     }
     .promotion-form-btn {
         background-position: 32px -1px
@@ -1985,7 +1988,7 @@ z-index: 99999;
       right: 15%;
     }
     .btn-hidden::after{
-      width: 23px;
+      width: 20px;
       height: 23px;
     }
     .boxer-last a{
@@ -2966,11 +2969,11 @@ z-index: 99999;
     }
     .lg-playnow {
         font-size: 12px;
-        bottom: 6%;
+        bottom: 5%;
         padding-left: 25%;
     }
     .btn-hidden::after{
-      width: 15px;
+      width: 13px;
       height: 15px;
     }
     .lg-playnow.login-modal-a img {
@@ -3948,7 +3951,7 @@ margin-top: -18px;
       text-align: right;
     }
     .lg-playnow.sp-btn-hidden::after {
-      top: 8px;
+      top: 9px;
     }
     .selected-cntry{
       display: inline-block;
@@ -4001,11 +4004,11 @@ margin-top: -18px;
 
 @media only screen and (min-width: 1024px) {
   .btn-hidden::after{
-    width: 21px;
+    width: 19px;
     height: 21px;
   }
   .lg-playnow {
-    bottom: 6%;
+    bottom: 5%;
   }
   #b{
     max-width: inherit !important
@@ -4414,7 +4417,7 @@ main .marquee {
     padding-right: 6%;
   }
   .btn-hidden::after{
-    width: 23px;
+    width: 20px;
     height: 23px;
   }
   .casino-desc-bot .sp-btn-hidden{
