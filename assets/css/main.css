@@ -6897,6 +6897,14 @@ div.acc-info.acc-edit div.acc-cont input {
   width: 36px;
   height: 36px
 }
+.flag-dropdown .flag-icon-cn::before{
+  background: url('../img/flags/china-nb.png');
+  background-size: cover;
+}
+.flag-dropdown .dropdown-menu .flag-icon-cn::before{
+  background: url('../img/flags/china.png');
+  background-size: cover;
+}
 .contact-title .flag-icon-cn-hover::before, .contact-title .flag-icon-cn-active::before{
   background: url('../img/flags/china-y.png');
   background-size: cover;
