@@ -9499,10 +9499,10 @@ span.add-ico{
   border-top: 0;
   border-collapse: collapse;
   text-align: center;
-  padding:5px 0;
+  padding:3px 0;
 }
 .jackpot-winner2 .flexslider td{
-  padding: 4px 15px
+  padding: 3px 15px
 }
 .flexslider tr{
   background: #1b1a1a;
@@ -9515,9 +9515,9 @@ span.add-ico{
   background: #fba601;
   font-weight: 700;
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
-  color: #333;
+  color: #000;
   border: solid 1px transparent;
   border-top-left-radius: 7px;
   border-top-right-radius: 5px;
@@ -9571,21 +9571,21 @@ span.add-ico{
   border-radius: 5px
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
-  width: 175px
+  width: 50px;
 }
 .trphy{
   display: inline-block!important;
 margin: 0 5px;
-width: 27px!important;
-height: 27px!important;
+width: 16px!important;
+height: 16px!important;
 }
 .flag-icon.flag-icon-rectangle{
   width: auto
 }
 .flag-icon-rectangle::before{
   content: '';
-  width: 40px;
-  height: 25px;
+  width: 20px;
+  height: 15px;
 }
 .flag-icon-rectangle-cn::before{
   background: url('../img/flags/cn-rectangle.jpg') no-repeat;
@@ -9623,5 +9623,15 @@ height: 27px!important;
   text-align: center;
   color: #fba601;
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 14px;
+}
+.flexslider td span.bg{
+  background: #fff;
+    border: 1px solid #fba601;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    border-radius: 5px;
+    padding: 0 5px;
 }
