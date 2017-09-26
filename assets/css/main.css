@@ -8986,7 +8986,9 @@ span.add-ico{
   margin-right: 5px;
 }
 .bago-pages .img-before-step img{
-  height: 33px;
+  height: 27px;
+  position: relative;
+  top: 1px
 }
 .boxer-last a{
   color: #573601;
@@ -9616,4 +9618,10 @@ height: 27px!important;
 .flag-icon-rectangle-uk::before{
   background: url('../img/flags/uk-rectangle.jpg') no-repeat;
   background-size: cover;
+}
+#myModal .info{
+  text-align: center;
+  color: #fba601;
+  margin-top: 20px;
+  font-size: 16px;
 }
