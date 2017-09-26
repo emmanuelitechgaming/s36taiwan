@@ -1632,7 +1632,7 @@ p {
 
 .sp-btn-hidden{
   border-radius: 20px;
-  font-size: 19px;
+  font-size: 17px;
   background: #acacb4;
   background-size: contain;
       -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
@@ -3131,7 +3131,7 @@ span.round-tab i {
     font-size: 17px;
     font-weight: 700;
     margin-bottom: 20px;
-    padding: 7px 15px;
+    padding: 3px 15px;
     letter-spacing: .5px;
     border: none;
     border-radius: 4px;
@@ -3146,12 +3146,12 @@ span.round-tab i {
 .cs-modal .chatserver-form button::after, #cscall::after{
   content: '';
   display: inline-block;
-  width: 22px;
-  height: 22px;
+  width: 17px;
+  height: 17px;
   background: url('../img/arrow-right.png') no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
-  top: 3px;
+  top: 2px;
 }
 
 #csPhone .chatserver-form button{
@@ -6440,17 +6440,17 @@ main .win-lot-top-games {
 }
 
 #cscall {
-    font-size: 19px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding: 7px 15px;
-    letter-spacing: .5px;
-    color: #000;
-    border: none;
-    border-radius: 5px;
-    background:#acacb4;
-    text-shadow: none;
-    width: 100%;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 3px 15px;
+  letter-spacing: .5px;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  background: #acacb4;
+  text-shadow: none;
+  width: 100%;
 }
 
 #csCallselect {
@@ -6588,13 +6588,13 @@ main .win-lot-top-games {
 #myModal .pull-right .modal-bottom .btn-warning::after{
   content: '';
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   background: url(../img/arrow-right-30.png) no-repeat;
   background-size: contain;
   position: relative;
-  top: 3px;
-  margin-left: 3px
+  top: 2px;
+  margin-left: 3px;
 }
 
 #myModal .pull-right .modal-bottom a {
@@ -7234,7 +7234,7 @@ button .flag-icon-kr::before {
     border-radius: 5px;
     font-size: 17px;
     font-weight: 700;
-    padding: 1px 12px;
+    padding: 2px 12px;
     border-color: #acacb4
 }
 
@@ -7433,13 +7433,13 @@ button .flag-icon-kr::before {
 .sweet-arrow::before {
   content: ' ';
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   background: url(../img/arrow-right.png) no-repeat;
   background-size: cover;
   position: absolute;
   right: 15px;
-  top: 14px;
+  top: 7px;
 }
 
 .win-title a img,
@@ -9121,6 +9121,10 @@ span.add-ico{
 .my-sweet-15 button{
   color: #000 !important;
   font-weight: normal;
+  font-size: 17px;
+  padding: 3px 16px;
+  padding-right: 40px;
+  border-color: #acacb4
 }
 .my-sweet-15 button:hover{
   color: #000 !important;
