@@ -1980,6 +1980,7 @@ input[type=radio] {
     background-repeat: no-repeat;
     background-position: 100% 10%;
     background-size: 15% 100%;
+    border-radius: 3px!important;
 }
 
 .breadcrumb-inner select {
@@ -9502,7 +9503,7 @@ span.add-ico{
   padding:3px 0;
 }
 .jackpot-winner2 .flexslider td{
-  padding: 3px 15px
+  padding: 15px
 }
 .flexslider tr{
   background: #1b1a1a;
@@ -9541,14 +9542,17 @@ span.add-ico{
   top: 4px;
   bottom: 0;
 }
-.jackpot-winner tr td:last-child, .jackpot-winner tr td:nth-child(4){
-  width: 126px;
+ .jackpot-winner tr td:nth-child(4){
+  width:200px;
+}
+.jackpot-winner tr td:last-child{
+  width: 80px;
+}
+.jackpot-winner tr td:nth-child(2){
+  width: 198px;
 }
 .jackpot-winner tr td:nth-child(3){
-  width: 100px;
-}
-.jackpot-winner tr td:nth-child(3){
-  width: 100px;
+  width:40px;
 }
 .jackpot-winner tr td:nth-child(1){
   width: 40px;
@@ -9571,13 +9575,13 @@ span.add-ico{
   border-radius: 5px
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
-  width: 50px;
+      width: 115px;
 }
 .trphy{
   display: inline-block!important;
 margin: 0 5px;
-width: 16px!important;
-height: 16px!important;
+width: 30px!important;
+height: 30px!important;
 }
 .flag-icon.flag-icon-rectangle{
   width: auto
@@ -9627,11 +9631,32 @@ height: 16px!important;
 }
 .flexslider td span.bg{
   background: #fff;
-    border: 1px solid #fba601;
-    color: #000000;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 10px;
-    border-radius: 5px;
-    padding: 0 5px;
+      border: 1px solid #fba601;
+      color: #000000;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 10px;
+      border-radius: 5px;
+      padding: 2px 9px;
+      margin: 14px 5px;
+}
+.contactus ul li img{
+  width: 27px;;
+}
+.tab27helpcenter .query-form{
+  border: 1px solid #dadada;
+border-radius: 4px;
+padding: 10px 0;
+}
+.tab27helpcenter .query-form h4{
+  padding: 10px;
+  border-bottom: 5px solid #fba601;
+}
+.tab27helpcenter .query-form .form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.jackpot-winner2 .grand-winner{
+  font-size: 24px;
 }
