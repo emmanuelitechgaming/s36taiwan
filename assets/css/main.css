@@ -1622,7 +1622,7 @@ p {
     color: #000;
     background: #acacb4;
     position: relative;
-    padding: 6px 40px;
+    padding: 3px 40px;
     padding-right: 70px;
     border-radius: 4px;
     margin-top: 10px;
@@ -1644,7 +1644,8 @@ p {
 }
 
 .btn-hidden-ph2p2, .btn-hidden-dh2p2{
-  padding: 6px 25px;
+  display: inline-block;
+  padding: 3px 25px;
   padding-right: 55px;
 }
 
@@ -1664,7 +1665,7 @@ p {
   background-size: contain;
   position: absolute;
   margin-left: 10px;
-  top: 6px;
+  top: 7px;
 }
 .arrow-right-brown::after{
   background: url('../img/arrow-right-brown.png') no-repeat;
@@ -7427,6 +7428,8 @@ button .flag-icon-kr::before {
 
 .sweet-arrow {
     background-color: #acacb4 !important;
+    font-size: 17px;
+    padding: 3px 16px;
     padding-right: 40px;
 }
 
@@ -9677,7 +9680,7 @@ padding: 10px 0;
   font-size: 24px;
 }
 .btn-hidden-dh2p1{
-  padding: 5px 40px;
+  padding: 3px 40px;
   padding-right: 70px;
 }
 .breadcrumb-inner .payment-form select{
