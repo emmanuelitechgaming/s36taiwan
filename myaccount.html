@@ -2064,6 +2064,10 @@
                 confirmButtonClass: 'btn-warning btn-warning2 sweet-arrow arrow-right-btn',
                 confirmButtonText: '關閉',
                 imageUrl: 'assets/img/Check_Tao.png'
+            }, function(isConfirm) {
+              if (isConfirm) {
+                window.location = 'wallet.html';
+              }
             });
         };
         document.querySelector('.sweet-a').onclick = function() {
@@ -2090,6 +2094,10 @@
                 confirmButtonClass: 'btn-warning btn-warning2 sweet-arrow arrow-right-btn',
                 confirmButtonText: '關閉',
                 imageUrl: 'assets/img/Check_Tao.png'
+            }, function(isConfirm) {
+              if (isConfirm) {
+                window.location = 'wallet.html';
+              }
             });
         };
         document.querySelector('.sweet-14').onclick = function() {
