@@ -4251,12 +4251,6 @@ margin-top: -18px;
   .boxer div span{
     font-size: 12px;
   }
-  .bago-pages .col-xs-12:first-child .boxer{
-    text-align: left;
-  }
-  .bago-pages .col-xs-12:last-child .boxer{
-    text-align: right;
-  }
   .bago-pages{
     margin-left: 0;
     margin-right: 0;
@@ -4572,16 +4566,13 @@ main .marquee {
     padding-left: 71px;
   }
   .bago-pages-casino .container{
-    width: 1345px;
-    padding-left: 57px;
+    width: 1295px;
   }
   .bago-pages-slots .container{
-    width: 1329px;
-    padding-left: 64px;
+    width: 1295px;
   }
   .bago-pages-lotto .container{
-    width: 1318px;
-    padding-left: 58px;
+    width: 1295px;
   }
   .drop {
       right: 17.11%;
