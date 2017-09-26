@@ -3128,7 +3128,7 @@ span.round-tab i {
 }
 
 .cs-modal .chatserver-form button {
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 700;
     margin-bottom: 20px;
     padding: 7px 15px;
@@ -7234,7 +7234,8 @@ button .flag-icon-kr::before {
     border-radius: 5px;
     font-size: 17px;
     font-weight: 700;
-
+    padding: 1px 12px;
+    border-color: #acacb4
 }
 
 .mnav-top-home img {
@@ -9676,14 +9677,15 @@ padding: 10px 0;
   padding-right: 70px;
 }
 .breadcrumb-inner .payment-form select{
-  background: #f9f9f9 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
+  background: #f9f9f9 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAYAAABrEgIKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAxhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDM0MiwgMjAxMC8wMS8xMC0xODowNjo0MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCRjg4QzFCQUEyQTYxMUU3OTgxRkM4QkRENEI2MkEzRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCRjg4QzFCQkEyQTYxMUU3OTgxRkM4QkRENEI2MkEzRSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkJGODhDMUI4QTJBNjExRTc5ODFGQzhCREQ0QjYyQTNFIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkJGODhDMUI5QTJBNjExRTc5ODFGQzhCREQ0QjYyQTNFIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+q4weYQAAAQlJREFUeNrs200KgkAYBuCM7tPGnS66QkfoZh6hS7hzUTfpBqZBEBRh5fxgzwuD7gYedfy+gSn6vl+N6brudlOWZbGSp6wRgAIFChQoUAIKFChQoECBElCgQIECBUpAgQIFChQoUAIKVPhsYk3Utu1puGwDTnGoqqpZwhu1G8Y5FNIwmkV8enVdXwJhBUeKvkYFwIqClGQxnxErGlKyv94MWFGRkpYHP2BFR0peR32BlQQpi4LzA6xkSNlU5hOwkiJl1cK8wUqOlF2v9wIrC6Qsm+IHrH0uSFGb4vtRkokZsY45PUDbLKBAgQIFCpSAAgUKFChQoAQUKFCgQIESUKBAgQIF6t9yFWAA+rM7LbToI0YAAAAASUVORK5CYII=) no-repeat;
   color: #000;
   background-size: 40px 100%;
   background-position: right;
+  border: solid 1px #ccc
 }
 .payment-form input.form-control{
   background: #f9f9f9 !important;
-  border: solid 1px #000 !important;
+  border: solid 1px #ccc !important;
   color: #000 !important;
 }
 .payment-form input.form-control::-webkit-input-placeholder{
@@ -9694,7 +9696,4 @@ padding: 10px 0;
 }
 .payment-form input.form-control::placeholder{
   color: #000 !important;
-}
-.payment-form .form-control{
-  border: solid 1px #000;
 }
