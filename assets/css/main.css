@@ -6291,7 +6291,8 @@ main .win-lot-top-games {
     padding-bottom: 2px;
 }
 .contactus ul li:nth-child(1) a,
-.contactus ul li:nth-child(4) a {
+.contactus ul li:nth-child(4) a,
+.contactus ul li:nth-child(6) a {
     border-bottom: 2px solid #fba601
 }
 .navbar-afterlogin {
