@@ -4544,8 +4544,8 @@ main .marquee {
     text-align: center;
   }
   .bs-slider-overlay a{
-    padding: 6px 15px;
-    font-size: 19px;
+    padding: 2px 15px;
+    font-size: 18px;
   }
   .bs-slider-overlay a::after{
     height: 20px;
@@ -4553,7 +4553,7 @@ main .marquee {
     top: 4px;
   }
   .bs-slider-overlay {
-    bottom: 50px;
+    bottom: 55px;
     right: 29.5%;
   }
   .bago_nanaman .container{
