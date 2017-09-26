@@ -8987,8 +8987,10 @@ span.add-ico{
   width: 36px;
 }
 .bago-pages .img-before-step{
-  width: 34px;
   margin-right: 5px;
+}
+.bago-pages .img-before-step img{
+  height: 33px;
 }
 .boxer-last a{
   color: #573601;
