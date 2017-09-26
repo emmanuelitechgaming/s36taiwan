@@ -4839,11 +4839,12 @@ left: 47%;
     margin-left: 10px;
 }
 
-.btn-warning {
+.btnb {
     color: #000;
+    font-weight: 700!important;
     border-color: #acacb4;
     background: #acacb4;
-    border-radius: 20px
+    border-radius: 5px;
 }
 
 .btn-warning2 {
@@ -9503,7 +9504,7 @@ span.add-ico{
   padding:3px 0;
 }
 .jackpot-winner2 .flexslider td{
-  padding: 15px
+  padding: 15px 0px;
 }
 .flexslider tr{
   background: #1b1a1a;
@@ -9630,7 +9631,7 @@ height: 30px!important;
   font-size: 14px;
 }
 .flexslider td span.bg{
-  background: #fff;
+  background: #ffffff;
       border: 1px solid #fba601;
       color: #000000;
       font-size: 36px;
@@ -9651,6 +9652,15 @@ padding: 10px 0;
 .tab27helpcenter .query-form h4{
   padding: 10px;
   border-bottom: 5px solid #fba601;
+}
+.tab27helpcenter textarea.form-control  {
+  background-color: #f9f9f9;
+}
+.rbl label{
+  font-weight: normal!important;
+  margin-top: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .tab27helpcenter .query-form .form-horizontal .control-label {
     padding-top: 7px;

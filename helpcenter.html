@@ -11071,18 +11071,72 @@ div#tab2.tab-pane.active p a:first-child{
                                               </div>
 
                                               <div class="form-group">
-                                                  <label for="concept" class="col-sm-2 control-label">Concept</label>
-                                                  <div class="col-sm-5">
-                                                      <input type="text" class="form-control" id="concept" name="concept">
+                                                  <label for="concept" class="col-sm-2 control-label">稱謂</label>
+                                                  <div class="col-sm-5 rbl">
+                                                      <label for="r1"><input type="radio"  id="r1" />先生</label>
+                                                      <label for="r2"><input type="radio"  id="r2" />女士</label>
                                                   </div>
                                               </div>
                                               <div class="form-group">
-                                                  <label for="description" class="col-sm-2 control-label">Description</label>
+                                                  <label for="description" class="col-sm-2 control-label">姓氏</label>
                                                   <div class="col-sm-5">
-                                                      <input type="text" class="form-control" id="description" name="description">
+                                                      <input type="text" class="form-control" id="" placeholder="姓氏" name="">
                                                   </div>
                                               </div>
 
+                                              <div class="form-group">
+                                                  <label for="description" class="col-sm-2 control-label">名字</label>
+                                                  <div class="col-sm-5">
+                                                      <input type="text" class="form-control" id=""placeholder="名字"  name="">
+                                                  </div>
+                                              </div>
+
+                                              <div class="form-group">
+                                                  <label for="description" class="col-sm-2 control-label">您的電郵地址</label>
+                                                  <div class="col-sm-5">
+                                                      <input type="text" class="form-control" id=""placeholder="您的電郵地址"  name="">
+                                                  </div>
+                                              </div>
+
+                                              <div class="form-group">
+                                                  <label for="description" class="col-sm-2 control-label">您的联络电话</label>
+                                                  <div class="col-sm-5">
+                                                      <input type="text" class="form-control" id=""placeholder="您的联络电话"  name="">
+                                                  </div>
+                                              </div>
+
+                                              <div class="form-group">
+                                                  <label for="description" class="col-sm-2 control-label">描寫您的訊息</label>
+                                                  <div class="col-sm-5">
+                                                      <textarea class="form-control" style="resize:none;height:250px;"></textarea>
+                                                  </div>
+                                              </div>
+
+                                              <div class="form-group">
+                                                  <label for="description" class="col-sm-2 control-label">附加文件 (可選)</label>
+                                                  <div class="col-sm-5">
+                                                    <div class="fileinput fileinput-new" style="margin-top:3px;"data-provides="fileinput">
+                                                      <span class=""><input type="file" /></span>
+                                                    </div>
+                                                  </div>
+                                              </div>
+
+                                              <div class="form-group">
+                                                  <label for="email" class="col-md-2 col-md-offset-0 col-sm-2 col-md-offset-2 control-label"></label>
+                                                  <div class="col-md-6 col-sm-4">
+                                                      <div class="form-group form-inline form-captcha form-recap">
+                                                          <div class="g-recaptcha  recaptScale" id="recaptchaQ"></div>
+                                                      </div>
+                                                  </div>
+
+                                              </div>
+                                              <div class="form-group">
+                                                  <div class="col-sm-12 text-right">
+                                                    <button type="button"  class="btn  btnb arrow-right-btn" style="display: inline-block;margin:0 10px;"> 取消返回 </button>
+
+                                                      <button type="button" class="btn  btnb arrow-right-btn" style="display: inline-block;margin:0 10px;"> 傳送 </button>
+                                                  </div>
+                                              </div>
                                           </div>
                                       </div>
                                         </div>
@@ -11273,80 +11327,7 @@ div#tab2.tab-pane.active p a:first-child{
 
         </div>
 
-          <div class="col-md-6   col-xs-12">
-              <div class="jackpot-winner jackpot-winner2">
-                  <div class="tab">
-                    <div class="flexslider">
-                      <table>
-                        <tr>
-                          <th  style="border-top: 1px solid #636363;" colspan="2">排名前十位的大赢家</th>
-                        </tr>
-                        <tr class="grand-winner">
-                          <td> <img src="assets/img/trphy1.png" class="img-responsive trphy" alt=""> 累积一奖</td>
-                          <td>¥958,241.0</td>
-                        </tr>
-                      </table>
-                      <ul class="slides">
-                        <li>
-                          <table>
-                            <tr>
-                              <td><img src="assets/img/trphy2.png" class="img-responsive trphy" alt="">  累积二奖</td>
-                              <td>¥958,241.0</td>
-                            </tr>
-                          </table>
-                        </li>
-                        <li>
-                          <table>
-                            <tr>
-                              <td><img src="assets/img/trphy2.png" class="img-responsive trphy" alt=""> 累积二奖</td>
-                              <td>¥958,241.0</td>
-                            </tr>
-                          </table>
-                        </li>
-                        <li>
-                          <table>
-                            <tr>
-                              <td><img src="assets/img/trphy2.png" class="img-responsive trphy" alt=""> 累积二奖</td>
-                              <td>¥958,241.0</td>
-                            </tr>
-                          </table>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="other-tab tab2">
-                    <div class="flexslider">
-                      <ul class="slides">
-                        <li>
-                          <table>
-                            <tr>
-                              <td><img src="assets/img/trphy3.png" class="img-responsive trphy" alt=""> 累积三奖</td>
-                              <td>¥958,241.0</td>
-                            </tr>
-                          </table>
-                        </li>
-                        <li>
-                          <table>
-                            <tr>
-                              <td><img src="assets/img/trphy3.png" class="img-responsive trphy" alt=""> 累积三奖</td>
-                              <td>¥958,241.0</td>
-                            </tr>
-                          </table>
-                        </li>
-                        <li>
-                          <table>
-                            <tr>
-                              <td><img src="assets/img/trphy3.png" class="img-responsive trphy" alt=""> 累积三奖</td>
-                              <td>¥958,241.0</td>
-                            </tr>
-                          </table>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
 
-              </div>
-          </div>
         </div>
 
 
@@ -12580,6 +12561,10 @@ div#tab2.tab-pane.active p a:first-child{
             grecaptcha.render('recaptcha1', {
                 'sitekey': '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
                 'theme': 'dark',
+                'size': 'small'
+            });
+            grecaptcha.render('recaptchaQ', {
+                'sitekey': '6LeeUyQUAAAAAJFGyMAniWoaNWXbKqdk4rLeL36M',
                 'size': 'small'
             });
             grecaptcha.render('recaptcha2', {
