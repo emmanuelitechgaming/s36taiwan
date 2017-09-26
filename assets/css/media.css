@@ -4399,7 +4399,7 @@ margin-top: -18px;
         padding-left: 15px;
     }
     .contactus ul li {
-      padding: 7.8px 0;
+      padding: 8.1px 0;
       padding-left: 0px;
       font-size: 14px;
     }
@@ -4478,7 +4478,7 @@ main .marquee {
     height: 23px;
   }
   .casino-desc-bot .sp-btn-hidden{
-    padding: 6px 20px;
+    padding: 5px 20px;
   }
   .netbet{
     padding-top: 5px;
@@ -4544,8 +4544,8 @@ main .marquee {
     text-align: center;
   }
   .bs-slider-overlay a{
-    padding: 6px 15px;
-    font-size: 19px;
+    padding: 2px 15px;
+    font-size: 18px;
   }
   .bs-slider-overlay a::after{
     height: 20px;
@@ -4553,7 +4553,7 @@ main .marquee {
     top: 4px;
   }
   .bs-slider-overlay {
-    bottom: 50px;
+    bottom: 55px;
     right: 29.5%;
   }
   .bago_nanaman .container{
@@ -4604,5 +4604,9 @@ main .marquee {
   }
   .bago_nanaman .boxer-last{
     line-height: 30px;
+  }
+  .payment-form{
+    width: 650px;
+    margin: 0px auto;
   }
 }
