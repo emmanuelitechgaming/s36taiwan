@@ -3881,7 +3881,7 @@ margin-top: -18px;
     }
     .sp-btn-hidden{
       display: inline-block;
-      padding: 6px 130px;
+      padding: 3px 130px;
       padding-right: 150px;
       margin-bottom: 10px;
     }
@@ -4474,8 +4474,8 @@ main .marquee {
     padding-right: 6%;
   }
   .btn-hidden::after{
-    width: 20px;
-    height: 23px;
+    width: 17px;
+    height: 17px;
   }
   .casino-desc-bot .sp-btn-hidden{
     padding: 5px 20px;

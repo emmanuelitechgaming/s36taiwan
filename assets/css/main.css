@@ -1676,7 +1676,7 @@ p {
 }
 
 .sp-btn-hidden::after{
-  top: 8px
+  top: 7px
 }
 
 .lg-playnow.sp-btn-hidden::after{
