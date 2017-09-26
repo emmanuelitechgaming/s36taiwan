@@ -9491,15 +9491,18 @@ span.add-ico{
 .users-winner .col-md-4{
   padding-right: 0
 }
-.flexslider table, .flexslider th, .flexslider td {
+.flexslider th {
+  padding: 0!important;
+}
+.flexslider table, .flexslider th ,  .flexslider td {
   border: 1px solid #636363;
   border-top: 0;
   border-collapse: collapse;
   text-align: center;
-  padding: 5px 0;
+  padding:5px 0;
 }
 .jackpot-winner2 .flexslider td{
-  padding: 10px 15px
+  padding: 4px 15px
 }
 .flexslider tr{
   background: #1b1a1a;
@@ -9536,8 +9539,6 @@ span.add-ico{
 }
 .grand-winner{
   color: #fba601;
-  font-size: 16px;
-  font-weight: 700;
 }
 .grand-winner .top-ano,.grand-winner .top-bakit{
   display: inline-block;
@@ -9552,7 +9553,7 @@ span.add-ico{
 .trphy{
   display: inline-block!important;
 margin: 0 5px;
-width: 21px!important;
+width: 27px!important;
 height: 27px!important;
 }
 .flag-icon.flag-icon-rectangle{
