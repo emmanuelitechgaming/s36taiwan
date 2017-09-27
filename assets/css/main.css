@@ -432,7 +432,7 @@ main .win-body {
 }
 
 main .win-lot {
-    padding: 10.2px 0;
+    padding: 10.4px 0;
     border-bottom: 1px solid #000;
     border-top: 1px solid #303030;
     overflow: hidden;
@@ -1622,7 +1622,7 @@ p {
     color: #000;
     background: #acacb4;
     position: relative;
-    padding: 6px 40px;
+    padding: 3px 40px;
     padding-right: 70px;
     border-radius: 4px;
     margin-top: 10px;
@@ -1632,7 +1632,7 @@ p {
 
 .sp-btn-hidden{
   border-radius: 20px;
-  font-size: 19px;
+  font-size: 17px;
   background: #acacb4;
   background-size: contain;
       -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
@@ -1644,7 +1644,8 @@ p {
 }
 
 .btn-hidden-ph2p2, .btn-hidden-dh2p2{
-  padding: 6px 25px;
+  display: inline-block;
+  padding: 3px 25px;
   padding-right: 55px;
 }
 
@@ -1664,7 +1665,7 @@ p {
   background-size: contain;
   position: absolute;
   margin-left: 10px;
-  top: 6px;
+  top: 7px;
 }
 .arrow-right-brown::after{
   background: url('../img/arrow-right-brown.png') no-repeat;
@@ -1676,7 +1677,7 @@ p {
 }
 
 .sp-btn-hidden::after{
-  top: 8px
+  top: 7px
 }
 
 .lg-playnow.sp-btn-hidden::after{
@@ -3131,7 +3132,7 @@ span.round-tab i {
     font-size: 17px;
     font-weight: 700;
     margin-bottom: 20px;
-    padding: 7px 15px;
+    padding: 3px 15px;
     letter-spacing: .5px;
     border: none;
     border-radius: 4px;
@@ -3146,12 +3147,12 @@ span.round-tab i {
 .cs-modal .chatserver-form button::after, #cscall::after{
   content: '';
   display: inline-block;
-  width: 22px;
-  height: 22px;
+  width: 17px;
+  height: 17px;
   background: url('../img/arrow-right.png') no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
-  top: 3px;
+  top: 2px;
 }
 
 #csPhone .chatserver-form button{
@@ -6440,17 +6441,17 @@ main .win-lot-top-games {
 }
 
 #cscall {
-    font-size: 19px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding: 7px 15px;
-    letter-spacing: .5px;
-    color: #000;
-    border: none;
-    border-radius: 5px;
-    background:#acacb4;
-    text-shadow: none;
-    width: 100%;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 3px 15px;
+  letter-spacing: .5px;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  background: #acacb4;
+  text-shadow: none;
+  width: 100%;
 }
 
 #csCallselect {
@@ -6588,13 +6589,13 @@ main .win-lot-top-games {
 #myModal .pull-right .modal-bottom .btn-warning::after{
   content: '';
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   background: url(../img/arrow-right-30.png) no-repeat;
   background-size: contain;
   position: relative;
-  top: 3px;
-  margin-left: 3px
+  top: 2px;
+  margin-left: 3px;
 }
 
 #myModal .pull-right .modal-bottom a {
@@ -7234,7 +7235,7 @@ button .flag-icon-kr::before {
     border-radius: 5px;
     font-size: 17px;
     font-weight: 700;
-    padding: 1px 12px;
+    padding: 2px 12px;
     border-color: #acacb4
 }
 
@@ -7427,19 +7428,21 @@ button .flag-icon-kr::before {
 
 .sweet-arrow {
     background-color: #acacb4 !important;
+    font-size: 17px;
+    padding: 3px 16px;
     padding-right: 40px;
 }
 
 .sweet-arrow::before {
   content: ' ';
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   background: url(../img/arrow-right.png) no-repeat;
   background-size: cover;
   position: absolute;
   right: 15px;
-  top: 14px;
+  top: 7px;
 }
 
 .win-title a img,
@@ -9121,6 +9124,10 @@ span.add-ico{
 .my-sweet-15 button{
   color: #000 !important;
   font-weight: normal;
+  font-size: 17px;
+  padding: 3px 16px;
+  padding-right: 40px;
+  border-color: #acacb4
 }
 .my-sweet-15 button:hover{
   color: #000 !important;
@@ -9504,10 +9511,10 @@ span.add-ico{
   border-top: 0;
   border-collapse: collapse;
   text-align: center;
-  padding:3px 0;
+  padding: 8px 0;
 }
 .jackpot-winner2 .flexslider td{
-  padding: 15px 0px;
+  padding: 3px 0px;
 }
 .flexslider tr{
   background: #1b1a1a;
@@ -9670,10 +9677,10 @@ padding: 10px 0;
     text-align: left;
 }
 .jackpot-winner2 .grand-winner{
-  font-size: 24px;
+  font-size: 15px;
 }
 .btn-hidden-dh2p1{
-  padding: 5px 40px;
+  padding: 3px 40px;
   padding-right: 70px;
 }
 .breadcrumb-inner .payment-form select{
@@ -9696,4 +9703,13 @@ padding: 10px 0;
 }
 .payment-form input.form-control::placeholder{
   color: #000 !important;
+}
+.trphy1-color .grand-winner{
+  color: #faae55
+}
+.trphy2-color{
+  color: #d3d4d5
+}
+.trphy3-color{
+  color: #a2684e
 }

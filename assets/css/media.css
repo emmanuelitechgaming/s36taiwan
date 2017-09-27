@@ -699,8 +699,7 @@ z-index: 99999;
         bottom: -5px
     }
     .lg-playnow {
-
-        bottom: 8.5%;
+      bottom: 8.87%;
     }
     img.b-img {
         top: auto
@@ -1091,7 +1090,7 @@ z-index: 99999;
       height: 21px;
     }
     .lg-playnow.sp-btn-hidden::after {
-      top: 9px;
+      top: 6px;
     }
     .netbet{
       padding-top: 15px;
@@ -1487,7 +1486,7 @@ z-index: 99999;
     }
     .boxer-last a{
       font-size: 16px;
-      min-width: 150px;
+      min-width: 305px;
     }
 }
 
@@ -3881,7 +3880,7 @@ margin-top: -18px;
     }
     .sp-btn-hidden{
       display: inline-block;
-      padding: 6px 130px;
+      padding: 3px 130px;
       padding-right: 150px;
       margin-bottom: 10px;
     }
@@ -4001,7 +4000,7 @@ margin-top: -18px;
       text-align: right;
     }
     .lg-playnow.sp-btn-hidden::after {
-      top: 9px;
+      top: 10px;
     }
     .selected-cntry{
       display: inline-block;
@@ -4474,8 +4473,8 @@ main .marquee {
     padding-right: 6%;
   }
   .btn-hidden::after{
-    width: 20px;
-    height: 23px;
+    width: 18px;
+    height: 18px;
   }
   .casino-desc-bot .sp-btn-hidden{
     padding: 5px 20px;
