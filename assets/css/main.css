@@ -9684,8 +9684,8 @@ padding: 10px 0;
     margin-bottom: 0;
     text-align: left;
 }
-.jackpot-winner2 .grand-winner{
-  font-size: 15px;
+.jackpot-winner2 td:first-child{
+  font-weight: 700;
 }
 .btn-hidden-dh2p1{
   padding: 3px 40px;
