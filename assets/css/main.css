@@ -3289,7 +3289,9 @@ footer .browsers li:first-child {
     color: #fba601;
     font-weight: 700;
 }
-
+.td-week-netbet-holder{
+  padding: 0;
+}
 .td-win .username {
     margin: 0 20px;
     margin-left: 115px;
@@ -8514,6 +8516,10 @@ bottom: -2px;
   background: #1b1b1b;
   border-radius: 6px;
 }
+.winner-breadcrumb-inner .netbet{
+  background: #111;
+  border-radius: 0;
+}
 .netbet div{
   float: none;
   display: inline-block;
@@ -9724,7 +9730,7 @@ padding: 10px 0;
 .trphy3-color{
   color: #a2684e
 }
-.njackpot-nwinner .side-logo::after{
+.njackpot-nwinner .side-logo a::after, .njackpot-nwinner .side-logo::after{
   content: '';
   display: inline-block;
   width: 14px;
@@ -9733,11 +9739,31 @@ padding: 10px 0;
   top: 2px;
   margin-left: 5px
 }
+.njackpot-nwinner .side-logo-plus::after{
+  content: none
+}
 .njackpot-nwinner .side-logo-right::after{
   background: url('../img/jackpot-winner-right.png') no-repeat;
   background-size: cover;
 }
-.njackpot-nwinner .side-logo-plus::after{
+.njackpot-nwinner .side-logo-plus a::after{
   background: url('../img/jackpot-winner-plus.png') no-repeat;
   background-size: cover;
+}
+.side-logo-plus a{
+  color: #000;
+}
+.side-logo-plus a:hover, .side-logo-plus a:active, .side-logo-plus a:focus{
+  text-decoration: none;
+}
+.leaderboard table{
+  background: #fff;
+}
+.leaderboard table td{
+  color: #000;
+  text-align: center
+}
+.leaderboard table th{
+  background: #900;
+  text-align: center;
 }

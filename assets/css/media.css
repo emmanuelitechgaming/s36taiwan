@@ -4022,6 +4022,10 @@ margin-top: -18px;
       margin-left: 32px;
       margin-right: 30px;
     }
+    .winner-breadcrumb-inner .netbet{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
     .netbet div{
       margin-left: -4px;
     }
@@ -4492,6 +4496,10 @@ main .marquee {
   .slots-breadcrumb-inner .col-xs-12.netbet{
     width: 1177px;
     height: auto;
+  }
+  .winner-breadcrumb-inner .col-xs-12.netbet{
+    width: 100%;
+    padding-top: 10px
   }
   .flexslider-fade .content div{
     font-size: 14px;
