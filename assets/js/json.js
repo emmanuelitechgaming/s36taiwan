@@ -33,7 +33,7 @@ $(document).ready(function(){
 			'link': [
 				'../jp/'
 			],
-			'link2': 'jp/',
+			'link2': '/jp/',
 			'icon': 'jp'
 		},
 		{
@@ -45,7 +45,7 @@ $(document).ready(function(){
 			'link': [
 				'../en/'
 			],
-			'link2': 'en/',
+			'link2': '/en/',
 			'icon': 'um'
 		},
 		{
@@ -69,7 +69,7 @@ $(document).ready(function(){
 			'link': [
 				'../id/'
 			],
-			'link2': 'id/',
+			'link2': '/id/',
 			'icon': 'id'
 		},
 		{
@@ -85,7 +85,7 @@ $(document).ready(function(){
 				'../my-en/',
 				'#'
 			],
-			'link2': 'my-bm/',
+			'link2': '/my-bm/',
 			'icon': 'my'
 		},
 		{
@@ -97,7 +97,7 @@ $(document).ready(function(){
 			'link': [
 				'../th/'
 			],
-			'link2': 'th/',
+			'link2': '/th/',
 			'icon': 'th'
 		},
 		{
@@ -109,7 +109,7 @@ $(document).ready(function(){
 			'link': [
 				'../in/'
 			],
-			'link2': 'in/',
+			'link2': '/in/',
 			'icon': 'in'
 		}
 	];
