@@ -3290,7 +3290,7 @@ footer .browsers li:first-child {
     font-weight: 700;
 }
 .td-week-netbet-holder{
-  padding: 0;
+  padding: 0 20px;
 }
 .td-win .username {
     margin: 0 20px;
@@ -9758,12 +9758,14 @@ padding: 10px 0;
 }
 .leaderboard table{
   background: #fff;
+  margin-bottom: 0;
 }
 .leaderboard table td{
   color: #000;
   text-align: center
 }
 .leaderboard table th{
-  background: #900;
+  background: #fba601;
   text-align: center;
+  color: #000;
 }
