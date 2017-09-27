@@ -9511,10 +9511,10 @@ span.add-ico{
   border-top: 0;
   border-collapse: collapse;
   text-align: center;
-  padding:3px 0;
+  padding: 8px 0;
 }
 .jackpot-winner2 .flexslider td{
-  padding: 15px 0px;
+  padding: 3px 0px;
 }
 .flexslider tr{
   background: #1b1a1a;
@@ -9677,7 +9677,7 @@ padding: 10px 0;
     text-align: left;
 }
 .jackpot-winner2 .grand-winner{
-  font-size: 24px;
+  font-size: 15px;
 }
 .btn-hidden-dh2p1{
   padding: 3px 40px;
@@ -9703,4 +9703,13 @@ padding: 10px 0;
 }
 .payment-form input.form-control::placeholder{
   color: #000 !important;
+}
+.trphy1-color .grand-winner{
+  color: #faae55
+}
+.trphy2-color{
+  color: #d3d4d5
+}
+.trphy3-color{
+  color: #a2684e
 }
