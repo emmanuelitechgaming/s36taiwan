@@ -8990,6 +8990,13 @@ span.add-ico{
   background-size: contain;
   width: 36px;
 }
+.bago_nanaman .step-no{
+  color: #fba601;
+}
+.bago-pages .step-txt span:last-child{
+  margin: 0 5px;
+  color: #fba601;
+}
 .bago-pages .img-before-step{
   margin-right: 5px;
 }
@@ -9530,15 +9537,17 @@ span.add-ico{
 }
 .flexslider tr th{
   background: #fba601;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-size: 14px;
-  font-weight: 700;
-  color: #000;
-  border: solid 1px transparent;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 5px;
-  position: relative;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: left;
+      color: #000;
+      border: solid 1px transparent;
+      border-top-left-radius: 7px;
+      border-top-right-radius: 5px;
+      position: relative;
+      padding: 0 15px!important;
 }
 .flexslider tr th::before{
   content: '';
