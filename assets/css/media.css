@@ -3835,6 +3835,9 @@ margin-top: -18px;
         margin-left: auto;
         margin-bottom: auto;
     }
+    .today-winner-1{
+      padding-top: 10px;
+    }
     .ul-new-promo {
         padding-left: 40px;
         margin-left: 20px
@@ -4499,7 +4502,6 @@ main .marquee {
   }
   .winner-breadcrumb-inner .col-xs-12.netbet{
     width: 100%;
-    padding-top: 10px
   }
   .flexslider-fade .content div{
     font-size: 14px;
