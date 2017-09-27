@@ -9377,6 +9377,9 @@ span.add-ico{
 .m-footer-dropdown button, .m-footer-dropdown .dropdown-menu{
   min-width: 230px;
 }
+.m-footer-dropdown .dropdown-menu{
+  margin-bottom: -35px;
+}
 .m-footer-dropdown ul li.last{
   text-align: right !important;
 }
