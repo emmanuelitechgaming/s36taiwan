@@ -22,10 +22,11 @@
     }
     .float-contacts-m {
       right: 10px;
-position: fixed;
-cursor: pointer;
-bottom: 50px;
-z-index: 99999;
+      position: fixed;
+      cursor: pointer;
+      bottom: 50px;
+      z-index: 99999;
+      opacity: 1
     }
     .modal-panel-dialog {
         width: auto;
@@ -1192,11 +1193,12 @@ z-index: 99999;
     }
     .boxer-last a{
       font-size: 16px;
-      min-width: 120px;
+      min-width: 230px;
     }
     .boxer-last a::after{
       width: 14px;
       height: 16px;
+      bottom: 1px
     }
     .header-cs .bookmark-m{
       display: none
@@ -1353,7 +1355,7 @@ z-index: 99999;
         bottom: 6px;
     }
     .lg-playnow {
-        bottom: 9.6%;
+        bottom: 10.2%;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1486,7 +1488,7 @@ z-index: 99999;
     }
     .boxer-last a{
       font-size: 16px;
-      min-width: 305px;
+      min-width: 265px;
     }
 }
 
@@ -1759,13 +1761,7 @@ z-index: 99999;
       margin: 0 8px
     }
     .lg-playnow {
-<<<<<<< .mine
-    bottom: 10.5%;
-||||||| .r3357
-      bottom: 11.1%;
-=======
-      bottom: 10%;
->>>>>>> .r3360
+      bottom: 10.6%;
     }
     .contact-title li{
       margin: 0 1px;
@@ -1773,6 +1769,9 @@ z-index: 99999;
     .live-game-txtba a {
       left: 49px;
       bottom: -12px;
+    }
+    .boxer-last a{
+      min-width: 275px;
     }
 }
 
@@ -1920,7 +1919,7 @@ z-index: 99999;
     }
     .lg-playnow {
         font-size: 18px;
-        bottom: 11%;
+        bottom: 11.4%;
     }
     .promotion-form-btn {
         background-position: 32px -1px
@@ -2034,6 +2033,7 @@ z-index: 99999;
     }
     .boxer-last a{
       font-size: 18px;
+      min-width: 305px
     }
     .boxer-last a::after{
       width: 16px;
@@ -2206,7 +2206,7 @@ z-index: 99999;
         padding-left: 5px;
     }
     .lg-playnow {
-        bottom: 11%;
+        bottom: 11.4%;
     }
     .live-game-txtba a {
         bottom: -16px;

@@ -5653,7 +5653,7 @@ div.cta-contact-info a {
 .m-fsalon ul li:nth-child(6) img {
     display: block;
     margin-bottom: 5px;
-    max-width: 60%;
+    max-width: 65%;
 }
 .m-fsalon ul li:nth-child(6) a {
     color: #5e5e5e
@@ -9020,6 +9020,7 @@ span.add-ico{
   background-size: contain;
   vertical-align: middle;
   margin-left: 5px;
+  position: relative;
 }
 .boxer-last .arrow-right-brown::after{
   background: url('../img/arrow-right-brown.png') no-repeat;
@@ -9325,6 +9326,7 @@ span.add-ico{
 }
 .m-footer-dropdown{
   margin-top: 10px;
+  margin-bottom: 10px;
   display: inline-block;
 }
 .m-footer-dropdown button{
