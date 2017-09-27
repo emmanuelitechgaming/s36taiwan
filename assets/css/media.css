@@ -485,9 +485,6 @@
     .footer .sub a {
         margin-left: 62px;
     }
-    .modal-custom-lg {
-        width: 100%;
-    }
     #myModal .nav-tabs li a {
         font-size: 17px;
         white-space: nowrap;
@@ -496,10 +493,10 @@
         width: 69px;
     }
     .cl1 {
-        left: 70px;
+        left: 65px;
     }
     .cl2 {
-        left: 176px;
+        left: 167px;
     }
     #myModal .modal-foot ul li {
         display: inline-block;
@@ -1296,13 +1293,13 @@
         height: 70px;
     }
     #myModal .nav-tabs li.connecting-line {
-        width: 84px;
+        width: 71px;
     }
     .cl1 {
         left: 76px;
     }
     .cl2 {
-        left: 196px;
+        left: 189px;
     }
     .rss-field .form-group:nth-child(1) input {
         width: 100% !important
@@ -1589,10 +1586,10 @@
         width: 87px;
     }
     .cl1 {
-        left: 80px;
+        left: 73px;
     }
     .cl2 {
-        left: 204px;
+        left: 191px;
     }
     .m-fsalon ul li:nth-child(1) img,
     .m-fsalon ul li:nth-child(2) img {
@@ -1812,10 +1809,10 @@
         width: 100px;
     }
     .cl1 {
-        left: 86px;
+        left: 79px;
     }
     .cl2 {
-        left: 223px;
+        left: 209px;
     }
     .selectpicker2 {
         left: -67px;
@@ -2140,10 +2137,10 @@
         width: 101px;
     }
     .cl1 {
-        left: 86px;
+        left: 79px;
     }
     .cl2 {
-        left: 224px;
+        left: 210px;
     }
     .m-fsalon ul li:nth-child(1) img,
     .m-fsalon ul li:nth-child(2) img {
