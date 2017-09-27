@@ -1029,6 +1029,15 @@ $('.tops .flexslider').flexslider({
 
 });
 
+  $(window).scroll(function() {
+    $('.float-contacts-m').css('opacity', '0.5')
+    clearTimeout($.data(this, 'scrollTimer'));
+    $.data(this, 'scrollTimer', setTimeout(function() {
+        $('.float-contacts-m').css('opacity', '1')
+        console.log("Haven't scrolled in 250ms!");
+    }, 250));
+  });
+
 });
 
 

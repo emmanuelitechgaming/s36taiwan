@@ -3484,25 +3484,17 @@ footer .browsers li:first-child {
 .mnav a:active {
     text-decoration: none
 }
-
 .mnav .active {
     color: #fba601
 }
-
 .mnav .menu-toggle {
     top: 2px;
     padding: 5px 10px;
     margin-right: -16px;
 }
-
 .swiper-container {
     display: inline-block;
 }
-
-.swiper-wrapper div:first-child {
-    border-left: 1px solid #000;
-}
-
 .swiper-slide {
     text-align: center;
     width: auto;
@@ -3516,9 +3508,8 @@ footer .browsers li:first-child {
     -ms-flex-align: center;
     align-items: center;
 }
-
 .swiper-slide a {
-    font-size: 11px;
+    font-size: 13px;
     color: #fba601;
     font-weight: 700;
     border-right: 0.5px solid #000;
@@ -5653,7 +5644,7 @@ div.cta-contact-info a {
 .m-fsalon ul li:nth-child(6) img {
     display: block;
     margin-bottom: 5px;
-    max-width: 60%;
+    max-width: 65%;
 }
 .m-fsalon ul li:nth-child(6) a {
     color: #5e5e5e
@@ -9027,6 +9018,7 @@ span.add-ico{
   background-size: contain;
   vertical-align: middle;
   margin-left: 5px;
+  position: relative;
 }
 .boxer-last .arrow-right-brown::after{
   background: url('../img/arrow-right-brown.png') no-repeat;
@@ -9332,6 +9324,7 @@ span.add-ico{
 }
 .m-footer-dropdown{
   margin-top: 10px;
+  margin-bottom: 10px;
   display: inline-block;
 }
 .m-footer-dropdown button{
@@ -9381,6 +9374,9 @@ span.add-ico{
 }
 .m-footer-dropdown button, .m-footer-dropdown .dropdown-menu{
   min-width: 230px;
+}
+.m-footer-dropdown .dropdown-menu{
+  margin-bottom: -35px;
 }
 .m-footer-dropdown ul li.last{
   text-align: right !important;
@@ -9522,6 +9518,9 @@ span.add-ico{
 }
 .jackpot-winner2 .flexslider td{
   padding: 3px 0px;
+}
+.jackpot-winner2 .flexslider table tr td:first-child{
+  border-right: 1px solid transparent
 }
 .flexslider tr{
   background: #1b1a1a;
