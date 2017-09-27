@@ -9721,3 +9721,20 @@ padding: 10px 0;
 .trphy3-color{
   color: #a2684e
 }
+.njackpot-nwinner .side-logo::after{
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: relative;
+  top: 2px;
+  margin-left: 5px
+}
+.njackpot-nwinner .side-logo-right::after{
+  background: url('../img/jackpot-winner-right.png') no-repeat;
+  background-size: cover;
+}
+.njackpot-nwinner .side-logo-plus::after{
+  background: url('../img/jackpot-winner-plus.png') no-repeat;
+  background-size: cover;
+}
