@@ -3291,6 +3291,7 @@ footer .browsers li:first-child {
 }
 .td-week-netbet-holder{
   padding: 0 20px;
+  font-size: 14px
 }
 .td-win .username {
     margin: 0 20px;
@@ -6667,7 +6668,7 @@ div.acc-info.acc-edit div.acc-cont input {
 #menu-m {
     position: absolute;
     z-index: 1049;
-    background: #333333;
+    background: #2a2a2a;
     border-radius: 4px;
     min-width: 60px;
 }
@@ -6872,7 +6873,6 @@ div.acc-info.acc-edit div.acc-cont input {
     background-image: none !important;
     vertical-align: middle
 }
-
 .flag-icon::before {
     content: ' ';
     display: block;
@@ -6881,7 +6881,6 @@ div.acc-info.acc-edit div.acc-cont input {
     position: relative;
     bottom: 3px;
 }
-
 .flag-icon-cn::before {
     background: url('../img/flags/china.png');
 }
@@ -7065,7 +7064,11 @@ button .flag-icon-kr::before {
     background-position: -208px -16px !important;
     background-size: cover;
 }
-
+.flag-menu-m .flag-icon::before{
+  width: 34px;
+  height: 34px;
+  background-size: cover;
+}
 .casino-mp {
     padding-left: 10px;
 }
@@ -7852,7 +7855,7 @@ margin-right: 23px;
 .nav-slide{
   position: absolute;
   z-index: 98999;
-  background: rgba(0,0,0,0.9);
+  background: #2a2a2a;
   width: 100%;
 }
 .nav-slide li{
@@ -7868,7 +7871,7 @@ margin-right: 23px;
   display: block;
   font-size: 17px;
   border-bottom: 1px dotted #352a31;
-  color: #908c8e;
+  color: #fba601;
   height: 50px;
   -webkit-transition-duration: .25s,.25s;
   -webkit-transition-timing-function: linear,linear;
@@ -8518,7 +8521,7 @@ bottom: -2px;
 }
 .winner-breadcrumb-inner .netbet{
   background: #111;
-  border-radius: 0;
+  border-radius: 5px;
 }
 .netbet div{
   float: none;
@@ -9401,12 +9404,12 @@ span.add-ico{
 #m-selectpicker2-collapse{
   position: absolute;
   z-index: 1049;
-  background: #333;
-  left: -23px
+  background: #2a2a2a;
+  left: -14px
 }
 #m-selectpicker2-collapse a{
   text-align: center;
-  padding: 5px 15px;
+  padding: 4px 7px;
 }
 #m-selectpicker2-collapse ul li:first-child a{
   padding-top: 15px;
@@ -9768,4 +9771,8 @@ padding: 10px 0;
   background: #fba601;
   text-align: center;
   color: #000;
+}
+.dl-area-m{
+  padding: 5px 10px;
+  text-align: center;
 }
