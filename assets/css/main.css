@@ -9567,8 +9567,11 @@ span.add-ico{
 .jackpot-winner tr td:last-child{
   width: 80px;
 }
-.jackpot-winner tr td:nth-child(2){
+.jackpot-winner2 tr td:nth-child(2){
   width: 198px;
+  font-size: 21px;
+  letter-spacing: 3px;
+  font-weight: 700;
 }
 .jackpot-winner tr td:nth-child(3){
   width:40px;
@@ -9594,7 +9597,7 @@ span.add-ico{
   border-radius: 5px
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
-      width: 115px;
+      width: 38px;;
 }
 .trphy{
   display: inline-block!important;
