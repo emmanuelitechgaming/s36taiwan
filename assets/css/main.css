@@ -6675,16 +6675,19 @@ div.acc-info.acc-edit div.acc-cont input {
     display: inline-block;
 }
 
-.menu-m::before {
+.menu-m::before, #m-selectpicker2-collapse::before{
     content: "";
-    border-bottom: 10px solid #333333;
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
+    width: 20px;
+    height: 10px;
+    background: url('../img/triangle.png') no-repeat;
+    background-size: cover;
     position: absolute;
-    top: -7px;
+    top: -9px;
     z-index: 10;
 }
-
+#m-selectpicker2-collapse::before{
+  right: -1px;
+}
 .header-cs ul li {
     border: 1px solid #4a4a4a;
     border-bottom: none;
@@ -9401,7 +9404,7 @@ span.add-ico{
 }
 #m-selectpicker2-collapse{
   z-index: 1049;
-  background: #2a2a2a;
+  background: #333;
   position: absolute;
   left: 0;
   right: 0;
@@ -9822,4 +9825,6 @@ padding: 10px 0;
   color: #fff;
   padding: 6px 0;
   border-radius: 5px;
+  max-width: 230px;
+  margin: 0px auto
 }

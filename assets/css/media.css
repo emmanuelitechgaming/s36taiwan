@@ -528,6 +528,10 @@
         width: 50%;
         margin-right: -3px;
     }
+    .footer-shareit ul.list-inline li:nth-child(even){
+      padding-right: 0;
+      text-align: right;
+    }
     .rss-field .form-group:nth-child(2),
     .rss-field .form-group:nth-child(3),
     .rss-field .form-group:nth-child(4) {
@@ -695,7 +699,7 @@
         bottom: -5px
     }
     .lg-playnow {
-      bottom: 8.87%;
+      bottom: 9.7%;
     }
     img.b-img {
         top: auto
@@ -780,7 +784,7 @@
     }
     #menu-m {
         right: -13.7px;
-        top: 30px;
+        top: 35px;
     }
     .menu-m::before {
         left: 19px;
@@ -838,7 +842,7 @@
     }
     footer .footer-icon img {
         display: inline-block;
-        margin: 0px 10px 10px 9px;
+        margin: 0px 0px 10px 0px;
     }
     #myModal #country-sel button {
         background-position: 163px -6px;
@@ -1107,7 +1111,7 @@
     }
     .footer-img-m ul{
       list-style: none;
-      margin: 0;
+      margin: 0 -1px 0 12px;
       padding: 0;
     }
     .footer-img-m ul li{
@@ -1254,6 +1258,14 @@
     .rss-field .form-group:nth-child(1) input {
       width: 100% !important
     }
+    footer .f-social ul.columns.f-social li{
+      width: 33.33%;
+      float: left;
+      padding: 0 3px
+    }
+    .footer .columns.f-social{
+      margin: 0 -5px 0 -4px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1377,7 +1389,7 @@
         bottom: 6px;
     }
     .lg-playnow {
-        bottom: 10.2%;
+        bottom: 11.3%;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1789,7 +1801,7 @@
       margin: 0 8px
     }
     .lg-playnow {
-      bottom: 10.6%;
+      bottom: 11.8%;
     }
     .contact-title li{
       margin: 0 1px;
@@ -1958,7 +1970,7 @@
     }
     .lg-playnow {
         font-size: 18px;
-        bottom: 11.4%;
+        bottom: 12.5%;
     }
     .promotion-form-btn {
         background-position: 32px -1px
@@ -2085,6 +2097,9 @@
     .mobile-banner-wrapper .bs-slider-overlay a::after {
       width: 16px;
       height: 16px;
+    }
+    .footer .columns.f-social {
+      margin: 0 -16px 0 -4px;
     }
 }
 
@@ -2240,9 +2255,6 @@
     .live-game-txtbd a {
         padding-bottom: 4px;
         padding-left: 5px;
-    }
-    .lg-playnow {
-        bottom: 11.4%;
     }
     .live-game-txtba a {
         bottom: -16px;
@@ -2519,9 +2531,6 @@
     }
     .gp-g .col-md-4:nth-child(6) a {
         padding-bottom: 9px;
-    }
-    .lg-playnow {
-        bottom: 11%;
     }
     .m-fsalon ul li:nth-child(1) img,
     .m-fsalon ul li:nth-child(2) img {
@@ -4100,7 +4109,7 @@ margin-top: -18px;
     height: 21px;
   }
   .lg-playnow {
-    bottom: 5%;
+    bottom: 5.2%;
   }
   #b{
     max-width: inherit !important
@@ -4325,6 +4334,16 @@ margin-top: -18px;
   .gp-first .gp-more span {
     top: 4px;
   }
+  .footer-shareit ul.list-inline li:nth-child(even){
+    padding-right: 5px;
+    text-align: left
+  }
+  .footer .columns.f-social{
+    margin: 0 0 0 0
+  }
+  footer .f-social ul.columns.f-social li{
+    width: auto;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -4516,7 +4535,7 @@ main .marquee {
     right: 25px;
 }
 .lg-playnow {
-    bottom: 8.5%;
+    bottom: 9.2%;
 }
 .lg-playnow {
     font-size: 18px;
