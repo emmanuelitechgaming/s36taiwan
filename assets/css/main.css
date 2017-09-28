@@ -6063,6 +6063,7 @@ main .win-lot-top-games {
     padding-top: 5px;
     position: absolute;
     right: 5px;
+    display: none
 }
 
 #m-selectpicker2 i {
@@ -7869,7 +7870,7 @@ margin-right: 23px;
   width: 100%;
   display: block;
   font-size: 17px;
-  border-bottom: 1px solid #4a4a4a;
+  border-bottom: 1px solid #000;
   color: #fba601;
   height: 50px;
   -webkit-transition-duration: .25s,.25s;
@@ -9793,11 +9794,32 @@ padding: 10px 0;
   text-align: center;
 }
 .header-cs .add-desktop{
-  position: relative;
-  margin: 0 10px;
-  width: 22px;
-  bottom: 3px
+  display: none
 }
 .questionaire{
   color: #000;
+}
+.winner-breadcrumb-inner .leaderboard{
+  height: 410px;
+  overflow-y: scroll;
+  padding-right: 0;
+}
+.winner-breadcrumb-inner .leaderboard-wrapper{
+  padding-right: 15px
+}
+.nav.navbar-nav li:last-child{
+  padding: 20px;
+  border-bottom: 1px solid #000;
+  padding: 15px 45px 15px 60px;
+}
+.add-main-screen{
+  display: block;
+  width: 100%;
+  border: none;
+  background: #333 url('../img/add-desktop.png') no-repeat;
+  background-size: 24px 24px;
+  background-position: 98%;
+  color: #fff;
+  padding: 6px 0;
+  border-radius: 5px;
 }

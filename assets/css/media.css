@@ -535,7 +535,7 @@
         vertical-align: middle;
     }
     .rss-field .form-group:nth-child(2) {
-        width: 44%
+        width: 45.1%
     }
     .slots-info {
         right: 24%;
@@ -1251,6 +1251,9 @@
     .gp-first .gp-more span{
       top: 11px;
     }
+    .rss-field .form-group:nth-child(1) input {
+      width: 100% !important
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1330,7 +1333,7 @@
         width: 100% !important
     }
     .rss-field .form-group:nth-child(2) {
-        width: 54.5%
+        width: 52.5%
     }
     .m-top-header-clock {
         font-size: 11px!important;
@@ -1634,7 +1637,7 @@
         width: 100% !important
     }
     .rss-field .form-group:nth-child(2) {
-        width: 57%;
+        width: 54.5%;
     }
     .mnav-bottom .swiper-container {
         width: 388px;
