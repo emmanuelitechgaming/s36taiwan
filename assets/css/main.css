@@ -9807,7 +9807,7 @@ padding: 10px 0;
 .winner-breadcrumb-inner .leaderboard-wrapper{
   padding-right: 15px
 }
-.nav.navbar-nav li:last-child{
+.nav.navbar-nav.hidden-md.hidden-lg li:last-child{
   padding: 20px;
   border-bottom: 1px solid #000;
   padding: 15px 45px 15px 60px;
