@@ -1863,7 +1863,7 @@
         left: -67px;
     }
     .rss-field .form-group:nth-child(2) {
-        width: 61.5%
+        width: 59.5%
     }
     .jumbo {
         top: 16.5px;
@@ -2187,9 +2187,6 @@
     .m-fsalon ul li:nth-child(1) img,
     .m-fsalon ul li:nth-child(2) img {
         width: 90%;
-    }
-    .rss-field .form-group:nth-child(2) {
-        width: 61%;
     }
     .mnav-bottom .swiper-container {
         width: 427px;
@@ -2545,7 +2542,7 @@
         margin-right: 32px;
     }
     .rss-field .form-group:nth-child(2) {
-        width: 73%;
+        width: 71.8%;
     }
     .footer-shareit ul li {
         width: 33.33%;
@@ -2720,7 +2717,7 @@
         left: 110px;
     }
     .rss-field .form-group:nth-child(2) {
-        width: 76.5%;
+        width: 75.4%;
     }
     footer .footer-icon img {
         display: inline-block;
