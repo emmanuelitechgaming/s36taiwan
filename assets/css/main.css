@@ -1625,7 +1625,7 @@ p {
 
 .sp-btn-hidden{
   border-radius: 20px;
-  font-size: 17px;
+  font-size: 18px;
   background: #acacb4;
   background-size: contain;
       -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
@@ -4555,7 +4555,7 @@ left: 47%;
     background: #2a2a2a;
     display: block;
     position: relative;
-    border-bottom: solid 1px #4a4a4a;
+    border-bottom: solid 1px transparent;
 }
 .drop .language-picker:last-child .grey{
   border-bottom: none
@@ -4971,15 +4971,15 @@ ul {
 }
 
 .rss-submit-verification{
-    color: #000;
-    border-radius: 5px;
-    font-size: 12px;
-    font-family: arial, helvetica, sans-serif;
-    padding: 6px 10px 6px 10px;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: bold;
-    background: #acacb4
+  color: #000;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: arial, helvetica, sans-serif;
+  padding: 6px 13px 6px 14px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  background: #acacb4;
 }
 
 .my-modal-cs {
@@ -6799,13 +6799,21 @@ div.acc-info.acc-edit div.acc-cont input {
 }
 
 .gp-more span {
-    position: relative;
-    top: 15px
+  position: relative;
 }
-
+.gp-more span::before{
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../img/more.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
+}
 .gp-more2 img {
     position: relative;
-    top: -2px
 }
 
 .win-title img,
@@ -8881,7 +8889,6 @@ span.add-ico{
   padding: 0px ;
   color: #e6e6e6;
 }
-
 .bago_nanaman .boxer{
   vertical-align: middle;
   padding: 0 0;
@@ -8953,7 +8960,6 @@ span.add-ico{
   top: 0;
   color: #fff;
   font-weight: 700;
-  font-size: 2.5em;
 }
 .boxer .step-no.steps{
   height: 33px;
@@ -9745,12 +9751,26 @@ padding: 10px 0;
   background: url('../img/jackpot-winner-right.png') no-repeat;
   background-size: cover;
 }
+.njackpot-nwinner .side-logo-right-hover::after{
+  background: url('../img/jackpot-winner-right-hover.png') no-repeat;
+  background-size: cover;
+}
 .njackpot-nwinner .side-logo-plus a::after{
   background: url('../img/jackpot-winner-plus.png') no-repeat;
   background-size: cover;
 }
+.njackpot-nwinner .side-logo-plus-hover a::after{
+  background: url('../img/jackpot-winner-plus-hover.png') no-repeat;
+  background-size: cover;
+}
+.side-logo{
+  cursor: pointer;
+}
 .side-logo-plus a{
   color: #000;
+}
+.side-logo-plus a:hover{
+  color: #fff
 }
 .side-logo-plus a:hover, .side-logo-plus a:active, .side-logo-plus a:focus{
   text-decoration: none;

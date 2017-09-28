@@ -1030,13 +1030,29 @@ $('.tops .flexslider').flexslider({
 });
 
   $(window).scroll(function() {
-    $('.float-contacts-m').css('opacity', '0.5')
+    $('.float-contacts-m').css('opacity', '1')
     clearTimeout($.data(this, 'scrollTimer'));
     $.data(this, 'scrollTimer', setTimeout(function() {
-        $('.float-contacts-m').css('opacity', '1')
+        $('.float-contacts-m').css('opacity', '0.5')
         console.log("Haven't scrolled in 250ms!");
     }, 250));
   });
+
+  $('.side-logo').hover(function() {
+    $(this).css('color', '#fff');
+    if($(this).hasClass('side-logo-right')){
+      $(this).addClass('side-logo-right-hover');
+    }else{
+      $(this).addClass('side-logo-plus-hover');
+    }
+  }, function() {
+    $(this).css('color', '#000');
+    if($(this).hasClass('side-logo-right')){
+      $(this).removeClass('side-logo-right-hover');
+    }else{
+      $(this).removeClass('side-logo-plus-hover');
+    }
+  })
 
 });
 

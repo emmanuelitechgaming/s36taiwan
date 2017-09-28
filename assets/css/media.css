@@ -1203,6 +1203,10 @@
       text-align: left;
       padding-right: 0;
     }
+    .bago-pages .boxer  div.step-txt{
+      padding: 10px 0 20px;
+      text-align: center;
+    }
     .njackpot-nwinner{
       display: none;
     }
@@ -1233,6 +1237,19 @@
     }
     .live-games img {
         margin: 10px auto;
+    }
+    .bago-pages .col-md-4{
+      padding-left: 5px;
+      padding-right: 5px
+    }
+    .boxer .step-no{
+      font-size: 2.5em;
+    }
+    .gp-more span {
+        top: 7px
+    }
+    .gp-first .gp-more span{
+      top: 11px;
     }
 }
 
@@ -1497,6 +1514,9 @@
     }
     header .logo a {
       width: 135px;
+    }
+    .bago-pages .boxer  div.step-txt{
+      display: block;
     }
 }
 
@@ -1777,6 +1797,20 @@
     }
     .boxer-last a{
       min-width: 275px;
+    }
+    .boxer div span{
+      font-size: 10px;
+    }
+    .bago-pages .boxer div.step-txt {
+      display: inline-block;
+      text-align: left;
+      padding: 10px 0 13px;
+    }
+    .bago-pages .boxer{
+      white-space: nowrap;
+    }
+    .boxer .step-no{
+      font-size: 2em;
     }
 }
 
@@ -4214,7 +4248,7 @@ margin-top: -18px;
   .bago-afterlogin .col-6:last-child .boxer::after{
     content: none;
   }
-  .bago-pages .col-xs-12:last-child .boxer::after{
+  .bago-pages .col-xs-4:last-child .boxer::after{
     content: none
   }
   .boxer-last a{
@@ -4236,7 +4270,7 @@ margin-top: -18px;
   }
   .register-area{
     position: relative;
-    top: 23px
+    top: 3px
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
     top: 10px;
@@ -4248,6 +4282,7 @@ margin-top: -18px;
   .boxer  div.step-txt{
     margin: 0 20px;
     text-align: left;
+    padding: 0 0 0;
     padding-right: 35px;
   }
   .njackpot-nwinner{
@@ -4270,6 +4305,25 @@ margin-top: -18px;
   }
   .live-games img {
       margin: 3px auto;
+  }
+  .bago-pages .col-md-4{
+    padding-left: 15px;
+    padding-right: 15px
+  }
+  .bago-pages .boxer  div.step-txt{
+    padding: 0 0 0;
+  }
+  .boxer .step-no{
+    font-size: 2.5em;
+  }
+  .gp-more2 img {
+      top: -2px
+  }
+  .gp-more span {
+    top: 8px;
+  }
+  .gp-first .gp-more span {
+    top: 7px;
   }
 }
 
