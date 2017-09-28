@@ -4492,6 +4492,11 @@ main .marquee {
     width: 403px;
     height: 395px;
   }
+  .slots-breadcrumb-inner .tdw-button{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
   .slots-breadcrumb-inner .flexslider-slide .col-xs-12, .slots-breadcrumb-inner .flexslider-fade .col-xs-12{
     width: 33.33333333%;
     height: auto;
@@ -4501,7 +4506,8 @@ main .marquee {
     height: auto;
   }
   .winner-breadcrumb-inner .col-xs-12.netbet{
-    width: 100%;
+    width: 1177px;
+    margin-left: 10px;
   }
   .flexslider-fade .content div{
     font-size: 14px;

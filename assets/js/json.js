@@ -9,7 +9,8 @@ $(document).ready(function(){
 			'link': [
 				'../'
 			],
-			'icon': 'cn'
+			'link2': '/',
+			'icon': 'cn',
 		},
 		{
 			'country_name': '台灣',
@@ -20,7 +21,8 @@ $(document).ready(function(){
 			'link': [
 				'#'
 			],
-			'icon': 'tw'
+			'link2': '#',
+			'icon': '/tw'
 		},
 		{
 			'country_name': '日本国',
@@ -31,6 +33,7 @@ $(document).ready(function(){
 			'link': [
 				'../jp/'
 			],
+			'link2': '/jp/',
 			'icon': 'jp'
 		},
 		{
@@ -42,6 +45,7 @@ $(document).ready(function(){
 			'link': [
 				'../en/'
 			],
+			'link2': '/en/',
 			'icon': 'um'
 		},
 		{
@@ -53,6 +57,7 @@ $(document).ready(function(){
 			'link': [
 				'#'
 			],
+			'link2': '#',
 			'icon': 'vn'
 		},
 		{
@@ -64,6 +69,7 @@ $(document).ready(function(){
 			'link': [
 				'../id/'
 			],
+			'link2': '/id/',
 			'icon': 'id'
 		},
 		{
@@ -79,6 +85,7 @@ $(document).ready(function(){
 				'../my-en/',
 				'#'
 			],
+			'link2': '/my-bm/',
 			'icon': 'my'
 		},
 		{
@@ -90,6 +97,7 @@ $(document).ready(function(){
 			'link': [
 				'../th/'
 			],
+			'link2': '/th/',
 			'icon': 'th'
 		},
 		{
@@ -101,13 +109,14 @@ $(document).ready(function(){
 			'link': [
 				'../in/'
 			],
+			'link2': '/in/',
 			'icon': 'in'
 		}
 	];
 
 	$(obj).each(function(k,v){
 		$('#drop')
-			.append('<div class="language-picker"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span><span class="cntry" data-value="'+v.country_name+'" data-icon="'+v.icon+'">'+ v.country_name + '</span></div></div>');
+			.append('<div class="language-picker" data-link2="'+v.link2+'"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span><span class="cntry" data-value="'+v.country_name+'" data-icon="'+v.icon+'">'+ v.country_name + '</span></div></div>');
 
 		$('#drop2ul')
 			.append('<li><a href="javascript:void(0)" id="country2'+ k +'" data-value="'+ k +'"><span class="flag-icon '+v.flag+'"> </span> '+ v.country_name +'<span class="languages"></span></a></li>');
@@ -149,5 +158,9 @@ $(document).ready(function(){
 		$('.selectpicker2-val').addClass('selectpicker2-'+$(this).data('icon'));
 		$('.selectpicker2-val').html(' '+$(this).data('value')+' <i class="fa fa-angle-down" style="font-size:16px;"></i>');
 		the_icon = $(this).data('icon');
+	})
+
+	$('.language-picker').click(function() {
+		window.location.href = $(this).data('link2');
 	})
 });
