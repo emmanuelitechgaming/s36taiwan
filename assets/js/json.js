@@ -22,7 +22,7 @@ $(document).ready(function(){
 				'#'
 			],
 			'link2': '#',
-			'icon': '/tw'
+			'icon': 'tw'
 		},
 		{
 			'country_name': '日本国',
@@ -137,7 +137,7 @@ $(document).ready(function(){
 	});
 
 	$.each(obj, function(index, value) {
-		$('#m-selectpicker2-collapse ul').append('<li><a href="#"><span class="flag-icon flag-icon-'+value.icon+'"></span></a></li>');
+		$('#m-selectpicker2-collapse ul').append('<li><a href="'+value.link2+'"><span class="flag-icon flag-icon-'+value.icon+'"></span>'+value.country_name+'</a></li>');
 	});
 
 	$.each($('.selectpicker2-menu ul li'), function(index, value) {
