@@ -12,7 +12,6 @@
   .bago_nanaman .container{
     padding-left: 0;
     padding-right: 0;
-
   }
     .flexslides {
         margin-left: 17px !important;
@@ -49,8 +48,7 @@
     }
     header .logo a {
         display: inline-block;
-        /* width: 184px; */
-        width: 135px;
+        width: 120px;
         height: 40px;
         background: url(../img/logo-m.png) no-repeat 0 0;
         background-repeat: no-repeat;
@@ -638,7 +636,7 @@
         top: 18%;
     }
     .header-cs {
-        right: 5%;
+        right: 0;
     }
     .gp-first a {
         padding-bottom: 4px
@@ -1226,6 +1224,16 @@
     .bago-pages .col-xs-12:last-child .boxer{
       text-align: center;
     }
+    #m-selectpicker2-collapse a{
+      font-size: 12px;
+    }
+    .contactus ul li::after{
+      left: 0;
+      right: 0;
+    }
+    .live-games img {
+        margin: 10px auto;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1328,9 +1336,6 @@
     .absolute-play {
         left: 39%;
         top: 20%;
-    }
-    .header-cs {
-        right: 6%;
     }
     .panel-heading .slots-tabs > li > a {
         padding: 5px 23px !important;
@@ -1486,6 +1491,12 @@
     .boxer-last a{
       font-size: 16px;
       min-width: 222px;
+    }
+    #m-selectpicker2-collapse a{
+      font-size: 13px;
+    }
+    header .logo a {
+      width: 135px;
     }
 }
 
@@ -1732,9 +1743,6 @@
         width: 291px;
         bottom: 6px;
     }
-    .header-cs {
-        right: 5.3%;
-    }
     .tdw-slots .col-md-3 {
         margin-left: 45px;
         margin-right: 45px
@@ -1838,9 +1846,6 @@
     .m-fsalon ul li:nth-child(4) img,
     .m-fsalon ul li:nth-child(5) img {
         height: 75px
-    }
-    .header-cs {
-        right: 5%;
     }
     .gp-first a {
         padding-bottom: 7px;
@@ -3575,7 +3580,7 @@ margin-top: -18px;
         position: relative;
     }
     .live-game-txtba a {
-        left: -2px;
+        left: 2px;
     }
     .live-game-txtbb a {
         left: 0px;
@@ -4258,6 +4263,13 @@ margin-top: -18px;
   .bago-pages{
     margin-left: 0;
     margin-right: 0;
+  }
+  .contactus ul li::after{
+    left: -35px;
+    right: -20px;
+  }
+  .live-games img {
+      margin: 3px auto;
   }
 }
 

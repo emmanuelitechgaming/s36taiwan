@@ -10,7 +10,6 @@
 body {
     background: #2a2a2a;
     color: #ffffff;
-    overflow-x: hidden;
 }
 
 .navbar-inverse {
@@ -354,25 +353,19 @@ main .gp {
     font-size: 19px;
     letter-spacing: 1px;
 }
-
 main .notice {
-    2 padding-right: 3px;
+    padding-right: 3px;
 }
-
 main .borderstyle {
     margin: 20px 0px;
 }
-
 main .borderstyler {
     margin: 5px 0px;
     border-top: 1px solid #000;
 }
-
 .live-games img {
     margin-top: 5px;
-    margin: 3px auto;
 }
-
 main .win-title {
     background: #161616;
     padding: 10px;
@@ -5135,15 +5128,9 @@ div.cta-contact-info a {
     position: absolute;
     bottom: -6px;
 }
-
 .gp-first a {
     padding-bottom: 3px
 }
-
-.gp-g .col-md-4:nth-child(1) a {
-    padding-left: 5px;
-}
-
 .gp-g .col-md-4:nth-child(2) a {
     padding-left: 0;
 }
@@ -5155,15 +5142,12 @@ div.cta-contact-info a {
 .gp-g .col-md-4:nth-child(4) a {
     padding-left: 0;
 }
-
 .gp-g .col-md-4:nth-child(5) a {
     padding-left: 0;
 }
-
 .gp-g .col-md-4:nth-child(6) a {
     padding-left: 0;
 }
-
 #myModal .close {
     position: absolute;
     z-index: 999;
@@ -5822,6 +5806,15 @@ main .win-lot-top-games {
 .header-cs #m-selectpicker2-collapse a{
   width: auto;
 }
+.header-cs .flag-menu-m a{
+  width: auto;
+  color: #fff
+}
+.header-cs .flag-menu-m a i{
+  position: relative;
+  bottom: 5px;
+  margin-left: 5px
+}
 
 .header-cs img {
     max-width: 100%;
@@ -6270,8 +6263,6 @@ main .win-lot-top-games {
   content: '';
   height: 2px;
   position: absolute;
-  left: -35px;
-  right: -20px;
   bottom: 0;
   border-bottom: 1px solid #303030;
   border-top: 1px solid #000
@@ -6809,7 +6800,7 @@ div.acc-info.acc-edit div.acc-cont input {
 
 .gp-more span {
     position: relative;
-    top: 5px
+    top: 15px
 }
 
 .gp-more2 img {
@@ -9402,26 +9393,31 @@ span.add-ico{
   background-size: contain;
 }
 #m-selectpicker2-collapse{
-  position: absolute;
   z-index: 1049;
   background: #2a2a2a;
-  left: -14px
+  position: absolute;
+  left: 0;
+  right: 0;
+  border: solid 1px #4a4a4a;
+  top: 45px;
 }
 #m-selectpicker2-collapse a{
   text-align: center;
-  padding: 4px 7px;
-}
-#m-selectpicker2-collapse ul li:first-child a{
-  padding-top: 15px;
-}
-#m-selectpicker2-collapse ul li:last-child a{
-  padding-bottom: 15px;
+  color: #fff;
 }
 #m-selectpicker2-collapse .flag-icon{
-  display: block;
-  width: 100%;
+  min-width: 35px;
+  margin-right: 5px;
 }
-
+header #m-selectpicker2-collapse ul{
+  padding: 10px 20px;
+}
+header #m-selectpicker2-collapse ul li{
+  float: none;
+  display: inline-block;
+  width: 33.333%;
+  margin: 10px 0
+}
 .users-winner{
   background: url("../../winnerAds-bg.png");
   height: 127px;
@@ -9775,4 +9771,13 @@ padding: 10px 0;
 .dl-area-m{
   padding: 5px 10px;
   text-align: center;
+}
+.header-cs .add-desktop{
+  position: relative;
+  margin: 0 10px;
+  width: 22px;
+  bottom: 3px
+}
+.questionaire{
+  color: #000;
 }
