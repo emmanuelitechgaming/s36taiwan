@@ -6063,6 +6063,7 @@ main .win-lot-top-games {
     padding-top: 5px;
     position: absolute;
     right: 5px;
+    display: none
 }
 
 #m-selectpicker2 i {
@@ -9793,11 +9794,16 @@ padding: 10px 0;
   text-align: center;
 }
 .header-cs .add-desktop{
-  position: relative;
-  margin: 0 10px;
-  width: 22px;
-  bottom: 3px
+  display: none
 }
 .questionaire{
   color: #000;
+}
+.winner-breadcrumb-inner .leaderboard{
+  height: 410px;
+  overflow-y: scroll;
+  padding-right: 0;
+}
+.winner-breadcrumb-inner .leaderboard-wrapper{
+  padding-right: 15px
 }
