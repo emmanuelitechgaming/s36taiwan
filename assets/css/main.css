@@ -3,8 +3,9 @@
    ========================================================================== */
 
 * {
-    font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif;
+    font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei",'Simsun', "微软雅黑", STXihei, "华文细黑", sans-serif;
     outline: 0;
+
 }
 
 body {
@@ -8934,7 +8935,6 @@ span.add-ico{
 .boxer  div.step-txt{
   margin: 0 20px;
   text-align: left;
-  font-weight: 700;
   margin-left: 1px;
   padding-right: 35px;
 }
@@ -9527,11 +9527,11 @@ header #m-selectpicker2-collapse ul li{
   padding: 0!important;
 }
 .flexslider table, .flexslider th ,  .flexslider td {
-  border: 1px solid #636363;
+  border: 1px solid #2d2d2d;
   border-top: 0;
   border-collapse: collapse;
   text-align: center;
-  padding: 8px 0;
+  padding: 4px 0;
 }
 .jackpot-winner2 .flexslider td{
   padding: 3px 0px;
@@ -9543,7 +9543,7 @@ header #m-selectpicker2-collapse ul li{
   border-right: 1px solid transparent
 }
 .jackpot-winner .flexslider table tr td:last-child{
-  border-right: 1px solid #636363
+  border-right:1px solid #2d2d2d;
 }
 .flexslider tr{
   background: #1b1a1a;
@@ -9553,24 +9553,39 @@ header #m-selectpicker2-collapse ul li{
   background: linear-gradient(#2e2e2e, #1b1a1a);
 }
 .flexslider tr th{
-  background: #fba601;
-      font-weight: 700;
+  background: rgba(66,66,66,1);
+  background: -moz-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(31,31,31,1)));
+  background: -webkit-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: -o-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: -ms-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: linear-gradient(to bottom, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#1f1f1f', GradientType=0 );      font-weight: 700;
       letter-spacing: 1px;
       font-size: 14px;
       font-weight: 700;
+      text-shadow: 1px 1px 5px rgba(000, 000, 000, 1);
       text-align: left;
-      color: #000;
+      color: #B9B9B9;
       border: solid 1px transparent;
       border-top-left-radius: 7px;
       border-top-right-radius: 5px;
       position: relative;
-      padding: 0 15px!important;
+      padding: 2px 15px!important;
 }
 .flexslider tr th::before{
   content: '';
   position: absolute;
   width: 1px;
-  background: #fba601;
+  background: rgba(66,66,66,1);
+  background: -moz-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(31,31,31,1)));
+  background: -webkit-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: -o-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: -ms-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: linear-gradient(to bottom, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#1f1f1f', GradientType=0 );      font-weight: 700;
+
   left: -1px;
   top: 4px;
   bottom: 0;
@@ -9579,7 +9594,15 @@ header #m-selectpicker2-collapse ul li{
   content: '';
   position: absolute;
   width: 1px;
-  background: #fba601;
+  background: rgba(66,66,66,1);
+  background: -moz-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(31,31,31,1)));
+  background: -webkit-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: -o-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: -ms-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: linear-gradient(to bottom, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#1f1f1f', GradientType=0 );      font-weight: 700;
+
   right: -1px;
   top: 4px;
   bottom: 0;
@@ -9588,7 +9611,7 @@ header #m-selectpicker2-collapse ul li{
   width:200px;
 }
 .jackpot-winner tr td:last-child{
-  width: 80px;
+  width: 105px;
 }
 .jackpot-winner2 tr td:nth-child(2){
   width: 198px;
@@ -9600,7 +9623,7 @@ header #m-selectpicker2-collapse ul li{
   width:40px;
 }
 .jackpot-winner tr td:nth-child(1){
-  width: 40px;
+  width: 50px;
 }
 .other-tab{
   margin-top: -40px;
@@ -9620,7 +9643,7 @@ header #m-selectpicker2-collapse ul li{
   border-radius: 5px
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
-      width: 38px;;
+      width: 55px;
 }
 .trphy{
   display: inline-block!important;
@@ -9778,8 +9801,8 @@ padding: 10px 0;
 .side-logo{
   cursor: pointer;
 }
-.side-logo-plus a{
-  color: #000;
+  .side-logo-plus a{
+  color: #B9B9B9;
 }
 .side-logo-plus a:hover{
   color: #fff
@@ -9880,7 +9903,7 @@ padding: 10px 0;
       font-size: 10px;
       min-width: 35px;
       max-width: 35px;
-      padding: 3px 5px;
+      padding: 2px 5px;
       margin: 0 3px;
 }
 

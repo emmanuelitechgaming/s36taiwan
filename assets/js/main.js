@@ -1000,6 +1000,7 @@ $(document).ready(function () {
         direction: 'vertical',
         slideshowSpeed: '4000',
         controlNav: false,
+        reverse:true,
         directionNav: false,
         after: function(){ // After Call back
              $('.tab2 .flex-next ').trigger('click');
@@ -1010,6 +1011,7 @@ $(document).ready(function () {
         direction: 'vertical',
         slideshow: false,
         controlNav: false,
+        reverse:true,
         directionNav: true,
         after: function(){ // After Call back
              $('.tab3 .flex-next ').trigger('click');
@@ -1022,6 +1024,7 @@ $(document).ready(function () {
         direction: 'vertical',
         slideshow: false,
         controlNav: false,
+        reverse:true,
         directionNav: true
 
 
