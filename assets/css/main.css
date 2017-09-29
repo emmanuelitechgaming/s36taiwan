@@ -3,8 +3,9 @@
    ========================================================================== */
 
 * {
-    font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", sans-serif;
+    font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei",'Simsun', "微软雅黑", STXihei, "华文细黑", sans-serif;
     outline: 0;
+
 }
 
 body {
@@ -8936,7 +8937,6 @@ span.add-ico{
 .boxer  div.step-txt{
   margin: 0 20px;
   text-align: left;
-  font-weight: 700;
   margin-left: 1px;
   padding-right: 35px;
 }
@@ -9622,7 +9622,7 @@ header #m-selectpicker2-collapse ul li{
   border-radius: 5px
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
-      width: 38px;;
+      width: 55px;
 }
 .trphy{
   display: inline-block!important;
