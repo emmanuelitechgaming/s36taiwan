@@ -48,14 +48,14 @@
     }
     header .logo a {
       display: inline-block;
-      width: 85px;
-      height: 30px;
+      width: 120px;
+      height: 40px;
       background: url(../img/logo-m.png) no-repeat 0 0;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
       position: relative;
-      top: 8px;
+      top: 1px
     }
     .navbar-header.header-mobile{
       margin-bottom: 15px
@@ -1183,6 +1183,19 @@
       right: 30%;
       left: 30%;
     }
+    .bago-main .boxer::after{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 2px;
+      background: url('../img/separator.png') no-repeat;
+      background-size: 100% 100%;
+      right: auto;
+      left: 102%;
+      top: 9px;
+      bottom: 0;
+      height: 34px;
+    }
     .bago_nanaman .col-xs-12:nth-child(3) .boxer::after{
       content: none;
     }
@@ -1311,7 +1324,9 @@
       position: relative;
       left: 15px
     }
-
+    header{
+      height: 90px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1907,6 +1922,9 @@
     }
     #myModalTab1-1 .g-recaptcha{
       left: 5px
+    }
+    .bago-main .boxer::after{
+      top: 5px;
     }
 }
 
@@ -4482,6 +4500,9 @@ margin-top: -18px;
   }
   #myModalTab1-1 .g-recaptcha {
     left: -9px;
+  }
+  header{
+    height: auto;
   }
 }
 
