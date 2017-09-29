@@ -1209,7 +1209,7 @@
     }
     .bago-pages .boxer  div.step-txt{
       padding: 10px 0 20px;
-      text-align: center;
+      text-align: LEFT;
     }
     .njackpot-nwinner{
       display: none;
@@ -4535,7 +4535,7 @@ main .marquee {
     right: 25px;
 }
 .lg-playnow {
-    bottom: 9.2%;
+    bottom: 16.5%;
 }
 .lg-playnow {
     font-size: 18px;
