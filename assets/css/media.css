@@ -1204,8 +1204,7 @@
       padding-right: 0;
     }
     .bago-pages .boxer  div.step-txt{
-      padding: 10px 0 20px;
-      text-align: center;
+      text-align: LEFT;
     }
     .njackpot-nwinner{
       display: none;
