@@ -1327,6 +1327,24 @@
     header{
       height: 90px;
     }
+    .boxer .step-no.step1, .boxer .step-no.step2, .boxer .step-no.step3, .boxer .step-no.step4{
+      position: relative;
+    }
+    .bago-afterlogin .boxer .step-no.step1{
+      margin-right: 7px
+    }
+    .bago-afterlogin .boxer .step-no.step2{
+      margin-right: 20px;
+      left: 13px
+    }
+    .bago-afterlogin .boxer .step-no.step3{
+      margin-right: 4px;
+      left: -5px
+    }
+    .bago-afterlogin .boxer .step-no.step4{
+      margin-right: 9px;
+      left: 3px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4503,6 +4521,21 @@ margin-top: -18px;
   }
   header{
     height: auto;
+  }
+  .bago-afterlogin .boxer .step-no.step1{
+    margin-right: auto
+  }
+  .bago-afterlogin .boxer .step-no.step2{
+    margin-right: 2auto;
+    left: auto
+  }
+  .bago-afterlogin .boxer .step-no.step3{
+    margin-right: auto;
+    left: auto
+  }
+  .bago-afterlogin .boxer .step-no.step4{
+    margin-right: auto;
+    left: auto
   }
 }
 
