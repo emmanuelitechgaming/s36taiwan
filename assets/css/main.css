@@ -9861,7 +9861,7 @@ padding: 10px 0;
       line-height: 15px;
       position: relative;
       top: -5px;
-      color: #fff;
+      color: #000;
       text-shadow: 1px 1px 15px rgba(000, 000, 000, 0.5);
       font-size: 1em;
       min-width: 35px;
@@ -9870,14 +9870,31 @@ padding: 10px 0;
       margin: 0 3px;
 
 }
-.jackpot-winner span.placing, .jackpot-winner span.username, .jackpot-winner span.date{
+.jackpot-winner.j-new{
+  background: #1b1b1b;
+  padding: 5px 10px 5px 10px;
+}
+.j-new .flexslider{
+  padding: 5px!important;
+}
+.jackpot-winner.j-new h3{
+  text-align: center;
+  margin: 0;
+}
+.jackpot-winner span.flag-jckpot{
+  margin: 0 8px;
+}
+.jackpot-winner span.placing {
   background: #1b1b1b
   padding: 2px 5px;
-  font-size: 2em;
+  font-size: 16px;
+}
+.jackpot-winner span.username, .jackpot-winner span.date{
+    font-size:14px;
 }
 .jackpot-winner span.amount{
   color: #fba601;
-  font-size: 2em;
+  font-size: 28px;
 }
 
 .bs-slider-overlay{
