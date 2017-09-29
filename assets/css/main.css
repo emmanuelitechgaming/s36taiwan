@@ -9565,38 +9565,10 @@ header #m-selectpicker2-collapse ul li{
       text-align: left;
       color: #B9B9B9;
       border: solid 1px transparent;
-      border-top-left-radius: 7px;
-      border-top-right-radius: 5px;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
       position: relative;
       padding: 2px 15px!important;
-}
-.flexslider tr th::before{
-  content: '';
-  position: absolute;
-  width: 1px;
-  background: rgba(66,66,66,1);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(31,31,31,1)));
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(66,66,66,1)), to(rgba(31,31,31,1)));
-  background: linear-gradient(to bottom, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#1f1f1f', GradientType=0 );      font-weight: 700;
-
-  left: -1px;
-  top: 4px;
-  bottom: 0;
-}
-.flexslider tr th::after{
-  content: '';
-  position: absolute;
-  width: 1px;
-  background: rgba(66,66,66,1);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(31,31,31,1)));
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(66,66,66,1)), to(rgba(31,31,31,1)));
-  background: linear-gradient(to bottom, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#1f1f1f', GradientType=0 );      font-weight: 700;
-
-  right: -1px;
-  top: 4px;
-  bottom: 0;
 }
  .jackpot-winner tr td:nth-child(4){
   width:200px;
@@ -9631,7 +9603,10 @@ header #m-selectpicker2-collapse ul li{
 .jackpot-winner .flexslider table{
   width: 100%;
   max-width: 100%;
-  border-radius: 5px
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.60);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.60);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.60);
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
       width: 55px;
@@ -9752,9 +9727,7 @@ padding: 10px 0;
 .payment-form input.form-control::placeholder{
   color: #000 !important;
 }
-.trphy1-color .grand-winner{
-  color: #faae55
-}
+
 .trphy2-color{
   color: #d3d4d5
 }
