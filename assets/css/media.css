@@ -528,6 +528,10 @@
         width: 50%;
         margin-right: -3px;
     }
+    .footer-shareit ul.list-inline li:nth-child(even){
+      padding-right: 0;
+      text-align: right;
+    }
     .rss-field .form-group:nth-child(2),
     .rss-field .form-group:nth-child(3),
     .rss-field .form-group:nth-child(4) {
@@ -695,7 +699,7 @@
         bottom: -5px
     }
     .lg-playnow {
-      bottom: 8.87%;
+      bottom: 9.7%;
     }
     img.b-img {
         top: auto
@@ -780,7 +784,7 @@
     }
     #menu-m {
         right: -13.7px;
-        top: 30px;
+        top: 35px;
     }
     .menu-m::before {
         left: 19px;
@@ -838,7 +842,7 @@
     }
     footer .footer-icon img {
         display: inline-block;
-        margin: 0px 10px 10px 9px;
+        margin: 0px 0px 10px 0px;
     }
     #myModal #country-sel button {
         background-position: 163px -6px;
@@ -1107,7 +1111,7 @@
     }
     .footer-img-m ul{
       list-style: none;
-      margin: 0;
+      margin: 0 -1px 0 12px;
       padding: 0;
     }
     .footer-img-m ul li{
@@ -1121,6 +1125,7 @@
     .bago_nanaman .boxer{
       margin-bottom: 0px;
       text-align: center;
+      position: relative;
     }
     .bago_nanaman .boxer-last{
       border: none;
@@ -1173,11 +1178,16 @@
     }
     .bago_nanaman .boxer::after{
       content: '';
-      top: 7px;
-      left: 97%;
+      display: block;
+      position: absolute;
+      height: 2px;
+      background: url('../img/underline.png') no-repeat;
+      background-size: 100% 100%;
+      right: 30px;
+      left: 30px;
     }
-    .bago-pages .boxer::after{
-      content: none
+    .bago_nanaman .col-xs-12:nth-child(3) .boxer::after{
+      content: none;
     }
     .bago-pages{
       margin-left: 15px;
@@ -1206,7 +1216,6 @@
     .bago-pages .boxer  div.step-txt{
       text-align: LEFT;
       width: 85px;
-
     }
     .njackpot-nwinner{
       display: none;
@@ -1250,6 +1259,9 @@
     .bago-pages .boxer .step-no{
       width: 53px;
     }
+    .bago-pages .boxer .step-no{
+      width: 53px;
+    }
     .gp-more span {
         top: 7px
     }
@@ -1258,6 +1270,17 @@
     }
     .rss-field .form-group:nth-child(1) input {
       width: 100% !important
+    }
+    footer .f-social ul.columns.f-social li{
+      width: 33.33%;
+      float: left;
+      padding: 0 3px
+    }
+    .footer .columns.f-social{
+      margin: 0 -5px 0 -4px
+    }
+    #myModal .modal-bottom{
+      text-align: center;
     }
 }
 
@@ -1382,7 +1405,7 @@
         bottom: 6px;
     }
     .lg-playnow {
-        bottom: 10.2%;
+        bottom: 11.3%;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1794,7 +1817,7 @@
       margin: 0 8px
     }
     .lg-playnow {
-      bottom: 10.6%;
+      bottom: 11.8%;
     }
     .contact-title li{
       margin: 0 1px;
@@ -1963,7 +1986,7 @@
     }
     .lg-playnow {
         font-size: 18px;
-        bottom: 11.4%;
+        bottom: 12.5%;
     }
     .promotion-form-btn {
         background-position: 32px -1px
@@ -2090,6 +2113,9 @@
     .mobile-banner-wrapper .bs-slider-overlay a::after {
       width: 16px;
       height: 16px;
+    }
+    .footer .columns.f-social {
+      margin: 0 -16px 0 -4px;
     }
 }
 
@@ -2245,9 +2271,6 @@
     .live-game-txtbd a {
         padding-bottom: 4px;
         padding-left: 5px;
-    }
-    .lg-playnow {
-        bottom: 11.4%;
     }
     .live-game-txtba a {
         bottom: -16px;
@@ -2524,9 +2547,6 @@
     }
     .gp-g .col-md-4:nth-child(6) a {
         padding-bottom: 9px;
-    }
-    .lg-playnow {
-        bottom: 11%;
     }
     .m-fsalon ul li:nth-child(1) img,
     .m-fsalon ul li:nth-child(2) img {
@@ -4105,7 +4125,7 @@ margin-top: -18px;
     height: 21px;
   }
   .lg-playnow {
-    bottom: 5%;
+    bottom: 5.2%;
   }
   #b{
     max-width: inherit !important
@@ -4253,7 +4273,7 @@ margin-top: -18px;
   .bago-afterlogin .col-6:last-child .boxer::after{
     content: none;
   }
-  .bago-pages .col-xs-4:last-child .boxer::after{
+  .bago-pages .col-xs-12:last-child .boxer::after{
     content: none
   }
   .boxer-last a{
@@ -4279,7 +4299,7 @@ margin-top: -18px;
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
     top: 10px;
-    left: 90%;
+    left: 88%;
   }
   .bago_nanaman .col-6:nth-child(3) .boxer::after{
     content: ''
@@ -4329,6 +4349,32 @@ margin-top: -18px;
   }
   .gp-first .gp-more span {
     top: 4px;
+  }
+  .footer-shareit ul.list-inline li:nth-child(even){
+    padding-right: 5px;
+    text-align: left
+  }
+  .footer .columns.f-social{
+    margin: 0 0 0 0
+  }
+  footer .f-social ul.columns.f-social li{
+    width: auto;
+  }
+  .bago_nanaman .col-xs-12:nth-child(3) .boxer::after{
+    content: '';
+  }
+  .bago-pages .col-xs-12:nth-child(3) .boxer::after{
+    content: none;
+  }
+  .bago_nanaman .boxer::after{
+    bottom: 19px;
+    content: '';
+    display: block;
+    height: 34px;
+    width: 2px;
+    background: url(../img/separator.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
   }
 }
 
@@ -4521,7 +4567,7 @@ main .marquee {
     right: 25px;
 }
 .lg-playnow {
-    bottom: 16.5%;
+    bottom: 9.2%;
 }
 .lg-playnow {
     font-size: 18px;
@@ -4650,19 +4696,16 @@ main .marquee {
     padding-left: 71px;
   }
   .bago-pages-casino .container{
-    width: 1643px;
-    padding-left: 105px;
-    padding-right: 20px;
+    width: 1515px;
+    padding-left: 28px;
   }
   .bago-pages-slots .container{
-    width: 1573px;
-    padding-right: 1px;
-    padding-left: 76px;
+    width: 1515px;
+    padding-left: 28px;
   }
   .bago-pages-lotto .container{
-    width: 1590px;
-    padding-right: 18px;
-    padding-left: 86px;
+    width: 1549px;
+    padding-left: 42px;
   }
   .drop {
       right: 17.11%;

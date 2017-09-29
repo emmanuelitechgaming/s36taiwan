@@ -5,9 +5,12 @@ $(document).bind("mobileinit", function(){
 })
 
 $(document).ready(function () {
+  $('a, .hamburger').click(function() {
+    $('.collapse').collapse('hide');
+  })
   $("a").each(function(){
-          $(this).attr("rel","external");
-    });
+    $(this).attr("rel","external");
+  });
   /**
    * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
    *
