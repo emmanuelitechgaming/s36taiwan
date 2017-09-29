@@ -1055,7 +1055,7 @@ $('.tops .flexslider').flexslider({
       $(this).addClass('side-logo-plus-hover');
     }
   }, function() {
-    $(this).css('color', '#000');
+    $(this).css('color', '#b9b9b9');
     if($(this).hasClass('side-logo-right')){
       $(this).removeClass('side-logo-right-hover');
     }else{
