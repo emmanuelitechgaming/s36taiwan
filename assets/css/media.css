@@ -4301,6 +4301,9 @@ margin-top: -18px;
     top: 10px;
     left: 88%;
   }
+  .bago-pages .boxer-arrow::after, .bago-pages .boxer-arrow::after{
+    left: 98%;
+  }
   .bago_nanaman .col-6:nth-child(3) .boxer::after{
     content: ''
   }
