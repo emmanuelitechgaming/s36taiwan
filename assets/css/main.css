@@ -144,7 +144,7 @@ header .btn-default:active {
 }
 
 header .navbar-cta-btn {
-    margin: 7px -6px;
+    margin:19px -6px;
 }
 
 header .navbar-cta-btn a {
@@ -6285,7 +6285,7 @@ main .win-lot-top-games {
 }
 .navbar-afterlogin {
     position: relative;
-    top: -2px;
+    top: 12px;
     left: 22px
 }
 .navbar-afterlogin ul li {
@@ -8753,7 +8753,7 @@ span.add-ico{
   margin-left: 50px;
   letter-spacing: 1px;
   position: relative;
-  top: -13px;
+  top: -7px;
   width: 379px;
 }
 .dl-area ul li{
@@ -9621,8 +9621,8 @@ height: 30px!important;
 }
 .flag-icon-rectangle::before{
   content: '';
-  width: 20px;
-  height: 15px;
+  width: 21px;
+  height: 13px;
 }
 .flag-icon-rectangle-cn::before{
   background: url('../img/flags/cn-rectangle.jpg') no-repeat;
@@ -9857,18 +9857,29 @@ padding: 10px 0;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffa018),to(#ff7b0d));
   background: linear-gradient(to bottom, #ffa018 0%,#ff7b0d 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa018', endColorstr='#ff7b0d',GradientType=0 );      border-radius: 3px;
-  height: 15px;
-  line-height: 15px;
-  position: relative;
-  top: -1px;
-  color: #fff;
-  text-shadow: 1px 1px 15px rgba(000, 000, 000, 0.5);
-  font-size: 10px;
-  min-width: 35px;
-  max-width: 35px;
-  padding: 2px 5px;
-  margin: 0 3px;
+      height: 15px;
+      line-height: 15px;
+      position: relative;
+      top: -5px;
+      color: #fff;
+      text-shadow: 1px 1px 15px rgba(000, 000, 000, 0.5);
+      font-size: 1em;
+      min-width: 35px;
+      max-width: 35px;
+      padding: 2px 5px;
+      margin: 0 3px;
+
 }
+.jackpot-winner span.placing, .jackpot-winner span.username, .jackpot-winner span.date{
+  background: #1b1b1b
+  padding: 2px 5px;
+  font-size: 2em;
+}
+.jackpot-winner span.amount{
+  color: #fba601;
+  font-size: 2em;
+}
+
 .bs-slider-overlay{
   display: none;
 }
