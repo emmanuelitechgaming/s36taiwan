@@ -11,6 +11,9 @@ $(document).ready(function () {
   $("a").each(function(){
     $(this).attr("rel","external");
   });
+  $('#navbar-collapse-1').on('hidden.bs.collapse', function() {
+     $('.hamburger').removeClass('is-active');
+  });
   /**
    * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
    *
