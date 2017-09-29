@@ -9818,3 +9818,30 @@ padding: 10px 0;
   max-width: 230px;
   margin: 0px auto
 }
+.live-game .title{
+  color: #c9c5c2;
+  position: absolute;
+  font-size: 16px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+.live-game ul{
+  position: absolute;
+  list-style: none;
+  right: 0;
+  left: 0;
+  padding: 0;
+}
+.live-game ul li{
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+.live-game ul li span{
+  font-family: Tungsten;
+  display: block;
+  font-weight: 700;
+  color: #fba601;
+  letter-spacing: 1px;
+}

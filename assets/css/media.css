@@ -1282,6 +1282,16 @@
     #myModal .modal-bottom{
       text-align: center;
     }
+    .live-game .title{
+      bottom: 43.7%;
+    }
+    .live-game ul{
+      bottom: 22%;
+    }
+    .live-game ul li span{
+      font-size: 38px;
+      line-height: 38px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1548,6 +1558,16 @@
     }
     .bago-pages .boxer  div.step-txt{
       display: block;
+    }
+    .live-game .title{
+      bottom: 45%;
+    }
+    .live-game ul{
+      bottom: 23%;
+    }
+    .live-game ul li span{
+      font-size: 40px;
+      line-height: 40px;
     }
 }
 
@@ -1843,6 +1863,12 @@
     .boxer .step-no{
       font-size: 2em;
     }
+    .live-game .title{
+      bottom: 45.5%;
+    }
+    .live-game ul{
+      bottom: 24%;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -2116,6 +2142,12 @@
     }
     .footer .columns.f-social {
       margin: 0 -16px 0 -4px;
+    }
+    .live-game .title{
+      bottom: 46%;
+    }
+    .live-game ul{
+      bottom: 26%;
     }
 }
 
@@ -4738,5 +4770,15 @@ main .marquee {
   .payment-form{
     width: 650px;
     margin: 0px auto;
+  }
+  .live-game .title{
+    bottom: 46.5%;
+  }
+  .live-game ul{
+    bottom: 27%;
+  }
+  .live-game ul li span{
+    font-size: 40px;
+    line-height: 40px;
   }
 }
