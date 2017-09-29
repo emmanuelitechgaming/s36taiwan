@@ -3475,6 +3475,10 @@ footer .browsers li:first-child {
 }
 .mnav ul li:nth-child(1) .hamburger{
   position: relative;
+  top: 1px
+}
+.mnav ul li:nth-child(1) .hamburger.is-active{
+  top: 4px
 }
 .mnav a:hover,
 .mnav a:focus,
@@ -4823,11 +4827,6 @@ left: 47%;
     border-bottom: 1px solid #333333;
     border-radius: 2px;
 }
-
-.modal-custom-lg .modal-body #myModalTab1-1 .input-border {
-    margin-left: 10px;
-}
-
 .btnb {
     color: #000;
     font-weight: 700!important;
@@ -5796,7 +5795,7 @@ main .win-lot-top-games {
 
 .header-cs {
     position: absolute;
-    top: 10px;
+    top: 7px;
 }
 
 .header-cs a {
@@ -9853,24 +9852,23 @@ padding: 10px 0;
 }
 .jackpot-winner span.cny{
   width: 35px;
-      text-align: center;
-      background: #ffa018;
+  text-align: center;
+  background: #ffa018;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffa018),to(#ff7b0d));
   background: linear-gradient(to bottom, #ffa018 0%,#ff7b0d 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa018', endColorstr='#ff7b0d',GradientType=0 );      border-radius: 3px;
-      height: 15px;
-      line-height: 15px;
-      position: relative;
-      top: -1px;
-      color: #fff;
-      text-shadow: 1px 1px 15px rgba(000, 000, 000, 0.5);
-      font-size: 10px;
-      min-width: 35px;
-      max-width: 35px;
-      padding: 2px 5px;
-      margin: 0 3px;
+  height: 15px;
+  line-height: 15px;
+  position: relative;
+  top: -1px;
+  color: #fff;
+  text-shadow: 1px 1px 15px rgba(000, 000, 000, 0.5);
+  font-size: 10px;
+  min-width: 35px;
+  max-width: 35px;
+  padding: 2px 5px;
+  margin: 0 3px;
 }
-
 .bs-slider-overlay{
   display: none;
 }

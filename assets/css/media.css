@@ -48,14 +48,14 @@
     }
     header .logo a {
       display: inline-block;
-      width: 85px;
-      height: 30px;
+      width: 120px;
+      height: 40px;
       background: url(../img/logo-m.png) no-repeat 0 0;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
       position: relative;
-      top: 8px;
+      top: 1px
     }
     .navbar-header.header-mobile{
       margin-bottom: 15px
@@ -1183,6 +1183,19 @@
       right: 30%;
       left: 30%;
     }
+    .bago-main .boxer::after{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 2px;
+      background: url('../img/separator.png') no-repeat;
+      background-size: 100% 100%;
+      right: auto;
+      left: 102%;
+      top: 9px;
+      bottom: 0;
+      height: 34px;
+    }
     .bago_nanaman .col-xs-12:nth-child(3) .boxer::after{
       content: none;
     }
@@ -1300,6 +1313,37 @@
     }
     .live-games-blackjack, .i-roulette, .i-sicbo{
       right: 8px
+    }
+    .g-recaptcha{
+      transform:scale(0.79) !important;
+      -webkit-transform:scale(0.79) !important;
+      transform-origin:0 0 !important;
+      -webkit-transform-origin:0 0 !important;
+    }
+    #myModalTab1-1 .g-recaptcha{
+      position: relative;
+      left: 15px
+    }
+    header{
+      height: 90px;
+    }
+    .boxer .step-no.step1, .boxer .step-no.step2, .boxer .step-no.step3, .boxer .step-no.step4{
+      position: relative;
+    }
+    .bago-afterlogin .boxer .step-no.step1{
+      margin-right: 7px
+    }
+    .bago-afterlogin .boxer .step-no.step2{
+      margin-right: 20px;
+      left: 13px
+    }
+    .bago-afterlogin .boxer .step-no.step3{
+      margin-right: 4px;
+      left: -5px
+    }
+    .bago-afterlogin .boxer .step-no.step4{
+      margin-right: 9px;
+      left: 3px
     }
 }
 
@@ -1577,6 +1621,10 @@
     }
     .live-games-baccarat, .live-games-dragontiger, .i-fantan{
       left: 3px
+    }
+    .g-recaptcha{
+      transform:scale(0.92) !important;
+      -webkit-transform:scale(0.92) !important;
     }
 }
 
@@ -1884,6 +1932,18 @@
     .live-games-blackjack, .i-roulette, .i-sicbo {
       right: 6px;
     }
+    .g-recaptcha{
+      transform:scale(0.88) !important;
+      -webkit-transform:scale(0.88) !important;
+      position: relative;
+      left: 22px
+    }
+    #myModalTab1-1 .g-recaptcha{
+      left: 5px
+    }
+    .bago-main .boxer::after{
+      top: 5px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -2172,6 +2232,15 @@
     }
     .live-games-blackjack, .i-roulette, .i-sicbo {
       right: 0px;
+    }
+    .g-recaptcha {
+      transform: scale(1) !important;
+      -webkit-transform: scale(1) !important;
+      position: relative;
+      left: 9px;
+    }
+    #myModalTab1-1 .g-recaptcha {
+      left: -13px;
     }
 }
 
@@ -4443,6 +4512,30 @@ margin-top: -18px;
   }
   .live-games-baccarat, .live-games-dragontiger, .i-fantan {
     left: auto;
+  }
+  .g-recaptcha {
+    left: -1px;
+  }
+  #myModalTab1-1 .g-recaptcha {
+    left: -9px;
+  }
+  header{
+    height: auto;
+  }
+  .bago-afterlogin .boxer .step-no.step1{
+    margin-right: auto
+  }
+  .bago-afterlogin .boxer .step-no.step2{
+    margin-right: 2auto;
+    left: auto
+  }
+  .bago-afterlogin .boxer .step-no.step3{
+    margin-right: auto;
+    left: auto
+  }
+  .bago-afterlogin .boxer .step-no.step4{
+    margin-right: auto;
+    left: auto
   }
 }
 
