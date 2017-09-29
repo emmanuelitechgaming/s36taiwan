@@ -3124,7 +3124,6 @@ span.round-tab i {
 
 .cs-modal .chatserver-form button {
     font-size: 17px;
-    font-weight: 700;
     margin-bottom: 20px;
     padding: 3px 15px;
     letter-spacing: .5px;
@@ -3133,7 +3132,6 @@ span.round-tab i {
     background: #acacb4;
     text-shadow: none;
     width: 100%;
-    font-weight: 700;
     border-radius: 5px;
     color: #000;
 }
@@ -3475,7 +3473,9 @@ footer .browsers li:first-child {
     position: relative;
     top: -9px
 }
-
+.mnav ul li:nth-child(1) .hamburger{
+  position: relative;
+}
 .mnav a:hover,
 .mnav a:focus,
 .mnav a:active {
@@ -5530,7 +5530,7 @@ div.cta-contact-info a {
     display: block;
     margin: 0px auto;
     max-width: 100%;
-    height: 28px;
+    height: 24px;
 }
 
 
@@ -6429,7 +6429,6 @@ main .win-lot-top-games {
 
 #cscall {
   font-size: 17px;
-  font-weight: 700;
   margin-bottom: 20px;
   padding: 3px 15px;
   letter-spacing: .5px;
@@ -7234,7 +7233,6 @@ button .flag-icon-kr::before {
     background:#acacb4;
     border-radius: 5px;
     font-size: 17px;
-    font-weight: 700;
     padding: 2px 12px;
     border-color: #acacb4
 }
@@ -9536,7 +9534,7 @@ header #m-selectpicker2-collapse ul li{
   padding: 4px 0;
 }
 .jackpot-winner2 .flexslider td{
-  padding: 3px 0px;
+  padding: 4px 0px;
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
   border-right: 1px solid transparent
@@ -9556,11 +9554,8 @@ header #m-selectpicker2-collapse ul li{
 }
 .flexslider tr th{
   background: rgba(66,66,66,1);
-  background: -moz-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(31,31,31,1)));
-  background: -webkit-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
-  background: -o-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
-  background: -ms-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(66,66,66,1)), to(rgba(31,31,31,1)));
   background: linear-gradient(to bottom, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#1f1f1f', GradientType=0 );      font-weight: 700;
       letter-spacing: 1px;
@@ -9580,11 +9575,8 @@ header #m-selectpicker2-collapse ul li{
   position: absolute;
   width: 1px;
   background: rgba(66,66,66,1);
-  background: -moz-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(31,31,31,1)));
-  background: -webkit-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
-  background: -o-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
-  background: -ms-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(66,66,66,1)), to(rgba(31,31,31,1)));
   background: linear-gradient(to bottom, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#1f1f1f', GradientType=0 );      font-weight: 700;
 
@@ -9597,11 +9589,8 @@ header #m-selectpicker2-collapse ul li{
   position: absolute;
   width: 1px;
   background: rgba(66,66,66,1);
-  background: -moz-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(31,31,31,1)));
-  background: -webkit-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
-  background: -o-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
-  background: -ms-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(66,66,66,1)), to(rgba(31,31,31,1)));
   background: linear-gradient(to bottom, rgba(66,66,66,1) 0%, rgba(31,31,31,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#1f1f1f', GradientType=0 );      font-weight: 700;
 
@@ -9853,8 +9842,8 @@ padding: 10px 0;
   width: 100%;
   border: none;
   background: #333 url('../img/add-desktop.png') no-repeat;
-  background-size: 24px 24px;
-  background-position: 98%;
+  background-size: 32px 32px;
+  background-position: 0% 0%;
   color: #fff;
   padding: 6px 0;
   border-radius: 5px;

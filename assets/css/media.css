@@ -47,18 +47,18 @@
         padding-right: 0;
     }
     header .logo a {
-        display: inline-block;
-        width: 120px;
-        height: 40px;
-        background: url(../img/logo-m.png) no-repeat 0 0;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        position: relative;
-        top: 4px
+      display: inline-block;
+      width: 85px;
+      height: 30px;
+      background: url(../img/logo-m.png) no-repeat 0 0;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      position: relative;
+      top: 8px;
     }
     .navbar-header.header-mobile{
-      margin-bottom: 10px
+      margin-bottom: 15px
     }
     .header-mobile-logo {
         margin-left: 10px
@@ -83,8 +83,8 @@
     .hamburger-box {
         position: relative;
         display: inline-block;
-        width: 25px;
-        height: 25px;
+        width: 23px;
+        height: 23px;
     }
     .wrapper-l {
         width: 250px;
@@ -171,9 +171,6 @@
     .hamburger-inner:after {
         bottom: -9px !important;
     }*/
-    .nathan-logo a {
-        background-size: 100% 60% !important
-    }
     .nav.navbar-nav {
         margin-left: -20px;
         /*margin-right: -15PX;*/
@@ -1139,7 +1136,7 @@
       padding-left: 15px;
     }
     .bago-afterlogin .col-6{
-      width: 25%;
+      width: 100%;
     }
     .boxer .number{
       display: block;
@@ -1183,8 +1180,8 @@
       height: 2px;
       background: url('../img/underline.png') no-repeat;
       background-size: 100% 100%;
-      right: 30px;
-      left: 30px;
+      right: 30%;
+      left: 30%;
     }
     .bago_nanaman .col-xs-12:nth-child(3) .boxer::after{
       content: none;
@@ -1207,6 +1204,12 @@
     }
     .header-cs .bookmark-m{
       display: none
+    }
+    .bago-afterlogin .col-xs-12:nth-child(3) .boxer::after{
+      content: '';
+    }
+    .bago-afterlogin .col-xs-12:nth-child(4) .boxer::after{
+      content: none;
     }
     .boxer  div.step-txt{
       margin: 0 0;
@@ -1291,6 +1294,12 @@
     .live-game ul li span{
       font-size: 38px;
       line-height: 38px;
+    }
+    .gp-g.row .live-games{
+      width: 110px
+    }
+    .live-games-blackjack, .i-roulette, .i-sicbo{
+      right: 8px
     }
 }
 
@@ -1553,12 +1562,6 @@
     #m-selectpicker2-collapse a{
       font-size: 13px;
     }
-    header .logo a {
-      width: 135px;
-    }
-    .bago-pages .boxer  div.step-txt{
-      display: block;
-    }
     .live-game .title{
       bottom: 45%;
     }
@@ -1568,6 +1571,12 @@
     .live-game ul li span{
       font-size: 40px;
       line-height: 40px;
+    }
+    .gp-g.row .live-games{
+      width: 130px
+    }
+    .live-games-baccarat, .live-games-dragontiger, .i-fantan{
+      left: 3px
     }
 }
 
@@ -1869,6 +1878,12 @@
     .live-game ul{
       bottom: 24%;
     }
+    .gp-g.row .live-games {
+      width: 135px;
+    }
+    .live-games-blackjack, .i-roulette, .i-sicbo {
+      right: 6px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -2148,6 +2163,15 @@
     }
     .live-game ul{
       bottom: 26%;
+    }
+    .gp-g.row .live-games {
+      width: 145px;
+    }
+    .live-games-baccarat, .live-games-dragontiger, .i-fantan {
+      left: 8px;
+    }
+    .live-games-blackjack, .i-roulette, .i-sicbo {
+      right: 0px;
     }
 }
 
@@ -4060,7 +4084,7 @@ margin-top: -18px;
       top: 15px
     }
     .live-games-baccarat, .live-games-blackjack, .live-games-dragontiger{
-      top: 17px
+      top: 19px
     }
     .live-game.lg-angel-demon img{
       max-width: 110%;
@@ -4410,6 +4434,15 @@ margin-top: -18px;
     background: url(../img/separator.png) no-repeat;
     background-size: 100% 100%;
     position: absolute;
+  }
+  .bago-afterlogin .col-6 {
+    width: 25%;
+  }
+  .gp-g.row .live-games {
+    width: auto;
+  }
+  .live-games-baccarat, .live-games-dragontiger, .i-fantan {
+    left: auto;
   }
 }
 
