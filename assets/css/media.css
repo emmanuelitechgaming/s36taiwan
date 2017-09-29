@@ -1125,6 +1125,7 @@
     .bago_nanaman .boxer{
       margin-bottom: 0px;
       text-align: center;
+      position: relative;
     }
     .bago_nanaman .boxer-last{
       border: none;
@@ -1177,11 +1178,16 @@
     }
     .bago_nanaman .boxer::after{
       content: '';
-      top: 7px;
-      left: 97%;
+      display: block;
+      position: absolute;
+      height: 2px;
+      background: url('../img/underline.png') no-repeat;
+      background-size: 100% 100%;
+      right: 30px;
+      left: 30px;
     }
-    .bago-pages .boxer::after{
-      content: none
+    .bago_nanaman .col-xs-12:nth-child(3) .boxer::after{
+      content: none;
     }
     .bago-pages{
       margin-left: 15px;
@@ -1272,6 +1278,9 @@
     }
     .footer .columns.f-social{
       margin: 0 -5px 0 -4px
+    }
+    #myModal .modal-bottom{
+      text-align: center;
     }
 }
 
@@ -4264,7 +4273,7 @@ margin-top: -18px;
   .bago-afterlogin .col-6:last-child .boxer::after{
     content: none;
   }
-  .bago-pages .col-xs-4:last-child .boxer::after{
+  .bago-pages .col-xs-12:last-child .boxer::after{
     content: none
   }
   .boxer-last a{
@@ -4290,7 +4299,7 @@ margin-top: -18px;
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
     top: 10px;
-    left: 90%;
+    left: 88%;
   }
   .bago_nanaman .col-6:nth-child(3) .boxer::after{
     content: ''
@@ -4350,6 +4359,22 @@ margin-top: -18px;
   }
   footer .f-social ul.columns.f-social li{
     width: auto;
+  }
+  .bago_nanaman .col-xs-12:nth-child(3) .boxer::after{
+    content: '';
+  }
+  .bago-pages .col-xs-12:nth-child(3) .boxer::after{
+    content: none;
+  }
+  .bago_nanaman .boxer::after{
+    bottom: 19px;
+    content: '';
+    display: block;
+    height: 34px;
+    width: 2px;
+    background: url(../img/separator.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
   }
 }
 
@@ -4542,7 +4567,7 @@ main .marquee {
     right: 25px;
 }
 .lg-playnow {
-    bottom: 16.5%;
+    bottom: 9.2%;
 }
 .lg-playnow {
     font-size: 18px;
@@ -4671,19 +4696,16 @@ main .marquee {
     padding-left: 71px;
   }
   .bago-pages-casino .container{
-    width: 1643px;
-    padding-left: 105px;
-    padding-right: 20px;
+    width: 1515px;
+    padding-left: 28px;
   }
   .bago-pages-slots .container{
-    width: 1573px;
-    padding-right: 1px;
-    padding-left: 76px;
+    width: 1515px;
+    padding-left: 28px;
   }
   .bago-pages-lotto .container{
-    width: 1590px;
-    padding-right: 18px;
-    padding-left: 86px;
+    width: 1549px;
+    padding-left: 42px;
   }
   .drop {
       right: 17.11%;

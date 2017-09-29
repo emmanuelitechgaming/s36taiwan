@@ -8897,16 +8897,6 @@ span.add-ico{
   vertical-align: middle;
   padding: 0 0;
 }
-.bago_nanaman .boxer::after{
-  bottom: 19px;
-  content: '';
-  display: block;
-  height: 34px;
-  width: 2px;
-  background: url(../img/separator.png) no-repeat;
-  background-size: 100% 100%;
-  position: absolute;
-}
 .bago_nanaman .boxer-last::after{
   content: none !important
 }
