@@ -7423,6 +7423,7 @@ button .flag-icon-kr::before {
     font-size: 17px;
     padding: 3px 16px;
     padding-right: 40px;
+    border:1px solid #acacb4 !important
 }
 
 .sweet-arrow::before {
@@ -8975,17 +8976,17 @@ span.add-ico{
 .boxer .step-no.step2{
   background: url('../img/step2.png') no-repeat;
   background-size: contain;
-  width: 36px
+  width: 38px
 }
 .boxer .step-no.step3{
   background: url('../img/step3.png') no-repeat;
   background-size: contain;
-  width: 30px;
+  width: 38px;
 }
 .boxer .step-no.step4{
   background: url('../img/step4.png') no-repeat;
   background-size: contain;
-  width: 36px;
+  width: 38px;
 }
 .bago_nanaman .step-no{
   color: #fba601;
@@ -9598,15 +9599,13 @@ header #m-selectpicker2-collapse ul li{
   width: 100%;
   max-width: 100%;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.60);
-    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.60);
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
-      width: 55px;
+      width: 100px;
 }
 .trphy{
   display: inline-block!important;
-margin: 0 5px;
+margin: 0 18px;
 width: 30px!important;
 height: 30px!important;
 }
@@ -9867,7 +9866,8 @@ padding: 10px 0;
 }
 .jackpot-winner2 span.cny{
   padding: 4px 5px;
-  top: -4px
+  top: -4px;
+  margin:0 32px;
 }
 .j-new .title{
   background: rgba(66,66,66,1);
