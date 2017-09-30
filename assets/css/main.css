@@ -8753,7 +8753,7 @@ span.add-ico{
   margin-left: 50px;
   letter-spacing: 1px;
   position: relative;
-  top: -7px;
+  top: -15px;
   width: 379px;
 }
 .dl-area ul li{
@@ -9842,6 +9842,7 @@ padding: 10px 0;
   float: left;
   width: 33.333%;
   text-align: center;
+  font-size: 17px;
 }
 .live-game ul li span{
   font-family: Tungsten;
