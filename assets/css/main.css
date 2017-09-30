@@ -144,7 +144,7 @@ header .btn-default:active {
 }
 
 header .navbar-cta-btn {
-    margin:2px -21px;
+    margin: 16px -21px;
 }
 
 header .navbar-cta-btn a {
@@ -6280,7 +6280,7 @@ main .win-lot-top-games {
 }
 .navbar-afterlogin {
     position: relative;
-    top: -6px;
+    top: 9px;
     left: 22px
 }
 .navbar-afterlogin ul li {
@@ -9218,7 +9218,6 @@ span.add-ico{
   background-size: 23px 23px;
   background-position: 3% 2px;
   padding: 4px 20px;
-  padding-right: 45px;
   font-size: 14px;
   min-width: 240px;
   border: solid 1px #333
