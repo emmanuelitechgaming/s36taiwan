@@ -775,34 +775,16 @@ $(document).ready(function () {
          'country_name': '简体 - (中国)'
        },
        {
-         'country_name': '英文 - (中国)'
-       },
-       {
          'country_name': '繁體 - (台灣)'
-       },
-       {
-         'country_name': '英文 - (台灣)'
        },
        {
          'country_name': '印尼文- (Bahasa Indonesia)'
        },
        {
-         'country_name': '中文 - (印尼)'
-       },
-       {
          'country_name': '泰文 - (Thailand)'
        },
        {
-         'country_name': '中文 - (泰国)'
-       },
-       {
          'country_name': '越南文 - (Vietnam)'
-       },
-       {
-         'country_name': '英文 -(越南)'
-       },
-       {
-         'country_name': '中文 -(越南)'
        },
        {
          'country_name': '马来文 - (Bahasa Malaysia)'
@@ -811,19 +793,10 @@ $(document).ready(function () {
          'country_name': '英文 - (马来西亚)'
        },
        {
-         'country_name': '中文 -(马来西亚)'
-       },
-       {
-         'country_name': '日文 - (Japan)'
-       },
-       {
-         'country_name': '中文 - (日本)'
+         'country_name': '繁體 -(马来西亚)'
        },
        {
          'country_name': '印度文 - (India)'
-       },
-       {
-         'country_name': '中文 - (印度)'
        }
      ];
 
