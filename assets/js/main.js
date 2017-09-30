@@ -790,6 +790,9 @@ $(document).ready(function () {
          'country_name': '马来文 - (Bahasa Malaysia)'
        },
        {
+         'country_name': '日文 - (Japan)'
+       },
+       {
          'country_name': '英文 - (马来西亚)'
        },
        {
