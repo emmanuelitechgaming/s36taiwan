@@ -9869,10 +9869,6 @@ padding: 10px 0;
   padding: 4px 5px;
   top: -4px
 }
-.j-new{
-  width: 386px;
-  margin: 0px auto;
-}
 .j-new .title{
   background: rgba(66,66,66,1);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(31,31,31,1)));
@@ -9881,7 +9877,7 @@ padding: 10px 0;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#1f1f1f', GradientType=0 );
     font-weight: 700;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 10px;
     margin:  -10px;
     font-weight: 700;
     text-shadow: 1px 1px 5px rgba(000, 000, 000, 1);
