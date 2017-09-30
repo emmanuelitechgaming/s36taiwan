@@ -9213,9 +9213,9 @@ span.add-ico{
 }
 
 .footer-dropdown2 button{
-  background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAYAAABrEgIKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAxhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDM0MiwgMjAxMC8wMS8xMC0xODowNjo0MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowMEExNjVCNzlEMTcxMUU3OTU1MEFDRTFBRjBCNURFOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowMEExNjVCODlEMTcxMUU3OTU1MEFDRTFBRjBCNURFOSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAwQTE2NUI1OUQxNzExRTc5NTUwQUNFMUFGMEI1REU5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAwQTE2NUI2OUQxNzExRTc5NTUwQUNFMUFGMEI1REU5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+nEQ73AAAAQ9JREFUeNrs2s1JxEAYgOGZD/HgyU5sIEVYgp1Zgi14SPqxgzGLHtbFyHjYzTfheWEgPyQwDyGHZGprrdRaW/mqlrNO547UOs9fj/fMM4q6AgUKFChQoEAJFChQoECBAiVQoECBAgVKoECBAgXqMN1d8+bLsvz3kud1vE/T9OGJ2u5lHW8nqHmeH0FtI71+bz9lxIpkSCUrViRESokVSZHSYUVipFRYkRwpDVYMgJQCKwZB2h0rBkLaFSsGQ9oNKwZE+oF1K6h6zXXmW+u6s2Wd+UG/HoACBUqgQIECBQoUKIECBQoUKFACBQoUqITVi19IoP6wAtVXA9WjdPFXFJSXuZf5rboH1dfD+c6nAAMAUOZPmylBgPMAAAAASUVORK5CYII=) no-repeat;
-  background-size: 35px 40px;
-  background-position: right;
+  background: #333 url('../img/world.png') no-repeat;
+  background-size: 23px 23px;
+  background-position: 3% 2px;
   padding: 4px 20px;
   padding-right: 45px;
   font-size: 14px;
@@ -9525,10 +9525,10 @@ header #m-selectpicker2-collapse ul li{
   border-top: 0;
   border-collapse: collapse;
   text-align: center;
-  padding: 4px 0;
+  padding: 5px 0;
 }
 .jackpot-winner2 .flexslider td{
-  padding: 4px 0px;
+  padding: 5px 0px;
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
   border-right: 1px solid transparent
@@ -9851,19 +9851,23 @@ padding: 10px 0;
   background: #ffa018;
   background: -webkit-gradient(linear, left top, left bottom, from(#ffa018),to(#ff7b0d));
   background: linear-gradient(to bottom, #ffa018 0%,#ff7b0d 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa018', endColorstr='#ff7b0d',GradientType=0 );      border-radius: 3px;
-      height: 15px;
-      line-height: 15px;
-      position: relative;
-      top: -5px;
-      color: #000;
-      text-shadow: 1px 1px 15px rgba(000, 000, 000, 0.5);
-      font-size: 1em;
-      min-width: 35px;
-      max-width: 35px;
-      padding: 2px 5px;
-      margin: 0 3px;
-
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa018', endColorstr='#ff7b0d',GradientType=0 );
+  border-radius: 3px;
+  height: 15px;
+  line-height: 15px;
+  position: relative;
+  top: -1px;
+  color: #000;
+  text-shadow: 1px 1px 15px rgba(000, 000, 000, 0.5);
+  font-size: 10px;
+  min-width: 35px;
+  max-width: 35px;
+  padding: 2px 5px;
+  margin: 0 3px;
+}
+.jackpot-winner2 span.cny{
+  padding: 4px 5px;
+  top: -4px
 }
 .j-new{
   width: 386px;
