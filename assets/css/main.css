@@ -3480,8 +3480,8 @@ footer .browsers li:first-child {
 }
 .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger.is-active{
   top: 17px;
-  -webkit-transform: scale(1.9);
-          transform: scale(1.9);
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
 }
 .mnav a:hover,
 .mnav a:focus,
