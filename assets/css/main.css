@@ -144,7 +144,7 @@ header .btn-default:active {
 }
 
 header .navbar-cta-btn {
-    margin: 16px -5px;
+    margin: 0px -5px;
 }
 
 header .navbar-cta-btn a {
@@ -3468,8 +3468,19 @@ footer .browsers li:first-child {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
 }
+.mnav.mnav-afterlogin ul li:nth-child(1) .hamburger {
+  position: relative;
+  top: 12px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
 .mnav ul li:nth-child(1) .hamburger.is-active{
   top: 4px
+}
+.mnav.mnav-afterlogin ul li:nth-child(1) .hamburger.is-active{
+  top: 17px;
+  -webkit-transform: scale(1.9);
+          transform: scale(1.9);
 }
 .mnav a:hover,
 .mnav a:focus,
@@ -5531,9 +5542,17 @@ div.cta-contact-info a {
 }*/
 
 .mnav-afterlogin ul li a img {
-    height: 32px;
+  height: 30px;
 }
-
+.mnav-afterlogin ul li:nth-child(4) a img{
+  height: 35px;
+  top: 7px;
+}
+.mnav-afterlogin ul li:nth-child(2) a img{
+  position: relative;
+  top: 7px;
+  height: 37px;
+}
 .mnav-top ul li a span {
     display: block;
     margin-top: 3px;
@@ -6281,7 +6300,7 @@ main .win-lot-top-games {
 }
 .navbar-afterlogin {
     position: relative;
-    top: 9px;
+    top: -5px;
     left: -10px
 }
 .navbar-afterlogin ul li {
@@ -9288,7 +9307,8 @@ span.add-ico{
   border-bottom: none
 }
 .footer-dropdown .dropdown-menu .last a, .footer-dropdown .dropdown-menu .last div{
-  display: inline-block;
+  display: block;
+  text-align: center;
 }
 .footer-dropdown .dropdown-menu li a:hover, .footer-dropdown .dropdown-menu li div:hover{
   background-color: transparent;
@@ -9308,7 +9328,7 @@ span.add-ico{
 .footer-dropdown ul li:hover{
   background: #525252;
 }
-.footer-dropdown ul .last:hover{
+.footer-dropdown ul .last:hover a{
   background: whitesmoke url('../img/world.png') no-repeat;
   background-size: 23px 23px;
   background-position: 5% 6px;
@@ -9349,8 +9369,7 @@ span.add-ico{
    border-top: 1px solid #8a8a8a;
    padding: 15px 20px;
 }
- .footer-dropdown .dropdown-menu .last{
-   text-align: right;
+ .footer-dropdown .dropdown-menu .last a{
    background: whitesmoke url('../img/world.png') no-repeat;
    background-size: 23px 23px;
    background-position: 5% 6px;
@@ -9410,8 +9429,8 @@ span.add-ico{
 .m-footer-dropdown .dropdown-menu{
   margin-bottom: -35px;
 }
-.m-footer-dropdown ul li.last{
-  text-align: right !important;
+.m-footer-dropdown ul li.last a{
+  text-align: center !important;
   background: whitesmoke url('../img/world.png') no-repeat;
   background-size: 23px 23px;
   background-position: 5% 3px;
@@ -9584,17 +9603,17 @@ header #m-selectpicker2-collapse ul li{
 }
 .flexslider tr th{
   background: #161616;
-      letter-spacing: 1px;
-      font-size: 14px;
-      font-weight: 400;
-      text-shadow: 1px 1px 5px rgba(000, 000, 000, 1);
-      text-align: left;
-      color: #B9B9B9;
-      border: solid 1px transparent;
-      border-top-left-radius: 6px;
-      border-top-right-radius: 6px;
-      position: relative;
-      padding: 2px 15px!important;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 400;
+  text-shadow: 1px 1px 5px rgba(000, 000, 000, 1);
+  text-align: left;
+  color: #fff;
+  border: solid 1px transparent;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  position: relative;
+  padding: 2px 15px!important;
 }
 .flexslider .title{
   border-bottom: 1px solid #2d2d2d !important
@@ -9611,7 +9630,8 @@ header #m-selectpicker2-collapse ul li{
   border-bottom: solid 1px #303030
 }
 .flexslider .title{
-  border-bottom: 1px solid transparent !important
+  border-bottom: 1px solid transparent !important;
+  border-left: none
 }
  .jackpot-winner tr td:nth-child(4){
   width:200px;
@@ -9806,10 +9826,10 @@ padding: 10px 0;
   cursor: pointer;
 }
   .side-logo-plus a{
-  color: #B9B9B9;
+  color: #fff;
 }
 .side-logo-plus a:hover{
-  color: #fff
+  color: #fba601
 }
 .side-logo-plus a:hover, .side-logo-plus a:active, .side-logo-plus a:focus{
   text-decoration: none;
@@ -9851,7 +9871,7 @@ padding: 10px 0;
   padding: 15px 45px 15px 60px;
 }
 .add-main-screen{
-  display: inline-block;
+  display: block;
   width: 100%;
   border: none;
   background: #333 url('../img/add-desktop.png') no-repeat;
@@ -9860,7 +9880,7 @@ padding: 10px 0;
   color: #fff;
   padding: 6px 0;
   border-radius: 5px;
-  max-width: 230px;
+  max-width: 180px;
   margin: 0px auto
 }
 
@@ -9970,5 +9990,12 @@ padding: 10px 0;
   display: none;
 }
 #navbar-collapse-1 .logout{
-  display: inline-block;
+  position: absolute;
+  background: transparent;
+  left: 0;
+  top: 6px
+}
+#navbar-collapse-1 .logout img{
+  width: 30px;
+  height: 30px;
 }
