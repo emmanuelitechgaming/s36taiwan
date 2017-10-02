@@ -9584,17 +9584,17 @@ header #m-selectpicker2-collapse ul li{
 }
 .flexslider tr th{
   background: #161616;
-      letter-spacing: 1px;
-      font-size: 14px;
-      font-weight: 400;
-      text-shadow: 1px 1px 5px rgba(000, 000, 000, 1);
-      text-align: left;
-      color: #B9B9B9;
-      border: solid 1px transparent;
-      border-top-left-radius: 6px;
-      border-top-right-radius: 6px;
-      position: relative;
-      padding: 2px 15px!important;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 400;
+  text-shadow: 1px 1px 5px rgba(000, 000, 000, 1);
+  text-align: left;
+  color: #fff;
+  border: solid 1px transparent;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  position: relative;
+  padding: 2px 15px!important;
 }
 .flexslider .title{
   border-bottom: 1px solid #2d2d2d !important
@@ -9806,10 +9806,10 @@ padding: 10px 0;
   cursor: pointer;
 }
   .side-logo-plus a{
-  color: #B9B9B9;
+  color: #fff;
 }
 .side-logo-plus a:hover{
-  color: #fff
+  color: #fba601
 }
 .side-logo-plus a:hover, .side-logo-plus a:active, .side-logo-plus a:focus{
   text-decoration: none;
@@ -9851,7 +9851,7 @@ padding: 10px 0;
   padding: 15px 45px 15px 60px;
 }
 .add-main-screen{
-  display: inline-block;
+  display: block;
   width: 100%;
   border: none;
   background: #333 url('../img/add-desktop.png') no-repeat;
@@ -9860,7 +9860,7 @@ padding: 10px 0;
   color: #fff;
   padding: 6px 0;
   border-radius: 5px;
-  max-width: 230px;
+  max-width: 180px;
   margin: 0px auto
 }
 
@@ -9970,5 +9970,12 @@ padding: 10px 0;
   display: none;
 }
 #navbar-collapse-1 .logout{
-  display: inline-block;
+  position: absolute;
+  background: transparent;
+  left: 0;
+  top: 6px
+}
+#navbar-collapse-1 .logout img{
+  width: 30px;
+  height: 30px;
 }
