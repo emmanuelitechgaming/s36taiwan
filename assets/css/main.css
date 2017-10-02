@@ -4542,7 +4542,9 @@ left: 47%;
 .top-header .pull-right img {
     margin: 3px;
 }
-
+.top-header .pull-right .logout img{
+  margin: 6px 0;
+}
 .grey {
     border-bottom: 1px solid transparent;
     padding: 1px 0px;
@@ -6411,7 +6413,11 @@ main .win-lot-top-games {
     position: relative;
     top: 4px;
 }
-
+.top-header .logout{
+  display: block;
+  width: 15px;
+  margin: 0 5px
+}
 .top-header .pull-right li {
     margin: 0 1px
 }
