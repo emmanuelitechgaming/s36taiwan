@@ -1032,7 +1032,7 @@ $('.tops .flexslider').flexslider({
   });
 
   $('.side-logo').hover(function() {
-    $(this).css('color', '#fff');
+    $(this).css('color', '#fba601');
     if($(this).hasClass('side-logo-right')){
       $(this).addClass('side-logo-right-hover');
     }else{

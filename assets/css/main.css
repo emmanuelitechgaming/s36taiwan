@@ -3468,8 +3468,19 @@ footer .browsers li:first-child {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
 }
+.mnav.mnav-afterlogin ul li:nth-child(1) .hamburger {
+  position: relative;
+  top: 8px;
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
 .mnav ul li:nth-child(1) .hamburger.is-active{
   top: 4px
+}
+.mnav.mnav-afterlogin ul li:nth-child(1) .hamburger.is-active{
+  top: 14px;
+  -webkit-transform: scale(1.9);
+          transform: scale(1.9);
 }
 .mnav a:hover,
 .mnav a:focus,
@@ -5417,7 +5428,7 @@ div.cta-contact-info a {
     position: relative;
 }
 
-.mnav-afterlogin ul li:nth-child(4) a img, .mnav-afterlogin ul li:nth-child(3) a img {
+.mnav-afterlogin ul li:nth-child(4) a img{
     position: relative;
     top: 2px;
 }
@@ -5524,24 +5535,23 @@ div.cta-contact-info a {
     max-width: 100%;
     height: 29px;
 }
-
-
-/*.mnav-top ul li:nth-child(3) a img{
-  height: 27px;
-}*/
-
 .mnav-afterlogin ul li a img {
-    height: 32px;
+    height: 30px;
 }
-
+.mnav-afterlogin ul li:nth-child(4) a img{
+  height: 34px;
+  top: 5px;
+}
+.mnav-afterlogin ul li:nth-child(2) a img{
+  height: 34px;
+  position: relative;
+  top: 3px;
+}
 .mnav-top ul li a span {
     display: block;
     margin-top: 3px;
     font-size: 11px
 }
-
-
-
 #myModal .nav-tabs li span img {
     width: 15px;
     height: 15px;
@@ -7892,14 +7902,16 @@ margin-right: 23px;
   width: 100%;
   display: block;
   font-size: 17px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid transparent;
   color: #fba601;
   height: 50px;
   -webkit-transition-duration: .25s,.25s;
   -webkit-transition-timing-function: linear,linear;
   cursor: pointer;
   -webkit-transition-property: border-color,color;
-  background-color: rgba(0,0,0,0);
+  background: 000 url('../img/underline.png') no-repeat;
+  background-size: 90% 2px;
+  background-position: 70% 0%;
   line-height: 38px;
   padding: 5px 39px !important;
 }
@@ -9285,7 +9297,8 @@ span.add-ico{
   border-bottom: none
 }
 .footer-dropdown .dropdown-menu .last a, .footer-dropdown .dropdown-menu .last div{
-  display: inline-block;
+  display: block;
+  text-align: center;
 }
 .footer-dropdown .dropdown-menu li a:hover, .footer-dropdown .dropdown-menu li div:hover{
   background-color: transparent;
@@ -9305,7 +9318,7 @@ span.add-ico{
 .footer-dropdown ul li:hover{
   background: #525252;
 }
-.footer-dropdown ul .last:hover{
+.footer-dropdown ul .last:hover a{
   background: whitesmoke url('../img/world.png') no-repeat;
   background-size: 23px 23px;
   background-position: 5% 6px;
@@ -9346,8 +9359,7 @@ span.add-ico{
    border-top: 1px solid #8a8a8a;
    padding: 15px 20px;
 }
- .footer-dropdown .dropdown-menu .last{
-   text-align: right;
+ .footer-dropdown .dropdown-menu .last a{
    background: whitesmoke url('../img/world.png') no-repeat;
    background-size: 23px 23px;
    background-position: 5% 6px;
@@ -9400,6 +9412,7 @@ span.add-ico{
 }
 .m-footer-dropdown .dropdown-menu>li>a{
   padding: 5px 10px;
+  text-align: center;
 }
 .m-footer-dropdown button, .m-footer-dropdown .dropdown-menu{
   min-width: 230px;
@@ -9581,17 +9594,19 @@ header #m-selectpicker2-collapse ul li{
 }
 .flexslider tr th{
   background: #161616;
-      letter-spacing: 1px;
-      font-size: 14px;
-      font-weight: 400;
-      text-shadow: 1px 1px 5px rgba(000, 000, 000, 1);
-      text-align: left;
-      color: #B9B9B9;
-      border: solid 1px transparent;
-      border-top-left-radius: 6px;
-      border-top-right-radius: 6px;
-      position: relative;
-      padding: 2px 15px!important;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 400;
+  text-shadow: 1px 1px 5px rgba(000, 000, 000, 1);
+  text-align: left;
+  color: #B9B9B9;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  position: relative;
+  padding: 2px 15px!important;
+}
+.flexslider .title{
+  border-bottom: 1px solid #2d2d2d !important
 }
  .jackpot-winner tr td:nth-child(4){
   width:200px;
@@ -9789,7 +9804,7 @@ padding: 10px 0;
   color: #B9B9B9;
 }
 .side-logo-plus a:hover{
-  color: #fff
+  color: #fba601
 }
 .side-logo-plus a:hover, .side-logo-plus a:active, .side-logo-plus a:focus{
   text-decoration: none;
@@ -9895,7 +9910,7 @@ padding: 10px 0;
 .trphy1{
   font-size: 13px;
   top: 1px;
-  padding: 2px 6px;
+  padding: 2px 15px;
   margin-right: 10px;
 }
 .jackpot-winner2 span.cny{
