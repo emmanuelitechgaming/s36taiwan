@@ -6461,6 +6461,8 @@ main .win-lot-top-games {
   background: url('../img/afterlogin/4-hover.png') no-repeat;
   margin-right: 5px;
   vertical-align: top;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 .top-header .logout.hover::before{
   background: url('../img/afterlogin/4-hoverY.png') no-repeat;
