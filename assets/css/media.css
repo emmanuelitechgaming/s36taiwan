@@ -1348,6 +1348,16 @@
     .td-week-netbet-holder{
       font-size: 11px
     }
+    .bago-afterlogin::after{
+      content: '';
+      position: absolute;
+      width: 2px;
+      bottom: 20px;
+      top: 20px;
+      left: 48%;
+      background: url('../img/underline3.png') no-repeat;
+      background-size: 100% 100%
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4571,6 +4581,9 @@ margin-top: -18px;
   .td-week-netbet-holder{
     font-size: 14px
   }
+  .bago-afterlogin::after{
+    content: none;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -4936,7 +4949,7 @@ main .marquee {
     bottom: 46.5%;
   }
   .live-game ul{
-    bottom: 27%;
+    bottom: 25.5%;
   }
   .live-game ul li span{
     font-size: 40px;

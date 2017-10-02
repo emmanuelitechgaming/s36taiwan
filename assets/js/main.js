@@ -744,6 +744,7 @@ $(document).ready(function () {
     $.each($('.navbar-header-desktop ul li'), function(index, value) {
        $(this).hover(function() {
          $(this).find('a span').css('color', '#fba601');
+         $(this).find('a .notif').css('color', '#fff');
          var img = $(this).find('a img').attr('src');
          $(this).find('a img').attr('src', img.slice(0, -4)+'Y.png');
        }, function() {
