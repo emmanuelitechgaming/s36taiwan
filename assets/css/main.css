@@ -6259,8 +6259,8 @@ main .win-lot-top-games {
   height: 2px;
   position: absolute;
   bottom: 0;
-  border-bottom: 1px solid #303030;
-  border-top: 1px solid #000
+  background: url('../img/underline.png') no-repeat;
+  background-size: 100% 100%
 }
 .contactus ul li:last-child::after{
   content: none
@@ -9525,10 +9525,13 @@ header #m-selectpicker2-collapse ul li{
   border-top: 0;
   border-collapse: collapse;
   text-align: center;
-  padding: 5px 0;
+  padding: 6px 0;
+}
+.jackpot-winner2 .flexslider table, .jackpot-winner2 .flexslider th , .jackpot-winner2 .flexslider td {
+  border-bottom: 1px solid transparent;
 }
 .jackpot-winner2 .flexslider td{
-  padding: 5px 0px;
+  padding: 6px 0px;
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
   border-right: 1px solid transparent
@@ -9540,6 +9543,14 @@ header #m-selectpicker2-collapse ul li{
   border-right:1px solid #2d2d2d;
 }
 .flexslider tr{
+  background: #161616;
+}
+.jackpot-winner2 .flexslider tr{
+  background: #161616 url(../img/underline.png) no-repeat;
+  background-position: 0 43px;
+  background-size: 100% 2px;
+}
+.jackpot-winner2 .flexslider tr:last-child{
   background: #161616;
 }
 .flexslider tr th{
@@ -9568,7 +9579,7 @@ header #m-selectpicker2-collapse ul li{
 }
 .jackpot-winner2 tr td:nth-child(2){
   width: 198px;
-  font-size: 21px;
+  font-size: 22px;
   letter-spacing: 3px;
   font-weight: 700;
 }
