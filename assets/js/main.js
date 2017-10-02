@@ -766,9 +766,11 @@ $(document).ready(function () {
      });
 
      $('.top-header .logout').hover(function() {
-       $(this).find('img').attr('src', 'assets/img/afterlogin/4-hoverY.png');
+       $(this).css('color', '#fba601');
+       $(this).addClass('hover');
      }, function() {
-       $(this).find('img').attr('src', 'assets/img/afterlogin/4-hover.png');
+       $(this).css('color', '#fff');
+       $(this).removeClass('hover');
      })
 
      var the_active = '';
