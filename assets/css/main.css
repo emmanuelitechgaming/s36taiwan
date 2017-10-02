@@ -3264,21 +3264,15 @@ footer .browsers li:first-child {
     font-size: 16px;
     position: relative;
 }
-
 .td-win span {
     display: inline-block;
 }
-
 .td-week {
     padding: 10px;
     background: #2a2a2a;
     font-size: 16px;
     color: #fba601;
     font-weight: 700;
-}
-.td-week-netbet-holder{
-  padding: 0 20px;
-  font-size: 14px
 }
 .td-win .username {
     margin: 0 20px;
@@ -8549,10 +8543,8 @@ bottom: -2px;
 }
 .netbet.hold ul li a{
   background: #111111;
-    padding: 6px 70px !important;
 }
 .netbet.hold ul li a:hover, .netbet.hold ul li a:active, .netbet.hold ul li a:focus{
-
   background: #111111;
 }
 .netbet ul li a:hover, .netbet ul li a:active, .netbet ul li a:focus{
@@ -9290,7 +9282,7 @@ span.add-ico{
 .footer-dropdown ul .last:hover{
   background: whitesmoke url('../img/world.png') no-repeat;
   background-size: 23px 23px;
-  background-position: 5% 5px;
+  background-position: 5% 6px;
 }
 .footer-dropdown ul li{
   position: relative;
@@ -9332,7 +9324,7 @@ span.add-ico{
    text-align: right;
    background: whitesmoke url('../img/world.png') no-repeat;
    background-size: 23px 23px;
-   background-position: 5% 5px;
+   background-position: 5% 6px;
 }
 .m-footer-dropdown{
   margin-top: 10px;
@@ -9393,7 +9385,7 @@ span.add-ico{
   text-align: right !important;
   background: whitesmoke url('../img/world.png') no-repeat;
   background-size: 23px 23px;
-  background-position: 5% 4px;
+  background-position: 5% 3px;
 }
 @font-face {
     font-family: Tungsten;
