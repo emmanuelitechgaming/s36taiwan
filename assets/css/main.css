@@ -144,7 +144,7 @@ header .btn-default:active {
 }
 
 header .navbar-cta-btn {
-    margin: 16px -5px;
+    margin: 0px -5px;
 }
 
 header .navbar-cta-btn a {
@@ -3468,8 +3468,19 @@ footer .browsers li:first-child {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
 }
+.mnav.mnav-afterlogin ul li:nth-child(1) .hamburger {
+  position: relative;
+  top: 12px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
 .mnav ul li:nth-child(1) .hamburger.is-active{
   top: 4px
+}
+.mnav.mnav-afterlogin ul li:nth-child(1) .hamburger.is-active{
+  top: 17px;
+  -webkit-transform: scale(1.9);
+          transform: scale(1.9);
 }
 .mnav a:hover,
 .mnav a:focus,
@@ -5531,9 +5542,17 @@ div.cta-contact-info a {
 }*/
 
 .mnav-afterlogin ul li a img {
-    height: 32px;
+  height: 30px;
 }
-
+.mnav-afterlogin ul li:nth-child(4) a img{
+  height: 35px;
+  top: 7px;
+}
+.mnav-afterlogin ul li:nth-child(2) a img{
+  position: relative;
+  top: 7px;
+  height: 37px;
+}
 .mnav-top ul li a span {
     display: block;
     margin-top: 3px;
@@ -6281,7 +6300,7 @@ main .win-lot-top-games {
 }
 .navbar-afterlogin {
     position: relative;
-    top: 9px;
+    top: -5px;
     left: -10px
 }
 .navbar-afterlogin ul li {
@@ -9288,7 +9307,8 @@ span.add-ico{
   border-bottom: none
 }
 .footer-dropdown .dropdown-menu .last a, .footer-dropdown .dropdown-menu .last div{
-  display: inline-block;
+  display: block;
+  text-align: center;
 }
 .footer-dropdown .dropdown-menu li a:hover, .footer-dropdown .dropdown-menu li div:hover{
   background-color: transparent;
@@ -9308,7 +9328,7 @@ span.add-ico{
 .footer-dropdown ul li:hover{
   background: #525252;
 }
-.footer-dropdown ul .last:hover{
+.footer-dropdown ul .last:hover a{
   background: whitesmoke url('../img/world.png') no-repeat;
   background-size: 23px 23px;
   background-position: 5% 6px;
@@ -9349,8 +9369,7 @@ span.add-ico{
    border-top: 1px solid #8a8a8a;
    padding: 15px 20px;
 }
- .footer-dropdown .dropdown-menu .last{
-   text-align: right;
+ .footer-dropdown .dropdown-menu .last a{
    background: whitesmoke url('../img/world.png') no-repeat;
    background-size: 23px 23px;
    background-position: 5% 6px;
@@ -9410,8 +9429,8 @@ span.add-ico{
 .m-footer-dropdown .dropdown-menu{
   margin-bottom: -35px;
 }
-.m-footer-dropdown ul li.last{
-  text-align: right !important;
+.m-footer-dropdown ul li.last a{
+  text-align: center !important;
   background: whitesmoke url('../img/world.png') no-repeat;
   background-size: 23px 23px;
   background-position: 5% 3px;
@@ -9611,7 +9630,8 @@ header #m-selectpicker2-collapse ul li{
   border-bottom: solid 1px #303030
 }
 .flexslider .title{
-  border-bottom: 1px solid transparent !important
+  border-bottom: 1px solid transparent !important;
+  border-left: none
 }
  .jackpot-winner tr td:nth-child(4){
   width:200px;
