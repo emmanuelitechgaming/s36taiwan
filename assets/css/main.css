@@ -10001,4 +10001,6 @@ padding: 10px 0;
 #navbar-collapse-1 .logout img{
   width: 30px;
   height: 30px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg)
 }
