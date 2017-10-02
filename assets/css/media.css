@@ -903,7 +903,7 @@
         padding: 0 10px
     }
     .mnav-afterlogin .notif {
-        right: 28px
+        right: 30px
     }
     .gp-live{
       top: 2px
@@ -994,10 +994,10 @@
       margin-right: 45%;
     }
     .mnav-afterlogin ul li{
-      width: 22.66%;
+      width: 25%;
     }
     .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
-      width: 22.6%;
+      width: 25%;
     }
     .mnav-afterlogin ul li:nth-child(2) img{
       margin-left: auto;
@@ -1006,7 +1006,7 @@
       margin-right: auto;
     }
     .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
-      width: 16%
+      width: 25%
     }
     .mnav-afterlogin ul li:nth-child(5) img{
       margin-left: 35%;
@@ -1531,7 +1531,7 @@
         bottom: 5.45px
     }
     .mnav-afterlogin .notif {
-        right: 32px
+        right: 38px
     }
     .notice-dialog .modal-title{
       margin-left: 20%;
@@ -1551,20 +1551,16 @@
       min-width: 80px;
     }
     .mnav-afterlogin ul li{
-      width: 23.33%;
+      width: 25%;
     }
     .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
-      width: 23.33%;
-    }
-    .mnav-afterlogin ul li:nth-child(2) img{
-      margin-left: 40%;
+      width: 25%;
     }
     .mnav-afterlogin ul li:nth-child(3) img{
       margin-right: auto;
-      margin-left: 40%
     }
     .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
-      width: 15%
+      width: 25%
     }
     .mnav-afterlogin ul li:nth-child(5) img{
       margin-left: 40%;
@@ -1956,6 +1952,9 @@
     .bago-main .boxer::after{
       top: 5px;
     }
+    .mnav-afterlogin .notif {
+      right: 40px;
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -2124,7 +2123,7 @@
         margin-right: 65px
     }
     .mnav-afterlogin .notif {
-        right: 38px
+        right: 45px
     }
     .gp-star {
       position: relative;
@@ -2150,27 +2149,21 @@
     .mnav-top ul li:nth-child(4) img{
       margin-left: 40%;
     }
-    .mnav-top ul li:nth-child(2) img{
-      margin-left: 55%
-    }
     .mnav-top ul li:nth-child(3) img{
       margin-right: 55%;
     }
     .mnav-afterlogin ul li{
-      width: 24.66%;
+      width: 25%;
     }
     .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
       width: 24.66%;
-    }
-    .mnav-afterlogin ul li:nth-child(2) img{
-      margin-left: 40%;
     }
     .mnav-afterlogin ul li:nth-child(3) img{
       margin-right: auto;
       margin-left: 40%
     }
     .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
-      width: 13%
+      width: 25%
     }
     .mnav-afterlogin ul li:nth-child(5) img{
       margin-left: 40%;
