@@ -4560,7 +4560,7 @@ left: 47%;
     border-bottom: 1px solid transparent;
     padding: 1px 0px;
     cursor: pointer;
-    width: 130px;
+    width: 119px;
     background: #2a2a2a;
     display: block;
     position: relative;
@@ -6330,14 +6330,14 @@ main .win-lot-top-games {
   top: -1px;
 }
 .navbar-afterlogin .notif {
-    position: absolute;
-    top: -4px;
-    right: 97px;
-    color: #fff;
-    background: #fba601;
-    padding: 1px 6px;
-    font-size: 13px;
-    border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  right: 96px;
+  color: #fff;
+  background: #fba601;
+  padding: 1px 6px;
+  font-size: 13px;
+  border-radius: 50%;
 }
 .mnav-afterlogin .notif {
     background: #fba601;
@@ -6346,7 +6346,7 @@ main .win-lot-top-games {
     padding: 1px 5px;
     text-align: center;
     position: absolute;
-    top: -4px;
+    top: 7px;
 }
 .allgames-body ul li {
     margin-bottom: 10px;
@@ -9927,7 +9927,7 @@ padding: 10px 0;
 .trphy1{
   font-size: 13px;
   top: 1px;
-  padding: 2px 15px;
+  padding: 2px 15px ;
   margin-right: 10px;
 }
 .jackpot-winner2 span.cny{
