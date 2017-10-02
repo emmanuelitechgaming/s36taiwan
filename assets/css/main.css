@@ -6282,7 +6282,7 @@ main .win-lot-top-games {
 .navbar-afterlogin {
     position: relative;
     top: 9px;
-    left: 22px
+    left: 5px
 }
 .navbar-afterlogin ul li {
     margin-left: 28px;
@@ -6304,6 +6304,9 @@ main .win-lot-top-games {
 }
 .navbar-afterlogin ul li:nth-child(2) a img{
   width: 29px
+}
+.navbar-afterlogin ul li:nth-child(1) a img{
+  width: 32px
 }
 .navbar-afterlogin .notif {
     position: absolute;
