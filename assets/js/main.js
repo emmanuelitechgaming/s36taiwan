@@ -765,6 +765,12 @@ $(document).ready(function () {
        })
      });
 
+     $('.top-header .logout').hover(function() {
+       $(this).find('img').attr('src', 'assets/img/afterlogin/4-hoverY.png');
+     }, function() {
+       $(this).find('img').attr('src', 'assets/img/afterlogin/4-hover.png');
+     })
+
      var the_active = '';
      $('.flag-dropdown ul li a').click(function() {
        $('.flag-val').html($(this).data('value'));
