@@ -6308,20 +6308,22 @@ main .win-lot-top-games {
     top: 3px
 }
 .navbar-afterlogin ul li a img {
-    width: 30px;
+    height: 24px;
     position: relative;
     top: 1px
 }
 .navbar-afterlogin ul li:nth-child(2) a img{
-  width: 29px
+  height: 24px;
+  top: -2px;
 }
 .navbar-afterlogin ul li:nth-child(1) a img{
-  width: 32px
+  height: 24px;
+  top: 0px;
 }
 .navbar-afterlogin .notif {
     position: absolute;
-    top: 0px;
-    right: 95px;
+    top: -4px;
+    right: 97px;
     color: #fff;
     background: #fba601;
     padding: 1px 6px;
@@ -6335,7 +6337,7 @@ main .win-lot-top-games {
     padding: 1px 5px;
     text-align: center;
     position: absolute;
-    top: -7px;
+    top: -4px;
 }
 .allgames-body ul li {
     margin-bottom: 10px;
@@ -9605,8 +9607,18 @@ header #m-selectpicker2-collapse ul li{
   position: relative;
   padding: 2px 15px!important;
 }
+.flexslider tr .title::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  background: url('../img/underline.png') no-repeat;
+  background-size: 100% 2px
+}
 .flexslider .title{
-  border-bottom: 1px solid #2d2d2d !important
+  border-bottom: 1px solid transparent !important
 }
  .jackpot-winner tr td:nth-child(4){
   width:200px;
@@ -9846,7 +9858,7 @@ padding: 10px 0;
   padding: 15px 45px 15px 60px;
 }
 .add-main-screen{
-  display: block;
+  display: inline-block;
   width: 100%;
   border: none;
   background: #333 url('../img/add-desktop.png') no-repeat;
