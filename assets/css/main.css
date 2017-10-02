@@ -9572,9 +9572,9 @@ header #m-selectpicker2-collapse ul li{
   background: #161616;
 }
 .jackpot-winner2 .flexslider tr{
-  background: #161616 url(../img/underline.png) no-repeat;
-  background-position: 0 43px;
-  background-size: 100% 2px;
+  background: #161616 url(../img/underline2.png) no-repeat;
+  background-position: 19px 43px;
+  background-size: 93% 2px;
 }
 .jackpot-winner2 .flexslider tr:last-child{
   background: #161616;
@@ -9876,7 +9876,7 @@ padding: 10px 0;
   color: #fba601;
   letter-spacing: 1px;
 }
-.jackpot-winner span.cny{
+.jackpot-winner span.cny, .trphy1{
   width: 35px;
   text-align: center;
   background: #ffa018;
@@ -9895,6 +9895,12 @@ padding: 10px 0;
   max-width: 35px;
   padding: 2px 5px;
   margin: 0 3px;
+}
+.trphy1{
+  font-size: 13px;
+  top: 1px;
+  padding: 2px 6px;
+  margin-right: 10px;
 }
 .jackpot-winner2 span.cny{
   padding: 4px 5px;

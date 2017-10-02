@@ -4468,8 +4468,8 @@ margin-top: -18px;
     margin-right: 0;
   }
   .contactus ul li::after{
-    left: -35px;
-    right: -20px;
+    left: -18px;
+    right: -0px;
   }
   .live-games img {
       margin: 3px auto;
