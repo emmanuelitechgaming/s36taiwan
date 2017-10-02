@@ -6327,7 +6327,7 @@ main .win-lot-top-games {
 }
 .navbar-afterlogin ul li:nth-child(1) a img{
   height: 24px;
-  top: 0px;
+  top: -1px;
 }
 .navbar-afterlogin .notif {
     position: absolute;
@@ -8945,6 +8945,7 @@ span.add-ico{
   background: #161616;
   padding: 0px ;
   color: #e6e6e6;
+  position: relative;
 }
 .bago_nanaman .boxer{
   vertical-align: middle;
@@ -9330,9 +9331,7 @@ span.add-ico{
   background: #525252;
 }
 .footer-dropdown ul .last:hover a{
-  background: whitesmoke url('../img/world.png') no-repeat;
-  background-size: 23px 23px;
-  background-position: 5% 6px;
+  background: whitesmoke;
 }
 .footer-dropdown ul li{
   position: relative;
@@ -9369,11 +9368,6 @@ span.add-ico{
    border-bottom: 1px solid #8a8a8a;
    border-top: 1px solid #8a8a8a;
    padding: 15px 20px;
-}
- .footer-dropdown .dropdown-menu .last a{
-   background: whitesmoke url('../img/world.png') no-repeat;
-   background-size: 23px 23px;
-   background-position: 5% 6px;
 }
 .m-footer-dropdown{
   margin-top: 10px;
@@ -9432,9 +9426,6 @@ span.add-ico{
 }
 .m-footer-dropdown ul li.last a{
   text-align: center !important;
-  background: whitesmoke url('../img/world.png') no-repeat;
-  background-size: 23px 23px;
-  background-position: 5% 3px;
 }
 @font-face {
     font-family: Tungsten;
