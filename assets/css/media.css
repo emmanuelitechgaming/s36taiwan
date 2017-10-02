@@ -903,7 +903,7 @@
         padding: 0 10px
     }
     .mnav-afterlogin .notif {
-        right: 35px
+        right: 28px
     }
     .gp-live{
       top: 2px
@@ -1307,7 +1307,7 @@
     }
     .live-game ul li span{
       font-size: 38px;
-      line-height: 38px;
+      line-height: 30px;
     }
     .gp-g.row .live-games{
       width: 110px
@@ -1541,7 +1541,7 @@
         bottom: 5.45px
     }
     .mnav-afterlogin .notif {
-        right: 41px
+        right: 33px
     }
     .notice-dialog .modal-title{
       margin-left: 20%;
@@ -1963,7 +1963,7 @@
       top: 5px;
     }
     .mnav-afterlogin .notif {
-      right: 43px;
+      right: 36px;
     }
 }
 
@@ -2133,7 +2133,7 @@
         margin-right: 65px
     }
     .mnav-afterlogin .notif {
-        right: 44px
+        right: 36px
     }
     .gp-star {
       position: relative;
@@ -4917,7 +4917,7 @@ main .marquee {
     padding-left: 42px;
   }
   .drop {
-      right: 17.11%;
+      right: 17.89%;
   }
   .boxer .number{
     display: inline-block;

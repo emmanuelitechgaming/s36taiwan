@@ -3464,13 +3464,14 @@ footer .browsers li:first-child {
 }
 .mnav ul li:nth-child(1) .hamburger{
   position: relative;
-  top: 3.8px;
-  -webkit-transform: scale(1.39);
-  transform: scale(1.39);
+  top: 3.4px;
+  -webkit-transform: scale(1.35);
+  transform: scale(1.35);
 }
 .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger {
   position: relative;
   top: 11px;
+  left: -11px;
   -webkit-transform: scale(1.4);
   transform: scale(1.4);
 }
@@ -5535,7 +5536,11 @@ div.cta-contact-info a {
     max-width: 100%;
     height: 29px;
 }
-
+.mnav-top ul li:nth-child(2) a img{
+  height: 31px;
+  position: relative;
+  top: 1px;
+}
 
 /*.mnav-top ul li:nth-child(3) a img{
   height: 27px;
@@ -5547,11 +5552,15 @@ div.cta-contact-info a {
 .mnav-afterlogin ul li:nth-child(4) a img{
   height: 32px;
   top: 6px;
+  right: -11px
 }
 .mnav-afterlogin ul li:nth-child(2) a img{
   position: relative;
-  top: 7px;
-  height: 35px;
+  top: 3px;
+  height: 29px;
+}
+.mnav-afterlogin ul li:nth-child(3) a img{
+  right: -10px
 }
 .mnav-top ul li a span {
     display: block;
@@ -6331,12 +6340,12 @@ main .win-lot-top-games {
 }
 .navbar-afterlogin .notif {
   position: absolute;
-  top: 3px;
+  top: 6px;
   right: 96px;
   color: #fff;
   background: #fba601;
   padding: 1px 6px;
-  font-size: 13px;
+  font-size: 11px;
   border-radius: 50%;
 }
 .mnav-afterlogin .notif {
