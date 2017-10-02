@@ -9614,8 +9614,8 @@ header #m-selectpicker2-collapse ul li{
   left: 0;
   bottom: -2px;
   height: 2px;
-  background: url('../img/underline.png') no-repeat;
-  background-size: 100% 2px
+  border-top: solid 1px #000;
+  border-bottom: solid 1px #303030
 }
 .flexslider .title{
   border-bottom: 1px solid transparent !important
@@ -9973,7 +9973,9 @@ padding: 10px 0;
   color: #fba601;
   font-size: 28px;
 }
-
 .bs-slider-overlay{
   display: none;
+}
+#navbar-collapse-1 .logout{
+  display: inline-block;
 }
