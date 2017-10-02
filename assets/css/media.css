@@ -1338,6 +1338,16 @@
     .bago-afterlogin .container{
       margin-left: -10px;
     }
+    .td-week-netbet-holder{
+      padding: 0 0;
+    }
+    .netbet.hold, .netbet.hold div.col-md-12{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .td-week-netbet-holder{
+      font-size: 11px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1621,6 +1631,9 @@
     .g-recaptcha{
       transform:scale(0.92) !important;
       -webkit-transform:scale(0.92) !important;
+    }
+    .td-week-netbet-holder{
+      font-size: 13px
     }
 }
 
@@ -4551,6 +4564,19 @@ margin-top: -18px;
   }
   .boxer .step-no.step1, .boxer .step-no.step2, .boxer .step-no.step3, .boxer .step-no.step4{
     width: 38px;
+  }
+  .td-week-netbet-holder{
+    padding: 0 20px;
+  }
+  .netbet.hold ul li a{
+    padding: 6px 70px !important;
+  }
+  .netbet.hold, .netbet.hold div.col-md-12{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .td-week-netbet-holder{
+    font-size: 14px
   }
 }
 
