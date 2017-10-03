@@ -868,10 +868,10 @@ $(document).ready(function () {
 
       $('.gp-more').hover(function() {
         $(this).find('span').css('color', '#fba601');
-        $(this).find('img').attr('src', 'assets/img/more-hover.png');
+        $(this).addClass('gp-more-hover');
       }, function() {
         $(this).find('span').css('color', '#fff');
-        $(this).find('img').attr('src', 'assets/img/more.png');
+        $(this).removeClass('gp-more-hover');
       });
 
       $('img[src="assets/img/casino/baccarat/info.png"]').hover(function() {

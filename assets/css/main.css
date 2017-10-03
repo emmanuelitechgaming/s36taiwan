@@ -2511,10 +2511,6 @@ select + i.fa {
 .notice-dialog th:first-child{
   width: 25%
 }
-.notice-dialog th:nth-child(2){
-  width: 65%
-}
-
 .notice-dialog td{
   height: 42px;
 }
@@ -5499,7 +5495,9 @@ div.cta-contact-info a {
 .m-fsalon ul li:nth-child(6) {
     padding: 0 4px
 }
-
+.m-footer-dropdown ul li:nth-child(6) {
+  padding: 0 0 ;
+}
 .mnav-top ul {
     display: block;
     position: relative;
@@ -6850,6 +6848,10 @@ div.acc-info.acc-edit div.acc-cont input {
   position: relative;
   top: 5px;
   margin-right: 5px;
+}
+.gp-more-hover span::before{
+  background: url('../img/more-hover.png') no-repeat;
+  background-size: cover;
 }
 .gp-more2 img {
     position: relative;

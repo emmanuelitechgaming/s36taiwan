@@ -1373,6 +1373,9 @@
     .cs-modal .chatserver-form button {
         padding: 3px 10px;
     }
+    .notice-dialog th:nth-child(2){
+      width: 60%
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4454,7 +4457,7 @@ margin-top: -18px;
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
     top: 10px;
-    left: 88%;
+    left: 91%;
   }
   .bago-pages .boxer-arrow::after, .bago-pages .boxer-arrow::after{
     left: 98%;
@@ -4608,6 +4611,9 @@ margin-top: -18px;
   }
   .cs-modal .chatserver-form button {
       padding: 3px 15px;
+  }
+  .notice-dialog th:nth-child(2){
+    width: 65%
   }
 }
 
