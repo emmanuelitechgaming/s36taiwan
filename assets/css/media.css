@@ -1313,8 +1313,8 @@
       right: 8px
     }
     .g-recaptcha{
-      transform:scale(0.79) !important;
-      -webkit-transform:scale(0.79) !important;
+      transform:scale(0.77) !important;
+      -webkit-transform:scale(0.77) !important;
       transform-origin:0 0 !important;
       -webkit-transform-origin:0 0 !important;
     }
@@ -1366,6 +1366,12 @@
     }
     .mnav-afterlogin ul li:last-child, .mnav-top ul li:last-child{
       margin-right: 0;
+    }
+    .cs-modal .ctitle h1 {
+        padding: 15px;
+    }
+    .cs-modal .chatserver-form button {
+        padding: 3px 10px;
     }
 }
 
@@ -1626,8 +1632,8 @@
       left: 3px
     }
     .g-recaptcha{
-      transform:scale(0.92) !important;
-      -webkit-transform:scale(0.92) !important;
+      transform:scale(0.9) !important;
+      -webkit-transform:scale(0.9) !important;
     }
     .td-week-netbet-holder{
       font-size: 13px
@@ -1953,6 +1959,10 @@
       position: relative;
       left: 22px
     }
+    #csMsg .g-recaptcha, #csPhone .g-recaptcha{
+      left: 0px
+    }
+
     #myModalTab1-1 .g-recaptcha{
       left: 5px
     }
@@ -2244,6 +2254,9 @@
       position: relative;
       left: 9px;
     }
+    #csMsg .g-recaptcha, #csPhone .g-recaptcha{
+      left: -9px
+    }
     #myModalTab1-1 .g-recaptcha {
       left: -13px;
     }
@@ -2440,6 +2453,9 @@
     }
     .mnav-top ul li {
       margin-right: 91px;
+    }
+    #csMsg .g-recaptcha, #csPhone .g-recaptcha {
+      left: -12px;
     }
 }
 
@@ -4582,6 +4598,15 @@ margin-top: -18px;
   }
   .bago-afterlogin::after{
     content: none;
+  }
+  .helpcenter .tab-pane {
+      padding-right: 30px;
+  }
+  .cs-modal .ctitle h1 {
+      padding: .65em 2em;
+  }
+  .cs-modal .chatserver-form button {
+      padding: 3px 15px;
   }
 }
 

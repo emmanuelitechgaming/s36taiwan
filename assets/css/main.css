@@ -3073,8 +3073,6 @@ span.round-tab i {
     line-height: 1;
     text-transform: uppercase;
     display: inline-block;
-    padding: .5em;
-    padding: .65em 2em;
     white-space: nowrap;
 }
 
@@ -3120,7 +3118,6 @@ span.round-tab i {
 .cs-modal .chatserver-form button {
     font-size: 17px;
     margin-bottom: 20px;
-    padding: 3px 15px;
     letter-spacing: .5px;
     border: none;
     border-radius: 4px;
@@ -6297,7 +6294,7 @@ main .win-lot-top-games {
 }
 .navbar-afterlogin {
     position: relative;
-    top: 10px;
+    top: 11px;
     left: -10px
 }
 .navbar-afterlogin ul li {
@@ -6662,11 +6659,6 @@ main .win-lot-top-games {
 .wallet-text:-moz-placeholder {
     color: #c4c4c4
 }
-
-.helpcenter .tab-pane {
-    padding-right: 30px;
-}
-
 div.acc-info.acc-edit div.acc-cont input {
     background: #333333;
     border: 1px solid #4b4b4b;
