@@ -5547,10 +5547,10 @@ div.cta-contact-info a {
   height: 32px;
   top: 6px;
 }
-.mnav-afterlogin ul li:nth-child(2) a img{
+  .mnav-afterlogin ul li:nth-child(2) a img{
   position: relative;
-  top: 3px;
-  height: 29px;
+  top: 5px;
+  height: 32px;
 }
 .mnav-top ul li a span {
     display: block;

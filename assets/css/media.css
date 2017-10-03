@@ -1362,7 +1362,7 @@
       margin-right: 59px;
     }
     .mnav-top ul li{
-      margin-right: 60px;
+      margin-right: 59px;
     }
     .mnav-afterlogin ul li:last-child, .mnav-top ul li:last-child{
       margin-right: 0;
@@ -1642,7 +1642,7 @@
       margin-right: 72px;
     }
     .mnav-top ul li{
-      margin-right: 73px;
+      margin-right: 72px;
     }
 }
 
@@ -1973,7 +1973,7 @@
       margin-right: 77px;
     }
     .mnav-top ul li {
-      margin-right: 78px;
+      margin-right: 77px;
     }
 }
 
@@ -2452,7 +2452,7 @@
       top: 9px
     }
     .mnav-top ul li {
-      margin-right: 91px;
+      margin-right: 90px;
     }
     #csMsg .g-recaptcha, #csPhone .g-recaptcha {
       left: -12px;
@@ -4533,7 +4533,8 @@ margin-top: -18px;
     display: block;
     height: 34px;
     width: 2px;
-    background: url(../img/separator.png) no-repeat;
+    border-left: 1px solid #000;
+    border-right: 1px solid #303030;
     background-size: 100% 100%;
     position: absolute;
   }
@@ -4951,7 +4952,10 @@ main .marquee {
     padding: 3px 10px;
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
-    top: 10px;
+    top: 9px;
+  }
+  .bago-afterlogin .boxer-arrow::after, .bago-afterlogin .boxer-arrow::after{
+    top: 13px;
   }
   .boxer .content .title {
     font-size: 14px;
