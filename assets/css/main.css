@@ -6298,22 +6298,25 @@ main .win-lot-top-games {
     left: -10px
 }
 .navbar-afterlogin ul li {
-    margin-left: 28px;
     position: relative;
     font-size: 20px;
 }
 .navbar-afterlogin ul li a {
     text-decoration: none;
     color: #fff;
+    margin: 0 13px;
+    margin-left: 17.8px
 }
 .navbar-afterlogin ul li a span {
     position: relative;
-    top: 3px
+    top: 3px;
+    margin-left: 5px;
 }
 .navbar-afterlogin ul li a img {
     height: 24px;
     position: relative;
-    top: 1px
+    top: 1px;
+    width: 25px;
 }
 .navbar-afterlogin ul li:nth-child(2) a img{
   height: 24px;
@@ -8099,12 +8102,18 @@ border-top-right-radius: 6px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
+.fish-mobile{
+  position: relative;
+}
 .lotto-button{
   position: absolute;
   top: 42%;
   text-align: center;
   display: block;
   width: 100%
+}
+.lotto-button-m{
+  top: 38%;
 }
 .lotto-button a{
   display: inline-block;
@@ -8115,6 +8124,9 @@ border-top-right-radius: 6px;
   padding: 15px 15px 15px 80px;
   position: relative;
   border-radius: 2px;
+}
+.lotto-button-m a{
+  padding: 10px 15px 10px 15px
 }
 .lotto-button a::before{
   content: '';
@@ -8139,6 +8151,12 @@ border-top-right-radius: 6px;
   color: #fff;
   margin-right: 95px;
 }
+.lotto-button-m .text{
+  margin-right: 25px;
+}
+.lotto-button-m .text{
+  font-size: 15px;
+}
 .lotto-button .arrow::before{
   content: '';
   display: block;
@@ -8152,6 +8170,10 @@ border-top-right-radius: 6px;
   top: 0px;
   right: 60px;
 }
+.lotto-button-m .arrow::before{
+  height: 46px;
+  right: 51px;
+}
 .lotto-button .glyphicon{
   color: #fff;
   padding: 10px;
@@ -8160,6 +8182,9 @@ border-top-right-radius: 6px;
   border-radius: 50%;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
   top: 0;
+}
+.lotto-button-m .glyphicon{
+  padding: 6px
 }
 .lotto-button a:hover .glyphicon{
   color: #fff;
@@ -9617,7 +9642,10 @@ header #m-selectpicker2-collapse ul li{
   border-left: none
 }
  .jackpot-winner tr td:nth-child(4){
-  width:200px;
+  width:250px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 3px;
 }
 .jackpot-winner tr td:last-child{
   width: 105px;
@@ -9906,14 +9934,15 @@ padding: 10px 0;
   height: 15px;
   line-height: 15px;
   position: relative;
-  top: -1px;
+  top: -4px;
   color: #000;
   text-shadow: 1px 1px 15px rgba(000, 000, 000, 0.5);
   font-size: 10px;
   min-width: 35px;
   max-width: 35px;
-  padding: 2px 5px;
+  padding: 4px 5px;
   margin: 0 3px;
+  margin-right: 10px
 }
 .trphy1{
   font-size: 13px;
@@ -9925,6 +9954,7 @@ padding: 10px 0;
   padding: 4px 5px;
   top: -4px;
   margin:0 32px;
+  margin-right: 10px
 }
 .j-new .title{
   background: rgba(66,66,66,1);
