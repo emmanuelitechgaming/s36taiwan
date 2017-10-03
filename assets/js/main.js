@@ -805,7 +805,7 @@ $(document).ready(function () {
          'country_name': 'हिन्द (भारत)'
        },
        {
-         'country_name': 'Bahasa Melayu (Malaysia)'
+         'country_name': 'Melayu (Malaysia)'
        },
        {
          'country_name': 'English (Malaysia)'
