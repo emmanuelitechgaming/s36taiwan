@@ -10014,3 +10014,6 @@ padding: 10px 0;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg)
 }
+.notif{
+  display: none !important
+}
