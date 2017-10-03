@@ -6317,9 +6317,9 @@ main .win-lot-top-games {
   top: -2px;
 }
 .navbar-afterlogin ul li:nth-child(1) a img, .navbar-afterlogin ul li:nth-child(3) a img{
-  height: 26px;
+  height: 28px;
   top: -1px;
-  width: 26px;
+  width: 27px;
 }
 .navbar-afterlogin .notif {
   position: absolute;
