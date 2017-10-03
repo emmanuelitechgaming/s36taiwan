@@ -4463,6 +4463,9 @@ margin-top: -18px;
   .bago_nanaman .col-md-3:nth-child(3) .boxer-arrow::after{
     left: 84%
   }
+  .bago-afterlogin .col-md-3:nth-child(3) .boxer-arrow::after{
+    left: 95%
+  }
   .bago_nanaman .col-6:nth-child(3) .boxer::after{
     content: ''
   }
@@ -4532,12 +4535,15 @@ margin-top: -18px;
     bottom: 19px;
     content: '';
     display: block;
-    height: 34px;
+    height: 26px;
     width: 2px;
     border-left: 1px solid #000;
     border-right: 1px solid #303030;
     background-size: 100% 100%;
     position: absolute;
+  }
+  .bago-afterlogin .boxer::after{
+    height: 32px;
   }
   .bago-afterlogin .col-6 {
     width: 25%;
@@ -4959,7 +4965,7 @@ main .marquee {
     padding: 3px 10px;
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
-    top: 9px;
+    top: 13px;
   }
   .bago-afterlogin .boxer-arrow::after, .bago-afterlogin .boxer-arrow::after{
     top: 13px;

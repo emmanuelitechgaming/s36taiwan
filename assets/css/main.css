@@ -2507,10 +2507,6 @@ select + i.fa {
     margin-top: 100px;
     color: #fff
 }
-
-.notice-dialog th:first-child{
-  width: 25%
-}
 .notice-dialog td{
   height: 42px;
 }
@@ -8424,7 +8420,7 @@ bottom: -2px;
   top: 80%;
 }
 .casino-g .content{
-  background: #1b1a1a;
+  background: #202020;
   border: 1px solid #323232;
   border-top: none
 }
