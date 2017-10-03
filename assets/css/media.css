@@ -903,7 +903,7 @@
         padding: 0 10px
     }
     .mnav-afterlogin .notif {
-        right: 28px
+      right: 18px
     }
     .gp-live{
       top: 2px
@@ -979,37 +979,34 @@
       min-width: 70px;
     }
     .mnav-top ul li {
-        width: 35%;
+        width: auto;
     }
     .mnav-top ul li:nth-child(1), .mnav-top ul li:nth-child(4){
-      width: 15%;
+      width: auto;
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
+      width: auto;
     }
     .mnav-top ul li:nth-child(4) img{
-      margin-left: 35%;
+      margin-left: 0;
+    }
+    .mnav-afterlogin ul li:nth-child(4) img{
+      margin-left: 0;
     }
     .mnav-top ul li:nth-child(2) img{
-      margin-left: 45%
+      margin-left: auto
     }
     .mnav-top ul li:nth-child(3) img{
       margin-right: 45%;
     }
     .mnav-afterlogin ul li{
-      width: 25%;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
-      width: 25%;
+      width: auto;
     }
     .mnav-afterlogin ul li:nth-child(2) img{
       margin-left: auto;
     }
     .mnav-afterlogin ul li:nth-child(3) img{
       margin-right: auto;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
-      width: 25%
-    }
-    .mnav-afterlogin ul li:nth-child(5) img{
-      margin-left: 35%;
     }
     .live-game.lg-angel-demon img{
       max-width: 110%;
@@ -1358,6 +1355,18 @@
       background: url('../img/underline3.png') no-repeat;
       background-size: 100% 100%
     }
+    .mnav-afterlogin ul, .mnav-top ul{
+      margin-left: 10px
+    }
+    .mnav-afterlogin ul li{
+      margin-right: 59px;
+    }
+    .mnav-top ul li{
+      margin-right: 60px;
+    }
+    .mnav-afterlogin ul li:last-child, .mnav-top ul li:last-child{
+      margin-right: 0;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1540,9 +1549,6 @@
         left: 63px;
         bottom: 5.45px
     }
-    .mnav-afterlogin .notif {
-        right: 33px
-    }
     .notice-dialog .modal-title{
       margin-left: 20%;
       margin-right: 20%;
@@ -1559,21 +1565,6 @@
     }
     .selectpicker2-menu ul li .country a{
       min-width: 80px;
-    }
-    .mnav-afterlogin ul li{
-      width: 25%;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
-      width: 25%;
-    }
-    .mnav-afterlogin ul li:nth-child(3) img{
-      margin-right: auto;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
-      width: 25%
-    }
-    .mnav-afterlogin ul li:nth-child(5) img{
-      margin-left: 40%;
     }
     .contact-title li{
       margin: 0 0px;
@@ -1640,6 +1631,12 @@
     }
     .td-week-netbet-holder{
       font-size: 13px
+    }
+    .mnav-afterlogin ul li{
+      margin-right: 72px;
+    }
+    .mnav-top ul li{
+      margin-right: 73px;
     }
 }
 
@@ -1962,8 +1959,11 @@
     .bago-main .boxer::after{
       top: 5px;
     }
-    .mnav-afterlogin .notif {
-      right: 36px;
+    .mnav-afterlogin ul li {
+      margin-right: 77px;
+    }
+    .mnav-top ul li {
+      margin-right: 78px;
     }
 }
 
@@ -2132,9 +2132,6 @@
         margin-left: 65px;
         margin-right: 65px
     }
-    .mnav-afterlogin .notif {
-        right: 36px
-    }
     .gp-star {
       position: relative;
       top: 9px;
@@ -2153,30 +2150,23 @@
     .mnav-top ul li {
         width: 37%;
     }
+    .mnav-top ul li{
+      width: auto;
+    }
     .mnav-top ul li:nth-child(1), .mnav-top ul li:nth-child(4){
-      width: 13%;
+      width: auto;
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
+      width: auto;
     }
     .mnav-top ul li:nth-child(4) img{
-      margin-left: 40%;
+      margin-left: 0;
+    }
+    .mnav-afterlogin ul li:nth-child(4)  img{
+      margin-left: 0;
     }
     .mnav-top ul li:nth-child(3) img{
       margin-right: 55%;
-    }
-    .mnav-afterlogin ul li{
-      width: 25%;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
-      width: 24.66%;
-    }
-    .mnav-afterlogin ul li:nth-child(3) img{
-      margin-right: auto;
-      margin-left: 40%
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
-      width: 25%
-    }
-    .mnav-afterlogin ul li:nth-child(5) img{
-      margin-left: 40%;
     }
     .cta-seemore {
       bottom: 132px;
@@ -2256,6 +2246,12 @@
     }
     #myModalTab1-1 .g-recaptcha {
       left: -13px;
+    }
+    .mnav-afterlogin ul li {
+      margin-right: 90px;
+    }
+    .mnav-top ul li {
+      margin-right: 90px;
     }
 }
 
@@ -2441,6 +2437,9 @@
     }
     .gp-star{
       top: 9px
+    }
+    .mnav-top ul li {
+      margin-right: 91px;
     }
 }
 

@@ -3462,7 +3462,7 @@ footer .browsers li:first-child {
     position: relative;
     top: -9px
 }
-.mnav ul li:nth-child(1) .hamburger{
+.mnav ul li:nth-child(1) .hamburger, .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger {
   position: relative;
   top: 3.4px;
   -webkit-transform: scale(1.35);
@@ -3471,12 +3471,16 @@ footer .browsers li:first-child {
 .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger {
   position: relative;
   top: 11px;
-  left: -11px;
-  -webkit-transform: scale(1.4);
-  transform: scale(1.4);
+  -webkit-transform: scale(1.35);
+  transform: scale(1.35);
 }
 .mnav ul li:nth-child(1) .hamburger.is-active{
   top: 4px
+}
+.mnav.mnav-top ul li:nth-child(1) .hamburger.is-active{
+  top: 8px;
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
 }
 .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger.is-active{
   top: 17px;
@@ -5504,21 +5508,19 @@ div.cta-contact-info a {
     position: relative;
     bottom: -5px
 }
-
 .mnav-afterlogin ul{
-  bottom: 0px
+  margin-bottom: 4px;
+  bottom: -1px;
 }
-
 .mnav-top ul li {
     display: inline-block;
     text-align: center;
     float: none;
-    margin-left: -4px
 }
 
 .mnav-afterlogin ul li {
-    width: 20%;
     vertical-align: bottom;
+    margin-left: 0;
 }
 
 .mnav-afterlogin ul li .hamburger{
@@ -5541,34 +5543,23 @@ div.cta-contact-info a {
   position: relative;
   top: 1px;
 }
-
-/*.mnav-top ul li:nth-child(3) a img{
-  height: 27px;
-}*/
-
 .mnav-afterlogin ul li a img {
   height: 29px;
 }
 .mnav-afterlogin ul li:nth-child(4) a img{
   height: 32px;
   top: 6px;
-  right: -11px
 }
 .mnav-afterlogin ul li:nth-child(2) a img{
   position: relative;
   top: 3px;
   height: 29px;
 }
-.mnav-afterlogin ul li:nth-child(3) a img{
-  right: -10px
-}
 .mnav-top ul li a span {
     display: block;
     margin-top: 3px;
     font-size: 11px
 }
-
-
 
 #myModal .nav-tabs li span img {
     width: 15px;
@@ -5577,17 +5568,14 @@ div.cta-contact-info a {
     left: 3px;
     top: 3px;
 }
-
 @font-face {
     font-family: "5by7";
     src: url("../../dist/fonts/5by7.ttf");
 }
-
 #myTargetElement,
 #myTargetElement2 {
     font-family: "5by7";
 }
-
 .absolute-play {
     position: absolute;
     margin-left: auto;
