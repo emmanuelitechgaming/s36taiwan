@@ -466,7 +466,7 @@ main .contact-title:first-child {
 
 main .contactus {
     border-top: 1px solid #5d5a5a;
-    border-bottom: 2px solid #161616;
+    border-bottom: 1px solid #000;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
 }
@@ -9580,13 +9580,13 @@ header #m-selectpicker2-collapse ul li{
   border-top: 0;
   border-collapse: collapse;
   text-align: center;
-  padding: 6px 0;
+  padding: 7.9px 0;
 }
 .jackpot-winner2 .flexslider table, .jackpot-winner2 .flexslider th , .jackpot-winner2 .flexslider td {
   border-bottom: 1px solid transparent;
 }
 .jackpot-winner2 .flexslider td{
-  padding: 6px 0px;
+  padding: 2px 0px;
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
   border-right: 1px solid transparent
@@ -9602,8 +9602,8 @@ header #m-selectpicker2-collapse ul li{
 }
 .jackpot-winner2 .flexslider tr{
   background: #161616 url(../img/underline2.png) no-repeat;
-  background-position: 19px 43px;
-  background-size: 93% 2px;
+  background-position: 19px 34px;
+  background-size: 100% 1px;
 }
 .jackpot-winner2 .flexslider tr:last-child{
   background: #161616;
@@ -9625,7 +9625,9 @@ header #m-selectpicker2-collapse ul li{
 .flexslider .title{
   border-bottom: 1px solid #2d2d2d !important
 }
-
+.jackpot-winner tr td:nth-child(4) {
+    width: 200px;
+}
 .flexslider tr .title::after{
   content: '';
   position: absolute;
@@ -9640,18 +9642,12 @@ header #m-selectpicker2-collapse ul li{
   border-bottom: 1px solid transparent !important;
   border-left: none
 }
- .jackpot-winner tr td:nth-child(4){
-  width:250px;
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: 3px;
-}
 .jackpot-winner tr td:last-child{
   width: 105px;
 }
 .jackpot-winner2 tr td:nth-child(2){
   width: 198px;
-  font-size: 22px;
+  font-size: 21px;
   letter-spacing: 3px;
   font-weight: 700;
 }
@@ -9933,7 +9929,7 @@ padding: 10px 0;
   height: 15px;
   line-height: 15px;
   position: relative;
-  top: -4px;
+  top: -1px;
   color: #000;
   text-shadow: 1px 1px 15px rgba(000, 000, 000, 0.5);
   font-size: 10px;
@@ -9941,7 +9937,6 @@ padding: 10px 0;
   max-width: 35px;
   padding: 4px 5px;
   margin: 0 3px;
-  margin-right: 10px
 }
 .trphy1{
   font-size: 13px;
@@ -9953,7 +9948,6 @@ padding: 10px 0;
   padding: 4px 5px;
   top: -4px;
   margin:0 32px;
-  margin-right: 10px
 }
 .j-new .title{
   background: rgba(66,66,66,1);
