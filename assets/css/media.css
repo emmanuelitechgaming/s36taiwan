@@ -186,6 +186,7 @@
     }
     .notice-dialog {
         width: 100%;
+        margin: auto;
     }
     .live-game .gameplatform {
         top: -39px;
@@ -1372,9 +1373,6 @@
     }
     .cs-modal .chatserver-form button {
         padding: 3px 10px;
-    }
-    .notice-dialog th:nth-child(2){
-      width: 60%
     }
 }
 
@@ -4614,6 +4612,9 @@ margin-top: -18px;
   }
   .notice-dialog th:nth-child(2){
     width: 65%
+  }
+  .notice-dialog th:first-child{
+    width: 25%
   }
 }
 
