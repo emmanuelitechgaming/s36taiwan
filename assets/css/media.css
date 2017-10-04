@@ -1374,6 +1374,9 @@
     .cs-modal .chatserver-form button {
         padding: 3px 10px;
     }
+    .cs-modal .chatserver-form button, #cscall {
+      width: 100%;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4621,6 +4624,12 @@ margin-top: -18px;
   }
   .notice-dialog th:first-child{
     width: 25%
+  }
+  .cs-modal .chatserver-form button, #cscall {
+    width: 310px;
+  }
+  .cs-modal#demoModal .chatserver-form button, .cs-modal .chatserver-form button.select-country-code{
+    width: 100%;
   }
 }
 

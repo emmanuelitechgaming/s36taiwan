@@ -3115,7 +3115,6 @@ span.round-tab i {
     border-radius: 4px;
     background: #acacb4;
     text-shadow: none;
-    width: 100%;
     border-radius: 5px;
     color: #000;
 }
@@ -5538,8 +5537,8 @@ div.cta-contact-info a {
   height: 29px;
 }
 .mnav-afterlogin ul li:nth-child(4) a img{
-  height: 32px;
-  top: 6px;
+  height: 29px;
+  top: 2px;
 }
   .mnav-afterlogin ul li:nth-child(2) a img{
   position: relative;
@@ -6458,7 +6457,6 @@ main .win-lot-top-games {
   border-radius: 5px;
   background: #acacb4;
   text-shadow: none;
-  width: 100%;
 }
 
 #csCallselect {
