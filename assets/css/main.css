@@ -7913,6 +7913,12 @@ margin-right: 23px;
 .nav-slide-inner li a{
   margin-left: 15px;
 }
+.nav>li>a>img{
+  max-width: 100%;
+}
+.nav.navbar-nav.hidden-md.hidden-lg .dl{
+  padding: 0 !important;
+}
 .promotion-form  select.form-control  , input.form-control{
   background: #333333!important;
   border: 2px solid #333333!important;
@@ -10115,4 +10121,5 @@ height: 30px!important;
 }
 .qr-dl-ins img{
   margin: 17px auto;
+}
 }
