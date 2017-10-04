@@ -3479,13 +3479,13 @@ footer .browsers li:first-child {
 }
 .mnav.mnav-top ul li:nth-child(1) .hamburger.is-active{
   top: 8px;
-  -webkit-transform: scale(1.8);
-          transform: scale(1.8);
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
 }
 .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger.is-active{
   top: 17px;
-  -webkit-transform: scale(1.8);
-          transform: scale(1.8);
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
 }
 .mnav a:hover,
 .mnav a:focus,
