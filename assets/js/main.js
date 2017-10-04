@@ -781,34 +781,37 @@ $(document).ready(function () {
      });
      var fd2 = [
        {
-         'country_name': '简体 - (中国)'
+         'country_name': '简体中文 (中国)'
        },
        {
-         'country_name': '繁體 - (台灣)'
+         'country_name': '繁體中文 (台灣)'
        },
        {
-         'country_name': '印尼文- (Bahasa Indonesia)'
+         'country_name': 'English (United Kingdom)'
        },
        {
-         'country_name': '泰文 - (Thailand)'
+         'country_name': 'Bahasa (Indonesia)'
        },
        {
-         'country_name': '越南文 - (Vietnam)'
+         'country_name': 'Tiếng Việt (Viét Nam)'
        },
        {
-         'country_name': '马来文 - (Bahasa Malaysia)'
+         'country_name': '日本語 (日本国)'
        },
        {
-         'country_name': '日文 - (Japan)'
+         'country_name': 'ภาษาไทย (ประเทศไทย)'
        },
        {
-         'country_name': '英文 - (马来西亚)'
+         'country_name': 'हिन्द (भारत)'
        },
        {
-         'country_name': '繁體 -(马来西亚)'
+         'country_name': 'Melayu (Malaysia)'
        },
        {
-         'country_name': '印度文 - (India)'
+         'country_name': 'English (Malaysia)'
+       },
+       {
+         'country_name': '中文 (马来西亚)'
        }
      ];
 
@@ -865,10 +868,10 @@ $(document).ready(function () {
 
       $('.gp-more').hover(function() {
         $(this).find('span').css('color', '#fba601');
-        $(this).find('img').attr('src', 'assets/img/more-hover.png');
+        $(this).addClass('gp-more-hover');
       }, function() {
         $(this).find('span').css('color', '#fff');
-        $(this).find('img').attr('src', 'assets/img/more.png');
+        $(this).removeClass('gp-more-hover');
       });
 
       $('img[src="assets/img/casino/baccarat/info.png"]').hover(function() {

@@ -186,6 +186,7 @@
     }
     .notice-dialog {
         width: 100%;
+        margin: auto;
     }
     .live-game .gameplatform {
         top: -39px;
@@ -903,7 +904,7 @@
         padding: 0 10px
     }
     .mnav-afterlogin .notif {
-        right: 35px
+      right: 18px
     }
     .gp-live{
       top: 2px
@@ -979,37 +980,34 @@
       min-width: 70px;
     }
     .mnav-top ul li {
-        width: 35%;
+        width: auto;
     }
     .mnav-top ul li:nth-child(1), .mnav-top ul li:nth-child(4){
-      width: 15%;
+      width: auto;
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
+      width: auto;
     }
     .mnav-top ul li:nth-child(4) img{
-      margin-left: 35%;
+      margin-left: 0;
+    }
+    .mnav-afterlogin ul li:nth-child(4) img{
+      margin-left: 0;
     }
     .mnav-top ul li:nth-child(2) img{
-      margin-left: 45%
+      margin-left: auto
     }
     .mnav-top ul li:nth-child(3) img{
       margin-right: 45%;
     }
     .mnav-afterlogin ul li{
-      width: 25%;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
-      width: 25%;
+      width: auto;
     }
     .mnav-afterlogin ul li:nth-child(2) img{
       margin-left: auto;
     }
     .mnav-afterlogin ul li:nth-child(3) img{
       margin-right: auto;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
-      width: 25%
-    }
-    .mnav-afterlogin ul li:nth-child(5) img{
-      margin-left: 35%;
     }
     .live-game.lg-angel-demon img{
       max-width: 110%;
@@ -1307,7 +1305,7 @@
     }
     .live-game ul li span{
       font-size: 38px;
-      line-height: 38px;
+      line-height: 30px;
     }
     .gp-g.row .live-games{
       width: 110px
@@ -1316,8 +1314,8 @@
       right: 8px
     }
     .g-recaptcha{
-      transform:scale(0.79) !important;
-      -webkit-transform:scale(0.79) !important;
+      transform:scale(0.77) !important;
+      -webkit-transform:scale(0.77) !important;
       transform-origin:0 0 !important;
       -webkit-transform-origin:0 0 !important;
     }
@@ -1357,6 +1355,24 @@
       left: 48%;
       background: url('../img/underline3.png') no-repeat;
       background-size: 100% 100%
+    }
+    .mnav-afterlogin ul, .mnav-top ul{
+      margin-left: 10px
+    }
+    .mnav-afterlogin ul li{
+      margin-right: 59px;
+    }
+    .mnav-top ul li{
+      margin-right: 59px;
+    }
+    .mnav-afterlogin ul li:last-child, .mnav-top ul li:last-child{
+      margin-right: 0;
+    }
+    .cs-modal .ctitle h1 {
+        padding: 15px;
+    }
+    .cs-modal .chatserver-form button {
+        padding: 3px 10px;
     }
 }
 
@@ -1540,9 +1556,6 @@
         left: 63px;
         bottom: 5.45px
     }
-    .mnav-afterlogin .notif {
-        right: 41px
-    }
     .notice-dialog .modal-title{
       margin-left: 20%;
       margin-right: 20%;
@@ -1559,21 +1572,6 @@
     }
     .selectpicker2-menu ul li .country a{
       min-width: 80px;
-    }
-    .mnav-afterlogin ul li{
-      width: 25%;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
-      width: 25%;
-    }
-    .mnav-afterlogin ul li:nth-child(3) img{
-      margin-right: auto;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
-      width: 25%
-    }
-    .mnav-afterlogin ul li:nth-child(5) img{
-      margin-left: 40%;
     }
     .contact-title li{
       margin: 0 0px;
@@ -1635,11 +1633,17 @@
       left: 3px
     }
     .g-recaptcha{
-      transform:scale(0.92) !important;
-      -webkit-transform:scale(0.92) !important;
+      transform:scale(0.9) !important;
+      -webkit-transform:scale(0.9) !important;
     }
     .td-week-netbet-holder{
       font-size: 13px
+    }
+    .mnav-afterlogin ul li{
+      margin-right: 72px;
+    }
+    .mnav-top ul li{
+      margin-right: 72px;
     }
 }
 
@@ -1956,14 +1960,21 @@
       position: relative;
       left: 22px
     }
+    #csMsg .g-recaptcha, #csPhone .g-recaptcha{
+      left: 0px
+    }
+
     #myModalTab1-1 .g-recaptcha{
       left: 5px
     }
     .bago-main .boxer::after{
       top: 5px;
     }
-    .mnav-afterlogin .notif {
-      right: 43px;
+    .mnav-afterlogin ul li {
+      margin-right: 77px;
+    }
+    .mnav-top ul li {
+      margin-right: 77px;
     }
 }
 
@@ -2132,9 +2143,6 @@
         margin-left: 65px;
         margin-right: 65px
     }
-    .mnav-afterlogin .notif {
-        right: 44px
-    }
     .gp-star {
       position: relative;
       top: 9px;
@@ -2153,30 +2161,23 @@
     .mnav-top ul li {
         width: 37%;
     }
+    .mnav-top ul li{
+      width: auto;
+    }
     .mnav-top ul li:nth-child(1), .mnav-top ul li:nth-child(4){
-      width: 13%;
+      width: auto;
+    }
+    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
+      width: auto;
     }
     .mnav-top ul li:nth-child(4) img{
-      margin-left: 40%;
+      margin-left: 0;
+    }
+    .mnav-afterlogin ul li:nth-child(4)  img{
+      margin-left: 0;
     }
     .mnav-top ul li:nth-child(3) img{
       margin-right: 55%;
-    }
-    .mnav-afterlogin ul li{
-      width: 25%;
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
-      width: 24.66%;
-    }
-    .mnav-afterlogin ul li:nth-child(3) img{
-      margin-right: auto;
-      margin-left: 40%
-    }
-    .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
-      width: 25%
-    }
-    .mnav-afterlogin ul li:nth-child(5) img{
-      margin-left: 40%;
     }
     .cta-seemore {
       bottom: 132px;
@@ -2254,8 +2255,17 @@
       position: relative;
       left: 9px;
     }
+    #csMsg .g-recaptcha, #csPhone .g-recaptcha{
+      left: -9px
+    }
     #myModalTab1-1 .g-recaptcha {
       left: -13px;
+    }
+    .mnav-afterlogin ul li {
+      margin-right: 90px;
+    }
+    .mnav-top ul li {
+      margin-right: 90px;
     }
 }
 
@@ -2441,6 +2451,12 @@
     }
     .gp-star{
       top: 9px
+    }
+    .mnav-top ul li {
+      margin-right: 90px;
+    }
+    #csMsg .g-recaptcha, #csPhone .g-recaptcha {
+      left: -12px;
     }
 }
 
@@ -4439,13 +4455,16 @@ margin-top: -18px;
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
     top: 10px;
-    left: 88%;
+    left: 91%;
   }
   .bago-pages .boxer-arrow::after, .bago-pages .boxer-arrow::after{
     left: 98%;
   }
   .bago_nanaman .col-md-3:nth-child(3) .boxer-arrow::after{
     left: 84%
+  }
+  .bago-afterlogin .col-md-3:nth-child(3) .boxer-arrow::after{
+    left: 95%
   }
   .bago_nanaman .col-6:nth-child(3) .boxer::after{
     content: ''
@@ -4516,11 +4535,15 @@ margin-top: -18px;
     bottom: 19px;
     content: '';
     display: block;
-    height: 34px;
+    height: 26px;
     width: 2px;
-    background: url(../img/separator.png) no-repeat;
+    border-left: 1px solid #000;
+    border-right: 1px solid #303030;
     background-size: 100% 100%;
     position: absolute;
+  }
+  .bago-afterlogin .boxer::after{
+    height: 32px;
   }
   .bago-afterlogin .col-6 {
     width: 25%;
@@ -4583,6 +4606,21 @@ margin-top: -18px;
   }
   .bago-afterlogin::after{
     content: none;
+  }
+  .helpcenter .tab-pane {
+      padding-right: 30px;
+  }
+  .cs-modal .ctitle h1 {
+      padding: .65em 2em;
+  }
+  .cs-modal .chatserver-form button {
+      padding: 3px 15px;
+  }
+  .notice-dialog th:nth-child(2){
+    width: 65%
+  }
+  .notice-dialog th:first-child{
+    width: 25%
   }
 }
 
@@ -4728,7 +4766,7 @@ margin-top: -18px;
         padding-left: 15px;
     }
     .contactus ul li {
-      padding: 8.1px 0;
+      padding: 8.2px 0;
       padding-left: 0px;
       font-size: 14px;
     }
@@ -4917,7 +4955,7 @@ main .marquee {
     padding-left: 42px;
   }
   .drop {
-      right: 17.11%;
+      right: 17.89%;
   }
   .boxer .number{
     display: inline-block;
@@ -4927,7 +4965,10 @@ main .marquee {
     padding: 3px 10px;
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
-    top: 10px;
+    top: 13px;
+  }
+  .bago-afterlogin .boxer-arrow::after, .bago-afterlogin .boxer-arrow::after{
+    top: 13px;
   }
   .boxer .content .title {
     font-size: 14px;

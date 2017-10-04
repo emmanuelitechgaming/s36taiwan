@@ -466,7 +466,7 @@ main .contact-title:first-child {
 
 main .contactus {
     border-top: 1px solid #5d5a5a;
-    border-bottom: 2px solid #161616;
+    border-bottom: 1px solid #000;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
 }
@@ -2507,14 +2507,6 @@ select + i.fa {
     margin-top: 100px;
     color: #fff
 }
-
-.notice-dialog th:first-child{
-  width: 25%
-}
-.notice-dialog th:nth-child(2){
-  width: 65%
-}
-
 .notice-dialog td{
   height: 42px;
 }
@@ -3073,8 +3065,6 @@ span.round-tab i {
     line-height: 1;
     text-transform: uppercase;
     display: inline-block;
-    padding: .5em;
-    padding: .65em 2em;
     white-space: nowrap;
 }
 
@@ -3120,7 +3110,6 @@ span.round-tab i {
 .cs-modal .chatserver-form button {
     font-size: 17px;
     margin-bottom: 20px;
-    padding: 3px 15px;
     letter-spacing: .5px;
     border: none;
     border-radius: 4px;
@@ -3462,25 +3451,30 @@ footer .browsers li:first-child {
     position: relative;
     top: -9px
 }
-.mnav ul li:nth-child(1) .hamburger{
+.mnav ul li:nth-child(1) .hamburger, .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger {
   position: relative;
-  top: 3.8px;
-  -webkit-transform: scale(1.39);
-  transform: scale(1.39);
+  top: 3.4px;
+  -webkit-transform: scale(1.35);
+  transform: scale(1.35);
 }
 .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger {
   position: relative;
   top: 11px;
-  -webkit-transform: scale(1.4);
-  transform: scale(1.4);
+  -webkit-transform: scale(1.35);
+  transform: scale(1.35);
 }
 .mnav ul li:nth-child(1) .hamburger.is-active{
   top: 4px
 }
+.mnav.mnav-top ul li:nth-child(1) .hamburger.is-active{
+  top: 8px;
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
+}
 .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger.is-active{
   top: 17px;
-  -webkit-transform: scale(1.9);
-          transform: scale(1.9);
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
 }
 .mnav a:hover,
 .mnav a:focus,
@@ -5497,27 +5491,27 @@ div.cta-contact-info a {
 .m-fsalon ul li:nth-child(6) {
     padding: 0 4px
 }
-
+.m-footer-dropdown ul li:nth-child(6) {
+  padding: 0 0 ;
+}
 .mnav-top ul {
     display: block;
     position: relative;
     bottom: -5px
 }
-
 .mnav-afterlogin ul{
-  bottom: 0px
+  margin-bottom: 4px;
+  bottom: -1px;
 }
-
 .mnav-top ul li {
     display: inline-block;
     text-align: center;
     float: none;
-    margin-left: -4px
 }
 
 .mnav-afterlogin ul li {
-    width: 20%;
     vertical-align: bottom;
+    margin-left: 0;
 }
 
 .mnav-afterlogin ul li .hamburger{
@@ -5535,12 +5529,11 @@ div.cta-contact-info a {
     max-width: 100%;
     height: 29px;
 }
-
-
-/*.mnav-top ul li:nth-child(3) a img{
-  height: 27px;
-}*/
-
+.mnav-top ul li:nth-child(2) a img{
+  height: 31px;
+  position: relative;
+  top: 1px;
+}
 .mnav-afterlogin ul li a img {
   height: 29px;
 }
@@ -5548,18 +5541,16 @@ div.cta-contact-info a {
   height: 32px;
   top: 6px;
 }
-.mnav-afterlogin ul li:nth-child(2) a img{
+  .mnav-afterlogin ul li:nth-child(2) a img{
   position: relative;
-  top: 7px;
-  height: 35px;
+  top: 5px;
+  height: 33px;
 }
 .mnav-top ul li a span {
     display: block;
     margin-top: 3px;
     font-size: 11px
 }
-
-
 
 #myModal .nav-tabs li span img {
     width: 15px;
@@ -5568,17 +5559,14 @@ div.cta-contact-info a {
     left: 3px;
     top: 3px;
 }
-
 @font-face {
     font-family: "5by7";
     src: url("../../dist/fonts/5by7.ttf");
 }
-
 #myTargetElement,
 #myTargetElement2 {
     font-family: "5by7";
 }
-
 .absolute-play {
     position: absolute;
     margin-left: auto;
@@ -6300,43 +6288,47 @@ main .win-lot-top-games {
 }
 .navbar-afterlogin {
     position: relative;
-    top: 10px;
+    top: 11px;
     left: -10px
 }
 .navbar-afterlogin ul li {
-    margin-left: 28px;
     position: relative;
     font-size: 20px;
 }
 .navbar-afterlogin ul li a {
     text-decoration: none;
     color: #fff;
+    margin: 0 13px;
+    margin-left: 17.8px
 }
 .navbar-afterlogin ul li a span {
     position: relative;
-    top: 3px
+    top: 3px;
+    margin-left: 5px;
 }
 .navbar-afterlogin ul li a img {
     height: 24px;
     position: relative;
-    top: 1px
+    top: 1px;
+    width: 25px;
 }
 .navbar-afterlogin ul li:nth-child(2) a img{
   height: 24px;
   top: -2px;
 }
-.navbar-afterlogin ul li:nth-child(1) a img{
-  height: 24px;
+.navbar-afterlogin ul li:nth-child(1) a img, .navbar-afterlogin ul li:nth-child(3) a img{
+  height: 28px;
   top: -1px;
+  width: 27px;
 }
 .navbar-afterlogin .notif {
   position: absolute;
-  top: 3px;
+  top: 6px;
   right: 96px;
   color: #fff;
   background: #fba601;
   padding: 1px 6px;
-  font-size: 13px;
+  font-size: 11px;
   border-radius: 50%;
 }
 .mnav-afterlogin .notif {
@@ -6452,6 +6444,8 @@ main .win-lot-top-games {
   background: url('../img/afterlogin/4-hover.png') no-repeat;
   margin-right: 5px;
   vertical-align: top;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 .top-header .logout.hover::before{
   background: url('../img/afterlogin/4-hoverY.png') no-repeat;
@@ -6663,11 +6657,6 @@ main .win-lot-top-games {
 .wallet-text:-moz-placeholder {
     color: #c4c4c4
 }
-
-.helpcenter .tab-pane {
-    padding-right: 30px;
-}
-
 div.acc-info.acc-edit div.acc-cont input {
     background: #333333;
     border: 1px solid #4b4b4b;
@@ -6855,6 +6844,10 @@ div.acc-info.acc-edit div.acc-cont input {
   position: relative;
   top: 5px;
   margin-right: 5px;
+}
+.gp-more-hover span::before{
+  background: url('../img/more-hover.png') no-repeat;
+  background-size: cover;
 }
 .gp-more2 img {
     position: relative;
@@ -8108,12 +8101,18 @@ border-top-right-radius: 6px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
+.fish-mobile{
+  position: relative;
+}
 .lotto-button{
   position: absolute;
   top: 42%;
   text-align: center;
   display: block;
   width: 100%
+}
+.lotto-button-m{
+  top: 38%;
 }
 .lotto-button a{
   display: inline-block;
@@ -8124,6 +8123,9 @@ border-top-right-radius: 6px;
   padding: 15px 15px 15px 80px;
   position: relative;
   border-radius: 2px;
+}
+.lotto-button-m a{
+  padding: 10px 15px 10px 15px
 }
 .lotto-button a::before{
   content: '';
@@ -8148,6 +8150,12 @@ border-top-right-radius: 6px;
   color: #fff;
   margin-right: 95px;
 }
+.lotto-button-m .text{
+  margin-right: 25px;
+}
+.lotto-button-m .text{
+  font-size: 15px;
+}
 .lotto-button .arrow::before{
   content: '';
   display: block;
@@ -8161,6 +8169,10 @@ border-top-right-radius: 6px;
   top: 0px;
   right: 60px;
 }
+.lotto-button-m .arrow::before{
+  height: 46px;
+  right: 51px;
+}
 .lotto-button .glyphicon{
   color: #fff;
   padding: 10px;
@@ -8169,6 +8181,9 @@ border-top-right-radius: 6px;
   border-radius: 50%;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
   top: 0;
+}
+.lotto-button-m .glyphicon{
+  padding: 6px
 }
 .lotto-button a:hover .glyphicon{
   color: #fff;
@@ -8405,12 +8420,12 @@ bottom: -2px;
   top: 80%;
 }
 .casino-g .content{
-  background: #1b1a1a;
+  background: #202020;
   border: 1px solid #323232;
   border-top: none
 }
 .casino-g .content p{
-  background:#1b1a1a;
+  background:#202020;
   margin: 5px;
   padding: 10px 5px;
   border-radius: 5px;
@@ -9565,13 +9580,13 @@ header #m-selectpicker2-collapse ul li{
   border-top: 0;
   border-collapse: collapse;
   text-align: center;
-  padding: 6px 0;
+  padding: 7.9px 0;
 }
 .jackpot-winner2 .flexslider table, .jackpot-winner2 .flexslider th , .jackpot-winner2 .flexslider td {
   border-bottom: 1px solid transparent;
 }
 .jackpot-winner2 .flexslider td{
-  padding: 6px 0px;
+  padding: 2px 0px;
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
   border-right: 1px solid transparent
@@ -9587,8 +9602,8 @@ header #m-selectpicker2-collapse ul li{
 }
 .jackpot-winner2 .flexslider tr{
   background: #161616 url(../img/underline2.png) no-repeat;
-  background-position: 19px 43px;
-  background-size: 93% 2px;
+  background-position: 19px 34px;
+  background-size: 100% 1px;
 }
 .jackpot-winner2 .flexslider tr:last-child{
   background: #161616;
@@ -9610,7 +9625,9 @@ header #m-selectpicker2-collapse ul li{
 .flexslider .title{
   border-bottom: 1px solid #2d2d2d !important
 }
-
+.jackpot-winner tr td:nth-child(4) {
+    width: 200px;
+}
 .flexslider tr .title::after{
   content: '';
   position: absolute;
@@ -9625,15 +9642,12 @@ header #m-selectpicker2-collapse ul li{
   border-bottom: 1px solid transparent !important;
   border-left: none
 }
- .jackpot-winner tr td:nth-child(4){
-  width:200px;
-}
 .jackpot-winner tr td:last-child{
   width: 105px;
 }
 .jackpot-winner2 tr td:nth-child(2){
   width: 198px;
-  font-size: 22px;
+  font-size: 21px;
   letter-spacing: 3px;
   font-weight: 700;
 }
@@ -9921,7 +9935,7 @@ padding: 10px 0;
   font-size: 10px;
   min-width: 35px;
   max-width: 35px;
-  padding: 2px 5px;
+  padding: 4px 5px;
   margin: 0 3px;
 }
 .trphy1{
@@ -9990,4 +10004,19 @@ padding: 10px 0;
 #navbar-collapse-1 .logout img{
   width: 30px;
   height: 30px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg)
+}
+.notif{
+  display: none !important
+}
+.wallet-disabled:disabled{
+  background:#333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==);
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  background-size: 15% 100%;
 }
