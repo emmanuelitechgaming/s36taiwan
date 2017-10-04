@@ -3017,7 +3017,7 @@ span.round-tab i {
 }
 
 .helpcenter-noticetab {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .helpcenter-noticetab a {
@@ -6434,9 +6434,10 @@ main .win-lot-top-games {
   margin: 0 5px;
   color: #fff;
   position: relative;
-  top: 3px;
+  top: 5px;
   border-radius: 5px;
-  padding: 2px 15px;
+  padding: 1px 15px;
+  font-size: 11px;
 }
 .top-header .logout:hover{
   background-color: #c5c7d3;
@@ -10008,4 +10009,18 @@ padding: 10px 0;
   background-repeat: no-repeat;
   background-position: 100% 10%;
   background-size: 15% 100%;
+}
+.comment-inside{
+  padding: 0 40px
+}
+.comment h4{
+  color: #fba601;
+  font-weight: 700;
+}
+.title-inside{
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.title-inside.with-accordion{
+  border-top: solid 1px #c4c4c4
 }
