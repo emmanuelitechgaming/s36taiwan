@@ -65,3 +65,9 @@
   text-decoration: none;
   color: #fba601;
 }
+.nested-accordion a.btn.btnb.arrow-right-btn{
+  color: #000
+}
+.nested-accordion h3 a{
+  color: #000;
+}

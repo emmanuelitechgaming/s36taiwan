@@ -954,7 +954,9 @@ div.border:before {
     margin-top: -10px;
     background-color: transparent;
 }
-
+.tab27helpcenter .panel{
+  margin-top: 0;
+}
 .panel.with-nav-tabs .panel-heading {
     padding: 5px 20px 0 20px;
 }
@@ -9734,8 +9736,8 @@ height: 30px!important;
   width: 27px;;
 }
 .tab27helpcenter .query-form{
-border-radius: 4px;
-padding: 10px 0;
+  border-radius: 4px;
+  padding: 0 0 10px;
 }
 .tab27helpcenter .query-form h4{
   padding: 10px;
