@@ -10130,3 +10130,11 @@ height: 30px!important;
 .qr-dl-ins img{
     margin: 19px auto;
 }
+.hamburger-inner {
+  top: 12% !important;
+  display: block;
+  margin-top: -3px !important;
+}
+.is-active .hamburger-inner {
+  margin-top: -2px !important;
+}
