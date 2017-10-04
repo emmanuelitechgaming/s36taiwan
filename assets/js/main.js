@@ -766,14 +766,6 @@ $(document).ready(function () {
        })
      });
 
-     $('.top-header .logout').hover(function() {
-       $(this).css('color', '#fba601');
-       $(this).addClass('hover');
-     }, function() {
-       $(this).css('color', '#fff');
-       $(this).removeClass('hover');
-     })
-
      var the_active = '';
      $('.flag-dropdown ul li a').click(function() {
        $('.flag-val').html($(this).data('value'));
