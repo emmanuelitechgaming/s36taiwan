@@ -430,6 +430,9 @@ main .win-lot {
     border-top: 1px solid #303030;
     overflow: hidden;
 }
+main .top-games .win-body a:first-child .win-lot{
+  border-top: none
+}
 main .recent-winners .win-lot:first-child{
   border-top: none
 }
@@ -5798,7 +5801,7 @@ div.input-border #country-sel.flagstrap .btn .caret {
 }
 
 main .win-lot-top-games {
-    padding: 5.5px 0 3px
+    padding: 5.6px 0 3px
 }
 
 .header-cs {
