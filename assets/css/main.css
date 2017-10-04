@@ -421,7 +421,7 @@ main .win-body {
     position: relative;
     border-top: 1px solid #5d5a5a
 }
-main .win-body.top-games{
+main .top-games .win-body{
   border-top: none;
 }
 main .win-lot {
