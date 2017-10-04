@@ -954,7 +954,9 @@ div.border:before {
     margin-top: -10px;
     background-color: transparent;
 }
-
+.tab27helpcenter .panel{
+  margin-top: 0;
+}
 .panel.with-nav-tabs .panel-heading {
     padding: 5px 20px 0 20px;
 }
@@ -3017,7 +3019,7 @@ span.round-tab i {
 }
 
 .helpcenter-noticetab {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .helpcenter-noticetab a {
@@ -3115,7 +3117,6 @@ span.round-tab i {
     border-radius: 4px;
     background: #acacb4;
     text-shadow: none;
-    width: 100%;
     border-radius: 5px;
     color: #000;
 }
@@ -5538,8 +5539,8 @@ div.cta-contact-info a {
   height: 29px;
 }
 .mnav-afterlogin ul li:nth-child(4) a img{
-  height: 32px;
-  top: 6px;
+  height: 29px;
+  top: 2px;
 }
   .mnav-afterlogin ul li:nth-child(2) a img{
   position: relative;
@@ -6433,12 +6434,17 @@ main .win-lot-top-games {
   display: block;
   background: #acacb4;
   margin: 0 5px;
-  color: #000;
+  color: #fff;
   position: relative;
-  top: 3px;
-  font-weight: 700;
+  top: 5px;
   border-radius: 5px;
-  padding: 2px 15px;
+  padding: 1px 15px;
+  font-size: 11px;
+}
+.top-header .logout:hover{
+  background-color: #c5c7d3;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
 }
 .top-header .pull-right li {
     margin: 0 1px
@@ -6458,7 +6464,6 @@ main .win-lot-top-games {
   border-radius: 5px;
   background: #acacb4;
   text-shadow: none;
-  width: 100%;
 }
 
 #csCallselect {
@@ -7907,6 +7912,12 @@ margin-right: 23px;
 }
 .nav-slide-inner li a{
   margin-left: 15px;
+}
+.nav>li>a>img{
+  max-width: 100%;
+}
+.nav.navbar-nav.hidden-md.hidden-lg .dl{
+  padding: 0 !important;
 }
 .promotion-form  select.form-control  , input.form-control{
   background: #333333!important;
@@ -9772,8 +9783,8 @@ height: 30px!important;
   width: 27px;;
 }
 .tab27helpcenter .query-form{
-border-radius: 4px;
-padding: 10px 0;
+  border-radius: 4px;
+  padding: 0 0 10px;
 }
 .tab27helpcenter .query-form h4{
   padding: 10px;
@@ -9957,7 +9968,6 @@ padding: 10px 0;
   height: 15px;
   line-height: 15px;
   position: relative;
-  top: -1px;
   color: #000;
   text-shadow: 1px 1px 15px rgba(000, 000, 000, 0.5);
   font-size: 10px;
@@ -9974,7 +9984,7 @@ padding: 10px 0;
 }
 .jackpot-winner2 span.cny{
   padding: 4px 5px;
-  top: -4px;
+  top: -3px;
   margin:0 32px;
 }
 .j-new .title{
@@ -10048,6 +10058,19 @@ padding: 10px 0;
   background-position: 100% 10%;
   background-size: 15% 100%;
 }
+.comment-inside{
+  padding: 0 40px
+}
+.comment h4{
+  color: #fba601;
+  font-weight: 700;
+}
+.title-inside{
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.title-inside.with-accordion{
+  border-top: solid 1px #c4c4c4
 
 @media (min-width: 992px){
 .col-md-offset-1 {
@@ -10099,4 +10122,5 @@ padding: 10px 0;
 }
 .qr-dl-ins img{
   margin: 17px auto;
+}
 }
