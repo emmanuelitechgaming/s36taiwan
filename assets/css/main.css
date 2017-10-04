@@ -6431,27 +6431,14 @@ main .win-lot-top-games {
 }
 .top-header .logout{
   display: block;
+  background: #acacb4;
   margin: 0 5px;
-  color: #fff;
+  color: #000;
   position: relative;
-  top: 6px
-}
-.top-header .logout::before{
-  content: '';
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  background: url('../img/afterlogin/4-hover.png') no-repeat;
-  margin-right: 5px;
-  vertical-align: top;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-.top-header .logout.hover::before{
-  background: url('../img/afterlogin/4-hoverY.png') no-repeat;
-}
-.top-header .logout::before, .top-header .logout.hover::before{
-  background-size: contain;
+  top: 3px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 2px 15px;
 }
 .top-header .pull-right li {
     margin: 0 1px
