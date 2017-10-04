@@ -375,7 +375,7 @@ main .win-title {
     position: relative;
 }
 main .win-title-recent{
-  border-bottom: 1px solid #000
+  border-bottom: 2px solid #000
 }
 main .win-title::after{
   content: '';
@@ -418,13 +418,20 @@ main .win-body {
     min-height: 258px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
+    position: relative;
+    border-top: 1px solid #5d5a5a
 }
-
+main .win-body.top-games{
+  border-top: none;
+}
 main .win-lot {
     padding: 10.4px 0;
     border-bottom: 1px solid #000;
     border-top: 1px solid #303030;
     overflow: hidden;
+}
+main .recent-winners .win-lot:first-child{
+  border-top: none
 }
 main .win-cs {
     padding: 5px 0;
@@ -8084,7 +8091,6 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 .sp-dl.fffssa{
   background: #202020;
   border:1px solid #454545;
-  padding: 30px;
   border-top-left-radius: 0!important ;
   border-radius: 10px;
 }
@@ -8092,18 +8098,14 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   padding: 5px 10px;
   margin-left: 5px;
   margin-right: 5px;
-bottom: 44px;
-background: #333333;
-background: -webkit-gradient(linear, left top, left bottom, from(#333333),to(#000000));
-background: linear-gradient(to bottom, #333333 0%,#000000 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
-border-top-right-radius: 6px;
-    border: 1px solid #454545;
-    border-bottom: 0;
-
-}
-.fffssa .qr-dl{
-
+  bottom: 44px;
+  background: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, from(#333333),to(#000000));
+  background: linear-gradient(to bottom, #333333 0%,#000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+  border-top-right-radius: 6px;
+  border: 1px solid #454545;
+  border-bottom: 0;
 }
 .fish-lotto{
   border-bottom-left-radius: 6px;
@@ -10091,16 +10093,12 @@ height: 30px!important;
 .nav-tabs > li > a:hover {
     border-color: #454545 #454545 #454545;
 }
-.qr-dl{    padding: 10px 5px 10px 5px;}
 .qr-dl .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px !important;
     background: #595959;
     color: #ffffff;
     margin-right: 5px;
-    font-size: 18px;
-
 }
 .qr-dl .nav-tabs{
   border-bottom: 0;

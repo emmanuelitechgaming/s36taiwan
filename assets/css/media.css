@@ -1377,6 +1377,22 @@
     .cs-modal .chatserver-form button, #cscall {
       width: 100%;
     }
+    .dl-body{
+      padding-left: 0px;
+      padding-right: 0px
+    }
+    .dl-body .fffssa{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .qr-dl{    padding: 10px 0px 10px 0px;}
+    .qr-dl .nav>li>a {
+        padding: 10px 11px !important;
+        font-size: 11px;
+    }
+    .sp-dl.fffssa{
+      padding: 5px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4630,6 +4646,22 @@ margin-top: -18px;
   }
   .cs-modal#demoModal .chatserver-form button, .cs-modal .chatserver-form button.select-country-code{
     width: 100%;
+  }
+  .dl-body{
+    padding-left: 15px;
+    padding-right: 15px
+  }
+  .dl-body .fffssa{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .qr-dl{    padding: 10px 5px 10px 5px;}
+  .qr-dl .nav>li>a {
+      padding: 10px 15px !important;
+      font-size: 18px;
+  }
+  .sp-dl.fffssa{
+    padding: 30px;
   }
 }
 
