@@ -10041,10 +10041,19 @@ height: 30px!important;
   display: none;
 }
 #navbar-collapse-1 .logout{
-  position: absolute;
   background: transparent;
-  left: 0;
-  top: 6px
+  width: 130px;
+  margin: 0px auto;
+  height: auto;
+  padding: 6px 0 !important;
+  padding-left: 20px !important;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background: #333 url('../img/afterlogin/4-hover2.png') no-repeat;
+  background-size: 32px 32px;
+  line-height: 20px;
+  margin-top: 15px;
 }
 #navbar-collapse-1 .logout img{
   width: 30px;
