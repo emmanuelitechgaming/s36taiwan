@@ -10080,13 +10080,14 @@ height: 30px!important;
 .comment h4{
   color: #fba601;
   font-weight: 700;
+  font-size: 16px;
 }
 .title-inside{
   margin-left: 20px;
-  padding-top: 10px;
 }
 .title-inside.with-accordion{
-  border-top: solid 1px #c4c4c4
+  border-top: solid 1px #c4c4c4;
+  padding-top: 10px;
 }
 @media (min-width: 992px){
 .col-md-offset-1 {
