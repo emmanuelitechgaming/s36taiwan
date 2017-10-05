@@ -4459,8 +4459,9 @@ margin-top: -18px;
   .boxer-last a{
     display: inline-block;
     padding: 0 0;
-    width: 310px;
-    margin: 0px auto
+    width: 220px;
+    margin: 0px auto;
+    margin-right: 68px;
   }
   .bs-slider-overlay a{
     font-size: 13px;
@@ -4676,10 +4677,10 @@ margin-top: -18px;
     width: 25%
   }
   .cs-modal .chatserver-form button, #cscall {
-    width: 310px;
+    width: 220px;
   }
   .cs-modal#demoModal .chatserver-form button, .cs-modal .chatserver-form button.select-country-code{
-    width: 100%;
+    width: 220px;
   }
   .dl-body{
     padding-left: 15px;
@@ -4717,12 +4718,6 @@ margin-top: -18px;
     -webkit-transform: scale(1) !important;
             transform: scale(1) !important;
     margin-left: 10px;
-  }
-  .btn-warning2{
-    width: auto;
-  }
-  .sweet-arrow::before {
-    right: 15px;
   }
 }
 
@@ -5035,8 +5030,8 @@ main .marquee {
     right: 29.5%;
   }
   .bago_nanaman .container{
-    width: 1261px;
-    padding-right: 92px;
+      width: 1295px;
+      padding-right: 0;
   }
   .bago-afterlogin .container{
     width: 1360px;
