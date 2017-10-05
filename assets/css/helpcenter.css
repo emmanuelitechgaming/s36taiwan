@@ -21,7 +21,6 @@
 }
 .nested-accordion .comment {
   line-height: 1.5;
-  padding-left: 1.5em;
   padding-right: 0;
 }
 .nested-accordion h3 {
@@ -38,9 +37,6 @@
 .comment .nested-accordion h3:first-child{
 
   border-top: 1px solid #c4c4c4;
-}
-.comment .nested-accordion .comment{
-  padding:  0 3.10em;
 }
 .nested-accordion h3:before {
   content: "+";

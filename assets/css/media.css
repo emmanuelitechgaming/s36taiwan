@@ -1393,6 +1393,15 @@
     .sp-dl.fffssa{
       padding: 5px;
     }
+    .comment .nested-accordion .comment{
+      padding:  0 2em;
+    }
+    .title-inside{
+      padding: 0 1.6em
+    }
+    .comment-inside{
+      padding: 0 2em
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4662,6 +4671,18 @@ margin-top: -18px;
   }
   .sp-dl.fffssa{
     padding: 30px;
+  }
+  .comment .nested-accordion .comment{
+    padding:  0 3.10em;
+  }
+  .nested-accordion .comment {
+    padding-left: 1.5em;
+  }
+  .title-inside{
+    margin-left: 20px;
+  }
+  .comment-inside{
+    padding: 0 40px
   }
 }
 
