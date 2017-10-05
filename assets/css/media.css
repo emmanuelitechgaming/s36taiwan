@@ -1410,6 +1410,12 @@
               transform: scale(0.53) !important;
       margin-left: 15px;
     }
+    .btn-warning2{
+      width: 135px;
+    }
+    .sweet-arrow::before {
+      right: 40px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1650,7 +1656,7 @@
       min-width: 222px;
     }
     #m-selectpicker2-collapse a{
-      font-size: 13px;
+      font-size: 11px;
     }
     .live-game .title{
       bottom: 45%;
@@ -4712,6 +4718,12 @@ margin-top: -18px;
     -webkit-transform: scale(1) !important;
             transform: scale(1) !important;
     margin-left: 10px;
+  }
+  .btn-warning2{
+    width: auto;
+  }
+  .sweet-arrow::before {
+    right: 15px;
   }
 }
 
