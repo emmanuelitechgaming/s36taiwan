@@ -26,6 +26,7 @@
 }
 .nested-accordion h3 {
   color: #2f353d;
+  font-size: 16px;
 }
 .comment .nested-accordion h3:before{
   display: none;
