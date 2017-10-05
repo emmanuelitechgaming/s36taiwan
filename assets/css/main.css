@@ -6,6 +6,9 @@
     font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei",'Simsun', "微软雅黑", STXihei, "华文细黑", sans-serif;
     outline: 0;
 }
+*:focus, *:active, *:visited, *:hover{
+  outline: 0 !important;
+}
 body {
     background: #2a2a2a;
     color: #ffffff;
