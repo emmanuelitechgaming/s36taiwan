@@ -1402,6 +1402,20 @@
     .comment-inside{
       padding: 0 2em
     }
+    .comment .flag-icon{
+      margin-right: 10px;
+    }
+    .comment .g-recaptcha{
+      -webkit-transform: scale(0.53) !important;
+              transform: scale(0.53) !important;
+      margin-left: 15px;
+    }
+    .btn-warning2{
+      width: 135px;
+    }
+    .sweet-arrow::before {
+      right: 40px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1642,7 +1656,7 @@
       min-width: 222px;
     }
     #m-selectpicker2-collapse a{
-      font-size: 13px;
+      font-size: 11px;
     }
     .live-game .title{
       bottom: 45%;
@@ -1672,6 +1686,10 @@
     }
     .mnav-top ul li{
       margin-right: 72px;
+    }
+    .comment .g-recaptcha{
+      -webkit-transform: scale(0.65) !important;
+              transform: scale(0.65) !important;
     }
 }
 
@@ -2004,6 +2022,9 @@
     .mnav-top ul li {
       margin-right: 77px;
     }
+    .comment .g-recaptcha{
+      margin-left: 0
+    }
 }
 
 @media only screen and (min-width: 412px) {
@@ -2294,6 +2315,11 @@
     }
     .mnav-top ul li {
       margin-right: 90px;
+    }
+    .comment .g-recaptcha{
+      -webkit-transform: scale(0.8) !important;
+              transform: scale(0.8) !important;
+              margin-left: 5px;
     }
 }
 
@@ -4684,6 +4710,20 @@ margin-top: -18px;
   }
   .comment-inside{
     padding: 0 40px
+  }
+  .comment .flag-icon{
+    margin-right: 5px;
+  }
+  .comment .g-recaptcha{
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
+    margin-left: 10px;
+  }
+  .btn-warning2{
+    width: auto;
+  }
+  .sweet-arrow::before {
+    right: 15px;
   }
 }
 

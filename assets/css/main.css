@@ -5,9 +5,7 @@
 * {
     font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei",'Simsun', "微软雅黑", STXihei, "华文细黑", sans-serif;
     outline: 0;
-
 }
-
 body {
     background: #2a2a2a;
     color: #ffffff;
@@ -6603,9 +6601,8 @@ main .win-lot-top-games {
 }
 
 #myModal .pull-right .modal-bottom .btn-warning {
-    color: #000;
-    padding-left: 20px;
-    padding-right: 20px;
+  color: #000;
+  width: 135px;
 }
 
 #myModal .pull-right .modal-bottom .btn-warning::after{
@@ -7475,7 +7472,6 @@ button .flag-icon-kr::before {
   background: url(../img/arrow-right.png) no-repeat;
   background-size: cover;
   position: absolute;
-  right: 15px;
   top: 7px;
 }
 
@@ -10141,4 +10137,7 @@ height: 30px!important;
 }
 .is-active .hamburger-inner {
   margin-top: -2px !important;
+}
+.comment-close{
+  margin: 10px 0
 }
