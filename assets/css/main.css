@@ -10041,10 +10041,19 @@ height: 30px!important;
   display: none;
 }
 #navbar-collapse-1 .logout{
-  position: absolute;
   background: transparent;
-  left: 0;
-  top: 6px
+  max-width: 180px;
+  margin: 0px auto;
+  height: auto;
+  padding: 6px 0 !important;
+  padding-left: 20px !important;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background: #333 url('../img/afterlogin/4-hover2.png') no-repeat;
+  background-size: 32px 32px;
+  line-height: 20px;
+  margin-top: 15px;
 }
 #navbar-collapse-1 .logout img{
   width: 30px;
@@ -10071,13 +10080,14 @@ height: 30px!important;
 .comment h4{
   color: #fba601;
   font-weight: 700;
+  font-size: 16px;
 }
 .title-inside{
   margin-left: 20px;
-  padding-top: 10px;
 }
 .title-inside.with-accordion{
-  border-top: solid 1px #c4c4c4
+  border-top: solid 1px #c4c4c4;
+  padding-top: 10px;
 }
 @media (min-width: 992px){
 .col-md-offset-1 {
@@ -10129,4 +10139,12 @@ height: 30px!important;
 }
 .qr-dl-ins img{
     margin: 19px auto;
+}
+.hamburger-inner {
+  top: 12% !important;
+  display: block;
+  margin-top: -3px !important;
+}
+.is-active .hamburger-inner {
+  margin-top: -2px !important;
 }
