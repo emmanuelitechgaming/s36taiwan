@@ -143,11 +143,6 @@ header .btn-default:active {
     box-shadow: none!important;
     background-color: transparent;
 }
-
-header .navbar-cta-btn {
-    margin: 16px -5px;
-}
-
 header .navbar-cta-btn a {
     display: inline-block;
     margin: 0px 13px;
@@ -7504,11 +7499,9 @@ button .flag-icon-kr::before {
     left: auto;
 }
 .navbar-top-right li a {
-    font-size: 20px;
     color: #fff;
     margin-left: 17.8px
 }
-
 .navbar-top-right li a:hover,
 .navbar-top-right li a:active,
 .navbar-top-right li a:focus {
@@ -8834,11 +8827,8 @@ span.add-ico{
   display: inline-block;
   vertical-align: top;
   color: #ffffff;
-  margin-left: 50px;
   letter-spacing: 1px;
   position: relative;
-  top: -16px;
-  width: 379px;
 }
 .dl-area ul li{
   padding: 4.5px 5px;
@@ -9251,10 +9241,6 @@ span.add-ico{
 }
 .selectpicker2:hover{
   color: #fba601
-}
-.top-header ul{
-  margin-right: -1px;
-
 }
 .bago_nanaman .boxer .bx1){
   text-align: left!important;
