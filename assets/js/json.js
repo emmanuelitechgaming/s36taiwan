@@ -9,7 +9,6 @@ $(document).ready(function(){
 			'link': [
 				'../'
 			],
-			'link2': '/',
 			'icon': 'cn',
 		},
 		{
@@ -21,7 +20,6 @@ $(document).ready(function(){
 			'link': [
 				'#'
 			],
-			'link2': '#',
 			'icon': 'tw'
 		},
 		{
@@ -33,7 +31,6 @@ $(document).ready(function(){
 			'link': [
 				'../jp/'
 			],
-			'link2': '/jp/',
 			'icon': 'jp'
 		},
 		{
@@ -45,7 +42,6 @@ $(document).ready(function(){
 			'link': [
 				'../en/'
 			],
-			'link2': '/en/',
 			'icon': 'um'
 		},
 		{
@@ -57,7 +53,6 @@ $(document).ready(function(){
 			'link': [
 				'#'
 			],
-			'link2': '#',
 			'icon': 'vn'
 		},
 		{
@@ -69,7 +64,6 @@ $(document).ready(function(){
 			'link': [
 				'../id/'
 			],
-			'link2': '/id/',
 			'icon': 'id'
 		},
 		{
@@ -82,10 +76,7 @@ $(document).ready(function(){
 			'flag': 'flag-icon-my',
 			'link': [
 				'../my-bm/',
-				'../my-en/',
-				'#'
 			],
-			'link2': '/my-bm/',
 			'icon': 'my'
 		},
 		{
@@ -97,7 +88,6 @@ $(document).ready(function(){
 			'link': [
 				'../th/'
 			],
-			'link2': '/th/',
 			'icon': 'th'
 		},
 		{
@@ -109,14 +99,13 @@ $(document).ready(function(){
 			'link': [
 				'../in/'
 			],
-			'link2': '/in/',
 			'icon': 'in'
 		}
 	];
 
 	$(obj).each(function(k,v){
 		$('#drop')
-			.append('<div class="language-picker" data-link2="'+v.link2+'"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span><span class="cntry" data-value="'+v.country_name+'" data-icon="'+v.icon+'">'+ v.country_name + '</span></div></div>');
+			.append('<div class="language-picker" data-link2="'+v.link2+'"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span><a class="cntry" href="'+v.link+'" data-icon="'+v.icon+'">'+ v.country_name + '</a></div></div>');
 
 		$('#drop2ul')
 			.append('<li><a href="javascript:void(0)" id="country2'+ k +'" data-value="'+ k +'"><span class="flag-icon '+v.flag+'"> </span> '+ v.country_name +'<span class="languages"></span></a></li>');
@@ -137,7 +126,7 @@ $(document).ready(function(){
 	});
 
 	$.each(obj, function(index, value) {
-		$('#m-selectpicker2-collapse ul').append('<li><a href="'+value.link2+'"><span class="flag-icon flag-icon-'+value.icon+'"></span>'+value.country_name+'</a></li>');
+		$('#m-selectpicker2-collapse ul').append('<li><a href="'+value.link+'"><span class="flag-icon flag-icon-'+value.icon+'"></span>'+value.country_name+'</a></li>');
 	});
 
 	$.each($('.selectpicker2-menu ul li'), function(index, value) {

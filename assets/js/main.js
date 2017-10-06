@@ -773,55 +773,65 @@ $(document).ready(function () {
      });
      var fd2 = [
        {
-         'country_name': '简体中文 (中国)'
+         'country_name': '简体中文 (中国)',
+         'status': 'check',
+         'link': '#',
        },
        {
-         'country_name': '繁體中文 (台灣)'
+         'country_name': '繁體中文 (台灣)',
+         'status': 'uncheck',
+         'link': 'tw/',
        },
        {
-         'country_name': 'English (United Kingdom)'
+         'country_name': 'English (United Kingdom)',
+         'status': 'uncheck',
+         'link': 'en/',
        },
        {
-         'country_name': 'Bahasa (Indonesia)'
+         'country_name': 'Bahasa (Indonesia)',
+         'status': 'uncheck',
+         'link': 'id/',
        },
        {
-         'country_name': 'Tiếng Việt (Viét Nam)'
+         'country_name': 'Tiếng Việt (Viét Nam)',
+         'status': 'uncheck',
+         'link': '#',
        },
        {
-         'country_name': '日本語 (日本国)'
+         'country_name': '日本語 (日本国)',
+         'status': 'uncheck',
+         'link': 'jp/',
        },
        {
-         'country_name': 'ภาษาไทย (ประเทศไทย)'
+         'country_name': 'ภาษาไทย (ประเทศไทย)',
+         'status': 'uncheck',
+         'link': 'th/',
        },
        {
-         'country_name': 'हिन्द (भारत)'
+         'country_name': 'हिन्द (भारत)',
+         'status': 'uncheck',
+         'link': 'in/',
        },
        {
-         'country_name': 'Melayu (Malaysia)'
+         'country_name': 'Melayu (Malaysia)',
+         'status': 'uncheck',
+         'link': 'my-bm',
        },
        {
-         'country_name': 'English (Malaysia)'
+         'country_name': 'English (Malaysia)',
+         'status': 'uncheck',
+         'link': 'my-en',
        },
        {
-         'country_name': '中文 (马来西亚)'
+         'country_name': '中文 (马来西亚)',
+         'status': 'uncheck',
+         'link': '',
        }
      ];
 
      $.each(fd2, function(k, v) {
-       $('.footer-dropdown2 ul').append('<li><a href="javascript:void(0)" data-value="'+v.country_name+'"><i class="fa fa-check"> </i> '+v.country_name+'</a></li>')
-       $('.m-footer-dropdown ul').append('<li><a href="javascript:void(0)"><i class="fa fa-check"> </i> '+v.country_name+'</a></li>')
-     })
-
-     $('.footer-dropdown2 ul li a').click(function(e) {
-       e.stopPropagation();
-       $('.footer-dropdown2 ul li').removeClass('check');
-       $(this).parent('li').addClass('check')
-     })
-
-     $('.m-footer-dropdown ul li a').click(function(e) {
-       e.stopPropagation();
-       $('.m-footer-dropdown ul li').removeClass('check');
-       $(this).parent('li').addClass('check')
+       $('.footer-dropdown2 ul').append('<li class="'+v.status+'"><a href="'+v.link+'" data-value="'+v.country_name+'"><i class="fa fa-check"> </i> '+v.country_name+'</a></li>')
+       $('.m-footer-dropdown ul').append('<li class="'+v.status+'"><a href="'+v.link+'"><i class="fa fa-check"> </i> '+v.country_name+'</a></li>')
      })
 
      $('.footer-dropdown2 ul, .m-footer-dropdown ul').append('<li class="last"><a href="javascript:void(0)">取消 </a></li>')
