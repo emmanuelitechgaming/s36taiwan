@@ -6345,9 +6345,12 @@ main .win-lot-top-games {
   top: -2px;
 }
 .navbar-afterlogin ul li:nth-child(1) a img, .navbar-afterlogin ul li:nth-child(3) a img{
-  height: 28px;
+  height: 24px;
   top: -1px;
-  width: 27px;
+  width: 25px;
+}
+.navbar-afterlogin ul li:nth-child(1) a img{
+  top: 0px
 }
 .navbar-afterlogin .notif {
   position: absolute;
@@ -8853,7 +8856,6 @@ span.add-ico{
   display: inline-block;
   vertical-align: top;
   color: #ffffff;
-  margin-left: 50px;
   letter-spacing: 1px;
   position: relative;
   top: -16px;
