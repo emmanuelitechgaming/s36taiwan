@@ -6345,9 +6345,9 @@ main .win-lot-top-games {
   top: -2px;
 }
 .navbar-afterlogin ul li:nth-child(1) a img, .navbar-afterlogin ul li:nth-child(3) a img{
-  height: 24px;
+  height: 28px;
   top: -1px;
-  width: 25px;
+  width: 27px;
 }
 .navbar-afterlogin ul li:nth-child(1) a img{
   top: 0px
@@ -7551,6 +7551,8 @@ button .flag-icon-kr::before {
 }
 .navbar-top-right li:nth-child(1) a img{
   top: 0px;
+  width: 27px;
+  height: 28px;
 }
 
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li a img {
