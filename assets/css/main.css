@@ -3653,8 +3653,16 @@ footer .browsers li:first-child {
 
 .cntry {
     display: inline-block;
-    min-width: 53px;
+    min-width: 75px;
     text-align: center;
+    font-size: 12px;
+    color: #fff;
+    padding: 6px 9px
+}
+.cntry:hover{
+  color: #fba601;
+  -webkit-transition: color 0.2;
+  transition: color 0.2
 }
 .language-picker span{
   -webkit-transition: color 0.2s ease-out;
@@ -6337,9 +6345,12 @@ main .win-lot-top-games {
   top: -2px;
 }
 .navbar-afterlogin ul li:nth-child(1) a img, .navbar-afterlogin ul li:nth-child(3) a img{
-  height: 28px;
+  height: 24px;
   top: -1px;
-  width: 27px;
+  width: 25px;
+}
+.navbar-afterlogin ul li:nth-child(1) a img{
+  top: 0px
 }
 .navbar-afterlogin .notif {
   position: absolute;
@@ -8845,7 +8856,6 @@ span.add-ico{
   display: inline-block;
   vertical-align: top;
   color: #ffffff;
-  margin-left: 50px;
   letter-spacing: 1px;
   position: relative;
   top: -16px;
