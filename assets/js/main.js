@@ -774,23 +774,23 @@ $(document).ready(function () {
      var fd2 = [
        {
          'country_name': '简体中文 (中国)',
+         'status': 'uncheck',
+         'link': '../',
+       },
+       {
+         'country_name': '繁體中文 (台灣)',
          'status': 'check',
          'link': '#',
        },
        {
-         'country_name': '繁體中文 (台灣)',
-         'status': 'uncheck',
-         'link': 'tw/',
-       },
-       {
          'country_name': 'English (United Kingdom)',
          'status': 'uncheck',
-         'link': 'en/',
+         'link': '../en/',
        },
        {
          'country_name': 'Bahasa (Indonesia)',
          'status': 'uncheck',
-         'link': 'id/',
+         'link': '../id/',
        },
        {
          'country_name': 'Tiếng Việt (Viét Nam)',
@@ -800,32 +800,32 @@ $(document).ready(function () {
        {
          'country_name': '日本語 (日本国)',
          'status': 'uncheck',
-         'link': 'jp/',
+         'link': '../jp/',
        },
        {
          'country_name': 'ภาษาไทย (ประเทศไทย)',
          'status': 'uncheck',
-         'link': 'th/',
+         'link': '../th/',
        },
        {
          'country_name': 'हिन्द (भारत)',
          'status': 'uncheck',
-         'link': 'in/',
+         'link': '../in/',
        },
        {
          'country_name': 'Melayu (Malaysia)',
          'status': 'uncheck',
-         'link': 'my-bm',
+         'link': '../my-bm/',
        },
        {
          'country_name': 'English (Malaysia)',
          'status': 'uncheck',
-         'link': 'my-en',
+         'link': '../my-en/',
        },
        {
          'country_name': '中文 (马来西亚)',
          'status': 'uncheck',
-         'link': '',
+         'link': '../my-cn/',
        }
      ];
 
