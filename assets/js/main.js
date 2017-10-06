@@ -981,23 +981,16 @@ $(document).ready(function () {
         slideshowSpeed: '4000',
         controlNav: false,
         reverse:true,
-        directionNav: false,
-        after: function(){ // After Call back
-             $('.tab2 .flex-next ').trigger('click');
-           }
+        directionNav: false
+
       });
       $('.tab2 .flexslider').flexslider({
         animation: 'slide ',
         direction: 'vertical',
-        slideshow: false,
+        slideshowSpeed: '4000',
         controlNav: false,
         reverse:true,
-        directionNav: true,
-        after: function(){ // After Call back
-             $('.tab3 .flex-next ').trigger('click');
-              }
-
-
+        directionNav: false
       });
       $('.tab3 .flexslider').flexslider({
         animation: 'slide ',
