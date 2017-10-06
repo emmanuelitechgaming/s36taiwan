@@ -6342,12 +6342,17 @@ main .win-lot-top-games {
 }
 .navbar-afterlogin ul li:nth-child(2) a img{
   height: 24px;
-  top: -2px;
+  top: -1px;
 }
-.navbar-afterlogin ul li:nth-child(1) a img, .navbar-afterlogin ul li:nth-child(3) a img{
+.navbar-afterlogin ul li:nth-child(1) a img{
   height: 28px;
   top: -1px;
   width: 27px;
+}
+.navbar-afterlogin ul li:nth-child(3) a img{
+  width: 25px;
+  height: 25px;
+  top: 0px
 }
 .navbar-afterlogin ul li:nth-child(1) a img{
   top: 0px
