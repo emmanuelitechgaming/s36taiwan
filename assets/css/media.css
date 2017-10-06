@@ -1357,7 +1357,7 @@
       background-size: 100% 100%
     }
     .mnav-afterlogin ul, .mnav-top ul{
-      margin-left: 10px
+      padding-left: 10px
     }
     .mnav-afterlogin ul li{
       margin-right: 59px;
@@ -1415,6 +1415,13 @@
     }
     .sweet-arrow::before {
       right: 40px;
+    }
+    .live-game ul li{
+      font-size: 17px;
+    }
+    .mnav-top ul {
+        display: block;
+        width: 100%;
     }
 }
 
@@ -2528,10 +2535,10 @@
         transition: right 1s;
     }
     .mnav-top ul li {
-        width: 25%;
+        width: auto;
     }
     .mnav-top ul li:nth-child(1), .mnav-top ul li:nth-child(4){
-      width: 25%;
+      width: auto;
     }
     .mnav-top ul li:nth-child(2) img{
       margin-left: auto;
@@ -2540,10 +2547,10 @@
       margin-right: auto;
     }
     .mnav-afterlogin ul li{
-      width: 20%;
+      width: auto;
     }
     .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(4){
-      width: 20%;
+      width: auto;
     }
     .mnav-afterlogin ul li:nth-child(2) img{
       margin-left: auto;
@@ -2552,7 +2559,7 @@
       margin-right: auto;
     }
     .mnav-afterlogin ul li:nth-child(1), .mnav-afterlogin ul li:nth-child(5){
-      width: 20%
+      width: auto;
     }
 }
 
@@ -2701,7 +2708,7 @@
         right: 280 px;
     }
     .header-cs {
-        right: 14%
+        right: 1%
     }
     .mnav-main .swiper-slide a {
         padding: 5px 48px;
@@ -2883,6 +2890,9 @@
       width: 18px;
       height: 20px;
     }
+    .mnav-top ul li {
+      margin-right: 141px;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -2910,9 +2920,6 @@
     }
     .promotion-form-btn-wrapper::before {
         right: 350px;
-    }
-    .header-cs {
-        right: 12.5%;
     }
     .mnav-main .swiper-slide a {
         padding: 5px 57px;
@@ -2984,6 +2991,9 @@
       width: 18px;
       height: 18px;
       top: 3px;
+    }
+    .mnav-top ul li {
+      margin-right: 164px;
     }
 }
 
@@ -3064,9 +3074,6 @@
     .mnav-main .swiper-slide a {
         padding: 5px 60px;
     }
-    .header-cs {
-        right: 12%;
-    }
     .marquee-mobile2 img {
         margin: 0px auto
     }
@@ -3106,6 +3113,9 @@
     .m-fsalon ul li, .m-fsalon ul li:nth-child(4){
       margin: 0 5px
     }
+    .mnav-top ul li {
+      margin-right: 173px;
+    }
 }
 
 @media only screen and (min-width: 732px) {
@@ -3114,9 +3124,6 @@
     }
     .mnav-main .swiper-slide a {
         padding: 5px 68px;
-    }
-    .header-cs {
-        right: 11%;
     }
     main .marquee-mobile {
         left: 155px;
@@ -3151,6 +3158,9 @@
     }
     .m-fsalon ul li, .m-fsalon ul li:nth-child(4){
       margin: 0 10px
+    }
+    .mnav-top ul li {
+      margin-right: 195px;
     }
 }
 
@@ -3265,9 +3275,6 @@
     .modal-panel-dialog {
         width: 400px!important;
     }
-    /*.container {
-        width: 768px;
-    }*/
     .panel-heading select {
         background-size: 3% 30%
     }
@@ -3289,7 +3296,7 @@
     }
     .lg-playnow {
         font-size: 12px;
-        bottom: 5%;
+        bottom: 6.8%;
         padding-left: 25%;
     }
     .btn-hidden::after{
@@ -3315,14 +3322,15 @@
     .footer-shareit ul li {
         width: 20%;
     }
-    .rss-field .form-group:nth-child(1) {
-        margin-bottom: 5px
-    }
     .rss-field .form-group:nth-child(2) input {
     width: 90px;
     }
     .rss-field .form-group:nth-child(2) {
-        width: 80.6%
+        width: auto
+    }
+    .rss-field .form-group:nth-child(1){
+      display: inline-block;
+      width: 65.7%;
     }
     .contactus ul li {
       padding: 7.8px 0;
@@ -3365,6 +3373,49 @@
     width: 20px;
     height: 20px;
     top: 3px;
+  }
+  .header-cs{
+    right: 4%;
+  }
+  .gp-g.row .live-games {
+    width: auto;
+  }
+  .live-game ul li span {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .live-game ul li{
+    font-size: 11px;
+  }
+  .live-game ul {
+    bottom: 20%;
+  }
+  .mnav-top ul {
+    display: inline-block;
+  }
+  .mnav-afterlogin ul, .mnav-top ul{
+    padding-left: 38px;
+  }
+  .mnav-top ul li {
+    margin-right: 190px;
+  }
+  .live-game-txtc {
+    bottom: 7px;
+  }
+  .i-roulette .live-game-txtc, .i-fantan .live-game-txtc, .i-sicbo .live-game-txtc{
+    bottom: 1px;
+  }
+  .live-games-blackjack img, .i-roulette img, .i-sicbo img{
+    margin-right: 80px;
+  }
+  .live-game-txtcb{
+    left: -46px
+  }
+  .live-game-txtcd{
+    left: -46px;
+  }
+  .i-sicbo .live-game-txtc{
+    left: -46px;
   }
 }
 
@@ -4730,6 +4781,18 @@ margin-top: -18px;
   }
   .top-header ul{
     margin-right: -15px;
+  }
+  .live-game ul li{
+    font-size: 17px;
+  }
+  .live-game-txtcb{
+    left: 0
+  }
+  .live-game-txtcd{
+    left: 0;
+  }
+  .i-sicbo .live-game-txtc{
+    left: 0;
   }
 }
 
