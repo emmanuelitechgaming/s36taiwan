@@ -4843,13 +4843,31 @@ div#tab2.tab-pane.active p a:first-child{
     <script>
     $(document).ready(function() {
       $('.nested-accordion').find('.comment').slideUp();
-      $('.nested-accordion').find('h3, h4').click(function(){
-        $(this).next('.comment').toggle();
-        $(this).toggleClass('selected');
+      $('.nested-accordion').find('h3').click(function(){
+        if($(this).attr('class') == "selected"){
+          $(this).next('.comment').toggle();
+          $(this).toggleClass('selected');
+        }else{
+          $(this).next('.comment').toggle();
+          $('.nested-accordion').find('h3.selected').toggleClass('selected').next('.comment').toggle();
+          $(this).toggleClass('selected');
+        }
+      });
+
+      $('.nested-accordion').find('h4').click(function(){
+        if($(this).attr('class') == "selected"){
+          $(this).next('.comment').toggle();
+          $(this).toggleClass('selected');
+        }else{
+          $(this).next('.comment').toggle();
+          $('.nested-accordion').find('h4.selected').toggleClass('selected').next('.comment').toggle();
+          $(this).toggleClass('selected');
+        }
       });
 
       $('.comment-close a').click(function() {
         $(this).closest('.comment').toggle();
+        $(this).closest('.nested-accordion').find('h3').removeClass('selected')
       })
 
       var mySwiper = new Swiper ('.swiper-container', {
