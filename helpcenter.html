@@ -4844,15 +4844,25 @@ div#tab2.tab-pane.active p a:first-child{
     $(document).ready(function() {
       $('.nested-accordion').find('.comment').slideUp();
       $('.nested-accordion').find('h3').click(function(){
-        $(this).next('.comment').toggle();
-        $('.nested-accordion').find('h3.selected').toggleClass('selected').next('.comment').toggle();
-        $(this).toggleClass('selected');
+        if($(this).attr('class') == "selected"){
+          $(this).next('.comment').toggle();
+          $(this).toggleClass('selected');
+        }else{
+          $(this).next('.comment').toggle();
+          $('.nested-accordion').find('h3.selected').toggleClass('selected').next('.comment').toggle();
+          $(this).toggleClass('selected');
+        }
       });
 
       $('.nested-accordion').find('h4').click(function(){
-        $(this).next('.comment').toggle();
-        $('.nested-accordion').find('h4.selected').toggleClass('selected').next('.comment').toggle();
-        $(this).toggleClass('selected');
+        if($(this).attr('class') == "selected"){
+          $(this).next('.comment').toggle();
+          $(this).toggleClass('selected');
+        }else{
+          $(this).next('.comment').toggle();
+          $('.nested-accordion').find('h4.selected').toggleClass('selected').next('.comment').toggle();
+          $(this).toggleClass('selected');
+        }
       });
 
       $('.comment-close a').click(function() {
