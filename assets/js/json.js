@@ -105,7 +105,7 @@ $(document).ready(function(){
 
 	$(obj).each(function(k,v){
 		$('#drop')
-			.append('<div class="language-picker" data-link2="'+v.link2+'"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span><a class="cntry" href="javascript:void(0)" data-icon="'+v.icon+'">'+ v.country_name + '</a></div></div>');
+			.append('<div class="language-picker" data-link2="'+v.link2+'"><div class="grey" id="country'+k+'" data-value="'+k+'"><span class="flag-icon '+v.flag+'"></span><a class="cntry" href="'+v.link+'" data-icon="'+v.icon+'">'+ v.country_name + '</a></div></div>');
 
 		$('#drop2ul')
 			.append('<li><a href="javascript:void(0)" id="country2'+ k +'" data-value="'+ k +'"><span class="flag-icon '+v.flag+'"> </span> '+ v.country_name +'<span class="languages"></span></a></li>');
