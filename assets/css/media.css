@@ -1422,6 +1422,15 @@
     .live-games .i-sicbo {
         top: 6px;
     }
+    .gp .live-game{
+      margin: 10px 0
+    }
+    .live-game-txt{
+      bottom: 0;
+    }
+    .live-game-txt a{
+      font-size: 12px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1699,6 +1708,9 @@
     }
     .live-game.lg-angel-demon img{
       bottom: 10px
+    }
+    .live-game-txt{
+      bottom: 1.5%;
     }
 }
 
@@ -2330,6 +2342,12 @@
               transform: scale(0.8) !important;
               margin-left: 5px;
     }
+    .live-game-txt{
+      bottom: 2.3%;
+    }
+    .live-game-txt a{
+      font-size: 14px;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -2897,6 +2915,12 @@
     }
     .mnav-top ul li {
       margin-right: 141px;
+    }
+    .live-game-txt{
+      bottom: 4%;
+    }
+    .live-game-txt a{
+      font-size: 18px;
     }
 }
 
@@ -4807,6 +4831,12 @@ margin-top: -18px;
   .live-games.i-fantan,
   .live-games .i-sicbo {
       top: 34px;
+  }
+  .live-game-txt{
+    bottom: 2.5%;
+  }
+  .live-game-txt a{
+    font-size: 15px;
   }
 }
 
