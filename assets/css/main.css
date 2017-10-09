@@ -1983,7 +1983,16 @@ input[type=radio] {
     background-size: 15% 100%;
     border-radius: 3px!important;
 }
-
+.breadcrumb-inner .select-bg{
+  background: url('../img/select-bg.png') no-repeat;
+  background-position: right;
+}
+.form-control:focus {
+  border-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 .breadcrumb-inner select {
     appearance: none;
     -moz-appearance: none;
@@ -6571,8 +6580,8 @@ main .win-lot-top-games {
 
 #csCallselectflag button {
     height: 38px;
-    background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
-    background-size: 35px 40px;
+    background: #333 url('../img/select-bg.png') no-repeat;
+    background-size: auto 34px;
     padding-left: 4px
 }
 
@@ -7610,9 +7619,8 @@ button .flag-icon-kr::before {
 
 .cs-modal .chatserver-form button.select-country-code {
     height: 38px;
-    background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
-    background-size: 35px 40px;
-    background-position: 163px 0px;
+    background: url('../img/select-bg.png') no-repeat;
+    background-size: auto 38px;
     color: #fff;
     font-weight: normal;
     letter-spacing: auto;
@@ -8500,22 +8508,23 @@ border-bottom: 1px solid #333333;
   margin-bottom: 0;
   margin-top: 0;
   background: none;
-  background-color: #acacb4;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
-          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
-  color: #111;
+  background: -webkit-gradient(linear, left top, left bottom, from(#474747), to(#3f3f3f));
+  background: linear-gradient(#474747, #3f3f3f);
+  color: #fafafc;
   text-shadow: none;
   font-weight: 700;
+  border: solid 1px #000;
+  -webkit-box-shadow: none;
+          box-shadow: none
 }
 .btn-promotion{
   padding: 7px 25px;
   border-radius: 20px;
 }
 .casino-desc-bot .sp-btn-hidden:hover, .btn-promotion:hover{
-  background-color: #c5c7d3;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
-          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
-  color: #111;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3f3f3f), to(#474747));
+  background: linear-gradient(#3f3f3f, #474747);
+  color: #fafafc;
   text-decoration: none;
 }
 .btn-tp a:hover, .rss-submit-verification:hover, .btn-hidden:hover, .sp-btn-hidden:hover, .cs-content .cta-cs a:hover, .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover, .cs-modal .chatserver-form button:hover, #cscall:hover, .tdw-button button:hover{
@@ -9284,8 +9293,8 @@ span.add-ico{
   display: block;
   width: 100%;
   text-align: left;
-  background: #333 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAABGCAQAAADBG8qBAAAAkUlEQVR4Ae3O0QmEQBAE0Q3B0AzBYCcAM1qPzmCo4RCsLujvt7L960UTJUrUN1GiRIkSJUqUKFGiRIkSJaru2q2uWp1ybdQRFicxFGCFxFGMBUgA1WCFxFGMBUgA1WCFxFGMBUgA1WCFNI8irJDmUYQV0jyKsEKaRxHWCSgA9beJEiVKlChRokSJEiVKlChRoh4GlelzLr6YJwAAAABJRU5ErkJggg==) no-repeat;
-  background-size: 35px 40px;
+  background: url('../img/select-bg.png') no-repeat;
+  background-size: auto 37px;
   background-position: right;
   border: none;
   border-radius: 3px;
@@ -10086,6 +10095,10 @@ height: 30px!important;
   background-repeat: no-repeat;
   background-position: 100% 10%;
   background-size: 15% 100%;
+}
+.wallet-disabled.select-bg{
+  background: url('../img/select-bg.png') no-repeat;
+  background-position: right;
 }
 .comment h4{
   color: #fba601;

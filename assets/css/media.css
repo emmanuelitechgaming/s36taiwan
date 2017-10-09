@@ -3503,17 +3503,6 @@
       bottom: 10px;
 width: 360px;
     }
-    .nathan-logo a {
-        background-size: 100% 95% !important
-    }
-    header .logo a {
-      width: 253px;
-height: 70px;
-margin-top: -18px;
-    }
-    .header-mobile-logo {
-        margin-left: 0px
-    }
     .nav.navbar-nav {
         margin-left: auto;
         margin-right: auto
@@ -3875,10 +3864,6 @@ margin-top: -18px;
     #myModal .modal-foot ul li:nth-child(1) a {
         top: -17px;
     }
-    .nav-bg {
-        background: url('../img/bg-nav.png');
-        background-repeat: repeat-x;
-    }
     .casino-media {
         position: relative;
         top: -50px;
@@ -4175,10 +4160,10 @@ margin-top: -18px;
         margin-top: -10px;
     }
     #csCallselectflag button {
-        background-position: 163px -4px;
+        background-position: right;
     }
     .cs-modal .chatserver-form button.select-country-code {
-        background-position: 163px 0px;
+        background-position: right;
     }
     #csCallselectflag .dropdown-menu {
         min-width: 165px
@@ -4496,9 +4481,6 @@ margin-top: -18px;
   }
   footer .footer-icon .footer-img-d img{
     margin: 0 0 0 0;
-  }
-  header .logo a {
-      background: url(../img/logo.png) no-repeat 0 0;
   }
   .bago_nanaman .boxer {
     margin-bottom: 0;
@@ -4837,6 +4819,15 @@ margin-top: -18px;
   }
   .live-game-txt a{
     font-size: 15px;
+  }
+  .not-ipad-landscape{
+    display: none;
+  }
+  .ipad-landscape{
+    display: block !important
+  }
+  .mnav-afterlogin ul, .mnav-top ul{
+    padding-left: 49px;
   }
 }
 
@@ -5228,5 +5219,32 @@ main .marquee {
   }
   .top-header ul{
     margin-right: -1px;
+  }
+  .not-ipad-landscape{
+    display: block;
+  }
+  .ipad-landscape{
+    display: none !important
+  }
+  .not-ipad-landscape-inline{
+    display: inline-block !important;
+  }
+  header .logo a {
+      background: url(../img/logo.png) no-repeat 0 0;
+  }
+  header .logo a {
+    width: 253px;
+    height: 70px;
+    margin-top: -18px;
+  }
+  .nathan-logo a {
+      background-size: 100% 95% !important
+  }
+  .header-mobile-logo {
+      margin-left: 0px
+  }
+  .nav-bg {
+      background: url('../img/bg-nav.png');
+      background-repeat: repeat-x;
   }
 }
