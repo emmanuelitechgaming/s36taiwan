@@ -42,10 +42,7 @@
         top: 10px;
         right: -11px;
     }
-    .gp.container .col-md-6.col-xs-6 {
-        padding-left: 0;
-        padding-right: 0;
-    }
+
     header .logo a {
       display: inline-block;
       width: 120px;
@@ -3474,6 +3471,9 @@
     }
     .gp .live-game img {
         margin-top: 6px;
+        max-width: 210px;
+        width: 168px;
+
     }
     main .marquee {
       bottom: 10px;
@@ -3927,10 +3927,7 @@ margin-top: -18px;
         min-height: 303px;
         max-height: 303px
     }
-    .gp.container .col-md-6.col-xs-6 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+
     .sitemap-body2d ul {
         -webkit-column-count: 5;
         column-count: 5;
