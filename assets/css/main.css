@@ -507,8 +507,6 @@ main .c-text span {
 
 main .live-game img {
     margin: 0 auto;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
 }
 
 main .ctmail {
@@ -1629,7 +1627,7 @@ p {
     border-radius: 4px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 20px
+    border-radius: 5px++
 }
 
 .sp-btn-hidden{
@@ -2565,13 +2563,25 @@ select + i.fa {
 
 .live-game {
     position: relative;
+max-width: 386px;
+margin: 0 auto;
 }
 
 .live-game-txt {
     position: absolute;
-    bottom: 27%;
+    bottom: 2%;
     right: 0;
     left: 0;
+    text-align: center;
+}
+.live-game-txt a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+.live-game-txt a:hover{
+  text-decoration: none;
+  color: #fba601;
 }
 
 .live-game-txt span {
@@ -3130,6 +3140,7 @@ span.round-tab i {
     text-shadow: none;
     border-radius: 5px;
     color: #000;
+    font-weight: 700
 }
 
 .cs-modal .chatserver-form button::after, #cscall::after{
@@ -3873,33 +3884,6 @@ color: #fba601;
 .vis {
     display: block !important;
 }
-
-.live-game-txtb,
-.live-game-txtc {
-    position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center;
-}
-
-.live-game-txtb a,
-.live-game-txtc a {
-    display: block;
-    color: #fff;
-    text-shadow: 1px 1px rgb(86, 57, 0);
-    font-weight: 700!important;
-}
-
-.live-game-txtb a:hover,
-.live-game-txtc a:hover {
-    color: rgb(251, 166, 1) !important;
-    text-decoration: none;
-}
-
-.live-game-txtc {
-    letter-spacing: 1px;
-}
-
 .content span {
     color: #fba601;
     font-size: 16px;
@@ -4857,6 +4841,7 @@ left: 47%;
 
 .btn-warning2 {
     color: #000 !important;
+    font-weight: 700
 }
 
 .modal-bottom {
@@ -6474,7 +6459,7 @@ main .win-lot-top-games {
   position: relative;
   top: 5px;
   border-radius: 5px;
-  padding: 1px 15px;
+  padding: 0 15px;
   font-size: 11px;
 }
 .top-header .logout:hover{
@@ -6499,6 +6484,7 @@ main .win-lot-top-games {
   border: none;
   border-radius: 5px;
   background: #acacb4;
+  font-weight: 700;
   text-shadow: none;
 }
 
@@ -6631,6 +6617,7 @@ main .win-lot-top-games {
 #myModal .pull-right .modal-bottom .btn-warning {
   color: #000;
   width: 135px;
+  font-weight: 700
 }
 
 #myModal .pull-right .modal-bottom .btn-warning::after{
@@ -8538,6 +8525,7 @@ border-bottom: 1px solid #333333;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
   color: #111;
+  font-weight: 700;
   text-decoration: none;
 }
 .live-game .btn-hidden:hover, .live-game .sp-btn-hidden:hover{
