@@ -773,14 +773,14 @@ $(document).ready(function () {
      });
      var fd2 = [
        {
-         'country_name': '简体中文 (中国)',
-         'status': 'uncheck',
-         'link': '../',
-       },
-       {
          'country_name': '繁體中文 (台灣)',
          'status': 'check',
          'link': '#',
+       },
+       {
+         'country_name': '简体中文 (中国)',
+         'status': 'uncheck',
+         'link': '../',
        },
        {
          'country_name': 'English (United Kingdom)',
