@@ -3659,10 +3659,11 @@ footer .browsers li:first-child {
     color: #fff;
     padding: 6px 9px
 }
-.cntry:hover{
+.cntry:hover, .cntry:active, .cntry:focus{
   color: #fba601;
   -webkit-transition: color 0.2;
-  transition: color 0.2
+  transition: color 0.2;
+  text-decoration: none
 }
 .language-picker span{
   -webkit-transition: color 0.2s ease-out;
@@ -10006,7 +10007,7 @@ height: 30px!important;
   font-size: 10px;
   min-width: 35px;
   max-width: 35px;
-  padding: 4px 5px;
+  padding: 2px 7px;
   margin: 0 3px;
 }
 .trphy1{

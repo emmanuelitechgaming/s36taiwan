@@ -141,15 +141,15 @@ $(document).ready(function(){
 		$(this).css('color','#fff');
 	});
 
-	var the_icon = '';
-	$('.cntry').click(function() {
-		$('.selectpicker2-val').removeClass('selectpicker2-'+the_icon);
-		$('.selectpicker2-val').addClass('selectpicker2-'+$(this).data('icon'));
-		$('.selectpicker2-val').html(' '+$(this).data('value')+' <i class="fa fa-angle-down" style="font-size:16px;"></i>');
-		the_icon = $(this).data('icon');
-	})
+	// var the_icon = '';
+	// $('.cntry').click(function() {
+	// 	$('.selectpicker2-val').removeClass('selectpicker2-'+the_icon);
+	// 	$('.selectpicker2-val').addClass('selectpicker2-'+$(this).data('icon'));
+	// 	$('.selectpicker2-val').html(' '+$(this).data('value')+' <i class="fa fa-angle-down" style="font-size:16px;"></i>');
+	// 	the_icon = $(this).data('icon');
+	// })
 
-	$('.language-picker').click(function() {
-		window.location.href = $(this).data('link2');
-	})
+	// $('.language-picker').click(function() {
+	// 	window.location.href = $(this).data('link2');
+	// })
 });
