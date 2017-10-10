@@ -1431,6 +1431,15 @@
     .live-game-txt a{
       font-size: 12px;
     }
+    .ipad-nav{
+      display: none !important
+    }
+    .mnav-top ul li a img {
+        display: block;
+    }
+    .header-cs.ipad-landscape .top-header-clock{
+      display: none;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4830,11 +4839,36 @@ width: 360px;
     padding-left: 49px;
   }
   .mnav-top ul li {
-    margin-right: 16px;
+    margin-right: 33px;
   }
   .mnav-top ul li:first-child{
-    width: 80%;
+    width: 47%;
     text-align: left;
+  }
+  .ipad-nav{
+    display: inline-block !important;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 20px !important;
+    font-weight: normal !important;
+  }
+  .mnav-top ul{
+    bottom: 5px
+  }
+  .mnav-afterlogin ul{
+    bottom: 10px
+  }
+  .mnav-top ul li a img {
+      display: inline-block;
+  }
+  .mnav ul li:nth-child(1) .hamburger, .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger{
+    top: 15px
+  }
+  .mnav-afterlogin .ipad-nav{
+    top: 4px
+  }
+  .header-cs.ipad-landscape .top-header-clock{
+    display: inline-block;
   }
 }
 
