@@ -4829,6 +4829,13 @@ width: 360px;
   .mnav-afterlogin ul, .mnav-top ul{
     padding-left: 49px;
   }
+  .mnav-top ul li {
+    margin-right: 16px;
+  }
+  .mnav-top ul li:first-child{
+    width: 80%;
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 1200px) {

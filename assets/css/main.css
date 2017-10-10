@@ -1984,7 +1984,10 @@ input[type=radio] {
     border-radius: 3px!important;
 }
 .breadcrumb-inner .select-bg{
-  background: url('../img/select-bg.png') no-repeat;
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 39px;
+  background-repeat: no-repeat;
   background-position: right;
 }
 .form-control:focus {
@@ -6580,8 +6583,10 @@ main .win-lot-top-games {
 
 #csCallselectflag button {
     height: 38px;
-    background: #333 url('../img/select-bg.png') no-repeat;
+    background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+    background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
     background-size: auto 34px;
+    background-repeat: no-repeat;
     padding-left: 4px
 }
 
@@ -6665,12 +6670,12 @@ main .win-lot-top-games {
 }
 
 .wallet-text {
-    background: #333333;
-    border: 1px solid #4b4b4b;
-    border-radius: 3px !important;
-    padding: 6px 16px !important;
-    outline: 0;
-    color: #c4c4c4 !important
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.12, #333)) !important;
+  border: 1px solid #111 !important;
+  border-radius: 3px !important;
+  padding: 6px 16px !important;
+  outline: 0;
+  color: #c4c4c4 !important;
 }
 
 .wallet-text::-webkit-input-placeholder,
@@ -7619,8 +7624,10 @@ button .flag-icon-kr::before {
 
 .cs-modal .chatserver-form button.select-country-code {
     height: 38px;
-    background: url('../img/select-bg.png') no-repeat;
+    background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+    background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
     background-size: auto 38px;
+    background-repeat: no-repeat;
     color: #fff;
     font-weight: normal;
     letter-spacing: auto;
@@ -7629,7 +7636,6 @@ button .flag-icon-kr::before {
     text-align: left;
     margin-bottom: 0;
 }
-
 .select-country-code-dropdown .dropdown-menu {
     background-color: #333;
     min-width: 165px;
@@ -7952,21 +7958,14 @@ margin-right: 23px;
   padding: 0 !important;
 }
 .promotion-form  select.form-control  , input.form-control{
-  background: #333333!important;
-  border: 2px solid #333333!important;
-  border-bottom-width: 2px!important;
-  border-bottom-style: solid!important;
-  border-bottom-color: rgb(51, 51, 51)!important;
-  border-bottom-width: 2px!important;
-  border-bottom-style: solid!important;
-  border-bottom-color: rgb(51, 51, 51)!important;
-  border-bottom-width: 2px!important;
-  border-bottom-style: solid!important;
-  border-bottom-color: black!important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.12, #333)) !important;
+  border: 1px solid #111 !important;
   border-radius: 3px!important;
   outline: none!important;
   color: #A4A4A4!important;
   border-bottom: none!important;
+  -webkit-box-shadow: 1px 1px 1px #333;
+          box-shadow: 1px 1px 1px #333
 }
 
 .promotion-form .offer-dropdown button{
@@ -8541,6 +8540,12 @@ border-bottom: 1px solid #333333;
           box-shadow: none;
   color: #111;
   text-decoration: none;
+}
+.cs-modal .chatserver-form button.select-country-code:hover{
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-weight: inherit;
 }
 .casino-desc-bot .sp-btn-hidden::after, .btn-promotion::after {
   content: '';
@@ -9293,10 +9298,12 @@ span.add-ico{
   display: block;
   width: 100%;
   text-align: left;
-  background: url('../img/select-bg.png') no-repeat;
-  background-size: auto 37px;
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 39px;
+  background-repeat: no-repeat;
   background-position: right;
-  border: none;
+  border: 1px solid #111;
   border-radius: 3px;
   padding: 6px 12px;
   color: #fff;
@@ -10097,7 +10104,10 @@ height: 30px!important;
   background-size: 15% 100%;
 }
 .wallet-disabled.select-bg{
-  background: url('../img/select-bg.png') no-repeat;
+  background: url(../img/select-bg.png), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url(../img/select-bg.png), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 40px;
+  background-repeat: no-repeat;
   background-position: right;
 }
 .comment h4{
