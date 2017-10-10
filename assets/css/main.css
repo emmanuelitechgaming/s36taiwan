@@ -4999,6 +4999,7 @@ ul {
           box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
 }
 
+
 .my-modal-cs {
     position: absolute;
     left: -2px;
@@ -8533,9 +8534,10 @@ border-bottom: 1px solid #333333;
   color: inherit;
   text-decoration: none;
 }
-.casino-desc-bot .sp-btn-hidden:active, .btn-promotion:active, .casino-desc-bot .sp-btn-hidden:focus, .btn-promotion:focus, .btn-yellow:active, .btn-yellow:focus, .cs-modal .chatserver-form button:active, .cs-modal .chatserver-form button:focus, #cscall:active, #cscall:focus, .rss-submit-verification:active, .rss-submit-verification:focus, .sp-btn-hidden:active, .sp-btn-hidden:focus, .my-sweet-15 button:active, .my-sweet-15 button:focus, .btn-hidden:active, .btn-hidden:focus{
-  -webkit-box-shadow: 0 -1px 0px rgba(204, 204, 204, 0.2) inset;
-	box-shadow: 0 -1px 0px rgba(204, 204, 204, 0.2) inset;
+.casino-desc-bot .sp-btn-hidden:active, .btn-promotion:active, .casino-desc-bot .sp-btn-hidden:focus, .btn-promotion:focus, .btn-yellow:active, .btn-yellow:focus, .cs-modal .chatserver-form button:active, .cs-modal .chatserver-form button:focus, #cscall:active, #cscall:focus, .rss-submit-verification:active, .rss-submit-verification:focus, .sp-btn-hidden:active, .sp-btn-hidden:focus,
+ .my-sweet-15 button:active, .my-sweet-15 button:focus, .btn-hidden:active, .btn-hidden:focus{
+  box-shadow: 0 0 5px #fba601!important;
+  border: 1px solid #fba601!important;
 	background: rgba(204, 204, 204, 0.2); /* #161616 */
   text-decoration: none;
   color: #fff;
@@ -10218,4 +10220,8 @@ height: 30px!important;
    font-weight: 700;
    color: #ffffff;
    text-decoration: none;
+}
+input[type=email]:focus,input[type=password]:focus,input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 5px #fba601!important;
+  border: 1px solid #fba601!important;
 }
