@@ -4838,7 +4838,6 @@ left: 47%;
 }
 
 .modal-custom-lg .modal-body .input-border {
-    border-bottom: 1px solid #333333;
     border-radius: 2px;
 }
 .btnb {
@@ -4851,7 +4850,7 @@ left: 47%;
 }
 
 .btn-warning2 {
-    color: #000 !important;
+    color: #fff !important;
     font-weight: 700
 }
 
@@ -8535,8 +8534,9 @@ border-bottom: 1px solid #333333;
   text-decoration: none;
 }
 .casino-desc-bot .sp-btn-hidden:active, .btn-promotion:active, .casino-desc-bot .sp-btn-hidden:focus, .btn-promotion:focus, .btn-yellow:active, .btn-yellow:focus, .cs-modal .chatserver-form button:active, .cs-modal .chatserver-form button:focus, #cscall:active, #cscall:focus, .rss-submit-verification:active, .rss-submit-verification:focus, .sp-btn-hidden:active, .sp-btn-hidden:focus,
- .my-sweet-15 button:active, .my-sweet-15 button:focus, .btn-hidden:active, .btn-hidden:focus{
-  box-shadow: 0 0 5px #fba601!important;
+ .my-sweet-15 button:active, .my-sweet-15 button:focus, .btn-hidden:active, .btn-hidden:focus, .sweet-arrow:active, .sweet-arrow:focus{
+  -webkit-box-shadow: 0 0 5px #fba601!important;
+          box-shadow: 0 0 5px #fba601!important;
   border: 1px solid #fba601!important;
 	background: rgba(204, 204, 204, 0.2); /* #161616 */
   text-decoration: none;
@@ -9348,6 +9348,8 @@ span.add-ico{
 .flag-dropdown .dropdown-menu{
   right: 0;
   background: #333;
+  padding: 0 0;
+  margin-top: 0;
 }
 .flag-val{
   color: #fff
@@ -10222,6 +10224,7 @@ height: 30px!important;
    text-decoration: none;
 }
 input[type=email]:focus,input[type=password]:focus,input[type=text]:focus, textarea:focus {
-  box-shadow: 0 0 5px #fba601!important;
+  -webkit-box-shadow: 0 0 5px #fba601!important;
+          box-shadow: 0 0 5px #fba601!important;
   border: 1px solid #fba601!important;
 }
