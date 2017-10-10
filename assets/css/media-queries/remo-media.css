@@ -644,6 +644,12 @@ color: #c4c4c4 !important;
 
 }
 
+@media only screen and (min-width : 992px) {
+  .breadcrumb-inner .wallet select {
+    background-size: auto 40px;
+  }
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
   .all-games-div{
