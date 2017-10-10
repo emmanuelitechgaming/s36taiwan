@@ -5909,7 +5909,8 @@ main .win-lot-top-games {
 }
 
 .sp-title.text-left a:hover {
-    text-decoration: none
+    text-decoration: none;
+    color: #fff
 }
 
 .lotto-strip {
