@@ -8701,7 +8701,7 @@ text-decoration: none;
   padding: 6px 12px;
   padding-right: 30px;
   border-radius: 3px;
-  border: none;
+  border: 1px solid transparent;
 }
 .netbet input[type=text]::-webkit-input-placeholder,
 .netbet input[type=text]::-moz-placeholder,
@@ -8881,6 +8881,10 @@ span.add-ico{
   position: relative;
   top: -16px;
   width: 379px;
+  background: url('../img/dl-bg.jpg') no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 6px 0
 }
 .dl-area ul li{
   padding: 4.5px 5px;
@@ -9331,13 +9335,13 @@ span.add-ico{
   height: 25px;
 }
 .flag-dropdown .flag-icon::before{
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
 }
 .flag-dropdown .dropdown-menu>li>a{
   padding-left: 10px;
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
 }
 .flag-dropdown .flag-icon{
   width: auto;
@@ -9348,8 +9352,8 @@ span.add-ico{
 .flag-dropdown .dropdown-menu{
   right: 0;
   background: #333;
-  padding: 0 0;
-  margin-top: 0;
+  padding: 2px 0;
+  margin-top: 1px;
 }
 .flag-val{
   color: #fff
@@ -10207,24 +10211,30 @@ height: 30px!important;
   vertical-align: -10px;
   text-align: left;
   margin: 0 10px;
+  position: relative;
+  top: 1px
 }
 .dl-txt span{
   display: block;
-  font-size: 16px;
+  font-size: 14px;
 }
 .dl-txt span:first-child{
   font-weight: 700;
-  font-size: 17px;
+  font-size: 15px;
 }
 .dl-link a{
    margin: 0 20px;
-   font-size: 17px;
+   font-size: 16px;
    font-weight: 700;
-   color: #ffffff;
+   color: #fba601;
    text-decoration: none;
 }
 input[type=email]:focus,input[type=password]:focus,input[type=text]:focus, textarea:focus {
   -webkit-box-shadow: 0 0 5px #fba601!important;
           box-shadow: 0 0 5px #fba601!important;
   border: 1px solid #fba601!important;
+}
+.dl-area img{
+  width: 42px;
+  height: 42px
 }
