@@ -8518,7 +8518,7 @@ border-bottom: 1px solid #333333;
 	-moz-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
 	box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
 
-	background: rgba(95,95,95,0.1); /* #191919 */
+	background: rgba(0,0,0,0.1); /* #191919 */
 	border: 1px solid #141414;
 	padding: 10px 25px;
 }
@@ -8527,13 +8527,17 @@ border-bottom: 1px solid #333333;
   border-radius: 20px;
 }
 .casino-desc-bot .sp-btn-hidden:hover, .btn-promotion:hover{
-background: rgba(95,95,95,0.2);
+background: rgba(0,0,0,0.2);
 }
 .casino-desc-bot .sp-btn-hidden:active, .btn-promotion:active, .casino-desc-bot .sp-btn-hidden:focus, .btn-promotion:focus{
-box-shadow: 0 0 0 transparent inset;
+  -webkit-box-shadow: 0 -1px 0px rgba(255,255,255,0.1) inset;
+	-moz-box-shadow: 0 -1px 0px rgba(255,255,255,0.1) inset;
+	box-shadow: 0 -1px 0px rgba(255,255,255,0.1) inset;
+
+	background: rgba(0,0,0,0.2); /* #161616 */
 }
 .btn-tp a:hover, .rss-submit-verification:hover, .btn-hidden:hover, .sp-btn-hidden:hover, .cs-content .cta-cs a:hover, .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover, .cs-modal .chatserver-form button:hover, #cscall:hover, .tdw-button button:hover{
-background: rgba(95,95,95,0.2);
+background: rgba(0,0,0,0.4);
 }
 .live-game .btn-hidden:hover, .live-game .sp-btn-hidden:hover{
   background-color: transparent;
