@@ -4349,13 +4349,13 @@ left: 47%;
 }
 
 #c-b15 {
-    background-position: -166px -80px;
+    background-position: -166px -76px;
     width: 85px;
     height: 30px;
 }
 
 #c-b15:hover {
-    background-position: -166px -80px;
+    background-position: -166px -76px;
     width: 85px;
     height: 30px;
 }
@@ -9618,12 +9618,7 @@ header #m-selectpicker2-collapse ul li{
   color: #fba601;
   font-size: 30px;
 }
-.dl-area img{
-  border: 2px solid #484848;
-}
-.dl-area img:hover{
-  border: 2px solid #fba601;
-}
+
 .user-1first,.user-3first{
   visibility: hidden;
 }
@@ -10186,4 +10181,25 @@ height: 30px!important;
 }
 .comment-close{
   margin: 10px 0
+}
+.dl-txt{
+  display: inline-block;
+  vertical-align: -10px;
+  text-align: left;
+  margin: 0 10px;
+}
+.dl-txt span{
+  display: block;
+  font-size: 16px;
+}
+.dl-txt span:first-child{
+  font-weight: 700;
+  font-size: 17px;
+}
+.dl-link a{
+   margin: 0 20px;
+   font-size: 17px;
+   font-weight: 700;
+   color: #ffffff;
+   text-decoration: none;
 }
