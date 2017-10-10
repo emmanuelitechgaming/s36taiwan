@@ -8884,7 +8884,12 @@ span.add-ico{
   background: url('../img/dl-bg.jpg') no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  padding: 6px 0
+  padding: 6px 0;
+  border: solid 2px #333;
+  cursor: pointer;
+}
+.dl-area:hover{
+  border: solid 2px #fba601
 }
 .dl-area ul li{
   padding: 4.5px 5px;
