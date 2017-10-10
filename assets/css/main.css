@@ -1615,28 +1615,28 @@ p {
 
 .btn-hidden {
     cursor: pointer;
-    font-weight: bold;
     font-size: 17px;
-    background-color: transparent;
-    border: none;
-    color: #000;
-    background: #acacb4;
+    border: solid 1px #191919;
+    color: #fff;
+    background: rgba(204, 204, 204, 0.3);
     position: relative;
     padding: 3px 40px;
     padding-right: 70px;
     border-radius: 4px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 5px++
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+            box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
 }
 
 .sp-btn-hidden{
   border-radius: 20px;
   font-size: 18px;
-  background: #acacb4;
+  background: rgba(204, 204, 204, 0.3);
   background-size: contain;
-      -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
-              box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+          box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
 }
 
 .sp-btn-hidden:hover{
@@ -1661,7 +1661,7 @@ p {
 .btn-hidden::after{
   content: ' ';
   display: inline-block;
-  background: url('../img/arrow-right.png') no-repeat;
+  background: url('../img/arrow-right-30.png') no-repeat;
   background-size: contain;
   position: absolute;
   margin-left: 10px;
@@ -3144,13 +3144,14 @@ span.round-tab i {
     font-size: 17px;
     margin-bottom: 20px;
     letter-spacing: .5px;
-    border: none;
+    border: 1px solid #191919;
     border-radius: 4px;
-    background: #acacb4;
+    background: rgba(204, 204, 204, 0.3);
     text-shadow: none;
     border-radius: 5px;
-    color: #000;
-    font-weight: 700
+    color: #fff;
+    -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+            box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
 }
 
 .cs-modal .chatserver-form button::after, #cscall::after{
@@ -3158,7 +3159,7 @@ span.round-tab i {
   display: inline-block;
   width: 17px;
   height: 17px;
-  background: url('../img/arrow-right.png') no-repeat;
+  background: url('../img/arrow-right-30.png') no-repeat;
   background-size: cover;
   position: relative;
   top: 2px;
@@ -4985,15 +4986,17 @@ ul {
 }
 
 .rss-submit-verification{
-  color: #000;
+  color: #fff;
   border-radius: 5px;
   font-size: 13px;
   font-family: arial, helvetica, sans-serif;
-  padding: 6px 13px 6px 14px;
+  border: solid 1px #191919;
+  padding: 6px 12px 6px 12px;
   text-decoration: none;
   display: inline-block;
-  font-weight: bold;
-  background: #acacb4;
+  background: rgba(204, 204, 204, 0.3);
+  -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+          box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
 }
 
 .my-modal-cs {
@@ -5897,7 +5900,8 @@ main .win-lot-top-games {
 }
 
 .sp-title.text-left a:hover {
-    text-decoration: none
+    text-decoration: none;
+    color: #fff
 }
 
 .lotto-strip {
@@ -6490,11 +6494,12 @@ main .win-lot-top-games {
   margin-bottom: 20px;
   padding: 3px 15px;
   letter-spacing: .5px;
-  color: #000;
+  color: #fff;
   border: none;
   border-radius: 5px;
-  background: #acacb4;
-  font-weight: 700;
+  background: rgba(204, 204, 204, 0.3);
+  -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+          box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
   text-shadow: none;
 }
 
@@ -6627,9 +6632,8 @@ main .win-lot-top-games {
 }
 
 #myModal .pull-right .modal-bottom .btn-warning {
-  color: #000;
+  color: #fff;
   width: 135px;
-  font-weight: 700
 }
 
 #myModal .pull-right .modal-bottom .btn-warning::after{
@@ -7290,11 +7294,13 @@ button .flag-icon-kr::before {
 }*/
 
 .btn-yellow {
-    background:#acacb4;
+    background: rgba(204, 204, 204, 0.3);
     border-radius: 5px;
     font-size: 17px;
     padding: 2px 12px;
-    border-color: #acacb4
+    border-color: #191919;
+    -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+            box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
 }
 
 .mnav-top-home img {
@@ -7481,15 +7487,15 @@ button .flag-icon-kr::before {
 .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover{
     color: #000;
     background-color: #acacb4;
-    border-color: #acacb4
+    border-color: #191919
 }
 
 .sweet-arrow {
-    background-color: #acacb4 !important;
+    background-color: rgba(204 ,204, 204, 0.3) !important;
     font-size: 17px;
     padding: 3px 16px;
     padding-right: 40px;
-    border:1px solid #acacb4 !important
+    border:1px solid #191919 !important
 }
 
 .sweet-arrow::before {
@@ -7497,7 +7503,7 @@ button .flag-icon-kr::before {
   display: inline-block;
   width: 17px;
   height: 17px;
-  background: url(../img/arrow-right.png) no-repeat;
+  background: url(../img/arrow-right-30.png) no-repeat;
   background-size: cover;
   position: absolute;
   top: 7px;
@@ -8510,12 +8516,9 @@ border-bottom: 1px solid #333333;
 	margin-right: 10px;
   font-size: 13px;
   font-weight: 700;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
 	border-radius: 5px;
 
 	-webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
-	-moz-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
   box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
   background: rgba(204, 204, 204, 0.3);
   border: 1px solid #191919;
@@ -8526,19 +8529,21 @@ border-bottom: 1px solid #333333;
   border-radius: 20px;
 }
 .casino-desc-bot .sp-btn-hidden:hover, .btn-promotion:hover{
-background: rgba(204, 204, 204, 0.2);
-color: inherit;
-text-decoration: none;
+  background: rgba(204, 204, 204, 0.2);
+  color: inherit;
+  text-decoration: none;
 }
-.casino-desc-bot .sp-btn-hidden:active, .btn-promotion:active, .casino-desc-bot .sp-btn-hidden:focus, .btn-promotion:focus{
+.casino-desc-bot .sp-btn-hidden:active, .btn-promotion:active, .casino-desc-bot .sp-btn-hidden:focus, .btn-promotion:focus, .btn-yellow:active, .btn-yellow:focus, .cs-modal .chatserver-form button:active, .cs-modal .chatserver-form button:focus, #cscall:active, #cscall:focus, .rss-submit-verification:active, .rss-submit-verification:focus, .sp-btn-hidden:active, .sp-btn-hidden:focus, .my-sweet-15 button:active, .my-sweet-15 button:focus, .btn-hidden:active, .btn-hidden:focus{
   -webkit-box-shadow: 0 -1px 0px rgba(204, 204, 204, 0.2) inset;
-	-moz-box-shadow: 0 -1px 0px rgba(204, 204, 204, 0.2) inset;
 	box-shadow: 0 -1px 0px rgba(204, 204, 204, 0.2) inset;
-
 	background: rgba(204, 204, 204, 0.2); /* #161616 */
+  text-decoration: none;
+  color: #fff;
 }
 .btn-tp a:hover, .rss-submit-verification:hover, .btn-hidden:hover, .sp-btn-hidden:hover, .cs-content .cta-cs a:hover, .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover, .cs-modal .chatserver-form button:hover, #cscall:hover, .tdw-button button:hover{
-background: rgba(204, 204, 204, 0.3);
+background: rgba(204, 204, 204, 0.2);
+color: #fff;
+text-decoration: none;
 }
 .live-game .btn-hidden:hover, .live-game .sp-btn-hidden:hover{
   background-color: transparent;
@@ -9265,19 +9270,19 @@ span.add-ico{
   margin-right: 5px;
 }
 .my-sweet-15 button{
-  color: #000 !important;
+  color: #fff !important;
   font-weight: normal;
   font-size: 17px;
   padding: 3px 16px;
   padding-right: 40px;
-  border-color: #acacb4
+  border-color: rgba(204, 204, 204, 0.3);
+  -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+          box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
 }
 .my-sweet-15 button:hover{
   color: #000 !important;
-  background-color: #c5c7d3 !important;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15) !important;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15) !important;
-  color: #111 !important;
+  background-color: rgba(204, 204, 204, 0.2); !important;
+  color: #fff !important;
   text-decoration: none !important;
 }
 .selectpicker2 {
@@ -10181,6 +10186,17 @@ height: 30px!important;
 }
 .comment-close{
   margin: 10px 0
+}
+.header-cs.ipad-landscape .top-header-clock{
+ width: auto;
+ position: relative;
+ bottom: 7px;
+ margin-right: 15px
+}
+.header-cs.ipad-landscape .top-header-clock img{
+ width: 15px;
+ height: 15px;
+ display: inline-block;
 }
 .dl-txt{
   display: inline-block;
