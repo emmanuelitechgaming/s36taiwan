@@ -8505,40 +8505,35 @@ border-bottom: 1px solid #333333;
   bottom: 0;
 }
 .casino-desc-bot .sp-btn-hidden, .btn-promotion{
-  font-size: 13px;
-  margin-bottom: 0;
-  margin-top: 0;
-  background: none;
-  background: -webkit-gradient(linear, left top, left bottom, from(#474747), to(#3f3f3f));
-  background: linear-gradient(#474747, #3f3f3f);
-  color: #fafafc;
-  text-shadow: none;
+  color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+  font-size: 15px;
   font-weight: 700;
-  border: solid 1px #000;
-  -webkit-box-shadow: none;
-          box-shadow: none
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+
+	-webkit-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+	box-shadow: 0 1px 0px rgba(255,255,255,0.1) inset, 0 0px 1px rgba(0,0,0,0.7);
+
+	background: rgba(95,95,95,0.1); /* #191919 */
+	border: 1px solid #141414;
+	padding: 10px 25px;
 }
 .btn-promotion{
   padding: 7px 25px;
   border-radius: 20px;
 }
 .casino-desc-bot .sp-btn-hidden:hover, .btn-promotion:hover{
-  background: -webkit-gradient(linear, left top, left bottom, from(#3f3f3f), to(#474747));
-  background: linear-gradient(#3f3f3f, #474747);
-  color: #fafafc;
-  text-decoration: none;
+background: rgba(95,95,95,0.2);
 }
 .casino-desc-bot .sp-btn-hidden:active, .btn-promotion:active, .casino-desc-bot .sp-btn-hidden:focus, .btn-promotion:focus{
-  background: -webkit-gradient(linear, left top, left bottom, from(#2c2c2c), to(#3d3d3d));
-  background: linear-gradient(#2c2c2c, #3d3d3d)
+box-shadow: 0 0 0 transparent inset;
 }
 .btn-tp a:hover, .rss-submit-verification:hover, .btn-hidden:hover, .sp-btn-hidden:hover, .cs-content .cta-cs a:hover, .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover, .cs-modal .chatserver-form button:hover, #cscall:hover, .tdw-button button:hover{
-  background-color: #c5c7d3;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
-          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 1px 3px rgba(0, 0, 0, 0.15);
-  color: #111;
-  font-weight: 700;
-  text-decoration: none;
+background: rgba(95,95,95,0.2);
 }
 .live-game .btn-hidden:hover, .live-game .sp-btn-hidden:hover{
   background-color: transparent;
