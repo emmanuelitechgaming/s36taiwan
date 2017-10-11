@@ -2577,9 +2577,10 @@ select + i.fa {
 /**************/
 
 .live-game {
-    position: relative;
-max-width: 386px;
-margin: 0 auto;
+  position: relative;
+  max-width: 386px;
+  max-height: 400px;
+  margin: 0 auto;
 }
 
 .live-game-txt {
@@ -2701,11 +2702,13 @@ margin: 0 auto;
 
 .lg-playnow {
     display: block;
-    width: 100%;
-    position: absolute;
+    margin: 0px auto;
+    position: relative;
     text-align: center;
     color: rgba(84, 54, 1, 1) !important;
     font-weight: 700;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fba601), to(#feaf10));
+    background: linear-gradient(#fba601, #feaf10);
 }
 
 .lg-playnow:active,
@@ -8493,7 +8496,6 @@ border-bottom: 1px solid #333333;
   padding-bottom: 20px
 }
 .lg-playnow.sp-btn-hidden{
-  background: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -8559,6 +8561,9 @@ text-decoration: none;
           box-shadow: none;
   color: #111;
   text-decoration: none;
+}
+.live-game .lg-playnow:hover{
+  background: #ef9f01 !important
 }
 .cs-modal .chatserver-form button.select-country-code:hover{
   background-color: transparent;
