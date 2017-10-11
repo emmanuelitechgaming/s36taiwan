@@ -903,6 +903,7 @@ div.border:before {
     padding-left: 0;
     padding-right: 0;
     padding-top: 15px;
+    margin-bottom: 15px;
     position: relative;
 }
 
@@ -6745,9 +6746,6 @@ div.acc-info.acc-edit div.acc-cont input {
     top: -9px;
     z-index: 10;
 }
-#m-selectpicker2-collapse::before{
-  right: -1px;
-}
 .header-cs ul li {
     border: 1px solid #4a4a4a;
     border-bottom: none;
@@ -8542,6 +8540,12 @@ border-bottom: 1px solid #333333;
   text-decoration: none;
   color: #fff;
 }
+.lg-playnow:active, .lg-playnow:focus{
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  background: transparent;
+  border: none !important
+}
 .btn-tp a:hover, .rss-submit-verification:hover, .btn-hidden:hover, .sp-btn-hidden:hover, .cs-content .cta-cs a:hover, .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover, .cs-modal .chatserver-form button:hover, #cscall:hover, .tdw-button button:hover{
 background: rgba(204, 204, 204, 0.2);
 color: #fff;
@@ -9557,8 +9561,6 @@ span.add-ico{
   z-index: 1049;
   background: #333;
   position: absolute;
-  left: 0;
-  right: 0;
   border: solid 1px #4a4a4a;
   top: 45px;
 }
@@ -9575,8 +9577,6 @@ header #m-selectpicker2-collapse ul{
 }
 header #m-selectpicker2-collapse ul li{
   float: none;
-  display: inline-block;
-  width: 33.333%;
   margin: 10px 0
 }
 .users-winner{
