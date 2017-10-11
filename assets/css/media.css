@@ -2307,7 +2307,7 @@
     }
     .boxer-last a{
       font-size: 18px;
-      min-width: 305px
+      min-width: 250px
     }
     .boxer-last a::after{
       width: 16px;
@@ -2325,7 +2325,7 @@
       margin: 0 -16px 0 -4px;
     }
     .live-game .title{
-      bottom: 46%;
+      bottom: 40%;
     }
     .live-game ul{
       bottom: 26%;
@@ -4505,6 +4505,9 @@ width: 360px;
   .bago_nanaman .boxer {
     margin-bottom: 0;
   }
+  .live-game .title{
+    bottom: 44%;
+  }
   .col-6{
     width: 25%;
     padding-left: 15px;
@@ -4545,7 +4548,7 @@ width: 360px;
   .boxer-last a{
     display: inline-block;
     padding: 0 0;
-    width: 220px;
+    width: 250px!important;
     margin: 0px auto;
   }
   .bs-slider-overlay a{
