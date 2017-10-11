@@ -1440,6 +1440,17 @@
     .header-cs.ipad-landscape .top-header-clock{
       display: none;
     }
+    header #m-selectpicker2-collapse ul li{
+      display: inline-block;
+      width: 33.333%;
+    }
+    #m-selectpicker2-collapse{
+      left: 0;
+      right: 0;
+    }
+    #m-selectpicker2-collapse::before{
+      right: -1px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4247,7 +4258,7 @@ width: 360px;
       padding-right: 105px;
     }
     .casino-desc-bot .sp-btn-hidden{
-      padding: 6px 10px;
+      padding: 6px 9px;
     }
     .oc-content .sp-btn-hidden{
       padding: 6px 30px;
@@ -4420,7 +4431,7 @@ width: 360px;
   }
   .slots-breadcrumb-inner .col-xs-12{
     width: 309px;
-    height: 375px;
+    height: auto;
   }
   .slots-breadcrumb-inner .col-xs-12.netbet{
     width: 94%;
@@ -4864,11 +4875,28 @@ width: 360px;
   .mnav ul li:nth-child(1) .hamburger, .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger{
     top: 15px
   }
+  .mnav.mnav-top ul li:nth-child(1) .hamburger.is-active{
+    top: 20px;
+  }
   .mnav-afterlogin .ipad-nav{
     top: 4px
   }
   .header-cs.ipad-landscape .top-header-clock{
     display: inline-block;
+  }
+  header #m-selectpicker2-collapse ul li{
+    display: block;
+    width: 100%;
+  }
+  #m-selectpicker2-collapse{
+    left: 84%;
+    right: 3%;
+  }
+  #m-selectpicker2-collapse::before{
+    right: 8px;
+  }
+  .slot-content .casino-mp{
+    padding-right: 0;
   }
 }
 
@@ -5287,5 +5315,8 @@ main .marquee {
   .nav-bg {
       background: url('../img/bg-nav.png');
       background-repeat: repeat-x;
+  }
+  .casino-desc-bot .sp-btn-hidden{
+    padding: 6px 10px;
   }
 }
