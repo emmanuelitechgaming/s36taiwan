@@ -5109,7 +5109,7 @@ main .marquee {
     right: 25px;
 }
 .lg-playnow {
-    bottom: 9.2%;
+    bottom: 84px;
 }
 .lg-playnow {
     font-size: 18px;
@@ -5135,6 +5135,9 @@ main .marquee {
     width: 100%;
     padding: 6px 0;
     padding-right: 6%;
+  }
+  .lg-playnow.sp-btn-hidden2{
+    width: 80%;
   }
   .btn-hidden::after{
     width: 18px;
