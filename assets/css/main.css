@@ -9384,6 +9384,7 @@ span.add-ico{
   padding: 4px 20px;
   font-size: 14px;
   min-width: 240px;
+  bottom:25px;
   border: solid 1px #333
 }
 .footer-dropdown button:active, .footer-dropdown button:focus, .footer-dropdown button:hover{
