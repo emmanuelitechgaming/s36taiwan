@@ -6634,12 +6634,12 @@ main .win-lot-top-games {
 #myModal .pull-right .modal-bottom .btn-warning::after{
   content: '';
   display: inline-block;
-  width: 17px;
-  height: 17px;
+  width: 15px;
+  height: 16px;
   background: url(../img/arrow-right-30.png) no-repeat;
   background-size: contain;
   position: relative;
-  top: 2px;
+  top: 3px;
   margin-left: 3px;
 }
 
@@ -7288,7 +7288,7 @@ button .flag-icon-kr::before {
 .btn-yellow {
     background: rgba(204, 204, 204, 0.3);
     border-radius: 5px;
-    font-size: 17px;
+    font-size: 14px;
     padding: 2px 12px;
     border-color: #191919;
     -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
