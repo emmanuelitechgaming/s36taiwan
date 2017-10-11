@@ -694,7 +694,7 @@
         bottom: -5px
     }
     .lg-playnow {
-      bottom: 9.7%;
+      bottom: 55px;
     }
     img.b-img {
         top: auto
@@ -1451,6 +1451,12 @@
     #m-selectpicker2-collapse::before{
       right: -1px;
     }
+    .lg-playnow.sp-btn-hidden2{
+      width: 80%;
+    }
+    .live-game {
+      max-height: 300px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1574,7 +1580,7 @@
         bottom: 6px;
     }
     .lg-playnow {
-        bottom: 11.3%;
+        bottom: 64px;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1731,6 +1737,9 @@
     }
     .live-game-txt{
       bottom: 1.5%;
+    }
+    .live-game {
+      max-height: 341px;
     }
 }
 
@@ -2000,7 +2009,7 @@
       margin: 0 8px
     }
     .lg-playnow {
-      bottom: 11.8%;
+      bottom: 68px;
     }
     .contact-title li{
       margin: 0 1px;
@@ -2065,6 +2074,9 @@
     }
     .comment .g-recaptcha{
       margin-left: 0
+    }
+    .live-game {
+      max-height: 356px;
     }
 }
 
@@ -2210,7 +2222,7 @@
     }
     .lg-playnow {
         font-size: 18px;
-        bottom: 12.5%;
+        bottom: 80px;
     }
     .promotion-form-btn {
         background-position: 32px -1px
@@ -2368,6 +2380,9 @@
     }
     .live-game-txt a{
       font-size: 14px;
+    }
+    .live-game {
+      max-height: 396px;
     }
 }
 
@@ -3350,8 +3365,7 @@
     }
     .lg-playnow {
         font-size: 12px;
-        bottom: 6.8%;
-        padding-left: 25%;
+        bottom: 37px;
     }
     .btn-hidden::after{
       width: 13px;
@@ -3474,6 +3488,9 @@
   }
   .i-sicbo .live-game-txtc{
     left: -46px;
+  }
+  .live-game {
+    max-height: 228px;
   }
 }
 
@@ -4435,7 +4452,7 @@ width: 360px;
     height: 21px;
   }
   .lg-playnow {
-    bottom: 6.2%;
+    bottom: 64px;
   }
   #b{
     max-width: inherit !important
@@ -4912,6 +4929,9 @@ width: 360px;
   .slot-content .casino-mp{
     padding-right: 0;
   }
+  .live-game {
+    max-height: 323px;
+  }
 }
 
 @media (min-width: 1200px){
@@ -5136,9 +5156,6 @@ main .marquee {
     padding: 6px 0;
     padding-right: 6%;
   }
-  .lg-playnow.sp-btn-hidden2{
-    width: 80%;
-  }
   .btn-hidden::after{
     width: 18px;
     height: 18px;
@@ -5341,5 +5358,8 @@ main .marquee {
   }
   .casino-desc-bot .sp-btn-hidden{
     padding: 6px 10px;
+  }
+  .live-game {
+    max-height: 400px;
   }
 }
