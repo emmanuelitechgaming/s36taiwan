@@ -2700,22 +2700,11 @@ select + i.fa {
     margin-top: 10px
 }
 
-.lg-playnow {
-    display: block;
-    margin: 0px auto;
-    position: relative;
-    text-align: center;
-    color: rgba(84, 54, 1, 1) !important;
-    font-weight: 700;
-    background: -webkit-gradient(linear, left top, left bottom, from(#fba601), to(#feaf10));
-    background: linear-gradient(#fba601, #feaf10);
-}
 
-.lg-playnow:active,
-.lg-playnow:hover,
-.lg-playnow:focus {
+.lg-playnow:focus,.lg-playnow:hover {
     text-decoration: none;
-    color: #111
+    color: #111;
+    background: #fba601!important;
 }
 
 .lg-seemore {
@@ -8544,12 +8533,7 @@ border-bottom: 1px solid #333333;
   text-decoration: none;
   color: #fff;
 }
-.lg-playnow:active, .lg-playnow:focus{
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-  background: transparent;
-  border: none !important
-}
+
 .btn-tp a:hover, .rss-submit-verification:hover, .btn-hidden:hover, .sp-btn-hidden:hover, .cs-content .cta-cs a:hover, .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover, .cs-modal .chatserver-form button:hover, #cscall:hover, .tdw-button button:hover{
 background: rgba(204, 204, 204, 0.2);
 color: #fff;
@@ -8562,9 +8546,7 @@ text-decoration: none;
   color: #111;
   text-decoration: none;
 }
-.live-game .lg-playnow:hover{
-  background: #ef9f01 !important
-}
+
 .cs-modal .chatserver-form button.select-country-code:hover{
   background-color: transparent;
   -webkit-box-shadow: none;
@@ -10250,4 +10232,26 @@ input[type=email]:focus,input[type=password]:focus,input[type=text]:focus, texta
 .dl-area img{
   width: 42px;
   height: 42px
+}
+.lg-playnow {
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+    color: rgba(84, 54, 1, 1) !important;
+    font-weight: 700;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fba601), to(#feaf10));
+    background: linear-gradient(#fba601, #feaf10);
+    -webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 5px 0px 0px #906600, 0px 10px 5px #000!important;
+-moz-box-shadow: inset 0px 1px 0px #ffbd03, 0px 5px 0px 0px #906600, 0px 10px 5px #000!important;
+-o-box-shadow: inset 0px 1px 0px #ffbd03, 0px 5px 0px 0px #906600, 0px 10px 5px #000!important;
+box-shadow: inset 0px 1px 0px #ffbd03, 0px 5px 0px 0px #906600, 0px 10px 5px #000!important;
+}
+.lg-playnow:active,.lg-playnow:focus{
+  background: -webkit-gradient(linear, left top, left bottom, from(#fba601), to(#feaf10))!important;
+  background: linear-gradient(#fba601, #feaf10)!important;
+  webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
+  -moz-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
+  -o-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
+  box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
 }
