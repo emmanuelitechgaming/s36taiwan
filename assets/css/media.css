@@ -2068,6 +2068,7 @@
     }
 }
 
+
 @media only screen and (min-width: 412px) {
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
         width: 75px !important;
@@ -2307,7 +2308,7 @@
     }
     .boxer-last a{
       font-size: 18px;
-      min-width: 305px
+      min-width: 250px
     }
     .boxer-last a::after{
       width: 16px;
@@ -3317,6 +3318,10 @@
     .flexslides {
         margin-left: 32px !important;
     }
+      .live-game .title {
+          bottom: 40%;
+      }
+
     .form-recap-right p {
         left: -55px;
         top: 0px;
@@ -3856,7 +3861,7 @@ width: 360px;
         width: auto
     }
     .rss-field .form-group:nth-child(1) input {
-        width: 125px !important
+        width: 211px !important
     }
     .slots-info {
         right: 118px;
@@ -4419,12 +4424,18 @@ width: 360px;
 }
 
 @media only screen and (min-width: 1024px) {
+  .container{
+    width: 1024px;
+  }
+  .header-cs {
+    right: 1%;
+}
   .btn-hidden::after{
     width: 19px;
     height: 21px;
   }
   .lg-playnow {
-    bottom: 5.2%;
+    bottom: 6.2%;
   }
   #b{
     max-width: inherit !important
@@ -4505,6 +4516,9 @@ width: 360px;
   .bago_nanaman .boxer {
     margin-bottom: 0;
   }
+  .live-game .title{
+    bottom: 44%;
+  }
   .col-6{
     width: 25%;
     padding-left: 15px;
@@ -4545,7 +4559,7 @@ width: 360px;
   .boxer-last a{
     display: inline-block;
     padding: 0 0;
-    width: 220px;
+    width: 250px!important;
     margin: 0px auto;
   }
   .bs-slider-overlay a{
@@ -4725,7 +4739,7 @@ width: 360px;
     line-height: 35px;
   }
   .live-game ul {
-    bottom: 23%;
+    bottom: 22%;
   }
   .boxer .step-no.step1, .boxer .step-no.step2, .boxer .step-no.step3, .boxer .step-no.step4{
     width: 38px;
@@ -4847,10 +4861,10 @@ width: 360px;
     display: block !important
   }
   .mnav-afterlogin ul, .mnav-top ul{
-    padding-left: 49px;
+    padding-left: 23px;
   }
   .mnav-top ul li {
-    margin-right: 33px;
+    margin-right: 47px;
   }
   .mnav-top ul li:first-child{
     width: 47%;
@@ -4900,6 +4914,12 @@ width: 360px;
   }
 }
 
+@media (min-width: 1200px){
+
+.container {
+    width: 1250px;
+}
+}
 @media only screen and (min-width: 1200px) {
   .rss-field .form-group:nth-child(1) input {
       width: 350px !important
