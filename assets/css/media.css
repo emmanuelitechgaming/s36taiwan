@@ -4932,8 +4932,8 @@ width: 360px;
     width: 100%;
   }
   #m-selectpicker2-collapse{
-    left: 84%;
-    right: 3%;
+    left: 87%;
+    right: 0%;
   }
   #m-selectpicker2-collapse::before{
     right: 8px;
