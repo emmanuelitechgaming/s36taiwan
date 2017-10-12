@@ -489,7 +489,7 @@
         left: 65px;
     }
     .cl2 {
-        left: 167px;
+        left: 164px;
     }
     #myModal .modal-foot ul li {
         display: inline-block;
@@ -712,9 +712,6 @@
     }
     .lotto-sp-back-btn {
         bottom: -24px !important;
-    }
-    .cs-modal .modal-dialog {
-        margin: 0 auto;
     }
     .form-recap-right {
         text-align: center;
@@ -1369,7 +1366,7 @@
         padding: 3px 10px;
     }
     .cs-modal .chatserver-form button, #cscall {
-      width: 135px;
+      width: 100%;
     }
     .dl-body{
       padding-left: 0px;
@@ -1456,6 +1453,16 @@
     }
     .live-game {
       max-height: 300px;
+    }
+    .username-availability{
+      font-size: 14px;
+      top: 5px;
+    }
+    .cs-modal .modal-content {
+      padding: 0 0
+    }
+    #csMsg .close, #csPhone .close, #csModal .close{
+      right: 5px;
     }
 }
 
@@ -2359,7 +2366,7 @@
       left: 9px;
     }
     #csMsg .g-recaptcha, #csPhone .g-recaptcha{
-      left: -9px
+      left: -19px
     }
     #myModalTab1-1 .g-recaptcha {
       left: -13px;
@@ -2573,7 +2580,7 @@
       margin-right: 90px;
     }
     #csMsg .g-recaptcha, #csPhone .g-recaptcha {
-      left: -12px;
+      left: -22px;
     }
     .live-game.lg-angel-demon img{
       bottom: 12px;
@@ -3324,6 +3331,12 @@
   .cta-casino .absolute-play{
     right: 30%
   }
+  #csMsg .form-recap{
+    text-align: left;
+  }
+  #csMsg .g-recaptcha, #csPhone .g-recaptcha {
+    left: 1px;
+  }
 }
 
 
@@ -3341,7 +3354,7 @@
       }
 
     .form-recap-right p {
-        left: -55px;
+        left: auto;
         top: 0px;
     }
     .modal-panel-dialog {
@@ -3494,6 +3507,29 @@
   }
   .live-game {
     max-height: 228px;
+  }
+  #myModal .nav-tabs li.connecting-line {
+    width: 166px;
+  }
+  .cl1 {
+    left: 115px;
+  }
+  .cl2 {
+    left: 315px;
+  }
+  .username-availability{
+    font-size: 12px;
+    top: -5px;
+    left: -20px;
+  }
+  #myModal #myModalTab1-2 .g-recaptcha {
+    left: -22px;
+  }
+  #myModalTab1-1 .g-recaptcha{
+    left: -21px
+  }
+  #csPhone .form-recap{
+    text-align: left;
   }
 }
 
@@ -4749,6 +4785,9 @@ width: 360px;
   .g-recaptcha {
     left: -1px;
   }
+  #myModal #myModalTab1-2 .g-recaptcha {
+    left: -1px;
+  }
   #myModalTab1-1 .g-recaptcha {
     left: -9px;
   }
@@ -4950,6 +4989,22 @@ width: 360px;
   }
   .live-game {
     max-height: 304px;
+  }
+  #myModal .nav-tabs li.connecting-line {
+    width: 204px;
+  }
+  .cl1 {
+    left: 133px;
+  }
+  .cl2 {
+    left: 369px;
+  }
+  .username-availability{
+    left: auto;
+    top: 5px;
+  }
+  #csMsg .g-recaptcha, #csPhone .g-recaptcha {
+    left: 15px;
   }
 }
 
@@ -5380,5 +5435,25 @@ main .marquee {
   }
   .live-game {
     max-height: 400px;
+  }
+  #myModal .nav-tabs li.connecting-line {
+    width: 205px;
+  }
+  .cl1 {
+    left: 132px;
+  }
+  .cl2 {
+    left: 369px;
+  }
+  .username-availability{
+    font-size: 14px;
+    top: 5px;
+    left: auto;
+  }
+  .cs-modal .modal-content {
+    padding: 0 20px
+  }
+  #csMsg .close, #csPhone .close, #csModal{
+    right: -10px;
   }
 }

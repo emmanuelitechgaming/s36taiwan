@@ -3170,7 +3170,6 @@ span.round-tab i {
 
 .cs-modal .modal-content {
     color: #fff;
-    padding: 0 20px
 }
 
 .chatserver-form {
@@ -5162,7 +5161,7 @@ div.cta-contact-info a {
 #myModal .close {
     position: absolute;
     z-index: 999;
-    right: 10px;
+    right: 5px;
     top: -5px;
     font-size: 40px;
     color: #fff;
@@ -7866,10 +7865,8 @@ margin-right: 23px;
   border: solid 1px #3b3b3b
 }*/
 .username-availability{
-  font-size: 14px;
   color: #fba601;
   position: relative;
-  top: 5px;
 }
 .username-availability button{
   background: none;
@@ -8481,7 +8478,6 @@ border-bottom: 1px solid #333333;
   border-radius: 5px;
   color:#fff;
   text-align: justify;
-  -moz-text-align-last: center;
   text-align-last: center;
 }
 .main-casino-section .breadcrumb-inner{
@@ -10246,7 +10242,6 @@ input[type=email]:focus,input[type=password]:focus,input[type=text]:focus, texta
     background: -webkit-gradient(linear, left top, left bottom, from(#fba601), to(#feaf10));
     background: linear-gradient(#fba601, #feaf10);
     -webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 5px 0px 0px #906600, 0px 10px 5px #000!important;
--moz-box-shadow: inset 0px 1px 0px #ffbd03, 0px 5px 0px 0px #906600, 0px 10px 5px #000!important;
 -o-box-shadow: inset 0px 1px 0px #ffbd03, 0px 5px 0px 0px #906600, 0px 10px 5px #000!important;
 box-shadow: inset 0px 1px 0px #ffbd03, 0px 5px 0px 0px #906600, 0px 10px 5px #000!important;
 }
@@ -10254,7 +10249,7 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 5px 0px 0px #906600, 0px 10px 5px #00
   background: -webkit-gradient(linear, left top, left bottom, from(#fba601), to(#feaf10))!important;
   background: linear-gradient(#fba601, #feaf10)!important;
   webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
-  -moz-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
   -o-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
-  box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
+  -webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
+          box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
 }
