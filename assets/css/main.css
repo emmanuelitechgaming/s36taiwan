@@ -7287,7 +7287,7 @@ button .flag-icon-kr::before {
     background: rgba(204, 204, 204, 0.3);
     border-radius: 5px;
     font-size: 14px;
-    padding: 2px 12px;
+    padding: 3px 12px;
     border-color: #191919;
     -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
             box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
@@ -8523,14 +8523,17 @@ border-bottom: 1px solid #333333;
   color: inherit;
   text-decoration: none;
 }
+.buttonesnamalupet:active, .buttonesnamalupet:focus{
+
+}
 .casino-desc-bot .sp-btn-hidden:active, .btn-promotion:active, .casino-desc-bot .sp-btn-hidden:focus, .btn-promotion:focus, .btn-yellow:active, .btn-yellow:focus, .cs-modal .chatserver-form button:active, .cs-modal .chatserver-form button:focus, #cscall:active, #cscall:focus, .rss-submit-verification:active, .rss-submit-verification:focus, .sp-btn-hidden:active, .sp-btn-hidden:focus,
  .my-sweet-15 button:active, .my-sweet-15 button:focus, .btn-hidden:active, .btn-hidden:focus, .sweet-arrow:active, .sweet-arrow:focus{
-  -webkit-box-shadow: 0 0 5px #fba601!important;
-          box-shadow: 0 0 5px #fba601!important;
-  border: 1px solid #fba601!important;
-	background: rgba(204, 204, 204, 0.2); /* #161616 */
-  text-decoration: none;
-  color: #fff;
+   -webkit-box-shadow: inset 0px -1px 2px  #181818 !important;
+   box-shadow:inset 1px 1px 2px #181818 !important;
+   border: 1px solid #181818 !important;
+   background: rgba(86, 86, 86, 0.2) ;
+ text-decoration: none;
+ color: #fff;
 }
 
 .btn-tp a:hover, .rss-submit-verification:hover, .btn-hidden:hover, .sp-btn-hidden:hover, .cs-content .cta-cs a:hover, .btn.focus.btn-warning, .btn.btn-warning:focus, .btn.btn-warning:hover, .cs-modal .chatserver-form button:hover, #cscall:hover, .tdw-button button:hover{
@@ -10241,15 +10244,17 @@ input[type=email]:focus,input[type=password]:focus,input[type=text]:focus, texta
     font-weight: 700;
     background: -webkit-gradient(linear, left top, left bottom, from(#fba601), to(#feaf10));
     background: linear-gradient(#fba601, #feaf10);
-    -webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 5px 0px 0px #906600, 0px 10px 5px #000!important;
--o-box-shadow: inset 0px 1px 0px #ffbd03, 0px 5px 0px 0px #906600, 0px 10px 5px #000!important;
-box-shadow: inset 0px 1px 0px #ffbd03, 0px 5px 0px 0px #906600, 0px 10px 5px #000!important;
+    -webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000!important;
+-moz-box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000!important;
+-o-box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000!important;
+box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000!important;
 }
 .lg-playnow:active,.lg-playnow:focus{
   background: -webkit-gradient(linear, left top, left bottom, from(#fba601), to(#feaf10))!important;
   background: linear-gradient(#fba601, #feaf10)!important;
-  webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
-  -o-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
-  -webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
-          box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 5px 3px #000!important;
+  webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 0px 0px #000!important;
+  -moz-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 0px 0px #000!important;
+  -o-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 0px 0px #000!important;
+  box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 0px 0px #000!important;
+  border:0!important;
 }
