@@ -9113,8 +9113,7 @@ span.add-ico{
   font-weight: 700;
 }
 .boxer .step-no.steps{
-  height: 33px;
-  margin: 12px 0;
+  min-height: 50px;
   position: relative;
   top: 0px
 }
@@ -10275,4 +10274,20 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
   -webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 0px 0px #000!important;
           box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 0px 0px #000!important;
   border:0!important;
+}
+.boxer .steps{
+  width: 33.33333%
+
+}
+.bago-pages-casino .step-no{
+  text-align: left;
+}
+.boxer .steps.step-play{
+  text-align: right;
+}
+.boxer .steps.step-play img{
+  width: 30px;
+  display: block;
+  float: right;
+  margin: 0 auto;
 }
