@@ -1224,7 +1224,7 @@
     }
     .bago-pages .boxer  div.step-txt{
       text-align: LEFT;
-      width: 85px;
+
     }
     .njackpot-nwinner{
       display: none;
@@ -4497,8 +4497,9 @@ width: 360px;
      right: 15%;
     }
     .bago_nanaman .container{
-      width: 912px;
-      padding-right: 65px;
+      width: 948px;
+     padding-right: 10px;
+
     }
     .bago-afterlogin .container{
       margin-left: auto;
@@ -4705,7 +4706,7 @@ width: 360px;
     left: 91%;
   }
   .bago-pages .boxer-arrow::after, .bago-pages .boxer-arrow::after{
-    left: 98%;
+    left: 107%;
   }
   .bago_nanaman .col-md-3:nth-child(3) .boxer-arrow::after{
     left: 84%
@@ -4717,7 +4718,7 @@ width: 360px;
     content: ''
   }
   .boxer  div.step-txt{
-    margin: 0 20px;
+    margin: 0;
     text-align: left;
     padding: 0 0 0;
     padding-right: 35px;
