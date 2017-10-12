@@ -57,6 +57,9 @@ color: #ffffff;
 }
 .promotion > .inner > .content > p {
     margin: 0;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
 }
 .promotion p {
     font-size: 14px;
