@@ -326,6 +326,9 @@
     .swiper-slide a {
         padding: 5px 15px;
     }
+    .m-promo-tabs .swiper-slide a{
+      padding: 5px 20px
+    }
     .breadcrumb-inner .casino-g .content {
         bottom: 48px;
     }
@@ -1464,6 +1467,18 @@
     #csMsg .close, #csPhone .close, #csModal .close{
       right: 5px;
     }
+    .btn-promotion{
+      padding: 7px 10px;
+    }
+    .nav.navbar-nav.hidden-md.hidden-lg li:last-child .row .add-main-screen{
+      padding-left: 25px
+    }
+    .nav.navbar-nav.hidden-md.hidden-lg li:last-child .row{
+      font-size: 11px
+    }
+    #navbar-collapse-1 .logout{
+      font-size: 11px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2390,6 +2405,12 @@
     }
     .live-game {
       max-height: 396px;
+    }
+    .nav.navbar-nav.hidden-md.hidden-lg li:last-child .row{
+      font-size: 13px
+    }
+    #navbar-collapse-1 .logout{
+      font-size: 13px;
     }
 }
 
@@ -3530,6 +3551,12 @@
   }
   #csPhone .form-recap{
     text-align: left;
+  }
+  .nav.navbar-nav.hidden-md.hidden-lg li:last-child .row{
+    font-size: 15px
+  }
+  #navbar-collapse-1 .logout{
+    font-size: 15px;
   }
 }
 
@@ -5005,6 +5032,9 @@ width: 360px;
   }
   #csMsg .g-recaptcha, #csPhone .g-recaptcha {
     left: 15px;
+  }
+  .btn-promotion{
+    padding: 7px 25px;
   }
 }
 
