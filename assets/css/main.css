@@ -596,7 +596,8 @@ footer .footer-services ul.bank-icon>li {
     position: absolute;
     top: 0;
     z-index: 3;
-    right: 342px;
+    right: 333px;
+width: 20%;
 }
 
 footer .footer-services ul.payment-icon>li {
@@ -10024,7 +10025,7 @@ height: 30px!important;
   color: #fba601;
   letter-spacing: 1px;
 }
-.jackpot-winner span.cny, .trphy1{
+.jackpot-winner span.cny, .trphy1, span.cny{
   width: 35px;
   text-align: center;
   background: #ffa018;
@@ -10097,9 +10098,7 @@ height: 30px!important;
   color: #fba601;
   font-size: 28px;
 }
-.bs-slider-overlay{
-  display: none;
-}
+
 #navbar-collapse-1 .logout{
   background: transparent;
   max-width: 180px;
@@ -10283,4 +10282,25 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
   width: 30px;
   display: block;
   margin: 0 auto;
+}
+.malupet-nanaman{
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+
+.malupet-nanaman .flexslider{
+  margin: 0;
+  padding: 0!important;
+}
+
+.haaay .money-pool{
+  color: #fba601;
+  font-weight: 700;
+}
+.haynako{
+  display: block;
+}
+.haaay > div, .naakoo > div{
+  display: inline-block;
+  margin: 6px 10px;
 }
