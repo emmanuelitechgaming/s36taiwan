@@ -185,9 +185,9 @@ header .header-mobile > .hm-d {
 }
 
 main .mobile-banner {
-    text-align: center;
-    margin: 0 auto;
-
+  text-align: center;
+margin: 0 auto;
+width: 100%;
 }
 
 .mobile-banner-wrapper {
@@ -8058,7 +8058,8 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   left: 21px;
 }
 .mobile-banner .img-responsive{
-  border-bottom: solid 4px #4a4a4a
+  border-bottom: solid 4px #4a4a4a;
+  width:100%;
 }
 /*main .win-title-recent{
   border-bottom: 1px solid transparent
@@ -8479,6 +8480,9 @@ border-bottom: 1px solid #333333;
   padding: 10px 5px;
   border-radius: 5px;
   color:#fff;
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
 }
 .main-casino-section .breadcrumb-inner{
   padding-bottom: 20px
