@@ -4439,7 +4439,14 @@ width: 360px;
      right: 15%;
     }
     .bago_nanaman .container{
-      width: 945px;
+      width: 912px;
+      padding-right: 65px;
+    }
+    .bago-afterlogin .container{
+      margin-left: auto;
+      width: 937px;
+      padding-right: 0;
+      padding-left: 19px;
     }
 }
 
@@ -4636,7 +4643,7 @@ width: 360px;
     top: 3px
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
-    top: 10px;
+    top: 14px;
     left: 91%;
   }
   .bago-pages .boxer-arrow::after, .bago-pages .boxer-arrow::after{
@@ -4942,7 +4949,7 @@ width: 360px;
     padding-right: 0;
   }
   .live-game {
-    max-height: 323px;
+    max-height: 304px;
   }
 }
 
@@ -5261,8 +5268,8 @@ main .marquee {
     right: 29.5%;
   }
   .bago_nanaman .container{
-      width: 1295px;
-      padding-right: 0;
+    width: 1286px;
+    padding-right: 20px;
   }
   .bago-afterlogin .container{
     width: 1360px;
