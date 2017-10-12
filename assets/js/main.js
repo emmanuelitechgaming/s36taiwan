@@ -1220,3 +1220,7 @@ $('#datepicker-from').datepicker({
 $('#datepicker-to').datepicker({
     autoclose: true
 });
+$(".dl-area").click(function() {
+    // window.location = "dl.html";
+    alert();
+});
