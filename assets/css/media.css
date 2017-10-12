@@ -1403,7 +1403,7 @@
       width: 135px;
     }
     .sweet-arrow::before {
-      right: 40px;
+     right: 15px;
     }
     .live-game ul li{
       font-size: 17px;
