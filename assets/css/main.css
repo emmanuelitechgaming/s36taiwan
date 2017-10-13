@@ -8894,7 +8894,7 @@ span.add-ico{
   background: url('../img/dl-bg.jpg') no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  padding: 6px 0;
+  padding: 4.7px 0;
   border: solid 2px #333;
   cursor: pointer;
 }
@@ -10331,8 +10331,67 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
 }
 .haaay > div, .naakoo > div{
   display: inline-block;
-  margin: 6px 10px;
+  margin: 6px 20px;
 }
 .step-txt div{
   text-align: left;
+}
+.carousel .container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.carousel .banner-text{
+  position: absolute;
+  top: 13%;
+  right: 5%;
+  width: 465px;
+  background: rgba(36, 32, 25, 0.8);
+  border: 1px solid #2d2d2d;
+  border-radius: 5px;
+}
+.banner-text .title{
+  font-size: 40px;
+  line-height: 40px;
+  color: #fba601;
+  border-bottom: 1px solid #000;
+  padding: 15px 20px;
+}
+.banner-text .content{
+  border-top: 1px solid #2d2d2d;
+  padding: 15px 20px;
+  font-size: 20px;
+  letter-spacing: 1px
+}
+.banner-text .content-promo{
+  font-size: 19px;
+}
+.banner-text ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  top: 10px
+}
+.banner-text ul li{
+  float: left;
+}
+.banner-text ul li img{
+  max-width: 70%;
+  margin: 0px auto;
+  margin-right: 0;
+}
+.mnav-top ul li:first-child{
+  position: relative;
+}
+.mnav-top ul li:first-child::before{
+  content: '';
+  position: absolute;
+  top: -14px;
+  bottom: 15px;
+  left: -4px;
+  right: 1px;
+  background: #1b1b1b
 }
