@@ -3407,10 +3407,14 @@ width: 275px;
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
-  .haaay > div, .naakoo > div{
+  .haaay > div{
     display: inline-block;
-    margin: 6px 10px;
+    margin: 5px 17px;
   }
+   .naakoo > div{
+     margin: 5px 1px;
+   }
+
   .malupet-nanaman h4{
     font-size: 18px;
     margin: 10px 0;
@@ -5148,7 +5152,7 @@ width: 380px;
   }
   .malupet-nanaman h4 {
     font-size: 17px;
-    margin: 1px 0;
+    margin: 7px 0;
 }
   .haynako {
     font-size: 16px;
