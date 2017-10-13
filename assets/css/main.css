@@ -9054,6 +9054,7 @@ span.add-ico{
 .bago_nanaman .boxer{
   vertical-align: middle;
   padding: 0 0;
+  cursor: pointer;
 }
 .bago_nanaman .boxer-last::after{
   content: none !important
@@ -10304,7 +10305,7 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
   border:0!important;
 }
 .boxer .steps{
-  width: 33.33333%
+  width: 25%
 
 }
 .boxer .steps.step-play img{

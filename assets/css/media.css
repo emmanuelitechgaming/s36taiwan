@@ -5471,17 +5471,17 @@ main .marquee {
     margin-left: auto;
   }
   .bago-pages-casino .container{
-    width: 1254px;
-     padding-left: 10px;
+    width: 1373px;
+    padding-right: 2px;
 
   }
   .bago-pages-slots .container{
-    width: 1260px;
-    padding-left: 15px;
+    width: 1373px;
+      padding-right: 2px;
   }
   .bago-pages-lotto .container{
-    width: 1260px;
-    padding-left: 15px;
+    width: 1373px;
+    padding-right: 2px;
   }
   .drop {
       right: 17.89%;
