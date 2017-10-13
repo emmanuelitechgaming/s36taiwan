@@ -10011,16 +10011,16 @@ height: 30px!important;
 }
 .add-main-screen{
   display: block;
-  width: 100%;
-  border: none;
-  background: #333 url('../img/add-desktop.png') no-repeat;
-  background-size: 32px 32px;
-  background-position: 0% 0%;
-  color: #fff;
-  padding: 6px 0;
-  border-radius: 5px;
-  max-width: 180px;
-  margin: 0px auto
+      width: 100%;
+      border: none;
+      background: #333 url(../img/add-desktop.png) no-repeat;
+      background-size: 25px 25px;
+      background-position: 4%;
+      color: #fff;
+      padding: 6px 0;
+      border-radius: 5px;
+      max-width: 180px;
+      margin: 0px auto;
 }
 .nav.navbar-nav.hidden-md.hidden-lg li:last-child .row .add-main-screen{
   background-size: 27px 27px;
@@ -10137,7 +10137,8 @@ height: 30px!important;
   color: #fff;
   text-align: center;
   background: #333 url('../img/afterlogin/4-hover2.png') no-repeat;
-  background-size: 27px 27px;
+  background-size: 25px 25px;
+background-position: 4%;
   line-height: normal;
 }
 #navbar-collapse-1 .logout img{
@@ -10395,6 +10396,23 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
 .mnav-top ul li:first-child{
   position: relative;
 }
+.mnav-top ul li:first-child::before{
+  content: '';
+  position: absolute;
+  top: -14px;
+  bottom: 15px;
+  left: -4px;
+  right: 1px;
+}
+.mnav-top ul li:first-child::before{
+  content: '';
+  position: absolute;
+  top: -14px;
+  bottom: 15px;
+  left: -4px;
+  right: 1px;
+  background: #1b1b1b
+}
 .promotion-bar{
   background: #161616;
 }
@@ -10424,6 +10442,7 @@ background: #fba601;
 text-align: center;
 font-weight: 700;
     padding: 5px 45px;
+  text-decoration: none;
 }
 .promo-steps{
   text-align: center;
