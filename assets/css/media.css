@@ -1504,6 +1504,15 @@ width: 320px;
     .boxer .steps.step-play img{
       float: left;
     }
+    .mnav-top ul li:first-child::before{
+      content: '';
+      position: absolute;
+      top: -14px;
+      bottom: 15px;
+      left: -4px;
+      right: 1px;
+      background: #1b1b1b
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -5121,6 +5130,9 @@ width: 320px;
   }
   .boxer .steps.step-play img{
     float: right;
+  }
+  .mnav-top ul li:first-child::before{
+    content: none;
   }
 }
 
