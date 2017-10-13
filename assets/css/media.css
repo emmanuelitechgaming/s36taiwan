@@ -1459,7 +1459,7 @@
     .cs-modal .modal-content {
       padding: 0 0
     }
-    #csMsg .close, #csPhone .close, #csModal .close{
+    #csMsg .close, #csPhone .close, #csModal .close, #demoModal .close{
       right: 5px;
     }
     .btn-promotion{
