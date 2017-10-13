@@ -189,9 +189,9 @@ main .mobile-banner {
   margin: 0 auto;
   width: 100%;
 }
-main .mobile-banner img{
+/*main .mobile-banner img{
   display: none
-}
+}*/
 .mobile-banner-wrapper {
     position: relative;
 }
@@ -9106,10 +9106,11 @@ span.add-ico{
 .boxer .content p{
   color: #fff
 }
-.boxer .step-no{
+ .step-no{
   font-family: Tungsten;
   position: relative;
   top: 0;
+  letter-spacing: 2px;
   color: #fff;
   font-weight: 700;
 }
@@ -9174,7 +9175,7 @@ span.add-ico{
   height: 35px;
   width: 35px;
 }
-.bago_nanaman .step-no{
+ .step-no{
   color: #fba601;
 }
 
@@ -9209,7 +9210,7 @@ span.add-ico{
 .boxer-last a:hover, .boxer-last a:active, .boxer-last a:focus, .boxer-last a:visited, .bs-slider-overlay a:hover, .bs-slider-overlay a:active, .bs-slider-overlay a:focus, .bs-slider-overlay a:visited{
   text-decoration: none;
 }
-.boxer-last a::after{
+.promo-link a::after{
   content: '';
   display: inline-block;
   background: url('../img/arrow-right.png') no-repeat;
@@ -9218,7 +9219,7 @@ span.add-ico{
   margin-left: 5px;
   position: relative;
 }
-.boxer-last .arrow-right-brown::after{
+.promo-link .arrow-right-brown::after{
   background: url('../img/arrow-right-brown.png') no-repeat;
   background-size: contain;
 }
@@ -10307,7 +10308,7 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
 
 }
 .boxer .steps.step-play img{
-  width: 30px;
+  width: 23px;
   display: block;
   margin: 0 auto;
 }
@@ -10323,9 +10324,14 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
 .naakoo .uname{
   width: 100px;
 }
+.haaay .placing{
+  width: 28px;
+}
 .haaay .money-pool{
   color: #fba601;
+  letter-spacing: 2px;
   font-weight: 700;
+  width: 148px;
 }
 .haynako{
   display: block;
@@ -10335,5 +10341,42 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
   margin: 6px 10px;
 }
 .step-txt div{
+  text-align: left;
+}
+.promotion-bar{
+  background: #161616;
+}
+.promotion-bar .col-xs-4{
+  padding-right: 1px;
+  padding-left: 1px;
+}
+.promo-steps div{
+  display: inline-block;
+}
+.promo-steps .step-txt{
+  text-shadow: 1px 1px 3px #000;
+  letter-spacing: 1px;
+}
+.promo-steps.promo-link{
+  line-height: 50px;
+}
+.promo-link a{
+  color: #573601;
+background: none;
+margin-top: 0;
+-webkit-box-shadow: none;
+box-shadow: none;
+border-radius: 5PX;
+margin-bottom: 0;
+background: #fba601;
+text-align: center;
+font-weight: 700;
+    padding: 5px 45px;
+}
+
+.promo-steps{
+  text-align: center;
+}
+.promo-steps .step-txt{
   text-align: left;
 }

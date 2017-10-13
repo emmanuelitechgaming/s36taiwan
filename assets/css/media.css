@@ -9,6 +9,9 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
+  .promo-steps .step-txt {
+    font-size: 10px;
+}
   .haaay > div, .naakoo > div{
     display: inline-block;
     margin: 3px 4px;
@@ -1167,7 +1170,7 @@ width: 320px;
       padding-left: 5px;
       padding-right: 5px;
     }
-    .boxer-last a{
+    .promo-link{
       display: inline-block;
       width: 33.33333%;
     }
@@ -1217,11 +1220,11 @@ width: 320px;
     .bago_nanaman .col-6:nth-child(3) .boxer::after{
       content: none
     }
-    .boxer-last a{
+    .promo-link{
       font-size: 16px;
       min-width: 230px;
     }
-    .boxer-last a::after{
+    .promo-link::after{
       width: 14px;
       height: 16px;
       bottom: 1px
@@ -1279,7 +1282,7 @@ width: 320px;
       padding-left: 5px;
       padding-right: 5px
     }
-    .boxer .step-no{
+    .step-no{
       font-size: 2.5em;
 
     }
@@ -1330,13 +1333,13 @@ width: 320px;
       position: relative;
       left: 15px
     }
-    .boxer .step-no.step1, .boxer .step-no.step2, .boxer .step-no.step3, .boxer .step-no.step4{
+    .step-no.step1, .step-no.step2, .step-no.step3, .step-no.step4{
       position: relative;
     }
     header .navbar {
       margin-bottom: -3px;
     }
-    .boxer .step-no.step1, .boxer .step-no.step2, .boxer .step-no.step3, .boxer .step-no.step4{
+    .step-no.step1, .step-no.step2, .step-no.step3, .step-no.step4{
       width: 28px;
       background-position: center;
     }
@@ -1493,10 +1496,10 @@ width: 320px;
       font-size: 11px;
     }
     .bago-pages .step-no{
-      text-align: right;
+      text-align: center;
     }
     .boxer .steps.step-play{
-      text-align: left;
+      text-align: center;
     }
     .boxer .steps.step-play img{
       float: left;
@@ -1736,7 +1739,7 @@ width: 320px;
     .bago_nanaman .boxer-last {
       line-height: 32px;
     }
-    .boxer-last a{
+    .promo-link{
       font-size: 16px;
       min-width: 222px;
     }
@@ -1791,6 +1794,9 @@ width: 320px;
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 375px) {
+  .promo-steps .step-txt {
+    font-size: 12px;
+}
     .modal-panel-dialog {
         width: auto;
     }
@@ -2062,7 +2068,7 @@ width: 320px;
       left: 49px;
       bottom: -12px;
     }
-    .boxer-last a{
+    .promo-link{
       min-width: 275px;
     }
     .boxer div span{
@@ -2079,7 +2085,7 @@ width: 320px;
     .bago-pages .boxer{
       white-space: nowrap;
     }
-    .boxer .step-no{
+    .step-no{
       font-size: 3em;
     }
     .live-game .title{
@@ -2362,11 +2368,11 @@ width: 320px;
       width: 20px;
       height: 23px;
     }
-    .boxer-last a{
+    .promo-link{
       font-size: 18px;
       min-width: 250px
     }
-    .boxer-last a::after{
+    .promo-link::after{
       width: 16px;
       height: 18px;
     }
@@ -3000,10 +3006,10 @@ width: 275px;
       height: 16px;
       top: 3px;
     }
-    .boxer-last a{
+    .promo-link{
       font-size: 18px;
     }
-    .boxer-last a::after{
+    .promo-link::after{
       width: 18px;
       height: 20px;
     }
@@ -4572,9 +4578,17 @@ width: 360px;
 
 @media only screen and (min-width: 1024px) {
   .banner-overlay{
+    top: 0;
     right: -63%;
-width: 28%;
+width: 320px;
   }
+  .malupet-nanaman h4 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+  .haynako {
+    font-size: 15px;
+}
   /*.container{
     width: 1024px;
   }*/
@@ -4716,7 +4730,7 @@ width: 28%;
     padding-right: 0;
 
   }
-  .boxer-last a{
+  .promo-link{
     display: inline-block;
     padding: 0 0;
     width: 175px!important;
@@ -4745,11 +4759,11 @@ width: 28%;
   .bago-pages .col-xs-12:last-child .boxer::after{
     content: none
   }
-  .boxer-last a{
+  .promo-link{
     font-size: 18px;
     min-width: auto
   }
-  .boxer-last a::after{
+  .promo-link::after{
     width: 20px;
     height: 24px;
   }
@@ -4817,7 +4831,7 @@ width: 28%;
     padding: 0 0 0;
     text-align: center;
   }
-  .boxer .step-no{
+  .step-no{
     font-size: 2.5em;
   }
   .gp-more2 img {
@@ -4880,18 +4894,18 @@ width: 28%;
   #myModalTab1-1 .g-recaptcha {
     left: -9px;
   }
-  .bago-afterlogin .boxer .step-no.step1{
+  .bago-afterlogin .step-no.step1{
     margin-right: auto
   }
-  .bago-afterlogin .boxer .step-no.step2{
+  .bago-afterlogin .step-no.step2{
     margin-right: 2auto;
     left: auto
   }
-  .bago-afterlogin .boxer .step-no.step3{
+  .bago-afterlogin .step-no.step3{
     margin-right: auto;
     left: auto
   }
-  .bago-afterlogin .boxer .step-no.step4{
+  .bago-afterlogin .step-no.step4{
     margin-right: auto;
     left: auto
   }
@@ -4905,7 +4919,7 @@ width: 28%;
   .live-game ul {
     bottom: 22%;
   }
-  .boxer .step-no.step1, .boxer .step-no.step2, .boxer .step-no.step3, .boxer .step-no.step4{
+  .step-no.step1, .step-no.step2, .step-no.step3, .step-no.step4{
     width: 38px;
   }
   .td-week-netbet-holder{
@@ -5124,7 +5138,7 @@ width: 380px;
   }
   .malupet-nanaman h4 {
     font-size: 17px;
-    margin: 5px 0;
+    margin: 1px 0;
 }
   .haynako {
     font-size: 16px;
@@ -5501,7 +5515,7 @@ main .marquee {
     font-size: 40px;
     line-height: 40px;
   }
-  .boxer-last a{
+  .promo-link{
     margin-right: 68px;
   }
   .dl-area{
