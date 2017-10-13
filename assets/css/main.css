@@ -9586,6 +9586,10 @@ span.add-ico{
     font-family: Tungsten;
     src: url(../fonts/Tungsten-Semibold.ttf);
 }
+@font-face {
+    font-family: Consolas;
+    src: url(../fonts/Consolas.ttf);
+}
 .m-selectpicker2 span{
   display: inline-block;
   width: 24px;
