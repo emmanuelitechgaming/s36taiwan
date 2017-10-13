@@ -512,6 +512,22 @@ $(document).ready(function () {
       })
     });
 
+    $('.mnav-top a').click(function() {
+      if($(this).find('img').attr('src') == 'assets/img/register_25-hover.png'){
+        $('#myModal').modal('hide');
+        $('a[href="#myModalTab1-2"').tab('show');
+        $('a[href="#myModalTab1-2"').on('shown.bs.tab', function (e) {
+          $('#myModal').modal('show');
+        })
+      }else if($(this).find('img').attr('src') == 'assets/img/lock_25-hover.png') {
+        $('#myModal').modal('hide');
+        $('a[href="#myModalTab1-1"').tab('show');
+        $('a[href="#myModalTab1-1"').on('shown.bs.tab', function (e) {
+          $('#myModal').modal('show');
+        })
+      }
+    })
+
     var showAlert = true;
     $('#myModal').on('show.bs.modal', function(e) {
       if(showAlert == true){
