@@ -475,9 +475,7 @@ width: 320px;
     .promo-offer {
         width: 25%
     }
-    .breadcrumb-content .promo-body .live-game .promo-links a {
-        margin: 5px 5px 5px 0;
-    }
+
     .reg-now img {
         width: 100% !important;
         margin-top: 0 !important;
@@ -1170,7 +1168,7 @@ width: 320px;
       padding-left: 5px;
       padding-right: 5px;
     }
-    .promo-link{
+    .boxer-last a{
       display: inline-block;
       width: 33.33333%;
     }
@@ -1220,11 +1218,11 @@ width: 320px;
     .bago_nanaman .col-6:nth-child(3) .boxer::after{
       content: none
     }
-    .promo-link{
+    .boxer-last a{
       font-size: 16px;
       min-width: 230px;
     }
-    .promo-link::after{
+    .boxer-last a::after{
       width: 14px;
       height: 16px;
       bottom: 1px
@@ -1748,7 +1746,7 @@ width: 320px;
     .bago_nanaman .boxer-last {
       line-height: 32px;
     }
-    .promo-link{
+    .boxer-last a{
       font-size: 16px;
       min-width: 222px;
     }
@@ -2077,7 +2075,7 @@ width: 320px;
       left: 49px;
       bottom: -12px;
     }
-    .promo-link{
+    .boxer-last a{
       min-width: 275px;
     }
     .boxer div span{
@@ -2377,11 +2375,11 @@ width: 320px;
       width: 20px;
       height: 23px;
     }
-    .promo-link{
+    .boxer-last a{
       font-size: 18px;
       min-width: 250px
     }
-    .promo-link::after{
+    .boxer-last a::after{
       width: 16px;
       height: 18px;
     }
@@ -3015,10 +3013,10 @@ width: 275px;
       height: 16px;
       top: 3px;
     }
-    .promo-link{
+    .boxer-last a{
       font-size: 18px;
     }
-    .promo-link::after{
+    .boxer-last a::after{
       width: 18px;
       height: 20px;
     }
@@ -3961,7 +3959,7 @@ width: 360px;
     .promo-offer {
         width: auto
     }
-    .breadcrumb-content .promo-body .live-game .promo-links a {
+    .breadcrumb-content .promo-body .live-game .boxer-last as a {
         margin: 5px 10px 5px 10px;
     }
     .promo-img {
@@ -4739,11 +4737,11 @@ width: 320px;
     padding-right: 0;
 
   }
-  .promo-link{
+  .boxer-last a{
     display: inline-block;
-    padding: 0 0;
-    width: 175px!important;
-    margin: 0px auto;
+      padding: 0 0;
+      width: 223px!important;
+      margin: 0px auto;
   }
   .bs-slider-overlay a{
     font-size: 13px;
@@ -4768,11 +4766,11 @@ width: 320px;
   .bago-pages .col-xs-12:last-child .boxer::after{
     content: none
   }
-  .promo-link{
+  .boxer-last a{
     font-size: 18px;
     min-width: auto
   }
-  .promo-link::after{
+  .boxer-last a::after{
     width: 20px;
     height: 24px;
   }
@@ -5463,7 +5461,7 @@ main .marquee {
     right: 29.5%;
   }
   .bago_nanaman .container{
-    width: 1286px;
+    width: 1335px;
     padding-right: 20px;
   }
   .bago-afterlogin .container{
@@ -5528,7 +5526,7 @@ main .marquee {
     font-size: 40px;
     line-height: 40px;
   }
-  .promo-link{
+  .boxer-last a{
     margin-right: 68px;
   }
   .dl-area{
