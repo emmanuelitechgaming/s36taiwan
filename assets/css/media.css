@@ -5118,9 +5118,17 @@ width: 28%;
 }
 @media only screen and (min-width: 1200px) {
   .banner-overlay{
+    top: 0;
     right: -44%;
 width: 380px;
   }
+  .malupet-nanaman h4 {
+    font-size: 17px;
+    margin: 5px 0;
+}
+  .haynako {
+    font-size: 16px;
+}
   .rss-field .form-group:nth-child(1) input {
       width: 350px !important
   }
