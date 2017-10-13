@@ -596,8 +596,7 @@ footer .footer-services ul.bank-icon>li {
     position: absolute;
     top: 0;
     z-index: 3;
-    right: 333px;
-width: 20%;
+
 }
 
 footer .footer-services ul.payment-icon>li {
@@ -9121,30 +9120,58 @@ span.add-ico{
 .boxer .step-no.stepA{
   background: url('../img/dl/1.png') no-repeat;
   background-size: contain;
+  background-position: 0px;
+  margin: 0 10px;
+  height: 35px;
+  width: 35px;
 }
 .boxer .step-no.stepB{
   background: url('../img/dl/2.png') no-repeat;
   background-size: contain;
+  background-position: 0px;
+  margin: 0 10px;
+  height: 35px;
+  width: 35px;
 }
 .boxer .step-no.stepC{
   background: url('../img/dl/3.png') no-repeat;
   background-size: contain;
+  background-position: 0px;
+  margin: 0 10px;
+  height: 35px;
+  width: 35px;
 }
 .boxer .step-no.step1{
   background: url('../img/step1.png') no-repeat;
   background-size: contain;
+  background-position: 0px;
+  margin: 0 10px;
+  height: 35px;
+  width: 35px;
 }
 .boxer .step-no.step2{
   background: url('../img/step2.png') no-repeat;
   background-size: contain;
+  background-position: 0px;
+  margin: 0 10px;
+  height: 35px;
+  width: 35px;
 }
 .boxer .step-no.step3{
   background: url('../img/step3.png') no-repeat;
   background-size: contain;
+  background-position: 0px;
+  margin: 0 10px;
+  height: 35px;
+  width: 35px;
 }
 .boxer .step-no.step4{
   background: url('../img/step4.png') no-repeat;
   background-size: contain;
+  background-position: 0px;
+  margin: 0 10px;
+  height: 35px;
+  width: 35px;
 }
 .bago_nanaman .step-no{
   color: #fba601;
@@ -10292,7 +10319,9 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
   margin: 0;
   padding: 0!important;
 }
-
+.naakoo .uname{
+  width: 100px;
+}
 .haaay .money-pool{
   color: #fba601;
   font-weight: 700;
@@ -10303,4 +10332,7 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
 .haaay > div, .naakoo > div{
   display: inline-block;
   margin: 6px 10px;
+}
+.step-txt div{
+  text-align: left;
 }
