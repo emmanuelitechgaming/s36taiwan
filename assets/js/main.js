@@ -949,7 +949,8 @@ $(document).ready(function () {
         direction: 'vertical',
         slideshowSpeed: '5000',
         controlNav: false,
-        directionNav: false
+        directionNav: false,
+        touch:false
       });
       $('.malupetnaflexslider .flexslider').flexslider({
         animation: 'slide',
@@ -963,7 +964,8 @@ $(document).ready(function () {
         direction: 'vertical',
         slideshowSpeed: '5000',
         controlNav: false,
-        directionNav: false
+        directionNav: false,
+        touch:false
       });
 
       $('.top1 .flexslider').flexslider({
@@ -1006,6 +1008,7 @@ $(document).ready(function () {
         slideshowSpeed: '4000',
         controlNav: false,
         directionNav: false,
+        touch:false
       });
       $('.tab .flexslider').flexslider({
         animation: 'slide ',
