@@ -16,12 +16,13 @@
 
 .bs-slider > .carousel-inner > .item > img,
 .bs-slider > .carousel-inner > .item > a > img {
-    margin: auto;
-    max-width: inherit;
-    position: relative;
-    left: 50%;
-    -ms-transform: translate(-50%);
-    transform: translate(-50%);
+  margin: auto;
+max-width: inherit;
+position: relative;
+left: 50%;
+-ms-transform: translate(-50%);
+transform: translate(-50%);
+margin: 0;
 }
 
 /********************
@@ -32,6 +33,7 @@
     opacity: 1;
 }
 .fade .item {
+  background: #000000;
     top: 0;
     z-index: 1;
     opacity: 0;
@@ -50,6 +52,8 @@
     position: relative;
 }
 .fade .item.active {
+    margin: 0 auto;
+    text-align: center;
     opacity: 1;
     z-index: 2;
     -webkit-transition: opacity ease-in-out 1s;

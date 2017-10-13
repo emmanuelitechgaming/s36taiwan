@@ -2653,7 +2653,7 @@ width: 275px;
         position: fixed;
         cursor: pointer;
         bottom: 8px;
-        z-index: 2;
+        z-index: 10;
         -webkit-transition: right 1s;
         transition: right 1s;
     }
@@ -5461,8 +5461,9 @@ main .marquee {
     margin-left: auto;
   }
   .bago-pages-casino .container{
-    width: 1260px;
-    padding-left: 15px;
+    width: 1254px;
+     padding-left: 10px;
+
   }
   .bago-pages-slots .container{
     width: 1260px;
