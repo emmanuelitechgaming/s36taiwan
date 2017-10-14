@@ -2086,7 +2086,6 @@ div#tab2.tab-pane.active p a:first-child{
                          </div>
                      </div>
                  </div>
-                 <div class="comment-close text-right"><a href="#"><i class="fa fa-times"> </i> Close</a></div>
                </div>
 
                <h4 class="title-inside with-accordion">Microsoft Internet Explorer</h4>
@@ -2251,10 +2250,10 @@ div#tab2.tab-pane.active p a:first-child{
                            <div class="clear">
                            </div>
                        </div>
+                       <div class="comment-close text-right"><a href="javascript:void(0)"><i class="fa fa-times"> </i> Close</a></div>
                      </div>
                    </div>
                  </div>
-                 <div class="comment-close text-right"><a href="#"><i class="fa fa-times"> </i> Close</a></div>
                </div>
 
                <h4 class="title-inside with-accordion">Mozilla Firefox</h4>
@@ -2292,7 +2291,6 @@ div#tab2.tab-pane.active p a:first-child{
                            <div class="clear">
                            </div>
                        </div>
-                       <div class="comment-close text-right"><a href="#"><i class="fa fa-times"> </i> Close</a></div>
                      </div>
 
                      <h5 class="title-inside with-accordion">Firefox 3.x (Windows 版)</h5>
@@ -2307,7 +2305,6 @@ div#tab2.tab-pane.active p a:first-child{
                            <div class="clear">
                            </div>
                        </div>
-                       <div class="comment-close text-right"><a href="#"><i class="fa fa-times"> </i> Close</a></div>
                      </div>
 
                      <h5 class="title-inside with-accordion">Firefox 3.x 和 3.5.x (Mac OS X 版)</h5>
@@ -2324,7 +2321,6 @@ div#tab2.tab-pane.active p a:first-child{
                            <div class="clear">
                            </div>
                        </div>
-                       <div class="comment-close text-right"><a href="#"><i class="fa fa-times"> </i> Close</a></div>
                      </div>
 
                      <div class="lh002">
@@ -2352,7 +2348,6 @@ div#tab2.tab-pane.active p a:first-child{
                            <div class="clear">
                            </div>
                        </div>
-                       <div class="comment-close text-right"><a href="#"><i class="fa fa-times"> </i> Close</a></div>
                      </div>
 
                      <h5 class="title-inside with-accordion">Firefox 3.5.x (Mac OS X 版)</h5>
@@ -2375,7 +2370,6 @@ div#tab2.tab-pane.active p a:first-child{
                            <div class="clear">
                            </div>
                        </div>
-                       <div class="comment-close text-right"><a href="#"><i class="fa fa-times"> </i> Close</a></div>
                      </div>
 
                      <h5 class="title-inside with-accordion">Firefox 3.x (Windows 版)</h5>
@@ -2393,7 +2387,6 @@ div#tab2.tab-pane.active p a:first-child{
                            <div class="clear">
                            </div>
                        </div>
-                       <div class="comment-close text-right"><a href="#"><i class="fa fa-times"> </i> Close</a></div>
                      </div>
 
                      <h5 class="title-inside with-accordion">Firefox 3.x (Mac OS X 版)</h5>
@@ -2411,7 +2404,6 @@ div#tab2.tab-pane.active p a:first-child{
                            <div class="clear">
                            </div>
                        </div>
-                       <div class="comment-close text-right"><a href="#"><i class="fa fa-times"> </i> Close</a></div>
                      </div>
                    </div>
                  </div>
@@ -4904,7 +4896,8 @@ div#tab2.tab-pane.active p a:first-child{
         $(this).closest('.nested-accordion').find('h3').removeClass('selected')
       })
 
-      $('.nested-accordion-inside .comment-close a').click(function() {
+      $('.nested-accordion-inside .comment-close a').click(function(e) {
+        e.preventDefault();
         $(this).closest('.comment').toggle();
       })
 
