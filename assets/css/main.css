@@ -9765,13 +9765,13 @@ header #m-selectpicker2-collapse ul li{
 }
 .flexslider tr .title::after{
   content: '';
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: -2px;
-  height: 2px;
-  border-top: solid 1px #000;
-  border-bottom: solid 1px #303030
+      position: absolute;
+      right: 0;
+      left: 0;
+      bottom: -1px;
+      height: 2px;
+      border-top: solid 1px #000;
+      border-bottom: solid 1px #3e3e3e;
 }
 .flexslider .title{
   border-bottom: 1px solid transparent !important;
