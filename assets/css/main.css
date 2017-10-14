@@ -4847,7 +4847,6 @@ left: 47%;
 
 .btn-warning2 {
     color: #fff !important;
-    font-weight: 700
 }
 
 .modal-bottom {
@@ -5547,9 +5546,9 @@ div.cta-contact-info a {
     height: 29px;
 }
 .mnav-top ul li:nth-child(2) a img{
-  height: 31px;
+  height: 33px;
   position: relative;
-  top: 1px;
+  top: 2px;
 }
 .mnav-afterlogin ul li a img {
   height: 29px;
@@ -7498,17 +7497,17 @@ button .flag-icon-kr::before {
 
 .sweet-arrow {
     background-color: rgba(204 ,204, 204, 0.3) !important;
-    font-size: 17px;
-    padding: 3px 16px;
-    padding-right: 40px;
+    font-size: 14px;
+    padding: 4.5px 16px;
+    padding-right: 35px;
     border:1px solid #191919 !important
 }
 
 .sweet-arrow::before {
   content: ' ';
   display: inline-block;
-  width: 17px;
-  height: 17px;
+  width: 15px;
+  height: 15px;
   background: url(../img/arrow-right-30.png) no-repeat;
   background-size: cover;
   position: absolute;
@@ -9322,9 +9321,9 @@ span.add-ico{
 .my-sweet-15 button{
   color: #fff !important;
   font-weight: normal;
-  font-size: 17px;
-  padding: 3px 16px;
-  padding-right: 40px;
+  font-size: 14px;
+  padding: 4.4px 16px;
+  padding-right: 35px;
   border-color: rgba(204, 204, 204, 0.3);
   -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
           box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
@@ -9344,7 +9343,7 @@ span.add-ico{
 }
 .top-header ul{
   margin-right: -1px;
-
+  position: relative;
 }
 .bago_nanaman .boxer .bx1){
   text-align: left!important;

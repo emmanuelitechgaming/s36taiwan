@@ -1422,7 +1422,7 @@ width: 320px;
       width: 135px;
     }
     .sweet-arrow::before {
-     right: 15px;
+     right: 40px;
     }
     .live-game ul li{
       font-size: 17px;
@@ -5504,7 +5504,7 @@ main .marquee {
     padding-right: 2px;
   }
   .drop {
-      right: 17.89%;
+      right: 7px;
   }
   .boxer .number{
     display: inline-block;
