@@ -504,13 +504,21 @@ $(document).ready(function () {
       $('a[href="#myModalTab1-1"').tab('show');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/sp/reg-btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"], img[src="assets/img/register.png"], img[src="assets/img/register_25-hover.png"]').click(function() {
+    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/sp/reg-btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"], img[src="assets/img/register.png"], a img[src="assets/img/register_25-hover.png"]').click(function() {
       $('#myModal').modal('hide');
       $('a[href="#myModalTab1-2"').tab('show');
       $('a[href="#myModalTab1-2"').on('shown.bs.tab', function (e) {
         $('#myModal').modal('show');
       })
     });
+
+    $('.basta').click(function() {
+      $('#myModal').modal('hide');
+      $('a[href="#myModalTab1-2"').tab('show');
+      $('a[href="#myModalTab1-2"').on('shown.bs.tab', function (e) {
+        $('#myModal').modal('show');
+      })
+    })
 
     $('.mnav-top a').click(function() {
       if($(this).find('img').attr('src') == 'assets/img/register_25-hover.png'){
