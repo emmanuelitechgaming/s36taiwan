@@ -18,7 +18,7 @@
   }
   .malupet-nanaman h4{
     font-size: 14px;
-    margin: 5px 0;
+    margin: 3px 0;
   }
   .haynako{
     font-size: 12px;
@@ -1511,6 +1511,12 @@ width: 320px;
       right: 1px;
       background: #1b1b1b
     }
+    .malupet-nanaman{
+      padding: 5px 10px 0px 10px;
+    }
+    .index-mobile-banner{
+      min-height: 170px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -1794,6 +1800,9 @@ width: 320px;
     }
     .live-game {
       max-height: 341px;
+    }
+    .malupet-nanaman {
+      padding: 5px 10px 4px 10px;
     }
 }
 
@@ -2135,6 +2144,9 @@ width: 320px;
     .live-game {
       max-height: 356px;
     }
+    .index-mobile-banner{
+      max-height: 174px !important
+    }
 }
 
 
@@ -2452,11 +2464,10 @@ width: 320px;
 @media only screen and (min-width: 414px) {
   .banner-overlay{
     margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
-top: 6%;
-width: 275px;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 275px;
   }
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
         width: 75px !important;
@@ -3424,8 +3435,10 @@ width: 275px;
   }
   .banner-overlay{
     right: 0;
-    top: 8%;
     width: 380px;
+  }
+  .index-mobile-banner {
+    max-height: 264px !important;
   }
   .contactus ul li:nth-child(2) span {
     margin-left: 12px;
@@ -4591,7 +4604,10 @@ width: 360px;
   .banner-overlay{
     top: 0;
     right: -63%;
-width: 320px;
+    width: 350px;
+  }
+  .malupet-nanaman {
+    padding: 15px 10px 16px 10px;
   }
   .malupet-nanaman h4 {
     font-size: 16px;
@@ -5599,5 +5615,8 @@ main .marquee {
   }
   #csMsg .close, #csPhone .close, #csModal{
     right: -10px;
+  }
+  .malupet-nanaman{
+    padding: 10px 10px 9px 10px;
   }
 }
