@@ -39,6 +39,7 @@ margin-right: auto;
 left: 0;
 right: 0;
 width: 320px;
+max-height: 170px;
   }
   .bago_nanaman .container{
     padding-left: 0;
@@ -1520,7 +1521,7 @@ width: 320px;
       left: -8px;
       right: 1px;
       background: #020202;
-      width: 30px;
+      width: 29px;
       height: 31px;
       border-radius: 5px;
     }
@@ -3443,6 +3444,8 @@ width: 320px;
    }
 .malupet-nanaman{
     padding: 9px 0px 9px 0px;
+
+    height: 265px;
 }
   .malupet-nanaman h4{
     font-size: 18px;
@@ -3455,6 +3458,8 @@ width: 320px;
   .banner-overlay{
     right: 0;
     width: 380px;
+    max-height: 265px;
+    height: 265px;
   }
   .index-mobile-banner {
     max-height: 264px !important;
@@ -4612,9 +4617,11 @@ width: 360px;
     top: 0;
     right: -63%;
     width: 350px;
+    height: 265px;
   }
   .malupet-nanaman {
         padding: 1px 0px 14px 0px;
+        height: 250px;
   }
   .malupet-nanaman h4 {
     font-size: 16px;
