@@ -886,10 +886,10 @@ width: 320px;
     #csCallselectflag button {
         background-position-x: 100%
     }
-    .cs-modal .chatserver-form button.select-country-code {
+    .cs-modal .chatserver-form button.select-country-code, .cs-modal .chatserver-form button.select-country-code:hover {
         background-position: 163px 0px;
     }
-    .cs-modal .chatserver-form button.select-country-code {
+    .cs-modal .chatserver-form button.select-country-code, .cs-modal .chatserver-form button.select-country-code:hover {
         background-position-x: 100%
     }
     #csCallselectflag .dropdown-menu {
@@ -3620,7 +3620,7 @@ width: 320px;
     top: -5px;
     left: -20px;
   }
-  #myModal #myModalTab1-2 .g-recaptcha {
+  #registerModal #myModalTab1-2 .g-recaptcha, #myModal #myModalTab1-2 .g-recaptcha {
     left: -22px;
   }
   #myModalTab1-1 .g-recaptcha{
@@ -4357,7 +4357,7 @@ width: 360px;
     #csCallselectflag button {
         background-position: right;
     }
-    .cs-modal .chatserver-form button.select-country-code {
+    .cs-modal .chatserver-form button.select-country-code, .cs-modal .chatserver-form button.select-country-code:hover {
         background-position: right;
     }
     #csCallselectflag .dropdown-menu {
@@ -4921,7 +4921,7 @@ width: 360px;
   .g-recaptcha {
     left: -1px;
   }
-  #myModal #myModalTab1-2 .g-recaptcha {
+  #registerModal #myModalTab1-2 .g-recaptcha, #myModal #myModalTab1-2 .g-recaptcha {
     left: -1px;
   }
   #myModalTab1-1 .g-recaptcha {
@@ -4989,7 +4989,7 @@ width: 360px;
   .cs-modal .chatserver-form button, #cscall {
     width: 220px;
   }
-  .cs-modal#demoModal .chatserver-form button, .cs-modal .chatserver-form button.select-country-code{
+  .cs-modal#demoModal .chatserver-form button, .cs-modal .chatserver-form button.select-country-code, #csPhone #csCallselectflag {
     width: 220px;
   }
   .dl-body{
