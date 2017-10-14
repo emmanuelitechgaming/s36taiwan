@@ -4886,7 +4886,7 @@ ul {
     margin-bottom: 0px;
 }
 
-#myModal .nav-tabs {
+#registerModal .nav-tabs, #myModal .nav-tabs {
     position: relative;
     margin-left: -15px;
     margin-right: -15px;
@@ -4894,7 +4894,7 @@ ul {
     margin-top: 5px;
 }
 
-#myModal .nav-tabs li {
+#registerModal .nav-tabs li, #myModal .nav-tabs li {
     display: inline-block;
     float: none;
     width: 33.33%;
@@ -4902,12 +4902,12 @@ ul {
     text-align: center
 }
 
-#myModal .nav-tabs li a {
+#registerModal .nav-tabs li a, #myModal .nav-tabs li a {
     color: #fff;
     cursor: default;
 }
 
-#myModal .nav-tabs li span {
+#registerModal .nav-tabs li span, #myModal .nav-tabs li span {
     display: block;
     font-size: 13px;
     font-weight: 600;
@@ -4921,7 +4921,7 @@ ul {
     margin-bottom: 5px;
 }
 
-#myModal .nav-tabs li.active a {
+#registerModal .nav-tabs li.active a, #myModal .nav-tabs li.active a {
     border: none !important;
     background: none !important;
 }
@@ -4934,20 +4934,20 @@ ul {
   line-height: 57px;
 }*/
 
-#myModal .nav-tabs li.connecting-line {
+#registerModal .nav-tabs li.connecting-line, #myModal .nav-tabs li.connecting-line {
     position: absolute;
     height: 1px;
     background: #494949;
     top: 18px;
 }
 
-#myModal .modal-foot ul {
+#loginModal .modal-foot ul, #registerModal .modal-foot ul, #myModal .modal-foot ul {
     margin: 0;
     padding: 0;
     list-style: none
 }
 
-#myModal .modal-foot ul li:nth-child(1) a {
+#registerModal .modal-foot ul li:nth-child(1) a, #loginModal .modal-foot ul li:nth-child(1) a, #registerModal .modal-foot ul li:nth-child(1) a, #myModal .modal-foot ul li:nth-child(1) a {
     color: #fff
 }
 
@@ -4955,7 +4955,7 @@ ul {
     margin: 0 -14px
 }
 
-#myModal #demo p {
+#registerModal #demo p, #myModal #demo p {
     font-size: 15px;
     text-align: center;
     font-weight: 700;
@@ -4963,14 +4963,14 @@ ul {
     padding: 10px 15px
 }
 
-#myModal #demo div div.form-group:nth-child(2) input {
+#registerModal #demo div div.form-group:nth-child(2) input, #myModal #demo div div.form-group:nth-child(2) input {
     width: 100%;
     display: block;
     background: none;
     border: none
 }
 
-#myModal #demo div div.form-group:nth-child(3) input {
+#registerModal #demo div div.form-group:nth-child(3) input, #myModal #demo div div.form-group:nth-child(3) input {
     width: 100%;
     display: block;
 }
@@ -5163,7 +5163,7 @@ div.cta-contact-info a {
 .gp-g .col-md-4:nth-child(6) a {
     padding-left: 0;
 }
-#myModal .close {
+#loginModal .close, #registerModal .close, #myModal .close {
     position: absolute;
     z-index: 999;
     right: 5px;
@@ -5454,25 +5454,25 @@ div.cta-contact-info a {
     font-size: 9px;
 }
 
-#myModal .modal-foot ul li:nth-child(1) a {
+#loginModal .modal-foot ul li:nth-child(1) a, #registerModal .modal-foot ul li:nth-child(1) a, #myModal .modal-foot ul li:nth-child(1) a {
     position: relative;
 }
 
-#myModal .modal-foot ul li:nth-child(2) a,
-#myModal .modal-foot ul li:nth-child(3) a,
-#myModal .modal-foot ul li:nth-child(4) a {
+#loginModal .modal-foot ul li:nth-child(2) a, #registerModal .modal-foot ul li:nth-child(2) a, #myModal .modal-foot ul li:nth-child(2) a,
+#loginModal .modal-foot ul li:nth-child(3) a, #registerModal .modal-foot ul li:nth-child(3) a, #myModal .modal-foot ul li:nth-child(3) a,
+#loginModal .modal-foot ul li:nth-child(4) a, #registerModal .modal-foot ul li:nth-child(4) a, #myModal .modal-foot ul li:nth-child(4) a {
     display: block;
     width: 100%;
 }
 
-#myModal .modal-foot ul li:nth-child(2) a img,
-#myModal .modal-foot ul li:nth-child(3) a img,
-#myModal .modal-foot ul li:nth-child(4) img {
+#loginModal .modal-foot ul li:nth-child(2) a img, #registerModal .modal-foot ul li:nth-child(2) a img, #myModal .modal-foot ul li:nth-child(2) a img,
+#loginModal .modal-foot ul li:nth-child(3) a img, #registerModal .modal-foot ul li:nth-child(3) a img, #myModal .modal-foot ul li:nth-child(3) a img,
+#loginModal .modal-foot ul li:nth-child(4) img, #registerModal .modal-foot ul li:nth-child(4) img, #myModal .modal-foot ul li:nth-child(4) img {
     display: block;
     width: 100%
 }
 
-#myModal .modal-bottom {
+#loginModal .modal-bottom, #registerModal .modal-bottom, #myModal .modal-bottom {
     position: relative;
 }
 
@@ -5570,7 +5570,7 @@ div.cta-contact-info a {
     font-size: 11px
 }
 
-#myModal .nav-tabs li span img {
+#registerModal .nav-tabs li span img, #myModal .nav-tabs li span img {
     width: 15px;
     height: 15px;
     position: relative;
@@ -5603,7 +5603,7 @@ div.cta-contact-info a {
     text-decoration: none
 }
 
-#myModal .form-recap {
+#loginModal .form-recap, #registerModal .form-recap, #myModal .form-recap {
     margin-top: 0;
 }
 
@@ -6641,12 +6641,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0b0b0', end
     font-size: 15px;
 }
 
-#myModal .pull-right .modal-bottom .btn-warning {
+#loginModal .pull-right .modal-bottom .btn-warning, #registerModal .pull-right .modal-bottom .btn-warning, #myModal .pull-right .modal-bottom .btn-warning {
   color: #fff;
   width: 135px;
 }
 
-#myModal .pull-right .modal-bottom .btn-warning::after{
+#loginModal .pull-right .modal-bottom .btn-warning::after, #registerModal .pull-right .modal-bottom .btn-warning::after, #myModal .pull-right .modal-bottom .btn-warning::after{
   content: '';
   display: inline-block;
   width: 15px;
@@ -6658,13 +6658,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0b0b0', end
   margin-left: 3px;
 }
 
-#myModal .pull-right .modal-bottom a {
+#loginModal .pull-right .modal-bottom a, #registerModal .pull-right .modal-bottom a, #myModal .pull-right .modal-bottom a {
     color: inherit;
 }
 
-#myModal .pull-right .modal-bottom a:hover,
-#myModal .pull-right .modal-bottom a:active,
-#myModal .pull-right .modal-bottom a:focus {
+#loginModal .pull-right .modal-bottom a:hover, #registerModal .pull-right .modal-bottom a:hover, #myModal .pull-right .modal-bottom a:hover,
+#loginModal .pull-right .modal-bottom a:active, #registerModal .pull-right .modal-bottom a:active, #myModal .pull-right .modal-bottom a:active,
+#loginModal .pull-right .modal-bottom a:focus, #registerModal .pull-right .modal-bottom a:focus, #myModal .pull-right .modal-bottom a:focus {
     text-decoration: none
 }
 
@@ -9309,10 +9309,17 @@ span.add-ico{
 #myModal label, .ui-select span, #myModal .form-control, #myModal .form-control::-webkit-input-placeholder, #myModal .form-recap-right, .my-sweet-15, .my-sweet-15 p, input::-webkit-input-placeholder{
   color: #fff !important;
 }
-#myModal label, .ui-select span, #myModal .form-control, #myModal .form-control::-webkit-input-placeholder, #myModal .form-recap-right, .my-sweet-15, .my-sweet-15 p, input::placeholder{
+#registerModal label, #myModal label, .ui-select span, #registerModal .form-control, #myModal .form-control, #registerModal .form-control::-webkit-input-placeholder, #myModal .form-control::-webkit-input-placeholder, #registerModal .form-recap-right, #myModal .form-recap-right, .my-sweet-15, .my-sweet-15 p, input::-webkit-input-placeholder{
   color: #fff !important;
 }
-#myModal .modal-bottom .myModal2b_login_a, #myModal .modal-bottom .myModal2b_registration_a{
+#loginModal label, #registerModal label, #myModal label, .ui-select span, #loginModal .form-control, #registerModal .form-control, #myModal .form-control, #loginModal .form-control::-webkit-input-placeholder, #registerModal .form-control::-webkit-input-placeholder, #myModal .form-control::-webkit-input-placeholder, #loginModal .form-recap-right, #registerModal .form-recap-right, #myModal .form-recap-right, .my-sweet-15, .my-sweet-15 p, input::-webkit-input-placeholder{
+  color: #fff !important;
+}
+#loginModal label, #registerModal label, #myModal label, .ui-select span, #loginModal .form-control, #registerModal .form-control, #myModal .form-control, #loginModal .form-control::-webkit-input-placeholder, #registerModal .form-control::-webkit-input-placeholder, #myModal .form-control::-webkit-input-placeholder, #loginModal .form-recap-right, #registerModal .form-recap-right, #myModal .form-recap-right, .my-sweet-15, .my-sweet-15 p, input::placeholder{
+  color: #fff !important;
+}
+#loginModal .modal-bottom .myModal2b_registration_a, #loginModal .modal-bottom .myModal2b_login_a, #loginModal .modal-bottom .myModal2b_registration_a, #registerModal .modal-bottom .myModal2b_registration_a, #registerModal .modal-bottom .myModal2b_login_a, #myModal .modal-bottom .myModal2b_registration_a, #myModal .modal-bottom .myModal2b_login_a, #myModal .modal-bottom .myModal2b_registration_a{
+  display: inline-block;
   color: #fba601 !important;
   border-radius: 16px;
   padding: 3px 8px;
@@ -9859,7 +9866,7 @@ height: 30px!important;
   background: url('../img/flags/uk-rectangle.jpg') no-repeat;
   background-size: cover;
 }
-#myModal .info{
+#registerModal .info, #myModal .info{
   text-align: center;
   color: #fba601;
   margin-top: 20px;
@@ -10340,7 +10347,7 @@ font-family: Consolas;
 .money-pool{
   color: #fba601;
     letter-spacing: 11px;
-    font-weight: 700;
+  font-weight: 700;
 }
 .haynako{
   display: block;

@@ -464,7 +464,6 @@ $(document).ready(function () {
     $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function () {
       $('.mymodal-init').removeClass('mymodal-none');
       $('#myModal2b_registration').css('display', 'inline-block');
-      $('#myModal2b_login').css('display', 'none');
       $('#myModalTab li:nth-child(1)').css('top', '210px');
       $('#myModalTab li:nth-child(1)').css('display', 'block');
       $('#myModalTab li:nth-child(2)').css('display', 'none');
@@ -472,7 +471,6 @@ $(document).ready(function () {
 
     $('a[href="#myModalTab1-2"]').on('hidden.bs.tab', function () {
       $('#myModal2b_registration').css('display', 'none');
-      $('#myModal2b_login').css('display', 'inline-block');
       $('#myModalTab li:nth-child(1)').css('top', '150px');
       $('#myModalTab li:nth-child(1)').css('display', 'none');
       $('#myModalTab li:nth-child(2)').css('display', 'block');
@@ -491,42 +489,10 @@ $(document).ready(function () {
       $('#drop3').removeClass('lang-click');
     });
 
-    $('img[src="assets/img/s36tw-mobile-home_06.png"], .login-modal-a, img[src="assets/img/register2.png"], img[src="assets/img/sp/reg-btn-sp.png"], img[src="assets/img/lock_25-hover.png"], img[src="assets/img/casino/baccarat/play-icon.png"], .sp-btn-hidden').click(function() {
-      $('#myModal').modal('hide');
-      $('a[href="#myModalTab1-1"').tab('show');
-      $('a[href="#myModalTab1-1"').on('shown.bs.tab', function (e) {
-        $('#myModal').modal('show');
-      })
-    });
-
     $('img[src="assets/img/s36tw-mobile-home_12.png"]').click(function() {
       $('#demoModal').modal('show');
       $('a[href="#myModalTab1-1"').tab('show');
     });
-
-    $('img[src="assets/img/s36tw-mobile-home_03.png"], img[src="assets/img/sp/reg-btn.png"], .register-modal-a, img[src="assets/img/banner/btn.png"], img[src="assets/img/register.png"], img[src="assets/img/register_25-hover.png"]').click(function() {
-      $('#myModal').modal('hide');
-      $('a[href="#myModalTab1-2"').tab('show');
-      $('a[href="#myModalTab1-2"').on('shown.bs.tab', function (e) {
-        $('#myModal').modal('show');
-      })
-    });
-
-    $('.mnav-top a').click(function() {
-      if($(this).find('img').attr('src') == 'assets/img/register_25-hover.png'){
-        $('#myModal').modal('hide');
-        $('a[href="#myModalTab1-2"').tab('show');
-        $('a[href="#myModalTab1-2"').on('shown.bs.tab', function (e) {
-          $('#myModal').modal('show');
-        })
-      }else if($(this).find('img').attr('src') == 'assets/img/lock_25-hover.png') {
-        $('#myModal').modal('hide');
-        $('a[href="#myModalTab1-1"').tab('show');
-        $('a[href="#myModalTab1-1"').on('shown.bs.tab', function (e) {
-          $('#myModal').modal('show');
-        })
-      }
-    })
 
     var showAlert = true;
     $('#myModal').on('show.bs.modal', function(e) {
@@ -539,17 +505,6 @@ $(document).ready(function () {
     $('#myModal').on('hide.bs.modal', function(e) {
       showAlert = true;
     })
-
-    $('a[href="#myModalTab1-2"]').on('shown.bs.tab', function() {
-      $('#myModal2b_registration, .myModal2b_registration_a').css('display', 'inline-block');
-      $('#myModal2b_login,  .myModal2b_login_a').css('display', 'none');
-    });
-
-    $('a[href="#myModalTab1-1"]').on('shown.bs.tab', function() {
-      $('.mymodal-init').addClass('mymodal-none')
-      $('#myModal2b_registration, .myModal2b_registration_a').css('display', 'none');
-      $('#myModal2b_login, .myModal2b_login_a').css('display', 'inline-block');
-    });
 
     $('#footerLinkLang').click(function() {
       $('html,body').animate({
@@ -1069,6 +1024,16 @@ $('.tops .flexslider').flexslider({
     }else{
       $(this).removeClass('side-logo-plus-hover');
     }
+  })
+
+  $('.myModal2b_login_a').click(function() {
+    $('#loginModal').modal('toggle');
+    $('#registerModal').modal('toggle')
+  });
+
+  $('.myModal2b_registration_a').click(function() {
+    $('#registerModal').modal('toggle')
+    $('#loginModal').modal('toggle');
   })
 
 });

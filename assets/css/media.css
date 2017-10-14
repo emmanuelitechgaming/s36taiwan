@@ -510,11 +510,11 @@ width: 320px;
     .footer .sub a {
         margin-left: 62px;
     }
-    #myModal .nav-tabs li a {
+    #registerModal .nav-tabs li a, #myModal .nav-tabs li a {
         font-size: 17px;
         white-space: nowrap;
     }
-    #myModal .nav-tabs li.connecting-line {
+    #registerModal .nav-tabs li.connecting-line, #myModal .nav-tabs li.connecting-line {
         width: 69px;
     }
     .cl1 {
@@ -523,7 +523,7 @@ width: 320px;
     .cl2 {
         left: 164px;
     }
-    #myModal .modal-foot ul li {
+    #loginModal .modal-foot ul li, #registerModal .modal-foot ul li, #myModal .modal-foot ul li {
         display: inline-block;
         width: 32%;
         margin-bottom: 5px;
@@ -577,10 +577,10 @@ width: 320px;
     .modal-foot {
         margin-top: 30px;
     }
-    #myModal .modal-bottom {
+    #loginModal .modal-bottom, #registerModal .modal-bottom, #myModal .modal-bottom {
         top: 0;
     }
-    #myModal .modal-foot ul li:nth-child(1) a {
+    #loginModal .modal-foot ul li:nth-child(1) a, #registerModal .modal-foot ul li:nth-child(1) a, #myModal .modal-foot ul li:nth-child(1) a {
         font-size: 12px;
         top: -16px;
     }
@@ -1593,7 +1593,7 @@ width: 320px;
     .m-fsalon ul li:nth-child(5) img {
         height: 70px;
     }
-    #myModal .nav-tabs li.connecting-line {
+    #registerModal .nav-tabs li.connecting-line, #myModal .nav-tabs li.connecting-line {
         width: 71px;
     }
     .cl1 {
@@ -1915,7 +1915,7 @@ width: 320px;
     .footer .sub a {
         margin-left: 115px;
     }
-    #myModal .nav-tabs li.connecting-line {
+    #registerModal .nav-tabs li.connecting-line, #myModal .nav-tabs li.connecting-line {
         width: 87px;
     }
     .cl1 {
@@ -1941,7 +1941,7 @@ width: 320px;
     .mnav-bottom .swiper-container {
         width: 388px;
     }
-    #myModal .modal-foot ul li:nth-child(1) a {
+    #loginModal .modal-foot ul li:nth-child(1) a, #registerModal .modal-foot ul li:nth-child(1) a, #myModal .modal-foot ul li:nth-child(1) a {
         font-size: 13px;
         top: -19px;
     }
@@ -2196,7 +2196,7 @@ width: 320px;
     .mnav-email {
         background-position: 19px 11px;
     }
-    #myModal .nav-tabs li.connecting-line {
+    #registerModal .nav-tabs li.connecting-line, #myModal .nav-tabs li.connecting-line {
         width: 100px;
     }
     .cl1 {
@@ -2568,7 +2568,7 @@ width: 320px;
     .footer .sub a {
         margin-left: 155px;
     }
-    #myModal .nav-tabs li.connecting-line {
+    #registerModal .nav-tabs li.connecting-line, #myModal .nav-tabs li.connecting-line {
         width: 101px;
     }
     .cl1 {
@@ -2584,7 +2584,7 @@ width: 320px;
     .mnav-bottom .swiper-container {
         width: 427px;
     }
-    #myModal .modal-foot ul li:nth-child(1) a {
+    #loginModal .modal-foot ul li:nth-child(1) a, #registerModal .modal-foot ul li:nth-child(1) a, #myModal .modal-foot ul li:nth-child(1) a {
         font-size: 14px;
         top: -20px;
     }
@@ -3329,7 +3329,7 @@ width: 320px;
         left: -6px;
         top: 0px;
     }
-    /*#myModal {
+    /*#loginModal, #registerModal, #myModal {
         top: -229px;
     }*/
     .modal-panel-dialog {
@@ -3606,7 +3606,7 @@ width: 320px;
     left: -46px;
   }
 
-  #myModal .nav-tabs li.connecting-line {
+  #registerModal .nav-tabs li.connecting-line, #myModal .nav-tabs li.connecting-line {
     width: 166px;
   }
   .cl1 {
@@ -3671,7 +3671,7 @@ width: 320px;
     .navbar-header.header-mobile {
         margin-top: 0;
     }
-    #myModal {
+    #loginModal, #registerModal, #myModal {
         top: -100px;
     }
     .modal-panel-dialog {
@@ -3999,10 +3999,10 @@ width: 360px;
     .modal-custom-lg {
         width: 710px;
     }
-    #myModal .nav-tabs li a {
+    #registerModal .nav-tabs li a, #myModal .nav-tabs li a {
         font-size: 15px
     }
-    #myModal .nav-tabs li.connecting-line {
+    #registerModal .nav-tabs li.connecting-line, #myModal .nav-tabs li.connecting-line {
         width: 170px;
     }
     .cl1 {
@@ -4011,13 +4011,13 @@ width: 360px;
     .cl2 {
         left: 399px
     }
-    #myModal .modal-foot ul li {
+    #loginModal .modal-foot ul li, #registerModal .modal-foot ul li, #myModal .modal-foot ul li {
         display: inline-block;
         width: auto;
         margin-right: 5px;
         margin-bottom: auto
     }
-    #myModal {
+    #loginModal, #registerModal, #myModal {
         overflow: hidden;
     }
     .footer-shareit ul li {
@@ -4048,15 +4048,15 @@ width: 360px;
     .modal-foot {
         margin-top: 18px;
     }
-    #myModal .modal-foot ul li:nth-child(2),
-    #myModal .modal-foot ul li:nth-child(3),
-    #myModal .modal-foot ul li:nth-child(4) {
+    #loginModal .modal-foot ul li:nth-child(2), #registerModal .modal-foot ul li:nth-child(2), #myModal .modal-foot ul li:nth-child(2),
+    #loginModal .modal-foot ul li:nth-child(3), #registerModal .modal-foot ul li:nth-child(3), #myModal .modal-foot ul li:nth-child(3),
+    #loginModal .modal-foot ul li:nth-child(4), #registerModal .modal-foot ul li:nth-child(4), #myModal .modal-foot ul li:nth-child(4) {
         width: 18%
     }
-    #myModal .modal-bottom {
+    #loginModal .modal-bottom, #registerModal .modal-bottom, #myModal .modal-bottom {
         top: 13px;
     }
-    #myModal .modal-foot ul li:nth-child(1) a {
+    #loginModal .modal-foot ul li:nth-child(1) a, #registerModal .modal-foot ul li:nth-child(1) a, #myModal .modal-foot ul li:nth-child(1) a {
         top: -17px;
     }
     .casino-media {
@@ -4217,7 +4217,7 @@ width: 360px;
     .contactus ul li:last-child span {
         margin-left: 18px
     }
-    #myModal .pull-right .modal-bottom {
+    #loginModal .pull-right .modal-bottom, #registerModal .pull-right .modal-bottom, #myModal .pull-right .modal-bottom {
         position: absolute;
         right: 0;
     }
@@ -4410,7 +4410,7 @@ width: 360px;
       padding: 6px 40px;
       padding-right: 70px
     }
-    #myModal .form-recap {
+    #loginModal .form-recap, #myModal .form-recap, #registerModal .form-recap, #myModal .form-recap {
         margin-left: 0
     }
     #csMsg .form-recap, #csPhone .form-recap{
@@ -5126,7 +5126,7 @@ width: 360px;
   .live-game {
     max-height: 304px;
   }
-  #myModal .nav-tabs li.connecting-line {
+  #registerModal .nav-tabs li.connecting-line, #myModal .nav-tabs li.connecting-line {
     width: 204px;
   }
   .cl1 {
@@ -5605,7 +5605,7 @@ main .marquee {
   .live-game {
     max-height: 400px;
   }
-  #myModal .nav-tabs li.connecting-line {
+  #registerModal .nav-tabs li.connecting-line, #myModal .nav-tabs li.connecting-line {
     width: 205px;
   }
   .cl1 {
