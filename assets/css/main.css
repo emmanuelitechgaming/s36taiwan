@@ -5536,7 +5536,8 @@ div.cta-contact-info a {
 }
 
 .mnav-top ul li a {
-    display: block;
+  display: block;
+  cursor: pointer;
 }
 
 .mnav-top ul li a img {
