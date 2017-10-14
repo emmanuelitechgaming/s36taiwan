@@ -9,6 +9,10 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
+  .currency span.cny{
+    font-size: 8px;
+    padding: 1px 5px;
+  }
   .promo-steps .step-txt {
     font-size: 10px;
 }
@@ -16,9 +20,15 @@
     display: inline-block;
     margin: 3px 4px;
   }
+  .malupet-nanaman h4 img{
+    width: 12px;
+  }
   .malupet-nanaman h4{
-    font-size: 14px;
-    margin: 3px 0;
+    font-size: 12px;
+      margin: 0px 0;
+      text-indent: 29px;
+      padding: 5px;
+      border-bottom: 1px solid #3a3a3a;
   }
   .haynako{
     font-size: 12px;
@@ -1802,7 +1812,7 @@ width: 320px;
       max-height: 341px;
     }
     .malupet-nanaman {
-      padding: 5px 10px 4px 10px;
+      padding: 5px 0px 4px 0px;
     }
 }
 
@@ -1810,6 +1820,9 @@ width: 320px;
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 375px) {
+  .malupet-nanaman h4 img{
+    width: 16px;
+  }
   .promo-steps .step-txt {
     font-size: 12px;
 }
@@ -3420,15 +3433,18 @@ width: 320px;
 @media only screen and (min-width: 768px) {
   .haaay > div{
     display: inline-block;
-    margin: 5px 17px;
+    margin: 3px 10px;
   }
    .naakoo > div{
-     margin: 5px 1px;
+     margin: 5px 15px;
    }
-
+.malupet-nanaman{
+    padding: 9px 0px 9px 0px;
+}
   .malupet-nanaman h4{
     font-size: 18px;
-    margin: 10px 0;
+    padding: 8px 0px;
+  border-bottom: 1px solid #3a3a3a;
   }
   .haynako{
     font-size: 18px;
@@ -3446,9 +3462,6 @@ width: 320px;
     .flexslides {
         margin-left: 32px !important;
     }
-      .live-game .title {
-          bottom: 40%;
-      }
 
     .form-recap-right p {
         left: auto;
@@ -3476,10 +3489,9 @@ width: 320px;
     .jumbo {
         left: 225px
     }
-    .lg-playnow {
-        font-size: 12px;
-        bottom: 37px;
-    }
+    .live-game ul {
+    bottom: 25%;
+}
     .btn-hidden::after{
       width: 13px;
       height: 15px;
@@ -3565,16 +3577,7 @@ width: 320px;
   .gp-g.row .live-games {
     width: auto;
   }
-  .live-game ul li span {
-    font-size: 25px;
-    line-height: 25px;
-  }
-  .live-game ul li{
-    font-size: 11px;
-  }
-  .live-game ul {
-    bottom: 20%;
-  }
+
   .mnav-top ul {
     display: inline-block;
   }
@@ -3602,9 +3605,7 @@ width: 320px;
   .i-sicbo .live-game-txtc{
     left: -46px;
   }
-  .live-game {
-    max-height: 228px;
-  }
+
   #myModal .nav-tabs li.connecting-line {
     width: 166px;
   }
@@ -4601,17 +4602,22 @@ width: 360px;
 }
 
 @media only screen and (min-width: 1024px) {
+  .naakoo > div {
+    margin: 6px 7px;
+}
   .banner-overlay{
     top: 0;
     right: -63%;
     width: 350px;
   }
   .malupet-nanaman {
-    padding: 15px 10px 16px 10px;
+        padding: 1px 0px 14px 0px;
   }
   .malupet-nanaman h4 {
     font-size: 16px;
     margin: 5px 0;
+    padding: 10px;
+    border-bottom: 1px solid #3a3a3a;
 }
   .haynako {
     font-size: 15px;
@@ -5168,10 +5174,13 @@ width: 380px;
   }
   .malupet-nanaman h4 {
     font-size: 17px;
-    margin: 7px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #3a3a3a;
+    padding: 11px;
+    text-indent: 20px;
 }
   .haynako {
-    font-size: 16px;
+    font-size: 15px;
 }
   .rss-field .form-group:nth-child(1) input {
       width: 350px !important
@@ -5616,7 +5625,7 @@ main .marquee {
   #csMsg .close, #csPhone .close, #csModal{
     right: -10px;
   }
-  .malupet-nanaman{
-    padding: 10px 10px 9px 10px;
+    .malupet-nanaman{
+    padding: 7px 0px 7px 0px;
   }
 }

@@ -10326,20 +10326,20 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
   margin: 0;
   padding: 0!important;
 }
-.naakoo .uname{
+ .uname{
   width: 100px;
 }
-.haaay .placing, .haaay .money-pool, .naakoo .uname, .naakoo .date{
+.placing,  .money-pool,  .uname,  .date{
 font-family: Consolas;
 }
-.haaay .placing{
+.placing{
   width: 28px;
 }
-.haaay .money-pool{
+
+.money-pool{
   color: #fba601;
-  letter-spacing: 2px;
-  font-weight: 700;
-  width: 148px;
+    letter-spacing: 11px;
+    font-weight: 700;
 }
 .haynako{
   display: block;
