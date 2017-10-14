@@ -6309,11 +6309,11 @@ main .win-lot-top-games {
 .contactus ul li:nth-child(1) a {
     padding-bottom: 2px;
 }
-.contactus ul li:nth-child(1) a,
+/*.contactus ul li:nth-child(1) a,
 .contactus ul li:nth-child(4) a,
 .contactus ul li:nth-child(6) a {
     border-bottom: 2px solid #fba601
-}
+}*/
 .navbar-afterlogin {
     position: relative;
     top: 11px;
@@ -10246,7 +10246,8 @@ background-position: 4%;
   margin-top: -3px !important;
 }
 .is-active .hamburger-inner {
-  margin-top: -2px !important;
+  margin-top: -3px !important;
+  margin-left: 1px;
 }
 .comment-close{
   margin: 10px 0

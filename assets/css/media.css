@@ -95,7 +95,7 @@ width: 320px;
     .hamburger-inner::after,
     .hamburger-inner::before {
         position: absolute;
-        width: 19px;
+        width: 14px;
         height: 2px;
         -webkit-transition-timing-function: ease;
         transition-timing-function: ease;
@@ -1515,11 +1515,14 @@ width: 320px;
     .mnav-top ul li:first-child::before{
       content: '';
       position: absolute;
-      top: -14px;
+      top: -16px;
       bottom: 15px;
-      left: -4px;
+      left: -8px;
       right: 1px;
-      background: #1b1b1b
+      background: #020202;
+      width: 30px;
+      height: 31px;
+      border-radius: 5px;
     }
     .malupet-nanaman{
       padding: 5px 10px 0px 10px;
@@ -5626,6 +5629,6 @@ main .marquee {
     right: -10px;
   }
     .malupet-nanaman{
-    padding: 7px 0px 7px 0px;
+    padding: 7px 0px 6px 0px;
   }
 }
