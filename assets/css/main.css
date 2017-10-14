@@ -6560,7 +6560,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0b0b0', end
 #csCallselectflag button span {
     color: #fff;
     position: relative;
-    bottom: 5px
+    bottom: 1px
 }
 
 #csCallselectflag button span.caret {
@@ -6606,7 +6606,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0b0b0', end
 }
 
 #csCallselectflag .flagstrap-icon{
-  top: 5px
+  top: 3px
 }
 
 #myModal #country-sel button {
@@ -7636,7 +7636,7 @@ button .flag-icon-kr::before {
     top: 10px;
 }
 
-.cs-modal .chatserver-form button.select-country-code {
+.cs-modal .chatserver-form button.select-country-code, .cs-modal .chatserver-form button.select-country-code:hover {
     height: 38px;
     background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
     background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
@@ -10473,4 +10473,55 @@ font-weight: 700;
 }
 .mobile-banner-promotion img.img-responsive{
   display: block
+}
+.dl-content{
+  padding: 0 40px
+}
+.dl-content .content{
+  text-align: center;
+  background: #202020;
+  border: solid 1px #323232;
+  border-radius: 10px
+}
+.dl-content .title, .dl-content .body{
+  padding: 15px 0
+}
+.dl-content .footer{
+  padding: 0 0 15px
+}
+.dl-content .title{
+  background: #161616;
+  border-bottom: 1px solid #323232;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.dl-content .body img{
+  margin: 0px auto;
+  max-height: 122px
+}
+.dl-content .body .text{
+  margin: 35px 0 0;
+}
+.dl-content .body .click-here{
+  color: #000;
+  background: url('../img/dl/btn-bg.png') repeat-x;
+  background-size: auto 100%;
+  padding: 5px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.dl-content .body .click-here:hover{
+  text-decoration: none
+}
+.dl-content .body .scan{
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: -11px;
+}
+.dl-content .body .scan span{
+  font-weight: 700;
+  color: #fff;
+  display: block;
+  font-size: 15px
 }
