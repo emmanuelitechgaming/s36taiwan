@@ -10495,7 +10495,8 @@ font-weight: 700;
   border-top-right-radius: 10px;
 }
 .dl-content .body img{
-  margin: 0px auto
+  margin: 0px auto;
+  max-height: 122px
 }
 .dl-content .body .text{
   margin: 35px 0 0;
