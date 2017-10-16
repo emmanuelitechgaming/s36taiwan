@@ -1627,7 +1627,6 @@ p {
     -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
             box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
     min-height: 30px;
-    max-height: 30px
 }
 .lg-playnow{
   border: none;
@@ -2819,7 +2818,6 @@ select + i.fa {
 }
 
 .selectpicker2 .fa {
-    color: #fba601;
     font-size: 12px;
 }
 
@@ -5299,10 +5297,6 @@ div.cta-contact-info a {
     color: #fba601;
     margin-right: 5px !important;
     margin-left: 5px;
-}
-
-.selectpicker2 > i {
-    color: #fff!important;
 }
 
 .slots-tabs li:hover,
@@ -9348,7 +9342,7 @@ span.add-ico{
   font-size: 13px;
 }
 .selectpicker2:hover{
-  color: #fba601
+  color: #fba601 !important
 }
 .top-header ul{
   margin-right: -1px;
