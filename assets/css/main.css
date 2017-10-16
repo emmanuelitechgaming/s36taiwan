@@ -3501,7 +3501,7 @@ footer .browsers li:first-child {
           transform: scale(1.7);
 }
 .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger.is-active{
-  top: 17px;
+  top: 16px;
   -webkit-transform: scale(1.7);
           transform: scale(1.7);
 }
@@ -10139,18 +10139,27 @@ height: 30px!important;
 }
 
 #navbar-collapse-1 .logout{
-  background: transparent;
-  max-width: 180px;
+  display: inline-block;
+  width: auto;
   margin: 0px auto;
   height: auto;
-  padding: 6px 0 !important;
-  padding-left: 20px !important;
-  color: #fff;
+  padding: 4px 25px !important;
+  color: #000;
   text-align: center;
-  background: #333 url('../img/afterlogin/4-hover2.png') no-repeat;
-  background-size: 25px 25px;
-background-position: 4%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fefefe),color-stop(47%, #dadada),to(#b0b0b0));
+  background: linear-gradient(to bottom, #fefefe 0%,#dadada 47%,#b0b0b0 100%);
   line-height: normal;
+  margin: 13px 39px;
+  border-radius: 25px;
+  font-weight: 700;
+}
+#navbar-collapse-1 .logout:active, #navbar-collapse-1 .logout:focus{
+  text-decoration: none;
+}
+.logout-wrapper{
+  background: 000 url(../img/underline.png) no-repeat;
+  background-size: 90% 2px;
+  background-position: 70% 0%;
 }
 #navbar-collapse-1 .logout img{
   width: 30px;
