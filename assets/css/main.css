@@ -10545,3 +10545,8 @@ h5.title-inside{
   position: absolute;
   right: 36px;
 }
+.bago-afterlogin .boxer .step-txt{
+  font-size: 11px;
+width: 110px;
+padding: 0 10px;
+}
