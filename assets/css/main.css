@@ -10316,7 +10316,7 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
   border:0!important;
 }
 .boxer .steps{
-  width: 25%
+  padding: 0 10px
 
 }
 .boxer .steps.step-play img{
@@ -10357,6 +10357,7 @@ font-family: Consolas;
 }
 .step-txt div{
   text-align: left;
+  width: 78px;
 }
 .carousel .container{
   position: absolute;
