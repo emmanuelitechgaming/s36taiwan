@@ -4625,7 +4625,7 @@ width: 360px;
 @media only screen and (min-width: 1024px) {
   .haaay > div {
     display: inline-block;
-    margin: 20px 10px 0;
+    margin: 30px 10px 0;
   }
   .malupet-nanaman .haynako:first-child .haaay > div {
     margin: 0 10px 0
@@ -5220,7 +5220,7 @@ width: 360px;
     margin: 5px 0;
 
     padding: 15px 11px 0;
-    text-indent: 20px;
+    text-indent: 26px;
 }
   .haynako {
     font-size: 15px;
