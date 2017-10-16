@@ -3447,10 +3447,10 @@ max-height: 170px;
 @media only screen and (min-width: 768px) {
   .haaay > div{
     display: inline-block;
-    margin:20px  10px 0;
+    margin:14px  10px 0;
   }
    .naakoo > div{
-     margin: 20px 15px 0;
+         margin: 3px 4px;
    }
 .malupet-nanaman{
     padding: 9px 0px 9px 0px;
@@ -4623,6 +4623,10 @@ width: 360px;
 }
 
 @media only screen and (min-width: 1024px) {
+  .haaay > div {
+    display: inline-block;
+    margin: 20px 10px 0;
+}
   .bago-pages .col-md-4:first-child .boxer {
     text-align: left;
 }
