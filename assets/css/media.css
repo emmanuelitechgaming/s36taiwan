@@ -1219,6 +1219,9 @@ max-height: 170px;
       bottom: 0;
       height: 34px;
     }
+    .bago-afterlogin .col-xs-6:nth-child(3) .boxer::after, .bago-afterlogin .col-xs-6:nth-child(4) .boxer::after{
+      content: none
+    }
     .bago_nanaman .col-xs-12:nth-child(3) .boxer::after{
       content: none;
     }
@@ -1266,7 +1269,7 @@ max-height: 170px;
       font-size: 10px;
     }
     .boxer div span{
-      font-size: 10px;
+      font-size: 7px;
     }
     .bago_nanaman .boxer-last{
       line-height: 27px;
@@ -1524,6 +1527,9 @@ max-height: 170px;
       width: 29px;
       height: 31px;
       border-radius: 5px;
+    }
+    .mnav-afterlogin ul li:first-child::before{
+      top: -8px;
     }
     .malupet-nanaman{
       padding: 5px 10px 0px 10px;
