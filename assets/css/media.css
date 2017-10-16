@@ -1379,13 +1379,13 @@ max-height: 170px;
       background-size: 100% 100%
     }
     .mnav-afterlogin ul, .mnav-top ul{
-      padding-left: 10px
+      padding-left: 18px
     }
     .mnav-afterlogin ul li{
       margin-right: 59px;
     }
     .mnav-top ul li{
-      margin-right: 59px;
+      margin-right: 55px;
     }
     .mnav-afterlogin ul li:last-child, .mnav-top ul li:last-child{
       margin-right: 0;
@@ -1807,7 +1807,7 @@ max-height: 170px;
       margin-right: 72px;
     }
     .mnav-top ul li{
-      margin-right: 72px;
+      margin-right: 68px;
     }
     .comment .g-recaptcha{
       -webkit-transform: scale(0.65) !important;
@@ -2160,7 +2160,7 @@ max-height: 170px;
       margin-right: 77px;
     }
     .mnav-top ul li {
-      margin-right: 77px;
+      margin-right: 73px;
     }
     .comment .g-recaptcha{
       margin-left: 0
@@ -2461,7 +2461,7 @@ max-height: 170px;
       margin-right: 90px;
     }
     .mnav-top ul li {
-      margin-right: 90px;
+      margin-right: 85px;
     }
     .comment .g-recaptcha{
       -webkit-transform: scale(0.8) !important;
@@ -2676,7 +2676,7 @@ max-height: 170px;
       top: 9px
     }
     .mnav-top ul li {
-      margin-right: 90px;
+      margin-right: 86px;
     }
     #csMsg .g-recaptcha, #csPhone .g-recaptcha {
       left: -22px;
