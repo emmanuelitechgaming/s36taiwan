@@ -9347,7 +9347,7 @@ span.add-ico{
   font-size: 13px;
 }
 .selectpicker2:hover{
-  color: #fba601
+  color: #fba601 !important
 }
 .top-header ul{
   margin-right: -1px;
