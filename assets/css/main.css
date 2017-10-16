@@ -1630,18 +1630,21 @@ p {
     margin-bottom: 10px;
     border-radius: 5px;
     -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
-            box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
+            box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+    min-height: 30px;
+    max-height: 30px
 }
 .lg-playnow{
   border: none;
 }
 .sp-btn-hidden{
   border-radius: 20px;
-  font-size: 18px;
+  font-size: 17px;
   background: rgba(204, 204, 204, 0.3);
   background-size: contain;
   -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
-          box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
+          box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+  font-weight: 400;
 }
 
 .sp-btn-hidden:hover{
@@ -3483,6 +3486,7 @@ footer .browsers li:first-child {
 .mnav ul li:nth-child(1) .hamburger, .mnav.mnav-afterlogin ul li:nth-child(1) .hamburger {
   position: relative;
   top: 3.4px;
+  left: 3px;
   -webkit-transform: scale(1.35);
   transform: scale(1.35);
 }
@@ -7307,7 +7311,8 @@ button .flag-icon-kr::before {
     padding: 3px 12px;
     border-color: #191919;
     -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
-            box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
+            box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+    min-height: 30px;
 }
 
 .mnav-top-home img {
@@ -7500,7 +7505,7 @@ button .flag-icon-kr::before {
 .sweet-arrow {
     background-color: rgba(204 ,204, 204, 0.3) !important;
     font-size: 14px;
-    padding: 4.5px 16px;
+    padding: 5px 16px;
     padding-right: 35px;
     border:1px solid #191919 !important
 }
@@ -9331,7 +9336,7 @@ span.add-ico{
   color: #fff !important;
   font-weight: normal;
   font-size: 14px;
-  padding: 4.4px 16px;
+  padding: 5px 16px;
   padding-right: 35px;
   border-color: rgba(204, 204, 204, 0.3);
   -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
@@ -10140,16 +10145,15 @@ height: 30px!important;
 
 #navbar-collapse-1 .logout{
   display: inline-block;
-  width: auto;
+  width: 100%;
   margin: 0px auto;
   height: auto;
-  padding: 4px 25px !important;
+  padding: 4px 10px !important;
   color: #000;
   text-align: center;
   background: -webkit-gradient(linear, left top, left bottom, from(#fefefe),color-stop(47%, #dadada),to(#b0b0b0));
   background: linear-gradient(to bottom, #fefefe 0%,#dadada 47%,#b0b0b0 100%);
   line-height: normal;
-  margin: 13px 39px;
   border-radius: 25px;
   font-weight: 700;
 }
@@ -10157,9 +10161,10 @@ height: 30px!important;
   text-decoration: none;
 }
 .logout-wrapper{
-  background: 000 url(../img/underline.png) no-repeat;
-  background-size: 90% 2px;
-  background-position: 70% 0%;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative;
+  top: 2px
 }
 #navbar-collapse-1 .logout img{
   width: 30px;
@@ -10542,4 +10547,9 @@ h5.title-inside{
   font-size: 15px;
   font-weight: 700;
   color: #fba601;
+}
+.super-arrow{
+  width: 16px;
+  position: absolute;
+  right: 36px;
 }

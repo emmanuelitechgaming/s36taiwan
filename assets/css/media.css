@@ -1519,13 +1519,14 @@ max-height: 170px;
     .mnav-top ul li:first-child::before{
       content: '';
       position: absolute;
-      top: -16px;
+      top: -18px;
       bottom: 15px;
       left: -8px;
       right: 1px;
-      background: #020202;
-      width: 29px;
-      height: 31px;
+      background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#313131));
+      background: linear-gradient(#333, #313131);
+      width: 35px;
+      height: 34px;
       border-radius: 5px;
     }
     .mnav-afterlogin ul li:first-child::before{
@@ -4432,7 +4433,7 @@ width: 360px;
     }
     .sp-btn-hidden{
       display: inline-block;
-      padding: 3px 100px;
+      padding: 2px 100px;
       padding-right: 150px;
       margin-bottom: 10px;
     }
@@ -5001,7 +5002,7 @@ width: 360px;
       padding: .65em 2em;
   }
   .cs-modal .chatserver-form button {
-      padding: 3px 15px;
+      padding: 2px 15px;
   }
   .notice-dialog th:nth-child(2){
     width: 65%
@@ -5166,7 +5167,7 @@ width: 360px;
     left: 15px;
   }
   .btn-promotion{
-    padding: 7px 25px;
+    padding: 6px 25px;
   }
   .bago-pages .step-no{
     text-align: left;
@@ -5421,8 +5422,8 @@ main .marquee {
     padding-right: 6%;
   }
   .btn-hidden::after{
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
   }
   .casino-desc-bot .sp-btn-hidden{
     padding: 5px 20px;
@@ -5615,7 +5616,7 @@ main .marquee {
       background-repeat: repeat-x;
   }
   .casino-desc-bot .sp-btn-hidden{
-    padding: 5px 25px;
+    padding: 4px 25px;
   }
   .live-game {
     max-height: 400px;
