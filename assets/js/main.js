@@ -538,16 +538,8 @@ $(document).ready(function () {
     });
 
     $('.csmodal-forgot').click(function() {
-      var validation = 0;
-      $('#myModal').modal('hide');
-      $('#csModal').modal('show');
-      // $('#myModal').on('hide.bs.modal', function(e) {
-      //   alert('haha');
-      //   if(validation == 0){
-      //     $('#csModal').modal('show');
-      //     validation = 1;
-      //   }
-      // })
+      $('#loginModal').modal('toggle');
+      $('#csModal').modal('toggle');
     });
 
     $('.promo-heart a img').hover(function() {
