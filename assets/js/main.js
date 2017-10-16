@@ -891,21 +891,16 @@ $(document).ready(function () {
             });
           }
       });
+      
       $('.malupet-nanaman .flexslider').flexslider({
         animation: 'slide',
         direction: 'vertical',
-        slideshowSpeed: '5000',
+        slideshowSpeed: '4000',
+        animationSpeed: '1000',
         controlNav: false,
         directionNav: false,
-        touch:false
       });
-      $('.malupetnaflexslider .flexslider').flexslider({
-        animation: 'slide',
-        direction: 'horizontal',
-        slideshowSpeed: '5000',
-        controlNav: false,
-        directionNav: false
-      });
+
       $('.top-games .flexslider').flexslider({
         animation: 'slide',
         direction: 'vertical',

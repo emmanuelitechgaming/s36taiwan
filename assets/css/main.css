@@ -5537,7 +5537,6 @@ div.cta-contact-info a {
     display: block;
     margin: 0px auto;
     max-width: 100%;
-    height: 29px;
     cursor: pointer;
 }
 .mnav-top ul li:nth-child(2) a img{
@@ -5642,7 +5641,6 @@ div.cta-contact-info a {
 .m-fsalon ul li:nth-child(6) img {
     display: block;
     margin-bottom: 5px;
-    max-width: 70%;
 }
 .m-fsalon ul li:nth-child(6) a {
     color: #5e5e5e

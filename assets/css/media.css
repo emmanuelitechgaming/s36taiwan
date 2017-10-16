@@ -1526,8 +1526,8 @@ max-height: 170px;
       bottom: 15px;
       left: -8px;
       right: 1px;
-      background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#313131));
-      background: linear-gradient(#333, #313131);
+      background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#0a0a0a));
+      background: linear-gradient(#333, #0a0a0a);
       width: 35px;
       height: 34px;
       border-radius: 5px;
@@ -1543,6 +1543,12 @@ max-height: 170px;
     }
     main .win-game img {
         max-width: 93%;
+    }
+    .m-fsalon ul li:nth-child(6) img {
+        max-width: 70%;
+    }
+    .mnav-top ul li a img {
+        height: 29px;
     }
 }
 
@@ -3669,6 +3675,13 @@ max-height: 170px;
   main .win-game img {
       max-width: 60%;
   }
+  .mnav-top ul li:first-child::before {
+    top: -16px;
+    height: 32px;
+  }
+  .m-fsalon ul li:nth-child(6) img {
+      max-width: 50%;
+  }
 }
 
 
@@ -5195,14 +5208,19 @@ width: 360px;
   .boxer .steps.step-play img{
     float: right;
   }
-  .mnav-top ul li:first-child::before{
-    content: none;
-  }
   main .win-game img {
       max-width: 93%;
   }
   .bago-afterlogin .col-xs-6:nth-child(3) .boxer::after{
     content: ''
+  }
+  .mnav-top ul li:first-child::before {
+    top: -5px;
+  }
+  .mnav-top ul li a img {
+    height: 30px;
+    position: relative;
+    top: 2px;
   }
 }
 
@@ -5668,5 +5686,8 @@ main .marquee {
   }
     .malupet-nanaman{
     padding: 0;
+  }
+  .mnav-top ul li a img {
+      height: 29px;
   }
 }
