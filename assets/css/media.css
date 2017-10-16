@@ -28,7 +28,7 @@
       margin: 0px 0;
       text-indent: 29px;
       padding: 5px;
-      border-bottom: 1px solid #3a3a3a;
+
   }
   .haynako{
     font-size: 12px;
@@ -3456,7 +3456,7 @@ max-height: 170px;
   .malupet-nanaman h4{
     font-size: 18px;
     padding: 8px 0px;
-  border-bottom: 1px solid #3a3a3a;
+
   }
   .haynako{
     font-size: 18px;
@@ -4616,6 +4616,13 @@ width: 360px;
 }
 
 @media only screen and (min-width: 1024px) {
+  .bago-pages .col-md-4:first-child .boxer {
+    text-align: left;
+}
+.bago-pages .col-md-4:last-child .boxer {
+    text-align: right;
+}
+
   .naakoo > div {
     margin: 6px 7px;
 }
@@ -4633,7 +4640,7 @@ width: 360px;
     font-size: 16px;
     margin: 5px 0;
     padding: 10px;
-    border-bottom: 1px solid #3a3a3a;
+
 }
   .haynako {
     font-size: 15px;
@@ -5184,14 +5191,14 @@ width: 360px;
 }
 @media only screen and (min-width: 1200px) {
   .banner-overlay{
-    top: 0;
+    top: -5px;
     right: -44%;
-width: 380px;
+    width: 380px;
   }
   .malupet-nanaman h4 {
     font-size: 17px;
     margin: 5px 0;
-    border-bottom: 1px solid #3a3a3a;
+
     padding: 11px;
     text-indent: 20px;
 }
@@ -5515,19 +5522,11 @@ main .marquee {
     padding-left: 71px;
     margin-left: auto;
   }
-  .bago-pages-casino .container{
-    width: 1373px;
-    padding-right: 2px;
+  .bago-pages-casino .container,.bago-pages-slots .container,.bago-pages-lotto .container,.bago-pages-dl .container{
+      width: 1180px;
+     padding-right: 2px;
+  }
 
-  }
-  .bago-pages-slots .container{
-    width: 1373px;
-      padding-right: 2px;
-  }
-  .bago-pages-lotto .container{
-    width: 1373px;
-    padding-right: 2px;
-  }
   .drop {
       right: 7px;
   }
@@ -5642,6 +5641,6 @@ main .marquee {
     right: -10px;
   }
     .malupet-nanaman{
-    padding: 7px 0px 6px 0px;
+    padding: 0;
   }
 }
