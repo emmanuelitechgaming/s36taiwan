@@ -1538,6 +1538,9 @@ max-height: 170px;
     .index-mobile-banner{
       min-height: 170px;
     }
+    main .win-game img {
+        max-width: 93%;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3660,6 +3663,9 @@ max-height: 170px;
   .boxer .steps.step-play img{
     float: right;
   }
+  main .win-game img {
+      max-width: 60%;
+  }
 }
 
 
@@ -5181,6 +5187,9 @@ width: 360px;
   }
   .mnav-top ul li:first-child::before{
     content: none;
+  }
+  main .win-game img {
+      max-width: 93%;
   }
 }
 
