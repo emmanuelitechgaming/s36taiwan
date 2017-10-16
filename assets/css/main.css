@@ -2818,7 +2818,6 @@ select + i.fa {
 }
 
 .selectpicker2 .fa {
-    color: #fba601;
     font-size: 12px;
 }
 
@@ -5298,10 +5297,6 @@ div.cta-contact-info a {
     color: #fba601;
     margin-right: 5px !important;
     margin-left: 5px;
-}
-
-.selectpicker2 > i {
-    color: #fff!important;
 }
 
 .slots-tabs li:hover,
