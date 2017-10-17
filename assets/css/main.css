@@ -8115,8 +8115,8 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
     text-shadow: none;
 }
 .img-responsive-live-games{
-  position: relative;
-  top: 25px
+  margin: 0 auto;
+
 }
 .sp-dl.fffssa{
   background: #202020;
@@ -10053,19 +10053,19 @@ height: 30px!important;
   left: 0;
   text-align: center;
 }
-.live-game ul{
-  position: absolute;
+.promo-ins-desc ul{
   list-style: none;
   right: 0;
   left: 0;
   padding: 0;
 }
-.live-game ul li{
+.promo-ins-desc ul li{
   float: left;
   width: 33.333%;
   text-align: center;
+  margin: 20px 0;
 }
-.live-game ul li span{
+.promo-ins-desc  ul li span{
   font-family: Tungsten;
   display: block;
   font-weight: 700;
@@ -10554,4 +10554,30 @@ h5.title-inside{
 }
 .bago-afterlogin .boxer .step-txt{
   font-size: 11px;
+}
+.promo-home {
+  margin: 10px auto 0;
+  max-width: 649px;
+  border:1px solid #484848;
+}
+.promo-home .title{
+  position: absolute;
+      text-align: center;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,0.5);
+      padding: 3px;
+      bottom: 0px;
+
+}
+.promo-home .img-txt{
+  position: relative;
+      border-bottom: 1px solid #484848;
+}
+.promo-ins-desc{
+  background:#222222;
+  border-top: 1px #484848;
+  overflow: hidden;
+  text-align: center;
 }

@@ -1325,10 +1325,10 @@ max-height: 170px;
     .live-game .title{
       bottom: 43.7%;
     }
-    .live-game ul{
+    .promo-ins-desc ul{
       bottom: 22%;
     }
-    .live-game ul li span{
+    .promo-ins-desc ul li span{
       font-size: 38px;
       line-height: 30px;
     }
@@ -1441,7 +1441,7 @@ max-height: 170px;
     .sweet-arrow::before {
      right: 40px;
     }
-    .live-game ul li{
+    .promo-ins-desc ul li{
       font-size: 17px;
     }
     .mnav-top ul {
@@ -1799,10 +1799,10 @@ max-height: 170px;
     .live-game .title{
       bottom: 45%;
     }
-    .live-game ul{
+    .promo-ins-desc ul{
       bottom: 23%;
     }
-    .live-game ul li span{
+    .promo-ins-desc ul li span{
       font-size: 40px;
       line-height: 40px;
     }
@@ -2147,7 +2147,7 @@ max-height: 170px;
     .live-game .title{
       bottom: 45.5%;
     }
-    .live-game ul{
+    .promo-ins-desc ul{
       bottom: 24%;
     }
     .gp-g.row .live-games {
@@ -2449,7 +2449,7 @@ max-height: 170px;
     .live-game .title{
       bottom: 46%;
     }
-    .live-game ul{
+    .promo-ins-desc ul{
       bottom: 26%;
     }
     .gp-g.row .live-games {
@@ -3524,7 +3524,7 @@ max-height: 170px;
     .jumbo {
         left: 225px
     }
-    .live-game ul {
+    .promo-ins-desc ul {
     bottom: 25%;
 }
     .btn-hidden::after{
@@ -4318,7 +4318,7 @@ width: 360px;
         bottom: 1px;
     }
     .lg-playnow {
-        bottom: 14%;
+        bottom: 8px;
     }
     .promotion-form-btn2 {
         margin-bottom: auto;
@@ -4468,7 +4468,6 @@ width: 360px;
       margin-bottom: 10px;
     }
     .sp-btn-hidden2{
-      display: block;
       width: 100%;
       padding: 6px 0;
       padding-right: 6%;
@@ -4703,7 +4702,6 @@ width: 360px;
     height: 21px;
   }
   .lg-playnow {
-    bottom: 64px;
   }
   #b{
     max-width: inherit !important
@@ -5006,11 +5004,11 @@ width: 360px;
   header .navbar {
     margin-bottom: -1px;
   }
-  .live-game ul li span {
+  .promo-ins-desc ul li span {
     font-size: 35px;
     line-height: 35px;
   }
-  .live-game ul {
+  .promo-ins-desc ul {
     bottom: 22%;
   }
   .step-no.step1, .step-no.step2, .step-no.step3, .step-no.step4{
@@ -5103,7 +5101,7 @@ width: 360px;
   .top-header ul{
     margin-right: -15px;
   }
-  .live-game ul li{
+  .promo-ins-desc ul li{
     font-size: 17px;
   }
   .live-game-txtcb{
@@ -5449,7 +5447,6 @@ main .marquee {
     right: 25px;
 }
 .lg-playnow {
-    bottom: 84px;
 }
 .lg-playnow {
     font-size: 18px;
@@ -5471,7 +5468,6 @@ main .marquee {
   height: auto;
 }
   .sp-btn-hidden2{
-    display: block;
     width: 100%;
     padding: 6px 0;
     padding-right: 6%;
@@ -5619,10 +5615,10 @@ main .marquee {
   .live-game .title{
     bottom: 46.5%;
   }
-  .live-game ul{
+  .promo-ins-desc ul{
     bottom: 25.5%;
   }
-  .live-game ul li span{
+  .promo-ins-desc ul li span{
     font-size: 40px;
     line-height: 40px;
   }
