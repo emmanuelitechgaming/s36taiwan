@@ -1656,7 +1656,9 @@ color: #ffffff!important;
   padding: 3px 25px;
   padding-right: 55px;
 }
-
+.wallet-link{
+  padding: 3px 10px;
+}
 .promotion-form .btn-hidden{
   display: block;
   width: 100%
@@ -8555,6 +8557,12 @@ background: rgba(204, 204, 204, 0.2);
 color: #fff;
 text-decoration: none;
 }
+.wallet-link:hover, .wallet-link:active, .wallet-link:focus{
+  background: transparent;
+  color: #fba601;
+  text-decoration: underline;
+  border: none !important
+}
 .live-game .btn-hidden:hover, .live-game .sp-btn-hidden:hover{
   background-color: transparent;
   -webkit-box-shadow: none;
@@ -10066,10 +10074,20 @@ height: 30px!important;
   padding: 0;
 }
 .promo-ins-desc ul li{
-  float: left;
+  display: inline-block;
   width: 33.333%;
   text-align: center;
   margin: 20px 0;
+  margin-left: -3px;
+  position: relative;
+}
+.promo-ins-desc ul li::after{
+  content: '';
+  display: block;
+  width: 2px;
+  position: absolute;
+  background: #000;
+  border-right: solid 1px #333
 }
 .promo-ins-desc  ul li span{
   font-family: Tungsten;
@@ -10606,4 +10624,43 @@ h5.title-inside{
     text-align: center;
     left: 0;
     right: 0;
+}
+.wallet-link{
+  color: #fba601;
+  text-decoration: underline;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  font-size: 14px;
+}
+.wallet-link::after{
+  content: none
+}
+.wallet.acc-info .form-horizontal .form-control{
+  display: inline-block;
+}
+.wallet.acc-info .form-horizontal label{
+  font-weight: normal;
+  position: relative;
+  top: 7px
+}
+.wallet.acc-info .form-horizontal .acc-details label{
+  top: 0;
+}
+.wallet.acc-info .form-horizontal .fa{
+  color: #fba601;
+  margin-left: 10px;
+}
+.wallet.acc-info .form-horizontal .sec-code{
+  color: #fba601;
+  text-decoration: underline;
+}
+.wallet.acc-info .form-horizontal label.col-md-1{
+  left: -12px;
+}
+.the_label{
+  text-align: right;
+  font-size: 12px;
+  margin: 5px 0 0
 }

@@ -730,7 +730,7 @@ max-height: 170px;
         bottom: -5px
     }
     .lg-playnow {
-      bottom: 55px;
+      bottom: 12px;
     }
     img.b-img {
         top: auto
@@ -1543,7 +1543,7 @@ max-height: 170px;
       top: -10px;
     }
     .malupet-nanaman{
-      padding: 5px 10px 0px 10px;
+      padding: 3px 10px 0px 10px;
     }
     .index-mobile-banner{
       min-height: 170px;
@@ -1565,6 +1565,19 @@ max-height: 170px;
         min-width: 100%;
     }
     #registerModal .modal-bottom, #loginModal .modal-bottom{
+      text-align: center;
+    }
+    .promo-ins-desc ul li::after{
+      top: 7px;
+      bottom: 7px;
+    }
+    .wallet.acc-info .form-horizontal .form-control{
+      width: 100%;
+    }
+    .wallet.acc-info .form-horizontal .form-group{
+      margin-bottom: 10px;
+    }
+    .account-button{
       text-align: center;
     }
 }
@@ -1688,9 +1701,6 @@ max-height: 170px;
     .i-fantan .live-game-txtc,
     .i-sicbo .live-game-txtc {
         bottom: 6px;
-    }
-    .lg-playnow {
-        bottom: 64px;
     }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
@@ -1852,7 +1862,7 @@ max-height: 170px;
       max-height: 341px;
     }
     .malupet-nanaman {
-      padding: 5px 0px 4px 0px;
+      padding: 4px 0px 3px 0px;
     }
 }
 
@@ -2127,9 +2137,6 @@ max-height: 170px;
       font-size: 12px;
       margin: 0 8px
     }
-    .lg-playnow {
-      bottom: 68px;
-    }
     .contact-title li{
       margin: 0 1px;
     }
@@ -2344,7 +2351,6 @@ max-height: 170px;
     }
     .lg-playnow {
         font-size: 18px;
-        bottom: 80px;
     }
     .promotion-form-btn {
         background-position: 32px -1px
@@ -3490,9 +3496,8 @@ max-height: 170px;
          margin: 3px 4px;
    }
 .malupet-nanaman{
-    padding: 9px 0px 9px 0px;
-
-    height: 265px;
+    padding: 5px 0px 5px 0px;
+    height: 264px;
 }
   .malupet-nanaman h4{
     font-size: 18px;
@@ -3550,6 +3555,10 @@ max-height: 170px;
     .btn-hidden::after{
       width: 13px;
       height: 15px;
+    }
+    .lg-playnow.btn-hidden::after{
+      width: 18px;
+      height: 18px;
     }
     .lg-playnow.login-modal-a img {
         width: 16px;
@@ -4472,6 +4481,9 @@ width: 360px;
     .btn-hidden-ph2p2, .btn-hidden-dh2p2{
       margin-left: 35px
     }
+    .wallet-link{
+      margin-left: 10px;
+    }
     .f-toggle .btn-hidden{
       padding: 6px 40px;
       padding-right: 70px
@@ -5261,6 +5273,16 @@ width: 360px;
   }
   .the_modal_footer .modal-foot, .the_modal_footer .pull-right{
     display: inline-block;
+    width: auto;
+  }
+  .promo-ins-desc ul li::after{
+    top: 10px;
+    bottom: 10px;
+  }
+  .wallet.acc-info .form-horizontal label.col-md-1{
+    width: 10%;
+  }
+  .wallet.acc-info .form-horizontal .form-control{
     width: auto;
   }
 }

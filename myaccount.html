@@ -700,54 +700,82 @@
 
                         <div class="wallet account acc-info" >
                       <div class="title">您的個人信息</div>
-                      <div class="acc-cont">
-                        <div class="acc-lbl">姓名： </div>
-                        <div class="acc-details">  <input type="text"> <span><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></span> 請注意確定後不得轉換其他姓名。  </div>
-                      </div>
-
-                      <div class="acc-cont">
-                        <div class="acc-lbl">生日： </div>
-                        <div class="acc-details">  <input type="text"> <span><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></span> 您必須年滿21週歲。</div>
-                      </div>
-
-                      <div class="acc-cont">
-                        <div class="acc-lbl">性別： </div>
-
-                        <div class="acc-details">
-                          <div class="checkbox checkbox-warning" style="margin-left:15px;">
-                            <span class="myaccount-gender gender-male"></span>
-                            <input id="checkbox5"  type="checkbox">
-                            <label for="checkbox5">男</label>
+                        <form class="form-horizontal">
+                          <div class="form-group">
+                            <label class="col-md-1 col-sm-2 col-xs-4">姓名：</label>
+                            <div class="col-md-8 col-sm-4 col-xs-8">
+                              <input type="text" class="form-control">
+                              <div class="hidden-sm hidden-xs">
+                                <span><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></span> 請注意確定後不得轉換其他姓名。
+                              </div>
+                            </div>
+                            <div class="the_label col-xs-12 hidden-lg hidden-md">
+                              <span><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></span> 請注意確定後不得轉換其他姓名。
+                            </div>
                           </div>
-                          <div class="checkbox checkbox-warning" style="margin-left:35px;">
-                            <span class="myaccount-gender gender-female"></span>
-                            <input id="checkbox6"  type="checkbox">
-                            <label for="checkbox6">女</label>
+
+                          <div class="form-group">
+                            <label class="col-md-1 col-sm-2 col-xs-4">生日：</label>
+                            <div class="col-md-8 col-sm-4 col-xs-8">
+                              <input type="text" class="form-control">
+                              <div class="hidden-sm hidden-xs">
+                                <span><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></span> 您必須年滿21週歲。
+                              </div>
+                            </div>
+                            <div class="the_label col-xs-12 hidden-lg hidden-md">
+                              <span><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></span> 您必須年滿21週歲。
+                            </div>
                           </div>
-                        </div>
 
-                      </div>
+                          <div class="form-group">
+                            <label class="col-md-1 col-sm-2 col-xs-4">性別：</label>
+                            <div class="col-md-8 col-sm-4 col-xs-8">
+                              <div class="acc-details">
+                                <div class="checkbox checkbox-warning" style="margin-left:15px;">
+                                  <span class="myaccount-gender gender-male"></span>
+                                  <input id="checkbox5"  type="checkbox">
+                                  <label for="checkbox5">男</label>
+                                </div>
+                                <div class="checkbox checkbox-warning" style="margin-left:35px;">
+                                  <span class="myaccount-gender gender-female"></span>
+                                  <input id="checkbox6"  type="checkbox">
+                                  <label for="checkbox6">女</label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
 
-                      <div class="acc-cont">
-                        <div class="acc-lbl">電話： </div>
-                        <div class="acc-details"><span class="cntrycode">＋886</span>  <input type="text"> <span><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></span> 电话号码最尾四个数字，將作為帳戶的安全碼。 </div>
-                      </div>
+                          <div class="form-group">
+                            <label class="col-md-1 col-sm-2 col-xs-4">電話：</label>
+                            <div class="col-md-8 col-sm-4 col-xs-8">
+                              <span class="cntrycode">＋886</span>
+                              <input type="text" class="form-control">
+                              <div class="hidden-sm hidden-xs">
+                                <span><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></span> 电话号码最尾四个数字，將作為帳戶的安全碼。
+                              </div>
+                            </div>
+                            <div class="the_label col-xs-12 hidden-lg hidden-md">
+                              <span><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></span> 电话号码最尾四个数字，將作為帳戶的安全碼。
+                            </div>
+                          </div>
 
-                      <div class="acc-cont">
-                        <div class="acc-lbl">安全碼： </div>
-                        <div class="acc-details"></div>
-                      </div>
+                          <div class="form-group">
+                            <label class="col-md-1 col-sm-2 col-xs-4">安全碼：</label>
+                            <div class="col-md-8 col-sm-4 col-xs-8"></div>
+                          </div>
 
-                      <div class="acc-cont">
-                          <div class="acc-lbl"> <a href="#"  >更改安全碼</a></div>
-                      </div>
-                      <div class="acc-cont">
-                        <div class="acc-lbl"></div>
-                        <div class="acc-details">
-                          <button type="submit" class="sweet-13 btn-hidden" id="btn-edit-info" onclick="_gaq.push(['_trackEvent', 'example, 'try', 'Success']);">提交</button>
-                        </div>
-                      </div>
-                </div>
+                          <div class="form-group">
+                            <label class="col-md-1 col-sm-2 col-xs-12"><a href="#" class="sec-code">更改安全碼</a></label>
+                            <div class="col-md-8 col-sm-4 col-xs-8"></div>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="col-md-1 col-sm-2 col-xs-4"></label>
+                            <div class="col-md-8 col-sm-4 col-xs-12 account-button"><button type="submit" class="sweet-13 btn-hidden" id="btn-edit-info" onclick="_gaq.push(['_trackEvent', 'example, 'try', 'Success']);">提交</button></div>
+                          </div>
+                        </form>
+
+                    </div>
                     </div>
                     <div  id="myaccount-p-info">
                     <div class="wallet account acc-info">
