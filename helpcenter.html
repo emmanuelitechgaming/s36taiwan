@@ -2058,7 +2058,7 @@ div#tab2.tab-pane.active p a:first-child{
                </div>
                <div class="titcc ccc2">
                    常見的瀏覽器</div>
-               <h4 class="title-inside with-accordion">Google Chrome</h4>
+               <h4 class="title-inside with-accordion">谷歌浏览器</h4>
                <div class="comment">
                  <div class="tit002">
                      <div class="lh002">
@@ -2093,7 +2093,7 @@ div#tab2.tab-pane.active p a:first-child{
                  <div class="comment-close text-right inside2"><a href="javascript:void(0)"><i class="fa fa-times"> </i> Close</a></div>
                </div>
 
-               <h4 class="title-inside with-accordion">Microsoft Internet Explorer</h4>
+               <h4 class="title-inside with-accordion">IE浏览器</h4>
                <div class="comment">
                  <div class="tit002">
                    <div class="lh002">
@@ -2267,7 +2267,7 @@ div#tab2.tab-pane.active p a:first-child{
                 <div class="comment-close text-right inside2"><a href="javascript:void(0)"><i class="fa fa-times"> </i> Close</a></div>
                </div>
 
-               <h4 class="title-inside with-accordion">Mozilla Firefox</h4>
+               <h4 class="title-inside with-accordion">火狐浏览器</h4>
                <div class="comment">
                  <div class="tit002">
                    <div class="lh002">
@@ -4902,8 +4902,10 @@ div#tab2.tab-pane.active p a:first-child{
       $('.nested-accordion').find('h4').click(function(){
         if($(this).attr('class') == "selected"){
           $(this).next('.comment').toggle();
+          $(this).toggleClass('selected');
         }else{
           $(this).next('.comment').toggle();
+          $(this).toggleClass('selected');
         }
       });
 
