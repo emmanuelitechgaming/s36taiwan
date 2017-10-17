@@ -1526,14 +1526,14 @@ max-height: 170px;
       bottom: 15px;
       left: -8px;
       right: 1px;
-      background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#0a0a0a));
-      background: linear-gradient(#333, #0a0a0a);
+      background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#313131));
+      background: linear-gradient(#333, #313131);
       width: 35px;
       height: 34px;
       border-radius: 5px;
     }
     .mnav-afterlogin ul li:first-child::before{
-      top: -8px;
+      top: -10px;
     }
     .malupet-nanaman{
       padding: 5px 10px 0px 10px;
@@ -1549,6 +1549,10 @@ max-height: 170px;
     }
     .mnav-top ul li a img {
         height: 29px;
+    }
+    .add-main-screen{
+      background-size: 20px 20px;
+      background-position: 4%;
     }
 }
 
@@ -2494,6 +2498,10 @@ max-height: 170px;
     }
     #navbar-collapse-1 .logout{
       font-size: 13px;
+    }
+    .add-main-screen{
+      background-size: 22px 22px;
+      background-position: 4%;
     }
 }
 
@@ -5221,6 +5229,10 @@ width: 360px;
     height: 30px;
     position: relative;
     top: 2px;
+  }
+  .bago-afterlogin .boxer .step-txt{
+    width: 110px;
+    padding: 0 10px;
   }
 }
 

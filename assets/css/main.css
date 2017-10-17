@@ -10016,19 +10016,14 @@ height: 30px!important;
 }
 .add-main-screen{
   display: block;
-      width: 100%;
-      border: none;
-      background: #333 url(../img/add-desktop.png) no-repeat;
-      background-size: 25px 25px;
-      background-position: 4%;
-      color: #fff;
-      padding: 6px 0;
-      border-radius: 5px;
-      max-width: 180px;
-      margin: 0px auto;
-}
-.nav.navbar-nav.hidden-md.hidden-lg li:last-child .row .add-main-screen{
-  background-size: 27px 27px;
+  width: 100%;
+  border: none;
+  background: #333 url(../img/add-desktop.png) no-repeat;
+  color: #fff;
+  padding: 6px 0;
+  border-radius: 5px;
+  max-width: 180px;
+  margin: 0px auto;
 }
 
 .live-game .title{
@@ -10539,6 +10534,4 @@ h5.title-inside{
 }
 .bago-afterlogin .boxer .step-txt{
   font-size: 11px;
-width: 110px;
-padding: 0 10px;
 }
