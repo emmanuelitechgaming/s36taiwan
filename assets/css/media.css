@@ -28,10 +28,9 @@
   }
   .malupet-nanaman h4{
     font-size: 12px;
-      margin: 0px 0;
-      text-indent: 29px;
-      padding: 5px;
-
+    margin: 0px 0;
+    text-indent: 24px;
+    padding: 5px;
   }
   .haynako{
     font-size: 12px;
@@ -1864,6 +1863,9 @@ max-height: 170px;
     .malupet-nanaman {
       padding: 4px 0px 3px 0px;
     }
+    .malupet-nanaman h4{
+      text-indent: 34px;
+    }
 }
 
 
@@ -2537,7 +2539,6 @@ max-height: 170px;
     margin-right: auto;
     left: 0;
     right: 0;
-    width: 275px;
   }
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
         width: 75px !important;
