@@ -1550,10 +1550,16 @@ p {
 .wallet .form-group {
     margin: 0;
 }
-
+.cntrycode{
+  position: absolute;
+left: -41px;
+top: 6px;
+color: #ffffff!important;
+}
 .wallet div {
     display: inline-block;
     padding: 0;
+    position: relative;
 }
 
 .wallet span {
@@ -9396,7 +9402,7 @@ span.add-ico{
 .flag-dropdown .dropdown-menu{
   right: 0;
   background: #333;
-  padding: 2px 0;
+  padding: 1px 0;
   margin-top: 1px;
 }
 .flag-val{
@@ -10580,4 +10586,24 @@ h5.title-inside{
   border-top: 1px #484848;
   overflow: hidden;
   text-align: center;
+}
+
+.mobile-vip {
+  background: url(../img/promo/spotlight.png) no-repeat #000;
+  background-position: 68% 51%;
+  background-size: 287%;
+  margin-top: 10px;
+  height: 460px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+.classsa{
+  position: absolute;
+    top: 28px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    right: 0;
 }
