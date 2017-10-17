@@ -6584,6 +6584,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0b0b0', end
 
 #csCallselectflag .dropdown-menu {
     top: 65%;
+    overflow-y: hidden;
 }
 .select-country-code-dropdown button{
   border-radius: 0 !important;
@@ -7650,7 +7651,6 @@ button .flag-icon-kr::before {
 }
 .select-country-code-dropdown .dropdown-menu {
     background-color: #333;
-    min-width: 100%;
 }
 
 .select-country-code-dropdown .dropdown-menu>li>a {

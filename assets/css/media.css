@@ -897,7 +897,8 @@ max-height: 170px;
         background-position-x: 100%
     }
     #csCallselectflag .dropdown-menu {
-        min-width: 213px
+        min-width: 213px;
+        width: 100%;
     }
     .myModal2b_registration_a,
     .myModal2b_login_a {
@@ -1344,6 +1345,12 @@ max-height: 170px;
       transform-origin:0 0 !important;
       -webkit-transform-origin:0 0 !important;
     }
+    #registerModal .g-recaptcha{
+      transform:scale(0.79) !important;
+      -webkit-transform:scale(0.79) !important;
+      transform-origin:0 0 !important;
+      -webkit-transform-origin:0 0 !important;
+    }
     #myModalTab1-1 .g-recaptcha{
       position: relative;
       left: 15px
@@ -1553,6 +1560,12 @@ max-height: 170px;
     .add-main-screen{
       background-size: 20px 20px;
       background-position: 4%;
+    }
+    .select-country-code-dropdown .dropdown-menu {
+        min-width: 100%;
+    }
+    #registerModal .modal-bottom, #loginModal .modal-bottom{
+      text-align: center;
     }
 }
 
@@ -2502,6 +2515,13 @@ max-height: 170px;
     .add-main-screen{
       background-size: 22px 22px;
       background-position: 4%;
+    }
+    .the_modal_footer{
+      text-align: center;
+    }
+    .the_modal_footer .modal-foot, .the_modal_footer .pull-right{
+      display: block;
+      width: 100%;
     }
 }
 
@@ -4406,7 +4426,8 @@ width: 360px;
         background-position: right;
     }
     #csCallselectflag .dropdown-menu {
-        min-width: 165px
+        min-width: 165px;
+        width: 100%;
     }
     .form-recap-right p {
         left: -20px;
@@ -5231,6 +5252,16 @@ width: 360px;
   .bago-afterlogin .boxer .step-txt{
     width: 110px;
     padding: 0 10px;
+  }
+  .select-country-code-dropdown .dropdown-menu {
+      min-width: 220px;
+  }
+  .the_modal_footer{
+    text-align: left;
+  }
+  .the_modal_footer .modal-foot, .the_modal_footer .pull-right{
+    display: inline-block;
+    width: auto;
   }
 }
 
