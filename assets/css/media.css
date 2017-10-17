@@ -5285,6 +5285,9 @@ width: 360px;
   .wallet.acc-info .form-horizontal .form-control{
     width: auto;
   }
+  .account-button{
+    text-align: left;
+  }
 }
 
 @media (min-width: 1200px){
