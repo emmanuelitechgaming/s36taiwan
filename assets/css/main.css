@@ -9411,19 +9411,29 @@ span.add-ico{
 }
 
 .footer-dropdown2 button{
-  background: #333 url('../img/flags/taiwan-nb.png') no-repeat;
-  background-size: 23px 23px;
-  background-position: 3% 2px;
+  background: url(../img/select-bg.png), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url(../img/select-bg.png), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 39px;
+  background-repeat: no-repeat;
+  background-position: right;
   padding: 4px 20px;
   font-size: 14px;
   min-width: 240px;
   bottom:25px;
-  border: solid 1px #333
+  border: solid 1px #333;
+}
+.footer-dropdown2 button::before{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url('../img/flags/taiwan-nb.png') no-repeat;
+  background-size: cover;
+  left: 5%;
 }
 .footer-dropdown button:active, .footer-dropdown button:focus, .footer-dropdown button:hover{
   color: #fff !important;
-  background-color: transparent !important;
-  outline: 0 !important;
 }
 .footer-dropdown2 button:active, .footer-dropdown2 button:focus, .footer-dropdown2 button:hover{
   background-color: #333 !important;
