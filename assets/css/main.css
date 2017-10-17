@@ -5537,7 +5537,6 @@ div.cta-contact-info a {
     display: block;
     margin: 0px auto;
     max-width: 100%;
-    height: 29px;
     cursor: pointer;
 }
 .mnav-top ul li:nth-child(2) a img{
@@ -5642,7 +5641,6 @@ div.cta-contact-info a {
 .m-fsalon ul li:nth-child(6) img {
     display: block;
     margin-bottom: 5px;
-    max-width: 70%;
 }
 .m-fsalon ul li:nth-child(6) a {
     color: #5e5e5e
@@ -10018,19 +10016,14 @@ height: 30px!important;
 }
 .add-main-screen{
   display: block;
-      width: 100%;
-      border: none;
-      background: #333 url(../img/add-desktop.png) no-repeat;
-      background-size: 25px 25px;
-      background-position: 4%;
-      color: #fff;
-      padding: 6px 0;
-      border-radius: 5px;
-      max-width: 180px;
-      margin: 0px auto;
-}
-.nav.navbar-nav.hidden-md.hidden-lg li:last-child .row .add-main-screen{
-  background-size: 27px 27px;
+  width: 100%;
+  border: none;
+  background: #333 url(../img/add-desktop.png) no-repeat;
+  color: #fff;
+  padding: 6px 0;
+  border-radius: 5px;
+  max-width: 180px;
+  margin: 0px auto;
 }
 
 .live-game .title{
@@ -10473,7 +10466,7 @@ font-weight: 700;
 .mobile-banner img.img-responsive{
   display: none
 }
-.mobile-banner-promotion img.img-responsive{
+.mobile-banner-promotion img.img-responsive, .mobile-banner-winner img.img-responsive, .mobile-banner-dl img.img-responsive{
   display: block
 }
 .dl-content{
@@ -10541,6 +10534,4 @@ h5.title-inside{
 }
 .bago-afterlogin .boxer .step-txt{
   font-size: 11px;
-width: 110px;
-padding: 0 10px;
 }
