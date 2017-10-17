@@ -7644,7 +7644,7 @@ button .flag-icon-kr::before {
 }
 .select-country-code-dropdown .dropdown-menu {
     background-color: #333;
-    min-width: 165px;
+    min-width: 100%;
 }
 
 .select-country-code-dropdown .dropdown-menu>li>a {
