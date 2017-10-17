@@ -10471,7 +10471,7 @@ font-weight: 700;
 .mobile-banner img.img-responsive{
   display: none
 }
-.mobile-banner-promotion img.img-responsive{
+.mobile-banner-promotion img.img-responsive, .mobile-banner-winner img.img-responsive, .mobile-banner-dl img.img-responsive{
   display: block
 }
 .dl-content{
