@@ -9411,7 +9411,7 @@ span.add-ico{
 }
 
 .footer-dropdown2 button{
-  background: #333 url('../img/world.png') no-repeat;
+  background: #333 url('../img/flags/taiwan-nb.png') no-repeat;
   background-size: 23px 23px;
   background-position: 3% 2px;
   padding: 4px 20px;
@@ -9530,7 +9530,7 @@ span.add-ico{
   display: inline-block;
 }
 .m-footer-dropdown button{
-  background: #333 url('../img/world.png') no-repeat;
+  background: #333 url('../img/flags/taiwan-nb.png') no-repeat;
   background-size: 23px 23px;
   background-position: 3% 5px;
   color: #fff;
