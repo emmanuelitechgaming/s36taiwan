@@ -9428,9 +9428,9 @@ span.add-ico{
   position: absolute;
   width: 20px;
   height: 20px;
-  background: url('../img/flags/taiwan-nb.png') no-repeat;
+  background: url('../img/world.png') no-repeat;
   background-size: cover;
-  left: 5%;
+  left: 3%;
 }
 .footer-dropdown button:active, .footer-dropdown button:focus, .footer-dropdown button:hover{
   color: #fff !important;
@@ -9555,9 +9555,9 @@ span.add-ico{
   position: absolute;
   width: 20px;
   height: 20px;
-  background: url('../img/flags/taiwan-nb.png');
+  background: url('../img/world.png');
   background-size: cover;
-  left: 5%
+  left: 4%
 }
 .m-footer-dropdown button:active, .m-footer-dropdown button:hover, .m-footer-dropdown button:focus{
   color: #fff !important;
