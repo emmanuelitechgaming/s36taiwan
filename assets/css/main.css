@@ -10501,7 +10501,8 @@ font-weight: 700;
   padding: 12px 0
 }
 .dl-content .footer{
-  padding: 0 0 15px
+  padding: 0 0 15px;
+  word-spacing: 14px;
 }
 .dl-content .title{
   border-top-left-radius: 10px;
