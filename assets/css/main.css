@@ -1515,7 +1515,6 @@ p {
 .account .title {
     line-height: 45px;
     font-size: 16px;
-    padding-left: 30px;
     font-weight: bold;
     height: 50px;
     background-image: url('../img/afterlogin/title.png');
@@ -1568,18 +1567,12 @@ color: #ffffff!important;
     border: none;
     color: #3c3c3c;
 }
-
-.wallet .bal {
-    margin: 0 30px;
-}
-
 .wallet .bal div {
     padding: 0 5px;
 }
 
 .wallet .datepicker {
     color: #555;
-    margin: 3px;
     padding: 5px 16px;
 }
 
@@ -1649,9 +1642,6 @@ color: #ffffff!important;
   display: inline-block;
   padding: 3px 25px;
   padding-right: 55px;
-}
-.wallet-link{
-  padding: 3px 10px;
 }
 .promotion-form .btn-hidden{
   display: block;
@@ -8067,6 +8057,10 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 .mobile-banner .img-responsive{
   border-bottom: solid 4px #4a4a4a;
   width:100%;
+}
+.mobile-banner-casino .img-responsive{
+  width: 768px;
+  height: 264px;
 }
 /*main .win-title-recent{
   border-bottom: 1px solid transparent

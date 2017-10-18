@@ -1583,6 +1583,9 @@ max-height: 170px;
         display: inline-block;
         margin-left: 15px;
     }
+    .wallet-link{
+      padding: 3px 0;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -5337,6 +5340,15 @@ width: 360px;
   }
   .deposit-neteller .account-text, .wallet .padding-wallet{
     padding: 0 0 0 30px;
+  }
+  .account .title {
+      padding-left: 30px;
+  }
+  .wallet-link{
+    padding: 3px 10px;
+  }
+  .wallet .bal {
+      margin: 0 30px;
   }
 }
 
