@@ -3696,9 +3696,9 @@ max-height: 170px;
     left: 315px;
   }
   .username-availability{
-    font-size: 11px;
+    font-size: 12px;
     top: -5px;
-    left: -18px;
+    left: -35px;
     white-space: nowrap;
   }
   #registerModal #myModalTab1-2 .g-recaptcha, #myModal #myModalTab1-2 .g-recaptcha {
@@ -3773,6 +3773,13 @@ max-height: 170px;
   }
   .lg-playnow.sp-btn-hidden2{
     width: 39.5%;
+  }
+  .size-to-robot{
+    padding-left: 15px;
+    padding-right: 30px
+  }
+  #registerModal label{
+    white-space: nowrap;
   }
 }
 
@@ -5378,6 +5385,9 @@ width: 360px;
   .contact-title ul{
     position: relative;
     top: 3px
+  }
+  .lg-playnow.sp-btn-hidden2 {
+    width: 80%;
   }
 }
 
