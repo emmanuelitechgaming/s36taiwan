@@ -1269,10 +1269,10 @@ max-height: 170px;
       margin-top: 10px;
     }
     .boxer  div.step-txt{
-      font-size: 10px;
+      font-size: 14px;
     }
     .boxer div span{
-      font-size: 7px;
+      font-size: 14px;
     }
     .bago_nanaman .boxer-last{
       line-height: 27px;
@@ -1298,8 +1298,7 @@ max-height: 170px;
       padding-right: 5px
     }
     .step-no{
-      font-size: 2.5em;
-
+      font-size: 3em;
     }
 
     .gp-more span {
@@ -1796,14 +1795,8 @@ max-height: 170px;
       display: inline-block;
       margin: 2px 15px
     }
-    .boxer  div.step-txt{
-      font-size: 11px;
-    }
     .bago-afterlogin .boxerdiv.step-txt{
       font-size: 12px;
-    }
-    .boxer div span{
-      font-size: 9px;
     }
     .mobile-banner-wrapper .bs-slider-overlay a {
       font-size: 16px;
@@ -2155,9 +2148,6 @@ max-height: 170px;
     }
     .boxer-last a{
       min-width: 275px;
-    }
-    .boxer div span{
-      font-size: 10px;
     }
     .bago-afterlogin .boxer div span{
       font-size: 10px;
@@ -3603,7 +3593,7 @@ max-height: 170px;
     }
     .rss-field .form-group:nth-child(1){
       display: inline-block;
-      width: 65.7%;
+      width: 64.4%;
     }
     .contactus ul li {
       padding: 7.8px 0;
@@ -3780,6 +3770,9 @@ max-height: 170px;
   }
   #registerModal label{
     white-space: nowrap;
+  }
+  .footer-shareit .list-inline{
+    margin-left: -13px;
   }
 }
 
@@ -5388,6 +5381,9 @@ width: 360px;
   }
   .lg-playnow.sp-btn-hidden2 {
     width: 80%;
+  }
+  .footer-shareit .list-inline{
+    margin-left: -5px;
   }
 }
 
