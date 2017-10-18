@@ -3118,6 +3118,14 @@ max-height: 170px;
     .live-game-txt a{
       font-size: 18px;
     }
+    header #m-selectpicker2-collapse ul li{
+      display: block;
+      width: 100%;
+    }
+    #m-selectpicker2-collapse {
+      left: auto;
+      right: 0;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -3588,7 +3596,7 @@ max-height: 170px;
         width: 20%;
     }
     .rss-field .form-group:nth-child(2) input {
-    width: 90px;
+      width: 100px;
     }
     .rss-field .form-group:nth-child(2) {
         width: auto
@@ -3752,6 +3760,16 @@ max-height: 170px;
   .m-fsalon ul li:nth-child(6){
     margin-top: 10px !important;
   }
+  .bago-main .boxer::after{
+    top: 13px;
+  }
+  #m-selectpicker2-collapse::before {
+    right: 5px;
+  }
+  #m-selectpicker2-collapse {
+    left: auto;
+    right: 24px;
+  }
 }
 
 
@@ -3764,7 +3782,7 @@ max-height: 170px;
       right: 26%;
   }
   .contactus ul li {
-    padding: 7.8px 0;
+    padding: 8.4px 0;
     font-size: 12px;
     padding-left: 0;
 }
@@ -5350,6 +5368,13 @@ width: 360px;
   .wallet .bal {
       margin: 0 30px;
   }
+  main .contact-title {
+      padding: 12.5px 10px;
+  }
+  .contact-title ul{
+    position: relative;
+    top: 3px
+  }
 }
 
 @media (min-width: 1200px){
@@ -5378,7 +5403,7 @@ width: 360px;
   font-size: 17px
 }
   .rss-field .form-group:nth-child(1) input {
-      width: 350px !important
+      width: 340px !important
   }
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 20px;
@@ -5518,7 +5543,6 @@ width: 360px;
         padding-left: 15px;
     }
     .contactus ul li {
-      padding: 8.2px 0;
       padding-left: 0px;
       font-size: 14px;
     }
@@ -5818,5 +5842,11 @@ main .marquee {
   }
   footer .certs li {
       margin-left: 35px !important
+  }
+  main .contact-title {
+      padding: 10px;
+  }
+  .contact-title ul {
+    top: 0px;
   }
 }
