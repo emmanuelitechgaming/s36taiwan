@@ -642,7 +642,7 @@
                           <option value="skrill">Skrill</option>
                         </select>
                       </div>
-                      <button type="button" data-toggle="modal" data-target="#pay-statement" class="btn-hidden btn-hidden-dh2p2 wallet-link">支付說明</button>
+                      <button type="button" class="btn-hidden btn-hidden-dh2p2 wallet-link" id="deposit-helptopay-trigger">支付說明</button>
 
                     </div>
 
@@ -2908,8 +2908,8 @@
         })
 
         $(document).ready(function() {
-          $('#deposit_helptopay').on('change', function() {
-            var val = $(this).val();
+          $('#deposit-helptopay-trigger').click(function() {
+            var val = $('#deposit_helptopay').val();
             if(val == 'deposit'){
               window.location = "deposit-help2pay.html";
             }else if(val == 'neteller') {
