@@ -50,12 +50,12 @@
     width: 100%
   }
   .breadcrumb-inner .wallet select{
-    background-size: 10% 100%;
+    background-size: auto 100%;
     width: 100%;
   }
   .wallet .datepicker{
     display: inline-block;
-    width: 98%;
+    width: 100%;
   }
   .acc-cont input[type=text]{
     display: block;
@@ -323,7 +323,7 @@
   }
 
   .breadcrumb-inner .wallet select{
-    background-size: 10% 100%;
+    background-size: auto 100%;
     width: 100%;
   }
 
@@ -672,5 +672,8 @@
     margin-left: 122px;
     color: #fff;
     border-top: 1px solid #808080;
+  }
+  .wallet .datepicker{
+    margin: 3px
   }
 }
