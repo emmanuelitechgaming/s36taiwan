@@ -10663,6 +10663,13 @@ h5.title-inside{
 .main-wallet #btnSearch{
   text-indent: 10px
 }
+
+/*jess oct18*/
+.comment-text {
+  font-size: 22px;
+  width: 70%;
+  margin: 0 auto;
+}
 .rss-field{
   margin-bottom: 15px
 }
