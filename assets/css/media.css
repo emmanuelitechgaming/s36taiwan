@@ -4705,7 +4705,7 @@ width: 360px;
     .netbet ul li{
       width: auto;
     }
-    .netbet ul li:first-child{
+    .netbet ul li{
       margin-right: 25px
     }
     .netbet ul{
@@ -5778,15 +5778,21 @@ main .marquee {
     margin-right: 68px;
   }
   .dl-area{
-    top: -17px;
-    width: 379px;
-    margin-left: 50px;
+    top: -10px;
+    width: auto;
+    margin-left: 20px;
+  }
+  .atletico-area{
+    width: 200px;
+    top: -5px;
+    margin-left: 50px
   }
   .navbar-top-right li a {
       font-size: 20px;
   }
   header .navbar-cta-btn {
-      margin: 16px -5px;
+      margin: 6px -5px;
+      padding: 10px 0;
   }
   .top-header ul{
     margin-right: -1px;
@@ -5804,9 +5810,9 @@ main .marquee {
       background: url(../img/logo.png) no-repeat 0 0;
   }
   header .logo a {
-    width: 253px;
-    height: 70px;
-    margin-top: -18px;
+    width: 245px;
+    height: 60px;
+    margin-top: -10px;
   }
   .nathan-logo a {
       background-size: 100% 95% !important

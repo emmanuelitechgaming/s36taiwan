@@ -8110,7 +8110,8 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 }
 .img-responsive-live-games{
   margin: 0 auto;
-  border-radius: 5px
+  border-radius: 5px;
+  border: solid 1px #484848
 }
 .sp-dl.fffssa{
   background: #202020;
@@ -8884,12 +8885,21 @@ span.add-ico{
   background: url('../img/dl-bg.jpg') no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  padding: 4.7px 0;
+  padding: 3px 7px;
   border: solid 2px #333;
   cursor: pointer;
 }
+.atletico-area{
+  background: none;
+  border: none;
+  padding: 0;
+  top: 0;
+}
 .dl-area:hover{
   border: solid 2px #fba601
+}
+.atletico-area:hover{
+  border: none
 }
 .dl-area ul li{
   padding: 4.5px 5px;
@@ -10293,15 +10303,15 @@ height: 30px!important;
 }
 .dl-txt span{
   display: block;
-  font-size: 14px;
+  font-size: 13px;
 }
 .dl-txt span:first-child{
   font-weight: 700;
-  font-size: 15px;
+  font-size: 14px;
 }
 .dl-link a{
-   margin: 0 20px;
-   font-size: 16px;
+   margin: 0 0 0 20px;
+   font-size: 14px;
    font-weight: 700;
    color: #fba601;
    text-decoration: none;
@@ -10312,8 +10322,12 @@ input[type=email]:focus,input[type=password]:focus,input[type=text]:focus, texta
   border: 1px solid #fba601!important;
 }
 .dl-area img{
-  width: 42px;
-  height: 42px
+  width: 38px;
+  height: 38px
+}
+.atletico-area img{
+  width: auto;
+  height: auto;
 }
 .lg-playnow {
     display: block;
@@ -10570,19 +10584,17 @@ h5.title-inside{
 .promo-home {
   margin: 15px auto;
   max-width: 649px;
-  border:1px solid #484848;
   border-radius: 5px
 }
 .promo-home .title{
   position: absolute;
-      text-align: center;
-      margin: 0 auto;
-      left: 0;
-      right: 0;
-      background: rgba(0,0,0,0.5);
-      padding: 3px;
-      bottom: 0px;
-
+  text-align: center;
+  margin: 0 auto;
+  left: 1px;
+  right: 1px;
+  background: rgba(0,0,0,0.5);
+  padding: 3px;
+  bottom: 0px;
 }
 .promo-home .img-txt{
   position: relative;
@@ -10590,10 +10602,11 @@ h5.title-inside{
 }
 .promo-ins-desc{
   background:#222222;
-  border-top: 1px #484848;
+  border: solid 1px #fba601;
   overflow: hidden;
   text-align: center;
-  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px
 }
 
 .mobile-vip {
