@@ -3696,9 +3696,10 @@ max-height: 170px;
     left: 315px;
   }
   .username-availability{
-    font-size: 12px;
+    font-size: 11px;
     top: -5px;
-    left: -20px;
+    left: -18px;
+    white-space: nowrap;
   }
   #registerModal #myModalTab1-2 .g-recaptcha, #myModal #myModalTab1-2 .g-recaptcha {
     left: -22px;
@@ -3769,6 +3770,9 @@ max-height: 170px;
   #m-selectpicker2-collapse {
     left: auto;
     right: 24px;
+  }
+  .lg-playnow.sp-btn-hidden2{
+    width: 39.5%;
   }
 }
 
