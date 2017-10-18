@@ -1579,6 +1579,10 @@ max-height: 170px;
     .account-button{
       text-align: center;
     }
+    footer .footer-services ul.columns>li {
+        display: inline-block;
+        margin-left: 15px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3720,6 +3724,31 @@ max-height: 170px;
   .m-fsalon ul li:nth-child(6) img {
       max-width: 50%;
   }
+  footer .footer-services ul.columns.certs>li {
+      display: block;
+      float: left;
+  }
+  .certs li {
+      width: 25%;
+  }
+  .certs li:nth-child(even) {
+      text-align: left
+  }
+  .wallet.acc-info .form-horizontal .form-control{
+    width: 38%;
+  }
+  .mobile-banner-casino img.img-responsive{
+    display: block;
+  }
+  .contact-title li{
+    margin: 0 20px
+  }
+  .m-fsalon ul li{
+    margin: 0 10px !important
+  }
+  .m-fsalon ul li:nth-child(6){
+    margin-top: 10px !important;
+  }
 }
 
 
@@ -3973,7 +4002,7 @@ width: 360px;
         height: 33px;
     }
     footer .certs li {
-        margin-left: 35px !important
+        margin-left: 14px !important
     }
     .certs li {
         width: auto;
@@ -5289,6 +5318,26 @@ width: 360px;
   .account-button{
     text-align: left;
   }
+  footer .footer-services ul.columns>li {
+      display: inline-block;
+      margin-left: 15px;
+  }
+  footer .footer-services ul.columns.certs>li {
+    display: inline-block;
+    float: none;
+  }
+  .wallet .form-horizontal{
+    padding: 28px;
+  }
+  .acc-info .acc-cont {
+      padding: 3px 30px;
+  }
+  .account-button{
+    text-indent: 22px
+  }
+  .deposit-neteller .account-text, .wallet .padding-wallet{
+    padding: 0 0 0 30px;
+  }
 }
 
 @media (min-width: 1200px){
@@ -5754,5 +5803,8 @@ main .marquee {
   }
   .mnav-top ul li a img {
       height: 29px;
+  }
+  footer .certs li {
+      margin-left: 35px !important
   }
 }

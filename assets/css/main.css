@@ -569,12 +569,6 @@ footer h4 {
     margin-top: 7px;
     margin-bottom: 7px;
 }
-
-footer .footer-services ul.columns>li {
-    display: inline-block;
-    margin-left: 15px;
-}
-
 footer .footer-services ul.currency-icon>li {
     display: inline-block;
     margin-left: 5px!important;
@@ -1558,10 +1552,9 @@ color: #ffffff!important;
 }
 .wallet div {
     display: inline-block;
-    padding: 0;
+    padding: 0 0;
     position: relative;
 }
-
 .wallet span {
     color: #fba601;
 }
@@ -1619,7 +1612,7 @@ color: #ffffff!important;
 
 .btn-hidden {
     cursor: pointer;
-    font-size: 17px;
+    font-size: 13px;
     border: solid 1px #191919;
     color: #fff;
     background: rgba(204, 204, 204, 0.3);
@@ -1633,6 +1626,7 @@ color: #ffffff!important;
     -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
             box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
     min-height: 30px;
+    font-weight: 700;
 }
 .lg-playnow{
   border: none;
@@ -1701,7 +1695,6 @@ color: #ffffff!important;
 
 .acc-info .acc-cont {
     display: block;
-    padding: 3px;
 }
 
 .account-edit {
@@ -8124,7 +8117,7 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 }
 .img-responsive-live-games{
   margin: 0 auto;
-
+  border-radius: 5px
 }
 .sp-dl.fffssa{
   background: #202020;
@@ -8539,11 +8532,8 @@ border-bottom: 1px solid #333333;
   color: inherit;
   text-decoration: none;
 }
-.buttonesnamalupet:active, .buttonesnamalupet:focus{
-
-}
 .casino-desc-bot .sp-btn-hidden:active, .btn-promotion:active, .casino-desc-bot .sp-btn-hidden:focus, .btn-promotion:focus, .btn-yellow:active, .btn-yellow:focus, .cs-modal .chatserver-form button:active, .cs-modal .chatserver-form button:focus, #cscall:active, #cscall:focus, .rss-submit-verification:active, .rss-submit-verification:focus, .sp-btn-hidden:active, .sp-btn-hidden:focus,
- .my-sweet-15 button:active, .my-sweet-15 button:focus, .btn-hidden:active, .btn-hidden:focus, .sweet-arrow:active, .sweet-arrow:focus{
+ .my-sweet-15 button:active, .my-sweet-15 button:focus, .btn-hidden:active, .btn-hidden:focus, .sweet-arrow:active, .sweet-arrow:focus, .click-here:active, .click-here:focus{
    -webkit-box-shadow: inset 0px -1px 2px  #181818 !important;
    box-shadow:inset 1px 1px 2px #181818 !important;
    border: 1px solid #181818 !important;
@@ -8577,7 +8567,7 @@ text-decoration: none;
           box-shadow: none;
   font-weight: inherit;
 }
-.casino-desc-bot .sp-btn-hidden::after, .btn-promotion::after {
+.casino-desc-bot .sp-btn-hidden::after, .btn-promotion::after, .click-here::after {
   content: '';
   display: inline-block;
   width: 16px;
@@ -10519,7 +10509,8 @@ font-weight: 700;
   text-align: center;
   background: #202020;
   border: solid 1px #323232;
-  border-radius: 10px
+  border-radius: 10px;
+  margin: 15px auto;
 }
 .dl-content .title, .dl-content .body{
   padding: 12px 0
@@ -10544,16 +10535,20 @@ font-weight: 700;
   margin: 6px 0 0;
 }
 .dl-content .body .click-here{
-  color: #262626;
-  background: url(../img/dl/btn-bg.png) repeat-x;
-  background-size: auto 100%;
-  padding: 5px 20px;
-  font-size: 15px;
+  color: #fff;
+  padding: 6px 25px;
+  font-size: 13px;
+  font-weight: 700;
   border-radius: 5px;
-  text-shadow: 1px 1px 0px #c5c5c5;
+  -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+          box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+  border: 1px solid #191919;
+  background: rgba(204, 204, 204, 0.3)
 }
 .dl-content .body .click-here:hover{
-  text-decoration: none
+  background: rgba(204, 204, 204, 0.2);
+  color: inherit;
+  text-decoration: none;
 }
 .dl-content .body .scan{
   font-weight: 700;
@@ -10580,9 +10575,10 @@ h5.title-inside{
   font-size: 11px;
 }
 .promo-home {
-  margin: 10px auto 0;
+  margin: 15px auto;
   max-width: 649px;
   border:1px solid #484848;
+  border-radius: 5px
 }
 .promo-home .title{
   position: absolute;
@@ -10604,6 +10600,7 @@ h5.title-inside{
   border-top: 1px #484848;
   overflow: hidden;
   text-align: center;
+  border-radius: 5px;
 }
 
 .mobile-vip {
@@ -10666,4 +10663,10 @@ h5.title-inside{
 }
 .wallet_undo{
   color: #fba601
+}
+.wallet .wallet-input-deposit{
+  padding: 0 0;
+}
+.main-wallet #btnSearch{
+  text-indent: 10px
 }
