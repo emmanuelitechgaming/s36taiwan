@@ -1031,6 +1031,12 @@ $('.one-winner .flexslider').flexslider({
     $('#loginModal').modal('toggle');
   })
 
+  $('.step-search').hover(function() {
+    $(this).addClass('step-search-hover');
+  }, function() {
+    $(this).removeClass('step-search-hover');
+  })
+
 });
 
 

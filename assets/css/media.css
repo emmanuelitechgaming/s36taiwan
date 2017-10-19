@@ -5591,7 +5591,9 @@ width: 360px;
   .rss-field .form-group:nth-child(1) input {
       width: 201px !important
   }
-
+  .bago-pages .col-md-4:nth-child(2) .boxer, .bago-pages .col-md-4:nth-child(3) .boxer{
+    text-align: left;
+  }
 
 }
 
@@ -5953,6 +5955,9 @@ main .marquee {
     top: 13px;
     left: 104.5%;
   }
+  .bago-pages .boxer-arrow::after{
+    top: 16px
+  }
   .bago-afterlogin .boxer-arrow::after, .bago-afterlogin .boxer-arrow::after{
     top: 10px;
   }
@@ -5997,11 +6002,11 @@ main .marquee {
       font-size: 20px;
   }
   header .navbar-cta-btn {
-      margin: 6px -5px;
+      margin: 6px -6px;
       padding: 10px 0;
   }
   .top-header ul{
-    margin-right: -1px;
+    margin-right: -16px;
   }
   .not-ipad-landscape{
     display: block;

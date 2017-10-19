@@ -10839,3 +10839,16 @@ h5.title-inside{
   background: #000;
   border-right: 1px solid #4a4a4a
 }
+.bago-pages .boxer .step-search{
+  width: 20px;
+  height: 20px;
+  float: right;
+  background: url('../img/search.png') no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 19px
+}
+.bago-pages .boxer .step-search-hover{
+  background: url('../img/search-hover.png') no-repeat;
+  background-size: contain;
+}
