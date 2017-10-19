@@ -985,7 +985,15 @@ $('.tops .flexslider').flexslider({
   slideshowSpeed: '4000',
   controlNav: false,
   directionNav: false
+});
 
+$('.one-winner .flexslider').flexslider({
+  animation: 'slide ',
+  direction: 'vertical',
+  slideshowSpeed: '3000',
+  controlNav: false,
+  directionNav: false,
+  slideshow: false
 });
 
   $(window).scroll(function() {
