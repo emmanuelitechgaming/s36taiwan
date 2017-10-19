@@ -1639,6 +1639,12 @@ max-height: 170px;
     main .contact-title {
       padding: 10px;
     }
+    .fish-fish{
+      display: none
+    }
+    .lotto-button-m{
+      margin: 50px 0 50px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3847,7 +3853,7 @@ max-height: 170px;
     margin-top: 10px !important;
   }
   .bago-main .boxer::after{
-    top: 13px;
+    top: 10px;
   }
   #m-selectpicker2-collapse::before {
     right: 5px;
@@ -3885,6 +3891,25 @@ max-height: 170px;
     float: none;
     margin-left: 0;
     margin-right: 10px
+  }
+  .bago-pages .boxer::after {
+    left: auto;
+    right: 0;
+    height: auto;
+    width: 2px;
+    top: 14px;
+    bottom: 13px;
+    background: #000;
+    border-right: 1px solid #333
+  }
+  .fish-fish{
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    right: -6px
+  }
+  .lotto-button-m{
+    margin: 150px 0 50px
   }
 }
 
@@ -4028,7 +4053,7 @@ width: 360px;
     .breadcrumb-inner .sp-container img {
         width: auto;
         margin-top: 20px;
-        margin-left: 45px
+        margin-left: 0
     }
     .live-game > .promo-c > .promo-txt h3 {
         font-size: 16px;
@@ -5073,8 +5098,11 @@ width: 360px;
     top: 3px
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
-    top: 14px;
+    top: 19px;
     left: 91%;
+  }
+  .bago-pages .boxer-arrow::after{
+    top: 19px
   }
   .bago-pages .boxer-arrow::after, .bago-pages .boxer-arrow::after{
     left: 107%;
@@ -5978,5 +6006,8 @@ main .marquee {
   }
   .contact-title ul {
     top: 0px;
+  }
+  .breadcrumb-inner .sp-container img {
+    margin-left: 45px
   }
 }
