@@ -10795,7 +10795,9 @@ h5.title-inside{
   display: inline-block;
 }
 .logo-area{
-  background: #393a3c;
+  background: 000 url(../img/underline.png) no-repeat;
+  background-size: 90% 2px;
+  background-position: 70% 0%;
 }
 .atletico-area .text, .atletico-area .img{
   display: inline-block;
