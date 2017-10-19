@@ -8151,7 +8151,8 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   width: 100%
 }
 .lotto-button-m{
-  top: 38%;
+  position: relative;
+  top: auto;
 }
 .lotto-button a{
   display: inline-block;
@@ -8504,6 +8505,7 @@ border-bottom: 1px solid #333333;
   background: none;
   padding: 5px 5px;
   font-size: 16px;
+  text-align: center;
 }
 .casino-desc-bot .casino-mp{
   bottom: 0;
@@ -9119,8 +9121,12 @@ span.add-ico{
 }
 .boxer .step-no.steps{
   min-height: 50px;
+  min-width: 75px;
   position: relative;
-  top: 0px
+  top: 0px;
+}
+.bago-afterlogin .boxer .step-no.steps, .bago-pages-dl .boxer .step-no.steps{
+  min-width: auto
 }
 .boxer .step-no.stepA{
   background: url('../img/dl/1.png') no-repeat;
@@ -9933,7 +9939,7 @@ height: 30px!important;
 .trphy3-color{
   color: #a2684e
 }
-.njackpot-nwinner .side-logo a::after, .njackpot-nwinner .side-logo::after{
+.njackpot-nwinner .side-logo a::after, .njackpot-nwinner .side-logo::after, .slots-winner .title a::after, .one-winner .title a::after{
   content: '';
   display: inline-block;
   width: 14px;
@@ -9945,7 +9951,7 @@ height: 30px!important;
 .njackpot-nwinner .side-logo-plus::after{
   content: none
 }
-.njackpot-nwinner .side-logo-right::after{
+.njackpot-nwinner .side-logo-right::after, .slots-winner .title a::after{
   background: url('../img/jackpot-winner-right.png') no-repeat;
   background-size: cover;
 }
@@ -9953,7 +9959,7 @@ height: 30px!important;
   background: url('../img/jackpot-winner-right-hover.png') no-repeat;
   background-size: cover;
 }
-.njackpot-nwinner .side-logo-plus a::after{
+.njackpot-nwinner .side-logo-plus a::after, .one-winner .title a::after{
   background: url('../img/jackpot-winner-plus.png') no-repeat;
   background-size: cover;
 }
@@ -10147,6 +10153,9 @@ height: 30px!important;
   border-radius: 25px;
   font-weight: 700;
 }
+#navbar-collapse-1 .afterlogin-logout-wrapper .logout{
+  width: auto;
+}
 #navbar-collapse-1 .logout:active, #navbar-collapse-1 .logout:focus{
   text-decoration: none;
 }
@@ -10155,6 +10164,11 @@ height: 30px!important;
   padding-right: 5px;
   position: relative;
   top: 2px
+}
+.afterlogin-logout-wrapper{
+  text-align: center;
+  top: 0;
+  padding: 10px 0
 }
 #navbar-collapse-1 .logout img{
   width: 30px;
@@ -10657,7 +10671,7 @@ h5.title-inside{
 .rss-field{
   margin-bottom: 15px
 }
-.btn-addscreen {
+.btn-addscreen, .afterlogin-logout-wrapper {
   background: 000 url(../img/underline.png) no-repeat;
   background-size: 90% 2px;
   padding: 10px;
@@ -10672,4 +10686,72 @@ h5.title-inside{
   z-index: 999;
   top: 2px;
   left: 1px;
+}
+.mobile-jackpot-winner{
+  margin-bottom: 10px;
+}
+.mobile-jackpot-winner .col-xs-12{
+  background: #161616;
+  margin-bottom: 15px;
+}
+.mobile-jackpot-winner .title{
+  padding: 10px 0 0
+}
+.mobile-jackpot-winner ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mobile-jackpot-winner ul li{
+  margin: 5px 0
+}
+.mobile-jackpot-winner ul li ul li{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.mobile-jackpot-winner .one-winner ul li{
+  margin: 0;
+}
+.mobile-jackpot-winner .yellow{
+  font-weight: 700;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffa018),to(#ff7b0d));
+  background: linear-gradient(to bottom, #ffa018 0%,#ff7b0d 100%);
+  color: #000;
+  display: inline-block;
+  min-width: 35px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-right: 3px
+}
+.slots-winner .title a, .one-winner .title a{
+  color: #fff;
+}
+.one-winner table{
+  margin-bottom: 0;
+  border: none;
+  padding: 0;
+}
+.lotto-body-mobile{
+  padding-right: 0;
+  padding-left: 0;
+}
+.lotto-body-mobile .sp-body{
+  background: -webkit-gradient(linear, left top, left bottom, from(#333333),to(#000000));
+  background: linear-gradient(to bottom, #333333 0%,#000000 100%);
+  border: solid 1px #454545;
+  padding: 0 15px;
+  border-top-right-radius: 5px
+}
+.lotto-body-mobile .sp-intro{
+  background: #333;
+  border: solid 1px #454545;
+  border-bottom: none;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  padding: 10px 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
