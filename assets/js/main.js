@@ -717,7 +717,7 @@ $(document).ready(function () {
        })
      });
 
-     $.each($('.navbar-right-desktop li'), function(index, value) {
+     $.each($('.navbar-right-desktop li:not(.navbar-dekstop-collapse-li)'), function(index, value) {
        $(this).hover(function() {
          $(this).find('a').css('color', '#fba601');
         var img = $(this).find('a img').attr('src');
