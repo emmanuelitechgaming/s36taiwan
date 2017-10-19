@@ -18,6 +18,9 @@
     <!-- JavaScript -->
     <script src="//cdn.jsdelivr.net/alertifyjs/1.9.0/alertify.min.js"></script>
 
+    <div class="dl-area atletico-area hidden-xs hidden-sm not-ipad-landscape not-ipad-landscape-inline">
+      <img src="assets/img/atletico-logo.png" alt="" class="img-responsive">
+    </div>
 
     <!-- jQuery 2.1.4 -->
     <script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>
@@ -290,4 +293,4 @@ $(document).ready(function () {
 
 
 </body>
-</html> 
+</html>
