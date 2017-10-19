@@ -1127,11 +1127,19 @@ max-height: 170px;
       width: 50%;
       margin-left: -4px;
     }
+    .slots-breadcrumb-inner .netbet ul li{
+      width: 33.333%;
+      float: left;
+      margin-left: 0;
+    }
     .netbet ul li{
       text-align: center;
     }
     .netbet ul li a{
       display: inline-block;
+    }
+    .slots-breadcrumb-inner .netbet ul li a{
+      font-size: 12px;
     }
     .netbet .text-right .netbet-search, .netbet .text-right .netbet-search input[type="text"]{
       display: block;
@@ -1152,6 +1160,10 @@ max-height: 170px;
     .netbet{
       padding-top: 15px;
       padding-bottom: 15px;
+    }
+    .slots-breadcrumb-inner .netbet{
+      padding-left: 0;
+      padding-right: 0;
     }
     .how-to-reg{
       margin-bottom: 30px;
@@ -1619,6 +1631,9 @@ max-height: 170px;
     }
     .wallet-link{
       padding: 3px 0;
+    }
+    main .contact-title {
+      padding: 10px;
     }
 }
 
@@ -2240,6 +2255,9 @@ max-height: 170px;
     }
     .index-mobile-banner{
       max-height: 174px !important
+    }
+    .slots-breadcrumb-inner .netbet ul li a {
+      font-size: 14px;
     }
 }
 
@@ -3840,6 +3858,23 @@ max-height: 170px;
   }
   .footer-shareit .list-inline{
     margin-left: -13px;
+  }
+  .netbet ul li a{
+    padding: 6px 20px !important;
+  }
+  .slots-breadcrumb-inner .netbet div.col-md-6:first-child{
+    padding-left: 15px;
+    padding-right: 15px
+  }
+  .slots-breadcrumb-inner .netbet{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .slots-breadcrumb-inner .netbet ul li {
+    width: auto;
+    float: none;
+    margin-left: 0;
+    margin-right: 10px
   }
 }
 
@@ -5452,6 +5487,8 @@ width: 360px;
   .footer-shareit .list-inline{
     margin-left: -5px;
   }
+
+
 }
 
 @media (min-width: 1200px){

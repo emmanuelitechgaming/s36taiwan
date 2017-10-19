@@ -780,6 +780,9 @@ div.border:before {
     /*background: #1b1a1a;*/
     margin-bottom: 15px;
 }
+.dl-content .breadcrumb-inner{
+  margin-bottom: 0;
+}
 
 .breadcrumb-content {
     padding: 0px;
@@ -8674,7 +8677,6 @@ text-decoration: none;
   color: #ffffff;
   font-weight: 700;
   background: #2a2a2a;
-  padding: 6px 20px !important;
   border-radius: 20px
 }
 .netbet.hold ul li a{
@@ -10657,7 +10659,16 @@ h5.title-inside{
 }
 .btn-addscreen {
   background: 000 url(../img/underline.png) no-repeat;
-background-size: 90% 2px;
-padding: 10px;
-background-position: 70% 0%;
+  background-size: 90% 2px;
+  padding: 10px;
+  background-position: 70% 0%;
+}
+.slot-new-game-wrapper{
+  position: relative;
+}
+.slot-new-game{
+  position: absolute;
+  z-index: 999;
+  top: 2px;
+  left: 1px;
 }
