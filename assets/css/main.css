@@ -8057,7 +8057,7 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   left: 21px;
 }
 .mobile-banner .img-responsive{
-  border-bottom: solid 4px #4a4a4a;
+  border-bottom: solid 1px #4a4a4a;
   width:100%;
 }
 .mobile-banner-casino .img-responsive{
@@ -10665,6 +10665,7 @@ h5.title-inside{
 }
 .slot-new-game-wrapper{
   position: relative;
+  margin: 0 auto;
 }
 .slot-new-game{
   position: absolute;
