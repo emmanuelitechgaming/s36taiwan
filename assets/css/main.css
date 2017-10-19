@@ -9123,6 +9123,9 @@ span.add-ico{
   position: relative;
   top: 0px;
 }
+.bago-afterlogin .boxer .step-no.steps{
+  min-width: auto
+}
 .boxer .step-no.stepA{
   background: url('../img/dl/1.png') no-repeat;
   background-size: contain;
