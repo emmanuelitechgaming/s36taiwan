@@ -4020,6 +4020,9 @@ width: 360px;
     .nav.navbar-nav li:last-child a {
         border-right: solid 1px #000
     }
+    #navbar-dekstop-collapse li:last-child a{
+      border-right: none
+    }
     .back {
         bottom: 40px;
         margin-right: -180px;
