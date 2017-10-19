@@ -764,7 +764,7 @@ max-height: 170px;
         bottom: -5px
     }
     .lg-playnow {
-      bottom: 12px;
+      bottom: 17px;
     }
     img.b-img {
         top: auto
@@ -1249,6 +1249,9 @@ max-height: 170px;
       width: 15px;
       height: 15px;
       top: 1px
+    }
+    .atletico-area{
+      width: 50px!important;
     }
     .bago_nanaman .boxer::after{
       content: '';
@@ -5925,9 +5928,7 @@ main .marquee {
     margin-left: 20px;
   }
   .atletico-area{
-    width: 200px;
-    top: -5px;
-    margin-left: 50px
+
   }
   .navbar-top-right li a {
       font-size: 20px;
