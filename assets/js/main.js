@@ -891,7 +891,7 @@ $(document).ready(function () {
             });
           }
       });
-      
+
       $('.malupet-nanaman .flexslider').flexslider({
         animation: 'slide',
         direction: 'vertical',

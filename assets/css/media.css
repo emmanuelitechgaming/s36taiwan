@@ -28,10 +28,9 @@
   }
   .malupet-nanaman h4{
     font-size: 12px;
-      margin: 0px 0;
-      text-indent: 29px;
-      padding: 5px;
-
+    margin: 0px 0;
+    text-indent: 24px;
+    padding: 5px;
   }
   .haynako{
     font-size: 12px;
@@ -730,7 +729,7 @@ max-height: 170px;
         bottom: -5px
     }
     .lg-playnow {
-      bottom: 55px;
+      bottom: 12px;
     }
     img.b-img {
         top: auto
@@ -897,7 +896,8 @@ max-height: 170px;
         background-position-x: 100%
     }
     #csCallselectflag .dropdown-menu {
-        min-width: 213px
+        min-width: 213px;
+        width: 100%;
     }
     .myModal2b_registration_a,
     .myModal2b_login_a {
@@ -1269,10 +1269,10 @@ max-height: 170px;
       margin-top: 10px;
     }
     .boxer  div.step-txt{
-      font-size: 10px;
+      font-size: 14px;
     }
     .boxer div span{
-      font-size: 7px;
+      font-size: 14px;
     }
     .bago_nanaman .boxer-last{
       line-height: 27px;
@@ -1298,8 +1298,7 @@ max-height: 170px;
       padding-right: 5px
     }
     .step-no{
-      font-size: 2.5em;
-
+      font-size: 3em;
     }
 
     .gp-more span {
@@ -1341,6 +1340,12 @@ max-height: 170px;
     .g-recaptcha{
       transform:scale(0.77) !important;
       -webkit-transform:scale(0.77) !important;
+      transform-origin:0 0 !important;
+      -webkit-transform-origin:0 0 !important;
+    }
+    #registerModal .g-recaptcha{
+      transform:scale(0.79) !important;
+      -webkit-transform:scale(0.79) !important;
       transform-origin:0 0 !important;
       -webkit-transform-origin:0 0 !important;
     }
@@ -1536,7 +1541,7 @@ max-height: 170px;
       top: -10px;
     }
     .malupet-nanaman{
-      padding: 5px 10px 0px 10px;
+      padding: 3px 10px 0px 10px;
     }
     .index-mobile-banner{
       min-height: 170px;
@@ -1553,6 +1558,32 @@ max-height: 170px;
     .add-main-screen{
       background-size: 20px 20px;
       background-position: 4%;
+    }
+    .select-country-code-dropdown .dropdown-menu {
+        min-width: 100%;
+    }
+    #registerModal .modal-bottom, #loginModal .modal-bottom{
+      text-align: center;
+    }
+    .promo-ins-desc ul li::after{
+      top: 7px;
+      bottom: 7px;
+    }
+    .wallet.acc-info .form-horizontal .form-control{
+      width: 100%;
+    }
+    .wallet.acc-info .form-horizontal .form-group{
+      margin-bottom: 10px;
+    }
+    .account-button{
+      text-align: center;
+    }
+    footer .footer-services ul.columns>li {
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .wallet-link{
+      padding: 3px 0;
     }
 }
 
@@ -1676,9 +1707,6 @@ max-height: 170px;
     .i-sicbo .live-game-txtc {
         bottom: 6px;
     }
-    .lg-playnow {
-        bottom: 64px;
-    }
     .tab-panel-casino .nav>li>a {
         padding: 5px 35px !important;
     }
@@ -1767,14 +1795,8 @@ max-height: 170px;
       display: inline-block;
       margin: 2px 15px
     }
-    .boxer  div.step-txt{
-      font-size: 11px;
-    }
     .bago-afterlogin .boxerdiv.step-txt{
       font-size: 12px;
-    }
-    .boxer div span{
-      font-size: 9px;
     }
     .mobile-banner-wrapper .bs-slider-overlay a {
       font-size: 16px;
@@ -1839,7 +1861,10 @@ max-height: 170px;
       max-height: 341px;
     }
     .malupet-nanaman {
-      padding: 5px 0px 4px 0px;
+      padding: 4px 0px 3px 0px;
+    }
+    .malupet-nanaman h4{
+      text-indent: 34px;
     }
 }
 
@@ -2114,9 +2139,6 @@ max-height: 170px;
       font-size: 12px;
       margin: 0 8px
     }
-    .lg-playnow {
-      bottom: 68px;
-    }
     .contact-title li{
       margin: 0 1px;
     }
@@ -2126,9 +2148,6 @@ max-height: 170px;
     }
     .boxer-last a{
       min-width: 275px;
-    }
-    .boxer div span{
-      font-size: 10px;
     }
     .bago-afterlogin .boxer div span{
       font-size: 10px;
@@ -2331,7 +2350,6 @@ max-height: 170px;
     }
     .lg-playnow {
         font-size: 18px;
-        bottom: 80px;
     }
     .promotion-form-btn {
         background-position: 32px -1px
@@ -2503,6 +2521,13 @@ max-height: 170px;
       background-size: 22px 22px;
       background-position: 4%;
     }
+    .the_modal_footer{
+      text-align: center;
+    }
+    .the_modal_footer .modal-foot, .the_modal_footer .pull-right{
+      display: block;
+      width: 100%;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -2511,7 +2536,6 @@ max-height: 170px;
     margin-right: auto;
     left: 0;
     right: 0;
-    width: 275px;
   }
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
         width: 75px !important;
@@ -3084,6 +3108,14 @@ max-height: 170px;
     .live-game-txt a{
       font-size: 18px;
     }
+    header #m-selectpicker2-collapse ul li{
+      display: block;
+      width: 100%;
+    }
+    #m-selectpicker2-collapse {
+      left: auto;
+      right: 0;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -3470,9 +3502,8 @@ max-height: 170px;
          margin: 3px 4px;
    }
 .malupet-nanaman{
-    padding: 9px 0px 9px 0px;
-
-    height: 265px;
+    padding: 5px 0px 5px 0px;
+    height: 264px;
 }
   .malupet-nanaman h4{
     font-size: 18px;
@@ -3531,6 +3562,10 @@ max-height: 170px;
       width: 13px;
       height: 15px;
     }
+    .lg-playnow.btn-hidden::after{
+      width: 18px;
+      height: 18px;
+    }
     .lg-playnow.login-modal-a img {
         width: 16px;
         bottom: 1px
@@ -3551,14 +3586,14 @@ max-height: 170px;
         width: 20%;
     }
     .rss-field .form-group:nth-child(2) input {
-    width: 90px;
+      width: 100px;
     }
     .rss-field .form-group:nth-child(2) {
         width: auto
     }
     .rss-field .form-group:nth-child(1){
       display: inline-block;
-      width: 65.7%;
+      width: 64.4%;
     }
     .contactus ul li {
       padding: 7.8px 0;
@@ -3653,7 +3688,8 @@ max-height: 170px;
   .username-availability{
     font-size: 12px;
     top: -5px;
-    left: -20px;
+    left: -35px;
+    white-space: nowrap;
   }
   #registerModal #myModalTab1-2 .g-recaptcha, #myModal #myModalTab1-2 .g-recaptcha {
     left: -22px;
@@ -3690,6 +3726,54 @@ max-height: 170px;
   .m-fsalon ul li:nth-child(6) img {
       max-width: 50%;
   }
+  footer .footer-services ul.columns.certs>li {
+      display: block;
+      float: left;
+  }
+  .certs li {
+      width: 25%;
+  }
+  .certs li:nth-child(even) {
+      text-align: left
+  }
+  .wallet.acc-info .form-horizontal .form-control{
+    width: 38%;
+  }
+  .mobile-banner-casino img.img-responsive{
+    display: block;
+  }
+  .contact-title li{
+    margin: 0 20px
+  }
+  .m-fsalon ul li{
+    margin: 0 10px !important
+  }
+  .m-fsalon ul li:nth-child(6){
+    margin-top: 10px !important;
+  }
+  .bago-main .boxer::after{
+    top: 13px;
+  }
+  #m-selectpicker2-collapse::before {
+    right: 5px;
+  }
+  #m-selectpicker2-collapse {
+    left: auto;
+    right: 24px;
+  }
+  .lg-playnow.sp-btn-hidden2{
+    width: 39.5%;
+  }
+  .size-to-robot{
+    padding-left: 15px;
+    padding-right: 30px
+  }
+  #registerModal label{
+    white-space: nowrap;
+  }
+  .footer-shareit .list-inline{
+    margin-left: -13px;
+  }
 }
 
 
@@ -3702,7 +3786,7 @@ max-height: 170px;
       right: 26%;
   }
   .contactus ul li {
-    padding: 7.8px 0;
+    padding: 8.4px 0;
     font-size: 12px;
     padding-left: 0;
 }
@@ -3943,7 +4027,7 @@ width: 360px;
         height: 33px;
     }
     footer .certs li {
-        margin-left: 35px !important
+        margin-left: 14px !important
     }
     .certs li {
         width: auto;
@@ -4406,7 +4490,8 @@ width: 360px;
         background-position: right;
     }
     #csCallselectflag .dropdown-menu {
-        min-width: 165px
+        min-width: 165px;
+        width: 100%;
     }
     .form-recap-right p {
         left: -20px;
@@ -4450,6 +4535,9 @@ width: 360px;
     }
     .btn-hidden-ph2p2, .btn-hidden-dh2p2{
       margin-left: 35px
+    }
+    .wallet-link{
+      margin-left: 10px;
     }
     .f-toggle .btn-hidden{
       padding: 6px 40px;
@@ -4617,7 +4705,7 @@ width: 360px;
     .netbet ul li{
       width: auto;
     }
-    .netbet ul li:first-child{
+    .netbet ul li{
       margin-right: 25px
     }
     .netbet ul{
@@ -5232,6 +5320,71 @@ width: 360px;
     width: 110px;
     padding: 0 10px;
   }
+  .select-country-code-dropdown .dropdown-menu {
+      min-width: 220px;
+  }
+  .the_modal_footer{
+    text-align: left;
+  }
+  .the_modal_footer .modal-foot, .the_modal_footer .pull-right{
+    display: inline-block;
+    width: auto;
+  }
+  .promo-ins-desc ul li::after{
+    top: 10px;
+    bottom: 10px;
+  }
+  .wallet.acc-info .form-horizontal label.col-md-1{
+    width: 10%;
+  }
+  .wallet.acc-info .form-horizontal .form-control{
+    width: auto;
+  }
+  .account-button{
+    text-align: left;
+  }
+  footer .footer-services ul.columns>li {
+      display: inline-block;
+      margin-left: 15px;
+  }
+  footer .footer-services ul.columns.certs>li {
+    display: inline-block;
+    float: none;
+  }
+  .wallet .form-horizontal{
+    padding: 28px;
+  }
+  .acc-info .acc-cont {
+      padding: 3px 30px;
+  }
+  .account-button{
+    text-indent: 22px
+  }
+  .deposit-neteller .account-text, .wallet .padding-wallet{
+    padding: 0 0 0 30px;
+  }
+  .account .title {
+      padding-left: 30px;
+  }
+  .wallet-link{
+    padding: 3px 10px;
+  }
+  .wallet .bal {
+      margin: 0 30px;
+  }
+  main .contact-title {
+      padding: 12.5px 10px;
+  }
+  .contact-title ul{
+    position: relative;
+    top: 3px
+  }
+  .lg-playnow.sp-btn-hidden2 {
+    width: 80%;
+  }
+  .footer-shareit .list-inline{
+    margin-left: -5px;
+  }
 }
 
 @media (min-width: 1200px){
@@ -5260,7 +5413,7 @@ width: 360px;
   font-size: 17px
 }
   .rss-field .form-group:nth-child(1) input {
-      width: 350px !important
+      width: 340px !important
   }
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 20px;
@@ -5400,7 +5553,6 @@ width: 360px;
         padding-left: 15px;
     }
     .contactus ul li {
-      padding: 8.2px 0;
       padding-left: 0px;
       font-size: 14px;
     }
@@ -5626,15 +5778,21 @@ main .marquee {
     margin-right: 68px;
   }
   .dl-area{
-    top: -17px;
-    width: 379px;
-    margin-left: 50px;
+    top: -10px;
+    width: auto;
+    margin-left: 20px;
+  }
+  .atletico-area{
+    width: 200px;
+    top: -5px;
+    margin-left: 50px
   }
   .navbar-top-right li a {
       font-size: 20px;
   }
   header .navbar-cta-btn {
-      margin: 16px -5px;
+      margin: 6px -5px;
+      padding: 10px 0;
   }
   .top-header ul{
     margin-right: -1px;
@@ -5652,9 +5810,9 @@ main .marquee {
       background: url(../img/logo.png) no-repeat 0 0;
   }
   header .logo a {
-    width: 253px;
-    height: 70px;
-    margin-top: -18px;
+    width: 245px;
+    height: 60px;
+    margin-top: -10px;
   }
   .nathan-logo a {
       background-size: 100% 95% !important
@@ -5697,5 +5855,14 @@ main .marquee {
   }
   .mnav-top ul li a img {
       height: 29px;
+  }
+  footer .certs li {
+      margin-left: 35px !important
+  }
+  main .contact-title {
+      padding: 10px;
+  }
+  .contact-title ul {
+    top: 0px;
   }
 }

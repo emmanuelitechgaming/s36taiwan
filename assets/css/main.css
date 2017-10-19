@@ -464,7 +464,6 @@ main .win-body span {
 
 main .contact-title {
     background: #161616;
-    padding: 10px;
     color: #fba601;
     font-size: 18px;
     font-weight: 700;
@@ -569,12 +568,6 @@ footer h4 {
     margin-top: 7px;
     margin-bottom: 7px;
 }
-
-footer .footer-services ul.columns>li {
-    display: inline-block;
-    margin-left: 15px;
-}
-
 footer .footer-services ul.currency-icon>li {
     display: inline-block;
     margin-left: 5px!important;
@@ -1521,7 +1514,6 @@ p {
 .account .title {
     line-height: 45px;
     font-size: 16px;
-    padding-left: 30px;
     font-weight: bold;
     height: 50px;
     background-image: url('../img/afterlogin/title.png');
@@ -1558,10 +1550,9 @@ color: #ffffff!important;
 }
 .wallet div {
     display: inline-block;
-    padding: 0;
+    padding: 0 0;
     position: relative;
 }
-
 .wallet span {
     color: #fba601;
 }
@@ -1575,18 +1566,12 @@ color: #ffffff!important;
     border: none;
     color: #3c3c3c;
 }
-
-.wallet .bal {
-    margin: 0 30px;
-}
-
 .wallet .bal div {
     padding: 0 5px;
 }
 
 .wallet .datepicker {
     color: #555;
-    margin: 3px;
     padding: 5px 16px;
 }
 
@@ -1619,7 +1604,7 @@ color: #ffffff!important;
 
 .btn-hidden {
     cursor: pointer;
-    font-size: 17px;
+    font-size: 13px;
     border: solid 1px #191919;
     color: #fff;
     background: rgba(204, 204, 204, 0.3);
@@ -1633,6 +1618,7 @@ color: #ffffff!important;
     -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
             box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
     min-height: 30px;
+    font-weight: 700;
 }
 .lg-playnow{
   border: none;
@@ -1656,7 +1642,6 @@ color: #ffffff!important;
   padding: 3px 25px;
   padding-right: 55px;
 }
-
 .promotion-form .btn-hidden{
   display: block;
   width: 100%
@@ -1699,7 +1684,6 @@ color: #ffffff!important;
 
 .acc-info .acc-cont {
     display: block;
-    padding: 3px;
 }
 
 .account-edit {
@@ -6584,6 +6568,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0b0b0', end
 
 #csCallselectflag .dropdown-menu {
     top: 65%;
+    overflow-y: hidden;
 }
 .select-country-code-dropdown button{
   border-radius: 0 !important;
@@ -7650,7 +7635,6 @@ button .flag-icon-kr::before {
 }
 .select-country-code-dropdown .dropdown-menu {
     background-color: #333;
-    min-width: 100%;
 }
 
 .select-country-code-dropdown .dropdown-menu>li>a {
@@ -8073,6 +8057,10 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   border-bottom: solid 4px #4a4a4a;
   width:100%;
 }
+.mobile-banner-casino .img-responsive{
+  width: 768px;
+  height: 264px;
+}
 /*main .win-title-recent{
   border-bottom: 1px solid transparent
 }*/
@@ -8122,7 +8110,8 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 }
 .img-responsive-live-games{
   margin: 0 auto;
-
+  border-radius: 5px;
+  border: solid 1px #484848
 }
 .sp-dl.fffssa{
   background: #202020;
@@ -8537,11 +8526,8 @@ border-bottom: 1px solid #333333;
   color: inherit;
   text-decoration: none;
 }
-.buttonesnamalupet:active, .buttonesnamalupet:focus{
-
-}
 .casino-desc-bot .sp-btn-hidden:active, .btn-promotion:active, .casino-desc-bot .sp-btn-hidden:focus, .btn-promotion:focus, .btn-yellow:active, .btn-yellow:focus, .cs-modal .chatserver-form button:active, .cs-modal .chatserver-form button:focus, #cscall:active, #cscall:focus, .rss-submit-verification:active, .rss-submit-verification:focus, .sp-btn-hidden:active, .sp-btn-hidden:focus,
- .my-sweet-15 button:active, .my-sweet-15 button:focus, .btn-hidden:active, .btn-hidden:focus, .sweet-arrow:active, .sweet-arrow:focus{
+ .my-sweet-15 button:active, .my-sweet-15 button:focus, .btn-hidden:active, .btn-hidden:focus, .sweet-arrow:active, .sweet-arrow:focus, .click-here:active, .click-here:focus{
    -webkit-box-shadow: inset 0px -1px 2px  #181818 !important;
    box-shadow:inset 1px 1px 2px #181818 !important;
    border: 1px solid #181818 !important;
@@ -8554,6 +8540,12 @@ border-bottom: 1px solid #333333;
 background: rgba(204, 204, 204, 0.2);
 color: #fff;
 text-decoration: none;
+}
+.wallet-link:hover, .wallet-link:active, .wallet-link:focus{
+  background: transparent;
+  color: #fba601;
+  text-decoration: underline;
+  border: none !important
 }
 .live-game .btn-hidden:hover, .live-game .sp-btn-hidden:hover{
   background-color: transparent;
@@ -8569,7 +8561,7 @@ text-decoration: none;
           box-shadow: none;
   font-weight: inherit;
 }
-.casino-desc-bot .sp-btn-hidden::after, .btn-promotion::after {
+.casino-desc-bot .sp-btn-hidden::after, .btn-promotion::after, .click-here::after {
   content: '';
   display: inline-block;
   width: 16px;
@@ -8893,12 +8885,21 @@ span.add-ico{
   background: url('../img/dl-bg.jpg') no-repeat;
   background-size: 100% 100%;
   background-position: center;
-  padding: 4.7px 0;
+  padding: 3px 7px;
   border: solid 2px #333;
   cursor: pointer;
 }
+.atletico-area{
+  background: none;
+  border: none;
+  padding: 0;
+  top: 0;
+}
 .dl-area:hover{
   border: solid 2px #fba601
+}
+.atletico-area:hover{
+  border: none
 }
 .dl-area ul li{
   padding: 4.5px 5px;
@@ -9434,9 +9435,9 @@ span.add-ico{
   position: absolute;
   width: 20px;
   height: 20px;
-  background: url('../img/flags/taiwan-nb.png') no-repeat;
+  background: url('../img/world.png') no-repeat;
   background-size: cover;
-  left: 5%;
+  left: 3%;
 }
 .footer-dropdown button:active, .footer-dropdown button:focus, .footer-dropdown button:hover{
   color: #fff !important;
@@ -9561,9 +9562,9 @@ span.add-ico{
   position: absolute;
   width: 20px;
   height: 20px;
-  background: url('../img/flags/taiwan-nb.png');
+  background: url('../img/world.png');
   background-size: cover;
-  left: 5%
+  left: 4%
 }
 .m-footer-dropdown button:active, .m-footer-dropdown button:hover, .m-footer-dropdown button:focus{
   color: #fff !important;
@@ -10066,10 +10067,20 @@ height: 30px!important;
   padding: 0;
 }
 .promo-ins-desc ul li{
-  float: left;
+  display: inline-block;
   width: 33.333%;
   text-align: center;
   margin: 20px 0;
+  margin-left: -3px;
+  position: relative;
+}
+.promo-ins-desc ul li::after{
+  content: '';
+  display: block;
+  width: 2px;
+  position: absolute;
+  background: #000;
+  border-right: solid 1px #333
 }
 .promo-ins-desc  ul li span{
   font-family: Tungsten;
@@ -10292,15 +10303,15 @@ height: 30px!important;
 }
 .dl-txt span{
   display: block;
-  font-size: 14px;
+  font-size: 13px;
 }
 .dl-txt span:first-child{
   font-weight: 700;
-  font-size: 15px;
+  font-size: 14px;
 }
 .dl-link a{
-   margin: 0 20px;
-   font-size: 16px;
+   margin: 0 0 0 20px;
+   font-size: 14px;
    font-weight: 700;
    color: #fba601;
    text-decoration: none;
@@ -10311,8 +10322,12 @@ input[type=email]:focus,input[type=password]:focus,input[type=text]:focus, texta
   border: 1px solid #fba601!important;
 }
 .dl-area img{
-  width: 42px;
-  height: 42px
+  width: 38px;
+  height: 38px
+}
+.atletico-area img{
+  width: auto;
+  height: auto;
 }
 .lg-playnow {
     display: block;
@@ -10491,7 +10506,7 @@ font-weight: 700;
 .mobile-banner img.img-responsive{
   display: none
 }
-.mobile-banner-promotion img.img-responsive, .mobile-banner-winner img.img-responsive, .mobile-banner-dl img.img-responsive{
+.mobile-banner-promotion img.img-responsive, .mobile-banner-winner img.img-responsive, {
   display: block
 }
 .dl-content{
@@ -10501,7 +10516,8 @@ font-weight: 700;
   text-align: center;
   background: #202020;
   border: solid 1px #323232;
-  border-radius: 10px
+  border-radius: 10px;
+  margin: 15px auto;
 }
 .dl-content .title, .dl-content .body{
   padding: 12px 0
@@ -10526,16 +10542,20 @@ font-weight: 700;
   margin: 6px 0 0;
 }
 .dl-content .body .click-here{
-  color: #262626;
-  background: url(../img/dl/btn-bg.png) repeat-x;
-  background-size: auto 100%;
-  padding: 5px 20px;
-  font-size: 15px;
+  color: #fff;
+  padding: 6px 25px;
+  font-size: 13px;
+  font-weight: 700;
   border-radius: 5px;
-  text-shadow: 1px 1px 0px #c5c5c5;
+  -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+          box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
+  border: 1px solid #191919;
+  background: rgba(204, 204, 204, 0.3)
 }
 .dl-content .body .click-here:hover{
-  text-decoration: none
+  background: rgba(204, 204, 204, 0.2);
+  color: inherit;
+  text-decoration: none;
 }
 .dl-content .body .scan{
   font-weight: 700;
@@ -10562,20 +10582,19 @@ h5.title-inside{
   font-size: 11px;
 }
 .promo-home {
-  margin: 10px auto 0;
+  margin: 15px auto;
   max-width: 649px;
-  border:1px solid #484848;
+  border-radius: 5px
 }
 .promo-home .title{
   position: absolute;
-      text-align: center;
-      margin: 0 auto;
-      left: 0;
-      right: 0;
-      background: rgba(0,0,0,0.5);
-      padding: 3px;
-      bottom: 0px;
-
+  text-align: center;
+  margin: 0 auto;
+  left: 1px;
+  right: 1px;
+  background: rgba(0,0,0,0.5);
+  padding: 3px;
+  bottom: 0px;
 }
 .promo-home .img-txt{
   position: relative;
@@ -10583,9 +10602,11 @@ h5.title-inside{
 }
 .promo-ins-desc{
   background:#222222;
-  border-top: 1px #484848;
+  border: solid 1px #fba601;
   overflow: hidden;
   text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px
 }
 
 .mobile-vip {
@@ -10606,4 +10627,62 @@ h5.title-inside{
     text-align: center;
     left: 0;
     right: 0;
+}
+.wallet-link{
+  color: #fba601;
+  text-decoration: underline;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  font-size: 14px;
+}
+.wallet-link::after{
+  content: none
+}
+.wallet.acc-info .form-horizontal .form-control{
+  display: inline-block;
+}
+.wallet.acc-info .form-horizontal label{
+  font-weight: normal;
+  position: relative;
+  top: 7px
+}
+.wallet.acc-info .form-horizontal .acc-details label{
+  top: 0;
+}
+.wallet.acc-info .form-horizontal .fa{
+  color: #fba601;
+  margin-left: 10px;
+}
+.wallet.acc-info .form-horizontal .sec-code{
+  color: #fba601;
+  text-decoration: underline;
+}
+.wallet.acc-info .form-horizontal label.col-md-1{
+  left: -12px;
+}
+.the_label{
+  text-align: right;
+  font-size: 12px;
+  margin: 5px 0 0
+}
+.wallet_undo{
+  color: #fba601
+}
+.wallet .wallet-input-deposit{
+  padding: 0 0;
+}
+.main-wallet #btnSearch{
+  text-indent: 10px
+}
+
+/*jess oct18*/
+.comment-text {
+  font-size: 22px;
+  width: 70%;
+  margin: 0 auto;
+}
+.rss-field{
+  margin-bottom: 15px
 }

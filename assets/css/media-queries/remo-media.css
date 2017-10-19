@@ -50,22 +50,22 @@
     width: 100%
   }
   .breadcrumb-inner .wallet select{
-    background-size: 10% 100%;
+    background-size: auto 100%;
     width: 100%;
   }
   .wallet .datepicker{
     display: inline-block;
-    width: 98%;
+    width: 100%;
   }
   .acc-cont input[type=text]{
     display: block;
     width: 100%;
     background: #333333;
-border: 1px solid #4b4b4b;
-border-radius: 3px !important;
-padding: 6px 16px !important;
-outline: 0;
-color: #c4c4c4 !important;
+    border: 1px solid #4b4b4b;
+    border-radius: 3px !important;
+    padding: 6px 16px !important;
+    outline: 0;
+    color: #c4c4c4 !important;
   }
   .acc-info.acc-edit{
     width: 100%;
@@ -323,7 +323,7 @@ color: #c4c4c4 !important;
   }
 
   .breadcrumb-inner .wallet select{
-    background-size: 10% 100%;
+    background-size: auto 100%;
     width: 100%;
   }
 
@@ -634,6 +634,11 @@ color: #c4c4c4 !important;
     display: inline-block;
     width: 28.5%
   }
+  .breadcrumb-inner .wallet.account.acc-info .form-group{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
   .breadcrumb-inner .main-wallet .form-group{
     width: 22.6%;
   }
@@ -667,5 +672,8 @@ color: #c4c4c4 !important;
     margin-left: 122px;
     color: #fff;
     border-top: 1px solid #808080;
+  }
+  .wallet .datepicker{
+    margin: 3px
   }
 }

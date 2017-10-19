@@ -38,7 +38,7 @@
 
   border-top: 1px solid #c4c4c4;
 }
-.nested-accordion h3:before {
+.nested-accordion h3:before, .nested-accordion h4:before {
   content: "+";
   padding-right: 0.25em;
   color: #becbd2;
@@ -52,7 +52,7 @@
 .nested-accordion h3.selected {
   color: #000;
 }
-.nested-accordion h3.selected:before {
+.nested-accordion h3.selected:before, .nested-accordion h4.selected:before {
   content: "-";
 }
 .nested-accordion .comment {
