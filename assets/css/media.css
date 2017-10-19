@@ -1132,6 +1132,10 @@ max-height: 170px;
       float: left;
       margin-left: 0;
     }
+    .winner-breadcrumb-inner .netbet ul li{
+      width: 50%;
+      float: left;
+    }
     .netbet ul li{
       text-align: center;
     }
@@ -1915,6 +1919,12 @@ max-height: 170px;
     }
     .malupet-nanaman h4{
       text-indent: 34px;
+    }
+    #registerModal .g-recaptcha{
+      transform:scale(0.92) !important;
+      -webkit-transform:scale(0.92) !important;
+      transform-origin:0 0 !important;
+      -webkit-transform-origin:0 0 !important;
     }
 }
 
