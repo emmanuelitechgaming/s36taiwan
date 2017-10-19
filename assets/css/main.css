@@ -8110,8 +8110,9 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 }
 .img-responsive-live-games{
   margin: 0 auto;
-  border-radius: 5px;
-  border: solid 1px #484848
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: solid 1px #fba601;
 }
 .sp-dl.fffssa{
   background: #202020;
@@ -9143,38 +9144,7 @@ span.add-ico{
   height: 35px;
   width: 35px;
 }
-.boxer .step-no.step1{
-  background: url('../img/step1.png') no-repeat;
-  background-size: contain;
-  background-position: 0px;
-  margin: 0 10px;
-  height: 35px;
-  width: 35px;
-}
-.boxer .step-no.step2{
-  background: url('../img/step2.png') no-repeat;
-  background-size: contain;
-  background-position: 0px;
-  margin: 0 10px;
-  height: 35px;
-  width: 35px;
-}
-.boxer .step-no.step3{
-  background: url('../img/step3.png') no-repeat;
-  background-size: contain;
-  background-position: 0px;
-  margin: 0 10px;
-  height: 35px;
-  width: 35px;
-}
-.boxer .step-no.step4{
-  background: url('../img/step4.png') no-repeat;
-  background-size: contain;
-  background-position: 0px;
-  margin: 0 10px;
-  height: 35px;
-  width: 35px;
-}
+
  .step-no{
   color: #fba601;
 }
@@ -10506,8 +10476,9 @@ font-weight: 700;
 .mobile-banner img.img-responsive{
   display: none
 }
-.mobile-banner-promotion img.img-responsive, .mobile-banner-winner img.img-responsive, {
-  display: block
+
+.mobile-banner-promotion img.img-responsive, .mobile-banner-winner img.img-responsive {
+  display: block!important;
 }
 .dl-content{
   padding: 0 14px
@@ -10578,9 +10549,7 @@ h5.title-inside{
   position: absolute;
   right: 36px;
 }
-.bago-afterlogin .boxer .step-txt{
-  font-size: 11px;
-}
+
 .promo-home {
   margin: 15px auto;
   max-width: 649px;
@@ -10598,7 +10567,7 @@ h5.title-inside{
 }
 .promo-home .img-txt{
   position: relative;
-      border-bottom: 1px solid #484848;
+
 }
 .promo-ins-desc{
   background:#222222;
@@ -10685,4 +10654,10 @@ h5.title-inside{
 }
 .rss-field{
   margin-bottom: 15px
+}
+.btn-addscreen {
+  background: 000 url(../img/underline.png) no-repeat;
+background-size: 90% 2px;
+padding: 10px;
+background-position: 70% 0%;
 }
