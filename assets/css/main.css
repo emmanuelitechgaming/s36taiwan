@@ -10795,5 +10795,21 @@ h5.title-inside{
   display: inline-block;
 }
 .logo-area{
-  background: #393a3c
+  background: #393a3c;
+  padding: 5px 10px 5px 20px
+}
+.atletico-area .text, .atletico-area .img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.atletico-area .img{
+  width: 33px;
+}
+.atletico-area .text{
+  margin-left: 5px
+}
+.atletico-area .text span{
+  display: block;
+  border-top: 1px solid #fff;
+  font-weight: 700;
 }

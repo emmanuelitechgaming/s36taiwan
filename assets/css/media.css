@@ -1250,9 +1250,6 @@ max-height: 170px;
       height: 15px;
       top: 1px
     }
-    .atletico-area{
-      width: 50px!important;
-    }
     .bago_nanaman .boxer::after{
       content: '';
       display: block;
@@ -3914,6 +3911,10 @@ max-height: 170px;
   .lotto-button-m{
     margin: 150px 0 50px
   }
+  .nav.navbar-nav.hidden-md.hidden-lg.ipad-landscape{
+    display: block;
+    width: 100%;
+  }
 }
 
 
@@ -5926,9 +5927,9 @@ main .marquee {
     margin-right: 68px;
   }
   .dl-area{
-    top: -10px;
+    top: -2px;
     width: auto;
-    margin-left: 20px;
+    margin-left: 40px;
   }
   .atletico-area{
 
