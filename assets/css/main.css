@@ -606,7 +606,7 @@ footer .footer-services p {
     font-size: 13px;
     text-align: justify;
     text-justify: inter-word;
-    line-height: 30px;
+    line-height: 15px;
 }
 
 footer .footer-gameprovider .gameprovider {
@@ -8115,7 +8115,7 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   margin: 0 auto;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  border: solid 1px #fba601;
+  border: solid 1px #4c4c4c;
 }
 .sp-dl.fffssa{
   background: #202020;
@@ -10587,7 +10587,7 @@ h5.title-inside{
 }
 .promo-ins-desc{
   background:#222222;
-  border: solid 1px #fba601;
+  border: solid 1px #4c4c4c;
   overflow: hidden;
   text-align: center;
   border-bottom-left-radius: 5px;
@@ -10754,4 +10754,7 @@ h5.title-inside{
   padding: 10px 15px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+.atletico-txt{
+  display: inline-block;
 }
