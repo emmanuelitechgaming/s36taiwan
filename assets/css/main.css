@@ -10821,6 +10821,19 @@ h5.title-inside{
 }
 .logo-area-content .text span{
   display: block;
-  font-weight: 700;
   border-top: solid 1px #fff
+}
+.first-logo{
+  position: relative;
+}
+.first-logo .logo-area-content::after{
+  content: '';
+  display: block;
+  width: 2px;
+  position: absolute;
+  top: 5px;
+  bottom: 7px;
+  right: 8px;
+  background: #000;
+  border-right: 1px solid #4a4a4a
 }

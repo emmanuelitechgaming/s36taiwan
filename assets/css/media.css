@@ -1643,7 +1643,9 @@ max-height: 170px;
       display: none
     }
     .lotto-button-m{
-      margin: 50px 0 50px
+      margin: 0 0 0;
+      top: 105px;
+      z-index: 999
     }
     .logo-area-content .img{
       width: 30px
@@ -1946,6 +1948,9 @@ max-height: 170px;
     }
     .logo-area-content .text{
       font-size: 12px;
+    }
+    .lotto-button-m{
+      top: 115px;
     }
 }
 
@@ -2293,6 +2298,9 @@ max-height: 170px;
     .logo-area{
       padding: 5px 10px 5px 35px
     }
+    .lotto-button-m{
+      top: 120px;
+    }
 }
 
 
@@ -2618,11 +2626,17 @@ max-height: 170px;
     .logo-area-content .img{
       width: 40px
     }
+    .second-logo .logo-area-content .img{
+      width: 38px;
+    }
     .logo-area-content .text{
       font-size: 13px;
     }
     .logo-area {
       padding: 5px 10px 5px 40px;
+    }
+    .lotto-button-m{
+      top: 140px;
     }
 }
 
@@ -3871,7 +3885,7 @@ max-height: 170px;
     display: block;
   }
   .contact-title li{
-    margin: 0 20px
+    margin: 0 0
   }
   .m-fsalon ul li{
     margin: 0 10px !important
@@ -3930,13 +3944,10 @@ max-height: 170px;
     border-right: 1px solid #333
   }
   .fish-fish{
-    display: block;
+    display: none;
     position: absolute;
     bottom: 1px;
     right: -6px
-  }
-  .lotto-button-m{
-    margin: 150px 0 50px
   }
   .nav.navbar-nav.hidden-md.hidden-lg.ipad-landscape{
     display: block;
@@ -3944,6 +3955,15 @@ max-height: 170px;
   }
   .nav.navbar-nav {
       margin-left: 0;
+  }
+  footer .f-social ul.columns.f-social li{
+    width: 16.6666%;
+  }
+  .lotto-button-m{
+    top: 22 5px;
+  }
+  .lotto-button-m{
+    top: 240px;
   }
 }
 
