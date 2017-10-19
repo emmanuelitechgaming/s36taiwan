@@ -9144,38 +9144,7 @@ span.add-ico{
   height: 35px;
   width: 35px;
 }
-.boxer .step-no.step1{
-  background: url('../img/step1.png') no-repeat;
-  background-size: contain;
-  background-position: 0px;
-  margin: 0 10px;
-  height: 35px;
-  width: 35px;
-}
-.boxer .step-no.step2{
-  background: url('../img/step2.png') no-repeat;
-  background-size: contain;
-  background-position: 0px;
-  margin: 0 10px;
-  height: 35px;
-  width: 35px;
-}
-.boxer .step-no.step3{
-  background: url('../img/step3.png') no-repeat;
-  background-size: contain;
-  background-position: 0px;
-  margin: 0 10px;
-  height: 35px;
-  width: 35px;
-}
-.boxer .step-no.step4{
-  background: url('../img/step4.png') no-repeat;
-  background-size: contain;
-  background-position: 0px;
-  margin: 0 10px;
-  height: 35px;
-  width: 35px;
-}
+
  .step-no{
   color: #fba601;
 }
@@ -10580,9 +10549,7 @@ h5.title-inside{
   position: absolute;
   right: 36px;
 }
-.bago-afterlogin .boxer .step-txt{
-  font-size: 11px;
-}
+
 .promo-home {
   margin: 15px auto;
   max-width: 649px;
@@ -10687,4 +10654,10 @@ h5.title-inside{
 }
 .rss-field{
   margin-bottom: 15px
+}
+.btn-addscreen {
+  background: 000 url(../img/underline.png) no-repeat;
+background-size: 90% 2px;
+padding: 10px;
+background-position: 70% 0%;
 }
