@@ -3678,6 +3678,12 @@ max-height: 170px;
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
+  .spotlight-bg{
+    background: url('../img/promo/spotlight.png') no-repeat #000;
+    background-position: 121px 2px;
+    background-size: contain;
+    margin-top: 10px;
+  }
   .boxer .step-no.step1{
     background: url('../img/step1.png') no-repeat;
     background-size: contain;
@@ -4045,6 +4051,12 @@ max-height: 170px;
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {
+  .spotlight-bg{
+    background: url('../img/promo/spotlight.png') no-repeat #000;
+    background-position: 100%;
+    background-size: contain;
+    margin-top: 10px;
+  }
   .bs-slider-overlay {
       position: absolute;
       bottom: 13px;
@@ -4919,12 +4931,7 @@ width: 360px;
     .live-games img {
         max-width: 80.3%;
     }
-    .spotlight-bg{
-      background: url('../img/promo/spotlight.png') no-repeat #000;
-      background-position: 100%;
-      background-size: contain;
-      margin-top: 10px;
-    }
+
     .username-availability button{
       padding-left: 0;
     }
