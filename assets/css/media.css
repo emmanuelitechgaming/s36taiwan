@@ -5368,7 +5368,7 @@ width: 360px;
   }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
     top: 12px;
-left: 74%;
+    left: 74%;
   }
   .bago-pages .boxer-arrow::after{
     top: 19px
@@ -5889,6 +5889,10 @@ left: 74%;
 }
 }
 @media only screen and (min-width: 1200px) {
+  .bago-afterlogin .boxer-arrow::after, .bago-afterlogin .boxer-arrow::after {
+    top: 3px!important;
+    left: 105%!important;
+}
   .bago_nanaman .boxer {
     margin: 0 0;
     font-size: 15px;
