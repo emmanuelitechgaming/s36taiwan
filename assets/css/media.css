@@ -138,7 +138,7 @@ max-height: 170px;
       top: 1px
     }
     .navbar-header.header-mobile{
-      margin-bottom: 15px
+      margin-bottom: 4px
     }
     .header-mobile-logo {
         margin-left: 10px
@@ -1732,6 +1732,15 @@ max-height: 170px;
     .bago-pages .boxer .step-search{
       display: none;
     }
+    .cntrycode{
+      left: 5px;
+    }
+    .wallet.acc-info .form-horizontal .country-code-wrapper .form-control{
+      width: 80%
+    }
+    .country-code-wrapper{
+      text-align: right;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2655,6 +2664,10 @@ max-height: 170px;
       width: 20px;
       height: 23px;
     }
+    #btnSearch::after, #btn-edit-info::after{
+      width: 18px;
+      height: 18px
+    }
     .boxer-last a{
       font-size: 18px;
       min-width: 250px
@@ -2748,7 +2761,7 @@ max-height: 170px;
       font-size: 13px;
     }
     .logo-area {
-      padding: 5px 10px 5px 40px;
+      padding: 10px 10px 10px 40px;
     }
     .lotto-button-m{
       top: 140px;
@@ -3022,6 +3035,9 @@ max-height: 170px;
     .boxer .step-no.steps{
       min-height: 45px;
       line-height: 45px
+    }
+    .bago-main .boxer::after {
+      top: 12px;
     }
 }
 
@@ -4195,6 +4211,18 @@ max-height: 170px;
   .container {
     padding-left: 8px;
     padding-right: 8px;
+  }
+  .njackpot-nwinner-slots {
+    padding-left: 15px;
+    padding-right: 25px;
+  }
+  .njackpot-nwinner-promo {
+    padding-left: 23px;
+    padding-right: 25px;
+  }
+  .njackpot-nwinner-lotto {
+    padding-left: 22px;
+    padding-right: 21px;
   }
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 20px;
@@ -5810,6 +5838,9 @@ width: 360px;
     top: 15px;
     right: 0%;
   }
+  .bago-pages-dl .boxer .step-search {
+    top: 8px;
+  }
   .bago-pages-dl .boxer .step-no.stepA{
     background: url('../img/dl/1.png') no-repeat;
     background-size: contain;
@@ -5871,14 +5902,27 @@ width: 360px;
   }
   .boxer .step-no.steps{
     min-height: 50px;
-    line-height: normal
+    line-height: 50px
   }
   .bago-pages {
     padding-bottom: 0;
     padding-top: 0;
   }
   .bago-pages-dl {
-    padding-bottom: 5px
+    padding-bottom: 7px;
+    padding-top: 7px
+  }
+  .cntrycode{
+    left: -41px;
+  }
+  .wallet.acc-info .form-horizontal .country-code-wrapper .form-control{
+    width: auto;
+  }
+  .country-code-wrapper{
+    text-align: left;
+  }
+  .bago-afterlogin {
+    padding: 8px 0;
   }
 }
 
@@ -6250,8 +6294,8 @@ main .marquee {
   }
   .bago-pages-dl .container{
     width: 1275px;
-    padding-right: 0px;
-    padding-left: 23px;
+   padding-right: 20px;
+   padding-left: 20px;
   }
 
   .drop {
@@ -6268,11 +6312,11 @@ main .marquee {
     left: 83%;
 }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
-    top: 13px;
+    top: 10px;
     left: 95%;
   }
   .bago-pages .boxer-arrow::after{
-    top: 16px
+    top: 12px
   }
   .bago-pages-dl .boxer-arrow::after{
     top: 6px
@@ -6312,10 +6356,10 @@ main .marquee {
   .dl-area{
     top: -2px;
     width: auto;
-    margin-left: 67px;
+    margin-left: 30px;
   }
   .valencia-area{
-    margin-left: 30px
+    margin-left: 67px
   }
   .atletico-area{
 
