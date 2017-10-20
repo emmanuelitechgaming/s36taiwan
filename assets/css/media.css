@@ -9,8 +9,21 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
+
+  .bago-afterlogin .boxer .step-no{
+    width: 35px;padding:2px 5px;
+  }
   .bago-afterlogin .step-txt{
     width: 110px;
+  }
+  .bago-afterlogin .col-xs-6{
+    padding: 0 10px;
+  }
+  .bago-afterlogin .boxer div.step-txt {
+    font-size: 10px;
+  }
+  .bago-afterlogin .boxer div span{
+    font-size: 10px;
   }
   .boxer .step-no.step1{
     background: url('../img/step1.png') no-repeat;
@@ -1196,8 +1209,9 @@ max-height: 170px;
       padding-right: 7px;
       padding-left: 7px;
     }
+
     .bago_nanaman .boxer{
-      margin-bottom: 0px;
+      margin: 2px 0;
       text-align: center;
       position: relative;
       white-space: nowrap;
@@ -1326,9 +1340,17 @@ max-height: 170px;
     .boxer  div.step-txt{
       font-size: 13px;
     }
+    .bago-main div.step-txt{
+      font-size: 11px;
+    }
     .bago-afterlogin{
       padding: 5px 0;
     }
+    .bago-main  .boxer div span{
+        font-size: 11px;
+        position: relative;
+        bottom: 1px
+      }
     .boxer div span{
       font-size: 13px;
       position: relative;
@@ -1706,9 +1728,7 @@ max-height: 170px;
       height: 35px;
       width: 35px;
     }
-    .bago-afterlogin .boxer .step-no{
-      width: 33px;
-    }
+
     .bago-pages .boxer .step-search{
       display: none;
     }
@@ -2302,9 +2322,7 @@ max-height: 170px;
     .boxer-last a{
       min-width: 275px;
     }
-    .bago-afterlogin .boxer div span{
-      font-size: 12px;
-    }
+
     .bago-pages .boxer div.step-txt {
       display: inline-block;
       text-align: left;
@@ -2321,6 +2339,10 @@ max-height: 170px;
       margin: 10px;
       padding: 0 0
     }
+    .bago-afterlogin .boxer .step-no {
+    width: 35px;
+    padding: 1px 2px;
+}
     .step-no{
       font-size: 3.1em;
     }
@@ -2350,7 +2372,7 @@ max-height: 170px;
       left: 5px
     }
     .bago-main .boxer::after{
-      top: 5px;
+      top: 15px;
     }
     .mnav-afterlogin ul li {
       margin-right: 77px;
@@ -2376,11 +2398,17 @@ max-height: 170px;
     .lotto-button-m{
       top: 120px;
     }
-    .boxer div.step-txt {
-      font-size: 15px;
+    .bago-main .boxer div.step-txt {
+      font-size: 13px;
     }
-    .boxer div span {
-      font-size: 14px
+    .bago-main .boxer div span {
+      font-size: 13px
+    }
+    .bago-afterlogin .boxer div.step-txt {
+      font-size: 12px;
+    }
+    .bago-afterlogin .boxer div span{
+      font-size: 12px;
     }
     .bago-pages .boxer::after {
       bottom: 0%;
@@ -3471,7 +3499,7 @@ max-height: 170px;
       margin-top: 10px
     }
     .bago_nanaman .boxer{
-      margin: 10px 0;
+      margin:5px  0;
     }
     .mobile-banner-wrapper .bs-slider-overlay a {
       font-size: 18px;
@@ -3761,6 +3789,10 @@ max-height: 170px;
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
+  .bago-afterlogin .boxer .step-no {
+    width: 37px;
+    padding: 0px 1px;
+}
   .spotlight-bg{
     background: url('../img/promo/spotlight.png') no-repeat #000;
     background-position: 121px 2px;
@@ -4057,7 +4089,7 @@ max-height: 170px;
     margin-top: 10px !important;
   }
   .bago-main .boxer::after{
-    top: 10px;
+    top: 12px;
   }
   #m-selectpicker2-collapse::before {
     right: 5px;
@@ -4136,7 +4168,7 @@ max-height: 170px;
     top: -60px
   }
   .bago-afterlogin .boxer div.step-txt {
-    left: 0;
+    left: 10px;
   }
 }
 
@@ -5251,6 +5283,7 @@ width: 360px;
     font-size: 15px;
     border: none;
     padding-bottom: 0;
+    text-align: left;
   }
   .boxer .number{
     display: inline-block;
@@ -5328,9 +5361,13 @@ width: 360px;
     position: relative;
     top: 3px
   }
+  .bago-afterlogin .bago_nanaman .boxer-arrow::after, .bago-afterlogin .bago_nanaman .boxer-arrow::after{
+    top: 3px;
+left: 109%
+  }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
-    top: 19px;
-    left: 91%;
+    top: 12px;
+left: 74%;
   }
   .bago-pages .boxer-arrow::after{
     top: 19px
@@ -5339,11 +5376,9 @@ width: 360px;
     left: 107%;
   }
   .bago_nanaman .col-md-3:nth-child(3) .boxer-arrow::after{
-    left: 84%
+    left: 74%
   }
-  .bago-afterlogin .col-md-3:nth-child(3) .boxer-arrow::after{
-    left: 95%
-  }
+
   .bago_nanaman .col-6:nth-child(3) .boxer::after{
     content: ''
   }
@@ -5820,7 +5855,7 @@ width: 360px;
   }
   .spotlight-bg-text img{
     position: relative;
-    top: 30px
+    top: 0
   }
   .bago-pages .boxer .step-search{
     display: block;
@@ -5852,6 +5887,13 @@ width: 360px;
 }
 }
 @media only screen and (min-width: 1200px) {
+  .bago_nanaman .boxer {
+    margin: 0 0;
+    font-size: 15px;
+    border: none;
+    padding-bottom: 0;
+    text-align: center;
+}
   .banner-overlay{
     top: -5px;
     right: -44%;
@@ -6216,9 +6258,12 @@ main .marquee {
     margin-right: 10px;
     padding: 3px 10px;
   }
+  .bago_nanaman .col-md-3:nth-child(3) .boxer-arrow::after {
+    left: 83%;
+}
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
     top: 13px;
-    left: 104.5%;
+    left: 95%;
   }
   .bago-pages .boxer-arrow::after{
     top: 16px
