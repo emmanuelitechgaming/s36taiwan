@@ -2322,7 +2322,7 @@ max-height: 170px;
       padding: 0 0
     }
     .step-no{
-      font-size: 3em;
+      font-size: 3.1em;
     }
     .live-game .title{
       bottom: 45.5%;
@@ -2930,6 +2930,69 @@ max-height: 170px;
     }
     .checkbox-warning-form-group{
       margin-top: -35px
+    }
+    .malupet-nanaman-afterlogin {
+      padding: 1px 0px 0px 0px;
+      border-bottom: 1px solid #4a4a4a;
+    }
+    .malupet-nanaman-afterlogin h4 {
+      margin-bottom: 10px;
+      margin-top: 2px
+    }
+    .bago-afterlogin .boxer div.step-txt {
+      font-size: 12px;
+      position: relative;
+      left: 5px
+    }
+    .bago-afterlogin .boxer div span {
+      font-size: 10px;
+    }
+    .bago-afterlogin .boxer{
+      margin-bottom: 10px
+    }
+    .bago-afterlogin .col-md-3:nth-child(3) .boxer, .bago-afterlogin .col-md-3:nth-child(4) .boxer{
+      margin-bottom: 0;
+    }
+    .bago-afterlogin{
+      padding: 10px 0
+    }
+    .bago-afterlogin .boxer::after {
+      right: 5%;
+      left: 5%;
+      bottom: -7px
+    }
+    .bago-afterlogin .col-md-3:nth-child(3) .boxer .step-no, .bago-afterlogin .col-md-3:nth-child(4) .boxer .step-no {
+      width: 32px
+    }
+    .bago-afterlogin::after{
+      left: 47%;
+    }
+    .bago-afterlogin .col-md-3:nth-child(3) .boxer .step-txt, .bago-afterlogin .col-md-3:nth-child(4) .boxer .step-txt{
+      position: relative;
+      top: 2px
+    }
+    .bago-pages .boxer {
+      margin: 0 10px;
+      padding: 0 0;
+    }
+    .bago-pages .boxer::after {
+      bottom: -3%;
+    }
+    .bago-pages .boxer::after {
+      bottom: -3%;
+    }
+    .bago-pages .boxer div.step-txt {
+      padding: 6px 0 6px;
+    }
+    .bago-pages-dl .boxer div.step-txt {
+      padding: 9px 0 9px;
+    }
+    .bago-pages{
+      padding-bottom: 5px
+    }
+    .boxer .step-no.steps{
+      min-height: 45px;
+      line-height: 45px
     }
 }
 
@@ -4070,6 +4133,9 @@ max-height: 170px;
   .spotlight-bg-text img{
     position: relative;
     top: -60px
+  }
+  .bago-afterlogin .boxer div.step-txt {
+    left: 0;
   }
 }
 
@@ -5760,9 +5826,21 @@ width: 360px;
   }
   .bago-pages .boxer {
     white-space: nowrap;
-     padding: 0 0; 
+     padding: 0 0;
   }
-
+  .bago-afterlogin .boxer div.step-txt {
+    left: 0px;
+  }
+  .boxer .step-no.steps{
+    min-height: 50px;
+    line-height: normal
+  }
+  .bago-pages {
+    padding-bottom: 0;
+  }
+  .bago-pages-dl {
+    padding-bottom: 5px
+  }
 }
 
 @media (min-width: 1200px){
@@ -6147,7 +6225,7 @@ main .marquee {
     top: 6px
   }
   .bago-afterlogin .boxer-arrow::after, .bago-afterlogin .boxer-arrow::after{
-    top: 10px;
+    top: 2px;
   }
   .boxer .content .title {
     font-size: 14px;
