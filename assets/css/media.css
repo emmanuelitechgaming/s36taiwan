@@ -1709,6 +1709,9 @@ max-height: 170px;
     .bago-afterlogin .boxer .step-no{
       width: 33px;
     }
+    .bago-pages .boxer .step-search{
+      display: none;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2306,12 +2309,17 @@ max-height: 170px;
       display: inline-block;
       text-align: left;
       padding: 10px 0 13px;
+      line-height: 18px;
+      position: relative;
+      top: 1px;
     }
     .bago-pages .boxer{
       white-space: nowrap;
+      padding: 12.5px 0
     }
     .bago-pages-dl .boxer{
-      margin: 10px
+      margin: 10px;
+      padding: 0 0
     }
     .step-no{
       font-size: 3em;
@@ -2367,6 +2375,18 @@ max-height: 170px;
     }
     .lotto-button-m{
       top: 120px;
+    }
+    .boxer div.step-txt {
+      font-size: 15px;
+    }
+    .boxer div span {
+      font-size: 14px
+    }
+    .bago-pages .boxer::after {
+      bottom: 0%;
+    }
+    .bago-pages-dl .boxer::after {
+      bottom: -12%;
     }
 }
 
@@ -5734,6 +5754,13 @@ width: 360px;
   .spotlight-bg-text img{
     position: relative;
     top: 30px
+  }
+  .bago-pages .boxer .step-search{
+    display: block;
+  }
+  .bago-pages .boxer {
+    white-space: nowrap;
+     padding: 0 0; 
   }
 
 }

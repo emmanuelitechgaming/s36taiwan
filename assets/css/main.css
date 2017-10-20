@@ -10867,3 +10867,26 @@ h5.title-inside{
   background: #161616;
   z-index: 1;
 }
+.y-promo-tab ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.y-promo-tab ul li{
+  display: inline-block;
+  margin: 10px 0;
+  margin-right: 5px
+}
+
+.y-promo-tab ul li a{
+  background: #111;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-size: 13px
+}
+.y-promo-tab ul li.active a{
+  background: #fba601;
+  color: #111;
+  font-weight: 700;
+}

@@ -26,6 +26,9 @@
     margin-top: -5px;
     margin-bottom: -5px
   }
+  .promo-panel-heading{
+    margin-top: 0
+  }
   .tab-pane .tab-info {
     padding: 5px 8px;
   }
