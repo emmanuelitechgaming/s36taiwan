@@ -3237,9 +3237,9 @@ max-height: 170px;
     .m-fsalon ul li:nth-child(2) img{
       margin-right: 0;
     }
-    .m-fsalon ul li:nth-child(1), .m-fsalon ul li:nth-child(3){
-      margin-left: 0;
-      margin-right: 0;
+    .m-fsalon ul li:nth-child(1), .m-fsalon ul li:last-child{
+      margin-left: 0!important;
+      margin-right: 0!important;
     }
     .m-fsalon ul li:nth-child(2){
       left: auto;
@@ -3678,6 +3678,12 @@ max-height: 170px;
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
+  .spotlight-bg{
+    background: url('../img/promo/spotlight.png') no-repeat #000;
+    background-position: 121px 2px;
+    background-size: contain;
+    margin-top: 10px;
+  }
   .boxer .step-no.step1{
     background: url('../img/step1.png') no-repeat;
     background-size: contain;
@@ -4045,6 +4051,12 @@ max-height: 170px;
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {
+  .spotlight-bg{
+    background: url('../img/promo/spotlight.png') no-repeat #000;
+    background-position: 100%;
+    background-size: contain;
+    margin-top: 10px;
+  }
   .bs-slider-overlay {
       position: absolute;
       bottom: 13px;
@@ -4919,12 +4931,7 @@ width: 360px;
     .live-games img {
         max-width: 80.3%;
     }
-    .spotlight-bg{
-      background: url('../img/promo/spotlight.png') no-repeat #000;
-      background-position: 100%;
-      background-size: contain;
-      margin-top: 10px;
-    }
+
     .username-availability button{
       padding-left: 0;
     }
@@ -6049,8 +6056,9 @@ main .marquee {
     margin-left: auto;
   }
   .bago-pages-casino .container,.bago-pages-slots .container,.bago-pages-lotto .container,.bago-pages-dl .container{
-      width: 1180px;
-     padding-right: 2px;
+    width: 1275px;
+    padding-right: 6px;
+    padding-left: 24px;
   }
 
   .drop {
