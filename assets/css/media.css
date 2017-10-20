@@ -1329,10 +1329,6 @@ max-height: 170px;
     .bago-afterlogin{
       padding: 5px 0;
     }
-    .bago-afterlogin .boxer  div.step-txt{
-      position: relative;
-      left: -20px
-    }
     .boxer div span{
       font-size: 13px;
       position: relative;
@@ -1709,6 +1705,9 @@ max-height: 170px;
       margin-right: -20px;
       height: 35px;
       width: 35px;
+    }
+    .bago-afterlogin .boxer .step-no{
+      width: 33px;
     }
 }
 
@@ -4045,6 +4044,13 @@ max-height: 170px;
   .lotto-button-m{
     top: 240px;
   }
+  .spotlight-bg-text img{
+    width: 185px;
+  }
+  .spotlight-bg-text img{
+    position: relative;
+    top: -60px
+  }
 }
 
 
@@ -4053,7 +4059,7 @@ max-height: 170px;
 @media only screen and (min-width: 992px) {
   .spotlight-bg{
     background: url('../img/promo/spotlight.png') no-repeat #000;
-    background-position: 100%;
+    background-position: 150px 0;
     background-size: contain;
     margin-top: 10px;
   }
@@ -5289,6 +5295,10 @@ width: 360px;
     padding: 0 0 0;
     text-align: center;
   }
+  .bago-pages-dl .boxer  div.step-txt{
+    padding: 0 10px 0;
+    text-align: center;
+  }
   .step-no{
     font-size: 2.9em;
   }
@@ -5712,6 +5722,19 @@ width: 360px;
   main .jacpot-nus {
       left: 67px
   }
+  .bago-afterlogin .boxer .step-no{
+    width: 33px;
+  }
+  .bago-pages-dl .boxer .step-no{
+    width: 33px;
+  }
+  .bago-pages-dl{
+    padding: 5px 0
+  }
+  .spotlight-bg-text img{
+    position: relative;
+    top: 30px
+  }
 
 }
 
@@ -6050,14 +6073,30 @@ main .marquee {
     padding-right: 14px;
   }
   .bago-afterlogin .container{
-    width: 1345px;
-    padding-right: 48px;
-    padding-left: 15px;
+    width: 1521px;
+    padding-right: 61px;
+    padding-left: 54px;
     margin-left: auto;
   }
-  .bago-pages-casino .container,.bago-pages-slots .container,.bago-pages-lotto .container,.bago-pages-dl .container{
-      width: 1180px;
-     padding-right: 2px;
+  .bago-pages-casino .container{
+    width: 1275px;
+    padding-right: 6px;
+    padding-left: 24px;
+  }
+  .bago-pages-slots .container{
+    width: 1242px;
+    padding-right: 0px;
+    padding-left: 23px;
+  }
+  .bago-pages-lotto .container{
+    width: 1242px;
+    padding-right: 0px;
+    padding-left: 23px;
+  }
+  .bago-pages-dl .container{
+    width: 1275px;
+    padding-right: 0px;
+    padding-left: 23px;
   }
 
   .drop {
@@ -6076,6 +6115,9 @@ main .marquee {
   }
   .bago-pages .boxer-arrow::after{
     top: 16px
+  }
+  .bago-pages-dl .boxer-arrow::after{
+    top: 6px
   }
   .bago-afterlogin .boxer-arrow::after, .bago-afterlogin .boxer-arrow::after{
     top: 10px;
@@ -6203,5 +6245,17 @@ right: 2px;
   }
   .breadcrumb-inner .sp-container img {
     margin-left: 45px
+  }
+  .spotlight-bg-text img{
+    width: 270px;
+  }
+  .spotlight-bg-text img{
+    top: 0;
+  }
+  .spotlight-bg {
+    background: url(../img/promo/spotlight.png) no-repeat #000;
+    background-position: 400px 0;
+    background-size: contain;
+    margin-top: 10px;
   }
 }
