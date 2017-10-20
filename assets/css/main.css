@@ -294,7 +294,7 @@ main .jackpot .col-md-6 {
 main .jackpot {
     overflow: hidden;
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: -17px;
 }
 
 main .live-container {
@@ -405,6 +405,7 @@ main .jacpot-nus {
     position: relative;
     display: inline-block;
     padding-left: 2px;
+    position: relative;
 }
 
 main .marquee {
@@ -10347,7 +10348,9 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
 }
 .boxer .steps{
   padding: 0 10px
-
+}
+.boxer .steps.stepA{
+  padding: 0 0
 }
 .boxer .steps.step-play img{
   width: 23px;
@@ -10812,7 +10815,6 @@ h5.title-inside{
 .atletico-area .text span{
   display: block;
   border-top: 1px solid #fff;
-  font-weight: 700;
 }
 .logo-area-content div{
   display: inline-block;
@@ -10846,9 +10848,25 @@ h5.title-inside{
   background: url('../img/search.png') no-repeat;
   background-size: contain;
   position: relative;
-  top: 19px
 }
 .bago-pages .boxer .step-search-hover{
   background: url('../img/search-hover.png') no-repeat;
   background-size: contain;
+}
+.navaa{
+  position: relative;
+  left: 4px
+}
+.marquee-jackpot-inner::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 22px;
+  bottom: 5px;
+  right: -80px;
+  border: solid 1px #3d3d3d;
+  border-left: none;
+  width: 105px;
+  background: #161616;
+  z-index: 1;
 }

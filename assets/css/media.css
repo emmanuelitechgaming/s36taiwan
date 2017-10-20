@@ -14,31 +14,32 @@
   }
   .boxer .step-no.step1{
     background: url('../img/step1.png') no-repeat;
-    background-size: contain;
+    background-size: 45px 35px;
     background-position: 0px;
     margin: 0 2px;
     height: 35px;
-    width: 35px;
+    max-width: 50px
   }
   .boxer .step-no.step2{
     background: url('../img/step2.png') no-repeat;
-    background-size: contain;
+    background-size: 45px 40px;
     background-position: 0px;
     margin: 0 2px;
     height: 35px;
-    width: 35px;
+    max-width: 35px
   }
   .boxer .step-no.step3{
     background: url('../img/step3.png') no-repeat;
-    background-size: contain;
+    background-size: 45px 40px;
     background-position: 0px;
     margin: 0 2px;
     height: 35px;
-    width: 35px;
+    max-width: 35px;
+
   }
   .boxer .step-no.step4{
     background: url('../img/step4.png') no-repeat;
-    background-size: contain;
+    background-size: 45px 40px;
     background-position: 0px;
     margin: 0 2px;
     height: 35px;
@@ -1260,6 +1261,9 @@ max-height: 170px;
       right: 30%;
       left: 30%;
     }
+    .bago-pages-dl .boxer::after{
+      bottom: -12%;
+    }
     .bago-main .boxer::after{
       content: '';
       display: block;
@@ -1320,10 +1324,22 @@ max-height: 170px;
       margin-top: 10px;
     }
     .boxer  div.step-txt{
-      font-size: 11px;
+      font-size: 13px;
+    }
+    .bago-afterlogin{
+      padding: 5px 0;
+    }
+    .bago-afterlogin .boxer  div.step-txt{
+      position: relative;
+      left: -20px
     }
     .boxer div span{
-      font-size: 11px;
+      font-size: 13px;
+      position: relative;
+      bottom: 1px
+    }
+    .bago-pages-dl .boxer div span{
+      font-size: 15px;
     }
     .bago_nanaman .boxer-last{
       line-height: 27px;
@@ -1657,7 +1673,42 @@ max-height: 170px;
       padding: 5px 10px 5px 30px
     }
     .bago-afterlogin{
-      padding-right: 10px
+      padding-right: 20px;
+      padding-left: 10px;
+    }
+    .bago-pages .boxer .step-search{
+      top: 18px;
+      right: 20%
+    }
+    .bago-pages{
+      padding-right: 28px
+    }
+    .bago-pages-dl .boxer .step-no.stepA{
+      background: url('../img/dl/1.png') no-repeat;
+      background-size: 40px 40px;
+      background-position: 0px;
+      margin: 0 5px;
+      margin-right: -20px;
+      height: 35px;
+      width: 35px;
+    }
+    .bago-pages-dl .boxer .step-no.stepB{
+      background: url('../img/dl/2.png') no-repeat;
+      background-size: 40px 40px;
+      background-position: 0px;
+      margin: 0 5px;
+      margin-right: -20px;
+      height: 35px;
+      width: 35px;
+    }
+    .bago-pages-dl .boxer .step-no.stepC{
+      background: url('../img/dl/3.png') no-repeat;
+      background-size: 40px 40px;
+      background-position: 0px;
+      margin: 0 5px;
+      margin-right: -20px;
+      height: 35px;
+      width: 35px;
     }
 }
 
@@ -1935,10 +1986,18 @@ max-height: 170px;
       max-height: 341px;
     }
     .malupet-nanaman {
-      padding: 4px 0px 3px 0px;
+      padding: 1px 0px 0px 0px;
+      border-bottom: 1px solid #4a4a4a
+    }
+    .malupet-nanaman-afterlogin {
+      padding: 25px 0px 25px 0px;
+      border-bottom: 1px solid #4a4a4a;
     }
     .malupet-nanaman h4{
       text-indent: 34px;
+    }
+    .malupet-nanaman-afterlogin h4{
+      margin-bottom: 20px;
     }
     #registerModal .g-recaptcha{
       transform:scale(0.92) !important;
@@ -2213,6 +2272,9 @@ max-height: 170px;
     #myModalTab1-2 .form-recap{
       left: -23px;
     }
+    #registerModal .form-recap{
+      left: 2px;
+    }
     .absolute-play-casino{
       width: 70px;
       height: 70px;
@@ -2249,8 +2311,11 @@ max-height: 170px;
     .bago-pages .boxer{
       white-space: nowrap;
     }
+    .bago-pages-dl .boxer{
+      margin: 10px
+    }
     .step-no{
-      font-size: 2.5em;
+      font-size: 3em;
     }
     .live-game .title{
       bottom: 45.5%;
@@ -2840,6 +2905,12 @@ max-height: 170px;
     }
     .live-game.lg-angel-demon img{
       bottom: 12px;
+    }
+    #registerModal .checkbox-warning{
+      text-align: center;
+    }
+    .checkbox-warning-form-group{
+      margin-top: -35px
     }
 }
 
@@ -4023,7 +4094,7 @@ width: 360px;
     }
     .nav.navbar-nav {
         margin-left: auto;
-        margin-right: auto
+        margin-right: 7px
     }
     footer .footer-line {
         border-left: 1px solid #343434;
@@ -4933,10 +5004,10 @@ width: 360px;
 @media only screen and (min-width: 1024px) {
   .haaay > div {
     display: inline-block;
-    margin: 30px 10px 0;
+    margin: 30px 12px 0;
   }
   .malupet-nanaman .haynako:first-child .haaay > div {
-    margin: 0 10px 0
+    margin: 0 12px 0
   }
   .bago-pages .col-md-4:first-child .boxer {
     text-align: left;
@@ -5594,6 +5665,46 @@ width: 360px;
   .bago-pages .col-md-4:nth-child(2) .boxer, .bago-pages .col-md-4:nth-child(3) .boxer{
     text-align: left;
   }
+  .bago-pages .boxer .step-search {
+    top: 20px;
+    right: 0%;
+  }
+  .bago-pages-dl .boxer .step-no.stepA{
+    background: url('../img/dl/1.png') no-repeat;
+    background-size: contain;
+    background-position: 0px;
+    margin: 0 5px;
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+  }
+  .bago-pages-dl .boxer .step-no.stepB{
+    background: url('../img/dl/2.png') no-repeat;
+    background-size: contain;
+    background-position: 0px;
+    margin: 0 5px;
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+  }
+  .bago-pages-dl .boxer .step-no.stepC{
+    background: url('../img/dl/3.png') no-repeat;
+    background-size: contain;
+    background-position: 0px;
+    margin: 0 5px;
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+  }
+  .bago-pages-dl .boxer div span {
+    font-size: 13px;
+  }
+  #registerModal .checkbox-warning{
+    text-align: left;
+  }
+  main .jacpot-nus {
+      left: 67px
+  }
 
 }
 
@@ -5607,7 +5718,7 @@ width: 360px;
   .banner-overlay{
     top: -5px;
     right: -44%;
-    width: 380px;
+    width: 388px;
   }
   .malupet-nanaman h4 {
     font-size: 17px;
@@ -5642,7 +5753,7 @@ width: 360px;
         background-position: center;
           margin-top: -17px;
           position: relative;
-          left: 10px
+          left: 7px
     }
     .header-mobile-logo {
         margin-left: auto
@@ -5727,7 +5838,7 @@ width: 360px;
         word-spacing: 12px;
     }
     main .marquee {
-        width: 490px;
+        width: 600px;
         bottom: 15px;
     }
     .account-container span {
@@ -5768,6 +5879,7 @@ width: 360px;
     }
 main .marquee {
     left: 95px;
+    z-index: 999
 }
 .live-game-txtb {
     font-size: 16px;
@@ -5927,8 +6039,8 @@ main .marquee {
     right: 29.5%;
   }
   .bago_nanaman .container{
-    width: 1335px;
-    padding-right: 20px;
+    width: 1450px;
+    padding-right: 14px;
   }
   .bago-afterlogin .container{
     width: 1345px;
@@ -5993,7 +6105,10 @@ main .marquee {
   .dl-area{
     top: -2px;
     width: auto;
-    margin-left: 40px;
+    margin-left: 67px;
+  }
+  .valencia-area{
+    margin-left: 30px
   }
   .atletico-area{
 
@@ -6002,11 +6117,11 @@ main .marquee {
       font-size: 20px;
   }
   header .navbar-cta-btn {
-      margin: 6px -6px;
+      margin: 6px 2px;
       padding: 10px 0;
   }
   .top-header ul{
-    margin-right: -16px;
+    margin-right: -9px;
   }
   .not-ipad-landscape{
     display: block;
@@ -6063,6 +6178,9 @@ main .marquee {
   }
     .malupet-nanaman{
     padding: 0;
+    border-bottom: none;
+    position: relative;
+right: 2px;
   }
   .mnav-top ul li a img {
       height: 29px;
