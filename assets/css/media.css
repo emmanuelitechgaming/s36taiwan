@@ -5494,7 +5494,7 @@ width: 360px;
     position: absolute;
   }
   .bago-afterlogin .boxer::after{
-    height: 32px;
+    height: 26px;
   }
   .bago-afterlogin .col-6 {
     width: 25%;
@@ -5934,9 +5934,9 @@ width: 360px;
 }
 @media only screen and (min-width: 1200px) {
   .bago-afterlogin .boxer-arrow::after, .bago-afterlogin .boxer-arrow::after {
-    top: 3px!important;
-    left: 105%!important;
-}
+    top: 5px!important;
+    left: 127%!important;
+  }
   .bago_nanaman .boxer {
     margin: 0 0;
     font-size: 15px;
@@ -6312,8 +6312,11 @@ main .marquee {
     left: 83%;
 }
   .bago_nanaman .boxer-arrow::after, .bago_nanaman .boxer-arrow::after{
-    top: 10px;
-    left: 95%;
+    top: 12px;
+    left: 125%;
+  }
+  .bago-pages .boxer-arrow::after{
+    left: 104%;
   }
   .bago-pages .boxer-arrow::after{
     top: 12px
