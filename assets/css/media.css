@@ -3039,6 +3039,9 @@ max-height: 170px;
     .bago-main .boxer::after {
       top: 12px;
     }
+    #loginModal #myModalTab1-1 .g-recaptcha {
+      left: 0px;
+    }
 }
 
 
@@ -5834,6 +5837,12 @@ width: 360px;
   .bago-pages .col-md-4:nth-child(2) .boxer, .bago-pages .col-md-4:nth-child(3) .boxer{
     text-align: left;
   }
+  .bago-pages-dl .col-md-4:nth-child(2) .boxer{
+    text-align: center;
+  }
+  .bago-pages-dl .col-md-4:nth-child(3) .boxer{
+    text-align: right;
+  }
   .bago-pages .boxer .step-search {
     top: 15px;
     right: 0%;
@@ -6293,9 +6302,9 @@ main .marquee {
     padding-left: 23px;
   }
   .bago-pages-dl .container{
-    width: 1275px;
-   padding-right: 20px;
-   padding-left: 20px;
+    width: 1322px;
+   padding-right: 24px;
+   padding-left: 43px;
   }
 
   .drop {
