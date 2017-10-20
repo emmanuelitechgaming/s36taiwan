@@ -10867,6 +10867,19 @@ h5.title-inside{
   background: #161616;
   z-index: 1;
 }
+.y-promo-tab{
+  padding-bottom: 10px;
+}
+.y-promo-tab::after{
+  content: '';
+  height: 2px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 1px solid #333;
+  background: #000;
+}
 .y-promo-tab ul{
   list-style: none;
   padding: 0;
@@ -10874,10 +10887,9 @@ h5.title-inside{
 }
 .y-promo-tab ul li{
   display: inline-block;
-  margin: 10px 0;
+  margin: 12px 0;
   margin-right: 5px
 }
-
 .y-promo-tab ul li a{
   background: #111;
   color: #fff;
