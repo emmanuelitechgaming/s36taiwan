@@ -2979,7 +2979,7 @@ max-height: 170px;
       bottom: -3%;
     }
     .bago-pages .boxer::after {
-      bottom: -3%;
+      bottom: -1%;
     }
     .bago-pages .boxer div.step-txt {
       padding: 6px 0 6px;
@@ -5838,6 +5838,7 @@ width: 360px;
   }
   .bago-pages {
     padding-bottom: 0;
+    padding-top: 0;
   }
   .bago-pages-dl {
     padding-bottom: 5px
