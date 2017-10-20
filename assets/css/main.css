@@ -10793,12 +10793,12 @@ h5.title-inside{
   content: '';
   display: block;
   position: absolute;
-  width: 20px;
+  width: 100%;
   height: 10px;
-  background: url('../img/triangle.png') no-repeat;
-  background-size: cover;
+  background: url(../img/triangle.png) no-repeat;
+  background-size: 20px 10px;
   top: -10px;
-  left: 40%
+  background-position: center;
 }
 #navbar-dekstop-collapse ul li{
   display: block;
@@ -10939,4 +10939,10 @@ h5.title-inside{
   padding: 10px 0 15px;
   margin: 0 10px;
   border-radius: 5px;
+}
+.navbar-dekstop-collapse-li:hover .dropdown-menu{
+  display: block;
+}
+.navbar-dekstop-collapse-li .dropdown-menu{
+  min-width: auto
 }

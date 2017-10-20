@@ -1043,7 +1043,7 @@ $('.one-winner .flexslider').flexslider({
     $(this).addClass('step-search-hover');
   }, function() {
     $(this).removeClass('step-search-hover');
-  })
+  });
 
 });
 
