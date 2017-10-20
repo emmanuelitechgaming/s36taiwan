@@ -6049,8 +6049,9 @@ main .marquee {
     margin-left: auto;
   }
   .bago-pages-casino .container,.bago-pages-slots .container,.bago-pages-lotto .container,.bago-pages-dl .container{
-      width: 1180px;
-     padding-right: 2px;
+    width: 1275px;
+    padding-right: 6px;
+    padding-left: 24px;
   }
 
   .drop {
