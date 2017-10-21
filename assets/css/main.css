@@ -369,7 +369,7 @@ main .borderstyle-promo{
   margin: -20px 0px 20px;
 }
 main .borderstyle-slots{
-  margin: 3px 0 20px 
+  margin: 3px 0 20px
 }
 main .borderstyle-casino  {
     margin: -9px 6px 20px
@@ -10845,10 +10845,10 @@ h5.title-inside{
   display: block;
   position: absolute;
   width: 100%;
-  height: 10px;
+  height: 15px;
   background: url(../img/triangle.png) no-repeat;
   background-size: 20px 10px;
-  top: -10px;
+  top: -13px;
   background-position: center;
 }
 #navbar-dekstop-collapse ul li{
@@ -11017,7 +11017,7 @@ h5.title-inside{
   width: 48px;
 }
 .footer-sports .text{
-  color: #5e5e5e;
+  color: #fff;
   text-align: center;
   margin-left: 10px;
   letter-spacing: 2px;
@@ -11025,16 +11025,10 @@ h5.title-inside{
 }
 .footer-sports .text span{
   display: block;
-  border-top: 1px solid #5e5e5e;
+  border-top: 1px solid #fff;
 }
 .footer-sports-inner:hover{
   border: solid 1px #fba601;
-}
-.footer-sports-inner:hover .text{
-  color: #fba601
-}
-.footer-sports-inner:hover .text span{
-  border-top: solid 1px #fba601
 }
 .valencia-area::after{
   content: '';
