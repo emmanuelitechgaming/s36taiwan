@@ -1001,7 +1001,6 @@ $('.one-winner .flexslider').flexslider({
   slideshowSpeed: '3000',
   controlNav: false,
   directionNav: false,
-  slideshow: false
 });
 
   $(window).scroll(function() {
@@ -1043,7 +1042,7 @@ $('.one-winner .flexslider').flexslider({
     $(this).addClass('step-search-hover');
   }, function() {
     $(this).removeClass('step-search-hover');
-  })
+  });
 
 });
 

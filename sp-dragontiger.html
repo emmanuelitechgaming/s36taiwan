@@ -602,27 +602,29 @@
                     <li><a href="dl.html">下載 APP</a></li>
                 </ul>
 
-              <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm navbar-right-desktop not-ipad-landscape">
-                <li class="navbar-dekstop-collapse-li">
-                  <a href="#navbar-dekstop-collapse" data-toggle="collapse"><img src="assets/img/Y3.png" alt="">24/7 客服</a>
-                  <div class="collapse" id="navbar-dekstop-collapse">
-                    <ul class="clearfix">
-                      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" alt=""><span>網上短信</span></a></li>
-                      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csPhone"><img src="assets/img/whatsapp.png" alt=""><span>免費回撥</span></a></li>
-                      <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" alt=""><span>在線客服</span></a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li><a href="helpcenter.html"><img src="assets/img/hc.png" alt=""><span>幫助中心</span></a></li>
-              </ul>
+                <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm navbar-right-desktop not-ipad-landscape">
+                  <li class="dropdown navbar-dekstop-collapse-li">
+                    <a href="#" data-toggle="dropdown"><img src="assets/img/Y3.png" alt="">24/7 客服</a>
+                    <div class="dropdown-menu" id="navbar-dekstop-collapse">
+                      <ul class="clearfix">
+                        <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" alt=""><span>網上短信</span></a></li>
+                        <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csPhone"><img src="assets/img/whatsapp.png" alt=""><span>免費回撥</span></a></li>
+                        <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csModal"><img src="assets/img/Y2.png" alt=""><span>在線客服</span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                      <a href="helpcenter.html"><img src="assets/img/hc.png" alt=""><span>幫助中心</span></a>
+                  </li>
+                </ul>
             </div>
         </nav>
 
         <div class="collapse  nav-slide" id="navbar-collapse-1">
-          <ul class="nav navbar-nav hidden-md hidden-lg ipad-landscape">
+          <ul class="nav navbar-nav navbar-nav-afterlogin hidden-md hidden-lg ipad-landscape">
             <li class="logo-area">
-              <div class="row">
-                <div class="col-sm-6 col-xs-6">
+              <div class="clearfix">
+                <div class="col-sm-6 col-xs-6 first-logo">
                   <div class="logo-area-content">
                     <div class="img">
                       <img src="assets/img/valencia-logo.png" alt="" class="img-responsive">
@@ -633,7 +635,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-6 col-xs-6">
+                <div class="col-sm-6 col-xs-6 second-logo">
                   <div class="logo-area-content">
                     <div class="img">
                       <img src="assets/img/atletico-logo.png" alt="" class="img-responsive">
@@ -662,10 +664,13 @@
                 </ul>
               </div>
             </li>
+            <li><a href="dl.html">下載 APP</a></li>
             <li>
-                <div class="btn-addscreen"><button class="add-main-screen">添加到主屏幕</button></div>
+              <div class="clearfix">
+                <div class="col-md-2 col-sm-2 col-xs-3 logout-wrapper"></div>
+                <div class="col-md-8 col-sm-8 col-xs-6"><button class="add-main-screen">添加到主屏幕</button></div>
+              </div>
             </li>
-
           </ul>
         </div>
 
@@ -1078,30 +1083,44 @@
     <footer>
     <div class="footer">
 
+      <div class="container footer-sports">
+        <div class="col-md-4">
+          <div class="footer-sports-inner">
+            <div class="img">
+              <img src="assets/img/footer/valencia-sports.png" alt="" class="img-responsive">
+            </div>
+            <div class="text">
+              西班牙瓦伦西亚足球俱乐部
+              <span>亚洲博彩合作伙伴(16/17)</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-sports-inner">
+            <div class="img">
+              <img src="assets/img/footer/atletico-sports.png" alt="" class="img-responsive">
+            </div>
+            <div class="text">
+              西班牙马德里竞技俱乐部
+              <span>亚洲博彩合作伙伴(17/18)</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-sports-inner">
+            <div class="img">
+              <img src="assets/img/footer/laliga-sports.png" alt="" class="img-responsive">
+            </div>
+            <div class="text">
+              西班牙甲级足球联赛
+              <span>赛事广告赞助商(16/17)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
         <div class="container">
             <div class="footer-icon f-social">
-
-                <div class="footer-img-d hidden-sm hidden-xs">
-                    <ul>
-                      <li><img src="assets/img/footer/g1.png" class="img-responsive" id="fg1" alt=""></li>
-                      <li><img src="assets/img/footer/g2.png" class="img-responsive" id="fg2" alt=""></li>
-                      <li><img src="assets/img/footer/g3.png" class="img-responsive" id="fg3" alt=""></li>
-                      <li><img src="assets/img/footer/g4.png" class="img-responsive" id="fg4" alt=""></li>
-                      <li><img src="assets/img/footer/PanDelta.png" class="img-responsive" id="fg5" alt=""></li>
-                      <li><img src="assets/img/footer/Mcube.png" class="img-responsive" id="fg6" alt=""></li>
-                    </ul>
-                </div>
-
-                <div class="footer-img-m hidden-lg hidden-md">
-                    <ul>
-                      <li><img src="assets/img/footer/g1.png" alt="" class="img-responsive"></li>
-                      <li><img src="assets/img/footer/g2.png" alt="" class="img-responsive"></li>
-                      <li><img src="assets/img/footer/g3.png" alt="" class="img-responsive"></li>
-                      <li><img src="assets/img/footer/g4.png" alt="" class="img-responsive"></li>
-                      <li><img src="assets/img/footer/PanDelta.png" alt="" class="img-responsive"></li>
-                      <li><img src="assets/img/footer/Mcube.png" alt="" class="img-responsive"></li>
-                    </ul>
-                </div>
 
                 <div class="col-md-6">
                     <div class="footer-services  ">

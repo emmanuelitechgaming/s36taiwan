@@ -778,7 +778,7 @@ max-height: 170px;
         bottom: -5px
     }
     .lg-playnow {
-      bottom: 17px;
+      bottom: 10px;
     }
     img.b-img {
         top: auto
@@ -1740,6 +1740,22 @@ max-height: 170px;
     }
     .country-code-wrapper{
       text-align: right;
+    }
+    .footer-sports{
+      padding: 15px 15px 0;
+      margin-bottom: -20px
+    }
+    .footer-sports-inner{
+      margin-bottom: 10px
+    }
+    .promo-ins-desc{
+      padding: 0 0 18px;
+    }
+    .promo-home{
+      margin-bottom: 20px
+    }
+    .footer-sports .text{
+      width: 240px
     }
 }
 
@@ -3039,6 +3055,9 @@ max-height: 170px;
     .bago-main .boxer::after {
       top: 12px;
     }
+    #loginModal #myModalTab1-1 .g-recaptcha {
+      left: 0px;
+    }
 }
 
 
@@ -4261,12 +4280,6 @@ width: 360px;
         margin-left: auto;
         margin-right: 7px
     }
-    footer .footer-line {
-        border-left: 1px solid #343434;
-    }
-    footer .footer-line:before {
-        border-left: 1px solid #000000;
-    }
     .notice-dialog {
         width: 900px;
     }
@@ -4835,7 +4848,7 @@ width: 360px;
         bottom: 1px;
     }
     .lg-playnow {
-        bottom: 8px;
+        bottom: 12px;
     }
     .promotion-form-btn2 {
         margin-bottom: auto;
@@ -4905,7 +4918,7 @@ width: 360px;
     }
     footer .footer-icon img {
         display: inline-block;
-        margin: 0px 10px 10px 9px;
+        margin: 0px 0 10px 0;
     }
     #myModal #country-sel button {
         background-position: 215px -6px;
@@ -5834,6 +5847,12 @@ width: 360px;
   .bago-pages .col-md-4:nth-child(2) .boxer, .bago-pages .col-md-4:nth-child(3) .boxer{
     text-align: left;
   }
+  .bago-pages-dl .col-md-4:nth-child(2) .boxer{
+    text-align: center;
+  }
+  .bago-pages-dl .col-md-4:nth-child(3) .boxer{
+    text-align: right;
+  }
   .bago-pages .boxer .step-search {
     top: 15px;
     right: 0%;
@@ -5924,13 +5943,43 @@ width: 360px;
   .bago-afterlogin {
     padding: 8px 0;
   }
+  footer .footer-line::before{
+    content: '';
+    display: block;
+    width: 1px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -8px;
+    background: #343434
+  }
+  .footer-sports{
+    padding: 15px 0 0;
+    margin-bottom: -20px;
+  }
+  .footer-sports-inner {
+    margin-bottom: 0;
+  }
+  #loginModal .form-recap-right p a.csmodal-forgot span{
+    display: block;
+  }
+  .nopaddingleft5{
+    padding-left: 5px
+  }
+  .the-container{
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media (min-width: 1200px){
 
-.container {
-    width: 1250px;
-}
+  .container {
+      width: 1250px;
+  }
+  .new123{
+    width: 1220px
+  }
 }
 @media only screen and (min-width: 1200px) {
   .bago-afterlogin .boxer-arrow::after, .bago-afterlogin .boxer-arrow::after {
@@ -6278,7 +6327,7 @@ main .marquee {
     margin-left: auto;
   }
   .bago-pages-casino .container{
-    width: 1275px;
+    width: 1291px;
     padding-right: 6px;
     padding-left: 24px;
   }
@@ -6293,9 +6342,9 @@ main .marquee {
     padding-left: 23px;
   }
   .bago-pages-dl .container{
-    width: 1275px;
-   padding-right: 20px;
-   padding-left: 20px;
+    width: 1322px;
+   padding-right: 24px;
+   padding-left: 43px;
   }
 
   .drop {
@@ -6357,12 +6406,12 @@ main .marquee {
     margin-right: 68px;
   }
   .dl-area{
-    top: -2px;
+    top: -9px;
     width: auto;
     margin-left: 30px;
   }
   .valencia-area{
-    margin-left: 67px
+    margin-left: 139px
   }
   .atletico-area{
 
@@ -6462,5 +6511,8 @@ right: 2px;
     background-position: 400px 0;
     background-size: contain;
     margin-top: 10px;
+  }
+  .lg-playnow {
+    bottom: 2px;
   }
 }

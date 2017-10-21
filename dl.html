@@ -600,9 +600,9 @@
               </ul>
 
               <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm navbar-right-desktop not-ipad-landscape">
-                <li class="navbar-dekstop-collapse-li">
-                  <a href="#navbar-dekstop-collapse" data-toggle="collapse"><img src="assets/img/Y3.png" alt="">24/7 客服</a>
-                  <div class="collapse" id="navbar-dekstop-collapse">
+                <li class="dropdown navbar-dekstop-collapse-li">
+                  <a href="#" data-toggle="dropdown"><img src="assets/img/Y3.png" alt="">24/7 客服</a>
+                  <div class="dropdown-menu" id="navbar-dekstop-collapse">
                     <ul class="clearfix">
                       <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csMsg"><img src="assets/img/msg.png" alt=""><span>網上短信</span></a></li>
                       <li><a href="javascript:void(0)" data-toggle="modal" data-target="#csPhone"><img src="assets/img/whatsapp.png" alt=""><span>免費回撥</span></a></li>
@@ -619,7 +619,7 @@
       <div class="collapse  nav-slide" id="navbar-collapse-1">
         <ul class="nav navbar-nav navbar-nav-afterlogin hidden-md hidden-lg ipad-landscape">
           <li class="logo-area">
-            <div class="row">
+            <div class="clearfix">
               <div class="col-sm-6 col-xs-6 first-logo">
                 <div class="logo-area-content">
                   <div class="img">
@@ -662,7 +662,7 @@
           </li>
           <li><a href="dl.html">下載 APP</a></li>
           <li>
-            <div class="row">
+            <div class="clearfix">
               <div class="col-md-2 col-sm-2 col-xs-3 logout-wrapper"></div>
               <div class="col-md-8 col-sm-8 col-xs-6"><button class="add-main-screen">添加到主屏幕</button></div>
             </div>
@@ -722,21 +722,18 @@
               <div class="boxer boxer-arrow">
                 <div class="step-no"><img src="assets/img/dl/1.png" alt="" class="img-responsive"></div>
                 <div class="step-txt"><span style="color:#fff;"><div>現在安裝<br>送36元籌碼</span></div></div>
-                <div class="steps step-search"></div>
               </div>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="boxer boxer-arrow">
                 <div class="step-no"><img src="assets/img/dl/2.png" alt="" class="img-responsive"></div>
                 <div class="step-txt"><span style="color:#fff;"><div>APPS玩家<br>享專屬福利</span></div></div>
-                <div class="steps step-search"></div>
               </div>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="boxer">
                 <div class="step-no"><img src="assets/img/dl/3.png" alt="" class="img-responsive"></div>
                 <div class="step-txt"><span style="color:#fff;"><div>推送通知<br>優惠不錯過</span></div></div>
-                <div class="steps step-search"></div>
               </div>
             </div>
           </div>
@@ -1110,37 +1107,156 @@
           </div>
         </div>
 
-
+        <div class="container mobile-jackpot-winner hidden-lg hidden-md">
+          <div class="col-sm-6 col-xs-12 slots-winner">
+            <div class="title">老虎机累计奖池 <div class="pull-right"><a href="#">前往</a></div></div>
+            <div class="body">
+              <ul>
+                <li class="clearfix">
+                  <ul>
+                    <li><span class="yellow">1</span> 累计大奖</li>
+                    <li><span class="yellow">CNY</span> 958,241.00</li>
+                  </ul>
+                </li>
+                <li class="clearfix">
+                  <ul>
+                    <li><span class="yellow">2</span> 累计二奖</li>
+                    <li><span class="yellow">CNY</span> 958,241.00</li>
+                  </ul>
+                </li>
+                <li class="clearfix">
+                  <ul>
+                    <li><span class="yellow">3</span> 累计三奖</li>
+                    <li><span class="yellow">CNY</span> 958,241.00</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xs-12 one-winner">
+            <div class="title">前100位最高获胜者 <div class="pull-right"><a href="#">展示</a></div></div>
+            <div class="body flexslider">
+              <ul class="slides">
+                <li>
+                  <div class="wrapper">
+                    <div class="info">
+                      <div>
+                        <span class="flag-icon flag-icon-rectangle flag-icon-rectangle-cn"></span>
+                      </div>
+                      <div>
+                        csemm***ul1
+                      </div>
+                      <div>
+                        1st
+                      </div>
+                      <div>
+                        20177/09/10
+                      </div>
+                    </div>
+                    <div class="numbers">
+                      <div>
+                        <span class="yellow">CNY</span>
+                        136,550.00
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="wrapper">
+                    <div class="info">
+                      <div>
+                        <span class="flag-icon flag-icon-rectangle flag-icon-rectangle-jp"></span>
+                      </div>
+                      <div>
+                        cspag0***dl0
+                      </div>
+                      <div>
+                        2nd
+                      </div>
+                      <div>
+                        20177/09/10
+                      </div>
+                    </div>
+                    <div class="numbers">
+                      <div>
+                        <span class="yellow">JYP</span>
+                        231,511.00
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="wrapper">
+                    <div class="info">
+                      <div>
+                        <span class="flag-icon flag-icon-rectangle flag-icon-rectangle-th"></span>
+                      </div>
+                      <div>
+                        cshinga***ka5
+                      </div>
+                      <div>
+                        3rd
+                      </div>
+                      <div>
+                        20177/09/10
+                      </div>
+                    </div>
+                    <div class="numbers">
+                      <div>
+                        <span class="yellow">THB</span>
+                        100,940.00
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
     </main>
 
     <footer>
     <div class="footer">
 
+      <div class="container footer-sports">
+        <div class="col-md-4">
+          <div class="footer-sports-inner">
+            <div class="img">
+              <img src="assets/img/footer/valencia-sports.png" alt="" class="img-responsive">
+            </div>
+            <div class="text">
+              西班牙瓦伦西亚足球俱乐部
+              <span>亚洲博彩合作伙伴(16/17)</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-sports-inner">
+            <div class="img">
+              <img src="assets/img/footer/atletico-sports.png" alt="" class="img-responsive">
+            </div>
+            <div class="text">
+              西班牙马德里竞技俱乐部
+              <span>亚洲博彩合作伙伴(17/18)</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-sports-inner">
+            <div class="img">
+              <img src="assets/img/footer/laliga-sports.png" alt="" class="img-responsive">
+            </div>
+            <div class="text">
+              西班牙甲级足球联赛
+              <span>赛事广告赞助商(16/17)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
         <div class="container">
             <div class="footer-icon f-social">
-
-                <div class="footer-img-d hidden-sm hidden-xs">
-                    <ul>
-                      <li><img src="assets/img/footer/g1.png" class="img-responsive" id="fg1" alt=""></li>
-                      <li><img src="assets/img/footer/g2.png" class="img-responsive" id="fg2" alt=""></li>
-                      <li><img src="assets/img/footer/g3.png" class="img-responsive" id="fg3" alt=""></li>
-                      <li><img src="assets/img/footer/g4.png" class="img-responsive" id="fg4" alt=""></li>
-                      <li><img src="assets/img/footer/PanDelta.png" class="img-responsive" id="fg5" alt=""></li>
-                      <li><img src="assets/img/footer/Mcube.png" class="img-responsive" id="fg6" alt=""></li>
-                    </ul>
-                </div>
-
-                <div class="footer-img-m hidden-lg hidden-md">
-                    <ul>
-                      <li><img src="assets/img/footer/g1.png" alt="" class="img-responsive"></li>
-                      <li><img src="assets/img/footer/g2.png" alt="" class="img-responsive"></li>
-                      <li><img src="assets/img/footer/g3.png" alt="" class="img-responsive"></li>
-                      <li><img src="assets/img/footer/g4.png" alt="" class="img-responsive"></li>
-                      <li><img src="assets/img/footer/PanDelta.png" alt="" class="img-responsive"></li>
-                      <li><img src="assets/img/footer/Mcube.png" alt="" class="img-responsive"></li>
-                    </ul>
-                </div>
 
                 <div class="col-md-6">
                     <div class="footer-services  ">

@@ -372,7 +372,7 @@ main .borderstyle-slots{
   margin: 3px 18px 20px 9px
 }
 main .borderstyle-casino  {
-    margin: -9px 17px 20px
+    margin: -9px 6px 20px
 }
 main .borderstyle-dl{
 margin: 23px 25px 20px 8px
@@ -10595,7 +10595,17 @@ h5.title-inside{
 .promo-home {
   margin: 15px auto;
   max-width: 649px;
-  border-radius: 5px
+  border-radius: 5px;
+  position: relative;
+}
+.promo-home::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 28px;
+  background: url('../img/index/the-shadow.png') no-repeat
 }
 .promo-home .title{
   position: absolute;
@@ -10715,21 +10725,36 @@ h5.title-inside{
 }
 .mobile-jackpot-winner{
   margin-bottom: 10px;
+  padding: 0 30px
+}
+.mobile-jackpot-winner .slots-winner, .mobile-jackpot-winner .one-winner{
+  padding-left: 0;
+  padding-right: 0;
 }
 .mobile-jackpot-winner .col-xs-12{
   background: #161616;
   margin-bottom: 15px;
 }
 .mobile-jackpot-winner .title{
-  padding: 10px 0 0
+  padding: 10px 10px 0;
+  border-bottom: solid 1px #000;
+  position: relative;
+  padding-bottom: 10px;
+}
+.mobile-jackpot-winner .title::after{
+  content: '';
+  display: block;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3e3e3e
 }
 .mobile-jackpot-winner ul{
   list-style: none;
   margin: 0;
   padding: 0;
-}
-.mobile-jackpot-winner ul li{
-  margin: 5px 0
 }
 .mobile-jackpot-winner ul li ul li{
   float: left;
@@ -10751,13 +10776,39 @@ h5.title-inside{
   font-size: 12px;
   margin-right: 3px
 }
+.mobile-jackpot-winner .wrapper .numbers .yellow{
+  letter-spacing: normal;
+}
 .slots-winner .title a, .one-winner .title a{
   color: #fff;
 }
-.one-winner table{
-  margin-bottom: 0;
-  border: none;
-  padding: 0;
+.one-winner .wrapper .info div{
+  display: inline-block;
+  margin-left: -4px;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.one-winner .flexslider{
+  padding: 5px 0 !important
+}
+.one-winner .wrapper .numbers div{
+  display: inline-block;
+  margin-left: -4px;
+  width: 100%;
+  padding: 0 5px;
+  text-align: center;
+  color: #fba601;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 17px
+}
+.one-winner .wrapper .info{
+  padding-right: 15px;
+}
+.slots-winner li.clearfix{
+  border-bottom: 1px solid #3e3e3e;
+  padding: 5px 0
 }
 .lotto-body-mobile{
   padding-right: 0;
@@ -10791,12 +10842,12 @@ h5.title-inside{
   content: '';
   display: block;
   position: absolute;
-  width: 20px;
+  width: 100%;
   height: 10px;
-  background: url('../img/triangle.png') no-repeat;
-  background-size: cover;
+  background: url(../img/triangle.png) no-repeat;
+  background-size: 20px 10px;
   top: -10px;
-  left: 40%
+  background-position: center;
 }
 #navbar-dekstop-collapse ul li{
   display: block;
@@ -10906,14 +10957,17 @@ h5.title-inside{
 .y-promo-tab ul li{
   display: inline-block;
   margin: 12px 0;
-  margin-right: 5px
+  margin-right: 5px;
+  min-width: 96px
 }
 .y-promo-tab ul li a{
+  display: block;
+  text-align: center;
   background: #111;
   color: #fff;
   padding: 8px 22px;
   border-radius: 20px;
-  font-size: 13px
+  font-size: 13px;
 }
 .y-promo-tab ul li.active a{
   background: #fba601;
@@ -10937,4 +10991,113 @@ h5.title-inside{
   padding: 10px 0 15px;
   margin: 0 10px;
   border-radius: 5px;
+}
+.navbar-dekstop-collapse-li:hover .dropdown-menu{
+  display: block;
+}
+.navbar-dekstop-collapse-li .dropdown-menu{
+  min-width: auto
+}
+.footer-sports-inner{
+  border: solid 1px #505050;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.footer-sports .img, .footer-sports .text{
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-sports .img{
+  width: 38px
+}
+.footer-sports .col-md-4:nth-child(3) .img{
+  width: 48px;
+}
+.footer-sports .text{
+  color: #5e5e5e;
+  text-align: center;
+  margin-left: 10px;
+  letter-spacing: 2px;
+  font-size: 18px
+}
+.footer-sports .text span{
+  display: block;
+  border-top: 1px solid #5e5e5e;
+}
+.footer-sports-inner:hover{
+  border: solid 1px #fba601;
+}
+.footer-sports-inner:hover .text{
+  color: #fba601
+}
+.footer-sports-inner:hover .text span{
+  border-top: solid 1px #fba601
+}
+.valencia-area::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 2px;
+  top: 5px;
+  bottom: 3px;
+  right: -17px;
+  background: #000;
+  border-right: 1px solid #333
+}
+.new123-inner .num, .new123-inner .text{
+  display: inline-block;
+  vertical-align: middle;
+}
+.new123{
+  background: #161616;
+  margin-top: 20px;
+}
+.new123 .num{
+  font-family: Tungsten;
+  color: #fba601;
+  font-size: 2.9em;
+  line-height: 50px
+}
+.new123 .text{
+  font-size: 13px;
+  letter-spacing: 1px
+}
+.new123 .text span{
+  display: block;
+  font-size: 12px;
+}
+.new123-inner{
+  position: relative;
+}
+.new123-inner::after{
+  content: '';
+  display: block;
+  background: url('../img/new123-arrow.png') no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.new123-inner-last:last-child::after{
+  content: none
+}
+.new123-inner-last a{
+  display: block;
+  padding: 3px 0;
+  text-align: center;
+  color: #573601;
+  background: #fba601;
+  font-weight: 700;
+  font-size: 17px;
+  width: 233px;
+  border-radius: 5px;
+  position: relative;
+  top: 10px
+}
+.new123-inner-last a:hover{
+  text-decoration: none;
 }
