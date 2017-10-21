@@ -1757,6 +1757,9 @@ max-height: 170px;
     .footer-sports .text{
       width: 240px
     }
+    .promo-tabs{
+      margin: 0 10px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4235,10 +4238,6 @@ max-height: 170px;
     padding-left: 15px;
     padding-right: 25px;
   }
-  .njackpot-nwinner-promo {
-    padding-left: 23px;
-    padding-right: 25px;
-  }
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 20px;
     }
@@ -5293,8 +5292,8 @@ width: 360px;
     height: 25px;
   }
   .promo-body{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .footer-img-d ul li{
     width: 16.66666%;
@@ -5951,10 +5950,19 @@ width: 360px;
   }
   .footer-sports{
     padding: 15px 0 0;
-    margin-bottom: -20px;
+    margin-bottom: -10px;
   }
   .footer-sports-inner {
     margin-bottom: 0;
+    margin-left: 13px;
+    margin-right: 13px;
+    height: 60px
+  }
+  .footer-sports .col-md-4:first-child .footer-sports-inner{
+    margin-left: 0;
+  }
+  .footer-sports .col-md-4:last-child .footer-sports-inner{
+    margin-right: 0;
   }
   #loginModal .form-recap-right p a.csmodal-forgot span{
     display: block;
@@ -5966,6 +5974,19 @@ width: 360px;
     padding-left: 0;
     padding-right: 0;
   }
+  .promo-tabs{
+    margin: 0 0px;
+  }
+  .gp-first{
+    padding-right: 29px
+  }
+  .slot-content .casino-g img{
+    margin: 0 auto;
+  }
+  .netbet {
+    margin-left: 25px;
+    margin-right: 0px;
+  }
 }
 
 @media (min-width: 1200px){
@@ -5974,7 +5995,10 @@ width: 360px;
       width: 1250px;
   }
   .new123{
-    width: 1220px
+    width: 1140px
+  }
+  .the-container-slots{
+    width: 1267px
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -6155,6 +6179,9 @@ main .marquee {
     left: 95px;
     z-index: 999
 }
+main .new-counter .marquee{
+  left: 0;
+}
 .live-game-txtb {
     font-size: 16px;
     letter-spacing: 1px;
@@ -6232,7 +6259,7 @@ main .marquee {
     padding-bottom: 5px;
   }
   .slots-breadcrumb-inner .col-xs-12{
-    width: 403px;
+    width: 33.33333333%;
     height: 395px;
   }
   .slots-breadcrumb-inner .tdw-button{
@@ -6245,7 +6272,7 @@ main .marquee {
     height: auto;
   }
   .slots-breadcrumb-inner .col-xs-12.netbet{
-    width: 1177px;
+    width: 1220px;
     height: auto;
   }
   .winner-breadcrumb-inner .col-xs-12.netbet{
@@ -6316,6 +6343,9 @@ main .marquee {
     width: 1450px;
     padding-right: 14px;
   }
+  .bago_nanaman .new-counter{
+    width: 1210px
+  }
   .bago-afterlogin .container{
     width: 1521px;
     padding-right: 61px;
@@ -6333,14 +6363,14 @@ main .marquee {
     padding-left: 23px;
   }
   .bago-pages-lotto .container{
-    width: 1242px;
-    padding-right: 0px;
+    width: 1290px;
+    padding-right: 5px;
     padding-left: 23px;
   }
   .bago-pages-dl .container{
-    width: 1322px;
-   padding-right: 24px;
-   padding-left: 43px;
+    width: 1339px;
+    padding-right: 24px;
+    padding-left: 43px;
   }
 
   .drop {

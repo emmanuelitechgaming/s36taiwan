@@ -366,16 +366,16 @@ main .borderstyle-lotto {
     margin: -11px -8px 20px;
 }
 main .borderstyle-promo{
-  margin: -20px 17px 20px;
+  margin: -20px 0px 20px;
 }
 main .borderstyle-slots{
-  margin: 3px 18px 20px 9px
+  margin: 3px 0 20px
 }
 main .borderstyle-casino  {
     margin: -9px 6px 20px
 }
 main .borderstyle-dl{
-margin: 23px 25px 20px 8px
+  margin: 23px 8px 20px
 }
 main .borderstyler {
     margin: 5px 0px;
@@ -435,7 +435,10 @@ main .marquee {
     left: 16%;
     cursor: pointer
 }
-
+main .new-counter .marquee {
+  position: inherit;
+  color: #fff
+}
 main .winner {
     padding: 0;
     margin-bottom: 20px;
@@ -989,7 +992,9 @@ div.border:before {
 .panel.with-nav-tabs .panel-heading {
     padding: 5px 20px 0 20px;
 }
-
+.breadcrumb-inner-promo .panel.with-nav-tabs .panel-heading {
+  padding: 5px 15px 0
+}
 .panel.with-nav-tabs .nav-tabs {
     border-bottom: none;
 }
@@ -10843,10 +10848,10 @@ h5.title-inside{
   display: block;
   position: absolute;
   width: 100%;
-  height: 10px;
+  height: 15px;
   background: url(../img/triangle.png) no-repeat;
   background-size: 20px 10px;
-  top: -10px;
+  top: -13px;
   background-position: center;
 }
 #navbar-dekstop-collapse ul li{
@@ -11002,7 +11007,7 @@ h5.title-inside{
   border: solid 1px #505050;
   border-radius: 5px;
   text-align: center;
-  padding: 5px 0;
+  padding: 6px 0;
   cursor: pointer;
 }
 .footer-sports .img, .footer-sports .text{
@@ -11010,29 +11015,33 @@ h5.title-inside{
   vertical-align: middle;
 }
 .footer-sports .img{
-  width: 38px
+  width: 35px;
 }
 .footer-sports .col-md-4:nth-child(3) .img{
-  width: 48px;
+  width: 45px;
 }
 .footer-sports .text{
-  color: #5e5e5e;
+  color: #fff;
   text-align: center;
-  margin-left: 10px;
-  letter-spacing: 2px;
-  font-size: 18px
+  margin-left: 5px;
+  font-size: 13px;
+  max-width: 174px;
+  letter-spacing: 1.5px
+}
+.footer-sports .col-md-4:nth-child(3) .text{
+  max-width: 156px
 }
 .footer-sports .text span{
   display: block;
-  border-top: 1px solid #5e5e5e;
+  border-top: 1px solid #fff;
 }
 .footer-sports-inner:hover{
   border: solid 1px #fba601;
 }
-.footer-sports-inner:hover .text{
+.footer-sports .footer-sports-inner:hover .text{
   color: #fba601
 }
-.footer-sports-inner:hover .text span{
+.footer-sports .footer-sports-inner:hover .text span{
   border-top: solid 1px #fba601
 }
 .valencia-area::after{
@@ -11101,7 +11110,98 @@ h5.title-inside{
 .new123-inner-last a:hover{
   text-decoration: none;
 }
-.casino-section{
-  padding-right: 15px!important;
-    padding-left: 15px!important;
+
+.new123{
+  position: relative;
+}
+.new123 .col-md-3:nth-child(4)::after{
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(../img/new123-blur.png) no-repeat;
+  background-size: 100% 100%;
+  width: 75px;
+  bottom: -20px;
+  top: 0;
+  right: -77px;
+}
+.new123 .col-md-3:nth-child(1)::after{
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(../img/new123-blur.png) no-repeat;
+  background-size: 100% 100%;
+  width: 75px;
+  bottom: 0;
+  top: 0;
+  left: -77px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg)
+}
+.new123b{
+  padding: 10px 0
+}
+.new123b .new123-inner::after{
+  content: '';
+  display: block;
+  background: #2a2a2a;
+  background-size: contain;
+  width: 5px;
+  height: 56px;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+.new123b .col-md-3:last-child .new123-inner::after{
+  content: none;
+}
+.new123b .num{
+  width: 35px;
+  border: solid 2px #fba601;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 2em;
+  line-height: 32px
+}
+.new123b .new123-inner-last a{
+  top: 3px
+}
+.new123b .col-md-3:nth-child(4)::after{
+  width: 75px;
+  bottom: -16px;
+  top: -10px;
+  right: -75px;
+}
+.new123b .col-md-3:nth-child(1)::after{
+  bottom: -10px;
+  top: -10px;
+  left: -77px;
+}
+.new123b .text{
+  margin-left: 10px
+}
+.new-counter{
+  position: relative;
+}
+.new-counter .marquee-wrapper, .new-counter .counter{
+  display: inline-block;
+  margin-left: -4px;
+}
+.marquee-wrapper .img, .marquee-wrapper .marquee{
+  display: inline-block;
+  margin-left: -4px
+}
+.marquee-wrapper .img{
+  width: 25px;
+  margin: 0 15px 0 0
+}
+.new-counter .marquee-wrapper{
+  width: 60%;
+  color: #fff
+}
+.new-counter .counter{
+  width: 40%
+}
+.breadcrumb-inner-promo .panel{
+  border: none
 }
