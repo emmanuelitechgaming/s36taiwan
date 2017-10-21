@@ -5960,6 +5960,9 @@ width: 360px;
   #loginModal .form-recap-right p a.csmodal-forgot span{
     display: block;
   }
+  .nopaddingleft5{
+    padding-left: 10px
+  }
 }
 
 @media (min-width: 1200px){
