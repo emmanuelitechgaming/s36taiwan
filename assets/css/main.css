@@ -387,6 +387,9 @@ main .gp.container .borderstyler{
 main .borderstyle-index{
   margin: 5px 8px
 }
+main .borderstyle-sp-promo{
+  margin: 25px 8px 5px
+}
 .live-games img {
     margin-top: 5px;
 }
@@ -694,7 +697,7 @@ footer .copyright span {
     color: #5e5e5e;
     font-size: 14px;
     font-weight: 700;
-    margin: 10px 6px;
+    margin: 10px 4px;
     vertical-align: middle;
 }
 
@@ -11186,6 +11189,7 @@ h5.title-inside{
 .new-counter .marquee-wrapper, .new-counter .counter{
   display: inline-block;
   margin-left: -4px;
+  vertical-align: middle
 }
 .marquee-wrapper .img, .marquee-wrapper .marquee{
   display: inline-block;
@@ -11193,14 +11197,33 @@ h5.title-inside{
 }
 .marquee-wrapper .img{
   width: 25px;
-  margin: 0 15px 0 0
+  margin: 0 15px 0 0;
+  position: relative;
+  top: 4px
 }
 .new-counter .marquee-wrapper{
-  width: 60%;
+  width: 65%;
   color: #fff
 }
 .new-counter .counter{
-  width: 40%
+  width: 35%
+}
+.new-counter .counter a{
+  display: block;
+  width: 388px;
+  float: right;
+  background: url('../img/index/new-counter-jackpot.png') no-repeat;
+  background-size: 100% 100%;
+  background-position: auto 1px;
+  font-size: 24px;
+  font-weight: 700;
+  text-indent: 40px;
+  letter-spacing: 17px;
+  white-space: nowrap;
+  word-spacing: -7px;
+}
+#myTargetElement{
+  color: #fff;
 }
 .breadcrumb-inner-promo .panel{
   border: none

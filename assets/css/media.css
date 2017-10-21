@@ -5974,6 +5974,10 @@ width: 360px;
     padding-left: 0;
     padding-right: 0;
   }
+  .the-other-container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .promo-tabs{
     margin: 0 0px;
   }
@@ -5986,6 +5990,14 @@ width: 360px;
   .netbet {
     margin-left: 25px;
     margin-right: 0px;
+  }
+  .copyright .container{
+    padding-left: 15px;
+    padding-right: 15px
+  }
+  .helpcenter-section{
+    padding-left: 15px;
+    padding-right: 15px
   }
 }
 
@@ -6138,6 +6150,9 @@ width: 360px;
     main .marquee {
         width: 600px;
         bottom: 15px;
+    }
+    main .marquee {
+      width: 94%;
     }
     .account-container span {
         position: absolute;
@@ -6344,7 +6359,10 @@ main .new-counter .marquee{
     padding-right: 14px;
   }
   .bago_nanaman .new-counter{
-    width: 1210px
+    width: 1256px;
+    padding-left: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .bago-afterlogin .container{
     width: 1521px;
