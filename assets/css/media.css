@@ -5955,7 +5955,8 @@ width: 360px;
   .footer-sports-inner {
     margin-bottom: 0;
     margin-left: 13px;
-    margin-right: 13px
+    margin-right: 13px;
+    height: 60px
   }
   .footer-sports .col-md-4:first-child .footer-sports-inner{
     margin-left: 0;

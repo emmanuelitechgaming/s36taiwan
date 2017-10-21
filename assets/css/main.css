@@ -435,7 +435,10 @@ main .marquee {
     left: 16%;
     cursor: pointer
 }
-
+main .new-counter .marquee {
+  position: inherit;
+  color: #fff
+}
 main .winner {
     padding: 0;
     margin-bottom: 20px;
@@ -11178,12 +11181,21 @@ h5.title-inside{
 .new-counter{
   position: relative;
 }
-.new-counter .marquee, .new-counter .counter{
+.new-counter .marquee-wrapper, .new-counter .counter{
+  display: inline-block;
+  margin-left: -4px;
+}
+.marquee-wrapper .img, .marquee-wrapper .marquee{
   display: inline-block;
   margin-left: -4px
 }
-.new-counter .marquee{
+.marquee-wrapper .img{
+  width: 25px;
+  margin: 0 15px 0 0
+}
+.new-counter .marquee-wrapper{
   width: 60%;
+  color: #fff
 }
 .new-counter .counter{
   width: 40%
