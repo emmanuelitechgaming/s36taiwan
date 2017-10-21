@@ -1741,6 +1741,13 @@ max-height: 170px;
     .country-code-wrapper{
       text-align: right;
     }
+    .footer-sports{
+      padding: 15px 0 0;
+      margin-bottom: -20px
+    }
+    .footer-sports-inner{
+      margin-bottom: 10px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -5940,6 +5947,9 @@ width: 360px;
   .footer-sports{
     padding: 15px 0 0;
     margin-bottom: -20px;
+  }
+  .footer-sports-inner {
+    margin-bottom: 0;
   }
 }
 
