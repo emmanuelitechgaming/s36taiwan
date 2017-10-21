@@ -5954,6 +5954,14 @@ width: 360px;
   }
   .footer-sports-inner {
     margin-bottom: 0;
+    margin-left: 13px;
+    margin-right: 13px
+  }
+  .footer-sports .col-md-4:first-child .footer-sports-inner{
+    margin-left: 0;
+  }
+  .footer-sports .col-md-4:last-child .footer-sports-inner{
+    margin-right: 0;
   }
   #loginModal .form-recap-right p a.csmodal-forgot span{
     display: block;
