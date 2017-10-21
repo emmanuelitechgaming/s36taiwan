@@ -10993,7 +10993,8 @@ h5.title-inside{
 }
 .promo-tabs{
   background: #1b1b1b;
-  padding: 10px 0 15px;
+  padding: 3px 0 15px;
+  margin: 4px 10px;
   border-radius: 5px;
 }
 .navbar-dekstop-collapse-li:hover .dropdown-menu{
@@ -11109,6 +11110,7 @@ h5.title-inside{
 .new123-inner-last a:hover{
   text-decoration: none;
 }
+
 .new123{
   position: relative;
 }
@@ -11202,4 +11204,9 @@ h5.title-inside{
 }
 .breadcrumb-inner-promo .panel{
   border: none
+}
+.casino-section{
+  padding-right: 15px!important;
+    padding-left: 15px!important;
+
 }
