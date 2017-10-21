@@ -11011,17 +11011,16 @@ h5.title-inside{
   vertical-align: middle;
 }
 .footer-sports .img{
-  width: 38px
+  width: 35px
 }
 .footer-sports .col-md-4:nth-child(3) .img{
-  width: 48px;
+  width: 45px;
 }
 .footer-sports .text{
   color: #fff;
   text-align: center;
   margin-left: 10px;
-  letter-spacing: 2px;
-  font-size: 18px
+  font-size: 13px
 }
 .footer-sports .text span{
   display: block;
