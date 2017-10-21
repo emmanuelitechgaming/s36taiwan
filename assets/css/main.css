@@ -10596,8 +10596,16 @@ h5.title-inside{
   margin: 15px auto;
   max-width: 649px;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,1);
-  box-shadow: 0px 5px 10px 0px rgba(0,0,0,1);
+  position: relative;
+}
+.promo-home::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 28px;
+  background: url('../img/index/the-shadow.png') no-repeat
 }
 .promo-home .title{
   position: absolute;
@@ -10970,7 +10978,6 @@ h5.title-inside{
 .footer-sports .text span{
   display: block;
   border-top: 1px solid #fff;
-  font-weight: 700;
 }
 .footer-sports-inner:hover{
   border: solid 1px #fba601;
@@ -10991,4 +10998,10 @@ h5.title-inside{
   right: -17px;
   background: #000;
   border-right: 1px solid #333
+}
+.new123{
+  margin-top: 20px;
+  background: #161616;
+  -webkit-box-shadow: 32px 0px 22px -1px rgba(22,22,22,1);
+          box-shadow: 32px 0px 22px -1px rgba(22,22,22,1);
 }
