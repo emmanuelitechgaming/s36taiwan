@@ -11011,10 +11011,13 @@ h5.title-inside{
   vertical-align: middle;
 }
 .footer-sports .img{
-  width: 35px
+  width: 35px;
+  position: relative;
+  right: 60px;
 }
 .footer-sports .col-md-4:nth-child(3) .img{
   width: 45px;
+  right: 65px
 }
 .footer-sports .text{
   color: #fff;
@@ -11107,6 +11110,10 @@ h5.title-inside{
   display: block;
   position: absolute;
   background: url('../img/new123-blur.png') no-repeat;
+  background-size: cover;
+  width: 20px;
+  bottom: 0;
+  top: 0;
 
 }
 .breadcrumb-inner-promo .panel{
