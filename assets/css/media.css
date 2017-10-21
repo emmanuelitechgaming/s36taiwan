@@ -5957,6 +5957,9 @@ width: 360px;
   .footer-sports-inner {
     margin-bottom: 0;
   }
+  .promo-ins-desc {
+    padding: 0 0 0;
+  }
 }
 
 @media (min-width: 1200px){
