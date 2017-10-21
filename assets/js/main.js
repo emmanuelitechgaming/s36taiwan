@@ -1044,6 +1044,14 @@ $('.one-winner .flexslider').flexslider({
     $(this).removeClass('step-search-hover');
   });
 
+  $('.cs247').hover(function() {
+    $(this).css('color', '#fba601');
+    $(this).find('img').attr('src', 'assets/img/Y3Y.png')
+  }, function() {
+    $(this).css('color', '#fff');
+    $(this).find('img').attr('src', 'assets/img/Y3.png')
+  })
+
 });
 
 
