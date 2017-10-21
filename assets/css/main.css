@@ -372,7 +372,7 @@ main .borderstyle-slots{
   margin: 3px 18px 20px 9px
 }
 main .borderstyle-casino  {
-    margin: -9px 17px 20px
+    margin: -9px 6px 20px
 }
 main .borderstyle-dl{
 margin: 23px 25px 20px 8px
@@ -10725,21 +10725,36 @@ h5.title-inside{
 }
 .mobile-jackpot-winner{
   margin-bottom: 10px;
+  padding: 0 30px
+}
+.mobile-jackpot-winner .slots-winner, .mobile-jackpot-winner .one-winner{
+  padding-left: 0;
+  padding-right: 0;
 }
 .mobile-jackpot-winner .col-xs-12{
   background: #161616;
   margin-bottom: 15px;
 }
 .mobile-jackpot-winner .title{
-  padding: 10px 0 0
+  padding: 10px 10px 0;
+  border-bottom: solid 1px #000;
+  position: relative;
+  padding-bottom: 10px;
+}
+.mobile-jackpot-winner .title::after{
+  content: '';
+  display: block;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3e3e3e
 }
 .mobile-jackpot-winner ul{
   list-style: none;
   margin: 0;
   padding: 0;
-}
-.mobile-jackpot-winner ul li{
-  margin: 5px 0
 }
 .mobile-jackpot-winner ul li ul li{
   float: left;
@@ -10761,13 +10776,39 @@ h5.title-inside{
   font-size: 12px;
   margin-right: 3px
 }
+.mobile-jackpot-winner .wrapper .numbers .yellow{
+  letter-spacing: normal;
+}
 .slots-winner .title a, .one-winner .title a{
   color: #fff;
 }
-.one-winner table{
-  margin-bottom: 0;
-  border: none;
-  padding: 0;
+.one-winner .wrapper .info div{
+  display: inline-block;
+  margin-left: -4px;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.one-winner .flexslider{
+  padding: 5px 0 !important
+}
+.one-winner .wrapper .numbers div{
+  display: inline-block;
+  margin-left: -4px;
+  width: 100%;
+  padding: 0 5px;
+  text-align: center;
+  color: #fba601;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 17px
+}
+.one-winner .wrapper .info{
+  padding-right: 15px;
+}
+.slots-winner li.clearfix{
+  border-bottom: 1px solid #3e3e3e;
+  padding: 5px 0
 }
 .lotto-body-mobile{
   padding-right: 0;

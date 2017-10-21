@@ -1001,7 +1001,6 @@ $('.one-winner .flexslider').flexslider({
   slideshowSpeed: '3000',
   controlNav: false,
   directionNav: false,
-  slideshow: false
 });
 
   $(window).scroll(function() {
