@@ -5964,18 +5964,19 @@ width: 360px;
     display: block;
   }
   .nopaddingleft5{
-    padding-left: 10px
+    padding-left: 5px
   }
-  .new123{
-    width: 1220px
-  }
+
 }
 
 @media (min-width: 1200px){
 
-.container {
-    width: 1250px;
-}
+  .container {
+      width: 1250px;
+  }
+  .new123{
+    width: 1220px
+  }
 }
 @media only screen and (min-width: 1200px) {
   .bago-afterlogin .boxer-arrow::after, .bago-afterlogin .boxer-arrow::after {

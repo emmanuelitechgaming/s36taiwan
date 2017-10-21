@@ -11044,3 +11044,19 @@ h5.title-inside{
 .new123-inner-last:last-child::after{
   content: none
 }
+.new123-inner-last a{
+  display: block;
+  padding: 3px 0;
+  text-align: center;
+  color: #573601;
+  background: #fba601;
+  font-weight: 700;
+  font-size: 17px;
+  width: 233px;
+  border-radius: 5px;
+  position: relative;
+  top: 10px
+}
+.new123-inner-last a:hover{
+  text-decoration: none;
+}
