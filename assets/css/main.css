@@ -11210,7 +11210,8 @@ h5.title-inside{
   width: 25px;
   margin: 0 15px 0 0;
   position: relative;
-  top: 4px
+  top: 4px;
+  cursor: pointer;
 }
 .new-counter .marquee-wrapper{
   width: 60%;
@@ -11226,6 +11227,10 @@ h5.title-inside{
   font-weight: 700;
   left: 30px;
   top: -2px;
+  cursor: pointer
+}
+.new-counter .counter div:hover{
+  color: #fba601
 }
 .new-counter .counter div span{
   display: block
