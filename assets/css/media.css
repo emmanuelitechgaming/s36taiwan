@@ -5957,6 +5957,9 @@ width: 360px;
   .footer-sports-inner {
     margin-bottom: 0;
   }
+  #loginModal .form-recap-right p a.csmodal-forgot span{
+    display: block;
+  }
 }
 
 @media (min-width: 1200px){
