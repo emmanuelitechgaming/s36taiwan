@@ -10946,3 +10946,49 @@ h5.title-inside{
 .navbar-dekstop-collapse-li .dropdown-menu{
   min-width: auto
 }
+.footer-sports-inner{
+  border: solid 1px #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 0;
+  cursor: pointer;
+}
+.footer-sports .img, .footer-sports .text{
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-sports .img{
+  width: 38px
+}
+.footer-sports .text{
+  color: #fff;
+  text-align: center;
+  margin-left: 10px;
+  letter-spacing: 2px;
+  font-size: 18px
+}
+.footer-sports .text span{
+  display: block;
+  border-top: 1px solid #fff;
+  font-weight: 700;
+}
+.footer-sports-inner:hover{
+  border: solid 1px #fba601;
+}
+.footer-sports-inner:hover .text{
+  color: #fba601
+}
+.footer-sports-inner:hover .text span{
+  border-top: solid 1px #fba601
+}
+.valencia-area::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 2px;
+  top: 5px;
+  bottom: 3px;
+  right: -17px;
+  background: #000;
+  border-right: 1px solid #333
+}

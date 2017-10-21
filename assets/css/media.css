@@ -4264,12 +4264,6 @@ width: 360px;
         margin-left: auto;
         margin-right: 7px
     }
-    footer .footer-line {
-        border-left: 1px solid #343434;
-    }
-    footer .footer-line:before {
-        border-left: 1px solid #000000;
-    }
     .notice-dialog {
         width: 900px;
     }
@@ -4908,7 +4902,7 @@ width: 360px;
     }
     footer .footer-icon img {
         display: inline-block;
-        margin: 0px 10px 10px 9px;
+        margin: 0px 0 10px 0;
     }
     #myModal #country-sel button {
         background-position: 215px -6px;
@@ -5932,6 +5926,20 @@ width: 360px;
   }
   .bago-afterlogin {
     padding: 8px 0;
+  }
+  footer .footer-line::before{
+    content: '';
+    display: block;
+    width: 1px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -8px;
+    background: #343434
+  }
+  .footer-sports{
+    padding: 15px 0 0;
+    margin-bottom: -20px;
   }
 }
 
