@@ -5950,7 +5950,7 @@ width: 360px;
   }
   .footer-sports{
     padding: 15px 0 0;
-    margin-bottom: -20px;
+    margin-bottom: -10px;
   }
   .footer-sports-inner {
     margin-bottom: 0;
@@ -5975,6 +5975,9 @@ width: 360px;
   }
   .promo-tabs{
     margin: 0 0px;
+  }
+  .gp-first{
+    padding-right: 29px
   }
 }
 
@@ -6164,6 +6167,9 @@ width: 360px;
 main .marquee {
     left: 95px;
     z-index: 999
+}
+main .new-counter .marquee{
+  left: 0;
 }
 .live-game-txtb {
     font-size: 16px;
