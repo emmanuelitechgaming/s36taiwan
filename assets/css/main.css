@@ -366,16 +366,16 @@ main .borderstyle-lotto {
     margin: -11px -8px 20px;
 }
 main .borderstyle-promo{
-  margin: -20px 17px 20px;
+  margin: -20px 0px 20px;
 }
 main .borderstyle-slots{
-  margin: 3px 18px 20px 9px
+  margin: 3px 0 20px 
 }
 main .borderstyle-casino  {
     margin: -9px 6px 20px
 }
 main .borderstyle-dl{
-margin: 23px 25px 20px 8px
+  margin: 23px 8px 20px
 }
 main .borderstyler {
     margin: 5px 0px;
@@ -989,7 +989,9 @@ div.border:before {
 .panel.with-nav-tabs .panel-heading {
     padding: 5px 20px 0 20px;
 }
-
+.breadcrumb-inner-promo .panel.with-nav-tabs .panel-heading {
+  padding: 5px 15px 0
+}
 .panel.with-nav-tabs .nav-tabs {
     border-bottom: none;
 }
@@ -10989,7 +10991,6 @@ h5.title-inside{
 .promo-tabs{
   background: #1b1b1b;
   padding: 10px 0 15px;
-  margin: 0 10px;
   border-radius: 5px;
 }
 .navbar-dekstop-collapse-li:hover .dropdown-menu{
@@ -11100,4 +11101,7 @@ h5.title-inside{
 }
 .new123-inner-last a:hover{
   text-decoration: none;
+}
+.breadcrumb-inner-promo .panel{
+  border: none
 }

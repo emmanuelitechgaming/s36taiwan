@@ -1757,6 +1757,9 @@ max-height: 170px;
     .footer-sports .text{
       width: 240px
     }
+    .promo-tabs{
+      margin: 0 10px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4235,10 +4238,6 @@ max-height: 170px;
     padding-left: 15px;
     padding-right: 25px;
   }
-  .njackpot-nwinner-promo {
-    padding-left: 23px;
-    padding-right: 25px;
-  }
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 20px;
     }
@@ -5293,8 +5292,8 @@ width: 360px;
     height: 25px;
   }
   .promo-body{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .footer-img-d ul li{
     width: 16.66666%;
@@ -5966,6 +5965,9 @@ width: 360px;
     padding-left: 0;
     padding-right: 0;
   }
+  .promo-tabs{
+    margin: 0 0px;
+  }
 }
 
 @media (min-width: 1200px){
@@ -6333,14 +6335,14 @@ main .marquee {
     padding-left: 23px;
   }
   .bago-pages-lotto .container{
-    width: 1242px;
-    padding-right: 0px;
+    width: 1290px;
+    padding-right: 5px;
     padding-left: 23px;
   }
   .bago-pages-dl .container{
-    width: 1322px;
-   padding-right: 24px;
-   padding-left: 43px;
+    width: 1339px;
+    padding-right: 24px;
+    padding-left: 43px;
   }
 
   .drop {
