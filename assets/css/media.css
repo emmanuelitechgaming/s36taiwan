@@ -5061,9 +5061,6 @@ width: 360px;
     .live-games-dragontiger img{
       max-width: 80%
     }*/
-    .top-games-tab-pane{
-      padding-left: 15px;
-    }
     .casino-mp, .slots-mp{
       margin-top: 10px;
     }
@@ -5988,7 +5985,7 @@ width: 360px;
     margin: 0 auto;
   }
   .netbet {
-    margin-left: 25px;
+    margin-left: 15px;
     margin-right: 0px;
   }
   .copyright .container{
@@ -6007,7 +6004,7 @@ width: 360px;
       width: 1250px;
   }
   .new123{
-    width: 1140px
+    width: 1217px
   }
   .the-container-slots{
     width: 1267px
