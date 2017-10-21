@@ -5980,6 +5980,13 @@ width: 360px;
   .gp-first{
     padding-right: 29px
   }
+  .slot-content .casino-g img{
+    margin: 0 auto;
+  }
+  .netbet {
+    margin-left: 25px;
+    margin-right: 0px;
+  }
 }
 
 @media (min-width: 1200px){
@@ -5989,6 +5996,9 @@ width: 360px;
   }
   .new123{
     width: 1140px
+  }
+  .the-container-slots{
+    width: 1267px
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -6249,7 +6259,7 @@ main .new-counter .marquee{
     padding-bottom: 5px;
   }
   .slots-breadcrumb-inner .col-xs-12{
-    width: 403px;
+    width: 33.33333333%;
     height: 395px;
   }
   .slots-breadcrumb-inner .tdw-button{
@@ -6262,7 +6272,7 @@ main .new-counter .marquee{
     height: auto;
   }
   .slots-breadcrumb-inner .col-xs-12.netbet{
-    width: 1177px;
+    width: 1220px;
     height: auto;
   }
   .winner-breadcrumb-inner .col-xs-12.netbet{
