@@ -6332,6 +6332,9 @@ main .new-counter .marquee{
     width: 1450px;
     padding-right: 14px;
   }
+  .bago_nanaman .new-counter{
+    width: 1210px
+  }
   .bago-afterlogin .container{
     width: 1521px;
     padding-right: 61px;
