@@ -11165,7 +11165,15 @@ h5.title-inside{
   text-align: center;
   border-radius: 50%;
   font-size: 2em;
-  line-height: 32px
+  line-height: 32px;
+  position: relative;
+  right: 8px;
+}
+.new123b .col-md-3:nth-child(2) .num{
+  right: 15px;
+}
+.new123b .col-md-3:nth-child(3) .num{
+  right: 15px;
 }
 .new123b .new123-inner-last a{
   top: 3px
@@ -11181,7 +11189,10 @@ h5.title-inside{
   content: none
 }
 .new123b .text{
-  margin-left: 10px
+  margin-left: 1px
+}
+.new123b .col-md-3:nth-child(2) .text, .new123b .col-md-3:nth-child(3) .text{
+  margin-left: -6px
 }
 .new-counter{
   position: relative;
@@ -11211,7 +11222,7 @@ h5.title-inside{
 }
 .new-counter .counter div{
   position: absolute;
-  text-align: right;
+  text-align: center;
   font-weight: 700;
   left: 30px;
   top: -2px;
@@ -11223,15 +11234,16 @@ h5.title-inside{
   display: block;
   width: 388px;
   float: right;
-  background: url('../img/index/new-counter-jackpot.png') no-repeat;
+  background: #2a2a2a url('../img/index/new-counter-jackpot.png') no-repeat;
   background-size: 100% 100%;
   background-position: auto 1px;
   font-size: 24px;
   font-weight: 700;
-  text-indent: 40px;
-  letter-spacing: 17px;
+  text-indent: 43px;
+  letter-spacing: 16px;
   white-space: nowrap;
-  word-spacing: -7px;
+  word-spacing: -5px;
+  padding: 5px 0 1px;
 }
 #myTargetElement{
   color: #fff;

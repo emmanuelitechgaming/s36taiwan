@@ -5498,6 +5498,9 @@ width: 360px;
     background-size: 100% 100%;
     position: absolute;
   }
+  .bago-pages-dl .boxer::after{
+    content: none
+  }
   .bago-afterlogin .boxer::after{
     height: 26px;
   }
@@ -6358,8 +6361,8 @@ main .new-counter .marquee{
   .bago_nanaman .new-counter{
     width: 1256px;
     padding-left: 22px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .bago-afterlogin .container{
     width: 1521px;
