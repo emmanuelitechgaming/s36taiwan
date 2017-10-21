@@ -11019,8 +11019,12 @@ h5.title-inside{
 .footer-sports .text{
   color: #fff;
   text-align: center;
-  margin-left: 10px;
-  font-size: 13px
+  margin-left: 5px;
+  font-size: 13px;
+  max-width: 160px
+}
+.footer-sports .col-md-4:nth-child(3) .text{
+  max-width: 140px
 }
 .footer-sports .text span{
   display: block;
@@ -11094,6 +11098,16 @@ h5.title-inside{
 }
 .new123-inner-last a:hover{
   text-decoration: none;
+}
+.new123{
+  position: relative;
+}
+.new123 .col-md-3:nth-child(4)::after{
+  content: '';
+  display: block;
+  position: absolute;
+  background: url('../img/new123-blur.png') no-repeat;
+
 }
 .breadcrumb-inner-promo .panel{
   border: none
