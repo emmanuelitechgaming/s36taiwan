@@ -10968,6 +10968,9 @@ h5.title-inside{
 .footer-sports .img{
   width: 38px
 }
+.footer-sports .col-md-4:nth-child(3) .img{
+  width: 48px;
+}
 .footer-sports .text{
   color: #fff;
   text-align: center;
@@ -10998,10 +11001,4 @@ h5.title-inside{
   right: -17px;
   background: #000;
   border-right: 1px solid #333
-}
-.new123{
-  margin-top: 20px;
-  background: #161616;
-  -webkit-box-shadow: 32px 0px 22px -1px rgba(22,22,22,1);
-          box-shadow: 32px 0px 22px -1px rgba(22,22,22,1);
 }
