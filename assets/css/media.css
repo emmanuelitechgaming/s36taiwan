@@ -1754,6 +1754,9 @@ max-height: 170px;
     .promo-home{
       margin-bottom: 20px
     }
+    .footer-sports .text{
+      width: 240px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -5962,6 +5965,9 @@ width: 360px;
   }
   .nopaddingleft5{
     padding-left: 10px
+  }
+  .new123{
+    width: 1220px
   }
 }
 

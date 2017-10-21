@@ -10916,14 +10916,17 @@ h5.title-inside{
 .y-promo-tab ul li{
   display: inline-block;
   margin: 12px 0;
-  margin-right: 5px
+  margin-right: 5px;
+  min-width: 96px
 }
 .y-promo-tab ul li a{
+  display: block;
+  text-align: center;
   background: #111;
   color: #fff;
   padding: 8px 22px;
   border-radius: 20px;
-  font-size: 13px
+  font-size: 13px;
 }
 .y-promo-tab ul li.active a{
   background: #fba601;
@@ -11009,11 +11012,35 @@ h5.title-inside{
 .new123{
   background: #161616;
   margin-top: 20px;
-  padding: 10px 0
+}
+.new123 .num{
+  font-family: Tungsten;
+  color: #fba601;
+  font-size: 2.9em;
+  line-height: 50px
 }
 .new123 .text{
-
+  font-size: 13px;
+  letter-spacing: 1px
 }
 .new123 .text span{
-  display: block
+  display: block;
+  font-size: 12px;
+}
+.new123-inner{
+  position: relative;
+}
+.new123-inner::after{
+  content: '';
+  display: block;
+  background: url('../img/new123-arrow.png') no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.new123-inner-last:last-child::after{
+  content: none
 }
