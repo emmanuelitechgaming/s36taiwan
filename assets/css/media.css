@@ -5124,19 +5124,13 @@ width: 360px;
       width: 50%;
       height: auto;
     }
+    .winner-breadcrumb-inner .netbet .col-xs-12{
+      width: auto;
+    }
     .slots-breadcrumb-inner .netbet{
       width: 1177px;
       height: auto;
     }
-    /*.live-games img{
-      max-width: 80%
-    }*/
-  /*  .live-games-baccarat img, .live-games-blackjack img{
-      max-width: 82%
-    }
-    .live-games-dragontiger img{
-      max-width: 80%
-    }*/
     .casino-mp, .slots-mp{
       margin-top: 10px;
     }
