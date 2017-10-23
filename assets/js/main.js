@@ -907,6 +907,7 @@ $(document).ready(function () {
         animationSpeed: '1000',
         controlNav: false,
         directionNav: false,
+        touch: false
       });
 
       $('.top-games .flexslider').flexslider({
@@ -1001,6 +1002,7 @@ $('.one-winner .flexslider').flexslider({
   slideshowSpeed: '3000',
   controlNav: false,
   directionNav: false,
+  touch: false
 });
 
   $(window).scroll(function() {
@@ -1056,6 +1058,10 @@ $('.one-winner .flexslider').flexslider({
     $(this).find('img').attr('src', 'assets/img/new-counter-speaker-hover.png');
   }, function() {
     $(this).find('img').attr('src', 'assets/img/new-counter-speaker.png');
+  });
+
+  $('.lotto-button .text').click(function() {
+    $('#loginModal').modal('show');
   })
 
 });
