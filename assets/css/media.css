@@ -1782,7 +1782,8 @@ max-height: 170px;
       background: #2a2a2a url('../img/index/new-counter-jackpot-mobile.png') no-repeat;
       background-size: 100% 100%;
       background-position: 0 1px;
-      text-indent: 40px;
+      text-indent: 38px;
+      word-spacing: -3px
     }
     .new123b{
       margin: 15px 15px 0
@@ -6094,6 +6095,7 @@ width: 360px;
     background-size: 100% 100%;
     background-position: 0 1px;
     text-indent: 43px;
+    word-spacing: -5px
   }
   .new123b .new123-inner::after{
     content: '';
