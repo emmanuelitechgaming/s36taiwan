@@ -387,6 +387,9 @@ main .gp.container .borderstyler{
 main .borderstyle-index{
   margin: 5px 8px
 }
+main .borderstyle-sp-promo{
+  margin: 25px 8px 5px
+}
 .live-games img {
     margin-top: 5px;
 }
@@ -694,7 +697,7 @@ footer .copyright span {
     color: #5e5e5e;
     font-size: 14px;
     font-weight: 700;
-    margin: 10px 6px;
+    margin: 10px 4px;
     vertical-align: middle;
 }
 
@@ -3939,7 +3942,7 @@ color: #fba601;
 
 #c {
     min-height: 90px;
-    max-width: 377px;
+    max-width: 386.66px;
 }
 
 
@@ -10722,7 +10725,7 @@ h5.title-inside{
   position: relative;
   margin: 0 auto;
 }
-.slot-new-game{
+  .slot-new-game{
   position: absolute;
   z-index: 999;
   top: 2px;
@@ -11061,7 +11064,7 @@ h5.title-inside{
 }
 .new123{
   background: #161616;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .new123 .num{
   font-family: Tungsten;
@@ -11105,7 +11108,8 @@ h5.title-inside{
   width: 233px;
   border-radius: 5px;
   position: relative;
-  top: 10px
+  top: 10px;
+  margin: 0 auto
 }
 .new123-inner-last a:hover{
   text-decoration: none;
@@ -11146,7 +11150,7 @@ h5.title-inside{
   display: block;
   background: #2a2a2a;
   background-size: contain;
-  width: 5px;
+  width: 3px;
   height: 56px;
   position: absolute;
   top: -10px;
@@ -11161,24 +11165,34 @@ h5.title-inside{
   text-align: center;
   border-radius: 50%;
   font-size: 2em;
-  line-height: 32px
+  line-height: 32px;
+  position: relative;
+  right: 8px;
+}
+.new123b .col-md-3:nth-child(2) .num{
+  right: 15px;
+}
+.new123b .col-md-3:nth-child(3) .num{
+  right: 15px;
 }
 .new123b .new123-inner-last a{
   top: 3px
 }
 .new123b .col-md-3:nth-child(4)::after{
+  content: none;
   width: 75px;
   bottom: -16px;
   top: -10px;
   right: -75px;
 }
 .new123b .col-md-3:nth-child(1)::after{
-  bottom: -10px;
-  top: -10px;
-  left: -77px;
+  content: none
 }
 .new123b .text{
-  margin-left: 10px
+  margin-left: 1px
+}
+.new123b .col-md-3:nth-child(2) .text, .new123b .col-md-3:nth-child(3) .text{
+  margin-left: -6px
 }
 .new-counter{
   position: relative;
@@ -11186,6 +11200,7 @@ h5.title-inside{
 .new-counter .marquee-wrapper, .new-counter .counter{
   display: inline-block;
   margin-left: -4px;
+  vertical-align: middle
 }
 .marquee-wrapper .img, .marquee-wrapper .marquee{
   display: inline-block;
@@ -11193,14 +11208,50 @@ h5.title-inside{
 }
 .marquee-wrapper .img{
   width: 25px;
-  margin: 0 15px 0 0
+  margin: 0 15px 0 0;
+  position: relative;
+  top: 4px;
+  cursor: pointer;
 }
 .new-counter .marquee-wrapper{
   width: 60%;
   color: #fff
 }
 .new-counter .counter{
-  width: 40%
+  width: 40%;
+  position: relative;
+}
+.new-counter .counter div{
+  position: absolute;
+  text-align: center;
+  font-weight: 700;
+  left: 30px;
+  top: -2px;
+  cursor: pointer
+}
+.new-counter .counter div:hover{
+  color: #fba601
+}
+.new-counter .counter div span{
+  display: block
+}
+.new-counter .counter a{
+  display: block;
+  width: 388px;
+  float: right;
+  background: #2a2a2a url('../img/index/new-counter-jackpot.png') no-repeat;
+  background-size: 100% 100%;
+  background-position: auto 1px;
+  font-size: 24px;
+  font-weight: 700;
+  text-indent: 43px;
+  letter-spacing: 16px;
+  white-space: nowrap;
+  word-spacing: -5px;
+  padding: 5px 0 1px;
+}
+#myTargetElement{
+  color: #fff;
 }
 .breadcrumb-inner-promo .panel{
   border: none

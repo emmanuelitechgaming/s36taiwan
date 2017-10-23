@@ -4487,7 +4487,7 @@ width: 360px;
         width: 22%;
     }
     footer .footer-pad {
-        padding-left: 15px;
+        padding-left: 0px;
     }
     .prizepool {
         font-size: 14px;
@@ -5061,9 +5061,6 @@ width: 360px;
     .live-games-dragontiger img{
       max-width: 80%
     }*/
-    .top-games-tab-pane{
-      padding-left: 15px;
-    }
     .casino-mp, .slots-mp{
       margin-top: 10px;
     }
@@ -5500,6 +5497,9 @@ width: 360px;
     border-right: 1px solid #303030;
     background-size: 100% 100%;
     position: absolute;
+  }
+  .bago-pages-dl .boxer::after{
+    content: none
   }
   .bago-afterlogin .boxer::after{
     height: 26px;
@@ -5945,7 +5945,7 @@ width: 360px;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: -8px;
+    left: -16px;
     background: #343434
   }
   .footer-sports{
@@ -5974,6 +5974,10 @@ width: 360px;
     padding-left: 0;
     padding-right: 0;
   }
+  .the-other-container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .promo-tabs{
     margin: 0 0px;
   }
@@ -5984,8 +5988,16 @@ width: 360px;
     margin: 0 auto;
   }
   .netbet {
-    margin-left: 25px;
+    margin-left: 15px;
     margin-right: 0px;
+  }
+  .copyright .container{
+    padding-left: 15px;
+    padding-right: 15px
+  }
+  .helpcenter-section{
+    padding-left: 15px;
+    padding-right: 15px
   }
 }
 
@@ -5995,7 +6007,7 @@ width: 360px;
       width: 1250px;
   }
   .new123{
-    width: 1140px
+    width: 1217px
   }
   .the-container-slots{
     width: 1267px
@@ -6138,6 +6150,9 @@ width: 360px;
     main .marquee {
         width: 600px;
         bottom: 15px;
+    }
+    main .marquee {
+      width: 94%;
     }
     .account-container span {
         position: absolute;
@@ -6344,7 +6359,10 @@ main .new-counter .marquee{
     padding-right: 14px;
   }
   .bago_nanaman .new-counter{
-    width: 1210px
+    width: 1256px;
+    padding-left: 23px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .bago-afterlogin .container{
     width: 1521px;
@@ -6358,8 +6376,8 @@ main .new-counter .marquee{
     padding-left: 24px;
   }
   .bago-pages-slots .container{
-    width: 1242px;
-    padding-right: 0px;
+    width: 1286px;
+    padding-right: 6px;
     padding-left: 23px;
   }
   .bago-pages-lotto .container{

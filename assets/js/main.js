@@ -1052,6 +1052,12 @@ $('.one-winner .flexslider').flexslider({
     $(this).find('img').attr('src', 'assets/img/Y3.png')
   })
 
+  $('.new-counter .img').hover(function() {
+    $(this).find('img').attr('src', 'assets/img/new-counter-speaker-hover.png');
+  }, function() {
+    $(this).find('img').attr('src', 'assets/img/new-counter-speaker.png');
+  })
+
 });
 
 
