@@ -11200,9 +11200,6 @@ h5.title-inside{
 .new123b .text{
   margin-left: 1px
 }
-.new123b .col-md-3:nth-child(2) .text, .new123b .col-md-3:nth-child(3) .text{
-  margin-left: -6px
-}
 .new-counter{
   position: relative;
 }
