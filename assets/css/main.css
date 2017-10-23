@@ -11246,9 +11246,6 @@ h5.title-inside{
 .new-counter .counter a{
   display: block;
   float: right;
-  font-size: 24px;
-  letter-spacing: 16px;
-  word-spacing: -5px;
   white-space: nowrap;
   padding: 3px 0 3px;
 }
