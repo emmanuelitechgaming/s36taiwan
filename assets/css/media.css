@@ -6151,6 +6151,9 @@ width: 360px;
   .recent-winners .win-lot{
     padding-left: 10px
   }
+  .new123b .col-xs-4:nth-child(3) .new123-inner::after{
+    content: '';
+  }
 }
 
 @media (min-width: 1200px){
