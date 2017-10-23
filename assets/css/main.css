@@ -323,7 +323,9 @@ main .live-container {
   display: block;
   white-space: nowrap;
 }
-
+#navbar-dekstop-collapse li a{
+  padding: 5px 12px 2px !important
+}
 main .gp-g {
     position: relative;
     top: -5px;
