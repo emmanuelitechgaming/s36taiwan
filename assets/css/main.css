@@ -5604,7 +5604,7 @@ div.cta-contact-info a {
 }
 #myTargetElement,
 #myTargetElement2 {
-    font-family: "5by7";
+    /*font-family: "5by7";*/
 }
 .absolute-play {
     position: absolute;
@@ -10796,15 +10796,27 @@ h5.title-inside{
 .slots-winner .title a, .one-winner .title a{
   color: #fff;
 }
+.one-winner .wrapper{
+  border-bottom: solid 1px #3e3e3e;
+  padding: 5px 0
+}
+.one-winner ul li .wrapper:last-child{
+  border-bottom: none
+}
 .one-winner .wrapper .info div{
   display: inline-block;
   margin-left: -4px;
   width: 25%;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: 16px
+}
+.one-winner .wrapper .info div:nth-child(1){
+  text-align: left;
+  padding-left: 15px
 }
 .one-winner .flexslider{
-  padding: 5px 0 !important
+  padding: 15px 5px!important
 }
 .one-winner .wrapper .numbers div{
   display: inline-block;
@@ -10817,12 +10829,18 @@ h5.title-inside{
   font-weight: 700;
   font-size: 17px
 }
-.one-winner .wrapper .info{
-  padding-right: 15px;
+  .one-winner .wrapper .info{
+  padding-right: 5px;
 }
 .slots-winner li.clearfix{
-  border-bottom: 1px solid #3e3e3e;
-  padding: 5px 0
+  border-bottom: 1px solid transparent;
+  padding: 5px 0;
+  background: url('../img/underline2.png')  no-repeat;
+  background-size: 100% 1px;
+  background-position: bottom;
+}
+.slots-winner li.clearfix:last-child{
+  background: none
 }
 .lotto-body-mobile{
   padding-right: 0;
@@ -11151,38 +11169,15 @@ h5.title-inside{
 .new123b{
   padding: 10px 0
 }
-.new123b .new123-inner::after{
-  content: '';
-  display: block;
-  background: #2a2a2a;
-  background-size: contain;
-  width: 3px;
-  height: 56px;
-  position: absolute;
-  top: -10px;
-  right: 0;
-}
 .new123b .col-md-3:last-child .new123-inner::after{
   content: none;
 }
 .new123b .num{
-  width: 35px;
   border: solid 2px #fba601;
   text-align: center;
   border-radius: 50%;
-  font-size: 2em;
-  line-height: 32px;
   position: relative;
   right: 8px;
-}
-.new123b .col-md-3:nth-child(2) .num{
-  right: 15px;
-}
-.new123b .col-md-3:nth-child(3) .num{
-  right: 15px;
-}
-.new123b .new123-inner-last a{
-  top: 3px
 }
 .new123b .col-md-3:nth-child(4)::after{
   content: none;
@@ -11244,7 +11239,6 @@ h5.title-inside{
   display: block;
   float: right;
   font-size: 24px;
-  font-weight: 700;
   letter-spacing: 16px;
   word-spacing: -5px;
   white-space: nowrap;
