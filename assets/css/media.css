@@ -5707,6 +5707,9 @@ width: 360px;
   .comment-inside{
     padding: 0 40px
   }
+  .tab27helpcenter{
+    padding-left: 20px
+  }
   .comment .flag-icon{
     margin-right: 5px;
   }
@@ -6153,6 +6156,10 @@ width: 360px;
   }
   .new123b .col-xs-4:nth-child(3) .new123-inner::after{
     content: '';
+  }
+  .helpcenter-section .payment-form .form-captcha{
+    position: relative;
+    left: 47px
   }
 }
 
