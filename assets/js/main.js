@@ -1056,6 +1056,10 @@ $('.one-winner .flexslider').flexslider({
     $(this).find('img').attr('src', 'assets/img/new-counter-speaker-hover.png');
   }, function() {
     $(this).find('img').attr('src', 'assets/img/new-counter-speaker.png');
+  });
+
+  $('.lotto-button .text').click(function() {
+    $('#loginModal').modal('show');
   })
 
 });

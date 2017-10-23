@@ -1760,6 +1760,29 @@ max-height: 170px;
     .promo-tabs{
       margin: 0 10px;
     }
+    .new-counter .marquee-wrapper{
+      width: 100%;
+    }
+    .new-counter .counter{
+      width: 100%;
+    }
+    .new-counter .marquee-wrapper, .new-counter .counter{
+      display: block;
+      margin-left: 0;
+      margin: 5px 0
+    }
+    .bago_nanaman .new-counter{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .new-counter .counter a{
+      width: 100%;
+      float: none;
+      background: #2a2a2a url('../img/index/new-counter-jackpot-mobile.png') no-repeat;
+      background-size: 100% 100%;
+      background-position: 0 1px;
+      text-indent: 40px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2607,6 +2630,9 @@ max-height: 170px;
         left: 70px;
         bottom: 8px;
     }
+    main .new-counter .marquee{
+      width: 343px;
+    }
     .tdw-slots .col-md-3 {
         margin-left: 65px;
         margin-right: 65px
@@ -3000,12 +3026,12 @@ max-height: 170px;
       margin-top: 2px
     }
     .bago-afterlogin .boxer div.step-txt {
-      font-size: 12px;
+      font-size: 13px;
       position: relative;
       left: 5px
     }
     .bago-afterlogin .boxer div span {
-      font-size: 10px;
+      font-size: 12px;
     }
     .bago-afterlogin .boxer{
       margin-bottom: 10px
@@ -4153,8 +4179,8 @@ max-height: 170px;
     padding: 6px 20px !important;
   }
   .slots-breadcrumb-inner .netbet div.col-md-6:first-child{
-    padding-left: 15px;
-    padding-right: 15px
+    padding-left: 0;
+    padding-right: 0
   }
   .slots-breadcrumb-inner .netbet{
     padding-left: 15px;
@@ -4164,7 +4190,7 @@ max-height: 170px;
     width: auto;
     float: none;
     margin-left: 0;
-    margin-right: 10px
+    margin-right: 18px
   }
   .bago-pages .boxer::after {
     left: auto;
@@ -4992,9 +5018,11 @@ width: 360px;
     }
     .sp-btn-hidden{
       display: inline-block;
-      padding: 2px 100px;
-      padding-right: 150px;
       margin-bottom: 10px;
+      text-align: center;
+      width: 233px;
+      padding-top: 2px;
+      padding-bottom: 2px
     }
     .sp-btn-hidden2{
       width: 100%;
@@ -5894,6 +5922,9 @@ width: 360px;
   .bago-afterlogin .boxer .step-no{
     width: 33px;
   }
+  .bago-afterlogin .col-md-3:nth-child(1) .boxer .step-no{
+    width: 34px;
+  }
   .bago-pages-dl .boxer .step-no{
     width: 33px;
   }
@@ -5998,6 +6029,28 @@ width: 360px;
   .helpcenter-section{
     padding-left: 15px;
     padding-right: 15px
+  }
+  .new-counter .marquee-wrapper{
+    width: 60%;
+  }
+  .new-counter .counter{
+    width: 40%;
+  }
+  .new-counter .marquee-wrapper, .new-counter .counter{
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: -4px;
+  }
+  main .new-counter .marquee {
+    width: 94%;
+  }
+  .new-counter .counter a{
+    width: 388px;
+    float: right;
+    background: #2a2a2a url('../img/index/new-counter-jackpot.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 1px;
+    text-indent: 43px;
   }
 }
 
@@ -6499,6 +6552,7 @@ main .new-counter .marquee{
   }
   .casino-desc-bot .sp-btn-hidden{
     padding: 4px 25px;
+    width: auto;
   }
   .live-game {
     max-height: 400px;
