@@ -10002,10 +10002,10 @@ height: 30px!important;
 .side-logo{
   cursor: pointer;
 }
-  .side-logo-plus a{
+  .side-logo-plus a, .side-logo-right a{
   color: #fff;
 }
-.side-logo-plus a:hover{
+.side-logo-plus a:hover, .side-logo-right a:hover{
   color: #fba601
 }
 .side-logo-plus a:hover, .side-logo-plus a:active, .side-logo-plus a:focus{
@@ -11234,6 +11234,9 @@ h5.title-inside{
 }
 .new-counter .counter div span{
   display: block
+}
+.navbar-right-desktop .dropdown-menu li{
+  border-left: 0;
 }
 .new-counter .counter a{
   display: block;
