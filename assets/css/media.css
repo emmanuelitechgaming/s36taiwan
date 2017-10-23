@@ -1782,8 +1782,10 @@ max-height: 170px;
       background: #2a2a2a url('../img/index/new-counter-jackpot-mobile.png') no-repeat;
       background-size: 100% 100%;
       background-position: 0 1px;
-      text-indent: 38px;
-      word-spacing: -3px
+      text-indent: 28px;
+      word-spacing: -3px;
+      letter-spacing: 12px;
+      font-size: 19px;
     }
     .new123b{
       margin: 15px 15px 0
@@ -1829,6 +1831,9 @@ max-height: 170px;
     .the-container{
       padding-left: 0;
       padding-right: 0
+    }
+    main .new-counter .marquee {
+      width: 85%;
     }
 }
 
@@ -3136,6 +3141,17 @@ max-height: 170px;
     }
     .m-fsalon ul li:nth-child(6) img{
       height: 55px
+    }
+    .new-counter .counter a{
+      width: 100%;
+      float: none;
+      background: #2a2a2a url('../img/index/new-counter-jackpot-mobile.png') no-repeat;
+      background-size: 100% 100%;
+      background-position: 0 1px;
+      text-indent: 38px;
+      word-spacing: -3px;
+      font-size: 24px;
+      letter-spacing: 16px;
     }
 }
 
@@ -6095,7 +6111,9 @@ width: 360px;
     background-size: 100% 100%;
     background-position: 0 1px;
     text-indent: 43px;
-    word-spacing: -5px
+    word-spacing: -5px;
+    font-size: 24px;
+    letter-spacing: 16px;
   }
   .new123b .new123-inner::after{
     content: '';
@@ -6129,6 +6147,9 @@ width: 360px;
   }
   .breadcrumb-inner .sp-container img {
     margin-right: 0;
+  }
+  .recent-winners .win-lot{
+    padding-left: 10px
   }
 }
 
@@ -6315,7 +6336,7 @@ width: 360px;
         width: 132px;
     }
     .contactus ul {
-        padding-left: 15px;
+        padding-left: 5px;
     }
     .contactus ul li {
       padding-left: 0px;
