@@ -10834,6 +10834,14 @@ h5.title-inside{
   .one-winner .wrapper .info{
   padding-right: 5px;
 }
+.one-winner .yellow{
+  position: relative;
+  left: -77px;
+  text-indent: normal
+}
+.one-winner .numbers{
+  text-indent: 28px
+}
 .slots-winner li.clearfix{
   border-bottom: 1px solid transparent;
   padding: 16px 0;
