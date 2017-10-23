@@ -10874,6 +10874,7 @@ h5.title-inside{
   background: #333;
   border: solid 1px #4a4a4a;
   top: 45px;
+  padding: 0 0
 }
 #navbar-dekstop-collapse::before{
   content: '';

@@ -341,6 +341,7 @@ max-height: 170px;
     .breadcrumb-inner .sp-container img {
         width: 100%;
         margin-left: auto;
+        margin-right: auto;
         margin-top: 20px;
     }
     .live-game > .promo-c > .promo-txt h3 {
@@ -6123,6 +6124,9 @@ width: 360px;
   }
   .new123b {
     margin: 15px auto 0;
+  }
+  .breadcrumb-inner .sp-container img {
+    margin-right: 0;
   }
 }
 
