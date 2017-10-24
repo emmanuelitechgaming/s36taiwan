@@ -1835,6 +1835,30 @@ max-height: 170px;
     main .new-counter .marquee {
       width: 85%;
     }
+    .marquee-wrapper .img{
+      margin: 0 15px 0 0;
+    }
+    .new123-inner-last a{
+      width: 233px;
+    }
+    .nav-slide .navbar-nav a,.nav-slide .navbar-nav a:hover,.nav-slide .navbar-nav a:focus{
+      background: 000 url('../img/underline4.png') no-repeat;
+      background-size: 88% 1px;
+      background-position: 70% 0%;
+    }
+    .nav-slide .navbar-nav li:nth-child(2) a{
+      background: 000 url('../img/underline4.png') no-repeat;
+      background-size: 100% 1px;
+      background-position: 70% 0%;
+    }
+    .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
+      background: url('../img/underline4.png') no-repeat;
+      background-size: 88% 1px;
+      background-position: 70% 0;
+    }
+    .today-winner .td-week{
+      padding: 10px 18px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -4300,6 +4324,57 @@ max-height: 170px;
   .bago-afterlogin .boxer div.step-txt {
     left: 10px;
   }
+  .new-counter .counter a {
+    text-indent: 35px;
+    letter-spacing: 15px;
+    word-spacing: -5px
+  }
+  .new-counter .marquee-wrapper, .new-counter .counter {
+    display: inline-block;
+    float: left;
+    margin-left: -4px;
+    margin: 5px 0;
+  }
+  .new-counter .counter{
+    width: 50%;
+    text-align: right;
+  }
+  .new-counter .marquee-wrapper{
+    width: 50%;
+    margin: 13px 0 12px;
+  }
+  main .new-counter .marquee {
+    width: 310px;
+  }
+  .marquee-wrapper .img{
+    margin: 0 10px 0 0;
+  }
+  .new123b {
+    margin: 15px auto 0;
+  }
+  .new123b .col-xs-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .new123{
+    width: 720px
+  }
+  .new123b .col-xs-4:nth-child(2) .new123-inner::after {
+     right: -7px;
+  }
+  .new123b .col-xs-4:nth-child(1) .text{
+    margin-left: 10px
+  }
+  .nav-slide .navbar-nav a,.nav-slide .navbar-nav a:hover,.nav-slide .navbar-nav a:focus{
+    background: 000 url('../img/underline4.png') no-repeat;
+    background-size: 93% 1px;
+    background-position: 70% 0%;
+  }
+  .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
+    background: url('../img/underline4.png') no-repeat;
+    background-size: 93% 1px;
+    background-position: 70% 0;
+  }
 }
 
 
@@ -6099,24 +6174,16 @@ width: 360px;
   .new-counter .counter{
     width: 40%;
   }
-  .new-counter .marquee-wrapper, .new-counter .counter{
-    display: inline-block;
-    margin: 0 auto;
-    margin-left: -4px;
-  }
-  main .new-counter .marquee {
-    width: 94%;
-  }
   .new-counter .counter a{
-    width: 388px;
+    width: 350px;
     float: right;
     background: #2a2a2a url('../img/index/new-counter-jackpot.png') no-repeat;
     background-size: 100% 100%;
     background-position: 0 1px;
-    text-indent: 43px;
-    word-spacing: -5px;
+    text-indent: 37px;
+    word-spacing: -2px;
     font-size: 24px;
-    letter-spacing: 16px;
+    letter-spacing: 13px;
   }
   .new123b .new123-inner::after{
     content: '';
@@ -6127,7 +6194,7 @@ width: 360px;
     height: 56px;
     position: absolute;
     top: -10px;
-    right: 0;
+    right: -15px;
   }
   .new123b .num{
     width: 35px;
@@ -6160,6 +6227,46 @@ width: 360px;
   .helpcenter-section .payment-form .form-captcha{
     position: relative;
     left: 47px
+  }
+  .new123b .col-xs-4:nth-child(1) .text {
+    margin-left: 1px;
+  }
+  .new123{
+    width: 940px;
+    padding-left: 0;
+    padding-right: 0
+  }
+  .new123-inner-last a{
+    width: auto;
+  }
+  .new123b .col-xs-4:nth-child(2) .new123-inner::after {
+    right: -13px;
+  }
+  .bago_nanaman .new-counter{
+    width: 940px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main .new-counter .marquee {
+    width: 85%;
+  }
+  .new-counter .counter div{
+    left: -29px;
+    top: 3px;
+    font-size: 12px
+  }
+  .nav-slide .navbar-nav a,.nav-slide .navbar-nav a:hover,.nav-slide .navbar-nav a:focus{
+    background: 000 url('../img/underline4.png') no-repeat;
+    background-size: 95% 1px;
+    background-position: 70% 0%;
+  }
+  .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
+    background: url('../img/underline4.png') no-repeat;
+    background-size: 95% 1px;
+    background-position: 70% 0;
+  }
+  .today-winner .td-week{
+    padding: 10px 10px
   }
 }
 
@@ -6721,5 +6828,42 @@ right: 2px;
   }
   .lg-playnow {
     bottom: 2px;
+  }
+  .new123b .new123-inner::after{
+    right: 0;
+  }
+  .new123-inner-last a{
+    width: 233px;
+  }
+  .new123b .col-xs-4:nth-child(2) .new123-inner::after {
+    right: -2px;
+  }
+  .new-counter .counter a{
+    width: 388px;
+    float: right;
+    background: #2a2a2a url('../img/index/new-counter-jackpot.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 1px;
+    text-indent: 43px;
+    word-spacing: -5px;
+    font-size: 24px;
+    letter-spacing: 16px;
+  }
+  main .new-counter .marquee {
+    width: 94%;
+  }
+  .new-counter .marquee-wrapper, .new-counter .counter{
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: -4px;
+    float: none;
+  }
+  .marquee-wrapper .img{
+    margin: 0 15px 0 0;
+  }
+  .new-counter .counter div{
+    left: 30px;
+    top: -2px;
+    font-size: 14px
   }
 }

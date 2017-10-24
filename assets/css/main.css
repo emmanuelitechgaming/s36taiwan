@@ -7975,13 +7975,18 @@ margin-right: 23px;
   cursor: pointer;
   -webkit-transition-property: border-color,color;
   background: 000 url('../img/underline4.png') no-repeat;
-  background-size: 100% 1px;
+  background-size: 88% 1px;
   background-position: 70% 0%;
   line-height: 38px;
   padding: 5px 39px !important;
 }
 .nav-slide .navbar-nav li:nth-child(1) a{
   height: auto;
+}
+.nav-slide .navbar-nav li:nth-child(2) a{
+  background: 000 url('../img/underline4.png') no-repeat;
+  background-size: 100% 1px;
+  background-position: 70% 0%;
 }
 .nav-slide-inner li a{
   margin-left: 15px;
@@ -10053,7 +10058,6 @@ height: 30px!important;
 .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
   padding: 20px 20px 20px 50px;
   border-bottom: 1px solid #000;
-  border-top: 1px solid #000
 }
 .add-main-screen{
   display: block;
@@ -10837,7 +10841,7 @@ h5.title-inside{
 .one-winner .yellow{
   position: relative;
   left: -77px;
-  text-indent: normal
+  text-indent: 0
 }
 .one-winner .numbers{
   text-indent: 28px
@@ -11145,7 +11149,6 @@ h5.title-inside{
   background: #fba601;
   font-weight: 700;
   font-size: 17px;
-  width: 233px;
   border-radius: 5px;
   position: relative;
   top: 10px;
@@ -11220,7 +11223,6 @@ h5.title-inside{
 }
 .marquee-wrapper .img{
   width: 25px;
-  margin: 0 15px 0 0;
   position: relative;
   top: 1px;
   cursor: pointer;
@@ -11235,8 +11237,6 @@ h5.title-inside{
   position: absolute;
   text-align: center;
   font-weight: 700;
-  left: 30px;
-  top: -2px;
   cursor: pointer
 }
 .new-counter .counter div:hover{
