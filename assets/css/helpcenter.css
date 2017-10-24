@@ -49,6 +49,9 @@
   right: 0;
   top: 1px;
 }
+.nested-accordion h4.no-plus::before{
+  content: none
+}
 .nested-accordion h3.selected {
   color: #000;
 }

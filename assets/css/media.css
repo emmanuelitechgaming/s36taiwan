@@ -341,6 +341,7 @@ max-height: 170px;
     .breadcrumb-inner .sp-container img {
         width: 100%;
         margin-left: auto;
+        margin-right: auto;
         margin-top: 20px;
     }
     .live-game > .promo-c > .promo-txt h3 {
@@ -1781,7 +1782,10 @@ max-height: 170px;
       background: #2a2a2a url('../img/index/new-counter-jackpot-mobile.png') no-repeat;
       background-size: 100% 100%;
       background-position: 0 1px;
-      text-indent: 40px;
+      text-indent: 28px;
+      word-spacing: -3px;
+      letter-spacing: 12px;
+      font-size: 19px;
     }
     .new123b{
       margin: 15px 15px 0
@@ -1827,6 +1831,9 @@ max-height: 170px;
     .the-container{
       padding-left: 0;
       padding-right: 0
+    }
+    main .new-counter .marquee {
+      width: 85%;
     }
 }
 
@@ -3134,6 +3141,17 @@ max-height: 170px;
     }
     .m-fsalon ul li:nth-child(6) img{
       height: 55px
+    }
+    .new-counter .counter a{
+      width: 100%;
+      float: none;
+      background: #2a2a2a url('../img/index/new-counter-jackpot-mobile.png') no-repeat;
+      background-size: 100% 100%;
+      background-position: 0 1px;
+      text-indent: 38px;
+      word-spacing: -3px;
+      font-size: 24px;
+      letter-spacing: 16px;
     }
 }
 
@@ -5689,6 +5707,9 @@ width: 360px;
   .comment-inside{
     padding: 0 40px
   }
+  .tab27helpcenter{
+    padding-left: 20px
+  }
   .comment .flag-icon{
     margin-right: 5px;
   }
@@ -6093,6 +6114,9 @@ width: 360px;
     background-size: 100% 100%;
     background-position: 0 1px;
     text-indent: 43px;
+    word-spacing: -5px;
+    font-size: 24px;
+    letter-spacing: 16px;
   }
   .new123b .new123-inner::after{
     content: '';
@@ -6112,10 +6136,10 @@ width: 360px;
     top: 0;
   }
   .new123b .col-md-3:nth-child(2) .num{
-    right: 15px;
+    right: 0;
   }
   .new123b .col-md-3:nth-child(3) .num{
-    right: 15px;
+    right: 0;
   }
   .new123b .new123-inner-last a{
     top: 3px;
@@ -6123,6 +6147,19 @@ width: 360px;
   }
   .new123b {
     margin: 15px auto 0;
+  }
+  .breadcrumb-inner .sp-container img {
+    margin-right: 0;
+  }
+  .recent-winners .win-lot{
+    padding-left: 10px
+  }
+  .new123b .col-xs-4:nth-child(3) .new123-inner::after{
+    content: '';
+  }
+  .helpcenter-section .payment-form .form-captcha{
+    position: relative;
+    left: 47px
   }
 }
 
@@ -6309,7 +6346,7 @@ width: 360px;
         width: 132px;
     }
     .contactus ul {
-        padding-left: 15px;
+        padding-left: 5px;
     }
     .contactus ul li {
       padding-left: 0px;

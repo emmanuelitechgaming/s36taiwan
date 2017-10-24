@@ -323,7 +323,9 @@ main .live-container {
   display: block;
   white-space: nowrap;
 }
-
+#navbar-dekstop-collapse li a{
+  padding: 5px 12px 2px !important
+}
 main .gp-g {
     position: relative;
     top: -5px;
@@ -10832,6 +10834,14 @@ h5.title-inside{
   .one-winner .wrapper .info{
   padding-right: 5px;
 }
+.one-winner .yellow{
+  position: relative;
+  left: -77px;
+  text-indent: normal
+}
+.one-winner .numbers{
+  text-indent: 28px
+}
 .slots-winner li.clearfix{
   border-bottom: 1px solid transparent;
   padding: 16px 0;
@@ -10874,6 +10884,7 @@ h5.title-inside{
   background: #333;
   border: solid 1px #4a4a4a;
   top: 45px;
+  padding: 0 0
 }
 #navbar-dekstop-collapse::before{
   content: '';
@@ -11197,9 +11208,6 @@ h5.title-inside{
 .new123b .text{
   margin-left: 1px
 }
-.new123b .col-md-3:nth-child(2) .text, .new123b .col-md-3:nth-child(3) .text{
-  margin-left: -6px
-}
 .new-counter{
   position: relative;
 }
@@ -11243,11 +11251,8 @@ h5.title-inside{
 .new-counter .counter a{
   display: block;
   float: right;
-  font-size: 24px;
-  letter-spacing: 16px;
-  word-spacing: -5px;
   white-space: nowrap;
-  padding: 5px 0 1px;
+  padding: 3px 0 3px;
 }
 #myTargetElement, #myTargetElement2{
   color: #fff;
