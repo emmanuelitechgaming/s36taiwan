@@ -3175,7 +3175,9 @@ span.round-tab i {
     -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
             box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
 }
-
+.cs-modal .chatserver-form .csPhone-language button {
+  margin-bottom: 0;
+}
 .cs-modal .chatserver-form button::after, #cscall::after{
   content: '';
   display: inline-block;
@@ -7681,6 +7683,15 @@ button .flag-icon-kr::before {
     text-align: left;
     margin-bottom: 0;
 }
+.cs-modal .chatserver-form button.select-country-code:active, .cs-modal .chatserver-form button.select-country-code:focus {
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 38px;
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important
+}
 .select-country-code-dropdown .dropdown-menu {
     background-color: #333;
 }
@@ -7688,7 +7699,9 @@ button .flag-icon-kr::before {
 .select-country-code-dropdown .dropdown-menu>li>a {
     color: #fff
 }
-
+.select-country-code-dropdown .dropdown-menu>li>a:hover {
+  color: #000
+}
 .login-info-mobile {
     text-align: center;
     font-size: 25px;
@@ -10856,7 +10869,7 @@ h5.title-inside{
 }
 .one-winner .yellow{
   position: relative;
-  left: -72px;
+  left: -83px;
   text-indent: 0
 }
 .one-winner .numbers{
@@ -11272,4 +11285,65 @@ h5.title-inside{
 }
 .breadcrumb-inner-promo .panel{
   border: none
+}
+.right-icon{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url('../img/arrow-right-brown.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 2px;
+  margin-left: 3px
+}
+.cs-modal .chatserver-form .csPhone-language button{
+  width: 100%;
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 39px;
+  background-repeat: no-repeat;
+  background-position: right;
+  text-align: left;
+  font-size: 12px;
+  border: solid 1px #111;
+  -webkit-box-shadow: none;
+          box-shadow: none
+}
+.cs-modal .chatserver-form .csPhone-language button:active, .cs-modal .chatserver-form .csPhone-language button:focus{
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 39px;
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: solid 1px #111
+}
+.csPhone-language button .flag-icon{
+  margin-right: 5px
+}
+.csPhone-language button .flag-icon::before{
+  width: 25px;
+  height: 25px;
+  background: url('../img/flags/taiwan-nb.png');
+  background-size: cover;
+  margin-right: 5px
+}
+.csPhone-language .dropdown-menu{
+  background: #333;
+  width: 100%;
+}
+.csPhone-language .dropdown-menu li a{
+  color: #fff;
+  padding: 3px 10px
+}
+.csPhone-language .dropdown-menu li a:hover{
+  color: #000
+}
+.csPhone-language .dropdown-menu li a span{
+  margin-right: 15px
+}
+.cs-modal .chatserver-form button.select-country-code{
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important
 }

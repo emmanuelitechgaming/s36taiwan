@@ -1878,6 +1878,10 @@ max-height: 170px;
     .footer-sports .text{
       font-size: 13px;
     }
+    .container-in-afterlogin .col-xs-12{
+      padding-left: 0;
+      padding-right: 0;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2722,7 +2726,7 @@ max-height: 170px;
     }
     main .marquee {
         width: 320px;
-        left: 70px;
+        left: 56px;
         bottom: 8px;
     }
     main .new-counter .marquee{
@@ -3126,7 +3130,7 @@ max-height: 170px;
       left: 5px
     }
     .bago-afterlogin .boxer div span {
-      font-size: 12px;
+      font-size: 10px;
     }
     .bago-afterlogin .boxer{
       margin-bottom: 10px
@@ -3135,7 +3139,10 @@ max-height: 170px;
       margin-bottom: 0;
     }
     .bago-afterlogin{
-      padding: 10px 0
+      padding: 10px 0;
+      margin-top: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
     }
     .bago-afterlogin .boxer::after {
       right: 5%;
@@ -3146,7 +3153,7 @@ max-height: 170px;
       width: 32px
     }
     .bago-afterlogin::after{
-      left: 47%;
+      left: 49%;
     }
     .bago-afterlogin .col-md-3:nth-child(3) .boxer .step-txt, .bago-afterlogin .col-md-3:nth-child(4) .boxer .step-txt{
       position: relative;
@@ -3204,6 +3211,9 @@ max-height: 170px;
     }
     .casino-inside-content .sp-side-img img{
       width: 250px
+    }
+    .breadcrumb-inner .sp-container .sp-side-img img{
+      width: 250px 
     }
 }
 
@@ -4081,6 +4091,10 @@ max-height: 170px;
       width: 13px;
       height: 15px;
     }
+    .inside-buttons::after{
+      width: 16px;
+      height: 16px
+    }
     .lg-playnow.btn-hidden::after{
       width: 18px;
       height: 18px;
@@ -4241,6 +4255,9 @@ max-height: 170px;
   .mnav-top ul li:first-child::before {
     top: -16px;
     height: 32px;
+  }
+  .mnav-afterlogin ul li:first-child::before {
+    top: -9px
   }
   .m-fsalon ul li:nth-child(6) img {
       max-width: 50%;
@@ -4432,6 +4449,27 @@ max-height: 170px;
   }
   .logo-area .col-xs-6{
     text-align: center;
+  }
+  .wallet.acc-info .form-horizontal .country-code-wrapper .form-control {
+    width: 38%;
+    position: relative;
+    left: -35px
+  }
+  .cntrycode {
+    left: -50px;
+  }
+  .country-code-wrapper .hidden-xs{
+    position: relative;
+    left: -35px
+  }
+  .new123b .new123-inner::after {
+    right: 30px;
+  }
+  .new123b .col-xs-4:nth-child(2) .new123-inner::after {
+    right: 30px;
+  }
+  .breadcrumb-inner .sp-container .sp-side-img img{
+    width: 250px
   }
 }
 
@@ -5219,7 +5257,6 @@ width: 360px;
       display: inline-block;
       margin-bottom: 10px;
       text-align: center;
-      width: 233px;
       padding-top: 2px;
       padding-bottom: 2px
     }
@@ -5799,6 +5836,9 @@ width: 360px;
   .cs-modal .chatserver-form button {
       padding: 2px 15px;
   }
+  .cs-modal .chatserver-form .csPhone-language button {
+    padding: 6px 15px
+  }
   .notice-dialog th:nth-child(2){
     width: 65%
   }
@@ -5810,6 +5850,12 @@ width: 360px;
   }
   .cs-modal#demoModal .chatserver-form button, .cs-modal .chatserver-form button.select-country-code, #csPhone #csCallselectflag {
     width: 220px;
+  }
+  #csPhone #csCallselectflag{
+    width: 100%
+  }
+  .cs-modal .chatserver-form button.select-country-code{
+    width: 100%;
   }
   .dl-body{
     padding-left: 15px;
@@ -5996,7 +6042,7 @@ width: 360px;
     padding: 0 10px;
   }
   .select-country-code-dropdown .dropdown-menu {
-      min-width: 220px;
+      width: 100%
   }
   .the_modal_footer{
     text-align: left;
@@ -6164,6 +6210,8 @@ width: 360px;
   }
   .bago-afterlogin {
     padding: 8px 0;
+    margin-top: 0;
+    margin: 0 auto
   }
   footer .footer-line::before{
     content: '';
@@ -6334,6 +6382,22 @@ width: 360px;
   }
   .footer-sports .col-md-4:nth-child(3) .img {
     width: 45px;
+  }
+  .wallet.acc-info .form-horizontal .country-code-wrapper .form-control {
+    width: auto;
+    position: relative;
+    left: 0
+  }
+  .cntrycode {
+    left: -41px;
+  }
+  .country-code-wrapper .hidden-xs{
+    position: relative;
+    left: 0
+  }
+  .inside-buttons::after{
+    width: 16px;
+    height: 16px
   }
 }
 
@@ -6897,13 +6961,13 @@ right: 2px;
     bottom: 2px;
   }
   .new123b .new123-inner::after{
-    right: 0;
+    right: -15px;
   }
   .new123-inner-last a{
     width: 233px;
   }
   .new123b .col-xs-4:nth-child(2) .new123-inner::after {
-    right: -2px;
+    right: -15px;
   }
   .new-counter .counter a{
     width: 388px;
