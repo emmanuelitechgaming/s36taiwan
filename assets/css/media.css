@@ -1865,6 +1865,9 @@ max-height: 170px;
       margin-top: 0;
       margin-bottom: 10px
     }
+    .promo-section .inside-buttons{
+      margin-bottom: 0;
+    }
 }
 
 @media only screen and (min-width: 360px) {
