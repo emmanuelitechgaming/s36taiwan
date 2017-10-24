@@ -11009,7 +11009,7 @@ h5.title-inside{
 .y-promo-tab ul li{
   display: inline-block;
   margin: 12px 0;
-  margin-right: 5px;
+  margin-right: 20px;
   min-width: 96px
 }
 .y-promo-tab ul li a{
@@ -11017,9 +11017,10 @@ h5.title-inside{
   text-align: center;
   background: #111;
   color: #fff;
-  padding: 8px 22px;
+  padding: 6px 22px;
   border-radius: 20px;
   font-size: 13px;
+  width: 104px
 }
 .y-promo-tab ul li.active a{
   background: #fba601;

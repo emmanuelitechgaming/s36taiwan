@@ -3177,6 +3177,9 @@ max-height: 170px;
       font-size: 24px;
       letter-spacing: 16px;
     }
+    .winner-breadcrumb-inner .netbet ul li a {
+      width: 175px
+    }
 }
 
 
