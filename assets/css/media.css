@@ -1017,8 +1017,8 @@ max-height: 170px;
       padding-right: 0;
     }
     .tdw-button button{
-      display: block;
-      width: 100%;
+      display: inline-block;
+      width: 233px;
     }
     .themorebaccarat{
       padding-left: 0;
