@@ -3058,7 +3058,7 @@ max-height: 170px;
     }
     .jumbo {
         top: 16px;
-        left: 99px;
+        left: 90px;
         font-size: 19px;
     }
     .absolute-play {
@@ -3213,7 +3213,7 @@ max-height: 170px;
       width: 250px
     }
     .breadcrumb-inner .sp-container .sp-side-img img{
-      width: 250px 
+      width: 250px
     }
 }
 
@@ -4079,10 +4079,10 @@ max-height: 170px;
     }
     main .marquee-mobile {
         width: 490px;
-        left: 175px;
+        left: 150px;
     }
     .jumbo {
-        left: 225px
+        left: 210px
     }
     .promo-ins-desc ul {
     bottom: 25%;
@@ -4470,6 +4470,39 @@ max-height: 170px;
   }
   .breadcrumb-inner .sp-container .sp-side-img img{
     width: 250px
+  }
+  .bago-afterlogin {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px
+  }
+  .bago-afterlogin::after {
+    content: none
+  }
+  .bago-afterlogin .boxer::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 93%;
+    width: 2px;
+    height: 100%;
+    background: #000;
+    border-right: 1px solid #3e3e3e
+  }
+  .bago-afterlogin .col-md-3:nth-child(3) .boxer::after{
+    content: '';
+  }
+  .bago-afterlogin .col-md-3:nth-child(4) .boxer::after{
+    content: none;
+  }
+  .bago-afterlogin .col-xs-6{
+    padding: 0 0;
+  }
+  .bago-afterlogin .boxer{
+    text-align: left;
   }
 }
 
@@ -6159,7 +6192,7 @@ width: 360px;
     text-align: left;
   }
   main .jacpot-nus {
-      left: 67px
+      left: 37px
   }
   .bago-afterlogin .boxer .step-no{
     width: 33px;
@@ -6209,6 +6242,7 @@ width: 360px;
     text-align: left;
   }
   .bago-afterlogin {
+    width: 100%;
     padding: 8px 0;
     margin-top: 0;
     margin: 0 auto
@@ -6398,6 +6432,14 @@ width: 360px;
   .inside-buttons::after{
     width: 16px;
     height: 16px
+  }
+  .bago-afterlogin .col-md-3:last-child .boxer{
+    content: none !important
+  }
+  .marquee-jackpot-inner::before{
+    top: 17px;
+    bottom: 5px;
+    right: -55px;
   }
 }
 
@@ -7011,5 +7053,13 @@ right: 2px;
   }
   .footer-sports .img {
     width: 35px;
+  }
+  main .jacpot-nus {
+    left: 67px;
+  }
+  .marquee-jackpot-inner::before{
+    top: 22px;
+    bottom: 5px;
+    right: -80px;
   }
 }
