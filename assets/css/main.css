@@ -10779,7 +10779,10 @@ h5.title-inside{
 .mobile-jackpot-winner ul li ul li{
   float: left;
   width: 50%;
-  text-align: center;
+  text-align: left;
+}
+.mobile-jackpot-winner ul li ul li:nth-child(1){
+  padding-left: 10px
 }
 .mobile-jackpot-winner .one-winner ul li{
   margin: 0;
@@ -10835,16 +10838,20 @@ h5.title-inside{
   font-weight: 700;
   font-size: 14px
 }
-  .one-winner .wrapper .info{
+.one-winner .wrapper .info{
   padding-right: 5px;
+}
+.one-winner .wrapper .info div:last-child{
+  position: relative;
+  left: 5px
 }
 .one-winner .yellow{
   position: relative;
-  left: -77px;
+  left: -72px;
   text-indent: 0
 }
 .one-winner .numbers{
-  text-indent: 28px
+  text-indent: 29px
 }
 .slots-winner li.clearfix{
   border-bottom: 1px solid transparent;
@@ -10859,7 +10866,10 @@ h5.title-inside{
   background: none
 }
 .slots-winner .yellow{
-  font-size: 13px
+  font-size: 13px;
+}
+.slots-winner ul li ul li:last-child .yellow{
+  margin-right: 27px
 }
 .lotto-body-mobile{
   padding-right: 0;

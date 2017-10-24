@@ -1002,7 +1002,7 @@ $('.one-winner .flexslider').flexslider({
   slideshowSpeed: '3000',
   controlNav: false,
   directionNav: false,
-  touch: false
+  touch: false,
 });
 
   $(window).scroll(function() {
