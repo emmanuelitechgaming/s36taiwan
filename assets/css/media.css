@@ -1756,7 +1756,8 @@ max-height: 170px;
       margin-bottom: 20px
     }
     .footer-sports .text{
-      width: 240px
+      width: 240px;
+      min-width: 175px
     }
     .promo-tabs{
       margin: 0 10px;
@@ -1867,6 +1868,15 @@ max-height: 170px;
     }
     .promo-section .inside-buttons{
       margin-bottom: 0;
+    }
+    .footer-sports .img{
+      width: 35px;
+    }
+    .footer-sports .col-md-4:nth-child(3) .img{
+      width: 45px;
+    }
+    .footer-sports .text{
+      font-size: 13px;
     }
 }
 
@@ -3192,6 +3202,9 @@ max-height: 170px;
     .inside-buttons::after{
       width: 16px;
     }
+    .casino-inside-content .sp-side-img img{
+      width: 250px
+    }
 }
 
 
@@ -4249,7 +4262,7 @@ max-height: 170px;
     display: block;
   }
   .contact-title li{
-    margin: 0 0
+    margin: 0 19px
   }
   .m-fsalon ul li{
     margin: 0 10px !important
@@ -4389,6 +4402,36 @@ max-height: 170px;
     background: url('../img/underline4.png') no-repeat;
     background-size: 93% 1px;
     background-position: 70% 0;
+  }
+  .contact-title li a {
+    width: 43px;
+    height: 43px;
+  }
+  .contact-title .flag-icon::before, .contact-title .active .flag-icon:hover::before {
+    width: 43px;
+    height: 43px;
+  }
+  .footer-sports .text {
+    width: auto;
+    min-width: inherit;
+  }
+  .footer-sports .text{
+    font-size: 11px;
+  }
+  .footer-sports .img {
+    width: 30px;
+  }
+  .footer-sports .col-md-4:nth-child(3) .img {
+    width: 40px;
+  }
+  .tdw-slots .col-md-3 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .logo-area .col-xs-6{
+    text-align: center;
   }
 }
 
@@ -5392,7 +5435,7 @@ width: 360px;
 }
   .header-mobile-logo {
     margin-left: -15px;
-}
+  }
   .header-cs {
     right: 1%;
 }
@@ -5892,7 +5935,7 @@ width: 360px;
     display: block;
     width: 100%;
   }
-  #m-selectpicker2-collapse{
+  #m-selectpicker2-collapse {
     left: 87%;
     right: 0%;
   }
@@ -6282,6 +6325,15 @@ width: 360px;
   }
   .today-winner .td-week{
     padding: 10px 10px
+  }
+  main .win-body {
+      min-height: 258px;
+  }
+  .footer-sports .img {
+    width: 35px;
+  }
+  .footer-sports .col-md-4:nth-child(3) .img {
+    width: 45px;
   }
 }
 
@@ -6880,5 +6932,20 @@ right: 2px;
     left: 30px;
     top: -2px;
     font-size: 14px
+  }
+  .footer-sports .img{
+    width: 35px;
+  }
+  .footer-sports .col-md-4:nth-child(3) .img{
+    width: 45px;
+  }
+  .footer-sports .text {
+    width: 240px;
+  }
+  .footer-sports .text{
+    font-size: 13px;
+  }
+  .footer-sports .img {
+    width: 35px;
   }
 }

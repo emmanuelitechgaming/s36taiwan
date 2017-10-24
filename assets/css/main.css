@@ -452,7 +452,6 @@ main .winner {
 main .win-body {
     background: #161616;
     overflow: hidden;
-    min-height: 258px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     position: relative;
@@ -7602,7 +7601,15 @@ button .flag-icon-kr::before {
     width: 29px;
     display: inline-block;
 }
-
+#navbar-dekstop-collapse li a img{
+  width: 25px;
+  position: relative;
+  right: -1px
+}
+#navbar-dekstop-collapse li:nth-child(2) a img{
+  width: 26px;
+  right: 0;
+}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li a span {
     display: inline-block;
     position: relative;
@@ -10625,7 +10632,8 @@ h5.title-inside{
   left: 0;
   right: 0;
   height: 28px;
-  background: url('../img/index/the-shadow.png') no-repeat
+  background: url('../img/index/the-shadow.png') no-repeat;
+  background-size: 100% 28px;
 }
 .promo-home .title{
   position: absolute;
@@ -10699,6 +10707,7 @@ h5.title-inside{
 .wallet.acc-info .form-horizontal .sec-code{
   color: #fba601;
   text-decoration: underline;
+  white-space: nowrap;
 }
 .wallet.acc-info .form-horizontal label.col-md-1{
   left: -12px;
@@ -11072,17 +11081,10 @@ h5.title-inside{
   display: inline-block;
   vertical-align: middle;
 }
-.footer-sports .img{
-  width: 35px;
-}
-.footer-sports .col-md-4:nth-child(3) .img{
-  width: 45px;
-}
 .footer-sports .text{
   color: #fff;
   text-align: center;
   margin-left: 5px;
-  font-size: 13px;
   max-width: 174px;
   letter-spacing: 1.5px
 }
