@@ -5723,7 +5723,7 @@ width: 360px;
     padding: 0 20px;
   }
   .netbet.hold ul li a{
-    padding: 6px 70px !important;
+    padding: 6px 0 !important;
   }
   .netbet.hold, .netbet.hold div.col-md-12{
     padding-left: 15px;
@@ -6563,8 +6563,8 @@ main .new-counter .marquee{
     height: auto;
   }
   .winner-breadcrumb-inner .col-xs-12.netbet{
-    width: 1177px;
-    margin-left: 10px;
+    display: block;
+    width: 100%;
   }
   .flexslider-fade .content div{
     font-size: 14px;
