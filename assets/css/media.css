@@ -1859,6 +1859,12 @@ max-height: 170px;
     .today-winner .td-week{
       padding: 10px 18px
     }
+    .inside-buttons{
+      display: inline-block;
+      width: 233px;
+      margin-top: 0;
+      margin-bottom: 10px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3179,6 +3185,9 @@ max-height: 170px;
     }
     .winner-breadcrumb-inner .netbet ul li a {
       width: 175px
+    }
+    .inside-buttons::after{
+      width: 16px;
     }
 }
 
