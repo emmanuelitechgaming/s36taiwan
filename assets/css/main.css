@@ -11128,7 +11128,7 @@ h5.title-inside{
   background: #000;
   border-right: 1px solid #333
 }
-.new123-inner .num, .new123-inner .text{
+.new123-inner .num, .new123-inner .text, .new123-inner .img{
   display: inline-block;
   vertical-align: middle;
 }
@@ -11236,6 +11236,9 @@ h5.title-inside{
 }
 .new123b .text{
   margin-left: 1px
+}
+.new123afterlogin .img{
+  width: 33px
 }
 .new-counter{
   position: relative;
@@ -11346,4 +11349,8 @@ h5.title-inside{
 .cs-modal .chatserver-form button.select-country-code{
   -webkit-box-shadow: none !important;
           box-shadow: none !important
+}
+.sp-side-img{
+  width: 250px;
+  margin: 0 auto
 }

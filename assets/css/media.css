@@ -1791,6 +1791,9 @@ max-height: 170px;
     .new123b{
       margin: 15px 15px 0
     }
+    .new123afterlogin{
+      padding: 0 0
+    }
     .new123b .col-xs-4{
       padding-left: 10px;
       padding-right: 10px;
@@ -1805,6 +1808,9 @@ max-height: 170px;
       background: #2a2a2a;
       right: -7px;
       height: 31px;
+    }
+    .new123afterlogin .new123-inner::after{
+      content: none
     }
     .new123b .col-xs-4:nth-child(2) .new123-inner::after{
       right: -2px
@@ -1828,6 +1834,12 @@ max-height: 170px;
     .new123b .new123-inner-last a{
       top: 0;
       margin-top: 10px;
+    }
+    .new123afterlogin .col-md-3{
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px
     }
     .the-container{
       padding-left: 0;
@@ -6441,6 +6453,15 @@ width: 360px;
     bottom: 5px;
     right: -55px;
   }
+  .new123afterlogin{
+    padding: 10px 0
+  }
+  .new123afterlogin .col-md-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
 
 @media (min-width: 1200px){
@@ -7061,5 +7082,11 @@ right: 2px;
     top: 22px;
     bottom: 5px;
     right: -80px;
+  }
+  .bago-afterlogin {
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 0;
+    margin: 0 auto
   }
 }
