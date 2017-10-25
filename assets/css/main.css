@@ -3172,7 +3172,18 @@ span.round-tab i {
 .cs-modal .chatserver-form .csPhone-language button {
   margin-bottom: 0;
 }
-.cs-modal .chatserver-form button::after, #cscall::after{
+.cs-modal .chatserver-form button::after{
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url('../img/arrow-right-30.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 2px;
+}
+
+#cscall::after{
   content: '' !important;
   display: inline-block;
   width: 17px;
@@ -10853,11 +10864,9 @@ h5.title-inside{
 }
 .one-winner .wrapper .info div:last-child{
   position: relative;
-  left: 5px
 }
 .one-winner .yellow{
   position: relative;
-  left: -83px;
   text-indent: 0
 }
 .one-winner .numbers{
@@ -10869,17 +10878,14 @@ h5.title-inside{
   background: url('../img/underline2.png')  no-repeat;
   background-size: 100% 1px;
   background-position: bottom;
-  font-size: 18px;
   letter-spacing: 1px;
+  font-size: 18px;
 }
 .slots-winner li.clearfix:last-child{
   background: none
 }
 .slots-winner .yellow{
   font-size: 13px;
-}
-.slots-winner ul li ul li:last-child .yellow{
-  margin-right: 27px
 }
 .lotto-body-mobile{
   padding-right: 0;

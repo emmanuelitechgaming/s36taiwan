@@ -1644,6 +1644,8 @@ max-height: 170px;
     .add-main-screen{
       background-size: 20px 20px;
       background-position: 4%;
+      font-size: 12px;
+      text-indent: 20px;
     }
     .select-country-code-dropdown .dropdown-menu {
         min-width: 100%;
@@ -1910,6 +1912,18 @@ max-height: 170px;
     .new123afterlogin .img{
       width: 28px
     }
+    .slots-winner ul li ul li:last-child .yellow{
+      margin-right: 0px
+    }
+    .one-winner .yellow{
+      left: -67px;
+    }
+    .one-winner .wrapper .info div:last-child{
+      left: -2px
+    }
+    .bago-pages-dl .boxer div.step-txt{
+      padding: 5px 0 5px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2163,6 +2177,15 @@ max-height: 170px;
       transform:scale(0.9) !important;
       -webkit-transform:scale(0.9) !important;
     }
+    #csMsg .g-recaptcha, #csPhone .g-recaptcha{
+      transform:scale(1) !important;
+      -webkit-transform:scale(1) !important;
+    }
+    #csMsg .form-recap, #csPhone .form-recap{
+      margin-left: -15px;
+      margin-right: -15px;
+      text-align: center
+    }
     .td-week-netbet-holder{
       font-size: 13px
     }
@@ -2186,8 +2209,9 @@ max-height: 170px;
       max-height: 341px;
     }
     .malupet-nanaman {
-      padding: 4px 0px 3px 0px;
-      border-bottom: 1px solid #4a4a4a
+      padding: 0 0 0 0;
+      border-bottom: 1px solid #4a4a4a;
+      min-height: 175px;
     }
     .malupet-nanaman-afterlogin {
       padding: 25px 0px 25px 0px;
@@ -2206,10 +2230,10 @@ max-height: 170px;
       -webkit-transform-origin:0 0 !important;
     }
     .logo-area-content .img{
-      width: 35px
+      width: 30px
     }
     .logo-area-content .text{
-      font-size: 12px;
+      font-size: 11px;
     }
     .lotto-button-m{
       top: 115px;
@@ -2614,6 +2638,15 @@ max-height: 170px;
       letter-spacing: 14px;
       font-size: 23px;
     }
+    .slots-winner ul li ul li:last-child .yellow{
+      margin-right: 8px
+    }
+    .one-winner .yellow{
+      left: -73px;
+    }
+    .one-winner .wrapper .info div:last-child{
+      left: 0px
+    }
 }
 
 
@@ -2935,6 +2968,8 @@ max-height: 170px;
     .add-main-screen{
       background-size: 22px 22px;
       background-position: 4%;
+      font-size: 14px;
+      text-indent: 0
     }
     .the_modal_footer{
       text-align: center;
@@ -2972,6 +3007,15 @@ max-height: 170px;
     }
     .new123b .new123-inner::after{
       height: 28px
+    }
+    .slots-winner ul li ul li:last-child .yellow {
+      margin-right: 26px;
+    }
+    .one-winner .yellow{
+      left: -84px;
+    }
+    .one-winner .wrapper .info div:last-child{
+      left: 4px
     }
 }
 
@@ -3172,6 +3216,7 @@ max-height: 170px;
     }
     #csMsg .form-recap, #csPhone .form-recap{
       margin-left: 0;
+      margin-right: 0;
     }
     .live-game.lg-angel-demon img{
       bottom: 12px;
@@ -3354,6 +3399,15 @@ max-height: 170px;
     .new123afterlogin .col-md-3{
       padding-left: 10px;
       padding-right: 10px;
+    }
+    .slots-winner ul li ul li:last-child .yellow{
+      margin-right: 27px
+    }
+    .one-winner .yellow{
+      left: -83px;
+    }
+    .one-winner .wrapper .info div:last-child{
+      left: 5px
     }
 }
 
