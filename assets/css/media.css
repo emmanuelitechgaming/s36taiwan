@@ -3269,6 +3269,16 @@ max-height: 170px;
     main .borderstyle-slots{
       margin: -27px 4px 20px
     }
+    main .borderstyle-dl{
+      margin: 5px 8px 20px
+    }
+    main .borderstyle-promo{
+      margin: -30px 0px 20px;
+    }
+    .malupet-nanaman {
+      padding: 1px 0px 0px 0px;
+      border-bottom: 1px solid #4a4a4a
+    }
 }
 
 
@@ -4586,6 +4596,8 @@ max-height: 170px;
     background-position: 150px 0;
     background-size: contain;
     margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   .bs-slider-overlay {
       position: absolute;
@@ -5539,6 +5551,12 @@ width: 360px;
     .logo-for-ipad{
       display: block !important
     }
+    .navbar-header.header-mobile{
+      margin-bottom: 15px
+    }
+    .carousel .banner-text{
+      right: 1.5%;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -5561,8 +5579,8 @@ width: 360px;
 }
   .banner-overlay{
     top: 0;
-    right: -63%;
-    width: 350px;
+    right: -58%;
+    width: 346px;
     height: 265px;
   }
   .malupet-nanaman {
@@ -5603,11 +5621,10 @@ width: 360px;
     max-width: inherit !important
   }
   .slots-breadcrumb-inner .col-xs-12{
-    width: 309px;
     height: auto;
   }
   .slots-breadcrumb-inner .col-xs-12.netbet{
-    width: 94%;
+    width: 96.8%;
     height: auto;
   }
   .flexslider-fade .content div{
@@ -6071,7 +6088,7 @@ width: 360px;
     font-weight: normal !important;
   }
   .mnav-top ul{
-    bottom: 5px
+    bottom: 0px
   }
   .mnav-afterlogin ul{
     bottom: 10px
@@ -6546,6 +6563,12 @@ width: 360px;
   }
   main .borderstyle-slots{
     margin: 10px 0 20px
+  }
+  main .borderstyle-dl{
+    margin: 23px 8px 20px
+  }
+  main .borderstyle-promo{
+    margin: -20px 0px 20px;
   }
 }
 
@@ -7179,5 +7202,8 @@ right: 2px;
   }
   .logo-for-ipad{
     display: none !important
+  }
+  .carousel .banner-text{
+    right: 5%;
   }
 }
