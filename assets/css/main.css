@@ -452,7 +452,6 @@ main .winner {
 main .win-body {
     background: #161616;
     overflow: hidden;
-    min-height: 258px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     position: relative;
@@ -3176,7 +3175,9 @@ span.round-tab i {
     -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
             box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
 }
-
+.cs-modal .chatserver-form .csPhone-language button {
+  margin-bottom: 0;
+}
 .cs-modal .chatserver-form button::after, #cscall::after{
   content: '';
   display: inline-block;
@@ -7602,7 +7603,15 @@ button .flag-icon-kr::before {
     width: 29px;
     display: inline-block;
 }
-
+#navbar-dekstop-collapse li a img{
+  width: 25px;
+  position: relative;
+  right: -1px
+}
+#navbar-dekstop-collapse li:nth-child(2) a img{
+  width: 26px;
+  right: 0;
+}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li a span {
     display: inline-block;
     position: relative;
@@ -7674,6 +7683,15 @@ button .flag-icon-kr::before {
     text-align: left;
     margin-bottom: 0;
 }
+.cs-modal .chatserver-form button.select-country-code:active, .cs-modal .chatserver-form button.select-country-code:focus {
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 38px;
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important
+}
 .select-country-code-dropdown .dropdown-menu {
     background-color: #333;
 }
@@ -7681,7 +7699,9 @@ button .flag-icon-kr::before {
 .select-country-code-dropdown .dropdown-menu>li>a {
     color: #fff
 }
-
+.select-country-code-dropdown .dropdown-menu>li>a:hover {
+  color: #000
+}
 .login-info-mobile {
     text-align: center;
     font-size: 25px;
@@ -7835,7 +7855,7 @@ button .flag-icon-kr::before {
     border: none;
     color: #000;
     font-weight: 700;
-    padding: 5px 45px;
+    padding: 4px 45px;
     font-size: 16px;
     border-radius: 20px;
 }
@@ -7975,13 +7995,18 @@ margin-right: 23px;
   cursor: pointer;
   -webkit-transition-property: border-color,color;
   background: 000 url('../img/underline4.png') no-repeat;
-  background-size: 100% 1px;
+  background-size: 88% 1px;
   background-position: 70% 0%;
   line-height: 38px;
   padding: 5px 39px !important;
 }
 .nav-slide .navbar-nav li:nth-child(1) a{
   height: auto;
+}
+.nav-slide .navbar-nav li:nth-child(2) a{
+  background: 000 url('../img/underline4.png') no-repeat;
+  background-size: 100% 1px;
+  background-position: 70% 0%;
 }
 .nav-slide-inner li a{
   margin-left: 15px;
@@ -10053,7 +10078,6 @@ height: 30px!important;
 .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
   padding: 20px 20px 20px 50px;
   border-bottom: 1px solid #000;
-  border-top: 1px solid #000
 }
 .add-main-screen{
   display: block;
@@ -10621,7 +10645,8 @@ h5.title-inside{
   left: 0;
   right: 0;
   height: 28px;
-  background: url('../img/index/the-shadow.png') no-repeat
+  background: url('../img/index/the-shadow.png') no-repeat;
+  background-size: 100% 28px;
 }
 .promo-home .title{
   position: absolute;
@@ -10695,6 +10720,7 @@ h5.title-inside{
 .wallet.acc-info .form-horizontal .sec-code{
   color: #fba601;
   text-decoration: underline;
+  white-space: nowrap;
 }
 .wallet.acc-info .form-horizontal label.col-md-1{
   left: -12px;
@@ -10775,7 +10801,10 @@ h5.title-inside{
 .mobile-jackpot-winner ul li ul li{
   float: left;
   width: 50%;
-  text-align: center;
+  text-align: left;
+}
+.mobile-jackpot-winner ul li ul li:nth-child(1){
+  padding-left: 10px
 }
 .mobile-jackpot-winner .one-winner ul li{
   margin: 0;
@@ -10831,16 +10860,20 @@ h5.title-inside{
   font-weight: 700;
   font-size: 14px
 }
-  .one-winner .wrapper .info{
+.one-winner .wrapper .info{
   padding-right: 5px;
+}
+.one-winner .wrapper .info div:last-child{
+  position: relative;
+  left: 5px
 }
 .one-winner .yellow{
   position: relative;
-  left: -77px;
-  text-indent: normal
+  left: -83px;
+  text-indent: 0
 }
 .one-winner .numbers{
-  text-indent: 28px
+  text-indent: 29px
 }
 .slots-winner li.clearfix{
   border-bottom: 1px solid transparent;
@@ -10855,7 +10888,10 @@ h5.title-inside{
   background: none
 }
 .slots-winner .yellow{
-  font-size: 13px
+  font-size: 13px;
+}
+.slots-winner ul li ul li:last-child .yellow{
+  margin-right: 27px
 }
 .lotto-body-mobile{
   padding-right: 0;
@@ -11005,7 +11041,7 @@ h5.title-inside{
 .y-promo-tab ul li{
   display: inline-block;
   margin: 12px 0;
-  margin-right: 5px;
+  margin-right: 20px;
   min-width: 96px
 }
 .y-promo-tab ul li a{
@@ -11013,9 +11049,10 @@ h5.title-inside{
   text-align: center;
   background: #111;
   color: #fff;
-  padding: 8px 22px;
+  padding: 6px 22px;
   border-radius: 20px;
   font-size: 13px;
+  width: 104px
 }
 .y-promo-tab ul li.active a{
   background: #fba601;
@@ -11057,17 +11094,10 @@ h5.title-inside{
   display: inline-block;
   vertical-align: middle;
 }
-.footer-sports .img{
-  width: 35px;
-}
-.footer-sports .col-md-4:nth-child(3) .img{
-  width: 45px;
-}
 .footer-sports .text{
   color: #fff;
   text-align: center;
   margin-left: 5px;
-  font-size: 13px;
   max-width: 174px;
   letter-spacing: 1.5px
 }
@@ -11098,7 +11128,7 @@ h5.title-inside{
   background: #000;
   border-right: 1px solid #333
 }
-.new123-inner .num, .new123-inner .text{
+.new123-inner .num, .new123-inner .text, .new123-inner .img{
   display: inline-block;
   vertical-align: middle;
 }
@@ -11145,7 +11175,6 @@ h5.title-inside{
   background: #fba601;
   font-weight: 700;
   font-size: 17px;
-  width: 233px;
   border-radius: 5px;
   position: relative;
   top: 10px;
@@ -11208,6 +11237,9 @@ h5.title-inside{
 .new123b .text{
   margin-left: 1px
 }
+.new123afterlogin .img{
+  width: 33px
+}
 .new-counter{
   position: relative;
 }
@@ -11220,7 +11252,6 @@ h5.title-inside{
 }
 .marquee-wrapper .img{
   width: 25px;
-  margin: 0 15px 0 0;
   position: relative;
   top: 1px;
   cursor: pointer;
@@ -11235,8 +11266,6 @@ h5.title-inside{
   position: absolute;
   text-align: center;
   font-weight: 700;
-  left: 30px;
-  top: -2px;
   cursor: pointer
 }
 .new-counter .counter div:hover{
@@ -11259,4 +11288,69 @@ h5.title-inside{
 }
 .breadcrumb-inner-promo .panel{
   border: none
+}
+.right-icon{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url('../img/arrow-right-brown.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 2px;
+  margin-left: 3px
+}
+.cs-modal .chatserver-form .csPhone-language button{
+  width: 100%;
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 39px;
+  background-repeat: no-repeat;
+  background-position: right;
+  text-align: left;
+  font-size: 12px;
+  border: solid 1px #111;
+  -webkit-box-shadow: none;
+          box-shadow: none
+}
+.cs-modal .chatserver-form .csPhone-language button:active, .cs-modal .chatserver-form .csPhone-language button:focus{
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 39px;
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: solid 1px #111
+}
+.csPhone-language button .flag-icon{
+  margin-right: 5px
+}
+.csPhone-language button .flag-icon::before{
+  width: 25px;
+  height: 25px;
+  background: url('../img/flags/taiwan-nb.png');
+  background-size: cover;
+  margin-right: 5px
+}
+.csPhone-language .dropdown-menu{
+  background: #333;
+  width: 100%;
+}
+.csPhone-language .dropdown-menu li a{
+  color: #fff;
+  padding: 3px 10px
+}
+.csPhone-language .dropdown-menu li a:hover{
+  color: #000
+}
+.csPhone-language .dropdown-menu li a span{
+  margin-right: 15px
+}
+.cs-modal .chatserver-form button.select-country-code{
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important
+}
+.sp-side-img{
+  width: 250px;
+  margin: 0 auto
 }
