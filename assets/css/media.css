@@ -1894,6 +1894,13 @@ max-height: 170px;
       padding-left: 0;
       padding-right: 0;
     }
+    .tdw-slots .col-md-3 {
+      min-height: 300px;
+      margin: 20px 0
+    }
+    .myaccount-change-pass{
+      margin-top: 10px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3237,6 +3244,30 @@ max-height: 170px;
     #registerModal .g-recaptcha{
       -webkit-transform: scale(1);
               transform: scale(1);
+    }
+    .tdw-slots .col-md-3 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .tdw-slots .col-md-3 {
+      min-height: auto;
+      margin: 10px 0
+    }
+    .tdw-body.tdw-slots.more-winner{
+      padding: 1px 1px
+    }
+    .today-more-winner{
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .myaccount-change-pass{
+      margin-top: 15px
+    }
+    main .borderstyle-casino  {
+        margin: -26px 2px 20px
+    }
+    main .borderstyle-slots{
+      margin: -27px 4px 20px
     }
 }
 
@@ -5502,6 +5533,12 @@ width: 360px;
       padding-right: 0;
       padding-left: 19px;
     }
+    .not-logo-for-ipad{
+      display: none !important;
+    }
+    .logo-for-ipad{
+      display: block !important
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -6497,6 +6534,19 @@ width: 360px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
+  .tdw-slots .col-md-3 {
+    min-height: 300px;
+    margin: 20px auto;
+  }
+  .myaccount-change-pass{
+    margin-top: 10px
+  }
+  main .borderstyle-casino  {
+      margin: -9px 6px 20px
+  }
+  main .borderstyle-slots{
+    margin: 10px 0 20px
+  }
 }
 
 @media (min-width: 1200px){
@@ -7123,5 +7173,11 @@ right: 2px;
     padding: 8px 0;
     margin-top: 0;
     margin: 0 auto
+  }
+  .not-logo-for-ipad{
+    display: block !important;
+  }
+  .logo-for-ipad{
+    display: none !important
   }
 }

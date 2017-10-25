@@ -370,9 +370,6 @@ main .borderstyle-lotto {
 main .borderstyle-promo{
   margin: -20px 0px 20px;
 }
-main .borderstyle-slots{
-  margin: 3px 0 20px
-}
 main .borderstyle-casino  {
     margin: -9px 6px 20px
 }
@@ -812,6 +809,9 @@ div.border:before {
     overflow: hidden;
     /*background: #1b1a1a;*/
     margin-bottom: 15px;
+}
+.winner-breadcrumb-inner{
+  margin-bottom: 0;
 }
 .dl-content .breadcrumb-inner{
   margin-bottom: 0;
@@ -3179,7 +3179,7 @@ span.round-tab i {
   margin-bottom: 0;
 }
 .cs-modal .chatserver-form button::after, #cscall::after{
-  content: '';
+  content: '' !important;
   display: inline-block;
   width: 17px;
   height: 17px;
@@ -7842,11 +7842,6 @@ button .flag-icon-kr::before {
 
 .tdw1 ul li:nth-child(4) {
     background: #575757
-}
-
-.tdw-slots .col-md-3 {
-    min-height: 300px;
-    margin: 20px 0
 }
 
 .tdw-button button {
