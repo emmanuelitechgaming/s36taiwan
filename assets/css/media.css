@@ -3117,7 +3117,10 @@ max-height: 170px;
       margin-right: 86px;
     }
     #csMsg .g-recaptcha, #csPhone .g-recaptcha {
-      left: -22px;
+      left: 0
+    }
+    #csMsg .form-recap, #csPhone .form-recap{
+      margin-left: 0;
     }
     .live-game.lg-angel-demon img{
       bottom: 12px;
@@ -3226,6 +3229,14 @@ max-height: 170px;
     }
     .breadcrumb-inner .sp-container .sp-side-img img{
       width: 250px
+    }
+    #registerModal .form-recap {
+      left: 0;
+      text-align: center;
+    }
+    #registerModal .g-recaptcha{
+      -webkit-transform: scale(1);
+              transform: scale(1);
     }
 }
 
@@ -3982,7 +3993,7 @@ max-height: 170px;
     right: 30%
   }
   #csMsg .form-recap{
-    text-align: left;
+    text-align: center;
   }
   #csMsg .g-recaptcha, #csPhone .g-recaptcha {
     left: 1px;
@@ -4515,6 +4526,13 @@ max-height: 170px;
   }
   .bago-afterlogin .boxer{
     text-align: left;
+  }
+  #registerModal .form-recap {
+    left: 0;
+    text-align: left;
+  }
+  #registerModal #myModalTab1-2 .g-recaptcha{
+    left: 0;
   }
 }
 
@@ -5347,6 +5365,9 @@ width: 360px;
     #myModalTab1-2 .form-recap{
       left: -13px;
     }
+    #registerModal #myModalTab1-2 .form-recap{
+      left: 0;
+    }
     .username-availability{
       padding-left: 0;
     }
@@ -5820,9 +5841,6 @@ width: 360px;
     left: auto;
   }
   .g-recaptcha {
-    left: -1px;
-  }
-  #registerModal #myModalTab1-2 .g-recaptcha, #myModal #myModalTab1-2 .g-recaptcha {
     left: -1px;
   }
   #myModalTab1-1 .g-recaptcha {
