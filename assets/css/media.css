@@ -5706,6 +5706,11 @@ width: 360px;
     .carousel .banner-text{
       right: 1.5%;
     }
+    .vip-button{
+      width: 64px;
+      height: 25px;
+      top: -14px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -7357,5 +7362,10 @@ right: 2px;
   }
   .carousel .banner-text{
     right: 5%;
+  }
+  .vip-button{
+    width: 66px;
+    height: 28px;
+    top: -18px;
   }
 }
