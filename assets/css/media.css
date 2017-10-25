@@ -4534,6 +4534,16 @@ max-height: 170px;
   #registerModal #myModalTab1-2 .g-recaptcha{
     left: 0;
   }
+  #loginModal .form-recap{
+    text-align: left;
+    margin-left: 0;
+  }
+  .new123afterlogin .text{
+    font-size: 12px
+  }
+  .new123afterlogin .text span{
+    font-size: 11px
+  }
 }
 
 
@@ -5316,6 +5326,10 @@ width: 360px;
     #csMsg .form-recap, #csPhone .form-recap{
       margin-left: -29px;
     }
+    #csMsg .form-recap{
+      margin-left: -15px;
+      text-align: left;
+    }
     .sp-btn-hidden{
       display: inline-block;
       margin-bottom: 10px;
@@ -6072,6 +6086,9 @@ width: 360px;
   }
   #csMsg .g-recaptcha, #csPhone .g-recaptcha {
     left: 15px;
+  }
+  #csMsg .g-recaptcha{
+    left: 0
   }
   .btn-promotion{
     padding: 6px 25px;
