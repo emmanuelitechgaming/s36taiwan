@@ -11131,12 +11131,10 @@ h5.title-inside{
   line-height: 50px
 }
 .new123 .text{
-  font-size: 13px;
   letter-spacing: 1px
 }
 .new123 .text span{
   display: block;
-  font-size: 12px;
 }
 .new123-inner{
   position: relative;
@@ -11224,9 +11222,6 @@ h5.title-inside{
 }
 .new123b .text{
   margin-left: 1px
-}
-.new123afterlogin .img{
-  width: 33px
 }
 .new-counter{
   position: relative;
