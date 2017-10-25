@@ -9334,11 +9334,8 @@ span.add-ico{
 }
 .vip-button{
   display: block;
-  width: 66px;
-  height: 28px;
   background-image: url('../img/promo/vip-button.png') !important;
   position: absolute;
-  top: -18px;
   right: -7px;
   background-size: 100% 100%;
 }
