@@ -1019,6 +1019,7 @@ max-height: 170px;
     .tdw-button button{
       display: inline-block;
       width: 233px;
+      margin: 15px 0
     }
     .themorebaccarat{
       padding-left: 0;
@@ -1897,8 +1898,7 @@ max-height: 170px;
       padding-right: 0;
     }
     .tdw-slots .col-md-3 {
-      min-height: 300px;
-      margin: 20px 0
+      margin: 5px 0
     }
     .myaccount-change-pass{
       margin-top: 10px
@@ -1923,6 +1923,21 @@ max-height: 170px;
     }
     .bago-pages-dl .boxer div.step-txt{
       padding: 5px 0 5px
+    }
+    .winner-breadcrumb-inner .netbet ul li a {
+      width: 146px;
+    }
+    main .borderstyle-casino  {
+        margin: -26px 2px 20px
+    }
+    main .borderstyle-slots{
+      margin: -27px 4px 20px
+    }
+    main .borderstyle-dl{
+      margin: 5px 8px 20px
+    }
+    main .borderstyle-promo{
+      margin: -30px 0px 20px;
     }
 }
 
