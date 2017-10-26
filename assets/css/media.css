@@ -1476,7 +1476,7 @@ max-height: 170px;
       margin-right: 59px;
     }
     .mnav-top ul li{
-      margin-right: 4em;
+      margin-right: 18%;
     }
     .mnav-afterlogin ul li:last-child, .mnav-top ul li:last-child{
       margin-right: 0;
@@ -1784,9 +1784,9 @@ max-height: 170px;
       background-size: 100% 100%;
       background-position: 0 1px;
       text-indent: 28px;
-      word-spacing: -3px;
+      word-spacing: -1px;
       letter-spacing: 12px;
-      font-size: 19px;
+      font-size: 1.3em;
     }
     .new123b{
       margin: 15px 15px 0
@@ -2004,6 +2004,14 @@ max-height: 170px;
     }
     .deposit-offers .col-md-4:nth-child(3) .offers::after{
       content: none
+    }
+    main .borderstyle-sp{
+      position: relative;
+      margin: 20px 8px;
+      top: -0.5em
+    }
+    main .borderstyle-sp.for-promo{
+      margin: 35px 8px 20px
     }
 }
 
@@ -2274,7 +2282,7 @@ max-height: 170px;
       margin-right: 72px;
     }
     .mnav-top ul li{
-      margin-right: 5em;
+      margin-right: 20%;
     }
     .comment .g-recaptcha{
       -webkit-transform: scale(0.65) !important;
@@ -2321,9 +2329,9 @@ max-height: 170px;
     }
     .new-counter .counter a{
       text-indent: 33px;
-      word-spacing: -4px;
+      word-spacing: -3px;
       letter-spacing: 13px;
-      font-size: 23px;
+      font-size: 1.6em;
     }
     main .new-counter .marquee {
       width: 87%;
@@ -2335,6 +2343,9 @@ max-height: 170px;
     }
     .new123afterlogin .img {
       margin-right: 3px;
+    }
+    main .borderstyle-sp{
+      top: -0.6em
     }
 }
 
@@ -2678,7 +2689,7 @@ max-height: 170px;
       margin-right: 77px;
     }
     .mnav-top ul li {
-      margin-right: 73px;
+      margin-right: 20.5%;
     }
     .comment .g-recaptcha{
       margin-left: 0
@@ -2718,9 +2729,9 @@ max-height: 170px;
     }
     .new-counter .counter a{
       text-indent: 33px;
-      word-spacing: -3px;
+      word-spacing: -2px;
       letter-spacing: 14px;
-      font-size: 23px;
+      font-size: 1.6em;
     }
     .slots-winner ul li ul li:last-child .yellow{
       margin-right: 8px
@@ -2739,6 +2750,9 @@ max-height: 170px;
     }
     .bago-pages .steps.step-no{
       left: 0;
+    }
+    main .borderstyle-sp{
+      top: -0.6em
     }
 }
 
@@ -3036,7 +3050,7 @@ max-height: 170px;
       margin-right: 90px;
     }
     .mnav-top ul li {
-      margin-right: 85px;
+      margin-right: 21.5%;
     }
     .comment .g-recaptcha{
       -webkit-transform: scale(0.8) !important;
@@ -3088,9 +3102,9 @@ max-height: 170px;
     }
     .new-counter .counter a{
       text-indent: 38px;
-      word-spacing: -3px;
+      word-spacing: 0px;
       letter-spacing: 16px;
-      font-size: 24px;
+      font-size: 1.6em;
     }
     .new123 .text{
       font-size: 13px;
@@ -3120,7 +3134,9 @@ max-height: 170px;
     .new123afterlogin .img img {
       min-height: 27px;
     }
-
+    main .borderstyle-sp{
+      top: -0.6em
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -3313,7 +3329,7 @@ max-height: 170px;
       top: 9px
     }
     .mnav-top ul li {
-      margin-right: 86px;
+      margin-right: 21.5%;
     }
     #csMsg .g-recaptcha, #csPhone .g-recaptcha {
       left: 0
@@ -3414,8 +3430,8 @@ max-height: 170px;
       background-size: 100% 100%;
       background-position: 0 1px;
       text-indent: 38px;
-      word-spacing: -3px;
-      font-size: 24px;
+      word-spacing: -2px;
+      font-size: 1.7em;
       letter-spacing: 16px;
     }
     .winner-breadcrumb-inner .netbet ul li a {
@@ -6919,6 +6935,9 @@ max-height: 170px;
   }
   .deposit-offers{
     margin: 0 0;
+  }
+  main .borderstyle-sp{
+    top: 0.2em
   }
 }
 
