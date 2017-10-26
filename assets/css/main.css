@@ -7780,8 +7780,6 @@ button .flag-icon-kr::before {
 
 .tdw-slots ul li {
     text-align: center;
-    font-size: 16px;
-    margin: 10px auto
 }
 
 .tdw-slots ul li:nth-child(2) {
@@ -11146,7 +11144,7 @@ h5.title-inside{
 .new123 .text span{
   font-family: yahei;
   display: block;
-  letter-spacing: normal;
+  letter-spacing: 1px;
 }
 .new123-inner{
   position: relative;

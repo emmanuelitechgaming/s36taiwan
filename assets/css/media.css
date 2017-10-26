@@ -817,7 +817,7 @@ max-height: 170px;
         margin-left: 15px
     }
     .tdw-body {
-        padding: 20px 0 0;
+        padding: 20px 15px;
     }
     .selectpicker2::before {
         width: 24px;
@@ -1817,9 +1817,9 @@ max-height: 170px;
     }
     .new123b .num{
       width: 15px;
-      font-size: 30px;
-      line-height: 28px;
-      top: 1px;
+      font-size: 2.5em;
+      line-height: unset;
+      top: 0;
       right: 0;
     }
     .new123b .col-md-3:nth-child(2) .num {
@@ -1877,19 +1877,21 @@ max-height: 170px;
       padding-right: 0;
     }
     .tdw-slots .col-md-3 {
-      margin: 5px 0
+      margin: 5px 0;
+      padding-right: 5px;
+      padding-left: 5px
     }
     .myaccount-change-pass{
       margin-top: 10px
     }
     .new123 .text{
-      font-size: 11px;
+      font-size: 0.9em;
     }
     .new123 .text span{
-      font-size: 9px;
+      font-size: 0.7em;
     }
     .new123afterlogin .img{
-      width: 25px;
+      width: 1.7em;
       position: relative;
       top: 3px;
       margin-right: 2px;
@@ -1928,7 +1930,7 @@ max-height: 170px;
       border-right: solid 2px #2a2a2a
     }
     .new123afterlogin .col-md-3{
-      padding-left: 10px
+      padding-left: 5px
     }
     .new123 .col-md-3:last-child{
       border-top: 2px solid #2a2a2a
@@ -1943,7 +1945,7 @@ max-height: 170px;
       padding: 0 0
     }
     .new123-inner{
-      padding: 10px 0;
+      padding: 0 0;
       white-space: nowrap;
     }
     .new123afterlogin .new123-inner{
@@ -2012,6 +2014,12 @@ max-height: 170px;
     }
     main .borderstyle-sp.for-promo{
       margin: 35px 8px 20px
+    }
+    .tdw-slots ul li {
+      font-size: 14px;
+    }
+    .tdw-slots ul li {
+      margin: 5px auto
     }
 }
 
@@ -2338,14 +2346,23 @@ max-height: 170px;
     }
     .new123b .num {
       width: 15px;
-      font-size: 33px;
-      line-height: 28px;
+      font-size: 2.5em;
+      line-height: unset;
+    }
+    .new123 .text {
+      font-size: 0.9em;
+    }
+    .new123 .text span {
+      font-size: 0.7em;
     }
     .new123afterlogin .img {
       margin-right: 3px;
     }
     main .borderstyle-sp{
       top: -0.6em
+    }
+    .new123afterlogin .img{
+      width: 1.7em
     }
 }
 
@@ -2599,8 +2616,8 @@ max-height: 170px;
         bottom: 6px;
     }
     .tdw-slots .col-md-3 {
-        margin-left: 45px;
-        margin-right: 45px
+        margin-left: 0;
+        margin-right: 0
     }
     #myModalTab1-2 .form-recap{
       left: -23px;
@@ -2743,7 +2760,7 @@ max-height: 170px;
       left: 0px
     }
     .new123b .num {
-      font-size: 32px;
+      font-size: 2.5em;
     }
     .new123afterlogin .img {
       margin-right: 5px;
@@ -2753,6 +2770,9 @@ max-height: 170px;
     }
     main .borderstyle-sp{
       top: -0.6em
+    }
+    .new123afterlogin .img {
+      width: 1.9em;
     }
 }
 
@@ -2921,8 +2941,8 @@ max-height: 170px;
       width: 89%
     }
     .tdw-slots .col-md-3 {
-        margin-left: 65px;
-        margin-right: 65px
+        margin-left: 0;
+        margin-right: 0
     }
     .gp-star {
       position: relative;
@@ -3107,10 +3127,10 @@ max-height: 170px;
       font-size: 1.6em;
     }
     .new123 .text{
-      font-size: 13px;
+      font-size: 1em;
     }
     .new123 .text span{
-      font-size: 10px;
+      font-size: 0.8em;
     }
     .new123b .new123-inner::after{
       height: 28px
@@ -3126,10 +3146,11 @@ max-height: 170px;
     }
     .new123b .num {
       width: 25px;
-      font-size: 36px;
+      font-size: 2.8em;
     }
     .new123afterlogin .img{
-      width: 29px
+      width: 2.2em;
+      top: 4px
     }
     .new123afterlogin .img img {
       min-height: 27px;
@@ -3460,10 +3481,10 @@ max-height: 170px;
     }
     .tdw-slots .col-md-3 {
       min-height: auto;
-      margin: 10px 0
+      margin: 5px 0
     }
     .tdw-body.tdw-slots.more-winner{
-      padding: 1px 1px
+      padding: 20px 15px
     }
     .today-more-winner{
       margin-left: 0;
@@ -3488,18 +3509,11 @@ max-height: 170px;
       padding: 1px 0px 0px 0px;
       border-bottom: 1px solid #4a4a4a
     }
-    .new123b .num{
-      width: 31px;
-      font-size: 1.5em;
-      line-height: 28px;
-      top: 1px;
-      right: 0;
-    }
     .new123 .text{
-      font-size: 13px;
+      font-size: 1em;
     }
     .new123 .text span{
-      font-size: 12px;
+      font-size: 0.8em;
     }
     .new123b .col-md-3:nth-child(2) .num {
       right: 0;
@@ -3511,10 +3525,10 @@ max-height: 170px;
       height: 31px;
     }
     .new123afterlogin .img{
-      width: 29px
+      width: 2.2em
     }
     .new123afterlogin .col-md-3:nth-child(2) .img{
-      width: 31px
+      width: 2.2em
     }
     .new123afterlogin .col-md-3{
       padding-left: 10px;
@@ -3531,8 +3545,8 @@ max-height: 170px;
     }
     .new123b .num {
       width: 25px;
-      font-size: 41px;
-      top: 2px;
+      font-size: 2.8em;
+      top: 0px;
     }
 }
 
@@ -4851,10 +4865,10 @@ max-height: 170px;
     left: -188px;
   }
   .new123afterlogin .img{
-    width: 30px
+    width: 2.2em
   }
   .new123afterlogin .col-md-3:nth-child(2) .img{
-    width: 32px
+    width: 2.2em
   }
   .new123afterlogin .col-md-3:nth-child(3), .new123afterlogin .col-md-3:nth-child(4){
     border-top: none
@@ -4903,6 +4917,15 @@ max-height: 170px;
   }
   .deposit-offers.for-dl .col-md-4:nth-child(3) .offers{
     text-align: right;
+  }
+  .container.today-winner.today-more-winner{
+    width: auto;
+  }
+  .tdw-slots .col-md-3 {
+    margin: 15px 0;
+  }
+  .tdw-slots ul li {
+    margin: 10px auto;
   }
 }
 
@@ -6758,16 +6781,21 @@ max-height: 170px;
     background: #2a2a2a;
     background-size: contain;
     width: 3px;
-    height: 56px;
+    height: 4em;
     position: absolute;
-    top: -10px;
     right: -15px;
+    top: 0;
+  }
+  .new123 .text {
+    font-size: 1em;
+  }
+  .new123 .text span {
+    font-size: 0.8em;
   }
   .new123b .num{
     width: 35px;
-    font-size: 42px;
-    line-height: 32px;
-    top: 1px;
+    font-size: 2.9em;
+    line-height: unset;
   }
   .new123b .col-md-3:nth-child(2) .num{
     right: 0;
@@ -6776,8 +6804,8 @@ max-height: 170px;
     right: 0;
   }
   .new123b .new123-inner-last a{
-    top: 3px;
-    margin-top: 0;
+    top: 0;
+    margin-top: 0.8em;
   }
   .new123b {
     margin: 15px auto 0;
@@ -6873,7 +6901,6 @@ max-height: 170px;
     padding-bottom: 0px;
   }
   .tdw-slots .col-md-3 {
-    min-height: 300px;
     margin: 20px auto;
   }
   .myaccount-change-pass{
@@ -6892,7 +6919,7 @@ max-height: 170px;
     margin: -20px 0px 20px;
   }
   .new123b {
-    padding: 10px 0
+    padding: 0 0
   }
   .new123-inner {
     padding: 0 0;
@@ -6922,13 +6949,13 @@ max-height: 170px;
     padding: 0;
   }
   .new123afterlogin .col-md-3:nth-child(3) .img{
-    top: 3px
+    top: 0.35em
   }
   .new123afterlogin .new123-inner {
-    padding: 0px 0 0px;
+    padding: 11px 0
   }
   .new123afterlogin{
-    padding: 12px 0
+    padding: 0 0
   }
   .offers .search{
     display: inline-block;
@@ -6938,6 +6965,12 @@ max-height: 170px;
   }
   main .borderstyle-sp{
     top: 0.2em
+  }
+  .tdw-slots ul li {
+    font-size: 16px;
+  }
+  .tdw-slots ul li {
+    margin: 10px auto
   }
 }
 
