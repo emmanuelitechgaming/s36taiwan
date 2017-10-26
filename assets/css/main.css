@@ -9,6 +9,14 @@
 *:focus, *:active, *:visited, *:hover{
   outline: 0 !important;
 }
+@font-face {
+  font-family: tahomaa;
+  src: url('../fonts/tahoma/tahoma.ttf');
+}
+@font-face {
+   font-family: yahei;
+   src: url('../fonts/yahei/chinese.msyh.ttf');
+}
 body {
     background: #2a2a2a;
     color: #ffffff;
@@ -6249,7 +6257,7 @@ main .win-lot-top-games {
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 2px;
-    margin-bottom: 5px;
+    margin: 5px 0
 }
 
 .mobile-banner-content {
@@ -6260,7 +6268,6 @@ main .win-lot-top-games {
 .mobile-banner-social {
     margin: 0;
     padding: 0;
-    margin-top: 10px
 }
 
 .mobile-banner-social li {
@@ -7994,19 +8001,17 @@ margin-right: 23px;
   -webkit-transition-timing-function: linear,linear;
   cursor: pointer;
   -webkit-transition-property: border-color,color;
-  background: 000 url('../img/underline4.png') no-repeat;
-  background-size: 88% 1px;
-  background-position: 70% 0%;
   line-height: 38px;
   padding: 5px 39px !important;
 }
+.nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
+  padding: 5px 15px !important;
+  background: url('../img/underline4.png') no-repeat;
+  background-size: 92% 1px;
+  background-position: bottom;
+}
 .nav-slide .navbar-nav li:nth-child(1) a{
   height: auto;
-}
-.nav-slide .navbar-nav li:nth-child(2) a{
-  background: 000 url('../img/underline4.png') no-repeat;
-  background-size: 100% 1px;
-  background-position: 70% 0%;
 }
 .nav-slide-inner li a{
   margin-left: 15px;
@@ -10073,7 +10078,7 @@ height: 30px!important;
   padding-right: 15px
 }
 .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
-  padding: 20px 20px 20px 50px;
+  padding: 20px 15px 20px 15px;
   border-bottom: 1px solid #000;
 }
 .add-main-screen{
@@ -10087,7 +10092,6 @@ height: 30px!important;
   max-width: 180px;
   margin: 0px auto;
   position: relative;
-  left: 10px;
 }
 
 .live-game .title{
@@ -10799,9 +10803,6 @@ h5.title-inside{
   width: 50%;
   text-align: left;
 }
-.mobile-jackpot-winner ul li ul li:nth-child(1){
-  padding-left: 10px
-}
 .mobile-jackpot-winner .one-winner ul li{
   margin: 0;
 }
@@ -10943,6 +10944,9 @@ h5.title-inside{
   background-size: 100% 2px;
   background-position: 70% 0%;
 }
+.logo-area-content{
+  text-align: center;
+}
 .atletico-area .text, .atletico-area .img{
   display: inline-block;
   vertical-align: middle;
@@ -10978,7 +10982,7 @@ h5.title-inside{
   position: absolute;
   top: 5px;
   bottom: 7px;
-  right: 8px;
+  right: 0;
   background: #000;
   border-right: 1px solid #4a4a4a
 }
@@ -11121,7 +11125,6 @@ h5.title-inside{
 }
 .new123-inner .num, .new123-inner .text, .new123-inner .img{
   display: inline-block;
-  vertical-align: middle;
 }
 .new123{
   background: #161616;
@@ -11134,9 +11137,11 @@ h5.title-inside{
   line-height: 50px
 }
 .new123 .text{
+  font-family: yahei;
   letter-spacing: 1px
 }
 .new123 .text span{
+  font-family: yahei;
   display: block;
 }
 .new123-inner{
@@ -11207,7 +11212,6 @@ h5.title-inside{
   content: none;
 }
 .new123b .num{
-  border: solid 2px #fba601;
   text-align: center;
   border-radius: 50%;
   position: relative;
@@ -11264,6 +11268,7 @@ h5.title-inside{
   border-left: 0;
 }
 .new-counter .counter a{
+  font-family: tahomaa;
   display: block;
   float: right;
   white-space: nowrap;
