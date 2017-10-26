@@ -367,17 +367,8 @@ main .borderstyle {
 main .borderstyle-lotto {
     margin: -11px -8px 20px;
 }
-main .borderstyle-promo{
-  margin: -20px 0px 20px;
-}
-main .borderstyle-slots{
-  margin: 3px 0 20px
-}
 main .borderstyle-casino  {
     margin: -9px 6px 20px
-}
-main .borderstyle-dl{
-  margin: 23px 8px 20px
 }
 main .borderstyler {
     margin: 5px 0px;
@@ -812,6 +803,9 @@ div.border:before {
     overflow: hidden;
     /*background: #1b1a1a;*/
     margin-bottom: 15px;
+}
+.winner-breadcrumb-inner{
+  margin-bottom: 0;
 }
 .dl-content .breadcrumb-inner{
   margin-bottom: 0;
@@ -3178,8 +3172,19 @@ span.round-tab i {
 .cs-modal .chatserver-form .csPhone-language button {
   margin-bottom: 0;
 }
-.cs-modal .chatserver-form button::after, #cscall::after{
+.cs-modal .chatserver-form button::after{
   content: '';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url('../img/arrow-right-30.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 2px;
+}
+
+#cscall::after{
+  content: '' !important;
   display: inline-block;
   width: 17px;
   height: 17px;
@@ -7844,11 +7849,6 @@ button .flag-icon-kr::before {
     background: #575757
 }
 
-.tdw-slots .col-md-3 {
-    min-height: 300px;
-    margin: 20px 0
-}
-
 .tdw-button button {
     display: inline-block;
     background: #acacb4;
@@ -9334,11 +9334,8 @@ span.add-ico{
 }
 .vip-button{
   display: block;
-  width: 66px;
-  height: 28px;
   background-image: url('../img/promo/vip-button.png') !important;
   position: absolute;
-  top: -18px;
   right: -7px;
   background-size: 100% 100%;
 }
@@ -10457,7 +10454,6 @@ font-family: Consolas;
 .carousel .banner-text{
   position: absolute;
   top: 13%;
-  right: 5%;
   width: 465px;
   height: 188px;
   background: rgba(36, 32, 25, 0.8);
@@ -10865,11 +10861,9 @@ h5.title-inside{
 }
 .one-winner .wrapper .info div:last-child{
   position: relative;
-  left: 5px
 }
 .one-winner .yellow{
   position: relative;
-  left: -83px;
   text-indent: 0
 }
 .one-winner .numbers{
@@ -10881,17 +10875,14 @@ h5.title-inside{
   background: url('../img/underline2.png')  no-repeat;
   background-size: 100% 1px;
   background-position: bottom;
-  font-size: 18px;
   letter-spacing: 1px;
+  font-size: 18px;
 }
 .slots-winner li.clearfix:last-child{
   background: none
 }
 .slots-winner .yellow{
   font-size: 13px;
-}
-.slots-winner ul li ul li:last-child .yellow{
-  margin-right: 27px
 }
 .lotto-body-mobile{
   padding-right: 0;
@@ -11143,12 +11134,10 @@ h5.title-inside{
   line-height: 50px
 }
 .new123 .text{
-  font-size: 13px;
   letter-spacing: 1px
 }
 .new123 .text span{
   display: block;
-  font-size: 12px;
 }
 .new123-inner{
   position: relative;
@@ -11236,9 +11225,6 @@ h5.title-inside{
 }
 .new123b .text{
   margin-left: 1px
-}
-.new123afterlogin .img{
-  width: 33px
 }
 .new-counter{
   position: relative;

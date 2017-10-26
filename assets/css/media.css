@@ -1019,6 +1019,7 @@ max-height: 170px;
     .tdw-button button{
       display: inline-block;
       width: 233px;
+      margin: 15px 0
     }
     .themorebaccarat{
       padding-left: 0;
@@ -1644,6 +1645,8 @@ max-height: 170px;
     .add-main-screen{
       background-size: 20px 20px;
       background-position: 4%;
+      font-size: 12px;
+      text-indent: 20px;
     }
     .select-country-code-dropdown .dropdown-menu {
         min-width: 100%;
@@ -1806,14 +1809,11 @@ max-height: 170px;
       top: 3px;
       bottom: 0;
       background: #2a2a2a;
-      right: -7px;
-      height: 31px;
+      right: -11px;
+      height: 24px;
     }
     .new123afterlogin .new123-inner::after{
       content: none
-    }
-    .new123b .col-xs-4:nth-child(2) .new123-inner::after{
-      right: -2px
     }
     .new123b .col-xs-4:nth-child(3) .new123-inner::after{
       content: none;
@@ -1826,20 +1826,23 @@ max-height: 170px;
       right: 0;
     }
     .new123b .col-md-3:nth-child(2) .num {
-      right: 7px;
+      right: 0;
     }
     .new123b .col-md-3:nth-child(3) .num {
-      right: 8px;
+      right: 0;
     }
     .new123b .new123-inner-last a{
       top: 0;
       margin-top: 10px;
     }
     .new123afterlogin .col-md-3{
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
       padding-top: 10px;
-      padding-bottom: 10px
+      padding-bottom: 10px;
+    }
+    .new123afterlogin .col-md-3:nth-child(odd){
+      padding-left: 15px
     }
     .the-container{
       padding-left: 0;
@@ -1893,6 +1896,48 @@ max-height: 170px;
     .container-in-afterlogin .col-xs-12{
       padding-left: 0;
       padding-right: 0;
+    }
+    .tdw-slots .col-md-3 {
+      margin: 5px 0
+    }
+    .myaccount-change-pass{
+      margin-top: 10px
+    }
+    .new123 .text{
+      font-size: 11px;
+    }
+    .new123 .text span{
+      font-size: 9px;
+    }
+    .new123afterlogin .img{
+      width: 28px
+    }
+    .slots-winner ul li ul li:last-child .yellow{
+      margin-right: 0px
+    }
+    .one-winner .yellow{
+      left: -67px;
+    }
+    .one-winner .wrapper .info div:last-child{
+      left: -2px
+    }
+    .bago-pages-dl .boxer div.step-txt{
+      padding: 5px 0 5px
+    }
+    .winner-breadcrumb-inner .netbet ul li a {
+      width: 146px;
+    }
+    main .borderstyle-casino  {
+        margin: -26px 2px 20px
+    }
+    main .borderstyle-slots{
+      margin: -27px 4px 20px
+    }
+    main .borderstyle-dl{
+      margin: 5px 8px 20px
+    }
+    main .borderstyle-promo{
+      margin: -30px 0px 20px;
     }
 }
 
@@ -2147,6 +2192,15 @@ max-height: 170px;
       transform:scale(0.9) !important;
       -webkit-transform:scale(0.9) !important;
     }
+    #csMsg .g-recaptcha, #csPhone .g-recaptcha{
+      transform:scale(1) !important;
+      -webkit-transform:scale(1) !important;
+    }
+    #csMsg .form-recap, #csPhone .form-recap{
+      margin-left: -15px;
+      margin-right: -15px;
+      text-align: center
+    }
     .td-week-netbet-holder{
       font-size: 13px
     }
@@ -2170,8 +2224,9 @@ max-height: 170px;
       max-height: 341px;
     }
     .malupet-nanaman {
-      padding: 1px 0px 0px 0px;
-      border-bottom: 1px solid #4a4a4a
+      padding: 0 0 0 0;
+      border-bottom: 1px solid #4a4a4a;
+      min-height: 175px;
     }
     .malupet-nanaman-afterlogin {
       padding: 25px 0px 25px 0px;
@@ -2190,13 +2245,27 @@ max-height: 170px;
       -webkit-transform-origin:0 0 !important;
     }
     .logo-area-content .img{
-      width: 35px
+      width: 30px
     }
     .logo-area-content .text{
-      font-size: 12px;
+      font-size: 11px;
     }
     .lotto-button-m{
       top: 115px;
+    }
+    .new-counter .counter a{
+      text-indent: 33px;
+      word-spacing: -4px;
+      letter-spacing: 13px;
+      font-size: 23px;
+    }
+    main .new-counter .marquee {
+      width: 87%;
+    }
+    .new123b .num {
+      width: 28px;
+      font-size: 1.2em;
+      line-height: 24px;
     }
 }
 
@@ -2578,6 +2647,21 @@ max-height: 170px;
     .bago-pages-dl .boxer::after {
       bottom: -12%;
     }
+    .new-counter .counter a{
+      text-indent: 33px;
+      word-spacing: -3px;
+      letter-spacing: 14px;
+      font-size: 23px;
+    }
+    .slots-winner ul li ul li:last-child .yellow{
+      margin-right: 8px
+    }
+    .one-winner .yellow{
+      left: -73px;
+    }
+    .one-winner .wrapper .info div:last-child{
+      left: 0px
+    }
 }
 
 
@@ -2742,7 +2826,7 @@ max-height: 170px;
         bottom: 8px;
     }
     main .new-counter .marquee{
-      width: 343px;
+      width: 89%
     }
     .tdw-slots .col-md-3 {
         margin-left: 65px;
@@ -2899,6 +2983,8 @@ max-height: 170px;
     .add-main-screen{
       background-size: 22px 22px;
       background-position: 4%;
+      font-size: 14px;
+      text-indent: 0
     }
     .the_modal_footer{
       text-align: center;
@@ -2921,6 +3007,30 @@ max-height: 170px;
     }
     .lotto-button-m{
       top: 140px;
+    }
+    .new-counter .counter a{
+      text-indent: 38px;
+      word-spacing: -3px;
+      letter-spacing: 16px;
+      font-size: 24px;
+    }
+    .new123 .text{
+      font-size: 13px;
+    }
+    .new123 .text span{
+      font-size: 10px;
+    }
+    .new123b .new123-inner::after{
+      height: 28px
+    }
+    .slots-winner ul li ul li:last-child .yellow {
+      margin-right: 26px;
+    }
+    .one-winner .yellow{
+      left: -84px;
+    }
+    .one-winner .wrapper .info div:last-child{
+      left: 4px
     }
 }
 
@@ -3121,6 +3231,7 @@ max-height: 170px;
     }
     #csMsg .form-recap, #csPhone .form-recap{
       margin-left: 0;
+      margin-right: 0;
     }
     .live-game.lg-angel-demon img{
       bottom: 12px;
@@ -3237,6 +3348,81 @@ max-height: 170px;
     #registerModal .g-recaptcha{
       -webkit-transform: scale(1);
               transform: scale(1);
+    }
+    .tdw-slots .col-md-3 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .tdw-slots .col-md-3 {
+      min-height: auto;
+      margin: 10px 0
+    }
+    .tdw-body.tdw-slots.more-winner{
+      padding: 1px 1px
+    }
+    .today-more-winner{
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .myaccount-change-pass{
+      margin-top: 15px
+    }
+    main .borderstyle-casino  {
+        margin: -26px 2px 20px
+    }
+    main .borderstyle-slots{
+      margin: -27px 4px 20px
+    }
+    main .borderstyle-dl{
+      margin: 5px 8px 20px
+    }
+    main .borderstyle-promo{
+      margin: -30px 0px 20px;
+    }
+    .malupet-nanaman {
+      padding: 1px 0px 0px 0px;
+      border-bottom: 1px solid #4a4a4a
+    }
+    .new123b .num{
+      width: 31px;
+      font-size: 1.5em;
+      line-height: 28px;
+      top: 1px;
+      right: 0;
+    }
+    .new123 .text{
+      font-size: 13px;
+    }
+    .new123 .text span{
+      font-size: 12px;
+    }
+    .new123b .col-md-3:nth-child(2) .num {
+      right: 0;
+    }
+    .new123b .col-md-3:nth-child(3) .num {
+      right: 0;
+    }
+    .new123b .new123-inner::after{
+      height: 31px;
+    }
+    .new123afterlogin .img{
+      width: 33px
+    }
+    .new123afterlogin .col-md-3:nth-child(2) .img{
+      width: 33px
+    }
+    .new123afterlogin .col-md-3{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .slots-winner ul li ul li:last-child .yellow{
+      margin-right: 27px
+    }
+    .one-winner .yellow{
+      left: -83px;
+    }
+    .one-winner .wrapper .info div:last-child{
+      left: 5px
     }
 }
 
@@ -4013,6 +4199,9 @@ max-height: 170px;
     background-position: 121px 2px;
     background-size: contain;
     margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 96%
   }
   .boxer .step-no.step1{
     background: url('../img/step1.png') no-repeat;
@@ -4555,6 +4744,9 @@ max-height: 170px;
     background-position: 150px 0;
     background-size: contain;
     margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 97%
   }
   .bs-slider-overlay {
       position: absolute;
@@ -5502,6 +5694,23 @@ width: 360px;
       padding-right: 0;
       padding-left: 19px;
     }
+    .not-logo-for-ipad{
+      display: none !important;
+    }
+    .logo-for-ipad{
+      display: block !important
+    }
+    .navbar-header.header-mobile{
+      margin-bottom: 15px
+    }
+    .carousel .banner-text{
+      right: 1.5%;
+    }
+    .vip-button{
+      width: 64px;
+      height: 25px;
+      top: -14px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -5524,8 +5733,8 @@ width: 360px;
 }
   .banner-overlay{
     top: 0;
-    right: -63%;
-    width: 350px;
+    right: -58%;
+    width: 346px;
     height: 265px;
   }
   .malupet-nanaman {
@@ -5566,11 +5775,10 @@ width: 360px;
     max-width: inherit !important
   }
   .slots-breadcrumb-inner .col-xs-12{
-    width: 309px;
     height: auto;
   }
   .slots-breadcrumb-inner .col-xs-12.netbet{
-    width: 94%;
+    width: 96.8%;
     height: auto;
   }
   .flexslider-fade .content div{
@@ -6034,7 +6242,7 @@ width: 360px;
     font-weight: normal !important;
   }
   .mnav-top ul{
-    bottom: 5px
+    bottom: 0px
   }
   .mnav-afterlogin ul{
     bottom: 10px
@@ -6496,6 +6704,25 @@ width: 360px;
     padding-right: 15px;
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+  .tdw-slots .col-md-3 {
+    min-height: 300px;
+    margin: 20px auto;
+  }
+  .myaccount-change-pass{
+    margin-top: 10px
+  }
+  main .borderstyle-casino  {
+      margin: -9px 6px 20px
+  }
+  main .borderstyle-slots{
+    margin: 10px 0 20px
+  }
+  main .borderstyle-dl{
+    margin: 23px 8px 20px
+  }
+  main .borderstyle-promo{
+    margin: -20px 0px 20px;
   }
 }
 
@@ -7054,6 +7281,9 @@ right: 2px;
     background-position: 400px 0;
     background-size: contain;
     margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 97.6%
   }
   .lg-playnow {
     bottom: 2px;
@@ -7123,5 +7353,19 @@ right: 2px;
     padding: 8px 0;
     margin-top: 0;
     margin: 0 auto
+  }
+  .not-logo-for-ipad{
+    display: block !important;
+  }
+  .logo-for-ipad{
+    display: none !important
+  }
+  .carousel .banner-text{
+    right: 5%;
+  }
+  .vip-button{
+    width: 66px;
+    height: 28px;
+    top: -18px;
   }
 }
