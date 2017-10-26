@@ -1178,8 +1178,8 @@ max-height: 170px;
       padding-bottom: 15px;
     }
     .slots-breadcrumb-inner .netbet{
-      padding-left: 0;
-      padding-right: 0;
+      padding-left: 15px;
+      padding-right: 15px;
     }
     .how-to-reg{
       margin-bottom: 30px;
@@ -1476,7 +1476,7 @@ max-height: 170px;
       margin-right: 59px;
     }
     .mnav-top ul li{
-      margin-right: 55px;
+      margin-right: 4em;
     }
     .mnav-afterlogin ul li:last-child, .mnav-top ul li:last-child{
       margin-right: 0;
@@ -1889,9 +1889,13 @@ max-height: 170px;
       font-size: 9px;
     }
     .new123afterlogin .img{
-      width: 26px;
+      width: 25px;
       position: relative;
-      top: 1.5px
+      top: 3px;
+      margin-right: 2px;
+    }
+    .new123afterlogin .img img{
+      min-height: 23px
     }
     .slots-winner ul li ul li:last-child .yellow{
       margin-right: 0px
@@ -1924,7 +1928,7 @@ max-height: 170px;
       border-right: solid 2px #2a2a2a
     }
     .new123afterlogin .col-md-3{
-      padding-left: 15px
+      padding-left: 10px
     }
     .new123 .col-md-3:last-child{
       border-top: 2px solid #2a2a2a
@@ -1939,13 +1943,67 @@ max-height: 170px;
       padding: 0 0
     }
     .new123-inner{
-      padding: 10px 0
+      padding: 10px 0;
+      white-space: nowrap;
+    }
+    .new123afterlogin .new123-inner{
+      padding: 4px 0 5px;
     }
     .new123-inner-last{
       padding: 0 0 10px
     }
     .mobile-jackpot-winner ul li ul li:nth-child(1){
       padding-left: 10px
+    }
+    .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
+      padding: 5px 15px !important;
+    }
+    .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
+      padding: 20px 15px 20px 15px;
+    }
+    .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
+      background-size: 92% 1px;
+    }
+    .netbet{
+      background: none;
+    }
+    .netbet-wrapper{
+      background: #1b1b1b;
+      padding: 10px 0;
+      border-radius: 6px
+    }
+    .bago-pages .steps.step-no{
+      position: relative;
+      left: 15px
+    }
+    .breadcrumb-inner .sp-container-lotto{
+      padding: 0 15px
+    }
+    .deposit-offers{
+      margin: 0 15px;
+    }
+    .offers .search{
+      display: none;
+    }
+    .offers{
+      text-align: center;
+      position: relative;
+    }
+    .offers .text, .offers .num{
+      text-align: left;
+    }
+    .offers::after{
+      content: '';
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: url('../img/underline.png') no-repeat;
+      background-size: 50% 100%;
+      background-position: center;
+    }
+    .deposit-offers .col-md-4:nth-child(3) .offers::after{
+      content: none
     }
 }
 
@@ -2216,7 +2274,7 @@ max-height: 170px;
       margin-right: 72px;
     }
     .mnav-top ul li{
-      margin-right: 68px;
+      margin-right: 5em;
     }
     .comment .g-recaptcha{
       -webkit-transform: scale(0.65) !important;
@@ -2275,8 +2333,8 @@ max-height: 170px;
       font-size: 33px;
       line-height: 28px;
     }
-    .new123 .text{
-      height: 28px;
+    .new123afterlogin .img {
+      margin-right: 3px;
     }
 }
 
@@ -2575,7 +2633,7 @@ max-height: 170px;
     }
     .bago-pages .boxer{
       white-space: nowrap;
-      padding: 12.5px 0
+      padding: 0 0
     }
     .bago-pages-dl .boxer{
       margin: 10px;
@@ -2675,6 +2733,12 @@ max-height: 170px;
     }
     .new123b .num {
       font-size: 32px;
+    }
+    .new123afterlogin .img {
+      margin-right: 5px;
+    }
+    .bago-pages .steps.step-no{
+      left: 0;
     }
 }
 
@@ -3051,8 +3115,12 @@ max-height: 170px;
       font-size: 36px;
     }
     .new123afterlogin .img{
-      width: 30px
+      width: 29px
     }
+    .new123afterlogin .img img {
+      min-height: 27px;
+    }
+
 }
 
 @media only screen and (min-width: 414px) {
@@ -3427,13 +3495,10 @@ max-height: 170px;
       height: 31px;
     }
     .new123afterlogin .img{
-      width: 32px
+      width: 29px
     }
     .new123afterlogin .col-md-3:nth-child(2) .img{
-      width: 33px
-    }
-    .new123afterlogin .col-md-3:nth-child(3) .img{
-      top: 0;
+      width: 31px
     }
     .new123afterlogin .col-md-3{
       padding-left: 10px;
@@ -4656,11 +4721,6 @@ max-height: 170px;
     background-size: 93% 1px;
     background-position: 70% 0%;
   }
-  .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
-    background: url('../img/underline4.png') no-repeat;
-    background-size: 93% 1px;
-    background-position: 70% 0;
-  }
   .contact-title li a {
     width: 43px;
     height: 43px;
@@ -4786,6 +4846,48 @@ max-height: 170px;
   .new123afterlogin .col-md-3:nth-child(4){
     border-right: none
   }
+  .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
+    padding: 5px 35px !important;
+  }
+  .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
+    padding: 20px 35px 20px 35px;
+  }
+  .netbet{
+    background: none;
+  }
+  .netbet-wrapper ul{
+    padding: 0 15px
+  }
+  .new123afterlogin .col-md-3:nth-child(3) .img{
+    top: 3px
+  }
+  .offers::after{
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 30px;
+    background: #000;
+    border-right: 1px solid #303030;
+    position: absolute;
+    right: 0;
+    top: 1em
+  }
+  .deposit-offers.for-dl .offers::after{
+    content: none
+  }
+  .deposit-offers .col-md-4:last-child .offers::after{
+    content: none;
+  }
+  .offers{
+    text-align: left;
+    position: static;
+  }
+  .deposit-offers.for-dl .col-md-4:nth-child(2) .offers{
+    text-align: center;
+  }
+  .deposit-offers.for-dl .col-md-4:nth-child(3) .offers{
+    text-align: right;
+  }
 }
 
 
@@ -4850,7 +4952,7 @@ max-height: 170px;
     }
     main .marquee {
       bottom: 10px;
-width: 360px;
+      width: 360px;
     }
     .nav.navbar-nav {
         margin-left: auto;
@@ -5520,12 +5622,13 @@ width: 360px;
         top: 0px;
     }
     .today-winner {
-        padding: 20px;
+        padding: 10px;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: auto;
     }
     .today-winner-1{
+      padding: 10px;
       padding-top: 10px;
     }
     .ul-new-promo {
@@ -5548,8 +5651,8 @@ width: 360px;
     }
     .tdw-slots ul {
         padding: 10px;
-        margin-left: 10px;
-        margin-right: 10px
+        margin-left: 0;
+        margin-right: 0
     }
     .notice-dialog .modal-title{
       margin-left: 40%;
@@ -6708,11 +6811,6 @@ width: 360px;
     background-size: 95% 1px;
     background-position: 70% 0%;
   }
-  .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
-    background: url('../img/underline4.png') no-repeat;
-    background-size: 95% 1px;
-    background-position: 70% 0;
-  }
   .today-winner .td-week{
     padding: 10px 10px
   }
@@ -6791,6 +6889,36 @@ width: 360px;
   }
   .mobile-jackpot-winner ul li ul li:nth-child(1){
     padding-left: 10px
+  }
+  .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
+    padding: 5px 20px !important;
+  }
+  .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
+    padding: 20px 15px 20px 15px;
+  }
+  .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
+    background-size: 96.5% 1px;
+  }
+  .netbet{
+    background: #1b1b1b;
+  }
+  .netbet-wrapper{
+    padding: 0;
+  }
+  .new123afterlogin .col-md-3:nth-child(3) .img{
+    top: 3px
+  }
+  .new123afterlogin .new123-inner {
+    padding: 0px 0 0px;
+  }
+  .new123afterlogin{
+    padding: 12px 0
+  }
+  .offers .search{
+    display: inline-block;
+  }
+  .deposit-offers{
+    margin: 0 0;
   }
 }
 
@@ -7435,5 +7563,8 @@ right: 2px;
     width: 66px;
     height: 28px;
     top: -18px;
+  }
+  .deposit-offers .container{
+    width: 1263px
   }
 }
