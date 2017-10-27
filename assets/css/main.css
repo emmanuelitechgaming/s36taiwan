@@ -3405,7 +3405,12 @@ footer .browsers li:first-child {
 .tdw-body .col-md-3 {
     text-align: center;
 }
-
+.tdw-body .table-striped>tbody>tr{
+  background-color: #ddd
+}
+.tdw-body .table-striped>tbody>tr:nth-of-type(odd){
+  background-color: #f9f9f9
+}
 .td-win .amount {
     color: #fba601;
     font-weight: 700;

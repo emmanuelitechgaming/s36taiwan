@@ -82,6 +82,9 @@ header .nathan-hm-d{
   .nav>li>a {
       padding: 5px 20px !important;
   }
+  .winner-breadcrumb-inner .nav li a{
+    padding: 5px 0 !important
+  }
   .back {
     bottom: 1px;
     margin-right: -180px;
