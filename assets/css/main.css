@@ -10078,7 +10078,7 @@ height: 30px!important;
   padding: 2px 0px;
 }
 .winner-breadcrumb-inner .leaderboard-wrapper{
-  padding-right: 15px
+padding: 15px;
 }
 .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
   border-bottom: 1px solid #000;
