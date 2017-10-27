@@ -1002,7 +1002,7 @@ $('.one-winner .flexslider').flexslider({
   slideshowSpeed: '3000',
   controlNav: false,
   directionNav: false,
-  touch: false,
+  touch: false
 });
 
   $(window).scroll(function() {
@@ -1062,6 +1062,10 @@ $('.one-winner .flexslider').flexslider({
 
   $('.lotto-button .text').click(function() {
     $('#loginModal').modal('show');
+  })
+
+  $('.inside-buttons.trigger').click(function() {
+    $('.winners-others').toggle()
   })
 
 });

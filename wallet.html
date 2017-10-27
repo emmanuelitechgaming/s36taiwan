@@ -686,7 +686,7 @@
                           <option value="skrill">Skrill</option>
                         </select>
                       </div>
-                      <button type="button" class="btn-hidden btn-hidden-dh2p2 wallet-link" id="deposit-helptopay-trigger">支付說明</button>
+                      <button type="button" data-toggle="modal" data-target="#paymentStatement" class="btn-hidden btn-hidden-dh2p2 wallet-link">支付說明</button>
 
                     </div>
 
@@ -748,7 +748,7 @@
 
         </div>
         <div class="container">
-            <div class="border borderstyle borderstyle-index"></div>
+            <div class="border borderstyle for-afterlogin"></div>
         </div>
 
         <div class=" container njackpot-nwinner the-container">
@@ -1973,7 +1973,37 @@
             </div>
         </div>
     </div>
-<a href="javascript:void(0)" class="p-details rss-submit-verification hidden" onclick="_gaq.push(['_trackEvent', 'example, 'try', 'Success']);">訂閱</a>
+
+    <div class="modal cs-modal" tabindex="-1" role="dialog" id="paymentStatement">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="content-title ctitle">
+                        <h1>支付說明</h1>
+                    </div>
+                    <h4>註冊</h4>
+                    <p>• 在您進行任何交易前， 必須先 “<span>創建一個真錢賬戶</span>”。</p>
+                    <h4>存款</h4>
+                    <p>• 登錄您的賬戶後點擊 “<span>我的錢包</span>”，選擇您最便利的支付方式進行存款交易。</p>
+                    <h4>取款</h4>
+                    <p>• 登錄您的賬戶後點擊 “<span>我的錢包</span>”，選擇您便捷的收款方式以進行取款交易。</p>
+                    <h4>查詢</h4>
+                    <p>• 登錄您的賬戶查看目前餘額，點擊 “<span>我的記錄</span>”，查看存款及取款的狀態和記錄。</p>
+                    <h4>協助</h4>
+                    <p>• 想了解更多相關信息或尋求幫助， 請隨時聯繫我們的 “<span>客戶服務部門</span>”。</p>
+                    <h4>重要提醒 :</h4>
+                    <p>
+                        • 不允許第三方代表您進行任何交易行為或其他活動。<br>
+                        • 匯款人及收款人限同名帳戶，姓名必須與註冊時的信息一致。<br>
+                        • 您當地銀行的一些政策及限制，也許會影響您的交易額度和處理時間。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="javascript:void(0)" class="p-details rss-submit-verification hidden" onclick="_gaq.push(['_trackEvent', 'example, 'try', 'Success']);">訂閱</a>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -2124,7 +2154,7 @@
         })
 
         $(document).ready(function() {
-          $('#deposit-helptopay-trigger').click(function() {
+          $('#deposit_helptopay').on('change', function() {
             var val = $('#deposit_helptopay').val();
             if(val == 'deposit'){
               window.location = "deposit-help2pay.html";

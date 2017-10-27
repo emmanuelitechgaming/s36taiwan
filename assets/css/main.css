@@ -372,9 +372,6 @@ main .notice {
 main .borderstyle {
     margin: 20px 0px;
 }
-main .borderstyle-lotto {
-    margin: -11px -8px 20px;
-}
 main .borderstyle-casino  {
     margin: -9px 6px 20px
 }
@@ -537,10 +534,6 @@ main .c-text span {
 /*main .cmail{
   font-size: 40px;
 }*/
-
-main .live-game img {
-    margin: 0 auto;
-}
 
 main .ctmail {
     margin-top: 23px;
@@ -1622,7 +1615,9 @@ color: #ffffff!important;
 .account-c {
     padding: 15px;
 }
-
+.account.account-c{
+  padding-bottom: 0;
+}
 .account-text {
     width: 145px;
 }
@@ -3410,6 +3405,9 @@ footer .browsers li:first-child {
 }
 .tdw-body .table-striped>tbody>tr:nth-of-type(odd){
   background-color: #f9f9f9
+}
+.tdw-body .table thead tr th{
+  white-space: nowrap;
 }
 .td-win .amount {
     color: #fba601;
@@ -6256,7 +6254,9 @@ main .win-lot-top-games {
     padding: 5px 10px 10px;
     background: #1b1b1b;
 }
-
+.mobile-banner-text.for-main {
+    padding: 5px 10px 0;
+}
 .mobile-banner-title {
     color: #fba601;
     font-weight: 700;
@@ -9779,7 +9779,7 @@ header #m-selectpicker2-collapse ul li{
   padding: 0!important;
 }
 .flexslider table, .flexslider th ,  .flexslider td {
-  border: 1px solid #2d2d2d;
+  border-bottom: 1px solid #2d2d2d;
   border-top: 0;
   border-collapse: collapse;
   text-align: center;
@@ -9843,7 +9843,6 @@ header #m-selectpicker2-collapse ul li{
 }
 .flexslider .title{
   border-bottom: 1px solid transparent !important;
-  border-left: none
 }
 .jackpot-winner tr td:last-child{
   width: 105px;
@@ -10636,7 +10635,6 @@ h5.title-inside{
 
 .promo-home {
   margin: 15px auto;
-  max-width: 649px;
   border-radius: 5px;
   position: relative;
 }
@@ -10769,7 +10767,7 @@ h5.title-inside{
 }
 .mobile-jackpot-winner{
   margin-bottom: 10px;
-  padding: 0 30px
+  padding: 0 15px
 }
 .mobile-jackpot-winner .slots-winner, .mobile-jackpot-winner .one-winner{
   padding-left: 0;
@@ -10778,6 +10776,8 @@ h5.title-inside{
 .mobile-jackpot-winner .col-xs-12{
   background: #161616;
   margin-bottom: 15px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px
 }
 .mobile-jackpot-winner .title{
   padding: 10px 10px 0;
@@ -10868,9 +10868,6 @@ h5.title-inside{
 .one-winner .yellow{
   position: relative;
   text-indent: 0
-}
-.one-winner .numbers{
-  text-indent: 29px
 }
 .slots-winner li.clearfix{
   border-bottom: 1px solid transparent;
@@ -11399,4 +11396,10 @@ h5.title-inside{
   position: relative;
   bottom: 0.7em;
   min-width: 6em
+}
+#paymentStatement .modal-body{
+  padding-bottom: 25px
+}
+#paymentStatement p span{
+  color: #fba601
 }
