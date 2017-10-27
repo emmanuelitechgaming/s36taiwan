@@ -10075,7 +10075,7 @@ height: 30px!important;
 .winner-breadcrumb-inner .leaderboard{
   height: 410px;
   overflow-y: scroll;
-  padding-right: 0;
+  padding: 2px 0px;
 }
 .winner-breadcrumb-inner .leaderboard-wrapper{
   padding-right: 15px
