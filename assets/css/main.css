@@ -9,6 +9,14 @@
 *:focus, *:active, *:visited, *:hover{
   outline: 0 !important;
 }
+@font-face {
+  font-family: tahomaa;
+  src: url('../fonts/tahoma/tahoma.ttf');
+}
+@font-face {
+   font-family: yahei;
+   src: url('../fonts/yahei/chinese.msyh.ttf');
+}
 body {
     background: #2a2a2a;
     color: #ffffff;
@@ -3397,7 +3405,12 @@ footer .browsers li:first-child {
 .tdw-body .col-md-3 {
     text-align: center;
 }
-
+.tdw-body .table-striped>tbody>tr{
+  background-color: #ddd
+}
+.tdw-body .table-striped>tbody>tr:nth-of-type(odd){
+  background-color: #f9f9f9
+}
 .td-win .amount {
     color: #fba601;
     font-weight: 700;
@@ -6249,7 +6262,7 @@ main .win-lot-top-games {
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 2px;
-    margin-bottom: 5px;
+    margin: 5px 0
 }
 
 .mobile-banner-content {
@@ -6260,7 +6273,6 @@ main .win-lot-top-games {
 .mobile-banner-social {
     margin: 0;
     padding: 0;
-    margin-top: 10px
 }
 
 .mobile-banner-social li {
@@ -7773,8 +7785,6 @@ button .flag-icon-kr::before {
 
 .tdw-slots ul li {
     text-align: center;
-    font-size: 16px;
-    margin: 10px auto
 }
 
 .tdw-slots ul li:nth-child(2) {
@@ -7994,19 +8004,15 @@ margin-right: 23px;
   -webkit-transition-timing-function: linear,linear;
   cursor: pointer;
   -webkit-transition-property: border-color,color;
-  background: 000 url('../img/underline4.png') no-repeat;
-  background-size: 88% 1px;
-  background-position: 70% 0%;
   line-height: 38px;
   padding: 5px 39px !important;
 }
+.nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
+  background: url('../img/underline4.png') no-repeat;
+  background-position: bottom;
+}
 .nav-slide .navbar-nav li:nth-child(1) a{
   height: auto;
-}
-.nav-slide .navbar-nav li:nth-child(2) a{
-  background: 000 url('../img/underline4.png') no-repeat;
-  background-size: 100% 1px;
-  background-position: 70% 0%;
 }
 .nav-slide-inner li a{
   margin-left: 15px;
@@ -8716,7 +8722,6 @@ text-decoration: none;
   padding-top: 20px;
 }
 .netbet{
-  background: #1b1b1b;
   border-radius: 6px;
 }
 .hold{
@@ -8729,6 +8734,9 @@ text-decoration: none;
   float: none;
   display: inline-block;
   vertical-align: middle;
+}
+.netbet .netbet-wrapper{
+  display: block
 }
 .netbet ul{
   padding: 0;
@@ -10073,7 +10081,6 @@ height: 30px!important;
   padding-right: 15px
 }
 .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
-  padding: 20px 20px 20px 50px;
   border-bottom: 1px solid #000;
 }
 .add-main-screen{
@@ -10087,7 +10094,6 @@ height: 30px!important;
   max-width: 180px;
   margin: 0px auto;
   position: relative;
-  left: 10px;
 }
 
 .live-game .title{
@@ -10799,9 +10805,6 @@ h5.title-inside{
   width: 50%;
   text-align: left;
 }
-.mobile-jackpot-winner ul li ul li:nth-child(1){
-  padding-left: 10px
-}
 .mobile-jackpot-winner .one-winner ul li{
   margin: 0;
 }
@@ -10943,6 +10946,9 @@ h5.title-inside{
   background-size: 100% 2px;
   background-position: 70% 0%;
 }
+.logo-area-content{
+  text-align: center;
+}
 .atletico-area .text, .atletico-area .img{
   display: inline-block;
   vertical-align: middle;
@@ -10978,7 +10984,7 @@ h5.title-inside{
   position: absolute;
   top: 5px;
   bottom: 7px;
-  right: 8px;
+  right: 0;
   background: #000;
   border-right: 1px solid #4a4a4a
 }
@@ -11121,7 +11127,10 @@ h5.title-inside{
 }
 .new123-inner .num, .new123-inner .text, .new123-inner .img{
   display: inline-block;
-  vertical-align: middle;
+}
+.new123afterlogin .new123-inner .num, .new123afterlogin .new123-inner .text, .new123afterlogin .new123-inner .img{
+  display: inline-block;
+  float: left;
 }
 .new123{
   background: #161616;
@@ -11134,10 +11143,13 @@ h5.title-inside{
   line-height: 50px
 }
 .new123 .text{
+  font-family: yahei;
   letter-spacing: 1px
 }
 .new123 .text span{
+  font-family: yahei;
   display: block;
+  letter-spacing: 1px;
 }
 .new123-inner{
   position: relative;
@@ -11207,7 +11219,6 @@ h5.title-inside{
   content: none;
 }
 .new123b .num{
-  border: solid 2px #fba601;
   text-align: center;
   border-radius: 50%;
   position: relative;
@@ -11264,6 +11275,7 @@ h5.title-inside{
   border-left: 0;
 }
 .new-counter .counter a{
+  font-family: tahomaa;
   display: block;
   float: right;
   white-space: nowrap;
@@ -11339,4 +11351,52 @@ h5.title-inside{
 .sp-side-img{
   width: 250px;
   margin: 0 auto
+}
+.deposit-offers{
+  background: #161616;
+}
+.deposit-offers .row{
+  margin-right: 0;
+  margin-left: 0;
+}
+.offers .text, .offers .num, .offers .search, .offers .img{
+  display: inline-block;
+}
+.offers .num{
+  color: #fba601;
+  font-family: Tungsten;
+  font-size: 2.9em;
+  min-width: 70px
+}
+.offers .text{
+  font-family: yahei;
+  font-size: 1em;
+  letter-spacing: 1px
+}
+.offers .text span{
+  display: block;
+  font-size: 0.8em
+}
+.offers .text i{
+  font-style: normal;
+  color: #fba601
+}
+.offers .search{
+  width: 20px;
+  float: right;
+  margin-top: 1.4em
+}
+.offers .img{
+  width: 50px;
+  height: 52px;
+  background: url('../img/dl/1.png') no-repeat;
+  background-size: 32px 32px;
+  background-position: left;
+  position: relative;
+  top: 0.2em;
+}
+.deposit-offers.for-dl .offers .text{
+  position: relative;
+  bottom: 0.7em;
+  min-width: 6em
 }
