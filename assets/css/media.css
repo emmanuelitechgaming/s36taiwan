@@ -2047,6 +2047,9 @@ max-height: 170px;
     .borderstyle.for-afterlogin{
       display: none;
     }
+    .btn-hidden-dh2p1{
+      margin-left: 5.5%
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2812,6 +2815,9 @@ max-height: 170px;
     }
     .new123afterlogin .img {
       width: 1.9em;
+    }
+    .btn-hidden-dh2p1{
+      margin-left: 7.1%
     }
 }
 
@@ -4081,7 +4087,17 @@ max-height: 170px;
       top: 3px;
     }
     .mnav-top ul li {
-      margin-right: 164px;
+      margin-right: 11.5em;
+    }
+    .new-counter .marquee-wrapper, .new-counter .counter {
+      display: inline-block;
+      float: left;
+      margin-left: -4px;
+      margin: 5px 0;
+    }
+    .new-counter .counter{
+      width: 50%;
+      text-align: right;
     }
 }
 
@@ -7057,6 +7073,9 @@ max-height: 170px;
     position: relative;
     top: -0.1em
   }
+  .btn-hidden-dh2p1{
+    margin-left: 1.5%
+  }
 }
 
 @media (min-width: 1200px){
@@ -7705,7 +7724,7 @@ right: 2px;
     width: 1263px
   }
   .deposit-offers.for-dl .container{
-    width: 1314px;
+    width: 1310px;
     padding-left: 31px;
   }
 }
