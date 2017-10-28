@@ -11015,43 +11015,68 @@ h5.title-inside{
   z-index: 1;
 }
 .y-promo-tab{
-  padding-bottom: 10px;
-}
-.y-promo-tab::after{
-  content: '';
-  height: 2px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-bottom: 1px solid #333;
-  background: #000;
+  display: block;
+  padding: 10px;
+  background: #1b1b1b;
+  border-radius: 5px;
 }
 .y-promo-tab ul{
   list-style: none;
   padding: 0;
   margin: 0;
 }
+.y-promo-tab ul::before, .y-promo-tab ul::after{
+  display: table;
+  content: ' '
+}
+.y-promo-tab ul::after{
+  clear: both;
+}
 .y-promo-tab ul li{
-  display: inline-block;
-  margin: 12px 0;
-  margin-right: 20px;
-  min-width: 96px
+  float: left;
+  width: 33.333333%;
+  margin: 10px 0;
+}
+.y-promo-tab ul li:nth-child(4), .y-promo-tab ul li:nth-child(5){
+  width: 50%;
+}
+.y-promo-tab ul li:nth-child(2) a{
+  margin: 0px auto;
+}
+.y-promo-tab ul li:nth-child(3) a{
+  margin-left: auto;
+}
+.y-promo-tab ul li:nth-child(5) a{
+  margin-left: auto;
+  position: relative;
 }
 .y-promo-tab ul li a{
   display: block;
   text-align: center;
-  background: #111;
+  background: #2a2a2a;
   color: #fff;
-  padding: 6px 22px;
+  padding: 6px 0;
   border-radius: 20px;
   font-size: 13px;
-  width: 104px
+  width: 90%;
+}
+.y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
+  width: 95%
 }
 .y-promo-tab ul li.active a{
   background: #fba601;
   color: #111;
   font-weight: 700;
+}
+.y-promo-tab ul li:nth-child(5) a::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 68px;
+  height: 28px;
+  background: url('../img/promo/vip-button.png') no-repeat;
+  top: -1.2em;
+  right: -0.8em;
 }
 .logo-area::before{
   content: '';
