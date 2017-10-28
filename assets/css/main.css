@@ -9122,7 +9122,6 @@ span.add-ico{
 }
 .sp-breadcrumb{
   background: #1B1A1A;
-  padding-bottom: 10px;
 }
 .bago_nanaman{
   background: #161616;
@@ -9880,7 +9879,8 @@ header #m-selectpicker2-collapse ul li{
   border-radius: 5px;
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
-      width: 100px;
+  width: 100px;
+  text-align: left;
 }
 .trphy{
   display: inline-block!important;
@@ -10161,11 +10161,10 @@ padding: 15px;
 .jackpot-winner2 span.cny{
   padding: 4px 5px;
   top: -3px;
-  margin:0 32px;
+  margin:0 20px;
 }
 .trphy1-color tr td:last-child{
   text-align: right;
-  padding-right: 30px
 }
 .j-new .title{
   background: rgba(66,66,66,1);
@@ -11403,7 +11402,7 @@ h5.title-inside{
   font-family: yahei;
   font-size: 1em;
   letter-spacing: 1px;
-  width: 85px
+  min-width: 85px
 }
 .offers .text span{
   display: block;

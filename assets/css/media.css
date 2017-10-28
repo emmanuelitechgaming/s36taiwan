@@ -338,7 +338,6 @@ max-height: 170px;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 20px;
     }
     .live-game > .promo-c > .promo-txt h3 {
         font-size: 18px;
@@ -1859,9 +1858,6 @@ max-height: 170px;
       width: 233px;
       margin-top: 0;
       margin-bottom: 10px
-    }
-    .promo-section .inside-buttons{
-      margin-bottom: 0;
     }
     .footer-sports .img{
       width: 35px;
@@ -5009,6 +5005,9 @@ max-height: 170px;
   .offers .text, .offers .num{
     margin: 0 2%;
   }
+  #b{
+    max-width: 100%
+  }
 }
 
 
@@ -5536,9 +5535,6 @@ max-height: 170px;
     .sp-back-btn {
         position: relative;
         bottom: 0
-    }
-    img.b-img {
-        top: 70px
     }
     .float-contacts-m {
         bottom: 125px;
@@ -7086,6 +7082,44 @@ max-height: 170px;
     position: relative;
     top: -0.1em
   }
+  .wallet .datepicker {
+    width: 22.8% !important;
+    margin-left: 3px;
+    margin-bottom: 0.5%;
+  }
+  .jackpot-winner2 .flexslider table tr td:first-child{
+    padding-left: 13px
+  }
+  .trphy1-color tr td:last-child{
+    padding-right: 12px
+  }
+  .njackpot-nwinner{
+    display: none;
+  }
+  .borderstyle.for-afterlogin{
+    display: none
+  }
+  main .borderstyle-casino{
+    display: none;
+  }
+  main .borderstyle-sp{
+    display: none
+  }
+  main .borderstyle-slots{
+    display: none
+  }
+  main .borderstyle-lotto{
+    display: none
+  }
+  main .borderstyle-promo{
+    display: none
+  }
+  main .borderstyle-dl{
+    display: none;
+  }
+  .sp-side-img{
+    margin-top: 6em
+  }
 }
 
 @media (min-width: 1200px){
@@ -7098,6 +7132,30 @@ max-height: 170px;
   }
   .the-container-slots{
     width: 1267px
+  }
+  .njackpot-nwinner{
+    display: block;
+  }
+  .borderstyle.for-afterlogin{
+    display: block
+  }
+  main .borderstyle-casino{
+    display: block;
+  }
+  main .borderstyle-sp{
+    display: block;
+  }
+  main .borderstyle-slots{
+    display: block
+  }
+  main .borderstyle-lotto{
+    display: block
+  }
+  main .borderstyle-promo{
+    display: block
+  }
+  main .borderstyle-dl{
+    display: block;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -7737,5 +7795,17 @@ right: 2px;
   .deposit-offers.for-dl .container{
     width: 1347px;
     padding-left: 40px;
+  }
+  .wallet .datepicker {
+    width: 22.8% !important;
+  }
+  .jackpot-winner2 .flexslider table tr td:first-child{
+    padding-left: 15px
+  }
+  .trphy1-color tr td:last-child{
+    padding-right: 10px
+  }
+  .sp-side-img{
+    margin-top: 4em
   }
 }
