@@ -1915,16 +1915,20 @@ max-height: 170px;
       width: 146px;
     }
     main .borderstyle-casino  {
-        margin: -26px 2px 20px
+        margin: -26px 2px 20px;
+        display: none;
     }
     main .borderstyle-slots{
-      margin: -27px 4px 20px
+      margin: -27px 4px 20px;
+      display: none;
     }
     main .borderstyle-dl{
-      margin: 5px 8px 20px
+      margin: 5px 8px 20px;
+      display: none;
     }
     main .borderstyle-promo{
       margin: -30px 0px 20px;
+      display: none
     }
     .new123 .col-md-3{
       border-right: solid 2px #2a2a2a
@@ -1958,7 +1962,7 @@ max-height: 170px;
       padding-left: 10px
     }
     .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
-      padding: 5px 15px !important;
+      padding: 5px 20px !important;
     }
     .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
       padding: 20px 15px 20px 15px;
@@ -2009,7 +2013,7 @@ max-height: 170px;
     }
     main .borderstyle-sp{
       position: relative;
-      margin: 20px 8px;
+      margin: 20px 1px;
       top: -0.5em
     }
     main .borderstyle-sp.for-promo{
@@ -2020,6 +2024,31 @@ max-height: 170px;
     }
     .tdw-slots ul li {
       margin: 5px auto
+    }
+    .one-winner .numbers{
+      text-indent: 29px
+    }
+    .winners-others{
+      display: none;
+    }
+    .prizepool.winner{
+      padding: 10px;
+      margin-bottom: 0;
+      position: relative;
+      right: 15px
+    }
+    main .live-game img {
+        margin: 0 auto;
+    }
+    main .borderstyle-lotto {
+      margin: -11px -8px 20px;
+      display: none;
+    }
+    .borderstyle.for-afterlogin{
+      display: none;
+    }
+    .btn-hidden-dh2p1{
+      margin-left: 5.5%
     }
 }
 
@@ -2359,10 +2388,23 @@ max-height: 170px;
       margin-right: 3px;
     }
     main .borderstyle-sp{
-      top: -0.6em
+      top: -0.6em;
+      display: none;
     }
     .new123afterlogin .img{
       width: 1.7em
+    }
+    .slots-winner ul li ul li:last-child .yellow {
+      margin-right: 15px;
+    }
+    .one-winner .wrapper .info div:last-child {
+      left: 2px;
+    }
+    .one-winner .yellow {
+      left: -78px;
+    }
+    .prizepool.winner{
+      right: 10px
     }
 }
 
@@ -2751,13 +2793,13 @@ max-height: 170px;
       font-size: 1.6em;
     }
     .slots-winner ul li ul li:last-child .yellow{
-      margin-right: 8px
+      margin-right: 23px
     }
     .one-winner .yellow{
-      left: -73px;
+      left: -83px;
     }
     .one-winner .wrapper .info div:last-child{
-      left: 0px
+      left: 4px
     }
     .new123b .num {
       font-size: 2.5em;
@@ -2773,6 +2815,9 @@ max-height: 170px;
     }
     .new123afterlogin .img {
       width: 1.9em;
+    }
+    .btn-hidden-dh2p1{
+      margin-left: 7.1%
     }
 }
 
@@ -3136,13 +3181,13 @@ max-height: 170px;
       height: 28px
     }
     .slots-winner ul li ul li:last-child .yellow {
-      margin-right: 26px;
+      margin-right: 41px;
     }
     .one-winner .yellow{
-      left: -84px;
+      left: -93px;
     }
     .one-winner .wrapper .info div:last-child{
-      left: 4px
+      left: 7px
     }
     .new123b .num {
       width: 25px;
@@ -3157,6 +3202,9 @@ max-height: 170px;
     }
     main .borderstyle-sp{
       top: -0.6em
+    }
+    .prizepool.winner{
+      right: 0
     }
 }
 
@@ -3535,18 +3583,21 @@ max-height: 170px;
       padding-right: 10px;
     }
     .slots-winner ul li ul li:last-child .yellow{
-      margin-right: 27px
+      margin-right: 42px
     }
     .one-winner .yellow{
-      left: -83px;
+      left: -95px;
     }
     .one-winner .wrapper .info div:last-child{
-      left: 5px
+      left: 9px
     }
     .new123b .num {
       width: 25px;
       font-size: 2.8em;
       top: 0px;
+    }
+    .prizepool.winner{
+      right: 0
     }
 }
 
@@ -4036,7 +4087,17 @@ max-height: 170px;
       top: 3px;
     }
     .mnav-top ul li {
-      margin-right: 164px;
+      margin-right: 11.5em;
+    }
+    .new-counter .marquee-wrapper, .new-counter .counter {
+      display: inline-block;
+      float: left;
+      margin-left: -4px;
+      margin: 5px 0;
+    }
+    .new-counter .counter{
+      width: 50%;
+      text-align: right;
     }
 }
 
@@ -4856,13 +4917,14 @@ max-height: 170px;
     margin-right: 100px
   }
   .mobile-jackpot-winner ul li ul li:nth-child(2) .yellow{
-    margin-right: 146px
+    margin-right: 185px;
+    margin-left: 25px
   }
   .one-winner .wrapper .info div:last-child {
-    left: -2px;
+    left: 50px;
   }
   .one-winner .yellow {
-    left: -188px;
+    left: -220px;
   }
   .new123afterlogin .img{
     width: 2.2em
@@ -4877,7 +4939,7 @@ max-height: 170px;
     border-right: none
   }
   .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
-    padding: 5px 35px !important;
+    padding: 5px 40px !important;
   }
   .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
     padding: 20px 35px 20px 35px;
@@ -4926,6 +4988,13 @@ max-height: 170px;
   }
   .tdw-slots ul li {
     margin: 10px auto;
+  }
+  .one-winner .numbers{
+    text-indent: 46px
+  }
+  .gp.container{
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -6907,16 +6976,20 @@ max-height: 170px;
     margin-top: 10px
   }
   main .borderstyle-casino  {
-      margin: -9px 6px 20px
+    margin: -9px 6px 20px;
+    display: block
   }
   main .borderstyle-slots{
-    margin: 10px 0 20px
+    margin: 10px 0 20px;
+    display: block
   }
   main .borderstyle-dl{
-    margin: 23px 8px 20px
+    margin: 23px 8px 20px;
+    display: block
   }
   main .borderstyle-promo{
     margin: -20px 0px 20px;
+    display: block
   }
   .new123b {
     padding: 0 0
@@ -6934,10 +7007,10 @@ max-height: 170px;
     padding-left: 10px
   }
   .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
-    padding: 5px 20px !important;
+    padding: 5px 25px !important;
   }
   .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
-    padding: 20px 15px 20px 15px;
+    padding: 20px 20px 20px 20px;
   }
   .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
     background-size: 96.5% 1px;
@@ -6964,13 +7037,44 @@ max-height: 170px;
     margin: 0 0;
   }
   main .borderstyle-sp{
-    top: 0.2em
+    top: 0.2em;
+    display: block
   }
   .tdw-slots ul li {
     font-size: 16px;
   }
   .tdw-slots ul li {
     margin: 10px auto
+  }
+  .winners-others{
+    display: block;
+  }
+  .gp.container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  main .live-game img {
+      margin: 0 auto;
+  }
+  .deposit-offers .container{
+    width: 987px
+  }
+  .deposit-offers.for-dl .container{
+    width: 1029px;
+    padding-left: 26px;
+  }
+  main .borderstyle-lotto {
+    margin: -11px -8px 20px;
+    display: block;
+  }
+  .borderstyle.for-afterlogin{
+    display: block;
+    margin: 20px 8px;
+    position: relative;
+    top: -0.1em
+  }
+  .btn-hidden-dh2p1{
+    margin-left: 1.5%
   }
 }
 
@@ -7428,7 +7532,7 @@ main .new-counter .marquee{
     margin-left: 30px;
   }
   .valencia-area{
-    margin-left: 139px
+    margin-left: 113px
   }
   .atletico-area{
 
@@ -7618,5 +7722,9 @@ right: 2px;
   }
   .deposit-offers .container{
     width: 1263px
+  }
+  .deposit-offers.for-dl .container{
+    width: 1310px;
+    padding-left: 31px;
   }
 }
