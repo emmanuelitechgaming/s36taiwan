@@ -3133,7 +3133,7 @@ max-height: 170px;
       left: 9px;
     }
     #csMsg .g-recaptcha, #csPhone .g-recaptcha{
-      left: -19px
+      left: 0
     }
     #csPhone .g-recaptcha{
       left: 0;
