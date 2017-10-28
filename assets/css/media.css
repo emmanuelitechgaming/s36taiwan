@@ -2052,6 +2052,19 @@ max-height: 170px;
       padding-left: 0;
       padding-right: 0;
     }
+    .y-promo-tab ul li{
+      width: 33.333333%;
+    }
+    .y-promo-tab ul li:nth-child(4), .y-promo-tab ul li:nth-child(5){
+      width: 50%;
+    }
+    .y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
+      width: 95%
+    }
+    #registerModal .checkbox-warning{
+      text-align: center;
+      margin-top: -30px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -2667,7 +2680,7 @@ max-height: 170px;
       left: -23px;
     }
     #registerModal .form-recap{
-      left: 2px;
+      left: 0;
     }
     .absolute-play-casino{
       width: 70px;
@@ -2734,7 +2747,13 @@ max-height: 170px;
       transform:scale(0.88) !important;
       -webkit-transform:scale(0.88) !important;
       position: relative;
-      left: 22px
+      left: 0
+    }
+    #loginModal .g-recaptcha{
+      transform:scale(0.97) !important;
+      -webkit-transform:scale(0.97) !important;
+      position: relative;
+      left: 0
     }
     #csMsg .g-recaptcha, #csPhone .g-recaptcha{
       left: 0px
@@ -2817,6 +2836,12 @@ max-height: 170px;
     }
     .new123afterlogin .img {
       width: 1.9em;
+    }
+    #registerModal .g-recaptcha{
+      transform:scale(0.97) !important;
+      -webkit-transform:scale(0.97) !important;
+      transform-origin:0 0 !important;
+      -webkit-transform-origin:0 0 !important;
     }
 }
 
@@ -3110,8 +3135,14 @@ max-height: 170px;
     #csMsg .g-recaptcha, #csPhone .g-recaptcha{
       left: -19px
     }
+    #csPhone .g-recaptcha{
+      left: 0;
+    }
     #myModalTab1-1 .g-recaptcha {
       left: -13px;
+    }
+    #loginModal .g-recaptcha{
+      left: 0;
     }
     .mnav-afterlogin ul li {
       margin-right: 90px;
@@ -3207,6 +3238,15 @@ max-height: 170px;
     }
     .prizepool.winner{
       right: 0
+    }
+    #registerModal .g-recaptcha, #loginModal .g-recaptcha {
+       transform: scale(1) !important;
+      -webkit-transform: scale(1) !important;
+      transform-origin: 0 0 !important;
+      -webkit-transform-origin: 0 0 !important;
+    }
+    #registerModal .g-recaptcha{
+      left: 0
     }
 }
 
@@ -3412,9 +3452,6 @@ max-height: 170px;
     .live-game.lg-angel-demon img{
       bottom: 12px;
     }
-    #registerModal .checkbox-warning{
-      text-align: center;
-    }
     .checkbox-warning-form-group{
       margin-top: -35px
     }
@@ -3600,6 +3637,9 @@ max-height: 170px;
     }
     .prizepool.winner{
       right: 0
+    }
+    #registerModal .checkbox-warning{
+      margin-top: 10px
     }
 }
 
@@ -4096,10 +4136,20 @@ max-height: 170px;
       float: left;
       margin-left: -4px;
       margin: 5px 0;
+      width: 50%;
     }
     .new-counter .counter{
-      width: 50%;
       text-align: right;
+      float: right;
+    }
+    .new-counter .counter a {
+      text-indent: 29px;
+      word-spacing: 0px;
+      font-size: 1.4em;
+      letter-spacing: 12px;
+    }
+    main .new-counter .marquee {
+      width: 80%;
     }
 }
 
@@ -4771,7 +4821,8 @@ max-height: 170px;
   .new-counter .counter a {
     text-indent: 35px;
     letter-spacing: 15px;
-    word-spacing: -5px
+    word-spacing: -5px;
+    font-size: 1.7em
   }
   .new-counter .marquee-wrapper, .new-counter .counter {
     display: inline-block;
@@ -5007,6 +5058,25 @@ max-height: 170px;
   }
   #b{
     max-width: 100%
+  }
+  .y-promo-tab ul li{
+    width: 20%;
+  }
+  .y-promo-tab ul li:nth-child(4), .y-promo-tab ul li:nth-child(5){
+    width: 20%;
+  }
+  .y-promo-tab ul li a{
+    margin: 0px auto
+  }
+  .y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
+    width: 90%
+  }
+  .sweet-alert{
+    left: 52%
+  }
+  #registerModal .checkbox-warning{
+    margin-top: 5px;
+    text-align: left;
   }
 }
 
@@ -7119,6 +7189,9 @@ max-height: 170px;
   }
   .sp-side-img{
     margin-top: 6em
+  }
+  .sweet-alert{
+    left: 51%
   }
 }
 

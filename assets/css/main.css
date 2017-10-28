@@ -10767,7 +10767,7 @@ h5.title-inside{
 }
   .slot-new-game{
   position: absolute;
-  z-index: 999;
+  z-index: 1;
   top: 2px;
   left: 1px;
 }
@@ -11042,9 +11042,6 @@ h5.title-inside{
   float: left;
   width: 33.333333%;
   margin: 10px 0;
-}
-.y-promo-tab ul li:nth-child(4), .y-promo-tab ul li:nth-child(5){
-  width: 50%;
 }
 .y-promo-tab ul li:nth-child(2) a{
   margin: 0px auto;
