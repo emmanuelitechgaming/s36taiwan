@@ -2001,6 +2001,7 @@ max-height: 170px;
     }
     .offers .num{
       text-align: right;
+      width: 70px
     }
     .offers::after{
       content: '';
@@ -5003,6 +5004,7 @@ max-height: 170px;
   }
   .offers .num{
     text-align: right;
+    width: auto;
   }
   .offers .text, .offers .num{
     margin: 0 2%;
@@ -7733,7 +7735,7 @@ right: 2px;
     padding-right: 16px;
   }
   .deposit-offers.for-dl .container{
-    width: 1310px;
-    padding-left: 31px;
+    width: 1347px;
+    padding-left: 40px;
   }
 }

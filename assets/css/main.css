@@ -10163,6 +10163,10 @@ padding: 15px;
   top: -3px;
   margin:0 32px;
 }
+.trphy1-color tr td:last-child{
+  text-align: right;
+  padding-right: 30px
+}
 .j-new .title{
   background: rgba(66,66,66,1);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,66,66,1)), color-stop(100%, rgba(31,31,31,1)));
@@ -11387,6 +11391,9 @@ h5.title-inside{
 .offers .text, .offers .num, .offers .search, .offers .img{
   display: inline-block;
 }
+.offers .text{
+  margin-left: -4px
+}
 .offers .num{
   color: #fba601;
   font-family: Tungsten;
@@ -11395,7 +11402,8 @@ h5.title-inside{
 .offers .text{
   font-family: yahei;
   font-size: 1em;
-  letter-spacing: 1px
+  letter-spacing: 1px;
+  width: 85px
 }
 .offers .text span{
   display: block;
@@ -11415,7 +11423,7 @@ h5.title-inside{
   height: 52px;
   background: url('../img/dl/1.png') no-repeat;
   background-size: 32px 32px;
-  background-position: left;
+  background-position: center;
   position: relative;
   top: 0.2em;
 }
@@ -11424,7 +11432,7 @@ h5.title-inside{
   height: 52px;
   background: url('../img/dl/3.png') no-repeat;
   background-size: 32px 32px;
-  background-position: left;
+  background-position: center;
   position: relative;
 }
 .offers .img2{
@@ -11432,7 +11440,7 @@ h5.title-inside{
   height: 52px;
   background: url('../img/dl/2.png') no-repeat;
   background-size: 32px 32px;
-  background-position: left;
+  background-position: center;
   position: relative;
 }
 .deposit-offers.for-dl .offers .text{
