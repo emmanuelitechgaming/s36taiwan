@@ -11392,6 +11392,22 @@ h5.title-inside{
   position: relative;
   top: 0.2em;
 }
+.offers .img3{
+  width: 50px;
+  height: 52px;
+  background: url('../img/dl/3.png') no-repeat;
+  background-size: 32px 32px;
+  background-position: left;
+  position: relative;
+}
+.offers .img2{
+  width: 50px;
+  height: 52px;
+  background: url('../img/dl/2.png') no-repeat;
+  background-size: 32px 32px;
+  background-position: left;
+  position: relative;
+}
 .deposit-offers.for-dl .offers .text{
   position: relative;
   bottom: 0.7em;
