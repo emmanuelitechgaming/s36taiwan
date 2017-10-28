@@ -637,6 +637,10 @@
     display: inline-block;
     width: 28.5%
   }
+  .breadcrumb-inner.deposit-page .form-group{
+    display: block;
+    width: 100%;
+  }
   .breadcrumb-inner .wallet.account.acc-info .form-group{
     display: block;
     width: 100%;

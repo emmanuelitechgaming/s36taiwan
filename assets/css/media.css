@@ -2051,8 +2051,9 @@ max-height: 170px;
     .borderstyle.for-afterlogin{
       display: none;
     }
-    .btn-hidden-dh2p1{
-      margin-left: 5.5%
+    .breadcrumb-inner.deposit-page .form-group label{
+      padding-left: 0;
+      padding-right: 0;
     }
 }
 
@@ -2820,9 +2821,6 @@ max-height: 170px;
     .new123afterlogin .img {
       width: 1.9em;
     }
-    .btn-hidden-dh2p1{
-      margin-left: 7.1%
-    }
 }
 
 
@@ -3064,6 +3062,9 @@ max-height: 170px;
     .btn-hidden::after{
       width: 20px;
       height: 23px;
+    }
+    .btn-hidden-dh2p1::after, .btn-hidden-dh2p2::after{
+      width: 15px
     }
     #btnSearch::after, #btn-edit-info::after{
       width: 18px;
@@ -4965,7 +4966,7 @@ max-height: 170px;
     background: #000;
     border-right: 1px solid #303030;
     position: absolute;
-    right: 0;
+    right: -0.9%;
     top: 1em
   }
   .deposit-offers.for-dl .offers::after{
@@ -5001,10 +5002,10 @@ max-height: 170px;
     padding-right: 0;
   }
   .offers .num{
-    text-align: left;
+    text-align: right;
   }
   .offers .text, .offers .num{
-    margin: 0 0;
+    margin: 0 2%;
   }
 }
 
@@ -5776,9 +5777,6 @@ max-height: 170px;
       margin-left: 40%;
       margin-right: 40%;
     }
-    .btn-hidden-ph2p2, .btn-hidden-dh2p2{
-      margin-left: 35px
-    }
     .wallet-link{
       margin-left: 10px;
     }
@@ -6042,6 +6040,9 @@ max-height: 170px;
   .btn-hidden::after{
     width: 19px;
     height: 21px;
+  }
+  .btn-hidden-dh2p1::after, .btn-hidden-dh2p2::after{
+    width: 15px
   }
   .lg-playnow {
   }
@@ -7083,9 +7084,6 @@ max-height: 170px;
     position: relative;
     top: -0.1em
   }
-  .btn-hidden-dh2p1{
-    margin-left: 1.5%
-  }
 }
 
 @media (min-width: 1200px){
@@ -7731,7 +7729,8 @@ right: 2px;
     top: -18px;
   }
   .deposit-offers .container{
-    width: 1263px
+    width: 1281px;
+    padding-right: 16px;
   }
   .deposit-offers.for-dl .container{
     width: 1310px;
