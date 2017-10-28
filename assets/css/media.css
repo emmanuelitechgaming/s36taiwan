@@ -1997,6 +1997,10 @@ max-height: 170px;
     }
     .offers .text, .offers .num{
       text-align: left;
+      margin: 0 10px
+    }
+    .offers .num{
+      text-align: right;
     }
     .offers::after{
       content: '';
@@ -4995,6 +4999,12 @@ max-height: 170px;
   .gp.container{
     padding-left: 0;
     padding-right: 0;
+  }
+  .offers .num{
+    text-align: left;
+  }
+  .offers .text, .offers .num{
+    margin: 0 0;
   }
 }
 

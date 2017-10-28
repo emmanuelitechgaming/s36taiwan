@@ -11419,3 +11419,9 @@ h5.title-inside{
 #paymentStatement p span{
   color: #fba601
 }
+.trphy-circle{
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 2px 8px;
+  top: 2px;
+}
