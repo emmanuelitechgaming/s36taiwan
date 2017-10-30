@@ -907,6 +907,7 @@ $(document).ready(function () {
         animationSpeed: '1000',
         controlNav: false,
         directionNav: false,
+        touch: false
       });
 
       $('.top-games .flexslider').flexslider({
@@ -1001,7 +1002,7 @@ $('.one-winner .flexslider').flexslider({
   slideshowSpeed: '3000',
   controlNav: false,
   directionNav: false,
-  slideshow: false
+  touch: false
 });
 
   $(window).scroll(function() {
@@ -1043,6 +1044,28 @@ $('.one-winner .flexslider').flexslider({
     $(this).addClass('step-search-hover');
   }, function() {
     $(this).removeClass('step-search-hover');
+  });
+
+  $('.cs247').hover(function() {
+    $(this).css('color', '#fba601');
+    $(this).find('img').attr('src', 'assets/img/Y3Y.png')
+  }, function() {
+    $(this).css('color', '#fff');
+    $(this).find('img').attr('src', 'assets/img/Y3.png')
+  })
+
+  $('.new-counter .img').hover(function() {
+    $(this).find('img').attr('src', 'assets/img/new-counter-speaker-hover.png');
+  }, function() {
+    $(this).find('img').attr('src', 'assets/img/new-counter-speaker.png');
+  });
+
+  $('.lotto-button .text').click(function() {
+    $('#loginModal').modal('show');
+  })
+
+  $('.inside-buttons.trigger').click(function() {
+    $('.winners-others').toggle()
   })
 
 });

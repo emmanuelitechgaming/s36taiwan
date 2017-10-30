@@ -9,6 +9,14 @@
 *:focus, *:active, *:visited, *:hover{
   outline: 0 !important;
 }
+@font-face {
+  font-family: tahomaa;
+  src: url('../fonts/tahoma/tahoma.ttf');
+}
+@font-face {
+   font-family: yahei;
+   src: url('../fonts/yahei/chinese.msyh.ttf');
+}
 body {
     background: #2a2a2a;
     color: #ffffff;
@@ -32,7 +40,6 @@ header {
 header .top-header {
     padding: 0 5px;
     font-size: 12px;
-    margin-bottom: 7px;
 }
 
 header .top-header ul li span {
@@ -324,7 +331,9 @@ main .live-container {
   display: block;
   white-space: nowrap;
 }
-
+#navbar-dekstop-collapse li a{
+  padding: 5px 12px 2px !important
+}
 main .gp-g {
     position: relative;
     top: -5px;
@@ -363,9 +372,21 @@ main .notice {
 main .borderstyle {
     margin: 20px 0px;
 }
+main .borderstyle-casino  {
+    margin: -9px 6px 20px
+}
 main .borderstyler {
     margin: 5px 0px;
     border-top: 1px solid #000;
+}
+main .gp.container .borderstyler{
+  margin: 5px -8px
+}
+main .borderstyle-index{
+  margin: 5px 8px
+}
+main .borderstyle-sp-promo{
+  margin: 25px 8px 5px
 }
 .live-games img {
     margin-top: 5px;
@@ -415,7 +436,10 @@ main .marquee {
     left: 16%;
     cursor: pointer
 }
-
+main .new-counter .marquee {
+  position: inherit;
+  color: #fff
+}
 main .winner {
     padding: 0;
     margin-bottom: 20px;
@@ -424,7 +448,6 @@ main .winner {
 main .win-body {
     background: #161616;
     overflow: hidden;
-    min-height: 258px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     position: relative;
@@ -511,10 +534,6 @@ main .c-text span {
 /*main .cmail{
   font-size: 40px;
 }*/
-
-main .live-game img {
-    margin: 0 auto;
-}
 
 main .ctmail {
     margin-top: 23px;
@@ -671,7 +690,7 @@ footer .copyright span {
     color: #5e5e5e;
     font-size: 14px;
     font-weight: 700;
-    margin: 10px 6px;
+    margin: 10px 4px;
     vertical-align: middle;
 }
 
@@ -785,6 +804,9 @@ div.border:before {
     overflow: hidden;
     /*background: #1b1a1a;*/
     margin-bottom: 15px;
+}
+.winner-breadcrumb-inner{
+  margin-bottom: 0;
 }
 .dl-content .breadcrumb-inner{
   margin-bottom: 0;
@@ -969,7 +991,9 @@ div.border:before {
 .panel.with-nav-tabs .panel-heading {
     padding: 5px 20px 0 20px;
 }
-
+.breadcrumb-inner-promo .panel.with-nav-tabs .panel-heading {
+  padding: 5px 15px 0
+}
 .panel.with-nav-tabs .nav-tabs {
     border-bottom: none;
 }
@@ -1551,9 +1575,11 @@ p {
 .wallet .form-group {
     margin: 0;
 }
+.breadcrumb-inner.deposit-page .wallet .form-group{
+  margin-bottom: 10px
+}
 .cntrycode{
   position: absolute;
-left: -41px;
 top: 6px;
 color: #ffffff!important;
 }
@@ -1592,7 +1618,9 @@ color: #ffffff!important;
 .account-c {
     padding: 15px;
 }
-
+.account.account-c{
+  padding-bottom: 0;
+}
 .account-text {
     width: 145px;
 }
@@ -1668,6 +1696,9 @@ color: #ffffff!important;
   position: absolute;
   margin-left: 10px;
   top: 7px;
+}
+#btnSearch::after, #btn-edit-info::after{
+  top: 5px
 }
 .arrow-right-brown::after{
   background: url('../img/arrow-right-brown.png') no-repeat;
@@ -3144,9 +3175,22 @@ span.round-tab i {
     -webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
             box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7)
 }
-
-.cs-modal .chatserver-form button::after, #cscall::after{
+.cs-modal .chatserver-form .csPhone-language button {
+  margin-bottom: 0;
+}
+.cs-modal .chatserver-form button::after{
   content: '';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url('../img/arrow-right-30.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 2px;
+}
+
+#cscall::after{
+  content: '' !important;
   display: inline-block;
   width: 17px;
   height: 17px;
@@ -3359,7 +3403,15 @@ footer .browsers li:first-child {
 .tdw-body .col-md-3 {
     text-align: center;
 }
-
+.tdw-body .table-striped>tbody>tr{
+  background-color: #ddd
+}
+.tdw-body .table-striped>tbody>tr:nth-of-type(odd){
+  background-color: #f9f9f9
+}
+.tdw-body .table thead tr th{
+  white-space: nowrap;
+}
 .td-win .amount {
     color: #fba601;
     font-weight: 700;
@@ -3912,7 +3964,7 @@ color: #fba601;
 
 #c {
     min-height: 90px;
-    max-width: 377px;
+    max-width: 386.66px;
 }
 
 
@@ -5574,7 +5626,7 @@ div.cta-contact-info a {
 }
 #myTargetElement,
 #myTargetElement2 {
-    font-family: "5by7";
+    /*font-family: "5by7";*/
 }
 .absolute-play {
     position: absolute;
@@ -6111,7 +6163,7 @@ main .win-lot-top-games {
 }
 
 .panel.with-nav-tabs .panel-heading .promo-tabs li a {
-    background: #111111;
+    background: #2a2a2a;
     color: #fff;
     border-radius: 0;
     font-size: 16px;
@@ -6205,13 +6257,15 @@ main .win-lot-top-games {
     padding: 5px 10px 10px;
     background: #1b1b1b;
 }
-
+.mobile-banner-text.for-main {
+    padding: 5px 10px 0;
+}
 .mobile-banner-title {
     color: #fba601;
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 2px;
-    margin-bottom: 5px;
+    margin: 5px 0
 }
 
 .mobile-banner-content {
@@ -6222,7 +6276,6 @@ main .win-lot-top-games {
 .mobile-banner-social {
     margin: 0;
     padding: 0;
-    margin-top: 10px
 }
 
 .mobile-banner-social li {
@@ -6307,7 +6360,7 @@ main .win-lot-top-games {
 .navbar-afterlogin {
     position: relative;
     top: 11px;
-    left: -10px
+    left: -2px
 }
 .navbar-afterlogin ul li {
     position: relative;
@@ -6317,7 +6370,7 @@ main .win-lot-top-games {
     text-decoration: none;
     color: #fff;
     margin: 0 13px;
-    margin-left: 17.8px
+    margin-left: 15px
 }
 .navbar-afterlogin ul li a span {
     position: relative;
@@ -7536,7 +7589,7 @@ button .flag-icon-kr::before {
 .navbar-top-right li a {
     font-size: 20px;
     color: #fff;
-    margin-left: 17.8px
+    margin-left: 15px
 }
 
 .navbar-top-right li a:hover,
@@ -7570,7 +7623,15 @@ button .flag-icon-kr::before {
     width: 29px;
     display: inline-block;
 }
-
+#navbar-dekstop-collapse li a img{
+  width: 25px;
+  position: relative;
+  right: -1px
+}
+#navbar-dekstop-collapse li:nth-child(2) a img{
+  width: 26px;
+  right: 0;
+}
 .nav.navbar-nav.navbar-right.hidden-xs.hidden-sm li a span {
     display: inline-block;
     position: relative;
@@ -7642,6 +7703,15 @@ button .flag-icon-kr::before {
     text-align: left;
     margin-bottom: 0;
 }
+.cs-modal .chatserver-form button.select-country-code:active, .cs-modal .chatserver-form button.select-country-code:focus {
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 38px;
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important
+}
 .select-country-code-dropdown .dropdown-menu {
     background-color: #333;
 }
@@ -7649,7 +7719,9 @@ button .flag-icon-kr::before {
 .select-country-code-dropdown .dropdown-menu>li>a {
     color: #fff
 }
-
+.select-country-code-dropdown .dropdown-menu>li>a:hover {
+  color: #000
+}
 .login-info-mobile {
     text-align: center;
     font-size: 25px;
@@ -7716,8 +7788,6 @@ button .flag-icon-kr::before {
 
 .tdw-slots ul li {
     text-align: center;
-    font-size: 16px;
-    margin: 10px auto
 }
 
 .tdw-slots ul li:nth-child(2) {
@@ -7792,18 +7862,13 @@ button .flag-icon-kr::before {
     background: #575757
 }
 
-.tdw-slots .col-md-3 {
-    min-height: 300px;
-    margin: 20px 0
-}
-
 .tdw-button button {
     display: inline-block;
     background: #acacb4;
     border: none;
     color: #000;
     font-weight: 700;
-    padding: 5px 45px;
+    padding: 4px 45px;
     font-size: 16px;
     border-radius: 20px;
 }
@@ -7942,11 +8007,12 @@ margin-right: 23px;
   -webkit-transition-timing-function: linear,linear;
   cursor: pointer;
   -webkit-transition-property: border-color,color;
-  background: 000 url('../img/underline.png') no-repeat;
-  background-size: 90% 2px;
-  background-position: 70% 0%;
   line-height: 38px;
   padding: 5px 39px !important;
+}
+.nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
+  background: url('../img/underline4.png') no-repeat;
+  background-position: bottom;
 }
 .nav-slide .navbar-nav li:nth-child(1) a{
   height: auto;
@@ -8659,7 +8725,6 @@ text-decoration: none;
   padding-top: 20px;
 }
 .netbet{
-  background: #1b1b1b;
   border-radius: 6px;
 }
 .hold{
@@ -8672,6 +8737,9 @@ text-decoration: none;
   float: none;
   display: inline-block;
   vertical-align: middle;
+}
+.netbet .netbet-wrapper{
+  display: block
 }
 .netbet ul{
   padding: 0;
@@ -9054,7 +9122,6 @@ span.add-ico{
 }
 .sp-breadcrumb{
   background: #1B1A1A;
-  padding-bottom: 10px;
 }
 .bago_nanaman{
   background: #161616;
@@ -9126,8 +9193,7 @@ span.add-ico{
   font-weight: 700;
 }
 .boxer .step-no.steps{
-  min-height: 50px;
-  min-width: 75px;
+  min-width: 85px;
   position: relative;
   top: 0px;
 }
@@ -9261,9 +9327,6 @@ span.add-ico{
   line-height: 462px;
       border: 1px solid #383838;
 }
-.spotlight-bg-text img{
-  width: 270px;
-}
 .platform-logo {
   width: 38px;
   display: inline-block;
@@ -9281,11 +9344,8 @@ span.add-ico{
 }
 .vip-button{
   display: block;
-  width: 66px;
-  height: 28px;
   background-image: url('../img/promo/vip-button.png') !important;
   position: absolute;
-  top: -18px;
   right: -7px;
   background-size: 100% 100%;
 }
@@ -9721,7 +9781,7 @@ header #m-selectpicker2-collapse ul li{
   padding: 0!important;
 }
 .flexslider table, .flexslider th ,  .flexslider td {
-  border: 1px solid #2d2d2d;
+  border-bottom: 1px solid #2d2d2d;
   border-top: 0;
   border-collapse: collapse;
   text-align: center;
@@ -9785,7 +9845,6 @@ header #m-selectpicker2-collapse ul li{
 }
 .flexslider .title{
   border-bottom: 1px solid transparent !important;
-  border-left: none
 }
 .jackpot-winner tr td:last-child{
   width: 105px;
@@ -9820,7 +9879,8 @@ header #m-selectpicker2-collapse ul li{
   border-radius: 5px;
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
-      width: 100px;
+  width: 100px;
+  text-align: left;
 }
 .trphy{
   display: inline-block!important;
@@ -9976,10 +10036,16 @@ height: 30px!important;
 .side-logo{
   cursor: pointer;
 }
-  .side-logo-plus a{
+.side-logo-plus a, .side-logo-right a{
   color: #fff;
 }
-.side-logo-plus a:hover{
+.side-logo-right a::after{
+  content: none !important
+}
+.side-logo-right a:hover{
+  text-decoration: none
+}
+.side-logo-plus a:hover, .side-logo-right a:hover{
   color: #fba601
 }
 .side-logo-plus a:hover, .side-logo-plus a:active, .side-logo-plus a:focus{
@@ -10011,18 +10077,13 @@ height: 30px!important;
 .winner-breadcrumb-inner .leaderboard{
   height: 410px;
   overflow-y: scroll;
-  padding-right: 0;
+  padding: 2px 0px;
 }
 .winner-breadcrumb-inner .leaderboard-wrapper{
-  padding-right: 15px
+padding: 15px;
 }
 .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(8){
-  padding: 20px;
   border-bottom: 1px solid #000;
-  padding: 15px 20px 15px 45px;
-  background: 000 url('../img/underline.png') no-repeat;
-  background-position: 70% 0%;
-  background-size: 90% 2px;
 }
 .add-main-screen{
   display: block;
@@ -10032,10 +10093,9 @@ height: 30px!important;
   color: #fff;
   padding: 6px 0;
   border-radius: 5px;
-  max-width: 180px;
+  max-width: 160px;
   margin: 0px auto;
   position: relative;
-  left: 10px
 }
 
 .live-game .title{
@@ -10101,7 +10161,10 @@ height: 30px!important;
 .jackpot-winner2 span.cny{
   padding: 4px 5px;
   top: -3px;
-  margin:0 32px;
+  margin:0 20px;
+}
+.trphy1-color tr td:last-child{
+  text-align: right;
 }
 .j-new .title{
   background: rgba(66,66,66,1);
@@ -10402,7 +10465,6 @@ font-family: Consolas;
 .carousel .banner-text{
   position: absolute;
   top: 13%;
-  right: 5%;
   width: 465px;
   height: 188px;
   background: rgba(36, 32, 25, 0.8);
@@ -10579,8 +10641,18 @@ h5.title-inside{
 
 .promo-home {
   margin: 15px auto;
-  max-width: 649px;
-  border-radius: 5px
+  border-radius: 5px;
+  position: relative;
+}
+.promo-home::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 28px;
+  background: url('../img/index/the-shadow.png') no-repeat;
+  background-size: 100% 28px;
 }
 .promo-home .title{
   position: absolute;
@@ -10654,12 +10726,13 @@ h5.title-inside{
 .wallet.acc-info .form-horizontal .sec-code{
   color: #fba601;
   text-decoration: underline;
+  white-space: nowrap;
 }
 .wallet.acc-info .form-horizontal label.col-md-1{
   left: -12px;
 }
 .the_label{
-  text-align: right;
+  text-align: left;
   font-size: 12px;
   margin: 5px 0 0
 }
@@ -10692,34 +10765,51 @@ h5.title-inside{
   position: relative;
   margin: 0 auto;
 }
-.slot-new-game{
+  .slot-new-game{
   position: absolute;
-  z-index: 999;
+  z-index: 1;
   top: 2px;
   left: 1px;
 }
 .mobile-jackpot-winner{
   margin-bottom: 10px;
+  padding: 0 15px
+}
+.mobile-jackpot-winner .slots-winner, .mobile-jackpot-winner .one-winner{
+  padding-left: 0;
+  padding-right: 0;
 }
 .mobile-jackpot-winner .col-xs-12{
   background: #161616;
   margin-bottom: 15px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px
 }
 .mobile-jackpot-winner .title{
-  padding: 10px 0 0
+  padding: 10px 10px 0;
+  border-bottom: solid 1px #000;
+  position: relative;
+  padding-bottom: 10px;
+}
+.mobile-jackpot-winner .title::after{
+  content: '';
+  display: block;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3e3e3e
 }
 .mobile-jackpot-winner ul{
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.mobile-jackpot-winner ul li{
-  margin: 5px 0
-}
 .mobile-jackpot-winner ul li ul li{
   float: left;
   width: 50%;
-  text-align: center;
+  text-align: left;
 }
 .mobile-jackpot-winner .one-winner ul li{
   margin: 0;
@@ -10736,13 +10826,69 @@ h5.title-inside{
   font-size: 12px;
   margin-right: 3px
 }
+.mobile-jackpot-winner .wrapper .numbers .yellow{
+  letter-spacing: normal;
+}
 .slots-winner .title a, .one-winner .title a{
   color: #fff;
 }
-.one-winner table{
-  margin-bottom: 0;
-  border: none;
-  padding: 0;
+.one-winner .wrapper{
+  border-bottom: solid 1px #3e3e3e;
+  padding: 5px 0
+}
+.one-winner ul li .wrapper:last-child{
+  border-bottom: none
+}
+.one-winner .wrapper .info div{
+  display: inline-block;
+  margin-left: -4px;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 13px
+}
+.one-winner .wrapper .info div:nth-child(1){
+  text-align: left;
+  padding-left: 15px
+}
+.one-winner .flexslider{
+  padding: 5px 0!important
+}
+.one-winner .wrapper .numbers div{
+  display: inline-block;
+  margin-left: -4px;
+  width: 100%;
+  padding: 0 5px;
+  text-align: center;
+  color: #fba601;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 14px
+}
+.one-winner .wrapper .info{
+  padding-right: 5px;
+}
+.one-winner .wrapper .info div:last-child{
+  position: relative;
+}
+.one-winner .yellow{
+  position: relative;
+  text-indent: 0
+}
+.slots-winner li.clearfix{
+  border-bottom: 1px solid transparent;
+  padding: 16px 0;
+  background: url('../img/underline2.png')  no-repeat;
+  background-size: 100% 1px;
+  background-position: bottom;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.slots-winner li.clearfix:last-child{
+  background: none
+}
+.slots-winner .yellow{
+  font-size: 13px;
 }
 .lotto-body-mobile{
   padding-right: 0;
@@ -10771,17 +10917,18 @@ h5.title-inside{
   background: #333;
   border: solid 1px #4a4a4a;
   top: 45px;
+  padding: 0 0
 }
 #navbar-dekstop-collapse::before{
   content: '';
   display: block;
   position: absolute;
-  width: 20px;
-  height: 10px;
-  background: url('../img/triangle.png') no-repeat;
-  background-size: cover;
-  top: -10px;
-  left: 40%
+  width: 100%;
+  height: 15px;
+  background: url(../img/triangle.png) no-repeat;
+  background-size: 20px 10px;
+  top: -13px;
+  background-position: center;
 }
 #navbar-dekstop-collapse ul li{
   display: block;
@@ -10799,8 +10946,11 @@ h5.title-inside{
 }
 .logo-area{
   background: 000 url(../img/underline.png) no-repeat;
-  background-size: 90% 2px;
+  background-size: 100% 2px;
   background-position: 70% 0%;
+}
+.logo-area-content{
+  text-align: center;
 }
 .atletico-area .text, .atletico-area .img{
   display: inline-block;
@@ -10837,7 +10987,7 @@ h5.title-inside{
   position: absolute;
   top: 5px;
   bottom: 7px;
-  right: 8px;
+  right: 0;
   background: #000;
   border-right: 1px solid #4a4a4a
 }
@@ -10855,7 +11005,7 @@ h5.title-inside{
 }
 .navaa{
   position: relative;
-  left: 4px
+  left: 8px
 }
 .marquee-jackpot-inner::before{
   content: '';
@@ -10869,4 +11019,440 @@ h5.title-inside{
   width: 105px;
   background: #161616;
   z-index: 1;
+}
+.y-promo-tab{
+  display: block;
+  padding: 10px;
+  background: #1b1b1b;
+  border-radius: 5px;
+}
+.y-promo-tab ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.y-promo-tab ul::before, .y-promo-tab ul::after{
+  display: table;
+  content: ' '
+}
+.y-promo-tab ul::after{
+  clear: both;
+}
+.y-promo-tab ul li{
+  float: left;
+  width: 33.333333%;
+  margin: 10px 0;
+}
+.y-promo-tab ul li:nth-child(2) a{
+  margin: 0px auto;
+}
+.y-promo-tab ul li:nth-child(3) a{
+  margin-left: auto;
+}
+.y-promo-tab ul li:nth-child(5) a{
+  margin-left: auto;
+  position: relative;
+}
+.y-promo-tab ul li a{
+  display: block;
+  text-align: center;
+  background: #2a2a2a;
+  color: #fff;
+  padding: 6px 0;
+  border-radius: 20px;
+  font-size: 13px;
+  width: 90%;
+}
+.y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
+  width: 95%
+}
+.y-promo-tab ul li.active a{
+  background: #fba601;
+  color: #111;
+  font-weight: 700;
+}
+.y-promo-tab ul li:nth-child(5) a::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 68px;
+  height: 28px;
+  background: url('../img/promo/vip-button.png') no-repeat;
+  top: -1.2em;
+  right: -0.8em;
+}
+.logo-area::before{
+  content: '';
+  display: block;
+  position: absolute;
+  height: 1px;
+  background: #000;
+  -webkit-box-shadow: 0 0 2px 0px rgba(0,0,0,1);
+          box-shadow: 0 0 2px 0px rgba(0,0,0,1);
+  right: 0;
+  left: 0;
+  top: 1px;
+}
+.promo-tabs{
+  background: #1b1b1b;
+  padding: 3px 0 15px;
+  margin: 4px 10px;
+  border-radius: 5px;
+}
+.navbar-dekstop-collapse-li:hover .dropdown-menu{
+  display: block;
+}
+.navbar-dekstop-collapse-li .dropdown-menu{
+  min-width: auto
+}
+.footer-sports-inner{
+  border: solid 1px #505050;
+  border-radius: 5px;
+  text-align: center;
+  padding: 6px 0;
+  cursor: pointer;
+}
+.footer-sports .img, .footer-sports .text{
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-sports .text{
+  color: #fff;
+  text-align: center;
+  margin-left: 5px;
+  max-width: 174px;
+  letter-spacing: 1.5px
+}
+.footer-sports .col-md-4:nth-child(3) .text{
+  max-width: 156px
+}
+.footer-sports .text span{
+  display: block;
+  border-top: 1px solid #fff;
+}
+.footer-sports-inner:hover{
+  border: solid 1px #fba601;
+}
+.footer-sports .footer-sports-inner:hover .text{
+  color: #fba601
+}
+.footer-sports .footer-sports-inner:hover .text span{
+  border-top: solid 1px #fba601
+}
+.valencia-area::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 2px;
+  top: 5px;
+  bottom: 3px;
+  right: -17px;
+  background: #000;
+  border-right: 1px solid #333
+}
+.new123-inner .num, .new123-inner .text, .new123-inner .img{
+  display: inline-block;
+}
+.new123afterlogin .new123-inner .num, .new123afterlogin .new123-inner .text, .new123afterlogin .new123-inner .img{
+  display: inline-block;
+  float: left;
+}
+.new123{
+  background: #161616;
+  margin-top: 15px;
+}
+.new123 .num{
+  font-family: Tungsten;
+  color: #fba601;
+  font-size: 2.9em;
+  line-height: 50px
+}
+.new123 .text{
+  font-family: yahei;
+  letter-spacing: 1px
+}
+.new123 .text span{
+  font-family: yahei;
+  display: block;
+  letter-spacing: 1px;
+}
+.new123-inner{
+  position: relative;
+}
+.new123-inner::after{
+  content: '';
+  display: block;
+  background: url('../img/new123-arrow.png') no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.new123-inner-last:last-child::after{
+  content: none
+}
+.new123-inner-last a{
+  display: block;
+  padding: 3px 0;
+  text-align: center;
+  color: #573601;
+  background: #fba601;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 5px;
+  position: relative;
+  top: 10px;
+  margin: 0 auto
+}
+.new123-inner-last a:hover{
+  text-decoration: none;
+}
+
+.new123{
+  position: relative;
+}
+.new123 .col-md-3:nth-child(4)::after{
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(../img/new123-blur.png) no-repeat;
+  background-size: 100% 100%;
+  width: 75px;
+  bottom: -20px;
+  top: 0;
+  right: -77px;
+}
+.new123 .col-md-3:nth-child(1)::after{
+  content: '';
+  display: block;
+  position: absolute;
+  background: url(../img/new123-blur.png) no-repeat;
+  background-size: 100% 100%;
+  width: 75px;
+  bottom: 0;
+  top: 0;
+  left: -77px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg)
+}
+.new123b{
+  padding: 10px 0
+}
+.new123b .col-md-3:last-child .new123-inner::after{
+  content: none;
+}
+.new123b .num{
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  right: 8px;
+}
+.new123b .col-md-3:nth-child(4)::after{
+  content: none;
+  width: 75px;
+  bottom: -16px;
+  top: -10px;
+  right: -75px;
+}
+.new123b .col-md-3:nth-child(1)::after{
+  content: none
+}
+.new123b .text{
+  margin-left: 1px
+}
+.new-counter{
+  position: relative;
+}
+.new-counter .marquee-wrapper, .new-counter .counter{
+  vertical-align: middle
+}
+.marquee-wrapper .img, .marquee-wrapper .marquee{
+  display: inline-block;
+  margin-left: -4px
+}
+.marquee-wrapper .img{
+  width: 25px;
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+}
+.new-counter .marquee-wrapper{
+  color: #fff
+}
+.new-counter .counter{
+  position: relative;
+}
+.new-counter .counter div{
+  position: absolute;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer
+}
+.new-counter .counter div:hover{
+  color: #fba601
+}
+.new-counter .counter div span{
+  display: block
+}
+.navbar-right-desktop .dropdown-menu li{
+  border-left: 0;
+}
+.new-counter .counter a{
+  font-family: tahomaa;
+  display: block;
+  float: right;
+  white-space: nowrap;
+  padding: 3px 0 3px;
+}
+#myTargetElement, #myTargetElement2{
+  color: #fff;
+}
+.breadcrumb-inner-promo .panel{
+  border: none
+}
+.right-icon{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url('../img/arrow-right-brown.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 2px;
+  margin-left: 3px
+}
+.cs-modal .chatserver-form .csPhone-language button{
+  width: 100%;
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 39px;
+  background-repeat: no-repeat;
+  background-position: right;
+  text-align: left;
+  font-size: 12px;
+  border: solid 1px #111;
+  -webkit-box-shadow: none;
+          box-shadow: none
+}
+.cs-modal .chatserver-form .csPhone-language button:active, .cs-modal .chatserver-form .csPhone-language button:focus{
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 39px;
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: solid 1px #111
+}
+.csPhone-language button .flag-icon{
+  margin-right: 5px
+}
+.csPhone-language button .flag-icon::before{
+  width: 25px;
+  height: 25px;
+  background: url('../img/flags/taiwan-nb.png');
+  background-size: cover;
+  margin-right: 5px
+}
+.csPhone-language .dropdown-menu{
+  background: #333;
+  width: 100%;
+}
+.csPhone-language .dropdown-menu li a{
+  color: #fff;
+  padding: 3px 10px
+}
+.csPhone-language .dropdown-menu li a:hover{
+  color: #000
+}
+.csPhone-language .dropdown-menu li a span{
+  margin-right: 15px
+}
+.cs-modal .chatserver-form button.select-country-code{
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important
+}
+.sp-side-img{
+  width: 250px;
+  margin: 0 auto
+}
+.deposit-offers{
+  background: #161616;
+}
+.deposit-offers .row{
+  margin-right: 0;
+  margin-left: 0;
+}
+.offers .text, .offers .num, .offers .search, .offers .img{
+  display: inline-block;
+}
+.offers .text{
+  margin-left: -4px
+}
+.offers .num{
+  color: #fba601;
+  font-family: Tungsten;
+  font-size: 2.9em;
+}
+.offers .text{
+  font-family: yahei;
+  font-size: 1em;
+  letter-spacing: 1px;
+  min-width: 85px
+}
+.offers .text span{
+  display: block;
+  font-size: 0.8em
+}
+.offers .text i{
+  font-style: normal;
+  color: #fba601
+}
+.offers .search{
+  width: 20px;
+  float: right;
+  margin-top: 1.4em
+}
+.offers .img{
+  width: 50px;
+  height: 52px;
+  background: url('../img/dl/1.png') no-repeat;
+  background-size: 32px 32px;
+  background-position: center;
+  position: relative;
+  top: 0.2em;
+}
+.offers .img3{
+  width: 50px;
+  height: 52px;
+  background: url('../img/dl/3.png') no-repeat;
+  background-size: 32px 32px;
+  background-position: center;
+  position: relative;
+}
+.offers .img2{
+  width: 50px;
+  height: 52px;
+  background: url('../img/dl/2.png') no-repeat;
+  background-size: 32px 32px;
+  background-position: center;
+  position: relative;
+}
+.deposit-offers.for-dl .offers .text{
+  position: relative;
+  bottom: 0.7em;
+  min-width: 6em
+}
+#paymentStatement .modal-body{
+  padding-bottom: 25px
+}
+#paymentStatement p span{
+  color: #fba601
+}
+.trphy-circle{
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 2px 8px;
+  top: 2px;
 }
