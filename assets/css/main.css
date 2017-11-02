@@ -11433,6 +11433,14 @@ h5.title-inside{
   background-position: center;
   position: relative;
 }
+.offers .img4{
+  width: 50px;
+  height: 52px;
+  background: url('../img/dl/4.png') no-repeat;
+  background-size: 32px 32px;
+  background-position: left;
+  position: relative;
+}
 .offers .img2{
   width: 50px;
   height: 52px;
