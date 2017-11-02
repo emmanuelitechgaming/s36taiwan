@@ -1073,10 +1073,13 @@ $('.one-winner .flexslider').flexslider({
     $('.winners-others').toggle()
   });
 
-  $('.casino-show-more a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-    $('html,body').animate({
-        scrollTop: $('.breadcrumb-content').offset().top
-    }, 500);
+  $('.casino-show-more a').click(function() {
+    if($('.casino-tabs li.active a').attr('href') == "#ctab2"){
+      $('a[href="#ctab3"]').trigger('click');
+    }else{
+      var link = $('.casino-tabs li.active a').attr('href');
+      $('a[href="#ctab2"]').trigger('click');
+    }
   })
 
 });

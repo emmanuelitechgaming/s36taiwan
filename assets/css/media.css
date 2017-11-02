@@ -475,7 +475,10 @@ max-height: 170px;
         margin-bottom: 0;
     }
     .certs li:nth-child(even) {
-        text-align: center
+        text-align: left
+    }
+    .certs li:nth-child(4) {
+        text-indent: 4px
     }
     .fsalon .col-md-3:nth-child(2) a {
         width: 100%
@@ -1155,8 +1158,6 @@ max-height: 170px;
     }
     .slots-breadcrumb-inner .netbet ul li a{
       font-size: 12px;
-      /*jess 10.30*/
-      width: 130px;
       height: 30px;
     }
     .netbet .text-right .netbet-search, .netbet .text-right .netbet-search input[type="text"]{
@@ -7195,6 +7196,9 @@ max-height: 170px;
   }
   .sweet-alert{
     left: 51%
+  }
+  .slots-breadcrumb-inner .netbet ul li a, .panel.with-nav-tabs .panel-heading .promo-tabs li a{
+    width: 130px;
   }
 }
 
