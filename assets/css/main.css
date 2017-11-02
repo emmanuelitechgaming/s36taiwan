@@ -11463,3 +11463,13 @@ h5.title-inside{
   padding: 2px 8px;
   top: 2px;
 }
+.casino-show-more a{
+  color: #fff;
+}
+.casino-show-more a:active, .casino-show-more a:focus{
+  text-decoration: none
+}
+.casino-show-more{
+  border-bottom: 1px solid #565656;
+  padding: 11px;
+}

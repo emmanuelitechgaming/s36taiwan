@@ -4153,9 +4153,10 @@ div#tab2.tab-pane.active p a:first-child{
       $("a[href*='#']").click(function(e) {
         e.preventDefault();
         var the_link = $(this).attr('href');
-        // alert(the_link);
-        window.location.href = the_link;
-        location.reload();
+        if(the_link != '#' && the_link != '#registerModal' && the_link != '#loginModal'){
+          window.location.href = the_link;
+          location.reload();
+        }
       });
       $('.nested-accordion').find('.comment').slideUp();
       $('.nested-accordion').find('h3').click(function(){
