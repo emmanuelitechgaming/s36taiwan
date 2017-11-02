@@ -6973,6 +6973,7 @@ div.acc-info.acc-edit div.acc-cont input {
     display: block;
     background: url('../img/home.png') no-repeat;
     background-position: 0px 1px;
+    background-size: cover;
 }
 
 .fa-home-hover::before {
@@ -6982,6 +6983,7 @@ div.acc-info.acc-edit div.acc-cont input {
     display: block;
     background: url('../img/home_hover.png') no-repeat;
     background-position: 0px 1px;
+    background-size: cover;
 }
 
 .flag-icon {
@@ -11365,15 +11367,7 @@ h5.title-inside{
   font-size: 2.9em;
   min-width: 70px
 }
-.offers .text{
-  font-family: yahei;
-  font-size: 1em;
-  letter-spacing: 1px
-}
-.offers .text span{
-  display: block;
-  font-size: 0.8em
-}
+
 .offers .text i{
   font-style: normal;
   color: #fba601
@@ -11383,43 +11377,9 @@ h5.title-inside{
   float: right;
   margin-top: 1.4em
 }
-.offers .img{
-  width: 50px;
-  height: 52px;
-  background: url('../img/dl/1.png') no-repeat;
-  background-size: 32px 32px;
-  background-position: left;
-  position: relative;
-  top: 0.2em;
-}
-.offers .img3{
-  width: 50px;
-  height: 52px;
-  background: url('../img/dl/3.png') no-repeat;
-  background-size: 32px 32px;
-  background-position: left;
-  position: relative;
-}
-.offers .img4{
-  width: 50px;
-  height: 52px;
-  background: url('../img/dl/4.png') no-repeat;
-  background-size: 32px 32px;
-  background-position: left;
-  position: relative;
-}
-.offers .img2{
-  width: 50px;
-  height: 52px;
-  background: url('../img/dl/2.png') no-repeat;
-  background-size: 32px 32px;
-  background-position: left;
-  position: relative;
-}
-.deposit-offers.for-dl .offers .text{
-  position: relative;
-  bottom: 0.7em;
-  min-width: 6em
+
+.deposit-offers .col-xs-6{
+  padding: 0;
 }
 #paymentStatement .modal-body{
   padding-bottom: 25px
