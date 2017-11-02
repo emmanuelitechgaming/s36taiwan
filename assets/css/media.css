@@ -9,50 +9,7 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
-  .offers .text{
-    font-family: yahei;
-    font-size: 12px ;
-    letter-spacing: 1px;
 
-  }
-  .offers .text span{
-    display: block;
-    font-size: 12px;
-    min-width: 78px;
-  }
-  .offers .img{
-    width: 32px;
-    height: 30px;
-    background: url('../img/dl/1.png') no-repeat;
-    background-size: 30px 30px;
-    background-position: left;
-    position: relative;
-    top: 0.2em;
-  }
-  .offers .img3{
-    width: 32px;
-    height: 30px;
-    background: url('../img/dl/3.png') no-repeat;
-    background-size: 30px 30px;
-    background-position: left;
-    position: relative;
-  }
-  .offers .img4{
-    width: 32px;
-    height: 30px;
-    background: url('../img/dl/4.png') no-repeat;
-    background-size: 30px 30px;
-    background-position: left;
-    position: relative;
-  }
-  .offers .img2{
-    width: 32px;
-    height: 30px;
-    background: url('../img/dl/2.png') no-repeat;
-    background-size: 30px 30px;
-    background-position: left;
-    position: relative;
-  }
   .bago-afterlogin .boxer .step-no{
     width: 35px;padding:2px 5px;
   }
@@ -518,10 +475,7 @@ max-height: 170px;
         margin-bottom: 0;
     }
     .certs li:nth-child(even) {
-        text-align: left
-    }
-    .certs li:nth-child(4) {
-      text-indent: 4px
+        text-align: center
     }
     .fsalon .col-md-3:nth-child(2) a {
         width: 100%
@@ -1201,6 +1155,9 @@ max-height: 170px;
     }
     .slots-breadcrumb-inner .netbet ul li a{
       font-size: 12px;
+      /*jess 10.30*/
+      width: 130px;
+      height: 30px;
     }
     .netbet .text-right .netbet-search, .netbet .text-right .netbet-search input[type="text"]{
       display: block;
@@ -2473,11 +2430,6 @@ max-height: 170px;
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 375px) {
-  .deposit-offers.for-dl .offers .text{
-    position: relative;
-    bottom: 1px;
-    min-width: 6em
-  }
   .malupet-nanaman h4 img{
     width: 16px;
   }
@@ -2832,7 +2784,7 @@ max-height: 170px;
       max-height: 174px !important
     }
     .slots-breadcrumb-inner .netbet ul li a {
-      font-size: 12px;
+      font-size: 1em;
     }
     .logo-area{
       padding: 5px 0 5px 0
@@ -3302,53 +3254,6 @@ max-height: 170px;
 }
 
 @media only screen and (min-width: 414px) {
-  .deposit-offers.for-dl .offers .text {
-    position: relative;
-    bottom: 10px;
-    min-width: 6em;
-}
-  .offers .text{
-    font-family: yahei;
-    font-size: 1em;
-    letter-spacing: 1px
-  }
-  .offers .text span{
-    display: block;
-    font-size: 0.8em
-  }
-  .offers .img{
-    width: 50px;
-    height: 52px;
-    background: url('../img/dl/1.png') no-repeat;
-    background-size: 32px 32px;
-    background-position: left;
-    position: relative;
-    top: 0.2em;
-  }
-  .offers .img3{
-    width: 50px;
-    height: 52px;
-    background: url('../img/dl/3.png') no-repeat;
-    background-size: 32px 32px;
-    background-position: left;
-    position: relative;
-  }
-  .offers .img4{
-    width: 50px;
-    height: 52px;
-    background: url('../img/dl/4.png') no-repeat;
-    background-size: 32px 32px;
-    background-position: left;
-    position: relative;
-  }
-  .offers .img2{
-    width: 50px;
-    height: 52px;
-    background: url('../img/dl/2.png') no-repeat;
-    background-size: 32px 32px;
-    background-position: left;
-    position: relative;
-  }
   .banner-overlay{
     margin-left: auto;
     margin-right: auto;
@@ -4039,7 +3944,7 @@ max-height: 170px;
      font-size: 25px;
     }
     #b{
-      max-width: 381px!important;
+      max-width: 381px
     }
     .contact-title li a {
       width: 42px;
@@ -7957,15 +7862,16 @@ right: 2px;
   .vip-button{
     width: 66px;
     height: 28px;
-    top: -18px;
+    top: -8px;
+    right: -9px;
   }
   .deposit-offers .container{
     width: 1281px;
     padding-right: 16px;
   }
   .deposit-offers.for-dl .container{
-    width: 1679px;
-    padding-left: 215px;
+    width: 1347px;
+    padding-left: 40px;
   }
   .wallet .datepicker {
     width: 22.8% !important;
