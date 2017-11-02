@@ -4,7 +4,12 @@ $(document).bind("mobileinit", function(){
   $.mobile.loading().hide();
 })
 
+
 $(document).ready(function () {
+
+
+  theWidth = $(".casino-g-img").css('width');
+
   $('a, .hamburger').click(function() {
     $('.collapse').collapse('hide');
   })

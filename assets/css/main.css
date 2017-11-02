@@ -6978,6 +6978,7 @@ div.acc-info.acc-edit div.acc-cont input {
     display: block;
     background: url('../img/home.png') no-repeat;
     background-position: 0px 1px;
+    background-size: cover;
 }
 
 .fa-home-hover::before {
@@ -6987,6 +6988,7 @@ div.acc-info.acc-edit div.acc-cont input {
     display: block;
     background: url('../img/home_hover.png') no-repeat;
     background-position: 0px 1px;
+    background-size: cover;
 }
 
 .flag-icon {
@@ -11453,6 +11455,10 @@ h5.title-inside{
   position: relative;
   bottom: 0.7em;
   min-width: 6em
+}
+
+.deposit-offers .col-xs-6{
+  padding: 0;
 }
 #paymentStatement .modal-body{
   padding-bottom: 25px
