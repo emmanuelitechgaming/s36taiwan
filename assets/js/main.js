@@ -1071,6 +1071,12 @@ $('.one-winner .flexslider').flexslider({
 
   $('.inside-buttons.trigger').click(function() {
     $('.winners-others').toggle()
+  });
+
+  $('.casino-show-more a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+    $('html,body').animate({
+        scrollTop: $('.breadcrumb-content').offset().top
+    }, 500);
   })
 
 });
