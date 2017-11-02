@@ -967,7 +967,9 @@ div.border:before {
     margin-bottom: 20px;
     margin-top: 5px;
 }
-
+.breadcrumb-inner .sp-container .sp-desc.copyright {
+  margin-top: 20px
+}
 .casino-g .content ul {
     position: relative;
 }
