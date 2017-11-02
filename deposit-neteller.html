@@ -656,53 +656,55 @@
             </ul> -->
 
             <div class=" breadcrumb-content">
-                <div class="breadcrumb-inner">
+                <div class="breadcrumb-inner deposit-page">
                     <div class=" account account-c">
 
                         <div class="wallet deposit deposit-neteller">
                           <div class="title">存款</div>
-                            <form action="example.php" onsubmit="window.open('about:blank','print_popup','width=500,height=400');" target="print_popup" method="post" id="depositForm">
 
-                                <div class="display-block">
-                                    <div class="account-text">存款：</div>
-                                    <div class="form-group">
-                                      <select name="Ntlr_DepositCurrency" id="Ntlr_DepositCurrency" class="form-control ntlr wallet-disabled select-bg" disabled >
-                                        <option value="USD">USD</option>
-                                        <option value="JPY">JPY</option>
-                                        <option value="INR">INR</option>
-                                        <option value="MYR">MYR</option>
-                                        <option value="TND">TND</option>
-                                        <option value="TWD">TWD</option>
-                                      </select>
-                                    </div>
-                                    <!-- <div class="account-text wallet-reminder"></div> -->
+                            <form action="example.php" onsubmit="window.open('about:blank','print_popup','width=500,height=400');" target="print_popup" method="post" id="depositForm" class="form-horizontal">
+                              <div class="form-group">
+                                <label class="col-md-2 col-xs-12">存款：</label>
+                                <div class="col-md-4 col-xs-12">
+                                  <select name="Ntlr_DepositCurrency" id="Ntlr_DepositCurrency" class="form-control ntlr wallet-disabled select-bg" disabled >
+                                    <option value="USD">USD</option>
+                                    <option value="JPY">JPY</option>
+                                    <option value="INR">INR</option>
+                                    <option value="MYR">MYR</option>
+                                    <option value="TND">TND</option>
+                                    <option value="TWD">TWD</option>
+                                  </select>
                                 </div>
-
-                                <div class="display-block">
-                                    <div class="account-text">金额： </div>
-                                    <input type="text" name="Ntlr_DepositAmount" id="Ntlr_DepositAmount" class="amount form-control display-inline-block wallet-text" value="" required>
+                              </div>
+                              <div class="form-group">
+                                <label class="col-md-2 col-xs-12">金额：</label>
+                                <div class="col-md-4 col-xs-12">
+                                  <input type="text" name="Ntlr_DepositAmount" id="Ntlr_DepositAmount" class="amount form-control wallet-text" value="" required>
                                 </div>
-
-                                <div class="display-block">
-                                    <div class="account-text">電子郵件或帳號： </div>
-                                    <input type="text" name="Ntlr_DepositEmail" id="Ntlr_DepositEmail" class="form-control display-inline-block wallet-text" value="" required>
+                              </div>
+                              <div class="form-group">
+                                <label class="col-md-2 col-xs-12">電子郵件或帳號：</label>
+                                <div class="col-md-4 col-xs-12">
+                                  <input type="text" name="Ntlr_DepositEmail" id="Ntlr_DepositEmail" class="form-control wallet-text" value="" required>
                                 </div>
-
-                                <div class="display-block">
-                                    <div class="account-text">安全ID或驗證碼：</div>
-                                    <input type="text" name="Ntlr_DepositSecureId" id="Ntlr_DepositSecureId" class="form-control display-inline-block wallet-text" value="" required>
+                              </div>
+                              <div class="form-group">
+                                <label class="col-md-2 col-xs-12">安全ID或驗證碼：</label>
+                                <div class="col-md-4 col-xs-12">
+                                  <input type="text" name="Ntlr_DepositSecureId" id="Ntlr_DepositSecureId" class="form-control wallet-text" value="" required>
                                 </div>
-
-                                <div class="display-block">
-                                    <div class="account-text"></div>
-                                    <button type="submit" class="btn-hidden btn-hidden-dh2p1">確認</button>
-                                    <a href="wallet.html" class="btn-hidden btn-hidden-dh2p2">取消返回</a>
+                              </div>
+                              <div class="form-group">
+                                <label class="col-md-2 col-xs-12 hidden-xs"></label>
+                                <div class="col-md-4 col-xs-12 text-center">
+                                  <button type="submit" class="btn-hidden btn-hidden-dh2p1">確認</button>
+                                  <button href="wallet.html" class="btn-hidden btn-hidden-dh2p2">取消返回</button>
                                 </div>
-
-                                <input type="hidden" name="reference" value="20170608175916">
-                                <input type="hidden" name="fronturi" value="http://merchant.com/Front.aspx">
-                                <input type="hidden" name="backuri" value="http://merchant.com/Back.aspx">
-                                <input type="hidden" name="language" value="en-us">
+                              </div>
+                              <input type="hidden" name="reference" value="20170608175916">
+                              <input type="hidden" name="fronturi" value="http://merchant.com/Front.aspx">
+                              <input type="hidden" name="backuri" value="http://merchant.com/Back.aspx">
+                              <input type="hidden" name="language" value="en-us">
                             </form>
 
                         </div>
@@ -762,15 +764,15 @@
                         </tr>
                         <tr class="grand-winner">
                           <!-- <td> <img src="assets/img/trphy1.png" class="img-responsive trphy" alt="">累計大獎</td> -->
-                          <td><span class="trphy1">1</span>累計大獎</td>
+                          <td><span class="trphy1 trphy-circle">1</span>累計大獎</td>
                           <td><span class="cny">CNY</span>958,241.00</td>
                         </tr>
                         <tr class="">
-                          <td><span class="trphy1">2</span>累計二獎</td>
+                          <td><span class="trphy1 trphy-circle">2</span>累計二獎</td>
                           <td><span class="cny">CNY</span>958,241.00</td>
                         </tr>
                         <tr class="">
-                          <td><span class="trphy1">3</span>累計三奬</td>
+                          <td><span class="trphy1 trphy-circle">3</span>累計三奬</td>
                           <td><span class="cny">CNY</span>958,241.00</td>
                         </tr>
                       </table>
@@ -1485,7 +1487,7 @@
                             <a href="javascript:void(0)"><img src="assets/img/footer/Salon logo_new.png" alt="" class="img-responsive"></a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)"><img src="assets/img/logo.png" class="img-responsive" alt="">S36.BET © 版權所有 2017</a>
+                            <a href="copyright.html"><img src="assets/img/logo.png" class="img-responsive" alt="">S36.BET © 版權所有 2017</a>
                         </li>
                     </ul>
                     <div class="dropdown dropup m-footer-dropdown">

@@ -9,9 +9,6 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
-  .deposit-offers .offers{
-    margin: 5px;
-  }
   .offers .text{
     font-family: yahei;
     font-size: 12px ;
@@ -384,7 +381,6 @@ max-height: 170px;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 20px;
     }
     .live-game > .promo-c > .promo-txt h3 {
         font-size: 18px;
@@ -1906,9 +1902,6 @@ max-height: 170px;
       margin-top: 0;
       margin-bottom: 10px
     }
-    .promo-section .inside-buttons{
-      margin-bottom: 0;
-    }
     .footer-sports .img{
       width: 35px;
     }
@@ -2043,6 +2036,11 @@ max-height: 170px;
     }
     .offers .text, .offers .num{
       text-align: left;
+      margin: 0 10px
+    }
+    .offers .num{
+      text-align: right;
+      width: 70px
     }
     .offers::after{
       content: '';
@@ -2093,8 +2091,22 @@ max-height: 170px;
     .borderstyle.for-afterlogin{
       display: none;
     }
-    .btn-hidden-dh2p1{
-      margin-left: 5.5%
+    .breadcrumb-inner.deposit-page .form-group label{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .y-promo-tab ul li{
+      width: 33.333333%;
+    }
+    .y-promo-tab ul li:nth-child(4), .y-promo-tab ul li:nth-child(5){
+      width: 50%;
+    }
+    .y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
+      width: 95%
+    }
+    #registerModal .checkbox-warning{
+      text-align: center;
+      margin-top: -30px
     }
 }
 
@@ -2716,7 +2728,7 @@ max-height: 170px;
       left: -23px;
     }
     #registerModal .form-recap{
-      left: 2px;
+      left: 0;
     }
     .absolute-play-casino{
       width: 70px;
@@ -2783,7 +2795,13 @@ max-height: 170px;
       transform:scale(0.88) !important;
       -webkit-transform:scale(0.88) !important;
       position: relative;
-      left: 22px
+      left: 0
+    }
+    #loginModal .g-recaptcha{
+      transform:scale(0.97) !important;
+      -webkit-transform:scale(0.97) !important;
+      position: relative;
+      left: 0
     }
     #csMsg .g-recaptcha, #csPhone .g-recaptcha{
       left: 0px
@@ -2867,8 +2885,11 @@ max-height: 170px;
     .new123afterlogin .img {
       width: 1.9em;
     }
-    .btn-hidden-dh2p1{
-      margin-left: 7.1%
+    #registerModal .g-recaptcha{
+      transform:scale(0.97) !important;
+      -webkit-transform:scale(0.97) !important;
+      transform-origin:0 0 !important;
+      -webkit-transform-origin:0 0 !important;
     }
 }
 
@@ -3112,6 +3133,9 @@ max-height: 170px;
       width: 20px;
       height: 23px;
     }
+    .btn-hidden-dh2p1::after, .btn-hidden-dh2p2::after{
+      width: 15px
+    }
     #btnSearch::after, #btn-edit-info::after{
       width: 18px;
       height: 18px
@@ -3157,10 +3181,16 @@ max-height: 170px;
       left: 9px;
     }
     #csMsg .g-recaptcha, #csPhone .g-recaptcha{
-      left: -19px
+      left: 0
+    }
+    #csPhone .g-recaptcha{
+      left: 0;
     }
     #myModalTab1-1 .g-recaptcha {
       left: -13px;
+    }
+    #loginModal .g-recaptcha{
+      left: 0;
     }
     .mnav-afterlogin ul li {
       margin-right: 90px;
@@ -3256,6 +3286,15 @@ max-height: 170px;
     }
     .prizepool.winner{
       right: 0
+    }
+    #registerModal .g-recaptcha, #loginModal .g-recaptcha {
+       transform: scale(1) !important;
+      -webkit-transform: scale(1) !important;
+      transform-origin: 0 0 !important;
+      -webkit-transform-origin: 0 0 !important;
+    }
+    #registerModal .g-recaptcha{
+      left: 0
     }
 }
 
@@ -3508,9 +3547,6 @@ max-height: 170px;
     .live-game.lg-angel-demon img{
       bottom: 12px;
     }
-    #registerModal .checkbox-warning{
-      text-align: center;
-    }
     .checkbox-warning-form-group{
       margin-top: -35px
     }
@@ -3696,6 +3732,9 @@ max-height: 170px;
     }
     .prizepool.winner{
       right: 0
+    }
+    #registerModal .checkbox-warning{
+      margin-top: 10px
     }
 }
 
@@ -4192,10 +4231,20 @@ max-height: 170px;
       float: left;
       margin-left: -4px;
       margin: 5px 0;
+      width: 50%;
     }
     .new-counter .counter{
-      width: 50%;
       text-align: right;
+      float: right;
+    }
+    .new-counter .counter a {
+      text-indent: 29px;
+      word-spacing: 0px;
+      font-size: 1.4em;
+      letter-spacing: 12px;
+    }
+    main .new-counter .marquee {
+      width: 80%;
     }
 }
 
@@ -4867,7 +4916,8 @@ max-height: 170px;
   .new-counter .counter a {
     text-indent: 35px;
     letter-spacing: 15px;
-    word-spacing: -5px
+    word-spacing: -5px;
+    font-size: 1.7em
   }
   .new-counter .marquee-wrapper, .new-counter .counter {
     display: inline-block;
@@ -5059,7 +5109,7 @@ max-height: 170px;
     background: #000;
     border-right: 1px solid #303030;
     position: absolute;
-    right: 0;
+    right: -0.9%;
     top: 1em
   }
   .deposit-offers.for-dl .offers::after{
@@ -5093,6 +5143,35 @@ max-height: 170px;
   .gp.container{
     padding-left: 0;
     padding-right: 0;
+  }
+  .offers .num{
+    text-align: right;
+    width: auto;
+  }
+  .offers .text, .offers .num{
+    margin: 0 2%;
+  }
+  #b{
+    max-width: 100%
+  }
+  .y-promo-tab ul li{
+    width: 20%;
+  }
+  .y-promo-tab ul li:nth-child(4), .y-promo-tab ul li:nth-child(5){
+    width: 20%;
+  }
+  .y-promo-tab ul li a{
+    margin: 0px auto
+  }
+  .y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
+    width: 90%
+  }
+  .sweet-alert{
+    left: 52%
+  }
+  #registerModal .checkbox-warning{
+    margin-top: 5px;
+    text-align: left;
   }
 }
 
@@ -5622,9 +5701,6 @@ max-height: 170px;
         position: relative;
         bottom: 0
     }
-    img.b-img {
-        top: 70px
-    }
     .float-contacts-m {
         bottom: 125px;
     }
@@ -5863,9 +5939,6 @@ max-height: 170px;
     .notice-dialog .modal-title{
       margin-left: 40%;
       margin-right: 40%;
-    }
-    .btn-hidden-ph2p2, .btn-hidden-dh2p2{
-      margin-left: 35px
     }
     .wallet-link{
       margin-left: 10px;
@@ -6130,6 +6203,9 @@ max-height: 170px;
   .btn-hidden::after{
     width: 19px;
     height: 21px;
+  }
+  .btn-hidden-dh2p1::after, .btn-hidden-dh2p2::after{
+    width: 15px
   }
   .lg-playnow {
   }
@@ -7171,8 +7247,46 @@ max-height: 170px;
     position: relative;
     top: -0.1em
   }
-  .btn-hidden-dh2p1{
-    margin-left: 1.5%
+  .wallet .datepicker {
+    width: 22.8% !important;
+    margin-left: 3px;
+    margin-bottom: 0.5%;
+  }
+  .jackpot-winner2 .flexslider table tr td:first-child{
+    padding-left: 13px
+  }
+  .trphy1-color tr td:last-child{
+    padding-right: 12px
+  }
+  .njackpot-nwinner{
+    display: none;
+  }
+  .borderstyle.for-afterlogin{
+    display: none
+  }
+  main .borderstyle-casino{
+    display: none;
+  }
+  main .borderstyle-sp{
+    display: none
+  }
+  main .borderstyle-slots{
+    display: none
+  }
+  main .borderstyle-lotto{
+    display: none
+  }
+  main .borderstyle-promo{
+    display: none
+  }
+  main .borderstyle-dl{
+    display: none;
+  }
+  .sp-side-img{
+    margin-top: 6em
+  }
+  .sweet-alert{
+    left: 51%
   }
 }
 
@@ -7186,6 +7300,30 @@ max-height: 170px;
   }
   .the-container-slots{
     width: 1267px
+  }
+  .njackpot-nwinner{
+    display: block;
+  }
+  .borderstyle.for-afterlogin{
+    display: block
+  }
+  main .borderstyle-casino{
+    display: block;
+  }
+  main .borderstyle-sp{
+    display: block;
+  }
+  main .borderstyle-slots{
+    display: block
+  }
+  main .borderstyle-lotto{
+    display: block
+  }
+  main .borderstyle-promo{
+    display: block
+  }
+  main .borderstyle-dl{
+    display: block;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -7819,10 +7957,23 @@ right: 2px;
     top: -18px;
   }
   .deposit-offers .container{
-    width: 1263px
+    width: 1281px;
+    padding-right: 16px;
   }
   .deposit-offers.for-dl .container{
     width: 1679px;
-      padding-left: 215px;
+    padding-left: 215px;
+  }
+  .wallet .datepicker {
+    width: 22.8% !important;
+  }
+  .jackpot-winner2 .flexslider table tr td:first-child{
+    padding-left: 15px
+  }
+  .trphy1-color tr td:last-child{
+    padding-right: 10px
+  }
+  .sp-side-img{
+    margin-top: 4em
   }
 }

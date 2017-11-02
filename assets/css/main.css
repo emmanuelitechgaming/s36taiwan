@@ -967,7 +967,9 @@ div.border:before {
     margin-bottom: 20px;
     margin-top: 5px;
 }
-
+.breadcrumb-inner .sp-container .sp-desc.copyright {
+  margin-top: 20px
+}
 .casino-g .content ul {
     position: relative;
 }
@@ -1574,6 +1576,9 @@ p {
 
 .wallet .form-group {
     margin: 0;
+}
+.breadcrumb-inner.deposit-page .wallet .form-group{
+  margin-bottom: 10px
 }
 .cntrycode{
   position: absolute;
@@ -9121,7 +9126,6 @@ span.add-ico{
 }
 .sp-breadcrumb{
   background: #1B1A1A;
-  padding-bottom: 10px;
 }
 .bago_nanaman{
   background: #161616;
@@ -9879,7 +9883,8 @@ header #m-selectpicker2-collapse ul li{
   border-radius: 5px;
 }
 .jackpot-winner2 .flexslider table tr td:first-child{
-      width: 100px;
+  width: 100px;
+  text-align: left;
 }
 .trphy{
   display: inline-block!important;
@@ -10160,7 +10165,10 @@ padding: 15px;
 .jackpot-winner2 span.cny{
   padding: 4px 5px;
   top: -3px;
-  margin:0 32px;
+  margin:0 20px;
+}
+.trphy1-color tr td:last-child{
+  text-align: right;
 }
 .j-new .title{
   background: rgba(66,66,66,1);
@@ -10760,10 +10768,11 @@ h5.title-inside{
 .slot-new-game-wrapper{
   position: relative;
   margin: 0 auto;
+  max-width: 386px
 }
   .slot-new-game{
   position: absolute;
-  z-index: 999;
+  z-index: 1;
   top: 2px;
   left: 1px;
 }
@@ -11017,38 +11026,50 @@ h5.title-inside{
   z-index: 1;
 }
 .y-promo-tab{
-  padding-bottom: 10px;
-}
-.y-promo-tab::after{
-  content: '';
-  height: 2px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-bottom: 1px solid #333;
-  background: #000;
+  display: block;
+  padding: 10px;
+  background: #1b1b1b;
+  border-radius: 5px;
 }
 .y-promo-tab ul{
   list-style: none;
   padding: 0;
   margin: 0;
 }
+.y-promo-tab ul::before, .y-promo-tab ul::after{
+  display: table;
+  content: ' '
+}
+.y-promo-tab ul::after{
+  clear: both;
+}
 .y-promo-tab ul li{
-  display: inline-block;
-  margin: 12px 0;
-  margin-right: 20px;
-  min-width: 96px
+  float: left;
+  width: 33.333333%;
+  margin: 10px 0;
+}
+.y-promo-tab ul li:nth-child(2) a{
+  margin: 0px auto;
+}
+.y-promo-tab ul li:nth-child(3) a{
+  margin-left: auto;
+}
+.y-promo-tab ul li:nth-child(5) a{
+  margin-left: auto;
+  position: relative;
 }
 .y-promo-tab ul li a{
   display: block;
   text-align: center;
-  background: #111;
+  background: #2a2a2a;
   color: #fff;
-  padding: 6px 22px;
+  padding: 6px 0;
   border-radius: 20px;
   font-size: 13px;
-  width: 104px
+  width: 90%;
+}
+.y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
+  width: 95%
 }
 .y-promo-tab ul li.active a{
   background: #fba601;
@@ -11361,13 +11382,24 @@ h5.title-inside{
 .offers .text, .offers .num, .offers .search, .offers .img{
   display: inline-block;
 }
+.offers .text{
+  margin-left: -4px
+}
 .offers .num{
   color: #fba601;
   font-family: Tungsten;
   font-size: 2.9em;
-  min-width: 70px
 }
-
+.offers .text{
+  font-family: yahei;
+  font-size: 1em;
+  letter-spacing: 1px;
+  min-width: 85px
+}
+.offers .text span{
+  display: block;
+  font-size: 0.8em
+}
 .offers .text i{
   font-style: normal;
   color: #fba601
@@ -11376,6 +11408,44 @@ h5.title-inside{
   width: 20px;
   float: right;
   margin-top: 1.4em
+}
+.offers .img{
+  width: 50px;
+  height: 52px;
+  background: url('../img/dl/1.png') no-repeat;
+  background-size: 32px 32px;
+  background-position: center;
+  position: relative;
+  top: 0.2em;
+}
+.offers .img3{
+  width: 50px;
+  height: 52px;
+  background: url('../img/dl/3.png') no-repeat;
+  background-size: 32px 32px;
+  background-position: center;
+  position: relative;
+}
+.offers .img4{
+  width: 50px;
+  height: 52px;
+  background: url('../img/dl/4.png') no-repeat;
+  background-size: 32px 32px;
+  background-position: left;
+  position: relative;
+}
+.offers .img2{
+  width: 50px;
+  height: 52px;
+  background: url('../img/dl/2.png') no-repeat;
+  background-size: 32px 32px;
+  background-position: center;
+  position: relative;
+}
+.deposit-offers.for-dl .offers .text{
+  position: relative;
+  bottom: 0.7em;
+  min-width: 6em
 }
 
 .deposit-offers .col-xs-6{
@@ -11386,4 +11456,10 @@ h5.title-inside{
 }
 #paymentStatement p span{
   color: #fba601
+}
+.trphy-circle{
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 2px 8px;
+  top: 2px;
 }
