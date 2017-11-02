@@ -10768,6 +10768,7 @@ h5.title-inside{
 .slot-new-game-wrapper{
   position: relative;
   margin: 0 auto;
+  max-width: 386px
 }
   .slot-new-game{
   position: absolute;
@@ -11074,16 +11075,6 @@ h5.title-inside{
   background: #fba601;
   color: #111;
   font-weight: 700;
-}
-.y-promo-tab ul li:nth-child(5) a::after{
-  content: '';
-  display: block;
-  position: absolute;
-  width: 68px;
-  height: 28px;
-  background: url('../img/promo/vip-button.png') no-repeat;
-  top: -1.2em;
-  right: -0.8em;
 }
 .logo-area::before{
   content: '';
