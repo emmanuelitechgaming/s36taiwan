@@ -11051,7 +11051,7 @@ h5.title-inside{
   width: 33.333333%;
   margin: 10px 0;
 }
-.y-promo-tab ul li:nth-child(4) a{
+.y-promo-tab ul li:nth-child(2) a, .y-promo-tab ul li:nth-child(4) a{
   margin: 0px auto;
 }
 .y-promo-tab ul li:nth-child(5) a{
@@ -11071,7 +11071,7 @@ h5.title-inside{
   font-size: 13px;
   width: 90%;
 }
-.y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
+.y-promo-tab ul li:nth-child(3) a, .y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
   width: 95%
 }
 .y-promo-tab ul li.active a{
@@ -11093,7 +11093,7 @@ h5.title-inside{
 }
 .promo-tabs{
   background: #1b1b1b;
-  padding: 6px 0;
+  padding: 6px 5px;
   margin: 4px 10px;
   border-radius: 5px;
 }

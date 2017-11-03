@@ -2063,8 +2063,11 @@ max-height: 170px;
     .y-promo-tab ul li:nth-child(1), .y-promo-tab ul li:nth-child(2){
       width: 50%;
     }
-    .y-promo-tab ul li:nth-child(1) a, .y-promo-tab ul li:nth-child(2) a{
+    .y-promo-tab ul li:nth-child(1) a{
       width: 95%
+    }
+    .y-promo-tab ul li:nth-child(2) a{
+      width: 65%;
     }
     #registerModal .checkbox-warning{
       text-align: center;
