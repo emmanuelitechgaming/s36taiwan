@@ -11491,3 +11491,7 @@ h5.title-inside{
   border-bottom: 1px solid #565656;
   padding: 11px;
 }
+.copyright-txt a{
+  color: #ffffff;
+  text-decoration: none;
+}
