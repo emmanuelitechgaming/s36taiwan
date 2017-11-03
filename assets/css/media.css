@@ -2362,8 +2362,7 @@ max-height: 170px;
     }
     .malupet-nanaman {
       padding: 0 0 0 0;
-      border-bottom: 1px solid #4a4a4a;
-      min-height: 175px;
+      min-height: 170px;
     }
     .malupet-nanaman-afterlogin {
       padding: 25px 0px 25px 0px;
@@ -3259,6 +3258,9 @@ max-height: 170px;
     #registerModal .g-recaptcha{
       left: 0
     }
+    .malupet-nanaman{
+      min-height: 174px;
+    }
 }
 
 @media only screen and (min-width: 414px) {
@@ -3605,7 +3607,6 @@ max-height: 170px;
     }
     .malupet-nanaman {
       padding: 1px 0px 0px 0px;
-      border-bottom: 1px solid #4a4a4a
     }
     .new123 .text{
       font-size: 1em;
