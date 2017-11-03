@@ -7200,6 +7200,7 @@ max-height: 170px;
   }
   .slots-breadcrumb-inner .netbet ul li a, .panel.with-nav-tabs .panel-heading .promo-tabs li a{
     width: 130px;
+    max-height: 30px
   }
 }
 
