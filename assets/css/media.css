@@ -1158,7 +1158,8 @@ max-height: 170px;
     }
     .slots-breadcrumb-inner .netbet ul li a{
       font-size: 12px;
-      height: 30px;
+      padding: 7px 19px !important;
+      max-height: 30px;
     }
     .netbet .text-right .netbet-search, .netbet .text-right .netbet-search input[type="text"]{
       display: block;
@@ -2059,10 +2060,10 @@ max-height: 170px;
     .y-promo-tab ul li{
       width: 33.333333%;
     }
-    .y-promo-tab ul li:nth-child(4), .y-promo-tab ul li:nth-child(5){
+    .y-promo-tab ul li:nth-child(1), .y-promo-tab ul li:nth-child(2){
       width: 50%;
     }
-    .y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
+    .y-promo-tab ul li:nth-child(1) a, .y-promo-tab ul li:nth-child(2) a{
       width: 95%
     }
     #registerModal .checkbox-warning{
@@ -5067,13 +5068,13 @@ max-height: 170px;
   .y-promo-tab ul li{
     width: 20%;
   }
-  .y-promo-tab ul li:nth-child(4), .y-promo-tab ul li:nth-child(5){
+  .y-promo-tab ul li:nth-child(1), .y-promo-tab ul li:nth-child(2){
     width: 20%;
   }
   .y-promo-tab ul li a{
     margin: 0px auto
   }
-  .y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
+  .y-promo-tab ul li:nth-child(1) a, .y-promo-tab ul li:nth-child(2) a{
     width: 90%
   }
   .sweet-alert{
@@ -5082,6 +5083,9 @@ max-height: 170px;
   #registerModal .checkbox-warning{
     margin-top: 5px;
     text-align: left;
+  }
+  .slots-breadcrumb-inner .netbet ul li a{
+    padding: 6px 20px !important
   }
 }
 
