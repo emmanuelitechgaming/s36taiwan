@@ -11030,7 +11030,7 @@ h5.title-inside{
 }
 .y-promo-tab{
   display: block;
-  padding: 10px;
+  padding: 7px 10px;
   background: #1b1b1b;
   border-radius: 5px;
 }
@@ -11049,7 +11049,7 @@ h5.title-inside{
 .y-promo-tab ul li{
   float: left;
   width: 33.333333%;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .y-promo-tab ul li:nth-child(1) a, .y-promo-tab ul li:nth-child(4) a{
   margin: 0px auto;
