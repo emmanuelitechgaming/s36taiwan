@@ -4383,6 +4383,7 @@ max-height: 170px;
     .casino-mp,
     .slots-mp {
         right: 185px;
+        max-height: 25px
     }
     .lp-collapse-toggle {
         margin-right: -615px;
