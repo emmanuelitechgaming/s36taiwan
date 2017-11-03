@@ -10407,7 +10407,7 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
 .lg-playnow:active,.lg-playnow:focus{
   background: -webkit-gradient(linear, left top, left bottom, from(#fba601), to(#feaf10))!important;
   background: linear-gradient(#fba601, #feaf10)!important;
-  webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 0px 0px #000!important;
+  -webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 0px 0px #000!important;
   -o-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 0px 0px #000!important;
   -webkit-box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 0px 0px #000!important;
           box-shadow: inset 0px 1px 0px #ffbd03, 0px 2px 0px 0px #906600, 0px 0px 0px #000!important;
