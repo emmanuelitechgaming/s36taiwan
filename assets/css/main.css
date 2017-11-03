@@ -11051,14 +11051,8 @@ h5.title-inside{
   width: 33.333333%;
   margin: 5px 0;
 }
-.y-promo-tab ul li:nth-child(1) a, .y-promo-tab ul li:nth-child(4) a{
+.y-promo-tab ul li a{
   margin: 0px auto;
-}
-.y-promo-tab ul li:nth-child(2) a{
-  margin: 0
-}
-.y-promo-tab ul li:nth-child(5) a{
-  margin-left: auto;
 }
 .y-promo-tab ul li:nth-child(2) a{
   position: relative;
@@ -11072,9 +11066,10 @@ h5.title-inside{
   border-radius: 20px;
   font-size: 13px;
   width: 90%;
+  min-height: 30px
 }
-.y-promo-tab ul li:nth-child(3) a, .y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
-  width: 95%
+.y-promo-tab ul li a{
+  width: 90%
 }
 .y-promo-tab ul li:nth-child(5) a{
   position: relative;
