@@ -805,6 +805,9 @@ div.border:before {
     /*background: #1b1a1a;*/
     margin-bottom: 15px;
 }
+.breadcrumb-inner-promo {
+    overflow: unset;
+}
 .winner-breadcrumb-inner{
   margin-bottom: 0;
 }
@@ -994,7 +997,7 @@ div.border:before {
     padding: 5px 20px 0 20px;
 }
 .breadcrumb-inner-promo .panel.with-nav-tabs .panel-heading {
-  padding: 5px 15px 0
+  padding: 5px 15px
 }
 .panel.with-nav-tabs .nav-tabs {
     border-bottom: none;
@@ -6152,7 +6155,7 @@ main .win-lot-top-games {
     min-width: 103px;
     text-align: center;
     border: 0;
-    margin: 20px 10px 0px 10px;
+    margin: 0 10px;
 }
 
 .panel.with-nav-tabs .panel-heading .promo-tabs li.active a {
@@ -11048,13 +11051,13 @@ h5.title-inside{
   width: 33.333333%;
   margin: 10px 0;
 }
-.y-promo-tab ul li:nth-child(2) a{
+.y-promo-tab ul li:nth-child(4) a{
   margin: 0px auto;
 }
-.y-promo-tab ul li:nth-child(3) a{
+.y-promo-tab ul li:nth-child(5) a{
   margin-left: auto;
 }
-.y-promo-tab ul li:nth-child(5) a{
+.y-promo-tab ul li:nth-child(2) a{
   margin-left: auto;
   position: relative;
 }
@@ -11090,7 +11093,7 @@ h5.title-inside{
 }
 .promo-tabs{
   background: #1b1b1b;
-  padding: 3px 0 15px;
+  padding: 6px 0;
   margin: 4px 10px;
   border-radius: 5px;
 }
