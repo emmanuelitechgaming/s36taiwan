@@ -11051,14 +11051,16 @@ h5.title-inside{
   width: 33.333333%;
   margin: 10px 0;
 }
-.y-promo-tab ul li:nth-child(2) a, .y-promo-tab ul li:nth-child(4) a{
+.y-promo-tab ul li:nth-child(1) a, .y-promo-tab ul li:nth-child(4) a{
   margin: 0px auto;
+}
+.y-promo-tab ul li:nth-child(2) a{
+  margin: 0
 }
 .y-promo-tab ul li:nth-child(5) a{
   margin-left: auto;
 }
 .y-promo-tab ul li:nth-child(2) a{
-  margin-left: auto;
   position: relative;
 }
 .y-promo-tab ul li a{
@@ -11073,6 +11075,19 @@ h5.title-inside{
 }
 .y-promo-tab ul li:nth-child(3) a, .y-promo-tab ul li:nth-child(4) a, .y-promo-tab ul li:nth-child(5) a{
   width: 95%
+}
+.y-promo-tab ul li:nth-child(5) a{
+  position: relative;
+}
+.y-promo-tab ul li:nth-child(5) a::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 68px;
+  height: 28px;
+  background: url(../img/promo/vip-button.png) no-repeat;
+  top: -1.2em;
+  right: -0.8em;
 }
 .y-promo-tab ul li.active a{
   background: #fba601;
