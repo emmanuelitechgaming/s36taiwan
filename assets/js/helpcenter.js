@@ -25,4 +25,8 @@ $(document).ready(function() {
     $(this).closest('.tab-pane').toggleClass('active');
     $(this).closest('.tab-content').closest('.tab-pane').find('.nav.nav-tabs.sub').toggle();
   })
+
+  $('.search-trigger a').click(function() {
+    $('.search').toggle();
+  })
 })
