@@ -11068,6 +11068,9 @@ h5.title-inside{
   width: 90%;
   min-height: 30px
 }
+.y-promo-tab ul li:nth-child(5) a{
+  background: none
+}
 .y-promo-tab ul li a{
   width: 90%
 }
@@ -11080,9 +11083,9 @@ h5.title-inside{
   position: absolute;
   width: 68px;
   height: 28px;
-  background: url(../img/promo/vip-button.png) no-repeat;
-  top: -1.2em;
-  right: -0.8em;
+  background: url(../img/promo/vip-button-mobile.png) no-repeat;
+  top: 0.5em;
+  right: -3em;
 }
 .y-promo-tab ul li.active a{
   background: #fba601;
