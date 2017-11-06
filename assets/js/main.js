@@ -1088,6 +1088,12 @@ $('.one-winner .flexslider').flexslider({
     $(this).find('img').attr('src', 'assets/img/search.png');
   })
 
+  $('.banner-slider').flexslider({
+    animation: "slide",
+    slideshowSpeed: 3000,
+    animationSpeed: 1000,
+  });
+
 });
 
 

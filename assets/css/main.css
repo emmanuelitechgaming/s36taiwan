@@ -10965,10 +10965,11 @@ h5.title-inside{
   vertical-align: middle;
 }
 .atletico-area .img{
-  width: 33px;
+  width: 55px;
 }
 .atletico-area .text{
-  margin-left: 5px
+  position: relative;
+  top: -8px;
 }
 .atletico-area .text span{
   display: block;
@@ -11067,9 +11068,6 @@ h5.title-inside{
   font-size: 13px;
   width: 90%;
   min-height: 30px
-}
-.y-promo-tab ul li:nth-child(5) a{
-  background: none
 }
 .y-promo-tab ul li a{
   width: 90%
@@ -11511,4 +11509,43 @@ h5.title-inside{
   position: relative;
   top: 3px;
   margin-right: 5px
+}
+.banner-slider{
+  padding: 0 !important
+}
+.banner-slider .flex-control-nav{
+  width: 1250px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0px auto;
+  text-align: left;
+  padding-left: 10px
+}
+.banner-slider .flex-control-paging li a{
+  width: 14px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.flex-control-paging li a.flex-active{
+  background: rgba(255, 255, 255, 0.8);
+}
+.banner-slider .text{
+  width: 1250px;
+  margin: 0px auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 10px 15px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px
+}
+.banner-slider .text span{
+  display: block;
+  color: #fba601;
+  margin-top: 10px
+}
+.banner-slider .slides li{
+  position: relative;
 }
