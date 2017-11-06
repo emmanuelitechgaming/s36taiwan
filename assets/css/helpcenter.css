@@ -138,13 +138,13 @@
           box-shadow: none !important
 }
 .new-helpcenter .search input::-webkit-input-placeholder{
-  color: #000 !important
+  color: #ccc !important
 }
 .new-helpcenter .search input:-ms-input-placeholder{
-  color: #000 !important
+  color: #ccc !important
 }
 .new-helpcenter .search input::placeholder{
-  color: #000 !important
+  color: #ccc !important
 }
 .new-helpcenter .search input:focus::-webkit-input-placeholder{
   color: #000 !important
