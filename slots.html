@@ -4989,6 +4989,7 @@
                         <li class="title"><div href="javascript:void(0)">选择语言</div></li>
                       </ul>
                     </div>
+                    <p class="copyright-txt">Cookie聲明 : 本網站通過使用cookie，來幫助我們為您提供更好的體驗及收集有關本網站使用情況的信息。如果您繼續瀏覽我們的網站，則表示您同意我們使用 <a href="#">cookie</a> 。 </p>
                 </div>
             </div>
         </div>
@@ -5779,8 +5780,10 @@
       $(document).ready(function() {
         var now = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
         var now2 = moment().format(" h:mm YYYY/MM/DD");
+        var now3 = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
         $('.top-header-clock span').html(now);
         $('.m-top-header-clock span').html(now2);
+        $('.navbar-nav .time span').html(now3);
 
         $('.flexslider.flexslider-slide').flexslider({
           animation: 'slide',
