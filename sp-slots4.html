@@ -640,6 +640,7 @@
             <div class="clearfix">
               <div class="col-md-2 col-sm-2 col-xs-3 logout-wrapper"></div>
               <div class="col-md-8 col-sm-8 col-xs-6"><button class="add-main-screen">添加到主屏幕</button></div>
+              <div class="col-xs-12 time"><span></span></div>
             </div>
           </li>
         </ul>
@@ -2304,8 +2305,10 @@
       $(document).ready(function() {
         var now = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
         var now2 = moment().format(" h:mm YYYY/MM/DD");
+        var now3 = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
         $('.top-header-clock span').html(now);
         $('.m-top-header-clock span').html(now2);
+        $('.navbar-nav .time span').html(now3);
       });
     </script>
 

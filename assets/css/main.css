@@ -11493,3 +11493,22 @@ h5.title-inside{
   color: #ffffff;
   text-decoration: none;
 }
+.navbar-nav .time{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.navbar-nav .time span{
+  display: inline-block;
+}
+.navbar-nav .time::before{
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url('../img/header/clock.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 3px;
+  margin-right: 5px
+}
