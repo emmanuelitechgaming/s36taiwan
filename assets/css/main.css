@@ -11484,8 +11484,7 @@ h5.title-inside{
   text-decoration: none
 }
 .casino-show-more{
-  border-bottom: 1px solid #565656;
-  padding: 11px;
+  padding: 20px;
 }
 .copyright-txt a{
   color: #ffffff;
@@ -11548,4 +11547,19 @@ h5.title-inside{
 }
 .banner-slider .slides li{
   position: relative;
+}
+.breadcrumb-inner-casino .col-xs-12:last-child .casino-g{
+  margin-bottom: 0;
+}
+.loading{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6) url('../img/logo-m.png') no-repeat;
+  background-size: 120px 30px;
+  background-position: center;
 }

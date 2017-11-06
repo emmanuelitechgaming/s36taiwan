@@ -2019,7 +2019,7 @@ max-height: 170px;
     }
     main .borderstyle-sp{
       position: relative;
-      margin: 20px 1px;
+      margin: 20px 8px;
       top: -0.5em
     }
     main .borderstyle-sp.for-promo{
@@ -2063,6 +2063,27 @@ max-height: 170px;
     #registerModal .checkbox-warning{
       text-align: center;
       margin-top: -30px
+    }
+    .main-casino-section .breadcrumb-inner-casino{
+      padding-bottom: 0
+    }
+    .breadcrumb-inner-casino {
+        margin-bottom: 0;
+    }
+    .breadcrumb-inner-casino-sp, .breadcrumb-inner-slots-sp{
+      margin-bottom: 25px;
+    }
+    .slots-breadcrumb-inner{
+      margin-bottom: -10px;
+    }
+    .breadcrumb-inner-lotto{
+      margin-bottom: 5px;
+    }
+    .breadcrumb-inner-promo{
+      margin-bottom: -20px
+    }
+    .breadcrumb-inner-promo-sp{
+      margin-bottom: 25px;
     }
 }
 
@@ -7073,7 +7094,7 @@ max-height: 170px;
     display: block
   }
   main .borderstyle-promo{
-    margin: -20px 0px 20px;
+    margin: -4px 0px 20px;
     display: block
   }
   .new123b {
@@ -7205,6 +7226,27 @@ max-height: 170px;
   }
   .winner-breadcrumb-inner .netbet ul li a{
     width: 175px;
+  }
+  .main-casino-section .breadcrumb-inner-casino{
+    padding-bottom: 20px
+  }
+  .breadcrumb-inner-casino, .breadcrumb-inner-casino-sp, .breadcrumb-inner-slots-sp {
+      margin-bottom: 15px;
+  }
+  .slots-breadcrumb-inner{
+    margin-bottom: -5px;
+  }
+  .breadcrumb-inner-lotto{
+    margin-bottom: 15px;
+  }
+  .breadcrumb-inner-promo{
+    margin-bottom: 15px
+  }
+  .breadcrumb-inner-promo-sp{
+    margin-bottom: 0;
+  }
+  .loading{
+    display: none
   }
 }
 
