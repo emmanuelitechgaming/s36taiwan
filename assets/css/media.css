@@ -7201,6 +7201,9 @@ max-height: 170px;
     width: 130px;
     max-height: 30px
   }
+  .winner-breadcrumb-inner .netbet ul li a{
+    width: 175px;
+  }
 }
 
 @media (min-width: 1200px){
