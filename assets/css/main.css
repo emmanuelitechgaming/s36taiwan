@@ -10776,8 +10776,8 @@ h5.title-inside{
   .slot-new-game{
   position: absolute;
   z-index: 1;
-  top: 2px;
-  left: 1px;
+  top: 0px;
+  left: 0px;
 }
 .mobile-jackpot-winner{
   margin-bottom: 10px;
@@ -11552,7 +11552,7 @@ h5.title-inside{
   margin-bottom: 0;
 }
 .loading{
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -11562,4 +11562,6 @@ h5.title-inside{
   background: rgba(0, 0, 0, 0.6) url('../img/logo-m.png') no-repeat;
   background-size: 120px 30px;
   background-position: center;
+  overflow-x: hidden;
+  height: 100vh
 }
