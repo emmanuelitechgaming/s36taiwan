@@ -1082,6 +1082,12 @@ $('.one-winner .flexslider').flexslider({
     }
   })
 
+  $('.deposit-offers .search').hover(function() {
+    $(this).find('img').attr('src', 'assets/img/search-hover.png');
+  }, function() {
+    $(this).find('img').attr('src', 'assets/img/search.png');
+  })
+
 });
 
 
