@@ -1260,8 +1260,9 @@ $(function() {
       }
     });
 });
-
-
+$(window).load(function() {
+  $('.loading').css('display', 'none')
+})
 $('#datepicker-from').datepicker({
     autoclose: true
 });

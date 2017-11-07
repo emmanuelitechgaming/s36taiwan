@@ -107,7 +107,7 @@ max-height: 170px;
       position: fixed;
       cursor: pointer;
       bottom: 20px;
-      z-index: 99999;
+      z-index: 99;
       opacity: 1
     }
     .modal-panel-dialog {
@@ -2019,7 +2019,7 @@ max-height: 170px;
     }
     main .borderstyle-sp{
       position: relative;
-      margin: 20px 1px;
+      margin: 20px 8px;
       top: -0.5em
     }
     main .borderstyle-sp.for-promo{
@@ -2063,6 +2063,30 @@ max-height: 170px;
     #registerModal .checkbox-warning{
       text-align: center;
       margin-top: -30px
+    }
+    .main-casino-section .breadcrumb-inner-casino{
+      padding-bottom: 0
+    }
+    .breadcrumb-inner-casino {
+        margin-bottom: 0;
+    }
+    .breadcrumb-inner-casino-sp, .breadcrumb-inner-slots-sp{
+      margin-bottom: 25px;
+    }
+    .slots-breadcrumb-inner{
+      margin-bottom: -10px;
+    }
+    .breadcrumb-inner-lotto{
+      margin-bottom: 5px;
+    }
+    .breadcrumb-inner-promo{
+      margin-bottom: -20px
+    }
+    .breadcrumb-inner-promo-sp{
+      margin-bottom: 25px;
+    }
+    footer h4, .footer-margin-left {
+      margin-left: 0
     }
 }
 
@@ -5416,6 +5440,11 @@ max-height: 170px;
         left: 0;
         bottom: 75px
     }
+    .slots-mp-new{
+      top: 10px;
+      left: 10px;
+      right: auto;
+    }
     #b {
         margin-top: auto;
     }
@@ -5927,8 +5956,11 @@ max-height: 170px;
       margin-top: 0
     }
     .slots-breadcrumb-inner .netbet .col-xs-12{
-      width: 50%;
+      width: 70%;
       height: auto;
+    }
+    .slots-breadcrumb-inner .netbet .col-xs-12:last-child{
+      width: 30%;
     }
     .winner-breadcrumb-inner .netbet .col-xs-12{
       width: auto;
@@ -5939,6 +5971,9 @@ max-height: 170px;
     }
     .casino-mp, .slots-mp{
       margin-top: 10px;
+    }
+    .slots-mp-new{
+      margin-top: 0;
     }
     .casino-mp{
       margin-top: 3px;
@@ -6047,7 +6082,7 @@ max-height: 170px;
       display: block !important
     }
     .navbar-header.header-mobile{
-      margin-bottom: 15px
+      margin-bottom: 0
     }
     .carousel .banner-text{
       right: 1.5%;
@@ -6129,6 +6164,10 @@ max-height: 170px;
   .slots-breadcrumb-inner .col-xs-12.netbet{
     width: 96.8%;
     height: auto;
+  }
+  .slots-breadcrumb-inner .col-xs-12{
+    padding-left: 8px;
+    padding-right: 8px;
   }
   .flexslider-fade .content div{
     font-size: 12px;
@@ -7073,7 +7112,7 @@ max-height: 170px;
     display: block
   }
   main .borderstyle-promo{
-    margin: -20px 0px 20px;
+    margin: -4px 0px 20px;
     display: block
   }
   .new123b {
@@ -7206,6 +7245,46 @@ max-height: 170px;
   .winner-breadcrumb-inner .netbet ul li a{
     width: 175px;
   }
+  .main-casino-section .breadcrumb-inner-casino{
+    padding-bottom: 20px
+  }
+  .breadcrumb-inner-casino, .breadcrumb-inner-casino-sp, .breadcrumb-inner-slots-sp {
+      margin-bottom: 15px;
+  }
+  .slots-breadcrumb-inner{
+    margin-bottom: -5px;
+  }
+  .breadcrumb-inner-lotto{
+    margin-bottom: 15px;
+  }
+  .breadcrumb-inner-promo{
+    margin-bottom: 15px
+  }
+  .breadcrumb-inner-promo-sp{
+    margin-bottom: 0;
+  }
+  .loading{
+    display: none
+  }
+  footer h4 {
+    margin-left: -3px
+  }
+  .footer-shareit .list-inline>li{
+    padding-right: 5px;
+    padding-left: 9px;
+  }
+  .rss-field, .footer .footer-services p, footer .certs{
+    margin-left: 3px
+  }
+  .slots-breadcrumb-inner .tab-content{
+    padding: 0 8px
+  }
+  footer .browsers{
+    margin-left: 7px
+  }
+  footer .footer-pad .margin{
+    margin-left: 3px
+  }
 }
 
 @media (min-width: 1200px){
@@ -7275,7 +7354,7 @@ max-height: 170px;
   font-size: 17px
 }
   .rss-field .form-group:nth-child(1) input {
-      width: 340px !important
+      width: 335px !important
   }
     .promo-section .breadcrumb-inner .sp-container {
         padding: 20px 12px 20px;
@@ -7504,9 +7583,6 @@ main .new-counter .marquee{
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  .slots-breadcrumb-inner .col-xs-12{
-    width: 33.33333333%;
-  }
   .slots-breadcrumb-inner .tdw-button{
     width: 100%;
     height: auto;
@@ -7730,6 +7806,9 @@ main .new-counter .marquee{
   .casino-desc-bot .sp-btn-hidden{
     padding: 4px 25px;
     width: auto;
+  }
+  .slots-breadcrumb-inner .casino-desc-bot .sp-btn-hidden{
+    padding: 4px 10px;
   }
   .live-game {
     max-height: 400px;
