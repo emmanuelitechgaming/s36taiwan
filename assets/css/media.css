@@ -2393,9 +2393,9 @@ max-height: 170px;
       -webkit-transform-origin:0 0 !important;
     }
     .logo-area-content .img{
-      width: 40px;
-      position: relative;
-      top: 6px;
+      width: 25px;
+    position: relative;
+    top: 1px;
     }
     .logo-area-content .text{
       font-size: 11px;
