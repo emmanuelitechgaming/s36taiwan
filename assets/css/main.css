@@ -21,7 +21,6 @@ body {
     background: #2a2a2a;
     color: #ffffff;
 }
-
 .navbar-inverse {
     background-color: #2a2a2a
 }
@@ -8604,12 +8603,17 @@ border-bottom: 1px solid #333333;
   font-size: 13px;
   font-weight: 700;
 	border-radius: 5px;
-
 	-webkit-box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
   box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
   background: rgba(204, 204, 204, 0.3);
   border: 1px solid #191919;
 	padding: 10px 25px;
+}
+.slots-breadcrumb-inner .sp-btn-hidden{
+  background: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none
 }
 .btn-promotion{
   border-radius: 20px;
@@ -8618,6 +8622,9 @@ border-bottom: 1px solid #333333;
   background: rgba(204, 204, 204, 0.2);
   color: inherit;
   text-decoration: none;
+}
+.slots-breadcrumb-inner .casino-desc-bot .sp-btn-hidden:hover{
+  background: none
 }
 .casino-desc-bot .sp-btn-hidden:active, .btn-promotion:active, .casino-desc-bot .sp-btn-hidden:focus, .btn-promotion:focus, .btn-yellow:active, .btn-yellow:focus, .cs-modal .chatserver-form button:active, .cs-modal .chatserver-form button:focus, #cscall:active, #cscall:focus, .rss-submit-verification:active, .rss-submit-verification:focus, .sp-btn-hidden:active, .sp-btn-hidden:focus,
  .my-sweet-15 button:active, .my-sweet-15 button:focus, .btn-hidden:active, .btn-hidden:focus, .sweet-arrow:active, .sweet-arrow:focus, .click-here:active, .click-here:focus{
@@ -8633,6 +8640,12 @@ border-bottom: 1px solid #333333;
 background: rgba(204, 204, 204, 0.2);
 color: #fff;
 text-decoration: none;
+}
+.slots-breadcrumb-inner .casino-desc-bot .sp-btn-hidden:active, .slots-breadcrumb-inner .casino-desc-bot .sp-btn-hidden:focus{
+  border: none !important;
+  background: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important
 }
 .wallet-link:hover, .wallet-link:active, .wallet-link:focus{
   background: transparent;
@@ -10437,7 +10450,7 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
 }
 .malupet-nanaman{
   padding: 10px 10px 9px 10px;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.8);
   text-shadow: 1px 4px 5px #000;
 }
 .malupet-nanaman .flexslider{
@@ -10974,12 +10987,6 @@ h5.title-inside{
 }
 .atletico-area .img{
   width: 33px;
-  position: relative;
-  top: 1px;
-}
-.atletico-area .text{
-  position: relative;
-  top: 1px;
 }
 .atletico-area .text span{
   display: block;
@@ -11571,19 +11578,20 @@ h5.title-inside{
   right: 0;
   z-index: 999;
   text-align: center;
-  background: rgba(0, 0, 0, 1) url('../img/logo-m.png') no-repeat;
-  background-size: 160px 40px;
-  background-position: center;
+  background: rgba(0, 0, 0, 1) url(../img/mobile-splash-screen.png) no-repeat;
+  background-size: 230px 55px;
+  background-position: center 40%;
   overflow-x: hidden;
-  height: 100vh
+  height: 100vh;
 }
 .loading::after{
   content: '';
   display: block;
   position: fixed;
-  width: 43px;
-  height: 11px;
+  width: 60px;
+  height: 15px;
   background: url('../img/loading.gif') no-repeat;
+  background-size: 100% 100%;
   bottom: 10px;
   right: 10px;
 }

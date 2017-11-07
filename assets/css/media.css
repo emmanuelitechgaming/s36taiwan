@@ -1135,7 +1135,7 @@ max-height: 170px;
       margin-right: auto;
     }
     .netbet ul{
-      margin-bottom: 10px
+      margin-bottom: 5px
     }
     .netbet ul li{
       width: 50%;
@@ -1144,6 +1144,7 @@ max-height: 170px;
     .slots-breadcrumb-inner .netbet ul li{
       width: 33.333%;
       float: left;
+      margin: 5px 0;
       margin-left: 0;
     }
     .winner-breadcrumb-inner .netbet ul li{
@@ -1978,6 +1979,9 @@ max-height: 170px;
       background: #1b1b1b;
       padding: 10px 0;
       border-radius: 6px
+    }
+    .slots-breadcrumb-inner .netbet-wrapper{
+      padding-top: 5px;
     }
     .bago-pages .steps.step-no{
       position: relative;
@@ -4800,6 +4804,7 @@ max-height: 170px;
   .slots-breadcrumb-inner .netbet ul li {
     width: auto;
     float: none;
+    margin: 0;
     margin-left: 0;
     margin-right: 18px
   }
@@ -6664,6 +6669,9 @@ max-height: 170px;
   .slot-content .casino-mp{
     padding-right: 0;
   }
+  .slots-breadcrumb-inner .slot-content .casino-mp{
+    padding-left: 5px;
+  }
   .live-game {
     max-height: 304px;
   }
@@ -7285,6 +7293,12 @@ max-height: 170px;
   footer .footer-pad .margin{
     margin-left: 3px
   }
+  .slots-breadcrumb-inner .netbet-wrapper{
+    padding-top: 0px;
+  }
+  .flexslider.banner-slider{
+    display: none
+  }
 }
 
 @media (min-width: 1200px){
@@ -7321,6 +7335,9 @@ max-height: 170px;
   }
   main .borderstyle-dl{
     display: block;
+  }
+  .flexslider.banner-slider{
+    display: block
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -7808,7 +7825,9 @@ main .new-counter .marquee{
     width: auto;
   }
   .slots-breadcrumb-inner .casino-desc-bot .sp-btn-hidden{
-    padding: 4px 10px;
+    padding: 4px 0;
+    position: relative;
+    left: 10px
   }
   .live-game {
     max-height: 400px;
