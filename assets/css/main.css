@@ -11578,7 +11578,7 @@ h5.title-inside{
   right: 0;
   z-index: 999;
   text-align: center;
-  background: rgba(0, 0, 0, 1) url(../img/mobile-splash-screen.png) no-repeat;
+  background: rgba(42, 42, 42, 1) url(../img/mobile-splash-screen.png) no-repeat;
   background-size: 230px 55px;
   background-position: center 40%;
   overflow-x: hidden;
