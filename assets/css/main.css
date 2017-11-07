@@ -11532,14 +11532,15 @@ h5.title-inside{
 }
 .banner-slider .text{
   width: 1250px;
-  margin: 0px auto;
-  position: absolute;
-  left: 0;
-  right: 0;
-  padding: 10px 15px;
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 2px
+      margin: 0px auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      padding: 10px 15px;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-shadow: 3px 3px 4px #000000;
 }
 .banner-slider .text span{
   display: block;
