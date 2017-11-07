@@ -5440,6 +5440,11 @@ max-height: 170px;
         left: 0;
         bottom: 75px
     }
+    .slots-mp-new{
+      top: 10px;
+      left: 10px;
+      right: auto;
+    }
     #b {
         margin-top: auto;
     }
@@ -5966,6 +5971,9 @@ max-height: 170px;
     }
     .casino-mp, .slots-mp{
       margin-top: 10px;
+    }
+    .slots-mp-new{
+      margin-top: 0;
     }
     .casino-mp{
       margin-top: 3px;

@@ -10781,11 +10781,11 @@ h5.title-inside{
   margin: 0 auto;
   max-width: 386px
 }
-  .slot-new-game{
+.slot-new-game{
   position: absolute;
   z-index: 1;
   top: 0px;
-  left: 0px;
+  right: 0px;
 }
 .mobile-jackpot-winner{
   margin-bottom: 10px;
@@ -11586,4 +11586,7 @@ h5.title-inside{
   background: url('../img/loading.gif') no-repeat;
   bottom: 10px;
   right: 10px;
+}
+.slots-mp-new{
+  position: absolute;
 }
