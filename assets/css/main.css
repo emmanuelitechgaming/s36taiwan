@@ -7944,6 +7944,14 @@ margin-right: 23px;
 /*.cta-casino .casino-g-img{
   border: solid 1px #3b3b3b
 }*/
+.cta-casino .link{
+  color: #fff;
+  font-size: 18px
+}
+.cta-casino .link:hover{
+  text-decoration: none;
+  color: #fba601
+}
 .username-availability{
   color: #fba601;
   position: relative;
@@ -11561,9 +11569,19 @@ h5.title-inside{
   right: 0;
   z-index: 999;
   text-align: center;
-  background: rgba(0, 0, 0, 0.6) url('../img/logo-m.png') no-repeat;
-  background-size: 120px 30px;
+  background: rgba(0, 0, 0, 1) url('../img/logo-m.png') no-repeat;
+  background-size: 160px 40px;
   background-position: center;
   overflow-x: hidden;
   height: 100vh
+}
+.loading::after{
+  content: '';
+  display: block;
+  position: fixed;
+  width: 43px;
+  height: 11px;
+  background: url('../img/loading.gif') no-repeat;
+  bottom: 10px;
+  right: 10px;
 }
