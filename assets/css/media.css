@@ -2092,6 +2092,16 @@ max-height: 170px;
     footer h4, .footer-margin-left {
       margin-left: 0
     }
+    .slots-breadcrumb-inner .casino-g .content .title{
+      margin-bottom: 0;
+    }
+    .casino-g .content .content-text{
+      margin: 0 5px;
+      padding: 0 10px;
+    }
+    .content-text{
+      height: auto !important;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -5190,9 +5200,12 @@ max-height: 170px;
         top: -39px;
         left: 112px;
     }
-    /* inedit ko ngayon */
+    /* inedit ko ngayon, kelan? */
     .breadcrumb-inner .casino-g ul li {
         margin: 0 10px;
+    }
+    .breadcrumb-inner-casino .casino-g .first-two ul li {
+      margin: 0 0
     }
     .breadcrumb-inner .casino-g ul li span {
         font-size: 16px;
@@ -6669,7 +6682,7 @@ max-height: 170px;
   .slot-content .casino-mp{
     padding-right: 0;
   }
-  .slots-breadcrumb-inner .slot-content .casino-mp{
+  .slots-breadcrumb-inner .slot-content .casino-mp, .breadcrumb-inner-casino .casino-mp{
     padding-left: 5px;
   }
   .live-game {
@@ -7284,7 +7297,7 @@ max-height: 170px;
   .rss-field, .footer .footer-services p, footer .certs{
     margin-left: 3px
   }
-  .slots-breadcrumb-inner .tab-content{
+  .slots-breadcrumb-inner .tab-content, .breadcrumb-inner-casino{
     padding: 0 8px
   }
   footer .browsers{
@@ -7298,6 +7311,21 @@ max-height: 170px;
   }
   .flexslider.banner-slider{
     display: none
+  }
+  .casino-g .content .content-text{
+    margin: 5px 5px;
+    padding: 10px 10px;
+  }
+  .slots-breadcrumb-inner .casino-g .content .title{
+    margin-bottom: 5px;
+  }
+  .breadcrumb-inner-casino .col-xs-12{
+    padding-left: 8px;
+    padding-right: 8px
+  }
+  .breadcrumb-inner-casino .baccarat, .breadcrumb-inner-casino .other-games{
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -7824,10 +7852,13 @@ main .new-counter .marquee{
     padding: 4px 25px;
     width: auto;
   }
-  .slots-breadcrumb-inner .casino-desc-bot .sp-btn-hidden{
+  .slots-breadcrumb-inner .casino-desc-bot .sp-btn-hidden, .breadcrumb-inner-casino .casino-desc-bot .sp-btn-hidden{
     padding: 4px 0;
     position: relative;
     left: 10px
+  }
+  .breadcrumb-inner-casino .casino-desc-bot .sp-btn-hidden{
+    left: 0
   }
   .live-game {
     max-height: 400px;

@@ -921,7 +921,10 @@ div.border:before {
     padding-top: 10px;
     border-bottom: 1px solid #fba601;
 }
-
+.breadcrumb-inner-casino .game-titl{
+  margin-left: -5px;
+  margin-right: -5px
+}
 .breadcrumb-inner .casino-g {
     padding-left: 0;
     padding-right: 0;
@@ -8610,7 +8613,7 @@ border-bottom: 1px solid #333333;
   border: 1px solid #191919;
 	padding: 10px 25px;
 }
-.slots-breadcrumb-inner .sp-btn-hidden{
+.slots-breadcrumb-inner .sp-btn-hidden, .breadcrumb-inner-casino .sp-btn-hidden{
   background: none;
   border: none;
   -webkit-box-shadow: none;
@@ -11600,4 +11603,52 @@ h5.title-inside{
 }
 .slots-mp-new{
   position: absolute;
+}
+.img-wrapper .title, .img-wrapper .info{
+  z-index: 999
+}
+.casino-g .img-wrapper{
+  position: relative;
+}
+.cta-casino-main .title{
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  font-size: 20px;
+  color: #fba601;
+  background: rgba(36, 32, 25, 0.9);
+  padding: 5px 15px;
+  border: solid 2px #4d4d4d;
+  border-radius: 5px;
+  letter-spacing: 1px
+}
+.cta-casino-main .info{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  bottom: 5%;
+  right: 3%
+}
+.cta-casino-main .first-two{
+  background: #161616;
+  border-bottom: solid 1px #323232;
+  padding: 8px 0
+}
+.cta-casino-main .first-two ul{
+  margin: 0;
+  padding: 0
+}
+.breadcrumb-inner-casino .casino-g .first-two ul li{
+  font-size: 15px;
+}
+.cta-casino-main .first-two li{
+  float: left;
+  width: 50%;
+  letter-spacing: 2px
+}
+.cta-casino-main .first-two li:first-child{
+  border-right: 1px solid #323232
+}
+.cta-casino-main #b{
+  padding: 0;
 }
