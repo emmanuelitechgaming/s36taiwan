@@ -10798,8 +10798,8 @@ h5.title-inside{
 .slot-new-game{
   position: absolute;
   z-index: 1;
-  top: 0px;
-  right: 0px;
+  top: 2px;
+  right: 1px;
 }
 .mobile-jackpot-winner{
   margin-bottom: 10px;
