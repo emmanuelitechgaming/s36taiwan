@@ -9347,6 +9347,12 @@ span.add-ico{
 .mobile-banner-wrapper .bs-slider-overlay a{
   display: inline-block;
 }
+.spotlight-bg-text img{
+  background: rgba(19, 18, 18, 0.58);
+    padding: 5px 34px;
+    border-radius: 5px;
+    border: 2px solid rgba(95, 94, 94, 0.68);
+}
 .spotlight-bg-text{
   position: absolute;
   font-size: 90px;
@@ -9358,7 +9364,7 @@ span.add-ico{
   top: 0;
   text-align: center;
   text-shadow: 0px 10px 0px rgba(121, 4, 4, 1);
-  line-height: 150px;
+  line-height: 360px;
       border: 1px solid #383838;
 }
 .platform-logo {
@@ -11669,14 +11675,14 @@ h5.title-inside{
      z-index: 99999999;
      overflow-x: hidden;
       height: 100vh;
-      font-size: 16px;
+      font-size: 12px;
       letter-spacing: 1px;
       font-weight: normal;
     }
     #info img{
-      max-width: 100px;
+      max-width: 80px;
       margin: 15px auto;
-      margin-top: 15%;
+      margin-top: 18%;
     }
 }
 .first-three{
