@@ -290,6 +290,8 @@ max-height: 170px;
     }
     .breadcrumb-inner-casino .casino-g .content ul{
       bottom: 0;
+      float: none;
+      display: inline-block;
     }
     .casino-g img {
         margin: 0 auto;
@@ -2153,8 +2155,8 @@ max-height: 170px;
     }
     .cta-casino-main .title{
       background: #161616;
-      border-left: 2px solid #323232;
-      border-right: 2px solid #323232;
+      border-left: 1px solid #323232;
+      border-right: 1px solid #323232;
       text-align: center;
       padding: 10px 0 0;
       font-size: 15px;
@@ -2177,6 +2179,7 @@ max-height: 170px;
     }
     .cta-casino-main .first-two li:first-child::after{
       content: "/";
+
     }
     .first-three{
       font-size: 11px;
@@ -2205,8 +2208,13 @@ max-height: 170px;
       margin: 0 3px;
     }
     .first-two ul li::after{
+      margin: 0 3px;
+      position: relative;
+      right: -2px
+    }
+    .casino-desc-bot .sp-btn-hidden::after{
       position: absolute;
-      right: -5px
+      top: 5px;
     }
 }
 
@@ -7539,6 +7547,10 @@ max-height: 170px;
   }
   .slots-breadcrumb-inner .casino-desc-bot .col-md-6:nth-child(2){
     padding-left: 0;
+  }
+  .casino-desc-bot .sp-btn-hidden::after{
+    position: relative;
+    top: 3px;
   }
 }
 
