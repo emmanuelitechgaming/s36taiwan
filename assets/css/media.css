@@ -4485,7 +4485,7 @@ max-height: 170px;
         width: 400px!important
     }
     .casino-g .content ul {
-        width: 55%;
+        width: auto
     }
     .cta-seemore {
         bottom: 135px;
@@ -5238,6 +5238,9 @@ max-height: 170px;
   }
   .slots-breadcrumb-inner .casino-g .content .first-three ul{
     bottom: 0;
+  }
+  .breadcrumb-inner-casino .casino-g ul li{
+    margin: 0 0;
   }
 }
 
@@ -7538,8 +7541,8 @@ max-height: 170px;
   .breadcrumb-inner-casino .money-icon{
     margin-right: 15px
   }
-  .content-text{
-    height: 75px !important;
+  .slots-breadcrumb-inner .casino-desc-bot .col-md-6:nth-child(2){
+    padding-left: 0;
   }
 }
 
@@ -8236,5 +8239,8 @@ right: 2px;
   }
   .sp-side-img{
     margin-top: 4em
+  }
+  .content-text{
+    height: 75px !important;
   }
 }
