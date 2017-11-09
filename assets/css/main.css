@@ -1800,11 +1800,11 @@ color: #ffffff!important;
     background: #EEEEEE;
 }
 
-.sidebar-nav li {
+/*.sidebar-nav li {
     margin-top: 0!important;
     background: url('../img/helpcenter/menu_divider.png') no-repeat center bottom;
     padding-bottom: 1px;
-}
+}*/
 
 .nav-pills li:hover:before,
 .nav-pills li.open:hover:before {
@@ -5899,7 +5899,7 @@ main .win-lot-top-games {
     border-top-right-radius: 11px;
     position: relative;
     top: 1px;
-    border: 2px solid #323232;
+    border: 1px solid #323232;
 }
 
 .sp-strip {
@@ -8572,7 +8572,7 @@ border-bottom: 1px solid #333333;
 }
 .casino-g .content{
   background: #202020;
-  border: 2px solid #323232;
+  border: 1px solid #323232;
   border-top: none
 }
 .casino-g .content p{
@@ -9358,7 +9358,7 @@ span.add-ico{
   top: 0;
   text-align: center;
   text-shadow: 0px 10px 0px rgba(121, 4, 4, 1);
-  line-height: 462px;
+  line-height: 150px;
       border: 1px solid #383838;
 }
 .platform-logo {
@@ -10992,7 +10992,7 @@ h5.title-inside{
   vertical-align: middle;
 }
 .atletico-area .img{
-  width: 36px;
+  width: 33px;
   position: relative;
   top: 1px
 }
@@ -11647,6 +11647,37 @@ h5.title-inside{
   display: inline-block;
   width: 15px;
   position: relative;
+}
+/* for all screens */
+#info {display: none;}
+
+/* only when orientation is in portrait mode */
+@media all and (min-device-width: 320px)
+  and (max-device-width: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #info {
+          background: rgba(42, 42, 42, 1);
+
+      overflow: hidden;
+     display: block;
+     height: 100%;
+     position: fixed;
+     bottom: 0;
+     text-align: center;
+     width: 100%;
+     z-index: 99999999;
+     overflow-x: hidden;
+      height: 100vh;
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-weight: normal;
+    }
+    #info img{
+      max-width: 100px;
+      margin: 15px auto;
+      margin-top: 15%;
+    }
 }
 .first-three{
   background: #161616;
