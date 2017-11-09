@@ -2204,6 +2204,14 @@ max-height: 170px;
     .slots-breadcrumb-inner .casino-g .first-three ul{
       padding: 0 0;
     }
+    .first-three ul li{
+      float: left;
+      width: 33.333333%;
+    }
+    .first-three ul li::after, .first-two ul li::after{
+      position: absolute;
+      right: -5px
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -7500,9 +7508,32 @@ max-height: 170px;
   }
   .slots-breadcrumb-inner .casino-g .first-three ul li {
     font-size: 15px;
+    float: none;
+    display: inline-block;
   }
   .slots-breadcrumb-inner .first-three ul li:first-child, .slots-breadcrumb-inner .first-three ul li:last-child{
     text-align: center;
+  }
+  .first-three ul li{
+    float: none;
+    width: auto;
+  }
+  .first-three ul li::after, .first-two ul li::after{
+    position: static;
+    right: auto;
+    margin: 0 5px
+  }
+  .first-two ul li::after{
+    position: relative;
+    right: -3px
+  }
+  .breadcrumb-inner-casino .casino-g .first-two ul li {
+    float: none;
+    display: inline-block;
+    width: auto;
+  }
+  .breadcrumb-inner-casino .money-icon{
+    margin-right: 15px
   }
 }
 
