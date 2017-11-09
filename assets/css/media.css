@@ -7535,6 +7535,9 @@ max-height: 170px;
   .breadcrumb-inner-casino .money-icon{
     margin-right: 15px
   }
+  .content-text{
+    height: 75px !important;
+  }
 }
 
 @media (min-width: 1200px){
