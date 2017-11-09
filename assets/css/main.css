@@ -947,7 +947,9 @@ div.border:before {
     float: left;
     font-size: 19px;
 }
-
+.slots-breadcrumb-inner .casino-g ul li{
+  font-size: 15px
+}
 .breadcrumb-inner .casino-g ul li span {
     color: #fff;
     font-weight: 700;
@@ -3951,7 +3953,11 @@ color: #fba601;
     font-size: 16px;
     font-weight: normal;
 }
-
+.content .first-three .line{
+  font-size: 11px;
+  color: #fff;
+  float: right;
+}
 #b,
 #c {
     position: relative;
@@ -11639,6 +11645,27 @@ h5.title-inside{
 }
 .money-icon{
   display: inline-block;
-  width: 16px;
+  width: 15px;
   position: relative;
+}
+.first-three{
+  background: #161616;
+  margin: -10px -5px 0;
+  padding: 5px;
+}
+.first-three ul li{
+  float: left;
+  width: 33.333333%;
+  position: relative;
+}
+.first-two ul li{
+  position: relative;
+}
+.first-three ul li::after, .first-two ul li::after{
+  content: ' / ';
+  position: absolute;
+  right: -5px
+}
+.first-three ul li:nth-child(3)::after, .first-two ul li:nth-child(2)::after{
+  content: none
 }
