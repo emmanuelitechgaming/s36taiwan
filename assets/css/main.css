@@ -11654,8 +11654,6 @@ h5.title-inside{
   padding: 5px;
 }
 .first-three ul li{
-  float: left;
-  width: 33.333333%;
   position: relative;
 }
 .first-two ul li{
@@ -11663,9 +11661,10 @@ h5.title-inside{
 }
 .first-three ul li::after, .first-two ul li::after{
   content: ' / ';
-  position: absolute;
-  right: -5px
 }
 .first-three ul li:nth-child(3)::after, .first-two ul li:nth-child(2)::after{
   content: none
+}
+.first-two ul li, .first-three ul li{
+  font-family: helvetica
 }
