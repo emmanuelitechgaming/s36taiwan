@@ -5236,6 +5236,9 @@ max-height: 170px;
   .slots-breadcrumb-inner .netbet ul li a{
     padding: 6px 20px !important
   }
+  .slots-breadcrumb-inner .casino-g .content .first-three ul{
+    bottom: 0;
+  }
 }
 
 
