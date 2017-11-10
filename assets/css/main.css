@@ -3971,10 +3971,6 @@ color: #fba601;
     border-bottom-right-radius: 10px;
 }
 
-#b {
-    min-height: 90px;
-}
-
 #c {
     max-width: 386.66px;
 }
@@ -10805,6 +10801,31 @@ h5.title-inside{
   margin: 0 auto;
   max-width: 386px
 }
+.slot-new-game-wrapper .play-button{
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  display: none;
+}
+.slot-new-game-wrapper .play-button a{
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  background: url('../img/play-button.png') no-repeat;
+  background-size: cover;
+  margin-top: 20%;
+}
+.slot-new-game-wrapper:hover .title{
+  display: none;
+}
+.slot-new-game-wrapper:hover .play-button{
+  display: block;
+}
 .slot-new-game{
   position: absolute;
   z-index: 1;
@@ -11617,11 +11638,6 @@ h5.title-inside{
 .casino-g .img-wrapper{
   position: relative;
 }
-.cta-casino-main .title{
-  font-size: 20px;
-  color: #fba601;
-  letter-spacing: 1px
-}
 .cta-casino-main .info{
   position: absolute;
   width: 16px;
@@ -11655,9 +11671,6 @@ h5.title-inside{
 .cta-casino-main .first-two li{
   float: left;
   letter-spacing: 2px
-}
-.cta-casino-main #b{
-  padding: 0;
 }
 .money-icon{
   display: inline-block;
@@ -11748,5 +11761,5 @@ h5.title-inside{
   right: 1px;
   text-align: center;
   background: rgba(0,0,0,0.5);
-  padding: 3px 0
+  padding: 3px 0;
 }
