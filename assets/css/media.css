@@ -2205,10 +2205,16 @@ max-height: 170px;
     }
     .casino-desc-bot .col-xs-6{
       padding-left: 0;
-      padding-right: 0
+      padding-right: 0;
+      width: 33.333333%
     }
     .casino-desc-bot .col-xs-6 a{
       white-space: nowrap;
+    }
+    .casino-desc-bot .info-icon{
+      width: 16px;
+      height: 16px;
+      left: 0
     }
 }
 
@@ -7552,6 +7558,11 @@ max-height: 170px;
   }
   .slots-breadcrumb-inner .casino-desc-bot, .breadcrumb-inner-casino .casino-desc-bot{
     padding: 0px 5px 3px
+  }
+  .casino-desc-bot .info-icon{
+    width: 30px;
+    height: 30px;
+    left: 10px
   }
 }
 

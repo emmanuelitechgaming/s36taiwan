@@ -1094,6 +1094,12 @@ $('.one-winner .flexslider').flexslider({
     animationSpeed: 1000,
   });
 
+  $('.info-icon').hover(function() {
+    $(this).addClass('hover');
+  }, function() {
+    $(this).removeClass('hover');
+  })
+
 });
 
 

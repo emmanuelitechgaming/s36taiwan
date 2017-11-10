@@ -8233,7 +8233,7 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   top: 27%;
   text-align: center;
   display: block;
-  width: 100%
+  width: 97.5%
 }
 .lotto-button-m{
   position: relative;
@@ -8607,12 +8607,13 @@ border-bottom: 1px solid #333333;
 }
 .casino-desc-bot .info-icon{
   display: inline-block;
-  width: 30px;
-  height: 30px;
   background: url('../img/slots/info-icon.png') no-repeat;
   background-size: cover;
   position: relative;
-  left: 10px
+}
+.casino-desc-bot .info-icon.hover{
+  background: url('../img/slots/info-icon-hover.png') no-repeat;
+  background-size: cover;
 }
 .slots-breadcrumb-inner .sp-btn-hidden, .breadcrumb-inner-casino .sp-btn-hidden{
   background: none;
