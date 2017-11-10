@@ -8233,7 +8233,9 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   top: 27%;
   text-align: center;
   display: block;
-  width: 97.5%
+  width: 97.5%;
+  margin: 0 auto;
+  text-align: center
 }
 .lotto-button-m{
   position: relative;
