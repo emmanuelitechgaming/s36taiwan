@@ -239,7 +239,7 @@ a{
 .langOption {
   padding: 10px 30px;
 }
-.langOption .head {
+.langOption #head {
   font-size: 18px;
   padding: 10px 0px;
 }
@@ -306,22 +306,26 @@ a{
     }
     .socials {
       float: none;
-      padding-left: 20px;
+      position: relative;
+      padding-right: 0px;
+      right: 0;
     }
     .socials ul {
-      text-align: center;
+      width: 85%;
+      margin: 0 auto;
       padding-left: 0px;
     }
-    .socials ul li img {
-      width: 8%;
+    .logo .socials img {
+      width: 25px;
     }
     .map {
       width: 95%;
       height: 200px;
     }
     .list ul li {
-      width: 15%;
+      width: 20%;
       margin-bottom: 5px;
+      margin-top: 5px;
     }
     .nav li img {
       padding-bottom: 0px;
@@ -339,6 +343,25 @@ a{
     }
     .lang h5 {
       font-size: 10px;
+    }
+    .lang ul {
+      display: table-row-group;
+    }
+    .option {
+      display: inherit;
+    }
+    .langOption {
+      width: 46%;
+      float: left;
+      padding: 10px 0px;
+      background: #2a2a2a;
+      margin: 5px;
+    }
+    .langOption .head {
+      font-size: 14px;
+    }
+    .langOption .sub {
+      font-size: 12px;
     }
   }
 
@@ -390,6 +413,9 @@ a{
         width: 50%;
         /*margin: 5px;*/
         padding-bottom: 0px;
+      }
+      .drop {
+        display: none;
       }
     }
 
