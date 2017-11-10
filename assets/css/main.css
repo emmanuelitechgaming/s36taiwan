@@ -7229,13 +7229,6 @@ button .flag-icon-kr::before {
     content: ' ' !important;
     display: inline-block;
 }
-
-.fa-mobile::before {
-    background: url('../img/gadget-small-unhover.png') no-repeat 0 0;
-    width: 11px;
-    height: 19px;
-}
-
 .fa-mobile-hover::before {
     background: url('../img/gadget-small.png') no-repeat 0 0;
     width: 11px;
@@ -7267,18 +7260,10 @@ button .flag-icon-kr::before {
     height: 20px;
 }
 
-.fa-desktop::before {
-    background: url('../img/gadget-small-unhover.png') no-repeat -86px 0;
-    width: 28px;
-    height: 20px;
-    ;
-}
-
 .fa-desktop-hover::before {
     background: url('../img/gadget-small.png') no-repeat -86px 0;
     width: 28px;
     height: 20px;
-    ;
 }
 
 .fa-mobile-lg::before {
@@ -8676,13 +8661,13 @@ text-decoration: none;
 .casino-desc-bot .sp-btn-hidden::after, .btn-promotion::after, .click-here::after {
   content: '';
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   background: url('../img/arrow-right-30.png') no-repeat;
   background-size: contain;
   position: relative;
   top: 3px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .casino-desc-bot .sp-btn-hidden-hover::after, .btn-promotion-hover::after{
   background: url('../img/arrow-right-30.png') no-repeat;
@@ -9346,12 +9331,6 @@ span.add-ico{
 }
 .mobile-banner-wrapper .bs-slider-overlay a{
   display: inline-block;
-}
-.spotlight-bg-text img{
-  background: rgba(19, 18, 18, 0.58);
-    padding: 5px 34px;
-    border-radius: 5px;
-    border: 2px solid rgba(95, 94, 94, 0.68);
 }
 .spotlight-bg-text{
   position: absolute;
@@ -11594,7 +11573,7 @@ h5.title-inside{
   text-align: center;
   background: rgba(42, 42, 42, 1) url(../img/mobile-splash-screen.png) no-repeat;
   background-size: 230px 55px;
-  background-position: center 40%;
+  background-position: center;
   overflow-x: hidden;
   height: 100vh;
 }
@@ -11629,6 +11608,17 @@ h5.title-inside{
   height: 16px;
   bottom: 5%;
   right: 3%
+}
+.cta-casino-main .tag{
+  position: absolute;
+  z-index: 99;
+  top: 15px;
+  left: 1px;
+  color: #000;
+  font-weight: 700;
+  text-indent: 8px;
+  min-width: 41px;
+  background: url('../img/casino/tag-bg.png') no-repeat;
 }
 .cta-casino-main .first-two{
   background: #161616;
@@ -11689,6 +11679,7 @@ h5.title-inside{
   background: #161616;
   margin: -10px -5px 0;
   padding: 5px;
+  white-space: nowrap;
 }
 .first-three ul li{
   position: relative;
@@ -11704,4 +11695,28 @@ h5.title-inside{
 }
 .first-two ul li, .first-three ul li{
   font-family: helvetica
+}
+.slot-new-game-wrapper .info-link{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  z-index: 99;
+  bottom: 10%;
+  right: 3%
+}
+.new-counter .counter .hidden-xs::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 35px;
+  top: 3px;
+  left: -15px;
+  background: #000;
+  border-right: 1px solid #333;
+}
+.slots-breadcrumb-inner .content .info-link{
+  width: 15px;
+  position: relative;
+  top: 2px
 }
