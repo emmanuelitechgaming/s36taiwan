@@ -4,7 +4,12 @@ $(document).bind("mobileinit", function(){
   $.mobile.loading().hide();
 })
 
+
 $(document).ready(function () {
+
+
+  theWidth = $(".casino-g-img").css('width');
+
   $('a, .hamburger').click(function() {
     $('.collapse').collapse('hide');
   })
@@ -1066,7 +1071,28 @@ $('.one-winner .flexslider').flexslider({
 
   $('.inside-buttons.trigger').click(function() {
     $('.winners-others').toggle()
+  });
+
+  $('.casino-show-more a').click(function() {
+    if($('.casino-tabs li.active a').attr('href') == "#ctab2"){
+      $('a[href="#ctab3"]').trigger('click');
+    }else{
+      var link = $('.casino-tabs li.active a').attr('href');
+      $('a[href="#ctab2"]').trigger('click');
+    }
   })
+
+  $('.deposit-offers .offers').hover(function() {
+    $(this).find('img').attr('src', 'assets/img/search-hover.png');
+  }, function() {
+    $(this).find('img').attr('src', 'assets/img/search.png');
+  })
+
+  $('.banner-slider').flexslider({
+    animation: "slide",
+    slideshowSpeed: 3000,
+    animationSpeed: 1000,
+  });
 
 });
 
@@ -1234,8 +1260,9 @@ $(function() {
       }
     });
 });
-
-
+$(window).load(function() {
+  $('.loading').css('display', 'none')
+})
 $('#datepicker-from').datepicker({
     autoclose: true
 });

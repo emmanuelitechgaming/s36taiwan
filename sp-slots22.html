@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="assets/css/hamburgers.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" media="all">
     <link rel="stylesheet" href="assets/css/media-queries/nathan-media.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -50,6 +50,7 @@
 </head>
 
 <body>
+  <div class="loading"></div><div id="info"><img src="assets/img/turndevices.png" class="img-responsive" alt="">请旋转您的智能设备以获得最佳浏览效果</div>
   <header>
     <div class="top-header hidden-xs hidden-sm not-ipad-landscape">
         <button class="desktop-support-trigger" data-toggle="collapse" data-target="#desktopSupport" style="display: none"></button>
@@ -639,6 +640,7 @@
             <div class="clearfix">
               <div class="col-md-2 col-sm-2 col-xs-3 logout-wrapper"></div>
               <div class="col-md-8 col-sm-8 col-xs-6"><button class="add-main-screen">添加到主屏幕</button></div>
+              <div class="col-xs-12 time"><span></span></div>
             </div>
           </li>
         </ul>
@@ -726,7 +728,7 @@
 
   </ul> -->
     <div class=" breadcrumb-content">
-        <div class="breadcrumb-inner">
+        <div class="breadcrumb-inner breadcrumb-inner-slots-sp">
             <div class="sp-container">
                 <div class="sp-top" id="sp-bg-6">
                     <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
@@ -767,7 +769,7 @@
                     </div>
                     <div class="row">
                       <div class="col-xs-12 text-center">
-                          <a href="javascript:void(0)" class="btn-hidden sp-btn-hidden btn-hidden-radius inside-buttons">立即登錄</a>
+                          <a href="javascript:void(0)" class="btn-hidden sp-btn-hidden btn-hidden-radius inside-buttons">立即遊戲</a>
                       </div>
                     </div>
                 </div>
@@ -1228,106 +1230,105 @@
                 <div class="col-md-6">
                     <div class="footer-gameprovider footer-line">
                         <div class="footer-pad">
-                            <h4>信息</h4>
-                            <div class="gameprovider footer-services f-right">
-                                <ul class="columns">
-                                    <li>
-                                        <div class="list"><a href="javascript:void(0)" data-toggle="modal" data-target="#noticeModal">重要公告</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="helpcenter.html#tab1">關於我們</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="helpcenter.html#tab2">聯絡我們</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="helpcenter.html#tab7">隱私政策</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="helpcenter.html#tab5">使用條款</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="helpcenter.html#tab6">負責任博彩</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="sitemap.html">網站地圖</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="javascript:void\(0\)" id="footerLinkLang">選擇地區</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="#csMsg" data-toggle="modal">網上短信</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="#csPhone" data-toggle="modal">免費回撥</a></div>
-                                    </li>
-                                </ul>
-                            </div>
+                          <h4>信息</h4>
+                          <div class="gameprovider footer-services f-right margin">
+                              <ul class="columns">
+                                  <li>
+                                      <div class="list"><a href="javascript:void(0)" data-toggle="modal" data-target="#noticeModal">重要公告</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="helpcenter.html#tab1">關於我們</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="helpcenter.html#tab2">聯絡我們</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="helpcenter.html#tab7">隱私政策</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="helpcenter.html#tab5">使用條款</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="helpcenter.html#tab6">負責任博彩</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="sitemap.html">網站地圖</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="javascript:void\(0\)" id="footerLinkLang">選擇地區</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="#csMsg" data-toggle="modal">網上短信</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="#csPhone" data-toggle="modal">免費回撥</a></div>
+                                  </li>
+                              </ul>
+                          </div>
 
-                            <h4>产品 </h4>
-                            <div class="gameprovider footer-services f-right">
-                                <ul class="columns">
-                                    <li>
-                                        <div class="list"><a href="casino.html">娛樂場</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="slots.html">老虎機</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="lotto.html">捕魚</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="promotion.html">優惠</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="winner.html">贏家</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="allgames.html">全部遊戲</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list"><a href="helpcenter.html#tab4">遊戲規則</a></div>
-                                    </li>
-                                    <li><div class="list"><a href="dl.html">移動應用</a></div></li>
+                          <h4>产品 </h4>
+                          <div class="gameprovider footer-services f-right margin">
+                              <ul class="columns">
+                                  <li>
+                                      <div class="list"><a href="casino.html">娛樂場</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="slots.html">老虎機</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="lotto.html">捕魚</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="promotion.html">優惠</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="winner.html">贏家</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="allgames.html">全部遊戲</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list"><a href="helpcenter.html#tab4">遊戲規則</a></div>
+                                  </li>
+                                  <li><div class="list"><a href="dl.html">移動應用</a></div></li>
+                              </ul>
+                          </div>
+                          <h4>服務</h4>
 
-                                </ul>
-                            </div>
-                            <h4>服務</h4>
-
-                            <div class="gameprovider footer-services f-right">
-                                <ul class="columns">
-                                    <li>
-                                        <div class="list list-s"><a class="panel-login-btn login-modal-a" id="login-form-btn-bot" href="javascript:void(0)">會員登入</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list list-s"><a class="register-modal-a" href="javascript:void(0)">會員註冊</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list list-s"><a href="helpcenter.html#tab21">如何註冊</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list list-s"><a href="helpcenter.html#tab19">如何登录</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list list-s"><a href="helpcenter.html#tab22">如何存款</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list list-s"><a href="helpcenter.html#tab23">如何提款</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list list-s"><a href="helpcenter.html#tab24">如何清除緩存</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list list-s"><a href="helpcenter.html#tab25">如何啟用彈窗</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list list-s"><a href="helpcenter.html#tab26">防劫持工具</a></div>
-                                    </li>
-                                    <li>
-                                        <div class="list list-s"><a href="questionaire.html">調查問卷</a></div>
-                                    </li>
-                                </ul>
-                            </div>
+                          <div class="gameprovider footer-services f-right margin">
+                              <ul class="columns">
+                                  <li>
+                                      <div class="list list-s"><a class="panel-login-btn login-modal-a" id="login-form-btn-bot" href="javascript:void(0)">會員登入</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list list-s"><a class="register-modal-a" href="javascript:void(0)">會員註冊</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list list-s"><a href="helpcenter.html#tab21">如何註冊</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list list-s"><a href="helpcenter.html#tab19">如何登录</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list list-s"><a href="helpcenter.html#tab22">如何存款</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list list-s"><a href="helpcenter.html#tab23">如何提款</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list list-s"><a href="helpcenter.html#tab24">如何清除緩存</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list list-s"><a href="helpcenter.html#tab25">如何啟用彈窗</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list list-s"><a href="helpcenter.html#tab26">防劫持工具</a></div>
+                                  </li>
+                                  <li>
+                                      <div class="list list-s"><a href="questionaire.html">調查問卷</a></div>
+                                  </li>
+                              </ul>
+                          </div>
 
                             <h4>支付</h4>
 
@@ -1496,6 +1497,7 @@
                         <li class="title"><div href="javascript:void(0)">选择语言</div></li>
                       </ul>
                     </div>
+                    <p class="copyright-txt">Cookie聲明 : 本網站通過使用cookie，來幫助我們為您提供更好的體驗及收集有關本網站使用情況的信息。如果您繼續瀏覽我們的網站，則表示您同意我們使用 <a href="#">cookie</a> 。 </p>
                 </div>
 
                 <div class="fsalon m-fsalon hidden-lg hidden-md">
@@ -1516,7 +1518,7 @@
                             <a href="javascript:void(0)"><img src="assets/img/footer/Salon logo_new.png" alt="" class="img-responsive"></a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)"><img src="assets/img/logo.png" class="img-responsive" alt="">S36.BET © 版權所有 2017</a>
+                            <a href="copyright.html"><img src="assets/img/logo.png" class="img-responsive" alt="">S36.BET © 版權所有 2017</a>
                         </li>
                     </ul>
                     <div class="dropdown dropup m-footer-dropdown">
@@ -1525,6 +1527,7 @@
                         <li class="title"><div href="javascript:void(0)">选择语言</div></li>
                       </ul>
                     </div>
+                    <p class="copyright-txt">Cookie聲明 : 本網站通過使用cookie，來幫助我們為您提供更好的體驗及收集有關本網站使用情況的信息。如果您繼續瀏覽我們的網站，則表示您同意我們使用 <a href="#">cookie</a> 。 </p>
                 </div>
             </div>
         </div>
@@ -1634,7 +1637,7 @@
                   <div role="tabpanel" class="tab-pane active fade" id="myModalTab1-2">
                     <p class="login-info login-info-reg hidden-sm hidden-xs"><span>賬戶註冊<i class="login-info-span">免費、簡單、快速</i></span></p>
                     <p class="login-info-mobile hidden-lg hidden-md"><span>賬戶註冊 <i class="">免費、簡單、快速</span></i></p>
-                    <p class="info">透過此網頁傳送的資料將會被加密，以確保網上傳送安全和保密</p>
+                    <p class="info">透過此網頁傳送的資料將會被加密，以確保網上傳送安全和保密。</p>
                     <div class="col-md-12">
                         <form role="form" class="form-horizontal">
                             <div class="form-group">
@@ -1817,7 +1820,7 @@
                       <div class=" pull-right">
                           <div class="modal-bottom">
                             <a href="#" class="myModal2b_login_a" aria-controls="home" role="tab" data-toggle="tab">沒有帳號？ 在這裡註冊！</a>
-                            <a href="javascript:void(0)" id="myModal2b_login" class="btn btn-warning btn-yellow sweet-14 arrow-right-btn">立即登錄 </a>
+                            <a href="javascript:void(0)" id="myModal2b_login" class="btn btn-warning btn-yellow sweet-14 arrow-right-btn">立即遊戲 </a>
                           </div>
                       </div>
                   </div>
@@ -2302,8 +2305,10 @@
       $(document).ready(function() {
         var now = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
         var now2 = moment().format(" h:mm YYYY/MM/DD");
+        var now3 = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
         $('.top-header-clock span').html(now);
         $('.m-top-header-clock span').html(now2);
+        $('.navbar-nav .time span').html(now3);
       });
     </script>
 
