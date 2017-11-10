@@ -297,7 +297,7 @@ max-height: 170px;
         margin: 0 auto;
     }
     .casino-g .content .fa {
-        top: 3px
+        top: 0
     }
     .cta-seemore {
         bottom: 92px;
@@ -2220,14 +2220,14 @@ max-height: 170px;
       white-space: nowrap;
     }
     .fa-mobile::before {
-      background: url('../img/gadget-small-unhover.png') no-repeat;
+      background: url('../img/gadget-big-unhover.png') no-repeat;
       background-position: 0 0;
       background-size: cover;
       width: 11px;
       height: 17px;
     }
     .fa-desktop::before {
-      background: url(../img/gadget-small-unhover.png) no-repeat;
+      background: url(../img/gadget-big-unhover.png) no-repeat;
       background-position: -73px 0;
       background-size: cover;
       width: 24px;
@@ -7578,14 +7578,17 @@ max-height: 170px;
     padding: 0px 5px 10px
   }
   .fa-mobile::before {
-      background-position: 0 0;
-      width: 11px;
-      height: 19px;
+    background-position: 0 0;
+    width: 17px;
+    height: 33px;
   }
   .fa-desktop::before {
-      background-position: -86px 0;
-      width: 28px;
-      height: 20px;
+    background-position: -133px 0;
+    width: 39px;
+    height: 28px;
+  }
+  .casino-g .content .fa {
+      top: -6px
   }
 }
 

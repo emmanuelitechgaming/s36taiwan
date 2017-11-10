@@ -11,6 +11,11 @@ a{
   color: #fba601 !important;
   text-decoration: none !important;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .center-div {
   position: absolute;
   margin: auto;
@@ -50,14 +55,17 @@ a{
   /*margin-bottom: -15px;*/
 }
 .div.logo {
-  margin-top: 25px;
-  margin-bottom: 20px;
+  margin: 40px 0;
   /*text-align: center;*/
   position: relative;
 }
 .logo img {
   width: 20%;
-  margin: 15px;
+  margin: 0px auto;
+  display: block;
+}
+.logo .socials img{
+  width: 32px
 }
 .map {
   position: relative;
@@ -176,31 +184,42 @@ a{
 }
 .column-md-12 p {
   position: relative;
-  /*bottom: 2%;*/
   width: 70%;
-  /*left: 10%;*/
   font-size: 13px;
   margin: 0 auto;
   padding: 10px;
   text-transform: uppercase;
+  margin-bottom: -10px
 }
 .socials {
-  float: right;
   padding-right: 20px;
+  float: right;
+  position: absolute;
+  top: 1%;
+  right: 2%
 }
 .socials ul {
   text-align: right;
+  padding: 0;
+  margin: 0
 }
 .socials ul li {
-  display: inline;
+  float: left;
+  list-style: none;
 }
 .socials ul li  a {
   text-decoration: none;
 }
 .socials ul li img {
-  width: 2.5%;
-  margin: 5px;
+  margin: 10px;
   opacity: 0.8;
+}
+
+.footer.cookie{
+  position: absolute;
+  bottom: 3%;
+  right: 0;
+  left: 0;
 }
 /*Media Queries*/
 /* Portrait and Landscape */
