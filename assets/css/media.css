@@ -6810,6 +6810,7 @@ max-height: 170px;
   }
   .slots-breadcrumb-inner .slot-content .casino-mp, .breadcrumb-inner-casino .casino-mp{
     padding-left: 5px;
+    padding-right: 5px
   }
   .live-game {
     max-height: 304px;
