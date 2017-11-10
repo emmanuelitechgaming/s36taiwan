@@ -7592,19 +7592,24 @@ max-height: 170px;
   .breadcrumb-inner-casino .casino-desc-bot .col-xs-6{
     padding-left: 5px
   }
+  .breadcrumb-inner-casino .casino-desc-bot .casino-mp{
+    padding-right: 5px
+  }
   .slots-breadcrumb-inner .casino-desc-bot, .breadcrumb-inner-casino .casino-desc-bot{
     padding: 0px 5px 3px
   }
   .casino-desc-bot .info-icon{
     width: 30px;
     height: 30px;
-    left: 10px
+    left: 10px;
+    top: 0;
   }
   .fa-mobile::before {
     width: 11px;
     height: 19px;
   }
   .fa-desktop::before {
+    background: url(../img/gadget-small-unhover.png) no-repeat -86px 0;
     width: 28px;
     height: 20px;
   }
