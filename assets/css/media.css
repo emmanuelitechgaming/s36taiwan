@@ -7484,14 +7484,14 @@ max-height: 170px;
   }
   .cta-casino-main .title{
     position: absolute;
-    top: 40%;
-    right: 5%;
-    background: rgba(36, 32, 25, 0.9);
-    padding: 5px 15px 5px;
-    border: solid 2px #4d4d4d;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: normal;
+        top: 40%;
+        right: 5%;
+        background: rgba(35, 35, 35, 0.9);
+        padding: 5px 15px 5px;
+        border: solid 1px #4d4d4d;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: normal;
   }
   .casino-desc-bot{
     padding: 10px 5px;
