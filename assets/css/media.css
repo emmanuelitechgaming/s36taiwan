@@ -2214,7 +2214,23 @@ max-height: 170px;
     .casino-desc-bot .info-icon{
       width: 16px;
       height: 16px;
-      left: 0
+      left: 0;
+      top: 0.5em
+    }
+    .fa-mobile::before {
+      background: url(../img/gadget-small-unhover.png) no-repeat 0 0;
+      background-size: cover;
+      width: 8px;
+      height: 15px;
+    }
+    .fa-desktop::before {
+      background: url(../img/gadget-small-unhover.png) no-repeat -65px 0;
+      background-size: cover;
+      width: 21px;
+      height: 15px;
+    }
+    .turndevices-ipad{
+      display: none
     }
 }
 
@@ -5246,6 +5262,26 @@ max-height: 170px;
   .breadcrumb-inner-casino .casino-g ul li{
     margin: 0 0;
   }
+  .turndevices-ipad{
+    background: rgba(42, 42, 42, 1);
+    overflow: hidden;
+    display: block;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 99999999;
+    overflow-x: hidden;
+    height: 100vh;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: normal;
+  }
+  .turndevices-ipad img{
+    margin: 15px auto;
+    margin-top: 45%
+  }
 }
 
 
@@ -7563,6 +7599,17 @@ max-height: 170px;
     width: 30px;
     height: 30px;
     left: 10px
+  }
+  .fa-mobile::before {
+    width: 11px;
+    height: 19px;
+  }
+  .fa-desktop::before {
+    width: 28px;
+    height: 20px;
+  }
+  .turndevices-ipad{
+    display: none
   }
 }
 

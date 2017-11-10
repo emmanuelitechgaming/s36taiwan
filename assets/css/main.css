@@ -7225,11 +7225,6 @@ button .flag-icon-kr::before {
     content: ' ' !important;
     display: inline-block;
 }
-.fa-mobile::before {
-    background: url(../img/gadget-small-unhover.png) no-repeat 0 0;
-    width: 11px;
-    height: 19px;
-}
 .fa-mobile-hover::before {
     background: url('../img/gadget-small.png') no-repeat 0 0;
     width: 11px;
@@ -7258,11 +7253,6 @@ button .flag-icon-kr::before {
 .fa-laptop-hover::before {
     background: url('../img/gadget-small.png') no-repeat -49px 0;
     width: 32px;
-    height: 20px;
-}
-.fa-desktop::before {
-    background: url(../img/gadget-small-unhover.png) no-repeat -86px 0;
-    width: 28px;
     height: 20px;
 }
 .fa-desktop-hover::before {
