@@ -8600,6 +8600,16 @@ border-bottom: 1px solid #333333;
   border: 1px solid #191919;
 	padding: 10px 25px;
 }
+.casino-desc-bot .info-icon{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url('../img/slots/info-icon.png') no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 1px;
+  left: 10px
+}
 .slots-breadcrumb-inner .sp-btn-hidden, .breadcrumb-inner-casino .sp-btn-hidden{
   background: none;
   border: none;
