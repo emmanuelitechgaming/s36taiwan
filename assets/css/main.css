@@ -8234,7 +8234,7 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 }
 .lotto-button{
   position: absolute;
-  top: 42%;
+  top: 27%;
   text-align: center;
   display: block;
   width: 100%
@@ -8246,17 +8246,17 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 .lotto-button a{
   display: inline-block;
   text-align: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdb021), to(#9d6805));
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(#fdb021), to(#9d6805));
   background-image: linear-gradient(to bottom, #fdb021 0%, #9d6805 100%);
   background-repeat: repeat-x;
-  padding: 15px 15px 15px 80px;
+  padding: 15px 15px 15px 80px;*/
   position: relative;
   border-radius: 2px;
 }
 .lotto-button-m a{
   padding: 10px 15px 10px 15px
 }
-.lotto-button a::before{
+/*.lotto-button a::before{
   content: '';
   border: 1px solid rgba(255, 255, 255, 0.1);
   -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset, 0 0 0 1px rgba(0,0,0,.1);
@@ -8266,12 +8266,12 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   right: -2px;
   top: -2px;
   bottom: -2px
-}
+}*/
 .lotto-button a:hover{
   color: #fff;
   text-decoration: none;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#e49808), to(#e49808));
-  background-image: linear-gradient(to bottom, #e49808 0%, #e49808 100%);
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(#e49808), to(#e49808));
+  background-image: linear-gradient(to bottom, #e49808 0%, #e49808 100%);*/
 }
 .lotto-button .text{
   font-size: 19px;
@@ -8340,39 +8340,39 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 .corner-inner-lt::before{
   content: '';
   display: block;
-  width: 10px;
-  height: 10px;
-  border-top: solid 1px rgba(120, 161, 255, 0.95);
-  border-left: solid 1px rgba(120, 161, 255, 0.95);
+  width: 20px;
+  height: 20px;
+  border-top: solid 4px rgba(243,179,21,0.60);
+  border-left: solid 4px rgba(243,179,21,0.60);
   -webkit-transition: all 0.3s;
-  transition: all 0.3s
+  transition: all 0.3s;
 }
 .lotto-button a:hover .corner-inner-lt::before{
-  width: 13px;
-  height: 13px;
-  border-top: solid 1px rgba(184, 205, 255, 0.95);
-  border-left: solid 1px rgba(184, 205, 255, 0.95);
+  width: 23px;
+  height: 23px;
+  border-top: solid 4px rgba(243,179,21,0.70);
+  border-left: solid 4px rgba(243,179,21,0.70);
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
 .corner-inner-lt::after{
   content: '';
   display: block;
-  width: 15px;
-  height: 15px;
-  border-top: solid 2px rgba(255, 255, 255, 0.07);
-  border-left: solid 2px rgba(255, 255, 255, 0.07);
+  width: 35px;
+  height: 35px;
+  border-top: solid 6px rgba(243,179,21,0.80);
+  border-left: solid 6px rgba(243,179,21,0.80);
   position: absolute;
-  top: -7px;
-  left: -7px;
+  top: -12px;
+  left: -12px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
 .lotto-button a:hover .corner-inner-lt::after{
-  width: 18px;
-  height: 18px;
-  border-top: solid 2px rgba(255, 255, 255, 0.4);
-  border-left: solid 2px rgba(255, 255, 255, 0.4);
+  width: 40px;
+  height: 40px;
+  border-top: solid 6px rgba(243,179,21,0.90);
+  border-left: solid 6px rgba(243,179,21,0.90);
   top: -12px;
   left: -12px;
   -webkit-transition: all 0.3s;
@@ -8381,41 +8381,41 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 .corner-inner-lb::before{
   content: '';
   display: block;
-  width: 10px;
-  height: 10px;
-  border-bottom: solid 1px rgba(120, 161, 255, 0.95);
-  border-left: solid 1px rgba(120, 161, 255, 0.95);
+  width: 20px;
+  height: 20px;
+  border-bottom: solid 4px rgba(243,179,21,0.60);
+  border-left: solid 4px rgba(243,179,21,0.60);
   position: absolute;
   bottom: 0px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
 .lotto-button a:hover .corner-inner-lb::before{
-  width: 13px;
-  height: 13px;
-  border-bottom: solid 1px rgba(184, 205, 255, 0.95);
-  border-left: solid 1px rgba(184, 205, 255, 0.95);
+  width: 23px;
+  height: 23px;
+  border-bottom: solid 4px rgba(243,179,21,0.70);
+  border-left: solid 4px rgba(243,179,21,0.70);
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
 .corner-inner-lb::after{
   content: '';
   display: block;
-  width: 15px;
-  height: 15px;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.07);
-  border-left: solid 2px rgba(255, 255, 255, 0.07);
+  width: 35px;
+  height: 35px;
+  border-bottom: solid 6px rgba(243,179,21,0.80);
+  border-left: solid 6px rgba(243,179,21,0.80);
   position: absolute;
-  bottom: -7px;
-  left: -7px;
+  bottom: -12px;
+  left: -12px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
 .lotto-button a:hover .corner-inner-lb::after{
-  width: 18px;
-  height: 18px;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.4);
-  border-left: solid 2px rgba(255, 255, 255, 0.4);
+  width: 40px;
+  height: 40px;
+  border-bottom: solid 6px rgba(243,179,21,0.90);
+  border-left: solid 6px rgba(243,179,21,0.90);
   bottom: -12px;
   left: -12px;
   -webkit-transition: all 0.3s;
@@ -8424,10 +8424,10 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 .corner-inner-rb::before{
   content: '';
   display: block;
-  width: 10px;
-  height: 10px;
-  border-bottom: solid 1px rgba(120, 161, 255, 0.95);
-  border-right: solid 1px rgba(120, 161, 255, 0.95);
+  width: 20px;
+  height: 20px;
+  border-bottom: solid 4px rgba(243,179,21,0.60);
+  border-right: solid 4px rgba(243,179,21,0.60);
   position: absolute;
   bottom: 0px;
   right: 0;
@@ -8435,31 +8435,31 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   transition: all 0.3s
 }
 .lotto-button a:hover .corner-inner-rb::before{
-  width: 13px;
-  height: 13px;
-  border-bottom: solid 1px rgba(184, 205, 255, 0.95);
-  border-right: solid 1px rgba(184, 205, 255, 0.95);
+  width: 23px;
+  height: 23px;
+  border-bottom: solid 4px rgba(243,179,21,0.70);
+  border-right: solid 4px rgba(243,179,21,0.70);
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
 .corner-inner-rb::after{
   content: '';
   display: block;
-  width: 15px;
-  height: 15px;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.07);
-  border-right: solid 2px rgba(255, 255, 255, 0.07);
+  width: 35px;
+  height: 35px;
+  border-bottom: solid 6px rgba(243,179,21,0.80);
+  border-right: solid 6px rgba(243,179,21,0.80);
   position: absolute;
-  bottom: -7px;
-  right: -7px;
+  bottom: -12px;
+  right: -12px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
 .lotto-button a:hover .corner-inner-rb::after{
-  width: 18px;
-  height: 18px;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.4);
-  border-right: solid 2px rgba(255, 255, 255, 0.4);
+  width: 40px;
+  height: 40px;
+  border-bottom: solid 6px rgba(243,179,21,0.90);
+  border-right: solid 6px rgba(243,179,21,0.90);
   bottom: -12px;
   right: -12px;
   -webkit-transition: all 0.3s;
@@ -8468,10 +8468,10 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 .corner-inner-rt::before{
   content: '';
   display: block;
-  width: 10px;
-  height: 10px;
-  border-top: solid 1px rgba(120, 161, 255, 0.95);
-  border-right: solid 1px rgba(120, 161, 255, 0.95);
+  width: 20px;
+  height: 20px;
+  border-top: solid 4px rgba(243,179,21,0.60);
+  border-right: solid 4px rgba(243,179,21,0.60);
   position: absolute;
   top: 0px;
   right: 0;
@@ -8479,31 +8479,31 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   transition: all 0.3s
 }
 .lotto-button a:hover .corner-inner-rt::before{
-  width: 13px;
-  height: 13px;
-  border-top: solid 1px rgba(184, 205, 255, 0.95);
-  border-right: solid 1px rgba(184, 205, 255, 0.95);
+  width: 23px;
+  height: 23px;
+  border-top: solid 4px rgba(243,179,21,0.70);
+  border-right: solid 4px rgba(243,179,21,0.70);
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
 .corner-inner-rt::after{
   content: '';
   display: block;
-  width: 15px;
-  height: 15px;
-  border-top: solid 2px rgba(255, 255, 255, 0.07);
-  border-right: solid 2px rgba(255, 255, 255, 0.07);
+  width: 35px;
+  height: 35px;
+  border-top: solid 6px rgba(243,179,21,0.80);
+  border-right: solid 6px rgba(243,179,21,0.80);
   position: absolute;
-  top: -7px;
-  right: -7px;
+  top: -12px;
+  right: -12px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s
 }
 .lotto-button a:hover .corner-inner-rt::after{
-  width: 18px;
-  height: 18px;
-  border-top: solid 2px rgba(255, 255, 255, 0.4);
-  border-right: solid 2px rgba(255, 255, 255, 0.4);
+  width: 40px;
+  height: 40px;
+  border-top: solid 6px rgba(243,179,21,0.90);
+  border-right: solid 6px rgba(243,179,21,0.90);
   top: -12px;
   right: -12px;
   -webkit-transition: all 0.3s;
