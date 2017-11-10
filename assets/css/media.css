@@ -2156,7 +2156,7 @@ max-height: 170px;
     .casino-desc-bot{
       padding: 10px 5px;
     }
-    .slots-breadcrumb-inner .casino-desc-bot{
+    .slots-breadcrumb-inner .casino-desc-bot, .breadcrumb-inner-casino .casino-desc-bot{
       padding: 0 0;
     }
     .cta-casino-main .info{
@@ -2212,10 +2212,10 @@ max-height: 170px;
       white-space: nowrap;
     }
     .casino-desc-bot .info-icon{
-      width: 16px;
-      height: 16px;
+      width: 27px;
+      height: 27px;
       left: 0;
-      top: 0.5em
+      top: 0.37em;
     }
     .fa-mobile::before {
       background: url(../img/gadget-small-unhover.png) no-repeat 0 0;
@@ -2231,6 +2231,12 @@ max-height: 170px;
     }
     .turndevices-ipad{
       display: none
+    }
+    .casino-desc-bot .casino-mp{
+      bottom: -5px;
+    }
+    .casino-desc-bot .min-bet{
+      top: 2px
     }
 }
 
@@ -7589,11 +7595,9 @@ max-height: 170px;
     padding-left: 15px;
     padding-right: 15px
   }
-  .breadcrumb-inner-casino .casino-desc-bot .col-xs-6{
-    padding-left: 5px
-  }
   .breadcrumb-inner-casino .casino-desc-bot .casino-mp{
-    padding-right: 5px
+    padding-right: 5px;
+    padding-left: 5px
   }
   .slots-breadcrumb-inner .casino-desc-bot, .breadcrumb-inner-casino .casino-desc-bot{
     padding: 0px 5px 3px
@@ -7615,6 +7619,12 @@ max-height: 170px;
   }
   .turndevices-ipad{
     display: none
+  }
+  .casino-desc-bot .casino-mp{
+    bottom: -2px;
+  }
+  .casino-desc-bot .min-bet{
+    top: -1px
   }
 }
 

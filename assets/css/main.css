@@ -3964,7 +3964,7 @@ color: #fba601;
     top: 0;
     -webkit-transition: top ease 0.5s;
     transition: top ease 0.5s;
-    padding: 5px;
+    padding: 5px 8px;
     z-index: 9;
     margin: 0 auto;
     border-bottom-left-radius: 10px;
@@ -8581,9 +8581,6 @@ border-bottom: 1px solid #333333;
   font-size: 16px;
   text-align: center;
 }
-.casino-desc-bot .casino-mp{
-  bottom: -2px;
-}
 .casino-desc-bot .sp-btn-hidden, .btn-promotion{
   color: #fff;
 	text-decoration: none;
@@ -11759,6 +11756,7 @@ h5.title-inside{
   padding-right: 5px;
   font-size: 12px;
   white-space: nowrap;
+  position: relative;
 }
 .casino-desc-bot .min-bet span{
   display: block;
