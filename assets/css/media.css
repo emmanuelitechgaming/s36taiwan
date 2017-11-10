@@ -2219,20 +2219,6 @@ max-height: 170px;
     .casino-desc-bot .col-xs-6 a{
       white-space: nowrap;
     }
-    .fa-mobile::before {
-      background: url('../img/gadget-big-unhover.png') no-repeat;
-      background-position: 0 0;
-      background-size: cover;
-      width: 11px;
-      height: 17px;
-    }
-    .fa-desktop::before {
-      background: url(../img/gadget-big-unhover.png) no-repeat;
-      background-position: -73px 0;
-      background-size: cover;
-      width: 24px;
-      height: 17px;
-    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -5903,6 +5889,9 @@ max-height: 170px;
       padding-top: 10px;
       padding-bottom: 0
     }
+    .slots-breadcrumb-inner #c{
+      padding-top: 8px
+    }
     .lg-playnow {
         font-size: 17px;;
     }
@@ -7106,6 +7095,9 @@ max-height: 170px;
   .slot-content .casino-g img{
     margin: 0 auto;
   }
+  .slot-breadcrumb-inner .casino-g .casino-g-img{
+    height: 175px
+  }
   .netbet {
     margin-left: 15px;
     margin-right: 0px;
@@ -7575,20 +7567,7 @@ max-height: 170px;
     padding-right: 15px
   }
   .slots-breadcrumb-inner .casino-desc-bot{
-    padding: 0px 5px 10px
-  }
-  .fa-mobile::before {
-    background-position: 0 0;
-    width: 17px;
-    height: 33px;
-  }
-  .fa-desktop::before {
-    background-position: -133px 0;
-    width: 39px;
-    height: 28px;
-  }
-  .casino-g .content .fa {
-      top: -6px
+    padding: 0px 5px 3px
   }
 }
 
