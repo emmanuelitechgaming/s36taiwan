@@ -2208,6 +2208,25 @@ max-height: 170px;
       padding-right: 0;
       width: 33.333333%
     }
+    .casino-desc-bot .col-xs-6:first-child, .casino-desc-bot .col-xs-6:last-child{
+      display: none
+    }
+    .casino-desc-bot .min-bet .col-xs-6:last-child{
+      display: block
+    }
+    .casino-desc-bot .col-xs-6:nth-child(2){
+      width: 100%
+    }
+    .casino-desc-bot .min-bet .col-xs-6{
+      width: 50%;
+    }
+    .casino-desc-bot .min-bet .col-xs-6:last-child{
+      text-align: right;
+    }
+    .casino-desc-bot .min-bet .info-icon{
+      width: 15px;
+      height: 15px
+    }
     .casino-desc-bot .col-xs-6 a{
       white-space: nowrap;
     }
@@ -2216,6 +2235,9 @@ max-height: 170px;
       height: 27px;
       left: 0;
       top: 0.37em;
+    }
+    .casino-desc-bot .min-bet .info-icon{
+      top: 0.25em;
     }
     .fa-mobile::before {
       background: url(../img/gadget-small-unhover.png) no-repeat 0 0;
@@ -2236,7 +2258,17 @@ max-height: 170px;
       bottom: -5px;
     }
     .casino-desc-bot .min-bet{
-      top: 2px
+      top: 2px;
+      text-align: center;
+    }
+    .casino-desc-bot .min-bet span{
+      display: inline-block;
+    }
+    .slots-breadcrumb-inner #c, .breadcrumb-inner-casino #b{
+      padding-top: 0px
+    }
+    .slot-new-game-wrapper .title{
+      font-size: 11px;
     }
 }
 
@@ -7621,10 +7653,22 @@ max-height: 170px;
     display: none
   }
   .casino-desc-bot .casino-mp{
-    bottom: -2px;
+    bottom: -1px;
   }
   .casino-desc-bot .min-bet{
     top: -1px
+  }
+  .casino-desc-bot .min-bet span{
+    display: block;
+  }
+  .casino-desc-bot .col-xs-6:first-child, .casino-desc-bot .col-xs-6:last-child{
+    display: block
+  }
+  .casino-desc-bot .col-xs-6:nth-child(2){
+    width: 33.33333%
+  }
+  .slot-new-game-wrapper .title{
+    font-size: 14px;
   }
 }
 

@@ -5904,7 +5904,6 @@ main .win-lot-top-games {
     margin-left: -15px;
     margin-right: -15px;
     padding: 5px;
-    margin-top: -19px;
 }
 
 .sp-promo-strip {
@@ -5923,7 +5922,10 @@ main .win-lot-top-games {
     margin-left: -10px;
     margin-right: -10px;
 }
-
+.sp-top .col-xs-12{
+  padding-left: 0;
+  padding-right: 0;
+}
 .sp-container .sp-bottom {
     background-color: #1B1A1A;
     overflow: hidden;
@@ -5932,11 +5934,6 @@ main .win-lot-top-games {
     margin-right: -10px;
     font-weight: 700;
 }
-
-.sp-container .sp-top .sp-gameplay-img {
-    margin-top: 45px;
-}
-
 .sp-container .s-txt {
     font-size: 13px!important;
 }
@@ -11754,12 +11751,15 @@ h5.title-inside{
 .casino-desc-bot .min-bet{
   padding-left: 5px;
   padding-right: 5px;
-  font-size: 12px;
+  font-size: 11px;
   white-space: nowrap;
   position: relative;
 }
 .casino-desc-bot .min-bet span{
-  display: block;
   font-size: 12px;
   color: #fff
+}
+.min-bet .mp{
+  text-align: left;
+  margin-top: 3px
 }
