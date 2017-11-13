@@ -11785,6 +11785,7 @@ h5.title-inside{
   display: block;
   text-align: center;
   color: #fff;
+  font-size: 1em
 }
 .new-game-tab ul li a:hover, .new-game-tab ul li a:focus, .new-game-tab ul li a:active{
   text-decoration: none
