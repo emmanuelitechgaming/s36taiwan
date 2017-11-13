@@ -1074,11 +1074,13 @@ $('.one-winner .flexslider').flexslider({
   });
 
   $('.casino-show-more a').click(function() {
-    if($('.casino-tabs li.active a').attr('href') == "#ctab2"){
+    if($('.new-tab-casino ul li.active a').attr('href') == "#ctab2"){
       $('a[href="#ctab3"]').trigger('click');
+      $(this).html('顯示百家樂');
     }else{
-      var link = $('.casino-tabs li.active a').attr('href');
+      var link = $('.new-tab-casino ul li.active a').attr('href');
       $('a[href="#ctab2"]').trigger('click');
+      $(this).html('顯示其他遊戲');
     }
   })
 
@@ -1098,6 +1100,13 @@ $('.one-winner .flexslider').flexslider({
     $(this).addClass('hover');
   }, function() {
     $(this).removeClass('hover');
+  })
+
+  $('.new-tab-casino a[href="#ctab2"]').on('show.bs.tab', function () {
+
+  });
+  $('.new-tab-casino a[href="#ctab3"]').on('show.bs.tab', function () {
+
   })
 
 });

@@ -2270,6 +2270,19 @@ max-height: 170px;
     .slot-new-game-wrapper .title{
       font-size: 11px;
     }
+    .new-game-tab ul li{
+      float: left;
+      width: 33.333333%
+    }
+    .new-game-tab ul li a{
+      padding: 15px 0 10px;
+    }
+    .new-game-tab{
+      margin: 0 0;
+    }
+    .new-game-tab .search{
+      margin: 0 16px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -7669,6 +7682,19 @@ max-height: 170px;
   }
   .slot-new-game-wrapper .title{
     font-size: 14px;
+  }
+  .new-game-tab ul li a{
+    padding: 15px 25px 10px;
+  }
+  .new-game-tab ul li{
+    float: none;
+    width: auto;
+  }
+  .new-game-tab{
+    margin: 0 16px;
+  }
+  .new-game-tab .search{
+    margin: 0 0;
   }
 }
 
