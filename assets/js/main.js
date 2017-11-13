@@ -1081,11 +1081,11 @@ $('.one-winner .flexslider').flexslider({
   });
 
   $('.casino-show-more a').click(function() {
-    if($('.new-tab-casino ul li.active a').attr('href') == "#ctab2"){
+    if($('.new-game-tab ul li.active a').attr('href') == "#ctab2"){
       $('a[href="#ctab3"]').trigger('click');
       $(this).html('顯示百家樂');
     }else{
-      var link = $('.new-tab-casino ul li.active a').attr('href');
+      var link = $('.new-game-tab ul li.active a').attr('href');
       $('a[href="#ctab2"]').trigger('click');
       $(this).html('顯示其他遊戲');
     }

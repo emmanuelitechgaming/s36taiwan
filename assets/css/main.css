@@ -804,7 +804,7 @@ div.border:before {
     /*background: #1b1a1a;*/
     margin-bottom: 15px;
 }
-.breadcrumb-inner-promo {
+.breadcrumb-inner-promo, .breadcrumb-inner-casino {
     overflow: unset;
 }
 .winner-breadcrumb-inner{
@@ -8228,6 +8228,7 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
 .lotto-button-m{
   position: relative;
   top: auto;
+  width: 100%
 }
 .lotto-button a{
   display: inline-block;
@@ -8240,7 +8241,8 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   border-radius: 2px;
 }
 .lotto-button-m a{
-  padding: 10px 15px 10px 15px
+  padding: 10px 15px 10px 15px;
+  width: 50%;
 }
 /*.lotto-button a::before{
   content: '';
@@ -11509,10 +11511,12 @@ h5.title-inside{
   color: #fba601
 }
 .trphy-circle{
-  border-radius: 50%;
-  font-size: 20px;
-  padding: 2px 8px;
+  display: inline-block;
+  width: 25px;
+  height: 20px;
   top: 2px;
+  background: none;
+  padding: 0
 }
 .casino-show-more a{
   color: #fff;
@@ -11768,7 +11772,7 @@ h5.title-inside{
   border-radius: 5px;
 }
 .new-game-tab .tab{
-  background: #161616;
+  background: #202020;
   margin-top: 10px
 }
 .new-game-tab ul{
@@ -11792,7 +11796,6 @@ h5.title-inside{
 }
 .new-game-tab ul li.active a{
   color: #fba601;
-  border-bottom: 5px solid #fba601
 }
 .new-game-tab .search input{
   background: none;
@@ -11836,13 +11839,14 @@ h5.title-inside{
   float: left;
 }
 .new-tab-casino ul li a{
-  font-size: 16px;
+  font-size: 1em;
   color: #999;
   font-weight: 700;
   display: block;
   text-align: center;
   padding: 15px 0 10px;
-  border-bottom: 4px solid transparent
+  border-bottom: 4px solid transparent;
+  letter-spacing: 1px
 }
 .new-tab-casino ul li a:active, .new-tab-casino ul li a:focus{
   text-decoration: none;
@@ -11850,9 +11854,6 @@ h5.title-inside{
 .new-tab-casino ul li.active a{
   color: #fba601;
   border-bottom: 4px solid #fba601
-}
-.index-mobile-banner{
-  min-width: 170px
 }
 .mobile-logo-banner-text{
   position: absolute;
@@ -11862,7 +11863,7 @@ h5.title-inside{
   right: 0;
   z-index: 9;
   padding: 5px 20px 15px;
-  font-size: 12px
+  font-size: 0.9em
 }
 .mobile-logo-banner-text .flexslider{
   padding: 0 0 !important
@@ -11891,4 +11892,14 @@ h5.title-inside{
   height: 13px;
   background: url('../img/mobile-logo-banner-text-close.png') no-repeat;
   background-size: cover;
+}
+.panel-casino-tab{
+  margin: 0 -8px
+}
+.panel-casino-tab .title{
+  font-size: 16px;
+  color: #fba601;
+  border-bottom: 1px solid #fba601;
+  font-weight: 700;
+  letter-spacing: 1px
 }

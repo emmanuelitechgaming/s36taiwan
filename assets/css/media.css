@@ -1649,7 +1649,7 @@ max-height: 170px;
       padding: 3px 10px 0px 10px;
     }
     .index-mobile-banner{
-      min-height: 170px;
+      min-height: 180px;
     }
     main .win-game img {
         max-width: 93%;
@@ -2151,7 +2151,7 @@ max-height: 170px;
       width: 50%;
     }
     .breadcrumb-inner-casino{
-      padding: 0 8px
+      padding: 0 0
     }
     .casino-desc-bot{
       padding: 10px 5px;
@@ -2273,19 +2273,23 @@ max-height: 170px;
     .new-game-tab ul li{
       float: left;
       width: 33.333333%;
-      height: 50px
+      height: 47.5px
     }
-    .breadcrumb-inner-promo .new-game-tab ul li:nth-child(4), .breadcrumb-inner-promo .new-game-tab ul li:nth-child(5){
-      width: 50%;
+    .winner-breadcrumb-inner .new-game-tab ul li{
+      width: 50%
+    }
+    .winner-breadcrumb-inner .new-game-tab{
+      margin-bottom: 10px
     }
     .new-game-tab ul li a{
       padding: 15px 0 10px;
+      margin: 0 15px;
     }
     .new-game-tab{
       margin: 0 0;
     }
     .new-game-tab .search{
-      margin: 0 16px;
+      margin: 0 15px;
     }
     .new-game-tab .search input{
       width: 100%
@@ -2297,6 +2301,33 @@ max-height: 170px;
     }
     .malupet-nanaman .flexslider ul li .haynako:last-child{
       display: none
+    }
+    .breadcrumb-inner-casino .col-md-6.col-xs-12.baccarat, .breadcrumb-inner-casino .col-md-6.col-xs-12.other-games{
+      padding: 0 25px
+    }
+    .new-game-tab ul li.active a{
+      border-bottom: 2.5px solid #fba601
+    }
+    .breadcrumb-inner-casino .tab-content{
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    .breadcrumb-inner-casino .tab-content .col-xs-12{
+      width: 50%;
+      padding-left: 8px;
+      padding-right: 8px
+    }
+    .breadcrumb-inner-casino .other-games{
+      display: none
+    }
+    .winner-breadcrumb-inner{
+      margin: 0 -15px;
+    }
+    .winner-breadcrumb-inner .tab-content{
+      margin: 0 15px
+    }
+    .winner-breadcrumb-inner .today-more-winner{
+      padding: 0 25px
     }
 }
 
@@ -7699,17 +7730,27 @@ max-height: 170px;
     font-size: 14px;
   }
   .new-game-tab ul li a{
-    padding: 15px 25px 10px;
+    padding: 0 25px 0;
+    margin: 0 0;
+    height: 35px;
+    line-height: 35px
   }
   .new-game-tab ul li{
     float: none;
     width: auto;
+    height: 35px;
   }
   .new-game-tab{
     margin: 0 16px;
   }
+  .winner-breadcrumb-inner .new-game-tab{
+    margin: 0 18px
+  }
   .new-game-tab .search{
     margin: 0 0;
+  }
+  .breadcrumb-inner-casino .new-game-tab{
+    margin: 0 8px;
   }
   .breadcrumb-inner-promo .new-game-tab ul li:nth-child(4), .breadcrumb-inner-promo .new-game-tab ul li:nth-child(5){
     width: auto;
@@ -7721,6 +7762,33 @@ max-height: 170px;
   }
   .malupet-nanaman .flexslider ul li .haynako:last-child{
     display: block
+  }
+  .breadcrumb-inner-casino .col-md-6.col-xs-12.baccarat, .breadcrumb-inner-casino .col-md-6.col-xs-12.other-games{
+    padding: 0 15px
+  }
+  .new-game-tab .search input {
+    width: 200px;
+  }
+  .breadcrumb-inner-casino .tab-content{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .breadcrumb-inner-casino .tab-content .col-xs-12{
+    width: 25%;
+    padding-left: 8px;
+    padding-right: 8px
+  }
+  .winner-breadcrumb-inner .new-game-tab ul li{
+    width: auto;
+  }
+  .breadcrumb-inner-casino .other-games{
+    display: block
+  }
+  .winner-breadcrumb-inner .today-more-winner{
+    padding: 0 20px
+  }
+  .winner-breadcrumb-inner .tab-content{
+    margin: 0 0
   }
 }
 
@@ -8329,96 +8397,97 @@ right: 2px;
   .new-counter .counter a{
     width: 388px;
     float: right;
-    background: #2a2a2a url('../img/index/new-counter-jackpot.png') no-repeat;
-    background-size: 100% 100%;
-    background-position: 0 1px;
-    text-indent: 43px;
-    word-spacing: -5px;
-    font-size: 24px;
+    background: #2a2a2a url('../img/index/new-counter-jackpot.png') no-repeat;;
+    background-size: 100% 100%;;
+    background-position: 0 1px;;
+    text-indent: 43px;;
+    word-spacing: -5px;;
+    font-size: 24px;;
     letter-spacing: 16px;
   }
-  main .new-counter .marquee {
+  main .new-counter .marquee {;
     width: 94%;
   }
-  .new-counter .marquee-wrapper, .new-counter .counter{
-    display: inline-block;
-    margin: 0 auto;
-    margin-left: -4px;
+  .new-counter .marquee-wrapper, .new-counter .counter{;
+    display: inline-block;;
+    margin: 0 auto;;
+    margin-left: -4px;;
     float: none;
   }
-  .marquee-wrapper .img{
+  .marquee-wrapper .img{;
     margin: 0 15px 0 0;
   }
-  .new-counter .counter div{
-    left: 30px;
-    top: -2px;
+  .new-counter .counter div{;
+    left: 30px;;
+    top: -2px;;
     font-size: 14px
   }
-  .footer-sports .img{
+  .footer-sports .img{;
     width: 35px;
   }
-  .footer-sports .col-md-4:nth-child(3) .img{
+  .footer-sports; .col-md-4:nth-child(3) .img{;
     width: 45px;
   }
-  .footer-sports .text {
+  .footer-sports .text {;
     width: 240px;
   }
-  .footer-sports .text{
+  .footer-sports .text{;
     font-size: 13px;
   }
-  .footer-sports .img {
+  .footer-sports .img {;
     width: 35px;
   }
-  main .jacpot-nus {
+  main .jacpot-nus {;
     left: 67px;
-  }
-  .marquee-jackpot-inner::before{
-    top: 22px;
-    bottom: 5px;
+  };
+  .marquee-jackpot-inner::before{;
+    top: 22px;;
+    bottom: 5px;;
     right: -80px;
   }
-  .bago-afterlogin {
-    width: 100%;
-    padding: 8px 0;
-    margin-top: 0;
+  .bago-afterlogin {;
+    width: 100%;;
+    padding: 8px 0;;
+    margin-top: 0;;
     margin: 0 auto
   }
-  .not-logo-for-ipad{
+  .not-logo-for-ipad{;
     display: block !important;
   }
-  .logo-for-ipad{
+  .logo-for-ipad{;
     display: none !important
   }
-  .carousel .banner-text{
+  .carousel .banner-text{;
     right: 1.2%;
   }
-  .vip-button{
-    width: 68px;
-  height: 28px;
-  top: -13px;
+  .vip-button{;
+    width: 68px;;
+  height: 28px;;
+  top: -13px;;
   right: -9px;
   }
-  .deposit-offers .container{
-    width: 1281px;
+  .deposit-offers .container{;
+    width: 1281px;;
     padding-right: 16px;
   }
-  .deposit-offers.for-dl .container{
-    width: 1347px;
+  .deposit-offers.for-dl .container{;
+    width: 1347px;;
     padding-left: 40px;
   }
-  .wallet .datepicker {
+  .wallet .datepicker {;
     width: 22.8% !important;
   }
-  .jackpot-winner2 .flexslider table tr td:first-child{
+  .jackpot-winner2 .flexslider table tr; td:first-child{;
     padding-left: 15px
   }
-  .trphy1-color tr td:last-child{
+  .trphy1-color tr; td:last-child{;
     padding-right: 10px
   }
-  .sp-side-img{
+  .sp-side-img{;
     margin-top: 4em
   }
-  .content-text{
+  .content-text{;
     height: 75px !important;
   }
 }
+}}
