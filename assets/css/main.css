@@ -11865,6 +11865,9 @@ h5.title-inside{
   padding: 5px 20px 15px;
   font-size: 0.9em
 }
+.mobile-logo-banner-text.unshow{
+  opacity: 0;
+}
 .mobile-logo-banner-text .flexslider{
   padding: 0 0 !important
 }
@@ -11878,7 +11881,11 @@ h5.title-inside{
 }
 .mobile-logo-banner-text .flex-control-paging li a{
   width: 9px;
-  height: 9px
+  height: 9px;
+  background: rgba(255, 255, 255, 0.3)
+}
+.mobile-logo-banner-text .flex-control-paging li a.flex-active{
+  background: rgba(255, 255, 255, 1)
 }
 .mobile-logo-banner-text .close{
   display: inline-block;
@@ -11902,4 +11909,56 @@ h5.title-inside{
   border-bottom: 1px solid #fba601;
   font-weight: 700;
   letter-spacing: 1px
+}
+.winner-mobile-tab{
+  margin: 0 15px 40px
+}
+.winner-mobile-tab button{
+  background: -webkit-gradient(linear, left top, left bottom, from(#424242), to(#262626));
+  background: linear-gradient(#424242, #262626);
+  border: none;;
+  color: #fff;
+  width: 100%;
+  padding: 5px 10px;
+  text-align: left;
+}
+.winner-mobile-tab .dropdown-menu{
+  background: #fba601;
+  border-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 85%;
+  margin: 0 0
+}
+.winner-mobile-tab .dropdown-menu li a{
+  color: #333;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 3px 10px
+}
+.winner-mobile-tab .dropdown-menu .active a{
+  background-color: transparent
+}
+.winner-mobile-tab .info{
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url('../img/info-square.png') no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px
+}
+.mobile-logo-banner-text-trigger{
+  position: absolute;
+  bottom: -5px;
+  z-index: 99
+}
+.mobile-logo-banner-text-trigger a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url('../img/info-square.png') no-repeat;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }

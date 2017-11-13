@@ -2275,7 +2275,7 @@ max-height: 170px;
       width: 33.333333%;
       height: 47.5px
     }
-    .winner-breadcrumb-inner .new-game-tab ul li{
+    .winner-breadcrumb-inner .new-game-tab ul li, .breadcrumb-inner-casino .new-game-tab ul li{
       width: 50%
     }
     .winner-breadcrumb-inner .new-game-tab{
@@ -4282,7 +4282,7 @@ max-height: 170px;
       height: 20px;
     }
     .mnav-top ul li {
-      margin-right: 141px;
+      margin-right: 25%;
     }
     .live-game-txt{
       bottom: 4%;
@@ -7778,7 +7778,7 @@ max-height: 170px;
     padding-left: 8px;
     padding-right: 8px
   }
-  .winner-breadcrumb-inner .new-game-tab ul li{
+  .winner-breadcrumb-inner .new-game-tab ul li, .breadcrumb-inner-casino .new-game-tab ul li{
     width: auto;
   }
   .breadcrumb-inner-casino .other-games{

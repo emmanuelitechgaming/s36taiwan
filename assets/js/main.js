@@ -917,9 +917,8 @@ $(document).ready(function () {
 
       $('.mobile-logo-banner-text .flexslider').flexslider({
         animation: "slide",
-        slideshowSpeed: '1000',
+        slideshowSpeed: '4000',
         animationSpeed: '1000',
-        slideshow: false,
       });
 
       $('.top-games .flexslider').flexslider({
@@ -1110,7 +1109,13 @@ $('.one-winner .flexslider').flexslider({
   })
 
   $('.mobile-logo-banner-text .close').click(function(){
-    alert('haha')
+    $('.mobile-logo-banner-text').addClass('unshow');
+    $('.mobile-logo-banner-text-trigger a').toggle();
+  });
+
+  $('.mobile-logo-banner-text-trigger a').click(function() {
+    $('.mobile-logo-banner-text').removeClass('unshow');
+    $(this).toggle();
   })
 
 });
