@@ -668,6 +668,7 @@
             <div class="clearfix">
               <div class="col-md-2 col-sm-2 col-xs-3 logout-wrapper"></div>
               <div class="col-md-8 col-sm-8 col-xs-6"><button class="add-main-screen">添加到主屏幕</button></div>
+              <div class="col-xs-12 time"><span></span></div>
             </div>
           </li>
         </ul>
@@ -719,36 +720,22 @@
         <div class="container main-section the-container">
             <div class=" breadcrumb-content">
                 <div class="breadcrumb-inner breadcrumb-inner-promo">
+                  <div class="new-game-tab">
+                    <div class="search">
+                      <input type="text" placeholder="Search game">
+                    </div>
+                    <div class="tab">
+                      <ul class="clearfix">
+                        <li class="active"><a href="#tab1" data-toggle="tab">全部優惠</a></li>
+                        <li><a href="#tab3" data-toggle="tab">獎金</a></li>
+                        <li><a href="#tab5" data-toggle="tab">免費</a></li>
+                        <li><a href="#tab2" data-toggle="tab">遊戲</a></li>
+                        <li><a href="#tab7" data-toggle="tab">貴賓</a></li>
+                      </ul>
+                    </div>
+                  </div>
                     <div class="">
                         <div class="panel with-nav-tabs">
-                          <div class="swiper-container promotion-swiper-container panel-heading promo-panel-heading hidden-lg hidden-md">
-                            <div class="y-promo-tab">
-                              <ul>
-                                <li class="active"><a href="#tab1" data-toggle="tab">全部優惠</a></li>
-                                <li><a href="#tab3" data-toggle="tab">獎金</a></li>
-                                <li><a href="#tab5" data-toggle="tab">免費</a></li>
-                                <li><a href="#tab2" data-toggle="tab">遊戲</a></li>
-                                <li><a href="#tab7" data-toggle="tab">貴賓</a></li>
-                              </ul>
-                            </div>
-                            <!-- <div class="swiper-wrapper m-promo-tabs">
-                                <div class="swiper-slide"><a class="active bread-txt" href="#tab1" data-toggle="tab" data-text="全部優惠" >全部優惠</a></div>
-                                <div class="swiper-slide"><a class="bread-txt" href="#tab3" data-toggle="tab" data-text="獎金" >獎金</a></div>
-                                <div class="swiper-slide"><a class="bread-txt" href="#tab2" data-toggle="tab" data-text="遊戲" >遊戲</a></div>
-                                <div class="swiper-slide"><a class="bread-txt" href="#tab5" data-toggle="tab" data-text="免費" >免費</a></div>
-                                <div class="swiper-slide"><a class="bread-txt" href="#tab7" data-toggle="tab" data-text="貴賓" >貴賓</a></div>
-                            </div> -->
-                            <div class="promo-tabs-border"></div>
-                          </div>
-                            <div class="panel-heading hidden-sm hidden-xs">
-                              <ul class="nav nav-tabs promo-tabs">
-                                  <li class="active"><a href="#tab1" class="bread-txt" data-toggle="tab" class="tab1" data-text="全部優惠">全部優惠</a></li>
-                                  <li><a href="#tab3" class="bread-txt" data-toggle="tab"class="tab3" data-text="獎金">獎金</a></li>
-                                  <li><a href="#tab5" class="bread-txt" data-toggle="tab" class="tab5" data-text="免費">免費</a></li>
-                                  <li><a href="#tab2" data-toggle="tab">遊戲</a></li>
-                                  <li><a href="#tab7" class="bread-txt" data-toggle="tab" class="tab7" data-text="貴賓">貴賓</a><span class="vip-button"></span></li>
-                              </ul>
-                            </div>
 
                             <div class="panel-body promo-body">
                                 <div class="tab-content">
@@ -3409,8 +3396,10 @@
       $(document).ready(function() {
         var now = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
         var now2 = moment().format(" h:mm YYYY/MM/DD");
+        var now3 = moment().format(" h:mm  下午 周二YYYY年MM月DD日");
         $('.top-header-clock span').html(now);
         $('.m-top-header-clock span').html(now2);
+        $('.navbar-nav .time span').html(now3);
       });
     </script>
 

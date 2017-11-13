@@ -2272,7 +2272,11 @@ max-height: 170px;
     }
     .new-game-tab ul li{
       float: left;
-      width: 33.333333%
+      width: 33.333333%;
+      height: 50px
+    }
+    .breadcrumb-inner-promo .new-game-tab ul li:nth-child(4), .breadcrumb-inner-promo .new-game-tab ul li:nth-child(5){
+      width: 50%;
     }
     .new-game-tab ul li a{
       padding: 15px 0 10px;
@@ -2282,6 +2286,17 @@ max-height: 170px;
     }
     .new-game-tab .search{
       margin: 0 16px;
+    }
+    .new-game-tab .search input{
+      width: 100%
+    }
+    .cta-casino-main .tag{
+      width: 30px;
+      font-size: 10px;
+      text-indent: 5px;
+    }
+    .malupet-nanaman .flexslider ul li .haynako:last-child{
+      display: none
     }
 }
 
@@ -2568,8 +2583,7 @@ max-height: 170px;
       max-height: 341px;
     }
     .malupet-nanaman {
-      padding: 0 0 0 0;
-      min-height: 170px;
+      padding: 0 0 2px 0;
     }
     .malupet-nanaman-afterlogin {
       padding: 25px 0px 25px 0px;
@@ -6356,8 +6370,9 @@ max-height: 170px;
     height: 265px;
   }
   .malupet-nanaman {
-        padding: 1px 0px 14px 0px;
-        height: 250px;
+    padding: 1px 0px 14px 0px;
+    height: 250px;
+    max-height: none;
   }
   .malupet-nanaman h4 {
     font-size: 16px;
@@ -7695,6 +7710,17 @@ max-height: 170px;
   }
   .new-game-tab .search{
     margin: 0 0;
+  }
+  .breadcrumb-inner-promo .new-game-tab ul li:nth-child(4), .breadcrumb-inner-promo .new-game-tab ul li:nth-child(5){
+    width: auto;
+  }
+  .cta-casino-main .tag{
+    width: 41px;
+    font-size: 14px;
+    text-indent: 8px
+  }
+  .malupet-nanaman .flexslider ul li .haynako:last-child{
+    display: block
   }
 }
 

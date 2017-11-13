@@ -11601,7 +11601,7 @@ h5.title-inside{
   background: rgba(42, 42, 42, 1) url(../img/mobile-splash-screen.png) no-repeat;
   background-size: 230px 55px;
   background-position: center;
-  overflow-x: hidden;
+  overflow: hidden;
   height: 100vh;
 }
 .loading::after{
@@ -11639,8 +11639,8 @@ h5.title-inside{
   color: #000;
   font-weight: 700;
   text-indent: 8px;
-  min-width: 41px;
   background: url('../img/casino/tag-bg.png') no-repeat;
+  background-size: 100% 100%;
 }
 .cta-casino-main .first-two{
   background: #161616;
@@ -11805,7 +11805,6 @@ h5.title-inside{
   border-bottom: 1px solid #4a4a4a;
   font-size: 12px;
   color: #ccc;
-  width: 200px
 }
 .new-game-tab .search input:focus{
   border: none !important;
@@ -11826,16 +11825,15 @@ h5.title-inside{
   list-style: none;
   margin: 0;
   padding: 0;
+  border-bottom: 2px solid #4a4a4a
 }
 .new-tab-casino{
   background: #161616;
-  border-radius: 5px;
-  margin: 0 -8px
+  margin: 0 -22px
 }
 .new-tab-casino ul li{
   width: 50%;
   float: left;
-  margin: 5px 0
 }
 .new-tab-casino ul li a{
   font-size: 16px;
@@ -11843,7 +11841,7 @@ h5.title-inside{
   font-weight: 700;
   display: block;
   text-align: center;
-  padding: 5px 0;
+  padding: 15px 0 10px;
   border-bottom: 4px solid transparent
 }
 .new-tab-casino ul li a:active, .new-tab-casino ul li a:focus{
@@ -11852,4 +11850,45 @@ h5.title-inside{
 .new-tab-casino ul li.active a{
   color: #fba601;
   border-bottom: 4px solid #fba601
+}
+.index-mobile-banner{
+  min-width: 170px
+}
+.mobile-logo-banner-text{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  padding: 5px 20px 15px;
+  font-size: 12px
+}
+.mobile-logo-banner-text .flexslider{
+  padding: 0 0 !important
+}
+.mobile-logo-banner-text .flex-control-nav{
+  bottom: -20px;
+  text-align: left;
+}
+.mobile-logo-banner-text .flex-control-nav li{
+  margin: 0 0;
+  margin-right: 10px
+}
+.mobile-logo-banner-text .flex-control-paging li a{
+  width: 9px;
+  height: 9px
+}
+.mobile-logo-banner-text .close{
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  right: -10px;
+}
+.mobile-logo-banner-text .close a{
+  display: block;
+  width: 13px;
+  height: 13px;
+  background: url('../img/mobile-logo-banner-text-close.png') no-repeat;
+  background-size: cover;
 }

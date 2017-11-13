@@ -912,7 +912,14 @@ $(document).ready(function () {
         animationSpeed: '1000',
         controlNav: false,
         directionNav: false,
-        touch: false
+        touch: false,
+      });
+
+      $('.mobile-logo-banner-text .flexslider').flexslider({
+        animation: "slide",
+        slideshowSpeed: '1000',
+        animationSpeed: '1000',
+        slideshow: false,
       });
 
       $('.top-games .flexslider').flexslider({
@@ -1102,11 +1109,8 @@ $('.one-winner .flexslider').flexslider({
     $(this).removeClass('hover');
   })
 
-  $('.new-tab-casino a[href="#ctab2"]').on('show.bs.tab', function () {
-
-  });
-  $('.new-tab-casino a[href="#ctab3"]').on('show.bs.tab', function () {
-
+  $('.mobile-logo-banner-text .close').click(function(){
+    alert('haha')
   })
 
 });
