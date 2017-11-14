@@ -1111,10 +1111,12 @@ $('.one-winner .flexslider').flexslider({
   $('.mobile-logo-banner-text .close').click(function(){
     $('.mobile-logo-banner-text').addClass('unshow');
     $('.mobile-logo-banner-text-trigger a').toggle();
-  });
+
+    });
 
   $('.mobile-logo-banner-text-trigger a').click(function() {
     $('.mobile-logo-banner-text').removeClass('unshow');
+
     $(this).toggle();
   })
 

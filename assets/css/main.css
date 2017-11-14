@@ -11857,7 +11857,7 @@ h5.title-inside{
 }
 .mobile-logo-banner-text{
   position: absolute;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   bottom: 1px;
   left: 0;
   right: 0;
@@ -11955,8 +11955,8 @@ h5.title-inside{
 }
 .mobile-logo-banner-text-trigger a{
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
   background: url('../img/info-square.png') no-repeat;
   background-size: cover;
   border-top-left-radius: 5px;

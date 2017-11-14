@@ -75,6 +75,9 @@
   .malupet-nanaman h4 img{
     width: 12px;
   }
+  .malupet-nanaman{
+    min-height: 180px;
+  }
   .malupet-nanaman h4{
     font-size: 12px;
     margin: 0px 0;
@@ -90,7 +93,7 @@ margin-right: auto;
 left: 0;
 right: 0;
 width: 320px;
-max-height: 170px;
+min-height: 170px;
   }
   .bago_nanaman .container{
     padding-left: 0;
@@ -2306,7 +2309,7 @@ max-height: 170px;
       text-indent: 5px;
     }
     .malupet-nanaman .flexslider ul li .haynako:last-child{
-      display: none
+      display: block;
     }
     .breadcrumb-inner-casino .col-md-6.col-xs-12.baccarat, .breadcrumb-inner-casino .col-md-6.col-xs-12.other-games{
       padding: 0 25px
@@ -3120,6 +3123,7 @@ max-height: 170px;
 
 
 @media only screen and (min-width: 412px) {
+
     .remo-navbar-header .btn-group.bootstrap-select.fit-width {
         width: 75px !important;
         margin-left: -165px !important;
@@ -3522,11 +3526,14 @@ max-height: 170px;
       left: 0
     }
     .malupet-nanaman{
-      min-height: 174px;
+      min-height: 181px;
     }
 }
 
 @media only screen and (min-width: 414px) {
+  .malupet-nanaman{
+    min-height: 180px;
+  }
   .banner-overlay{
     margin-left: auto;
     margin-right: auto;
