@@ -804,7 +804,7 @@ div.border:before {
     /*background: #1b1a1a;*/
     margin-bottom: 15px;
 }
-.breadcrumb-inner-promo {
+.breadcrumb-inner-promo, .breadcrumb-inner-casino {
     overflow: unset;
 }
 .winner-breadcrumb-inner{
@@ -3964,7 +3964,7 @@ color: #fba601;
     top: 0;
     -webkit-transition: top ease 0.5s;
     transition: top ease 0.5s;
-    padding: 5px;
+    padding: 5px 8px;
     z-index: 9;
     margin: 0 auto;
     border-bottom-left-radius: 10px;
@@ -5238,13 +5238,14 @@ div.cta-contact-info a {
 }
 
 .tab-panel-casino > .nav-tabs > li {
-    margin-right: 2px;
-    float: none;
+    float: left;
     display: inline-block;
     *display: inline;
     /* ie7 fix */
     zoom: 1;
     /* hasLayout ie7 trigger */
+
+    width: 50%;
 }
 
 .tab-panel-lotto > .nav-tabs > li {
@@ -5904,7 +5905,6 @@ main .win-lot-top-games {
     margin-left: -15px;
     margin-right: -15px;
     padding: 5px;
-    margin-top: -19px;
 }
 
 .sp-promo-strip {
@@ -5923,7 +5923,10 @@ main .win-lot-top-games {
     margin-left: -10px;
     margin-right: -10px;
 }
-
+.sp-top .col-xs-12{
+  padding-left: 0;
+  padding-right: 0;
+}
 .sp-container .sp-bottom {
     background-color: #1B1A1A;
     overflow: hidden;
@@ -5932,11 +5935,6 @@ main .win-lot-top-games {
     margin-right: -10px;
     font-weight: 700;
 }
-
-.sp-container .sp-top .sp-gameplay-img {
-    margin-top: 45px;
-}
-
 .sp-container .s-txt {
     font-size: 13px!important;
 }
@@ -7225,11 +7223,6 @@ button .flag-icon-kr::before {
     content: ' ' !important;
     display: inline-block;
 }
-.fa-mobile::before {
-    background: url(../img/gadget-small-unhover.png) no-repeat 0 0;
-    width: 11px;
-    height: 19px;
-}
 .fa-mobile-hover::before {
     background: url('../img/gadget-small.png') no-repeat 0 0;
     width: 11px;
@@ -7258,11 +7251,6 @@ button .flag-icon-kr::before {
 .fa-laptop-hover::before {
     background: url('../img/gadget-small.png') no-repeat -49px 0;
     width: 32px;
-    height: 20px;
-}
-.fa-desktop::before {
-    background: url(../img/gadget-small-unhover.png) no-repeat -86px 0;
-    width: 28px;
     height: 20px;
 }
 .fa-desktop-hover::before {
@@ -8235,11 +8223,12 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   display: block;
   width: 97.5%;
   margin: 0 auto;
-  text-align: center;
+  text-align: center
 }
 .lotto-button-m{
   position: relative;
   top: auto;
+  width: 100%
 }
 .lotto-button a{
   display: inline-block;
@@ -8252,7 +8241,8 @@ footer .footer-icon .hidden-sm.hidden-xs img:nth-child(6){
   border-radius: 2px;
 }
 .lotto-button-m a{
-  padding: 10px 15px 10px 15px
+  padding: 10px 15px 10px 15px;
+  width: 50%;
 }
 /*.lotto-button a::before{
   content: '';
@@ -8591,9 +8581,6 @@ border-bottom: 1px solid #333333;
   font-size: 16px;
   text-align: center;
 }
-.casino-desc-bot .casino-mp{
-  bottom: -2px;
-}
 .casino-desc-bot .sp-btn-hidden, .btn-promotion{
   color: #fff;
 	text-decoration: none;
@@ -8609,12 +8596,13 @@ border-bottom: 1px solid #333333;
 }
 .casino-desc-bot .info-icon{
   display: inline-block;
-  width: 30px;
-  height: 30px;
   background: url('../img/slots/info-icon.png') no-repeat;
   background-size: cover;
   position: relative;
-  left: 10px
+}
+.casino-desc-bot .info-icon.hover{
+  background: url('../img/slots/info-icon-hover.png') no-repeat;
+  background-size: cover;
 }
 .slots-breadcrumb-inner .sp-btn-hidden, .breadcrumb-inner-casino .sp-btn-hidden{
   background: none;
@@ -11523,10 +11511,12 @@ h5.title-inside{
   color: #fba601
 }
 .trphy-circle{
-  border-radius: 50%;
-  font-size: 20px;
-  padding: 2px 8px;
+  display: inline-block;
+  width: 25px;
+  height: 20px;
   top: 2px;
+  background: none;
+  padding: 0
 }
 .casino-show-more a{
   color: #fff;
@@ -11615,7 +11605,7 @@ h5.title-inside{
   background: rgba(42, 42, 42, 1) url(../img/mobile-splash-screen.png) no-repeat;
   background-size: 230px 55px;
   background-position: center;
-  overflow-x: hidden;
+  overflow: hidden;
   height: 100vh;
 }
 .loading::after{
@@ -11647,14 +11637,14 @@ h5.title-inside{
 }
 .cta-casino-main .tag{
   position: absolute;
-  z-index: 99;
+  z-index: 9;
   top: 15px;
   left: 1px;
   color: #000;
   font-weight: 700;
   text-indent: 8px;
-  min-width: 41px;
   background: url('../img/casino/tag-bg.png') no-repeat;
+  background-size: 100% 100%;
 }
 .cta-casino-main .first-two{
   background: #161616;
@@ -11766,11 +11756,209 @@ h5.title-inside{
 .casino-desc-bot .min-bet{
   padding-left: 5px;
   padding-right: 5px;
-  font-size: 12px;
+  font-size: 11px;
   white-space: nowrap;
+  position: relative;
 }
 .casino-desc-bot .min-bet span{
-  display: block;
   font-size: 12px;
   color: #fff
+}
+.min-bet .mp{
+  text-align: left;
+  margin-top: 3px
+}
+.new-game-tab{
+  border-radius: 5px;
+}
+.new-game-tab .tab{
+  background: #202020;
+  margin-top: 10px
+}
+.new-game-tab ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  border-bottom: 2px solid #4a4a4a
+}
+.new-game-tab ul li{
+  display: inline-block;
+}
+.new-game-tab ul li a{
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 1em
+}
+.new-game-tab ul li a:hover, .new-game-tab ul li a:focus, .new-game-tab ul li a:active{
+  text-decoration: none
+}
+.new-game-tab ul li.active a{
+  color: #fba601;
+}
+.new-game-tab .search input{
+  background: none;
+  border: none;
+  background: url('../img/search.png') no-repeat;
+  background-size: 15px 15px;
+  background-position: left;
+  padding: 5px;
+  padding-left: 25px;
+  border-bottom: 1px solid #4a4a4a;
+  font-size: 12px;
+  color: #ccc;
+}
+.new-game-tab .search input:focus{
+  border: none !important;
+  border-bottom: 1px solid #323232 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+.new-game-tab .search input::-webkit-input-placeholder{
+  color: #fff
+}
+.new-game-tab .search input:-ms-input-placeholder{
+  color: #fff
+}
+.new-game-tab .search input::placeholder{
+  color: #fff
+}
+.new-tab-casino ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid #4a4a4a
+}
+.new-tab-casino{
+  background: #161616;
+  margin: 0 -22px
+}
+.new-tab-casino ul li{
+  width: 50%;
+  float: left;
+}
+.new-tab-casino ul li a{
+  font-size: 1em;
+  color: #999;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  padding: 15px 0 10px;
+  border-bottom: 4px solid transparent;
+  letter-spacing: 1px
+}
+.new-tab-casino ul li a:active, .new-tab-casino ul li a:focus{
+  text-decoration: none;
+}
+.new-tab-casino ul li.active a{
+  color: #fba601;
+  border-bottom: 4px solid #fba601
+}
+.mobile-logo-banner-text{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  padding: 5px 20px 15px;
+  font-size: 0.9em
+}
+.mobile-logo-banner-text.unshow{
+  opacity: 0;
+}
+.mobile-logo-banner-text .flexslider{
+  padding: 0 0 !important
+}
+.mobile-logo-banner-text .flex-control-nav{
+  bottom: -20px;
+  text-align: left;
+}
+.mobile-logo-banner-text .flex-control-nav li{
+  margin: 0 0;
+  margin-right: 10px
+}
+.mobile-logo-banner-text .flex-control-paging li a{
+  width: 9px;
+  height: 9px;
+  background: rgba(255, 255, 255, 0.3)
+}
+.mobile-logo-banner-text .flex-control-paging li a.flex-active{
+  background: rgba(255, 255, 255, 1)
+}
+.mobile-logo-banner-text .close{
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  right: -10px;
+}
+.mobile-logo-banner-text .close a{
+  display: block;
+  width: 13px;
+  height: 13px;
+  background: url('../img/mobile-logo-banner-text-close.png') no-repeat;
+  background-size: cover;
+}
+.panel-casino-tab{
+  margin: 0 -8px
+}
+.panel-casino-tab .title{
+  font-size: 16px;
+  color: #fba601;
+  border-bottom: 1px solid #fba601;
+  font-weight: 700;
+  letter-spacing: 1px
+}
+.winner-mobile-tab{
+  margin: 0 15px 40px
+}
+.winner-mobile-tab button{
+  background: -webkit-gradient(linear, left top, left bottom, from(#424242), to(#262626));
+  background: linear-gradient(#424242, #262626);
+  border: none;;
+  color: #fff;
+  width: 100%;
+  padding: 5px 10px;
+  text-align: left;
+}
+.winner-mobile-tab .dropdown-menu{
+  background: #fba601;
+  border-radius: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 85%;
+  margin: 0 0
+}
+.winner-mobile-tab .dropdown-menu li a{
+  color: #333;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 3px 10px
+}
+.winner-mobile-tab .dropdown-menu .active a{
+  background-color: transparent
+}
+.winner-mobile-tab .info{
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url('../img/info-square.png') no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px
+}
+.mobile-logo-banner-text-trigger{
+  position: absolute;
+  bottom: -5px;
+  z-index: 88
+}
+.mobile-logo-banner-text-trigger a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url('../img/info-square.png') no-repeat;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
