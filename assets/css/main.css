@@ -10445,7 +10445,7 @@ box-shadow: inset 0px 1px 0px #ffbd03, 0px 3px 0px 0px #906600, 0px 0px 5px #000
 }
 .malupet-nanaman{
   padding: 10px 10px 9px 10px;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.5);
   text-shadow: 1px 4px 5px #000;
 }
 .malupet-nanaman .flexslider{
@@ -11862,7 +11862,7 @@ h5.title-inside{
   left: 0;
   right: 0;
   z-index: 9;
-  padding: 5px 20px 15px;
+  padding: 5px 28px 15px;
   font-size: 0.9em
 }
 .mobile-logo-banner-text.unshow{
@@ -11921,9 +11921,10 @@ h5.title-inside{
   width: 100%;
   padding: 5px 10px;
   text-align: left;
+  line-height: 29px;
 }
 .winner-mobile-tab .dropdown-menu{
-  background: #fba601;
+  background: #2a2a2a;
   border-radius: 0;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -11931,7 +11932,7 @@ h5.title-inside{
   margin: 0 0
 }
 .winner-mobile-tab .dropdown-menu li a{
-  color: #333;
+  color: #fba601;
   font-weight: 700;
   letter-spacing: 1px;
   padding: 3px 10px
