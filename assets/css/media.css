@@ -2360,6 +2360,9 @@ min-height: 170px;
       left: 2px;
       right: 2px;
     }
+    .promotion {
+        padding: 10px 0 10px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -7782,7 +7785,7 @@ min-height: 170px;
     height: 35px;
   }
   .new-game-tab{
-    margin: 0 16px;
+    margin: 15px 16px;
   }
   .winner-breadcrumb-inner .new-game-tab{
     margin: 0 18px
@@ -7830,6 +7833,13 @@ min-height: 170px;
   }
   .winner-breadcrumb-inner .tab-content{
     margin: 0 0
+  }
+  .promotion {
+      padding: 0 0 20px;
+  }
+  .new-game-tab ul{
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 

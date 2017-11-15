@@ -982,7 +982,7 @@ div.border:before {
 }
 .panel-body {
     padding: 15px;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 .casino-g .content .cta-btn {
     color: inherit;
@@ -991,7 +991,6 @@ div.border:before {
 }
 
 .panel {
-    margin-top: -10px;
     background-color: transparent;
 }
 .tab27helpcenter .panel{
@@ -11901,7 +11900,7 @@ h5.title-inside{
   background-size: cover;
 }
 .panel-casino-tab{
-  margin: 0 -8px
+  margin: 15px -8px 0
 }
 .panel-casino-tab .title{
   font-size: 16px;
@@ -11965,4 +11964,13 @@ h5.title-inside{
   background-size: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+.main-section.no-margin{
+  margin-top: 0;
+}
+.no-margin .panel{
+  margin-top: -15px
+}
+.no-margin .breadcrumb-inner-casino .panel{
+  margin-top: 0
 }
