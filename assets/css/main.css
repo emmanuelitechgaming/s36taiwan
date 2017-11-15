@@ -11910,6 +11910,9 @@ h5.title-inside{
   font-weight: 700;
   letter-spacing: 1px
 }
+.panel-casino-tab .col-xs-6:last-child{
+  padding-left: 8px
+}
 .winner-mobile-tab{
   margin: 0 15px 40px
 }
