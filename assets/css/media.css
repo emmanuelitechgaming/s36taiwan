@@ -2217,14 +2217,11 @@ min-height: 170px;
       padding-right: 0;
       width: 33.333333%
     }
-    .casino-desc-bot .col-xs-6:first-child, .casino-desc-bot .col-xs-6:last-child{
-      display: none
-    }
     .casino-desc-bot .min-bet .col-xs-6:last-child{
       display: block
     }
-    .casino-desc-bot .col-xs-6:nth-child(2){
-      width: 100%
+    .casino-desc-bot .min-bet .rmb{
+      display: block
     }
     .casino-desc-bot .min-bet .col-xs-6{
       width: 50%;
@@ -2267,14 +2264,15 @@ min-height: 170px;
       bottom: -5px;
     }
     .casino-desc-bot .min-bet{
-      top: 2px;
+      top: 4px;
       text-align: center;
     }
     .casino-desc-bot .min-bet span{
       display: inline-block;
     }
     .slots-breadcrumb-inner #c, .breadcrumb-inner-casino #b{
-      padding-top: 0px
+      padding-top: 0px;
+      padding-bottom: 1px
     }
     .slot-new-game-wrapper .title{
       font-size: 11px;
@@ -2362,6 +2360,12 @@ min-height: 170px;
     }
     .promotion {
         padding: 10px 0 10px;
+    }
+    .casino-desc-bot .min-bet{
+      font-size: 10px;
+    }
+    .casino-desc-bot .min-bet span{
+      font-size: 10px;
     }
 }
 
@@ -3549,6 +3553,15 @@ min-height: 170px;
     }
     .malupet-nanaman{
       min-height: 181px;
+    }
+    .casino-desc-bot .min-bet{
+      font-size: 11px;
+    }
+    .casino-desc-bot .min-bet span{
+      font-size: 12px;
+    }
+    .casino-desc-bot .min-bet{
+      top: 2px
     }
 }
 
@@ -7313,6 +7326,9 @@ min-height: 170px;
     right: -15px;
     top: 0;
   }
+  .new123b.dl .new123-inner::after{
+    content: none
+  }
   .new123 .text {
     font-size: 1em;
   }
@@ -7783,6 +7799,7 @@ min-height: 170px;
     float: none;
     width: auto;
     height: 35px;
+    min-width: 195px
   }
   .new-game-tab{
     margin: 15px 16px;
@@ -7841,6 +7858,9 @@ min-height: 170px;
     padding-left: 0;
     padding-right: 0;
   }
+  .no-margin .panel{
+    margin-top: -15px
+  }
 }
 
 @media (min-width: 1200px){
@@ -7850,6 +7870,9 @@ min-height: 170px;
   }
   .new123{
     width: 1217px
+  }
+  .new123.dl{
+    width: 1223px
   }
   .the-container-slots{
     width: 1267px

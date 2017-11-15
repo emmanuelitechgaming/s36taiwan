@@ -11208,6 +11208,13 @@ h5.title-inside{
   background: #161616;
   margin-top: 15px;
 }
+.new123.dl{
+  background: none
+}
+.new123.dl .col-xs-6{
+  padding-left: 1.5px;
+  padding-right: 1.5px
+}
 .new123 .num{
   font-family: Tungsten;
   color: #fba601;
@@ -11225,6 +11232,11 @@ h5.title-inside{
 }
 .new123-inner{
   position: relative;
+}
+.new123b.dl .new123-inner{
+  background: #2a2a2a url('../img/dl/inner-bg.png') no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
 }
 .new123-inner::after{
   content: '';
@@ -11755,12 +11767,10 @@ h5.title-inside{
 .casino-desc-bot .min-bet{
   padding-left: 5px;
   padding-right: 5px;
-  font-size: 11px;
   white-space: nowrap;
   position: relative;
 }
 .casino-desc-bot .min-bet span{
-  font-size: 12px;
   color: #fff
 }
 .min-bet .mp{
@@ -11795,6 +11805,12 @@ h5.title-inside{
 }
 .new-game-tab ul li.active a{
   color: #fba601;
+}
+.new-game-tab ul li a:hover{
+  color: #fba601;
+  border-bottom: solid 2.5px #fba601;
+  -webkit-transition: color 0.5s, border-bottom 0.2s;
+  transition: color 0.5s, border-bottom 0.2s;
 }
 .new-game-tab .search input{
   background: none;
@@ -11967,9 +11983,6 @@ h5.title-inside{
 }
 .main-section.no-margin{
   margin-top: 0;
-}
-.no-margin .panel{
-  margin-top: -15px
 }
 .no-margin .breadcrumb-inner-casino .panel{
   margin-top: 0
