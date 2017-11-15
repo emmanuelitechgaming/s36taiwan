@@ -6268,6 +6268,9 @@ main .win-lot-top-games {
 .mobile-banner-text.for-main {
     padding: 5px 10px 0;
 }
+.mobile-banner-text.for-main.dl{
+  padding: 5px 10px 10px;
+}
 .mobile-banner-title {
     color: #fba601;
     font-weight: 700;

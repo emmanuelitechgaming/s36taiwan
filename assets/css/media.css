@@ -2292,13 +2292,13 @@ min-height: 170px;
     }
     .new-game-tab ul li a{
       padding: 15px 0 10px;
-      margin: 0 0px;
+      margin: 0 15px;
     }
     .new-game-tab{
       margin: 0 0;
     }
     .new-game-tab .search{
-      margin: 0 15px;
+      margin: 10px 15px 0;
     }
     .new-game-tab .search input{
       width: 100%
@@ -2349,8 +2349,8 @@ min-height: 170px;
       margin-left: 0px;
     }
     .new-game-tab ul {
-      padding-left: 8px;
-      padding-right: 8px;
+      padding-left: 0;
+      padding-right: 0;
     }
     .corners-outer {
       top: 2px;
