@@ -1535,7 +1535,13 @@ min-height: 170px;
       padding:  0 2em;
     }
     .title-inside{
-      padding: 0 1.6em
+      padding: 0 1.6em;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
     }
     .comment-inside{
       padding: 0 2em
@@ -2333,6 +2339,9 @@ min-height: 170px;
     }
     .winner-breadcrumb-inner .today-more-winner{
       padding: 0 25px
+    }
+    .promotion > .inner > .content > p {
+      text-align: center;
     }
     /* jess 11-14-17 */
     footer .f-right .columns {
@@ -6864,6 +6873,12 @@ min-height: 170px;
   .title-inside{
     margin-left: 20px;
     padding: 0 0;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .comment-inside{
     padding: 0 40px
