@@ -1711,9 +1711,9 @@ color: #ffffff!important;
   margin-left: 10px;
   top: 7px;
 }
-.btn-hidden::after{
+.inside-buttons::after{
   background: url('../img/arrow-right-brown.png') no-repeat;
-  background-size: cover
+  background-size: contain
 }
 #btnSearch::after, #btn-edit-info::after{
   top: 5px
