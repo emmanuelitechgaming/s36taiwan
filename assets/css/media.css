@@ -7790,7 +7790,7 @@ min-height: 170px;
     font-size: 14px;
   }
   .new-game-tab ul li a{
-    padding: 0 25px 0;
+    padding: 0 0 0;
     margin: 0 0;
     height: 35px;
     line-height: 35px
@@ -7860,6 +7860,26 @@ min-height: 170px;
   }
   .no-margin .panel{
     margin-top: -15px
+  }
+  .new-game-tab ul li a::after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 0;
+    position: relative;
+    bottom: 3px;
+    background: #fba601;
+    -webkit-transition: height 0.3s;
+    transition: height 0.3s;
+  }
+  .new-game-tab ul li a:hover{
+    color: #fba601;
+    -webkit-transition: color 0.3s;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s
+  }
+  .new-game-tab ul li a:hover::after{
+    height: 2.5px
   }
 }
 
@@ -8338,7 +8358,7 @@ main .new-counter .marquee{
     margin-right: 68px;
   }
   .dl-area{
-    top: -2px;
+    top: -5px;
     width: auto;
     margin-left: 30px;
   }
