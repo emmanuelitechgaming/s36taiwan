@@ -1679,7 +1679,10 @@ color: #ffffff!important;
           box-shadow: 0 1px 0px rgba(204, 204, 204, 0.2) inset, 0 0px 1px rgba(0,0,0,0.7);
   font-weight: 400;
 }
-
+.inside-buttons{
+  background: #fba601;
+  color: #573601;
+}
 .sp-btn-hidden:hover{
   text-decoration: none
 }
@@ -1706,6 +1709,10 @@ color: #ffffff!important;
   position: absolute;
   margin-left: 10px;
   top: 7px;
+}
+.btn-hidden::after{
+  background: url('../img/arrow-right-brown.png') no-repeat;
+  background-size: cover
 }
 #btnSearch::after, #btn-edit-info::after{
   top: 5px
@@ -8652,6 +8659,10 @@ background: rgba(204, 204, 204, 0.2);
 color: #fff;
 text-decoration: none;
 }
+.inside-buttons{
+  background: #fba601 !important;
+  color: #573601 !important;
+}
 .slots-breadcrumb-inner .casino-desc-bot .sp-btn-hidden:active, .slots-breadcrumb-inner .casino-desc-bot .sp-btn-hidden:focus{
   border: none !important;
   background: none;
@@ -9620,8 +9631,6 @@ span.add-ico{
 }
  .footer-dropdown .dropdown-menu .check a,  .footer-dropdown .dropdown-menu .check div{
    font-weight: 700;
-   border-bottom: 1px solid #8a8a8a;
-   border-top: 1px solid #8a8a8a;
    padding: 15px 20px;
 }
 .m-footer-dropdown{
