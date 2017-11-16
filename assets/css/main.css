@@ -11911,6 +11911,9 @@ h5.title-inside{
 .mobile-logo-banner-text.unshow{
   opacity: 0;
 }
+.mobile-logo-banner-text.unshow .close a{
+  display: none;
+}
 .mobile-logo-banner-text .flexslider{
   padding: 0 0 !important
 }
@@ -11940,7 +11943,7 @@ h5.title-inside{
 .mobile-logo-banner-text .close{
   display: inline-block;
   position: absolute;
-  top: 2px;
+  top: 5px;
   right: 0.5em;
   opacity: 1
 }
@@ -11988,7 +11991,7 @@ h5.title-inside{
   padding: 0 0;
 }
 .winner-mobile-tab .dropdown-menu li a{
-  font-size: 16px;
+    font-size: 16px;
   color: #fff;
   letter-spacing: 1px;
   margin: 0 15px;
@@ -12045,6 +12048,9 @@ h5.title-inside{
 .no-margin .breadcrumb-inner-casino .panel{
   margin-top: 0
 }
-.sp-gameplay-img.casino{
+.sp-gameplay-img{
   margin-top: 45px;
+}
+.sp-gameplay-img.slots{
+  margin-bottom: 25px
 }

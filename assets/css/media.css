@@ -2367,6 +2367,12 @@ min-height: 170px;
     .casino-desc-bot .min-bet span{
       font-size: 10px;
     }
+    .new123b.dl .new123-inner{
+      font-size: 11px
+    }
+    .new123afterlogin.dl .new123-inner{
+      padding: 6px 0 6px;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -3144,6 +3150,9 @@ min-height: 170px;
       -webkit-transform:scale(0.97) !important;
       transform-origin:0 0 !important;
       -webkit-transform-origin:0 0 !important;
+    }
+    .new123b.dl .new123-inner{
+      font-size: 14px
     }
 }
 
@@ -7880,6 +7889,9 @@ min-height: 170px;
   }
   .new-game-tab ul li a:hover::after{
     height: 2.5px
+  }
+  .new123b.dl .new123-inner{
+    padding: 11px 0
   }
 }
 
