@@ -917,7 +917,7 @@ $(document).ready(function () {
 
       $('.mobile-logo-banner-text .flexslider').flexslider({
         animation: "slide",
-        slideshow: false
+        direction: 'vertical'
       });
 
       $('.top-games .flexslider').flexslider({

@@ -11914,12 +11914,16 @@ h5.title-inside{
   padding: 0 0 !important
 }
 .mobile-logo-banner-text .flex-control-nav{
-  bottom: -20px;
+  width: auto;
+  bottom: -7px;
+  left: -19px;
   text-align: left;
 }
 .mobile-logo-banner-text .flex-control-nav li{
   margin: 0 0;
-  margin-right: 10px
+  margin-right: 0;
+  margin-bottom: 10px;
+  display: block;
 }
 .mobile-logo-banner-text .flex-control-paging li a{
   width: 9px;
@@ -12006,8 +12010,7 @@ h5.title-inside{
   height: 25px;
   background: url('../img/info-square.png') no-repeat;
   background-size: cover;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 5px
 }
 .main-section.no-margin{
   margin-top: 0;
