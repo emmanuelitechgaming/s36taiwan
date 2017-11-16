@@ -5932,6 +5932,11 @@ main .win-lot-top-games {
     margin-left: -10px;
     margin-right: -10px;
 }
+.sp-container .sp-top.ag{
+  background: url('../img/sp/casino/bg-top-ag.jpg');
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center;
+}
 .sp-top .col-xs-12{
   padding-left: 0;
   padding-right: 0;
@@ -8011,7 +8016,7 @@ margin-right: 23px;
 }
 
 .nav-slide .navbar-nav a,.nav-slide .navbar-nav a:hover,.nav-slide .navbar-nav a:focus{
-  width: 100%;
+  width: auto;
   display: block;
   font-size: 17px;
   color: #fba601;
@@ -8024,8 +8029,9 @@ margin-right: 23px;
   padding: 0 39px !important;
 }
 .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
-  background: url('../img/underline4.png') no-repeat;
+  background: none;
   background-position: bottom;
+  border-bottom: 2px solid #343434
 }
 .nav-slide .navbar-nav li:nth-child(1) a{
   height: auto;
@@ -11943,7 +11949,7 @@ h5.title-inside{
 .mobile-logo-banner-text .close{
   display: inline-block;
   position: absolute;
-  top: 5px;
+  top: 7px;
   right: 0.5em;
   opacity: 1
 }

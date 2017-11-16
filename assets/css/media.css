@@ -1990,7 +1990,8 @@ min-height: 170px;
       padding-left: 10px
     }
     .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
-      padding: 0 20px !important;
+      padding: 0 0 !important;
+      margin: 0 20px
     }
     .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg li:nth-child(9){
       padding: 20px 15px 20px 15px;
