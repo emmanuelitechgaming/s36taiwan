@@ -645,7 +645,14 @@ footer .fsalon {
     padding-top: 10px;
     text-align: center;
 }
-
+footer .fsalon:before{
+  position: absolute;
+display: block;
+content: '';
+border-top: 1px solid #000000;
+width: 100%;
+top: -2px;
+}
 #sagaming {
     text-decoration: none;
     color: inherit;
