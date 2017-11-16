@@ -8031,7 +8031,14 @@ margin-right: 23px;
 .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
   background: none;
   background-position: bottom;
-  border-bottom: 2px solid #343434
+}
+.nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #4a4a4a;
+  border-top: 1px solid #000
 }
 .nav-slide .navbar-nav li:nth-child(1) a{
   height: auto;
@@ -11789,7 +11796,7 @@ h5.title-inside{
 }
 .slot-new-game-wrapper .title{
   position: absolute;
-  z-index: 99;
+  z-index: 88;
   bottom: 0;
   left: 1px;
   right: 1px;
