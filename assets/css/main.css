@@ -8015,13 +8015,13 @@ margin-right: 23px;
   display: block;
   font-size: 17px;
   color: #fba601;
-  height: 50px;
+  height: 45px;
   -webkit-transition-duration: .25s,.25s;
   -webkit-transition-timing-function: linear,linear;
   cursor: pointer;
   -webkit-transition-property: border-color,color;
-  line-height: 38px;
-  padding: 5px 39px !important;
+  line-height: 45px;
+  padding: 0 39px !important;
 }
 .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
   background: url('../img/underline4.png') no-repeat;
@@ -11905,13 +11905,17 @@ h5.title-inside{
   right: 0;
   z-index: 9;
   padding: 5px 28px 5px;
-  font-size: 0.9em
+  font-size: 0.9em;
+  text-align: center;
 }
 .mobile-logo-banner-text.unshow{
   opacity: 0;
 }
 .mobile-logo-banner-text .flexslider{
   padding: 0 0 !important
+}
+.mobile-logo-banner-text .flexslider .flex-viewport{
+  width: 100%;
 }
 .mobile-logo-banner-text .flex-control-nav{
   width: auto;
@@ -11935,9 +11939,9 @@ h5.title-inside{
 }
 .mobile-logo-banner-text .close{
   display: inline-block;
-  position: relative;
+  position: absolute;
   top: 2px;
-  right: -10px;
+  right: 0.5em;
   opacity: 1
 }
 .mobile-logo-banner-text .close a{
@@ -11978,14 +11982,21 @@ h5.title-inside{
   border-radius: 0;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  width: 85%;
+  width: 100%;
   margin: 0 0
 }
 .winner-mobile-tab .dropdown-menu li a{
+  font-size: 16px;
   color: #fba601;
-  font-weight: 700;
   letter-spacing: 1px;
-  padding: 3px 10px
+  margin: 0 15px;
+  padding: 0 0;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px solid #000;
+}
+.winner-mobile-tab .dropdown-menu li:last-child a{
+  border-bottom: none
 }
 .winner-mobile-tab .dropdown-menu .active a{
   background-color: transparent
@@ -11998,6 +12009,20 @@ h5.title-inside{
   background-size: cover;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px
+}
+.winner-mobile-tab .see-more{
+  float: right;
+  color: #fff;
+  background: #fba601;
+  font-size: 12px;
+  font-weight: 700;
+  width: 65px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  top: 2px
 }
 .mobile-logo-banner-text-trigger{
   position: absolute;
