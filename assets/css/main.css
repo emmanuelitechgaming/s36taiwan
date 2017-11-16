@@ -11650,8 +11650,8 @@ h5.title-inside{
   content: '';
   display: block;
   position: fixed;
-  width: 60px;
-  height: 15px;
+  width: 43px;
+  height: 11px;
   background: url('../img/loading.gif') no-repeat;
   background-size: 100% 100%;
   bottom: 10px;
@@ -11968,26 +11968,28 @@ h5.title-inside{
   margin: 0 15px 40px
 }
 .winner-mobile-tab button{
-  background: -webkit-gradient(linear, left top, left bottom, from(#424242), to(#262626));
-  background: linear-gradient(#424242, #262626);
-  border: none;;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: linear-gradient(#2a2a2a, #3c3c3c);
+  border: solid 1px #111;
   color: #fff;
   width: 100%;
   padding: 5px 10px;
   text-align: left;
   line-height: 29px;
+  border-radius: 5px
 }
 .winner-mobile-tab .dropdown-menu{
-  background: #2a2a2a;
+  background: #333;
   border-radius: 0;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   width: 100%;
-  margin: 0 0
+  margin: 0 0;
+  padding: 0 0;
 }
 .winner-mobile-tab .dropdown-menu li a{
   font-size: 16px;
-  color: #fba601;
+  color: #fff;
   letter-spacing: 1px;
   margin: 0 15px;
   padding: 0 0;
