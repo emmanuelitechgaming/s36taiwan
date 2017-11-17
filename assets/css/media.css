@@ -2291,6 +2291,10 @@ min-height: 170px;
     .winner-breadcrumb-inner .new-game-tab{
       margin-bottom: 10px
     }
+    .winner-breadcrumb-inner .new-game-tab ul li{
+      padding-left: 0;
+      padding-right: 0;
+    }
     .new-game-tab ul li a{
       padding: 15px 0 10px;
       margin: 0 15px;
