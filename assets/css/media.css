@@ -7849,6 +7849,13 @@ min-height: 170px;
     padding-left: 8px;
     padding-right: 8px
   }
+  .breadcrumb-inner-casino .tab-content .tab2{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .breadcrumb-inner-casino .tab-content .tab2 .col-xs-12{
+    width: 50%;
+  }
   .winner-breadcrumb-inner .new-game-tab ul li, .breadcrumb-inner-casino .new-game-tab ul li{
     width: auto;
   }
