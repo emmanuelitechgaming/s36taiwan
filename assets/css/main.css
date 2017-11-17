@@ -8031,9 +8031,10 @@ margin-right: 23px;
 .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a{
   background: none;
   background-position: bottom;
+  border-bottom: 2px solid #343434
 }
 .nav.navbar-nav.navbar-nav-afterlogin.hidden-md.hidden-lg.ipad-landscape a::after{
-  content: '';
+  content: none;
   display: block;
   width: 100%;
   height: 2px;
