@@ -9640,6 +9640,16 @@ span.add-ico{
    margin-right: 10px;
    opacity: 0;
 }
+.footer-dropdown .dropdown-menu i::before{
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('../img/check-thin.png') no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 5px
+}
  .footer-dropdown .dropdown-menu .check i{
    opacity: 1
 }
@@ -9700,6 +9710,16 @@ span.add-ico{
 }
 .m-footer-dropdown ul li.check .fa{
   opacity: 1
+}
+.m-footer-dropdown ul li i::before{
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: url('../img/check-thin.png') no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 5px
 }
 .m-footer-dropdown .dropdown-menu>li>a{
   padding: 5px 10px;
@@ -11936,7 +11956,7 @@ h5.title-inside{
 .mobile-logo-banner-text .flex-control-nav{
   width: auto;
   bottom: -7px;
-  left: -19px;
+  right: -1.5em;
   text-align: left;
 }
 .mobile-logo-banner-text .flex-control-nav li{
@@ -11957,13 +11977,13 @@ h5.title-inside{
   display: inline-block;
   position: absolute;
   top: 7px;
-  right: 0.5em;
+  left: 0.5em;
   opacity: 1
 }
 .mobile-logo-banner-text .close a{
   display: block;
-  width: 13px;
-  height: 13px;
+  width: 35px;
+  height: 35px;
   background: url('../img/mobile-logo-banner-text-close.png') no-repeat;
   background-size: cover;
 }
@@ -12045,12 +12065,13 @@ h5.title-inside{
 .mobile-logo-banner-text-trigger{
   position: absolute;
   bottom: -4px;
+  left: 10px;
   z-index: 88
 }
 .mobile-logo-banner-text-trigger a{
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   background: url('../img/info-square.png') no-repeat;
   background-size: cover;
   border-radius: 5px
