@@ -7905,6 +7905,12 @@ min-height: 170px;
   .new123b.dl .new123-inner{
     padding: 11px 0
   }
+  .corners-outer {
+    top: -4px;
+    bottom: -4px;
+    left: -4px;
+    right: -4px;
+  }
 }
 
 @media (min-width: 1200px){
