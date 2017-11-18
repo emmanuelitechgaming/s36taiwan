@@ -11291,9 +11291,7 @@ h5.title-inside{
   position: relative;
 }
 .new123b.dl .new123-inner{
-  background: #2a2a2a url('../img/dl/inner-bg.png') no-repeat;
-  background-size: 100% 100%;
-  text-align: center;
+  background: #161616
 }
 .new123-inner::after{
   content: '';
@@ -11377,6 +11375,9 @@ h5.title-inside{
 }
 .new123b .text{
   margin-left: 1px
+}
+.new123b.dl .new123-inner span{
+  display: block;
 }
 .new-counter{
   position: relative;
