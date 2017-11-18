@@ -645,7 +645,14 @@ footer .fsalon {
     padding-top: 10px;
     text-align: center;
 }
-
+footer .fsalon:before{
+  position: absolute;
+display: block;
+content: '';
+border-top: 1px solid #000000;
+width: 100%;
+top: -2px;
+}
 #sagaming {
     text-decoration: none;
     color: inherit;
@@ -9907,7 +9914,7 @@ header #m-selectpicker2-collapse ul li{
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   position: relative;
-  padding: 2px 15px!important;
+  padding: 2px 17px!important;
 }
 .flexslider .title{
   border-bottom: 1px solid #2d2d2d !important
