@@ -2218,11 +2218,19 @@ min-height: 170px;
       padding-right: 0;
       width: 33.333333%
     }
+    .casino-desc-bot .col-xs-6.min-bet{
+      display: block;
+      width: 100%;
+      padding-bottom: 5px
+    }
+    .casino-desc-bot .col-xs-6.min-bet .col-xs-6{
+      margin-top: 3px
+    }
     .casino-desc-bot .min-bet .col-xs-6:last-child{
       display: block
     }
     .casino-desc-bot .min-bet .rmb{
-      display: block
+      display: inline-block;
     }
     .casino-desc-bot .min-bet .col-xs-6{
       width: 50%;
@@ -7904,6 +7912,12 @@ min-height: 170px;
     bottom: -4px;
     left: -4px;
     right: -4px;
+  }
+  .casino-desc-bot .min-bet .rmb{
+    display: block;
+  }
+  .casino-desc-bot .col-xs-6.min-bet{
+    padding-bottom: 0
   }
 }
 
