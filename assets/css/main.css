@@ -11379,6 +11379,12 @@ h5.title-inside{
 .new123b.dl .new123-inner span{
   display: block;
 }
+.new123b.dl .new123-inner .text, .new123b.dl .new123-inner span{
+  line-height: 30px;
+}
+.new123b.dl .new123-inner span{
+  display: inline-block;
+}
 .new-counter{
   position: relative;
 }
