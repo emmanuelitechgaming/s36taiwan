@@ -7919,6 +7919,12 @@ min-height: 170px;
   .casino-desc-bot .col-xs-6.min-bet{
     padding-bottom: 0
   }
+  .new123afterlogin.dl .img{
+    top: 0;
+  }
+  .new123afterlogin.dl .col-md-3:nth-child(3) .img{
+    top: 0;
+  }
 }
 
 @media (min-width: 1200px){
