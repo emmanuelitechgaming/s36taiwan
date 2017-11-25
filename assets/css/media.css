@@ -6851,7 +6851,11 @@ min-height: 170px;
     content: none;
   }
   .helpcenter .tab-pane {
-      padding-right: 30px;
+    padding-right: 30px;
+  }
+  .helpcenter .main-tab-content .tab-pane {
+    padding-right: 0;
+    padding: 15px
   }
   .cs-modal .ctitle h1 {
       padding: .65em 2em;

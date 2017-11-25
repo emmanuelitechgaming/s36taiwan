@@ -160,3 +160,62 @@
   font-size: 18px;
   margin: 10px 0
 }
+
+.helpcenter .main-tab, .helpcenter .main-tab-content{
+  background: #222326;
+  color: #f2f2f2;
+}
+.helpcenter .main-tab{
+  border-bottom: none;
+}
+.helpcenter .main-tab li{
+  float: none;
+  margin-bottom: 0;
+  display: block;
+}
+.helpcenter .main-tab li a{
+  color: #f2f2f2;
+  border-left: 6px solid transparent
+}
+.helpcenter .main-tab li.active{
+  background: #0f0f0f;
+  border-left: 5px solid #fba601
+}
+.helpcenter .nav-tabs.main-tab > li > a:hover, .helpcenter .nav-tabs.main-tab > li > a:active, .helpcenter .nav-tabs.main-tab > li > a:focus{
+  border: 1px solid transparent;
+  border-left: 6px solid transparent;
+  background: #222326;
+  background-color: #222326;
+  color: #f2f2f2
+}
+.helpcenter .nav-tabs.main-tab li.active a{
+  background-color: #0f0f0f;
+  border: 1px transparent solid !important
+}
+.main-tab-content h3{
+  margin: 0;
+  padding: 0 0 10px 0;
+  border-bottom: solid 1px #f2f2f2
+}
+.main-tab-content h4{
+  cursor: pointer;
+}
+.helpcenter25 .main-div{
+  padding-left: 0;
+  padding-right: 0;
+}
+.helpcenter25 .main-div:last-child{
+  padding-left: 10px;
+}
+.helpcenter25 .main-div:last-child .main-tab-content{
+  min-height: 370px;
+}
+.sub-data{
+  padding: 10px 0
+}
+.sub-sub-data h5{
+  color: #fba601;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}

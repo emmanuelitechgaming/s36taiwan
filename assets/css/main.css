@@ -1775,7 +1775,9 @@ color: #ffffff!important;
     background: #EEEEEE !important;
     color: #000;
 }
-
+.helpcenter25{
+  background: none !important
+}
 .tabpanel .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
