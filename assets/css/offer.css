@@ -1,0 +1,51 @@
+.breadcrumb-inner-offers .main-form{
+  padding: 50px 0 0;
+  background: url('../img/promo/form-bg.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 496px;
+  border: 1px solid #414141;
+  border-radius: 5px
+}
+.breadcrumb-inner-offers select{
+  height: 39px;
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 39px;
+  background-repeat: no-repeat;
+  background-position: right;
+  border: solid 1px #111
+}
+.breadcrumb-inner-offers select:active, .breadcrumb-inner-offers select:hover, .breadcrumb-inner-offers select:focus{
+  background: url('../img/select-bg.png'), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#3c3c3c));
+  background: url('../img/select-bg.png'), linear-gradient(#2a2a2a, #3c3c3c);
+  background-size: auto 40px;
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-box-shadow: 0 0 5px #fba601!important;
+          box-shadow: 0 0 5px #fba601!important;
+  border: 1px solid #fba601!important;
+}
+.breadcrumb-inner-offers input{
+  border-bottom: solid 1px #111 !important;
+  height: 39px;
+}
+.breadcrumb-inner-offers .not-select{
+  display: none;
+}
+.breadcrumb-inner-offers .on-select{
+  display: block;
+}
+.main-form button.submit{
+  display: inline-block;
+  width: 91px;
+  height: 32px;
+  background: url('../img/promo/btn-promo.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 5px;
+}
+.timepicker-hour, .timepicker-minute, .hour, .minute{
+  color: #3c3c3c
+}
