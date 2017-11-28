@@ -2380,6 +2380,10 @@ min-height: 170px;
     .casino-desc-bot .min-bet span{
       font-size: 10px;
     }
+    .cta-casino-main .tag.tag-ag{
+      background: url('../img/casino/tag-bg-ag.png') no-repeat;
+      background-size: 100% 100%;
+    }
 }
 
 @media only screen and (min-width: 360px) {
@@ -7928,6 +7932,10 @@ min-height: 170px;
   }
   .new123afterlogin.dl .col-md-3:nth-child(3) .img{
     top: 0;
+  }
+  .cta-casino-main .tag.tag-ag{
+    background: url('../img/casino/tag-bg.png') no-repeat;
+    background-size: 100% 100%;
   }
 }
 
