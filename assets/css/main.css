@@ -12076,10 +12076,11 @@ h5.title-inside{
 }
 .mobile-logo-banner-text-trigger a{
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 22px;
   background: url('../img/info-square.png') no-repeat;
   background-size: cover;
+  background-position: center;
   border-radius: 5px
 }
 .main-section.no-margin{
