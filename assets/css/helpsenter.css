@@ -1,11 +1,12 @@
 header{
   -webkit-box-shadow: none;
           box-shadow: none;
-  background: #1f1f1f !important
+  background: #0f0f0f !important
 }
 header .nav, header .logo, header .language{
   display: inline-block;
-  vertical-align: middle
+  vertical-align: middle;
+
 }
 header .logo{
   position: relative;
@@ -138,10 +139,11 @@ header .navbar-toggle{
   font-size: 16px;
   letter-spacing: 1px
 }
-.tab-pane ul li:hover{
+.tab-pane ul li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+
 .cs-country{
   background: #f9f9f9
 }
@@ -193,4 +195,24 @@ header .navbar-toggle{
   display: inline-block;
   vertical-align: middle;
   float: left;
+}
+
+#box_totop {
+    bottom: 100px;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background: #A20000;
+    position: fixed;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    cursor: pointer;
+    z-index: 99;
+}
+.box_totop_in {
+    right: 20px;
 }
