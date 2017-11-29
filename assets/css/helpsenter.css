@@ -7,6 +7,18 @@ header .nav, header .logo, header .language{
   display: inline-block;
   vertical-align: middle
 }
+header .logo{
+  position: relative;
+}
+header .logo .title{
+  font-family: 'MuseoSans-300',Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-size: 21px;
+  line-height: normal;
+  color: #bebebe;
+  position: absolute;
+  left: 180px;
+  bottom: 3px;
+}
 header .navbar-default, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
   background-color: transparent
 }
