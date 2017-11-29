@@ -6096,6 +6096,27 @@ main .win-lot-top-games {
 #sp-bg-28 {
     background: url('../img/sp/slots/sp-bg-28.jpg')!important;
 }
+#sp-bg-29 {
+    background: url('../img/sp/slots/29.jpg')!important;
+}
+#sp-bg-30 {
+    background: url('../img/sp/slots/isb30.jpg')!important;
+}
+#sp-bg-31 {
+    background: url('../img/sp/slots/isb31.jpg')!important;
+}
+#sp-bg-34 {
+    background: url('../img/sp/slots/isb34.jpg')!important;
+}
+#sp-bg-71 {
+    background: url('../img/sp/slots/isb71.jpg')!important;
+}
+#sp-bg-42 {
+    background: url('../img/sp/slots/isb42.jpg')!important;
+}
+#sp-bg-60 {
+    background: url('../img/sp/slots/isb60.jpg')!important;
+}
 
 .slots-tab-a li {
     display: inline-block;
