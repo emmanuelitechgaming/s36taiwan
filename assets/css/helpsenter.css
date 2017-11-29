@@ -1,0 +1,218 @@
+header{
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #0f0f0f !important
+}
+header .nav, header .logo, header .language{
+  display: inline-block;
+  vertical-align: middle;
+
+}
+header .logo{
+  position: relative;
+}
+header .logo .title{
+  font-family: 'MuseoSans-300',Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-size: 21px;
+  line-height: normal;
+  color: #bebebe;
+  position: absolute;
+  left: 180px;
+  bottom: 3px;
+}
+header .logo .title::before{
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 10px;
+  background: #242526
+}
+header .navbar-default, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color: transparent
+}
+header .navbar-toggle{
+  border: none;
+}
+.language .the-btn{
+  display: block;
+  margin-left: auto;
+  margin-right: -5px;
+  background: url('../img/flags/taiwan-nb.png') no-repeat;
+  position: relative;
+  top: 2px
+}
+.language .the-btn .fa{
+  color: #fff;
+  position: relative;
+}
+#languageHc{
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  top: 55px;
+  background: #333;
+  border: solid 1px #4a4a4a;
+  padding: 10px 20px 0
+}
+#languageHc::before{
+  content: "";
+  width: 20px;
+  height: 10px;
+  background: url('../img/triangle.png') no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -9px;
+  right: 15px;
+  z-index: 10
+}
+#languageHc ul li{
+  float: left;
+  width: 33.33333%;
+  line-height: normal;
+  margin: 15px 0
+}
+#languageHc ul li span{
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 40px
+}
+#languageHc ul li a{
+  display: block;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 12px
+}
+.navbar-toggle .icon-bar {
+  width: 25px;
+  height: 4px;
+}
+.navmenu-default, .navbar-default .navbar-offcanvas{
+  background-color: #2a2a2a;
+  border: none;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.7)
+}
+.navmenu-nav li{
+  display: block;
+  float: none;
+  line-height: normal;
+}
+.navmenu-default .navmenu-nav>li>a, .navbar-default .navbar-offcanvas .navmenu-nav>li>a{
+  color: #bebebe;
+  border-left: 5px solid transparent
+}
+.navmenu-default .navmenu-nav>.active>a, .navbar-default .navbar-offcanvas .navmenu-nav>.active>a, .navmenu-default .navmenu-nav>.active>a:hover, .navbar-default .navbar-offcanvas .navmenu-nav>.active>a:hover, .navmenu-default .navmenu-nav>.active>a:focus, .navbar-default .navbar-offcanvas .navmenu-nav>.active>a:focus{
+  background-color: #000;
+  color: #bebebe;
+  border-left: 5px solid #fba601
+}
+.tab-pane .title{
+  display: block;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: whitesmoke
+}
+.tab-pane .title::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #4c4c4c;
+  position: relative;
+  top: 0.5em
+}
+.tab-pane ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tab-pane ul li{
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  color: whitesmoke;
+  font-size: 16px;
+  letter-spacing: 1px
+}
+.tab-pane ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cs-country{
+  background: #f9f9f9
+}
+.main-col:first-child ul{
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+  color: #bebebe;
+  font-size: 13px
+}
+.main-col:first-child ul li{
+  padding-left: 15px;
+  border-left: solid 4px transparent;
+  height: 33px;
+  line-height: 33px;
+  cursor: pointer;
+}
+.main-col:first-child ul li:hover{
+  background: #1b1b1d;
+}
+.main-col:first-child ul li.active{
+  border-left: 4px solid #fba601
+}
+.language .dropdown-menu{
+  background-color: #2a2a2a;
+  border: solid 1px #4a4a4a;
+  min-width: 135px;
+  left: auto;
+  right: -15px;
+  top: 70%;
+  border-radius: 0
+}
+.language .dropdown-menu>li>a{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  padding: 3px 10px
+}
+.language .dropdown-menu>li{
+  float: none;
+  display: block;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  background-color: inherit;
+  color: #fba601
+}
+.language .dropdown-menu .flag-icon::before{
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+}
+
+#box_totop {
+    bottom: 100px;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background: #A20000;
+    position: fixed;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    cursor: pointer;
+    z-index: 99;
+}
+.box_totop_in {
+    right: 20px;
+}

@@ -1775,7 +1775,9 @@ color: #ffffff!important;
     background: #EEEEEE !important;
     color: #000;
 }
-
+.helpcenter25{
+  background: none !important
+}
 .tabpanel .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
@@ -6094,6 +6096,27 @@ main .win-lot-top-games {
 #sp-bg-28 {
     background: url('../img/sp/slots/sp-bg-28.jpg')!important;
 }
+#sp-bg-29 {
+    background: url('../img/sp/slots/29.jpg')!important;
+}
+#sp-bg-30 {
+    background: url('../img/sp/slots/isb30.jpg')!important;
+}
+#sp-bg-31 {
+    background: url('../img/sp/slots/isb31.jpg')!important;
+}
+#sp-bg-34 {
+    background: url('../img/sp/slots/isb34.jpg')!important;
+}
+#sp-bg-71 {
+    background: url('../img/sp/slots/isb71.jpg')!important;
+}
+#sp-bg-42 {
+    background: url('../img/sp/slots/isb42.jpg')!important;
+}
+#sp-bg-60 {
+    background: url('../img/sp/slots/isb60.jpg')!important;
+}
 
 .slots-tab-a li {
     display: inline-block;
@@ -9761,7 +9784,7 @@ span.add-ico{
   margin-right: 5px;
 }
 header #m-selectpicker2-collapse ul{
-  padding: 10px 20px;
+  padding: 10px
 }
 header #m-selectpicker2-collapse ul li{
   float: none;
@@ -11670,6 +11693,7 @@ h5.title-inside{
   margin-bottom: 0;
 }
 .loading{
+  display: none;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -12068,17 +12092,20 @@ h5.title-inside{
 }
 .mobile-logo-banner-text-trigger{
   position: absolute;
-  bottom: -4px;
+  bottom: -5px;
   left: 10px;
   z-index: 88
 }
 .mobile-logo-banner-text-trigger a{
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 22px;
   background: url('../img/info-square.png') no-repeat;
   background-size: cover;
-  border-radius: 5px
+  background-position: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid #4a4a4a
 }
 .main-section.no-margin{
   margin-top: 0;

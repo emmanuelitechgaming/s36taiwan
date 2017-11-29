@@ -1086,7 +1086,7 @@ $('.one-winner .flexslider').flexslider({
     }else{
       var link = $('.new-game-tab ul li.active a').attr('href');
       $('a[href="#ctab2"]').trigger('click');
-      $(this).html('顯示其他遊戲');
+      $(this).html('顯示更多遊戲');
     }
   })
 
