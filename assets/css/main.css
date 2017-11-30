@@ -816,6 +816,9 @@ div.border:before {
 .breadcrumb-inner-promo, .breadcrumb-inner-casino {
     overflow: unset;
 }
+.breadcrumb-inner-promo-sp{
+  padding-bottom: 15px;
+}
 .winner-breadcrumb-inner{
   margin-bottom: 0;
 }

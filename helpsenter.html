@@ -1319,6 +1319,14 @@
         $('.navmenu-nav a[data-toggle="tab"]').on('show.bs.tab', function (e) {
           $('.navmenu').offcanvas('toggle')
         })
+        $(window).scroll(function() {
+          var h = $(window).scrollTop();
+          if (h > 100) {
+              alert('haha')
+          } else {
+            alert('hehe')
+          }
+        })
       })
     </script>
 
